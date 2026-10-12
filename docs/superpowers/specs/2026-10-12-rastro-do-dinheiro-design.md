@@ -1,6 +1,9 @@
 # Rastro do dinheiro: para onde foi a grana das campanhas dos eleitos · Design
 
 Data: 2026-10-12. O desenho foi aprovado pelo Vitor na conversa, com os ajustes dele já incorporados.
+Revisão 1 (2026-10-12): entram 6 indicadores que saíram de um exercício de "como um candidato desviaria o fundo".
+O desenho original pegava bem a empresa nova e esquisita, mas quase não via a empresa normal com preço inflado
+nem os pagamentos a pessoa física.
 
 ## Objetivo
 
@@ -38,7 +41,7 @@ Começa pelos cargos mais importantes e destaca os mais votados. O trabalho é f
 rastro/
   baixar.py        # baixa os ZIPs (TSE, Receita) para rastro/brutos/ (fora do git), com cache e User-Agent do repo
   eleitos.py       # resultados + candidatos → eleitos.json (cargo, UF, partido, votos, sq_candidato)
-  contas.py        # receitas/despesas dos eleitos → contas/<sq>.json
+  contas.py        # receitas/despesas/extratos de TODOS os candidatos → contas/<sq>.json (eleitos) + base/ (agregados de comparação)
   cnpj.py          # filtra a base CNPJ só para os fornecedores que aparecem → fornecedores.json
   indicadores.py   # regras → indicadores.json (uma função por regra, com nome estável)
   dados/           # JSON derivado, versionado (público, pequeno, sem CPF)
@@ -58,6 +61,12 @@ site/rastro/       # páginas geradas pelo build_site.py
 
 Nas páginas, os mais votados de cada cargo aparecem em destaque.
 
+**Base de comparação: todos os candidatos.** Os não eleitos entram no processamento, mas não ganham página. Sem eles:
+- não existe a curva de preço (`preco_fora_da_curva`, `gasto_por_voto`);
+- não aparece a candidata de votação ínfima que recebeu repasse do eleito (`transferencia_candidato`).
+
+Um não eleito só aparece no site **como contraparte de um indicador de um eleito**, com nome e valor.
+
 ## Indicadores
 
 Cada indicador é uma função pura com nome estável e teste. Na página ele aparece como "<nome>: <fato>", seguido da fonte.
@@ -72,6 +81,15 @@ Cada indicador é uma função pura com nome estável e teste. Na página ele ap
 | `multicampanha` | o mesmo CNPJ recebeu de N ou mais campanhas (N está em configuração) |
 | `situacao_irregular` | a situação cadastral na Receita é baixada, inapta, suspensa ou nula |
 | `concentracao` | um fornecedor recebeu mais que X% do gasto total da campanha (X está em configuração) |
+| `preco_fora_da_curva` | o valor pago num tipo de gasto (impressão, combustível, locação, produção de vídeo…) está acima do percentil 95 das campanhas do mesmo cargo e UF, proporcional ao eleitorado da UF |
+| `gasto_por_voto` | o custo por voto do eleito está acima do percentil 95 do cargo/UF |
+| `pessoal_pf` | pagamentos a pessoa física fora do padrão: muitos CPFs, os mesmos CPFs pagos por várias campanhas, valores redondos e altos. **O site mostra só a contagem e o total, nunca nome ou CPF de pessoa física paga** |
+| `saque_especie` | saque ou pagamento em espécie no extrato bancário da campanha (pacote "Extratos Bancários de Candidatos") |
+| `transferencia_candidato` | o eleito repassou dinheiro para outro candidato que gastou com os mesmos fornecedores dele. O destaque vai para quem recebeu o repasse e teve votação ínfima, por exemplo candidaturas da cota de gênero |
+| `pagamento_tardio` | pagamento depois do dia da eleição (2026-10-04) ou mais de X% do gasto nos últimos 7 dias antes dela |
+
+Os percentis e limiares ficam em configuração (`rastro/config.json`), com o valor usado escrito na página.
+O CPF de pessoa física é usado **só dentro do processamento**, para contar e casar. Ele não sai em nenhum JSON versionado: o agregado leva só a contagem e um hash com sal local, que não vai para o git.
 
 **Limite declarado no site:**
 - parentesco e amizade não estão em nenhuma base pública;
@@ -90,12 +108,14 @@ Cada indicador é uma função pura com nome estável e teste. Na página ele ap
 1. **Eleitos 2026:** `baixar.py` + `eleitos.py` → `rastro/dados/eleitos.json`.
 2. **Contas dos eleitos:** `contas.py` → `rastro/dados/contas/<sq>.json` (receitas por origem, despesas por fornecedor).
 3. **Base CNPJ filtrada:** `cnpj.py` → `fornecedores.json`, só com os CNPJs que aparecem nas despesas.
-4. **Indicadores 1 a 4:** `mei_acima_teto`, `empresa_recem_aberta`, `atividade_incompativel`, `socio_doador`.
-5. **Indicadores 5 a 8:** `socio_ligado` (só candidato e sobrenome), `multicampanha`, `situacao_irregular`, `concentracao`.
-6. **Página por eleito** + metodologia.
-7. **Página por fornecedor** + home da aba.
-8. **Contas finais:** rodar tudo de novo com a base final do TSE, mais presidente e governadores do 2º turno.
-9. **`socio_ligado` com nomeações:** bases de servidores federais e secretários parlamentares.
+4. **Indicadores da Receita, parte 1:** `mei_acima_teto`, `empresa_recem_aberta`, `atividade_incompativel`, `socio_doador`.
+5. **Indicadores da Receita, parte 2:** `socio_ligado` (só candidato e sobrenome), `multicampanha`, `situacao_irregular`, `concentracao`.
+6. **Indicadores de comparação:** `preco_fora_da_curva`, `gasto_por_voto`, `transferencia_candidato`.
+7. **Indicadores de pessoal e extrato:** `pessoal_pf`, `saque_especie`, `pagamento_tardio`.
+8. **Página por eleito** + metodologia.
+9. **Página por fornecedor** + home da aba.
+10. **Contas finais:** rodar tudo de novo com a base final do TSE, mais presidente e governadores do 2º turno.
+11. **`socio_ligado` com nomeações:** bases de servidores federais e secretários parlamentares.
 
 ## Gates do Vitor
 
@@ -108,7 +128,8 @@ Cada indicador é uma função pura com nome estável e teste. Na página ele ap
 - Cada script tem teste com fixture pequena (CSV recortado do TSE e da Receita), sem rede.
 - **Teste de LGPD:**
   - **falha** se qualquer arquivo em `rastro/dados/` ou `site/rastro/` tiver um CPF completo (11 dígitos no formato de CPF válido);
-  - **falha** se qualquer um deles tiver o CNPJ de um MEI sem máscara.
+  - **falha** se qualquer um deles tiver o CNPJ de um MEI sem máscara;
+  - **falha** se o nome de uma pessoa física paga (recebedora de despesa) aparecer em `site/rastro/`.
 - **Teste de redação:** **falha** se `site/rastro/` tiver "fraude", "laranja" ou "fictícia".
 - **Teste de isolamento:** `relatorio/relatorio.json`, `historico.json` e os arquivos do ao vivo não mudam.
 
