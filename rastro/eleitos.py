@@ -25,6 +25,8 @@ def montar(dados_dir, ufs):
             d = json.loads((dados_dir / f"{uf}-c{c:04d}.json").read_text(encoding="utf-8"))
             if d.get("tf") != "s":
                 raise SystemExit(f"{uf}-c{c:04d}: apuração ainda não totalizada (tf != 's')")
+            if not d.get("carg") or int(d["carg"][0]["cd"]) != c:
+                raise SystemExit(f"{uf}-c{c:04d}: cargo inesperado no arquivo")
             fonte.append(URL.format(ele=d["ele"], uf=uf, c=c))
             datas.append(datetime.strptime(d["dg"], "%d/%m/%Y").date())
             for agr in d["carg"][0].get("agr", []):

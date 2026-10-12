@@ -80,8 +80,11 @@ class TestContagemReal(unittest.TestCase):
         self.assertEqual(cont["depfed"], 513)
         self.assertEqual(cont["senador"], 54)
         self.assertEqual(cont["depest"] + cont["distrital"], 1059)
-        com_eleito = sum(1 for uf in eleitos.UFS
-                         if '"st" : "Eleito"' in (REAL / f"{uf}-c0003.json").read_text(encoding="utf-8"))
+        def tem_eleito(uf):
+            d = json.loads((REAL / f"{uf}-c0003.json").read_text(encoding="utf-8"))
+            return any(c.get("st") == "Eleito" for a in d["carg"][0]["agr"]
+                       for p in a["par"] for c in p["cand"])
+        com_eleito = sum(1 for uf in eleitos.UFS if tem_eleito(uf))
         self.assertEqual(cont["governador"], com_eleito)
         self.assertTrue(all(isinstance(e["sq"], str) and isinstance(e["votos"], int) for e in out["eleitos"]))
 
