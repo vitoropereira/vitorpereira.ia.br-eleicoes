@@ -1,0 +1,70 @@
+{
+ "ele": "6259",
+ "t": "1",
+ "cdabr": "df",
+ "dg": "04/10/2026",
+ "tf": "s",
+ "carg": [
+  {
+   "cd": "8",
+   "nv": "1",
+   "fed": [
+    {
+     "n": "104",
+     "sg": "UNIÃO/PP"
+    }
+   ],
+   "agr": [
+    {
+     "n": "1",
+     "tp": "c",
+     "par": [
+      {
+       "n": "11",
+       "sg": "PL",
+       "nfed": "104",
+       "cand": [
+        {
+         "n": "10",
+         "sqcand": "2031",
+         "nm": "DIST A",
+         "nmu": "DIST A",
+         "dvt": "Válido",
+         "e": "s",
+         "st": "Eleito por QP",
+         "vap": "150",
+         "vs": [
+          {
+           "tp": "v",
+           "sqcand": "9992031",
+           "nm": "VICE",
+           "nmu": "VICE"
+          }
+         ]
+        },
+        {
+         "n": "10",
+         "sqcand": "2032",
+         "nm": "DIST B",
+         "nmu": "DIST B",
+         "dvt": "Válido",
+         "e": "s",
+         "st": "Eleito por média",
+         "vap": "250",
+         "vs": [
+          {
+           "tp": "v",
+           "sqcand": "9992032",
+           "nm": "VICE",
+           "nmu": "VICE"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

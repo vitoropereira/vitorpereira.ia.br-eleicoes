@@ -1,0 +1,95 @@
+{
+ "ele": "6259",
+ "t": "1",
+ "cdabr": "ac",
+ "dg": "04/10/2026",
+ "tf": "s",
+ "carg": [
+  {
+   "cd": "5",
+   "nv": "2",
+   "fed": [
+    {
+     "n": "104",
+     "sg": "UNIÃO/PP"
+    }
+   ],
+   "agr": [
+    {
+     "n": "1",
+     "tp": "c",
+     "par": [
+      {
+       "n": "11",
+       "sg": "PP",
+       "nfed": "104",
+       "cand": [
+        {
+         "n": "10",
+         "sqcand": "1011",
+         "nm": "SEN A",
+         "nmu": "SEN A",
+         "dvt": "Válido",
+         "e": "s",
+         "st": "Eleito",
+         "vap": "900",
+         "vs": [
+          {
+           "tp": "v",
+           "sqcand": "9991011",
+           "nm": "VICE",
+           "nmu": "VICE"
+          }
+         ]
+        },
+        {
+         "n": "10",
+         "sqcand": "1012",
+         "nm": "SEN NAO",
+         "nmu": "SEN NAO",
+         "dvt": "Válido",
+         "e": "n",
+         "st": "Não eleito",
+         "vap": "100",
+         "vs": [
+          {
+           "tp": "v",
+           "sqcand": "9991012",
+           "nm": "VICE",
+           "nmu": "VICE"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "n": "11",
+       "sg": "MDB",
+       "nfed": "104",
+       "cand": [
+        {
+         "n": "10",
+         "sqcand": "1013",
+         "nm": "SEN B",
+         "nmu": "SEN B",
+         "dvt": "Válido",
+         "e": "s",
+         "st": "Eleito",
+         "vap": "950",
+         "vs": [
+          {
+           "tp": "v",
+           "sqcand": "9991013",
+           "nm": "VICE",
+           "nmu": "VICE"
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
