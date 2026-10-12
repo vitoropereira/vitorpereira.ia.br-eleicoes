@@ -4,6 +4,8 @@ Data: 2026-10-12. O desenho foi aprovado pelo Vitor na conversa, com os ajustes 
 Revisão 1 (2026-10-12): entram 6 indicadores que saíram de um exercício de "como um candidato desviaria o fundo".
 O desenho original pegava bem a empresa nova e esquisita, mas quase não via a empresa normal com preço inflado
 nem os pagamentos a pessoa física.
+Revisão 2 (2026-10-12): entram mais 3 indicadores (sobras, nota fiscal, endereço), o bloco de contestação, a publicação em
+lotes diários e a etapa 12 (eleições anteriores).
 
 ## Objetivo
 
@@ -29,7 +31,9 @@ Começa pelos cargos mais importantes e destaca os mais votados. O trabalho é f
   - Pacotes confirmados em 2026-10-12: `resultados-2026`, `candidatos-2026`, `prestacao-de-contas-eleitorais-2026`.
 - **Dados parciais por enquanto.** A prestação de contas é parcial: base de 2026-08-18, documentos fiscais de 2026-09-22.
   - Toda página mostra a data da base usada.
-  - Quando saírem as contas finais, entra a etapa de atualização (etapa 8).
+  - Quando saírem as contas finais, entra a etapa de atualização (etapa 10).
+  - Os prazos de entrega das contas finais são **3/11** para o 1º turno e **14/11** para quem foi ao 2º
+    [VERIFICADO: TRE-SP, notícia de out/2026].
 - **Stack do repo:** Python 3 só com a biblioteca padrão, site estático gerado e `brand.css` como única fonte de cores e fontes. Sem tabelas no Supabase.
 - **Não encosta no ao vivo do 2º turno (25/10).**
   - Nenhum arquivo do painel ao vivo, do HUD ou do agregador muda.
@@ -86,6 +90,9 @@ Cada indicador é uma função pura com nome estável e teste. Na página ele ap
 | `pessoal_pf` | pagamentos a pessoa física fora do padrão: muitos CPFs, os mesmos CPFs pagos por várias campanhas, valores redondos e altos. **O site mostra só a contagem e o total, nunca nome ou CPF de pessoa física paga** |
 | `saque_especie` | saque ou pagamento em espécie no extrato bancário da campanha (pacote "Extratos Bancários de Candidatos") |
 | `transferencia_candidato` | o eleito repassou dinheiro para outro candidato que gastou com os mesmos fornecedores dele. O destaque vai para quem recebeu o repasse e teve votação ínfima, por exemplo candidaturas da cota de gênero |
+| `sobra_sem_destino` | o que entrou menos o que saiu dá saldo positivo, e não há devolução registrada ao Tesouro (sobra de FEFC) nem à conta do partido (Fundo Partidário e outros recursos). **Só com as contas finais** (etapa 10) |
+| `nota_fiscal_suspeita` | o fornecedor emitiu para a campanha notas com numeração sequencial (sinal de que ela é o único cliente), ou a nota tem data anterior à abertura do CNPJ ou posterior à eleição. Fonte: pacote "Documentos fiscais de despesa" |
+| `endereco_compartilhado` | dois ou mais fornecedores da mesma campanha têm o mesmo endereço na Receita. O endereço do candidato não é público, então não entra |
 | `pagamento_tardio` | pagamento depois do dia da eleição (2026-10-04) ou mais de X% do gasto nos últimos 7 dias antes dela |
 
 Os percentis e limiares ficam em configuração (`rastro/config.json`), com o valor usado escrito na página.
@@ -102,6 +109,23 @@ O CPF de pessoa física é usado **só dentro do processamento**, para contar e 
 - `/rastro/<cargo>/<uf>/<slug-eleito>/`: receitas por origem, despesas por fornecedor e os indicadores disparados.
 - `/rastro/fornecedor/<id>/`: campanhas que pagaram, dados da Receita e indicadores. O `<id>` é o CNPJ para empresa e um hash para MEI.
 - Toda página tem a data da base, a metodologia (link para `/rastro/metodologia/`) e o aviso de que indicador não é prova.
+- **Contestar este dado.** Toda página tem um bloco com o e-mail de contato.
+  - Uma correção aceita fica registrada na própria página, com a data e o que mudou.
+  - O registro vem de `rastro/correcoes.json`, que é versionado e entra pelo PR.
+
+## Publicação em lotes
+
+**O processamento e os indicadores rodam para todos os candidatos.** É um lote só, e a curva de comparação depende disso.
+
+**O que é gradual é a página detalhada**, porque a revisão humana (falso positivo, homônimo, contexto) é o custo real.
+
+- **Prioridade:** cargo (governador > senador > deputado federal > deputado estadual/distrital), depois votos e depois o número de indicadores disparados. A ordem fica em `rastro/fila.json`.
+- **Lote 1:** os 20 primeiros da fila. Ele serve para calibrar limiares e redação antes de escalar.
+- **Lotes seguintes:**
+  - um cron diário gera as páginas dos próximos N da fila, com N em `rastro/config.json` e padrão de 10 a 15;
+  - cada lote abre **um PR**, e o merge do Vitor é a publicação;
+  - os crons param entre 23 e 26/10.
+- **Eleito sem lote publicado:** aparece na home só como linha da tabela (nome, cargo, gasto total, número de indicadores), sem página.
 
 ## Etapas (uma issue cada, com label `agente`)
 
@@ -113,9 +137,12 @@ O CPF de pessoa física é usado **só dentro do processamento**, para contar e 
 6. **Indicadores de comparação:** `preco_fora_da_curva`, `gasto_por_voto`, `transferencia_candidato`.
 7. **Indicadores de pessoal e extrato:** `pessoal_pf`, `saque_especie`, `pagamento_tardio`.
 8. **Página por eleito** + metodologia.
-9. **Página por fornecedor** + home da aba.
-10. **Contas finais:** rodar tudo de novo com a base final do TSE, mais presidente e governadores do 2º turno.
+9. **Página por fornecedor** + home da aba + contestação, com o lote 1 publicado.
+9b. **Cron de lotes:** a fila mais o PR diário com os próximos N.
+10. **Contas finais** (depois de 3/11): rodar tudo de novo com a base final do TSE, mais `sobra_sem_destino` e `nota_fiscal_suspeita`
+    com os documentos finais. Presidente e governadores do 2º turno entram depois de 14/11.
 11. **`socio_ligado` com nomeações:** bases de servidores federais e secretários parlamentares.
+12. **Eleições anteriores (2022/2024):** fornecedor que recebe de campanhas em todas as eleições. Usa os mesmos pacotes do TSE de outros anos.
 
 ## Gates do Vitor
 
@@ -137,4 +164,4 @@ O CPF de pessoa física é usado **só dentro do processamento**, para contar e 
 
 - Score ou ranking de "suspeição".
 - Acusação ou conclusão editorial.
-- Dados de anos anteriores.
+- Verificar automaticamente se o serviço foi prestado (fotos, contratos). Fica para a contestação e a apuração manual.
