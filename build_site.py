@@ -280,6 +280,7 @@ VERCEL = {
                 # módulos ES sem hash no nome: sempre revalidar, senão um deploy mistura versões
                 {"source": "/hud/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}]},
                 {"source": "/analise/js/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}]},
+                {"source": "/analise/codigo/(.*)\\.(py|json|md)", "headers": [{"key": "Content-Type", "value": "text/plain; charset=utf-8"}]},
                 {"source": "/analise/dados/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}]},
                 {"source": "/vivo/(.*)", "headers": [{"key": "Cache-Control", "value": "public, s-maxage=15, stale-while-revalidate=30"}]}]}
 
@@ -405,6 +406,26 @@ def copiar_analise(dest):
     shutil.copytree(R / "analise" / "js", dest / "analise" / "js", dirs_exist_ok=True, ignore=shutil.ignore_patterns("*_test.js"))
     if ANALISE_DADOS.is_dir():
         shutil.copytree(ANALISE_DADOS, dest / "analise" / "dados", dirs_exist_ok=True)
+
+
+CODIGO_ANALISE = ["analise/calcular.py", "analise/inferencia.py", "municipios/montar.py",  # montar.py: calcular.py importa `nome` dele
+                  "analise/lados-2022.json", "analise/lados-2026.json", "analise/lados-README.md", "analise/fontes/cenarios.json"]
+
+
+def copiar_codigo_analise(dest):
+    """Código do cálculo → /analise/codigo/ (cópia das fontes, com a mesma estrutura) + index.html com a lista"""
+    base = dest / "analise" / "codigo"
+    for rel in CODIGO_ANALISE:
+        (base / rel).parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy(R / rel, base / rel)
+    itens = "".join(f'<li><a href="{rel}">{rel}</a></li>' for rel in CODIGO_ANALISE)
+    (base / "index.html").write_text(
+        '<!doctype html>\n<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
+        '<title>Código do cálculo | Análise · Eleições 2026</title>'
+        f'<style>{brand.CSS}body{{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--font-sans)}}main{{max-width:640px;margin:0 auto;padding:48px 16px}}</style>'
+        '</head><body><main id="conteudo"><p class="kicker">Análise · cálculo aberto</p><h1>Código do cálculo</h1>'
+        '<p>Código do cálculo das estimativas da Análise, em texto puro.</p>'
+        f'<ul>{itens}</ul><p><a href="/analise/">← Voltar à análise</a></p></main></body></html>')
 
 
 def ld_analise(dados, publicado=None, modificado=None):
@@ -670,7 +691,7 @@ def main():
 
     # ---- análise (/analise/): o texto e os números do Brasil saem do pré-render; dados em /analise/dados/
     dados_an = analise_dados()
-    copiar_analise(BUILD); copiar_analise(OUT)
+    copiar_analise(BUILD); copiar_analise(OUT); copiar_codigo_analise(OUT)
     (BUILD / "analise").mkdir(exist_ok=True)
     (BUILD / "analise" / "index.html").write_text(html_analise(dados_an, ANALISE_GERADA, ANALISE_GERADA))
     paginas.append(("/analise/", ANALISE_GERADA, "0.9"))

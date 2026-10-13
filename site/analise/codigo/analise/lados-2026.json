@@ -1,0 +1,526 @@
+{
+ "posicao_em": "08/10/2026",
+ "eleicao": "2º turno presidencial 2026: Lula (PT) x Flávio Bolsonaro (PL)",
+ "legenda": {
+  "L": "apoia Lula",
+  "F": "apoia Flávio Bolsonaro",
+  "C": "sem lado declarado / neutro / liberou"
+ },
+ "partidos": {
+  "PL": {
+   "lado": "F",
+   "uf": {},
+   "provas": [
+    {
+     "tipo": "imprensa",
+     "url": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/10/8/lula-x-flavio-bolsonaro-veja-quais-partidos-ja-declararam-apoio-no-segundo-turno",
+     "data": "08/10/2026",
+     "titulo": "Lula x Flávio Bolsonaro: veja quais partidos já declararam apoio no segundo turno (O Tempo)",
+     "trecho": "Luiz Inácio Lula da Silva (PT) e de Flávio Bolsonaro (PL)"
+    },
+    {
+     "tipo": "coligacao",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-o-unico-candidato-a-presidencia-apoiado-por-outros-partidos/",
+     "data": "05/08/2026",
+     "titulo": "Lula é o único candidato à Presidência apoiado por outros partidos (Poder360)",
+     "trecho": "as outras 11 chapas na disputa pelo Planalto são formadas por integrantes do mesmo partido"
+    }
+   ],
+   "obs": "Partido do candidato Flávio Bolsonaro; chapa puro-sangue (vice Alfredo Gaspar, PL) no 1º turno."
+  },
+  "PT": {
+   "lado": "L",
+   "uf": {},
+   "provas": [
+    {
+     "tipo": "imprensa",
+     "url": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/10/8/lula-x-flavio-bolsonaro-veja-quais-partidos-ja-declararam-apoio-no-segundo-turno",
+     "data": "08/10/2026",
+     "titulo": "Lula x Flávio Bolsonaro: veja quais partidos já declararam apoio no segundo turno (O Tempo)",
+     "trecho": "Luiz Inácio Lula da Silva (PT) e de Flávio Bolsonaro (PL)"
+    },
+    {
+     "tipo": "coligacao",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-o-unico-candidato-a-presidencia-apoiado-por-outros-partidos/",
+     "data": "05/08/2026",
+     "titulo": "Lula é o único candidato à Presidência apoiado por outros partidos (Poder360)",
+     "trecho": "a Federação Brasil da Esperança (PT, PC do B e PV)"
+    }
+   ],
+   "obs": "Partido do candidato Lula; Federação Brasil da Esperança (FE BRASIL)."
+  },
+  "PCDOB": {
+   "lado": "L",
+   "uf": {},
+   "provas": [
+    {
+     "tipo": "coligacao",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-o-unico-candidato-a-presidencia-apoiado-por-outros-partidos/",
+     "data": "05/08/2026",
+     "titulo": "Lula é o único candidato à Presidência apoiado por outros partidos (Poder360)",
+     "trecho": "a Federação Brasil da Esperança (PT, PC do B e PV)"
+    },
+    {
+     "tipo": "imprensa",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/psdb-mantem-neutralidade-no-2o-turno/",
+     "data": "08/10/2026",
+     "titulo": "PSDB mantém neutralidade no 2º turno (Poder360)",
+     "trecho": "Lula mantém os apoios do 1º turno: PC do B, Partido Verde, PSB"
+    }
+   ],
+   "obs": "Federação Brasil da Esperança; coligação de Lula no 1º turno."
+  },
+  "PV": {
+   "lado": "L",
+   "uf": {},
+   "provas": [
+    {
+     "tipo": "coligacao",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-o-unico-candidato-a-presidencia-apoiado-por-outros-partidos/",
+     "data": "05/08/2026",
+     "titulo": "Lula é o único candidato à Presidência apoiado por outros partidos (Poder360)",
+     "trecho": "a Federação Brasil da Esperança (PT, PC do B e PV)"
+    },
+    {
+     "tipo": "imprensa",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/psdb-mantem-neutralidade-no-2o-turno/",
+     "data": "08/10/2026",
+     "titulo": "PSDB mantém neutralidade no 2º turno (Poder360)",
+     "trecho": "Lula mantém os apoios do 1º turno: PC do B, Partido Verde, PSB"
+    }
+   ],
+   "obs": "Federação Brasil da Esperança; coligação de Lula no 1º turno."
+  },
+  "PSB": {
+   "lado": "L",
+   "uf": {},
+   "provas": [
+    {
+     "tipo": "coligacao",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-o-unico-candidato-a-presidencia-apoiado-por-outros-partidos/",
+     "data": "05/08/2026",
+     "titulo": "Lula é o único candidato à Presidência apoiado por outros partidos (Poder360)",
+     "trecho": "O petista tem como vice, mais uma vez, Geraldo Alckmin (PSB)"
+    },
+    {
+     "tipo": "imprensa",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/psdb-mantem-neutralidade-no-2o-turno/",
+     "data": "08/10/2026",
+     "titulo": "PSDB mantém neutralidade no 2º turno (Poder360)",
+     "trecho": "Lula mantém os apoios do 1º turno: PC do B, Partido Verde, PSB"
+    }
+   ],
+   "obs": "Partido do vice Geraldo Alckmin; coligação de Lula no 1º turno."
+  },
+  "PDT": {
+   "lado": "L",
+   "uf": {},
+   "provas": [
+    {
+     "tipo": "coligacao",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-o-unico-candidato-a-presidencia-apoiado-por-outros-partidos/",
+     "data": "05/08/2026",
+     "titulo": "Lula é o único candidato à Presidência apoiado por outros partidos (Poder360)",
+     "trecho": "a Federação Psol-Rede e o PDT fecharam uma coligação eleitoral formal"
+    },
+    {
+     "tipo": "imprensa",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/psdb-mantem-neutralidade-no-2o-turno/",
+     "data": "08/10/2026",
+     "titulo": "PSDB mantém neutralidade no 2º turno (Poder360)",
+     "trecho": "Partido Verde, PSB, PDT, Psol e Rede"
+    }
+   ],
+   "obs": "Coligação de Lula no 1º turno."
+  },
+  "PSOL": {
+   "lado": "L",
+   "uf": {},
+   "provas": [
+    {
+     "tipo": "coligacao",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-o-unico-candidato-a-presidencia-apoiado-por-outros-partidos/",
+     "data": "05/08/2026",
+     "titulo": "Lula é o único candidato à Presidência apoiado por outros partidos (Poder360)",
+     "trecho": "a Federação Psol-Rede e o PDT fecharam uma coligação eleitoral formal"
+    },
+    {
+     "tipo": "imprensa",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/psdb-mantem-neutralidade-no-2o-turno/",
+     "data": "08/10/2026",
+     "titulo": "PSDB mantém neutralidade no 2º turno (Poder360)",
+     "trecho": "Partido Verde, PSB, PDT, Psol e Rede"
+    }
+   ],
+   "obs": "Federação PSOL REDE; coligação de Lula no 1º turno."
+  },
+  "REDE": {
+   "lado": "L",
+   "uf": {},
+   "provas": [
+    {
+     "tipo": "coligacao",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-o-unico-candidato-a-presidencia-apoiado-por-outros-partidos/",
+     "data": "05/08/2026",
+     "titulo": "Lula é o único candidato à Presidência apoiado por outros partidos (Poder360)",
+     "trecho": "a Federação Psol-Rede e o PDT fecharam uma coligação eleitoral formal"
+    },
+    {
+     "tipo": "imprensa",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/psdb-mantem-neutralidade-no-2o-turno/",
+     "data": "08/10/2026",
+     "titulo": "PSDB mantém neutralidade no 2º turno (Poder360)",
+     "trecho": "Partido Verde, PSB, PDT, Psol e Rede"
+    }
+   ],
+   "obs": "Federação PSOL REDE; coligação de Lula no 1º turno."
+  },
+  "UNIÃO": {
+   "lado": "F",
+   "uf": {},
+   "provas": [
+    {
+     "tipo": "nota",
+     "url": "https://www.congressoemfoco.com.br/noticia/123048/pp-e-uniao-brasil-declaram-apoio-a-flavio-no-segundo-turno",
+     "data": "06/10/2026",
+     "titulo": "PP e União Brasil declaram apoio a Flávio no segundo turno (Congresso em Foco)",
+     "trecho": "declararam apoio unânime à candidatura de Flávio Bolsonaro (PL) à presidência da República"
+    },
+    {
+     "tipo": "imprensa",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/psdb-mantem-neutralidade-no-2o-turno/",
+     "data": "08/10/2026",
+     "titulo": "PSDB mantém neutralidade no 2º turno (Poder360)",
+     "trecho": "o Podemos, União Brasil e Progressistas vão apoiar Flávio no 2º turno"
+    }
+   ],
+   "obs": "Federação União Progressista (UNIÃO + PP), nota de Antonio Rueda e Ciro Nogueira em 06/10. Neutra no 1º turno."
+  },
+  "PP": {
+   "lado": "F",
+   "uf": {},
+   "provas": [
+    {
+     "tipo": "nota",
+     "url": "https://www.congressoemfoco.com.br/noticia/123048/pp-e-uniao-brasil-declaram-apoio-a-flavio-no-segundo-turno",
+     "data": "06/10/2026",
+     "titulo": "PP e União Brasil declaram apoio a Flávio no segundo turno (Congresso em Foco)",
+     "trecho": "declararam apoio unânime à candidatura de Flávio Bolsonaro (PL) à presidência da República"
+    },
+    {
+     "tipo": "imprensa",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/psdb-mantem-neutralidade-no-2o-turno/",
+     "data": "08/10/2026",
+     "titulo": "PSDB mantém neutralidade no 2º turno (Poder360)",
+     "trecho": "o Podemos, União Brasil e Progressistas vão apoiar Flávio no 2º turno"
+    }
+   ],
+   "obs": "Federação União Progressista (UNIÃO + PP), nota de Antonio Rueda e Ciro Nogueira em 06/10. Neutro no 1º turno."
+  },
+  "REPUBLICANOS": {
+   "lado": "F",
+   "uf": {
+    "PB": "L"
+   },
+   "provas": [
+    {
+     "tipo": "nota",
+     "url": "https://republicanos10.org.br/noticia/republicanos-apoio-flavio-bolsonaro-segundo-turno-2026",
+     "data": "07/10/2026",
+     "titulo": "Marcos Pereira anuncia apoio do Republicanos a Flávio Bolsonaro no 2º turno contra Lula (site oficial do Republicanos)",
+     "trecho": "Marcos Pereira anuncia apoio do Republicanos a Flávio Bolsonaro no 2º turno contra Lula"
+    },
+    {
+     "tipo": "imprensa",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/republicanos-confirma-apoio-a-flavio-bolsonaro-no-2o-turno-das-eleicoes/",
+     "data": "07/10/2026",
+     "titulo": "Republicanos confirma apoio a Flávio Bolsonaro no 2º turno das eleições (CNN Brasil)",
+     "trecho": "O Republicanos anunciou nesta quarta-feira (7) apoio ao senador Flávio Bolsonaro (PL-RJ)"
+    },
+    {
+     "tipo": "declaracao",
+     "url": "https://sbtnews.sbt.com.br/noticia/politica/pai-de-hugo-motta-declara-apoio-a-reeleicao-de-lula-na-paraiba",
+     "data": "10/04/2026",
+     "titulo": "Pai de Hugo Motta declara apoio à reeleição de Lula na Paraíba (SBT News)",
+     "trecho": "O nosso palanque é o palanque do presidente Lula, o palanque de Lucas",
+     "uf": "PB"
+    },
+    {
+     "tipo": "declaracao",
+     "url": "https://www.congressoemfoco.com.br/noticia/121149/republicanos-da-paraiba-apoiara-reeleicao-de-lula--diz-hugo-motta",
+     "data": "10/08/2026",
+     "titulo": "Republicanos da Paraíba apoiará reeleição de Lula, diz Hugo Motta (Congresso em Foco)",
+     "trecho": "A tendência nossa, aqui na Paraíba, é que caminhemos com o presidente Lula",
+     "uf": "PB"
+    }
+   ],
+   "obs": "Lado nacional F pela nota de 07/10. PB: Nabor Wanderley, ao assumir a presidência estadual do Republicanos (10/04), e Hugo Motta (10/08) declararam apoio à reeleição de Lula; sem declaração posterior em contrário encontrada. As duas provas são anteriores ao 1º turno. PE sem declaração do diretório encontrada, fica com o lado nacional."
+  },
+  "NOVO": {
+   "lado": "F",
+   "uf": {},
+   "provas": [
+    {
+     "tipo": "nota",
+     "url": "https://www.cartacapital.com.br/politica/apos-receber-apenas-40-mil-votos-candidata-do-dc-anuncia-apoio-a-flavio-bolsonaro-no-2o-turno/",
+     "data": "07/10/2026",
+     "titulo": "Após receber apenas 40 mil votos, candidata do DC anuncia apoio a Flávio Bolsonaro (CartaCapital)",
+     "trecho": "Nós do Partido Novo não vamos nos omitir: apoiamos Flávio Bolsonaro para presidente do Brasil"
+    },
+    {
+     "tipo": "imprensa",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/psdb-mantem-neutralidade-no-2o-turno/",
+     "data": "08/10/2026",
+     "titulo": "PSDB mantém neutralidade no 2º turno (Poder360)",
+     "trecho": "Já o Republicanos, o Novo, o Podemos"
+    }
+   ],
+   "obs": "Comunicado do partido (07/10). Zema, candidato do Novo, declarou apoio em 05/10."
+  },
+  "PODE": {
+   "lado": "F",
+   "uf": {},
+   "provas": [
+    {
+     "tipo": "declaracao",
+     "url": "https://www.correiobraziliense.com.br/politica/2026/10/7517077-podemos-declara-apoio-a-flavio-bolsonaro-no-segundo-turno.html",
+     "data": "08/10/2026",
+     "titulo": "Podemos declara apoio a Flávio Bolsonaro no segundo turno (Correio Braziliense)",
+     "trecho": "Presidente nacional da legenda, Renata Abreu anunciou a aliança nesta quinta-feira (8/10)"
+    },
+    {
+     "tipo": "imprensa",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/psdb-mantem-neutralidade-no-2o-turno/",
+     "data": "08/10/2026",
+     "titulo": "PSDB mantém neutralidade no 2º turno (Poder360)",
+     "trecho": "o Podemos, União Brasil e Progressistas vão apoiar Flávio no 2º turno"
+    }
+   ],
+   "obs": "Neutro no 1º turno; Renata Abreu (presidente nacional) anunciou apoio em 08/10."
+  },
+  "PSD": {
+   "lado": "C",
+   "uf": {},
+   "provas": [
+    {
+     "tipo": "nota",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/renan-descarta-apoio-no-2o-turno-psd-de-caiado-libera-bases-estaduais",
+     "data": "05/10/2026",
+     "titulo": "Renan descarta apoio no 2º turno; PSD de Caiado libera bases estaduais (Agência Brasil)",
+     "trecho": "cada diretório estadual, parlamentar, liderança partidária, filiados e militantes terão liberdade"
+    },
+    {
+     "tipo": "imprensa",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/psdb-mantem-neutralidade-no-2o-turno/",
+     "data": "08/10/2026",
+     "titulo": "PSDB mantém neutralidade no 2º turno (Poder360)",
+     "trecho": "Além do PSDB, o PSD também declarou neutralidade."
+    }
+   ],
+   "obs": "Nota de Gilberto Kassab (04/10): neutralidade e diretórios livres. Ronaldo Caiado (PSD, candidato no 1º turno) apoia Flávio a título pessoal; não muda o lado do partido. SC: sem override. A carta do presidente estadual citada antes não foi encontrada; só há a fala do candidato a governador João Rodrigues (25/09), que não é declaração do diretório. BA: sem override (prova de janeiro, anterior à campanha). RS: bancadas, não o diretório, declararam Flávio em 08/10; não conta como override."
+  },
+  "MDB": {
+   "lado": "C",
+   "uf": {
+    "SP": "F",
+    "MG": "F",
+    "RJ": "F",
+    "PR": "F",
+    "RS": "F",
+    "SC": "F"
+   },
+   "provas": [
+    {
+     "tipo": "imprensa",
+     "url": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/10/8/lula-x-flavio-bolsonaro-veja-quais-partidos-ja-declararam-apoio-no-segundo-turno",
+     "data": "08/10/2026",
+     "titulo": "Lula x Flávio Bolsonaro: veja quais partidos já declararam apoio no segundo turno (O Tempo)",
+     "trecho": "O MDB também liberou seus integrantes para escolher um dos candidatos"
+    },
+    {
+     "tipo": "imprensa",
+     "url": "https://timesbrasil.com.br/brasil/decisao-2026-17-diretorios-do-mdb-acertam-apoio-a-flavio-bolsonaro-no-segundo-turno/",
+     "data": "08/10/2026",
+     "titulo": "Ao menos 17 diretórios do MDB acertam apoio a Flávio Bolsonaro no segundo turno (Times Brasil/CNBC, com Estadão Conteúdo)",
+     "trecho": "Ao menos 17 diretórios regionais do MDB acertaram apoio à candidatura de Flávio Bolsonaro (PL)",
+     "uf": [
+      "SP",
+      "MG",
+      "RJ",
+      "PR",
+      "RS",
+      "SC"
+     ]
+    }
+   ],
+   "obs": "Sem apoio nacional no 1º turno. Em 08/10, 17 diretórios estaduais acertaram apoio a Flávio (coligações em formação), com ato formal previsto para 13/10; só 6 foram nomeados pela imprensa (SP, MG, RJ, PR, RS, SC), e só esses entram como override. Diretórios de AL e PA, alinhados a Lula, sem declaração pró-Lula encontrada. Revisar depois do ato de 13/10."
+  },
+  "PSDB": {
+   "lado": "C",
+   "uf": {},
+   "provas": [
+    {
+     "tipo": "nota",
+     "url": "https://www.poder360.com.br/poder-eleicoes-2026/psdb-mantem-neutralidade-no-2o-turno/",
+     "data": "08/10/2026",
+     "titulo": "PSDB mantém neutralidade no 2º turno (Poder360)",
+     "trecho": "pela liberação dos seus membros para se manifestarem da forma que considerarem mais adequada"
+    }
+   ],
+   "obs": "Nota de Aécio Neves (08/10): liberação. Federação PSDB CIDADANIA. RS: sem override; a nota do diretório estadual com apoio a Flávio não foi encontrada em 08/10."
+  },
+  "CIDADANIA": {
+   "lado": "C",
+   "uf": {},
+   "provas": [],
+   "obs": "Federação PSDB CIDADANIA, que liberou os membros no 2º turno. Sem declaração própria do Cidadania encontrada."
+  },
+  "SOLIDARIEDADE": {
+   "lado": "C",
+   "uf": {},
+   "provas": [],
+   "obs": "Federação Renovação Solidária (PRD + SOLIDARIEDADE). Sem declaração nacional de apoio encontrada até 08/10."
+  },
+  "PRD": {
+   "lado": "C",
+   "uf": {},
+   "provas": [],
+   "obs": "Federação Renovação Solidária (PRD + SOLIDARIEDADE). Sem declaração nacional de apoio encontrada até 08/10."
+  },
+  "AVANTE": {
+   "lado": "C",
+   "uf": {},
+   "provas": [],
+   "obs": "Augusto Cury (Avante, candidato no 1º turno) declarou apoio pessoal a Flávio em 08/10; sem nota do partido nem declaração do presidente nacional (Luis Tibé) encontrada."
+  },
+  "DC": {
+   "lado": "C",
+   "uf": {},
+   "provas": [],
+   "obs": "Clariana Barão (DC, candidata no 1º turno) declarou apoio pessoal a Flávio em 07/10; sem nota do partido encontrada."
+  },
+  "MISSÃO": {
+   "lado": "C",
+   "uf": {},
+   "provas": [
+    {
+     "tipo": "imprensa",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/veja-os-partidos-que-declararam-apoio-a-flavio-bolsonaro-e-a-lula/",
+     "data": "08/10/2026",
+     "titulo": "Veja os partidos que declararam apoio a Flávio Bolsonaro e a Lula (CNN Brasil)",
+     "trecho": "Renan Santos, presidente do partido Missão e quarto colocado na disputa presidencial"
+    }
+   ],
+   "obs": "Renan Santos, presidente do partido, não anunciou apoio a nenhum dos dois (CNN, 08/10)."
+  },
+  "DEMOCRATA": {
+   "lado": "C",
+   "uf": {},
+   "provas": [
+    {
+     "tipo": "imprensa",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/veja-os-partidos-que-declararam-apoio-a-flavio-bolsonaro-e-a-lula/",
+     "data": "08/10/2026",
+     "titulo": "Veja os partidos que declararam apoio a Flávio Bolsonaro e a Lula (CNN Brasil)",
+     "trecho": "Wilson Grassi (Democrata), que recebeu 0,01% dos votos"
+    }
+   ],
+   "obs": "Wilson Grassi, candidato do partido, não anunciou decisão (CNN, 08/10)."
+  },
+  "PCO": {
+   "lado": "C",
+   "uf": {},
+   "provas": [
+    {
+     "tipo": "imprensa",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/veja-os-partidos-que-declararam-apoio-a-flavio-bolsonaro-e-a-lula/",
+     "data": "08/10/2026",
+     "titulo": "Veja os partidos que declararam apoio a Flávio Bolsonaro e a Lula (CNN Brasil)",
+     "trecho": "informou que definirá sua posição em uma Conferência Nacional"
+    }
+   ],
+   "obs": "Posição a ser definida em Conferência Nacional (CNN, 08/10). Revisar."
+  },
+  "UP": {
+   "lado": "L",
+   "uf": {},
+   "provas": [
+    {
+     "tipo": "declaracao",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/up-de-samara-martins-declara-apoio-a-lula-no-2o-turno-das-eleicoes/",
+     "data": "08/10/2026",
+     "titulo": "UP, de Samara Martins, declara apoio a Lula no 2º turno das eleições (CNN Brasil)",
+     "trecho": "Bolsonaro nunca mais. Vamos derrotar o fascismo, vote 13 nesse segundo turno"
+    },
+    {
+     "tipo": "imprensa",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/veja-os-partidos-que-declararam-apoio-a-flavio-bolsonaro-e-a-lula/",
+     "data": "08/10/2026",
+     "titulo": "Veja os partidos que declararam apoio a Flávio Bolsonaro e a Lula (CNN Brasil)",
+     "trecho": "O partido UP (Unidade Popular) declarou apoio à reeleição de Lula"
+    }
+   ],
+   "obs": "Declaração do presidente nacional Leonardo Péricles Vieira Roque e de Samara Martins (08/10)."
+  },
+  "PSTU": {
+   "lado": "L",
+   "uf": {},
+   "provas": [
+    {
+     "tipo": "nota",
+     "url": "https://timesbrasil.com.br/eleicoes-2026/pcb-e-pstu-farao-apoio-critico-a-lula-e-ao-pt-no-segundo-turno/",
+     "data": "07/10/2026",
+     "titulo": "PCB e PSTU farão 'apoio crítico' a Lula e ao PT no segundo turno (Times Brasil/CNBC, com Estadão Conteúdo)",
+     "trecho": "contra a volta da família Bolsonaro ao poder, farão \"voto crítico no 13\""
+    },
+    {
+     "tipo": "imprensa",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/veja-os-partidos-que-declararam-apoio-a-flavio-bolsonaro-e-a-lula/",
+     "data": "08/10/2026",
+     "titulo": "Veja os partidos que declararam apoio a Flávio Bolsonaro e a Lula (CNN Brasil)",
+     "trecho": "declarou apoio \"crítico\" a Lula na quarta-feira (7)"
+    }
+   ],
+   "obs": "\"Voto crítico\" em Lula, sem apoio ao governo (Instagram do partido, 07/10)."
+  },
+  "PCB": {
+   "lado": "L",
+   "uf": {},
+   "provas": [
+    {
+     "tipo": "imprensa",
+     "url": "https://timesbrasil.com.br/eleicoes-2026/pcb-e-pstu-farao-apoio-critico-a-lula-e-ao-pt-no-segundo-turno/",
+     "data": "07/10/2026",
+     "titulo": "PCB e PSTU farão 'apoio crítico' a Lula e ao PT no segundo turno (Times Brasil/CNBC, com Estadão Conteúdo)",
+     "trecho": "O PCB foi na mesma linha e destacou que é preciso derrotar a extrema-direita"
+    },
+    {
+     "tipo": "imprensa",
+     "url": "https://www.cnnbrasil.com.br/eleicoes/veja-os-partidos-que-declararam-apoio-a-flavio-bolsonaro-e-a-lula/",
+     "data": "08/10/2026",
+     "titulo": "Veja os partidos que declararam apoio a Flávio Bolsonaro e a Lula (CNN Brasil)",
+     "trecho": "também defendeu a derrota da extrema direita e o voto em Lula"
+    }
+   ],
+   "obs": "Apoio crítico a Lula, mantendo diferenças programáticas."
+  },
+  "AGIR": {
+   "lado": "C",
+   "uf": {},
+   "provas": [],
+   "obs": "Sem declaração de apoio no 2º turno encontrada até 08/10."
+  },
+  "MOBILIZA": {
+   "lado": "C",
+   "uf": {},
+   "provas": [],
+   "obs": "Sem declaração de apoio no 2º turno encontrada até 08/10."
+  },
+  "PRTB": {
+   "lado": "C",
+   "uf": {},
+   "provas": [],
+   "obs": "Sem nota do partido encontrada até 08/10. Leonardo Avalanche (PRTB) renunciou à candidatura antes do 1º turno."
+  }
+ }
+}
