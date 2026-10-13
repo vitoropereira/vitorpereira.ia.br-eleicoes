@@ -25,6 +25,8 @@ NOMEADOS = lj("nomeados.json")
 IDX_NOM = ind.indice_nomeados(NOMEADOS)
 C1001 = lj("contas/1001.json")
 C1002 = lj("contas/1002.json")
+ELEITOS = lj("eleitos.json")["eleitos"]
+E1001, E1002 = ELEITOS
 PF = lj("pf_por_campanha.json")
 SAQUES = lj("extrato_saques.json")
 
@@ -59,6 +61,9 @@ class TestConfig(unittest.TestCase):
         self.assertTrue(cfg["mei_teto_fonte"].strip())
         self.assertTrue(cfg["mei_teto_url"].startswith("https://"))
         self.assertEqual(cfg["mei_teto_anual"], 81000)
+        self.assertEqual((cfg["percentil_comparacao"], cfg["min_campanhas_grupo"], cfg["quantis_metodo"]),
+                         (95, 10, "inclusive"))
+        self.assertGreater(cfg["votacao_infima_fracao_eleitorado"], 0)
 
     def test_config_das_nomeacoes(self):
         cfg = json.loads((RAIZ / "rastro" / "config.json").read_text(encoding="utf-8"))
@@ -217,6 +222,121 @@ class TestSocioDoador(unittest.TestCase):
         for meio in ("123456", "654321", "111111", "999999"):
             self.assertNotIn(meio, txt)
         self.assertNotIn("aaaa", txt)
+
+
+class TestPercentil(unittest.TestCase):
+    def test_lista_conhecida(self):
+        self.assertAlmostEqual(ind.percentil(list(range(1, 21)), CFG), 19.05)
+
+    def test_menos_de_n_campanhas_nao_calcula(self):
+        self.assertIsNone(ind.percentil(list(range(1, 10)), CFG))
+        self.assertIsNotNone(ind.percentil(list(range(1, 11)), CFG))
+
+    def test_limiares_vem_do_config(self):
+        cfg = {**CFG, "min_campanhas_grupo": 3, "percentil_comparacao": 50}
+        self.assertEqual(ind.percentil([1, 2, 3], cfg), 2)
+
+
+class TestPrecoForaDaCurva(unittest.TestCase):
+    def rodar(self, por_tipo, agr=AGR):
+        c = copy.deepcopy(C1001)
+        c["despesas"]["por_tipo"] = por_tipo
+        return ind.preco_fora_da_curva("1001", c, E1001, agr, CFG)
+
+    def test_acima_do_p95_dispara(self):
+        r = self.rodar({"Serviços prestados por terceiros": 20000.0})
+        self.assertEqual(len(r), 1)
+        self.assertEqual(r[0]["nome"], "preco_fora_da_curva")
+        self.assertEqual(r[0]["valor"], 20000.0)
+        self.assertEqual(r[0]["fonte_url"], ind.URL_CONTAS)
+        for trecho in ("20.000,00", "11.450,00", "12 campanhas", "33,33 por mil eleitores"):
+            self.assertIn(trecho, r[0]["fato"])
+
+    def test_abaixo_cala(self):
+        self.assertEqual(self.rodar({"Serviços prestados por terceiros": 5000.0}), [])
+
+    def test_grupo_com_menos_de_n_cala(self):
+        self.assertEqual(self.rodar({"Publicidade por materiais impressos": 900000.0}), [])
+
+    def test_tipo_ausente_do_grupo_cala(self):
+        self.assertEqual(self.rodar({"Tipo inexistente": 900000.0}), [])
+
+    def test_sem_por_tipo_ou_sem_eleito_cala(self):
+        self.assertEqual(ind.preco_fora_da_curva("1001", C1002, E1002, AGR, CFG), [])
+        self.assertEqual(ind.preco_fora_da_curva("1001", C1001, {}, AGR, CFG), [])
+
+
+class TestGastoPorVoto(unittest.TestCase):
+    def rodar(self, eleito=E1001, contas=C1001, agr=AGR):
+        return ind.gasto_por_voto("1001", contas, eleito, agr, CFG)
+
+    def test_acima_dispara(self):
+        r = self.rodar()
+        self.assertEqual(len(r), 1)
+        self.assertEqual(r[0]["nome"], "gasto_por_voto")
+        self.assertEqual(r[0]["valor"], 20.0)
+        self.assertIn("11,45", r[0]["fato"])
+
+    def test_abaixo_cala(self):
+        self.assertEqual(self.rodar({**E1001, "votos": 100000}), [])
+
+    def test_grupo_menor_que_n_cala(self):
+        c = copy.deepcopy(C1002)
+        c["despesas"]["total_contratado"] = 999999.0
+        self.assertEqual(self.rodar(E1002, c), [])
+
+    def test_sem_votos_ou_sem_despesas_cala(self):
+        self.assertEqual(self.rodar({**E1001, "votos": 0}), [])
+        self.assertEqual(self.rodar({**E1001, "votos": None}), [])
+        self.assertEqual(self.rodar(contas={**C1001, "despesas": None}), [])
+        self.assertEqual(self.rodar(contas={**C1001, "prestacao_parcial": False}), [])
+
+
+class TestTransferencia(unittest.TestCase):
+    def rodar(self, agr=AGR, forn=None, contas=C1001):
+        return ind.transferencia_candidato("1001", contas, agr, agr["eleitorado"], CFG, forn)
+
+    def test_dispara_com_fornecedor_em_comum_e_destaca_infima_primeiro(self):
+        with self.assertLogs("rastro.indicadores", level="WARNING"):
+            r = self.rodar(forn=FORN)
+        self.assertEqual([i["contraparte"] for i in r], ["CANDIDATO INFIMO", "CANDIDATO VOTADO"])
+        self.assertEqual([i["valor"] for i in r], [3000.0, 1000.0])
+        self.assertIn("teve 20 votos (votação ínfima)", r[0]["fato"])
+        self.assertNotIn("ínfima", r[1]["fato"])
+        self.assertIn("EMPRESA GRANDE LTDA", r[1]["fato"])
+        self.assertTrue(all(i["nome"] == "transferencia_candidato" and i["fonte_url"] == ind.URL_CONTAS for i in r))
+
+    def test_mei_em_comum_sai_mascarado(self):
+        with self.assertLogs("rastro.indicadores", level="WARNING"):
+            r = self.rodar(forn=FORN)
+        self.assertIn("**.***.***/0001-**", r[0]["fato"])
+        self.assertNotIn("MEI PEQUENO", r[0]["fato"])
+        self.assertNotIn("22222222", r[0]["fato"])
+
+    def test_sem_dados_da_receita_mascara_todos(self):
+        with self.assertLogs("rastro.indicadores", level="WARNING"):
+            r = self.rodar()
+        self.assertNotIn("EMPRESA GRANDE", json.dumps(r, ensure_ascii=False))
+
+    def test_sem_fornecedor_em_comum_cala(self):
+        with self.assertLogs("rastro.indicadores", level="WARNING"):
+            r = self.rodar(forn=FORN)
+        self.assertNotIn("CANDIDATO SEM COMUM", json.dumps(r))
+
+    def test_recebedor_sem_dados_cala_com_log(self):
+        with self.assertLogs("rastro.indicadores", level="WARNING") as cm:
+            self.rodar(forn=FORN)
+        self.assertTrue(any("2004" in m for m in cm.output))
+
+    def test_votos_desconhecidos_nao_viram_infima(self):
+        agr = copy.deepcopy(AGR)
+        agr["candidatos"]["2001"]["votos"] = None
+        with self.assertLogs("rastro.indicadores", level="WARNING"):
+            r = self.rodar(agr, FORN)
+        self.assertNotIn("ínfima", json.dumps(r, ensure_ascii=False))
+
+    def test_sem_repasse_cala(self):
+        self.assertEqual(ind.transferencia_candidato("1002", C1002, AGR, AGR["eleitorado"], CFG, FORN), [])
 
 
 def com_pf(**kw):
@@ -417,11 +537,13 @@ class TestSocioNomeado(unittest.TestCase):
 
 class TestGerar(unittest.TestCase):
     def gerar(self, hash_path=FIX / "doadores_hash.json", pf_path=FIX / "pf_por_campanha.json",
-              saques_path=FIX / "extrato_saques.json", nomeados_path=FIX / "nomeados.json"):
+              saques_path=FIX / "extrato_saques.json", nomeados_path=FIX / "nomeados.json",
+              eleitos_path=FIX / "eleitos.json"):
         tmp = tempfile.mkdtemp()
         saida = Path(tmp) / "indicadores.json"
         ind.gerar(FIX / "contas", FIX / "fornecedores.json", FIX / "agregados.json", hash_path, CFG, saida,
-                  cnae_x_tipo=TABELA, pf_path=pf_path, saques_path=saques_path, nomeados_path=nomeados_path)
+                  cnae_x_tipo=TABELA, pf_path=pf_path, saques_path=saques_path, nomeados_path=nomeados_path,
+                  eleitos_path=eleitos_path)
         return saida.read_text(encoding="utf-8"), json.loads(saida.read_text(encoding="utf-8"))
 
     def test_forma_envelope_e_ordem(self):
@@ -433,8 +555,9 @@ class TestGerar(unittest.TestCase):
         self.assertEqual(list(d["indicadores"]), ["1001"])
         nomes = [i["nome"] for i in d["indicadores"]["1001"]]
         self.assertEqual(nomes, ["mei_acima_teto", "empresa_recem_aberta", "atividade_incompativel", "socio_doador",
-                                 "socio_ligado", "pessoal_pf", "pessoal_pf", "pessoal_pf", "saque_especie",
-                                 "pagamento_tardio", "pagamento_tardio"])
+                                 "socio_ligado", "preco_fora_da_curva", "gasto_por_voto", "transferencia_candidato",
+                                 "transferencia_candidato", "pessoal_pf", "pessoal_pf", "pessoal_pf",
+                                 "saque_especie", "pagamento_tardio", "pagamento_tardio"])
         self.assertIn(ind.URL_EXTRATO, d["fonte"])
         self.assertIn("https://exemplo.invalid/portal/202609", d["fonte"])
         for itens in d["indicadores"].values():
@@ -452,6 +575,8 @@ class TestGerar(unittest.TestCase):
         self.assertNotIn("11111111000191", txt)
         for meio in ("123456", "654321", "999999"):
             self.assertNotIn(meio, txt)
+        for proibida in ("fraude", "laranja", "fictícia"):
+            self.assertNotIn(proibida, txt.lower())
         pessoal = [i for itens in json.loads(txt)["indicadores"].values() for i in itens if i["nome"] == "pessoal_pf"]
         self.assertEqual(len(pessoal), 3)
         for proibido in ("MARIA", "98765432100", "11144477735", "h1", "h2", "BELTRANO", "DA SILVA"):
@@ -472,7 +597,16 @@ class TestGerar(unittest.TestCase):
             _, d = self.gerar(FIX / "nao_existe.json")
         nomes = {i["nome"] for itens in d["indicadores"].values() for i in itens}
         self.assertEqual(nomes, {"mei_acima_teto", "empresa_recem_aberta", "atividade_incompativel", "socio_ligado",
+                                 "preco_fora_da_curva", "gasto_por_voto", "transferencia_candidato",
                                  "pessoal_pf", "saque_especie", "pagamento_tardio"})
+
+    def test_eleito_fora_do_eleitos_json_pula_so_os_de_votos(self):
+        with self.assertLogs("rastro.indicadores", level="WARNING"):
+            _, d = self.gerar(eleitos_path=FIX / "nao_existe.json")
+        nomes = {i["nome"] for itens in d["indicadores"].values() for i in itens}
+        self.assertNotIn("preco_fora_da_curva", nomes)
+        self.assertNotIn("gasto_por_voto", nomes)
+        self.assertIn("transferencia_candidato", nomes)
 
     def test_sem_nomeados_pula_socio_ligado_com_aviso(self):
         with self.assertLogs("rastro.indicadores", level="WARNING") as lg:

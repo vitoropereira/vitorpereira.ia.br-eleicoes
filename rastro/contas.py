@@ -116,7 +116,8 @@ def novo_cand(linha):
             "por_fonte": defaultdict(Decimal), "doa_pj": {}, "doa_pf": defaultdict(Decimal),
             "desp": False, "contratado": Decimal(0), "pago": Decimal(0), "ids": set(), "ids_pago": set(),
             "forn_pj": {}, "forn_pf": defaultdict(Decimal), "pf_tipo": defaultdict(Decimal),
-            "tipo_total": defaultdict(Decimal), "cnpj_prestador": None,
+            "tipo_total": defaultdict(Decimal), "nome": None, "recebido_de": defaultdict(Decimal),
+            "cnpj_prestador": None,
             "pago_dia": defaultdict(Decimal), "com_data": False}
 
 
@@ -151,6 +152,10 @@ def acumular(zip_path, invalidas):
         c["rec_total"] += v
         c["por_origem"][texto(l, "DS_ORIGEM_RECEITA") or "Não informada"] += v
         c["por_fonte"][texto(l, "DS_FONTE_RECEITA") or "Não informada"] += v
+        sq_doador = texto(l, "SQ_CANDIDATO_DOADOR")  # coluna pode faltar: vira None
+        if sq_doador and sq_doador != l["SQ_CANDIDATO"]:
+            c["nome"] = c["nome"] or texto(l, "NM_CANDIDATO") or texto(l, "NM_URNA_CANDIDATO")
+            c["recebido_de"][sq_doador] += v
         doc, nome = digitos(l.get("NR_CPF_CNPJ_DOADOR")), limpar_texto(l.get("NM_DOADOR"))
         if len(doc) == 14:
             d = c["doa_pj"].setdefault(doc, [nome, Decimal(0)])
@@ -223,7 +228,8 @@ def contas_json(e, c, meta):
                                     for k, f in sorted(c["forn_pj"].items(), key=lambda kv: (-kv[1]["total"], kv[0]))],
                 "fornecedores_pf": {"qtd": qtd(c["forn_pf"]), "total": num(sum(c["forn_pf"].values(), Decimal(0))),
                                     "por_tipo": {k: num(v) for k, v in sorted(c["pf_tipo"].items())},
-                                    "valores": sorted(num(v) for doc, v in c["forn_pf"].items() if doc)}}
+                                    "valores": sorted(num(v) for doc, v in c["forn_pf"].items() if doc)},
+                "por_tipo": {k: num(v) for k, v in sorted(c["tipo_total"].items())}}
         desp["pago_por_dia"] = ({k: num(v) for k, v in sorted(c["pago_dia"].items())} if c["com_data"] else None)
     return {"sq": e["sq"], "nome_urna": e["nome_urna"], "cargo": e["cargo"], "uf": e["uf"], "partido": e["partido"],
             "cnpj_prestador": c["cnpj_prestador"] if c else None,
@@ -254,6 +260,7 @@ def ler_votos(dados_dir, ufs):
 
 def agregados_json(cands, votos, eleitorado, meta):
     por_cnpj, por_tipo, custo = {}, defaultdict(list), defaultdict(list)
+    repasses, candidatos = defaultdict(dict), {}
     for sq, c in cands.items():
         for cnpj, f in c["forn_pj"].items():
             a = por_cnpj.setdefault(cnpj, {"total_recebido": Decimal(0), "campanhas": []})
@@ -263,6 +270,11 @@ def agregados_json(cands, votos, eleitorado, meta):
         for tipo, t in c["tipo_total"].items():
             por_tipo[f"{tipo}|{cargo}|{c['uf']}"].append(num(t))
         cargo_v, uf_v, n_votos = votos.get(sq, (None, None, 0))
+        for doador, v in c["recebido_de"].items():
+            repasses[doador][sq] = num(v)
+        if c["recebido_de"]:
+            candidatos[sq] = {"nome": c["nome"], "cargo": cargo_v or cargo, "uf": uf_v or c["uf"],
+                              "votos": n_votos if sq in votos else None}
         if cargo_v and n_votos > 0 and c["ids"]:
             custo[f"{cargo_v}|{uf_v}"].append(round(float(c["contratado"]) / n_votos, 2))
     return {
@@ -271,6 +283,8 @@ def agregados_json(cands, votos, eleitorado, meta):
         "por_tipo_cargo_uf": {k: sorted(v) for k, v in sorted(por_tipo.items())},
         "custo_por_voto": {k: sorted(v) for k, v in sorted(custo.items())},
         "eleitorado": dict(sorted(eleitorado.items())),
+        "repasses": {d: dict(sorted(r.items())) for d, r in sorted(repasses.items())},
+        "candidatos": dict(sorted(candidatos.items())),
         **meta,
     }
 
