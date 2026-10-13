@@ -1,0 +1,11 @@
+{
+ "fonte": ["https://exemplo.invalid/receita"], "data_base": "2026-10-12", "gerado_em": "2026-10-13T00:00:00+00:00",
+ "indicadores": {
+  "2001": [
+   {"nome": "mei_acima_teto", "fato": "MEI recebeu R$ 90.000,00 de 2 campanhas em 2026, acima do teto de faturamento anual do MEI (R$ 81.000,00; LC 123/2006)", "valor": 90000.0, "fonte_url": "https://exemplo.invalid/teto", "contraparte": "**.***.***/0001-**"},
+   {"nome": "concentracao", "fato": "Concentra 62,5% do total contratado pela campanha (R$ 300.000,00 de R$ 480.000,00); o painel destaca acima de 50%", "valor": 62.5, "fonte_url": "https://exemplo.invalid/contas", "contraparte": "EMPRESA GRANDE LTDA"},
+   {"nome": "socio_doador", "fato": "FULANO DE TAL, sócio(a) desta empresa, consta como doador(a) em 2 campanhas de 2026, num total de R$ 5.000,00", "valor": 5000.0, "fonte_url": "https://exemplo.invalid/doadores", "contraparte": "EMPRESA GRANDE LTDA"},
+   {"nome": "pessoal_pf", "fato": "Campanha pagou 24 pessoas físicas, num total de R$ 60.000,00", "valor": 60000.0, "fonte_url": "https://exemplo.invalid/pf"}
+  ]
+ }
+}
