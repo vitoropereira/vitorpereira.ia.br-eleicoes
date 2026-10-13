@@ -41,6 +41,10 @@ class TestLerExtrato(unittest.TestCase):
         self.assertEqual(res["22345678000195"][0]["valor"], 300.0)
         self.assertNotIn("TED", json.dumps(res))
 
+    def test_deposito_em_especie_credito_nao_e_saque(self):
+        res, _, _ = self.ler()
+        self.assertNotIn(50000.0, [x["valor"] for v in res.values() for x in v])
+
     def test_valor_nulo_conta_loga_e_nao_vira_zero(self):
         res, inval, log = self.ler()
         self.assertEqual(inval["extrato_bancario"], 1)

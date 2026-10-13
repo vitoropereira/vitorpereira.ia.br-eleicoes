@@ -50,6 +50,8 @@ def ler_extrato(zip_path, termos, invalidas=None):
                 ds = l.get("DS_LANCAMENTO") or ""
                 if not any(t in _norm(ds) for t in termos):
                     continue
+                if (l.get("TP_LANCAMENTO") or "").strip().upper().startswith("C"):
+                    continue  # crédito (depósito em espécie) não é saque
                 cnpj = digitos(l.get("NR_CNPJ_PRESTADOR_CONTA"))
                 if len(cnpj) != 14:
                     invalidas[f"{ARQ} (sem cnpj)"] += 1
