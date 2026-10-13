@@ -257,7 +257,8 @@ def agregados_json(cands, votos, eleitorado, meta):
         for doador, v in c["recebido_de"].items():
             repasses[doador][sq] = num(v)
         if c["recebido_de"]:
-            candidatos[sq] = {"nome": c["nome"], "cargo": cargo_v or cargo, "uf": uf_v or c["uf"], "votos": n_votos}
+            candidatos[sq] = {"nome": c["nome"], "cargo": cargo_v or cargo, "uf": uf_v or c["uf"],
+                              "votos": n_votos if sq in votos else None}
         if cargo_v and n_votos > 0 and c["ids"]:
             custo[f"{cargo_v}|{uf_v}"].append(round(float(c["contratado"]) / n_votos, 2))
     return {

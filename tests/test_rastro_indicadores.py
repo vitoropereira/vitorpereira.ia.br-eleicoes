@@ -310,6 +310,13 @@ class TestTransferencia(unittest.TestCase):
             self.rodar(forn=FORN)
         self.assertTrue(any("2004" in m for m in cm.output))
 
+    def test_votos_desconhecidos_nao_viram_infima(self):
+        agr = copy.deepcopy(AGR)
+        agr["candidatos"]["2001"]["votos"] = None
+        with self.assertLogs("rastro.indicadores", level="WARNING"):
+            r = self.rodar(agr, FORN)
+        self.assertNotIn("ínfima", json.dumps(r, ensure_ascii=False))
+
     def test_sem_repasse_cala(self):
         self.assertEqual(ind.transferencia_candidato("1002", C1002, AGR, AGR["eleitorado"], CFG, FORN), [])
 

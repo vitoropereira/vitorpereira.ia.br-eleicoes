@@ -228,9 +228,9 @@ def transferencia_candidato(sq, contas, agregados, eleitorado, cfg, fornecedores
             continue
         nomes = ", ".join((mascarar_cnpj(c) if fornecedores is None else _contraparte(c, forn[c], fornecedores.get(c) or {}))
                           for c in comuns)
-        votos = info.get("votos") or 0
+        votos = info.get("votos")  # None: recebedor sem apuração conhecida, não é "votação ínfima"
         total_uf = (eleitorado or {}).get(info.get("uf"))
-        infima = bool(total_uf) and votos / total_uf < cfg["votacao_infima_fracao_eleitorado"]
+        infima = votos is not None and bool(total_uf) and votos / total_uf < cfg["votacao_infima_fracao_eleitorado"]
         destaque = f"; o recebedor teve {votos} votos (votação ínfima)" if infima else ""
         out.append((infima, {
             "nome": "transferencia_candidato",
