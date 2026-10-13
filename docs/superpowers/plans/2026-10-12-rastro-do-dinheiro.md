@@ -139,6 +139,12 @@ rastro/fila.json                 (Issue 9b)
 
 Registrar a escolha e o motivo em `rastro/README.md`.
 
+**Resultado do spike:** opção (a). URL: compartilhamento `https://arquivos.receitafederal.gov.br/index.php/s/YggdBLfdninEJX9` (download por `?path=/AAAA-MM&files=<arquivo>.zip`); a listagem não pôde ser verificada do ambiente de desenvolvimento e deve ser conferida na VPS (detalhes em `rastro/README.md`).
+
+**Contrato de `fornecedores.json`** (envelope com metadados; as Issues 4 e 5 leem `["fornecedores"]`):
+`{fonte, data_base, gerado_em, fornecedores: {<cnpj>: {razao, abertura, situacao, cnae, mei, simples, endereco_chave, socios: [{nome, cpf_mascarado}]}}}`.
+`endereco_chave` = `TIPO LOGRADOURO|NUMERO|CEP` normalizado; `mei`/`simples` = optante hoje; CNPJ ausente da base entra com `situacao: null`.
+
 **Aceite:**
 - fixture com 3 CNPJs: um MEI, um baixado e um com 2 sócios;
 - o `cpf_mascarado` mantém só o que a Receita já publica mascarado;
