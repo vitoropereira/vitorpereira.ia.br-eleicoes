@@ -21,6 +21,8 @@ TABELA = lj("cnae_x_tipo.json")
 FORN = lj("fornecedores.json")["fornecedores"]
 AGR = lj("agregados.json")
 HASH = lj("doadores_hash.json")
+NOMEADOS = lj("nomeados.json")
+IDX_NOM = ind.indice_nomeados(NOMEADOS)
 C1001 = lj("contas/1001.json")
 C1002 = lj("contas/1002.json")
 PF = lj("pf_por_campanha.json")
@@ -57,6 +59,15 @@ class TestConfig(unittest.TestCase):
         self.assertTrue(cfg["mei_teto_fonte"].strip())
         self.assertTrue(cfg["mei_teto_url"].startswith("https://"))
         self.assertEqual(cfg["mei_teto_anual"], 81000)
+
+    def test_config_das_nomeacoes(self):
+        cfg = json.loads((RAIZ / "rastro" / "config.json").read_text(encoding="utf-8"))
+        self.assertRegex(cfg["nomeacoes_mes"], r"^\d{4}-(0[1-9]|1[0-2])$")
+        for sigla in ("DAS", "FCPE", "CCE", "FCE", "NES"):
+            self.assertTrue(cfg["nomeacoes_funcoes"][sigla].strip(), sigla)
+        self.assertEqual(set(cfg["nomeacoes_fontes"]), {"siape", "camara", "senado"})
+        self.assertIn("{mes}", cfg["nomeacoes_fontes"]["siape"])
+        self.assertTrue(cfg["nomeacoes_fontes"]["siape"].startswith("https://"))
 
     def test_tabela_tem_nota_e_listas(self):
         tabela = json.loads((RAIZ / "rastro" / "cnae_x_tipo.json").read_text(encoding="utf-8"))
@@ -349,13 +360,68 @@ class TestPagamentoTardio(unittest.TestCase):
         self.assertEqual(self.rodar({"2026-10-05": 0.0, "2026-09-30": 0.0}), [])
 
 
+class TestSocioNomeado(unittest.TestCase):
+    def rodar(self, forn=FORN, idx=IDX_NOM, cnpj="99999999000191"):
+        return ind.socio_nomeado("1001", so(C1001, {cnpj}), forn, idx, CFG)
+
+    def test_nome_e_trecho_iguais_dispara(self):
+        r = self.rodar()
+        self.assertEqual(len(r), 1)
+        self.assertEqual(r[0]["nome"], "socio_ligado")
+        self.assertEqual(r[0]["valor"], 15000.0)
+        self.assertIn("JOSE DA SILVA", r[0]["fato"])
+        self.assertIn("(Portal da Transparência, 09/2026)", r[0]["fato"])
+        self.assertIn("função FCPE em MINISTERIO TESTE", r[0]["fato"])
+        self.assertTrue(r[0]["fato"].endswith("pode ser homônimo"))
+        self.assertEqual(r[0]["fonte_url"], "https://exemplo.invalid/portal/202609")
+        self.assertEqual(r[0]["contraparte"], "SOCIEDADE COM SOCIOS LTDA")
+
+    def test_homonimos_com_trechos_diferentes_nao_casam(self):
+        forn = copy.deepcopy(FORN)
+        forn["99999999000191"]["socios"] = [{"nome": "JOSE DA SILVA", "cpf_mascarado": "***654321**"},
+                                            {"nome": "JOSE DA SILVA", "cpf_mascarado": "***777777**"}]
+        self.assertEqual(self.rodar(forn), [])
+
+    def test_mesmo_trecho_nome_diferente_nao_casa(self):
+        forn = copy.deepcopy(FORN)
+        forn["99999999000191"]["socios"] = [{"nome": "MARIA PEREIRA", "cpf_mascarado": "***123456**"}]
+        self.assertEqual(self.rodar(forn), [])
+
+    def test_socio_sem_cpf_mascarado_nao_casa(self):
+        forn = copy.deepcopy(FORN)
+        forn["99999999000191"]["socios"] = [{"nome": "JOSE DA SILVA", "cpf_mascarado": None}]
+        self.assertEqual(self.rodar(forn), [])
+
+    def test_fornecedor_mei_fica_de_fora(self):
+        forn = copy.deepcopy(FORN)
+        forn["99999999000191"]["mei"] = True
+        self.assertEqual(self.rodar(forn), [])
+
+    def test_mesmo_socio_repetido_gera_um_item(self):
+        forn = copy.deepcopy(FORN)
+        forn["99999999000191"]["socios"] = [{"nome": "José da Silva", "cpf_mascarado": "***123456**"},
+                                            {"nome": "JOSE DA SILVA", "cpf_mascarado": "***123456**"}]
+        self.assertEqual(len(self.rodar(forn)), 1)
+
+    def test_fato_sem_acusacao(self):
+        fato = self.rodar()[0]["fato"].lower()
+        for palavra in ("parente", "fraude", "laranja"):
+            self.assertNotIn(palavra, fato)
+
+    def test_lgpd_sem_cpf_nem_trecho(self):
+        txt = json.dumps(self.rodar(), ensure_ascii=False)
+        self.assertEqual(cpfs_validos(txt), [])
+        for meio in ("123456", "654321", "999999"):
+            self.assertNotIn(meio, txt)
+
+
 class TestGerar(unittest.TestCase):
     def gerar(self, hash_path=FIX / "doadores_hash.json", pf_path=FIX / "pf_por_campanha.json",
-              saques_path=FIX / "extrato_saques.json"):
+              saques_path=FIX / "extrato_saques.json", nomeados_path=FIX / "nomeados.json"):
         tmp = tempfile.mkdtemp()
         saida = Path(tmp) / "indicadores.json"
         ind.gerar(FIX / "contas", FIX / "fornecedores.json", FIX / "agregados.json", hash_path, CFG, saida,
-                  cnae_x_tipo=TABELA, pf_path=pf_path, saques_path=saques_path)
+                  cnae_x_tipo=TABELA, pf_path=pf_path, saques_path=saques_path, nomeados_path=nomeados_path)
         return saida.read_text(encoding="utf-8"), json.loads(saida.read_text(encoding="utf-8"))
 
     def test_forma_envelope_e_ordem(self):
@@ -367,9 +433,10 @@ class TestGerar(unittest.TestCase):
         self.assertEqual(list(d["indicadores"]), ["1001"])
         nomes = [i["nome"] for i in d["indicadores"]["1001"]]
         self.assertEqual(nomes, ["mei_acima_teto", "empresa_recem_aberta", "atividade_incompativel", "socio_doador",
-                                 "pessoal_pf", "pessoal_pf", "pessoal_pf", "saque_especie",
+                                 "socio_ligado", "pessoal_pf", "pessoal_pf", "pessoal_pf", "saque_especie",
                                  "pagamento_tardio", "pagamento_tardio"])
         self.assertIn(ind.URL_EXTRATO, d["fonte"])
+        self.assertIn("https://exemplo.invalid/portal/202609", d["fonte"])
         for itens in d["indicadores"].values():
             for i in itens:
                 self.assertEqual(set(i) - {"contraparte"}, {"nome", "fato", "valor", "fonte_url"})
@@ -404,8 +471,16 @@ class TestGerar(unittest.TestCase):
         with self.assertLogs("rastro.indicadores", level="WARNING"):
             _, d = self.gerar(FIX / "nao_existe.json")
         nomes = {i["nome"] for itens in d["indicadores"].values() for i in itens}
-        self.assertEqual(nomes, {"mei_acima_teto", "empresa_recem_aberta", "atividade_incompativel", "pessoal_pf",
-                                 "saque_especie", "pagamento_tardio"})
+        self.assertEqual(nomes, {"mei_acima_teto", "empresa_recem_aberta", "atividade_incompativel", "socio_ligado",
+                                 "pessoal_pf", "saque_especie", "pagamento_tardio"})
+
+    def test_sem_nomeados_pula_socio_ligado_com_aviso(self):
+        with self.assertLogs("rastro.indicadores", level="WARNING") as lg:
+            _, d = self.gerar(nomeados_path=FIX / "nao_existe.json")
+        self.assertTrue(any("socio_ligado" in m for m in lg.output))
+        nomes = {i["nome"] for itens in d["indicadores"].values() for i in itens}
+        self.assertNotIn("socio_ligado", nomes)
+        self.assertNotIn("https://exemplo.invalid/portal/202609", d["fonte"])
 
 
 if __name__ == "__main__":

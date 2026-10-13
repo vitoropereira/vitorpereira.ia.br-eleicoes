@@ -17,5 +17,13 @@
   "SAQUE",
   "ESPECIE",
   "ESPÉCIE"
- ]
+ ],
+ "nomeacoes_mes": "2026-09",
+ "nomeacoes_funcoes": {"DAS": "teste", "FCPE": "teste", "CCE": "teste", "FCE": "teste", "NES": "teste"},
+ "nomeacoes_funcoes_fonte": "teste",
+ "nomeacoes_fontes": {
+  "siape": "https://exemplo.invalid/portal/{mes}",
+  "camara": null,
+  "senado": null
+ }
 }

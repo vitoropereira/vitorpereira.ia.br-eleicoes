@@ -1,5 +1,5 @@
-"""Indicadores da Receita (mei_acima_teto, empresa_recem_aberta, atividade_incompativel, socio_doador) e de pessoal
-e extrato (pessoal_pf, saque_especie, pagamento_tardio).
+"""Indicadores da Receita (mei_acima_teto, empresa_recem_aberta, atividade_incompativel, socio_doador, mais o
+ramo de nomeações do socio_ligado) e de pessoal e extrato (pessoal_pf, saque_especie, pagamento_tardio).
 
 Funções puras, sem limiar fixo no código (tudo vem de rastro/config.json). Cada item segue o contrato
 {nome, fato, valor, fonte_url, contraparte?}. Nenhum CPF, nem trecho, vai para a saída; CNPJ de MEI sai mascarado; pessoa física paga só entra como contagem.
@@ -16,11 +16,13 @@ try:
     from rastro.cnpj import BASE_CNPJ, _norm
     from rastro.contas import SAIDA_AGREGADOS, SAIDA_CONTAS, SAIDA_HASH, SAIDA_PF, URL_CONTAS, digitos, gravar
     from rastro.extrato import SAIDA_SAQUES
+    from rastro.nomeacoes import NOMEADOS
 except ImportError:  # rodado como script: python3 rastro/indicadores.py
     from baixar import URL_EXTRATO
     from cnpj import BASE_CNPJ, _norm
     from contas import SAIDA_AGREGADOS, SAIDA_CONTAS, SAIDA_HASH, SAIDA_PF, URL_CONTAS, digitos, gravar
     from extrato import SAIDA_SAQUES
+    from nomeacoes import NOMEADOS
 
 log = logging.getLogger("rastro.indicadores")
 AQUI = Path(__file__).resolve().parent
@@ -243,15 +245,65 @@ def pagamento_tardio(sq, contas, cfg):
     return out
 
 
+def indice_nomeados(nomeados):
+    """{(nome normalizado, cpf_meio): {funcao, orgao, base}} do rastro/brutos/nomeados.json."""
+    idx = {}
+    for d in (nomeados or {}).get("nomeados") or []:
+        if d.get("cpf_meio") and d.get("nome"):
+            idx[(_norm(d["nome"]), d["cpf_meio"])] = d
+    return idx
+
+
+ORIGEM_NOMEADOS = {"siape": "Portal da Transparência", "camara": "Câmara dos Deputados", "senado": "Senado Federal"}
+
+
+def socio_nomeado(sq, contas, fornecedores, idx_nomeados, cfg):
+    """socio_ligado, ramo nomeações: sócio de fornecedor (não MEI) com função comissionada no serviço federal."""
+    mes = datetime.strptime(cfg["nomeacoes_mes"], "%Y-%m").strftime("%m/%Y")
+    fontes = cfg.get("nomeacoes_fontes") or {}
+    ref = cfg["nomeacoes_mes"].replace("-", "")
+    out = []
+    for cnpj, f in _fornecedores_pj(contas):
+        rec = fornecedores.get(cnpj) or {}
+        if rec.get("mei"):
+            continue  # sócio de MEI é a própria pessoa física: fica fora
+        vistos = set()
+        for s in rec.get("socios") or []:
+            m = RE_MEIO.fullmatch((s.get("cpf_mascarado") or "").strip())
+            if not m or not s.get("nome"):
+                continue
+            chave = (_norm(s["nome"]), m.group(1))
+            d = idx_nomeados.get(chave)
+            if not d or chave in vistos:
+                continue
+            vistos.add(chave)
+            base = d.get("base") or "siape"
+            url = (fontes.get(base) or "").format(mes=ref)
+            if not url:
+                continue
+            out.append({
+                "nome": "socio_ligado",
+                "fato": (f"{chave[0]}, sócio(a) desta empresa, consta no cadastro de servidores federais "
+                         f"({ORIGEM_NOMEADOS.get(base, base)}, {mes}) com função {d.get('funcao') or 'comissionada'} "
+                         f"em {d.get('orgao') or 'órgão não informado'}; pode ser homônimo"),
+                "valor": f["total"],
+                "fonte_url": url,
+                "contraparte": _contraparte(cnpj, f, rec),
+            })
+    return out
+
+
 def calcular(sq, contas, fornecedores, agregados, doadores_hash, cfg, cnae_x_tipo, idx=None,
-             pf_hash=None, saques=None, idx_pf=None):
-    """Itens dos indicadores de um eleito; doadores_hash, pf_hash e saques None pulam socio_doador,
-    a parte de repetidos do pessoal_pf e o saque_especie."""
+             pf_hash=None, saques=None, idx_pf=None, idx_nomeados=None):
+    """Itens dos indicadores de um eleito; doadores_hash, idx_nomeados, pf_hash e saques None pulam socio_doador,
+    socio_ligado, a parte de repetidos do pessoal_pf e o saque_especie."""
     itens = (mei_acima_teto(sq, contas, fornecedores, agregados, cfg)
              + empresa_recem_aberta(sq, contas, fornecedores, cfg)
              + atividade_incompativel(sq, contas, fornecedores, cnae_x_tipo))
     if doadores_hash is not None:
         itens += socio_doador(sq, contas, fornecedores, doadores_hash, idx)
+    if idx_nomeados is not None:
+        itens += socio_nomeado(sq, contas, fornecedores, idx_nomeados, cfg)
     itens += pessoal_pf(sq, contas, pf_hash, cfg, idx_pf)
     if saques is not None:
         itens += saque_especie(sq, contas, saques, cfg)
@@ -267,7 +319,7 @@ def ler_opcional(caminho, o_que):
 
 
 def gerar(dir_contas, fornecedores_path, agregados_path, hash_path, cfg, saida, cnae_x_tipo=None,
-          pf_path=None, saques_path=None):
+          pf_path=None, saques_path=None, nomeados_path=NOMEADOS):
     cnae_x_tipo = cnae_x_tipo if cnae_x_tipo is not None else ler_json(CNAE_X_TIPO)
     env = ler_json(fornecedores_path)
     fornecedores = env["fornecedores"]
@@ -281,14 +333,26 @@ def gerar(dir_contas, fornecedores_path, agregados_path, hash_path, cfg, saida, 
     pf_hash = ler_opcional(pf_path, "repetidos do pessoal_pf")
     idx_pf = indice_pf(pf_hash) if pf_hash is not None else None
     saques = ler_opcional(saques_path, "saque_especie")
+    idx_nomeados = None
+    if nomeados_path is not None and Path(nomeados_path).exists():
+        env_nom = ler_json(nomeados_path)
+        if (env_nom.get("data_base") or "")[:7] != cfg["nomeacoes_mes"]:
+            log.warning("%s é de %s mas config.nomeacoes_mes=%s: rode rastro/nomeacoes.py", nomeados_path,
+                        env_nom.get("data_base"), cfg["nomeacoes_mes"])
+        idx_nomeados = indice_nomeados(env_nom)
+    else:
+        log.warning("sem %s: socio_ligado (nomeações) pulado", nomeados_path)
     res = {}
     for arq in sorted(Path(dir_contas).glob("*.json")):
         contas = ler_json(arq)
         sq = str(contas.get("sq") or arq.stem)
-        itens = calcular(sq, contas, fornecedores, agregados, doadores_hash, cfg, cnae_x_tipo, idx, pf_hash, saques, idx_pf)
+        itens = calcular(sq, contas, fornecedores, agregados, doadores_hash, cfg, cnae_x_tipo, idx,
+                         pf_hash=pf_hash, saques=saques, idx_pf=idx_pf, idx_nomeados=idx_nomeados)
         if itens:
             res[sq] = itens
     fonte = [FONTE_RECEITA, URL_CONTAS] + ([URL_EXTRATO] if saques is not None else [])
+    if idx_nomeados is not None and (cfg.get("nomeacoes_fontes") or {}).get("siape"):
+        fonte.append(cfg["nomeacoes_fontes"]["siape"].format(mes=cfg["nomeacoes_mes"].replace("-", "")))
     for e in (env, agregados):
         for u in e.get("fonte") or []:
             if u not in fonte:
