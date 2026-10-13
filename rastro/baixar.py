@@ -43,6 +43,8 @@ def baixar(url, dest, opener=urllib.request.urlopen, hoje=None):
     tmp.replace(dest)
     if novo:
         marca.write_text(novo + "\n", encoding="utf-8")
+    else:
+        marca.unlink(missing_ok=True)  # sem Last-Modified, marca antiga ficaria velha e daria 304 sobre arquivo trocado
     return "baixado"
 
 

@@ -225,7 +225,11 @@ def ler_votos(dados_dir, ufs):
         if pres.exists():
             eleitorado[uf.upper()] = int(json.loads(pres.read_text(encoding="utf-8"))["e"]["te"])
         for cd in codigos(uf):
-            d = json.loads((dados_dir / f"{uf}-c{cd:04d}.json").read_text(encoding="utf-8"))
+            arq = dados_dir / f"{uf}-c{cd:04d}.json"
+            if not arq.exists():
+                log.warning("sem %s: custo por voto de %s/%s fica de fora", arq.name, CARGOS[cd], uf.upper())
+                continue
+            d = json.loads(arq.read_text(encoding="utf-8"))
             for agr in d["carg"][0].get("agr", []):
                 for par in agr.get("par", []):
                     for cand in par.get("cand", []):
