@@ -157,3 +157,20 @@ python3 -m rastro.anteriores            # com os ZIPs já em rastro/brutos/
   opcional: sem ele, a seção não aparece.
 - **Ressalva**: o mesmo CNPJ não garante a mesma atividade nem o mesmo dono; a empresa pode ter mudado de mãos.
 - O arquivo real é gerado à mão na VPS depois do merge, nunca em 25/10.
+
+## Fila e lotes diários
+
+- `rastro/fila.py` grava `rastro/fila.json`: lista JSON de `sq` na ordem cargo, votos (desc), nº de indicadores (desc), a mesma do
+  lote 1. Inclui os já publicados; quem filtra é `publicados.json`. Sai com 1 se faltarem `eleitos.json` ou `indicadores.json`.
+- `rastro/lote.py` (`--dry-run` só imprime): move os próximos `lote_diario_tamanho` (15) `sq` ainda não publicados para
+  `publicados.json`, roda `build_site.py`, cria a branch `rastro/lote-AAAA-MM-DD` a partir de `origin/main`, commita só
+  `publicados.json`, `fila.json` e `site/` (o build também muda `sitemap.xml` e `llms.txt`; assim a árvore termina limpa), dá push e abre o PR "Rastro: lote AAAA-MM-DD". Nunca faz merge nem deploy:
+  o merge do PR é a publicação. Recusa árvore suja e branch do dia já existente. Precisa de `gh` logado com permissão de push.
+- **Trava**: de `trava_inicio` a `trava_fim` (23 a 26/10/2026, inclusive, em `config.json`) o `lote.py` sai com código 2 antes de
+  qualquer comando. A trava está no Python, então vale também para quem rodar à mão.
+- `rastro/cron_lote.sh` faz `git pull --ff-only` no `main` e roda o lote, com log em `rastro/brutos/lote.log`. Não está
+  instalado; linha de crontab sugerida na VPS (instalar fica para o Vitor):
+
+```
+0 9 * * * sh /caminho/do/repo/rastro/cron_lote.sh
+```

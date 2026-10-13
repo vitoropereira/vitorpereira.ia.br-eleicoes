@@ -14,21 +14,12 @@ AQUI = Path(__file__).resolve().parent
 if str(AQUI.parent) not in sys.path:
     sys.path.insert(0, str(AQUI.parent))
 
-from rastro.paginas import CARGOS  # noqa: E402
+from rastro.fila import ordenar  # noqa: E402
 
 
 def escolher(eleitos, indicadores, tamanho):
     """Lista de sq (str) dos `tamanho` primeiros, sem repetição."""
-    lista = eleitos["eleitos"] if isinstance(eleitos, dict) else eleitos
-    por_ind = (indicadores or {}).get("indicadores") or {}
-    ordem = list(CARGOS)
-
-    def chave(e):
-        return (ordem.index(e["cargo"]) if e["cargo"] in ordem else len(ordem), -(e.get("votos") or 0),
-                -len(por_ind.get(str(e["sq"])) or []), str(e["sq"]))
-
-    vistos = list(dict.fromkeys(str(e["sq"]) for e in sorted(lista, key=chave)))
-    return vistos[:tamanho]
+    return ordenar(eleitos, indicadores)[:tamanho]
 
 
 def main(dados=AQUI / "dados", destino=AQUI / "publicados.json", config=AQUI / "config.json"):
