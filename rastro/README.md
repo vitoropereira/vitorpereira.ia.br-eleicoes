@@ -52,6 +52,6 @@ só o `socio_doador` é pulado (aviso no log). Uso: `python3 rastro/indicadores.
   casa quando nome normalizado **e** os 6 dígitos do meio do CPF batem; o `fato` traz o nome, campanhas e total, termina
   com "pode ser homônimo" e nunca o trecho do CPF nem o hash.
 - **Revisar `cnae_x_tipo.json`**: `{tipo de despesa (DS_ORIGEM_DESPESA): [prefixos de CNAE compatíveis]}`. O indicador só
-  dispara se todos os tipos do fornecedor que estão na tabela forem incompatíveis com o CNAE; tipo fora da tabela ou CNAE
-  ausente cala. Para cortar falso positivo, acrescente prefixos; para cobrir mais tipos, acrescente chaves. Revisão humana
+  dispara se todos os tipos do fornecedor estão na tabela e nenhum é compatível com o CNAE; qualquer tipo fora da tabela ou
+  CNAE ausente cala. Para cortar falso positivo, acrescente prefixos; para cobrir mais tipos, acrescente chaves. Revisão humana
   obrigatória antes de ir ao site.

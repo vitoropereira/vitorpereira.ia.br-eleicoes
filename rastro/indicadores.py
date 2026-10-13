@@ -77,7 +77,8 @@ def mei_acima_teto(sq, contas, fornecedores, agregados, cfg):
 
 
 def empresa_recem_aberta(sq, contas, fornecedores, cfg):
-    limite = date.fromisoformat(cfg["campanha_inicio"]) - timedelta(days=cfg["recem_aberta_dias"])
+    inicio = date.fromisoformat(cfg["campanha_inicio"])
+    limite = inicio - timedelta(days=cfg["recem_aberta_dias"])
     out = []
     for cnpj, f in _fornecedores_pj(contas):
         rec = fornecedores.get(cnpj) or {}
@@ -88,8 +89,8 @@ def empresa_recem_aberta(sq, contas, fornecedores, cfg):
             continue
         out.append({
             "nome": "empresa_recem_aberta",
-            "fato": (f"Empresa aberta em {abertura.strftime('%d/%m/%Y')}, menos de {cfg['recem_aberta_dias']} dias "
-                     f"antes do início da campanha ({date.fromisoformat(cfg['campanha_inicio']).strftime('%d/%m/%Y')})"),
+            "fato": (f"Empresa aberta em {abertura.strftime('%d/%m/%Y')}, {'depois' if abertura > inicio else 'menos de ' + str(cfg['recem_aberta_dias']) + ' dias antes'}"
+                     f" do início da campanha ({inicio.strftime('%d/%m/%Y')})"),
             "valor": f["total"],
             "fonte_url": FONTE_RECEITA,
             "contraparte": _contraparte(cnpj, f, rec),
@@ -102,9 +103,10 @@ def atividade_incompativel(sq, contas, fornecedores, cnae_x_tipo):
     for cnpj, f in _fornecedores_pj(contas):
         rec = fornecedores.get(cnpj) or {}
         cnae = digitos(rec.get("cnae") or f.get("cnae"))
-        tipos = [t for t in f.get("tipos", []) if t in cnae_x_tipo and not t.startswith("_")]
-        if not cnae or not tipos:
-            continue
+        todos = f.get("tipos", [])
+        tipos = [t for t in todos if t in cnae_x_tipo and not t.startswith("_")]
+        if not cnae or not tipos or len(tipos) != len(todos):
+            continue  # tipo fora da tabela pode explicar o CNAE: na dúvida, cala
         if any(cnae.startswith(p) for t in tipos for p in cnae_x_tipo[t]):
             continue  # algum tipo é compatível: na dúvida, cala
         out.append({
@@ -128,8 +130,9 @@ def indice_doadores(doadores_hash):
     return idx
 
 
-def socio_doador(sq, contas, fornecedores, doadores_hash):
-    idx = indice_doadores(doadores_hash)
+def socio_doador(sq, contas, fornecedores, doadores_hash, idx=None):
+    if idx is None:
+        idx = indice_doadores(doadores_hash)
     out = []
     for cnpj, f in _fornecedores_pj(contas):
         rec = fornecedores.get(cnpj) or {}
@@ -157,13 +160,13 @@ def socio_doador(sq, contas, fornecedores, doadores_hash):
     return out
 
 
-def calcular(sq, contas, fornecedores, agregados, doadores_hash, cfg, cnae_x_tipo):
+def calcular(sq, contas, fornecedores, agregados, doadores_hash, cfg, cnae_x_tipo, idx=None):
     """Itens dos quatro indicadores de um eleito; doadores_hash=None pula o socio_doador."""
     itens = (mei_acima_teto(sq, contas, fornecedores, agregados, cfg)
              + empresa_recem_aberta(sq, contas, fornecedores, cfg)
              + atividade_incompativel(sq, contas, fornecedores, cnae_x_tipo))
     if doadores_hash is not None:
-        itens += socio_doador(sq, contas, fornecedores, doadores_hash)
+        itens += socio_doador(sq, contas, fornecedores, doadores_hash, idx)
     return itens
 
 
@@ -177,11 +180,12 @@ def gerar(dir_contas, fornecedores_path, agregados_path, hash_path, cfg, saida, 
     else:
         doadores_hash = None
         log.warning("sem %s: socio_doador pulado", hash_path)
+    idx = indice_doadores(doadores_hash) if doadores_hash is not None else None  # uma vez, não por eleito
     res = {}
     for arq in sorted(Path(dir_contas).glob("*.json")):
         contas = ler_json(arq)
         sq = str(contas.get("sq") or arq.stem)
-        itens = calcular(sq, contas, fornecedores, agregados, doadores_hash, cfg, cnae_x_tipo)
+        itens = calcular(sq, contas, fornecedores, agregados, doadores_hash, cfg, cnae_x_tipo, idx)
         if itens:
             res[sq] = itens
     fonte = [FONTE_RECEITA, URL_CONTAS]

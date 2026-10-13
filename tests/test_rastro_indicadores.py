@@ -108,7 +108,9 @@ class TestRecemAberta(unittest.TestCase):
         self.assertEqual(len(self.rodar("55555555000191", "2025-08-17")), 1)
 
     def test_aberta_depois_do_inicio_dispara(self):
-        self.assertEqual(len(self.rodar("55555555000191", "2026-09-01")), 1)
+        r = self.rodar("55555555000191", "2026-09-01")
+        self.assertEqual(len(r), 1)
+        self.assertIn("depois do início", r[0]["fato"])
 
     def test_abertura_nula_nao_dispara(self):
         self.assertEqual(self.rodar("44444444000191", None), [])
@@ -135,6 +137,11 @@ class TestAtividade(unittest.TestCase):
         c = so(C1001, {"66666666000191"})
         c["despesas"]["fornecedores_pj"][0]["tipos"] = ["Combustíveis e lubrificantes",
                                                         "Publicidade por materiais impressos"]
+        self.assertEqual(ind.atividade_incompativel("1001", c, FORN, TABELA), [])
+
+    def test_tipo_fora_da_tabela_junto_de_incompativel_cala(self):
+        c = so(C1001, {"66666666000191"})
+        c["despesas"]["fornecedores_pj"][0]["tipos"] = ["Combustíveis e lubrificantes", "Serviços prestados por terceiros"]
         self.assertEqual(ind.atividade_incompativel("1001", c, FORN, TABELA), [])
 
     def test_cnae_ausente_nao_dispara(self):
