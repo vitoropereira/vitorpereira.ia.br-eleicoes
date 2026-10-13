@@ -55,3 +55,30 @@ só o `socio_doador` é pulado (aviso no log). Uso: `python3 rastro/indicadores.
   dispara se todos os tipos do fornecedor estão na tabela e nenhum é compatível com o CNAE; qualquer tipo fora da tabela ou
   CNAE ausente cala. Para cortar falso positivo, acrescente prefixos; para cobrir mais tipos, acrescente chaves. Revisão humana
   obrigatória antes de ir ao site.
+
+## Nomeações (`nomeacoes.py`) e o ramo `socio_ligado` do indicador
+
+`python3 rastro/nomeacoes.py` baixa o cadastro de servidores federais (SIAPE) do Portal da Transparência para o mês de
+`nomeacoes_mes` em `config.json` (cache `.lastmod` em `rastro/brutos/nomeacoes/`; nunca em 25/10), lê o ZIP em streaming
+e grava `rastro/brutos/nomeados.json` (fora do git): `{"fonte", "data_base", "gerado_em", "nomeados": [{"nome", "cpf_meio",
+"funcao", "orgao", "base"}]}`. Só entra quem tem função ou cargo comissionado: `SIGLA_FUNCAO` começando por um dos prefixos de
+`nomeacoes_funcoes` (`DAS`, `FCPE`, `CCE`, `FCE`, `NES`; revisáveis, cada um com nota). Servidor efetivo sem função não entra.
+As URLs ficam em `nomeacoes_fontes` (`siape` com `{mes}` = AAAAMM; `camara` e `senado` em `null`).
+
+- **Regra de casamento** (`indicadores.socio_nomeado`, emite `nome: "socio_ligado"`): nome normalizado **e** os 6 dígitos
+  visíveis do CPF mascarado (`***.123.456-**` no Portal, `***123456**` na Receita). Homônimos com trechos diferentes não
+  casam; sócio de MEI fica fora; o `fato` termina com "pode ser homônimo" e o trecho nunca vai para a saída. Sem
+  `rastro/brutos/nomeados.json`, `indicadores.gerar()` pula o ramo com aviso no log.
+- **LGPD**: CPF inteiro na base é descartado com aviso; CPF vazio é descartado e contado no log.
+- **Câmara e Senado**: `ler_externa()` aceita um mapeamento de colunas, mas ignora a base inteira (com aviso) se ela não tiver
+  coluna de CPF mascarado. Pelo que se sabe, esses dados abertos trazem nome, cargo e lotação, sem CPF; por isso as URLs
+  estão `null`. Casar só pelo nome contraria a regra acima: seria outra issue.
+
+### Resultado do spike (não verificado por script: o executor não tem rede)
+
+- URL de download esperada: `https://portaldatransparencia.gov.br/download-de-dados/servidores/AAAAMM` (ZIP com
+  `AAAAMM_Cadastro.csv`, `AAAAMM_Remuneracao.csv` etc.). Só o cadastro é lido.
+- **Conferir na VPS** antes da primeira rodada: (1) o mês mais recente publicado (`nomeacoes_mes`); (2) o cabeçalho de
+  `*_Cadastro.csv` (`;`, latin-1, aspas): o leitor usa `NOME`, `CPF`, `SIGLA_FUNCAO` e `ORG_LOTACAO`; (3) o formato do CPF
+  (`***.123.456-**`); (4) o valor de `SIGLA_FUNCAO` sem função (`-1` ou vazio) e a lista real de siglas, para ajustar os
+  prefixos; (5) se o endpoint exige o cabeçalho `User-Agent` do repo (já enviado por `baixar.py`) ou devolve página HTML.
