@@ -78,6 +78,25 @@ class TestBaixar(unittest.TestCase):
                 baixar.baixar(URL, Path(td) / "a.zip", op, date(2026, 10, 25))
             self.assertEqual(op.reqs, [])
 
+    def test_extrato_na_lista(self):
+        self.assertIn(baixar.URL_EXTRATO, baixar.ARQUIVOS)
+        self.assertTrue(baixar.URL_EXTRATO.endswith("/extrato_bancario_candidato_2026.zip"))
+
+    def test_404_do_extrato_e_aviso_e_nao_derruba_os_outros(self):
+        with tempfile.TemporaryDirectory() as td:
+            urls = ["https://exemplo.test/a.zip", "https://exemplo.test/extrato.zip", "https://exemplo.test/c.zip"]
+            op = Opener(Resp(b"a"), 404, Resp(b"c"))
+            with self.assertLogs("rastro.baixar", level="WARNING") as cm:
+                res = baixar.baixar_todos(urls, td, op, HOJE)
+            self.assertEqual(res, {"a.zip": "baixado", "extrato.zip": "não encontrado", "c.zip": "baixado"})
+            self.assertIn("404", cm.output[0])
+            self.assertEqual((Path(td) / "c.zip").read_bytes(), b"c")
+
+    def test_500_continua_derrubando(self):
+        with tempfile.TemporaryDirectory() as td:
+            with self.assertRaises(urllib.error.HTTPError):
+                baixar.baixar_todos(["https://exemplo.test/a.zip"], td, Opener(500), HOJE)
+
     def test_urls(self):
         for u in baixar.ARQUIVOS:
             self.assertTrue(u.startswith("https://cdn.tse.jus.br/estatistica/sead/odsele/"))
