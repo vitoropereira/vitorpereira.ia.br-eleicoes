@@ -13,22 +13,24 @@ Lê só os CNPJs que aparecem em `fornecedores_pj` de `rastro/dados/contas/<sq>.
                              "endereco_chave", "socios": [{"nome", "cpf_mascarado"}]}}}
 ```
 
-Uso: `python3 rastro/cnpj.py [--mes AAAA-MM]` (baixa com cache `.lastmod` em `rastro/brutos/cnpj/<AAAA-MM>/`; nunca em 25/10).
+Uso: `python3 -m rastro.cnpj --baixar [--mes AAAA-MM]`. Sem `--mes`, usa o mês mais recente que aparece na listagem da
+Receita. Sem `--baixar`, só processa ZIPs já presentes em `rastro/brutos/cnpj/<AAAA-MM>/` (`--mes` obrigatório, sem rede).
+**Nunca rodar perto de 25/10** (trava no dia da apuração, antes de qualquer rede).
 
-### Resultado do spike (consulta em 2026-10-13)
+### Caminho verificado: WebDAV público da Receita
 
-- **URL:** compartilhamento Nextcloud do SERPRO, `https://arquivos.receitafederal.gov.br/index.php/s/YggdBLfdninEJX9`
-  (token público, sem login). Download por `.../download?path=/AAAA-MM&files=<arquivo>.zip`.
-  A listagem antiga (`/dados/cnpj/dados_abertos_cnpj/`) dá 404.
-- **Não verificado por script:** nesta consulta o ambiente de execução devolveu corpo vazio (HTTP 200, 0 bytes) tanto no
-  WebDAV (`/public.php/webdav/`) quanto na página do compartilhamento, então a listagem de pastas, o token e o mês mais
-  recente **precisam ser conferidos na VPS** antes da primeira rodada. Se o token mudou, ajuste `BASE_CNPJ` e `MES_PADRAO`
-  em `cnpj.py`.
-- **Escolha: (a)**, base inteira em streaming (`Empresas0-9`, `Estabelecimentos0-9`, `Socios0-9`, `Simples`), filtrando
-  pelo conjunto de CNPJs-alvo. Motivo: é GET simples sem captcha, a API pública (opção b, 1 req/s) levaria horas para
-  dezenas de milhares de CNPJs e traria sócios sem a mesma máscara. Custo: cerca de 6 GB de ZIPs por mês de referência
-  (a VPS tem cerca de 30 GB); apague `rastro/brutos/cnpj/<mês anterior>/` depois de gerar.
-- **Plano B (b):** se (a) falhar, BrasilAPI `/api/cnpj/v1/{cnpj}` com cache em `rastro/brutos/cnpj_api/<cnpj>.json` e
+- **Origem:** compartilhamento Nextcloud do SERPRO, via WebDAV: `https://arquivos.receitafederal.gov.br/public.php/webdav/<AAAA-MM>/`,
+  autenticação básica com usuário `YggdBLfdninEJX9` (o token do compartilhamento, público por desenho) e senha vazia. A URL
+  `index.php/s/.../download` devolve HTML, não o ZIP. Em 13/10 havia as pastas de 2026-06 a 2026-09.
+- **Como baixa:** `PROPFIND` (Depth 1) lista meses e tamanhos (`getcontentlength`); os 31 ZIPs (`Estabelecimentos0-9`,
+  `Empresas0-9`, `Socios0-9`, `Simples`) vêm **um a um**, nessa ordem: baixa em `<arq>.zip.part`, confere o tamanho e o `PK`,
+  processa em streaming, apaga, e só então o próximo. Falta de arquivo na listagem aborta antes de baixar.
+- **Espaço:** 7,8 GB baixados em sequência, mas o pico no disco é o do maior arquivo (cerca de 2,2 GB). O script exige
+  2× o maior livre (cerca de 4,5 GB) antes de começar e aborta sem nenhum GET se não houver.
+- **Tempo:** depende da banda; algo como 15 a 60 minutos para 7,8 GB a 20–80 Mbit/s, mais o processamento.
+- **Retomada:** corte de conexão é retentado até 3 vezes com `Range`; se o processo morrer, rodar de novo continua do `.part`.
+  Erro HTTP (inclusive 401 de token trocado: ajuste `TOKEN` em `cnpj.py`) não é retentado.
+- **Plano B (b):** se a Receita sair do ar, BrasilAPI `/api/cnpj/v1/{cnpj}` com cache em `rastro/brutos/cnpj_api/<cnpj>.json` e
   `time.sleep(1)` entre chamadas; seria um leitor novo no lugar de `ler_zip`, com a mesma saída.
 
 ### LGPD
@@ -55,3 +57,30 @@ só o `socio_doador` é pulado (aviso no log). Uso: `python3 rastro/indicadores.
   dispara se todos os tipos do fornecedor estão na tabela e nenhum é compatível com o CNAE; qualquer tipo fora da tabela ou
   CNAE ausente cala. Para cortar falso positivo, acrescente prefixos; para cobrir mais tipos, acrescente chaves. Revisão humana
   obrigatória antes de ir ao site.
+
+## Nomeações (`nomeacoes.py`) e o ramo `socio_ligado` do indicador
+
+`python3 rastro/nomeacoes.py` baixa o cadastro de servidores federais (SIAPE) do Portal da Transparência para o mês de
+`nomeacoes_mes` em `config.json` (cache `.lastmod` em `rastro/brutos/nomeacoes/`; nunca em 25/10), lê o ZIP em streaming
+e grava `rastro/brutos/nomeados.json` (fora do git): `{"fonte", "data_base", "gerado_em", "nomeados": [{"nome", "cpf_meio",
+"funcao", "orgao", "base"}]}`. Só entra quem tem função ou cargo comissionado: `SIGLA_FUNCAO` começando por um dos prefixos de
+`nomeacoes_funcoes` (`DAS`, `FCPE`, `CCE`, `FCE`, `NES`; revisáveis, cada um com nota). Servidor efetivo sem função não entra.
+As URLs ficam em `nomeacoes_fontes` (`siape` com `{mes}` = AAAAMM; `camara` e `senado` em `null`).
+
+- **Regra de casamento** (`indicadores.socio_nomeado`, emite `nome: "socio_ligado"`): nome normalizado **e** os 6 dígitos
+  visíveis do CPF mascarado (`***.123.456-**` no Portal, `***123456**` na Receita). Homônimos com trechos diferentes não
+  casam; sócio de MEI fica fora; o `fato` termina com "pode ser homônimo" e o trecho nunca vai para a saída. Sem
+  `rastro/brutos/nomeados.json`, `indicadores.gerar()` pula o ramo com aviso no log.
+- **LGPD**: CPF inteiro na base é descartado com aviso; CPF vazio é descartado e contado no log.
+- **Câmara e Senado**: `ler_externa()` aceita um mapeamento de colunas, mas ignora a base inteira (com aviso) se ela não tiver
+  coluna de CPF mascarado. Pelo que se sabe, esses dados abertos trazem nome, cargo e lotação, sem CPF; por isso as URLs
+  estão `null`. Casar só pelo nome contraria a regra acima: seria outra issue.
+
+### Resultado do spike (não verificado por script: o executor não tem rede)
+
+- URL de download esperada: `https://portaldatransparencia.gov.br/download-de-dados/servidores/AAAAMM` (ZIP com
+  `AAAAMM_Cadastro.csv`, `AAAAMM_Remuneracao.csv` etc.). Só o cadastro é lido.
+- **Conferir na VPS** antes da primeira rodada: (1) o mês mais recente publicado (`nomeacoes_mes`); (2) o cabeçalho de
+  `*_Cadastro.csv` (`;`, latin-1, aspas): o leitor usa `NOME`, `CPF`, `SIGLA_FUNCAO` e `ORG_LOTACAO`; (3) o formato do CPF
+  (`***.123.456-**`); (4) o valor de `SIGLA_FUNCAO` sem função (`-1` ou vazio) e a lista real de siglas, para ajustar os
+  prefixos; (5) se o endpoint exige o cabeçalho `User-Agent` do repo (já enviado por `baixar.py`) ou devolve página HTML.

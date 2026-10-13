@@ -8,5 +8,26 @@
  "percentil_comparacao": 95,
  "min_campanhas_grupo": 10,
  "quantis_metodo": "inclusive",
- "votacao_infima_fracao_eleitorado": 0.0001
+ "votacao_infima_fracao_eleitorado": 0.0001,
+ "dia_eleicao": "2026-10-04",
+ "tardio_dias": 7,
+ "tardio_pct_ultimos_dias": 0.5,
+ "pf_qtd_min": 5,
+ "pf_repetido_min_campanhas": 2,
+ "pf_valor_alto": 5000,
+ "pf_redondo_multiplo": 1000,
+ "pf_redondo_alto_min_qtd": 2,
+ "saque_termos": [
+  "SAQUE",
+  "ESPECIE",
+  "ESPÉCIE"
+ ],
+ "nomeacoes_mes": "2026-09",
+ "nomeacoes_funcoes": {"DAS": "teste", "FCPE": "teste", "CCE": "teste", "FCE": "teste", "NES": "teste"},
+ "nomeacoes_funcoes_fonte": "teste",
+ "nomeacoes_fontes": {
+  "siape": "https://exemplo.invalid/portal/{mes}",
+  "camara": null,
+  "senado": null
+ }
 }
