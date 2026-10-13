@@ -140,8 +140,10 @@ def baixar_webdav(url, dest, tamanho, opener=urllib.request.urlopen, token=TOKEN
                         ja = 0  # servidor ignorou o Range: recomeça do zero, sem concatenar
                     with open(part, "ab" if ja else "wb") as f:
                         shutil.copyfileobj(r, f)
-            except urllib.error.HTTPError:
-                raise
+            except urllib.error.HTTPError as e:
+                if e.code < 500:
+                    raise
+                log.warning("%s: servidor devolveu HTTP %s", dest.name, e.code)
             except (OSError, http.client.HTTPException) as e:
                 log.warning("%s: conexão cortada (%s)", dest.name, e)
         ja = part.stat().st_size if part.exists() else 0
