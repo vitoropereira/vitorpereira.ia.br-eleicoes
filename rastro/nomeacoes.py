@@ -63,7 +63,13 @@ def _linhas(zip_path, sufixo):
 def _ler(linhas, colunas, funcoes, base):
     avisos = {"vazio": 0, "inteiro": 0, "formato": 0}
     out = {}
+    conferido = False
     for l in linhas:
+        if not conferido:  # cabeçalho renomeado pelo Portal não pode virar base vazia em silêncio
+            faltam = [c for k, c in colunas.items() if c and k != "orgao" and c not in l]
+            if faltam:
+                raise ValueError(f"{base}: colunas ausentes no cabeçalho: {faltam}")
+            conferido = True
         sigla = (l.get(colunas["funcao"]) or "").strip() if colunas.get("funcao") else ""
         if funcoes is not None and not _comissionada(sigla, funcoes):
             continue
@@ -126,6 +132,8 @@ def main(opener=urllib.request.urlopen, hoje=None, cfg=None):
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
     cfg = cfg or json.loads(CONFIG.read_text(encoding="utf-8"))
     mes = cfg["nomeacoes_mes"].replace("-", "")
+    if not url_fonte(cfg):
+        raise SystemExit("config.json sem nomeacoes_fontes.siape: nada a baixar")
     dest = baixar.OUT / "nomeacoes" / f"{mes}_Servidores.zip"
     print(f"{dest.name}: {baixar.baixar(url_fonte(cfg), dest, opener=opener, hoje=hoje)}")
     n = gerar(dest, cfg, baixar.OUT / "nomeados.json")

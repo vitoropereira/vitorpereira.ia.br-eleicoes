@@ -236,7 +236,11 @@ def gerar(dir_contas, fornecedores_path, agregados_path, hash_path, cfg, saida, 
     idx = indice_doadores(doadores_hash) if doadores_hash is not None else None  # uma vez, não por eleito
     idx_nomeados = None
     if nomeados_path is not None and Path(nomeados_path).exists():
-        idx_nomeados = indice_nomeados(ler_json(nomeados_path))
+        env_nom = ler_json(nomeados_path)
+        if (env_nom.get("data_base") or "")[:7] != cfg["nomeacoes_mes"]:
+            log.warning("%s é de %s mas config.nomeacoes_mes=%s: rode rastro/nomeacoes.py", nomeados_path,
+                        env_nom.get("data_base"), cfg["nomeacoes_mes"])
+        idx_nomeados = indice_nomeados(env_nom)
     else:
         log.warning("sem %s: socio_ligado (nomeações) pulado", nomeados_path)
     res = {}

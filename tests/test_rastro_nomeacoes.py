@@ -67,6 +67,12 @@ class TestLerSiape(unittest.TestCase):
         self.assertIsNone(nomeacoes.cpf_meio("123.456.789-09", av))
         self.assertEqual(av["inteiro"], 1)
 
+    def test_cabecalho_renomeado_aborta(self):
+        z = montar_zip(self.td.name, '"Nome";"Documento";"SIGLA_FUNCAO"\n"A";"***.123.456-**";"FCPE"\n',
+                       zip_nome="y.zip")
+        with self.assertRaises(ValueError):
+            nomeacoes.ler_siape(z, FUNCOES)
+
     def test_membro_inesperado_aborta(self):
         z = montar_zip(self.td.name, nome="outro.csv", zip_nome="x.zip")
         with self.assertRaises(FileNotFoundError):
