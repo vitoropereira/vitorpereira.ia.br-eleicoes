@@ -1,0 +1,11 @@
+{
+ "_nota": "Tabela revisável: {DS_ORIGEM_DESPESA: [prefixos de CNAE compatíveis]}. Tipo fora da tabela ou CNAE ausente nunca dispara o indicador (na dúvida, cala). Mais prefixos = menos falsos positivos. Precisa de revisão humana antes de ir ao site.",
+ "Combustíveis e lubrificantes": ["473", "466", "4681", "4682", "4929", "495", "46"],
+ "Cessão ou locação de veículos": ["77", "49", "45"],
+ "Publicidade por materiais impressos": ["18", "17", "58", "73", "47", "82"],
+ "Publicidade por adesivos": ["18", "17", "73", "47", "82", "22"],
+ "Publicidade por jornais e revistas": ["73", "58", "60", "59", "63"],
+ "Publicidade por carros de som": ["73", "59", "77", "49", "82", "90"],
+ "Produção de jingles, vinhetas e slogans": ["59", "60", "73", "74", "82", "90"],
+ "Produção de programas de rádio, televisão ou vídeo": ["59", "60", "73", "74", "82", "90"]
+}

@@ -1,0 +1,9 @@
+{
+ "por_cnpj": {
+  "11111111000191": {"total_recebido": 90000.0, "n_campanhas": 2, "campanhas": ["1001", "9999"]},
+  "22222222000191": {"total_recebido": 50000.0, "n_campanhas": 1, "campanhas": ["1001"]},
+  "33333333000191": {"total_recebido": 501000.0, "n_campanhas": 2, "campanhas": ["1001", "1002"]}
+ },
+ "por_tipo_cargo_uf": {}, "custo_por_voto": {}, "eleitorado": {},
+ "fonte": ["https://exemplo.invalid/tse"], "data_base": "2026-10-05", "gerado_em": "2026-10-13T00:00:00+00:00"
+}

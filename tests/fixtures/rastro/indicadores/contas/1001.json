@@ -1,0 +1,19 @@
+{
+ "sq": "1001", "nome_urna": "FICTICIO UM", "cargo": "depfed", "uf": "AC", "partido": "PP",
+ "prestacao_parcial": true, "receitas": null,
+ "despesas": {
+  "total_contratado": 0, "total_pago": 0,
+  "fornecedores_pj": [
+   {"cnpj": "11111111000191", "nome": "MEI GRANDE", "cnae": "47440", "n_despesas": 1, "tipos": ["Serviços prestados por terceiros"], "total": 60000.0},
+   {"cnpj": "22222222000191", "nome": "MEI PEQUENO", "cnae": "47440", "n_despesas": 1, "tipos": ["Serviços prestados por terceiros"], "total": 50000.0},
+   {"cnpj": "33333333000191", "nome": "EMPRESA GRANDE LTDA", "cnae": "47440", "n_despesas": 1, "tipos": ["Serviços prestados por terceiros"], "total": 500000.0},
+   {"cnpj": "44444444000191", "nome": "EMPRESA NOVA LTDA", "cnae": "47440", "n_despesas": 1, "tipos": ["Serviços prestados por terceiros"], "total": 30000.0},
+   {"cnpj": "55555555000191", "nome": "EMPRESA FRONTEIRA LTDA", "cnae": "47440", "n_despesas": 1, "tipos": ["Serviços prestados por terceiros"], "total": 10000.0},
+   {"cnpj": "66666666000191", "nome": "GRAFICA COMBUSTIVEL LTDA", "cnae": "18130", "n_despesas": 1, "tipos": ["Combustíveis e lubrificantes"], "total": 20000.0},
+   {"cnpj": "77777777000191", "nome": "GRAFICA IMPRESSOS LTDA", "cnae": "18130", "n_despesas": 1, "tipos": ["Publicidade por materiais impressos"], "total": 20000.0},
+   {"cnpj": "88888888000191", "nome": "GRAFICA OUTRO LTDA", "cnae": "18130", "n_despesas": 1, "tipos": ["Serviços prestados por terceiros"], "total": 20000.0},
+   {"cnpj": "99999999000191", "nome": "SOCIEDADE COM SOCIOS LTDA", "cnae": "47440", "n_despesas": 1, "tipos": ["Serviços prestados por terceiros"], "total": 15000.0}
+  ],
+  "fornecedores_pf": {"qtd": 0, "total": 0, "por_tipo": {}}
+ }
+}

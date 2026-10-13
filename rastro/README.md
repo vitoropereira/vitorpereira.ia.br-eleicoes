@@ -36,3 +36,22 @@ Uso: `python3 rastro/cnpj.py [--mes AAAA-MM]` (baixa com cache `.lastmod` em `ra
 `cpf_mascarado` só guarda o que a Receita já publica mascarado (`***123456**`). CPF inteiro, em qualquer campo, nunca é
 gravado (nome e razão passam por `contas.limpar_texto`); sócio PJ fica sem CPF. `tests/test_rastro_cnpj.py` varre o JSON
 inteiro atrás de CPF válido.
+
+## Indicadores da Receita, parte 1 (`indicadores.py`)
+
+Funções puras, uma por indicador, no contrato `{nome, fato, valor, fonte_url, contraparte?}`:
+`mei_acima_teto`, `empresa_recem_aberta`, `atividade_incompativel` e `socio_doador`. `gerar()` lê
+`dados/contas/`, `dados/fornecedores.json`, `dados/base/agregados.json` e `brutos/doadores_hash.json` e grava
+`dados/indicadores.json` (`{"fonte", "data_base", "gerado_em", "indicadores": {"<sq>": [...]}}`). Sem o arquivo de hash,
+só o `socio_doador` é pulado (aviso no log). Uso: `python3 rastro/indicadores.py`.
+
+- **Limiares em `config.json`**: teto do MEI (R$ 81.000, LC 123/2006 art. 18-A §1º, redação da LC 155/2016; conferir se
+  há lei nova), início da campanha (2026-08-16) e janela de "recém-aberta" (365 dias; dispara com abertura depois de
+  início − 365 dias, inclusive CNPJ aberto depois do início).
+- **LGPD**: CNPJ de MEI sai mascarado (`**.***.***/0001-**`); sócio de MEI não entra no `socio_doador`. O `socio_doador` só
+  casa quando nome normalizado **e** os 6 dígitos do meio do CPF batem; o `fato` traz o nome, campanhas e total, termina
+  com "pode ser homônimo" e nunca o trecho do CPF nem o hash.
+- **Revisar `cnae_x_tipo.json`**: `{tipo de despesa (DS_ORIGEM_DESPESA): [prefixos de CNAE compatíveis]}`. O indicador só
+  dispara se todos os tipos do fornecedor que estão na tabela forem incompatíveis com o CNAE; tipo fora da tabela ou CNAE
+  ausente cala. Para cortar falso positivo, acrescente prefixos; para cobrir mais tipos, acrescente chaves. Revisão humana
+  obrigatória antes de ir ao site.

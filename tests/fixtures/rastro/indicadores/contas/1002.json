@@ -1,0 +1,11 @@
+{
+ "sq": "1002", "nome_urna": "FICTICIO DOIS", "cargo": "depest", "uf": "AC", "partido": "PSD",
+ "prestacao_parcial": true, "receitas": null,
+ "despesas": {
+  "total_contratado": 0, "total_pago": 0,
+  "fornecedores_pj": [
+   {"cnpj": "33333333000191", "nome": "EMPRESA GRANDE LTDA", "cnae": "47440", "n_despesas": 1, "tipos": ["Serviços prestados por terceiros"], "total": 1000.0}
+  ],
+  "fornecedores_pf": {"qtd": 0, "total": 0, "por_tipo": {}}
+ }
+}
