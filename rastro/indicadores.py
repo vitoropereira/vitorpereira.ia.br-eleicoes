@@ -1,4 +1,5 @@
-"""Indicadores da Receita, parte 1: mei_acima_teto, empresa_recem_aberta, atividade_incompativel, socio_doador.
+"""Indicadores da Receita, parte 1 (mei_acima_teto, empresa_recem_aberta, atividade_incompativel, socio_doador)
+e de comparação (preco_fora_da_curva, gasto_por_voto, transferencia_candidato).
 
 Funções puras, sem limiar fixo no código (tudo vem de rastro/config.json). Cada item segue o contrato
 {nome, fato, valor, fonte_url, contraparte?}. Nenhum CPF, nem trecho, vai para a saída; CNPJ de MEI sai mascarado.
@@ -6,15 +7,16 @@ Funções puras, sem limiar fixo no código (tudo vem de rastro/config.json). Ca
 import json
 import logging
 import re
+import statistics
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 try:
     from rastro.cnpj import BASE_CNPJ, _norm
-    from rastro.contas import SAIDA_AGREGADOS, SAIDA_CONTAS, SAIDA_HASH, URL_CONTAS, digitos, gravar
+    from rastro.contas import ELEITOS, SAIDA_AGREGADOS, SAIDA_CONTAS, SAIDA_HASH, URL_CONTAS, digitos, gravar
 except ImportError:  # rodado como script: python3 rastro/indicadores.py
     from cnpj import BASE_CNPJ, _norm
-    from contas import SAIDA_AGREGADOS, SAIDA_CONTAS, SAIDA_HASH, URL_CONTAS, digitos, gravar
+    from contas import ELEITOS, SAIDA_AGREGADOS, SAIDA_CONTAS, SAIDA_HASH, URL_CONTAS, digitos, gravar
 
 log = logging.getLogger("rastro.indicadores")
 AQUI = Path(__file__).resolve().parent
@@ -160,17 +162,103 @@ def socio_doador(sq, contas, fornecedores, doadores_hash, idx=None):
     return out
 
 
-def calcular(sq, contas, fornecedores, agregados, doadores_hash, cfg, cnae_x_tipo, idx=None):
-    """Itens dos quatro indicadores de um eleito; doadores_hash=None pula o socio_doador."""
+def percentil(valores, cfg):
+    """Percentil de cfg['percentil_comparacao']; None quando o grupo tem menos de cfg['min_campanhas_grupo'] campanhas."""
+    if len(valores) < cfg["min_campanhas_grupo"]:
+        return None
+    return statistics.quantiles(valores, n=100, method=cfg["quantis_metodo"])[cfg["percentil_comparacao"] - 1]
+
+
+def preco_fora_da_curva(sq, contas, eleito, agregados, cfg):
+    cargo, uf = (eleito or {}).get("cargo"), (eleito or {}).get("uf")
+    if not cargo or not uf:
+        return []
+    eleitorado = (agregados.get("eleitorado") or {}).get(uf)
+    out = []
+    for tipo, gasto in sorted((((contas or {}).get("despesas") or {}).get("por_tipo") or {}).items()):
+        grupo = (agregados.get("por_tipo_cargo_uf") or {}).get(f"{tipo}|{cargo}|{uf}") or []
+        p = percentil(grupo, cfg)
+        if p is None or gasto <= p:
+            continue
+        mil = f"; {brl(gasto / eleitorado * 1000)} por mil eleitores da UF" if eleitorado else ""
+        out.append({
+            "nome": "preco_fora_da_curva",
+            "fato": (f"Gastou {brl(gasto)} em \"{tipo}\", acima do percentil {cfg['percentil_comparacao']} "
+                     f"({brl(p)}) das {len(grupo)} campanhas de {cargo} em {uf}{mil}"),
+            "valor": gasto,
+            "fonte_url": URL_CONTAS,
+        })
+    return out
+
+
+def gasto_por_voto(sq, contas, eleito, agregados, cfg):
+    cargo, uf = (eleito or {}).get("cargo"), (eleito or {}).get("uf")
+    votos = (eleito or {}).get("votos") or 0
+    desp = (contas or {}).get("despesas")
+    if not cargo or not uf or votos <= 0 or not (contas or {}).get("prestacao_parcial") or not desp:
+        return []
+    grupo = (agregados.get("custo_por_voto") or {}).get(f"{cargo}|{uf}") or []
+    p = percentil(grupo, cfg)
+    custo = round(desp["total_contratado"] / votos, 2)
+    if p is None or custo <= p:
+        return []
+    return [{
+        "nome": "gasto_por_voto",
+        "fato": (f"Gastou {brl(custo)} por voto ({brl(desp['total_contratado'])} para {votos} votos), acima do "
+                 f"percentil {cfg['percentil_comparacao']} ({brl(p)}) das {len(grupo)} campanhas de {cargo} em {uf}"),
+        "valor": custo,
+        "fonte_url": URL_CONTAS,
+    }]
+
+
+def transferencia_candidato(sq, contas, agregados, eleitorado, cfg, fornecedores=None):
+    """Sem `fornecedores` (dados da Receita), todo fornecedor sai só pelo CNPJ mascarado."""
+    repasses = (agregados.get("repasses") or {}).get(sq) or {}
+    candidatos = agregados.get("candidatos") or {}
+    por_cnpj = agregados.get("por_cnpj") or {}
+    forn = {cnpj: f for cnpj, f in _fornecedores_pj(contas)}
+    out = []
+    for rec, valor in repasses.items():
+        info = candidatos.get(rec)
+        if not info:
+            log.warning("repasse %s -> %s sem dados do recebedor: ignorado", sq, rec)
+            continue
+        comuns = sorted(c for c in forn if rec in (por_cnpj.get(c) or {}).get("campanhas", []))
+        if not comuns:
+            continue
+        nomes = ", ".join((mascarar_cnpj(c) if fornecedores is None else _contraparte(c, forn[c], fornecedores.get(c) or {}))
+                          for c in comuns)
+        votos = info.get("votos") or 0
+        total_uf = (eleitorado or {}).get(info.get("uf"))
+        infima = bool(total_uf) and votos / total_uf < cfg["votacao_infima_fracao_eleitorado"]
+        destaque = f"; o recebedor teve {votos} votos (votação ínfima)" if infima else ""
+        out.append((infima, {
+            "nome": "transferencia_candidato",
+            "fato": (f"Repassou {brl(valor)} a {info.get('nome') or 'outro candidato'}, que usou "
+                     f"{len(comuns)} fornecedor{'es' if len(comuns) != 1 else ''} PJ em comum ({nomes}){destaque}"),
+            "valor": valor,
+            "fonte_url": URL_CONTAS,
+            "contraparte": info.get("nome") or "outro candidato",
+        }))
+    out.sort(key=lambda t: not t[0])
+    return [i for _, i in out]
+
+
+def calcular(sq, contas, fornecedores, agregados, doadores_hash, cfg, cnae_x_tipo, idx=None, eleito=None):
+    """Itens dos indicadores de um eleito; doadores_hash=None pula o socio_doador, eleito=None os de votos/cargo."""
     itens = (mei_acima_teto(sq, contas, fornecedores, agregados, cfg)
              + empresa_recem_aberta(sq, contas, fornecedores, cfg)
              + atividade_incompativel(sq, contas, fornecedores, cnae_x_tipo))
     if doadores_hash is not None:
         itens += socio_doador(sq, contas, fornecedores, doadores_hash, idx)
+    if eleito is not None:
+        itens += preco_fora_da_curva(sq, contas, eleito, agregados, cfg)
+        itens += gasto_por_voto(sq, contas, eleito, agregados, cfg)
+    itens += transferencia_candidato(sq, contas, agregados, agregados.get("eleitorado"), cfg, fornecedores)
     return itens
 
 
-def gerar(dir_contas, fornecedores_path, agregados_path, hash_path, cfg, saida, cnae_x_tipo=None):
+def gerar(dir_contas, fornecedores_path, agregados_path, hash_path, cfg, saida, cnae_x_tipo=None, eleitos_path=ELEITOS):
     cnae_x_tipo = cnae_x_tipo if cnae_x_tipo is not None else ler_json(CNAE_X_TIPO)
     env = ler_json(fornecedores_path)
     fornecedores = env["fornecedores"]
@@ -181,11 +269,16 @@ def gerar(dir_contas, fornecedores_path, agregados_path, hash_path, cfg, saida, 
         doadores_hash = None
         log.warning("sem %s: socio_doador pulado", hash_path)
     idx = indice_doadores(doadores_hash) if doadores_hash is not None else None  # uma vez, não por eleito
+    if Path(eleitos_path).exists():
+        eleitos = {e["sq"]: e for e in ler_json(eleitos_path)["eleitos"]}
+    else:
+        eleitos = {}
+        log.warning("sem %s: preco_fora_da_curva e gasto_por_voto pulados", eleitos_path)
     res = {}
     for arq in sorted(Path(dir_contas).glob("*.json")):
         contas = ler_json(arq)
         sq = str(contas.get("sq") or arq.stem)
-        itens = calcular(sq, contas, fornecedores, agregados, doadores_hash, cfg, cnae_x_tipo, idx)
+        itens = calcular(sq, contas, fornecedores, agregados, doadores_hash, cfg, cnae_x_tipo, idx, eleitos.get(sq))
         if itens:
             res[sq] = itens
     fonte = [FONTE_RECEITA, URL_CONTAS]

@@ -2,7 +2,7 @@
  "sq": "1001", "nome_urna": "FICTICIO UM", "cargo": "depfed", "uf": "AC", "partido": "PP",
  "prestacao_parcial": true, "receitas": null,
  "despesas": {
-  "total_contratado": 0, "total_pago": 0,
+  "total_contratado": 20000.0, "total_pago": 0,
   "fornecedores_pj": [
    {"cnpj": "11111111000191", "nome": "MEI GRANDE", "cnae": "47440", "n_despesas": 1, "tipos": ["Serviços prestados por terceiros"], "total": 60000.0},
    {"cnpj": "22222222000191", "nome": "MEI PEQUENO", "cnae": "47440", "n_despesas": 1, "tipos": ["Serviços prestados por terceiros"], "total": 50000.0},
@@ -14,6 +14,8 @@
    {"cnpj": "88888888000191", "nome": "GRAFICA OUTRO LTDA", "cnae": "18130", "n_despesas": 1, "tipos": ["Serviços prestados por terceiros"], "total": 20000.0},
    {"cnpj": "99999999000191", "nome": "SOCIEDADE COM SOCIOS LTDA", "cnae": "47440", "n_despesas": 1, "tipos": ["Serviços prestados por terceiros"], "total": 15000.0}
   ],
-  "fornecedores_pf": {"qtd": 0, "total": 0, "por_tipo": {}}
+  "fornecedores_pf": {"qtd": 0, "total": 0, "por_tipo": {}},
+  "por_tipo": {"Serviços prestados por terceiros": 20000.0, "Combustíveis e lubrificantes": 5000.0,
+               "Publicidade por materiais impressos": 90000.0}
  }
 }

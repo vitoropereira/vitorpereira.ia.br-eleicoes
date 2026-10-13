@@ -58,7 +58,7 @@ class TestLerCsv(unittest.TestCase):
             gen = contas.ler_csv(z, "receitas_candidatos")
             linhas = list(gen)
             self.assertEqual(os.listdir(td), ["contas.zip"])  # nada extraído
-        self.assertEqual(len(linhas), 6)  # o _AC e o doador_originario repetem linhas e ficam de fora
+        self.assertEqual(len(linhas), 7)  # o _AC e o doador_originario repetem linhas e ficam de fora
         self.assertEqual(linhas[0]["NM_DOADOR"], "EMPRESA DOADORA SA")
         con = [l for l in self._ler("despesas_contratadas_candidatos") if l["SQ_DESPESA"] == "D1"]
         self.assertEqual(con[0]["NM_FORNECEDOR"], "GRÁFICA ALFA LTDA")  # latin-1 decodificado
@@ -120,7 +120,10 @@ class TestGerar(unittest.TestCase):
         self.assertEqual(set(c), {"sq", "nome_urna", "cargo", "uf", "partido", "prestacao_parcial",
                                   "receitas", "despesas", "fonte", "data_base", "gerado_em"})
         self.assertEqual(set(c["receitas"]), {"total", "por_origem", "por_fonte", "doadores_pj", "doadores_pf"})
-        self.assertEqual(set(c["despesas"]), {"total_contratado", "total_pago", "fornecedores_pj", "fornecedores_pf"})
+        self.assertEqual(set(c["despesas"]), {"total_contratado", "total_pago", "fornecedores_pj", "fornecedores_pf",
+                                             "por_tipo"})
+        self.assertEqual(sum(c["despesas"]["por_tipo"].values()), c["despesas"]["total_contratado"])
+        self.assertEqual(c["despesas"]["por_tipo"]["Publicidade por materiais impressos"], 900.0)
         self.assertEqual(c["data_base"], "2026-10-12")  # maior DT_GERACAO (há linhas de 10/10)
         self.assertEqual(c["fonte"], [contas.URL_CONTAS])
         self.assertTrue(c["prestacao_parcial"])
@@ -174,6 +177,12 @@ class TestGerar(unittest.TestCase):
         self.assertEqual(a["data_base"], "2026-10-12")
         self.assertEqual(a["fonte"], [contas.URL_CONTAS])
         self.assertIn("gerado_em", a)
+
+    def test_repasses_entre_candidatos(self):
+        self.assertEqual(self.a["repasses"], {"1021": {"1022": 400.0}})
+        self.assertEqual(self.a["candidatos"], {"1022": {"nome": "FED NAO ELEITO", "cargo": "depfed", "uf": "AC",
+                                                         "votos": self.a["candidatos"]["1022"]["votos"]}})
+        self.assertGreater(self.a["candidatos"]["1022"]["votos"], 0)
 
     def test_hash_sem_cpf_inteiro(self):
         bruto = self.hash.read_text(encoding="utf-8")

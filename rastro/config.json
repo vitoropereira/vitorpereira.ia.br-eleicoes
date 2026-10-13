@@ -4,5 +4,9 @@
  "mei_teto_url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm",
  "campanha_inicio": "2026-08-16",
  "campanha_inicio_fonte": "Calendário eleitoral 2026 (Res. TSE): início da propaganda e da campanha em 16/08",
- "recem_aberta_dias": 365
+ "recem_aberta_dias": 365,
+ "percentil_comparacao": 95,
+ "min_campanhas_grupo": 10,
+ "quantis_metodo": "inclusive",
+ "votacao_infima_fracao_eleitorado": 0.0001
 }
