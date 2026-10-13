@@ -25,6 +25,8 @@ ELEITOS = lj("eleitos.json")
 INDS = lj("indicadores.json")
 FORN = lj("fornecedores.json")
 PUBL = lj("publicados.json")
+CORR = lj("correcoes.json")
+SAL = "sal-de-teste"
 E = {e["sq"]: e for e in ELEITOS["eleitos"]}
 BASES = {"contas": "2026-10-12", "receita": "2026-09-01"}
 
@@ -36,7 +38,7 @@ def texto(h):
 
 
 def gerar(dest, **kw):
-    args = dict(publicados=PUBL, eleitos=ELEITOS, dir_contas=FIX / "contas", indicadores=INDS, fornecedores=FORN, cfg=CFG)
+    args = dict(publicados=PUBL, eleitos=ELEITOS, dir_contas=FIX / "contas", indicadores=INDS, fornecedores=FORN, cfg=CFG, sal=SAL)
     args.update(kw)
     return pg.gerar(dest, **args)
 
@@ -49,6 +51,242 @@ def pagina_2001(contas=None, itens=None, forn=None):
     c = contas if contas is not None else json.loads((FIX / "contas" / "2001.json").read_text(encoding="utf-8"))
     return pg.html_eleito(E["2001"], c, itens if itens is not None else INDS["indicadores"]["2001"],
                           forn if forn is not None else FORN["fornecedores"], CFG, BASES)
+
+
+ID_PJ = "33333333000191"
+ID_MEI = pg.id_fornecedor("11111111000191", True, SAL)
+ID_SEM = pg.id_fornecedor("99999999000191", True, SAL)
+
+
+def agregado(cnpj):
+    """campanhas (2001 e 2002) que pagaram `cnpj`, no formato de html_fornecedor."""
+    out = []
+    for sq in ("2001", "2002"):
+        c = json.loads((FIX / "contas" / f"{sq}.json").read_text(encoding="utf-8"))
+        for f in c["despesas"]["fornecedores_pj"]:
+            if f["cnpj"] == cnpj:
+                out.append({"eleito": E[sq], "caminho": pg.caminho(E[sq]), "cnpj": cnpj, "nome": f["nome"], "total": f["total"], "tipos": f["tipos"]})
+    return out
+
+
+def pagina_forn(cnpj, mei, itens=()):
+    return pg.html_fornecedor(pg.id_fornecedor(cnpj, mei, SAL), FORN["fornecedores"].get(cnpj), agregado(cnpj), list(itens), CFG, BASES)
+
+
+class TestIdFornecedor(unittest.TestCase):
+    def test_pj_e_o_cnpj(self):
+        self.assertEqual(pg.id_fornecedor("33.333.333/0001-91", False, None), "33333333000191")
+
+    def test_mei_estavel_com_o_mesmo_sal(self):
+        a = pg.id_fornecedor("11111111000191", True, "s1")
+        self.assertEqual(a, pg.id_fornecedor("11.111.111/0001-91", True, "s1"))
+        self.assertNotEqual(a, pg.id_fornecedor("11111111000191", True, "s2"))
+        self.assertRegex(a, r"^[0-9a-f]{16}$")
+
+    def test_mei_nao_contem_cnpj(self):
+        self.assertNotIn("11111111", pg.id_fornecedor("11111111000191", True, SAL))
+
+    def test_mei_sem_sal_levanta(self):
+        for sal in (None, ""):
+            with self.assertRaises(ValueError):
+                pg.id_fornecedor("11111111000191", True, sal)
+
+    def test_ler_sal_nao_cria(self):
+        with tempfile.TemporaryDirectory() as d:
+            with self.assertRaises(ValueError):
+                pg.ler_sal(Path(d) / ".sal")
+            self.assertEqual(list(Path(d).iterdir()), [])
+
+
+class TestFornecedor(unittest.TestCase):
+    def test_mei_sem_nome_nem_cnpj_nem_socio(self):
+        h = pagina_forn("11111111000191", True)
+        for proibido in ("NOME DO MEI DONO", "11111111000191", "SOCIO DO MEI", "654321"):
+            self.assertNotIn(proibido, h)
+        self.assertIn(ind.mascarar_cnpj("11111111000191"), h)
+
+    def test_pj_com_duas_campanhas(self):
+        h = pagina_forn("33333333000191", False)
+        t = texto(h)
+        self.assertIn("EMPRESA GRANDE LTDA", t)
+        self.assertIn("2 campanha(s)", t)
+        self.assertIn(ind.brl(330000), t)
+        for sq in ("2001", "2002"):
+            self.assertIn(f'href="/{pg.caminho(E[sq])}"', h)
+        self.assertIn("BELTRANO SOCIO", t)
+        self.assertIn("Situação cadastral", t)
+
+    def test_nunca_endereco_nem_cpf_mascarado(self):
+        h = pagina_forn("33333333000191", False)
+        self.assertNotIn("RUA SECRETA", h)
+        self.assertNotIn("123456", h)
+
+    def test_obrigatorios(self):
+        for cnpj, mei in (("33333333000191", False), ("11111111000191", True)):
+            h = pagina_forn(cnpj, mei)
+            t = texto(h)
+            self.assertIn("01/09/2026", t)
+            self.assertIn("12/10/2026", t)
+            self.assertIn(pg.AVISO, t)
+            self.assertIn('href="/rastro/metodologia/"', h)
+            self.assertIn("Contestar este dado", h)
+
+    def test_homonimo_so_no_pj(self):
+        it = [{"eleito": E["2001"], "caminho": pg.caminho(E["2001"]), "nome": "socio_doador", "fato": "x", "valor": 1, "fonte_url": "https://x.invalid/"}]
+        self.assertIn("pode ser homônimo", texto(pagina_forn("33333333000191", False, it)))
+        self.assertNotIn("socio_doador", pagina_forn("11111111000191", True, it))
+
+    def test_sem_cadastro_vira_mascara(self):
+        h = pg.html_fornecedor("abc", None, agregado("11111111000191"), [], CFG, BASES)
+        self.assertNotIn("NOME DO MEI DONO", h)
+        self.assertIn("não localizado", h)
+
+
+class TestGerarFornecedores(unittest.TestCase):
+    def test_so_quem_aparece_em_publicado(self):
+        with tempfile.TemporaryDirectory() as d:
+            paths = {p["path"] for p in gerar(d)}
+        self.assertIn(f"/rastro/fornecedor/{ID_PJ}/", paths)
+        self.assertIn(f"/rastro/fornecedor/{ID_MEI}/", paths)
+        self.assertNotIn("/rastro/fornecedor/44444444000191/", paths)
+        self.assertEqual(len([p for p in paths if "/fornecedor/" in p]), 3)  # PJ, MEI e o sem cadastro (tratado como MEI)
+
+    def test_eleito_linka_fornecedor(self):
+        with tempfile.TemporaryDirectory() as d:
+            pags = {p["path"]: p["html"] for p in gerar(d)}
+        h = pags["/" + pg.caminho(E["2001"])]
+        self.assertIn(f'href="/rastro/fornecedor/{ID_PJ}/"', h)
+        self.assertIn(f'href="/rastro/fornecedor/{ID_MEI}/"', h)
+        self.assertNotIn("11111111000191", "".join(pags.values()))
+
+    def test_mei_sem_sal_nao_grava(self):
+        with tempfile.TemporaryDirectory() as d:
+            with self.assertRaises(ValueError):
+                gerar(d, sal=None)
+            self.assertEqual(arquivos(d), {})
+
+    def test_cpf_valido_em_nome_de_fornecedor_pj(self):
+        forn = copy.deepcopy(FORN)
+        forn["fornecedores"]["33333333000191"]["razao"] = "EMPRESA 529.982.247-25 LTDA"
+        with tempfile.TemporaryDirectory() as saida:
+            with self.assertRaisesRegex(ValueError, "CPF"):
+                gerar(saida, fornecedores=forn)
+            self.assertEqual(arquivos(saida), {})
+
+
+class TestHome(unittest.TestCase):
+    def home(self, **kw):
+        with tempfile.TemporaryDirectory() as d:
+            return {p["path"]: p["html"] for p in gerar(d, **kw)}["/rastro/"]
+
+    def test_conteudo(self):
+        h = self.home()
+        t = texto(h)
+        self.assertIn(pg.AVISO, t)
+        self.assertIn("12/10/2026", t)
+        self.assertIn('href="/rastro/metodologia/"', h)
+        self.assertIn("Contestar este dado", h)
+        self.assertIn("Total contratado por cargo", t)
+        self.assertIn(ind.brl(480000), t)  # depfed (2001)
+        self.assertIn(ind.brl(50000), t)  # depest (2002)
+        self.assertIn("Maiores fornecedores", t)
+        self.assertIn("Indicadores mais frequentes", t)
+        self.assertNotIn("NAO PUBLICADO", t)
+        self.assertNotIn("NOME DO MEI DONO", t)
+
+    def test_eleito_sem_contas_sem_r0(self):
+        t = texto(self.home())
+        self.assertIn("MARIA SEM CONTAS", t)
+        self.assertIn("sem prestação parcial publicada", t)
+        self.assertNotIn("R$ 0", t)
+
+    def test_top_n_vem_do_config(self):
+        cfg = copy.deepcopy(CFG)
+        cfg["home_top_n"] = 1
+        h = self.home(cfg=cfg)
+        self.assertEqual(h.count('href="/rastro/fornecedor/'), 1)
+        self.assertIn(f'href="/rastro/fornecedor/{ID_PJ}/"', h)  # o de maior valor
+
+    def test_mei_mascarado(self):
+        h = self.home()
+        self.assertIn(ind.mascarar_cnpj("11111111000191"), h)
+        self.assertNotIn("11111111000191", h)
+
+    def test_vazia(self):
+        with tempfile.TemporaryDirectory() as d:
+            h = gerar(d, publicados=[], indicadores=None, fornecedores=None)[0]["html"]
+        t = texto(h).lower()
+        self.assertIn("nenhuma página publicada ainda", t)
+        self.assertIn(pg.AVISO.lower(), t)
+        self.assertIn("contestar este dado", t)
+
+
+class TestCorrecoes(unittest.TestCase):
+    def paginas(self):
+        return [{"path": "/rastro/a/", "html": '<main><section id="contestar">x</section></main>'},
+                {"path": "/rastro/b/", "html": '<main><section id="contestar">y</section></main>'}]
+
+    def test_aplica_so_na_pagina_certa(self):
+        pags = self.paginas()
+        antes_b = pags[1]["html"]
+        pg.aplicar_correcoes(pags, [{"path": "/rastro/a/", "data": "2026-10-13", "o_que_mudou": "Valor ajustado.", "fonte_url": "https://x.invalid/f"}])
+        t = texto(pags[0]["html"])
+        self.assertIn("Correções", t)
+        self.assertIn("13/10/2026", t)
+        self.assertIn("Valor ajustado.", t)
+        self.assertIn('href="https://x.invalid/f"', pags[0]["html"])
+        self.assertEqual(pags[1]["html"], antes_b)
+
+    def test_path_inexistente_levanta(self):
+        with self.assertRaisesRegex(ValueError, "inexistente"):
+            pg.aplicar_correcoes(self.paginas(), [{"path": "/rastro/zzz/", "data": "2026-10-13", "o_que_mudou": "x"}])
+
+    def test_varre_o_texto(self):
+        for txt, esperado in (("CPF 529.982.247-25 informado por engano.", "CPF"), ("Era laranja, na verdade.", "proibido")):
+            with self.assertRaisesRegex(ValueError, esperado):
+                pg.aplicar_correcoes(self.paginas(), [{"path": "/rastro/a/", "data": "2026-10-13", "o_que_mudou": txt}])
+
+    def test_envelope_do_repo_e_valido(self):
+        pg.aplicar_correcoes(self.paginas(), json.loads((RAIZ / "rastro" / "correcoes.json").read_text(encoding="utf-8")))
+
+    def test_gerar_aplica(self):
+        with tempfile.TemporaryDirectory() as d:
+            pags = {p["path"]: p["html"] for p in gerar(d, correcoes=CORR)}
+        self.assertIn("Valor do fornecedor corrigido", pags["/" + pg.caminho(E["2001"])])
+        self.assertNotIn("Valor do fornecedor corrigido", pags["/" + pg.caminho(E["2002"])])
+
+    def test_gerar_path_errado_nao_grava(self):
+        errada = {"correcoes": [{"path": "/rastro/nao-existe/", "data": "2026-10-13", "o_que_mudou": "x"}]}
+        with tempfile.TemporaryDirectory() as d:
+            with self.assertRaises(ValueError):
+                gerar(d, correcoes=errada)
+            self.assertEqual(arquivos(d), {})
+
+    def test_metodologia_explica(self):
+        self.assertIn("Correções", texto(pg.html_metodologia(CFG)))
+
+
+class TestLote1(unittest.TestCase):
+    def test_ordem_e_tamanho(self):
+        from rastro import lote1
+        self.assertEqual(lote1.escolher(ELEITOS, INDS, 3), ["2003", "2001", "2004"])  # senador, depfed (votos), depfed
+        self.assertEqual(len(lote1.escolher(ELEITOS, INDS, 2)), 2)
+
+    def test_sem_dados_nao_grava(self):
+        from rastro import lote1
+        with tempfile.TemporaryDirectory() as d:
+            dest = Path(d) / "publicados.json"
+            self.assertEqual(lote1.main(Path(d), dest, RAIZ / "rastro" / "config.json"), 1)
+            self.assertFalse(dest.exists())
+
+    def test_grava_com_fixtures(self):
+        from rastro import lote1
+        with tempfile.TemporaryDirectory() as d:
+            for n in ("eleitos.json", "fornecedores.json", "indicadores.json"):
+                (Path(d) / n).write_text((FIX / n).read_text(encoding="utf-8"), encoding="utf-8")
+            dest = Path(d) / "publicados.json"
+            self.assertEqual(lote1.main(Path(d), dest, RAIZ / "rastro" / "config.json"), 0)
+            self.assertEqual(json.loads(dest.read_text(encoding="utf-8")), ["2003", "2001", "2004", "2002"])
 
 
 class TestCaminho(unittest.TestCase):
@@ -146,7 +384,7 @@ class TestLgpd(unittest.TestCase):
     def test_sem_publicados_nao_exige_fornecedores(self):
         with tempfile.TemporaryDirectory() as d:
             pags = gerar(d, publicados=[], indicadores=None, fornecedores=None)
-            self.assertEqual([p["path"] for p in pags], ["/rastro/metodologia/"])
+            self.assertEqual([p["path"] for p in pags], ["/rastro/", "/rastro/metodologia/"])
 
     @unittest.skipUnless((RAIZ / "site" / "rastro").exists(), "site/rastro ainda não gerado")
     def test_site_sem_cpf(self):
@@ -169,7 +407,7 @@ class TestRedacao(unittest.TestCase):
     def test_gerado(self):
         with tempfile.TemporaryDirectory() as d:
             gerar(d)
-            self.assertEqual(self.varrer(d), 4)
+            self.assertEqual(self.varrer(d), 8)
 
     def test_termo_proibido_levanta(self):
         contas = json.loads((FIX / "contas" / "2001.json").read_text(encoding="utf-8"))
@@ -247,6 +485,7 @@ class TestIsolamento(unittest.TestCase):
             gravados = set(arquivos(d))
         self.assertEqual(self.snapshot(), antes)
         self.assertEqual(gravados, {
+            "rastro/index.html", f"rastro/fornecedor/{ID_PJ}/index.html", f"rastro/fornecedor/{ID_MEI}/index.html", f"rastro/fornecedor/{ID_SEM}/index.html",
             "rastro/metodologia/index.html",
             "rastro/depfed/ma/aluisio-mendes/index.html",
             "rastro/depest/ma/jose-davila/index.html",
@@ -260,8 +499,24 @@ class TestIsolamento(unittest.TestCase):
 
 
 class TestPublicados(unittest.TestCase):
-    def test_vazio_no_repo(self):
-        self.assertEqual(json.loads((RAIZ / "rastro" / "publicados.json").read_text(encoding="utf-8")), [])
+    def publicados(self):
+        return json.loads((RAIZ / "rastro" / "publicados.json").read_text(encoding="utf-8"))
+
+    def test_tamanho_sem_repeticao_e_em_eleitos(self):
+        pub = self.publicados()
+        self.assertLessEqual(len(pub), CFG["lote_tamanho"])
+        self.assertEqual(len(pub), len(set(pub)))
+        if pub:
+            arq = RAIZ / "rastro" / "dados" / "eleitos.json"
+            sqs = {str(e["sq"]) for e in json.loads(arq.read_text(encoding="utf-8"))["eleitos"]}
+            self.assertLessEqual(set(map(str, pub)), sqs)
+
+    def test_com_contas_ou_sem_prestacao(self):
+        for sq in self.publicados():
+            if (RAIZ / "rastro" / "dados" / "contas" / f"{sq}.json").exists():
+                continue
+            h = pg.html_eleito({"sq": sq, "nome_urna": "X", "cargo": "depfed", "uf": "SP", "partido": "P"}, None, [], {}, CFG, BASES)
+            self.assertIn("sem prestação parcial publicada", texto(h))
 
     def test_config_tem_contato(self):
         self.assertRegex(CFG["contato_email"], r"^[^@\s]+@[^@\s]+\.[^@\s]+$")

@@ -110,3 +110,25 @@ As URLs ficam em `nomeacoes_fontes` (`siape` com `{mes}` = AAAAMM; `camara` e `s
   `*_Cadastro.csv` (`;`, latin-1, aspas): o leitor usa `NOME`, `CPF`, `SIGLA_FUNCAO` e `ORG_LOTACAO`; (3) o formato do CPF
   (`***.123.456-**`); (4) o valor de `SIGLA_FUNCAO` sem função (`-1` ou vazio) e a lista real de siglas, para ajustar os
   prefixos; (5) se o endpoint exige o cabeçalho `User-Agent` do repo (já enviado por `baixar.py`) ou devolve página HTML.
+
+## Páginas (`paginas.py`): home, eleito, fornecedor, correções e lote 1
+
+`python3 build_site.py` gera `site/rastro/`: a home `/rastro/`, `/rastro/metodologia/`, uma página por `sq` de `publicados.json`
+(`/rastro/<cargo>/<uf>/<slug>/`) e uma por fornecedor PJ que aparece nas contas desses eleitos (`/rastro/fornecedor/<id>/`).
+Nunca toda a base: fornecedor de eleito não publicado não gera página.
+
+- **Id do fornecedor** (`id_fornecedor`): empresa = os 14 dígitos do CNPJ; MEI (ou sem cadastro na Receita, tratado como MEI) =
+  `hmac-sha256(sal, cnpj)[:16]`. O sal é `rastro/.sal` (fora do git), só **lido** no build, nunca criado; sem ele e com MEI
+  publicado, o build falha. **Guarde um backup do `.sal`**: se ele se perder, os links de MEI mudam.
+- **O que a página do fornecedor mostra**: situação, abertura, CNAE, Simples/MEI, campanhas publicadas que o pagaram (valor
+  contratado) e os indicadores em que ele é a contraparte (com "pode ser homônimo" nos de `HOMONIMO`). Sócios só pelo nome e só de PJ;
+  em MEI, nem sócio nem razão social (só o CNPJ mascarado). Nunca `cpf_mascarado` nem `endereco_chave`.
+- **Home**: total contratado por cargo, top `home_top_n` fornecedores, eleitos publicados (quem não tem contas aparece como
+  "sem prestação parcial publicada", sem "R$ 0") e indicadores mais frequentes.
+- **Correções** (`rastro/correcoes.json`): `{fonte, data_base, gerado_em, correcoes: [{path, data, o_que_mudou, fonte_url?}]}`,
+  com `path` igual à rota publicada (ex.: `/rastro/depfed/ma/fulano/`). A página ganha a seção "Correções" com a data e o texto.
+  `path` inexistente, texto com CPF válido ou termo proibido (`varrer`) derrubam o build: nada é publicado em silêncio.
+- **Varredura**: toda página (home, fornecedores e correções incluídos) passa por `varrer` antes de qualquer gravação.
+- **Lote 1** (`lote1.py`, uso único): lê `dados/eleitos.json` e `dados/indicadores.json`, ordena por cargo, votos (desc.) e nº de
+  indicadores (desc.), e grava os `lote_tamanho` (20) primeiros em `publicados.json`. Sem `dados/fornecedores.json` ou
+  `dados/indicadores.json` ele não grava nada. A fila e os lotes diários (Issue 9b) podem substituí-lo.

@@ -19,6 +19,12 @@ class Moldura(unittest.TestCase):
         s = B.sitebar("/")
         self.assertIn("vitor", s); self.assertIn("pereira", s); self.assertIn('class="cursor"', s)
 
+    def test_menu_tem_rastro(self):
+        s = B.sitebar("/rastro/")
+        self.assertIn('<a href="/rastro/" aria-current=page>Rastro do dinheiro</a>', s)
+        self.assertNotIn("aria-current", B.sitebar("/").replace('<a href="/" aria-current=page>', ""))
+        self.assertIn('<a href="/rastro/">Rastro do dinheiro</a>', B.sitebar("/"))
+
     def test_foco_usa_brand(self):
         self.assertNotIn("var(--flavio)", B.SITE_CSS + B.MEDICAO_BODY)
 

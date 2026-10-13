@@ -1,7 +1,49 @@
 {
- "fonte": ["https://exemplo.invalid/receita"], "data_base": "2026-09-01", "gerado_em": "2026-10-13T00:00:00+00:00",
+ "fonte": [
+  "https://exemplo.invalid/receita"
+ ],
+ "data_base": "2026-09-01",
+ "gerado_em": "2026-10-13T00:00:00+00:00",
  "fornecedores": {
-  "11111111000191": {"razao": "NOME DO MEI DONO", "abertura": "2019-03-01", "situacao": "ATIVA", "cnae": "4744099", "mei": true, "simples": true, "endereco_chave": null, "socios": []},
-  "33333333000191": {"razao": "EMPRESA GRANDE LTDA", "abertura": "2010-05-05", "situacao": "ATIVA", "cnae": "4744099", "mei": false, "simples": false, "endereco_chave": null, "socios": []}
+  "11111111000191": {
+   "razao": "NOME DO MEI DONO",
+   "abertura": "2019-03-01",
+   "situacao": "ATIVA",
+   "cnae": "4744099",
+   "mei": true,
+   "simples": true,
+   "endereco_chave": null,
+   "socios": [
+    {
+     "nome": "SOCIO DO MEI",
+     "cpf_mascarado": "***654321**"
+    }
+   ]
+  },
+  "33333333000191": {
+   "razao": "EMPRESA GRANDE LTDA",
+   "abertura": "2010-05-05",
+   "situacao": "ATIVA",
+   "cnae": "4744099",
+   "mei": false,
+   "simples": false,
+   "endereco_chave": "RUA SECRETA 1",
+   "socios": [
+    {
+     "nome": "BELTRANO SOCIO",
+     "cpf_mascarado": "***123456**"
+    }
+   ]
+  },
+  "44444444000191": {
+   "razao": "SO DO NAO PUBLICADO LTDA",
+   "abertura": "2012-01-01",
+   "situacao": "ATIVA",
+   "cnae": "4744099",
+   "mei": false,
+   "simples": false,
+   "endereco_chave": null,
+   "socios": []
+  }
  }
 }
