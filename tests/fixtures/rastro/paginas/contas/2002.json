@@ -1,4 +1,58 @@
 {
- "sq": "2002", "nome_urna": "JOSÉ D'ÁVILA", "cargo": "depest", "uf": "MA", "partido": "PT", "cnpj_prestador": null,
- "prestacao_parcial": false, "receitas": null, "despesas": null
+ "sq": "2002",
+ "nome_urna": "JOSÉ D'ÁVILA",
+ "cargo": "depest",
+ "uf": "MA",
+ "partido": "PT",
+ "cnpj_prestador": "12345678000196",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 100000.0,
+  "por_origem": {
+   "Recursos de partido político": 100000.0
+  },
+  "por_fonte": {},
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0
+  }
+ },
+ "despesas": {
+  "total_contratado": 50000.0,
+  "total_pago": 40000.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "33333333000191",
+    "nome": "EMPRESA GRANDE LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "11111111000191",
+    "nome": "NOME DO MEI DONO",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 0,
+   "total": 0,
+   "por_tipo": {},
+   "valores": []
+  },
+  "por_tipo": {
+   "Serviços prestados por terceiros": 50000.0
+  },
+  "pago_por_dia": null
+ },
+ "data_base": "2026-10-12"
 }

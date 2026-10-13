@@ -19,7 +19,7 @@ GA_ID = "G-N6J962GXT3"
 CLARITY_ID = "tp8n6kanob"
 PRIVACIDADE = "https://vitorpereira.ia.br/privacidade"
 NOME_EXIBICAO = {"Flavio Bolsonaro": "Flávio Bolsonaro"}  # o TSE publica sem acento
-CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+CHROME = next((c for c in ("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome", "/usr/bin/google-chrome") if Path(c).exists()), "google-chrome")
 # "Pessoas agora" no HUD (presença no Supabase Realtime, hud/presenca.js). A publishable key é PÚBLICA por desenho:
 # vai para o navegador de todo visitante e só faz o que o papel anon pode fazer. Nunca pôr aqui service_role/secret
 # (tests/test_hud.py confere o prefixo sb_publishable_).
@@ -161,7 +161,7 @@ def com_medicao(dom):
 
 
 def sitebar(atual):
-    links = [("/", "Resultado final"), ("/ao-vivo/", "Ao vivo"), ("/analise/", "Análise"), ("/apuracao/", "Histórico da apuração"), ("/#metodo", "Método e fontes")]
+    links = [("/", "Resultado final"), ("/ao-vivo/", "Ao vivo"), ("/analise/", "Análise"), ("/rastro/", "Rastro do dinheiro"), ("/apuracao/", "Histórico da apuração"), ("/#metodo", "Método e fontes")]
     nav = "".join(f'<a href="{u}"{" aria-current=page" if u == atual else ""}>{t}</a>' for u, t in links)
     return (f'<a class="skip" href="#conteudo">Pular para o conteúdo</a><header class="sitebar"><div class="in">'
             f'<a class="brand" href="/" aria-label="Eleições 2026, por Vitor Pereira">'
@@ -584,10 +584,19 @@ def rastro_publicar(dest, publicado, modificado, moldura=True):
                   for i, (n, h) in enumerate([("Início", "/")] + p["crumbs"], 1)]}]
         return com_medicao(montar_pagina(p["html"], p["titulo"], p["desc"], p["path"], "/og/index.png", ld, publicado, modificado, "/rastro/", moldura=moldura))
 
-    pags = rp.gerar(dest, lj(R / "rastro" / "publicados.json") or [], lj(dados / "eleitos.json") or {"eleitos": []}, dados / "contas",
-                    lj(dados / "indicadores.json"), lj(dados / "fornecedores.json"),
-                    json.loads((R / "rastro" / "config.json").read_text(encoding="utf-8")), envolver)
-    return [(p["path"], modificado, "0.5" if p["path"].endswith("/metodologia/") else "0.4") for p in pags]
+    publicados = lj(R / "rastro" / "publicados.json") or []
+    forn = lj(dados / "fornecedores.json")
+    sal = rp.ler_sal() if publicados and rp.SAL.exists() else None  # só lido, nunca criado aqui; gerar exige quando há MEI
+    pags = rp.gerar(dest, publicados, lj(dados / "eleitos.json") or {"eleitos": []}, dados / "contas",
+                    lj(dados / "indicadores.json"), forn,
+                    json.loads((R / "rastro" / "config.json").read_text(encoding="utf-8")), envolver,
+                    correcoes=lj(R / "rastro" / "correcoes.json"), sal=sal)
+
+    def prioridade(path):
+        if path == "/rastro/":
+            return "0.6"
+        return "0.5" if path.endswith("/metodologia/") else "0.3" if path.startswith("/rastro/fornecedor/") else "0.4"
+    return [(p["path"], modificado, prioridade(p["path"])) for p in pags]
 
 
 def main():
