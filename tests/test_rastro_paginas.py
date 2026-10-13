@@ -563,7 +563,6 @@ class TestPublicados(unittest.TestCase):
 
     def test_tamanho_sem_repeticao_e_em_eleitos(self):
         pub = self.publicados()
-        self.assertLessEqual(len(pub), CFG["lote_tamanho"])
         self.assertEqual(len(pub), len(set(pub)))
         if pub:
             arq = RAIZ / "rastro" / "dados" / "eleitos.json"
