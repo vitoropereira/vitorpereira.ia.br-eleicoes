@@ -13,22 +13,24 @@ Lê só os CNPJs que aparecem em `fornecedores_pj` de `rastro/dados/contas/<sq>.
                              "endereco_chave", "socios": [{"nome", "cpf_mascarado"}]}}}
 ```
 
-Uso: `python3 rastro/cnpj.py [--mes AAAA-MM]` (baixa com cache `.lastmod` em `rastro/brutos/cnpj/<AAAA-MM>/`; nunca em 25/10).
+Uso: `python3 -m rastro.cnpj --baixar [--mes AAAA-MM]`. Sem `--mes`, usa o mês mais recente que aparece na listagem da
+Receita. Sem `--baixar`, só processa ZIPs já presentes em `rastro/brutos/cnpj/<AAAA-MM>/` (`--mes` obrigatório, sem rede).
+**Nunca rodar perto de 25/10** (trava no dia da apuração, antes de qualquer rede).
 
-### Resultado do spike (consulta em 2026-10-13)
+### Caminho verificado: WebDAV público da Receita
 
-- **URL:** compartilhamento Nextcloud do SERPRO, `https://arquivos.receitafederal.gov.br/index.php/s/YggdBLfdninEJX9`
-  (token público, sem login). Download por `.../download?path=/AAAA-MM&files=<arquivo>.zip`.
-  A listagem antiga (`/dados/cnpj/dados_abertos_cnpj/`) dá 404.
-- **Não verificado por script:** nesta consulta o ambiente de execução devolveu corpo vazio (HTTP 200, 0 bytes) tanto no
-  WebDAV (`/public.php/webdav/`) quanto na página do compartilhamento, então a listagem de pastas, o token e o mês mais
-  recente **precisam ser conferidos na VPS** antes da primeira rodada. Se o token mudou, ajuste `BASE_CNPJ` e `MES_PADRAO`
-  em `cnpj.py`.
-- **Escolha: (a)**, base inteira em streaming (`Empresas0-9`, `Estabelecimentos0-9`, `Socios0-9`, `Simples`), filtrando
-  pelo conjunto de CNPJs-alvo. Motivo: é GET simples sem captcha, a API pública (opção b, 1 req/s) levaria horas para
-  dezenas de milhares de CNPJs e traria sócios sem a mesma máscara. Custo: cerca de 6 GB de ZIPs por mês de referência
-  (a VPS tem cerca de 30 GB); apague `rastro/brutos/cnpj/<mês anterior>/` depois de gerar.
-- **Plano B (b):** se (a) falhar, BrasilAPI `/api/cnpj/v1/{cnpj}` com cache em `rastro/brutos/cnpj_api/<cnpj>.json` e
+- **Origem:** compartilhamento Nextcloud do SERPRO, via WebDAV: `https://arquivos.receitafederal.gov.br/public.php/webdav/<AAAA-MM>/`,
+  autenticação básica com usuário `YggdBLfdninEJX9` (o token do compartilhamento, público por desenho) e senha vazia. A URL
+  `index.php/s/.../download` devolve HTML, não o ZIP. Em 13/10 havia as pastas de 2026-06 a 2026-09.
+- **Como baixa:** `PROPFIND` (Depth 1) lista meses e tamanhos (`getcontentlength`); os 31 ZIPs (`Estabelecimentos0-9`,
+  `Empresas0-9`, `Socios0-9`, `Simples`) vêm **um a um**, nessa ordem: baixa em `<arq>.zip.part`, confere o tamanho e o `PK`,
+  processa em streaming, apaga, e só então o próximo. Falta de arquivo na listagem aborta antes de baixar.
+- **Espaço:** 7,8 GB baixados em sequência, mas o pico no disco é o do maior arquivo (cerca de 2,2 GB). O script exige
+  2× o maior livre (cerca de 4,5 GB) antes de começar e aborta sem nenhum GET se não houver.
+- **Tempo:** depende da banda; algo como 15 a 60 minutos para 7,8 GB a 20–80 Mbit/s, mais o processamento.
+- **Retomada:** corte de conexão é retentado até 3 vezes com `Range`; se o processo morrer, rodar de novo continua do `.part`.
+  Erro HTTP (inclusive 401 de token trocado: ajuste `TOKEN` em `cnpj.py`) não é retentado.
+- **Plano B (b):** se a Receita sair do ar, BrasilAPI `/api/cnpj/v1/{cnpj}` com cache em `rastro/brutos/cnpj_api/<cnpj>.json` e
   `time.sleep(1)` entre chamadas; seria um leitor novo no lugar de `ler_zip`, com a mesma saída.
 
 ### LGPD
