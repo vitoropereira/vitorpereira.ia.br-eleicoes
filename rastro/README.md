@@ -164,7 +164,7 @@ python3 -m rastro.anteriores            # com os ZIPs já em rastro/brutos/
   lote 1. Inclui os já publicados; quem filtra é `publicados.json`. Sai com 1 se faltarem `eleitos.json` ou `indicadores.json`.
 - `rastro/lote.py` (`--dry-run` só imprime): move os próximos `lote_diario_tamanho` (15) `sq` ainda não publicados para
   `publicados.json`, roda `build_site.py`, cria a branch `rastro/lote-AAAA-MM-DD` a partir de `origin/main`, commita só
-  `publicados.json`, `fila.json` e `site/rastro/`, dá push e abre o PR "Rastro: lote AAAA-MM-DD". Nunca faz merge nem deploy:
+  `publicados.json`, `fila.json` e `site/` (o build também muda `sitemap.xml` e `llms.txt`; assim a árvore termina limpa), dá push e abre o PR "Rastro: lote AAAA-MM-DD". Nunca faz merge nem deploy:
   o merge do PR é a publicação. Recusa árvore suja e branch do dia já existente. Precisa de `gh` logado com permissão de push.
 - **Trava**: de `trava_inicio` a `trava_fim` (23 a 26/10/2026, inclusive, em `config.json`) o `lote.py` sai com código 2 antes de
   qualquer comando. A trava está no Python, então vale também para quem rodar à mão.

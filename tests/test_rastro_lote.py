@@ -113,6 +113,10 @@ class TestLote(unittest.TestCase):
         self.assertIn(["git", "checkout", "-b", "rastro/lote-2026-10-14", "origin/main"], cmds)
         self.assertIn(["git", "add", *lote.CAMINHOS_GIT], cmds)
         self.assertFalse(any("-A" in c or "." in c for c in cmds if c[:2] == ["git", "add"]))
+        # O build muda site/sitemap.xml e site/llms.txt: precisam ir no commit, senão a árvore fica suja.
+        add = next(c for c in cmds if c[:2] == ["git", "add"])
+        self.assertIn("site/", add)
+        self.assertLess(cmds.index(["python3", "build_site.py"]), cmds.index(add))
         self.assertFalse(any(c[:2] == ["gh", "pr"] and "merge" in c for c in cmds))
         pr = next(c for c in cmds if c[:3] == ["gh", "pr", "create"])
         self.assertEqual(pr[pr.index("--title") + 1], "Rastro: lote 2026-10-14")

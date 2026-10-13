@@ -3,7 +3,7 @@
 Fluxo: trava de data (config.json: trava_inicio..trava_fim, inclusive) -> árvore limpa e branch do dia inexistente ->
 branch rastro/lote-AAAA-MM-DD a partir de origin/main -> regenera fila.json -> move os próximos `lote_diario_tamanho` sq
 (que não estão em publicados.json) para publicados.json -> build_site.py -> commit só de publicados.json, fila.json e
-site/rastro/ -> push -> gh pr create. Nunca faz merge nem deploy: o merge do PR pelo Vitor é a publicação.
+site/ (o build também muda sitemap.xml e llms.txt) -> push -> gh pr create. Nunca faz merge nem deploy: o merge do PR pelo Vitor é a publicação.
 Sem rede além de `git push` e `gh`. `--dry-run` imprime o lote e os comandos sem gravar nada.
 
 Uso: python3 rastro/lote.py [--dry-run]
@@ -20,7 +20,9 @@ if str(AQUI.parent) not in sys.path:
 
 from rastro import fila as fila_mod  # noqa: E402
 
-CAMINHOS_GIT = ["rastro/publicados.json", "rastro/fila.json", "site/rastro/"]
+# O build reescreve fora de site/rastro/ (sitemap.xml, llms.txt, og/...): tudo em site/ entra no lote,
+# senão o PR sai sem as páginas novas no sitemap e a árvore fica suja no dia seguinte.
+CAMINHOS_GIT = ["rastro/publicados.json", "rastro/fila.json", "site/"]
 
 
 def travado(hoje, cfg=None):
@@ -70,6 +72,7 @@ def main(hoje=None, raiz=AQUI.parent, executar=subprocess.run, dry_run=False):
     def desfazer():
         # Volta ao main e descarta a branch do dia (nada foi publicado: o push ou o PR é que publicam).
         rodar(["git", "reset", "--hard"])
+        rodar(["git", "clean", "-fd", "--", *CAMINHOS_GIT])  # arquivos novos do build não são desfeitos pelo reset
         rodar(["git", "checkout", "main"])
         rodar(["git", "branch", "-D", branch])
 
