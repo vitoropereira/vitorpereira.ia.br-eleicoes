@@ -1,0 +1,181 @@
+{
+ "sq": "240002537811",
+ "nome_urna": "MARQUITO",
+ "cargo": "depest",
+ "uf": "SC",
+ "partido": "PSOL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1095649.09,
+  "por_origem": {
+   "Recursos de outros candidatos": 2701.76,
+   "Recursos de partido político": 1047147.33,
+   "Recursos de pessoas físicas": 5800.0,
+   "Recursos próprios": 40000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1047147.33,
+   "OUTROS RECURSOS": 48501.76
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "06954942000195",
+    "nome": "Direção Nacional - PSOL",
+    "total": 1047147.33
+   },
+   {
+    "cnpj": "68530897000107",
+    "nome": "GELSON LUIZ MERISIO",
+    "total": 2701.76
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 45800.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 670294.7,
+  "total_pago": 339186.6,
+  "fornecedores_pj": [
+   {
+    "cnpj": "04137442000135",
+    "nome": "GL EDITORA GRAFICA LTDA",
+    "cnae": "58212",
+    "n_despesas": 18,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 58071.5
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 51500.0
+   },
+   {
+    "cnpj": "72186026000187",
+    "nome": "CARIMBOS E GRAFICA AVENIDA IND. COM. SERV. LTDA",
+    "cnae": "32990",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23630.0
+   },
+   {
+    "cnpj": "00619814000109",
+    "nome": "LV PRODUCOES LTDA",
+    "cnae": "96092",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 22480.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 21380.0
+   },
+   {
+    "cnpj": "22265337000163",
+    "nome": "MONGUILHOTT SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 8500.0
+   },
+   {
+    "cnpj": "55578476000104",
+    "nome": "DEMOKRATIA CONTABILIDADE PARTIDARIA E ELEITORAL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 8500.0
+   },
+   {
+    "cnpj": "15705697000173",
+    "nome": "EVAG COMUNICACAO E TECNOLOGIA LTDA.",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "56209250000190",
+    "nome": "56.209.250 LEILEN MONTI",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "37345982000163",
+    "nome": "AR UNIFORMES LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5800.0
+   },
+   {
+    "cnpj": "12450328000199",
+    "nome": "12.450.328 CHRISTIAN MUHLBACH",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "43702140000114",
+    "nome": "AMANDA DUARTE EVENTOS E IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 600.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 73,
+   "total": 455733.2,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 130380.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 96.6,
+    "Locação/cessão de bens imóveis": 21336.6,
+    "Produção de jingles, vinhetas e slogans": 10000.0,
+    "Serviços prestados por terceiros": 293920.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,91 @@
+{
+ "sq": "140002540462",
+ "nome_urna": "ANTONIO DOIDO",
+ "cargo": "depfed",
+ "uf": "PA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2860000.0,
+  "por_origem": {
+   "Recursos de partido político": 2850000.0,
+   "Recursos de pessoas físicas": 10000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2850000.0,
+   "OUTROS RECURSOS": 10000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 2850000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 10000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 664950.5,
+  "total_pago": 0.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "17620604000133",
+    "nome": "T. P. MONTENEGRO GRAFICA LTDA",
+    "cnae": "58115",
+    "n_despesas": 14,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 211800.0
+   },
+   {
+    "cnpj": "54561564000122",
+    "nome": "PRODUTORA PIP LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68390443000170",
+    "nome": "EGIDE PARTICIPACOES LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "11847388000187",
+    "nome": "ABEJET COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 46450.5
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 11,
+   "total": 256700.0,
+   "por_tipo": {
+    "Despesas com pessoal": 106700.0,
+    "Locação/cessão de bens imóveis": 10000.0,
+    "Serviços advocatícios": 40000.0,
+    "Serviços contábeis": 100000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

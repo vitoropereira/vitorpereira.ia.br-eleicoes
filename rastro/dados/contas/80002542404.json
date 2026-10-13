@@ -1,0 +1,239 @@
+{
+ "sq": "80002542404",
+ "nome_urna": "MARCELO SANTOS",
+ "cargo": "depfed",
+ "uf": "ES",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2545034.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 2057.0,
+   "Recursos de partido político": 2363337.0,
+   "Recursos de pessoas físicas": 110000.0,
+   "Recursos próprios": 69640.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2365394.0,
+   "OUTROS RECURSOS": 179640.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 2363337.0
+   },
+   {
+    "cnpj": "68599459000197",
+    "nome": "RICARDO DE REZENDE FERRACO",
+    "total": 2057.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 38,
+   "total": 179640.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 693010.66,
+  "total_pago": 302558.87,
+  "fornecedores_pj": [
+   {
+    "cnpj": "27252147000125",
+    "nome": "GRAFICA E EDITORA JEP LTDA",
+    "cnae": "58298",
+    "n_despesas": 15,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 131660.0
+   },
+   {
+    "cnpj": "26641786000110",
+    "nome": "MARCELO NUNES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "19881319000100",
+    "nome": "V. P. SOLUCAO E IMPRESSAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 45755.0
+   },
+   {
+    "cnpj": "01834552000168",
+    "nome": "FAZ TUDO PROMOCIONAL LTDA",
+    "cnae": "47555",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26100.0
+   },
+   {
+    "cnpj": "37826380000128",
+    "nome": "MORED ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "46425359000101",
+    "nome": "DATABOX LTDA",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "38217880000125",
+    "nome": "ILHA BUFFET EVENTOS LTDA",
+    "cnae": "90035",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "37456410000151",
+    "nome": "ALL SERV COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 9530.0
+   },
+   {
+    "cnpj": "51343914000196",
+    "nome": "ACADEMICA PROMOVE LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 9200.0
+   },
+   {
+    "cnpj": "27294214000174",
+    "nome": "GRAFICA E PAPELARIA CRICARE LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7650.0
+   },
+   {
+    "cnpj": "39870817000156",
+    "nome": "CORSAIR AVIATION DISTRIBUIDORA DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6187.67
+   },
+   {
+    "cnpj": "15250495000184",
+    "nome": "TX COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2250.0
+   },
+   {
+    "cnpj": "27424746000189",
+    "nome": "CACADORES CARNAVALESCOS CLUBE",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "41681284000106",
+    "nome": "41.681.284 LORENA PESSOTI DE JESUS MARQUES",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "61126176000189",
+    "nome": "99 CODE APPS DIGITAL SOLUTIONS LTDA",
+    "cnae": "62023",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "63818813000103",
+    "nome": "ALX INDUSTRIA LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 298.0
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 90,
+   "total": 236639.99,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 172139.99,
+    "Despesas com pessoal": 4500.0,
+    "Locação/cessão de bens imóveis": 60000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

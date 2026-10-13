@@ -1,0 +1,97 @@
+{
+ "sq": "250002536419",
+ "nome_urna": "BRUNO ZAMBELLI",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 962409.04,
+  "por_origem": {
+   "Recursos de partido político": 962409.04
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 950000.0,
+   "FUNDO PARTIDARIO": 4727.62,
+   "OUTROS RECURSOS": 7681.42
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 950000.0
+   },
+   {
+    "cnpj": "08701595000114",
+    "nome": "Direção Estadual/Distrital - PL - SÃO PAULO",
+    "total": 12409.04
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 313844.5,
+  "total_pago": 66474.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "34875592000107",
+    "nome": "JONATHAS C. PALMEIRA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 72500.0
+   },
+   {
+    "cnpj": "44405247000163",
+    "nome": "SACS ASSESSORIA CONTABIL E AUDITORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "57779181000113",
+    "nome": "AALF ADESIVOS LTDA",
+    "cnae": "47598",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 24900.0
+   },
+   {
+    "cnpj": "02299603000161",
+    "nome": "PRINTMAX COMERCIO E SERVICOS E CONFECCAO DE ETIQUETAS LTDAME",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 39,
+   "total": 162244.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 128352.0,
+    "Despesas com pessoal": 21168.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.5,
+    "Locação/cessão de bens imóveis": 4221.0,
+    "Produção de jingles, vinhetas e slogans": 8500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

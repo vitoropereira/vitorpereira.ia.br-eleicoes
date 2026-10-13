@@ -1,0 +1,141 @@
+{
+ "sq": "90002543157",
+ "nome_urna": "GRACIELE DA ARTE TRIGO",
+ "cargo": "depest",
+ "uf": "GO",
+ "partido": "AGIR",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1103250.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 7750.0,
+   "Recursos de pessoas físicas": 975500.0,
+   "Recursos próprios": 120000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 1103250.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68470445000179",
+    "nome": "ADRIANO ANTONIO AVELAR",
+    "total": 7750.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 8,
+   "total": 1095500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 633517.87,
+  "total_pago": 502907.87,
+  "fornecedores_pj": [
+   {
+    "cnpj": "00629384000106",
+    "nome": "JEAN CLAUDE GONTIJO DE MOURA",
+    "cnae": "82199",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 58500.0
+   },
+   {
+    "cnpj": "64433090000197",
+    "nome": "GAB INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 43100.0
+   },
+   {
+    "cnpj": "52613723000160",
+    "nome": "YELOW COMUNICACAO VISUAL LTDA",
+    "cnae": "20916",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 41580.0
+   },
+   {
+    "cnpj": "35109227000154",
+    "nome": "FLY BANNER IMPRESSAO DIGITAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 38970.0
+   },
+   {
+    "cnpj": "40200797000195",
+    "nome": "MANGABEIRA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 9767.87
+   },
+   {
+    "cnpj": "15255486000186",
+    "nome": "REAL CONTAINER LTDA",
+    "cnae": "77322",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "48590163000106",
+    "nome": "MV PRODUCOES E EVENTOS LTDA",
+    "cnae": "42928",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "01765673000103",
+    "nome": "AUTOMOVEL CLUBE DE ANAPOLIS",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 7000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 311,
+   "total": 394600.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 228600.0,
+    "Despesas com pessoal": 66000.0,
+    "Serviços advocatícios": 50000.0,
+    "Serviços contábeis": 50000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

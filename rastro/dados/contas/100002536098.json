@@ -1,0 +1,266 @@
+{
+ "sq": "100002536098",
+ "nome_urna": "HILDO ROCHA",
+ "cargo": "depfed",
+ "uf": "MA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2524000.0,
+  "por_origem": {
+   "Recursos de partido político": 2415000.0,
+   "Recursos de pessoas físicas": 23000.0,
+   "Recursos próprios": 86000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2350000.0,
+   "OUTROS RECURSOS": 174000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 2415000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 109000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1457122.1,
+  "total_pago": 1114104.81,
+  "fornecedores_pj": [
+   {
+    "cnpj": "04177546000173",
+    "nome": "NEW AVIATION LTDA",
+    "cnae": "77195",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 486000.0
+   },
+   {
+    "cnpj": "06933485000152",
+    "nome": "HERINGER TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "26467117000173",
+    "nome": "D G M RIBEIRO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "17668873000170",
+    "nome": "ERIC GUIMARAES ARAUJO",
+    "cnae": "18130",
+    "n_despesas": 14,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 58725.0
+   },
+   {
+    "cnpj": "47232987000133",
+    "nome": "J G S CUTRIM CONSULTORIA SERVICOS",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 50772.0
+   },
+   {
+    "cnpj": "40141139000170",
+    "nome": "ELEITORAL CONTABIL GESTAO PUBLICA PARTIDARIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 32990.0
+   },
+   {
+    "cnpj": "37394652000168",
+    "nome": "ETCETERA COMERCIO SERVICO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 29100.0
+   },
+   {
+    "cnpj": "04496308000120",
+    "nome": "G CARLOS NUNES",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23950.0
+   },
+   {
+    "cnpj": "03598276000101",
+    "nome": "IMPERAVEL IMPERATRIZ VEICULOS E LOCADORA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20028.2
+   },
+   {
+    "cnpj": "30904036000160",
+    "nome": "MARVI INVESTIMENTOS LTDA",
+    "cnae": "66193",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20028.2
+   },
+   {
+    "cnpj": "51494403000175",
+    "nome": "NARJARA FILMES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "59650392000187",
+    "nome": "L F B GOMES LTDA",
+    "cnae": "45129",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "66057360000138",
+    "nome": "SUCESSO IMPRESSOES DIGITAIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16100.0
+   },
+   {
+    "cnpj": "12125791000165",
+    "nome": "L S COMERCIO E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 13000.0
+   },
+   {
+    "cnpj": "00853050000111",
+    "nome": "MARIA DO SOCORRO RODRIGUES DE LIMA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "12928831000107",
+    "nome": "SAAD EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "66510768000113",
+    "nome": "SAMIR SAAD SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "02928725000170",
+    "nome": "A C L DE SOUSA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "35158716000104",
+    "nome": "CRISLENA INDUSTRIA E COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6400.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 29,
+   "total": 175028.7,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 54000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 28.7,
+    "Serviços prestados por terceiros": 116000.0,
+    "Serviços próprios prestados por terceiros": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

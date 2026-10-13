@@ -1,0 +1,229 @@
+{
+ "sq": "200002533880",
+ "nome_urna": "NINA",
+ "cargo": "depfed",
+ "uf": "RN",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2424487.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 87.0,
+   "Recursos de partido político": 2400000.0,
+   "Recursos de pessoas físicas": 21400.0,
+   "Recursos próprios": 3000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2400087.0,
+   "OUTROS RECURSOS": 24400.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2400000.0
+   },
+   {
+    "cnpj": "68306459000151",
+    "nome": "GETULIO NUNES DO REGO",
+    "total": 87.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 24400.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1064253.91,
+  "total_pago": 892950.11,
+  "fornecedores_pj": [
+   {
+    "cnpj": "14302498000151",
+    "nome": "ENRIQUE ROBLEDO",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "09199046000156",
+    "nome": "BARROS, MARIZ REBOUCAS ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "24198335000124",
+    "nome": "AUDICONT CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 58000.0
+   },
+   {
+    "cnpj": "17340447000102",
+    "nome": "MARICLEYDSON COSTA DA SILVA LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 45400.0
+   },
+   {
+    "cnpj": "37717156000106",
+    "nome": "MARILIA REIS DE MOURA LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 31450.0
+   },
+   {
+    "cnpj": "66472356000136",
+    "nome": "3 D COMERCIO SERVICO LTDA",
+    "cnae": "46451",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 25800.0
+   },
+   {
+    "cnpj": "03699363000155",
+    "nome": "TONY BARRETO NEGOCIOS SERVICOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "31098830000127",
+    "nome": "PAPEL VINIL SERVICOS DE IMPRESSAO DIGITAL LTDA",
+    "cnae": "82997",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "06915826000167",
+    "nome": "V FERNANDES BARBOSA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18500.0
+   },
+   {
+    "cnpj": "09643897000146",
+    "nome": "ERO LOCACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7840.0
+   },
+   {
+    "cnpj": "21597589000127",
+    "nome": "J H N DE MELO LTDA",
+    "cnae": "78205",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "10940322000174",
+    "nome": "BETHOVEN E JUBILEU LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "40480636000100",
+    "nome": "F S M DE SOUSA COMUNICACAO VISUAL",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3390.0
+   },
+   {
+    "cnpj": "35298330000513",
+    "nome": "JVC COMERCIAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2392.55
+   },
+   {
+    "cnpj": "70142310000398",
+    "nome": "MINERACAO CUNHA COMERCIO LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1206.0
+   },
+   {
+    "cnpj": "15160493000102",
+    "nome": "CAMARA CASCUDO COMERCIO DE ATACADO LTDA",
+    "cnae": "46478",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 948.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 59,
+   "total": 391327.36,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 62661.48,
+    "Cessão ou locação de veículos": 44200.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 5.2,
+    "Serviços prestados por terceiros": 284460.68
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,122 @@
+{
+ "sq": "180002534820",
+ "nome_urna": "WILSON CAPOTE",
+ "cargo": "depest",
+ "uf": "PI",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 450850.02,
+  "por_origem": {
+   "Recursos de partido político": 150000.0,
+   "Recursos de pessoas físicas": 210850.02,
+   "Recursos próprios": 90000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 150000.0,
+   "OUTROS RECURSOS": 300850.02
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 150000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 10,
+   "total": 300850.02
+  }
+ },
+ "despesas": {
+  "total_contratado": 369550.02,
+  "total_pago": 450850.02,
+  "fornecedores_pj": [
+   {
+    "cnpj": "58330214000106",
+    "nome": "L NORTE MULTIPLATAFORMA DE COMUNICACAO LTDA",
+    "cnae": "60217",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "15827503000102",
+    "nome": "GUMERCINDO GOMES DE ARAUJO NETO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "30193806000104",
+    "nome": "TIAGO S DA SILVA",
+    "cnae": "38114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "33189717000182",
+    "nome": "I. S. BARROS CONTABILIDADE",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "68286379000181",
+    "nome": "JB GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18800.0
+   },
+   {
+    "cnpj": "59550151000247",
+    "nome": "AGRICOLANDIA PETROLEO COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 13500.02
+   },
+   {
+    "cnpj": "29903738000140",
+    "nome": "POUSADA CIDADE NOVA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 2000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 5,
+   "total": 100250.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 40000.0,
+    "Diversas a especificar": 5250.0,
+    "Locação/cessão de bens imóveis": 5000.0,
+    "Serviços advocatícios": 50000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

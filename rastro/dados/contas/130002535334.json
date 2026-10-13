@@ -1,0 +1,228 @@
+{
+ "sq": "130002535334",
+ "nome_urna": "LELECO PIMENTEL",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 463932.84,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 4868.15,
+   "Recursos de outros candidatos": 68363.5,
+   "Recursos de partido político": 315486.4,
+   "Recursos de pessoas físicas": 51500.0,
+   "Recursos próprios": 23714.79
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 327863.5,
+   "OUTROS RECURSOS": 136069.34
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265500.0
+   },
+   {
+    "cnpj": "68345702000140",
+    "nome": "JOAO CARLOS SIQUEIRA",
+    "total": 65363.5
+   },
+   {
+    "cnpj": "16847535000132",
+    "nome": "Direção Estadual/Distrital - PT - MINAS GERAIS",
+    "total": 49986.4
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 4868.15
+   },
+   {
+    "cnpj": "68345483000108",
+    "nome": "ROGERIO CORREIA DE MOURA BAPTISTA",
+    "total": 3000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 75214.79
+  }
+ },
+ "despesas": {
+  "total_contratado": 337224.81,
+  "total_pago": 373470.81,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 31000.0
+   },
+   {
+    "cnpj": "17190604000140",
+    "nome": "EGL-EDITORES GRAFICOS LTDA.",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21922.0
+   },
+   {
+    "cnpj": "01638944000151",
+    "nome": "PENTAGONO CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15600.0
+   },
+   {
+    "cnpj": "61422431000130",
+    "nome": "GABRIELA CARNEIRO GOMES LTDA",
+    "cnae": "58123",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por jornais e revistas",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10200.0
+   },
+   {
+    "cnpj": "12185325000175",
+    "nome": "12.185.325 ALBERTO HENRIQUE ALVARES GIRELI",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "22336528000179",
+    "nome": "22.336.528 WALDINEY VIENE DO NASCIMENTO PENA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "02476027000180",
+    "nome": "CORREIO DE MINAS LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1520.0
+   },
+   {
+    "cnpj": "26073890000155",
+    "nome": "MAG - MINAS ARTES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "17900032000146",
+    "nome": "KSL EMPREENDIMENTOS COMERCIAIS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1300.0
+   },
+   {
+    "cnpj": "26101279000193",
+    "nome": "SALIBA RENDEIRO DE NORONHA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "34411625000168",
+    "nome": "34.411.625 RAQUEL CORREA BARROS VASCONCELLOS",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "17577230000110",
+    "nome": "OCEANO IMOVEIS LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 452.37
+   },
+   {
+    "cnpj": "06882238000174",
+    "nome": "DIARIO DE OURO PRETO EMPRESA JORNALISTICA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "24783329000134",
+    "nome": "QUALITYCERT CERTIFICACAO LTDA",
+    "cnae": "62091",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 185.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 101.59
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 122,
+   "total": 246643.85,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 80500.0,
+    "Despesas com pessoal": 126710.0,
+    "Diversas a especificar": 1400.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 133.85,
+    "Locação/cessão de bens imóveis": 3900.0,
+    "Locação/cessão de bens móveis (exceto veículos)": 4000.0,
+    "Serviços advocatícios": 30000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

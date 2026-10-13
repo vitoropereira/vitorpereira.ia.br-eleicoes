@@ -1,0 +1,172 @@
+{
+ "sq": "200002533854",
+ "nome_urna": "EUDIANE MACEDO",
+ "cargo": "depest",
+ "uf": "RN",
+ "partido": "PV",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 323787.76,
+  "por_origem": {
+   "Recursos de partido político": 200000.0,
+   "Recursos de pessoas físicas": 47027.76,
+   "Recursos próprios": 76760.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "OUTROS RECURSOS": 123787.76
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "31886963000168",
+    "nome": "Direção Nacional - PV",
+    "total": 200000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 17,
+   "total": 123787.76
+  }
+ },
+ "despesas": {
+  "total_contratado": 236808.47,
+  "total_pago": 216616.98,
+  "fornecedores_pj": [
+   {
+    "cnpj": "49482783000186",
+    "nome": "FELIPE CORTEZ - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "12517664000101",
+    "nome": "SL CONTADORES ASSOCIADOS LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 25900.0
+   },
+   {
+    "cnpj": "17608153000119",
+    "nome": "PRAIA FILMES PRODUTORA LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "21597589000127",
+    "nome": "J H N DE MELO LTDA",
+    "cnae": "78205",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 24533.18
+   },
+   {
+    "cnpj": "10360809000188",
+    "nome": "F2 VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 21233.33
+   },
+   {
+    "cnpj": "17340447000102",
+    "nome": "MARICLEYDSON COSTA DA SILVA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16700.0
+   },
+   {
+    "cnpj": "24021734000115",
+    "nome": "SALVINO PEREIRA LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "38262498000133",
+    "nome": "REDINHA COMERCIAL DE COMBUSTIVEL DOMINGOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4057.46
+   },
+   {
+    "cnpj": "66833093000143",
+    "nome": "IHTEM CONNECT LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "66472356000136",
+    "nome": "3 D COMERCIO SERVICO LTDA",
+    "cnae": "46451",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1520.0
+   },
+   {
+    "cnpj": "40480636000100",
+    "nome": "F S M DE SOUSA COMUNICACAO VISUAL",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1390.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 21,
+   "total": 43474.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 5560.0,
+    "Despesas com pessoal": 36988.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 26.5,
+    "Publicidade por carros de som": 900.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

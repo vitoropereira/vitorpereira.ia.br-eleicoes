@@ -1,0 +1,404 @@
+{
+ "sq": "210002533934",
+ "nome_urna": "MATHEUS GOMES",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PSOL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1263340.14,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 55.0,
+   "Recursos de partido político": 1175735.14,
+   "Recursos de pessoas físicas": 87550.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1175735.14,
+   "OUTROS RECURSOS": 87605.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "06954942000195",
+    "nome": "Direção Nacional - PSOL",
+    "total": 1080783.73
+   },
+   {
+    "cnpj": "11664131000190",
+    "nome": "Direção Estadual/Distrital - PSOL - RIO GRANDE DO SUL",
+    "total": 94951.41
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 55.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 12,
+   "total": 87550.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 417957.47,
+  "total_pago": 549430.69,
+  "fornecedores_pj": [
+   {
+    "cnpj": "44691407000188",
+    "nome": "ALZIMERI O. FERNANDES ANTONIO CARLOS LIMA DE OLIVEIRA LTDA",
+    "cnae": "47610",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 72623.0
+   },
+   {
+    "cnpj": "45876852000185",
+    "nome": "PRINTER INDUSTRIA E COMERCIO LTDA",
+    "cnae": "13596",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 40500.0
+   },
+   {
+    "cnpj": "52296991000103",
+    "nome": "AUGUSTA JORNALISMO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "38302104000123",
+    "nome": "NICOLE JUNGES",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "55438966000105",
+    "nome": "55.438.966 MARIANA SILVA DE OLIVEIRA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15231.92
+   },
+   {
+    "cnpj": "55568705000100",
+    "nome": "55.568.705 CAROLINA FERRARI LEMOS",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 12770.0
+   },
+   {
+    "cnpj": "30579500000190",
+    "nome": "HAYANE LUIZ TELLES LEOTTE",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "20365511000114",
+    "nome": "20.365.511 KARINE DOS SANTOS VIANA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "11402903000115",
+    "nome": "LAURA CRISTINA CARDONA PAIM LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4700.0
+   },
+   {
+    "cnpj": "01267659000171",
+    "nome": "HABITACIONAL IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4453.66
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "07975403000103",
+    "nome": "RM TUR TRANSPORTE RODOVIARIO DE PESSOAS LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 2600.0
+   },
+   {
+    "cnpj": "56183133000103",
+    "nome": "56.183.133 SANDRO MULLER",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "43343787000105",
+    "nome": "43.343.787 ANA CLAUDIA CARDOSO ENTROCASSI",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "10280765000267",
+    "nome": "TUMELERO MATERIAIS DE CONSTRUCAO LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 839.9
+   },
+   {
+    "cnpj": "92189612000192",
+    "nome": "EXPRESSO EMBAIXADOR LTDA",
+    "cnae": "49221",
+    "n_despesas": 5,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 745.35
+   },
+   {
+    "cnpj": "95592077000104",
+    "nome": "PLANALTO TRANSPORTES LTDA",
+    "cnae": "49221",
+    "n_despesas": 7,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 729.7
+   },
+   {
+    "cnpj": "07628673000130",
+    "nome": "EDEMAR DA SILVA - COPIADORAS",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 640.0
+   },
+   {
+    "cnpj": "41890535000162",
+    "nome": "41.890.535 ALEXSANDER SILVA DE LIMA",
+    "cnae": "77217",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 520.0
+   },
+   {
+    "cnpj": "10143959000130",
+    "nome": "IMOBILIARIA SERGIO MADALENA LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 461.79
+   },
+   {
+    "cnpj": "03949149000100",
+    "nome": "JEFERSON DARIVA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 430.0
+   },
+   {
+    "cnpj": "63117677000124",
+    "nome": "MAX CENTER COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "45917667000191",
+    "nome": "COMERCIO DE COMBUSTIVEIS IPIRANGA 4672 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 286.86
+   },
+   {
+    "cnpj": "54139330000191",
+    "nome": "JOSE DO PATROCINIO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 194.54
+   },
+   {
+    "cnpj": "73446635000190",
+    "nome": "AGF LIMA E SILVA LTDA",
+    "cnae": "53105",
+    "n_despesas": 6,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 191.2
+   },
+   {
+    "cnpj": "92954106000142",
+    "nome": "VIACAO OURO E PRATA SA",
+    "cnae": "49221",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 169.65
+   },
+   {
+    "cnpj": "94460052000194",
+    "nome": "LIVRARIA CERVO LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 150.0
+   },
+   {
+    "cnpj": "08069026000106",
+    "nome": "COMERCIAL DE COMBUSTIVEIS RUBEM BERTA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 100.0
+   },
+   {
+    "cnpj": "92745991000150",
+    "nome": "EXPRESSO FREDERES S/A - VIAGENS E TURISMO",
+    "cnae": "49221",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 76.45
+   },
+   {
+    "cnpj": "97755607000113",
+    "nome": "CITRAL TRANSPORTE E TURISMO SA",
+    "cnae": "49221",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 45.3
+   },
+   {
+    "cnpj": "57214311000170",
+    "nome": "COMAPLA CENTRAL DOS DESCARTAVEIS LTDA",
+    "cnae": "46494",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 23.9
+   },
+   {
+    "cnpj": "93015006001780",
+    "nome": "COMPANHIA ZAFFARI COMERCIO E INDUSTRIA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 21.9
+   },
+   {
+    "cnpj": "05563868000709",
+    "nome": "BELLER COMERCIO DE PAPEIS LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 15.96
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 1.09
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 96,
+   "total": 199335.3,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 165005.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 130.3,
+    "Eventos de promoção da candidatura": 2000.0,
+    "Locação/cessão de bens imóveis": 9000.0,
+    "Segurança e prevenção, repressão e combate à violência política": 6500.0,
+    "Serviços prestados por terceiros": 16700.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

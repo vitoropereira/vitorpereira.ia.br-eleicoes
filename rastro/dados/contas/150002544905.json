@@ -1,0 +1,250 @@
+{
+ "sq": "150002544905",
+ "nome_urna": "VENEZIANO",
+ "cargo": "senador",
+ "uf": "PB",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3682000.0,
+  "por_origem": {
+   "Recursos de partido político": 3535000.0,
+   "Recursos de pessoas físicas": 147000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2805000.0,
+   "OUTROS RECURSOS": 877000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 2805000.0
+   },
+   {
+    "cnpj": "08319972000155",
+    "nome": "Direção Estadual/Distrital - MDB - PARAÍBA",
+    "total": 730000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 147000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2381111.66,
+  "total_pago": 2866758.6,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 10,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 374840.0
+   },
+   {
+    "cnpj": "67829090000107",
+    "nome": "RAW PRODUCOES AUDIOVISUAIS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 350000.0
+   },
+   {
+    "cnpj": "07796243000127",
+    "nome": "PLASTFORT- INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
+    "cnae": "22226",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 289015.65
+   },
+   {
+    "cnpj": "22783491000127",
+    "nome": "PLATTAFORMA DE COMUNICACAO E MARKETING LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "26625056000125",
+    "nome": "D F PACK EMBALAGENS FLEXIVEIS LTDA",
+    "cnae": "22226",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 137187.5
+   },
+   {
+    "cnpj": "39531559000183",
+    "nome": "EDUARDO JORGE FERREIRA DE SOUSA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "56199411000102",
+    "nome": "COMPANHIA DE CINEMA E ECONOMIA CRIATIVA DO NORDESTE LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "60259384000193",
+    "nome": "CDA COMUNICACAO EM SERVICOS GRAFICOS E EVENTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Atividades de militância e mobilização de rua",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 72730.0
+   },
+   {
+    "cnpj": "49572744000170",
+    "nome": "MATHEUS SANTIAGO MOURA DE MOURA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "46109297000129",
+    "nome": "SERVICOS GRAFICOS DE IMPRESSAO PERSONALIZADA LTDA",
+    "cnae": "18229",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 66000.0
+   },
+   {
+    "cnpj": "26690275000198",
+    "nome": "SOUZA LEAL CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "01631699000150",
+    "nome": "POSTO DE COMBUSTIVEIS MARILIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 24768.32
+   },
+   {
+    "cnpj": "09379165000190",
+    "nome": "EMPRESA NACIONAL DE PASSAGEIROS LTDA",
+    "cnae": "49213",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "06984761000101",
+    "nome": "SINKA - EMPREENDIMENTOS E PARTICIPACOES S.A.",
+    "cnae": "64638",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "43737248000142",
+    "nome": "43.737.248 AMELIE BARROS BRAGA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68378502000194",
+    "nome": "68.378.502 ELIENE COSTA DE SOUZA",
+    "cnae": "56201",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 9224.0
+   },
+   {
+    "cnpj": "40120343000104",
+    "nome": "PROXXIMA TELECOMUNICACOES S.A.",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 870.74
+   },
+   {
+    "cnpj": "22316023000142",
+    "nome": "POSTO VIP COMERCIO DE COMBUSTIVEIS E DERIVADOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 339.02
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 86,
+   "total": 496096.43,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 213996.83,
+    "Cessão ou locação de veículos": 71000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 99.6,
+    "Locação/cessão de bens imóveis": 2000.0,
+    "Publicidade por carros de som": 193000.0,
+    "Serviços prestados por terceiros": 16000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

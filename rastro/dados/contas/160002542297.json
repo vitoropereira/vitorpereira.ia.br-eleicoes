@@ -1,0 +1,247 @@
+{
+ "sq": "160002542297",
+ "nome_urna": "PAULO MARTINS",
+ "cargo": "depfed",
+ "uf": "PR",
+ "partido": "NOVO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2318475.81,
+  "por_origem": {
+   "Recursos de partido político": 2069592.48,
+   "Recursos de pessoas físicas": 245883.33,
+   "Recursos próprios": 3000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 300000.0,
+   "FUNDO PARTIDARIO": 1470000.0,
+   "OUTROS RECURSOS": 548475.81
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13405866000124",
+    "nome": "Direção Nacional - NOVO",
+    "total": 2019592.48
+   },
+   {
+    "cnpj": "26398527000100",
+    "nome": "Direção Estadual/Distrital - NOVO - PARANÁ",
+    "total": 50000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 248883.33
+  }
+ },
+ "despesas": {
+  "total_contratado": 604151.72,
+  "total_pago": 290395.22,
+  "fornecedores_pj": [
+   {
+    "cnpj": "85057529000102",
+    "nome": "HELLOGRAF ARTES GRAFICAS LTDA",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 113831.6
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 10,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 102000.0
+   },
+   {
+    "cnpj": "45110969000153",
+    "nome": "OVERCOME COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 73000.0
+   },
+   {
+    "cnpj": "28119913000140",
+    "nome": "PAIVA DOS SANTOS - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 72000.0
+   },
+   {
+    "cnpj": "35257009000167",
+    "nome": "ABRAZO MARKETING E PUBLICIDADE LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 28710.0
+   },
+   {
+    "cnpj": "04400034000205",
+    "nome": "TITANIUN - EVENTOS E DISTRIBUICAO DE PERIODICOS LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "21632822000165",
+    "nome": "SUPER PRINT PAPEIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24564.0
+   },
+   {
+    "cnpj": "55151803000139",
+    "nome": "INNOVE BLINDADOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "23439563000186",
+    "nome": "CRTCOM INDUSTRIA VISUAL LTDA",
+    "cnae": "18211",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12834.4
+   },
+   {
+    "cnpj": "55459427000144",
+    "nome": "55.459.427 PEDRO ALVIM DO NASCIMENTO",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 12500.0
+   },
+   {
+    "cnpj": "34150203000186",
+    "nome": "ALVD PESQUISAS LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "53146838000154",
+    "nome": "CWB PUBLICIDADE E COMUNICACAO E EVENTOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "50958901000169",
+    "nome": "THIAGO FRANCISCO MOREIRA BRANCO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "45593129000199",
+    "nome": "QUALITA CONFECCOES E COMERCIO DE ROUPAS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3757.0
+   },
+   {
+    "cnpj": "40810790000195",
+    "nome": "JAMSE GESTAO E TECNOLOGIA LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2800.0
+   },
+   {
+    "cnpj": "01450555000106",
+    "nome": "JZ IMPRESSAO E PLOTAGEM LTDA",
+    "cnae": "18229",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 780.0
+   },
+   {
+    "cnpj": "85522027000105",
+    "nome": "J F POST AGENCIA DE CORREIO FRANQUEADA LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 774.4
+   },
+   {
+    "cnpj": "05483616000184",
+    "nome": "AUTO POSTO PETRO IGUACU LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 297.35
+   },
+   {
+    "cnpj": "78901915001137",
+    "nome": "POSTOS PELANDA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 273.37
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 12,
+   "total": 92529.6,
+   "por_tipo": {
+    "Despesas com pessoal": 92507.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 22.6
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

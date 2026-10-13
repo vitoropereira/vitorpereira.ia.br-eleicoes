@@ -1,0 +1,261 @@
+{
+ "sq": "130002542071",
+ "nome_urna": "CHIARA BIONDINI",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1067390.47,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 2250.0,
+   "Recursos de outros candidatos": 291661.5,
+   "Recursos de partido político": 684998.3,
+   "Recursos de pessoas físicas": 88480.67
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 756211.5,
+   "FUNDO PARTIDARIO": 90000.0,
+   "OUTROS RECURSOS": 221178.97
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 495000.0
+   },
+   {
+    "cnpj": "68464990000152",
+    "nome": "EROS FERREIRA BIONDINI",
+    "total": 291661.5
+   },
+   {
+    "cnpj": "08691904000112",
+    "nome": "Direção Estadual/Distrital - PL - MINAS GERAIS",
+    "total": 189998.3
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 2250.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 28,
+   "total": 88480.67
+  }
+ },
+ "despesas": {
+  "total_contratado": 746384.07,
+  "total_pago": 770210.54,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 20,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "64204416000104",
+    "nome": "GMP PUBLICIDADE E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 164460.0
+   },
+   {
+    "cnpj": "65179624000163",
+    "nome": "BELLI SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "12294707000137",
+    "nome": "GUTO S MARKETING E PUBLICIDADE LTDA",
+    "cnae": "73190",
+    "n_despesas": 3,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "43638702000108",
+    "nome": "PORTAL MIDIA ONLINE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "12304213000196",
+    "nome": "ERTA PARTICIPACOES LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "17968553000135",
+    "nome": "JR COMERCIO E PRESTACAO DE SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 27,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6524.25
+   },
+   {
+    "cnpj": "14293669000123",
+    "nome": "ESTRELA LOCACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5600.0
+   },
+   {
+    "cnpj": "71056089000156",
+    "nome": "CENTERGRAF SERVICOS GRAFICOS LTDA",
+    "cnae": "58298",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4570.0
+   },
+   {
+    "cnpj": "43271608000163",
+    "nome": "BUZINA COMUNICACAO VISUAL LTDA",
+    "cnae": "18229",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3207.0
+   },
+   {
+    "cnpj": "07475524000188",
+    "nome": "VALOR LOCACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2016.67
+   },
+   {
+    "cnpj": "42888115000104",
+    "nome": "A EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1785.0
+   },
+   {
+    "cnpj": "12902740000100",
+    "nome": "12.902.740 JOAO CARLOS DOS SANTOS",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "32512680000119",
+    "nome": "ELSON MARTINS DE SOUZA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1380.0
+   },
+   {
+    "cnpj": "63669781000121",
+    "nome": "FS COMUNICACAO VISUAL E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "68492073000181",
+    "nome": "VIDROMANIA LTDA",
+    "cnae": "47431",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 460.0
+   },
+   {
+    "cnpj": "33967103000184",
+    "nome": "DEMERGE BRASIL PRESTADORA DE SERVICOS DE ATIVOS VIRTUAIS E PAGAMENTOS LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 179.88
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 45.77
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 138,
+   "total": 222815.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 80800.0,
+    "Despesas com pessoal": 103890.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 125.5,
+    "Locação/cessão de bens imóveis": 8000.0,
+    "Serviços contábeis": 30000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

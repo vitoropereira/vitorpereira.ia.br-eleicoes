@@ -1,0 +1,137 @@
+{
+ "sq": "80002537487",
+ "nome_urna": "ALEXANDRE XAMBINHO",
+ "cargo": "depest",
+ "uf": "ES",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 292780.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 177780.0,
+   "Recursos de partido político": 50000.0,
+   "Recursos próprios": 65000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 220000.0,
+   "OUTROS RECURSOS": 72780.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68345494000180",
+    "nome": "JOAO GUERINO BALESTRASSI",
+    "total": 120000.0
+   },
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68345039000184",
+    "nome": "ANTONIO SERGIO ALVES VIDIGAL JUNIOR",
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68464753000191",
+    "nome": "ALEXANDRE MARCELO COUTINHO SANTOS",
+    "total": 7780.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 65000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 175933.92,
+  "total_pago": 74784.3,
+  "fornecedores_pj": [
+   {
+    "cnpj": "00669794000180",
+    "nome": "PERFIL LOCACAO E SERVICOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)",
+     "Publicidade por carros de som"
+    ],
+    "total": 52000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "21658404000147",
+    "nome": "HELIO MALDONADO JORGE ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "60505363000100",
+    "nome": "K R TRETTO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 5405.0
+   },
+   {
+    "cnpj": "55613440000106",
+    "nome": "M BINOW CERIMONIAL",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "50581100000127",
+    "nome": "CONTABILIDADE.NET CONTABILIDADE CONSULTIVA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "29401848000104",
+    "nome": "CORPEL GRAFICA EDITORA E COMUNICACAO VISUAL LTDA",
+    "cnae": "18121",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1700.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 32,
+   "total": 87828.92,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 63118.14,
+    "Despesas com pessoal": 12210.78,
+    "Locação/cessão de bens imóveis": 12500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

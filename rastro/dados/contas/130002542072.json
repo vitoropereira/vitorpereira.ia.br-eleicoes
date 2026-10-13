@@ -1,0 +1,153 @@
+{
+ "sq": "130002542072",
+ "nome_urna": "CORONEL HENRIQUE",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 964830.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 4750.0,
+   "Recursos de partido político": 495000.0,
+   "Recursos de pessoas físicas": 345080.0,
+   "Recursos próprios": 120000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 495000.0,
+   "OUTROS RECURSOS": 469830.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 495000.0
+   },
+   {
+    "cnpj": "68544886000178",
+    "nome": "ZACARIAS ABRAO PIVA",
+    "total": 3750.0
+   },
+   {
+    "cnpj": "68403882000170",
+    "nome": "RODRIGO SAMPAIO MELO",
+    "total": 1000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 42,
+   "total": 465080.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 496538.09,
+  "total_pago": 468822.71,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "33354439000171",
+    "nome": "N N Y. MARKETING DIRETO E SOLUCOES INTELIGENTES LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 32900.0
+   },
+   {
+    "cnpj": "11392708000151",
+    "nome": "ELLITE COMUNICACAO E MARKETING LTDA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 31300.0
+   },
+   {
+    "cnpj": "61776339000179",
+    "nome": "KINA FPV FILMS LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "17175993000135",
+    "nome": "TAMOIOS KOLORO EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "05548055000154",
+    "nome": "SEGMENTO DIGITAL COMERCIO LTDA",
+    "cnae": "47512",
+    "n_despesas": 4,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)",
+     "Materiais de expediente"
+    ],
+    "total": 576.44
+   },
+   {
+    "cnpj": "13983446000125",
+    "nome": "ELIAS DE ASSIS PASSOS",
+    "cnae": "47628",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 325.0
+   },
+   {
+    "cnpj": "54828679000130",
+    "nome": "MUNDO DA ESCOLA COMERCIO E SERVICO LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 91.65
+   },
+   {
+    "cnpj": "20531319000150",
+    "nome": "AGUIA GAS E AGUA LTDA",
+    "cnae": "47849",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 75.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 169,
+   "total": 329020.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 35000.0,
+    "Despesas com pessoal": 272520.0,
+    "Locação/cessão de bens imóveis": 21500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

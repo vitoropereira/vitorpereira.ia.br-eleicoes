@@ -1,0 +1,130 @@
+{
+ "sq": "60002536196",
+ "nome_urna": "ZEZINHO ALBUQUERQUE",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 500000.0,
+  "por_origem": {
+   "Recursos de partido político": 500000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 500000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 500000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 188616.3,
+  "total_pago": 167691.3,
+  "fornecedores_pj": [
+   {
+    "cnpj": "01806823000171",
+    "nome": "NORTH STAR TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 53200.0
+   },
+   {
+    "cnpj": "05036551000129",
+    "nome": "JAYMES ALVES FERREIRA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 36000.0
+   },
+   {
+    "cnpj": "21982044000134",
+    "nome": "METODO CONTABILIDADE E CONSULTORIA SS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "40077572000193",
+    "nome": "BUSSOLA MARKETING E ESTRATEGIA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "40444308000140",
+    "nome": "GEORGE OLIVEIRA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "66494172000177",
+    "nome": "BRIZEIN INDUSTRIA DE CONFECCOES E BRINDES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 13750.0
+   },
+   {
+    "cnpj": "66111373000148",
+    "nome": "HDS SUPRIMENTOS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 6500.0
+   },
+   {
+    "cnpj": "50276014000100",
+    "nome": "ANA CLAUDIA BORGES DE PAULO",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4125.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 6,
+   "total": 30041.3,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 4000.0,
+    "Cessão ou locação de veículos": 22000.0,
+    "Despesas com pessoal": 3000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 41.3,
+    "Locação/cessão de bens imóveis": 1000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

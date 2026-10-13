@@ -1,0 +1,306 @@
+{
+ "sq": "220002536029",
+ "nome_urna": "DR. LUÍS DO HOSPITAL",
+ "cargo": "depest",
+ "uf": "RO",
+ "partido": "NOVO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1319171.57,
+  "por_origem": {
+   "Recursos de pessoas físicas": 1313371.57,
+   "Recursos próprios": 5800.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 1319171.57
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 117,
+   "total": 1319171.57
+  }
+ },
+ "despesas": {
+  "total_contratado": 673297.53,
+  "total_pago": 175096.57,
+  "fornecedores_pj": [
+   {
+    "cnpj": "07908642000132",
+    "nome": "RAZONI CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "05501123000120",
+    "nome": "GRAFICA OPCAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 41900.0
+   },
+   {
+    "cnpj": "33906644000100",
+    "nome": "HABIB, VIDAL E SANTANA ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "34456848000141",
+    "nome": "C R B GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 34200.0
+   },
+   {
+    "cnpj": "08949169000102",
+    "nome": "OLIVEIRA PITOL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 11092.7
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "08742289000126",
+    "nome": "V M R AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2638.66
+   },
+   {
+    "cnpj": "31593632000130",
+    "nome": "AUTO POSTO BOM SAMARITANO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2289.93
+   },
+   {
+    "cnpj": "01648919000159",
+    "nome": "A. CUSTODIO CASARIN",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1756.8
+   },
+   {
+    "cnpj": "03256129000153",
+    "nome": "AUTO POSTO ESTRELA D ALVA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1001.0
+   },
+   {
+    "cnpj": "10174642000160",
+    "nome": "AUTO POSTO RESPLENDOR LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 938.1
+   },
+   {
+    "cnpj": "08624321000179",
+    "nome": "A V COMERCIO VAREJISTA DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 659.7
+   },
+   {
+    "cnpj": "13452074000100",
+    "nome": "AUTO POSTO VAREA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 658.24
+   },
+   {
+    "cnpj": "11055206000135",
+    "nome": "AUTO POSTO J J LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 636.0
+   },
+   {
+    "cnpj": "42623164000115",
+    "nome": "POSTO SALLES LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 588.8
+   },
+   {
+    "cnpj": "22565560000126",
+    "nome": "ABR S POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 587.06
+   },
+   {
+    "cnpj": "05194165000165",
+    "nome": "AUTO POSTO DOURADAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 580.29
+   },
+   {
+    "cnpj": "23889352000145",
+    "nome": "AUTO POSTO PATRAO COMERCIO DE COMBUSTIVEIS LTDA.",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 561.81
+   },
+   {
+    "cnpj": "04903852000220",
+    "nome": "AUTO POSTO PATRAO CACOAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 539.42
+   },
+   {
+    "cnpj": "04979271000191",
+    "nome": "MENDONCA PIOLA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 464.64
+   },
+   {
+    "cnpj": "15870280000166",
+    "nome": "AUTO POSTO PIONEIRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 441.83
+   },
+   {
+    "cnpj": "39432993000106",
+    "nome": "S B JANUARIO",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 434.0
+   },
+   {
+    "cnpj": "67685076000179",
+    "nome": "67.685.076 RENNER YURI CASTRO DE FREITAS",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 350.0
+   },
+   {
+    "cnpj": "03290515000161",
+    "nome": "EDINEIA M. DA CUNHA SILVA CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 337.05
+   },
+   {
+    "cnpj": "43778440000187",
+    "nome": "S S NORBERTO SERVICOS",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 300.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 225,
+   "total": 475341.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 310649.0,
+    "Cessão ou locação de veículos": 93803.0,
+    "Despesas com pessoal": 65245.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 23.5,
+    "Locação/cessão de bens imóveis": 5621.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

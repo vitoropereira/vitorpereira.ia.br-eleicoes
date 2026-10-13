@@ -1,0 +1,162 @@
+{
+ "sq": "130002547896",
+ "nome_urna": "NEWTON CARDOSO JR",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2985070.0,
+  "por_origem": {
+   "Recursos de partido político": 2833000.0,
+   "Recursos de pessoas físicas": 142070.0,
+   "Recursos próprios": 10000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2833000.0,
+   "OUTROS RECURSOS": 152070.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 2833000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 13,
+   "total": 152070.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 251243.4,
+  "total_pago": 623416.4,
+  "fornecedores_pj": [
+   {
+    "cnpj": "17190604000140",
+    "nome": "EGL-EDITORES GRAFICOS LTDA.",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 48200.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "18243052000154",
+    "nome": "MKT8 COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16855.0
+   },
+   {
+    "cnpj": "02282086000118",
+    "nome": "G.A.D. PARTICIPACOES E EMPREENDIMENTOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "48442998000100",
+    "nome": "SO PICK-UPS 4X4 LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "00671320000173",
+    "nome": "FERREIRA PARTICIPACOES E EMPREENDIMENTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "15040609000161",
+    "nome": "JORNAL SERRANENSE LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "07071575000144",
+    "nome": "ALOC LOCACAO E COMERCIO DE EQUIPAMENTOS DE INFORMATICA LTDA",
+    "cnae": "77331",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2220.0
+   },
+   {
+    "cnpj": "03247445000240",
+    "nome": "SUPERMERCADO SIQUEIRA CAMPOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "04389355000175",
+    "nome": "CASEMIRO DECOR LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 468.0
+   },
+   {
+    "cnpj": "17301128000198",
+    "nome": "MARCIO ATACADO LTDA",
+    "cnae": "46478",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 39.8
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 126,
+   "total": 144660.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 139990.0,
+    "Cessão ou locação de veículos": 3000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 20.6,
+    "Locação/cessão de bens imóveis": 1650.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

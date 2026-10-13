@@ -1,0 +1,188 @@
+{
+ "sq": "140002536775",
+ "nome_urna": "TORRINHO TORRES",
+ "cargo": "depest",
+ "uf": "PA",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 654275.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 5775.0,
+   "Recursos de partido político": 53000.0,
+   "Recursos de pessoas físicas": 470500.0,
+   "Recursos próprios": 125000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 53275.0,
+   "FUNDO PARTIDARIO": 3000.0,
+   "OUTROS RECURSOS": 598000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 50000.0
+   },
+   {
+    "cnpj": "07959180000182",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - PARÁ",
+    "total": 3000.0
+   },
+   {
+    "cnpj": "68379728000100",
+    "nome": "EVANDRO GARLA PEREIRA DA SILVA",
+    "total": 2875.0
+   },
+   {
+    "cnpj": "68456187000176",
+    "nome": "ERIKA KAROLINE DE CASTRO SABINO DE OLIVEIRA",
+    "total": 2500.0
+   },
+   {
+    "cnpj": "68455927000150",
+    "nome": "HENDERSON LIRA PINTO",
+    "total": 400.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 595500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 535621.0,
+  "total_pago": 523602.52,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 64500.0
+   },
+   {
+    "cnpj": "04819490000103",
+    "nome": "LOURENCO AUGUSTO SILVA PIRES D AVILA SERVICOS E COMERCIO DE IMPRESSAO GRAFICA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30850.0
+   },
+   {
+    "cnpj": "10592852000179",
+    "nome": "AUTO POSTO IPANEMA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "83647040000157",
+    "nome": "3D ESTUDIOS LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "46717308000153",
+    "nome": "GRAFICA BENIGNO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21100.0
+   },
+   {
+    "cnpj": "16525583000104",
+    "nome": "PINHEIRO PENAFORT ADVOGADOS ASSOCIADOS S/S",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "58547250000126",
+    "nome": "L. J DE ALMEIDA MELO ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "30321637000140",
+    "nome": "E. P. DOS SANTOS GRAFICA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "54184011000106",
+    "nome": "TODODIA SUPERMERCADO LTDA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "59494132000160",
+    "nome": "FERNANDO PANIFICADORA LTDA",
+    "cnae": "47211",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2623.5
+   },
+   {
+    "cnpj": "05775396000162",
+    "nome": "LIDER GRAFICA E EDITORA LTDA",
+    "cnae": "58212",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1180.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 133,
+   "total": 326867.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 280499.5,
+    "Cessão ou locação de veículos": 7500.0,
+    "Despesas com pessoal": 5673.5,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 35.5,
+    "Locação/cessão de bens imóveis": 5000.0,
+    "Serviços prestados por terceiros": 28159.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

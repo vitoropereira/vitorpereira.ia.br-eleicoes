@@ -1,0 +1,101 @@
+{
+ "sq": "20002553262",
+ "nome_urna": "TENORINHO MALTA",
+ "cargo": "depest",
+ "uf": "AL",
+ "partido": "PSDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 121916.0,
+  "por_origem": {
+   "Recursos de partido político": 4000.0,
+   "Recursos de pessoas físicas": 117916.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 121916.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "69981769000134",
+    "nome": "Direção Estadual/Distrital - PSDB - ALAGOAS",
+    "total": 4000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 117916.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 69543.51,
+  "total_pago": 17062.51,
+  "fornecedores_pj": [
+   {
+    "cnpj": "43143766000138",
+    "nome": "MAURICIO FRANCISCO DA SILVA CONTABILIDADE",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "63541164000146",
+    "nome": "GUSTAVO FERREIRA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "35649113000105",
+    "nome": "FLOR MUSIC PRODUCOES E EDITORA LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 6660.0
+   },
+   {
+    "cnpj": "38275804000176",
+    "nome": "QUITERIA BARROS DA SILVA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4200.0
+   },
+   {
+    "cnpj": "42127040000149",
+    "nome": "FERNANDO DE LIRA MELO",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 74,
+   "total": 27483.51,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 3250.0,
+    "Despesas com pessoal": 11621.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 19.5,
+    "Impostos, contribuições e taxas": 93.01,
+    "Locação/cessão de bens imóveis": 12500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

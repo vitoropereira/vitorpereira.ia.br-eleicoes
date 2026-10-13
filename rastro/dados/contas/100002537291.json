@@ -1,0 +1,229 @@
+{
+ "sq": "100002537291",
+ "nome_urna": "JOSIMAR",
+ "cargo": "depest",
+ "uf": "MA",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 630910.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 3060.0,
+   "Recursos de partido político": 400000.0,
+   "Recursos de pessoas físicas": 167850.0,
+   "Recursos próprios": 60000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3060.0,
+   "FUNDO PARTIDARIO": 400000.0,
+   "OUTROS RECURSOS": 227850.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08739524000100",
+    "nome": "Direção Estadual/Distrital - PL - MARANHÃO",
+    "total": 400000.0
+   },
+   {
+    "cnpj": "68403669000168",
+    "nome": "ALDIR CUNHA RODRIGUES JUNIOR",
+    "total": 3060.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 14,
+   "total": 227850.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 532943.0,
+  "total_pago": 550710.99,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 187865.0
+   },
+   {
+    "cnpj": "46696791000137",
+    "nome": "G J A LIMA SERVICOS E PRODUCOES",
+    "cnae": "43215",
+    "n_despesas": 2,
+    "tipos": [
+     "Comícios",
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 60200.0
+   },
+   {
+    "cnpj": "45524496000130",
+    "nome": "P M L DOS SANTOS",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 51456.0
+   },
+   {
+    "cnpj": "37210133000100",
+    "nome": "EVERSON CARLOS DO NASCIMENTO MOREIRA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 42500.0
+   },
+   {
+    "cnpj": "19582241000114",
+    "nome": "AUTO POSTO LEMOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 35087.22
+   },
+   {
+    "cnpj": "61677128000189",
+    "nome": "INTEGRA COMUNICACAO VISUAL, DIGITAL E PRODUCOES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 27100.0
+   },
+   {
+    "cnpj": "56237082000147",
+    "nome": "E C O DE ANDRADE",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "22105176000140",
+    "nome": "A R DE MELO CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 22001.0
+   },
+   {
+    "cnpj": "36340090000107",
+    "nome": "M J UNIFORMES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "52186972000116",
+    "nome": "DELICIAS DE CASA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 12840.0
+   },
+   {
+    "cnpj": "52901966000101",
+    "nome": "POSTO PREMIUM CONVENIENCIA EXPRESS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 11138.8
+   },
+   {
+    "cnpj": "31865169000138",
+    "nome": "SOUSA COSTA COSTA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9467.98
+   },
+   {
+    "cnpj": "21658440000100",
+    "nome": "FOGO E GLORIA PRODUCOES LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 7470.0
+   },
+   {
+    "cnpj": "29826034000111",
+    "nome": "GLOBAL LIGHT EMPREENDIMENTOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6500.0
+   },
+   {
+    "cnpj": "29401282000200",
+    "nome": "AEROISA COMERCIAL DE COMBUSTIVEIS E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "17668873000170",
+    "nome": "ERIC GUIMARAES ARAUJO",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 240.0
+   },
+   {
+    "cnpj": "48774203000161",
+    "nome": "L C A SILVA LTDA",
+    "cnae": "47296",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 74.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 10003.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.0,
+    "Serviços advocatícios": 5000.0,
+    "Serviços contábeis": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

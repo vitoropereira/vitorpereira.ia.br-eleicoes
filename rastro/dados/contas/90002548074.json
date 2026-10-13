@@ -1,0 +1,113 @@
+{
+ "sq": "90002548074",
+ "nome_urna": "CARDOSO",
+ "cargo": "depest",
+ "uf": "GO",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 311500.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 4500.0,
+   "Recursos de partido político": 300000.0,
+   "Recursos de pessoas físicas": 7000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 224500.0,
+   "FUNDO PARTIDARIO": 80000.0,
+   "OUTROS RECURSOS": 7000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 220000.0
+   },
+   {
+    "cnpj": "07998455000197",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - GOIÁS",
+    "total": 80000.0
+   },
+   {
+    "cnpj": "68527000000188",
+    "nome": "RICARDO QUIRINO DOS SANTOS",
+    "total": 4500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 7000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 171789.12,
+  "total_pago": 155987.54,
+  "fornecedores_pj": [
+   {
+    "cnpj": "35109227000154",
+    "nome": "FLY BANNER IMPRESSAO DIGITAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 32475.0
+   },
+   {
+    "cnpj": "33037055000125",
+    "nome": "FEDERAL MIDIA E IMPRESSOES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 29900.0
+   },
+   {
+    "cnpj": "01826104000112",
+    "nome": "LANDI MARTINS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2161.62
+   },
+   {
+    "cnpj": "41804798000101",
+    "nome": "TIAGO OLIVEIRA VASCO CARVALHO",
+    "cnae": "85929",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "07438607000105",
+    "nome": "COMERCIAL DE COMBUSTIVEIS VILA RICA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 101,
+   "total": 106052.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 13500.0,
+    "Despesas com pessoal": 89800.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.5,
+    "Locação/cessão de bens imóveis": 2750.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

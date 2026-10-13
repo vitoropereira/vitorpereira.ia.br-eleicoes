@@ -1,0 +1,108 @@
+{
+ "sq": "20002548110",
+ "nome_urna": "MARCOS BELTRÃO",
+ "cargo": "depest",
+ "uf": "AL",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 257000.0,
+  "por_origem": {
+   "Recursos de partido político": 100000.0,
+   "Recursos de pessoas físicas": 57000.0,
+   "Recursos próprios": 100000.0
+  },
+  "por_fonte": {
+   "FUNDO PARTIDARIO": 100000.0,
+   "OUTROS RECURSOS": 157000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01308052000192",
+    "nome": "Direção Estadual/Distrital - MDB - ALAGOAS",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 157000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 169536.0,
+  "total_pago": 0.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "52637905000170",
+    "nome": "FOX COMUNICACAO INTEGRADA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "03893033000104",
+    "nome": "BRABO MAGALHAES ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "14876708000115",
+    "nome": "NOGUEIRA, ALBUQUERQUE E FREIRE ASSOCIADOS S/S",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "12462439000115",
+    "nome": "R M BARBOSA",
+    "cnae": "46192",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 31970.0
+   },
+   {
+    "cnpj": "11355874000188",
+    "nome": "INFINNI SERVICOS E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8724.0
+   },
+   {
+    "cnpj": "00887925000104",
+    "nome": "GRAFMARQUES INDUSTRIA EDITORA E SERVICOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3842.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 0,
+   "total": 0.0,
+   "por_tipo": {}
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

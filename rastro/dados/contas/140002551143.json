@@ -1,0 +1,102 @@
+{
+ "sq": "140002551143",
+ "nome_urna": "ANGELO FERRARI",
+ "cargo": "depest",
+ "uf": "PA",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 250025.02,
+  "por_origem": {
+   "Recursos de partido político": 203275.02,
+   "Recursos de pessoas físicas": 7950.0,
+   "Recursos próprios": 38800.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 203275.02,
+   "OUTROS RECURSOS": 46750.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 203275.02
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 46750.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 74375.5,
+  "total_pago": 8835.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "00805055000179",
+    "nome": "CONSULT-ESCRITORIO DE CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "36571569000154",
+    "nome": "DANILO COUTO MARQUES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "05994832000194",
+    "nome": "F.D. MORAIS",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2245.0
+   },
+   {
+    "cnpj": "41915444000134",
+    "nome": "WAGNER S DA SILVA LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1450.0
+   },
+   {
+    "cnpj": "44688878000137",
+    "nome": "LM COMERCIO E SERVICOS DE CERTIFICADOS DIGITAIS LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 229.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 10451.5,
+   "por_tipo": {
+    "Despesas com pessoal": 10000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.5,
+    "Publicidade por carros de som": 450.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

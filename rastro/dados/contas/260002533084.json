@@ -1,0 +1,471 @@
+{
+ "sq": "260002533084",
+ "nome_urna": "DELEGADO ALESSANDRO",
+ "cargo": "senador",
+ "uf": "SE",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3585995.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 8410.0,
+   "Recursos de outros candidatos": 2385.0,
+   "Recursos de partido político": 2905000.0,
+   "Recursos de pessoas físicas": 670200.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2900000.0,
+   "OUTROS RECURSOS": 685995.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 2900000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 8410.0
+   },
+   {
+    "cnpj": "32766354000138",
+    "nome": "Direção Estadual/Distrital - MDB - SERGIPE",
+    "total": 5000.0
+   },
+   {
+    "cnpj": "68518587000169",
+    "nome": "IBRAIN SILVA MONTEIRO",
+    "total": 2385.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 22,
+   "total": 670200.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2486588.52,
+  "total_pago": 2965677.34,
+  "fornecedores_pj": [
+   {
+    "cnpj": "26440622000124",
+    "nome": "JOSE EDMILSON DA SILVA JUNIOR SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 350000.0
+   },
+   {
+    "cnpj": "63298694000105",
+    "nome": "F.A. PRODUCOES E EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 180000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 9,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 110000.0
+   },
+   {
+    "cnpj": "59218090000134",
+    "nome": "MAIKON OLIVEIRA SANTOS CONTABILIDADE E SERVICOS",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 110000.0
+   },
+   {
+    "cnpj": "54788330000112",
+    "nome": "CAMISA DEZ SUBLIMACAO SERIGRAFIA LTDA",
+    "cnae": "14142",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "08190436000100",
+    "nome": "C.S.S.SANTANA",
+    "cnae": null,
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 69200.0
+   },
+   {
+    "cnpj": "40009617000192",
+    "nome": "TRUKS INDUSTRIA E COMERCIO LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 46000.0
+   },
+   {
+    "cnpj": "66908915000108",
+    "nome": "66.908.915 MARCOS BATISTA SILVA SANTOS DA PAIXAO",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "55802075000188",
+    "nome": "55.802.075 DANIEL RENNO DIAS DE BRITO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "60564667000149",
+    "nome": "60.564.667 FERNANDA TEIXEIRA CORREA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "34817820000192",
+    "nome": "THIAGO ARAGAO - SOLUCOES EM COMUNICACAO LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "46555925000108",
+    "nome": "JOAO PEDRO DOS SANTOS FONTES",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "56379536000114",
+    "nome": "PROJAC CAMISETAS LTDA",
+    "cnae": "14134",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "19830467000197",
+    "nome": "19.830.467 ISABELA BARBOSA DA SILVA",
+    "cnae": "56121",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 29950.0
+   },
+   {
+    "cnpj": "11671841000147",
+    "nome": "ROCHA ATACADO LTDA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 29933.7
+   },
+   {
+    "cnpj": "36874281000159",
+    "nome": "MJS CONFECCOES E SERVICOS LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "06033375000134",
+    "nome": "ESTUDIO 3 LOCACAO E SERVICOS LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "27187026000147",
+    "nome": "VIEIRA SERVICOS LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "54393662000106",
+    "nome": "54.393.662 CARLA GRAZIELLE MESQUITA BOMFIM",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "43918544000140",
+    "nome": "43.918.544 MARAIRA BATISTA MADEIRO",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "54754105000165",
+    "nome": "54.754.105 DANYLO SILVA DOS SANTOS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "22335035000114",
+    "nome": "ANDERSON HENRIQUE FERREIRA DE OLIVEIRA LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "14970182000138",
+    "nome": "GUILHERME VIAGENS E TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12750.0
+   },
+   {
+    "cnpj": "11690588000179",
+    "nome": "ATELIE DA ESCRITA EDITORA LTDA",
+    "cnae": "58115",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11485.0
+   },
+   {
+    "cnpj": "61099158000155",
+    "nome": "61.099.158 ANDREI LEBRAO ROMANHOLI",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "13007646000142",
+    "nome": "GRAFICA EDITORA J ANDRADE LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9762.2
+   },
+   {
+    "cnpj": "65770529000130",
+    "nome": "65.770.529 ANA CAROLINA ALVES FERNANDES",
+    "cnae": "63992",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "22488375000185",
+    "nome": "22.488.375 CLEITON SANTOS DE FREITAS",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "37406705000113",
+    "nome": "JB ANDRADE LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "13913408000104",
+    "nome": "XR GLOBAL BRASIL LTDA",
+    "cnae": "63119",
+    "n_despesas": 4,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 5946.6
+   },
+   {
+    "cnpj": "28126445000131",
+    "nome": "CHIQUINHO DO ALEM MAR PRODUCOES LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "32864795002388",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4750.41
+   },
+   {
+    "cnpj": "30887642000115",
+    "nome": "MOURAO IMPRESSAO DIGITAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3196.0
+   },
+   {
+    "cnpj": "20636697000107",
+    "nome": "TUCHE IMPRESSAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "13045273000102",
+    "nome": "COTINGUIBA ESPORTE CLUBE",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "32864795000172",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1960.37
+   },
+   {
+    "cnpj": "48722515000121",
+    "nome": "AGENCIA ACERTE PUBLICIDADE TECH LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 1840.0
+   },
+   {
+    "cnpj": "00209769000114",
+    "nome": "INFO GRAPHIC S GRAFICA EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1380.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 212.88
+   },
+   {
+    "cnpj": "67860666000190",
+    "nome": "67.860.666 JOAO BATISTA DOS SANTOS NETO",
+    "cnae": "85937",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 220,
+   "total": 1013021.36,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 305891.41,
+    "Cessão ou locação de veículos": 108664.83,
+    "Despesas com pessoal": 252812.07,
+    "Despesas com transporte ou deslocamento": 16653.05,
+    "Locação/cessão de bens imóveis": 20000.0,
+    "Publicidade por carros de som": 170000.0,
+    "Serviços prestados por terceiros": 139000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

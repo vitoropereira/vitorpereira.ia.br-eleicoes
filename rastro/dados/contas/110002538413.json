@@ -1,0 +1,228 @@
+{
+ "sq": "110002538413",
+ "nome_urna": "THIAGO BOAVA HEY ROY",
+ "cargo": "depfed",
+ "uf": "MT",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 993146.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 9546.0,
+   "Recursos de partido político": 400000.0,
+   "Recursos de pessoas físicas": 565000.0,
+   "Recursos próprios": 18600.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 400000.0,
+   "OUTROS RECURSOS": 593146.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 400000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 9546.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 46,
+   "total": 583600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 485404.01,
+  "total_pago": 163415.14,
+  "fornecedores_pj": [
+   {
+    "cnpj": "35592729000189",
+    "nome": "HF COMUNICACAO ESTRATEGIA E ASSESSORIA DE IMPRENSA LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "48790644000157",
+    "nome": "ADEMAR BORGES DE PAULA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "25188538000100",
+    "nome": "ESSENT INOVACAO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 34000.0
+   },
+   {
+    "cnpj": "61281417000164",
+    "nome": "M. PEREIRA MENDES",
+    "cnae": "62040",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12253.68
+   },
+   {
+    "cnpj": "50803633000106",
+    "nome": "COMERCIO E REPRESENTACOES MOURA LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5400.0
+   },
+   {
+    "cnpj": "37324611000103",
+    "nome": "R. C. DOS REIS",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "04017029000137",
+    "nome": "VIACAO JUINA LTDA - EM RECUPERACAO JUDICIAL",
+    "cnae": "49302",
+    "n_despesas": 10,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 1079.15
+   },
+   {
+    "cnpj": "63361811000138",
+    "nome": "7 EXPRESS TRANSPORTE SEGURO LTDA",
+    "cnae": "49302",
+    "n_despesas": 10,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 889.52
+   },
+   {
+    "cnpj": "00070595000151",
+    "nome": "GRAFICA FAMA LTDA",
+    "cnae": "18121",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 729.99
+   },
+   {
+    "cnpj": "16903492000165",
+    "nome": "OTI BRASIL TRANSPORTES LTDA",
+    "cnae": "49302",
+    "n_despesas": 4,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 348.6
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 215.14
+   },
+   {
+    "cnpj": "24738886000133",
+    "nome": "REAL MACHADO TRANSPORTES E LOGISTICA LTDA",
+    "cnae": "49221",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 80.0
+   },
+   {
+    "cnpj": "54850957000156",
+    "nome": "BUS EXPRESS LOGISTICA LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 50.0
+   },
+   {
+    "cnpj": "26557314000183",
+    "nome": "POESY AVIAMENTOS E PAPELARIA LTDA",
+    "cnae": "47555",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 16.74
+   },
+   {
+    "cnpj": "11995656000108",
+    "nome": "UNIFILM - COMERCIO DE PELICULAS LTDA",
+    "cnae": "45307",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 9.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 8,
+   "total": 85332.19,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 7500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 82.19,
+    "Serviços prestados por terceiros": 70250.0,
+    "Serviços próprios prestados por terceiros": 7500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

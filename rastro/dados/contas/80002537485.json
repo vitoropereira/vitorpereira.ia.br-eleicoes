@@ -1,0 +1,142 @@
+{
+ "sq": "80002537485",
+ "nome_urna": "FABRÍCIO GANDINI",
+ "cargo": "depest",
+ "uf": "ES",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 251634.58,
+  "por_origem": {
+   "Recursos de outros candidatos": 9260.0,
+   "Recursos de partido político": 50000.0,
+   "Recursos de pessoas físicas": 98465.5,
+   "Recursos próprios": 93909.08
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 50000.0,
+   "OUTROS RECURSOS": 201634.58
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68464753000191",
+    "nome": "ALEXANDRE MARCELO COUTINHO SANTOS",
+    "total": 7260.0
+   },
+   {
+    "cnpj": "68465043000186",
+    "nome": "JOSIAS MARIO DA VITORIA",
+    "total": 2000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 8,
+   "total": 192374.58
+  }
+ },
+ "despesas": {
+  "total_contratado": 122335.96,
+  "total_pago": 126565.73,
+  "fornecedores_pj": [
+   {
+    "cnpj": "18072839000109",
+    "nome": "BREDA IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 36000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "27252147000125",
+    "nome": "GRAFICA E EDITORA JEP LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "37826380000128",
+    "nome": "MORED ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "43180857000143",
+    "nome": "ROBERTO LEONARDO SILVA CASTRO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "27419142000144",
+    "nome": "POSTO IATE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1100.73
+   },
+   {
+    "cnpj": "40047840000124",
+    "nome": "INFORTEC LICITACOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "20289273000105",
+    "nome": "IDEIA SERVICOS PERSONALIZADOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 21,
+   "total": 48735.23,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 41468.0,
+    "Locação/cessão de bens imóveis": 4267.23,
+    "Locação/cessão de bens móveis (exceto veículos)": 3000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

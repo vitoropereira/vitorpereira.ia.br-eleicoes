@@ -1,0 +1,623 @@
+{
+ "sq": "160002546832",
+ "nome_urna": "MARCIO NUNES",
+ "cargo": "depest",
+ "uf": "PR",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1289575.1,
+  "por_origem": {
+   "Recursos de outros candidatos": 3045.1,
+   "Recursos de partido político": 730030.0,
+   "Recursos de pessoas físicas": 556500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1350.0,
+   "OUTROS RECURSOS": 1288225.1
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "14512048000193",
+    "nome": "Direção Estadual/Distrital - PSD - PARANÁ",
+    "total": 730030.0
+   },
+   {
+    "cnpj": "68455188000104",
+    "nome": "PEDRO DEBONI LUPION MELLO",
+    "total": 1382.6
+   },
+   {
+    "cnpj": "68464891000170",
+    "nome": "LEONALDO PARANHOS DA SILVA",
+    "total": 1350.0
+   },
+   {
+    "cnpj": "68464876000122",
+    "nome": "HERALDO TRENTO",
+    "total": 312.5
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 556500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1040432.07,
+  "total_pago": 1012560.48,
+  "fornecedores_pj": [
+   {
+    "cnpj": "21278380000109",
+    "nome": "L. F. ROMEIRO ATACADISTA LTDA",
+    "cnae": "46427",
+    "n_despesas": 3,
+    "tipos": [
+     "Atividades de militância e mobilização de rua",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 126050.0
+   },
+   {
+    "cnpj": "68904637000146",
+    "nome": "CASA 64 SOLUCOES ESTRATEGICAS LTDA",
+    "cnae": "73114",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 117500.0
+   },
+   {
+    "cnpj": "75887646000131",
+    "nome": "GRAFICA MOURAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 70400.0
+   },
+   {
+    "cnpj": "60786617000106",
+    "nome": "60.786.617 MATEUS HENRIQUE DINIZ",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 55000.0
+   },
+   {
+    "cnpj": "10515156000169",
+    "nome": "E. L. FELIPE FELIPE LTDA",
+    "cnae": "58298",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 52955.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "82444050000122",
+    "nome": "FORTUNATO FORTUNATO LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 38004.0
+   },
+   {
+    "cnpj": "51897766000151",
+    "nome": "51.897.766 DAIANE FERREIRA DE ARAUJO",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 29900.0
+   },
+   {
+    "cnpj": "54313613000108",
+    "nome": "WINN IMPRESSAO DIGITAL LTDA",
+    "cnae": "47130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26730.0
+   },
+   {
+    "cnpj": "37498226000174",
+    "nome": "WINICIUS AUGUSTO RIBEIRO DE OLIVEIRA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 15080.0
+   },
+   {
+    "cnpj": "26213334000137",
+    "nome": "C.A. PAGLIARINI TRANSPORTES E TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "17678462000165",
+    "nome": "JEED LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10633.0
+   },
+   {
+    "cnpj": "00096572000116",
+    "nome": "ZAHDI E PIQUES LTDA",
+    "cnae": "47539",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura",
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 10500.0
+   },
+   {
+    "cnpj": "09097624000143",
+    "nome": "ADEMAR BELLAFRONTE GIMENES - DIVULGACOES",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "30323526000173",
+    "nome": "HELENA ALVES DA CRUZ DA SILVA - FESTAS E EVENTOS",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 8400.0
+   },
+   {
+    "cnpj": "29959126000170",
+    "nome": "LUZIA APARECIDA DE OLIVEIRA",
+    "cnae": "13405",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "51156054000181",
+    "nome": "YESHUA MARKETING DIGITAL LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "77765840000170",
+    "nome": "CONTABILISTA SUPRIMENTOS CORPORATIVOS S.A.",
+    "cnae": "46478",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "27213182000135",
+    "nome": "MANANCIAL JORNALISMO PUBLICIDADE E ASSESSORIA DE IMPRENSA LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "01943825000102",
+    "nome": "POSTO MACEDO PIONEER LTDA",
+    "cnae": "47318",
+    "n_despesas": 35,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3563.66
+   },
+   {
+    "cnpj": "25109650000109",
+    "nome": "TW COMERCIO DE SUPRIMENTOS PARA IMPRESSORA LTDA",
+    "cnae": "47512",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3045.0
+   },
+   {
+    "cnpj": "36978136000118",
+    "nome": "JFM ARTEFATOS DE CIMENTO LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2800.0
+   },
+   {
+    "cnpj": "52657382000124",
+    "nome": "52.657.382 RONALDO DANIEL DA SILVA",
+    "cnae": "95118",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "04233582000107",
+    "nome": "EMPRESA JORNALISTICA UMUARAMA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "25244490000100",
+    "nome": "BRAMBILLA FILHOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2104.3
+   },
+   {
+    "cnpj": "16920950000174",
+    "nome": "PAMELA LENARA M TORRES",
+    "cnae": "47849",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação",
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1565.0
+   },
+   {
+    "cnpj": "05351727000137",
+    "nome": "OBJETIVA COMUNICACOES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "42741824000162",
+    "nome": "BDM CONFECCOES LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 1495.0
+   },
+   {
+    "cnpj": "62123092000154",
+    "nome": "GRES SERVICOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1250.0
+   },
+   {
+    "cnpj": "52922257000102",
+    "nome": "52.922.257 ANDRESSA JAINA DE SOUZA GARALUZ GRECH",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "80290729000189",
+    "nome": "LIONS CLUBE DE UMUARAMA",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "07496606000109",
+    "nome": "POSTO CAFEZAL DO SUL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 938.23
+   },
+   {
+    "cnpj": "46782815000170",
+    "nome": "RR - COMUNICACAO VISUAL LTDA.",
+    "cnae": "82997",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 885.0
+   },
+   {
+    "cnpj": "06092854000121",
+    "nome": "AUTO POSTO FLOR DA MATA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 868.01
+   },
+   {
+    "cnpj": "81851362000198",
+    "nome": "PARANA GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 640.0
+   },
+   {
+    "cnpj": "07775997000109",
+    "nome": "R. R. VECCHI - GRAFICA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 550.0
+   },
+   {
+    "cnpj": "13688918000117",
+    "nome": "C. A. TESTA - EVENTOS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "36324019000130",
+    "nome": "TUPA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 370.0
+   },
+   {
+    "cnpj": "79061792000164",
+    "nome": "AUTO POSTO CIANORTE LTDA.",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 325.4
+   },
+   {
+    "cnpj": "31063836000169",
+    "nome": "RJF2 COMBUSTIVEIS E CONVENIENCIAS DE UMUARAMA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "31010123000137",
+    "nome": "AUTO POSTO CARRO DE BOI LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 299.82
+   },
+   {
+    "cnpj": "23152417000175",
+    "nome": "OTIMA MATERIAIS DE EXPEDIENTE LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 246.6
+   },
+   {
+    "cnpj": "80842909000126",
+    "nome": "AUTO POSTO DOURADINA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 179.0
+   },
+   {
+    "cnpj": "29291428000112",
+    "nome": "JF COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 170.0
+   },
+   {
+    "cnpj": "79069753000294",
+    "nome": "ALDECO-COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 165.85
+   },
+   {
+    "cnpj": "04401156000135",
+    "nome": "LOURENCO E LOURENCO COMERCIO DE COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 160.27
+   },
+   {
+    "cnpj": "12652309000145",
+    "nome": "G M BEGO LTDA",
+    "cnae": "13545",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 160.0
+   },
+   {
+    "cnpj": "10944757000197",
+    "nome": "JM COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 153.05
+   },
+   {
+    "cnpj": "04708755000104",
+    "nome": "LETTI AUTO POSTO LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 152.45
+   },
+   {
+    "cnpj": "76149525000155",
+    "nome": "TRICAR COMERCIAL DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 146.22
+   },
+   {
+    "cnpj": "01690893000107",
+    "nome": "POSTO MARTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 127.8
+   },
+   {
+    "cnpj": "77208718000100",
+    "nome": "AUTO POSTO AURORA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 126.02
+   },
+   {
+    "cnpj": "01755451000100",
+    "nome": "VILMA APARECIDA ROSA CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 106.7
+   },
+   {
+    "cnpj": "01080920000120",
+    "nome": "AUTO POSTO BOIADEIRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 52.99
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 138,
+   "total": 336833.7,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 3000.0,
+    "Despesas com pessoal": 266769.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 64.7,
+    "Locação/cessão de bens imóveis": 2000.0,
+    "Serviços advocatícios": 50000.0,
+    "Serviços contábeis": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

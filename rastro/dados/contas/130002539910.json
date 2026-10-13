@@ -1,0 +1,470 @@
+{
+ "sq": "130002539910",
+ "nome_urna": "LUD FALCÃO",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1255964.88,
+  "por_origem": {
+   "Recursos de outros candidatos": 8793.5,
+   "Recursos de partido político": 1026681.38,
+   "Recursos de pessoas físicas": 220490.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1000000.0,
+   "OUTROS RECURSOS": 255964.88
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "23267671000119",
+    "nome": "Direção Municipal/Comissão Provisória - REPUBLICANOS - PATOS DE MINAS - MG",
+    "total": 26681.38
+   },
+   {
+    "cnpj": "68404181000155",
+    "nome": "EMERSON ROCHA DE AZEVEDO",
+    "total": 4840.0
+   },
+   {
+    "cnpj": "68464862000109",
+    "nome": "LAFAYETTE LUIZ DOORGAL DE ANDRADA",
+    "total": 2046.0
+   },
+   {
+    "cnpj": "68468353000154",
+    "nome": "JOSE SILVA SOARES",
+    "total": 1087.5
+   },
+   {
+    "cnpj": "68464838000170",
+    "nome": "FABIANO LOPES FERREIRA CAZECA",
+    "total": 820.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 36,
+   "total": 220490.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 775038.78,
+  "total_pago": 1233670.38,
+  "fornecedores_pj": [
+   {
+    "cnpj": "09408052000176",
+    "nome": "GRAFICA TIM TIM LTDA",
+    "cnae": "18113",
+    "n_despesas": 12,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 134478.6
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 110000.0
+   },
+   {
+    "cnpj": "34028316188234",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 47693.64
+   },
+   {
+    "cnpj": "66015171000100",
+    "nome": "66.015.171 CAROLAINE STEFANY GONCALVES LACERDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 36900.0
+   },
+   {
+    "cnpj": "38756034000183",
+    "nome": "PIRES OLIVEIRA CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 34000.0
+   },
+   {
+    "cnpj": "16857425000151",
+    "nome": "STRATEGIA COMUNICACAO E MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "62016404000120",
+    "nome": "WS PRODUCOES E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 21688.0
+   },
+   {
+    "cnpj": "21580318000169",
+    "nome": "INOVA ASSESSORIA E CONSULTORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "25404760000195",
+    "nome": "B.STORM AGENCIA DE PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "65585187000188",
+    "nome": "65.585.187 FELIPE PEREIRA DA SILVA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "06199207000113",
+    "nome": "ULTRACOPY DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 19000.0
+   },
+   {
+    "cnpj": "52434156000184",
+    "nome": "REVAL ATACADO DE PAPELARIA LTDA",
+    "cnae": "46478",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 14585.12
+   },
+   {
+    "cnpj": "63312296000104",
+    "nome": "ULTRACOPY SERVICOS LTDA",
+    "cnae": "82199",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 13800.0
+   },
+   {
+    "cnpj": "32125966000141",
+    "nome": "ARENA DIGITAL TECNOLOGIA DA INFORMACAO LTDA",
+    "cnae": "63992",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "09077158000134",
+    "nome": "PEDRO RICARDO ROSA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos"
+    ],
+    "total": 9898.0
+   },
+   {
+    "cnpj": "21652672000151",
+    "nome": "TARGET FROTAS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9801.06
+   },
+   {
+    "cnpj": "07559158000145",
+    "nome": "PETRORACA COMBUSTIVEIS LTDA.",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6444.07
+   },
+   {
+    "cnpj": "59830404000155",
+    "nome": "MUNDO ENCANTADO ANIMAGI PERSONAGENS LTDA",
+    "cnae": "93298",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 6200.0
+   },
+   {
+    "cnpj": "30080515000100",
+    "nome": "TENDA COBERTURAS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "41857244000172",
+    "nome": "GRAFIPRES GRAFICA E EDITORA PRESIDENTE LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5290.0
+   },
+   {
+    "cnpj": "22206448000107",
+    "nome": "GRAFICA MENDES OLIVEIRA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4490.0
+   },
+   {
+    "cnpj": "34028316190808",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 3510.21
+   },
+   {
+    "cnpj": "24248265000171",
+    "nome": "LPC PUBLICIDADES E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "49149261000167",
+    "nome": "GOL MINAS COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "21324983000191",
+    "nome": "MIL CORES COMERCIAL LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1395.9
+   },
+   {
+    "cnpj": "45890360000144",
+    "nome": "HSO COMERCIO DE EMBALAGENS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1333.3
+   },
+   {
+    "cnpj": "25213294000160",
+    "nome": "MARCELO DE SOUZA CARVALHO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "30624204000164",
+    "nome": "30.624.204 DIEGO SILVA ARAUJO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "02087761000158",
+    "nome": "LUCA LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "44005565000137",
+    "nome": "SCAPOLE UNIFORMES LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 698.0
+   },
+   {
+    "cnpj": "48988595000161",
+    "nome": "JT COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 617.5
+   },
+   {
+    "cnpj": "08112510000162",
+    "nome": "MARCELO GOMES FARIA CPF",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "17836073000110",
+    "nome": "CARLOS CHILON GONCALVES",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 468.0
+   },
+   {
+    "cnpj": "43186239000100",
+    "nome": "INOVA COMUNICACAO E SERVICOS LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 420.0
+   },
+   {
+    "cnpj": "14341444000103",
+    "nome": "SO BRINDES LTDA",
+    "cnae": "46893",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 389.0
+   },
+   {
+    "cnpj": "20195434000100",
+    "nome": "MILTON GARCIA DE JESUS E CIA LTDA",
+    "cnae": "47849",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "03793461000157",
+    "nome": "REAL CARIMBOS LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 240.0
+   },
+   {
+    "cnpj": "15625664000113",
+    "nome": "AGENCIA VIAMULTIMIDIA LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "71365167000102",
+    "nome": "PLANEJAR COMUNICACAO INTEGRADA LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 180.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 182,
+   "total": 178018.38,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 140879.88,
+    "Criação e inclusão de páginas na internet": 2300.0,
+    "Despesas com pessoal": 29500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 317.5,
+    "Locação/cessão de bens imóveis": 5021.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

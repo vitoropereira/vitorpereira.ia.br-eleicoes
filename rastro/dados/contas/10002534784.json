@@ -1,0 +1,40 @@
+{
+ "sq": "10002534784",
+ "nome_urna": "JAILSON AMORIM",
+ "cargo": "depest",
+ "uf": "AC",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 40000.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 20000.0,
+   "Recursos próprios": 20000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 40000.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 40000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 0.0,
+  "total_pago": 0.0,
+  "fornecedores_pj": [],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 0.0,
+   "por_tipo": {
+    "Não informada": 0.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

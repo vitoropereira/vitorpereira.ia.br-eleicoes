@@ -1,0 +1,141 @@
+{
+ "sq": "170002543747",
+ "nome_urna": "FRANCE HACKER",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 500000.0,
+  "por_origem": {
+   "Recursos de partido político": 500000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 500000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 500000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 393819.21,
+  "total_pago": 2032.6,
+  "fornecedores_pj": [
+   {
+    "cnpj": "07292942000130",
+    "nome": "JUSCELI BEZERRA DA SILVA",
+    "cnae": "14126",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26400.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 25200.0
+   },
+   {
+    "cnpj": "40474471000156",
+    "nome": "GILBERTO LAURENTINO DA SILVA LTDA",
+    "cnae": "47229",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "64290882000150",
+    "nome": "CASTRO NETO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "68609389000100",
+    "nome": "IRIS DANIELE DE MENEZES EXP CONTABIL",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "24415315000168",
+    "nome": "TALITA MAYARA DE FREITAS TEIXEIRA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "34911817000303",
+    "nome": "ANA P PIMENTEL BANDEIRA DE SANTANA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6837.27
+   },
+   {
+    "cnpj": "10793606000185",
+    "nome": "R D BUARQUE VASCONCELOS",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5200.0
+   },
+   {
+    "cnpj": "12436980000159",
+    "nome": "GEMARES COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 999.34
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 95,
+   "total": 277182.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 175650.0,
+    "Cessão ou locação de veículos": 51000.0,
+    "Despesas com pessoal": 36000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 32.6,
+    "Locação/cessão de bens imóveis": 8000.0,
+    "Publicidade por carros de som": 6500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

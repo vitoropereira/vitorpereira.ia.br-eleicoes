@@ -1,0 +1,247 @@
+{
+ "sq": "250002534251",
+ "nome_urna": "REGINA NUNES",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1393396.1,
+  "por_origem": {
+   "Recursos de partido político": 753896.1,
+   "Recursos de pessoas físicas": 619500.0,
+   "Recursos próprios": 20000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 753896.1,
+   "OUTROS RECURSOS": 639500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 750000.0
+   },
+   {
+    "cnpj": "45302874000131",
+    "nome": "Direção Estadual/Distrital - MDB - SÃO PAULO",
+    "total": 3896.1
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 29,
+   "total": 639500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 929908.66,
+  "total_pago": 909908.66,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "44439001000102",
+    "nome": "COOPER POLI - COOPERATIVA DE TRABALHO DA INFRAESTRUTURA EMPRESARIAL",
+    "cnae": "78302",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 170693.66
+   },
+   {
+    "cnpj": "07590525000173",
+    "nome": "VILELA, MIRANDA E AGUIAR FERNANDES ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 125000.0
+   },
+   {
+    "cnpj": "45861249000120",
+    "nome": "RETURN PRODUCTIONS LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "50683837000150",
+    "nome": "WONDER MARKETING E COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "41764130000188",
+    "nome": "ROTA GRAFICA LTDA",
+    "cnae": "58298",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 34700.0
+   },
+   {
+    "cnpj": "53103933000170",
+    "nome": "GALACTICA PROCESSAMENTO E ASSESSORIA CONTABIL",
+    "cnae": "69206",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "07263666000181",
+    "nome": "BRASPOR GRAFICA E EDITORA LTDA.",
+    "cnae": "18113",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 28910.0
+   },
+   {
+    "cnpj": "24129297000158",
+    "nome": "GANIC PRESTACAO DE SERVICOS LTDA",
+    "cnae": "81117",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "10198028000139",
+    "nome": "CAPE - ORGANIZACAO DE CONGRESSOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "48577205000160",
+    "nome": "TERRA SP LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "51847516000107",
+    "nome": "VOLARE IMPRESSAO TEXTIL LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10250.0
+   },
+   {
+    "cnpj": "15748196000174",
+    "nome": "M.VAZ COMERCIO DE VEICULOS LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "13361914000120",
+    "nome": "ARTE VISAO VAN GOGH COMERCIO DE PRODUTOS PROMOCIONAIS LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5455.0
+   },
+   {
+    "cnpj": "38347632000107",
+    "nome": "DFMKT COMUNICACAO E TECNOLOGIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "49777527000116",
+    "nome": "CAVALCANTE FILHO EMPREENDIMENTOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "12774144000184",
+    "nome": "TWO R TELEPROMPTER LTDA",
+    "cnae": "18300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2200.0
+   },
+   {
+    "cnpj": "09475334000196",
+    "nome": "EDUCALIBRAS TREINAMENTO E DESENVOLVIMENTO DO IDIOMA DE LIBRAS LTDA",
+    "cnae": "85937",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 650.0
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 5,
+   "total": 66010.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 10.0,
+    "Locação/cessão de bens imóveis": 35000.0,
+    "Segurança e prevenção, repressão e combate à violência política": 26000.0,
+    "Serviços prestados por terceiros": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

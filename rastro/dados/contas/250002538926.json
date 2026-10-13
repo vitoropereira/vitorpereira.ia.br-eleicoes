@@ -1,0 +1,146 @@
+{
+ "sq": "250002538926",
+ "nome_urna": "SOFIA FAVERO",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PSOL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 356901.41,
+  "por_origem": {
+   "Recursos de outros candidatos": 50571.5,
+   "Recursos de partido político": 294860.0,
+   "Recursos de pessoas físicas": 11469.91
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 344610.0,
+   "OUTROS RECURSOS": 12291.41
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "06954942000195",
+    "nome": "Direção Nacional - PSOL",
+    "total": 294860.0
+   },
+   {
+    "cnpj": "68438024000160",
+    "nome": "ERIKA SANTOS SILVA",
+    "total": 50571.5
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 11469.91
+  }
+ },
+ "despesas": {
+  "total_contratado": 197906.91,
+  "total_pago": 198806.91,
+  "fornecedores_pj": [
+   {
+    "cnpj": "31576547000163",
+    "nome": "GUILHERME LIBERATTI DE ALMEIDA PRADO",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "40916158000120",
+    "nome": "PRISCILA PAMELA SANTOS ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "36440413000134",
+    "nome": "FLORADA COMUNICACAO DE IMPACTO LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "44078002000179",
+    "nome": "Neisser Bernardelli Advocacia",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "51238617000180",
+    "nome": "GRAFICA E EDITORA EMBALAGEM CERTA LTDA",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15800.0
+   },
+   {
+    "cnpj": "48955286000195",
+    "nome": "GOUMARTE FILMS LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 13800.0
+   },
+   {
+    "cnpj": "17832228000140",
+    "nome": "RB CONTABILIDADE E SERVICOS ADMINISTRATIVOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "44746850000109",
+    "nome": "COSMOPOLITAN PRAIA FLAT SCP",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1106.91
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 7,
+   "total": 42200.0,
+   "por_tipo": {
+    "Despesas com pessoal": 30200.0,
+    "Produção de jingles, vinhetas e slogans": 2000.0,
+    "Serviços prestados por terceiros": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

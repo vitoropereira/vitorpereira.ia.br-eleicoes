@@ -1,0 +1,122 @@
+{
+ "sq": "220002547344",
+ "nome_urna": "JEAN OLIVEIRA",
+ "cargo": "depest",
+ "uf": "RO",
+ "partido": "PRD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 341500.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 241500.0,
+   "Recursos próprios": 100000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 341500.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 18,
+   "total": 341500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 139009.24,
+  "total_pago": 2634.4,
+  "fornecedores_pj": [
+   {
+    "cnpj": "35229827000156",
+    "nome": "PRIETO ASSESSORIA E CONSULTORIA LTDA",
+    "cnae": "82911",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "25371504000149",
+    "nome": "V. A COMUNICACAO E COMERCIO LTDA",
+    "cnae": "82997",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9024.84
+   },
+   {
+    "cnpj": "05155992000140",
+    "nome": "RONDOFORMS EDITORA E GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5200.0
+   },
+   {
+    "cnpj": "41676221000161",
+    "nome": "IMPACT COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "11708183000110",
+    "nome": "CAIRU COMBUSTIVEIS LTDA",
+    "cnae": "46818",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2634.4
+   },
+   {
+    "cnpj": "20839093000150",
+    "nome": "CARIOCAS RECORD S PRODUCOES LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "24525161000167",
+    "nome": "EVOLUA TECNOLOGIC COMERCIO E SERVICOS LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "13739509000100",
+    "nome": "GF COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 450.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 15000.0,
+   "por_tipo": {
+    "Despesas com pessoal": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

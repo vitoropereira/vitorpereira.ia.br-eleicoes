@@ -1,0 +1,237 @@
+{
+ "sq": "200002538244",
+ "nome_urna": "DR GUSTAVO SOARES",
+ "cargo": "depest",
+ "uf": "RN",
+ "partido": "PSDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 355300.01,
+  "por_origem": {
+   "Recursos de pessoas físicas": 255300.01,
+   "Recursos próprios": 100000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 355300.01
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 22,
+   "total": 355300.01
+  }
+ },
+ "despesas": {
+  "total_contratado": 500471.14,
+  "total_pago": 284696.47,
+  "fornecedores_pj": [
+   {
+    "cnpj": "29391915000157",
+    "nome": "D J V RIBEIRO",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "08626106000107",
+    "nome": "COMUNICACAO MOSSOROENSE LTDA",
+    "cnae": "60225",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "27764605000105",
+    "nome": "E C DA SILVA DIAS LTDA",
+    "cnae": "82300",
+    "n_despesas": 8,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40387.5
+   },
+   {
+    "cnpj": "07044877000123",
+    "nome": "ROSSITER,ROCHA CAPISTRANO ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "57635326000102",
+    "nome": "M B COMERCIAL DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 31404.84
+   },
+   {
+    "cnpj": "39596526000111",
+    "nome": "CLARISSE TAVARES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "50455491000133",
+    "nome": "MARREIROS SERVICOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "20101345000149",
+    "nome": "AUGUSTO JOSE SILVEIRA PAIZINHO",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22255.2
+   },
+   {
+    "cnpj": "64635850000149",
+    "nome": "F M DE OLIVEIRA FILHO",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "32644139000164",
+    "nome": "A2 LOCACOES DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "04198047000162",
+    "nome": "R PONTES LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6900.0
+   },
+   {
+    "cnpj": "31321080000100",
+    "nome": "UNIGRAFICA INDUSTRIA GRAFICA LTDA",
+    "cnae": "17311",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6054.0
+   },
+   {
+    "cnpj": "51114801000119",
+    "nome": "ALONE COMUNICACAO E ASSESSORIA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "68102750000108",
+    "nome": "68.102.750 LUCAS LOPES RIBEIRO DE SOUZA",
+    "cnae": "90019",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "05789510000103",
+    "nome": "M M DE OLIVEIRA ARAUJO",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 3150.0
+   },
+   {
+    "cnpj": "50508072000112",
+    "nome": "50.508.072 RAFAEL BEZERRA DE SOUZA",
+    "cnae": "90019",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "07353855000145",
+    "nome": "ASSOCIACAO PORTO DE AMA CENTRO DE CULTURA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "31284542000167",
+    "nome": "M LEITE DE MESQUITA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 900.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 33,
+   "total": 100219.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 43500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 19.6,
+    "Locação/cessão de bens imóveis": 3000.0,
+    "Produção de jingles, vinhetas e slogans": 4500.0,
+    "Publicidade por carros de som": 1800.0,
+    "Serviços prestados por terceiros": 47400.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

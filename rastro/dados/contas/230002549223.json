@@ -1,0 +1,182 @@
+{
+ "sq": "230002549223",
+ "nome_urna": "ARTHUR HENRIQUE",
+ "cargo": "governador",
+ "uf": "RR",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2532000.0,
+  "por_origem": {
+   "Recursos de partido político": 2500000.0,
+   "Recursos de pessoas físicas": 32000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2500000.0,
+   "OUTROS RECURSOS": 32000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2500000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 10,
+   "total": 32000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2133143.13,
+  "total_pago": 2163575.59,
+  "fornecedores_pj": [
+   {
+    "cnpj": "09649862000114",
+    "nome": "IRMAOS SOUTELLO MENDONCA CONSULTORIA, COMUNICACAO E DESENVOLVIMENTO DE PROJETOS LTDA.",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "68338133000106",
+    "nome": "HANNA GONCALVES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "33385646000193",
+    "nome": "VITA NORTE COMERCIO LTDA",
+    "cnae": "47296",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 50014.0
+   },
+   {
+    "cnpj": "27864869000130",
+    "nome": "DW COMERCIO E SERVICOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "58078274000183",
+    "nome": "SUPREMA COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "25384725000151",
+    "nome": "ALIANCA COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "07610743000122",
+    "nome": "PERSONAL CONFECCOES RR LTDA",
+    "cnae": "14223",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24516.8
+   },
+   {
+    "cnpj": "31774401000122",
+    "nome": "SCH HOLDING E CONSULTORIA LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Aquisição/Doação de bens móveis ou imóveis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "34793596000146",
+    "nome": "EXPED TECH COMERCIO E SERVICOS LTDA",
+    "cnae": "46478",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "07590103000106",
+    "nome": "CESAR V. M. SANTANA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11500.0
+   },
+   {
+    "cnpj": "00581612000115",
+    "nome": "RORAIPETRO RORAIMA PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 8036.27
+   },
+   {
+    "cnpj": "84017888000165",
+    "nome": "FORBRAS RORAIMA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "04769544000173",
+    "nome": "DISTRIBUIDORA RIO PRETO LTDA",
+    "cnae": "46419",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 239.76
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 213,
+   "total": 715836.3,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 447750.0,
+    "Cessão ou locação de veículos": 80000.0,
+    "Despesas com pessoal": 38000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 86.3,
+    "Serviços contábeis": 150000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

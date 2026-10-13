@@ -1,0 +1,100 @@
+{
+ "sq": "80002549430",
+ "nome_urna": "CAPITAO ASSUMÇAO",
+ "cargo": "depest",
+ "uf": "ES",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 119206.97,
+  "por_origem": {
+   "Recursos de outros candidatos": 8500.0,
+   "Recursos de partido político": 50000.0,
+   "Recursos de pessoas físicas": 60706.97
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 58500.0,
+   "OUTROS RECURSOS": 60706.97
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68553061000110",
+    "nome": "STEFAN DE OLIVEIRA PIMENTA",
+    "total": 4500.0
+   },
+   {
+    "cnpj": "68608222000125",
+    "nome": "MAGDA SANTOS MALTA",
+    "total": 4000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 60706.97
+  }
+ },
+ "despesas": {
+  "total_contratado": 107165.65,
+  "total_pago": 103185.65,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 55000.0
+   },
+   {
+    "cnpj": "37397663000100",
+    "nome": "FABRIZ E DILEN ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "34028316237626",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 15885.65
+   },
+   {
+    "cnpj": "11787170000184",
+    "nome": "11.787.170 EMERSON ROGERIO REBULI",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3980.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 6,
+   "total": 12300.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 9500.0,
+    "Cessão ou locação de veículos": 2800.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

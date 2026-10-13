@@ -1,0 +1,160 @@
+{
+ "sq": "100002537283",
+ "nome_urna": "ULISSES GONÇALVES",
+ "cargo": "depest",
+ "uf": "MA",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 846000.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 35300.0,
+   "Recursos de partido político": 300000.0,
+   "Recursos de pessoas físicas": 510700.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 300000.0,
+   "OUTROS RECURSOS": 546000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 300000.0
+   },
+   {
+    "cnpj": "68386005000138",
+    "nome": "CIDONIO GONCALVES DOS SANTOS",
+    "total": 35300.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 18,
+   "total": 510700.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 602084.9,
+  "total_pago": 792999.47,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 13,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 245000.0
+   },
+   {
+    "cnpj": "04496308000120",
+    "nome": "G CARLOS NUNES",
+    "cnae": "18130",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 66600.0
+   },
+   {
+    "cnpj": "06933485000152",
+    "nome": "HERINGER TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 66000.0
+   },
+   {
+    "cnpj": "21581926000198",
+    "nome": "IMPLAY TECNOLOGIA E COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "35691925000100",
+    "nome": "DP PRODUCOES PIROTECNIA E SONORIZACAO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "57319983000140",
+    "nome": "RENAN SORVOS - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "67297208000195",
+    "nome": "AM CONSULTORIA E GESTAO LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "53523869000187",
+    "nome": "J.L.R. MALHARIA E COMERCIO LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 4278.0
+   },
+   {
+    "cnpj": "11586856000107",
+    "nome": "MERCEARIA RIO BRANCO LTDA",
+    "cnae": "47121",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação",
+     "Materiais de expediente"
+    ],
+    "total": 189.3
+   },
+   {
+    "cnpj": "41974556000166",
+    "nome": "HABIA ROCHA FIGUEIREDO",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 25.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 96,
+   "total": 79992.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 53900.0,
+    "Cessão ou locação de veículos": 12000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 92.6,
+    "Locação/cessão de bens imóveis": 6000.0,
+    "Serviços prestados por terceiros": 8000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

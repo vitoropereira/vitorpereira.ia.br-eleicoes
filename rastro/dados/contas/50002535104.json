@@ -1,0 +1,141 @@
+{
+ "sq": "50002535104",
+ "nome_urna": "IGOR",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1141500.0,
+  "por_origem": {
+   "Recursos de partido político": 1130000.0,
+   "Recursos próprios": 11500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 300000.0,
+   "OUTROS RECURSOS": 841500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1130000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 11500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 967358.2,
+  "total_pago": 734658.2,
+  "fornecedores_pj": [
+   {
+    "cnpj": "27928677000140",
+    "nome": "BELO IMPRESSOES GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 500224.0
+   },
+   {
+    "cnpj": "35018438000181",
+    "nome": "SPACE PRODUCOES DE EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 3,
+    "tipos": [
+     "Atividades de militância e mobilização de rua",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 224743.0
+   },
+   {
+    "cnpj": "20788849000189",
+    "nome": "GRENOBLE PRODUCAO E DOCUMENTACAO LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "53721430000169",
+    "nome": "LP CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "62489031000105",
+    "nome": "PIPA CRIATIVIDADE VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13000.0
+   },
+   {
+    "cnpj": "02726680000150",
+    "nome": "BA DO BRASIL LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 12900.0
+   },
+   {
+    "cnpj": "43973744000103",
+    "nome": "BR ONLINE INDUSTRIA E COMERCIO LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "03019757000115",
+    "nome": "LOC TUDO LOCACAO E ASSISTENCIA TECNICA LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 8396.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 113095.2,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 95.2,
+    "Locação/cessão de bens imóveis": 13000.0,
+    "Publicidade por carros de som": 100000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

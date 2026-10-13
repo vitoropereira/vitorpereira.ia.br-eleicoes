@@ -1,0 +1,651 @@
+{
+ "sq": "90002539151",
+ "nome_urna": "RUBENS OTONI",
+ "cargo": "depfed",
+ "uf": "GO",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1975003.91,
+  "por_origem": {
+   "Recursos de outros candidatos": 45000.0,
+   "Recursos de partido político": 1815500.0,
+   "Recursos de pessoas físicas": 87503.91,
+   "Recursos próprios": 27000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1845000.0,
+   "FUNDO PARTIDARIO": 15500.0,
+   "OUTROS RECURSOS": 114503.91
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1815500.0
+   },
+   {
+    "cnpj": "68499774000142",
+    "nome": "LUIS CESAR BUENO E FREITAS",
+    "total": 45000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 22,
+   "total": 114503.91
+  }
+ },
+ "despesas": {
+  "total_contratado": 1251631.3,
+  "total_pago": 1259884.89,
+  "fornecedores_pj": [
+   {
+    "cnpj": "38756034000183",
+    "nome": "PIRES OLIVEIRA CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 129000.0
+   },
+   {
+    "cnpj": "40215314000126",
+    "nome": "CASTELO BRANCO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "68776246000193",
+    "nome": "TRAJETORIA DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 47354.09
+   },
+   {
+    "cnpj": "64433090000197",
+    "nome": "GAB INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 47247.1
+   },
+   {
+    "cnpj": "22068387000150",
+    "nome": "ADALBERTO DA CRUZ COMUNICACAO E EVENTOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "01096445000180",
+    "nome": "GRUPOM CONSULTORIA EMPRESARIAL LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 37125.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 36000.0
+   },
+   {
+    "cnpj": "68455568000130",
+    "nome": "MAURO RUBEM DE MENEZES JONAS",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68455618000180",
+    "nome": "ANTONIO ROBERTO OTONI GOMIDE",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68455680000171",
+    "nome": "MARIA EUZEBIA DE LIMA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68456019000180",
+    "nome": "KATIA MARIA DOS SANTOS",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68456159000159",
+    "nome": "CASSIANA VAZ TORMIN",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "39994822000170",
+    "nome": "GYN LOGISTICA LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "29741792000137",
+    "nome": "CLINICA MEDICA NEXUS LTDA",
+    "cnae": "86305",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "24113180000186",
+    "nome": "GYN LOCADORA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 13352.08
+   },
+   {
+    "cnpj": "37280483000135",
+    "nome": "37.280.483 GABRIEL ALENCAR BORGES MENDES DE SOUSA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 13000.0
+   },
+   {
+    "cnpj": "68454938000115",
+    "nome": "MARIA DA LUZ CHAGAS SANTOS",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68454970000109",
+    "nome": "JULIANA DAMANDO VAZ",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68454985000169",
+    "nome": "YASSER MARTINS YASSINE",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68455020000190",
+    "nome": "ADEDI JOSE DE SANTANA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68455083000147",
+    "nome": "TADEU RIBEIRO DA COSTA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68455198000131",
+    "nome": "SAVIO PRATES DE ABREU MORAIS",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68455817000198",
+    "nome": "ANGELA DE JESUS ARAUJO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68456030000140",
+    "nome": "ANA CAROLINE CARMO DA SILVA NUNES",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68456043000110",
+    "nome": "WESLEY CORREA DE TOLEDO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68456089000139",
+    "nome": "ISMAEL BELARMINO ROSA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68456114000184",
+    "nome": "WELTON DIVINO DAS DORES DE SOUSA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68456162000172",
+    "nome": "EDINAN LOPES BRAUNA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68456175000141",
+    "nome": "MARIA DE JESUS ALVES BENVINDO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68456178000185",
+    "nome": "PATRICIA ROSA CAMILO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68456189000165",
+    "nome": "FABRICIO SILVA ROSA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68456190000190",
+    "nome": "GESSIMONE SANTANA DOS SANTOS",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68456233000137",
+    "nome": "CLEITON ELEUTERIO DA SILVA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68470618000159",
+    "nome": "ORLANES FERREIRA DE SOUSA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "31157197000109",
+    "nome": "GUIMARAES ALVES PARTICIPACOES LTDA",
+    "cnae": "64638",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 7127.16
+   },
+   {
+    "cnpj": "63423202000166",
+    "nome": "63.423.202 LETICIA SILVESTRE AQUINO",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "68455893000101",
+    "nome": "ALESSANDRO MENDONCA CABRAL",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "68456226000135",
+    "nome": "HILVANY ARAUJO PINHEIRO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "68470404000182",
+    "nome": "GOIANO SIDNEY COSTA DE SOUSA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "68470543000106",
+    "nome": "LUIZ DO NASCIMENTO CARVALHO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "09603203000147",
+    "nome": "F ALVES SERVICOS CONTABEIS",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 4863.0
+   },
+   {
+    "cnpj": "55757590000193",
+    "nome": "55.757.590 JEAN CARLOS ALVES DE JESUS",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4750.0
+   },
+   {
+    "cnpj": "62747434000107",
+    "nome": "62.747.434 GERALDO RIBEIRO GOMES",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "68561051000126",
+    "nome": "GRAFICA NOBRE PUBLICIDADE E CONFECCAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3750.0
+   },
+   {
+    "cnpj": "66197974000115",
+    "nome": "P P COMUNICACAO VISUAL LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2600.0
+   },
+   {
+    "cnpj": "23152525000148",
+    "nome": "NR CORRETORA DE IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2540.0
+   },
+   {
+    "cnpj": "11786457000190",
+    "nome": "POSTO Z+Z NOSSA SENHORA MEDALHA MILAGROSA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2271.29
+   },
+   {
+    "cnpj": "37295854000152",
+    "nome": "EMBALAGENS SAN JORGE LTDA",
+    "cnae": "46869",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2201.8
+   },
+   {
+    "cnpj": "30633083000117",
+    "nome": "LANCHONETE LEAL LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2175.0
+   },
+   {
+    "cnpj": "25966159000196",
+    "nome": "SILVIO RODRIGUES ARRUDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "54889509000166",
+    "nome": "POSTO ANTONELLI BRASIL SUL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 620.95
+   },
+   {
+    "cnpj": "05023737000143",
+    "nome": "GARZZO COMERCIO DE COMBUSTIVEIS E DERIVADOS LTDA.",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "51007627000105",
+    "nome": "PAULO HENRIQUE PEREIRA PINTO",
+    "cnae": "43991",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "35624396000122",
+    "nome": "AUTO POSTO VALE GO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "46344780000198",
+    "nome": "POSTO JABUTI CATALAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "65589445000102",
+    "nome": "65.589.445 THALERSON BUENO DOS SANTOS",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 285.0
+   },
+   {
+    "cnpj": "57868417000198",
+    "nome": "B2T AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 250.0
+   },
+   {
+    "cnpj": "06338087000198",
+    "nome": "PRIMICIAS PAPEIS E UTILIDADES LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 66.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 128,
+   "total": 415252.83,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 163928.0,
+    "Cessão ou locação de veículos": 31200.0,
+    "Despesas com pessoal": 97436.33,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 63.5,
+    "Locação/cessão de bens imóveis": 70625.0,
+    "Publicidade por carros de som": 52000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

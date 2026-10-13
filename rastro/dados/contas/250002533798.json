@@ -1,0 +1,383 @@
+{
+ "sq": "250002533798",
+ "nome_urna": "SOLANGE FREITAS",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1217547.59,
+  "por_origem": {
+   "Recursos de partido político": 1190247.59,
+   "Recursos de pessoas físicas": 5000.0,
+   "Recursos próprios": 22300.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 986640.0,
+   "FUNDO PARTIDARIO": 203607.59,
+   "OUTROS RECURSOS": 27300.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "45878593000121",
+    "nome": "Direção Estadual/Distrital - UNIÃO - SÃO PAULO",
+    "total": 803607.59
+   },
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 386640.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 27300.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 867408.24,
+  "total_pago": 765474.44,
+  "fornecedores_pj": [
+   {
+    "cnpj": "31603472000162",
+    "nome": "SXS MARKETING E COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 88500.0
+   },
+   {
+    "cnpj": "09204155000114",
+    "nome": "VITA PORTO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "22317550000171",
+    "nome": "M DESIGNER CITY LTDA",
+    "cnae": "58115",
+    "n_despesas": 7,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 52236.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 36000.0
+   },
+   {
+    "cnpj": "53353636000183",
+    "nome": "VTMC SOLUCOES E GESTAO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "02673346000186",
+    "nome": "EVEREST SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22825.0
+   },
+   {
+    "cnpj": "71112924000128",
+    "nome": "CLUBE DE REGATAS TUMIARU",
+    "cnae": "93123",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68894406000107",
+    "nome": "ROMA CONSTRUCOES LOCACOES E EVENTOS LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 17400.0
+   },
+   {
+    "cnpj": "60011343000183",
+    "nome": "VILA RICA PARK LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 17233.33
+   },
+   {
+    "cnpj": "41895485000106",
+    "nome": "TEMPERO DE CASA RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 15150.0
+   },
+   {
+    "cnpj": "12337435000105",
+    "nome": "BELLA MAMA GOURMET RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 14400.0
+   },
+   {
+    "cnpj": "39466349000159",
+    "nome": "NACIONAL TRANSPORTE E TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "15524433000113",
+    "nome": "FELIPE ROMA DE ARAUJO DIAS",
+    "cnae": "47822",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 11250.0
+   },
+   {
+    "cnpj": "49616552000118",
+    "nome": "CRIL ADMINISTRACAO DE IMOVEIS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "51727592000189",
+    "nome": "METALQUIMICA EMPREENDIMENTOS E PARTICIPACOES LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "53563817000134",
+    "nome": "53.563.817 PETERSON RODRIGO SENA DOS SANTOS",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 9690.0
+   },
+   {
+    "cnpj": "15165917000113",
+    "nome": "BIGLUX COMUNICACAO VISUAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 8450.0
+   },
+   {
+    "cnpj": "03429320000150",
+    "nome": "C B DOS SANTOS GRAFICA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8400.0
+   },
+   {
+    "cnpj": "14991501000191",
+    "nome": "SOM TIME PRODUCOES E EVENTOS - LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "08142850000136",
+    "nome": "WBL GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "07195095000195",
+    "nome": "WILL GRAFICA LTDA",
+    "cnae": "18211",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4789.99
+   },
+   {
+    "cnpj": "57911846000109",
+    "nome": "57.911.846 ANDRE FELIPE ECHEBARNE",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "68151731000171",
+    "nome": "LIONS COMERCIO MATERIAL GRAFICO LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "53805817000101",
+    "nome": "LITORAL ATACADO E VAREJO DE BEBIDAS E ALIMENTOS LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 2401.2
+   },
+   {
+    "cnpj": "17043648000148",
+    "nome": "MERCADO E PADARIA NOVA RENASCER LTDA",
+    "cnae": "47121",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2050.0
+   },
+   {
+    "cnpj": "36180694000133",
+    "nome": "36.180.694 VANESSA MARQUES MACENA",
+    "cnae": "47237",
+    "n_despesas": 3,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1960.0
+   },
+   {
+    "cnpj": "09239301000147",
+    "nome": "LUIZ C. DA FONSECA",
+    "cnae": "82997",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1830.0
+   },
+   {
+    "cnpj": "23857701000147",
+    "nome": "PONTE PENSIL LOCADORA DE VEICULOS, TRANSPORTE E TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 1300.0
+   },
+   {
+    "cnpj": "51093605000105",
+    "nome": "W SOARES LOCADORA TRANSPORTE LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 526.5
+   },
+   {
+    "cnpj": "64714553000199",
+    "nome": "DALI COMERCIO PAPELEIRO LTDA",
+    "cnae": "47610",
+    "n_despesas": 3,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 249.0
+   },
+   {
+    "cnpj": "24822774000166",
+    "nome": "ORIGINAL STICKER PRODUCAO DE ADESIVOS ESPECIAIS LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 225.0
+   },
+   {
+    "cnpj": "30379659000161",
+    "nome": "M.S.C. SANTOS EMPREITEIRA DE MAO DE OBRA LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 12.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 109,
+   "total": 394530.22,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 238289.82,
+    "Cessão ou locação de veículos": 43450.0,
+    "Despesas com pessoal": 61050.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 128.9,
+    "Locação/cessão de bens imóveis": 23611.5,
+    "Locação/cessão de bens móveis (exceto veículos)": 8000.0,
+    "Serviços advocatícios": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

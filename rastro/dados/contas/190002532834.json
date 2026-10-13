@@ -1,0 +1,112 @@
+{
+ "sq": "190002532834",
+ "nome_urna": "CHRIS TONIETTO",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3005731.93,
+  "por_origem": {
+   "Recursos de outros candidatos": 2727.27,
+   "Recursos de partido político": 3003004.66
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3000000.0,
+   "FUNDO PARTIDARIO": 3004.66,
+   "OUTROS RECURSOS": 2727.27
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3000000.0
+   },
+   {
+    "cnpj": "08703299000152",
+    "nome": "Direção Estadual/Distrital - PL - RIO DE JANEIRO",
+    "total": 3004.66
+   },
+   {
+    "cnpj": "68470280000135",
+    "nome": "DOUGLAS RUAS DOS SANTOS",
+    "total": 2727.27
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2839453.49,
+  "total_pago": 2283638.76,
+  "fornecedores_pj": [
+   {
+    "cnpj": "27821313000167",
+    "nome": "COLOR SET INDUSTRIA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 18,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 610097.34
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 260000.0
+   },
+   {
+    "cnpj": "11631966000143",
+    "nome": "BRASIL SIGN COMPUTACAO GRAFICA LTDA",
+    "cnae": "33295",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 113418.4
+   },
+   {
+    "cnpj": "40040485000161",
+    "nome": "AGENCIA LURA MARKETING DIGITAL LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "26642855000100",
+    "nome": "CASTRO, VIEIRA E FERREIRA CONTA DO RES ELEITORAIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 36650.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 683,
+   "total": 1774287.75,
+   "por_tipo": {
+    "Despesas com pessoal": 1733681.75,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 606.0,
+    "Serviços advocatícios": 40000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

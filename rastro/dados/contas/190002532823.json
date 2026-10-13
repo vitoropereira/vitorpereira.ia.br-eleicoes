@@ -1,0 +1,127 @@
+{
+ "sq": "190002532823",
+ "nome_urna": "JORGE MIRANDA",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2161383.01,
+  "por_origem": {
+   "Recursos de outros candidatos": 154778.33,
+   "Recursos de partido político": 2006604.68
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2154778.33,
+   "FUNDO PARTIDARIO": 3504.68,
+   "OUTROS RECURSOS": 3100.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2000000.0
+   },
+   {
+    "cnpj": "68269111000131",
+    "nome": "SERGIO RENATO FERREIRA MIRANDA",
+    "total": 152200.0
+   },
+   {
+    "cnpj": "08703299000152",
+    "nome": "Direção Estadual/Distrital - PL - RIO DE JANEIRO",
+    "total": 6604.68
+   },
+   {
+    "cnpj": "68470280000135",
+    "nome": "DOUGLAS RUAS DOS SANTOS",
+    "total": 2578.33
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 619167.2,
+  "total_pago": 1356732.9,
+  "fornecedores_pj": [
+   {
+    "cnpj": "26712256000115",
+    "nome": "GRAFICA ROSA E SILVA 2016 LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 113886.5
+   },
+   {
+    "cnpj": "34028316072449",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 32148.2
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "59505525000121",
+    "nome": "ESFERA ATITUDE COMUNICACAO VISUAL LTDA",
+    "cnae": "63992",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "63638307000132",
+    "nome": "63.638.307 LILIANE SOUZA MAGALHAES PEIXOTO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 10600.0
+   },
+   {
+    "cnpj": "40772797000160",
+    "nome": "PREMIARTE COMUNICACAO, DESIGN E COMERCIO LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 5500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 101,
+   "total": 409032.5,
+   "por_tipo": {
+    "Despesas com pessoal": 379000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 32.5,
+    "Serviços advocatícios": 15000.0,
+    "Serviços contábeis": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

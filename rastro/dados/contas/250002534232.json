@@ -1,0 +1,451 @@
+{
+ "sq": "250002534232",
+ "nome_urna": "ITAMAR BORGES",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1232347.84,
+  "por_origem": {
+   "Recursos de partido político": 855091.56,
+   "Recursos de pessoas físicas": 334500.0,
+   "Recursos próprios": 42756.28
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 403896.1,
+   "FUNDO PARTIDARIO": 91195.46,
+   "OUTROS RECURSOS": 737256.28
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 850000.0
+   },
+   {
+    "cnpj": "45302874000131",
+    "nome": "Direção Estadual/Distrital - MDB - SÃO PAULO",
+    "total": 5091.56
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 13,
+   "total": 377256.28
+  }
+ },
+ "despesas": {
+  "total_contratado": 1083346.14,
+  "total_pago": 1200756.03,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 10,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 299000.0
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 265735.25
+   },
+   {
+    "cnpj": "09510802000116",
+    "nome": "COORPTRANS - COOPERATIVA RIO PRETENSE DE SERVICOS DE TRANSPORTE DE CARGA E PASSAGEIROS",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 79247.0
+   },
+   {
+    "cnpj": "59963488000103",
+    "nome": "EMPRESA DE PUBLICIDADE RIO PRETO S.A.",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 54000.0
+   },
+   {
+    "cnpj": "26326201000177",
+    "nome": "GRAFICA SUPORTE RP LTDA",
+    "cnae": "18130",
+    "n_despesas": 97,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 53629.75
+   },
+   {
+    "cnpj": "08288515000140",
+    "nome": "GRAFICA E EDITORA REVELACAO LTDA",
+    "cnae": "18113",
+    "n_despesas": 16,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 37212.57
+   },
+   {
+    "cnpj": "38427987000106",
+    "nome": "JORNAL GAZETA DE RIO PRETO LTDA",
+    "cnae": "58221",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 32000.0
+   },
+   {
+    "cnpj": "55247078000105",
+    "nome": "55.247.078 JURANDIR DA SILVA FERREIRA",
+    "cnae": "47636",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26850.0
+   },
+   {
+    "cnpj": "38376246000135",
+    "nome": "DB CICCARELLI COMERCIO DE PRODUTOS DE COMUNICACAO",
+    "cnae": "47521",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "09204155000114",
+    "nome": "VITA PORTO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "29037928000122",
+    "nome": "EIG ASSESSORIA CONSULTORIA CONTABIL E FISCAL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "37796670000176",
+    "nome": "PRODUTORA DE CONTEUDO CONTEUDO PLAY LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "59556994000170",
+    "nome": "ESPACO FELIX PETROLLI LTDA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "06090241000155",
+    "nome": "EDITORA D HOJE INTERIOR RIO PRETO LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 14400.0
+   },
+   {
+    "cnpj": "26698750000172",
+    "nome": "BBP ACOES E PROMOCOES LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "11302978000124",
+    "nome": "BARCELOS DISTRIBUIDORA DE PANFLETOS E LOGISTICA LTDA",
+    "cnae": "53202",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "53973426000198",
+    "nome": "JORNAL A CIDADE DE VOTUPORANGA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "67110706000187",
+    "nome": "ELSON CESAR CASTELAN LTDA",
+    "cnae": "18130",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9975.0
+   },
+   {
+    "cnpj": "18886546000157",
+    "nome": "LAN LOCACAO DE IMOVEIS E PARTICIPACOES LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "10981138000172",
+    "nome": "JOSE VINICIUS MARTINS GUILHEM - CONFECCOES",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "62698434000164",
+    "nome": "RAPHA INOVA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "06065895000129",
+    "nome": "S G M K LOCACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "64842434000111",
+    "nome": "64.842.434 ADALBERTO DA SILVA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "68174751000168",
+    "nome": "EDITORA NOSSO BAIRRO COMUNICACAO E PUBLICIDADE INTEGRADA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "12462739000102",
+    "nome": "PMSAL - LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2700.0
+   },
+   {
+    "cnpj": "60199933000181",
+    "nome": "PLASGIU EMBALAGENS ESPECIAIS LTDA",
+    "cnae": "46869",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 2448.0
+   },
+   {
+    "cnpj": "52016216000149",
+    "nome": "LALUC CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1250.0
+   },
+   {
+    "cnpj": "07297422000110",
+    "nome": "EDITORIAL JORNAL A COMARCA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "33387962000102",
+    "nome": "AUTO POSTO PLAZA RIO PRETO LTDA EM RECUPERACAO JUDICIAL",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 812.4
+   },
+   {
+    "cnpj": "01159000000100",
+    "nome": "GJPR JORNAL REGIONAL LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "44281496000194",
+    "nome": "MOMENTO COMUNICACOES LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "59669194000165",
+    "nome": "2R DISTRIBUIDORA DE MATERIAIS PARA ESCRITORIO LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "49888438000147",
+    "nome": "MARIO AURELIO SAMPAIO E SILVA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "48308019000126",
+    "nome": "FOTOGRAVURA RIO PRETO LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "06263105000110",
+    "nome": "FRAMOR COMERCIO DE PRODUTOS PARA INFORMATICA LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 242.9
+   },
+   {
+    "cnpj": "34787347000148",
+    "nome": "NOVO CERTIFICADO DIGITAL LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "08948012000154",
+    "nome": "QUALIGRAF VOTUPORANGA EDITORA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 160.0
+   },
+   {
+    "cnpj": "08376376000107",
+    "nome": "COMERCIO DE COMBUSTIVEIS MIRANTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 150.17
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 23,
+   "total": 37683.1,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 2000.0,
+    "Despesas com pessoal": 31140.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 43.1,
+    "Locação/cessão de bens imóveis": 4500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

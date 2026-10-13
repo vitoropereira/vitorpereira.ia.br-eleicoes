@@ -1,0 +1,244 @@
+{
+ "sq": "230002553006",
+ "nome_urna": "TERESA SURITA",
+ "cargo": "senador",
+ "uf": "RR",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2478357.13,
+  "por_origem": {
+   "Recursos de partido político": 2460357.13,
+   "Recursos de pessoas físicas": 18000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2460357.13,
+   "OUTROS RECURSOS": 18000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 1700000.0
+   },
+   {
+    "cnpj": "00719575000169",
+    "nome": "Direção Nacional - PDT",
+    "total": 750000.0
+   },
+   {
+    "cnpj": "03656678000115",
+    "nome": "Direção Estadual/Distrital - MDB - RORAIMA",
+    "total": 10357.13
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 18000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1350485.04,
+  "total_pago": 305407.7,
+  "fornecedores_pj": [
+   {
+    "cnpj": "17582483000182",
+    "nome": "REPUBLICA COMUNICACAO E CONSULTORIA LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 205000.0
+   },
+   {
+    "cnpj": "04162481000192",
+    "nome": "ANDRE VIEIRA SILVA LTDA",
+    "cnae": "47563",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 97500.0
+   },
+   {
+    "cnpj": "24270938000190",
+    "nome": "NORTE PRODUCOES DE FILMES LTDA",
+    "cnae": "18300",
+    "n_despesas": 3,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 81991.0
+   },
+   {
+    "cnpj": "06108422000161",
+    "nome": "FM INDUSTRIA GRAFICA E LOCACAO DE MAQUINAS E EQUIPAMENTOS LTDA",
+    "cnae": "58298",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 77200.0
+   },
+   {
+    "cnpj": "64930717000115",
+    "nome": "LUZPETRO ENERGIA 02 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "21501147000135",
+    "nome": "GABIA COMUNICACAO, CONSULTORIA E MARKETING LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 65000.0
+   },
+   {
+    "cnpj": "84017888000165",
+    "nome": "FORBRAS RORAIMA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 50100.0
+   },
+   {
+    "cnpj": "42860806000108",
+    "nome": "NIDA ATACADO LTDA",
+    "cnae": "46311",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 32000.0
+   },
+   {
+    "cnpj": "03756535000185",
+    "nome": "BATICUM PRODUCOES MUSICAIS LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "32546832000102",
+    "nome": "H. C. SOUZA LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "13406312000141",
+    "nome": "FERREIRA E PICAO LTDA",
+    "cnae": "77110",
+    "n_despesas": 5,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 22377.08
+   },
+   {
+    "cnpj": "06983735000169",
+    "nome": "PARIMA LOCACAO BOA VISTA LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10664.96
+   },
+   {
+    "cnpj": "84041011000100",
+    "nome": "INDUSTRIA E COMERCIO IORIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10200.0
+   },
+   {
+    "cnpj": "10757737000107",
+    "nome": "DELGADO GOMES ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "37537455000150",
+    "nome": "M. M. L. DOURADO LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "20664790000117",
+    "nome": "AMASV ZARPA TRANSMISSAO E ARMAZENAMENTO DE DADOS S.A.",
+    "cnae": "63119",
+    "n_despesas": 5,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 6240.0
+   },
+   {
+    "cnpj": "05059252000100",
+    "nome": "MOURAO E LIRA LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 5000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 182,
+   "total": 444212.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 374000.0,
+    "Cessão ou locação de veículos": 15000.0,
+    "Despesas com pessoal": 22600.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 612.0,
+    "Locação/cessão de bens imóveis": 20000.0,
+    "Publicidade por carros de som": 12000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

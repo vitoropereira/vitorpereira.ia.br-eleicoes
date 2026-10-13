@@ -1,0 +1,101 @@
+{
+ "sq": "30002531192",
+ "nome_urna": "FRANCO",
+ "cargo": "depest",
+ "uf": "AP",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 198000.0,
+  "por_origem": {
+   "Recursos de partido político": 180000.0,
+   "Recursos de pessoas físicas": 14000.0,
+   "Recursos próprios": 4000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 180000.0,
+   "OUTROS RECURSOS": 18000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 180000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 18000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 64862.5,
+  "total_pago": 125012.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "68392350000184",
+    "nome": "TRIA ESTRATEGIA, MARKETING E COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "05574260000194",
+    "nome": "AMAZONITA FILMES E SERVICOS DE COMUNICACAO E MARKETING LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 6500.0
+   },
+   {
+    "cnpj": "64999595000113",
+    "nome": "AUTO POSTO RV LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "15644022000161",
+    "nome": "FRANCISCO MONTEIRO CANTIDIO",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "24340049000151",
+    "nome": "MARECO COMERCIO E SERVICO LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 360.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 24002.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.5,
+    "Locação/cessão de bens imóveis": 6000.0,
+    "Serviços advocatícios": 18000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

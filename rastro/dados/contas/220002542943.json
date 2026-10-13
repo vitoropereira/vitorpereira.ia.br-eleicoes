@@ -1,0 +1,208 @@
+{
+ "sq": "220002542943",
+ "nome_urna": "MAURÍCIO CARVALHO",
+ "cargo": "depfed",
+ "uf": "RO",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2748800.0,
+  "por_origem": {
+   "Recursos de partido político": 1148800.0,
+   "Recursos de pessoas físicas": 1600000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1000000.0,
+   "FUNDO PARTIDARIO": 148800.0,
+   "OUTROS RECURSOS": 1600000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "45848213000106",
+    "nome": "Direção Estadual/Distrital - UNIÃO - RONDÔNIA",
+    "total": 148800.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 1600000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1344753.73,
+  "total_pago": 628434.84,
+  "fornecedores_pj": [
+   {
+    "cnpj": "04030261000105",
+    "nome": "MINHAGENCIA PROPAGANDA E MARKETING LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 380750.0
+   },
+   {
+    "cnpj": "57113278000192",
+    "nome": "EXATHUS ASSESSORIA E CONSULTORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "21865133000109",
+    "nome": "SANTANA SANT ANA - ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 90000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "11738957000156",
+    "nome": "DIMAP EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "84722420000171",
+    "nome": "EMPRESA RONDONIA DE REFRIGERANTES LTDA",
+    "cnae": "11216",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 11700.0
+   },
+   {
+    "cnpj": "08394390000133",
+    "nome": "IMPERADOR TRANSPORTE E TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10538.0
+   },
+   {
+    "cnpj": "31805452000174",
+    "nome": "B. J. FONTOURA DE SOUZA MONITORAMENTO E SERVICOS",
+    "cnae": "80200",
+    "n_despesas": 1,
+    "tipos": [
+     "Segurança e prevenção, repressão e combate à violência política"
+    ],
+    "total": 4320.0
+   },
+   {
+    "cnpj": "04796496000102",
+    "nome": "EMOPS SERVICOS DE SANEAMENTO E CONTROLE DE PRAGAS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "44523626000158",
+    "nome": "ANA C DE OLIVEIRA BARROS",
+    "cnae": "63992",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "45991563000127",
+    "nome": "M MACHADO SERVICOS DE GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2800.0
+   },
+   {
+    "cnpj": "05537429000217",
+    "nome": "A BENTO DO NASCIMENTO COMERCIO DE COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1922.05
+   },
+   {
+    "cnpj": "41361265000100",
+    "nome": "SENA COMERCIO E SERVICOS LTDA",
+    "cnae": "74102",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 990.0
+   },
+   {
+    "cnpj": "22131657000120",
+    "nome": "SUPERGRAFF INDUSTRIA E COMERCIO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "41015260000118",
+    "nome": "OPS MIDIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 116.67
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 273,
+   "total": 640117.01,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 454288.56,
+    "Cessão ou locação de veículos": 77700.0,
+    "Despesas com pessoal": 104530.95,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 97.5,
+    "Produção de jingles, vinhetas e slogans": 3500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

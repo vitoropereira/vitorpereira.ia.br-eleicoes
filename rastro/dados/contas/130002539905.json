@@ -1,0 +1,197 @@
+{
+ "sq": "130002539905",
+ "nome_urna": "CARLOS HENRIQUE",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 561061.86,
+  "por_origem": {
+   "Recursos de outros candidatos": 27058.7,
+   "Recursos de partido político": 282763.16,
+   "Recursos de pessoas físicas": 126240.0,
+   "Recursos próprios": 125000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 180000.0,
+   "FUNDO PARTIDARIO": 102763.16,
+   "OUTROS RECURSOS": 278298.7
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 280000.0
+   },
+   {
+    "cnpj": "68403721000186",
+    "nome": "GILBERTO APARECIDO ABRAMO",
+    "total": 26558.7
+   },
+   {
+    "cnpj": "07965139000119",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - MINAS GERAIS",
+    "total": 2763.16
+   },
+   {
+    "cnpj": "68403681000172",
+    "nome": "BRUNO SOUZA FARIAS",
+    "total": 500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 8,
+   "total": 251240.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 142228.63,
+  "total_pago": 267392.41,
+  "fornecedores_pj": [
+   {
+    "cnpj": "56019930000141",
+    "nome": "INOVE INTELIGENCIA EM TECNOLOGIA DESENVOLVIMENTO DE SISTEMA E MARKETING LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 41800.0
+   },
+   {
+    "cnpj": "10186946000148",
+    "nome": "VIP LOC VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 34813.33
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "47171691000150",
+    "nome": "BRASILTEC SUPRIMENTOS PARA COMUNICACAO VISUAL LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "48988595000161",
+    "nome": "JT COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5700.0
+   },
+   {
+    "cnpj": "23877280000116",
+    "nome": "MILCORES IMPRESSAO DIGITAL E SERIGRAFIA LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 4800.0
+   },
+   {
+    "cnpj": "34189999000180",
+    "nome": "CONCEITO COMUNICACAO VISUAL E GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3345.0
+   },
+   {
+    "cnpj": "20270503000194",
+    "nome": "20.270.503 TADEU LEONEL MINUCCI JUNIOR",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3200.0
+   },
+   {
+    "cnpj": "02895408000102",
+    "nome": "DI-FESTAS EMPORIO BRANDAO LTDA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "09482333000179",
+    "nome": "AUTO POSTO VIGIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2047.52
+   },
+   {
+    "cnpj": "65623772000125",
+    "nome": "COLORSET LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "48531691000186",
+    "nome": "AUTO POSTO CRISTIANO OTONI LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 259.61
+   },
+   {
+    "cnpj": "42888115000104",
+    "nome": "A EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 152.37
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 2010.8,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 10.8,
+    "Locação/cessão de bens imóveis": 2000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,227 @@
+{
+ "sq": "220002547372",
+ "nome_urna": "ALEX REDANO",
+ "cargo": "depest",
+ "uf": "RO",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 762500.66,
+  "por_origem": {
+   "Recursos de pessoas físicas": 667500.66,
+   "Recursos próprios": 95000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 762500.66
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 158,
+   "total": 762500.66
+  }
+ },
+ "despesas": {
+  "total_contratado": 583603.53,
+  "total_pago": 590819.67,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 74149.12
+   },
+   {
+    "cnpj": "14051559000155",
+    "nome": "D. CANDELORIO JUNIOR",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "36448097000147",
+    "nome": "TACIO AUGUSTO MORENO DE FARIAS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "34737395000121",
+    "nome": "CLAUDIO FERREIRA DE LIMA CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 27258.68
+   },
+   {
+    "cnpj": "14804299000141",
+    "nome": "GIOVANNI MOURA FURINI CONTADORES ASSOCIADOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "04320901000111",
+    "nome": "MONTEIRO RENT A CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "13484296000105",
+    "nome": "INTEGRACAO TRANSPORTES LTDA",
+    "cnae": "49213",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "41015260000118",
+    "nome": "OPS MIDIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12450.0
+   },
+   {
+    "cnpj": "05147841000140",
+    "nome": "D.E. COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7022.61
+   },
+   {
+    "cnpj": "29828527000271",
+    "nome": "JAMARI COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3581.72
+   },
+   {
+    "cnpj": "10964693000196",
+    "nome": "BRASIL AUTO SERVICO DE PRODUTOS ALIMENTICIOS S.A.",
+    "cnae": "47113",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação",
+     "Materiais de expediente"
+    ],
+    "total": 1961.13
+   },
+   {
+    "cnpj": "04082624002280",
+    "nome": "IRMAOS GONCALVES COMERCIO E INDUSTRIA LTDA.",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1307.1
+   },
+   {
+    "cnpj": "50968506000167",
+    "nome": "MERCADO E PANIFICADORA PAO NOSSO LTDA",
+    "cnae": "47113",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1056.84
+   },
+   {
+    "cnpj": "36234407000120",
+    "nome": "DANIELE COLTRO RAPOSO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "05914650000166",
+    "nome": "ENERGISA RONDONIA - DISTRIBUIDORA DE ENERGIA S.A",
+    "cnae": "35140",
+    "n_despesas": 2,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 500.82
+   },
+   {
+    "cnpj": "18777220000191",
+    "nome": "CEU ASSESSORIA E PUBLICACOES LTDA",
+    "cnae": "63917",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "03948529000120",
+    "nome": "E. DE OLIVEIRA SANTOS PAPELARIA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 173.33
+   },
+   {
+    "cnpj": "24565225000153",
+    "nome": "AGUAS DE ARIQUEMES SANEAMENTO SPE S/A",
+    "cnae": "36006",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 141.57
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 172,
+   "total": 296850.61,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 183676.2,
+    "Cessão ou locação de veículos": 7000.0,
+    "Despesas com pessoal": 41174.4,
+    "Locação/cessão de bens imóveis": 15000.0,
+    "Publicidade por carros de som": 50000.01
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

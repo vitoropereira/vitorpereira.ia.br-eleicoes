@@ -1,0 +1,200 @@
+{
+ "sq": "130002535371",
+ "nome_urna": "ANDRÉIA DE JESUS",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1061371.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 1350.0,
+   "Recursos de outros candidatos": 11521.0,
+   "Recursos de partido político": 1015500.0,
+   "Recursos de pessoas físicas": 16000.0,
+   "Recursos próprios": 17000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1027021.0,
+   "OUTROS RECURSOS": 34350.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1015500.0
+   },
+   {
+    "cnpj": "68344816000176",
+    "nome": "VIVIANE ROBERTA DOS SANTOS",
+    "total": 5900.0
+   },
+   {
+    "cnpj": "68345152000160",
+    "nome": "PEDRO FARAH ROUSSEFF",
+    "total": 5621.0
+   },
+   {
+    "cnpj": "20986786000175",
+    "nome": "APOIA.SE",
+    "total": 1350.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 13,
+   "total": 33000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 273033.85,
+  "total_pago": 171086.56,
+  "fornecedores_pj": [
+   {
+    "cnpj": "17318718000123",
+    "nome": "PROMOVENDO PUBLICIDADE E PROMOCOES LTDA",
+    "cnae": "18130",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 62857.0
+   },
+   {
+    "cnpj": "51443617000112",
+    "nome": "GRACIELA GONCALVES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20400.0
+   },
+   {
+    "cnpj": "27114942000157",
+    "nome": "PATRICONT LEGALIZA - CONTABILIDADE E CORRETORA DE SEGUROS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "01338388000106",
+    "nome": "RAJA RENT A CAR S/A",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15516.0
+   },
+   {
+    "cnpj": "19291971000166",
+    "nome": "19.291.971 SAMIRA LOPES MOTA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "49448789000137",
+    "nome": "49.448.789 FLAVIO DA SILVA PAIVA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2300.0
+   },
+   {
+    "cnpj": "18381280000190",
+    "nome": "18.381.280 FILIPE SIMOES DOS SANTOS",
+    "cnae": "95118",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1797.0
+   },
+   {
+    "cnpj": "49202456000123",
+    "nome": "NEED EMPREENDIMENTOS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1169.0
+   },
+   {
+    "cnpj": "43188541000106",
+    "nome": "43.188.541 DIONATAS FELIPE DE SOUZA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 850.0
+   },
+   {
+    "cnpj": "02149344000192",
+    "nome": "POSTO LINDAMELIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 778.98
+   },
+   {
+    "cnpj": "38499661000186",
+    "nome": "COMERCIO DE MOVEIS CARVALHO E MASCARENHAS LTDA",
+    "cnae": "47547",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "20986786000175",
+    "nome": "APOIA.SE",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 36.87
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 49,
+   "total": 107029.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 1500.0,
+    "Despesas com Hospedagem": 2000.0,
+    "Despesas com pessoal": 93000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 8.0,
+    "Locação/cessão de bens imóveis": 10521.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

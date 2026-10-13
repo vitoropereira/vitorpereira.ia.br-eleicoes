@@ -1,0 +1,205 @@
+{
+ "sq": "210002541510",
+ "nome_urna": "JUVIR COSTELLA",
+ "cargo": "depfed",
+ "uf": "RS",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 809137.0,
+  "por_origem": {
+   "Recursos de partido político": 480000.0,
+   "Recursos de pessoas físicas": 241137.0,
+   "Recursos próprios": 88000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 809137.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 300000.0
+   },
+   {
+    "cnpj": "87582714000133",
+    "nome": "Direção Estadual/Distrital - MDB - RIO GRANDE DO SUL",
+    "total": 180000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 8,
+   "total": 329137.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 735706.91,
+  "total_pago": 343297.69,
+  "fornecedores_pj": [
+   {
+    "cnpj": "50563855000107",
+    "nome": "MERITO CONSULTORIA EM COMUNICACAO LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 230000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 38077.34
+   },
+   {
+    "cnpj": "65808760000175",
+    "nome": "AUDIO POWER SONORIZACAO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "58411181000129",
+    "nome": "SUBLIMY PRINT LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27475.0
+   },
+   {
+    "cnpj": "15115234000151",
+    "nome": "SPEED PROMOCIONAL INDUSTRIA DE BRINDES LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20317.5
+   },
+   {
+    "cnpj": "26258993000190",
+    "nome": "MILTON CAVA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "07027856000108",
+    "nome": "NOSCHANG ARTES GRAFICAS LTDA",
+    "cnae": "17419",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14965.0
+   },
+   {
+    "cnpj": "92790526000130",
+    "nome": "IMOBILIARIA LUZ LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 11370.6
+   },
+   {
+    "cnpj": "89176887000187",
+    "nome": "NP IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 3,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 11045.39
+   },
+   {
+    "cnpj": "33738638000183",
+    "nome": "MAURICIO HANSEL AUDIO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6500.0
+   },
+   {
+    "cnpj": "54576653000142",
+    "nome": "54.576.653 MARGELE BERNARDES GONCALVES",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "64015582000162",
+    "nome": "CAMALEOA STORE INDUSTRIA E COMERCIO DE TECIDOS LTDA",
+    "cnae": "13235",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "88057187000100",
+    "nome": "GRAFICA LAJEADENSE LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1163.0
+   },
+   {
+    "cnpj": "10739955000119",
+    "nome": "NOAL CIA LTDA",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1080.0
+   },
+   {
+    "cnpj": "31037942000178",
+    "nome": "SAFE2PAY INTERMEDIACAO DE NEGOCIOS LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 199.75
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 83,
+   "total": 318513.33,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 316000.0,
+    "Serviços prestados por terceiros": 2513.33
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

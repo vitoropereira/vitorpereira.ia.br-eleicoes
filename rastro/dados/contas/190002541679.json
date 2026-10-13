@@ -1,0 +1,156 @@
+{
+ "sq": "190002541679",
+ "nome_urna": "CARLINHOS BNH",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 637400.0,
+  "por_origem": {
+   "Recursos de partido político": 550000.0,
+   "Recursos de pessoas físicas": 42400.0,
+   "Recursos próprios": 45000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 300000.0,
+   "FUNDO PARTIDARIO": 250000.0,
+   "OUTROS RECURSOS": 87400.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 550000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 87400.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 299911.75,
+  "total_pago": 623461.75,
+  "fornecedores_pj": [
+   {
+    "cnpj": "55840217000100",
+    "nome": "ILPI SAO JOAO BATISTA LTDA",
+    "cnae": "87115",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 49500.0
+   },
+   {
+    "cnpj": "68217624000107",
+    "nome": "68.217.624 LUIZ RICARDO MENEZES DO NASCIMENTO",
+    "cnae": "18211",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 43000.0
+   },
+   {
+    "cnpj": "07402698000110",
+    "nome": "GRAFICA E EDITORA PRINCIPE DA PAZ LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 32500.0
+   },
+   {
+    "cnpj": "17372974000107",
+    "nome": "P G DE FREITAS SERVICOS GRAFICOS E COMUNICACAO VISUAL LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "41287250000131",
+    "nome": "OAZEM COMUNICACOES VISUAIS E REPRESENTACOES LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18400.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "53858063000140",
+    "nome": "GDAY PROJETOS E COMUNICACAO VISUAL LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "18710896000168",
+    "nome": "JOAO BOSCO FILHO ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10550.0
+   },
+   {
+    "cnpj": "27548714000195",
+    "nome": "POSTO DE GASOLINA NUMERO 1 DA POSSE LTDA",
+    "cnae": "47318",
+    "n_despesas": 16,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4954.75
+   },
+   {
+    "cnpj": "25012398000107",
+    "nome": "GOOGLE CLOUD BRASIL COMPUTACAO E SERVICOS DE DADOS LTDA.",
+    "cnae": "63119",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 42,
+   "total": 88957.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 30957.0,
+    "Locação/cessão de bens imóveis": 51500.0,
+    "Produção de jingles, vinhetas e slogans": 500.0,
+    "Serviços contábeis": 6000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,542 @@
+{
+ "sq": "210002537726",
+ "nome_urna": "BUSATO",
+ "cargo": "depfed",
+ "uf": "RS",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2154632.67,
+  "por_origem": {
+   "Doações pela Internet": 2625.0,
+   "Recursos de outros candidatos": 7379.5,
+   "Recursos de partido político": 2069150.57,
+   "Recursos de pessoas físicas": 75477.6
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2060835.91,
+   "FUNDO PARTIDARIO": 3694.16,
+   "OUTROS RECURSOS": 90102.6
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 2053456.41
+   },
+   {
+    "cnpj": "51302199000143",
+    "nome": "Direção Municipal/Comissão Provisória - UNIÃO - SANTA CRUZ DO SUL - RS",
+    "total": 12000.0
+   },
+   {
+    "cnpj": "68403876000112",
+    "nome": "DIRCEU FRANCISCON",
+    "total": 7379.5
+   },
+   {
+    "cnpj": "45855356000145",
+    "nome": "Direção Estadual/Distrital - UNIÃO - RIO GRANDE DO SUL",
+    "total": 3694.16
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 23,
+   "total": 78102.6
+  }
+ },
+ "despesas": {
+  "total_contratado": 1624755.37,
+  "total_pago": 2078780.14,
+  "fornecedores_pj": [
+   {
+    "cnpj": "05282568000166",
+    "nome": "SANDRO HENRIQUE SANT ANA MACHADO",
+    "cnae": "82300",
+    "n_despesas": 4,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)",
+     "Publicidade por carros de som"
+    ],
+    "total": 217000.0
+   },
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 85000.0
+   },
+   {
+    "cnpj": "68403472000129",
+    "nome": "JULIANO FRANCZAK",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "58411181000129",
+    "nome": "SUBLIMY PRINT LTDA",
+    "cnae": "18130",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 68943.5
+   },
+   {
+    "cnpj": "15529527000185",
+    "nome": "POA RENT A CAR LOCACOES DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 12,
+    "tipos": [
+     "Cessão ou locação de veículos",
+     "Diversas a especificar"
+    ],
+    "total": 66276.12
+   },
+   {
+    "cnpj": "06267361000185",
+    "nome": "SOUTO SOUTO ASSESSORIA CONTABIL LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "66085452000121",
+    "nome": "SERVICOS CONTABEIS CARINA LADWIG LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "09442953000184",
+    "nome": "DELLA TORRE MERIB ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 51000.0
+   },
+   {
+    "cnpj": "07528530000156",
+    "nome": "GRAFICA E EDITORA SAGRADA FAMILIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 49947.5
+   },
+   {
+    "cnpj": "63820657000115",
+    "nome": "COMUNICAMOBI MARKETING E EVENTOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 31000.0
+   },
+   {
+    "cnpj": "68403876000112",
+    "nome": "DIRCEU FRANCISCON",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 30940.0
+   },
+   {
+    "cnpj": "34925683000100",
+    "nome": "M S PRODUCOES, SERVICOS E ASSISTENCIA LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 29000.0
+   },
+   {
+    "cnpj": "63804056000119",
+    "nome": "LS GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 14,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25038.0
+   },
+   {
+    "cnpj": "38220329000130",
+    "nome": "R S COMERCIAL DE ARTIGOS DE PAPEL E DE PUBLICIDADE LTDA",
+    "cnae": "47610",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24874.46
+   },
+   {
+    "cnpj": "60906486000153",
+    "nome": "AGENCIA IMPULSIONAR LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "48151779000172",
+    "nome": "PRINT JET, INDUSTRIA, COMERCIO E SERVICOS LTDA",
+    "cnae": "13405",
+    "n_despesas": 11,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19165.0
+   },
+   {
+    "cnpj": "23339084000198",
+    "nome": "FELIX, FLORIANO, RONDON E RIBEIRO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "41197900000158",
+    "nome": "VEGA GRAFICA DIGITAL LTDA",
+    "cnae": "58298",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12380.0
+   },
+   {
+    "cnpj": "90393687000165",
+    "nome": "ALBAN CREMA E CIA LTDA EM RECUPERACAO JUDICIAL",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12100.0
+   },
+   {
+    "cnpj": "09112349000190",
+    "nome": "CLUBE TRADICAO LTDA",
+    "cnae": "93298",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "68403563000164",
+    "nome": "JULIO CESAR LAMIM MARTINS DE OLIVEIRA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 6680.0
+   },
+   {
+    "cnpj": "68404055000109",
+    "nome": "FABIANO EUGENIO DIEHL",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "66956660000159",
+    "nome": "MOOVIFLEX SOLUCOES INDUSTRIAIS LTDA",
+    "cnae": "45307",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2040.0
+   },
+   {
+    "cnpj": "04887863000183",
+    "nome": "POSTO CABRAIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 8,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1786.92
+   },
+   {
+    "cnpj": "91665570000156",
+    "nome": "GRUPO EDITORIAL SINOS SA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1760.0
+   },
+   {
+    "cnpj": "93489243000116",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 13,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1759.84
+   },
+   {
+    "cnpj": "01651522000116",
+    "nome": "TECNISAN SISTEMAS OPERACIONAIS DE SANEAMENTO LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "88851233000149",
+    "nome": "LIGA CANOENSE DE FUTEBOL",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "02347932000130",
+    "nome": "CEDRO EDITORA E EMPRESA DE COMUNICACAO LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1322.7
+   },
+   {
+    "cnpj": "68403548000116",
+    "nome": "MAIQUEL ANDRIEL SECKLER BUTZKE",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 980.0
+   },
+   {
+    "cnpj": "65273208000120",
+    "nome": "65.273.208 JOSEMAR PADILHA VIGNOL",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 850.0
+   },
+   {
+    "cnpj": "64688151000167",
+    "nome": "SMART PRINT SOLUCOES TECNOLOGIA LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 820.0
+   },
+   {
+    "cnpj": "04476796000104",
+    "nome": "EDITORA JORNALISTICA A GAZETA DO SINOS LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 810.0
+   },
+   {
+    "cnpj": "89587786000107",
+    "nome": "IRMAOS GIBBON LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 800.11
+   },
+   {
+    "cnpj": "22483305000134",
+    "nome": "LONGLOG TRANSPORTE E TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "07953109000192",
+    "nome": "JOSE EDGAR DE ABREU",
+    "cnae": "58123",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "98597719000156",
+    "nome": "EMPRESA JORNALISTICA FOLHA DO MATE LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 596.25
+   },
+   {
+    "cnpj": "54033521000174",
+    "nome": "EREGRAF INDUSTRIA E COMERCIO DE PRODUTOS GRAFICOS LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 580.0
+   },
+   {
+    "cnpj": "03627966000141",
+    "nome": "C.A.LOURENCO TURISMO E TRANSPORTES LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "03358858000544",
+    "nome": "ABASTECEDORA DE COMBUSTIVEIS RIOXEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 374.9
+   },
+   {
+    "cnpj": "41591269000177",
+    "nome": "KELEN ANDRESSA CARLOT",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "01991461004123",
+    "nome": "S S COMERCIO DE COMBUSTIVEIS SA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 254.02
+   },
+   {
+    "cnpj": "03617662000101",
+    "nome": "ALQUIMIA COMUNICACAO VISUAL LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 250.0
+   },
+   {
+    "cnpj": "35365023000184",
+    "nome": "GERMANN CERTIFICACAO DIGITAL LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 210.0
+   },
+   {
+    "cnpj": "93489243002755",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 206.66
+   },
+   {
+    "cnpj": "10241276000115",
+    "nome": "ALCIDA MARIA MADALOZZO",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 200.05
+   },
+   {
+    "cnpj": "26387509000122",
+    "nome": "JOSE IVANIR R. DO COUTO PAPELARIA",
+    "cnae": "47130",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 12.5
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 227,
+   "total": 638446.84,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 48212.5,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 87.0,
+    "Locação/cessão de bens imóveis": 5000.0,
+    "Serviços prestados por terceiros": 585147.34
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

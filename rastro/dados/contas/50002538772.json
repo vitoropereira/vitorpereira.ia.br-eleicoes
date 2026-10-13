@@ -1,0 +1,629 @@
+{
+ "sq": "50002538772",
+ "nome_urna": "ALICE PORTUGAL",
+ "cargo": "depfed",
+ "uf": "BA",
+ "partido": "PCDOB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2893779.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 8000.0,
+   "Recursos de partido político": 2530788.0,
+   "Recursos de pessoas físicas": 255110.0,
+   "Recursos próprios": 99881.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2190000.0,
+   "FUNDO PARTIDARIO": 260788.0,
+   "OUTROS RECURSOS": 442991.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "54956495000156",
+    "nome": "Direção Nacional - PCDOB",
+    "total": 2290000.0
+   },
+   {
+    "cnpj": "13758016000100",
+    "nome": "Direção Estadual/Distrital - PCDOB - BAHIA",
+    "total": 240788.0
+   },
+   {
+    "cnpj": "68430403000104",
+    "nome": "RUI OLIVEIRA",
+    "total": 8000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 142,
+   "total": 354991.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2455645.58,
+  "total_pago": 2720597.54,
+  "fornecedores_pj": [
+   {
+    "cnpj": "64982480000116",
+    "nome": "PERSONA PROMO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 94071.29
+   },
+   {
+    "cnpj": "02049604000158",
+    "nome": "P H PRE IMPRESSAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 62460.0
+   },
+   {
+    "cnpj": "53520842000130",
+    "nome": "NF COMUNICACAO DIGITAL LTDA",
+    "cnae": "59120",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 55000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 36000.0
+   },
+   {
+    "cnpj": "62489031000105",
+    "nome": "PIPA CRIATIVIDADE VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 33850.0
+   },
+   {
+    "cnpj": "13794184000150",
+    "nome": "COMSERGRAF COMERCIO E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26800.0
+   },
+   {
+    "cnpj": "01855960000104",
+    "nome": "MEGA POSTO BERIMBAU LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 26253.97
+   },
+   {
+    "cnpj": "49586088000164",
+    "nome": "49.586.088 IANA OLIVEIRA DA SILVA AGUIAR",
+    "cnae": "85996",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "36251459000105",
+    "nome": "WALA MAKING DIGITAL SPORTS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "60579967000100",
+    "nome": "60.579.967 UISE EPITACIO MELO DE OLIVEIRA",
+    "cnae": "58123",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "40600424000101",
+    "nome": "MMXGUIMARAES MARKETING PROMOCIONAL SERVICOS LTDA",
+    "cnae": "78108",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "46439622000111",
+    "nome": "FEIRA BANDEIRAS E IMPRESSOS LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "04066731000190",
+    "nome": "SAL E BRASA COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 19970.61
+   },
+   {
+    "cnpj": "12703367000150",
+    "nome": "ARI ARTES E SERVICOS GRAFICOS LTDA",
+    "cnae": "82199",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19738.0
+   },
+   {
+    "cnpj": "13875122000173",
+    "nome": "13.875.122 ABENILSON MONTEIRO",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18900.0
+   },
+   {
+    "cnpj": "34028316630557",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 4,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 17534.02
+   },
+   {
+    "cnpj": "58857398000167",
+    "nome": "58.857.398 ALEX CUNHA FELIX",
+    "cnae": "58131",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "05770290000176",
+    "nome": "GENSA - GRAFICA E EDITORA NOSSA SENHORA APARECIDA LTDA",
+    "cnae": "18229",
+    "n_despesas": 11,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14175.0
+   },
+   {
+    "cnpj": "14034902000153",
+    "nome": "VEM AVIATION TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "04648870000122",
+    "nome": "GUIMARAES AUTOMOCAO COMERCIAL LTDA",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 10500.0
+   },
+   {
+    "cnpj": "55231180000104",
+    "nome": "PREMIUM SUPPORT SERVICOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 10500.0
+   },
+   {
+    "cnpj": "17508281000190",
+    "nome": "F12 CONSTRUTORA LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "24759252000167",
+    "nome": "FEIRA ROTULOS E ETIQUETAS ADESIVAS LTDA",
+    "cnae": "17419",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7050.0
+   },
+   {
+    "cnpj": "34165081000100",
+    "nome": "34.165.081 NILSON NASCIMENTO DE SOUSA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 5200.0
+   },
+   {
+    "cnpj": "10505398000171",
+    "nome": "COSTA MEDRADO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "62791669000104",
+    "nome": "62.791.669 ANTONIO RAMOS VIEIRA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "29603245000195",
+    "nome": "INXELL TECNOLOGIA CRIATIVA LTDA",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4800.0
+   },
+   {
+    "cnpj": "45874563000147",
+    "nome": "45.874.563 ALBERTO ALMEIDA DE ANDRADE SOUSA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4636.0
+   },
+   {
+    "cnpj": "15112196000183",
+    "nome": "A GOMES IRMAO LTDA",
+    "cnae": "46478",
+    "n_despesas": 4,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 4398.33
+   },
+   {
+    "cnpj": "63098995000195",
+    "nome": "ATUA GESTAO, PESQUISA E COMUNICACAO LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 2700.0
+   },
+   {
+    "cnpj": "65120106000174",
+    "nome": "SUBLIMACAO EXPRESSA LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2690.0
+   },
+   {
+    "cnpj": "33089201000166",
+    "nome": "PEDRO PAULO LOPES ORNELAS SERVICOS LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2375.4
+   },
+   {
+    "cnpj": "27486182013863",
+    "nome": "VIACAO AGUIA BRANCA S A",
+    "cnae": "49221",
+    "n_despesas": 12,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 2330.13
+   },
+   {
+    "cnpj": "17984871000190",
+    "nome": "IMPRIMABLACK GRAFICA E EDITORA LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1964.0
+   },
+   {
+    "cnpj": "48094085000140",
+    "nome": "POSTO ALIANCA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1861.9
+   },
+   {
+    "cnpj": "05018212000110",
+    "nome": "VL COMERCIAL DE EMBALAGENS E DESCARTAVEIS LTDA",
+    "cnae": "47610",
+    "n_despesas": 6,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1793.12
+   },
+   {
+    "cnpj": "05677050000121",
+    "nome": "ANS IMPRESSOES GRAFICAS LTDA.",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1734.98
+   },
+   {
+    "cnpj": "41440665000101",
+    "nome": "TATIANE DOS SANTOS JOAQUIM",
+    "cnae": "47831",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "48853107000109",
+    "nome": "E S DA SILVA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1300.0
+   },
+   {
+    "cnpj": "40258609000180",
+    "nome": "STUDIO CMYK LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1080.0
+   },
+   {
+    "cnpj": "07014198000535",
+    "nome": "ATACADAO DO PAPEL LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 949.0
+   },
+   {
+    "cnpj": "14492342000180",
+    "nome": "ROTA TRANSPORTES RODOVIARIOS LTDA",
+    "cnae": "49221",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 680.35
+   },
+   {
+    "cnpj": "14588818000181",
+    "nome": "COPIADORA UNIVERSITARIA LTDA",
+    "cnae": "82199",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura",
+     "Materiais de expediente"
+    ],
+    "total": 667.2
+   },
+   {
+    "cnpj": "14602189000105",
+    "nome": "VIACAO JEQUIE CIDADE SOL LTDA",
+    "cnae": "49221",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 603.35
+   },
+   {
+    "cnpj": "07366696000113",
+    "nome": "DANIEL PIRES DO CARMO DAMASCENO LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 508.0
+   },
+   {
+    "cnpj": "30279469000172",
+    "nome": "SAMUEL LOPES DE OLIVEIRA",
+    "cnae": "95291",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 480.0
+   },
+   {
+    "cnpj": "53786841000132",
+    "nome": "SILVANA LIMA FURTADO",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 358.82
+   },
+   {
+    "cnpj": "03131522000110",
+    "nome": "SANDRA REGINA COMBUSTIVEIS LTDA EM RECUPERACAO JUDICIAL",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 350.0
+   },
+   {
+    "cnpj": "68863803000103",
+    "nome": "68.863.803 SHIRLEY FRANCISCO DOS SANTOS",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 350.0
+   },
+   {
+    "cnpj": "15916413000198",
+    "nome": "CASSIUS MARCELUS DE ALMEIDA ARAUJO",
+    "cnae": "95118",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "09034217000197",
+    "nome": "CONEX4 MULTIMIDIA LIMITADA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 266.0
+   },
+   {
+    "cnpj": "54152369000149",
+    "nome": "RR CERTIFICADORA LTDA",
+    "cnae": "62091",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "13626222000166",
+    "nome": "ROTA INFORMATICA LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 118.0
+   },
+   {
+    "cnpj": "25634569002698",
+    "nome": "RAPIDO FEDERAL VIACAO LIMITADA",
+    "cnae": "49221",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 97.48
+   },
+   {
+    "cnpj": "60829264000346",
+    "nome": "VIACAO NOVO HORIZONTE LTDA",
+    "cnae": "49221",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 80.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 406,
+   "total": 1798470.63,
+   "por_tipo": {
+    "Alimentação": 42320.0,
+    "Atividades de militância e mobilização de rua": 1303950.0,
+    "Cessão ou locação de veículos": 117400.0,
+    "Despesa com Impulsionamento de Conteúdos": 12000.0,
+    "Despesas com transporte ou deslocamento": 27477.63,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 331.0,
+    "Locação/cessão de bens imóveis": 40000.0,
+    "Produção de jingles, vinhetas e slogans": 4000.0,
+    "Produção de programas de rádio, televisão ou vídeo": 37350.0,
+    "Serviços contábeis": 50000.0,
+    "Serviços prestados por terceiros": 163642.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

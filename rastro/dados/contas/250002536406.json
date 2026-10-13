@@ -1,0 +1,198 @@
+{
+ "sq": "250002536406",
+ "nome_urna": "MARCOS DAMASIO",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 978409.04,
+  "por_origem": {
+   "Recursos de partido político": 962409.04,
+   "Recursos de pessoas físicas": 16000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 950000.0,
+   "FUNDO PARTIDARIO": 4727.62,
+   "OUTROS RECURSOS": 23681.42
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 950000.0
+   },
+   {
+    "cnpj": "08701595000114",
+    "nome": "Direção Estadual/Distrital - PL - SÃO PAULO",
+    "total": 12409.04
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 16000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 606621.41,
+  "total_pago": 750356.76,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "15388298000126",
+    "nome": "MARESCA PAPELARIA LTDA",
+    "cnae": "53105",
+    "n_despesas": 6,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 80145.0
+   },
+   {
+    "cnpj": "23428905000162",
+    "nome": "ARTES FILMES FEET EVENTOS LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "34875592000107",
+    "nome": "JONATHAS C. PALMEIRA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "40613518000115",
+    "nome": "EMPURRAO DIGITAL LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "44405247000163",
+    "nome": "SACS ASSESSORIA CONTABIL E AUDITORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "00645965000131",
+    "nome": "MURC EDITORA GRAFICA LTDA",
+    "cnae": "58298",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14610.0
+   },
+   {
+    "cnpj": "67583955000190",
+    "nome": "FRANCO GASPAR CIA LTDA",
+    "cnae": "58298",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14550.0
+   },
+   {
+    "cnpj": "00306971000164",
+    "nome": "FILMAREI STUDIO GRAFICO LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 11515.0
+   },
+   {
+    "cnpj": "17771662000168",
+    "nome": "NCS COMUNICACAO VISUAL E SERVICOS DE IMPRESSOES LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "44293322000141",
+    "nome": "ITAMARATHY AUTO POSTO E ACESSORIOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 8,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2660.02
+   },
+   {
+    "cnpj": "14369004000156",
+    "nome": "SARA VENTURA MARQUES ASSI",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 379.39
+   },
+   {
+    "cnpj": "33322586000160",
+    "nome": "FOCO VISUAL COMERCIO DE PRODUTOS PROMOCIONAIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 360.0
+   },
+   {
+    "cnpj": "08142850000136",
+    "nome": "WBL GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 280.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 67,
+   "total": 176122.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 129000.0,
+    "Cessão ou locação de veículos": 44100.0,
+    "Despesas com pessoal": 3000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 22.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

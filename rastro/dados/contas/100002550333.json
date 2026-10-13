@@ -1,0 +1,197 @@
+{
+ "sq": "100002550333",
+ "nome_urna": "JUNIOR VIEIRA",
+ "cargo": "depest",
+ "uf": "MA",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 244562.65,
+  "por_origem": {
+   "Recursos de pessoas físicas": 130500.01,
+   "Recursos próprios": 114062.64
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 244562.65
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 34,
+   "total": 244562.65
+  }
+ },
+ "despesas": {
+  "total_contratado": 170155.05,
+  "total_pago": 202067.65,
+  "fornecedores_pj": [
+   {
+    "cnpj": "50236255000126",
+    "nome": "CAIO HENRIQUE FREIRE BEZELGA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "44032767000178",
+    "nome": "A B COSTA COMERCIO E SERVICOS GRAFICOS LTDA",
+    "cnae": "46192",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "20488337000105",
+    "nome": "L M D L COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14990.0
+   },
+   {
+    "cnpj": "57321475000105",
+    "nome": "MARANHAO MONTAGENS E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 12500.0
+   },
+   {
+    "cnpj": "03180674000537",
+    "nome": "F C MATOS OLIVEIRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10319.4
+   },
+   {
+    "cnpj": "11365521000169",
+    "nome": ".COM EMPREENDIMENTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "34083231000128",
+    "nome": "B 2 EMPREENDIMENTOS E SERVICOS LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 6960.0
+   },
+   {
+    "cnpj": "42436851000121",
+    "nome": "JULIANA J S DE OLIVEIRA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 5070.0
+   },
+   {
+    "cnpj": "06989552000150",
+    "nome": "GRAFICA MINERVA LTDA",
+    "cnae": "58298",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3800.0
+   },
+   {
+    "cnpj": "06272793000184",
+    "nome": "EQUATORIAL MARANHAO DISTRIBUIDORA DE ENERGIA S.A",
+    "cnae": "35140",
+    "n_despesas": 2,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 3342.05
+   },
+   {
+    "cnpj": "04748112000186",
+    "nome": "DANUBIA S.C. RIBEIRO",
+    "cnae": "47555",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "35349608000100",
+    "nome": "VIRTUS SERVICOS E COMERCIO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "06274757000150",
+    "nome": "COMPANHIA DE SANEAMENTO AMBIENTAL DO MARANHAO-CAEMA",
+    "cnae": "36006",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 357.55
+   },
+   {
+    "cnpj": "15754475000140",
+    "nome": "HOSTGATOR BRASIL LTDA.",
+    "cnae": "63119",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 45.89
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 20,
+   "total": 64970.16,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 22040.56,
+    "Cessão ou locação de veículos": 17000.0,
+    "Despesas com pessoal": 10147.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 32.6,
+    "Produção de jingles, vinhetas e slogans": 750.0,
+    "Serviços contábeis": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

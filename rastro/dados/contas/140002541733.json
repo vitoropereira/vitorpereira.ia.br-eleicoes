@@ -1,0 +1,301 @@
+{
+ "sq": "140002541733",
+ "nome_urna": "EUGENIO GADELHA",
+ "cargo": "depest",
+ "uf": "PA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 863979.0,
+  "por_origem": {
+   "Recursos de partido político": 175969.0,
+   "Recursos de pessoas físicas": 688010.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 175000.0,
+   "FUNDO PARTIDARIO": 969.0,
+   "OUTROS RECURSOS": 688010.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 175000.0
+   },
+   {
+    "cnpj": "83369082000173",
+    "nome": "Direção Estadual/Distrital - MDB - PARÁ",
+    "total": 969.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 19,
+   "total": 688010.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 690172.88,
+  "total_pago": 342210.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "54561735000113",
+    "nome": "AMADO LICARI MARKETING E POLITICA LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 55000.0
+   },
+   {
+    "cnpj": "13689408000164",
+    "nome": "W. ALVES DA COSTA LTDA",
+    "cnae": "77390",
+    "n_despesas": 6,
+    "tipos": [
+     "Comícios",
+     "Despesa com geradores de energia",
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 53700.0
+   },
+   {
+    "cnpj": "65467251000126",
+    "nome": "MARANHAO ASSOCIADOS - CONTABILIDADE PUBLICA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "19116859000199",
+    "nome": "AUTO POSTO QUEIROZ LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 38195.64
+   },
+   {
+    "cnpj": "34180129000140",
+    "nome": "E P DE MATOS GOMES LOCACAO LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "35827673000102",
+    "nome": "HD PRODUCOES DE VIDEOS E EVENTOS LTDA",
+    "cnae": "59111",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans",
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "49050662000165",
+    "nome": "TN COMUNICACAO LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "44166780000110",
+    "nome": "M. REIS INTELIGENCIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "61657186000140",
+    "nome": "VANTERA TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "37830055000139",
+    "nome": "37.830.055 SILVANIO DE SOUZA RAMALHO",
+    "cnae": "47121",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 14300.0
+   },
+   {
+    "cnpj": "63878896000126",
+    "nome": "ANHANGUERA AUTOMOTIVA LTDA",
+    "cnae": "45307",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "16525583000104",
+    "nome": "PINHEIRO PENAFORT ADVOGADOS ASSOCIADOS S/S",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "19174600000102",
+    "nome": "WMWD DISTRIBUIDORA LTDA",
+    "cnae": "47121",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 8858.14
+   },
+   {
+    "cnpj": "64730826000199",
+    "nome": "R B DO NASCIMENTO SPORTS LTDA",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "06097684000178",
+    "nome": "BONIFACIO MOTORES LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com geradores de energia"
+    ],
+    "total": 3300.0
+   },
+   {
+    "cnpj": "44394239000169",
+    "nome": "SILVA PROMOCOES EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "22956171000393",
+    "nome": "A M LIBERATO",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2280.0
+   },
+   {
+    "cnpj": "06229052000110",
+    "nome": "VISION IMPRESSAO DIGITAL E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1140.0
+   },
+   {
+    "cnpj": "53042091000194",
+    "nome": "WGA SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "30800535000108",
+    "nome": "M. COMUNICACAO VISUAL E SERVICOS LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 530.0
+   },
+   {
+    "cnpj": "16894782000190",
+    "nome": "DIGITALSIGN CERTIFICACAO DIGITAL LTDA.",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 386.0
+   },
+   {
+    "cnpj": "32733486000163",
+    "nome": "32.733.486 SILAS OLIVEIRA LIMA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 330.0
+   },
+   {
+    "cnpj": "49390462000151",
+    "nome": "ROCKET SERVICOS GRAFICOS E CONSTRUCOES LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 190.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 121,
+   "total": 230863.1,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 206703.0,
+    "Cessão ou locação de veículos": 9000.0,
+    "Despesas com pessoal": 12000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 160.1,
+    "Publicidade por carros de som": 3000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

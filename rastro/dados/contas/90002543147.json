@@ -1,0 +1,173 @@
+{
+ "sq": "90002543147",
+ "nome_urna": "BESSA",
+ "cargo": "depest",
+ "uf": "GO",
+ "partido": "MOBILIZA",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 288408.45,
+  "por_origem": {
+   "Recursos de outros candidatos": 3785.0,
+   "Recursos de pessoas físicas": 187000.0,
+   "Recursos próprios": 97623.45
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 288408.45
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68470330000184",
+    "nome": "JOSE NELTO LAGARES DAS MERCEZ",
+    "total": 3785.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 10,
+   "total": 284623.45
+  }
+ },
+ "despesas": {
+  "total_contratado": 276501.04,
+  "total_pago": 149873.04,
+  "fornecedores_pj": [
+   {
+    "cnpj": "55501566000199",
+    "nome": "PIETA COMUNICACAO ASSERTIVA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "27689176000159",
+    "nome": "WANDIR ALLAN TALITA HAYASAKI SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "35109227000154",
+    "nome": "FLY BANNER IMPRESSAO DIGITAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 28150.0
+   },
+   {
+    "cnpj": "47602835000185",
+    "nome": "AZUK IMPRESSAO E COMUNICACAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21573.0
+   },
+   {
+    "cnpj": "36940679000146",
+    "nome": "CORREA GOMES CONTABILIDADE ASSESSORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "00747303000172",
+    "nome": "GRAFOPEL GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7470.0
+   },
+   {
+    "cnpj": "14707720000104",
+    "nome": "CONEXAO DIGITAL SOLUTION - COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "42419876000117",
+    "nome": "JODSON PEREIRA DE SOUZA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "01135532000107",
+    "nome": "POSTO OITO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 515.04
+   },
+   {
+    "cnpj": "05488166000112",
+    "nome": "H B COMERCIO DE EMBALAGENS LTDA",
+    "cnae": "46869",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 310.0
+   },
+   {
+    "cnpj": "12290274000141",
+    "nome": "PEIXOTO E DIAS - SOLUCAO EM NEGOCIOS INTELIGENTES LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 180.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 74,
+   "total": 94803.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 60000.0,
+    "Cessão ou locação de veículos": 11000.0,
+    "Despesas com pessoal": 23800.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

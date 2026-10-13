@@ -1,0 +1,359 @@
+{
+ "sq": "200002535725",
+ "nome_urna": "NEILTON DIÓGENES",
+ "cargo": "depest",
+ "uf": "RN",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 728020.4,
+  "por_origem": {
+   "Recursos de partido político": 550000.0,
+   "Recursos de pessoas físicas": 78020.4,
+   "Recursos próprios": 100000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 450000.0,
+   "FUNDO PARTIDARIO": 100000.0,
+   "OUTROS RECURSOS": 178020.4
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 550000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 178020.4
+  }
+ },
+ "despesas": {
+  "total_contratado": 634068.47,
+  "total_pago": 537362.2,
+  "fornecedores_pj": [
+   {
+    "cnpj": "22584448000132",
+    "nome": "AGENCIA GARAGEM LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 180000.0
+   },
+   {
+    "cnpj": "68363706000151",
+    "nome": "JARBAS BEZERRA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "10482096000125",
+    "nome": "TJ EMPREENDIMENTOS LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 65745.0
+   },
+   {
+    "cnpj": "64110540000100",
+    "nome": "P G GURGEL CARDOSO",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 42000.0
+   },
+   {
+    "cnpj": "40480636000100",
+    "nome": "F S M DE SOUSA COMUNICACAO VISUAL",
+    "cnae": "32990",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 30580.0
+   },
+   {
+    "cnpj": "31321080000100",
+    "nome": "UNIGRAFICA INDUSTRIA GRAFICA LTDA",
+    "cnae": "17311",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27620.0
+   },
+   {
+    "cnpj": "15159065000151",
+    "nome": "ANALISA RN - CONSULTORIA E ASSESSORIA PUBLICA E EMPRESARIAL LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 24315.0
+   },
+   {
+    "cnpj": "55952635000180",
+    "nome": "INFODIGITAL LTDA",
+    "cnae": "82199",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 23250.0
+   },
+   {
+    "cnpj": "12742102000161",
+    "nome": "FERNANDES E BEZERRA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19624.0
+   },
+   {
+    "cnpj": "23875864000152",
+    "nome": "DANILO NIKSON DE OLIVEIRA PENHA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 12400.0
+   },
+   {
+    "cnpj": "57293523000190",
+    "nome": "57.293.523 FRANCISCO MARCIO DE OLIVEIRA SILVA FILHO",
+    "cnae": "47237",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "55151572000163",
+    "nome": "55.151.572 EDNA MARIA DUARTE DE VASCONCELOS",
+    "cnae": "59120",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "27965211000115",
+    "nome": "FRANCISCA ALINE DA SILVA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "19345056000106",
+    "nome": "POSTO CIDADE II LTDA",
+    "cnae": "47318",
+    "n_despesas": 21,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6832.0
+   },
+   {
+    "cnpj": "35299650000164",
+    "nome": "E PEREIRA TORRES",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "64950666000193",
+    "nome": "64.950.666 ANA CAROLINA DANTAS DE LIMA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "15574268000104",
+    "nome": "MINERACAO PENIEL LTDA",
+    "cnae": "11216",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "14811011000166",
+    "nome": "DAYVID O DE ALMEIDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "06190903000169",
+    "nome": "HERLANDSON DE OLIVEIRA FERNANDES",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "09254827000104",
+    "nome": "ARCO-IRIS FESTAS RECEPCOES LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "08858837000188",
+    "nome": "DESTAQUE BRINDES PERSONALIZADOS LTDA",
+    "cnae": "22293",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 875.6
+   },
+   {
+    "cnpj": "27990339000139",
+    "nome": "POUSADA SERIDO CAICO LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 690.0
+   },
+   {
+    "cnpj": "44154246000193",
+    "nome": "TANGARA COMERCIAL DE COMBUSTIVEIS DOMINGOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 535.16
+   },
+   {
+    "cnpj": "70045182000100",
+    "nome": "AUTOPOSTO DE COMBUSTIVEIS MORVAN LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 500.03
+   },
+   {
+    "cnpj": "24187833000171",
+    "nome": "AUTO POSTO ESPACIAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 480.0
+   },
+   {
+    "cnpj": "21941896000183",
+    "nome": "TOP IMPRESS COMERCIO E SERVICOS GRAFICOS LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 432.0
+   },
+   {
+    "cnpj": "24206617000800",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 380.39
+   },
+   {
+    "cnpj": "10595050000112",
+    "nome": "POSTO SERTANEJO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 331.74
+   },
+   {
+    "cnpj": "24206617001289",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 300.05
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 16,
+   "total": 58177.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 12120.0,
+    "Despesas com pessoal": 2000.0,
+    "Despesas com transporte ou deslocamento": 18300.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 7.5,
+    "Eventos de promoção da candidatura": 250.0,
+    "Locação/cessão de bens imóveis": 1500.0,
+    "Produção de jingles, vinhetas e slogans": 16000.0,
+    "Produção de programas de rádio, televisão ou vídeo": 1000.0,
+    "Publicidade por carros de som": 7000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

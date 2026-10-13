@@ -1,0 +1,174 @@
+{
+ "sq": "40002542670",
+ "nome_urna": "FAUSTO JR",
+ "cargo": "depfed",
+ "uf": "AM",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2294814.8,
+  "por_origem": {
+   "Recursos de partido político": 2150000.0,
+   "Recursos de pessoas físicas": 144814.8
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2083200.0,
+   "FUNDO PARTIDARIO": 66800.0,
+   "OUTROS RECURSOS": 144814.8
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 1933200.0
+   },
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 150000.0
+   },
+   {
+    "cnpj": "45858915000170",
+    "nome": "Direção Estadual/Distrital - UNIÃO - AMAZONAS",
+    "total": 66800.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 59,
+   "total": 144814.8
+  }
+ },
+ "despesas": {
+  "total_contratado": 1350023.55,
+  "total_pago": 1887784.05,
+  "fornecedores_pj": [
+   {
+    "cnpj": "10441464000278",
+    "nome": "A. R. T. TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 272000.0
+   },
+   {
+    "cnpj": "32299047000194",
+    "nome": "FRANCISCO MENDONCA DE SOUZA JUNIOR",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 180000.0
+   },
+   {
+    "cnpj": "14424917000390",
+    "nome": "AUTO POSTO SOPHIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 150000.05
+   },
+   {
+    "cnpj": "51289461000167",
+    "nome": "DUARTE ESTAMPARIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 135211.0
+   },
+   {
+    "cnpj": "29799291000101",
+    "nome": "SILMARIA DE SOUSA PORTELA QUEIROZ",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 135000.0
+   },
+   {
+    "cnpj": "21602394000128",
+    "nome": "V E V PRODUCAO E ORGANIZACAO DE FESTAS E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 57600.0
+   },
+   {
+    "cnpj": "38331324000185",
+    "nome": "V S COMERCIO VAREJISTA DE MERCADORIA LTDA",
+    "cnae": "47849",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 35700.0
+   },
+   {
+    "cnpj": "55742551000112",
+    "nome": "J2E DA AMAZONIA LTDA",
+    "cnae": "47296",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 32000.0
+   },
+   {
+    "cnpj": "44056351000270",
+    "nome": "L DA SILVA DE PAULA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "34523712000107",
+    "nome": "JBG NOVO ASSESSORIA E CONSULTORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 10000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 18,
+   "total": 292512.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 12000.0,
+    "Cessão ou locação de veículos": 12000.0,
+    "Despesas com pessoal": 54500.0,
+    "Impostos, contribuições e taxas": 12.5,
+    "Serviços advocatícios": 214000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,314 @@
+{
+ "sq": "180002533561",
+ "nome_urna": "FLÁVIO JÚNIOR",
+ "cargo": "depest",
+ "uf": "PI",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 917249.17,
+  "por_origem": {
+   "Recursos de outros candidatos": 550000.0,
+   "Recursos de partido político": 259625.0,
+   "Recursos de pessoas físicas": 6782.25,
+   "Recursos próprios": 100841.92
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 800000.0,
+   "FUNDO PARTIDARIO": 9625.0,
+   "OUTROS RECURSOS": 107624.17
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68258259000170",
+    "nome": "FLAVIO RODRIGUES NOGUEIRA",
+    "total": 550000.0
+   },
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 250000.0
+   },
+   {
+    "cnpj": "07473085000174",
+    "nome": "Direção Estadual/Distrital - PT - PIAUÍ",
+    "total": 9625.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 107624.17
+  }
+ },
+ "despesas": {
+  "total_contratado": 731062.59,
+  "total_pago": 826574.45,
+  "fornecedores_pj": [
+   {
+    "cnpj": "21434397000108",
+    "nome": "GLOBAL MONSTER LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "07817426000181",
+    "nome": "ADV/6 LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "49243048000110",
+    "nome": "AV SERVICOS E FORNECIMENTO LTDA",
+    "cnae": "47890",
+    "n_despesas": 3,
+    "tipos": [
+     "Atividades de militância e mobilização de rua",
+     "Despesas com pessoal"
+    ],
+    "total": 83992.8
+   },
+   {
+    "cnpj": "15170689000170",
+    "nome": "F R PONTES SONORIZACAO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "03015691000195",
+    "nome": "GUIMARAES AMORIM - ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "04626774000183",
+    "nome": "M. F. LIMA CARNEIRO CIA LTDA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 42000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "16499045000192",
+    "nome": "CONTARE SERVICOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "35128552000164",
+    "nome": "CONSTRUTORA E EMPREENDIMENTOS IMOBILIARIOS UNIAO LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "04980871000170",
+    "nome": "CENTER GRAFICA E EDITORA LTDA",
+    "cnae": "58298",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 29250.0
+   },
+   {
+    "cnpj": "02699001000100",
+    "nome": "GRAFICA EDITORA REGO LTDA",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27900.0
+   },
+   {
+    "cnpj": "14581936000168",
+    "nome": "FMML COMERCIO E EMPREENDIMENTOS LTDA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 27270.0
+   },
+   {
+    "cnpj": "26666582000133",
+    "nome": "FRANGO NO PONTO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "47355200000120",
+    "nome": "THE AUTOS COMERCIO DE VEICULOS LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "65502019000181",
+    "nome": "65.502.019 NEUSA MARIA DE MELO VALADARES",
+    "cnae": "80200",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 9200.0
+   },
+   {
+    "cnpj": "19681191000122",
+    "nome": "NOGUEIRA PRODUTOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6975.0
+   },
+   {
+    "cnpj": "04835212000140",
+    "nome": "VERAS INDUSTRIA COMERCIO E SERVICOS LTDA",
+    "cnae": "32990",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5680.0
+   },
+   {
+    "cnpj": "00557774000118",
+    "nome": "TEIXEIRA E LEITE LTDA",
+    "cnae": "46354",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "06656656001620",
+    "nome": "CACIQUE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2686.13
+   },
+   {
+    "cnpj": "01372949000185",
+    "nome": "C B SALDANHA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "38187008000181",
+    "nome": "T C DE O RIBEIRO",
+    "cnae": "14223",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "06656656000143",
+    "nome": "CACIQUE PETROLEO LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 324.34
+   },
+   {
+    "cnpj": "61773618000189",
+    "nome": "BONE E CIA LTDA",
+    "cnae": "13596",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 260.0
+   },
+   {
+    "cnpj": "03515317000159",
+    "nome": "CECOL - CENTRO DE COMERCIO E LOCACAO LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 150.0
+   },
+   {
+    "cnpj": "07969885000180",
+    "nome": "RECICLE EXPRESS IND. COM. LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 130.52
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 43.8,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 43.8
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

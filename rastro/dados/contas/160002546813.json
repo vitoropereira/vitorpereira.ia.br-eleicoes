@@ -1,0 +1,403 @@
+{
+ "sq": "160002546813",
+ "nome_urna": "ULISSES MAIA",
+ "cargo": "depest",
+ "uf": "PR",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 608698.64,
+  "por_origem": {
+   "Recursos de outros candidatos": 800.0,
+   "Recursos de partido político": 116935.0,
+   "Recursos de pessoas físicas": 490963.64
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 50000.0,
+   "OUTROS RECURSOS": 558698.64
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "14512048000193",
+    "nome": "Direção Estadual/Distrital - PSD - PARANÁ",
+    "total": 66935.0
+   },
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68464891000170",
+    "nome": "LEONALDO PARANHOS DA SILVA",
+    "total": 800.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 25,
+   "total": 490963.64
+  }
+ },
+ "despesas": {
+  "total_contratado": 606029.17,
+  "total_pago": 478951.86,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 11,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 83955.0
+   },
+   {
+    "cnpj": "41998900000157",
+    "nome": "J. A. INDUSTRIA DE EMBALAGENS LTDA",
+    "cnae": "17311",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 56243.33
+   },
+   {
+    "cnpj": "68363804000199",
+    "nome": "BANDEPAR BANDEIRAS LTDA",
+    "cnae": "13596",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "25198245000104",
+    "nome": "M.A. EUFRAZIO - COMUNICACAO VISUAL",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 29250.0
+   },
+   {
+    "cnpj": "23595511000107",
+    "nome": "ALESSANDRO SANTANA GOMES",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "01069543000128",
+    "nome": "GRAFICA E EDITORA MASSONI LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25685.0
+   },
+   {
+    "cnpj": "37420039000178",
+    "nome": "CGM GRAFICA E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24960.0
+   },
+   {
+    "cnpj": "27734916000121",
+    "nome": "DZ9 DESIGN BRANDING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23300.0
+   },
+   {
+    "cnpj": "05639308000103",
+    "nome": "BEVILAQUA LEOPOLDINO CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "65227249000180",
+    "nome": "NOVA VITORIA AGROPECUARIA LTDA",
+    "cnae": "01156",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "55813090000121",
+    "nome": "55.813.090 KIMBERLY CRISTINE DA SILVA VIEIRA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 12500.0
+   },
+   {
+    "cnpj": "09181775000185",
+    "nome": "ROSSINI LOCADORA DE VEICULOS LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12375.0
+   },
+   {
+    "cnpj": "47743538000150",
+    "nome": "OLIVEIRA SOUZA LTDA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10766.2
+   },
+   {
+    "cnpj": "27349665000161",
+    "nome": "27.349.665 MICHEL HENRIQUE MOREIRA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "54313613000108",
+    "nome": "WINN IMPRESSAO DIGITAL LTDA",
+    "cnae": "47130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9780.0
+   },
+   {
+    "cnpj": "04063880000104",
+    "nome": "JIM MUSIC STUDIO LTDA",
+    "cnae": "59201",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "05314389000163",
+    "nome": "WWAS COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6325.0
+   },
+   {
+    "cnpj": "37727380000170",
+    "nome": "WILLIAM MARQUES DA SILVA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "61528463000115",
+    "nome": "61.528.463 DEBORAH BUSKO GOMES",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "67519019000110",
+    "nome": "GESTAO FROTA LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4800.0
+   },
+   {
+    "cnpj": "21526639000185",
+    "nome": "IMPRIME CV LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4750.0
+   },
+   {
+    "cnpj": "85057529000102",
+    "nome": "HELLOGRAF ARTES GRAFICAS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4725.0
+   },
+   {
+    "cnpj": "31722654000152",
+    "nome": "DIA A DIA EDITORA E PROPAGANDA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3960.0
+   },
+   {
+    "cnpj": "07686913000152",
+    "nome": "AUTO POSTO CANADA LTDA.",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3895.38
+   },
+   {
+    "cnpj": "17377226000109",
+    "nome": "ALLINE HELLEN DE SOUSA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3490.0
+   },
+   {
+    "cnpj": "57228661000196",
+    "nome": "FHEM GESTAO EMPRESARIAL E DISTRIBUICAO DE PRODUTOS CORPORATIVOS LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3024.0
+   },
+   {
+    "cnpj": "53173335000178",
+    "nome": "MOVA BRANDS LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "02196872000100",
+    "nome": "JORNAL NOROESTE AGORA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "09377800000109",
+    "nome": "JORNAL O PIONEIRO LTDA.",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "34263987000159",
+    "nome": "CATEDRAL EDITORA, COMUNICACAO, PROPAGANDA E PESQUISAS LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "10494777000103",
+    "nome": "RJ MARCAL AUDIO TECNOLOGIA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1125.0
+   },
+   {
+    "cnpj": "58288041000105",
+    "nome": "F A FERNANDES BALEEIRO",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 299.99
+   },
+   {
+    "cnpj": "09443526000110",
+    "nome": "CARTUCHOS MARINGA LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 120.0
+   },
+   {
+    "cnpj": "11861765000132",
+    "nome": "D. VIRGINIO ROCHA- COMERCIO DE ADESIVOS E PRESTACAO DE SERVICOS DESIGN",
+    "cnae": "45307",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27.27
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 90,
+   "total": 141673.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 5000.0,
+    "Despesas com pessoal": 132060.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 13.0,
+    "Locação/cessão de bens imóveis": 4600.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

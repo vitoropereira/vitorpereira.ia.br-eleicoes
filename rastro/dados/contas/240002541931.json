@@ -1,0 +1,230 @@
+{
+ "sq": "240002541931",
+ "nome_urna": "CAROL DE TONI",
+ "cargo": "senador",
+ "uf": "SC",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 4729290.0,
+  "por_origem": {
+   "Recursos de partido político": 4300000.0,
+   "Recursos de pessoas físicas": 429290.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 4300000.0,
+   "OUTROS RECURSOS": 429290.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 4300000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 429290.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 4312626.47,
+  "total_pago": 4319726.47,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 27,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 1647000.0
+   },
+   {
+    "cnpj": "23087346000174",
+    "nome": "VENTURA ESTUDIO LTDA",
+    "cnae": "59111",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1350000.0
+   },
+   {
+    "cnpj": "49479417000178",
+    "nome": "BERNARDI WANDERLINDE ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 280000.0
+   },
+   {
+    "cnpj": "29855711000120",
+    "nome": "NEOBE GESTAO E SERVICOS LTDA",
+    "cnae": "73203",
+    "n_despesas": 2,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 230000.0
+   },
+   {
+    "cnpj": "67588159000140",
+    "nome": "PD NEGOCIOS LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "48933104000185",
+    "nome": "JAINE POKOMAIER MOROKOWSKI",
+    "cnae": "47547",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 133970.0
+   },
+   {
+    "cnpj": "00806881000132",
+    "nome": "GRAFICA VOLPATO LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 116530.0
+   },
+   {
+    "cnpj": "02007949000149",
+    "nome": "SANTAFE TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 110086.67
+   },
+   {
+    "cnpj": "68461801000198",
+    "nome": "CARLOS NANTES BOLSONARO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "29937484000181",
+    "nome": "TARGET GESTAO ESTRATEGICA E EVENTOS LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 59300.0
+   },
+   {
+    "cnpj": "32492540000126",
+    "nome": "32.492.540 ADRIEL DOUGLAS FRACASSO",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "80939234000138",
+    "nome": "ARCUS INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 19481.0
+   },
+   {
+    "cnpj": "01887142000185",
+    "nome": "SOCIEDADE JORNALISTICA DIARIO DO IGUACU LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 6079.8
+   },
+   {
+    "cnpj": "00443249000171",
+    "nome": "NOVA IMAGEM GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4970.0
+   },
+   {
+    "cnpj": "07034850000150",
+    "nome": "MERCUR EMBALAGENS E ETIQUETAS LTDA",
+    "cnae": "17311",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3300.0
+   },
+   {
+    "cnpj": "34186401000108",
+    "nome": "PEDRO MILDENBERGER NETO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "34304235000199",
+    "nome": "BAR E GASTRONOMIA WILLNER LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "18969197000137",
+    "nome": "AMB IMOVEIS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 5,
+   "total": 25909.0,
+   "por_tipo": {
+    "Despesas com pessoal": 25900.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 9.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

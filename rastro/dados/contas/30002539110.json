@@ -1,0 +1,150 @@
+{
+ "sq": "30002539110",
+ "nome_urna": "APARECIDA SALOMÃO",
+ "cargo": "depest",
+ "uf": "AP",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 679705.22,
+  "por_origem": {
+   "Recursos de partido político": 678205.22,
+   "Recursos de pessoas físicas": 1500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 678205.22,
+   "OUTROS RECURSOS": 1500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 678205.22
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 1500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 319904.84,
+  "total_pago": 503603.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "35631859000183",
+    "nome": "M G ASSESSORIA CONTABIL E EMPRESARIAL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 118000.0
+   },
+   {
+    "cnpj": "43305354000157",
+    "nome": "MELEM SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 118000.0
+   },
+   {
+    "cnpj": "25127022000148",
+    "nome": "BMIDIA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "64757100000140",
+    "nome": "64.757.100 DIEGO RAIRAN BRITO FARIAS",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 12100.0
+   },
+   {
+    "cnpj": "12064991000155",
+    "nome": "A A AGRA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9099.55
+   },
+   {
+    "cnpj": "34948364000110",
+    "nome": "WOLNEY U DA SILVA LTDA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "02747184000183",
+    "nome": "R M R DE ALMEIDA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "28893302000155",
+    "nome": "K. F. PRODUCOES LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "69006464000101",
+    "nome": "69.006.464 VANDER MAX CARVALHO SANTANA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 23705.29,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 18701.79,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.5,
+    "Locação/cessão de bens imóveis": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

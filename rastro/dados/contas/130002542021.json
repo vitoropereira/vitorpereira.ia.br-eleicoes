@@ -1,0 +1,572 @@
+{
+ "sq": "130002542021",
+ "nome_urna": "VINICIUS DINIZ",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2596050.0,
+  "por_origem": {
+   "Recursos de partido político": 490000.0,
+   "Recursos de pessoas físicas": 2106050.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 490000.0,
+   "OUTROS RECURSOS": 2106050.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 490000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 2106050.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2118953.61,
+  "total_pago": 2072117.63,
+  "fornecedores_pj": [
+   {
+    "cnpj": "56019930000141",
+    "nome": "INOVE IMPRESSOES GRAFICAS E MARKETING POLITICO LTDA",
+    "cnae": "18130",
+    "n_despesas": 57,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 114196.0
+   },
+   {
+    "cnpj": "49263755000178",
+    "nome": "CONQUISTA COMUNICACAO E MARKETING LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 66000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos",
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "55152830000126",
+    "nome": "TRIO GERASOM LTDA",
+    "cnae": "47237",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "45620147000112",
+    "nome": "WOW ESTRUTURAS E EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 38000.0
+   },
+   {
+    "cnpj": "26680167000134",
+    "nome": "FUSAO SOLUCOES IMPRESSAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 17,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 36699.0
+   },
+   {
+    "cnpj": "31905325000147",
+    "nome": "PROATIVA PROPAGANDA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "03002299000101",
+    "nome": "LOCADORA DE VEICULOS DIAMANTINA LTDA",
+    "cnae": "77110",
+    "n_despesas": 4,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 25699.99
+   },
+   {
+    "cnpj": "11286766000109",
+    "nome": "PIRES PROPAGANDA LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "37314350000132",
+    "nome": "MOVA TRANSPORTE E LOGISTICA LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "04762831000151",
+    "nome": "POSTO PINHEIRO CARVALHO LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 12980.0
+   },
+   {
+    "cnpj": "48750465000196",
+    "nome": "BREGUEZ EVENTOS E ASSESSORIA LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 12500.0
+   },
+   {
+    "cnpj": "12916361000161",
+    "nome": "ALLAN TOLEDO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "21801825000185",
+    "nome": "ALVES VILARINO ASSESSORIA E CONSULTORIA LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "01533212000105",
+    "nome": "TORQUE DIESEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 11823.09
+   },
+   {
+    "cnpj": "45910517000156",
+    "nome": "WALLACE DE PAULA CORREA",
+    "cnae": "96092",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "38561700000128",
+    "nome": "SINGULAR IMOVEIS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10972.97
+   },
+   {
+    "cnpj": "45982942000150",
+    "nome": "EVANDRO RODRIGUES DE SOUSA",
+    "cnae": "16226",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "10718847000160",
+    "nome": "MARIO GUEDES MIDIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "23479139000165",
+    "nome": "BRUNO ARGOLO RODRIGUES SILVA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "26640675000199",
+    "nome": "26.640.675 JONATAS DE OLIVEIRA SILVA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "21582234000164",
+    "nome": "POSTO GRA DUQUESA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7872.85
+   },
+   {
+    "cnpj": "17448959000197",
+    "nome": "O F G NOBRE ASSESSORIA, COMUNICACAO, PRODUCAO E PESQUISA",
+    "cnae": "70204",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "09100085000154",
+    "nome": "SIAO EMPREENDIMENTOS S.A",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "14298003000168",
+    "nome": "DIARIO DO RIO DOCE LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "07422375000199",
+    "nome": "TALENTUS INFORMATICA E SERVICOS LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 4125.0
+   },
+   {
+    "cnpj": "03763808000208",
+    "nome": "MCOURA COMBUSTIVEIS DE AVIACAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3298.07
+   },
+   {
+    "cnpj": "39154582000104",
+    "nome": "39.154.582 WAGNER SILVA OLIVEIRA",
+    "cnae": "82199",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3240.0
+   },
+   {
+    "cnpj": "65623772000125",
+    "nome": "COLORSET LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2750.0
+   },
+   {
+    "cnpj": "01630173000156",
+    "nome": "NOVO POSTO DIAMANTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2231.89
+   },
+   {
+    "cnpj": "20074619000158",
+    "nome": "PC COSTA E CIA LTDA",
+    "cnae": "43991",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "05145653000182",
+    "nome": "GKM INFORMATICA LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 1763.0
+   },
+   {
+    "cnpj": "03860532000197",
+    "nome": "FZ DE CARVALHO LTDA",
+    "cnae": "46354",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "15338710000101",
+    "nome": "AUTO POSTO CONFIANTE LTDA.",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1529.8
+   },
+   {
+    "cnpj": "23387855000112",
+    "nome": "ELMAC HOLDING PARTICIPACOES LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "59900884000183",
+    "nome": "MR2 PRINT ARTES GRAFICAS LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "22255015000133",
+    "nome": "MSGV SERVICOS REPROGRAFICOS LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "19809060000188",
+    "nome": "BARROS BRAGA VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "40353395000120",
+    "nome": "COURA PINTO COELHO EMPREENDIMENTOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "05089655000100",
+    "nome": "POSTO BARROCAR LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 960.51
+   },
+   {
+    "cnpj": "12939247000157",
+    "nome": "SINGULAR INDUSTRIA E DISTRIBUIDORA DE ALIMENTOS LTDA",
+    "cnae": "10961",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "55860906000178",
+    "nome": "BIG BANG PRODUCAO DE EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "38512505000108",
+    "nome": "CLUBE RECREATIVO VIRGINOPOLIS",
+    "cnae": "87115",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "05241806000195",
+    "nome": "MACHADO SUPERMERCADO LTDA",
+    "cnae": "47113",
+    "n_despesas": 10,
+    "tipos": [
+     "Alimentação",
+     "Materiais de expediente",
+     "Água"
+    ],
+    "total": 367.83
+   },
+   {
+    "cnpj": "13983446000125",
+    "nome": "ELIAS DE ASSIS PASSOS",
+    "cnae": "47628",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 325.0
+   },
+   {
+    "cnpj": "00357940000485",
+    "nome": "MD TINTAS LTDA",
+    "cnae": "47415",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 306.0
+   },
+   {
+    "cnpj": "38506820000122",
+    "nome": "POSTO ART LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 296.01
+   },
+   {
+    "cnpj": "41642633000180",
+    "nome": "ALESSANDRA DULCINEA BATISTA LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 270.0
+   },
+   {
+    "cnpj": "02933359000147",
+    "nome": "AUTO POSTO BETEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 263.6
+   },
+   {
+    "cnpj": "55009592000102",
+    "nome": "55.009.592 MAYCON MARCELINO DE OLIVEIRA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 210.0
+   },
+   {
+    "cnpj": "03325184000158",
+    "nome": "MARLON ENCADERNACOES E CARIMBOS LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 165.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 946,
+   "total": 1512608.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 83675.0,
+    "Cessão ou locação de veículos": 13200.0,
+    "Despesas com pessoal": 1217520.0,
+    "Despesas com transporte ou deslocamento": 76000.0,
+    "Locação/cessão de bens imóveis": 16213.0,
+    "Publicidade por carros de som": 44000.0,
+    "Serviços advocatícios": 15000.0,
+    "Serviços contábeis": 30000.0,
+    "Serviços prestados por terceiros": 9000.0,
+    "Serviços próprios prestados por terceiros": 8000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

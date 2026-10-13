@@ -1,0 +1,187 @@
+{
+ "sq": "130002533517",
+ "nome_urna": "CABO GREGORIO SILVA",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "DEMOCRATA",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 277397.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 182397.0,
+   "Recursos próprios": 95000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 277397.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 55,
+   "total": 277397.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 179995.42,
+  "total_pago": 240982.47,
+  "fornecedores_pj": [
+   {
+    "cnpj": "09596641000125",
+    "nome": "TAMARA DIGITAL LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "01955898000114",
+    "nome": "SC EDITORA GRAFICA LTDA",
+    "cnae": "18211",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 31500.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "65901541000136",
+    "nome": "65.901.541 ELIZANGELA DE SOUZA DUARTE",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "24933986000110",
+    "nome": "JR COMERCIO E SERVICOS AUTOMOTIVOS LTDA",
+    "cnae": "45200",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4800.0
+   },
+   {
+    "cnpj": "65355903000130",
+    "nome": "LOC LED LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3180.0
+   },
+   {
+    "cnpj": "56978909000173",
+    "nome": "56.978.909 ROBERTO DA SILVA OLIVEIRA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 3150.0
+   },
+   {
+    "cnpj": "38799679000101",
+    "nome": "TROPA GESTAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "33396312000115",
+    "nome": "JAQUES YAMAZAKI FOTO E VIDEO LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2200.0
+   },
+   {
+    "cnpj": "29591226000196",
+    "nome": "POSTO VILA SALES LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2037.12
+   },
+   {
+    "cnpj": "37273086000136",
+    "nome": "37.273.086 FRANCIELE DA SILVEIRA LOPES",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros",
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 1860.0
+   },
+   {
+    "cnpj": "24595309000130",
+    "nome": "RAMON DE QUADROS HENRICONI",
+    "cnae": "47563",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 799.0
+   },
+   {
+    "cnpj": "25027388000145",
+    "nome": "KD INFORMATICA E CELULARES LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 374.9
+   },
+   {
+    "cnpj": "43371522000102",
+    "nome": "DRAWTEC COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 337.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 55,
+   "total": 54757.4,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 24500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 57.4,
+    "Publicidade por carros de som": 5800.0,
+    "Serviços advocatícios": 5000.0,
+    "Serviços contábeis": 14400.0,
+    "Serviços prestados por terceiros": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,212 @@
+{
+ "sq": "100002536097",
+ "nome_urna": "LARISSA DP",
+ "cargo": "depfed",
+ "uf": "MA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1497500.0,
+  "por_origem": {
+   "Recursos de partido político": 1000000.0,
+   "Recursos de pessoas físicas": 470500.0,
+   "Recursos próprios": 27000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1000000.0,
+   "OUTROS RECURSOS": 497500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 1000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 48,
+   "total": 497500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 516623.5,
+  "total_pago": 1198237.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "22651875000196",
+    "nome": "R W P V VALPORTO",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "08820280000196",
+    "nome": "OBA PRODUCOES E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 36712.0
+   },
+   {
+    "cnpj": "54863530000192",
+    "nome": "JR ADESIVOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 34500.0
+   },
+   {
+    "cnpj": "54931221000102",
+    "nome": "54.931.221 FRANCISCA ALVES BRITO",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "21334301000121",
+    "nome": "ANTONIO JOZAFA CARVALHO DA SILVA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19600.0
+   },
+   {
+    "cnpj": "29401282000200",
+    "nome": "AEROISA COMERCIAL DE COMBUSTIVEIS E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 18324.0
+   },
+   {
+    "cnpj": "05705079000170",
+    "nome": "A. M. VASCONCELOS CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 17736.0
+   },
+   {
+    "cnpj": "10176750000172",
+    "nome": "PONCE DESING COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15600.0
+   },
+   {
+    "cnpj": "63268109000124",
+    "nome": "63.268.109 CARLOS ANDRE FURTADO DOS SANTOS",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9397.2
+   },
+   {
+    "cnpj": "12700288000196",
+    "nome": "J L SILVEIRA MACIEL SERVICOS",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "54965203000141",
+    "nome": "I VIANA SILVA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6900.0
+   },
+   {
+    "cnpj": "25291735000142",
+    "nome": "C. DE SANTANA ALMEIDA LTDA",
+    "cnae": "43991",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5400.0
+   },
+   {
+    "cnpj": "21678608000140",
+    "nome": "PARGA TERCEIRIZACAO E MALHARIA LTDA",
+    "cnae": "14223",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4500.3
+   },
+   {
+    "cnpj": "31426555000123",
+    "nome": "A J A DE SOUSA DA SILVA LTDA",
+    "cnae": "82911",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "38203366000130",
+    "nome": "TREVO COMERCIO E SERVICOS LTDA",
+    "cnae": "46494",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2450.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 47,
+   "total": 50004.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 24000.0,
+    "Despesas com pessoal": 6000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 4.0,
+    "Locação/cessão de bens imóveis": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

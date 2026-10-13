@@ -1,0 +1,131 @@
+{
+ "sq": "190002538819",
+ "nome_urna": "ROSENVERG REIS",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 966361.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 37206.0,
+   "Recursos de partido político": 562500.0,
+   "Recursos de pessoas físicas": 366655.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 588400.0,
+   "OUTROS RECURSOS": 377961.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 562500.0
+   },
+   {
+    "cnpj": "68437606000122",
+    "nome": "GUTEMBERG REIS DE OLIVEIRA",
+    "total": 26251.0
+   },
+   {
+    "cnpj": "68315366000193",
+    "nome": "AUREO LIDIO MOREIRA RIBEIRO",
+    "total": 10955.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 12,
+   "total": 366655.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 890357.95,
+  "total_pago": 238234.09,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "10698493000139",
+    "nome": "COSTA AGENCIA DE TURISMO E TRANSPORTE DE CAXIAS LTDA",
+    "cnae": "79112",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 58800.0
+   },
+   {
+    "cnpj": "30800890000187",
+    "nome": "CHAPEU DO SOL POSTO DE GASOLINA E LUBRIFICACAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 16694.71
+   },
+   {
+    "cnpj": "40820918000100",
+    "nome": "CAIRE COMERCIO E LOCACAO DE VEICULOS LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 13524.0
+   },
+   {
+    "cnpj": "12299221000191",
+    "nome": "TERRA COMUNICACAO VISUAL E SERVICOS LTDA",
+    "cnae": "13545",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11200.0
+   },
+   {
+    "cnpj": "15575511000109",
+    "nome": "BRASIGRAF ARTES GRAFICAS E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3070.0
+   },
+   {
+    "cnpj": "09205713000166",
+    "nome": "POSTO DE GASOLINA CAPINHA DA SERRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2410.09
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 323,
+   "total": 724659.15,
+   "por_tipo": {
+    "Despesas com pessoal": 721417.15,
+    "Serviços contábeis": 3242.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,181 @@
+{
+ "sq": "70002550000",
+ "nome_urna": "JOÃO CARDOSO",
+ "cargo": "distrital",
+ "uf": "DF",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 707001.0,
+  "por_origem": {
+   "Recursos de origens não identificadas": 2000.0,
+   "Recursos de partido político": 320000.0,
+   "Recursos de pessoas físicas": 365001.0,
+   "Recursos próprios": 20000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 270000.0,
+   "OUTROS RECURSOS": 437001.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 270000.0
+   },
+   {
+    "cnpj": "08766006000186",
+    "nome": "Direção Estadual/Distrital - PL - DISTRITO FEDERAL",
+    "total": 50000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 95,
+   "total": 387001.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 459242.22,
+  "total_pago": 524021.08,
+  "fornecedores_pj": [
+   {
+    "cnpj": "67057511000110",
+    "nome": "KONTOYANIS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 44000.0
+   },
+   {
+    "cnpj": "30067022000130",
+    "nome": "A. S. B. SIMOES SERVICOS EM COMUNICACAO E SINALIZACAO VISUAL",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 43697.0
+   },
+   {
+    "cnpj": "44583455000152",
+    "nome": "W7 CONTABILIDADE E ASSESSORIA EMPRESARIAL LTDA",
+    "cnae": "69206",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 12325.01
+   },
+   {
+    "cnpj": "67558800000101",
+    "nome": "CLARK E SILVEIRA MARKETING E COMUNICACAO LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "00306597000105",
+    "nome": "CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "57592455000160",
+    "nome": "DENUCCI DIGITAL MENTORIA E PRODUTOS DIGITAIS LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "28234116000104",
+    "nome": "CAMISETA.COM LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "08251517000165",
+    "nome": "UNICA DISTRIBUIDORA E LOCACAO DE COPIADORAS LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1680.0
+   },
+   {
+    "cnpj": "50171986000130",
+    "nome": "50.171.986 NAIDE CORDEIRO DA CUNHA MARREIRO",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "54395748000160",
+    "nome": "PLACART EVENTOS E PUBLICIDADES DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 240.0
+   },
+   {
+    "cnpj": "17290419000128",
+    "nome": "CENTRAL DA LIMPEZA UTILIDADES LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 42.95
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 158,
+   "total": 261457.26,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 212757.47,
+    "Cessão ou locação de veículos": 2000.0,
+    "Despesas com pessoal": 34484.29,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 215.5,
+    "Locação/cessão de bens imóveis": 10000.0,
+    "Publicidade por carros de som": 2000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

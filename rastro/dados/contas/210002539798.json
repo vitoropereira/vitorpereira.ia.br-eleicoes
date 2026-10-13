@@ -1,0 +1,220 @@
+{
+ "sq": "210002539798",
+ "nome_urna": "DIEGO PICUCHA",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PDT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 421600.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 200000.0,
+   "Recursos de partido político": 100000.0,
+   "Recursos de pessoas físicas": 121600.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 300000.0,
+   "OUTROS RECURSOS": 121600.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00719575000169",
+    "nome": "Direção Nacional - PDT",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68373310000195",
+    "nome": "AFONSO ANTUNES DA MOTTA",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68373426000124",
+    "nome": "DARCI POMPEO DE MATTOS",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 18,
+   "total": 121600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 260357.73,
+  "total_pago": 371778.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 9,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 46500.0
+   },
+   {
+    "cnpj": "03994736000110",
+    "nome": "GRAFICA B L LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 37164.73
+   },
+   {
+    "cnpj": "07368646000175",
+    "nome": "GRAFICA GAUCHA LTDA",
+    "cnae": "17419",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 33150.0
+   },
+   {
+    "cnpj": "18020838000102",
+    "nome": "MAGALI DE VARGAS CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "17376797000129",
+    "nome": "JORNAL REPERCUSSAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 15981.0
+   },
+   {
+    "cnpj": "32454145000159",
+    "nome": "NENA CONFECCOES LTDA",
+    "cnae": "13405",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12200.0
+   },
+   {
+    "cnpj": "04716149000122",
+    "nome": "CHAILU EMBALAGENS LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "18183139000183",
+    "nome": "FELIPPE GARCIA ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "59125845000156",
+    "nome": "59.125.845 GRAZIELI NICOLI PULS",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "59615513000150",
+    "nome": "CR ASSESSORIA E CONSULTORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "95211306000101",
+    "nome": "TADIOTTO TADIOTTO LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "07397846000156",
+    "nome": "JTP IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "36923744000125",
+    "nome": "SM DUBLAGENS E TECIDOS LTDA",
+    "cnae": "22293",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5392.0
+   },
+   {
+    "cnpj": "08335652000199",
+    "nome": "LAPA MUSICA LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "33031783000120",
+    "nome": "LBR CONFECCOES LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2790.0
+   },
+   {
+    "cnpj": "11403130000191",
+    "nome": "HAMPLYTUDE SONORIZACAO EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 15,
+   "total": 29180.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 6180.0,
+    "Locação/cessão de bens imóveis": 23000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

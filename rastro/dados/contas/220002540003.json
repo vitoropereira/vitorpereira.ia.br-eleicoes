@@ -1,0 +1,220 @@
+{
+ "sq": "220002540003",
+ "nome_urna": "JOLIANE FURIA",
+ "cargo": "depfed",
+ "uf": "RO",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1782500.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 61000.0,
+   "Recursos de partido político": 1710000.0,
+   "Recursos de pessoas físicas": 10000.0,
+   "Recursos próprios": 1500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1710000.0,
+   "OUTROS RECURSOS": 72500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 1710000.0
+   },
+   {
+    "cnpj": "68386056000160",
+    "nome": "ADAILTON ANTUNES FERREIRA",
+    "total": 61000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 11500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1300424.5,
+  "total_pago": 407094.9,
+  "fornecedores_pj": [
+   {
+    "cnpj": "18253151000117",
+    "nome": "CASTRO CHAVES ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "68470544000150",
+    "nome": "EDIMAR KAPICHE LUCIANO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "35314289000106",
+    "nome": "SILVARES ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68470659000145",
+    "nome": "TALANIA LOPES DE OLIVEIRA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "33267567000188",
+    "nome": "VERSATIL INDUSTRIA GRAFICA LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 23700.0
+   },
+   {
+    "cnpj": "23393596000132",
+    "nome": "D. S. FENIX CONSTRUTORA LTDA",
+    "cnae": "43991",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "55273308000100",
+    "nome": "METTA COMUNICACAO VISUAL LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "03566347000194",
+    "nome": "VIEIRA RANITE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "06114614000180",
+    "nome": "ELETRICA PRADO SILVA LTDA",
+    "cnae": "33139",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "53123699000143",
+    "nome": "PRADO E BRASILEIRO LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "19199853000122",
+    "nome": "AUTO POSTO MIRANDA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2064.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "63757710000180",
+    "nome": "COPICENTER LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1390.0
+   },
+   {
+    "cnpj": "44941716000169",
+    "nome": "G P DISTRIBUIDORA LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 363.0
+   },
+   {
+    "cnpj": "30179146000107",
+    "nome": "J. D ALVES GRAFICA INFINITY LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "26733131000171",
+    "nome": "K C F QUEIROZ TOP ART UNIFORMES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 110.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 463,
+   "total": 876397.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 638234.0,
+    "Cessão ou locação de veículos": 58576.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 5.0,
+    "Locação/cessão de bens imóveis": 23211.5,
+    "Publicidade por carros de som": 18000.0,
+    "Serviços prestados por terceiros": 138371.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

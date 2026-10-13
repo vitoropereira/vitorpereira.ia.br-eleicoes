@@ -1,0 +1,243 @@
+{
+ "sq": "110002550706",
+ "nome_urna": "DILMAR DAL BOSCO",
+ "cargo": "depest",
+ "uf": "MT",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1085340.0,
+  "por_origem": {
+   "Recursos de partido político": 736640.0,
+   "Recursos de pessoas físicas": 348700.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 115992.0,
+   "FUNDO PARTIDARIO": 270648.0,
+   "OUTROS RECURSOS": 698700.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "45943051000195",
+    "nome": "Direção Estadual/Distrital - UNIÃO - MATO GROSSO",
+    "total": 320648.0
+   },
+   {
+    "cnpj": "09102673000127",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - MATO GROSSO",
+    "total": 300000.0
+   },
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 115992.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 12,
+   "total": 348700.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 646438.7,
+  "total_pago": 658545.7,
+  "fornecedores_pj": [
+   {
+    "cnpj": "03591470000165",
+    "nome": "SUPORTE EMPRESARIAL LTDA",
+    "cnae": "69206",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "49283592000195",
+    "nome": "SANT PRODUCOES E MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "23378084000105",
+    "nome": "L R PIAZZA LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "43426221000139",
+    "nome": "BILHETE AGORA LTDA",
+    "cnae": "79902",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 13000.0
+   },
+   {
+    "cnpj": "19351670000180",
+    "nome": "ALMIR HENRIQUE COIMBRA LIMA SERVICOS PUBLICITARIOS",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "40129901000100",
+    "nome": "POLISEG SEGURANCA PRIVADA LTDA",
+    "cnae": "80111",
+    "n_despesas": 1,
+    "tipos": [
+     "Segurança e prevenção, repressão e combate à violência política"
+    ],
+    "total": 11020.7
+   },
+   {
+    "cnpj": "60547944000105",
+    "nome": "GRAFNORTE LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "24395182000105",
+    "nome": "CHIROLI UNIFORMES LTDA",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5250.0
+   },
+   {
+    "cnpj": "32953905000172",
+    "nome": "TUBARAO INDUSTRIA COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4288.0
+   },
+   {
+    "cnpj": "09123098000149",
+    "nome": "D B A ROZANTI",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3140.0
+   },
+   {
+    "cnpj": "40321782000185",
+    "nome": "PRIME COMERCIO REPRESENTARAO LTDA",
+    "cnae": "46494",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "42345192000118",
+    "nome": "HAUBERT SERVICO DE ENTREGA RAPIDA LTDA",
+    "cnae": "53202",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "04858637000174",
+    "nome": "OUTIMPRESS SOLUCOES INTELIGENTES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1300.0
+   },
+   {
+    "cnpj": "19136158000111",
+    "nome": "CABINE CLICK LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "61639478000150",
+    "nome": "UNICOPIAS SERVICOS DE COPIAS LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 840.0
+   },
+   {
+    "cnpj": "36739943000188",
+    "nome": "N. GATTI LTDA",
+    "cnae": "47296",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 600.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 245,
+   "total": 431500.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 361249.0,
+    "Despesas com pessoal": 17500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2751.0,
+    "Locação/cessão de bens imóveis": 10000.0,
+    "Serviços advocatícios": 40000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

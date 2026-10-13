@@ -1,0 +1,301 @@
+{
+ "sq": "250002540875",
+ "nome_urna": "MAURO BRAGATO",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 772417.41,
+  "por_origem": {
+   "Recursos de partido político": 772407.41,
+   "Recursos de pessoas físicas": 10.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 705000.0,
+   "OUTROS RECURSOS": 67417.41
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 705000.0
+   },
+   {
+    "cnpj": "14567904000108",
+    "nome": "Direção Estadual/Distrital - PSD - SÃO PAULO",
+    "total": 67407.41
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 10.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 762992.5,
+  "total_pago": 763819.99,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "71665178000108",
+    "nome": "EZEQUIAS RIBEIRO DOS SANTOS",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "18316942000149",
+    "nome": "LUKA IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "19416207000170",
+    "nome": "SMART7 DIGITAL LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "51991855000162",
+    "nome": "MARIA ZILDA PRIMOLAN LOCADORA LTDA",
+    "cnae": "77195",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "08081631000194",
+    "nome": "AUDI PROPAGANDA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "22166112000150",
+    "nome": "CIBELE DAMIAO ANDREASI DE LIMA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 19960.0
+   },
+   {
+    "cnpj": "00990466000181",
+    "nome": "CROMOGRAF GRAFICA PRESIDENTE PRUDENTE LTDA",
+    "cnae": "58212",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16725.0
+   },
+   {
+    "cnpj": "39564823000185",
+    "nome": "CELSO E SITOLINO CONTABILIDADE",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "12488478000191",
+    "nome": "C M M V - LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12400.0
+   },
+   {
+    "cnpj": "45224012000138",
+    "nome": "45.224.012 EDUARDO MOIZES VIDAL",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "55827597000134",
+    "nome": "NEVES E GUIMARAES SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "60029218000109",
+    "nome": "NR COMUNICACAO DE MARCAS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 7667.0
+   },
+   {
+    "cnpj": "37578662000153",
+    "nome": "BERGAMINI COMUNICACAO ENGENHARIA E SERVICOS LTDA",
+    "cnae": "43291",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 7441.31
+   },
+   {
+    "cnpj": "55624498000821",
+    "nome": "SUPERMERCADO ESTRELA DE REGENTE FEIJO LTDA",
+    "cnae": "47113",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 5490.42
+   },
+   {
+    "cnpj": "53192605000198",
+    "nome": "AUTO POSTO PRUDENTAO III LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5341.81
+   },
+   {
+    "cnpj": "58801398000145",
+    "nome": "58.801.398 ELTON ROCHA TEIXEIRA",
+    "cnae": "82997",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 4300.0
+   },
+   {
+    "cnpj": "61828172000142",
+    "nome": "61.828.172 WILLIAM RODRIGO SOUZA DOS REIS",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3780.0
+   },
+   {
+    "cnpj": "96414974000190",
+    "nome": "SUPERMERCADO CONAL LTDA",
+    "cnae": "47113",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 3264.05
+   },
+   {
+    "cnpj": "45978541000127",
+    "nome": "VISA VENDA DE IMOVEIS E ADMINISTRACAO LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3199.0
+   },
+   {
+    "cnpj": "11419718000133",
+    "nome": "F. F. FUNARI",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "54502364000107",
+    "nome": "AUTO POSTO SAO JOAO DE ASSIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1499.43
+   },
+   {
+    "cnpj": "01402861000169",
+    "nome": "PANIFICADORA MENDES PACHECO LTDA",
+    "cnae": "10911",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1190.0
+   },
+   {
+    "cnpj": "54129097000166",
+    "nome": "54.129.097 THOMAS JEFFERSON ALMEIDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 150.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 178,
+   "total": 430784.48,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 2500.0,
+    "Cessão ou locação de veículos": 25594.0,
+    "Despesas com pessoal": 353203.98,
+    "Diversas a especificar": 2500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 86.5,
+    "Locação/cessão de bens imóveis": 6400.0,
+    "Publicidade por carros de som": 10000.0,
+    "Serviços advocatícios": 25000.0,
+    "Serviços prestados por terceiros": 5500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,314 @@
+{
+ "sq": "160002547550",
+ "nome_urna": "JASSON GOULART",
+ "cargo": "depest",
+ "uf": "PR",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 977724.01,
+  "por_origem": {
+   "Recursos de partido político": 733224.01,
+   "Recursos de pessoas físicas": 199500.0,
+   "Recursos próprios": 45000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 518374.01,
+   "FUNDO PARTIDARIO": 100000.0,
+   "OUTROS RECURSOS": 359350.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 518374.01
+   },
+   {
+    "cnpj": "08640056000112",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - PARANÁ",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "14512048000193",
+    "nome": "Direção Estadual/Distrital - PSD - PARANÁ",
+    "total": 14850.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 18,
+   "total": 244500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 486987.17,
+  "total_pago": 344065.48,
+  "fornecedores_pj": [
+   {
+    "cnpj": "10837561000101",
+    "nome": "VIEIRA BARBOSA CARNEIRO - ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 34650.0
+   },
+   {
+    "cnpj": "47248920000197",
+    "nome": "POLITICON CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "29062737000110",
+    "nome": "EDITORA INTEGRANDO SOLUCOES LTDA",
+    "cnae": "53202",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17731.59
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "37694048000157",
+    "nome": "AGENCIA BLESS MARKETING E MIDIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6500.0
+   },
+   {
+    "cnpj": "59557822000110",
+    "nome": "ANJOS COSTURA LTDA",
+    "cnae": "14134",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4400.0
+   },
+   {
+    "cnpj": "84945401000104",
+    "nome": "XINEF GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3590.0
+   },
+   {
+    "cnpj": "54313613000108",
+    "nome": "WINN IMPRESSAO DIGITAL LTDA",
+    "cnae": "47130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3516.0
+   },
+   {
+    "cnpj": "20672389000129",
+    "nome": "ROGERIO CORDONI PRODUCOES ELVIS.SHOW LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "52248810000165",
+    "nome": "52.248.810 MATHEUS MANABU ROMERO HORACIO",
+    "cnae": "95118",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2985.0
+   },
+   {
+    "cnpj": "47095076000101",
+    "nome": "CONCEITUAL SERVICOS GRAFICOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2880.0
+   },
+   {
+    "cnpj": "01181294000168",
+    "nome": "PIERO COMERCIO E CONFECCAO DE ARTIGOS DO VESTUARIO LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2845.0
+   },
+   {
+    "cnpj": "11836758000180",
+    "nome": "ADRIANA ANDRETTA LTDA.",
+    "cnae": "47555",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2530.0
+   },
+   {
+    "cnpj": "08754106000192",
+    "nome": "JORNAL TRIBUNA DO BOQUEIRAO LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "13424790000184",
+    "nome": "GAZETA DO ABRANCHES LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "00564217000124",
+    "nome": "NEIDE FERREIRA SECO SCHVABE",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "20860658000180",
+    "nome": "A D P SANTI JORNAL DO REBOUCAS",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "38082136000160",
+    "nome": "S T KRASINSKI JORNAL EXTRA CWB",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "53495097000117",
+    "nome": "53.495.097 GABRIEL KRASINSKI SANTI",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "30578349000176",
+    "nome": "YEZ - COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "48747824000156",
+    "nome": "SUL PRINT IMPRESSOES DIGITAIS LTDA",
+    "cnae": "43291",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 650.0
+   },
+   {
+    "cnpj": "57772325000100",
+    "nome": "CAMPEIRO SERVICOS DE ALIMENTACAO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "79591590000124",
+    "nome": "GRAFICA PEMA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 560.0
+   },
+   {
+    "cnpj": "23312998000165",
+    "nome": "GETULIO DA SILVA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "76430438012269",
+    "nome": "IRMAOS MUFFATO CIA LTDA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 40.98
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 105,
+   "total": 352408.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 203960.0,
+    "Cessão ou locação de veículos": 34931.0,
+    "Despesas com pessoal": 77400.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 117.6,
+    "Locação/cessão de bens imóveis": 36000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

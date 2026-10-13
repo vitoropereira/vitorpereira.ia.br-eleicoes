@@ -1,0 +1,303 @@
+{
+ "sq": "160002546872",
+ "nome_urna": "GOURA",
+ "cargo": "depest",
+ "uf": "PR",
+ "partido": "PDT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 511328.88,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 15485.0,
+   "Recursos de outros candidatos": 105757.35,
+   "Recursos de partido político": 300000.0,
+   "Recursos de pessoas físicas": 90086.53
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 404007.35,
+   "OUTROS RECURSOS": 107321.53
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00719575000169",
+    "nome": "Direção Nacional - PDT",
+    "total": 300000.0
+   },
+   {
+    "cnpj": "68464683000171",
+    "nome": "ROBERTO REQUIAO DE MELLO E SILVA",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 15485.0
+   },
+   {
+    "cnpj": "68519900000183",
+    "nome": "MAURICIO THADEU DE MELLO E SILVA",
+    "total": 4007.35
+   },
+   {
+    "cnpj": "68519914000105",
+    "nome": "SERGIO OSANY GARCIA VIEIRA",
+    "total": 1187.5
+   },
+   {
+    "cnpj": "68379850000186",
+    "nome": "MARLEI FERNANDES DE CARVALHO",
+    "total": 337.5
+   },
+   {
+    "cnpj": "68379679000105",
+    "nome": "EDUARDO GUILHERME REINER",
+    "total": 225.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 121,
+   "total": 90086.53
+  }
+ },
+ "despesas": {
+  "total_contratado": 241233.28,
+  "total_pago": 235256.66,
+  "fornecedores_pj": [
+   {
+    "cnpj": "43636568000106",
+    "nome": "M BARREIROS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "47095076000101",
+    "nome": "CONCEITUAL SERVICOS GRAFICOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16830.0
+   },
+   {
+    "cnpj": "20324854000130",
+    "nome": "FACILITE NEGOCIOS IMOBILIARIOS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10478.91
+   },
+   {
+    "cnpj": "10792629000175",
+    "nome": "MOTIM - COMUNICACAO E ARTE LTDA",
+    "cnae": "18300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "20781077000153",
+    "nome": "GENUS AMBIENTAL SERVICOS INTEGRADOS LTDA",
+    "cnae": "81117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "23646108000151",
+    "nome": "23.646.108 TOMAS FERNANDEZ PRESAS",
+    "cnae": "43304",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "44334724000147",
+    "nome": "MAS LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8653.33
+   },
+   {
+    "cnpj": "23188035000100",
+    "nome": "SANTA GRAVINA LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 5320.0
+   },
+   {
+    "cnpj": "42549430000107",
+    "nome": "E-CONTA CONTABILIDADE, CONSULTORIA E TREINAMENTOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "43234703000197",
+    "nome": "43.234.703 RAFAELLA VANI MACIEL",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "45641368000177",
+    "nome": "CLS INFORMATICA LTDA",
+    "cnae": "43215",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4397.0
+   },
+   {
+    "cnpj": "64677775000189",
+    "nome": "A. OLIVEIRA SILVA PROGRAMACAO DE COMPUTADORES LTDA",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3699.0
+   },
+   {
+    "cnpj": "55025405000176",
+    "nome": "ASSOCIACAO MARMITAS DA TERRA",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "32076346000160",
+    "nome": "CURITIBA JAZZ FESTIVAL PRODUCOES ARTISTICAS LTDA",
+    "cnae": "90019",
+    "n_despesas": 3,
+    "tipos": [
+     "Eventos de promoção da candidatura",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1982.24
+   },
+   {
+    "cnpj": "35027759000142",
+    "nome": "DMV DIGITAL BARROS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1890.0
+   },
+   {
+    "cnpj": "68464943000109",
+    "nome": "JOSE GIULIANGELI DE CASTRO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 1780.0
+   },
+   {
+    "cnpj": "60940833000164",
+    "nome": "MULTI IMPRESSOS COMERCIO E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1544.0
+   },
+   {
+    "cnpj": "05977620000107",
+    "nome": "PAPELARIA HOCHULI LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1258.75
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 568.15
+   },
+   {
+    "cnpj": "49414895000108",
+    "nome": "JPL SUBLIMACAO E TECIDOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 299.4
+   },
+   {
+    "cnpj": "82080979000209",
+    "nome": "MAURETTI AGENCIA FRANQUEADA LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 136.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 43,
+   "total": 109996.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 38350.0,
+    "Despesas com pessoal": 71600.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 46.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

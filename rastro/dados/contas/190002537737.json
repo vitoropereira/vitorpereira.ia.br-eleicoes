@@ -1,0 +1,123 @@
+{
+ "sq": "190002537737",
+ "nome_urna": "VANTOIL MARTINS",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 472444.22,
+  "por_origem": {
+   "Recursos de outros candidatos": 288.5,
+   "Recursos de partido político": 89510.72,
+   "Recursos de pessoas físicas": 382645.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 49510.72,
+   "OUTROS RECURSOS": 422933.5
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01669171000170",
+    "nome": "Direção Estadual/Distrital - PSB - RIO DE JANEIRO",
+    "total": 54510.72
+   },
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 35000.0
+   },
+   {
+    "cnpj": "68470230000158",
+    "nome": "LIVIA SOARES BELLO DA SILVA",
+    "total": 288.5
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 32,
+   "total": 382645.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 154811.25,
+  "total_pago": 98462.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 37285.0
+   },
+   {
+    "cnpj": "02495060000158",
+    "nome": "IMPRINT 2001 GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8691.25
+   },
+   {
+    "cnpj": "51158690000142",
+    "nome": "FPS GRAFICA E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8575.0
+   },
+   {
+    "cnpj": "60619362000197",
+    "nome": "INSERT AUDIO, VISUAL E ESTRUTURAS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 4970.0
+   },
+   {
+    "cnpj": "11703763000115",
+    "nome": "SEKTOR PUBLICIDADE SOLUCOES E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3262.0
+   },
+   {
+    "cnpj": "60812414000147",
+    "nome": "HISTAKI PERSONALIZEI LTDA",
+    "cnae": "74102",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2352.5
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 55,
+   "total": 89675.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 66150.0,
+    "Despesas com transporte ou deslocamento": 8000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 25.5,
+    "Locação/cessão de bens imóveis": 9500.0,
+    "Produção de programas de rádio, televisão ou vídeo": 6000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

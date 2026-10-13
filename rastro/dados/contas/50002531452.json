@@ -1,0 +1,240 @@
+{
+ "sq": "50002531452",
+ "nome_urna": "MÁRCIO MARINHO",
+ "cargo": "depfed",
+ "uf": "BA",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2062016.91,
+  "por_origem": {
+   "Recursos de partido político": 2037016.91,
+   "Recursos de pessoas físicas": 25000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 300000.0,
+   "FUNDO PARTIDARIO": 1737016.91,
+   "OUTROS RECURSOS": 25000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08666672000142",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - BAHIA",
+    "total": 1737016.91
+   },
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 300000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 25000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1743714.09,
+  "total_pago": 1712426.36,
+  "fornecedores_pj": [
+   {
+    "cnpj": "19179551000192",
+    "nome": "ALUGRAF SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 680000.0
+   },
+   {
+    "cnpj": "07556546000172",
+    "nome": "PRESSGRAF IMPORTACAO TECNOLOGIA E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por carros de som",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 462000.0
+   },
+   {
+    "cnpj": "44517470000100",
+    "nome": "P C TRINDADE TRANSPORTES LTDA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos",
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 88000.0
+   },
+   {
+    "cnpj": "47038264000106",
+    "nome": "CARVALHO CAIRO, INDUSTRIA E COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 68215.0
+   },
+   {
+    "cnpj": "10767414000102",
+    "nome": "ANDRE GUIMARAES PATRIMONIAL LTDA.",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "01855960000104",
+    "nome": "MEGA POSTO BERIMBAU LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 30327.16
+   },
+   {
+    "cnpj": "00149796000149",
+    "nome": "J M GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "41998754000160",
+    "nome": "41.998.754 JAIME TEIXEIRA PEREIRA JUNIOR",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "21657304000104",
+    "nome": "21.657.304 MIRIAM BATISTA DE SANTANA PALMA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 22450.0
+   },
+   {
+    "cnpj": "21444240000155",
+    "nome": "21.444.240 JOSE TIBURCIO DOS SANTOS",
+    "cnae": "49299",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 14966.66
+   },
+   {
+    "cnpj": "30499787000149",
+    "nome": "DSG COMUNICACAO SOCIEDADE UNIPESSOAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12875.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 12100.0
+   },
+   {
+    "cnpj": "53581390000105",
+    "nome": "AGENCIA DOMM HIVE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 8800.0
+   },
+   {
+    "cnpj": "66279235000172",
+    "nome": "HANZEL PRODUCOES E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 5400.0
+   },
+   {
+    "cnpj": "62351091000167",
+    "nome": "RESERVA CAMASSARYS COMERCIO VAREJISTA DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4784.76
+   },
+   {
+    "cnpj": "05482722000143",
+    "nome": "SUPRIR SILK LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3565.0
+   },
+   {
+    "cnpj": "14045611000160",
+    "nome": "POSTO 2001 DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3520.37
+   },
+   {
+    "cnpj": "44051777000150",
+    "nome": "GO COMUNICACAO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2922.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 64,
+   "total": 221288.14,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 129900.0,
+    "Cessão ou locação de veículos": 21920.0,
+    "Despesas com transporte ou deslocamento": 20000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 284.5,
+    "Publicidade por carros de som": 49183.64
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

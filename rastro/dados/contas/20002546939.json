@@ -1,0 +1,296 @@
+{
+ "sq": "20002546939",
+ "nome_urna": "RAFAEL BRITO",
+ "cargo": "depfed",
+ "uf": "AL",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2146913.6,
+  "por_origem": {
+   "Recursos de outros candidatos": 10500.0,
+   "Recursos de partido político": 2000000.0,
+   "Recursos de pessoas físicas": 121413.6,
+   "Recursos próprios": 15000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2010500.0,
+   "OUTROS RECURSOS": 136413.6
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 2000000.0
+   },
+   {
+    "cnpj": "68527012000102",
+    "nome": "CICERO CAVALCANTI DE ARAUJO",
+    "total": 10500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 16,
+   "total": 136413.6
+  }
+ },
+ "despesas": {
+  "total_contratado": 1392261.5,
+  "total_pago": 1411623.01,
+  "fornecedores_pj": [
+   {
+    "cnpj": "48390856000147",
+    "nome": "MATHEUS CAMPELO GUIMARAES DA SILVA LTDA",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 310000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 9,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 278000.0
+   },
+   {
+    "cnpj": "68527012000102",
+    "nome": "CICERO CAVALCANTI DE ARAUJO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "23875680000192",
+    "nome": "DAGOBERTO OMENA ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68526362000154",
+    "nome": "CLAUDIO ALEXANDRE AYRES DA COSTA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "57568344000119",
+    "nome": "GABRIEL RAMOS MOREIRA LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 77500.0
+   },
+   {
+    "cnpj": "14876708000115",
+    "nome": "NOGUEIRA, ALBUQUERQUE E FREIRE ASSOCIADOS S/S",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 62000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 51000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 37000.0
+   },
+   {
+    "cnpj": "60023515000139",
+    "nome": "60.023.515 CARLOS EDUARDO COSTA DE MELO",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 36000.0
+   },
+   {
+    "cnpj": "53387375000112",
+    "nome": "53.387.375 VICTOR BARBOSA MARTINIANO LINS",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "50585673000129",
+    "nome": "50.585.673 IVALDO SANTANA DOS SANTOS",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "68526613000109",
+    "nome": "BARBARA FAUSTINO BRAGA GATTO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "03844673000116",
+    "nome": "ALAGOANA LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "29586483000130",
+    "nome": "CLARISSA NADIR MATOS NAPOLI",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "05072232000179",
+    "nome": "AUTO POSTO MILLENIUM LTDA",
+    "cnae": "47318",
+    "n_despesas": 58,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 12941.96
+   },
+   {
+    "cnpj": "67592245000126",
+    "nome": "67.592.245 LEVI YURI DE OLIVEIRA SILVA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "68934767000121",
+    "nome": "68.934.767 JOSE ROBERTO DA SILVA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "59102336000108",
+    "nome": "59.102.336 AMYN JORDAN DA SILVA FERNANDES",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 9517.0
+   },
+   {
+    "cnpj": "05132492000192",
+    "nome": "SAO SEBASTIAO LOCACAO DE VEICULOS E TURISMO LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9379.74
+   },
+   {
+    "cnpj": "67815433000176",
+    "nome": "NEVES SINALIZACAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 7200.0
+   },
+   {
+    "cnpj": "30539466000120",
+    "nome": "CAETANO LEITE EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "26362348000112",
+    "nome": "CARLOS HUMBERTO CERQUEIRA PAES JUNIOR",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "11355874000188",
+    "nome": "INFINNI SERVICOS E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1080.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 18142.8,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 142.8,
+    "Locação/cessão de bens imóveis": 18000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

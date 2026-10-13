@@ -1,0 +1,135 @@
+{
+ "sq": "30002533720",
+ "nome_urna": "JACK JK",
+ "cargo": "depest",
+ "uf": "AP",
+ "partido": "PDT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 429447.5,
+  "por_origem": {
+   "Recursos de outros candidatos": 45347.5,
+   "Recursos de partido político": 316600.0,
+   "Recursos de pessoas físicas": 17500.0,
+   "Recursos próprios": 50000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 105347.5,
+   "FUNDO PARTIDARIO": 256600.0,
+   "OUTROS RECURSOS": 67500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00719575000169",
+    "nome": "Direção Nacional - PDT",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "02669787000104",
+    "nome": "Direção Estadual/Distrital - PDT - AMAPÁ",
+    "total": 116600.0
+   },
+   {
+    "cnpj": "68237554000140",
+    "nome": "JOSENILDO SANTOS ABRANTES",
+    "total": 45347.5
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 67500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 209571.5,
+  "total_pago": 30000.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "22278960000150",
+    "nome": "J C N CANTANHEDE",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 41800.0
+   },
+   {
+    "cnpj": "10221328000191",
+    "nome": "PRINTGRAF EDITORA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "10755998000198",
+    "nome": "FABIO LOBATO GARCIA - ADVOCACIA - SIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "04515761000137",
+    "nome": "ENGENHO ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 16950.0
+   },
+   {
+    "cnpj": "10522077000185",
+    "nome": "POSTO DE COMBUSTIVEIS JARDINS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "84410240000154",
+    "nome": "GRAMPOS OIAPOC LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "64328698000151",
+    "nome": "OLIVEIRA GHAMMACHI LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 11,
+   "total": 45121.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 27000.0,
+    "Despesas com pessoal": 6121.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5,
+    "Locação/cessão de bens imóveis": 10000.0,
+    "Serviços prestados por terceiros": 2000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

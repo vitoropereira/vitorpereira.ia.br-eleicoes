@@ -1,0 +1,157 @@
+{
+ "sq": "220002536880",
+ "nome_urna": "CORONEL CHRISÓSTOMO",
+ "cargo": "depfed",
+ "uf": "RO",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3169750.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 20750.0,
+   "Recursos de partido político": 3149000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1669750.0,
+   "FUNDO PARTIDARIO": 1500000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3149000.0
+   },
+   {
+    "cnpj": "68438235000101",
+    "nome": "BRUNO SCHEID",
+    "total": 20750.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1310754.66,
+  "total_pago": 910054.21,
+  "fornecedores_pj": [
+   {
+    "cnpj": "48020428000122",
+    "nome": "NEL PUBLICIDADE EEVENTOS LTDA",
+    "cnae": "74102",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "19687610000133",
+    "nome": "LF AERONAUTICA E TURISMO LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 195000.0
+   },
+   {
+    "cnpj": "27856112000103",
+    "nome": "CAMARGO, MAGALHAES CANEDO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 160000.0
+   },
+   {
+    "cnpj": "26279477000141",
+    "nome": "ALBUQUERQUE COMERCIO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 59000.0
+   },
+   {
+    "cnpj": "10573786000190",
+    "nome": "CONTMAIS SERVICOS DE APOIO ADMINISTRATIVO LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 41225.0
+   },
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "41676221000161",
+    "nome": "IMPACT COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27200.0
+   },
+   {
+    "cnpj": "07699271000126",
+    "nome": "VALE DAS CACHOEIRAS WATER PARK LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "84722420000171",
+    "nome": "EMPRESA RONDONIA DE REFRIGERANTES LTDA",
+    "cnae": "11216",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 12758.5
+   },
+   {
+    "cnpj": "34737395000121",
+    "nome": "CLAUDIO FERREIRA DE LIMA CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5784.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 180,
+   "total": 464787.16,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 348622.86,
+    "Cessão ou locação de veículos": 51890.0,
+    "Despesas com pessoal": 58700.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 74.3,
+    "Locação/cessão de bens imóveis": 5500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

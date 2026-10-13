@@ -1,0 +1,132 @@
+{
+ "sq": "160002547568",
+ "nome_urna": "DELEGADO FRANCISCHINI",
+ "cargo": "depfed",
+ "uf": "PR",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 295700.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 188700.0,
+   "Recursos próprios": 107000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 295700.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 14,
+   "total": 295700.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 231783.4,
+  "total_pago": 184407.43,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 18,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 157000.0
+   },
+   {
+    "cnpj": "27614664000105",
+    "nome": "BUENO ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 14332.9
+   },
+   {
+    "cnpj": "49414895000108",
+    "nome": "JPL SUBLIMACAO E TECIDOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 11475.0
+   },
+   {
+    "cnpj": "05200834000164",
+    "nome": "GRAFICA E EDITORA FMR LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "76635119000100",
+    "nome": "LEAL LOCADORA DE VEICULOS E EQUIPAMENTOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "54313613000108",
+    "nome": "WINN IMPRESSAO DIGITAL LTDA",
+    "cnae": "47130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3100.0
+   },
+   {
+    "cnpj": "07870043000177",
+    "nome": "DPM DIGITAL E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1875.0
+   },
+   {
+    "cnpj": "81681421000127",
+    "nome": "DRS PLANEJAMENTO E CONSULTORIA LTDA",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 10000.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5,
+    "Serviços contábeis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

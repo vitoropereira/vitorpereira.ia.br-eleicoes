@@ -1,0 +1,163 @@
+{
+ "sq": "60002541543",
+ "nome_urna": "FELIPE VASQUES",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "PSDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 131816.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 4535.0,
+   "Recursos de pessoas físicas": 27281.0,
+   "Recursos próprios": 100000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 131816.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68462215000168",
+    "nome": "JOSE LUCAS ALVES FERREIRA",
+    "total": 4535.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 127281.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 227652.41,
+  "total_pago": 100082.91,
+  "fornecedores_pj": [
+   {
+    "cnpj": "35341568000150",
+    "nome": "OLIVEIRA E VASQUES ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 31900.0
+   },
+   {
+    "cnpj": "13047681000195",
+    "nome": "MINAS DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "46743846000112",
+    "nome": "GIOVANNA TRANSPORTES LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "08057354000184",
+    "nome": "CONTAP - CONSULTORIA E SERVICOS ADMINISTRATIVOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "09521937000187",
+    "nome": "ECOPRINT SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9610.0
+   },
+   {
+    "cnpj": "40390165000131",
+    "nome": "IMPRIMA JUAZEIRO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1210.0
+   },
+   {
+    "cnpj": "53680327000118",
+    "nome": "53.680.327 GUILHERME BARBOZA LUIZ",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "15754475000140",
+    "nome": "HOSTGATOR BRASIL LTDA.",
+    "cnae": "63119",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 140.41
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 39,
+   "total": 59002.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 17000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.0,
+    "Locação/cessão de bens imóveis": 25000.0,
+    "Publicidade por carros de som": 15000.0,
+    "Serviços prestados por terceiros": 1000.0,
+    "Serviços próprios prestados por terceiros": 1000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

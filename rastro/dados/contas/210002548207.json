@@ -1,0 +1,130 @@
+{
+ "sq": "210002548207",
+ "nome_urna": "LUCIANO SILVEIRA",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 999000.0,
+  "por_origem": {
+   "Recursos de partido político": 650000.0,
+   "Recursos de pessoas físicas": 334000.0,
+   "Recursos próprios": 15000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 650000.0,
+   "OUTROS RECURSOS": 349000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 650000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 349000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 178513.94,
+  "total_pago": 195189.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 69000.0
+   },
+   {
+    "cnpj": "15115234000151",
+    "nome": "SPEED PROMOCIONAL INDUSTRIA DE BRINDES LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "07027856000108",
+    "nome": "NOSCHANG ARTES GRAFICAS LTDA",
+    "cnae": "17419",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20877.0
+   },
+   {
+    "cnpj": "50981660000179",
+    "nome": "IBES ERON ALVES VAZ LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 17568.5
+   },
+   {
+    "cnpj": "55499435000114",
+    "nome": "PULSAR IMOBILIARIO LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "08537010000172",
+    "nome": "THS IMPRESSAO DIGITAL LTDA",
+    "cnae": "46192",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8990.0
+   },
+   {
+    "cnpj": "13507524000204",
+    "nome": "D. C. VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5360.42
+   },
+   {
+    "cnpj": "73535536000185",
+    "nome": "COMERCIAL DE COMBUSTIVEIS COELHO LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1286.52
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 8431.5,
+   "por_tipo": {
+    "Locação/cessão de bens imóveis": 6000.0,
+    "Serviços advocatícios": 2431.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

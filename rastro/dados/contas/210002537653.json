@@ -1,0 +1,508 @@
+{
+ "sq": "210002537653",
+ "nome_urna": "SALMO",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 296750.0,
+  "por_origem": {
+   "Recursos de partido político": 200000.0,
+   "Recursos de pessoas físicas": 26750.0,
+   "Recursos próprios": 70000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "OUTROS RECURSOS": 96750.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 200000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 96750.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 162766.16,
+  "total_pago": 28826.21,
+  "fornecedores_pj": [
+   {
+    "cnpj": "45876852000185",
+    "nome": "PRINTER INDUSTRIA E COMERCIO LTDA",
+    "cnae": "13596",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 61500.0
+   },
+   {
+    "cnpj": "88804513000104",
+    "nome": "KADU MALHAS COMERCIO DE ROUPAS LTDA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26700.0
+   },
+   {
+    "cnpj": "93630788000109",
+    "nome": "VGRAF IMPRESSOS E EMBALAGENS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17766.0
+   },
+   {
+    "cnpj": "56659546000103",
+    "nome": "CONTABILIDADE APROVADA LTDA",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "60443704000160",
+    "nome": "JAQUELINE CREMONINI DA SILVA LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9400.0
+   },
+   {
+    "cnpj": "42113737000160",
+    "nome": "NOVA CLASSE COMERCIO DE VEICULOS MULTIMARCAS LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "68765049000179",
+    "nome": "CITYCAR ALUGUEL DE VEICULOS S.A.",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5940.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "10567479000104",
+    "nome": "GRAFICA E EDITORA VENANCIO AYRES LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2150.0
+   },
+   {
+    "cnpj": "36516678000179",
+    "nome": "ZEQUIAS DE MELO QUEIROZ",
+    "cnae": "47318",
+    "n_despesas": 9,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2053.1
+   },
+   {
+    "cnpj": "64702630000190",
+    "nome": "POSTO GLORIA SA LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1394.68
+   },
+   {
+    "cnpj": "41876743000107",
+    "nome": "POSTO 44 INTERNACIONAL COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1370.85
+   },
+   {
+    "cnpj": "34267208000193",
+    "nome": "POSTO BORGES LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1319.38
+   },
+   {
+    "cnpj": "23448964002901",
+    "nome": "MP POSTOS E LOGISTICA LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1229.21
+   },
+   {
+    "cnpj": "88509989000104",
+    "nome": "ANTONIO DOLCI CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1018.67
+   },
+   {
+    "cnpj": "87856738000133",
+    "nome": "PEROLA EDITORA JORNALISTICA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 920.0
+   },
+   {
+    "cnpj": "03569721000105",
+    "nome": "M M COMERCIO E DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 815.41
+   },
+   {
+    "cnpj": "07982466000189",
+    "nome": "GRUPO SEPE TIARAJU DE COMUNICACOES LTDA",
+    "cnae": "60101",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "87723417001132",
+    "nome": "POSTO SANTA TEREZINHA LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 622.04
+   },
+   {
+    "cnpj": "88437231000108",
+    "nome": "AUTO POSTO GENERAL STORE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 527.03
+   },
+   {
+    "cnpj": "01595146000270",
+    "nome": "ABASTECEDORA AGNOLIN LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 447.77
+   },
+   {
+    "cnpj": "16899185000158",
+    "nome": "PORTO GARIBALDI COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 427.02
+   },
+   {
+    "cnpj": "97078463005509",
+    "nome": "COOPERATIVA TRITICOLA REGIONAL SAOLUIZENSE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 395.04
+   },
+   {
+    "cnpj": "64560924000125",
+    "nome": "COMERCIO DE COMBUSTIVEIS D G LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 369.14
+   },
+   {
+    "cnpj": "89935837000136",
+    "nome": "VALDIR DOS SANTOS PREVIATTI FILHO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 287.01
+   },
+   {
+    "cnpj": "07473735017823",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 257.97
+   },
+   {
+    "cnpj": "20323944000298",
+    "nome": "REDE DE POSTOS ZANELA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 256.48
+   },
+   {
+    "cnpj": "12908617000199",
+    "nome": "WERKHAUSEN COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 250.0
+   },
+   {
+    "cnpj": "05133768000157",
+    "nome": "COMERCIO DE COMBUSTIVEIS GRODERS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 243.0
+   },
+   {
+    "cnpj": "93489243003050",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 240.97
+   },
+   {
+    "cnpj": "42355028000272",
+    "nome": "MAPER COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 240.86
+   },
+   {
+    "cnpj": "07473735024285",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 240.49
+   },
+   {
+    "cnpj": "23448964003380",
+    "nome": "MP POSTOS E LOGISTICA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 239.69
+   },
+   {
+    "cnpj": "07473735002397",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 232.73
+   },
+   {
+    "cnpj": "04879337000171",
+    "nome": "ROSALVO H. OGLIARI CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 232.03
+   },
+   {
+    "cnpj": "54023622000164",
+    "nome": "COMERCIO DE COMBUSTIVEIS LAMBRETA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 225.5
+   },
+   {
+    "cnpj": "10241276000115",
+    "nome": "ALCIDA MARIA MADALOZZO",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 221.82
+   },
+   {
+    "cnpj": "48051097000198",
+    "nome": "POSTO DE COMBUSTIVEL ARRANCADAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 208.74
+   },
+   {
+    "cnpj": "02558109000921",
+    "nome": "COMERCIO DE COMBUSTIVEIS FLORESTAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 204.44
+   },
+   {
+    "cnpj": "90730748000132",
+    "nome": "COMERCIO DE COMBUSTIVEIS MULLER MARTINS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 202.73
+   },
+   {
+    "cnpj": "90903667000197",
+    "nome": "R C BARBI",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 202.4
+   },
+   {
+    "cnpj": "32451006000171",
+    "nome": "DANIELI E DANIELI AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 183.51
+   },
+   {
+    "cnpj": "88305412000504",
+    "nome": "AUTO POSTO KANINHA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 174.1
+   },
+   {
+    "cnpj": "87616413000264",
+    "nome": "AUTO POSTO D G LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 153.36
+   },
+   {
+    "cnpj": "01892399000125",
+    "nome": "POSTO 44 IJUI COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 121.43
+   },
+   {
+    "cnpj": "97320451008556",
+    "nome": "COTRISAL AGROINDUSTRIAL COOPERATIVA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 31.56
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 0,
+   "total": 0.0,
+   "por_tipo": {}
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

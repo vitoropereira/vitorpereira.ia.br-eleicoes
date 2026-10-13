@@ -1,0 +1,541 @@
+{
+ "sq": "110002541772",
+ "nome_urna": "CARLOS AVALLONE",
+ "cargo": "depest",
+ "uf": "MT",
+ "partido": "PSDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1075392.88,
+  "por_origem": {
+   "Recursos de partido político": 100000.0,
+   "Recursos de pessoas físicas": 860392.88,
+   "Recursos próprios": 115000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 1075392.88
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "45943051000195",
+    "nome": "Direção Estadual/Distrital - UNIÃO - MATO GROSSO",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 51,
+   "total": 975392.88
+  }
+ },
+ "despesas": {
+  "total_contratado": 311940.4,
+  "total_pago": 37099.32,
+  "fornecedores_pj": [
+   {
+    "cnpj": "10173808000124",
+    "nome": "UNIAO CENTER CAR COMERCIO LTDA",
+    "cnae": "45307",
+    "n_despesas": 6,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 53360.0
+   },
+   {
+    "cnpj": "37571945000173",
+    "nome": "A. K. P. DE B. ARGUELLO PORTILHO",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 28000.0
+   },
+   {
+    "cnpj": "68306118000186",
+    "nome": "AERO COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 22410.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "10173808000205",
+    "nome": "UNIAO CENTER CAR COMERCIO LTDA",
+    "cnae": "45307",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "32953905000172",
+    "nome": "TUBARAO INDUSTRIA COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 10640.0
+   },
+   {
+    "cnpj": "07687116000190",
+    "nome": "PAPAI AUTO POSTO CUIABA LTDA",
+    "cnae": "47318",
+    "n_despesas": 38,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6629.49
+   },
+   {
+    "cnpj": "59908090000166",
+    "nome": "R P COMERCIO DE ARTICOS PLASTICOS LTDA",
+    "cnae": "47547",
+    "n_despesas": 1,
+    "tipos": [
+     "Aquisição/Doação de bens móveis ou imóveis"
+    ],
+    "total": 5520.0
+   },
+   {
+    "cnpj": "03490158000185",
+    "nome": "SINDICATO DOS TRABALHADORES RURAIS DE CHAPADA GUIMARAES",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "24714859000473",
+    "nome": "VITORIA REGIA AGUA MINERAL LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 839.95
+   },
+   {
+    "cnpj": "68629271000144",
+    "nome": "68.629.271 NOEL GOMES DE OLIVEIRA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "19495968000245",
+    "nome": "REDE DE POSTOS CONTI COMIGO LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 726.11
+   },
+   {
+    "cnpj": "23891404000118",
+    "nome": "REDE MAIS COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 621.74
+   },
+   {
+    "cnpj": "08979084000169",
+    "nome": "CLEMIDES SOARES DE SALES",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 403.43
+   },
+   {
+    "cnpj": "60900208000199",
+    "nome": "BRASIL ATACADO E DISTRIBUIDORA DE EMBALAGENS LTDA",
+    "cnae": "46869",
+    "n_despesas": 3,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 388.38
+   },
+   {
+    "cnpj": "01765080000139",
+    "nome": "AUTO POSTO BOMTEMPO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 375.56
+   },
+   {
+    "cnpj": "03202934000102",
+    "nome": "POSTO TAPERAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 350.4
+   },
+   {
+    "cnpj": "00816009000256",
+    "nome": "AUTO POSTO DRACENA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 327.19
+   },
+   {
+    "cnpj": "04111378000113",
+    "nome": "REDE DE POSTOS 3R LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 314.06
+   },
+   {
+    "cnpj": "45245080000183",
+    "nome": "AUTO POSTO BRASIL PETRO PRIMAVERA DO LESTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 300.22
+   },
+   {
+    "cnpj": "07418552000163",
+    "nome": "TIGRAO AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 292.79
+   },
+   {
+    "cnpj": "05760486000180",
+    "nome": "POSTO GARBUGIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 291.48
+   },
+   {
+    "cnpj": "00514301000133",
+    "nome": "POSTO UNIAO DE BRASNORTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 291.42
+   },
+   {
+    "cnpj": "10305206000183",
+    "nome": "ADROALDO ALVES COELHO - COMERCIO DE COMBUSTIVEIS",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 290.11
+   },
+   {
+    "cnpj": "11899534000118",
+    "nome": "MULLER AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 280.03
+   },
+   {
+    "cnpj": "41090635000104",
+    "nome": "POSTO DE COMBUSTIVEIS SABIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 264.49
+   },
+   {
+    "cnpj": "17194802000182",
+    "nome": "AUTO POSTO COCALINHO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 255.73
+   },
+   {
+    "cnpj": "25220634000342",
+    "nome": "IMPERIAL COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 237.66
+   },
+   {
+    "cnpj": "28904403000184",
+    "nome": "AUTO POSTO FIUZA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 232.82
+   },
+   {
+    "cnpj": "08490193000118",
+    "nome": "RODEP COMERCIO DE COMBUSTIVEL E TRANSPORTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 183.2
+   },
+   {
+    "cnpj": "08512459000186",
+    "nome": "AUTO POSTO PASQUALOTTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 177.0
+   },
+   {
+    "cnpj": "14137069000176",
+    "nome": "ESTRELA EMBALAGENS DE PRODUTOS LTDA",
+    "cnae": "46869",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 172.0
+   },
+   {
+    "cnpj": "09001879004409",
+    "nome": "COMERCIAL AMAZONIA DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 167.59
+   },
+   {
+    "cnpj": "03927792000132",
+    "nome": "COMLUC - COMERCIO DE LUBRIFICANTES E COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 166.96
+   },
+   {
+    "cnpj": "28147472000190",
+    "nome": "C K PIVETA COMBUSTIVEIS",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 166.02
+   },
+   {
+    "cnpj": "42427764000108",
+    "nome": "AGUIA AZUL COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 163.03
+   },
+   {
+    "cnpj": "11003297000165",
+    "nome": "AME COMERCIO VAREJISTA DE UTILIDADES E PRESENTES LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Aquisição/Doação de bens móveis ou imóveis"
+    ],
+    "total": 149.97
+   },
+   {
+    "cnpj": "50898132000150",
+    "nome": "POSTO SAO ROQUE COMODORO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 149.13
+   },
+   {
+    "cnpj": "53560128000176",
+    "nome": "AK RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 135.0
+   },
+   {
+    "cnpj": "14395513002601",
+    "nome": "S. V. COMERCIO DE PRESENTES LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 131.96
+   },
+   {
+    "cnpj": "02896716000144",
+    "nome": "D. E. CERUTTI CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 120.42
+   },
+   {
+    "cnpj": "09001879003186",
+    "nome": "COMERCIAL AMAZONIA DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 120.0
+   },
+   {
+    "cnpj": "13517853000147",
+    "nome": "POSTO ARAGUAIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 119.81
+   },
+   {
+    "cnpj": "02235792000109",
+    "nome": "POSTO FELIX LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 110.39
+   },
+   {
+    "cnpj": "05551164000120",
+    "nome": "AUTO POSTO UERE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 87.23
+   },
+   {
+    "cnpj": "04699163000165",
+    "nome": "CASA DA LUZ MATERIAIS ELETRICOS LTDA",
+    "cnae": "47423",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 70.0
+   },
+   {
+    "cnpj": "05295005000102",
+    "nome": "NEUZA MARIA DE MOURA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 65.0
+   },
+   {
+    "cnpj": "03467321000199",
+    "nome": "ENERGISA MATO GROSSO - DISTRIBUIDORA DE ENERGIA S.A.",
+    "cnae": "35140",
+    "n_despesas": 1,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 61.98
+   },
+   {
+    "cnpj": "06057223055740",
+    "nome": "SENDAS DISTRIBUIDORA S/A",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 15.16
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 51,
+   "total": 137915.49,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 32974.47,
+    "Despesas com pessoal": 80387.52,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 53.5,
+    "Locação/cessão de bens imóveis": 24500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

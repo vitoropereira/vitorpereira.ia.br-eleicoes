@@ -1,0 +1,154 @@
+{
+ "sq": "190002532807",
+ "nome_urna": "SORAYA SANTOS",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3005731.87,
+  "por_origem": {
+   "Recursos de outros candidatos": 2727.27,
+   "Recursos de partido político": 3003004.6
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3000000.0,
+   "FUNDO PARTIDARIO": 3004.6,
+   "OUTROS RECURSOS": 2727.27
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3000000.0
+   },
+   {
+    "cnpj": "08703299000152",
+    "nome": "Direção Estadual/Distrital - PL - RIO DE JANEIRO",
+    "total": 3004.6
+   },
+   {
+    "cnpj": "68470280000135",
+    "nome": "DOUGLAS RUAS DOS SANTOS",
+    "total": 2727.27
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2180408.49,
+  "total_pago": 340889.25,
+  "fornecedores_pj": [
+   {
+    "cnpj": "52867757000180",
+    "nome": "G 3 - SERVICOS E COMERCIO DE PRODUTOS GRAFICO S E PUBLICIDADE LTDA.",
+    "cnae": "74102",
+    "n_despesas": 102,
+    "tipos": [
+     "Despesas com pessoal",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 220110.0
+   },
+   {
+    "cnpj": "22144107000146",
+    "nome": "DA MIAN SOCIE DA DE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "26642855000100",
+    "nome": "CASTRO, VIEIRA E FERREIRA CONTA DO RES ELEITORAIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 47600.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "40695326000103",
+    "nome": "MAXIMO ACELERA DO RA DE PRODUTOS DIGITAIS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "53926357000161",
+    "nome": "53.926.357 MARCOS PAULO ARAUJO LEANDRO DA SILVA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6150.0
+   },
+   {
+    "cnpj": "13765072000171",
+    "nome": "TROPHY SERVICOS E EMPREENDIMENTOS S.A.",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "19079621000130",
+    "nome": "AUTO POSTO DE COMBUSTIVEL E SERVICOS FULLGAS EIRELI",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 878.86
+   },
+   {
+    "cnpj": "29841970000100",
+    "nome": "AUTO POSTO ARSENAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 852.74
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 860,
+   "total": 1771816.89,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 8000.0,
+    "Despesas com pessoal": 1761736.89,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 10.0,
+    "Locação/cessão de bens imóveis": 2070.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

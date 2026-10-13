@@ -1,0 +1,155 @@
+{
+ "sq": "150002548935",
+ "nome_urna": "JOÃO PAULO SEGUNDO",
+ "cargo": "depest",
+ "uf": "PB",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 160500.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 500.0,
+   "Recursos de partido político": 100000.0,
+   "Recursos próprios": 60000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 100000.0,
+   "OUTROS RECURSOS": 60500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68492533000171",
+    "nome": "GERVASIO AGRIPINO MAIA",
+    "total": 500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 60000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 121883.6,
+  "total_pago": 105001.2,
+  "fornecedores_pj": [
+   {
+    "cnpj": "22765642000114",
+    "nome": "TN LOCACOES COMERCIO E EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "24180445000169",
+    "nome": "ULTRA PRINT GRAFICA E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22587.5
+   },
+   {
+    "cnpj": "10427090000155",
+    "nome": "JOAREZ SOUZA DO O",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 15100.0
+   },
+   {
+    "cnpj": "23343245000117",
+    "nome": "PLAY BRASIL COMUNICACAO E SERVICOS LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "02828080000101",
+    "nome": "SOUSA APOLINARIO GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6600.0
+   },
+   {
+    "cnpj": "04248754000116",
+    "nome": "MULTIMAGE COMERCIO E SERVICO DE MATERIAL GRAFICO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 6250.0
+   },
+   {
+    "cnpj": "06114939000163",
+    "nome": "ALTAIR ARAUJO POMBO DE SOUSA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "26690275000198",
+    "nome": "SOUZA LEAL CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "54828764000107",
+    "nome": "BRUNO LIRA CARVALHO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "39642567000105",
+    "nome": "D G DA SILVA SERVICO E COMERCIO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3332.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 4014.1,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 14.1,
+    "Locação/cessão de bens imóveis": 4000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,105 @@
+{
+ "sq": "250002535951",
+ "nome_urna": "PASTOR MARCO FELICIANO",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2912409.05,
+  "por_origem": {
+   "Recursos de partido político": 2912409.05
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1450000.0,
+   "FUNDO PARTIDARIO": 1454727.63,
+   "OUTROS RECURSOS": 7681.42
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2900000.0
+   },
+   {
+    "cnpj": "08701595000114",
+    "nome": "Direção Estadual/Distrital - PL - SÃO PAULO",
+    "total": 12409.05
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 334367.5,
+  "total_pago": 649087.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "09204155000114",
+    "nome": "VITA PORTO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 62000.0
+   },
+   {
+    "cnpj": "44405247000163",
+    "nome": "SACS ASSESSORIA CONTABIL E AUDITORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "10659834000167",
+    "nome": "LEGACY GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "35029938000119",
+    "nome": "STUDIO AB GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4050.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 26,
+   "total": 124317.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 40315.0,
+    "Despesas com pessoal": 84000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

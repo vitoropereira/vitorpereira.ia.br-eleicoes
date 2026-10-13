@@ -1,0 +1,122 @@
+{
+ "sq": "130002535362",
+ "nome_urna": "LUIZINHO",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 726250.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 7400.0,
+   "Recursos de partido político": 566700.0,
+   "Recursos de pessoas físicas": 147150.0,
+   "Recursos próprios": 5000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 257400.0,
+   "FUNDO PARTIDARIO": 15500.0,
+   "OUTROS RECURSOS": 453350.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 565500.0
+   },
+   {
+    "cnpj": "68344816000176",
+    "nome": "VIVIANE ROBERTA DOS SANTOS",
+    "total": 5900.0
+   },
+   {
+    "cnpj": "68345483000108",
+    "nome": "ROGERIO CORREIA DE MOURA BAPTISTA",
+    "total": 1500.0
+   },
+   {
+    "cnpj": "02266182000172",
+    "nome": "Direção Municipal/Comissão Provisória - PT - ALFENAS - MG",
+    "total": 1200.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 66,
+   "total": 152150.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 174927.8,
+  "total_pago": 10577.8,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 8200.0
+   },
+   {
+    "cnpj": "50747581000106",
+    "nome": "ALLINE A OLIVEIRA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5400.0
+   },
+   {
+    "cnpj": "01887325000109",
+    "nome": "JT CRIACOES E PRODUCOES ARTISTICAS LTDA",
+    "cnae": "59201",
+    "n_despesas": 3,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "25544370000110",
+    "nome": "JANIO CARLOS DE SOUZA CRUZ",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 132,
+   "total": 155787.8,
+   "por_tipo": {
+    "Despesas com Hospedagem": 800.0,
+    "Despesas com pessoal": 122650.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 37.8,
+    "Locação/cessão de bens imóveis": 2300.0,
+    "Serviços advocatícios": 20000.0,
+    "Serviços contábeis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

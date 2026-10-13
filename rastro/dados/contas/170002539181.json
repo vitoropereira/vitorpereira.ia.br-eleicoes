@@ -1,0 +1,436 @@
+{
+ "sq": "170002539181",
+ "nome_urna": "ANDERSON FERREIRA",
+ "cargo": "depfed",
+ "uf": "PE",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3176393.46,
+  "por_origem": {
+   "Recursos de partido político": 3151944.25,
+   "Recursos de pessoas físicas": 24449.21
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3100000.0,
+   "FUNDO PARTIDARIO": 51944.25,
+   "OUTROS RECURSOS": 24449.21
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3100000.0
+   },
+   {
+    "cnpj": "01381039000169",
+    "nome": "Direção Estadual/Distrital - PL - PERNAMBUCO",
+    "total": 51944.25
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 24449.21
+  }
+ },
+ "despesas": {
+  "total_contratado": 2134501.36,
+  "total_pago": 1782468.16,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 16,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 227100.0
+   },
+   {
+    "cnpj": "00758606000190",
+    "nome": "MXM GRAFICA E EMBALAGENS LTDA",
+    "cnae": "17311",
+    "n_despesas": 23,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 195850.0
+   },
+   {
+    "cnpj": "33474270000193",
+    "nome": "A M. B. DE ARRUDA RIBEIRO INDUSTRIA E COMERCIO DE IMPRESSAO, ROTULOS E ETIQUETAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 13,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 93630.0
+   },
+   {
+    "cnpj": "30797904000150",
+    "nome": "30.797.904 BRUNO LEITE PESSOA DE ANDRADE",
+    "cnae": "58298",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 81610.0
+   },
+   {
+    "cnpj": "07182261000119",
+    "nome": "C B LUCENA DISTRIBUIDORA LTDA",
+    "cnae": "46796",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 72050.0
+   },
+   {
+    "cnpj": "05288230000111",
+    "nome": "SIGNPRO SINALIZACOES E IMPRESSAO COMPUTADORIZADAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 21,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 69797.0
+   },
+   {
+    "cnpj": "59635564000143",
+    "nome": "59.635.564 CHARLES DOS SANTOS GUEDES",
+    "cnae": "58123",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 65000.0
+   },
+   {
+    "cnpj": "20717136000124",
+    "nome": "KCV GRAFICA E EDITORA LTDA",
+    "cnae": "58298",
+    "n_despesas": 15,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 54160.0
+   },
+   {
+    "cnpj": "10211999000171",
+    "nome": "RR TERCERIZACAO E SERVICOS LTDA",
+    "cnae": "47814",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 51550.0
+   },
+   {
+    "cnpj": "02075784000142",
+    "nome": "MVR COMERCIO E SERVICOS LTDA",
+    "cnae": "53105",
+    "n_despesas": 4,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 49854.54
+   },
+   {
+    "cnpj": "11038639000182",
+    "nome": "CONECTE SOLUCOES CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 47000.0
+   },
+   {
+    "cnpj": "47235779000198",
+    "nome": "OPINIAO PESQUISAS QUANTITATIVAS E CONSULTORIA LTDA",
+    "cnae": "73203",
+    "n_despesas": 2,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "46912970000164",
+    "nome": "S F DA SILVA SERVICOS PUBLICITARIOS",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 41630.0
+   },
+   {
+    "cnpj": "02579701000152",
+    "nome": "TVL LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 26903.81
+   },
+   {
+    "cnpj": "28616550000159",
+    "nome": "ERIC ALAN DE ARAUJO NABOA",
+    "cnae": "59120",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23650.0
+   },
+   {
+    "cnpj": "60962293000110",
+    "nome": "CAMARA PRINT LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19240.0
+   },
+   {
+    "cnpj": "34028316056400",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 18381.0
+   },
+   {
+    "cnpj": "04937174000136",
+    "nome": "GUIMARAES SERVICOS GRAFICOS LTDA",
+    "cnae": "17419",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17200.0
+   },
+   {
+    "cnpj": "08780690000150",
+    "nome": "W3 LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 14976.0
+   },
+   {
+    "cnpj": "16888563000106",
+    "nome": "16.888.563 WELLINGTON PAULO DA SILVA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "19154035000103",
+    "nome": "19.154.035 ELLINGTON DE OLIVEIRA LIMA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "11957395000131",
+    "nome": "LOCART LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 13000.0
+   },
+   {
+    "cnpj": "18748887000166",
+    "nome": "ALN LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12610.0
+   },
+   {
+    "cnpj": "16833372000139",
+    "nome": "M S LOCACOES DE EQUIPAMENTOS E SERVICOS DE ILUMINACAO LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "25034954000146",
+    "nome": "25.034.954 ANDRE TRAJANO DE OLIVEIRA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "07292942000130",
+    "nome": "JUSCELI BEZERRA DA SILVA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7575.0
+   },
+   {
+    "cnpj": "33397509000179",
+    "nome": "ALBERTO AYMAR EVENTOS E-COMMERCE E CONSULTORIA LTDA",
+    "cnae": "82300",
+    "n_despesas": 3,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7200.0
+   },
+   {
+    "cnpj": "09120240000102",
+    "nome": "POSTO NACIONAL - COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 27,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6323.42
+   },
+   {
+    "cnpj": "30740552000105",
+    "nome": "30.740.552 THALENNA MAYARA CORREIA DE SANTANA E SILVA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "67530993000184",
+    "nome": "67.530.993 UBIRANILSON SOARES DE JESUS",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5400.0
+   },
+   {
+    "cnpj": "12784161000364",
+    "nome": "DVA INDUSTRIA E COMERCIO VAREJISTA DE ARTIGOS ESPORTIVOS E FARDAMENTOS LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "24073694000155",
+    "nome": "CIL - COMERCIO DE INFORMATICA LTDA",
+    "cnae": "46516",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3388.06
+   },
+   {
+    "cnpj": "69902682000124",
+    "nome": "SHOPPING DO PAPEL LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 3215.0
+   },
+   {
+    "cnpj": "28803269000125",
+    "nome": "MARIA JOSE CAMPOS CONFECCAO",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 1470.0
+   },
+   {
+    "cnpj": "50991190000124",
+    "nome": "EXITO PRIME DISTRIBUIDORA LTDA",
+    "cnae": "47440",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 411.13
+   },
+   {
+    "cnpj": "18977292000344",
+    "nome": "COSTA SIQUEIRA CERTIFICADORA DIGITAL LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "36142001000118",
+    "nome": "GESSICA OLIVEIRA DOS SANTOS",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 240.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 600,
+   "total": 801686.4,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 342450.0,
+    "Cessão ou locação de veículos": 87634.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1719.4,
+    "Serviços advocatícios": 25000.0,
+    "Serviços prestados por terceiros": 344883.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

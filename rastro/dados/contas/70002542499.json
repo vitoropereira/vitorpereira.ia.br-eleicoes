@@ -1,0 +1,133 @@
+{
+ "sq": "70002542499",
+ "nome_urna": "MÚCIO",
+ "cargo": "distrital",
+ "uf": "DF",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 388324.28,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 19025.0,
+   "Recursos de outros candidatos": 83827.28,
+   "Recursos de partido político": 29782.0,
+   "Recursos de pessoas físicas": 225690.0,
+   "Recursos próprios": 30000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 113609.28,
+   "OUTROS RECURSOS": 274715.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68468302000122",
+    "nome": "RODRIGO SOBRAL ROLLEMBERG",
+    "total": 83827.28
+   },
+   {
+    "cnpj": "03475971000186",
+    "nome": "Direção Estadual/Distrital - PSB - DISTRITO FEDERAL",
+    "total": 29782.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 19025.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 33,
+   "total": 255690.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 179366.53,
+  "total_pago": 56003.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 32000.0
+   },
+   {
+    "cnpj": "48723956000148",
+    "nome": "GRUPO EDGE SOLUCOES E TECNOLOGIA LTDA",
+    "cnae": "62040",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4600.0
+   },
+   {
+    "cnpj": "48081241000139",
+    "nome": "POSTZAP LTDA",
+    "cnae": "63194",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3973.0
+   },
+   {
+    "cnpj": "24823145000150",
+    "nome": "EGM SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1561.0
+   },
+   {
+    "cnpj": "00849026000109",
+    "nome": "BEL PONTO BORDADOS E CONFECCOES LTDA",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1384.0
+   },
+   {
+    "cnpj": "60947342000145",
+    "nome": "HOME FITAS PERSONALIZADAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1376.8
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 471.37
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 50,
+   "total": 134000.36,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 133987.86,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 4.5,
+    "Impostos, contribuições e taxas": 8.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

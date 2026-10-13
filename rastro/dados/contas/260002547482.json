@@ -1,0 +1,213 @@
+{
+ "sq": "260002547482",
+ "nome_urna": "MAISA MITIDIERI",
+ "cargo": "depest",
+ "uf": "SE",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 904979.92,
+  "por_origem": {
+   "Recursos de outros candidatos": 998.0,
+   "Recursos de partido político": 817072.0,
+   "Recursos de pessoas físicas": 86909.92
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 701998.0,
+   "FUNDO PARTIDARIO": 116072.0,
+   "OUTROS RECURSOS": 86909.92
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 700000.0
+   },
+   {
+    "cnpj": "14496452000110",
+    "nome": "Direção Estadual/Distrital - PSD - SERGIPE",
+    "total": 117072.0
+   },
+   {
+    "cnpj": "68519534000162",
+    "nome": "ANDRE LUIS DANTAS FERREIRA",
+    "total": 998.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 86909.92
+  }
+ },
+ "despesas": {
+  "total_contratado": 404850.42,
+  "total_pago": 97470.81,
+  "fornecedores_pj": [
+   {
+    "cnpj": "36375635000110",
+    "nome": "EC COMUNICACAO LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "05473604000179",
+    "nome": "LIMA FREIRE ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "43017563000103",
+    "nome": "LA BELLE TRANSPORTE E TURISMO LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 26363.64
+   },
+   {
+    "cnpj": "40121534000190",
+    "nome": "DON RAFAEL GARCIA BAR E RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 19712.0
+   },
+   {
+    "cnpj": "25383194000182",
+    "nome": "GOIS AGUIAR SERVICOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 19000.0
+   },
+   {
+    "cnpj": "14970182000138",
+    "nome": "GUILHERME VIAGENS E TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 18500.0
+   },
+   {
+    "cnpj": "10797013000197",
+    "nome": "KONNTE COMERCIO E SERVICOS LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 12750.0
+   },
+   {
+    "cnpj": "40009617000192",
+    "nome": "TRUKS INDUSTRIA E COMERCIO LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7780.0
+   },
+   {
+    "cnpj": "27762769000101",
+    "nome": "ROSE COLOR EMPRESARIAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "13017447000115",
+    "nome": "AUTO POSTOS ANDRADE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1766.28
+   },
+   {
+    "cnpj": "57861311000162",
+    "nome": "GRAFICA BOQUINHENSE DIGITAL LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "25188538000100",
+    "nome": "ESSENT INOVACAO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "48779443000159",
+    "nome": "SV COMUNICACAO VISUAL LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 910.0
+   },
+   {
+    "cnpj": "07778795000102",
+    "nome": "MC CONFECCOES LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 675.0
+   },
+   {
+    "cnpj": "37523372000102",
+    "nome": "NOVA SERGIPE DISTRIBUIDORA LTDA",
+    "cnae": "46460",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 408.48
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 36,
+   "total": 110785.02,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 62354.82,
+    "Cessão ou locação de veículos": 39636.4,
+    "Despesas com pessoal": 8787.3,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 6.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

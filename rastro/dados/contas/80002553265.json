@@ -1,0 +1,599 @@
+{
+ "sq": "80002553265",
+ "nome_urna": "EVAIR DE MELO",
+ "cargo": "senador",
+ "uf": "ES",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3037074.89,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 22044.89,
+   "Recursos de partido político": 2500000.0,
+   "Recursos de pessoas físicas": 515030.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2500000.0,
+   "OUTROS RECURSOS": 537074.89
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 2500000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QUEROAPOIAR.COM.BR LTDA",
+    "total": 22044.89
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 70,
+   "total": 515030.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2220055.47,
+  "total_pago": 1493658.66,
+  "fornecedores_pj": [
+   {
+    "cnpj": "11982842000102",
+    "nome": "MEGA COMERCIO E SERVICOS LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 800000.0
+   },
+   {
+    "cnpj": "17106223000130",
+    "nome": "RIBEIRO SOBREIRO ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 12,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 160000.0
+   },
+   {
+    "cnpj": "68553134000173",
+    "nome": "PABLO AURINO RAMOS ARAUJO",
+    "cnae": "94928",
+    "n_despesas": 3,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68464731000121",
+    "nome": "SERGIO DE ASSIS LOPES",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "11492990000149",
+    "nome": "11.492.990 JOSE GRIGORIO DE OLIVEIRA JUNIOR",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "68941252000159",
+    "nome": "68.941.252 RAPHAEL COUTINHO SEGRINI",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "37826380000128",
+    "nome": "MORED ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "49464815000110",
+    "nome": "PLOTTEC IMPRESSOES E PROJETOS LTDA",
+    "cnae": "32990",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "04582075000189",
+    "nome": "COPY GLORIA LTDA",
+    "cnae": "82199",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17600.0
+   },
+   {
+    "cnpj": "68553110000114",
+    "nome": "ALCANTARO VICTOR LAZZARINI CAMPOS",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "68553143000164",
+    "nome": "LUCAS DA RE POLESE",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "68553203000149",
+    "nome": "CARLOS VON SCHILGEN FERREIRA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "68553376000167",
+    "nome": "NEUCIMAR FERREIRA FRAGA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "01991386000103",
+    "nome": "AQUI CENTRO AUTOMOTIVO LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 13385.0
+   },
+   {
+    "cnpj": "07277808000160",
+    "nome": "PLUS OFFICE PRESTACAO DE SERVICOS OPERACIONAIS LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "27914036000137",
+    "nome": "AMR SERVICOS ADMINISTRATIVOS E EMBALAGENS LTDA",
+    "cnae": "82113",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11940.0
+   },
+   {
+    "cnpj": "68464558000161",
+    "nome": "ALEXANDRE OFRANTI RAMALHO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68464716000183",
+    "nome": "TATIANA COZER PINTO PERIM",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68553010000198",
+    "nome": "JACKSON EUGENIO SILOTE",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68553075000133",
+    "nome": "BRUNO RODRIGUES LORENZUTTI",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68553078000177",
+    "nome": "JOHNATAN DEPOLLO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "33105121000319",
+    "nome": "TOP PRIME LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9360.6
+   },
+   {
+    "cnpj": "28156297000106",
+    "nome": "GRAFICA SANTO ANTONIO LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8967.5
+   },
+   {
+    "cnpj": "00881084000110",
+    "nome": "LOCAL LOCADORA COLATINA LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7480.0
+   },
+   {
+    "cnpj": "56430805000120",
+    "nome": "MARCHESI COMUNICACAO VISUAL LTDA",
+    "cnae": "18211",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6940.0
+   },
+   {
+    "cnpj": "28507435000146",
+    "nome": "I.P PARTICIPACOES LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "31287667000140",
+    "nome": "FONTANA ARTES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5800.0
+   },
+   {
+    "cnpj": "36002301000363",
+    "nome": "RANKING LOCACAO E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5700.0
+   },
+   {
+    "cnpj": "68545362000100",
+    "nome": "DARCIO BRACARENSE FILGUEIRAS",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "68545563000107",
+    "nome": "ARMANDO FONTOURA BORGES FILHO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "68553081000190",
+    "nome": "DAVI ESMAEL MENEZES DE ALMEIDA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "45411764000108",
+    "nome": "RR COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 16,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4624.36
+   },
+   {
+    "cnpj": "27809490000128",
+    "nome": "POSTO VENTURA QUARTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 19,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4282.65
+   },
+   {
+    "cnpj": "26249492000147",
+    "nome": "POSTO VINTE E UM LTDA",
+    "cnae": "47318",
+    "n_despesas": 18,
+    "tipos": [
+     "Combustíveis e lubrificantes",
+     "Diversas a especificar"
+    ],
+    "total": 4023.68
+   },
+   {
+    "cnpj": "27124023000164",
+    "nome": "POSTO NOGUEIRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3526.97
+   },
+   {
+    "cnpj": "02759288000108",
+    "nome": "OFICINA EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "04310842000109",
+    "nome": "AUTO POSTO SAO JOSE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2754.75
+   },
+   {
+    "cnpj": "27444595000120",
+    "nome": "AUTO POSTO ESMIG LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2694.5
+   },
+   {
+    "cnpj": "67534836000147",
+    "nome": "67.534.836 VINICIUS DIAS DE MOURA STORCH MARTINS",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2620.0
+   },
+   {
+    "cnpj": "31497696000137",
+    "nome": "POSTO SAO CRISTOVAO DE CASTELO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1459.75
+   },
+   {
+    "cnpj": "28389286000168",
+    "nome": "GEMEOS AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1419.23
+   },
+   {
+    "cnpj": "08801267000190",
+    "nome": "LOVEL COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1343.63
+   },
+   {
+    "cnpj": "37266051000170",
+    "nome": "POSTO VENTURA IRUPI LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1281.43
+   },
+   {
+    "cnpj": "04792829000125",
+    "nome": "L.A.S. AUTO SERVICO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 959.29
+   },
+   {
+    "cnpj": "01632767000104",
+    "nome": "AUTO POSTO PARATI LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 740.72
+   },
+   {
+    "cnpj": "62842248000157",
+    "nome": "SANTA RITA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 678.12
+   },
+   {
+    "cnpj": "09355855000100",
+    "nome": "POSTO CAILA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 535.82
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QUEROAPOIAR.COM.BR LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 455.67
+   },
+   {
+    "cnpj": "11084706000103",
+    "nome": "AUTO POSTO TANCREDAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 413.02
+   },
+   {
+    "cnpj": "11509896000236",
+    "nome": "COMSAUTO - COMERCIO E SERVICOS PARA AUTOMOVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 272.02
+   },
+   {
+    "cnpj": "14957748000191",
+    "nome": "POSTO ESPIRITO SANTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 229.85
+   },
+   {
+    "cnpj": "08157130000144",
+    "nome": "PETROMAX COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 221.92
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 153,
+   "total": 421304.99,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 196405.0,
+    "Cessão ou locação de veículos": 81200.0,
+    "Despesas com pessoal": 143699.99
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

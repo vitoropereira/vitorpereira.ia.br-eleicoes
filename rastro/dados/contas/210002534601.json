@@ -1,0 +1,303 @@
+{
+ "sq": "210002534601",
+ "nome_urna": "BOHN GASS",
+ "cargo": "depfed",
+ "uf": "RS",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1912800.13,
+  "por_origem": {
+   "Recursos de partido político": 1815500.0,
+   "Recursos de pessoas físicas": 97300.13
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1815500.0,
+   "OUTROS RECURSOS": 97300.13
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1815500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 31,
+   "total": 97300.13
+  }
+ },
+ "despesas": {
+  "total_contratado": 1275035.29,
+  "total_pago": 1310454.58,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 109000.0
+   },
+   {
+    "cnpj": "68312667000163",
+    "nome": "JEFERSON OLIVEIRA FERNANDES",
+    "cnae": "94928",
+    "n_despesas": 3,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 82500.0
+   },
+   {
+    "cnpj": "32300836000106",
+    "nome": "BRUNO BECKER SCHNEIDER",
+    "cnae": "47610",
+    "n_despesas": 18,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 68240.0
+   },
+   {
+    "cnpj": "68312600000129",
+    "nome": "GILBERTO JOSE SPIER VARGAS",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 55000.0
+   },
+   {
+    "cnpj": "68312611000109",
+    "nome": "MIGUEL SOLDATELLI ROSSETTO",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 55000.0
+   },
+   {
+    "cnpj": "68312631000180",
+    "nome": "SOFIA CAVEDON NUNES",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68312647000192",
+    "nome": "JOSE SIDNEY NUNES DE ALMEIDA",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "49636141000194",
+    "nome": "NUMEM NEGOCIOS E SOLUCOES EMPRESARIAIS LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 33000.0
+   },
+   {
+    "cnpj": "68312538000175",
+    "nome": "TADEU MARQUES RODRIGUES",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "26745765000144",
+    "nome": "KRUEL JURACH LTDA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 25503.0
+   },
+   {
+    "cnpj": "61135041000180",
+    "nome": "MOSS UNIFORMES E BRINDES PERSONALIZADOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20250.0
+   },
+   {
+    "cnpj": "68312542000133",
+    "nome": "LELIO NUNES LOPES FILHO",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68312527000195",
+    "nome": "CLEONICE FABIANE BACK",
+    "cnae": "94928",
+    "n_despesas": 3,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "68312539000110",
+    "nome": "ALEXANDRE BUBLITZ",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "50894599000122",
+    "nome": "FOLHA COMUNICACAO VISUAL LTDA",
+    "cnae": "58298",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9883.0
+   },
+   {
+    "cnpj": "68312543000188",
+    "nome": "LEONARDO DA COSTA SILVA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "68312706000122",
+    "nome": "MARCELO CORDEIRO",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "03000720000145",
+    "nome": "LOCADORA DE VEICULOS SANTA CRUZ LTDA.",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4149.5
+   },
+   {
+    "cnpj": "08786193000160",
+    "nome": "COMBUSTIVEIS PEGASUS IPIRANGA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "93605046000115",
+    "nome": "EDITORA JORNALISTICA BOM PRINCIPIO LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 405.0
+   },
+   {
+    "cnpj": "98597719000156",
+    "nome": "EMPRESA JORNALISTICA FOLHA DO MATE LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 389.0
+   },
+   {
+    "cnpj": "91121004000183",
+    "nome": "CHURRASCARIA GARCIAS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "63252919000192",
+    "nome": "63.252.919 ANTONINHO DA SILVA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 285.0
+   },
+   {
+    "cnpj": "04265280000110",
+    "nome": "AUTO POSTO EXPEDICIONARIO LTDA EM RECUPERACAO JUDICIAL",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 111.79
+   },
+   {
+    "cnpj": "90744509000131",
+    "nome": "COPY STAR FOTOCOPIAS E ENCADERNACOES LTDA",
+    "cnae": "82199",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 90.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 173,
+   "total": 630929.0,
+   "por_tipo": {
+    "Alimentação": 720.0,
+    "Atividades de militância e mobilização de rua": 291029.0,
+    "Cessão ou locação de veículos": 10400.0,
+    "Despesas com pessoal": 306880.0,
+    "Locação/cessão de bens imóveis": 16900.0,
+    "Serviços prestados por terceiros": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,184 @@
+{
+ "sq": "250002536389",
+ "nome_urna": "RICARDO MADALENA",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1230414.57,
+  "por_origem": {
+   "Recursos de outros candidatos": 522.5,
+   "Recursos de partido político": 972732.07,
+   "Recursos de pessoas físicas": 243460.0,
+   "Recursos próprios": 13700.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 950522.5,
+   "FUNDO PARTIDARIO": 8462.05,
+   "OUTROS RECURSOS": 271430.02
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 950000.0
+   },
+   {
+    "cnpj": "08701595000114",
+    "nome": "Direção Estadual/Distrital - PL - SÃO PAULO",
+    "total": 22732.07
+   },
+   {
+    "cnpj": "68353139000152",
+    "nome": "RAFAELA CRISTINA HERNANDEZ",
+    "total": 522.5
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 20,
+   "total": 257160.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 287121.38,
+  "total_pago": 268131.86,
+  "fornecedores_pj": [
+   {
+    "cnpj": "76631613000199",
+    "nome": "GRAFICA LIZOTTI LTDA",
+    "cnae": "18130",
+    "n_despesas": 13,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 66005.2
+   },
+   {
+    "cnpj": "31708257000126",
+    "nome": "HRJ COMUNICACAO VISUAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19166.0
+   },
+   {
+    "cnpj": "26359744000190",
+    "nome": "MURIEL E POLICICIO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "18979533000122",
+    "nome": "BRINDART COMUNICACAO VISUAL E BRINDES LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 7840.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "66475160000103",
+    "nome": "COMEGE CONSULTORIA TRIBUTARIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "55022164000101",
+    "nome": "MARA CRISTINA ROSA MARDEGAN CIA LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 836.0
+   },
+   {
+    "cnpj": "59899088000178",
+    "nome": "AUTO POSTO BEIRA RIO SANTA CRUZ LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 692.41
+   },
+   {
+    "cnpj": "35886957000161",
+    "nome": "MARIANA ESTEFANI CORREA DE MORAES OLIVEIRA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 320.0
+   },
+   {
+    "cnpj": "30011982000188",
+    "nome": "KERBAUY SERVICOS DE MIDIA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 271.44
+   },
+   {
+    "cnpj": "49879406000185",
+    "nome": "STOKE LIVRARIA E PAPELARIA LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 228.0
+   },
+   {
+    "cnpj": "43776517000180",
+    "nome": "COMPANHIA DE SANEAMENTO BASICO DO ESTADO DE SAO PAULO - SABESP",
+    "cnae": "36006",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 88.53
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 90,
+   "total": 170673.8,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 2500.0,
+    "Despesas com pessoal": 168103.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 70.8
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

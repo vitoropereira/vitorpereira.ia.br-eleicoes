@@ -1,0 +1,132 @@
+{
+ "sq": "140002536873",
+ "nome_urna": "LEONARDO VALE",
+ "cargo": "depest",
+ "uf": "PA",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 130400.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 130400.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 130400.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 12,
+   "total": 130400.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 138222.89,
+  "total_pago": 5942.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "29470573000160",
+    "nome": "POSTO BARROS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 52005.39
+   },
+   {
+    "cnpj": "03496913000139",
+    "nome": "C 8 COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 30200.0
+   },
+   {
+    "cnpj": "03665540000182",
+    "nome": "BRASHOW PROMOCOES E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "13293197000146",
+    "nome": "BRASIL DE CASTRO - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "14792008000142",
+    "nome": "OLIVER COMERCIO E SERVICO LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7675.0
+   },
+   {
+    "cnpj": "40930242000107",
+    "nome": "F. DO C. M. DE SOUZA COMERCIO LTDA",
+    "cnae": "47849",
+    "n_despesas": 2,
+    "tipos": [
+     "Água"
+    ],
+    "total": 2880.0
+   },
+   {
+    "cnpj": "19757796000150",
+    "nome": "PIROPESCA COMERCIO DE ARTIGOS DE PESCA LTDA",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 450.0
+   },
+   {
+    "cnpj": "24782954000161",
+    "nome": "CASA DAS MALHAS LTDA",
+    "cnae": "46419",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 322.5
+   },
+   {
+    "cnpj": "01529329000107",
+    "nome": "A P DA SILVA COMERCIO DE ALIMENTOS LTDA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 90.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 11,
+   "total": 22600.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 10000.0,
+    "Locação/cessão de bens imóveis": 2600.0,
+    "Serviços contábeis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

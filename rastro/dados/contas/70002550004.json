@@ -1,0 +1,166 @@
+{
+ "sq": "70002550004",
+ "nome_urna": "VICTOR JANSEN",
+ "cargo": "distrital",
+ "uf": "DF",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 366950.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 55850.0,
+   "Recursos de partido político": 141100.0,
+   "Recursos de pessoas físicas": 170000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 196950.0,
+   "OUTROS RECURSOS": 170000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 141100.0
+   },
+   {
+    "cnpj": "68552883000186",
+    "nome": "THIAGO DE ARAUJO MACIEIRA MANZONI",
+    "total": 55850.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 170000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 114897.36,
+  "total_pago": 100684.72,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "23526834000130",
+    "nome": "PACK4YOU COMUNICACAO GRAFICA E EMBALAGENS LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13530.0
+   },
+   {
+    "cnpj": "23647303000104",
+    "nome": "M S CAR ALUGUEL DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4785.0
+   },
+   {
+    "cnpj": "08855665000199",
+    "nome": "NGD - NUCLEO GRAFICO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "37140761000159",
+    "nome": "SEIVA MINERACAO LTDA",
+    "cnae": "11216",
+    "n_despesas": 2,
+    "tipos": [
+     "Água"
+    ],
+    "total": 707.94
+   },
+   {
+    "cnpj": "25004046000290",
+    "nome": "AUTO POSTO FENIX ODJ LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 592.27
+   },
+   {
+    "cnpj": "66893347000119",
+    "nome": "66.893.347 ANDRE LUIS PINHEIRO BORGES",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "65998571000102",
+    "nome": "65.998.571 CARLOS HIAGO GAMBARRA PEREIRA DA SILVA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "22129193000118",
+    "nome": "SU CHIEN CHIAO",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 197.98
+   },
+   {
+    "cnpj": "09097935000102",
+    "nome": "ALVES CARDOSO COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 164.27
+   },
+   {
+    "cnpj": "03953406000187",
+    "nome": "L.C DE LIMA RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 113.9
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 97,
+   "total": 51106.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 22800.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 6.0,
+    "Serviços prestados por terceiros": 28300.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

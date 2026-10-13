@@ -1,0 +1,173 @@
+{
+ "sq": "170002542909",
+ "nome_urna": "BATISTA CABRAL",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 570055.0,
+  "por_origem": {
+   "Recursos de origens não identificadas": 5.0,
+   "Recursos de partido político": 118900.0,
+   "Recursos de pessoas físicas": 335650.0,
+   "Recursos próprios": 115500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 118900.0,
+   "OUTROS RECURSOS": 451155.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "10669331000172",
+    "nome": "Direção Estadual/Distrital - PSB - PERNAMBUCO",
+    "total": 18900.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 14,
+   "total": 451155.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 321462.35,
+  "total_pago": 300258.64,
+  "fornecedores_pj": [
+   {
+    "cnpj": "59438783000132",
+    "nome": "BALLA ESTAMPARIA LTDA",
+    "cnae": "14126",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20110.0
+   },
+   {
+    "cnpj": "51957993000125",
+    "nome": "PP GAS STATION LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 14772.45
+   },
+   {
+    "cnpj": "66931182000122",
+    "nome": "VX COMERCIO E IMPORTACAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 18,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10049.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "38263671000118",
+    "nome": "RAFAEL GUEDES DE LIMA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3750.0
+   },
+   {
+    "cnpj": "10589993000132",
+    "nome": "SPEEDMAIS EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3045.0
+   },
+   {
+    "cnpj": "68201305000103",
+    "nome": "68.201.305 LUCAS GALDINO LEITE RIBEIRO",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "33586326000100",
+    "nome": "ATIVA SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1365.0
+   },
+   {
+    "cnpj": "10582850000107",
+    "nome": "M C S LOCACAO E SERVICOS DE TRANSPORTES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 1172.8
+   },
+   {
+    "cnpj": "21586213000117",
+    "nome": "R MENDES EMPREENDIMENTOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 1172.8
+   },
+   {
+    "cnpj": "00509018000113",
+    "nome": "TRIBUNAL SUPERIOR ELEITORAL",
+    "cnae": "84230",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 5.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 217,
+   "total": 254020.3,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 135837.0,
+    "Cessão ou locação de veículos": 15912.0,
+    "Despesas com pessoal": 60665.0,
+    "Despesas com transporte ou deslocamento": 18000.0,
+    "Diversas a especificar": 3500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 106.3,
+    "Locação/cessão de bens imóveis": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

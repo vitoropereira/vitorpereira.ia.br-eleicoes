@@ -1,0 +1,52 @@
+{
+ "sq": "90002537390",
+ "nome_urna": "GLAUSTIN DA FOKUS",
+ "cargo": "depfed",
+ "uf": "GO",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2310000.0,
+  "por_origem": {
+   "Recursos de partido político": 2110000.0,
+   "Recursos próprios": 200000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2110000.0,
+   "OUTROS RECURSOS": 200000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 1410000.0
+   },
+   {
+    "cnpj": "05144236000115",
+    "nome": "Direção Estadual/Distrital - PODE - GOIÁS",
+    "total": 700000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 200000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 0.0,
+  "total_pago": 0.0,
+  "fornecedores_pj": [],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 0.0,
+   "por_tipo": {
+    "Não informada": 0.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

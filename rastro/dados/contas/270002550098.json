@@ -1,0 +1,169 @@
+{
+ "sq": "270002550098",
+ "nome_urna": "KATIA CHAVES",
+ "cargo": "depest",
+ "uf": "TO",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 815736.59,
+  "por_origem": {
+   "Recursos de outros candidatos": 1070.92,
+   "Recursos de partido político": 404475.32,
+   "Recursos de pessoas físicas": 410190.35
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 160000.0,
+   "FUNDO PARTIDARIO": 211635.32,
+   "OUTROS RECURSOS": 444101.27
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08917083000190",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - TOCANTINS",
+    "total": 211635.32
+   },
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 160000.0
+   },
+   {
+    "cnpj": "08738595000199",
+    "nome": "Direção Estadual/Distrital - PL - TOCANTINS",
+    "total": 32840.0
+   },
+   {
+    "cnpj": "68492195000178",
+    "nome": "MARIA AUXILIADORA SEABRA REZENDE",
+    "total": 1070.92
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 410190.35
+  }
+ },
+ "despesas": {
+  "total_contratado": 334987.2,
+  "total_pago": 118686.45,
+  "fornecedores_pj": [
+   {
+    "cnpj": "66903047000173",
+    "nome": "WILLYAN ROBSON SOUSA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "38154000000704",
+    "nome": "AUT LOC LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "05565519000300",
+    "nome": "MARTINS - SOLUCOES PARA ESCRITORIOS LTDA",
+    "cnae": "47547",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 18356.0
+   },
+   {
+    "cnpj": "07727594000186",
+    "nome": "NATALYA BRINDES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11450.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10111.95
+   },
+   {
+    "cnpj": "08640240000162",
+    "nome": "BEM BRASIL BRINDES LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8400.0
+   },
+   {
+    "cnpj": "00798638000110",
+    "nome": "AGUA SANTA CLARA IND. E COM. DE BEBIDAS LTDA",
+    "cnae": "11216",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 3825.0
+   },
+   {
+    "cnpj": "15388714000196",
+    "nome": "LUKY MARKETING E PUBLICIDADE LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2994.75
+   },
+   {
+    "cnpj": "35238340000130",
+    "nome": "CONSTRUGRAFICA LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1550.0
+   },
+   {
+    "cnpj": "32131710000147",
+    "nome": "TD ELETRONICOS LTDA",
+    "cnae": "47130",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 997.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 86,
+   "total": 194802.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 106800.0,
+    "Cessão ou locação de veículos": 22000.0,
+    "Despesas com pessoal": 60000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.5,
+    "Locação/cessão de bens imóveis": 6000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,108 @@
+{
+ "sq": "250002539952",
+ "nome_urna": "PAULA DA BANCADA FEMINISTA",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PSOL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1228492.35,
+  "por_origem": {
+   "Recursos de partido político": 1144482.35,
+   "Recursos de pessoas físicas": 74010.0,
+   "Recursos próprios": 10000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1144482.35,
+   "OUTROS RECURSOS": 84010.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "06954942000195",
+    "nome": "Direção Nacional - PSOL",
+    "total": 1142296.31
+   },
+   {
+    "cnpj": "08745772000164",
+    "nome": "Direção Estadual/Distrital - PSOL - SÃO PAULO",
+    "total": 2186.04
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 84010.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 353966.0,
+  "total_pago": 450088.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "07691829000127",
+    "nome": "FORMA CERTA GRAFICA DIGITAL LTDA",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 126400.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 68000.0
+   },
+   {
+    "cnpj": "01325608000159",
+    "nome": "GRAFICA A NOVA ERA FALEIROS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "67308069000158",
+    "nome": "67.308.069 SOPHIA FELIX",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 3100.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 121,
+   "total": 148466.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 108028.0,
+    "Despesas com pessoal": 24000.0,
+    "Locação/cessão de bens imóveis": 16438.0,
+    "Serviços contábeis": 0.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

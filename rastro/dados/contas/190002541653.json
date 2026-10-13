@@ -1,0 +1,155 @@
+{
+ "sq": "190002541653",
+ "nome_urna": "FELIPINHO RAVIS",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 472812.75,
+  "por_origem": {
+   "Recursos de outros candidatos": 6712.75,
+   "Recursos de partido político": 450000.0,
+   "Recursos de pessoas físicas": 16100.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 300000.0,
+   "FUNDO PARTIDARIO": 150000.0,
+   "OUTROS RECURSOS": 22812.75
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 450000.0
+   },
+   {
+    "cnpj": "68315366000193",
+    "nome": "AUREO LIDIO MOREIRA RIBEIRO",
+    "total": 5933.5
+   },
+   {
+    "cnpj": "68552950000162",
+    "nome": "RICARDO MARTINS DAVID",
+    "total": 779.25
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 16100.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 415174.0,
+  "total_pago": 462854.4,
+  "fornecedores_pj": [
+   {
+    "cnpj": "41287250000131",
+    "nome": "OAZEM COMUNICACOES VISUAIS E REPRESENTACOES LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 111200.0
+   },
+   {
+    "cnpj": "37467124000191",
+    "nome": "SEMIRRETA EDITORA E MATERIAIS PUBLICITARIOS LTDA",
+    "cnae": "58298",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 98820.0
+   },
+   {
+    "cnpj": "26593308000181",
+    "nome": "KD TURISMO E EVENTOS LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "27525336000124",
+    "nome": "POSTO DE GASOLINA DO NETINHO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 12550.0
+   },
+   {
+    "cnpj": "00118442000137",
+    "nome": "POSTO KM 13 DA DUTRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "66612107000107",
+    "nome": "LUMME CREATOR LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "08866457000195",
+    "nome": "ADVANCE RJ EMPREENDIMENTOS IMOBILIARIOS E PARTICIPACOES LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "47124543000184",
+    "nome": "GERALDO MAGELA DE MEDEIROS NETO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "50354139000101",
+    "nome": "LW SANTOS SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 36,
+   "total": 144104.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 15000.0,
+    "Despesas com pessoal": 119084.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 20.0,
+    "Serviços advocatícios": 5000.0,
+    "Serviços contábeis": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

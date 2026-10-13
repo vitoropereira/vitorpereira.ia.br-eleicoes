@@ -1,0 +1,522 @@
+{
+ "sq": "130002535315",
+ "nome_urna": "BELLA GONÇALVES",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2853949.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 6499.0,
+   "Recursos de partido político": 2830500.0,
+   "Recursos de pessoas físicas": 12950.0,
+   "Recursos próprios": 4000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2830500.0,
+   "OUTROS RECURSOS": 23449.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 2830500.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 6499.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 16950.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1607274.07,
+  "total_pago": 460993.76,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVIÇOS ONLINE DO BRASIL LTDA",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 96000.0
+   },
+   {
+    "cnpj": "23412180000114",
+    "nome": "EXACT INDUSTRIA E SERVIÇOS DE EMBALAGENS E ROTULOS LTDA",
+    "cnae": "17311",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 77605.0
+   },
+   {
+    "cnpj": "13603371000100",
+    "nome": "Storyland produção de conteúdo e serviços ltda",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "16434356000173",
+    "nome": "INCENTIVE PROJETOS E CAPTACAO DE RECURSOS LTDA",
+    "cnae": "93115",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 65500.0
+   },
+   {
+    "cnpj": "47842362000193",
+    "nome": "Thais Corcetti Advocacia",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "45539958000193",
+    "nome": "AGÊNCIA 8M DE COMUNICAÇÃO, MARKETING E CONSULTORIA POLÍTICA LTDA.",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 55000.0
+   },
+   {
+    "cnpj": "56150649000143",
+    "nome": "CONTALIZA BE GESTÃO CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "22796154000174",
+    "nome": "PB IDEIAS SOLUCOES EM AUDIOVISUAL LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 35500.0
+   },
+   {
+    "cnpj": "11943376000156",
+    "nome": "ALMEIDA ELIAS PARTICIPAÇÕES E ADMINISTRAÇÃO LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Aquisição/Doação de bens móveis ou imóveis"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "24307238000122",
+    "nome": "Cuia Cultura e Eventos",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "31304784000175",
+    "nome": "VALÉRIA ARAÚJO NUNES DA SILVA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "24989958000115",
+    "nome": "DIAS ROCHA CIA LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17980.0
+   },
+   {
+    "cnpj": "21652672000151",
+    "nome": "Target Frotas Ltda",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 17008.0
+   },
+   {
+    "cnpj": "40917116000104",
+    "nome": "CINTHIA PINHEIRO DE SOUZA SILVA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "27736124000196",
+    "nome": "MILENA DO CARMO MEDEIROS",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "64421017000103",
+    "nome": "FLORA CARNEIRO MAGALHÃES",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "68264219000131",
+    "nome": "68.264.219 KARINA KARLA SANTOS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 13400.0
+   },
+   {
+    "cnpj": "12074390000123",
+    "nome": "GABRIEL VINÍCIUS CABRAL",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "32559145000113",
+    "nome": "DUARTE ACESSORIOS AUTOMOTIVOS LTDA",
+    "cnae": "45307",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 11200.0
+   },
+   {
+    "cnpj": "16566176000145",
+    "nome": "DINÂMICA LTDA. ¿ ADMINISTRAÇÃO DE IMÓVEIS",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "44594460000160",
+    "nome": "Matheus Pataro Soares",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "47299785000109",
+    "nome": "MARIANA FONSECA FREITAS",
+    "cnae": "85929",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "07723260000134",
+    "nome": "Alicerce Editora Eireli - ME",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "22115075000150",
+    "nome": "ADMINISTRA«ÃO E PLANEJAMENTOS IMOBILI£RIOS LTDA EPP (APLIK IMOVEIS)",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 7260.0
+   },
+   {
+    "cnpj": "03051731000154",
+    "nome": "E M LOCAÇÕES, TRANSPORTE E SERVIÇOS LTDA",
+    "cnae": "77195",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "13394456000125",
+    "nome": "AICO CULTURAS LTDA",
+    "cnae": "85929",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 4320.0
+   },
+   {
+    "cnpj": "61994439000171",
+    "nome": "ELIANA APARECIDA FIGUEIREDO SANTOS",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 4200.0
+   },
+   {
+    "cnpj": "45836631000183",
+    "nome": "Lucas Gonçalves Claudino",
+    "cnae": "71111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "62997131000142",
+    "nome": "ELDORADO COMERCIO DE FERRO E ACO LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2250.0
+   },
+   {
+    "cnpj": "68371217000141",
+    "nome": "FLAVIO APARECIDO DOS REIS LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "53652893000116",
+    "nome": "NELMA APARECIDA ISIDORO MOREIRA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 902.0
+   },
+   {
+    "cnpj": "28821529000195",
+    "nome": "COR EXPOSICOES E PROJETOS LTDA",
+    "cnae": "91023",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "01630173000156",
+    "nome": "NOVO POSTO DIAMANTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 723.56
+   },
+   {
+    "cnpj": "32410827000160",
+    "nome": "IV GRÁFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 650.0
+   },
+   {
+    "cnpj": "19159789000156",
+    "nome": "ECT - Empresa de Correios e Telegrafos",
+    "cnae": "77390",
+    "n_despesas": 5,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 462.1
+   },
+   {
+    "cnpj": "71465611000153",
+    "nome": "CLAUDIO JOSE VIEIRA DE FARIA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 440.0
+   },
+   {
+    "cnpj": "03591406000184",
+    "nome": "Auto Posto Feirauto (razão social LOC - CACHAPUZ LTDA)",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 423.08
+   },
+   {
+    "cnpj": "29382044000105",
+    "nome": "POSTO SALINENSE COMERCIO DE COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 330.01
+   },
+   {
+    "cnpj": "12082615000193",
+    "nome": "POSTO CARRETAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 287.55
+   },
+   {
+    "cnpj": "15629012000157",
+    "nome": "POSTO LAGOA DAS PEDRAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 272.86
+   },
+   {
+    "cnpj": "38349071000177",
+    "nome": "POSTO CANTAGALO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 242.0
+   },
+   {
+    "cnpj": "18885459000185",
+    "nome": "TOP CENTRO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 183.24
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 141.87
+   },
+   {
+    "cnpj": "20848420000130",
+    "nome": "SARITUR SANTA RITA TRANSP. URB. E ROD. LTDA.",
+    "cnae": "49221",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 104.09
+   },
+   {
+    "cnpj": "43283811009297",
+    "nome": "KALUNGA SA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 34.6
+   },
+   {
+    "cnpj": "17462474000158",
+    "nome": "POSTO TOCANTIS LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 0.01
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 325,
+   "total": 823254.1,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 478000.0,
+    "Despesas com pessoal": 99000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 54.1,
+    "Locação/cessão de bens imóveis": 4000.0,
+    "Serviços prestados por terceiros": 238200.0,
+    "Serviços próprios prestados por terceiros": 4000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

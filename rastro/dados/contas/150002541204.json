@@ -1,0 +1,164 @@
+{
+ "sq": "150002541204",
+ "nome_urna": "DEPUTA MANÉ BUCHADA",
+ "cargo": "depest",
+ "uf": "PB",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 136328.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 29943.0,
+   "Recursos de outros candidatos": 5885.0,
+   "Recursos de partido político": 100000.0,
+   "Recursos de pessoas físicas": 500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 105885.0,
+   "OUTROS RECURSOS": 30443.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 29943.0
+   },
+   {
+    "cnpj": "68430616000136",
+    "nome": "MARCELO ANTONIO CARTAXO QUEIROGA LOPES",
+    "total": 5885.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 117884.43,
+  "total_pago": 40917.76,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25215800000150",
+    "nome": "GEM PRINT COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25500.0
+   },
+   {
+    "cnpj": "08240660000151",
+    "nome": "AUTO POSTO DE COMBUSTIVEIS FREEWAY LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "37589804000188",
+    "nome": "NILDO NUNES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "03574409000100",
+    "nome": "WMR LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9016.67
+   },
+   {
+    "cnpj": "65443076000218",
+    "nome": "NOVO PARAISO LTDA",
+    "cnae": "55906",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "64254673000150",
+    "nome": "PRESTCONTA - CONTABILIDADE ELEITORAL E PARTIDARIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "08808826000193",
+    "nome": "S VELOSO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "35539728000170",
+    "nome": "EXPLODE PROMO PRODUCOES E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 12,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 707.76
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 400.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 12,
+   "total": 40760.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 14130.0,
+    "Cessão ou locação de veículos": 5580.0,
+    "Diversas a especificar": 4750.0,
+    "Serviços prestados por terceiros": 16300.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

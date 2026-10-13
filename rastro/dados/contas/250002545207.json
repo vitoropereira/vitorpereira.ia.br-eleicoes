@@ -1,0 +1,142 @@
+{
+ "sq": "250002545207",
+ "nome_urna": "FABIO FARIA DE SÁ",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 955121.0,
+  "por_origem": {
+   "Recursos de partido político": 950000.0,
+   "Recursos de pessoas físicas": 1000.0,
+   "Recursos próprios": 4121.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 950000.0,
+   "OUTROS RECURSOS": 5121.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 950000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 5121.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 614243.04,
+  "total_pago": 114223.08,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "08390859000166",
+    "nome": "BRITHE GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19000.0
+   },
+   {
+    "cnpj": "19721291000135",
+    "nome": "CAMACORP - VISAO GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12480.0
+   },
+   {
+    "cnpj": "08140219000106",
+    "nome": "INL ADMINISTRACAO DE BENS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10702.27
+   },
+   {
+    "cnpj": "62480041000180",
+    "nome": "AUTO POSTO PARELHEIROS LTDA",
+    "cnae": "47318",
+    "n_despesas": 26,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5004.36
+   },
+   {
+    "cnpj": "67052795000152",
+    "nome": "EDITORA JORNALISTICA JUMA LTDA",
+    "cnae": "58221",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2952.0
+   },
+   {
+    "cnpj": "22840778000141",
+    "nome": "A RAINHA DO BRASIL CONFECCOES E SERVICOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2490.0
+   },
+   {
+    "cnpj": "61695227000193",
+    "nome": "ELETROPAULO METROPOLITANA ELETRICIDADE DE SAO PAULO S.A.",
+    "cnae": "35140",
+    "n_despesas": 4,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 1323.07
+   },
+   {
+    "cnpj": "43776517000180",
+    "nome": "COMPANHIA DE SANEAMENTO BASICO DO ESTADO DE SAO PAULO - SABESP",
+    "cnae": "36006",
+    "n_despesas": 4,
+    "tipos": [
+     "Água"
+    ],
+    "total": 526.01
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 128,
+   "total": 529765.33,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 100250.0,
+    "Despesas com pessoal": 422000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.0,
+    "Locação/cessão de bens imóveis": 7513.33
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

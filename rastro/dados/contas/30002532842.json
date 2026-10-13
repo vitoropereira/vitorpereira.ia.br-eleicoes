@@ -1,0 +1,183 @@
+{
+ "sq": "30002532842",
+ "nome_urna": "DORINALDO MALAFAIA",
+ "cargo": "depfed",
+ "uf": "AP",
+ "partido": "PDT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3060000.0,
+  "por_origem": {
+   "Recursos de partido político": 3000000.0,
+   "Recursos de pessoas físicas": 50000.0,
+   "Recursos próprios": 10000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1500000.0,
+   "FUNDO PARTIDARIO": 1500000.0,
+   "OUTROS RECURSOS": 60000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00719575000169",
+    "nome": "Direção Nacional - PDT",
+    "total": 3000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 60000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 848660.45,
+  "total_pago": 690178.15,
+  "fornecedores_pj": [
+   {
+    "cnpj": "46879914000175",
+    "nome": "AGIR LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "52259515000104",
+    "nome": "ALEXANDRE C COSTA LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 235000.0
+   },
+   {
+    "cnpj": "20584230000152",
+    "nome": "AERONORTE TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "16935680000175",
+    "nome": "E. DE MENESES NETO LTDA",
+    "cnae": "10911",
+    "n_despesas": 5,
+    "tipos": [
+     "Cessão ou locação de veículos",
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 72460.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "29978138000141",
+    "nome": "DISTRIBUIDORA GUIMARAES E CONSTRUTORA LTDA",
+    "cnae": "41204",
+    "n_despesas": 4,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 32500.0
+   },
+   {
+    "cnpj": "25127022000148",
+    "nome": "BMIDIA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "10522077000185",
+    "nome": "POSTO DE COMBUSTIVEIS JARDINS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "36358363000140",
+    "nome": "VELARYS EMPREENDIMENTO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14080.0
+   },
+   {
+    "cnpj": "24340049000151",
+    "nome": "MARECO COMERCIO E SERVICO LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "23103822000101",
+    "nome": "ALPHA GMCV LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12500.0
+   },
+   {
+    "cnpj": "03659452001492",
+    "nome": "AUTOMOTO - AUTOMOVEIS DO AMAPA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10416.75
+   },
+   {
+    "cnpj": "10990394000126",
+    "nome": "TALENTO DIGITAL LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 8700.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 4,
+   "total": 24003.7,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 10000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.7,
+    "Locação/cessão de bens imóveis": 14000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

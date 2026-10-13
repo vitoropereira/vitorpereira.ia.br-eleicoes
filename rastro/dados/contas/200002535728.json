@@ -1,0 +1,273 @@
+{
+ "sq": "200002535728",
+ "nome_urna": "NELTER QUEIROZ",
+ "cargo": "depest",
+ "uf": "RN",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 666433.33,
+  "por_origem": {
+   "Recursos de outros candidatos": 23725.0,
+   "Recursos de partido político": 600000.0,
+   "Recursos de pessoas físicas": 15183.33,
+   "Recursos próprios": 27525.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 513725.0,
+   "FUNDO PARTIDARIO": 110000.0,
+   "OUTROS RECURSOS": 42708.33
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 600000.0
+   },
+   {
+    "cnpj": "68344931000140",
+    "nome": "JOAO DA SILVA MAIA",
+    "total": 23725.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 8,
+   "total": 42708.33
+  }
+ },
+ "despesas": {
+  "total_contratado": 583492.3,
+  "total_pago": 517460.25,
+  "fornecedores_pj": [
+   {
+    "cnpj": "34513508000105",
+    "nome": "ARRETADA AGENCIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 87500.0
+   },
+   {
+    "cnpj": "59622196000107",
+    "nome": "VICTOR GERMANO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "10307514000148",
+    "nome": "ERIVALDO TRINDADE DE ARAUJO",
+    "cnae": "73203",
+    "n_despesas": 2,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "12517664000101",
+    "nome": "SL CONTADORES ASSOCIADOS LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "49343188000160",
+    "nome": "FRANCISCO FERNANDES DA COSTA LTDA",
+    "cnae": "18113",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18600.0
+   },
+   {
+    "cnpj": "66185689000184",
+    "nome": "CAPP COMBUSTIVEIS JUCURUTU BELA VISTA LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 15488.65
+   },
+   {
+    "cnpj": "60650705000186",
+    "nome": "60.650.705 PEDRO EVARISTO FONTES DE QUEIROZ NETO",
+    "cnae": "77217",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "35751096000104",
+    "nome": "MIGRA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10291.35
+   },
+   {
+    "cnpj": "50161151000108",
+    "nome": "ARTETEX SERVICOS GRAFICOS E TEXTIL LTDA",
+    "cnae": "13405",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9600.0
+   },
+   {
+    "cnpj": "18751150000100",
+    "nome": "ARCANJO COMERCIO E LOCACOES LTDA",
+    "cnae": "45307",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "52831046000156",
+    "nome": "YANDRA DANTAS SANTOS",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "10415366000185",
+    "nome": "MARCIO HENRIQUE DOS SANTOS MOREIRA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3580.0
+   },
+   {
+    "cnpj": "31098830000127",
+    "nome": "PAPEL VINIL SERVICOS DE IMPRESSAO DIGITAL LTDA",
+    "cnae": "82997",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3300.0
+   },
+   {
+    "cnpj": "13587119000154",
+    "nome": "R4 - INDUSTRIA E COMERCIO LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3200.0
+   },
+   {
+    "cnpj": "26884396000170",
+    "nome": "26.884.396 LETICIA JULIA DE MEDEIROS TEIXEIRA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "46419062000133",
+    "nome": "HOTEL CAMINHOS DA OITICICA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1424.0
+   },
+   {
+    "cnpj": "66272541000187",
+    "nome": "66.272.541 ALLYSON BRENO DE OLIVEIRA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1394.0
+   },
+   {
+    "cnpj": "22025444000114",
+    "nome": "ANA SANTANA SOARES GOMES",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "36286445000127",
+    "nome": "WALTER SILVA DE LIMA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "22955054000143",
+    "nome": "B L M DE OLIVEIRA BRITO",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 126.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 65,
+   "total": 297888.3,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 44800.0,
+    "Comícios": 2000.0,
+    "Despesas com pessoal": 151522.4,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 65.9,
+    "Produção de jingles, vinhetas e slogans": 15000.0,
+    "Publicidade por carros de som": 64500.0,
+    "Serviços advocatícios": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,368 @@
+{
+ "sq": "130002545559",
+ "nome_urna": "DIEGO ANDRADE",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2594999.02,
+  "por_origem": {
+   "Recursos de outros candidatos": 50000.0,
+   "Recursos de partido político": 2280699.02,
+   "Recursos de pessoas físicas": 264300.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2150000.0,
+   "OUTROS RECURSOS": 444999.02
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 2100000.0
+   },
+   {
+    "cnpj": "14545907000140",
+    "nome": "Direção Estadual/Distrital - PSD - MINAS GERAIS",
+    "total": 180699.02
+   },
+   {
+    "cnpj": "68519374000151",
+    "nome": "CARLOS ALBERTO DIAS VIANA",
+    "total": 50000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 20,
+   "total": 264300.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2165835.88,
+  "total_pago": 1406386.13,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 53000.0
+   },
+   {
+    "cnpj": "12419108000100",
+    "nome": "ARTES BH DIGITAL LTDA",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 45006.8
+   },
+   {
+    "cnpj": "33667568000110",
+    "nome": "E B BATISTA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "28375927000125",
+    "nome": "FABREGAS SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "01995938000151",
+    "nome": "GRAFICA E EDITORA PAGINA 12 LTDA",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12900.0
+   },
+   {
+    "cnpj": "24693107000120",
+    "nome": "MED COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "07909954000160",
+    "nome": "PONTOCOM COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8505.0
+   },
+   {
+    "cnpj": "17190604000140",
+    "nome": "EGL-EDITORES GRAFICOS LTDA.",
+    "cnae": "18113",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8106.25
+   },
+   {
+    "cnpj": "06081586000142",
+    "nome": "FLYWAY SERVICOS AERONAUTICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5580.0
+   },
+   {
+    "cnpj": "44627121000133",
+    "nome": "IMPRESSO EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3940.0
+   },
+   {
+    "cnpj": "17175993000135",
+    "nome": "TAMOIOS KOLORO EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3200.0
+   },
+   {
+    "cnpj": "62192873000109",
+    "nome": "ODIM LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "25630963000108",
+    "nome": "INGRADIL INDUSTRIA GRAFICA DIGITAL LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2780.0
+   },
+   {
+    "cnpj": "01015513000139",
+    "nome": "MACAV PROMOCOES LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "16589145000100",
+    "nome": "BELO GRAFICA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "22683403000115",
+    "nome": "SINDICATO DOS PRODUTORES RURAIS DE JANAUBA",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1870.0
+   },
+   {
+    "cnpj": "08226621000108",
+    "nome": "GRAFICA E EDITORA 1 PAGINA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1820.0
+   },
+   {
+    "cnpj": "07674952000210",
+    "nome": "SARAIVA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1750.0
+   },
+   {
+    "cnpj": "37031503000134",
+    "nome": "ANTONIO REIS PAULINO LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "48061319000153",
+    "nome": "KMF EMPREENDIMENTOS E PARTICIPACOES LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "22261093000140",
+    "nome": "EMC TECNOLOGIA LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1350.0
+   },
+   {
+    "cnpj": "13363993000108",
+    "nome": "ELDORADO JUATUBA PARTICIPACOES E EMPREENDIMENTOS LTDA",
+    "cnae": "64638",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "19059849000320",
+    "nome": "MILDO ALVES ADMINISTRACAO COMERCIO E TRANSPORTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 990.0
+   },
+   {
+    "cnpj": "10599956000105",
+    "nome": "SILKMANIA CONFECCOES LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 660.0
+   },
+   {
+    "cnpj": "22723113000158",
+    "nome": "ALESSANDRO VENTURA CARDOSO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 590.0
+   },
+   {
+    "cnpj": "19270882000133",
+    "nome": "19.270.882 WILDIENE ALINE RODRIGUES DE MATOS",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "53700798000140",
+    "nome": "53.700.798 MAELLY ANDRADE MILITAO",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "17281106000103",
+    "nome": "COMPANHIA DE SANEAMENTO DE MINAS GERAIS COPASA MG",
+    "cnae": "36006",
+    "n_despesas": 2,
+    "tipos": [
+     "Água"
+    ],
+    "total": 117.2
+   },
+   {
+    "cnpj": "30040300000165",
+    "nome": "JUATUBA PLACAS LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 100.0
+   },
+   {
+    "cnpj": "06981180000116",
+    "nome": "CEMIG DISTRIBUICAO S.A",
+    "cnae": "35140",
+    "n_despesas": 1,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 85.94
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1333,
+   "total": 1930784.69,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 717562.33,
+    "Cessão ou locação de veículos": 32000.0,
+    "Despesa com Impulsionamento de Conteúdos": 500.0,
+    "Despesas com Hospedagem": 7935.0,
+    "Despesas com pessoal": 1142292.76,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 294.6,
+    "Locação/cessão de bens imóveis": 10200.0,
+    "Serviços contábeis": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

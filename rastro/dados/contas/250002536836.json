@@ -1,0 +1,321 @@
+{
+ "sq": "250002536836",
+ "nome_urna": "RÔMULO",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 586656.5,
+  "por_origem": {
+   "Recursos de outros candidatos": 78900.0,
+   "Recursos de partido político": 265500.0,
+   "Recursos de pessoas físicas": 212256.5,
+   "Recursos próprios": 30000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 344400.0,
+   "OUTROS RECURSOS": 242256.5
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265500.0
+   },
+   {
+    "cnpj": "68373319000104",
+    "nome": "VICENTE PAULO DA SILVA",
+    "total": 43900.0
+   },
+   {
+    "cnpj": "68373177000177",
+    "nome": "NILTO IGNACIO TATTO",
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68373575000193",
+    "nome": "RUI GOETHE DA COSTA FALCAO",
+    "total": 15000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 17,
+   "total": 242256.5
+  }
+ },
+ "despesas": {
+  "total_contratado": 550640.29,
+  "total_pago": 413703.72,
+  "fornecedores_pj": [
+   {
+    "cnpj": "34276520000143",
+    "nome": "ZIULOSCAR GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 45,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 144153.64
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 13,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "38045802000190",
+    "nome": "MCOUTO ASSESSORIA E CONSULTORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "06019783000131",
+    "nome": "PROMOSOM EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "18649169000132",
+    "nome": "CODAM INDUSTRIAL LTDA",
+    "cnae": "13596",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "51844056000163",
+    "nome": "DS BONFIM SERVICOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "53354550000175",
+    "nome": "F.A. MELERO SERVICOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "51410605000191",
+    "nome": "1234 NEGOCIOS E REPRESENTACOES LTDA",
+    "cnae": "47890",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11415.75
+   },
+   {
+    "cnpj": "39301035000104",
+    "nome": "ERNANDO ANACRETO AGUIAR",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 9900.0
+   },
+   {
+    "cnpj": "16868340000179",
+    "nome": "RUTE DOS SANTOS BAPTISTA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 9175.0
+   },
+   {
+    "cnpj": "57603003000137",
+    "nome": "ASSOCIACAO ATLETICA INDUSTRIAL",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "68978415000178",
+    "nome": "68.978.415 EDMILSON DA SILVA PIRES",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 6370.0
+   },
+   {
+    "cnpj": "57620551000175",
+    "nome": "ASSOCIACAO CULTURAL E ESPORTIVA NIPO BRASILEIRA DE MAUA",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5806.5
+   },
+   {
+    "cnpj": "17270274000101",
+    "nome": "ECO POSTO MAUA LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5386.18
+   },
+   {
+    "cnpj": "32578202000101",
+    "nome": "PEDRA MENINA TRANSPORTES EVENTOS E TURISMO LTDA",
+    "cnae": "49248",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "12761958000184",
+    "nome": "GTA EDITORA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 4900.0
+   },
+   {
+    "cnpj": "07200471000192",
+    "nome": "SOCIEDADE FLORIANO SERVICOS DE COMUNICACAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "19094038000107",
+    "nome": "19.094.038 MARCELO FERREIRA DA SILVA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "23315486000152",
+    "nome": "DAVID DEL DONO FILHO",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "28881483000108",
+    "nome": "28.881.483 MARLENE CORREIA LORO",
+    "cnae": "58131",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "23958694000170",
+    "nome": "WF PRINT SOLUCOES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "68391102000119",
+    "nome": "PESCARA INOVACOES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "68308613000124",
+    "nome": "DESTAQUE GRAFICA RAPIDA COMUNICACAO VISUAL LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 840.0
+   },
+   {
+    "cnpj": "57602609000158",
+    "nome": "SIND.TRAB.EMP.TRANSP.RODOANEXO ABCDMRP E RG DA SERRA",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "43283811006271",
+    "nome": "KALUNGA SA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 46.2
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 49,
+   "total": 143347.02,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 22701.35,
+    "Cessão ou locação de veículos": 22380.0,
+    "Despesas com pessoal": 62048.17,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 17.5,
+    "Locação/cessão de bens imóveis": 24200.0,
+    "Serviços advocatícios": 12000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

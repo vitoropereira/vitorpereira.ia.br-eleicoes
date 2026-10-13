@@ -1,0 +1,602 @@
+{
+ "sq": "160002542296",
+ "nome_urna": "GUILHERME KILTER",
+ "cargo": "depfed",
+ "uf": "PR",
+ "partido": "NOVO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2060782.69,
+  "por_origem": {
+   "Recursos de partido político": 1925777.77,
+   "Recursos de pessoas físicas": 135004.92
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 300000.0,
+   "FUNDO PARTIDARIO": 1220000.0,
+   "OUTROS RECURSOS": 540782.69
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13405866000124",
+    "nome": "Direção Nacional - NOVO",
+    "total": 1670000.0
+   },
+   {
+    "cnpj": "26398527000100",
+    "nome": "Direção Estadual/Distrital - NOVO - PARANÁ",
+    "total": 255777.77
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 135004.92
+  }
+ },
+ "despesas": {
+  "total_contratado": 1915477.51,
+  "total_pago": 2037311.59,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 12,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 750000.0
+   },
+   {
+    "cnpj": "27286777000110",
+    "nome": "MARILIA LOBO LEOMIL",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 211241.0
+   },
+   {
+    "cnpj": "66183472000135",
+    "nome": "NHR ESTRATEGIA E COMUNICACAO LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "21246199000102",
+    "nome": "LEANDRO ROSA ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 85000.0
+   },
+   {
+    "cnpj": "68519019000182",
+    "nome": "PAULO HENRIQUE RIVERA DE MELO",
+    "cnae": "94928",
+    "n_despesas": 5,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 71000.0
+   },
+   {
+    "cnpj": "03839251000152",
+    "nome": "JOSE DOMINGOS LINARES LTDA",
+    "cnae": "18113",
+    "n_despesas": 15,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 53391.0
+   },
+   {
+    "cnpj": "85499408000102",
+    "nome": "AGENCIA DE CORREIO FRANQUEADA CARLOS DE CARVALHO LTDA",
+    "cnae": "53105",
+    "n_despesas": 19,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 49048.0
+   },
+   {
+    "cnpj": "75210864000137",
+    "nome": "STATUS RESTAURANTE DANCANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 40038.0
+   },
+   {
+    "cnpj": "68465022000160",
+    "nome": "ARIANE REGIS SILVA DE ASSIS",
+    "cnae": "94928",
+    "n_despesas": 4,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 39123.2
+   },
+   {
+    "cnpj": "15506311000102",
+    "nome": "NARA BORGES NEVES",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "68518995000110",
+    "nome": "GIOVANI AUGUSTO PEREIRA DE MATTOS",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "32720174000115",
+    "nome": "KW ESTAMPAS LTDA",
+    "cnae": "13405",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27959.0
+   },
+   {
+    "cnpj": "67221351000101",
+    "nome": "PRISMAH INTELIGENCIA ELEITORAL LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "48978979000101",
+    "nome": "STUDIO JOTA LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "68464863000153",
+    "nome": "BRUNO RICARDO SECCO SOUZA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68541963000136",
+    "nome": "68.541.963 ACACIO BERNARDES DE FARIA FILHO",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 16800.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12459.7
+   },
+   {
+    "cnpj": "47490113000186",
+    "nome": "MC MOTOBOY LTDA",
+    "cnae": "53202",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 11575.0
+   },
+   {
+    "cnpj": "09296295000160",
+    "nome": "AZUL LINHAS AEREAS BRASILEIRAS S.A.",
+    "cnae": "51111",
+    "n_despesas": 2,
+    "tipos": [
+     "Passagem Aérea"
+    ],
+    "total": 11010.79
+   },
+   {
+    "cnpj": "51734386000104",
+    "nome": "51.734.386 VANESSA LIMA DA SILVA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "22092207000176",
+    "nome": "PICTORIAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9022.66
+   },
+   {
+    "cnpj": "35864819000181",
+    "nome": "EPS TRAVEL E CONCIERGE BRASIL LTDA",
+    "cnae": "79112",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 4985.0
+   },
+   {
+    "cnpj": "01181294000168",
+    "nome": "PIERO COMERCIO E CONFECCAO DE ARTIGOS DO VESTUARIO LTDA",
+    "cnae": "47814",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 4121.0
+   },
+   {
+    "cnpj": "50643937000153",
+    "nome": "D L LINO LTDA",
+    "cnae": "46192",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4100.0
+   },
+   {
+    "cnpj": "62879808000148",
+    "nome": "PGO COMUNICACAO LTDA",
+    "cnae": "63917",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "97361505000113",
+    "nome": "COMERCIO DE EMBALAGENS DE PAULA LTDA",
+    "cnae": "47610",
+    "n_despesas": 8,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 3691.68
+   },
+   {
+    "cnpj": "14022212000184",
+    "nome": "DM LOCACOES DE MOVEIS LTDA",
+    "cnae": "77292",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2750.0
+   },
+   {
+    "cnpj": "28693472000196",
+    "nome": "DANILO SANTA BARBARA FONSECA",
+    "cnae": "43215",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 1850.0
+   },
+   {
+    "cnpj": "84831478000153",
+    "nome": "POSTO FAROL DO PARQUE LTDA",
+    "cnae": "47318",
+    "n_despesas": 9,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1799.64
+   },
+   {
+    "cnpj": "62563548000105",
+    "nome": "62.563.548 LUANA CAVALHEIRO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "55825380000195",
+    "nome": "COMENDADOR BELEZA E ESTETICA LTDA",
+    "cnae": "96025",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1486.5
+   },
+   {
+    "cnpj": "47156634000100",
+    "nome": "VEGA LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1153.46
+   },
+   {
+    "cnpj": "58976977000129",
+    "nome": "58.976.977 TULIO FEROLLA DURSO NETTO",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "34049420000184",
+    "nome": "LUCAS GABRIEL DESIGN LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 990.0
+   },
+   {
+    "cnpj": "34575921000102",
+    "nome": "BATTISTI E REPINOSKI FABRICACAO DE PRODUTOS DE PADARIA LTDA.",
+    "cnae": "10911",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 914.3
+   },
+   {
+    "cnpj": "38824625002356",
+    "nome": "POSTO LINHA VERDE LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 817.14
+   },
+   {
+    "cnpj": "42674735000140",
+    "nome": "APTEK AUDIOVISUAL LTDA",
+    "cnae": "62091",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "76430438016175",
+    "nome": "IRMAOS MUFFATO CIA LTDA",
+    "cnae": "47113",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 374.31
+   },
+   {
+    "cnpj": "47561241000173",
+    "nome": "ZIP MAX COMERCIO DE EMBALAGENS LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 370.01
+   },
+   {
+    "cnpj": "81197527000150",
+    "nome": "M.C.R. TAPETES LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 360.0
+   },
+   {
+    "cnpj": "10383410000112",
+    "nome": "CRIS BALOES EVENTOS E DECORACOES LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 325.0
+   },
+   {
+    "cnpj": "24059046000144",
+    "nome": "LOOP7 - LOCADORA DE EQUIPAMENTOS AUDIOVISUAIS E BENS MOVEIS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 250.0
+   },
+   {
+    "cnpj": "78901915001056",
+    "nome": "POSTOS PELANDA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 226.14
+   },
+   {
+    "cnpj": "46381084000151",
+    "nome": "AUTO POSTO SQ CURITIBA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 225.44
+   },
+   {
+    "cnpj": "06302712000141",
+    "nome": "DUCATI AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 218.32
+   },
+   {
+    "cnpj": "05658350000163",
+    "nome": "AUTO POSTO VICENTE MACHADO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 210.94
+   },
+   {
+    "cnpj": "75176859000317",
+    "nome": "AUTO POSTO E MECANICA BARAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 204.65
+   },
+   {
+    "cnpj": "06130111000107",
+    "nome": "FOUR PIZZA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 162.8
+   },
+   {
+    "cnpj": "62447916000141",
+    "nome": "POSTO TIO ZICO REBOUCAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 150.0
+   },
+   {
+    "cnpj": "45002426000112",
+    "nome": "NOVA IMPERIAL DISTRIBUIDORA DE BEBIDAS LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 66.0
+   },
+   {
+    "cnpj": "51679191000109",
+    "nome": "RESTAURANTE E LANCHONETE DEDUCH II LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 51.95
+   },
+   {
+    "cnpj": "04247793000107",
+    "nome": "CONCORDE LOGISTICA DISTRIBUICAOLTDA",
+    "cnae": "46397",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 42.9
+   },
+   {
+    "cnpj": "56080340000124",
+    "nome": "LGV COMERCIO DE EMBALAGENS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 23.75
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 25,
+   "total": 215788.23,
+   "por_tipo": {
+    "Despesas com pessoal": 143045.83,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 121.9,
+    "Eventos de promoção da candidatura": 600.0,
+    "Locação/cessão de bens imóveis": 21000.0,
+    "Multas eleitorais": 25320.5,
+    "Produção de jingles, vinhetas e slogans": 7500.0,
+    "Serviços prestados por terceiros": 18200.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

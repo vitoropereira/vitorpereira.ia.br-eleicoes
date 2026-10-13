@@ -1,0 +1,229 @@
+{
+ "sq": "200002533860",
+ "nome_urna": "FRANCISCO DO PT",
+ "cargo": "depest",
+ "uf": "RN",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 417221.9,
+  "por_origem": {
+   "Recursos de outros candidatos": 52891.25,
+   "Recursos de partido político": 265500.0,
+   "Recursos de pessoas físicas": 78830.65,
+   "Recursos próprios": 20000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 300891.25,
+   "FUNDO PARTIDARIO": 15500.0,
+   "OUTROS RECURSOS": 100830.65
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265500.0
+   },
+   {
+    "cnpj": "68306386000106",
+    "nome": "ODON OLIVEIRA DE SOUZA JUNIOR",
+    "total": 52891.25
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 41,
+   "total": 98830.65
+  }
+ },
+ "despesas": {
+  "total_contratado": 203309.24,
+  "total_pago": 247835.08,
+  "fornecedores_pj": [
+   {
+    "cnpj": "31377165000100",
+    "nome": "CANINDE MAIA MAIA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "40524552000113",
+    "nome": "LAMPIAO SOLUCOES EM MARKETING DIGITAL LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 44000.0
+   },
+   {
+    "cnpj": "07893237000198",
+    "nome": "PONTO X VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "08546675000142",
+    "nome": "MUNDIAL VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15300.0
+   },
+   {
+    "cnpj": "31321080000100",
+    "nome": "UNIGRAFICA INDUSTRIA GRAFICA LTDA",
+    "cnae": "17311",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6960.0
+   },
+   {
+    "cnpj": "42429173000170",
+    "nome": "CARDOSO SILVA PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "43313074000190",
+    "nome": "SISTEMA METROPOLITANO DE COMUNICACAO LTDA",
+    "cnae": "60225",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "05858040000192",
+    "nome": "FRANCIMILTON GINANI SOM",
+    "cnae": "90019",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 1900.0
+   },
+   {
+    "cnpj": "24206617001955",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1450.9
+   },
+   {
+    "cnpj": "08385262000123",
+    "nome": "METALURGICA ESCOL LTDA",
+    "cnae": "28119",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "27682292000146",
+    "nome": "CRISTIANO SILVA DE MELO",
+    "cnae": "45200",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1020.0
+   },
+   {
+    "cnpj": "32759332000140",
+    "nome": "RAMON F DE OLIVEIRA LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "24206617001289",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 498.83
+   },
+   {
+    "cnpj": "24206617002846",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 330.01
+   },
+   {
+    "cnpj": "14374512000122",
+    "nome": "ROSEANA FELIX DE SOUZA CAVALCANTE",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "45375195000192",
+    "nome": "45.375.195 SIGBERTO FELIX DE SOUZA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 300.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 8,
+   "total": 17349.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 3730.4,
+    "Despesas com pessoal": 13000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 19.1,
+    "Locação/cessão de bens imóveis": 600.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

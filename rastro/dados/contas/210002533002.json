@@ -1,0 +1,745 @@
+{
+ "sq": "210002533002",
+ "nome_urna": "FELIPE CAMOZZATO",
+ "cargo": "depfed",
+ "uf": "RS",
+ "partido": "NOVO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2207247.73,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 40006.63,
+   "Recursos de partido político": 1845968.18,
+   "Recursos de pessoas físicas": 321272.92
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 784930.0,
+   "FUNDO PARTIDARIO": 345470.0,
+   "OUTROS RECURSOS": 1076847.73
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13405866000124",
+    "nome": "Direção Nacional - NOVO",
+    "total": 1605400.0
+   },
+   {
+    "cnpj": "26471374000189",
+    "nome": "Direção Estadual/Distrital - NOVO - RIO GRANDE DO SUL",
+    "total": 240568.18
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 40006.63
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 56,
+   "total": 321272.92
+  }
+ },
+ "despesas": {
+  "total_contratado": 1436495.92,
+  "total_pago": 1421246.73,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 11,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 225000.0
+   },
+   {
+    "cnpj": "94350113000160",
+    "nome": "JOKA SUBLIMACAO DIGITAL LTDA",
+    "cnae": "13405",
+    "n_despesas": 12,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 205893.0
+   },
+   {
+    "cnpj": "68236949000129",
+    "nome": "RAMIRO STALLBAUM ROSARIO",
+    "cnae": "94928",
+    "n_despesas": 5,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 90000.0
+   },
+   {
+    "cnpj": "68236902000165",
+    "nome": "RODRIGO DAVILA LOPES",
+    "cnae": "94928",
+    "n_despesas": 5,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 65700.0
+   },
+   {
+    "cnpj": "34028316437471",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 47866.5
+   },
+   {
+    "cnpj": "23915493000195",
+    "nome": "ERTHAL EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "68236929000158",
+    "nome": "LUIS PAULO KAYSER",
+    "cnae": "94928",
+    "n_despesas": 3,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "43451708000171",
+    "nome": "GIOVANI DA SILVA GERHARDT LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 31975.0
+   },
+   {
+    "cnpj": "68237800000164",
+    "nome": "LUCIANO DRUM DE ALMEIDA",
+    "cnae": "94928",
+    "n_despesas": 3,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "17376797000129",
+    "nome": "JORNAL REPERCUSSAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 25792.0
+   },
+   {
+    "cnpj": "68237694000119",
+    "nome": "JULIO CESAR SANTOS DA CUNHA",
+    "cnae": "94928",
+    "n_despesas": 4,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "88804513000104",
+    "nome": "KADU MALHAS COMERCIO DE ROUPAS LTDA",
+    "cnae": "47814",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24647.5
+   },
+   {
+    "cnpj": "03854802000157",
+    "nome": "ALEMANHA VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 19416.59
+   },
+   {
+    "cnpj": "93439313000121",
+    "nome": "GRAFICA R J R LTDA",
+    "cnae": "58298",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18929.0
+   },
+   {
+    "cnpj": "27077109000183",
+    "nome": "RIBOLLA GIALLA IMOVEIS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "49602880000165",
+    "nome": "PONCHE VERDE SERVICOS LTDA",
+    "cnae": "78108",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "68237077000113",
+    "nome": "GIUSEPPE RICARDO MENEGHETTI RIESGO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "68237869000198",
+    "nome": "SAMUEL MACIEL DA SILVA",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "02633583000113",
+    "nome": "EXPRESSO LEOMAR LTDA EM RECUPERACAO JUDICIAL",
+    "cnae": "49302",
+    "n_despesas": 4,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 11133.84
+   },
+   {
+    "cnpj": "39158679000187",
+    "nome": "GUSTAVO ECCHER LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10620.0
+   },
+   {
+    "cnpj": "68237003000187",
+    "nome": "DANIELA SILVA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68237021000169",
+    "nome": "LAURA FERRAZ BAICK",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68237722000106",
+    "nome": "EVERTON DE SOUZA DIAS",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68237920000161",
+    "nome": "MATHEUS SCHILLING NUNES",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "57007052000107",
+    "nome": "57.007.052 ANDRE TAGLIARI SEMINOTI",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "35795551000173",
+    "nome": "CANTO BAR E RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "47111282000168",
+    "nome": "MOAI SPORTWEAR SERIGRAFIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5775.0
+   },
+   {
+    "cnpj": "19280383000127",
+    "nome": "MONVIE PRODUCOES CRIATIVAS LTDA.",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "33051519000158",
+    "nome": "33.051.519 LEONARDO LINO GALUCIO AVILA DA SILVA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "52603425000199",
+    "nome": "52.603.425 JOAO COUTINHO DE SOUZA JUNIOR",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "68237046000162",
+    "nome": "CRISTIAN PAULO MIOTTO BARBOSA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "00985734000177",
+    "nome": "GET PREMIUM - SERVICOS DE SONORIZACAO E PRODUCAO DE EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4400.0
+   },
+   {
+    "cnpj": "05454055000195",
+    "nome": "BANG IMPRESSAO E PROGRAMACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2815.0
+   },
+   {
+    "cnpj": "01794132000103",
+    "nome": "DE FATO EDITORA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2160.0
+   },
+   {
+    "cnpj": "14431638000191",
+    "nome": "THIAGO GRANJA MASSIMINO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 1590.0
+   },
+   {
+    "cnpj": "68237504000163",
+    "nome": "ANETTE SCHIEMANN PEGAS",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "89237911001708",
+    "nome": "GLOBAL DISTRIBUICAO DE BENS DE CONSUMO LTDA.",
+    "cnae": "47539",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1497.0
+   },
+   {
+    "cnpj": "18778060000103",
+    "nome": "18.778.060 VILSON PRESTES DA SILVA JUNIOR",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1090.0
+   },
+   {
+    "cnpj": "94484458000107",
+    "nome": "EDIMCA EDITORA MENIN CALDAS LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 799.83
+   },
+   {
+    "cnpj": "30009707000120",
+    "nome": "RENATO FREITAS TORRES",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "38445072000115",
+    "nome": "ROSA HELENA NUNES PEREIRA DA SILVEIRA DA SILVA LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "07473735021693",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 587.48
+   },
+   {
+    "cnpj": "07473735023122",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 548.12
+   },
+   {
+    "cnpj": "07473735014808",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 536.95
+   },
+   {
+    "cnpj": "07473735016266",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 486.36
+   },
+   {
+    "cnpj": "95592077000104",
+    "nome": "PLANALTO TRANSPORTES LTDA",
+    "cnae": "49221",
+    "n_despesas": 5,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 470.8
+   },
+   {
+    "cnpj": "13739341000125",
+    "nome": "CYBER DIM SERVICOS GRAFICOS E BRINDES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 450.0
+   },
+   {
+    "cnpj": "07473735009995",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 317.24
+   },
+   {
+    "cnpj": "92954106000142",
+    "nome": "VIACAO OURO E PRATA SA",
+    "cnae": "49221",
+    "n_despesas": 5,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 300.2
+   },
+   {
+    "cnpj": "87548848000138",
+    "nome": "EMPRESA BENTO GONCALVES DE TRANSPORTES LTDA",
+    "cnae": "49221",
+    "n_despesas": 4,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 280.85
+   },
+   {
+    "cnpj": "07473735022150",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 268.76
+   },
+   {
+    "cnpj": "07473735013402",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 266.14
+   },
+   {
+    "cnpj": "02602535000168",
+    "nome": "OFICINA DO PROFESSOR LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 257.5
+   },
+   {
+    "cnpj": "07473735007194",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 256.33
+   },
+   {
+    "cnpj": "07473735018200",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 220.8
+   },
+   {
+    "cnpj": "95424735000159",
+    "nome": "VIACAO UNIAO SANTA CRUZ LTDA",
+    "cnae": "49221",
+    "n_despesas": 4,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 206.75
+   },
+   {
+    "cnpj": "05563868002086",
+    "nome": "BELLER COMERCIO DE PAPEIS LTDA",
+    "cnae": "47610",
+    "n_despesas": 4,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 153.01
+   },
+   {
+    "cnpj": "34028316528604",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 4,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 138.2
+   },
+   {
+    "cnpj": "91158717000111",
+    "nome": "EXPRESSO AZUL DE TRANSPORTE SA",
+    "cnae": "49221",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 83.8
+   },
+   {
+    "cnpj": "34550040000129",
+    "nome": "JVR FERRAGEM LTDA",
+    "cnae": "47440",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 83.7
+   },
+   {
+    "cnpj": "88276704000132",
+    "nome": "EXPRESSO SB TRANSPORTES E TURISMO LTDA",
+    "cnae": "49221",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 54.7
+   },
+   {
+    "cnpj": "92745991000150",
+    "nome": "EXPRESSO FREDERES S/A - VIAGENS E TURISMO",
+    "cnae": "49221",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 54.7
+   },
+   {
+    "cnpj": "97755607000113",
+    "nome": "CITRAL TRANSPORTE E TURISMO SA",
+    "cnae": "49221",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 50.7
+   },
+   {
+    "cnpj": "06367990000187",
+    "nome": "PENHA ENCOMENDAS EXPRESS LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 46.5
+   },
+   {
+    "cnpj": "93015006003805",
+    "nome": "COMPANHIA ZAFFARI COMERCIO E INDUSTRIA",
+    "cnae": "47113",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 26.28
+   },
+   {
+    "cnpj": "52402246000193",
+    "nome": "ESPACO LED VIRTUAL LTDA",
+    "cnae": "47547",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 11.99
+   },
+   {
+    "cnpj": "10878757000136",
+    "nome": "BRASIL DOS PARAFUSOS COMERCIAL LTDA",
+    "cnae": "46729",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 7.8
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 55,
+   "total": 359530.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 18130.0,
+    "Cessão ou locação de veículos": 2300.0,
+    "Despesas com pessoal": 324400.0,
+    "Locação/cessão de bens imóveis": 14700.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

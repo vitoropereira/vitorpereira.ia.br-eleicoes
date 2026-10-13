@@ -1,0 +1,143 @@
+{
+ "sq": "50002532530",
+ "nome_urna": "ANGELO CORONEL FILHO",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 350000.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 200000.0,
+   "Recursos de partido político": 150000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 350000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68283188000166",
+    "nome": "ANGELO MARIO CORONEL DE AZEVEDO MARTINS",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 150000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 259999.6,
+  "total_pago": 349905.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "51546482000110",
+    "nome": "ONEJETS TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 160000.0
+   },
+   {
+    "cnpj": "26080840000103",
+    "nome": "A PLAY S COMERCIO E SERVICOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 32850.0
+   },
+   {
+    "cnpj": "68342331000143",
+    "nome": "VERSO 1 PUBLICIDADE LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "23701922000121",
+    "nome": "BOXFORTE COMERCIO DE ALIMENTOS E SERVICOS DE IMPRESSAO LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 10530.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "35552061000146",
+    "nome": "CRSP CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "45817881000176",
+    "nome": "ODILON SANTOS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "24759252000167",
+    "nome": "FEIRA ROTULOS E ETIQUETAS ADESIVAS LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1600.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 19.6,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 19.6
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

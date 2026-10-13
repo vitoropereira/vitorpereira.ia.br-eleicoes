@@ -1,0 +1,296 @@
+{
+ "sq": "200002535736",
+ "nome_urna": "KLEBER RODRIGUES",
+ "cargo": "depest",
+ "uf": "RN",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1170077.56,
+  "por_origem": {
+   "Recursos de outros candidatos": 35025.0,
+   "Recursos de partido político": 984120.0,
+   "Recursos de pessoas físicas": 25275.56,
+   "Recursos próprios": 125657.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1019145.0,
+   "OUTROS RECURSOS": 150932.56
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 980000.0
+   },
+   {
+    "cnpj": "68344931000140",
+    "nome": "JOAO DA SILVA MAIA",
+    "total": 35025.0
+   },
+   {
+    "cnpj": "24349767000199",
+    "nome": "Direção Municipal/Comissão Provisória - PP - MACAÍBA - RN",
+    "total": 4120.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 12,
+   "total": 150932.56
+  }
+ },
+ "despesas": {
+  "total_contratado": 691274.64,
+  "total_pago": 1107041.83,
+  "fornecedores_pj": [
+   {
+    "cnpj": "05842898000169",
+    "nome": "J CLAUDIO G DE PAIVA LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 166400.0
+   },
+   {
+    "cnpj": "45677863000136",
+    "nome": "O2 SOLUCOES LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "44695277000151",
+    "nome": "VIDEON SERVICOS LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 95700.0
+   },
+   {
+    "cnpj": "04352782000189",
+    "nome": "IMPRESSAO - GRAFICA E EDITORA LTDA.",
+    "cnae": "58298",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 36084.0
+   },
+   {
+    "cnpj": "49482783000186",
+    "nome": "FELIPE CORTEZ - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 32215.0
+   },
+   {
+    "cnpj": "12517664000101",
+    "nome": "SL CONTADORES ASSOCIADOS LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "12161420000139",
+    "nome": "A. CRISTINA DE SOUZA",
+    "cnae": "77390",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos",
+     "Comícios"
+    ],
+    "total": 29500.0
+   },
+   {
+    "cnpj": "42090206000108",
+    "nome": "L N RODRIGUES DA SILVA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 27783.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 25449.5
+   },
+   {
+    "cnpj": "55089290000183",
+    "nome": "FJ NEGOCIOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 16133.33
+   },
+   {
+    "cnpj": "00684771000145",
+    "nome": "WALLACE SANTOS PEREIRA",
+    "cnae": "18113",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10160.0
+   },
+   {
+    "cnpj": "27997819000121",
+    "nome": "GRID COMUNICACAO VISUAL, SINALIZACAO E EVENTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9207.0
+   },
+   {
+    "cnpj": "51234019000133",
+    "nome": "LEMOS SERVICOS COMERCIO LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8983.33
+   },
+   {
+    "cnpj": "04065360000122",
+    "nome": "QUIRINO E SOUZA COMERCIO DE PETROLEO E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5604.02
+   },
+   {
+    "cnpj": "01017325000140",
+    "nome": "SEVERINO SEBASTIAO DO O",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 5600.0
+   },
+   {
+    "cnpj": "44618888000104",
+    "nome": "POSTO STOPCAR DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3054.53
+   },
+   {
+    "cnpj": "11621320000185",
+    "nome": "M2 PLACAS E REVESTIMENTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "67750231000193",
+    "nome": "67.750.231 FELIPE PINHEIRO DE MACEDO",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "13587119000154",
+    "nome": "R4 - INDUSTRIA E COMERCIO LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1125.0
+   },
+   {
+    "cnpj": "56993451000121",
+    "nome": "56.993.451 QUEZIA CARDOSO DA SILVA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 870.0
+   },
+   {
+    "cnpj": "40480636000100",
+    "nome": "F S M DE SOUSA COMUNICACAO VISUAL",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 695.0
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 10,
+   "total": 48670.93,
+   "por_tipo": {
+    "Despesas com pessoal": 20045.93,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 25.0,
+    "Publicidade por carros de som": 26100.0,
+    "Serviços prestados por terceiros": 2500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,272 @@
+{
+ "sq": "210002537896",
+ "nome_urna": "RONIZE DAMASSINI",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 912342.83,
+  "por_origem": {
+   "Recursos de partido político": 912342.83
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 882342.83,
+   "FUNDO PARTIDARIO": 30000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 912342.83
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 377211.29,
+  "total_pago": 443651.29,
+  "fornecedores_pj": [
+   {
+    "cnpj": "94692555000195",
+    "nome": "SR INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 43955.0
+   },
+   {
+    "cnpj": "33351910000178",
+    "nome": "VIU COMUNICACAO E PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 23900.0
+   },
+   {
+    "cnpj": "34376651000100",
+    "nome": "JOHN AUTOLOCADORA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "43957904000112",
+    "nome": "CESAR SCHMITT SOUSA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 9600.0
+   },
+   {
+    "cnpj": "89840797000149",
+    "nome": "GRAFICA E EDITORA COMUNICACAO IMPRESSA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "58411181000129",
+    "nome": "SUBLIMY PRINT LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6790.0
+   },
+   {
+    "cnpj": "93711224000192",
+    "nome": "AMC CONSULTORIA E CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "11064349000103",
+    "nome": "ALESSANDRO JORGE VIEIRA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "19210534000170",
+    "nome": "RG COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1938.67
+   },
+   {
+    "cnpj": "90533316000131",
+    "nome": "PAULO RENATO BOHN E CIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 4,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1521.12
+   },
+   {
+    "cnpj": "34028316097786",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 600.7
+   },
+   {
+    "cnpj": "07747151000157",
+    "nome": "EMBAIXADOR PRIME HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 572.95
+   },
+   {
+    "cnpj": "66092902000103",
+    "nome": "SANDRA TERESINHA KERBER LTDA",
+    "cnae": "56112",
+    "n_despesas": 5,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 467.48
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 461.5
+   },
+   {
+    "cnpj": "07473735006546",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 435.69
+   },
+   {
+    "cnpj": "17695813002602",
+    "nome": "JP SANTA LUCIA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 306.8
+   },
+   {
+    "cnpj": "98042294000119",
+    "nome": "POSTO DE SERVICOS FRITSCH LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 265.04
+   },
+   {
+    "cnpj": "91452102000101",
+    "nome": "SEBALDO BUTZKE E CIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 241.14
+   },
+   {
+    "cnpj": "01084728000101",
+    "nome": "SAO JOAO PALACE HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 184.51
+   },
+   {
+    "cnpj": "44009101000107",
+    "nome": "CALDAS - RESTAURANTE VIDA SAUDE LTDA.",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 135.0
+   },
+   {
+    "cnpj": "07473735018552",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 35.79
+   },
+   {
+    "cnpj": "92332246000189",
+    "nome": "ALERCIO J CHRIST E CIA LTDA",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 35.4
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 120,
+   "total": 260264.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 212000.0,
+    "Despesas com pessoal": 21500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 64.5,
+    "Locação/cessão de bens imóveis": 1700.0,
+    "Produção de programas de rádio, televisão ou vídeo": 25000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

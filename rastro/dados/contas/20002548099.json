@@ -1,0 +1,150 @@
+{
+ "sq": "20002548099",
+ "nome_urna": "MARCELO VICTOR",
+ "cargo": "depest",
+ "uf": "AL",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 939787.5,
+  "por_origem": {
+   "Recursos de outros candidatos": 16187.5,
+   "Recursos de partido político": 900000.0,
+   "Recursos de pessoas físicas": 23600.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 903050.0,
+   "OUTROS RECURSOS": 36737.5
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 900000.0
+   },
+   {
+    "cnpj": "68455298000168",
+    "nome": "LUCIANO SURUAGY DO AMARAL FILHO",
+    "total": 13587.5
+   },
+   {
+    "cnpj": "68504101000133",
+    "nome": "GALBA NOVAIS DE CASTRO JUNIOR",
+    "total": 2600.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 23600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 385420.0,
+  "total_pago": 652117.22,
+  "fornecedores_pj": [
+   {
+    "cnpj": "48989015000150",
+    "nome": "VERO FILMES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 105000.0
+   },
+   {
+    "cnpj": "04986141000186",
+    "nome": "F7 COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "55789859000113",
+    "nome": "MW IMPRESSOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 56850.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "09570693000122",
+    "nome": "MG2 PUBLICIDADE E EVENTOS LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "17235307000174",
+    "nome": "DELANO CAVALCANTE DAS NEVES LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "38332354000106",
+    "nome": "FRANCO CORDEIRO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "52571738000102",
+    "nome": "P R V L FIRMINO CONFECCOES",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 6950.0
+   },
+   {
+    "cnpj": "32876089000140",
+    "nome": "AUTO POSTO TIGRE JANGADEIROS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 620.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 11000.0,
+   "por_tipo": {
+    "Despesas com pessoal": 11000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

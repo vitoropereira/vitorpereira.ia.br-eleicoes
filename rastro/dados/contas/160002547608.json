@@ -1,0 +1,178 @@
+{
+ "sq": "160002547608",
+ "nome_urna": "FÃO DO BOLSONARO",
+ "cargo": "depest",
+ "uf": "PR",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 221500.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 30000.0,
+   "Recursos de partido político": 110000.0,
+   "Recursos de pessoas físicas": 61500.0,
+   "Recursos próprios": 20000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 60000.0,
+   "FUNDO PARTIDARIO": 50000.0,
+   "OUTROS RECURSOS": 111500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 110000.0
+   },
+   {
+    "cnpj": "68464778000195",
+    "nome": "HENRIQUE ANTUNES MECABO",
+    "total": 30000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 81500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 73904.6,
+  "total_pago": 60268.6,
+  "fornecedores_pj": [
+   {
+    "cnpj": "55304415000140",
+    "nome": "A.P. B SILVA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23450.0
+   },
+   {
+    "cnpj": "81686156000170",
+    "nome": "MUTTER EMMA ADMINISTRACOES E PARTICIPACOES LTDA",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "39720139000145",
+    "nome": "VANESSA RIBEIRO",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "52894296000135",
+    "nome": "52.894.296 LUIZ CARLOS DE LIMA",
+    "cnae": "43215",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3965.0
+   },
+   {
+    "cnpj": "40141974000100",
+    "nome": "SUHAILA BEAL EL HASSANIEH - ADESIVOS",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2475.0
+   },
+   {
+    "cnpj": "26541312000104",
+    "nome": "26.541.312 MIRIAN BATALHA MOLETTA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 2415.0
+   },
+   {
+    "cnpj": "02296454000187",
+    "nome": "MIX SILVA LOCACOES E EVENTOS LTDA",
+    "cnae": "56121",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "31964006000102",
+    "nome": "MIDIA FLEX MX UNIFORMES LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "18385334000196",
+    "nome": "VALDIR ROSA",
+    "cnae": "43991",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 670.0
+   },
+   {
+    "cnpj": "78099264000131",
+    "nome": "DISTRIBUIDORA ESTRELA LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 74.5
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 6015.1,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 15.1,
+    "Serviços prestados por terceiros": 6000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

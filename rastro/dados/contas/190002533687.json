@@ -1,0 +1,155 @@
+{
+ "sq": "190002533687",
+ "nome_urna": "FELIPE TROPA",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 550487.5,
+  "por_origem": {
+   "Recursos de partido político": 550487.5
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 550487.5
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 550000.0
+   },
+   {
+    "cnpj": "08703299000152",
+    "nome": "Direção Estadual/Distrital - PL - RIO DE JANEIRO",
+    "total": 487.5
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 227832.77,
+  "total_pago": 200659.36,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "56690195000101",
+    "nome": "56.690.195 WALLACE BIZERRIL SOARES",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "63638307000132",
+    "nome": "63.638.307 LILIANE SOUZA MAGALHAES PEIXOTO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 11130.0
+   },
+   {
+    "cnpj": "26642855000100",
+    "nome": "CASTRO, VIEIRA E FERREIRA CONTADORES ELEITORAIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "13570097000624",
+    "nome": "CAMISA DIMONA E MALHAS LTDA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3794.4
+   },
+   {
+    "cnpj": "49811648000137",
+    "nome": "49.811.648 YAGO ALBUQUERQUE PASQUINI DE MELO",
+    "cnae": "47521",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "30625792000150",
+    "nome": "GREMIO RECREATIVO ESCOLA DE SAMBA LEAO DE IGUACU",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "40571741000147",
+    "nome": "LINO P. FERREIRA - BORDADOS LTDA",
+    "cnae": "13596",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 178.0
+   },
+   {
+    "cnpj": "34028316072449",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 149.37
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 68.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 21,
+   "total": 145013.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 30000.0,
+    "Despesas com pessoal": 96000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 13.0,
+    "Locação/cessão de bens imóveis": 7000.0,
+    "Serviços advocatícios": 12000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

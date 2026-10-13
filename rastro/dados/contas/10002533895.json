@@ -1,0 +1,141 @@
+{
+ "sq": "10002533895",
+ "nome_urna": "MARA ROCHA",
+ "cargo": "senador",
+ "uf": "AC",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2619996.8,
+  "por_origem": {
+   "Recursos de partido político": 2591996.8,
+   "Recursos de pessoas físicas": 28000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2591996.8,
+   "OUTROS RECURSOS": 28000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 2591996.8
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 10,
+   "total": 28000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 763580.0,
+  "total_pago": 407080.46,
+  "fornecedores_pj": [
+   {
+    "cnpj": "52144744000183",
+    "nome": "BRAZIL 61 COMUNICACAO, EVENTOS E INTERMEDIACOES LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "62892693000121",
+    "nome": "GDLP COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 147080.0
+   },
+   {
+    "cnpj": "39530429000126",
+    "nome": "ANDRIAS SARKIS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 140000.0
+   },
+   {
+    "cnpj": "40956759000167",
+    "nome": "T R D AGNOLO SOLUCOES EMPRESARIAIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 95000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "00529581000153",
+    "nome": "AUTO POSTO AMAPA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "03492648000200",
+    "nome": "J. MOURAO COMERCIO E TRANSPORTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "06906483000174",
+    "nome": "POSTO VILLAGE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "34800935000174",
+    "nome": "PROGRESSO COMERCIO DE COMBUSTIVEIS E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 800.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 76,
+   "total": 167700.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 43200.0,
+    "Cessão ou locação de veículos": 34500.0,
+    "Despesas com pessoal": 66000.0,
+    "Serviços prestados por terceiros": 24000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

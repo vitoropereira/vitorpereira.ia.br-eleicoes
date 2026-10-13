@@ -1,0 +1,189 @@
+{
+ "sq": "200002535730",
+ "nome_urna": "CINTHIA DE ALLYSON",
+ "cargo": "depest",
+ "uf": "RN",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1250000.0,
+  "por_origem": {
+   "Recursos de partido político": 1250000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1200000.0,
+   "OUTROS RECURSOS": 50000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 1200000.0
+   },
+   {
+    "cnpj": "46241842000136",
+    "nome": "Direção Estadual/Distrital - UNIÃO - RIO GRANDE DO NORTE",
+    "total": 50000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 624707.43,
+  "total_pago": 131025.29,
+  "fornecedores_pj": [
+   {
+    "cnpj": "49925441000193",
+    "nome": "2HC CRIATIVIDADE E PRODUCOES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "06948614000186",
+    "nome": "GRAFICA SUL EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 58450.0
+   },
+   {
+    "cnpj": "20912862000106",
+    "nome": "RIBEIRO BARBOSA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "22932155000107",
+    "nome": "TRANSFER - LOCADORA DE VEICULOS LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 37500.0
+   },
+   {
+    "cnpj": "09315775000120",
+    "nome": "ACM FUSION - COMUNICACAO VISUAL E GRAFICA RAPIDA LTDA",
+    "cnae": "18229",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 32815.0
+   },
+   {
+    "cnpj": "25534056000157",
+    "nome": "OVER CONTROL CONTADORES , AUDITORES E PERITOS ASSOCIADOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 17500.0
+   },
+   {
+    "cnpj": "35298330000432",
+    "nome": "JVC COMERCIAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10123.23
+   },
+   {
+    "cnpj": "52803786000189",
+    "nome": "MSR LL ALIMENTACOES LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "25188538000100",
+    "nome": "ESSENT INOVACAO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 7014.38
+   },
+   {
+    "cnpj": "54531760000154",
+    "nome": "INOVA PROMOCOES E SERVICOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 5100.0
+   },
+   {
+    "cnpj": "10873628000155",
+    "nome": "ZERO GRAU COMERCIO INDUSTRIA LTDA",
+    "cnae": "10996",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 2560.0
+   },
+   {
+    "cnpj": "36240640000116",
+    "nome": "SIDNEY DE PAIVA ROSA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 240.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 42,
+   "total": 235904.82,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 68162.19,
+    "Cessão ou locação de veículos": 36160.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.0,
+    "Locação/cessão de bens imóveis": 8000.0,
+    "Publicidade por carros de som": 90000.0,
+    "Serviços prestados por terceiros": 26581.63,
+    "Serviços próprios prestados por terceiros": 7000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

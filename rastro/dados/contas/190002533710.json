@@ -1,0 +1,89 @@
+{
+ "sq": "190002533710",
+ "nome_urna": "MARCELO DINO",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 477570.0,
+  "por_origem": {
+   "Recursos de partido político": 400000.0,
+   "Recursos de pessoas físicas": 71570.0,
+   "Recursos próprios": 6000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 400000.0,
+   "OUTROS RECURSOS": 77570.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 400000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 77570.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 122449.5,
+  "total_pago": 122449.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "44448899000185",
+    "nome": "FACTOR COMUNICACAO VISUAL LTDA",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26099.5
+   },
+   {
+    "cnpj": "31027012000133",
+    "nome": "PACK PAPER INDUSTRIA E COMERCIO DE EMBALAGENS LTDA",
+    "cnae": "17311",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "16862665000144",
+    "nome": "ANGELO FERREIRA MARTINS SOARES",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5350.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 4,
+   "total": 2000.0,
+   "por_tipo": {
+    "Despesas com pessoal": 2000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

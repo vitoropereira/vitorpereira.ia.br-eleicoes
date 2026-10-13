@@ -1,0 +1,389 @@
+{
+ "sq": "180002544106",
+ "nome_urna": "JADYEL",
+ "cargo": "depfed",
+ "uf": "PI",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1542679.72,
+  "por_origem": {
+   "Recursos de partido político": 1271979.72,
+   "Recursos de pessoas físicas": 133100.0,
+   "Recursos próprios": 137600.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1171979.72,
+   "FUNDO PARTIDARIO": 100000.0,
+   "OUTROS RECURSOS": 270700.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 1171979.72
+   },
+   {
+    "cnpj": "09011478000191",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - PIAUÍ",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 270700.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1274093.64,
+  "total_pago": 1336485.23,
+  "fornecedores_pj": [
+   {
+    "cnpj": "07817426000181",
+    "nome": "ADV/6 LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 330000.0
+   },
+   {
+    "cnpj": "06933485000152",
+    "nome": "HERINGER TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 225000.0
+   },
+   {
+    "cnpj": "52336957000107",
+    "nome": "JM INDUSTRIA DE EMBALAGENS E ROTULOS LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 135600.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 135000.0
+   },
+   {
+    "cnpj": "32292949000107",
+    "nome": "S C PRODUCOES E CONSULTORIA LTDA",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 121268.0
+   },
+   {
+    "cnpj": "66692915000113",
+    "nome": "JV EVENTOS E EMPREENDIMENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "58682743000179",
+    "nome": "ARAUJO E ALMEIDA ASSESSORIA CONTABIL-FINANCEIRA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 55000.0
+   },
+   {
+    "cnpj": "05821798000156",
+    "nome": "IDEAL SERVICOS GERAIS LTDA",
+    "cnae": "81214",
+    "n_despesas": 2,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 27985.12
+   },
+   {
+    "cnpj": "43054619000191",
+    "nome": "SPE CENTRO DE CONVENCOES DE TERESINA S/A",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "08596605000107",
+    "nome": "POSTO HOMERO CASTELO BRANCO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9869.77
+   },
+   {
+    "cnpj": "02418305000143",
+    "nome": "IMOBILIARIA ROCHA FILHO LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "23107879000170",
+    "nome": "CASTELO BRANCO ALIMENTOS LTDA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 5750.0
+   },
+   {
+    "cnpj": "06588222000153",
+    "nome": "SOCIEDADE CIVIL PICOENSE CLUBE",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3350.0
+   },
+   {
+    "cnpj": "58260351000111",
+    "nome": "PHB PLACES - GESTAO DE SHOPPINGS, CENTROS COMERCIAIS E BENS PROPRIOS LTDA.",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "06703805001150",
+    "nome": "V. MACHADO CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2131.89
+   },
+   {
+    "cnpj": "51404422000163",
+    "nome": "POSTO IDEAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1590.13
+   },
+   {
+    "cnpj": "40943743000110",
+    "nome": "INGAZEIRA COMERCIO DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1407.49
+   },
+   {
+    "cnpj": "10374518000149",
+    "nome": "POSTO SANTA LUCIA LTDA.",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 960.0
+   },
+   {
+    "cnpj": "30577520000122",
+    "nome": "J B MAGALHAES LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 750.01
+   },
+   {
+    "cnpj": "06715957000281",
+    "nome": "AUTO POSTO SAO CRISTOVAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 544.02
+   },
+   {
+    "cnpj": "06596928000167",
+    "nome": "PEDRO NERES DE BRITO",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 525.0
+   },
+   {
+    "cnpj": "06656656002863",
+    "nome": "CACIQUE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 496.01
+   },
+   {
+    "cnpj": "02992818000163",
+    "nome": "POSTO MARTINEZ LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 487.93
+   },
+   {
+    "cnpj": "66527768000126",
+    "nome": "POSTO VALENTIM SAO SEBASTIAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 465.04
+   },
+   {
+    "cnpj": "02705744000137",
+    "nome": "BARBARA NUNES BARBOSA SANTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 445.12
+   },
+   {
+    "cnpj": "10829312000247",
+    "nome": "NOVO DERIVADO DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 438.38
+   },
+   {
+    "cnpj": "28174487000148",
+    "nome": "WASHINGTON MARTINS DE ANDRADE",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 420.02
+   },
+   {
+    "cnpj": "52881735000175",
+    "nome": "POSTO CONFIANCA SJP LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 399.0
+   },
+   {
+    "cnpj": "41127689001250",
+    "nome": "CAMPLAST COMERCIO DE EMBALAGENS LTDA",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Materiais de expediente"
+    ],
+    "total": 361.54
+   },
+   {
+    "cnpj": "10465865000187",
+    "nome": "POSTO N. S. DAS GRACAS CIA. LTDA.",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 345.35
+   },
+   {
+    "cnpj": "14792624000284",
+    "nome": "POSTO DE COMBUSTIVEL COSTA NETO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 282.54
+   },
+   {
+    "cnpj": "06057223053887",
+    "nome": "SENDAS DISTRIBUIDORA S/A",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 216.28
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 7,
+   "total": 19005.0,
+   "por_tipo": {
+    "Despesas com pessoal": 4000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 5.0,
+    "Locação/cessão de bens imóveis": 8000.0,
+    "Serviços prestados por terceiros": 7000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

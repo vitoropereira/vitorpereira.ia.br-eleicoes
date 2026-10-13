@@ -1,0 +1,146 @@
+{
+ "sq": "50002537398",
+ "nome_urna": "MARIO NEGROMONTE JR",
+ "cargo": "depfed",
+ "uf": "BA",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2668000.0,
+  "por_origem": {
+   "Recursos de partido político": 2650000.0,
+   "Recursos de pessoas físicas": 18000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2500000.0,
+   "OUTROS RECURSOS": 168000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 2650000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 18000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2351461.0,
+  "total_pago": 2347127.3,
+  "fornecedores_pj": [
+   {
+    "cnpj": "67168797000101",
+    "nome": "DS GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 250900.0
+   },
+   {
+    "cnpj": "54829582000142",
+    "nome": "ATTA SERVICOS CO LTDA",
+    "cnae": "70204",
+    "n_despesas": 15,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 150270.0
+   },
+   {
+    "cnpj": "07798196000150",
+    "nome": "PEDREIRA E QUEIROZ ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "60306760000153",
+    "nome": "60.306.760 CARLOS JAVIER BENIELLI FILHO",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 48000.0
+   },
+   {
+    "cnpj": "07277960000142",
+    "nome": "W. L. FERNANDES LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 45640.0
+   },
+   {
+    "cnpj": "62390789000191",
+    "nome": "62.390.789 ICARO GUSTAVO MELO FALCON",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 38000.0
+   },
+   {
+    "cnpj": "08199054000130",
+    "nome": "LIMA CAJUHY COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 47,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 29688.0
+   },
+   {
+    "cnpj": "10665130000105",
+    "nome": "J CRUZ COMUNICACAO E PRODUCAO DE EVENTOS LTDA",
+    "cnae": "85996",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "05965880000154",
+    "nome": "R A COMERCIO SERVICOS E DISTRIBUICAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1350.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 193,
+   "total": 1726613.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 414000.0,
+    "Despesas com pessoal": 1293500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 113.0,
+    "Produção de jingles, vinhetas e slogans": 3000.0,
+    "Serviços contábeis": 16000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,179 @@
+{
+ "sq": "190002548279",
+ "nome_urna": "CARLOS RUSSO",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "DC",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 109752.03,
+  "por_origem": {
+   "Recursos de outros candidatos": 21316.5,
+   "Recursos de partido político": 805.73,
+   "Recursos de pessoas físicas": 86629.8,
+   "Recursos próprios": 1000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 109752.03
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68461628000128",
+    "nome": "WELLINGTON JOSE DA SILVA",
+    "total": 7687.5
+   },
+   {
+    "cnpj": "68441861000149",
+    "nome": "MARCOS ABRAHAO FILHO",
+    "total": 4759.0
+   },
+   {
+    "cnpj": "68441888000131",
+    "nome": "HUGO LEAL MELO DA SILVA",
+    "total": 3280.0
+   },
+   {
+    "cnpj": "68237596000181",
+    "nome": "SORAYA ALENCAR DOS SANTOS",
+    "total": 2745.0
+   },
+   {
+    "cnpj": "68461883000170",
+    "nome": "RENATO COZZOLINO HARB",
+    "total": 1487.5
+   },
+   {
+    "cnpj": "68315414000143",
+    "nome": "ELOI PEREIRA RAMALHO",
+    "total": 1357.5
+   },
+   {
+    "cnpj": "14705221000170",
+    "nome": "Direção Estadual/Distrital - PSD - RIO DE JANEIRO",
+    "total": 805.73
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 87629.8
+  }
+ },
+ "despesas": {
+  "total_contratado": 63711.8,
+  "total_pago": 17641.3,
+  "fornecedores_pj": [
+   {
+    "cnpj": "19339433000102",
+    "nome": "LAURO RABHA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "33163821000106",
+    "nome": "RONAN SENNA GOMES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "66753982000109",
+    "nome": "PRIME DESCARTAVEIS DE SAO GONCALO LTDA",
+    "cnae": "47598",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9300.0
+   },
+   {
+    "cnpj": "09308018000120",
+    "nome": "DEVAS CONTABILIDADE CONSULTIVA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "19753199000157",
+    "nome": "POWER PRINT GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5410.0
+   },
+   {
+    "cnpj": "23412180000114",
+    "nome": "EXACT INDUSTRIA E SERVICOS DE EMBALAGENS E ROTULOS LTDA",
+    "cnae": "17311",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4260.0
+   },
+   {
+    "cnpj": "27605095000123",
+    "nome": "BR GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3900.0
+   },
+   {
+    "cnpj": "03515960000182",
+    "nome": "INDUSTRIA GRAFICA E EDITORA FENIX LTDA",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3300.0
+   },
+   {
+    "cnpj": "26734660000190",
+    "nome": "JRP GRAFICA E EDITORA LTDA",
+    "cnae": "58298",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1289.8
+   },
+   {
+    "cnpj": "02928435000126",
+    "nome": "VICECONTE E TARDIN LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 250.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 2.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

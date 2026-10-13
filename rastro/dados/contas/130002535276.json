@@ -1,0 +1,324 @@
+{
+ "sq": "130002535276",
+ "nome_urna": "ANA PIMENTEL",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2960300.0,
+  "por_origem": {
+   "Recursos de partido político": 2830500.0,
+   "Recursos de pessoas físicas": 129800.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2830500.0,
+   "OUTROS RECURSOS": 129800.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 2830500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 17,
+   "total": 129800.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2445367.33,
+  "total_pago": 1864255.36,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "55149547000145",
+    "nome": "G2A2 COMERCIAL LTDA",
+    "cnae": "18229",
+    "n_despesas": 20,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 112975.0
+   },
+   {
+    "cnpj": "06114096000103",
+    "nome": "SCS INCORPORACAO,CONSULTORIA E EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 90000.0
+   },
+   {
+    "cnpj": "61593361000183",
+    "nome": "61.593.361 JOAO PAULO GALHARDO BRUM",
+    "cnae": "74200",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "33112946000107",
+    "nome": "GIGA COMUNICACAO E SOLUCOES INTERATIVAS LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 65000.0
+   },
+   {
+    "cnpj": "36440413000134",
+    "nome": "FLORADA COMUNICACAO DE IMPACTO LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "30610748000177",
+    "nome": "NILCEA FONSECA DA SILVA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27757.92
+   },
+   {
+    "cnpj": "51953241000196",
+    "nome": "UMA PETITE LTDA.",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 25390.0
+   },
+   {
+    "cnpj": "62016404000120",
+    "nome": "WS PRODUCOES E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16800.0
+   },
+   {
+    "cnpj": "16504870000138",
+    "nome": "GRAFICA SILVA LARA LTDA",
+    "cnae": "58298",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12788.0
+   },
+   {
+    "cnpj": "31372251000120",
+    "nome": "COMPLIANCE CONTABILIDADE ASSESSORIA EMPRESARIAL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "64574207000152",
+    "nome": "64.574.207 WANDERES FELONTA",
+    "cnae": "95118",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 10700.0
+   },
+   {
+    "cnpj": "09142549000195",
+    "nome": "REPCLYS SERVICOS GRAFICOS LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 6650.0
+   },
+   {
+    "cnpj": "21575972000184",
+    "nome": "POSTO CENTRO CHOFERES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6340.95
+   },
+   {
+    "cnpj": "39833493000186",
+    "nome": "39.833.493 FLAVIO VICTOR DAMIAO NOGUEIRA",
+    "cnae": "47890",
+    "n_despesas": 6,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha",
+     "Publicidade por adesivos"
+    ],
+    "total": 6100.0
+   },
+   {
+    "cnpj": "10559877000170",
+    "nome": "SEGURANCA NEGOCIOS IMOBILIARIOS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "38625286000173",
+    "nome": "MARLENE PENHA DA COSTA CARVALHO",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4990.0
+   },
+   {
+    "cnpj": "51655737000183",
+    "nome": "POSTO ECO OLEGARIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2758.5
+   },
+   {
+    "cnpj": "09264555000115",
+    "nome": "IMAGEM EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2630.0
+   },
+   {
+    "cnpj": "41330033000187",
+    "nome": "VILA RICA TEXTIL LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "27352915000112",
+    "nome": "POSTO PETROLUCK S LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1392.63
+   },
+   {
+    "cnpj": "09399481000124",
+    "nome": "INFOBICAS SOLUCOES EM INFORMATICA LTDA.",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1180.0
+   },
+   {
+    "cnpj": "34028316114036",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 957.33
+   },
+   {
+    "cnpj": "09596963000174",
+    "nome": "ACHEI DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "07079763000119",
+    "nome": "HUMBERTO WILLIAM BRIGHENTI MIRANDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 175.0
+   },
+   {
+    "cnpj": "06894519000147",
+    "nome": "IRMAOS BORBA PUBLICIDADE COMERCIO E SERVICOS LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 150.0
+   },
+   {
+    "cnpj": "25950254000100",
+    "nome": "R C MATOS LEITE",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 150.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1076,
+   "total": 1766282.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 48000.0,
+    "Despesas com pessoal": 1623059.5,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 272.5,
+    "Locação/cessão de bens imóveis": 91950.0,
+    "Serviços prestados por terceiros": 3000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

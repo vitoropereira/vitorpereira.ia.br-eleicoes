@@ -1,0 +1,266 @@
+{
+ "sq": "250002533664",
+ "nome_urna": "SIDNEY CRUZ",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3073496.1,
+  "por_origem": {
+   "Recursos de partido político": 2853896.1,
+   "Recursos de pessoas físicas": 199600.0,
+   "Recursos próprios": 20000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2853896.1,
+   "OUTROS RECURSOS": 219600.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 2850000.0
+   },
+   {
+    "cnpj": "45302874000131",
+    "nome": "Direção Estadual/Distrital - MDB - SÃO PAULO",
+    "total": 3896.1
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 12,
+   "total": 219600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 966494.82,
+  "total_pago": 728853.45,
+  "fornecedores_pj": [
+   {
+    "cnpj": "51847516000107",
+    "nome": "VOLARE IMPRESSAO TEXTIL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 238000.0
+   },
+   {
+    "cnpj": "35659497000139",
+    "nome": "GRAFICA NMC LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 132000.0
+   },
+   {
+    "cnpj": "07263666000181",
+    "nome": "BRASPOR GRAFICA E EDITORA LTDA.",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 128000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 122237.95
+   },
+   {
+    "cnpj": "44439001000102",
+    "nome": "COOPER POLI - COOPERATIVA DE TRABALHO DA INFRAESTRUTURA EMPRESARIAL",
+    "cnae": "78302",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 88806.6
+   },
+   {
+    "cnpj": "04639525000122",
+    "nome": "MALHEIROS, PENTEADO E TOLEDO - ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "53103933000170",
+    "nome": "GALACTICA PROCESSAMENTO E ASSESSORIA CONTABIL",
+    "cnae": "69206",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "46536035000140",
+    "nome": "VISAPACK SOLUCOES EM EMBALAGENS LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 28041.37
+   },
+   {
+    "cnpj": "50547058000128",
+    "nome": "POST MASTER COMERCIAL LTDA",
+    "cnae": "53105",
+    "n_despesas": 5,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 25181.8
+   },
+   {
+    "cnpj": "51714422000160",
+    "nome": "VIEIRA AUGUSTO ASSESSORIA DE MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "13219331000169",
+    "nome": "SEG LIFE GESTAO EM SEGURANCA PRIVADA LTDA",
+    "cnae": "80111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "48577205000160",
+    "nome": "TERRA SP LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "08886173000160",
+    "nome": "H. S. DE JESUS TRANSPORTE LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "69284677000103",
+    "nome": "TELE-POST-FAX-COMUNICACOES LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 8481.96
+   },
+   {
+    "cnpj": "68152404000134",
+    "nome": "ANMAK SERVICOS POSTAIS LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 7406.55
+   },
+   {
+    "cnpj": "11322994000189",
+    "nome": "TDLX4 - PARTICIPACOES E ADMINISTRACAO DE BENS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "45935766000104",
+    "nome": "ART G. PDV PRODUCOES GRAFICAS LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6400.0
+   },
+   {
+    "cnpj": "00257906000196",
+    "nome": "CORUM COMUNICACAO VISUAL LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3656.59
+   },
+   {
+    "cnpj": "41764130000188",
+    "nome": "ROTA GRAFICA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1070.0
+   },
+   {
+    "cnpj": "18649169000132",
+    "nome": "CODAM INDUSTRIAL LTDA",
+    "cnae": "13596",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "07293492000108",
+    "nome": "A2COLORS COMUNICACAO VISUAL LTDA",
+    "cnae": "47415",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 252.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 6,
+   "total": 29210.0,
+   "por_tipo": {
+    "Despesas com pessoal": 22200.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 10.0,
+    "Locação/cessão de bens imóveis": 7000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

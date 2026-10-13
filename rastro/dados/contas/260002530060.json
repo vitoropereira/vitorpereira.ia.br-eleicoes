@@ -1,0 +1,143 @@
+{
+ "sq": "260002530060",
+ "nome_urna": "NORBERTO PINTO",
+ "cargo": "depest",
+ "uf": "SE",
+ "partido": "AVANTE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 140639.3,
+  "por_origem": {
+   "Recursos de pessoas físicas": 140639.3
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 140639.3
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 14,
+   "total": 140639.3
+  }
+ },
+ "despesas": {
+  "total_contratado": 44520.99,
+  "total_pago": 41525.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "11917599000149",
+    "nome": "ECONTABIL CONSULTORIA E ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "13018148000103",
+    "nome": "IATE CLUBE DE ARACAJU",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "28221832000157",
+    "nome": "HDS SOLUCOES GRAFICAS LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5250.0
+   },
+   {
+    "cnpj": "13362611000121",
+    "nome": "CCCR COMERCIO E CONSTRUCOES LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "22847840000127",
+    "nome": "DIVINO EMPREENDIMENTOS E SERVICOS LTDA",
+    "cnae": "71120",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "50883911000182",
+    "nome": "50.883.911 SAMUEL NASCIMENTO DOS SANTOS",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "68720676000193",
+    "nome": "68.720.676 LUIZ ADELSON GONZAGA DA SILVA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "46052617000151",
+    "nome": "HUB SERGIPE - MUSICA, CULTURA E CRIATIVIDADE LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "38595030000160",
+    "nome": "38.595.030 NICOLE BISPO DE ALCANTARA SANTOS",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "32864795000920",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 224.99
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 5,
+   "total": 5146.0,
+   "por_tipo": {
+    "Despesas com pessoal": 2000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 125.0,
+    "Produção de jingles, vinhetas e slogans": 1400.0,
+    "Serviços advocatícios": 1621.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

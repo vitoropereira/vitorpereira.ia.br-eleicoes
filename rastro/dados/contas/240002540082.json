@@ -1,0 +1,383 @@
+{
+ "sq": "240002540082",
+ "nome_urna": "PADRE PEDRO",
+ "cargo": "depest",
+ "uf": "SC",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 514450.0,
+  "por_origem": {
+   "Recursos de partido político": 265500.0,
+   "Recursos de pessoas físicas": 122950.0,
+   "Recursos próprios": 126000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 265500.0,
+   "OUTROS RECURSOS": 248950.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 27,
+   "total": 248950.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 470316.54,
+  "total_pago": 478633.34,
+  "fornecedores_pj": [
+   {
+    "cnpj": "04137442000135",
+    "nome": "GL EDITORA GRAFICA LTDA",
+    "cnae": "58212",
+    "n_despesas": 17,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 114471.97
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "14481919000159",
+    "nome": "LIRA CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "00151846000122",
+    "nome": "MEGAM NEGOCIOS EMPRESARIAIS E IMOBILIARIOS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "37146721000114",
+    "nome": "A A MAINARDES LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7320.0
+   },
+   {
+    "cnpj": "00376885000128",
+    "nome": "POSTO BERTAMONI LTDA",
+    "cnae": "47318",
+    "n_despesas": 34,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7317.88
+   },
+   {
+    "cnpj": "65155827000110",
+    "nome": "65.155.827 RAFAELA CANELLO CAPRA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6400.0
+   },
+   {
+    "cnpj": "37345982000163",
+    "nome": "AR UNIFORMES LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5800.0
+   },
+   {
+    "cnpj": "95803623000109",
+    "nome": "ABASTECEDORA KLEIN LTDA",
+    "cnae": "47318",
+    "n_despesas": 23,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5625.92
+   },
+   {
+    "cnpj": "27533651000101",
+    "nome": "27.533.651 ANDRE LUIZ SILVA",
+    "cnae": "53202",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "48830980000186",
+    "nome": "48.830.980 CAMILLY BITTENCOURT LOPES",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "12424988000103",
+    "nome": "IGC - INDUSTRIA GRAFICA CATARINENSE LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3400.0
+   },
+   {
+    "cnpj": "42581597000155",
+    "nome": "POSTMIX SERVICOS E SOLUCOES GRAFICAS LTDA",
+    "cnae": "18211",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2960.0
+   },
+   {
+    "cnpj": "10842344000100",
+    "nome": "LOQ LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2420.0
+   },
+   {
+    "cnpj": "15573084000120",
+    "nome": "CHRISTIANO MARQUES",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "30839296000108",
+    "nome": "MACAN EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1700.0
+   },
+   {
+    "cnpj": "45463870000135",
+    "nome": "ID PRODUCAO MUSICAL LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "07368633000104",
+    "nome": "FOLHA DESBRAVADOR EDITORA JORNALISTICA LTDA",
+    "cnae": "58221",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "22402670000177",
+    "nome": "DIARIO DV COMUNICACAO LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1370.0
+   },
+   {
+    "cnpj": "01114830000102",
+    "nome": "EDITORA JORNALISTICA NOVOESTE LTDA",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1275.0
+   },
+   {
+    "cnpj": "10413042000108",
+    "nome": "KLAGENBERG KLAGENBERG LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1034.0
+   },
+   {
+    "cnpj": "00428307000198",
+    "nome": "EXPRESSO SAO MIGUEL S/A",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 957.0
+   },
+   {
+    "cnpj": "07628182000199",
+    "nome": "INTEGRADATUR TRANSPORTE DE PASSAGEIROS LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "08657922000188",
+    "nome": "EMPRESA JORNALISTICA JORNAL EXPRESSAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "43702140000114",
+    "nome": "AMANDA DUARTE EVENTOS E IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "83932343006586",
+    "nome": "MITRA METROPOLITANA DE FLORIANOPOLIS",
+    "cnae": "94910",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "17716351000104",
+    "nome": "EUKALIPTUS GRAFICA E EDITORA LTDA.",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 480.0
+   },
+   {
+    "cnpj": "04176082000180",
+    "nome": "REUNIDAS TRANSPORTES S.A",
+    "cnae": "49221",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 152.89
+   },
+   {
+    "cnpj": "82563891000159",
+    "nome": "EMPRESA UNIAO DE TRANSPORTE LIMITADA",
+    "cnae": "49221",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 110.0
+   },
+   {
+    "cnpj": "10310424000106",
+    "nome": "R.N ATACADO E VAREJO LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 39.0
+   },
+   {
+    "cnpj": "73881997000100",
+    "nome": "VIRTUAL SERVICOS POSTAIS LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 2.78
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 54,
+   "total": 139780.1,
+   "por_tipo": {
+    "Despesas com pessoal": 117350.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 80.1,
+    "Locação/cessão de bens imóveis": 1850.0,
+    "Serviços advocatícios": 16000.0,
+    "Serviços prestados por terceiros": 4500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

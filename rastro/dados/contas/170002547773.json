@@ -1,0 +1,250 @@
+{
+ "sq": "170002547773",
+ "nome_urna": "HUMBERTO COSTA",
+ "cargo": "senador",
+ "uf": "PE",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3925147.73,
+  "por_origem": {
+   "Doações pela Internet": 3000.0,
+   "Recursos de partido político": 3585767.47,
+   "Recursos de pessoas físicas": 296380.26,
+   "Recursos próprios": 40000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3223600.77,
+   "FUNDO PARTIDARIO": 2166.7,
+   "OUTROS RECURSOS": 699380.26
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 3223600.77
+   },
+   {
+    "cnpj": "08089633000120",
+    "nome": "Direção Estadual/Distrital - PT - PERNAMBUCO",
+    "total": 362166.7
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 33,
+   "total": 339380.26
+  }
+ },
+ "despesas": {
+  "total_contratado": 3272581.51,
+  "total_pago": 3505992.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "15787024000100",
+    "nome": "MEDIA STEAK PRODUCOES LTDA.",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "37874679000158",
+    "nome": "9CR LIVE - STREAMING MEDIA LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 550000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 30,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 450000.0
+   },
+   {
+    "cnpj": "53402967000166",
+    "nome": "FABIO DE SOUZA LIMA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "42427420000107",
+    "nome": "PAULO ROBERTO DE SANTANA SILVA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 137025.0
+   },
+   {
+    "cnpj": "08540403000135",
+    "nome": "GRAFICA J B LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 118400.0
+   },
+   {
+    "cnpj": "11038639000182",
+    "nome": "CONECTE SOLUCOES CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "42977715000149",
+    "nome": "P F DE MELO - RESTAURANTE",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 48400.0
+   },
+   {
+    "cnpj": "23936858000168",
+    "nome": "MAURICIO DE A MEDEIROS",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "21271463000168",
+    "nome": "C R DE FARIAS RODRIGUES LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 28750.0
+   },
+   {
+    "cnpj": "09798307000154",
+    "nome": "SERVICAR S/A",
+    "cnae": "47318",
+    "n_despesas": 88,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 24858.39
+   },
+   {
+    "cnpj": "02355633000148",
+    "nome": "A.B.S. - TRANSPORTES E TURISMO LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 22083.5
+   },
+   {
+    "cnpj": "13392325000109",
+    "nome": "BCA PRODUCAO E DISTRIBUICAO DE FILMES LTDA",
+    "cnae": "59111",
+    "n_despesas": 3,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 21590.0
+   },
+   {
+    "cnpj": "03881176000198",
+    "nome": "ESTUDIO AUDIO VISUAL LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "03892344000140",
+    "nome": "MALHARIA ATLANTICO LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5990.0
+   },
+   {
+    "cnpj": "01838726000160",
+    "nome": "S B LOCACOES DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3750.0
+   },
+   {
+    "cnpj": "00132888000116",
+    "nome": "ZOOTROPIO LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "20664790000117",
+    "nome": "AMASV ZARPA TRANSMISSAO E ARMAZENAMENTO DE DADOS S.A.",
+    "cnae": "63119",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 360.0
+   },
+   {
+    "cnpj": "35603307000161",
+    "nome": "CCS GRAFICA E EDITORA COMERCIO E SERVICOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 360.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 214,
+   "total": 464014.62,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 333651.57,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 171.0,
+    "Serviços prestados por terceiros": 130192.05
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

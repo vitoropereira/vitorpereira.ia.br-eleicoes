@@ -1,0 +1,83 @@
+{
+ "sq": "190002534708",
+ "nome_urna": "COSTENARO",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "NOVO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 421300.5,
+  "por_origem": {
+   "Recursos de partido político": 421300.5
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 204000.0,
+   "FUNDO PARTIDARIO": 167300.5,
+   "OUTROS RECURSOS": 50000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13405866000124",
+    "nome": "Direção Nacional - NOVO",
+    "total": 370000.0
+   },
+   {
+    "cnpj": "26392728000108",
+    "nome": "Direção Estadual/Distrital - NOVO - RIO DE JANEIRO",
+    "total": 51300.5
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 97001.0,
+  "total_pago": 101301.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 10,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 94000.0
+   },
+   {
+    "cnpj": "02495060000158",
+    "nome": "IMPRINT 2001 GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "58976977000129",
+    "nome": "58.976.977 TULIO FEROLLA DURSO NETTO",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 1000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 1.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

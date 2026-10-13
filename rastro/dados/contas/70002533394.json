@@ -1,0 +1,174 @@
+{
+ "sq": "70002533394",
+ "nome_urna": "MAX MACIEL",
+ "cargo": "distrital",
+ "uf": "DF",
+ "partido": "PSOL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1112721.65,
+  "por_origem": {
+   "Recursos de outros candidatos": 5729.0,
+   "Recursos de partido político": 1094392.65,
+   "Recursos de pessoas físicas": 12600.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1100121.65,
+   "OUTROS RECURSOS": 12600.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "06954942000195",
+    "nome": "Direção Nacional - PSOL",
+    "total": 990000.0
+   },
+   {
+    "cnpj": "08678505000111",
+    "nome": "Direção Estadual/Distrital - PSOL - DISTRITO FEDERAL",
+    "total": 104392.65
+   },
+   {
+    "cnpj": "68266952000195",
+    "nome": "FABIO FELIX SILVEIRA",
+    "total": 5729.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 12600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 706131.6,
+  "total_pago": 621041.84,
+  "fornecedores_pj": [
+   {
+    "cnpj": "33589664000197",
+    "nome": "CIA DO FILME PRODUCOES AUDIOVISUAIS LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 90000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "07713424000142",
+    "nome": "FICXAR COMUNICACAO LTDA",
+    "cnae": "18229",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30452.0
+   },
+   {
+    "cnpj": "29300543000106",
+    "nome": "MELO MESQUITA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "31299838000151",
+    "nome": "VALBERTO SILVA DE ALMEIDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Segurança e prevenção, repressão e combate à violência política"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "27189211000170",
+    "nome": "SALACORP DESIGN DE SOLUCOES LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "00331066000164",
+    "nome": "LOCABRAS LOCADORA BRASILIA DE VEICULOS LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6052.8
+   },
+   {
+    "cnpj": "00306597000105",
+    "nome": "CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "22766525000175",
+    "nome": "J. W. DO R. SANTOS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "59057115000165",
+    "nome": "59.057.115 RAVEL ALMEIDA DA SILVA ALVES",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "45783162000181",
+    "nome": "PRINTF IMPRESSAO LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 490.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 127,
+   "total": 449136.8,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 343662.5,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 99.3,
+    "Locação/cessão de bens imóveis": 17000.0,
+    "Produção de jingles, vinhetas e slogans": 2000.0,
+    "Serviços prestados por terceiros": 76375.0,
+    "Serviços próprios prestados por terceiros": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,153 @@
+{
+ "sq": "250002538908",
+ "nome_urna": "KEIT LIMA",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PSOL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1108772.71,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 25257.0,
+   "Recursos de outros candidatos": 84392.5,
+   "Recursos de partido político": 814474.81,
+   "Recursos de pessoas físicas": 153500.0,
+   "Recursos próprios": 31148.4
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 898389.81,
+   "OUTROS RECURSOS": 210382.9
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "06954942000195",
+    "nome": "Direção Nacional - PSOL",
+    "total": 813710.23
+   },
+   {
+    "cnpj": "68437936000118",
+    "nome": "RAFAEL PACHECO ALQUEZAR",
+    "total": 62115.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 25257.0
+   },
+   {
+    "cnpj": "68438131000199",
+    "nome": "MARLON JACINTO REIS",
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68437291000113",
+    "nome": "JULIANO MEDEIROS",
+    "total": 1800.0
+   },
+   {
+    "cnpj": "08745772000164",
+    "nome": "Direção Estadual/Distrital - PSOL - SÃO PAULO",
+    "total": 764.58
+   },
+   {
+    "cnpj": "68373118000107",
+    "nome": "PAULO BATISTA DOS REIS",
+    "total": 477.5
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 21,
+   "total": 184648.4
+  }
+ },
+ "despesas": {
+  "total_contratado": 221073.96,
+  "total_pago": 190300.29,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "56385884000102",
+    "nome": "VITOR MEDEIROS DE LUCENA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 29118.0
+   },
+   {
+    "cnpj": "43673073000157",
+    "nome": "V T AQUINO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6570.0
+   },
+   {
+    "cnpj": "65282102000192",
+    "nome": "PRIVATTI CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "46830478000140",
+    "nome": "UNINOTE SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 630.96
+   },
+   {
+    "cnpj": "05116214000141",
+    "nome": "JOSE ADILSON SOARES MODAS",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 370.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 26,
+   "total": 79385.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 28935.0,
+    "Despesas com pessoal": 40450.0,
+    "Locação/cessão de bens imóveis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

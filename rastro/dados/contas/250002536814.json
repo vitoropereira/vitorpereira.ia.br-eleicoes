@@ -1,0 +1,169 @@
+{
+ "sq": "250002536814",
+ "nome_urna": "THAINARA FARIA",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1133300.0,
+  "por_origem": {
+   "Recursos de partido político": 1105000.0,
+   "Recursos de pessoas físicas": 5300.0,
+   "Recursos próprios": 23000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1065000.0,
+   "OUTROS RECURSOS": 68300.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1065000.0
+   },
+   {
+    "cnpj": "51827566000122",
+    "nome": "Direção Municipal/Comissão Provisória - PT - ARARAQUARA - SP",
+    "total": 40000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 28300.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 873824.96,
+  "total_pago": 382774.94,
+  "fornecedores_pj": [
+   {
+    "cnpj": "04325991000133",
+    "nome": "SILKGRAF INDUSTRIA GRAFICA LTDA",
+    "cnae": "18229",
+    "n_despesas": 15,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 76063.67
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "60496721000166",
+    "nome": "LRS COMUNICACAO E CONSULTORIA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68124975000165",
+    "nome": "N.C.A. CONSULTORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "06303692000123",
+    "nome": "JAMIL NASCIMENTO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "15168386000112",
+    "nome": "REZENDE TRANSPORTE E LOCACAO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 11405.0
+   },
+   {
+    "cnpj": "29634115000110",
+    "nome": "29.634.115 SHEILA CARDOSO DE FREITAS",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 6800.0
+   },
+   {
+    "cnpj": "39476896000115",
+    "nome": "39.476.896 MARLENE MERUSSI",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 4848.0
+   },
+   {
+    "cnpj": "64125101000171",
+    "nome": "64.125.101 LIVIA SARAH STIN MIGUEL",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "03095948000166",
+    "nome": "GRAFICA SAO JUDAS TADEU DE ARARAQUARA LTDA",
+    "cnae": "17419",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "12253455000106",
+    "nome": "JUNQUEIRA PAO CASEIRO LTDA",
+    "cnae": "10911",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 230,
+   "total": 564708.29,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 340.0,
+    "Despesas com pessoal": 557485.02,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 100.0,
+    "Locação/cessão de bens imóveis": 6583.27,
+    "Produção de jingles, vinhetas e slogans": 200.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,244 @@
+{
+ "sq": "160002542314",
+ "nome_urna": "BETO PRETO",
+ "cargo": "depfed",
+ "uf": "PR",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2429428.0,
+  "por_origem": {
+   "Recursos de partido político": 2362750.0,
+   "Recursos de pessoas físicas": 66678.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1500000.0,
+   "OUTROS RECURSOS": 929428.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 1500000.0
+   },
+   {
+    "cnpj": "14512048000193",
+    "nome": "Direção Estadual/Distrital - PSD - PARANÁ",
+    "total": 862750.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 66678.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1090654.6,
+  "total_pago": 1207819.58,
+  "fornecedores_pj": [
+   {
+    "cnpj": "09490331000121",
+    "nome": "MAX D COMUNICACAO LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 170000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 157915.0
+   },
+   {
+    "cnpj": "29077139000115",
+    "nome": "R L SUBLIMACAO LTDA",
+    "cnae": "13405",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 133726.0
+   },
+   {
+    "cnpj": "05142531000132",
+    "nome": "KNACK E SANTOS LTDA",
+    "cnae": "62091",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 125655.6
+   },
+   {
+    "cnpj": "85057529000102",
+    "nome": "HELLOGRAF ARTES GRAFICAS LTDA",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 125164.0
+   },
+   {
+    "cnpj": "03758336000106",
+    "nome": "GRAFINORTE INDUSTRIA GRAFICA LTDA.",
+    "cnae": "58221",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 107982.5
+   },
+   {
+    "cnpj": "27614664000105",
+    "nome": "BUENO ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "30640599000199",
+    "nome": "DIGITAL NORTE IMPRESSOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "22602139000148",
+    "nome": "COLORINK COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18340.0
+   },
+   {
+    "cnpj": "22543015000139",
+    "nome": "IMOVEIS AGALLI LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "34028316443285",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 15636.5
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 14072.85
+   },
+   {
+    "cnpj": "29552785000197",
+    "nome": "HENRIQUE LOBO CHIAROTTI",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "17405428000117",
+    "nome": "FENIX MIDIAS ALTERNATIVAS LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 6678.0
+   },
+   {
+    "cnpj": "16804425000193",
+    "nome": "DISTRIBUIDORA LILIAN LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6250.0
+   },
+   {
+    "cnpj": "95397790000105",
+    "nome": "ALBERTI COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2000.06
+   },
+   {
+    "cnpj": "05048982000105",
+    "nome": "AUTO POSTO JACARE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 556.09
+   },
+   {
+    "cnpj": "05763176000119",
+    "nome": "CLAYTON BURGATH - JORNAL E PORTAL DE NOTICIAS LTDA",
+    "cnae": "63917",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 11178.0,
+   "por_tipo": {
+    "Locação/cessão de bens imóveis": 4500.0,
+    "Publicidade por jornais e revistas": 6678.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

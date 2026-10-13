@@ -1,0 +1,354 @@
+{
+ "sq": "210002539810",
+ "nome_urna": "EDUARDO LOUREIRO",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PDT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 634000.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 290000.0,
+   "Recursos de partido político": 250000.0,
+   "Recursos de pessoas físicas": 90500.0,
+   "Recursos próprios": 3500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 330000.0,
+   "FUNDO PARTIDARIO": 210000.0,
+   "OUTROS RECURSOS": 94000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00719575000169",
+    "nome": "Direção Nacional - PDT",
+    "total": 250000.0
+   },
+   {
+    "cnpj": "68373576000138",
+    "nome": "JACQUES GONCALVES BARBOSA",
+    "total": 210000.0
+   },
+   {
+    "cnpj": "68373310000195",
+    "nome": "AFONSO ANTUNES DA MOTTA",
+    "total": 80000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 94000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 628445.96,
+  "total_pago": 373205.57,
+  "fornecedores_pj": [
+   {
+    "cnpj": "15115234000151",
+    "nome": "SPEED PROMOCIONAL INDUSTRIA DE BRINDES LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 29285.0
+   },
+   {
+    "cnpj": "06697516000113",
+    "nome": "GRAFICA E EDITORA ADHARA LTDA",
+    "cnae": "58221",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25355.0
+   },
+   {
+    "cnpj": "39158679000187",
+    "nome": "GUSTAVO ECCHER LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 19497.94
+   },
+   {
+    "cnpj": "23285134000100",
+    "nome": "AUTOSUL LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5400.0
+   },
+   {
+    "cnpj": "92892256000179",
+    "nome": "MBM PREVIDENCIA COMPLEMENTAR",
+    "cnae": "65421",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4585.63
+   },
+   {
+    "cnpj": "00885458000175",
+    "nome": "KS AUTO LOCADORA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4400.0
+   },
+   {
+    "cnpj": "08263805000130",
+    "nome": "JOSE ROBERTO PEIXOTO SOARES",
+    "cnae": "82199",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "02118988000113",
+    "nome": "LM GRAFICA E EDITORA LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2775.0
+   },
+   {
+    "cnpj": "02054848000129",
+    "nome": "LUIS GUSTAVO BERNICKER",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2700.0
+   },
+   {
+    "cnpj": "19850393000150",
+    "nome": "DANIELI DE ALMEIDA PORTO LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "92660760000143",
+    "nome": "VEPPO CIA LIMITADA",
+    "cnae": "79902",
+    "n_despesas": 15,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1138.0
+   },
+   {
+    "cnpj": "95425369000152",
+    "nome": "COMERCIO DE COMBUSTIVEIS NEVOEIRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 965.97
+   },
+   {
+    "cnpj": "26244006000106",
+    "nome": "GRAFICA JVR LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 790.0
+   },
+   {
+    "cnpj": "91411256000147",
+    "nome": "SANDER COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 728.73
+   },
+   {
+    "cnpj": "23448964000879",
+    "nome": "MP POSTOS E LOGISTICA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 548.51
+   },
+   {
+    "cnpj": "67217857000139",
+    "nome": "THOMAS LAURI GLASER",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 525.0
+   },
+   {
+    "cnpj": "20790493000118",
+    "nome": "L M RECORTES E SINALIZACAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 444.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "31218545000100",
+    "nome": "COMERCIAL DE COMBUSTIVEIS MARGARIDA DO SUL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 271.43
+   },
+   {
+    "cnpj": "23981809000147",
+    "nome": "POSTO IBP COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 271.21
+   },
+   {
+    "cnpj": "93489243000116",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 266.7
+   },
+   {
+    "cnpj": "17844042000101",
+    "nome": "AUTO POSTO SAGRADA FAMILIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 262.01
+   },
+   {
+    "cnpj": "07473735000181",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 257.74
+   },
+   {
+    "cnpj": "97663728005790",
+    "nome": "COOPERATIVA TRITICOLA TAPERENSE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 257.34
+   },
+   {
+    "cnpj": "02558109000174",
+    "nome": "COMERCIO DE COMBUSTIVEIS FLORESTAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 246.86
+   },
+   {
+    "cnpj": "24934419000260",
+    "nome": "POSTO ROSINHA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 243.65
+   },
+   {
+    "cnpj": "04144661000141",
+    "nome": "RHRISS COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 237.92
+   },
+   {
+    "cnpj": "95425369000667",
+    "nome": "COMERCIO DE COMBUSTIVEIS NEVOEIRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 215.16
+   },
+   {
+    "cnpj": "42078082000137",
+    "nome": "AUTO POSTO AVENIDA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 177.16
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 118,
+   "total": 520800.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 24800.0,
+    "Despesas com pessoal": 486000.0,
+    "Locação/cessão de bens imóveis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

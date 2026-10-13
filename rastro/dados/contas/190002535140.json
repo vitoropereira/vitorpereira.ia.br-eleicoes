@@ -1,0 +1,244 @@
+{
+ "sq": "190002535140",
+ "nome_urna": "THIAGO GAGLIASSO",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1550000.0,
+  "por_origem": {
+   "Recursos de partido político": 1500000.0,
+   "Recursos de pessoas físicas": 50000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1500000.0,
+   "OUTROS RECURSOS": 50000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1500000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 50000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 491106.08,
+  "total_pago": 829314.33,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "42557654000160",
+    "nome": "42.557.654 SIDNEI BOQUIMPANI SOUZA",
+    "cnae": "18211",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 62500.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "38216536000111",
+    "nome": "AGITO GERAL ENTRETENIMENTO LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 28400.0
+   },
+   {
+    "cnpj": "26312379000169",
+    "nome": "L MAFFEI LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "59130714000167",
+    "nome": "IADAS COMERCIO E SERVICOS LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "14021861000160",
+    "nome": "14.021.861 MARCELO PACHECO DE SOUZA",
+    "cnae": "49299",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos",
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 14600.0
+   },
+   {
+    "cnpj": "28594826000145",
+    "nome": "ARQPRINT REPROGRAFIA LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10747.7
+   },
+   {
+    "cnpj": "02495060000158",
+    "nome": "IMPRINT 2001 GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4410.0
+   },
+   {
+    "cnpj": "33294795000147",
+    "nome": "ARTUR DE AZEVEDO GONCALVES",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3300.0
+   },
+   {
+    "cnpj": "47257302000103",
+    "nome": "RIMA IMPRESSOS GRAFICOS EM GERAL LTDA",
+    "cnae": "53202",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "26669170000157",
+    "nome": "123 VIAGENS E TURISMO LTDA EM RECUPERACAO JUDICIAL",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Passagem Aérea"
+    ],
+    "total": 2321.2
+   },
+   {
+    "cnpj": "19701354000191",
+    "nome": "COPYCENTRAL SERVICOS DIGITAIS LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1900.0
+   },
+   {
+    "cnpj": "29068280000151",
+    "nome": "IDENTFIX SERIGRAFIA E IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 950.0
+   },
+   {
+    "cnpj": "51669121000161",
+    "nome": "RJ ALVES PRODUCAO GRAFICA E IMPRESSAO DIGITAL LTDA",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 725.0
+   },
+   {
+    "cnpj": "13570097000462",
+    "nome": "CAMISA DIMONA E MALHAS LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 707.0
+   },
+   {
+    "cnpj": "31500821000110",
+    "nome": "RZ COMUNICACAO VISUAL E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "33304981002325",
+    "nome": "SUPERMERCADOS MUNDIAL LTDA",
+    "cnae": "47113",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação",
+     "Água"
+    ],
+    "total": 311.28
+   },
+   {
+    "cnpj": "43283811015696",
+    "nome": "KALUNGA SA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 83.9
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 29,
+   "total": 44350.0,
+   "por_tipo": {
+    "Despesas com pessoal": 15350.0,
+    "Locação/cessão de bens imóveis": 16000.0,
+    "Serviços contábeis": 9000.0,
+    "Serviços prestados por terceiros": 4000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,115 @@
+{
+ "sq": "250002536384",
+ "nome_urna": "EDUARDA CAMPOPIANO",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 755187.79,
+  "por_origem": {
+   "Recursos de outros candidatos": 25000.0,
+   "Recursos de partido político": 712812.79,
+   "Recursos de pessoas físicas": 17375.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 725000.0,
+   "FUNDO PARTIDARIO": 5579.06,
+   "OUTROS RECURSOS": 24608.73
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 700000.0
+   },
+   {
+    "cnpj": "68353165000180",
+    "nome": "LUCAS PAVANATO DE OLIVEIRA",
+    "total": 25000.0
+   },
+   {
+    "cnpj": "08701595000114",
+    "nome": "Direção Estadual/Distrital - PL - SÃO PAULO",
+    "total": 12812.79
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 12,
+   "total": 17375.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 588978.21,
+  "total_pago": 611911.21,
+  "fornecedores_pj": [
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 10,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 315000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 85000.0
+   },
+   {
+    "cnpj": "36163490000194",
+    "nome": "BESTPACK DO BRASIL LTDA",
+    "cnae": "82199",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesas com pessoal",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13180.0
+   },
+   {
+    "cnpj": "34028316140894",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 1115.01
+   },
+   {
+    "cnpj": "30833253000107",
+    "nome": "D. ITIUBA INSTALACOES METALICAS LTDA",
+    "cnae": "43304",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 820.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 48,
+   "total": 173863.2,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 94300.0,
+    "Despesas com pessoal": 54200.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 263.2,
+    "Locação/cessão de bens imóveis": 25100.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

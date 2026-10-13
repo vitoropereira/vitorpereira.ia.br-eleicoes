@@ -1,0 +1,306 @@
+{
+ "sq": "190002538029",
+ "nome_urna": "CLAUDIO CAIADO",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 840697.57,
+  "por_origem": {
+   "Recursos de outros candidatos": 283.0,
+   "Recursos de partido político": 250414.57,
+   "Recursos de pessoas físicas": 590000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 240283.0,
+   "OUTROS RECURSOS": 600414.57
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 240000.0
+   },
+   {
+    "cnpj": "14705221000170",
+    "nome": "Direção Estadual/Distrital - PSD - RIO DE JANEIRO",
+    "total": 10414.57
+   },
+   {
+    "cnpj": "68441881000110",
+    "nome": "DANIEL RICARDO SORANZ PINTO",
+    "total": 283.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 25,
+   "total": 590000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 784905.18,
+  "total_pago": 372815.08,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 65000.0
+   },
+   {
+    "cnpj": "36260269000154",
+    "nome": "CAR SERVICE LOGISTICA E EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 42750.0
+   },
+   {
+    "cnpj": "07570881000125",
+    "nome": "SIGN COMERCIO EPLOTAGEM DIGITAL LTDA",
+    "cnae": "82199",
+    "n_despesas": 29,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 34480.0
+   },
+   {
+    "cnpj": "26642855000100",
+    "nome": "CASTRO, VIEIRA E FERREIRA CONTADORES ELEITORAIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 27924.0
+   },
+   {
+    "cnpj": "04089573000194",
+    "nome": "INOVA PRINT GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26198.8
+   },
+   {
+    "cnpj": "36310065000180",
+    "nome": "ARAUJO, MARTINS E VIEIRA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "38614397000184",
+    "nome": "UOU PRODUCOES ARTISTICAS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "31279134000117",
+    "nome": "MAKEF MARKETING DIGITAL E IMPRESSOS LTDA",
+    "cnae": "43291",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14200.0
+   },
+   {
+    "cnpj": "58019101000194",
+    "nome": "FOURM ASSESSORIA EM MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4800.0
+   },
+   {
+    "cnpj": "53842644000193",
+    "nome": "ERIC LABES IMOVEIS SA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4200.0
+   },
+   {
+    "cnpj": "06340575000130",
+    "nome": "MAVIMIXA DE SIVOS DE CORATIVOS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3729.0
+   },
+   {
+    "cnpj": "05298154000125",
+    "nome": "WINDSOR BARRA HOTEL S/A",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 2994.2
+   },
+   {
+    "cnpj": "67613260000103",
+    "nome": "URBAN PRINT SOLUTIONS LTDA",
+    "cnae": "47555",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2800.0
+   },
+   {
+    "cnpj": "54130213000167",
+    "nome": "ARTES GRAFICA SNOVAHIGHTECH LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "02752766000158",
+    "nome": "POSTO DE ABASTECIMENTO SERVICOS E COMERCIO LINHA AMARELA LTDA",
+    "cnae": "47318",
+    "n_despesas": 8,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1692.88
+   },
+   {
+    "cnpj": "18501831000102",
+    "nome": "NAVE SUB IND.E COM. DE PAINEIS E ARTIGOS DE DE CORACAO LTDA",
+    "cnae": "47555",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "13748574000194",
+    "nome": "DIGITAL INDOOR COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "42308841000100",
+    "nome": "CLUBE RECREATIVO PORTUGUES DE JACAREPAGUA",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "29498953000103",
+    "nome": "LAWTON COMERCIO DE MATERIAIS GRAFICOS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 898.1
+   },
+   {
+    "cnpj": "01469736000176",
+    "nome": "NEUSATIAO-BUFFET E RESTAURANTE LTDA.",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "04742873000201",
+    "nome": "CENTRO E. MEIRELES MACEDO LTDA (NÚCLEO ESPORTIVO)",
+    "cnae": "85911",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "27798420000111",
+    "nome": "GREMIO RECREATIVO ESCOLA DE SAMBA UNIDOS DA VILA KENNEDY",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "32372591000114",
+    "nome": "DPLAST COMERCIO DE MATERIAL PLASTICO LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 295.0
+   },
+   {
+    "cnpj": "43283811012247",
+    "nome": "KALUNGA SA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 23.9
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 250,
+   "total": 510719.3,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 11200.0,
+    "Comícios": 1100.0,
+    "Despesas com pessoal": 497800.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 119.3,
+    "Locação/cessão de bens imóveis": 500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

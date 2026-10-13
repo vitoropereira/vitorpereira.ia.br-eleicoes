@@ -1,0 +1,229 @@
+{
+ "sq": "190002543092",
+ "nome_urna": "FREIXO",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1372486.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 83836.0,
+   "Recursos de partido político": 1229490.0,
+   "Recursos de pessoas físicas": 59160.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 914000.0,
+   "FUNDO PARTIDARIO": 15500.0,
+   "OUTROS RECURSOS": 442986.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1229490.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 83836.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 59160.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1271052.43,
+  "total_pago": 941316.9,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 11,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 550000.0
+   },
+   {
+    "cnpj": "23412180000114",
+    "nome": "EXACT INDUSTRIA E SERVIÇOS DE EMBALAGENS E ROTULOS LTDA",
+    "cnae": "17311",
+    "n_despesas": 48,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 120789.75
+   },
+   {
+    "cnpj": "58504067000143",
+    "nome": "TREZE LAB - LABORATORIO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 115000.0
+   },
+   {
+    "cnpj": "07446384000110",
+    "nome": "FAGUNDES ADVOGADOS ASSOCIA DOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 110000.0
+   },
+   {
+    "cnpj": "44780051000159",
+    "nome": "HPRG ASSESSORIA E CONSULTORIA LTDA.",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 46000.0
+   },
+   {
+    "cnpj": "26642855000100",
+    "nome": "CASTRO, VIEIRA E FERREIRA CONTADORES ELEITORAIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 44100.0
+   },
+   {
+    "cnpj": "59352923000155",
+    "nome": "LB SERVICOS DE TRANSPORTES LTDA",
+    "cnae": "53202",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "44562943000264",
+    "nome": "RML PRODUTOS IMPORTA DOS LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 6,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 2296.78
+   },
+   {
+    "cnpj": "19487975000114",
+    "nome": "ALX BRASIL SIGN LTDA",
+    "cnae": "46516",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2250.0
+   },
+   {
+    "cnpj": "03432592000109",
+    "nome": "C. LELIS FILHO CIA. LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2200.0
+   },
+   {
+    "cnpj": "20742302000142",
+    "nome": "CELEBRAR DECORACOES FESTAS E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1697.52
+   },
+   {
+    "cnpj": "27605095000123",
+    "nome": "BR GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "30339592000131",
+    "nome": "AUGUSTA E RESPEITAVEL LOJA MACONICA PIONEIROS DO CABO",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "40656954000171",
+    "nome": "PRINT DECORA COMUNICACAO VISUAL LIMITADA",
+    "cnae": "43291",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "02495060000158",
+    "nome": "IMPRINT 2001 GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 590.0
+   },
+   {
+    "cnpj": "65899824000190",
+    "nome": "65.899.824 FLAVIO MELO SILVA",
+    "cnae": "47563",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 131,
+   "total": 238228.38,
+   "por_tipo": {
+    "Despesas com pessoal": 224269.88,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 58.5,
+    "Locação/cessão de bens imóveis": 13900.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,189 @@
+{
+ "sq": "210002539803",
+ "nome_urna": "GILMAR SOSSELLA",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PDT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 592545.63,
+  "por_origem": {
+   "Recursos de outros candidatos": 80000.0,
+   "Recursos de partido político": 285000.0,
+   "Recursos de pessoas físicas": 182545.63,
+   "Recursos próprios": 45000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 230000.0,
+   "FUNDO PARTIDARIO": 100000.0,
+   "OUTROS RECURSOS": 262545.63
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00719575000169",
+    "nome": "Direção Nacional - PDT",
+    "total": 285000.0
+   },
+   {
+    "cnpj": "68373310000195",
+    "nome": "AFONSO ANTUNES DA MOTTA",
+    "total": 80000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 21,
+   "total": 227545.63
+  }
+ },
+ "despesas": {
+  "total_contratado": 611760.34,
+  "total_pago": 589119.62,
+  "fornecedores_pj": [
+   {
+    "cnpj": "05476664000145",
+    "nome": "CROMO GRAFICA E EDITORA LTDA",
+    "cnae": "17419",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23911.2
+   },
+   {
+    "cnpj": "92821701000100",
+    "nome": "RBS - ZERO HORA EDITORA JORNALISTICA S.A.",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 21036.6
+   },
+   {
+    "cnpj": "30579552000167",
+    "nome": "SANSON CADINI G SAMUJEDEN SERVICOS DE MARKETING PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 16296.0
+   },
+   {
+    "cnpj": "19543786000111",
+    "nome": "MAIRO INDUSTRIA TEXTIL LTDA",
+    "cnae": "13511",
+    "n_despesas": 4,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 13965.5
+   },
+   {
+    "cnpj": "49310979000193",
+    "nome": "FACCIN DA CRUZ SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "33530242000146",
+    "nome": "33.530.242 ZILMA TERESINHA DE OLIVEIRA",
+    "cnae": "47555",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 6295.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5239.04
+   },
+   {
+    "cnpj": "24598865000160",
+    "nome": "CANALI E CARRA NEGOCIOS IMOBILIARIOS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "37307177000145",
+    "nome": "DOM ARTE IMPRESSOS LTDA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3750.0
+   },
+   {
+    "cnpj": "13844156000109",
+    "nome": "1000 IMPRESSOES NH LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2070.0
+   },
+   {
+    "cnpj": "45555095000148",
+    "nome": "45.555.095 TIAGO PELISSARI",
+    "cnae": "43991",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1140.0
+   },
+   {
+    "cnpj": "10863065000114",
+    "nome": "GIOTTI FONTANA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "02020118000107",
+    "nome": "INGRAPAL INDUSTRIA GRAFICA PALMEIRA LTDA",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 420.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 190,
+   "total": 505137.0,
+   "por_tipo": {
+    "Despesas com pessoal": 498300.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 137.0,
+    "Locação/cessão de bens imóveis": 2200.0,
+    "Serviços contábeis": 4500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,182 @@
+{
+ "sq": "130002542031",
+ "nome_urna": "ZÉ VITOR",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3167500.0,
+  "por_origem": {
+   "Recursos de partido político": 2640000.0,
+   "Recursos de pessoas físicas": 507500.0,
+   "Recursos próprios": 20000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2590000.0,
+   "OUTROS RECURSOS": 577500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2640000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 14,
+   "total": 527500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1211717.5,
+  "total_pago": 294615.24,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 108000.0
+   },
+   {
+    "cnpj": "05535793000167",
+    "nome": "OLIVEIRA, LEAO E TERUEL SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "33890552000171",
+    "nome": "JULIANA TORRES GALLINDO MOURA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "45469439000104",
+    "nome": "45.469.439 CLAUDIO SANTIAGO DA CONCEICAO",
+    "cnae": "47890",
+    "n_despesas": 66,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 23100.0
+   },
+   {
+    "cnpj": "54984458000151",
+    "nome": "RTA UNIFORMES E BORDADOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 20700.0
+   },
+   {
+    "cnpj": "39584030000128",
+    "nome": "CARLOS LEONARDO CAMPOS RESENDE",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "11990733000137",
+    "nome": "DANIEL DOS SANTOS LEITE",
+    "cnae": "32990",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7600.0
+   },
+   {
+    "cnpj": "00595118000100",
+    "nome": "BALLOON PERSONAL COMERCIO DE BALOES LTDA",
+    "cnae": "47890",
+    "n_despesas": 4,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 6480.0
+   },
+   {
+    "cnpj": "61276004000191",
+    "nome": "HC FACHADAS E CIA COMUNICACAO VISUAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "04904860000100",
+    "nome": "IDEAL LOCACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3190.0
+   },
+   {
+    "cnpj": "09495600000142",
+    "nome": "EDITORA GRAFICA PAULA MOURA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "33575658000180",
+    "nome": "WORD DESIGN LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1088.0
+   },
+   {
+    "cnpj": "11632225000187",
+    "nome": "ARTES GRAFICAS PONTUAL LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 770.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 576,
+   "total": 925789.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 919489.5,
+    "Despesas com pessoal": 5500.0,
+    "Água": 800.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

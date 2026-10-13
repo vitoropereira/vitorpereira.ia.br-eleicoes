@@ -1,0 +1,205 @@
+{
+ "sq": "160002533451",
+ "nome_urna": "MARIA VICTORIA",
+ "cargo": "depest",
+ "uf": "PR",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1135600.0,
+  "por_origem": {
+   "Recursos de partido político": 1075600.0,
+   "Recursos de pessoas físicas": 60000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1040000.0,
+   "FUNDO PARTIDARIO": 35600.0,
+   "OUTROS RECURSOS": 60000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 1075600.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 60000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 463199.65,
+  "total_pago": 504007.11,
+  "fornecedores_pj": [
+   {
+    "cnpj": "57024743000119",
+    "nome": "POLE POSITION CONSULTORIA EM PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 72000.0
+   },
+   {
+    "cnpj": "04370488000108",
+    "nome": "PLURAL MARKETING, NEGOCIOS, IMPORTACAO, EXPORTACAO E COMERCIO LTDA",
+    "cnae": "58298",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 61873.3
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "47748771000125",
+    "nome": "ESPACO PLAZA CENTRO GASTRONOMIA E EVENTOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 36400.0
+   },
+   {
+    "cnpj": "28730639000141",
+    "nome": "SARAIVA E MOREIRA IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 29000.0
+   },
+   {
+    "cnpj": "54313613000108",
+    "nome": "WINN IMPRESSAO DIGITAL LTDA",
+    "cnae": "47130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 28898.62
+   },
+   {
+    "cnpj": "17357579000147",
+    "nome": "ILUMINACAO CURITIBA EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura",
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 26760.0
+   },
+   {
+    "cnpj": "82554775000173",
+    "nome": "ALIANCA TURISMO E TRANSPORTE LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 25200.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8903.74
+   },
+   {
+    "cnpj": "03758336000106",
+    "nome": "GRAFINORTE INDUSTRIA GRAFICA LTDA.",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8340.0
+   },
+   {
+    "cnpj": "49119625000166",
+    "nome": "AUTO POSTO MATEUS LEME LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "04990608000161",
+    "nome": "IMAGEM BRASIL INDUSTRIA GRAFICA LTDA.",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura",
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 5021.47
+   },
+   {
+    "cnpj": "60755794000125",
+    "nome": "UNICA CASTING E RECEPCAO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1364.52
+   },
+   {
+    "cnpj": "12183917000158",
+    "nome": "APTEK LOCACAO DE EQUIPAMENTOS DE INFORMATICA LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 650.0
+   },
+   {
+    "cnpj": "72451990000195",
+    "nome": "MILANO GALERIA DE ARTES LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 640.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 21,
+   "total": 90148.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 62000.0,
+    "Despesas com pessoal": 8000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 148.0,
+    "Serviços prestados por terceiros": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

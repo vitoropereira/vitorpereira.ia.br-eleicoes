@@ -1,0 +1,225 @@
+{
+ "sq": "250002536833",
+ "nome_urna": "DUDA HIDALGO",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 886890.14,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 25582.0,
+   "Recursos de partido político": 683500.0,
+   "Recursos de pessoas físicas": 173808.14,
+   "Recursos próprios": 4000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 665500.0,
+   "OUTROS RECURSOS": 221390.14
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 665500.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 25582.0
+   },
+   {
+    "cnpj": "51827566000122",
+    "nome": "Direção Municipal/Comissão Provisória - PT - ARARAQUARA - SP",
+    "total": 18000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 48,
+   "total": 177808.14
+  }
+ },
+ "despesas": {
+  "total_contratado": 528547.69,
+  "total_pago": 827539.85,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 210000.0
+   },
+   {
+    "cnpj": "61997755000105",
+    "nome": "VALLILO GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 78278.0
+   },
+   {
+    "cnpj": "24347979000137",
+    "nome": "MACIEL ART DESIGNER GRAFICO - LTDA",
+    "cnae": "47636",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 47290.0
+   },
+   {
+    "cnpj": "46558333000131",
+    "nome": "ELA MARKETING POLITICO CONSULTORIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "42243161000156",
+    "nome": "TRAVIZAM CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 24307.6
+   },
+   {
+    "cnpj": "68373462000198",
+    "nome": "WILLIAM VIEIRA DE GOES",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "34276520000143",
+    "nome": "ZIULOSCAR GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11417.5
+   },
+   {
+    "cnpj": "60557089000113",
+    "nome": "Y. E. ASSESSORIA E COMERCIO LTDA",
+    "cnae": "53105",
+    "n_despesas": 4,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 7001.07
+   },
+   {
+    "cnpj": "22904180000179",
+    "nome": "CURY E AUGUSTO NEVES - SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "12522072000188",
+    "nome": "ART COMERCIO DE ALIMENTOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 4284.0
+   },
+   {
+    "cnpj": "39039649000151",
+    "nome": "FERNANDO BRAGA EDITORA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Serviços prestados por terceiros",
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 881.04
+   },
+   {
+    "cnpj": "08563479000186",
+    "nome": "08.563.479 JOSE EDSON DE CARVALHO MARTINELLI",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "34028316011229",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 267.88
+   },
+   {
+    "cnpj": "51977864000107",
+    "nome": "BEST VISION COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 240.0
+   },
+   {
+    "cnpj": "03605072000150",
+    "nome": "TEMPO SOLUCOES GRAFICAS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 230.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 45,
+   "total": 87650.6,
+   "por_tipo": {
+    "Despesas com pessoal": 78700.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 50.6,
+    "Locação/cessão de bens imóveis": 5000.0,
+    "Serviços prestados por terceiros": 3900.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

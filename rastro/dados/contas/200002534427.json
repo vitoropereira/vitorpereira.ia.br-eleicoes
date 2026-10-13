@@ -1,0 +1,130 @@
+{
+ "sq": "200002534427",
+ "nome_urna": "DR. KERGINALDO",
+ "cargo": "depest",
+ "uf": "RN",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 450000.0,
+  "por_origem": {
+   "Recursos de partido político": 350000.0,
+   "Recursos próprios": 100000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 350000.0,
+   "OUTROS RECURSOS": 100000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 350000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 100000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 241380.1,
+  "total_pago": 263010.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "35353029000131",
+    "nome": "IRIS MIRIA DE OLIVEIRA GAMA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "09199046000156",
+    "nome": "BARROS, MARIZ REBOUCAS ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "29522603000135",
+    "nome": "MOISES GARCIA COSTA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "39154228000171",
+    "nome": "39.154.228 ILAN ADLER LINS MARQUES",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26465.0
+   },
+   {
+    "cnpj": "21433140000123",
+    "nome": "E G DE CARVALHO LIMA",
+    "cnae": "77233",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7224.1
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "22072727000117",
+    "nome": "JOAO ANDRE OLIVEIRA DO NASCIMENTO",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "56605463000131",
+    "nome": "CRIATIVE COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 120.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 18071.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 71.0,
+    "Locação/cessão de bens imóveis": 8000.0,
+    "Serviços contábeis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

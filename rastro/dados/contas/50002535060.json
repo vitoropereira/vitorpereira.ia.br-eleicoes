@@ -1,0 +1,366 @@
+{
+ "sq": "50002535060",
+ "nome_urna": "SANDRO REGIS",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 995985.86,
+  "por_origem": {
+   "Recursos de outros candidatos": 250000.0,
+   "Recursos de partido político": 288429.77,
+   "Recursos de pessoas físicas": 430000.0,
+   "Recursos próprios": 27556.09
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 533676.1,
+   "FUNDO PARTIDARIO": 4753.67,
+   "OUTROS RECURSOS": 457556.09
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 283676.1
+   },
+   {
+    "cnpj": "68319373000163",
+    "nome": "PAULO VELLOSO DANTAS AZI",
+    "total": 250000.0
+   },
+   {
+    "cnpj": "45928648000160",
+    "nome": "Direção Estadual/Distrital - UNIÃO - BAHIA",
+    "total": 4753.67
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 457556.09
+  }
+ },
+ "despesas": {
+  "total_contratado": 960579.91,
+  "total_pago": 987362.93,
+  "fornecedores_pj": [
+   {
+    "cnpj": "16875033000115",
+    "nome": "MAXIVOTO CONSULTORIA LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 140000.0
+   },
+   {
+    "cnpj": "67168797000101",
+    "nome": "DS GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "16089567000116",
+    "nome": "PRESS COLOR GRAFICOS ESPECIALIZADOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 59130.0
+   },
+   {
+    "cnpj": "02406723000110",
+    "nome": "ALL PATRIMONIAL LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "08464431000110",
+    "nome": "MACEDO E NOVAIS, ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 36448.99
+   },
+   {
+    "cnpj": "22755782000101",
+    "nome": "JD2 SERVICOS E LOCACOES LTDA",
+    "cnae": "43215",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "53721430000169",
+    "nome": "LP CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "14034902000153",
+    "nome": "VEM AVIATION TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 19550.0
+   },
+   {
+    "cnpj": "68806994000171",
+    "nome": "MD MARKETING DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 19500.0
+   },
+   {
+    "cnpj": "00717513000118",
+    "nome": "AERO STAR TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 17550.0
+   },
+   {
+    "cnpj": "18365785000161",
+    "nome": "MEGGA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15504.0
+   },
+   {
+    "cnpj": "07194985000182",
+    "nome": "BAUNCE CENTRAL DE AUDIO E SERVICOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 13000.0
+   },
+   {
+    "cnpj": "34028316409931",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 12160.84
+   },
+   {
+    "cnpj": "46105173000175",
+    "nome": "46.105.173 PABLO PIRES DO NASCIMENTO",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 11691.0
+   },
+   {
+    "cnpj": "13794184000150",
+    "nome": "COMSERGRAF COMERCIO E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10980.0
+   },
+   {
+    "cnpj": "27721425000146",
+    "nome": "RGI COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10718.5
+   },
+   {
+    "cnpj": "09029247000105",
+    "nome": "GOL GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10570.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "62489031000105",
+    "nome": "PIPA CRIATIVIDADE VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6400.0
+   },
+   {
+    "cnpj": "52796868000143",
+    "nome": "52.796.868 MARIA EDUARDA DA HORA SANTANA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5050.0
+   },
+   {
+    "cnpj": "31254952000165",
+    "nome": "E. A. DIAS CIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "01630610000131",
+    "nome": "MACTRA COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3339.45
+   },
+   {
+    "cnpj": "10269762000141",
+    "nome": "PRETO BRANCO CAFE E RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 3321.0
+   },
+   {
+    "cnpj": "31759952000117",
+    "nome": "SIVANILDO SOUZA SANTOS",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "07014198000373",
+    "nome": "ATACADAO DO PAPEL LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1549.8
+   },
+   {
+    "cnpj": "01855960000104",
+    "nome": "MEGA POSTO BERIMBAU LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 882.13
+   },
+   {
+    "cnpj": "63220487000138",
+    "nome": "HOT GRILL BAR E RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 496.0
+   },
+   {
+    "cnpj": "03289278000119",
+    "nome": "FUTURA ARTES GRAFICAS LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 350.0
+   },
+   {
+    "cnpj": "12532427000110",
+    "nome": "IDEVAL DIAS DO CARMO",
+    "cnae": "95291",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 280.0
+   },
+   {
+    "cnpj": "11864635000153",
+    "nome": "JOAO SIMAS DE ASSIS",
+    "cnae": "95291",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 140.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 89,
+   "total": 364568.2,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 122881.71,
+    "Cessão ou locação de veículos": 12500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 956.53,
+    "Locação/cessão de bens imóveis": 500.0,
+    "Publicidade por carros de som": 20000.0,
+    "Serviços prestados por terceiros": 207729.96
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,118 @@
+{
+ "sq": "120002535520",
+ "nome_urna": "PAULO DUARTE",
+ "cargo": "depest",
+ "uf": "MS",
+ "partido": "PSDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 598133.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 2710.0,
+   "Recursos de partido político": 300000.0,
+   "Recursos de pessoas físicas": 220423.0,
+   "Recursos próprios": 75000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 598133.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00087436000160",
+    "nome": "Direção Estadual/Distrital - PSDB - MATO GROSSO DO SUL",
+    "total": 300000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QUEROAPOIAR.COM.BR LTDA",
+    "total": 2710.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 14,
+   "total": 295423.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 145135.95,
+  "total_pago": 62845.95,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 14,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 46000.0
+   },
+   {
+    "cnpj": "29376294000132",
+    "nome": "GRAFICA RAPIDA E OFF-SET ARTMIX LTDA",
+    "cnae": "82997",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10900.0
+   },
+   {
+    "cnpj": "68541550000151",
+    "nome": "68.541.550 WESLLEY SANTIAGO RIOS RAMOS",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 7175.0
+   },
+   {
+    "cnpj": "13293682000110",
+    "nome": "GRAFIKA IMPRESSAO RAPIDA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6900.0
+   },
+   {
+    "cnpj": "46631696000155",
+    "nome": "PHM FILMES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QUEROAPOIAR.COM.BR LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 60.95
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 39,
+   "total": 71100.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 19000.0,
+    "Despesas com pessoal": 12100.0,
+    "Locação/cessão de bens imóveis": 3000.0,
+    "Serviços advocatícios": 20000.0,
+    "Serviços contábeis": 17000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

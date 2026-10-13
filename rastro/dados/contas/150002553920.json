@@ -1,0 +1,151 @@
+{
+ "sq": "150002553920",
+ "nome_urna": "NIL MENDES",
+ "cargo": "depest",
+ "uf": "PB",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 285841.6,
+  "por_origem": {
+   "Recursos de outros candidatos": 10000.0,
+   "Recursos de pessoas físicas": 150841.6,
+   "Recursos próprios": 125000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 10000.0,
+   "OUTROS RECURSOS": 275841.6
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68571449000143",
+    "nome": "JOAO AZEVEDO LINS FILHO",
+    "total": 10000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 8,
+   "total": 275841.6
+  }
+ },
+ "despesas": {
+  "total_contratado": 263530.45,
+  "total_pago": 210145.45,
+  "fornecedores_pj": [
+   {
+    "cnpj": "10619274000117",
+    "nome": "JME COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 56000.0
+   },
+   {
+    "cnpj": "08540403000135",
+    "nome": "GRAFICA J B LTDA",
+    "cnae": "18130",
+    "n_despesas": 12,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 52375.0
+   },
+   {
+    "cnpj": "12923249000158",
+    "nome": "WILLINGTON ALVES FREIRE",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "30793358000180",
+    "nome": "BEESIDE CONSULTORIA LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "34028316366353",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 14359.95
+   },
+   {
+    "cnpj": "34925566000146",
+    "nome": "MORAIS E SUCUPIRA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 12968.0
+   },
+   {
+    "cnpj": "49051589000146",
+    "nome": "OZORIO NONATO DE ABRANTES NETO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "31888824000173",
+    "nome": "DOM COMUNICACAO TECNOLOGIA E ESTRATEGIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "01524627000104",
+    "nome": "GRAFICA REAL LTDA",
+    "cnae": "17311",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6800.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 30027.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 27.5,
+    "Publicidade por carros de som": 30000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

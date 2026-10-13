@@ -1,0 +1,190 @@
+{
+ "sq": "80002535790",
+ "nome_urna": "HUDSON LEAL",
+ "cargo": "depest",
+ "uf": "ES",
+ "partido": "AGIR",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 122001.5,
+  "por_origem": {
+   "Recursos de outros candidatos": 5376.5,
+   "Recursos de partido político": 10025.0,
+   "Recursos de pessoas físicas": 14501.0,
+   "Recursos próprios": 92099.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 122001.5
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "15465625000104",
+    "nome": "Direção Estadual/Distrital - AGIR - ESPÍRITO SANTO",
+    "total": 10025.0
+   },
+   {
+    "cnpj": "68464753000191",
+    "nome": "ALEXANDRE MARCELO COUTINHO SANTOS",
+    "total": 5217.5
+   },
+   {
+    "cnpj": "68461691000164",
+    "nome": "MARIA EMANUELA ALVES PEDROSO",
+    "total": 159.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 106600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 106375.0,
+  "total_pago": 108625.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 38000.0
+   },
+   {
+    "cnpj": "18072839000109",
+    "nome": "BREDA IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16350.0
+   },
+   {
+    "cnpj": "27065150000130",
+    "nome": "NASSAU EDITORA RADIO E TV LTDA - EM RECUPERACAO JUDICIAL",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 14790.0
+   },
+   {
+    "cnpj": "32088457000196",
+    "nome": "MAXGRAF GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10935.0
+   },
+   {
+    "cnpj": "61149265000140",
+    "nome": "61.149.265 LORENA MARQUES CARLINI",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "31451984000150",
+    "nome": "REPROGIL SERVICOS E TECNOLOGIA LTDA",
+    "cnae": "77331",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3200.0
+   },
+   {
+    "cnpj": "65826788000135",
+    "nome": "65.826.788 JOSE LUIS LOPES TEIXEIRA",
+    "cnae": "43991",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "68345085000183",
+    "nome": "RAQUEL EQUER BRAZ DA VITORIA COSTA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "68345129000175",
+    "nome": "LAUDELINA DOS SANTOS",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "54290919000196",
+    "nome": "L S S COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "20838893000156",
+    "nome": "EXPRESSO COMERCIO SERVICOS E SOLUCOES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "46224795000112",
+    "nome": "FCI UNIFORMES COMERCIO E CONFECCOES LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 650.0
+   },
+   {
+    "cnpj": "11215990000100",
+    "nome": "G. DAL MAS PRODUCOES",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 350.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 8200.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 8200.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

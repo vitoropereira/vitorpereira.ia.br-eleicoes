@@ -1,0 +1,176 @@
+{
+ "sq": "40002532782",
+ "nome_urna": "MAYRA DIAS",
+ "cargo": "depest",
+ "uf": "AM",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 648000.0,
+  "por_origem": {
+   "Recursos de partido político": 625000.0,
+   "Recursos de pessoas físicas": 23000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 600000.0,
+   "OUTROS RECURSOS": 48000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 600000.0
+   },
+   {
+    "cnpj": "14813848000144",
+    "nome": "Direção Estadual/Distrital - PSD - AMAZONAS",
+    "total": 25000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 23000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 326483.89,
+  "total_pago": 210275.39,
+  "fornecedores_pj": [
+   {
+    "cnpj": "04984400000130",
+    "nome": "CTA - CLEITON TAXI AEREO LTDA",
+    "cnae": "51200",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 77500.0
+   },
+   {
+    "cnpj": "10532407000113",
+    "nome": "COIMBRA GARCIA ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "04337695000152",
+    "nome": "FABRICA DE EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 21300.0
+   },
+   {
+    "cnpj": "15705978000126",
+    "nome": "M F LOCACAO DE EQUIPAMENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "03942303000111",
+    "nome": "BUREAU COMERCIAL LIMITADA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "55400563000169",
+    "nome": "OFFICINA SPORTS CONFECCOES LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "44439587000105",
+    "nome": "PARINTINS TREINAMENTO EM DESENVOLVIMENTO PROFISSIONAL E GERENCIAL LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 1700.0
+   },
+   {
+    "cnpj": "64202097000106",
+    "nome": "ND TRANSPORTE E TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "63133023000194",
+    "nome": "D ANGELIM VALENTE",
+    "cnae": "71120",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "27357543000117",
+    "nome": "KEILA C. PINTO COMERCIO",
+    "cnae": "47431",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "04322541000197",
+    "nome": "CONSELHO REGIONAL DE ENGENHARIA E AGRONOMIA DO ESTADO DO AMAZONAS",
+    "cnae": "94120",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 108.39
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 82,
+   "total": 136075.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 126038.5,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 37.0,
+    "Serviços contábeis": 5000.0,
+    "Serviços prestados por terceiros": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

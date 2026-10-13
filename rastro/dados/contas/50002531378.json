@@ -1,0 +1,133 @@
+{
+ "sq": "50002531378",
+ "nome_urna": "LUCIANO PINHEIRO",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "PDT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 760000.0,
+  "por_origem": {
+   "Recursos de partido político": 750000.0,
+   "Recursos próprios": 10000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 250000.0,
+   "FUNDO PARTIDARIO": 500000.0,
+   "OUTROS RECURSOS": 10000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00719575000169",
+    "nome": "Direção Nacional - PDT",
+    "total": 750000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 10000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 220301.5,
+  "total_pago": 29559.73,
+  "fornecedores_pj": [
+   {
+    "cnpj": "40918628000195",
+    "nome": "BOI BRAVO COMUNICACAO E MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "41165522000120",
+    "nome": "ART GRAFICA LTDA",
+    "cnae": "18229",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 34670.0
+   },
+   {
+    "cnpj": "46439622000111",
+    "nome": "FEIRA BANDEIRAS E IMPRESSOS LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 26885.0
+   },
+   {
+    "cnpj": "28613532000113",
+    "nome": "CARSANT CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "66742739000187",
+    "nome": "MYPRINT - GRAFICA E COMUNICACAO VISUAL LTDA",
+    "cnae": "62040",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19385.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "24865944000190",
+    "nome": "HILLS PRODUCOES ARTISTICAS E CULTURAIS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "24759252000167",
+    "nome": "FEIRA ROTULOS E ETIQUETAS ADESIVAS LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 361.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 19000.5,
+   "por_tipo": {
+    "Despesas com pessoal": 3000.0,
+    "Impostos, contribuições e taxas": 0.5,
+    "Locação/cessão de bens imóveis": 16000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

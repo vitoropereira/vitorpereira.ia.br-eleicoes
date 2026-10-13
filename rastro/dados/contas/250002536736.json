@@ -1,0 +1,188 @@
+{
+ "sq": "250002536736",
+ "nome_urna": "ALENCAR SANTANA",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2458259.95,
+  "por_origem": {
+   "Recursos de outros candidatos": 479.95,
+   "Recursos de partido político": 2015480.0,
+   "Recursos de pessoas físicas": 404300.0,
+   "Recursos próprios": 38000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1815979.95,
+   "OUTROS RECURSOS": 642280.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 2015480.0
+   },
+   {
+    "cnpj": "68373199000137",
+    "nome": "ELISABETH SAHAO",
+    "total": 479.95
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 37,
+   "total": 442300.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 825870.83,
+  "total_pago": 306103.13,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 11,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 199000.0
+   },
+   {
+    "cnpj": "03188474000105",
+    "nome": "DIGRAF GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 12,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 64580.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 48000.0
+   },
+   {
+    "cnpj": "33071682000182",
+    "nome": "MEIJI CONCEPT WEAR LTDA.",
+    "cnae": "47890",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26898.0
+   },
+   {
+    "cnpj": "02645155000100",
+    "nome": "JF PRINT GRAFICA E EDITORA LTDA",
+    "cnae": "17320",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18255.0
+   },
+   {
+    "cnpj": "04515963000189",
+    "nome": "DALETH VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15200.0
+   },
+   {
+    "cnpj": "00460424000562",
+    "nome": "LABORPRINT GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14500.0
+   },
+   {
+    "cnpj": "04240708000170",
+    "nome": "TRIO ELETRICO BRASIL LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 10714.0
+   },
+   {
+    "cnpj": "58023706000159",
+    "nome": "JAYA INDUSTRIA E COMERCIO IMPORTACAO E EXPORTACAO LTDA",
+    "cnae": "22226",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9603.13
+   },
+   {
+    "cnpj": "05794555000176",
+    "nome": "CENTRO AUTOMOTIVO LUIZ XII LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4819.14
+   },
+   {
+    "cnpj": "07623726000120",
+    "nome": "AUTO POSTO BOI CAMPEAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3954.0
+   },
+   {
+    "cnpj": "10386377000184",
+    "nome": "VITA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1865.0
+   },
+   {
+    "cnpj": "43405815000163",
+    "nome": "EASY LABEL ETIQUETAS E IMPRESSOES LTDA",
+    "cnae": "17419",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 975.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 312,
+   "total": 407507.56,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 100123.32,
+    "Despesas com pessoal": 287433.34,
+    "Impostos, contribuições e taxas": 100.9,
+    "Locação/cessão de bens imóveis": 19850.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

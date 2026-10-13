@@ -1,0 +1,153 @@
+{
+ "sq": "160002547636",
+ "nome_urna": "EMERSON BACIL",
+ "cargo": "depest",
+ "uf": "PR",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 185900.0,
+  "por_origem": {
+   "Recursos de partido político": 110000.0,
+   "Recursos de pessoas físicas": 27000.0,
+   "Recursos próprios": 48900.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 90000.0,
+   "FUNDO PARTIDARIO": 20000.0,
+   "OUTROS RECURSOS": 75900.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 110000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 75900.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 112869.32,
+  "total_pago": 63099.32,
+  "fornecedores_pj": [
+   {
+    "cnpj": "47756392000187",
+    "nome": "ORIGEM COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 31794.66
+   },
+   {
+    "cnpj": "37759762000186",
+    "nome": "JOILE AUDREY FIDALSKI",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "04183250000165",
+    "nome": "IRATI HOJE LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 5340.0
+   },
+   {
+    "cnpj": "23344407000131",
+    "nome": "23.344.407 GALTIERI FERREIRA DE OLIVEIRA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "02451635000130",
+    "nome": "CELIO PAUL LTDA",
+    "cnae": "45307",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3950.0
+   },
+   {
+    "cnpj": "77958882000208",
+    "nome": "O COMERCIO GRAFICA E EDITORA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 351.2
+   },
+   {
+    "cnpj": "09280996000100",
+    "nome": "ECOLOGICA PRINT LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 260.0
+   },
+   {
+    "cnpj": "65805308000150",
+    "nome": "LAB3 LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 59.96
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 8,
+   "total": 41213.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 1100.0,
+    "Despesas com pessoal": 40110.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

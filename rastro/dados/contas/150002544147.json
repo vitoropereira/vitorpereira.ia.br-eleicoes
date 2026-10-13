@@ -1,0 +1,201 @@
+{
+ "sq": "150002544147",
+ "nome_urna": "JÔ OLIVEIRA",
+ "cargo": "depest",
+ "uf": "PB",
+ "partido": "PCDOB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 515000.0,
+  "por_origem": {
+   "Recursos de partido político": 510000.0,
+   "Recursos de pessoas físicas": 5000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 510000.0,
+   "OUTROS RECURSOS": 5000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "54956495000156",
+    "nome": "Direção Nacional - PCDOB",
+    "total": 510000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 5000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 286403.65,
+  "total_pago": 187963.4,
+  "fornecedores_pj": [
+   {
+    "cnpj": "02828080000101",
+    "nome": "SOUSA APOLINARIO GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24460.0
+   },
+   {
+    "cnpj": "15031384000187",
+    "nome": "SANDRA MARIA SILVA DE CASTILHO",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "08540403000135",
+    "nome": "GRAFICA J B LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10600.0
+   },
+   {
+    "cnpj": "46462329000175",
+    "nome": "46.462.329 CLAUDIO PEREIRA FIGUEIREDO",
+    "cnae": "49230",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 7975.0
+   },
+   {
+    "cnpj": "34999980000108",
+    "nome": "EVANILDO FILHO DUARTE DE SA LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "50055424000121",
+    "nome": "50.055.424 CAINA SILVA DE OLIVEIRA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "37562358000118",
+    "nome": "37.562.358 CAROLINA ARAUJO DE BRITO",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3200.0
+   },
+   {
+    "cnpj": "53816317000167",
+    "nome": "53.816.317 BERGSON BEGGS MARQUES DE SOUSA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2300.0
+   },
+   {
+    "cnpj": "07655960000481",
+    "nome": "NOVA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2252.02
+   },
+   {
+    "cnpj": "65565482000172",
+    "nome": "65.565.482 ARISTOTELES DE MELO SILVA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "46103185000160",
+    "nome": "RP4 COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1551.19
+   },
+   {
+    "cnpj": "22427423000125",
+    "nome": "MILLS ESTUDIOS CINEMATOGRAFICOS E SERVICOS AUDIOVISUAIS, COMUNICACAO E PUBLICIDADE LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "40675244000199",
+    "nome": "40.675.244 PRISCILLA PONTES ALEXANDRE",
+    "cnae": "85929",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "10422432000144",
+    "nome": "CLAUDEVAM DE FARIAS",
+    "cnae": "47296",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 101.94
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 111,
+   "total": 182763.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 121934.0,
+    "Cessão ou locação de veículos": 26000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 29.5,
+    "Serviços prestados por terceiros": 34800.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

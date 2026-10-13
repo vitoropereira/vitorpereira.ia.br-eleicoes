@@ -1,0 +1,243 @@
+{
+ "sq": "270002548450",
+ "nome_urna": "EDUARDO DO DERTINS",
+ "cargo": "depest",
+ "uf": "TO",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 384362.34,
+  "por_origem": {
+   "Recursos de partido político": 267260.11,
+   "Recursos de pessoas físicas": 67000.0,
+   "Recursos próprios": 50102.23
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 260000.0,
+   "FUNDO PARTIDARIO": 1111.11,
+   "OUTROS RECURSOS": 123251.23
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 260000.0
+   },
+   {
+    "cnpj": "08738595000199",
+    "nome": "Direção Estadual/Distrital - PL - TOCANTINS",
+    "total": 6149.0
+   },
+   {
+    "cnpj": "45877002000100",
+    "nome": "Direção Estadual/Distrital - UNIÃO - TOCANTINS",
+    "total": 1111.11
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 117102.23
+  }
+ },
+ "despesas": {
+  "total_contratado": 143764.99,
+  "total_pago": 195718.17,
+  "fornecedores_pj": [
+   {
+    "cnpj": "11547309000112",
+    "nome": "SOLANO DONATO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "51984566000136",
+    "nome": "LA RECUPERACAO DE CREDITOS COBRANCAS E CONSULTORIA JURIDICA LTDA",
+    "cnae": "82911",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "11862722000171",
+    "nome": "M L PEDROSO CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "23868933000109",
+    "nome": "INNOVE SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17134.0
+   },
+   {
+    "cnpj": "07727594000186",
+    "nome": "NATALYA BRINDES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3400.0
+   },
+   {
+    "cnpj": "34456162000150",
+    "nome": "M MARTINS GOMES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2673.29
+   },
+   {
+    "cnpj": "11649005000166",
+    "nome": "FLASH - COMUNICACAO VISUAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "13070082000192",
+    "nome": "D W TEIXEIRA E CIA LTDA",
+    "cnae": "47563",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "46374608000187",
+    "nome": "CLEYTON DE SALES COSTA LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "23319777000119",
+    "nome": "A. F. DOS SANTOS COMERCIO VAREJISTA DE ARTIGOS VESTUARIOS",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "17544865000111",
+    "nome": "POSTO QUATRO RODAS 2 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "34887498000178",
+    "nome": "PETROMASTER COMERCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "44564313000148",
+    "nome": "POSTO ROSALANDIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "60048673000143",
+    "nome": "BILU ESTRUTURAS PARA EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 780.0
+   },
+   {
+    "cnpj": "24879845000167",
+    "nome": "MULTIKOM SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "60763892000104",
+    "nome": "60.763.892 SALMERON PINHEIRO DE SOUSA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "59094272000140",
+    "nome": "59.094.272 CRISTIANO TAVARES DA SILVA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "29961594000189",
+    "nome": "MARTINS COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 177.2
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 5,
+   "total": 12300.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 5300.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5,
+    "Locação/cessão de bens imóveis": 3000.0,
+    "Serviços prestados por terceiros": 4000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

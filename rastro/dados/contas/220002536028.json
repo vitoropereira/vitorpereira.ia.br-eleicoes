@@ -1,0 +1,103 @@
+{
+ "sq": "220002536028",
+ "nome_urna": "DR. GILBER",
+ "cargo": "depest",
+ "uf": "RO",
+ "partido": "NOVO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 142150.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 72150.0,
+   "Recursos próprios": 70000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 142150.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 142150.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 50550.5,
+  "total_pago": 36175.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "45991563000127",
+    "nome": "M MACHADO SERVICOS DE GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10500.0
+   },
+   {
+    "cnpj": "52369466000162",
+    "nome": "COMPLIANCE ASSESSORIA CONSULTORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "09192266000158",
+    "nome": "IDEIA COMUNICACAO VISUAL E COMERCIO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1050.0
+   },
+   {
+    "cnpj": "38062537000159",
+    "nome": "L2A TRANSPORTES E COMUNICACAO VISUAL LTDA",
+    "cnae": "49213",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "63628150000164",
+    "nome": "SINDICATO DAS EMPRESAS DE SEGURANCA PRIVADA DO ESTADO DE RONDONIA",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 400.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 12000.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5,
+    "Locação/cessão de bens imóveis": 12000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

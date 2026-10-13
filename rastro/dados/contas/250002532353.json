@@ -1,0 +1,372 @@
+{
+ "sq": "250002532353",
+ "nome_urna": "CORONEL TELHADA",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2421918.23,
+  "por_origem": {
+   "Recursos de outros candidatos": 8395.0,
+   "Recursos de partido político": 2200000.0,
+   "Recursos de pessoas físicas": 119000.0,
+   "Recursos próprios": 94523.23
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1200000.0,
+   "FUNDO PARTIDARIO": 1000000.0,
+   "OUTROS RECURSOS": 221918.23
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 2200000.0
+   },
+   {
+    "cnpj": "68283090000109",
+    "nome": "RAFAEL HENRIQUE CANO TELHADA",
+    "total": 8395.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 14,
+   "total": 213523.23
+  }
+ },
+ "despesas": {
+  "total_contratado": 2158408.95,
+  "total_pago": 1799878.62,
+  "fornecedores_pj": [
+   {
+    "cnpj": "46298651000100",
+    "nome": "DOIS MUNDOS MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 304400.0
+   },
+   {
+    "cnpj": "24822774000166",
+    "nome": "ORIGINAL STICKER PRODUCAO DE ADESIVOS ESPECIAIS LTDA",
+    "cnae": "82997",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 277375.0
+   },
+   {
+    "cnpj": "07046094000189",
+    "nome": "ELYON SOLUCOES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 265994.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 156000.0
+   },
+   {
+    "cnpj": "27122380000193",
+    "nome": "MARELLA ROLLO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "33322586000160",
+    "nome": "FOCO VISUAL COMERCIO DE PRODUTOS PROMOCIONAIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 44560.0
+   },
+   {
+    "cnpj": "03358742000181",
+    "nome": "POSTAL LESTE COMERCIO E SERVICOS POSTAIS LTDA",
+    "cnae": "53105",
+    "n_despesas": 8,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 38546.45
+   },
+   {
+    "cnpj": "53103933000170",
+    "nome": "GALACTICA PROCESSAMENTO E ASSESSORIA CONTABIL",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "17837052000110",
+    "nome": "PRODCINE PRODUTORA AUDIOVISUAL LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "29103053000110",
+    "nome": "LL DIAS LOGISTICA FREGUESIA LTDA",
+    "cnae": "53202",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 23873.37
+   },
+   {
+    "cnpj": "19367661000188",
+    "nome": "K2G - SUPRIMENTOS DE IMPRESSAO E INFORMATICA LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12775.0
+   },
+   {
+    "cnpj": "18064563000109",
+    "nome": "INFINITTO FESTAS E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 10700.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5219.4
+   },
+   {
+    "cnpj": "02052178000101",
+    "nome": "PAGINA - EDITORA E JORNALISMO LTDA",
+    "cnae": "58123",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 4050.0
+   },
+   {
+    "cnpj": "06142901000102",
+    "nome": "ORION AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3731.81
+   },
+   {
+    "cnpj": "48500758000115",
+    "nome": "D D EMBALAGENS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 2940.0
+   },
+   {
+    "cnpj": "43949742000170",
+    "nome": "AUTO POSTO ARARAQUARA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2582.6
+   },
+   {
+    "cnpj": "06863437000135",
+    "nome": "SUPER DOCES MARINGA LTDA",
+    "cnae": "47296",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2093.01
+   },
+   {
+    "cnpj": "65937633000176",
+    "nome": "BRAS PEREIRA COMUNICACAO-EDITORA JORNALISTICA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1980.0
+   },
+   {
+    "cnpj": "39981100000181",
+    "nome": "39.981.100 FABIO DE SOUZA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1923.3
+   },
+   {
+    "cnpj": "49345898000129",
+    "nome": "PRESS NEWS EMPRESA JORNALISTICA E DE COMUNICACAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "54985932000160",
+    "nome": "LAPAPEL COMERCIO DE PAPEIS LTDA",
+    "cnae": "47610",
+    "n_despesas": 4,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1475.23
+   },
+   {
+    "cnpj": "09352574000101",
+    "nome": "JORNAL SEMANARIO DA ZONA NORTE LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1330.0
+   },
+   {
+    "cnpj": "37789234000170",
+    "nome": "NZB COMERCIO DE EMBALAGENS LTDA",
+    "cnae": "46869",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1297.33
+   },
+   {
+    "cnpj": "39802329000101",
+    "nome": "39.802.329 ROBSON DAVI DA CUNHA",
+    "cnae": "95118",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "05509772000177",
+    "nome": "FABIO MAZZONETTO AUTO POSTO",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1045.9
+   },
+   {
+    "cnpj": "01985921000113",
+    "nome": "EDITORA JORNALISTICA BAIRROS UNIDOS LTDA",
+    "cnae": "63992",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 680.0
+   },
+   {
+    "cnpj": "27751075004077",
+    "nome": "GDO PARTICIPACOES S/A",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 558.96
+   },
+   {
+    "cnpj": "27751075006959",
+    "nome": "GDO PARTICIPACOES S/A",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 416.22
+   },
+   {
+    "cnpj": "27751075001213",
+    "nome": "GDO PARTICIPACOES S/A",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 400.07
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 443,
+   "total": 819761.3,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 3000.0,
+    "Despesas com pessoal": 812000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 261.3,
+    "Locação/cessão de bens imóveis": 4500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

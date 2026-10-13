@@ -1,0 +1,132 @@
+{
+ "sq": "80002541027",
+ "nome_urna": "DARY PAGUNG",
+ "cargo": "depest",
+ "uf": "ES",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 215621.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 35121.0,
+   "Recursos de partido político": 20000.0,
+   "Recursos de pessoas físicas": 55000.0,
+   "Recursos próprios": 105500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 26932.5,
+   "OUTROS RECURSOS": 188688.5
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68461682000173",
+    "nome": "VITOR AMORIM DE ANGELO",
+    "total": 26932.5
+   },
+   {
+    "cnpj": "31675994000170",
+    "nome": "Direção Estadual/Distrital - PSB - ESPÍRITO SANTO",
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68464753000191",
+    "nome": "ALEXANDRE MARCELO COUTINHO SANTOS",
+    "total": 4567.5
+   },
+   {
+    "cnpj": "68465043000186",
+    "nome": "JOSIAS MARIO DA VITORIA",
+    "total": 3375.0
+   },
+   {
+    "cnpj": "68461691000164",
+    "nome": "MARIA EMANUELA ALVES PEDROSO",
+    "total": 246.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 160500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 133662.26,
+  "total_pago": 140463.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 10,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "30685622000161",
+    "nome": "GRAFICA E EDITORA FOLLADOR LTDA",
+    "cnae": "18121",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 32814.0
+   },
+   {
+    "cnpj": "17887151000106",
+    "nome": "ERICA MARIA SANCHES CAMARGO",
+    "cnae": "82997",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5900.0
+   },
+   {
+    "cnpj": "33139014000140",
+    "nome": "LANNES COMERCIO E SERVICOS LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3675.0
+   },
+   {
+    "cnpj": "37826380000128",
+    "nome": "MORED ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "01834552000168",
+    "nome": "FAZ TUDO PROMOCIONAL LTDA",
+    "cnae": "47555",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 580.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 11,
+   "total": 18193.26,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 16572.26,
+    "Despesas com pessoal": 1621.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

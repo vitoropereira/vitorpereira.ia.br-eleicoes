@@ -1,0 +1,254 @@
+{
+ "sq": "50002537869",
+ "nome_urna": "ROBINSON",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 384825.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 4075.0,
+   "Recursos de partido político": 250000.0,
+   "Recursos de pessoas físicas": 108750.0,
+   "Recursos próprios": 22000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 254075.0,
+   "OUTROS RECURSOS": 130750.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 250000.0
+   },
+   {
+    "cnpj": "68430555000107",
+    "nome": "JOSE CERQUEIRA DE SANTANA NETO",
+    "total": 3750.0
+   },
+   {
+    "cnpj": "68430190000110",
+    "nome": "VALMIR CARLOS DA ASSUNCAO",
+    "total": 325.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 118,
+   "total": 130750.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 148606.8,
+  "total_pago": 82515.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "60892826000134",
+    "nome": "GPS SERVICOS LTDA",
+    "cnae": "52231",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 25527.81
+   },
+   {
+    "cnpj": "05770290000176",
+    "nome": "GENSA - GRAFICA E EDITORA NOSSA SENHORA APARECIDA LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "50835562000123",
+    "nome": "J 2 CONTABILIDADE, CONSULTORIA EMPRESARIAL E PUBLICA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 13836.25
+   },
+   {
+    "cnpj": "13477302000105",
+    "nome": "Direção Estadual/Distrital - PT - BAHIA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "10665130000105",
+    "nome": "J CRUZ COMUNICACAO E PRODUCAO DE EVENTOS LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8900.0
+   },
+   {
+    "cnpj": "26229194000195",
+    "nome": "CASA 6 PRODUCAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7933.0
+   },
+   {
+    "cnpj": "60010977000111",
+    "nome": "60.010.977 ANDERSON PEREIRA DA HORA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7150.0
+   },
+   {
+    "cnpj": "10505398000171",
+    "nome": "COSTA MEDRADO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "61032890000108",
+    "nome": "61.032.890 FERNANDA YASMIN RIBEIRO CAMPI",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "46756034000101",
+    "nome": "A DE C R DA SILVA LTDA",
+    "cnae": "47512",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3900.0
+   },
+   {
+    "cnpj": "24759252000167",
+    "nome": "FEIRA ROTULOS E ETIQUETAS ADESIVAS LTDA",
+    "cnae": "17419",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2718.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "04681824000125",
+    "nome": "J M C DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1300.0
+   },
+   {
+    "cnpj": "73849952002010",
+    "nome": "ATAKAREJO DISTRIBUIDOR DE ALIMENTOS E BEBIDAS S.A",
+    "cnae": "46915",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 816.0
+   },
+   {
+    "cnpj": "08431415000121",
+    "nome": "BALOES.COM ALUGUEL DE MATERIAIS PARA EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 808.64
+   },
+   {
+    "cnpj": "35686304000139",
+    "nome": "ESQUINA PARALELA COMERCIO DE ALIMENTOS E DOCES LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 349.8
+   },
+   {
+    "cnpj": "32313109000175",
+    "nome": "MARCELA MARTA OLIVEIRA LOPES",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 190.0
+   },
+   {
+    "cnpj": "04858785000270",
+    "nome": "ESTACAO DIGITAL SISTEMAS REPROGRAFICOS LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 106.6
+   },
+   {
+    "cnpj": "07014198000373",
+    "nome": "ATACADAO DO PAPEL LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 102.9
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 8,
+   "total": 38467.8,
+   "por_tipo": {
+    "Despesas com pessoal": 13113.98,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 353.82,
+    "Locação/cessão de bens imóveis": 25000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

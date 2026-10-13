@@ -1,0 +1,70 @@
+{
+ "sq": "30002538135",
+ "nome_urna": "ALEX",
+ "cargo": "depest",
+ "uf": "AP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 83214.6,
+  "por_origem": {
+   "Recursos de partido político": 80000.0,
+   "Recursos próprios": 3214.6
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 80000.0,
+   "OUTROS RECURSOS": 3214.6
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 80000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 3214.6
+  }
+ },
+ "despesas": {
+  "total_contratado": 34714.1,
+  "total_pago": 72014.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "39512152000109",
+    "nome": "E. S. DA SILVA DE OLIVEIRA E CIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "65105681000106",
+    "nome": "XMONKEY PUBLICIDADE LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2700.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 4,
+   "total": 24014.1,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 16000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 14.1,
+    "Serviços próprios prestados por terceiros": 8000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

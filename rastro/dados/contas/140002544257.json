@@ -1,0 +1,72 @@
+{
+ "sq": "140002544257",
+ "nome_urna": "RUI BEGOT",
+ "cargo": "depest",
+ "uf": "PA",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 153000.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 33000.0,
+   "Recursos próprios": 120000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 153000.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 153000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 33830.0,
+  "total_pago": 0.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "68560799000104",
+    "nome": "GD GROUP LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3450.0
+   },
+   {
+    "cnpj": "53323592000149",
+    "nome": "S REIS COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "22937858000110",
+    "nome": "DELTA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1380.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 21,
+   "total": 27000.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 20000.0,
+    "Cessão ou locação de veículos": 7000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

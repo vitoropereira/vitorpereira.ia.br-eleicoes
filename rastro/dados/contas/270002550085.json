@@ -1,0 +1,140 @@
+{
+ "sq": "270002550085",
+ "nome_urna": "EDUARDO MADRUGA",
+ "cargo": "depest",
+ "uf": "TO",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 586777.34,
+  "por_origem": {
+   "Recursos de outros candidatos": 1220.4,
+   "Recursos de partido político": 546556.94,
+   "Recursos de pessoas físicas": 17000.0,
+   "Recursos próprios": 22000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 191666.85,
+   "FUNDO PARTIDARIO": 347438.11,
+   "OUTROS RECURSOS": 47672.38
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08917083000190",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - TOCANTINS",
+    "total": 347438.11
+   },
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 190994.65
+   },
+   {
+    "cnpj": "08738595000199",
+    "nome": "Direção Estadual/Distrital - PL - TOCANTINS",
+    "total": 5346.4
+   },
+   {
+    "cnpj": "45877002000100",
+    "nome": "Direção Estadual/Distrital - UNIÃO - TOCANTINS",
+    "total": 2777.78
+   },
+   {
+    "cnpj": "68527002000177",
+    "nome": "FABIO PEREIRA VAZ",
+    "total": 672.2
+   },
+   {
+    "cnpj": "68492195000178",
+    "nome": "MARIA AUXILIADORA SEABRA REZENDE",
+    "total": 548.2
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 39000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 160543.54,
+  "total_pago": 163332.92,
+  "fornecedores_pj": [
+   {
+    "cnpj": "22533231000101",
+    "nome": "AUTO POSTO SALLES TO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 54373.84
+   },
+   {
+    "cnpj": "20870746000163",
+    "nome": "DITH2 AGENCIA DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "02471448000380",
+    "nome": "M J FERREIRA ALVES COMERCIO DE COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "12301987000163",
+    "nome": "JONATAS MODESTO DE FREITAS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1820.0
+   },
+   {
+    "cnpj": "49754668000113",
+    "nome": "GLEYDSON VICENTE RIBEIRO DA SILVA",
+    "cnae": "95118",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1512.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 28,
+   "total": 78837.7,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 4000.0,
+    "Cessão ou locação de veículos": 35000.0,
+    "Despesas com pessoal": 34000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 37.7,
+    "Locação/cessão de bens imóveis": 5800.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

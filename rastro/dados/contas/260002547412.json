@@ -1,0 +1,229 @@
+{
+ "sq": "260002547412",
+ "nome_urna": "CAPITÃO SAMUEL",
+ "cargo": "depfed",
+ "uf": "SE",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2875234.83,
+  "por_origem": {
+   "Recursos de outros candidatos": 1000.0,
+   "Recursos de partido político": 2863134.83,
+   "Recursos de pessoas físicas": 11100.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2563134.83,
+   "FUNDO PARTIDARIO": 300000.0,
+   "OUTROS RECURSOS": 12100.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 2863134.83
+   },
+   {
+    "cnpj": "68468415000128",
+    "nome": "FABIO CRUZ MITIDIERI",
+    "total": 1000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 11100.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1199042.23,
+  "total_pago": 1600641.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "47808824000156",
+    "nome": "GOES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "67820413000193",
+    "nome": "LGS SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 115000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "02045293000159",
+    "nome": "MB PUBLICIDADE E SERVICOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "03515534000149",
+    "nome": "VIACAO SAO MATEUS LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "58287139000148",
+    "nome": "EXCALIBUR EVENTOS LTDA",
+    "cnae": "42928",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "36834054000108",
+    "nome": "SIM - SERVICO DE LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "07760809000160",
+    "nome": "NUTRIL COMERCIO E SERVICOS LTDA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 13800.0
+   },
+   {
+    "cnpj": "13007646000142",
+    "nome": "GRAFICA EDITORA J ANDRADE LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11700.0
+   },
+   {
+    "cnpj": "41946418000173",
+    "nome": "JOSE ELIAS RODRIGUES",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 9360.0
+   },
+   {
+    "cnpj": "32488015000137",
+    "nome": "JT COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8600.0
+   },
+   {
+    "cnpj": "18543162000131",
+    "nome": "VILTON ROCHA SOARES",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 7273.95
+   },
+   {
+    "cnpj": "12897239000195",
+    "nome": "VALDOMIRO SANTOS",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "20007103000190",
+    "nome": "PREMIUM R D SERGIPE LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 4860.0
+   },
+   {
+    "cnpj": "13923875000107",
+    "nome": "VENEZA AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1474.28
+   },
+   {
+    "cnpj": "41949956000111",
+    "nome": "JAQUELINE SATIRO COELHO RAMOS",
+    "cnae": "10911",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1074.0
+   },
+   {
+    "cnpj": "10904143000181",
+    "nome": "RICARDO VILAS BOAS REZENDE",
+    "cnae": "10996",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 600.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 189,
+   "total": 689300.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 312300.0,
+    "Cessão ou locação de veículos": 69000.0,
+    "Despesas com pessoal": 256000.0,
+    "Locação/cessão de bens imóveis": 22000.0,
+    "Serviços contábeis": 30000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

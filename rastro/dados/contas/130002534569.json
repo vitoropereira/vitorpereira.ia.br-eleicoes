@@ -1,0 +1,120 @@
+{
+ "sq": "130002534569",
+ "nome_urna": "DR. MAURÍCIO",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "NOVO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 379385.68,
+  "por_origem": {
+   "Recursos de partido político": 1835.68,
+   "Recursos de pessoas físicas": 257550.0,
+   "Recursos próprios": 120000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1835.68,
+   "OUTROS RECURSOS": 377550.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "26561313000102",
+    "nome": "Direção Estadual/Distrital - NOVO - MINAS GERAIS",
+    "total": 1835.68
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 29,
+   "total": 377550.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 118053.72,
+  "total_pago": 109474.35,
+  "fornecedores_pj": [
+   {
+    "cnpj": "61997755000105",
+    "nome": "VALLILO GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 39115.0
+   },
+   {
+    "cnpj": "34028316272707",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 26652.45
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "07560718000181",
+    "nome": "LOCADORA DE VEICULOS FLORESTA LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10879.68
+   },
+   {
+    "cnpj": "07016380000100",
+    "nome": "SPORTS.COM CONFECCOES LTDA",
+    "cnae": "47814",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4319.9
+   },
+   {
+    "cnpj": "34028316271212",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 4305.6
+   },
+   {
+    "cnpj": "21131843000105",
+    "nome": "MARIA APARECIDA DOS SANTOS VIRGINIO",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 10,
+   "total": 10281.09,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 10266.09,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 15.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

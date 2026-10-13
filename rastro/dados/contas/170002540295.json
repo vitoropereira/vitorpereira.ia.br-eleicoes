@@ -1,0 +1,155 @@
+{
+ "sq": "170002540295",
+ "nome_urna": "GABRIEL PORTO",
+ "cargo": "depfed",
+ "uf": "PE",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 624000.0,
+  "por_origem": {
+   "Recursos de partido político": 324000.0,
+   "Recursos de pessoas físicas": 260000.0,
+   "Recursos próprios": 40000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 324000.0,
+   "OUTROS RECURSOS": 300000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 300000.0
+   },
+   {
+    "cnpj": "10669331000172",
+    "nome": "Direção Estadual/Distrital - PSB - PERNAMBUCO",
+    "total": 24000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 300000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 523691.7,
+  "total_pago": 487587.2,
+  "fornecedores_pj": [
+   {
+    "cnpj": "44619551000103",
+    "nome": "CHAILLINE AZEVEDO ALVES",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 161200.0
+   },
+   {
+    "cnpj": "36443662000183",
+    "nome": "CV COMERCIO VAREJISTA DE ARTIGOS DO VESTUARIO LTDA",
+    "cnae": "47814",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 133300.0
+   },
+   {
+    "cnpj": "00758606000190",
+    "nome": "MXM GRAFICA E EMBALAGENS LTDA",
+    "cnae": "17311",
+    "n_despesas": 39,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 101840.0
+   },
+   {
+    "cnpj": "33586326000100",
+    "nome": "ATIVA SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 31181.5
+   },
+   {
+    "cnpj": "35188179000137",
+    "nome": "USINA SEGURANCA DE VALORES LTDA",
+    "cnae": "80111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 24200.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "16994727000171",
+    "nome": "PBF GRAFICA E TEXTIL LTDA",
+    "cnae": "14126",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10875.0
+   },
+   {
+    "cnpj": "03889878000118",
+    "nome": "MIGUELITO RODRIGUES DE ALMEIDA JUNIOR LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "26647763000112",
+    "nome": "RAFAEL MAYER LUCENA SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 5000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 11095.2,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 95.2,
+    "Locação/cessão de bens imóveis": 11000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

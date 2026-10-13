@@ -1,0 +1,397 @@
+{
+ "sq": "130002539931",
+ "nome_urna": "MARIA CLARA",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PSDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1139945.32,
+  "por_origem": {
+   "Recursos de outros candidatos": 1500.0,
+   "Recursos de partido político": 852950.0,
+   "Recursos de pessoas físicas": 193463.8,
+   "Recursos próprios": 92031.52
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 800000.0,
+   "OUTROS RECURSOS": 339945.32
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "03653474000120",
+    "nome": "Direção Nacional - PSDB",
+    "total": 800000.0
+   },
+   {
+    "cnpj": "59933952000100",
+    "nome": "Direção Nacional - AVANTE",
+    "total": 52950.0
+   },
+   {
+    "cnpj": "68468100000180",
+    "nome": "IGOR TARCIANO TIMO",
+    "total": 1500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 27,
+   "total": 285495.32
+  }
+ },
+ "despesas": {
+  "total_contratado": 860507.24,
+  "total_pago": 1122545.51,
+  "fornecedores_pj": [
+   {
+    "cnpj": "21168531000168",
+    "nome": "ARW EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 79700.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "12058968000158",
+    "nome": "AGUIAR IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24940.0
+   },
+   {
+    "cnpj": "47114915000191",
+    "nome": "DM EXPRESS PRESTACAO DE SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 20950.0
+   },
+   {
+    "cnpj": "09573096000151",
+    "nome": "AUTO POSTO ECONOMICO LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 20344.62
+   },
+   {
+    "cnpj": "10186946000148",
+    "nome": "VIP LOC VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 11760.0
+   },
+   {
+    "cnpj": "47728051000106",
+    "nome": "MY VOICE BRASIL EDUCATION LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "05508553000173",
+    "nome": "IKI NANA UNIFORMES LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8340.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6393.68
+   },
+   {
+    "cnpj": "02162905000517",
+    "nome": "PHD AGROPECUARIA LTDA",
+    "cnae": "01342",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "60521827000172",
+    "nome": "DM BRASIL SOLUCOES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "13014702000176",
+    "nome": "WILIAM V EMILIO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5999.4
+   },
+   {
+    "cnpj": "08793266000140",
+    "nome": "AGENCIA COMUM COMERCIO E DESENVOLVIMENTO DE PRODUTOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4200.0
+   },
+   {
+    "cnpj": "04588291000131",
+    "nome": "PETROLEO MONTES CLAROS LTDA.",
+    "cnae": "47318",
+    "n_despesas": 13,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3427.23
+   },
+   {
+    "cnpj": "20279965000172",
+    "nome": "GRAFICA BRUMADO LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2560.0
+   },
+   {
+    "cnpj": "47639507000153",
+    "nome": "JULIO FIRMINO DA ROCHA FILHO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "24735729000174",
+    "nome": "IDEIA DIGITAL COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2380.0
+   },
+   {
+    "cnpj": "20546896000116",
+    "nome": "ALFA-MG EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "37141157000147",
+    "nome": "DM3 PARTICIPACOES LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "97536983000117",
+    "nome": "MARCIO ANTONIO DOS REIS",
+    "cnae": "95215",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1950.0
+   },
+   {
+    "cnpj": "56057134000101",
+    "nome": "56.057.134 EVELYN NATHANNY REZENDE DE SOUZA RODRIGUES",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1920.0
+   },
+   {
+    "cnpj": "32410827000160",
+    "nome": "IV GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1350.0
+   },
+   {
+    "cnpj": "46446927000150",
+    "nome": "DANILO ALVES JUNIOR",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "41807173000101",
+    "nome": "PLACANOVA INDUSTRIA E COMERCIO LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 745.0
+   },
+   {
+    "cnpj": "45955360000185",
+    "nome": "CONSORCIO CEMIG SIM GD I",
+    "cnae": "35115",
+    "n_despesas": 1,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 602.05
+   },
+   {
+    "cnpj": "03333174000164",
+    "nome": "CENTRAL PLOTAGENS LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 478.5
+   },
+   {
+    "cnpj": "06068545000116",
+    "nome": "MC COPIAS SERVICOS LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 405.2
+   },
+   {
+    "cnpj": "48767274000137",
+    "nome": "CONVENIENCIA E DISK CERVEJA JANAINA LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "06981180000116",
+    "nome": "CEMIG DISTRIBUICAO S.A",
+    "cnae": "35140",
+    "n_despesas": 1,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 194.84
+   },
+   {
+    "cnpj": "17791813000140",
+    "nome": "DISK CERVEJA ALVORADA LTDA",
+    "cnae": "47237",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação",
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 182.8
+   },
+   {
+    "cnpj": "17281106000103",
+    "nome": "COMPANHIA DE SANEAMENTO DE MINAS GERAIS COPASA MG",
+    "cnae": "36006",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 73.95
+   },
+   {
+    "cnpj": "18174334000228",
+    "nome": "SINDICATO DOS EMPREGADOS, TRABALHADORES ASSALARIADOS RURAIS E AGRICULTORES FAMILIARES NA AGRICULTURA, PECUARIA E SIMILARES DE PATROCINIO E REGIAO",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 38.97
+   },
+   {
+    "cnpj": "53420564000140",
+    "nome": "CLIENT CO SERVICOS DE REDE NORDESTE S.A.",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Telefone"
+    ],
+    "total": 14.29
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 452,
+   "total": 572756.71,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 21000.0,
+    "Despesas com pessoal": 540734.7,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 129.6,
+    "Locação/cessão de bens imóveis": 8300.0,
+    "Serviços contábeis": 2592.41
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,133 @@
+{
+ "sq": "120002535531",
+ "nome_urna": "ÂNGELO GUERREIRO",
+ "cargo": "depest",
+ "uf": "MS",
+ "partido": "PSDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 350000.0,
+  "por_origem": {
+   "Recursos de partido político": 235000.0,
+   "Recursos de pessoas físicas": 97000.0,
+   "Recursos próprios": 18000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 350000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00087436000160",
+    "nome": "Direção Estadual/Distrital - PSDB - MATO GROSSO DO SUL",
+    "total": 235000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 115000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 137300.0,
+  "total_pago": 15000.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "21988948000177",
+    "nome": "HAUT MARKETING LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "29716607000154",
+    "nome": "FENIX COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23300.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "26269641000130",
+    "nome": "MENESES MANGIOLARDO AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "26852160000152",
+    "nome": "ANGELO CHAVES GUERREIRO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "46631696000155",
+    "nome": "PHM FILMES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "08726196000108",
+    "nome": "RPR CRIACOES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 345.0
+   },
+   {
+    "cnpj": "57825921000100",
+    "nome": "TRATTO COMUNICACAO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 55.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 24,
+   "total": 53600.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 13000.0,
+    "Cessão ou locação de veículos": 14000.0,
+    "Despesas com pessoal": 3000.0,
+    "Locação/cessão de bens imóveis": 3600.0,
+    "Serviços advocatícios": 10000.0,
+    "Serviços contábeis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

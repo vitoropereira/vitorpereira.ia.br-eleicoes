@@ -1,0 +1,229 @@
+{
+ "sq": "130002542066",
+ "nome_urna": "MARCELO HEITOR",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 609998.3,
+  "por_origem": {
+   "Recursos de partido político": 609998.3
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 550000.0,
+   "FUNDO PARTIDARIO": 10000.0,
+   "OUTROS RECURSOS": 49998.3
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 560000.0
+   },
+   {
+    "cnpj": "08691904000112",
+    "nome": "Direção Estadual/Distrital - PL - MINAS GERAIS",
+    "total": 49998.3
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 346681.9,
+  "total_pago": 504044.4,
+  "fornecedores_pj": [
+   {
+    "cnpj": "17437416000174",
+    "nome": "PULSE THREE MARKETING E AUDIOVISUAL LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "57741176000111",
+    "nome": "DLSPORTS COMERCIO E ESTAMPARIA LTDA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 34000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 26250.0
+   },
+   {
+    "cnpj": "29599858000104",
+    "nome": "PIRAMIDE CONSULTORIA DE IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "08065507000135",
+    "nome": "GRAFICA RIOPARDENSE LTDA",
+    "cnae": "18130",
+    "n_despesas": 11,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20700.0
+   },
+   {
+    "cnpj": "12841373000174",
+    "nome": "GRAFICA PAMPULHA LTDA.",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12530.0
+   },
+   {
+    "cnpj": "52960512000101",
+    "nome": "BICALHO BONILHA SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "54790842000113",
+    "nome": "IMOBILIARIA E CORRETORA OLIVEIRA LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "17069942000129",
+    "nome": "DEIVID SILVA DOS SANTOS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "22298346000150",
+    "nome": "22.298.346 LUIS ANTONIO RIBEIRO",
+    "cnae": "47512",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3436.5
+   },
+   {
+    "cnpj": "34028316276010",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 2907.7
+   },
+   {
+    "cnpj": "45234331000124",
+    "nome": "RODRIGO BORGES DE OLIVEIRA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1795.0
+   },
+   {
+    "cnpj": "30365925000105",
+    "nome": "ANTONIO CARLOS FLAUZINO",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "25011604000164",
+    "nome": "STAMP COMERCIO E SERVICOS LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 720.0
+   },
+   {
+    "cnpj": "53608946000100",
+    "nome": "53.608.946 FREDERICO TEIXEIRA E SILVEIRA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 450.0
+   },
+   {
+    "cnpj": "30760936000181",
+    "nome": "MVF CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 440.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 56,
+   "total": 107552.7,
+   "por_tipo": {
+    "Despesas com pessoal": 66952.7,
+    "Locação/cessão de bens imóveis": 12700.0,
+    "Publicidade por carros de som": 12900.0,
+    "Serviços contábeis": 7000.0,
+    "Serviços prestados por terceiros": 4000.0,
+    "Serviços próprios prestados por terceiros": 4000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

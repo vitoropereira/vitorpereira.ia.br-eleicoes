@@ -1,0 +1,201 @@
+{
+ "sq": "160002547624",
+ "nome_urna": "DELEGADO JACOVÓS",
+ "cargo": "depest",
+ "uf": "PR",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 510333.2,
+  "por_origem": {
+   "Recursos de outros candidatos": 181.2,
+   "Recursos de partido político": 410000.0,
+   "Recursos de pessoas físicas": 10152.0,
+   "Recursos próprios": 90000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 210000.0,
+   "FUNDO PARTIDARIO": 200000.0,
+   "OUTROS RECURSOS": 100333.2
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 410000.0
+   },
+   {
+    "cnpj": "68455188000104",
+    "nome": "PEDRO DEBONI LUPION MELLO",
+    "total": 181.2
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 100152.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 355710.5,
+  "total_pago": 441150.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "41998900000157",
+    "nome": "J. A. INDUSTRIA DE EMBALAGENS LTDA",
+    "cnae": "17311",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 48757.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 21500.0
+   },
+   {
+    "cnpj": "59075191000101",
+    "nome": "V. C. RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 4,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 18415.44
+   },
+   {
+    "cnpj": "32133914000117",
+    "nome": "POPPI, SIMONI ALENCAR ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 11612.0
+   },
+   {
+    "cnpj": "07710602000181",
+    "nome": "SENSUS AUDITORIA E CONSULTORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "81197527000150",
+    "nome": "M.C.R. TAPETES LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7875.0
+   },
+   {
+    "cnpj": "79130647000198",
+    "nome": "IRMAOS PUPIM CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6649.96
+   },
+   {
+    "cnpj": "81229858000124",
+    "nome": "BIG BAND BANDEIRAS LTDA",
+    "cnae": "13596",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "21632822000165",
+    "nome": "SUPER PRINT PAPEIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4605.0
+   },
+   {
+    "cnpj": "63028811000110",
+    "nome": "ARENA BEER - LANCHONETE E RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 4368.0
+   },
+   {
+    "cnpj": "00096344000146",
+    "nome": "W.F.M. COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4037.1
+   },
+   {
+    "cnpj": "05122287000146",
+    "nome": "T. S. T INDUSTRIA E COMERCIO DE UNIFORMES ESCOLARES LTDA",
+    "cnae": "14126",
+    "n_despesas": 4,
+    "tipos": [
+     "Materiais de expediente",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2105.0
+   },
+   {
+    "cnpj": "55930774000103",
+    "nome": "IMIDIA IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "75270470000174",
+    "nome": "PADARIA E CONFEITARIA BRASIL LTDA",
+    "cnae": "10911",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 88.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 99,
+   "total": 210398.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 167800.0,
+    "Cessão ou locação de veículos": 32000.0,
+    "Despesas com pessoal": 10500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 98.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,241 @@
+{
+ "sq": "250002534242",
+ "nome_urna": "CARUSO",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 776446.1,
+  "por_origem": {
+   "Recursos de partido político": 703896.1,
+   "Recursos de pessoas físicas": 62550.0,
+   "Recursos próprios": 10000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 703896.1,
+   "OUTROS RECURSOS": 72550.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 700000.0
+   },
+   {
+    "cnpj": "45302874000131",
+    "nome": "Direção Estadual/Distrital - MDB - SÃO PAULO",
+    "total": 3896.1
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 72550.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 401372.73,
+  "total_pago": 138592.72,
+  "fornecedores_pj": [
+   {
+    "cnpj": "09204155000114",
+    "nome": "VITA PORTO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "53263828000107",
+    "nome": "HIPERGRAF INDUSTRIA GRAFICA E COMERCIO LTDA",
+    "cnae": "58191",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16390.0
+   },
+   {
+    "cnpj": "21860187000173",
+    "nome": "IAG SERVICOS GRAFICOS, COMERCIO E IMPORTACAO DE MAQUINAS LTDA",
+    "cnae": "47890",
+    "n_despesas": 15,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16220.0
+   },
+   {
+    "cnpj": "27485844000126",
+    "nome": "SEJA - AGENCIA DE COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "38953022000149",
+    "nome": "NIZAM UNIFORMES ESPORTIVOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5070.0
+   },
+   {
+    "cnpj": "08065507000135",
+    "nome": "GRAFICA RIOPARDENSE LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "53300681000170",
+    "nome": "3D ADMINISTRACAO DE BENS E NEGOCIOS LTDA",
+    "cnae": "01512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "08544295000179",
+    "nome": "EDITORA JORNALISTICA ZONA SUL NOTICIAS LTDA",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3333.33
+   },
+   {
+    "cnpj": "18649169000132",
+    "nome": "CODAM INDUSTRIAL LTDA",
+    "cnae": "13596",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2970.0
+   },
+   {
+    "cnpj": "17644400000132",
+    "nome": "DLM COMERCIO DE TECIDOS LTDA",
+    "cnae": "47555",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2750.0
+   },
+   {
+    "cnpj": "59069559000110",
+    "nome": "BAVIPLAST EMBALAGENS PLASTICAS LTDA",
+    "cnae": "22226",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2700.0
+   },
+   {
+    "cnpj": "61172326000190",
+    "nome": "GRAFICA E EDITORA TUPI LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2450.0
+   },
+   {
+    "cnpj": "51828762000111",
+    "nome": "ROTARY CLUB DE SAO JOSE DO RIO PARDO",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "57865834000187",
+    "nome": "POSTSHOP COMUNICACOES E SERVICOS LTDA",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 1081.29
+   },
+   {
+    "cnpj": "37980715000168",
+    "nome": "F.E.CANDIDO COMERCIO E SERVICOS",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 640.0
+   },
+   {
+    "cnpj": "11780960000138",
+    "nome": "ANALICE NOGUEIRA DE ANDRADE BARROS",
+    "cnae": "58298",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 560.0
+   },
+   {
+    "cnpj": "41801623000140",
+    "nome": "ICONNE PUBLICIDADE E COMERCIO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "51017044000165",
+    "nome": "HIGIELY - COMERCIO DE PRODUTOS DE LIMPEZA LTDA",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 322.6
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 150,
+   "total": 306385.51,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 68880.0,
+    "Cessão ou locação de veículos": 62500.01,
+    "Despesas com pessoal": 159500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 5.5,
+    "Locação/cessão de bens imóveis": 10500.0,
+    "Serviços contábeis": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

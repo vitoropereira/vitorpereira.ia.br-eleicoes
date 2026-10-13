@@ -1,0 +1,258 @@
+{
+ "sq": "100002537271",
+ "nome_urna": "ALDIR JUNIOR",
+ "cargo": "depfed",
+ "uf": "MA",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2065500.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 100.0,
+   "Recursos de partido político": 2000000.0,
+   "Recursos de pessoas físicas": 65400.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2000000.0,
+   "OUTROS RECURSOS": 65500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2000000.0
+   },
+   {
+    "cnpj": "68403966000103",
+    "nome": "JOSIMAR CUNHA RODRIGUES JUNIOR",
+    "total": 100.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 65400.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1323563.6,
+  "total_pago": 547165.6,
+  "fornecedores_pj": [
+   {
+    "cnpj": "46114196000146",
+    "nome": "INSTITUTO SERVIR SOCIAL",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 291870.0
+   },
+   {
+    "cnpj": "33248684000102",
+    "nome": "S E S PRODUCAO DE EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 2,
+    "tipos": [
+     "Comícios",
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 257278.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "03779173000148",
+    "nome": "A. MOTA DE SOUSA MELO CIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 108100.0
+   },
+   {
+    "cnpj": "68737631000121",
+    "nome": "PRODIGIO PRO LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 95000.0
+   },
+   {
+    "cnpj": "23444709000181",
+    "nome": "SIEART GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 62565.0
+   },
+   {
+    "cnpj": "37394652000168",
+    "nome": "ETCETERA COMERCIO SERVICO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 54200.0
+   },
+   {
+    "cnpj": "61548620000154",
+    "nome": "61.548.620 MARIA DO PERPETUO SOCORRO SANTOS SIMOES",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 36000.0
+   },
+   {
+    "cnpj": "00712720000180",
+    "nome": "MAXIMO OLIVEIRA COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "61677128000189",
+    "nome": "INTEGRA COMUNICACAO VISUAL, DIGITAL E PRODUCOES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "27796271000151",
+    "nome": "H. Z. MALHARIA LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "36340090000107",
+    "nome": "M J UNIFORMES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "36781256000120",
+    "nome": "D A C DA SILVA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "48610840000100",
+    "nome": "CASSIA SUBLIMACAO E IMPRESSAO DE SERVICOS LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "09600100000123",
+    "nome": "IVAN LINO DOS SANTOS JUNIOR",
+    "cnae": "18229",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6600.0
+   },
+   {
+    "cnpj": "10686600000290",
+    "nome": "PROCAR VEICULOS E PECAS LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6500.0
+   },
+   {
+    "cnpj": "55043191000160",
+    "nome": "JV MIRANDA SERVICOS E COMERCIO LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 6040.0
+   },
+   {
+    "cnpj": "50621216000142",
+    "nome": "50.621.216 EDMILSON COELHO SOUSA JUNIOR",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 5775.0
+   },
+   {
+    "cnpj": "74178526000100",
+    "nome": "M. MENDONCA - GRAFICA E EDITORA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3540.0
+   },
+   {
+    "cnpj": "17668873000170",
+    "nome": "ERIC GUIMARAES ARAUJO",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 80.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 20015.6,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 15.6,
+    "Serviços advocatícios": 10000.0,
+    "Serviços contábeis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

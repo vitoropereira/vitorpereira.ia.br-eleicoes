@@ -1,0 +1,214 @@
+{
+ "sq": "50002533133",
+ "nome_urna": "TIAGO CORREIA",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "PSDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1255691.03,
+  "por_origem": {
+   "Recursos de outros candidatos": 32782.5,
+   "Recursos de partido político": 500862.4,
+   "Recursos de pessoas físicas": 640000.0,
+   "Recursos próprios": 82046.13
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 232782.5,
+   "FUNDO PARTIDARIO": 862.4,
+   "OUTROS RECURSOS": 1022046.13
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "03653474000120",
+    "nome": "Direção Nacional - PSDB",
+    "total": 350000.0
+   },
+   {
+    "cnpj": "29417359000140",
+    "nome": "Direção Nacional - CIDADANIA",
+    "total": 150000.0
+   },
+   {
+    "cnpj": "68237840000106",
+    "nome": "ADOLFO VIANA DE CASTRO NETO",
+    "total": 30000.0
+   },
+   {
+    "cnpj": "68237701000182",
+    "nome": "EDERILDA DE ALMEIDA SANTOS",
+    "total": 2782.5
+   },
+   {
+    "cnpj": "33794488000125",
+    "nome": "Direção Estadual/Distrital - PSDB - BAHIA",
+    "total": 862.4
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 722046.13
+  }
+ },
+ "despesas": {
+  "total_contratado": 879808.32,
+  "total_pago": 1248046.13,
+  "fornecedores_pj": [
+   {
+    "cnpj": "01208686000173",
+    "nome": "GRAFICA LURIPRESS LTDA",
+    "cnae": "18229",
+    "n_despesas": 13,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 118698.5
+   },
+   {
+    "cnpj": "22049983000193",
+    "nome": "GUARATUBA INDUSTRIA E COMERCIO LTDA",
+    "cnae": "26213",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 55440.0
+   },
+   {
+    "cnpj": "62299273000136",
+    "nome": "NADAL COMUNICACAO E PROPAGANDA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "16089567000116",
+    "nome": "PRESS COLOR GRAFICOS ESPECIALIZADOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9460.0
+   },
+   {
+    "cnpj": "44949460000136",
+    "nome": "STREET DOOR COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 7250.0
+   },
+   {
+    "cnpj": "29102327000156",
+    "nome": "POSTO DE COMBUSTIVEIS LTDA.",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6606.5
+   },
+   {
+    "cnpj": "15111297000130",
+    "nome": "EMPRESA EDITORA A TARDE S A",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 5707.75
+   },
+   {
+    "cnpj": "67168797000101",
+    "nome": "DS GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5177.6
+   },
+   {
+    "cnpj": "28794582000144",
+    "nome": "PATRIMONIAL SEVERINO VIDAL LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "37099622000129",
+    "nome": "DIEGO SILVA LOPES LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "00188004000145",
+    "nome": "URANUS 2 COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2780.0
+   },
+   {
+    "cnpj": "17303715000116",
+    "nome": "EXPRESSA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2780.0
+   },
+   {
+    "cnpj": "41169679000124",
+    "nome": "41.169.679 JEAN DE ABREU BATISTA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 650.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 53,
+   "total": 623757.97,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 690.37,
+    "Serviços contábeis": 16000.0,
+    "Serviços prestados por terceiros": 607067.6
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

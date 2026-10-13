@@ -1,0 +1,453 @@
+{
+ "sq": "110002547809",
+ "nome_urna": "NININHO",
+ "cargo": "depest",
+ "uf": "MT",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1251521.0,
+  "por_origem": {
+   "Recursos de partido político": 400000.0,
+   "Recursos de pessoas físicas": 809771.0,
+   "Recursos próprios": 41750.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "OUTROS RECURSOS": 1051521.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "45943051000195",
+    "nome": "Direção Estadual/Distrital - UNIÃO - MATO GROSSO",
+    "total": 200000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 26,
+   "total": 851521.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 625856.32,
+  "total_pago": 457596.12,
+  "fornecedores_pj": [
+   {
+    "cnpj": "23929195000154",
+    "nome": "SERATA EDITORA GRAFICA E PUBLICIDADE LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 94560.0
+   },
+   {
+    "cnpj": "24603658000156",
+    "nome": "POVOAS DE ABREU SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "14842636000195",
+    "nome": "CENTTRAL GRAFICA COMUNICACAO VISUAL LTDA",
+    "cnae": "82199",
+    "n_despesas": 15,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 66110.0
+   },
+   {
+    "cnpj": "34576935000132",
+    "nome": "EXPRESSA GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 39750.0
+   },
+   {
+    "cnpj": "01143988000100",
+    "nome": "FLEXO MIDIA PERSONALIZADOS LTDA",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25373.0
+   },
+   {
+    "cnpj": "02448395000115",
+    "nome": "CONFISTEC ASSESSORIA CONTABIL S/C",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "21047225000173",
+    "nome": "S B CONSTRUTORA LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "84010040002824",
+    "nome": "PIONEIRO COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 16742.16
+   },
+   {
+    "cnpj": "00952879000171",
+    "nome": "POSTO UNIVERSITARIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 63,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 16002.57
+   },
+   {
+    "cnpj": "04691443000127",
+    "nome": "GRAFICA E EDITORA CORREA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15840.0
+   },
+   {
+    "cnpj": "02532141001233",
+    "nome": "AEROPREST COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 15430.3
+   },
+   {
+    "cnpj": "34062812000183",
+    "nome": "FORTE LUMINOSOS E LETREIROS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14600.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 11500.0
+   },
+   {
+    "cnpj": "21598894000133",
+    "nome": "AERO SIAQ ADMINISTRADORA AEROPORTUARIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 11304.15
+   },
+   {
+    "cnpj": "60547944000105",
+    "nome": "GRAFNORTE LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10800.0
+   },
+   {
+    "cnpj": "20270965000101",
+    "nome": "K. K. DE OLIVEIRA LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10440.0
+   },
+   {
+    "cnpj": "10280806003664",
+    "nome": "FRIBON TRANSPORTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 8628.75
+   },
+   {
+    "cnpj": "58414540000100",
+    "nome": "J. C. CANDEIA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5880.0
+   },
+   {
+    "cnpj": "12146738000140",
+    "nome": "MARIO FERNANDES PEREIRA CHAVES",
+    "cnae": "77292",
+    "n_despesas": 4,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)",
+     "Água"
+    ],
+    "total": 5532.0
+   },
+   {
+    "cnpj": "10820693000112",
+    "nome": "VW PUBLICIDADES LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5490.0
+   },
+   {
+    "cnpj": "22906527000384",
+    "nome": "AEROPOSTO TIGRAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 3247.2
+   },
+   {
+    "cnpj": "12531196000120",
+    "nome": "VIACAO RIO PRATA LTDA EM RECUPERACAO JUDICIAL",
+    "cnae": "49221",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "40853643000100",
+    "nome": "J S COELHO DE LIMA",
+    "cnae": "52401",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 2880.0
+   },
+   {
+    "cnpj": "42554018000185",
+    "nome": "FLORESTA SERVICOS DE HOTELARIA LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 2484.05
+   },
+   {
+    "cnpj": "41797987000102",
+    "nome": "PORTAL INFO VERUS LTDA",
+    "cnae": "63119",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "29085317000230",
+    "nome": "ADRIA SANTOS MUNIZ",
+    "cnae": "47547",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1525.0
+   },
+   {
+    "cnpj": "01012559000102",
+    "nome": "JATO AEROTAXI LTDA",
+    "cnae": "51129",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "57824263000132",
+    "nome": "AUTO POSTO SENNA LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1323.55
+   },
+   {
+    "cnpj": "54811648000177",
+    "nome": "HOTEL VALE DO ARAGUAIA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1179.99
+   },
+   {
+    "cnpj": "29085641000178",
+    "nome": "MARINI SANTOS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 930.0
+   },
+   {
+    "cnpj": "60343256000123",
+    "nome": "HOTEL IPE PREMIUM LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 870.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "10280806003150",
+    "nome": "FRIBON TRANSPORTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 450.0
+   },
+   {
+    "cnpj": "34193922000184",
+    "nome": "GRAF PRINT COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 441.0
+   },
+   {
+    "cnpj": "51936275000172",
+    "nome": "MEGA HANGARAGEM DE AERONAVES LTDA",
+    "cnae": "52401",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "46381238000105",
+    "nome": "FLAMBOYANT HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 346.0
+   },
+   {
+    "cnpj": "03449381000189",
+    "nome": "ROTARY CLUB DE PEDRA PRETA",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "64750355000180",
+    "nome": "64.750.355 MARIO CESAR ROCHA CARVALHO",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "31448241000121",
+    "nome": "TECH CERTIFICADORA DIGITAL LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 260.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 32,
+   "total": 108036.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 10484.0,
+    "Cessão ou locação de veículos": 42000.0,
+    "Despesas com pessoal": 51855.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 197.6,
+    "Locação/cessão de bens imóveis": 3500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,181 @@
+{
+ "sq": "70002552934",
+ "nome_urna": "BIA KICIS",
+ "cargo": "senador",
+ "uf": "DF",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 4302500.0,
+  "por_origem": {
+   "Recursos de partido político": 3998000.0,
+   "Recursos de pessoas físicas": 304500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3398000.0,
+   "OUTROS RECURSOS": 904500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3998000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 71,
+   "total": 304500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2903712.6,
+  "total_pago": 2109412.6,
+  "fornecedores_pj": [
+   {
+    "cnpj": "36571713000152",
+    "nome": "BRUNO BELEZA - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 380000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 372000.0
+   },
+   {
+    "cnpj": "67057655000177",
+    "nome": "HG M SERVICOS GRAFICOS LTDA",
+    "cnae": "18211",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 283500.0
+   },
+   {
+    "cnpj": "37571001000104",
+    "nome": "I9 CONFECCAO DE BRINDES LTDA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 167362.0
+   },
+   {
+    "cnpj": "20747906000181",
+    "nome": "RM CONSULTORIA SERVICOS E VENDAS LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 106000.0
+   },
+   {
+    "cnpj": "26571015000101",
+    "nome": "CLAYTON GOMES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 90000.0
+   },
+   {
+    "cnpj": "00306597000105",
+    "nome": "CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 83000.0
+   },
+   {
+    "cnpj": "25188538000100",
+    "nome": "ESSENT INOVACAO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 74000.0
+   },
+   {
+    "cnpj": "59748176000179",
+    "nome": "59.748.176 NATHALIA PALANCA AGUIAR",
+    "cnae": "58191",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "39572622000120",
+    "nome": "BITTAR EDITORA, PLANEJAMENTO ESTRATEGICO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "32107975000100",
+    "nome": "32.107.975 ALINE RAMOS DE OLIVEIRA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15200.0
+   },
+   {
+    "cnpj": "06043481000107",
+    "nome": "FIGUEIREDO ASSESSORIA LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "23629375000110",
+    "nome": "23.629.375 RICARDO MIRANDA DE ANDRADE",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 688,
+   "total": 1277150.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 1002450.0,
+    "Cessão ou locação de veículos": 57000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 47700.6,
+    "Serviços prestados por terceiros": 170000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

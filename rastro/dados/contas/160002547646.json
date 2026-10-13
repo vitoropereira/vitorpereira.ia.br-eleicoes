@@ -1,0 +1,133 @@
+{
+ "sq": "160002547646",
+ "nome_urna": "DENIAN COUTO",
+ "cargo": "depest",
+ "uf": "PR",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 626386.5,
+  "por_origem": {
+   "Recursos de partido político": 410000.0,
+   "Recursos de pessoas físicas": 197000.0,
+   "Recursos próprios": 19386.5
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 210000.0,
+   "FUNDO PARTIDARIO": 200000.0,
+   "OUTROS RECURSOS": 216386.5
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 410000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 22,
+   "total": 216386.5
+  }
+ },
+ "despesas": {
+  "total_contratado": 254683.5,
+  "total_pago": 261163.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "00495545000116",
+    "nome": "OFICINA DO IMPRESSO GRAFICA E EDITORA LTDA.",
+    "cnae": "18113",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 90930.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 90000.0
+   },
+   {
+    "cnpj": "08422188000178",
+    "nome": "ANDERGRAF PRODUCAO GRAFICA E MULTIMIDIA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 15700.0
+   },
+   {
+    "cnpj": "68519809000168",
+    "nome": "SEBASTIAO VALTER FERNANDES",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "20077908000100",
+    "nome": "MEGA DIGITAL LTDA.",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos"
+    ],
+    "total": 10250.0
+   },
+   {
+    "cnpj": "14448772000103",
+    "nome": "HNB ADMINISTRACAO DE BENS S A",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "16705813000117",
+    "nome": "L MARTINEZ",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "65859059000185",
+    "nome": "FORTS SERVICOS EM COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 900.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 21003.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.5,
+    "Serviços contábeis": 15000.0,
+    "Serviços prestados por terceiros": 6000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

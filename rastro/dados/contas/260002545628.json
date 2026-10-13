@@ -1,0 +1,179 @@
+{
+ "sq": "260002545628",
+ "nome_urna": "PAULO JR",
+ "cargo": "depest",
+ "uf": "SE",
+ "partido": "PV",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 130500.0,
+  "por_origem": {
+   "Recursos de partido político": 130500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 130500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "31886963000168",
+    "nome": "Direção Nacional - PV",
+    "total": 130500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 205637.64,
+  "total_pago": 23372.58,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13007646000142",
+    "nome": "GRAFICA EDITORA J ANDRADE LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 40495.0
+   },
+   {
+    "cnpj": "54482719000135",
+    "nome": "MGA COMUNICACAO VISUAL E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21440.0
+   },
+   {
+    "cnpj": "53667897000178",
+    "nome": "MAIS INGRESSOS E PULSEIRAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16900.0
+   },
+   {
+    "cnpj": "11917599000149",
+    "nome": "ECONTABIL CONSULTORIA E ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "04967361000162",
+    "nome": "EDUARDO RIBEIRO ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "33236648000110",
+    "nome": "RB COMUNICA, EDICAO, PUBLICIDADE, MARKETING E EVENTOS LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "32842593000120",
+    "nome": "MAURICIO BARROS SANTOS SAO CRISTOVAO LTDA",
+    "cnae": "66193",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "32859100000164",
+    "nome": "TEXTOPRONTO GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7139.0
+   },
+   {
+    "cnpj": "58726328000170",
+    "nome": "58.726.328 EDJANE DANTAS SANTOS",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 5400.0
+   },
+   {
+    "cnpj": "07075892000724",
+    "nome": "RPB AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 10,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3152.46
+   },
+   {
+    "cnpj": "02832235000175",
+    "nome": "POSTO VANIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2366.48
+   },
+   {
+    "cnpj": "15454009000140",
+    "nome": "UNIR LOCACOES E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "23585358000129",
+    "nome": "JOSINEIDE GAMA SANTANA SILVA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1800.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 14,
+   "total": 60944.7,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 25939.2,
+    "Cessão ou locação de veículos": 27000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 5.5,
+    "Locação/cessão de bens imóveis": 8000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

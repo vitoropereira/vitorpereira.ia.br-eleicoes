@@ -1,0 +1,121 @@
+{
+ "sq": "250002536344",
+ "nome_urna": "CAPITÃO MOSART",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 936740.42,
+  "por_origem": {
+   "Recursos de outros candidatos": 1200.0,
+   "Recursos de partido político": 790054.03,
+   "Recursos de pessoas físicas": 70486.39,
+   "Recursos próprios": 75000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 701200.0,
+   "FUNDO PARTIDARIO": 39705.74,
+   "OUTROS RECURSOS": 195834.68
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 700000.0
+   },
+   {
+    "cnpj": "08701595000114",
+    "nome": "Direção Estadual/Distrital - PL - SÃO PAULO",
+    "total": 90054.03
+   },
+   {
+    "cnpj": "68353128000172",
+    "nome": "GILDEVANIO ILSO DOS SANTOS DINIZ",
+    "total": 1200.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 145486.39
+  }
+ },
+ "despesas": {
+  "total_contratado": 58119.0,
+  "total_pago": 798706.93,
+  "fornecedores_pj": [
+   {
+    "cnpj": "59009250000135",
+    "nome": "59.009.250 INAIRA RAFAELA DE CASTRO GOUVEA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 21600.0
+   },
+   {
+    "cnpj": "10659834000167",
+    "nome": "LEGACY GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17140.0
+   },
+   {
+    "cnpj": "26359744000190",
+    "nome": "MURIEL E POLICICIO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "66475160000103",
+    "nome": "COMEGE CONSULTORIA TRIBUTARIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "30548349000123",
+    "nome": "CENTER PLOTTER FOTOCOPIAS E PLOTAGEM LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 360.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 19.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 19.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,170 @@
+{
+ "sq": "70002538800",
+ "nome_urna": "JAQUELINE SILVA",
+ "cargo": "distrital",
+ "uf": "DF",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 370000.0,
+  "por_origem": {
+   "Recursos de partido político": 200000.0,
+   "Recursos de pessoas físicas": 100000.0,
+   "Recursos próprios": 70000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "OUTROS RECURSOS": 170000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 200000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 170000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 251530.06,
+  "total_pago": 317718.46,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "12130444000120",
+    "nome": "R P LEITE PUBLICIDADES",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 49000.0
+   },
+   {
+    "cnpj": "34613924000185",
+    "nome": "INOVE PRODUCAO DE EVENTOS E SHOW LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 37600.0
+   },
+   {
+    "cnpj": "11157042000157",
+    "nome": "ARTE CORES CONFECCOES DE ROUPAS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21900.0
+   },
+   {
+    "cnpj": "64787593000160",
+    "nome": "J. DE LIMA ALENCAR",
+    "cnae": "49248",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "06227397000135",
+    "nome": "VERA FRANCILIA GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8500.0
+   },
+   {
+    "cnpj": "53632772000102",
+    "nome": "PREVTREIN SERVICOS LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 5320.0
+   },
+   {
+    "cnpj": "63235791000159",
+    "nome": "SETOR SUL COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4320.0
+   },
+   {
+    "cnpj": "32738240000184",
+    "nome": "ARCANJOS LIFE SOLUCOES EM EMERGENCIAS MEDICAS E BRIGADAS DE INCENDIO LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "37909259000160",
+    "nome": "GRUPO IMPRESSO GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1110.0
+   },
+   {
+    "cnpj": "10748083000155",
+    "nome": "ARTCERT CONTABIL E CERTIFICACAO DIGITAL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 188.1
+   },
+   {
+    "cnpj": "61868588000275",
+    "nome": "COMERCIAL NSM LTDA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 186.96
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 7005.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 7000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 5.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

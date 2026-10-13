@@ -1,0 +1,163 @@
+{
+ "sq": "180002539021",
+ "nome_urna": "JÚNIOR PERCY",
+ "cargo": "depest",
+ "uf": "PI",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1078675.67,
+  "por_origem": {
+   "Recursos de partido político": 1075675.67,
+   "Recursos próprios": 3000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1000000.0,
+   "OUTROS RECURSOS": 78675.67
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 1075675.67
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 3000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 448000.72,
+  "total_pago": 515308.22,
+  "fornecedores_pj": [
+   {
+    "cnpj": "23444709000181",
+    "nome": "SIEART GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 245860.0
+   },
+   {
+    "cnpj": "08511852000155",
+    "nome": "NOGUEIRA NOGUEIRA SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "53078339000177",
+    "nome": "FRANCISCO EDSON C DOS SANTOS",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "53310763000103",
+    "nome": "DATANORTE PORTAIS, COMUNICACAO, PUBLICIDADE E PESQUISAS DE OPINIAO LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "11837518000109",
+    "nome": "CONSTRUTORA LOCADORA SANTOS LTDA",
+    "cnae": "77322",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 19600.0
+   },
+   {
+    "cnpj": "14061222000200",
+    "nome": "BRUNO IGO DE CARVALHO ROCHA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10939.33
+   },
+   {
+    "cnpj": "02705744000137",
+    "nome": "BARBARA NUNES BARBOSA SANTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4255.43
+   },
+   {
+    "cnpj": "30190971000102",
+    "nome": "POSTO ALVES COMERCIO DE COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2958.69
+   },
+   {
+    "cnpj": "15298975000115",
+    "nome": "R. SILVA DE OLIVEIRA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2765.49
+   },
+   {
+    "cnpj": "37806406000176",
+    "nome": "37.806.406 JEDAIAS DINIZ AMARAL JUNIOR",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2700.0
+   },
+   {
+    "cnpj": "20714383000177",
+    "nome": "PIRANGI COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1780.28
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 22,
+   "total": 70141.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 21883.5,
+    "Cessão ou locação de veículos": 11500.0,
+    "Despesas com pessoal": 15431.5,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.5,
+    "Locação/cessão de bens imóveis": 20000.0,
+    "Locação/cessão de bens móveis (exceto veículos)": 1325.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

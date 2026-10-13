@@ -1,0 +1,113 @@
+{
+ "sq": "60002540698",
+ "nome_urna": "FRANZÉ CARNEIRO",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 212400.0,
+  "por_origem": {
+   "Recursos de partido político": 126400.0,
+   "Recursos de pessoas físicas": 66000.0,
+   "Recursos próprios": 20000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 126400.0,
+   "OUTROS RECURSOS": 86000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 126400.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 86000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 239498.9,
+  "total_pago": 151293.9,
+  "fornecedores_pj": [
+   {
+    "cnpj": "02933302000148",
+    "nome": "QUALIGRAF - EDITORA E GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 117700.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "40144079000149",
+    "nome": "T R SOARES DO NASCIMENTO CIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "12155306000104",
+    "nome": "RICARDO GLEYDSON BATISTA DOS SANTOS",
+    "cnae": "47521",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "17343713000150",
+    "nome": "WILKER MACEDO LIMA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "65724383000196",
+    "nome": "INOVARTS COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 698.9
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 30,
+   "total": 51100.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 28800.0,
+    "Despesas com pessoal": 2800.0,
+    "Locação/cessão de bens imóveis": 4500.0,
+    "Serviços contábeis": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

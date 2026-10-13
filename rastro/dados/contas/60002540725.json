@@ -1,0 +1,132 @@
+{
+ "sq": "60002540725",
+ "nome_urna": "JOÃO JAIME",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "PV",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 334010.0,
+  "por_origem": {
+   "Recursos de partido político": 50000.0,
+   "Recursos de pessoas físicas": 184010.0,
+   "Recursos próprios": 100000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 50000.0,
+   "OUTROS RECURSOS": 284010.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01416876000186",
+    "nome": "Direção Estadual/Distrital - PV - CEARÁ",
+    "total": 50000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 284010.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 180026.0,
+  "total_pago": 167026.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 13,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 36000.0
+   },
+   {
+    "cnpj": "62569126000139",
+    "nome": "GLOBAL SOLUCOES GRAFICAS E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30400.0
+   },
+   {
+    "cnpj": "65409516000130",
+    "nome": "FP COMERCIAL E EVENTOS LTDA",
+    "cnae": "47636",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "05036551000129",
+    "nome": "JAYMES ALVES FERREIRA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "20823067000133",
+    "nome": "JFS COMUNICACAO",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "07012214000127",
+    "nome": "GRAFICA E EDITORA POUCHAIN RAMOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13600.0
+   },
+   {
+    "cnpj": "04011639000123",
+    "nome": "PRINT SOLUCOES GRAFICAS E EVENTOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "31518029000193",
+    "nome": "A. ISRAEL LUCAS SOUSA MACEDO",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 5,
+   "total": 38026.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 8000.0,
+    "Despesas com pessoal": 30000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 26.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

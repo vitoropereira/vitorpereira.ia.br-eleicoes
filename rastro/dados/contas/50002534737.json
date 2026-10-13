@@ -1,0 +1,179 @@
+{
+ "sq": "50002534737",
+ "nome_urna": "PASTOR SARGENTO ISIDÓRIO",
+ "cargo": "depfed",
+ "uf": "BA",
+ "partido": "AVANTE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1970100.0,
+  "por_origem": {
+   "Recursos de partido político": 1970000.0,
+   "Recursos de pessoas físicas": 100.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1970000.0,
+   "OUTROS RECURSOS": 100.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "59933952000100",
+    "nome": "Direção Nacional - AVANTE",
+    "total": 1970000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 100.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 346881.4,
+  "total_pago": 159118.74,
+  "fornecedores_pj": [
+   {
+    "cnpj": "05770290000176",
+    "nome": "GENSA - GRAFICA E EDITORA NOSSA SENHORA APARECIDA LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "02203323000108",
+    "nome": "NANDO AMANDA TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 54000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 25100.0
+   },
+   {
+    "cnpj": "03432120000156",
+    "nome": "W. L. COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "06099586000170",
+    "nome": "POSTO DE COMBUSTIVEIS E LUBRIFICANTES CORREIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10695.35
+   },
+   {
+    "cnpj": "21235644000139",
+    "nome": "BOCA DA MATA AUTO POSTO LTDA.",
+    "cnae": "47318",
+    "n_despesas": 11,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4218.34
+   },
+   {
+    "cnpj": "20120888000103",
+    "nome": "RAIPRINT IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "30407550000271",
+    "nome": "DK COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2163.29
+   },
+   {
+    "cnpj": "13201223000169",
+    "nome": "POSTO AV DE COMBUST DERIV DE PETROLEO E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2005.86
+   },
+   {
+    "cnpj": "14486153002220",
+    "nome": "TREVO DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 947.01
+   },
+   {
+    "cnpj": "19495771000206",
+    "nome": "POSTO TENENTE COMERCIO DE PRODUTOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 165.66
+   },
+   {
+    "cnpj": "15754475000140",
+    "nome": "HOSTGATOR BRASIL LTDA.",
+    "cnae": "63119",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 45.89
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 74,
+   "total": 150500.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 150500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,209 @@
+{
+ "sq": "190002533422",
+ "nome_urna": "DRA. GABRIELA",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1079036.02,
+  "por_origem": {
+   "Recursos de outros candidatos": 8456.02,
+   "Recursos de partido político": 1007100.0,
+   "Recursos de pessoas físicas": 11480.0,
+   "Recursos próprios": 52000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 702727.27,
+   "FUNDO PARTIDARIO": 300000.0,
+   "OUTROS RECURSOS": 76308.75
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "15615084000145",
+    "nome": "Direção Municipal/Comissão Provisória - PL - CABO FRIO - RJ",
+    "total": 4000.0
+   },
+   {
+    "cnpj": "68315454000195",
+    "nome": "JOSE HENRIQUE PEREIRA DA COSTA VIEIRA",
+    "total": 3938.0
+   },
+   {
+    "cnpj": "08703299000152",
+    "nome": "Direção Estadual/Distrital - PL - RIO DE JANEIRO",
+    "total": 3100.0
+   },
+   {
+    "cnpj": "68470280000135",
+    "nome": "DOUGLAS RUAS DOS SANTOS",
+    "total": 2727.27
+   },
+   {
+    "cnpj": "68461550000141",
+    "nome": "LUIZ ANTONIO DE SOUZA TEIXEIRA JUNIOR",
+    "total": 1127.5
+   },
+   {
+    "cnpj": "68552950000162",
+    "nome": "RICARDO MARTINS DAVID",
+    "total": 663.25
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 63480.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 655260.0,
+  "total_pago": 250484.36,
+  "fornecedores_pj": [
+   {
+    "cnpj": "34824363000163",
+    "nome": "DAFI WORKS LTDA",
+    "cnae": "74200",
+    "n_despesas": 4,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans",
+     "Produção de programas de rádio, televisão ou vídeo",
+     "Publicidade por carros de som",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 78000.0
+   },
+   {
+    "cnpj": "61144095000101",
+    "nome": "SUDESTE GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 50,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 64581.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 38000.0
+   },
+   {
+    "cnpj": "43192101000114",
+    "nome": "V D N TURISMO LTDA",
+    "cnae": "79112",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 36050.0
+   },
+   {
+    "cnpj": "26734660000190",
+    "nome": "JRP GRAFICA E EDITORA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30050.0
+   },
+   {
+    "cnpj": "51186865000125",
+    "nome": "QUALITY SHIELD CARS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 29000.0
+   },
+   {
+    "cnpj": "20551561000196",
+    "nome": "P. R. T. PRODUCOES LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 27494.5
+   },
+   {
+    "cnpj": "25044190000170",
+    "nome": "TIAGO SANTOS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "65058164000115",
+    "nome": "NOVAFANP COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10650.0
+   },
+   {
+    "cnpj": "65650748000185",
+    "nome": "ZEST COMERCIO E SERVICOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "50354139000101",
+    "nome": "LW SANTOS SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "06057223029749",
+    "nome": "SENDAS DISTRIBUIDORA S/A",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1440.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 117,
+   "total": 308594.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 266826.0,
+    "Despesas com pessoal": 28734.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 34.5,
+    "Locação/cessão de bens imóveis": 7000.0,
+    "Serviços contábeis": 6000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

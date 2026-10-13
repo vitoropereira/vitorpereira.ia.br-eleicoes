@@ -1,0 +1,207 @@
+{
+ "sq": "190002532805",
+ "nome_urna": "WLADIMIR GAROTINHO",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1073712.68,
+  "por_origem": {
+   "Recursos de outros candidatos": 9898.02,
+   "Recursos de partido político": 1003004.66,
+   "Recursos de pessoas físicas": 60810.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1005898.02,
+   "FUNDO PARTIDARIO": 3004.66,
+   "OUTROS RECURSOS": 64810.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "68461828000180",
+    "nome": "BRUNO FELGUEIRA DAUAIRE",
+    "total": 4000.0
+   },
+   {
+    "cnpj": "68269163000108",
+    "nome": "GABRIELA MARIA GONCALVES AZEVEDO",
+    "total": 3170.75
+   },
+   {
+    "cnpj": "08703299000152",
+    "nome": "Direção Estadual/Distrital - PL - RIO DE JANEIRO",
+    "total": 3004.66
+   },
+   {
+    "cnpj": "68470280000135",
+    "nome": "DOUGLAS RUAS DOS SANTOS",
+    "total": 2727.27
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 8,
+   "total": 60810.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 617103.5,
+  "total_pago": 662893.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "19028175000135",
+    "nome": "GRAFICA-EXPRESS LTDA",
+    "cnae": "18130",
+    "n_despesas": 16,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 95850.0
+   },
+   {
+    "cnpj": "39293002000151",
+    "nome": "PREFAB FUTURE PUBLICIDADE E PESQUISAS LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 62174.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 57000.0
+   },
+   {
+    "cnpj": "31267556000172",
+    "nome": "BRTM COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "29825992000178",
+    "nome": "VIACAO ABREU DE CAMPOS LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "02843015000147",
+    "nome": "JUAREZ P. GOMES",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "13627969000139",
+    "nome": "ALMEIDA SANTOS SERVICOS DE LOCACAO DE VEICULOS E TRANSPORTES LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "17275767000126",
+    "nome": "W. S. A. C. LOCADORA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "28976165000112",
+    "nome": "AUTOMOVEL CLUBE FLUMINENSE",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "28958098000103",
+    "nome": "CLUBE DE REGATAS RIO BRANCO",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "20742302000142",
+    "nome": "CELEBRAR DECORACOES FESTAS E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "27180560000121",
+    "nome": "SUPREME FESTAS E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "28891125000178",
+    "nome": "CLUB RECREATIVO GOITACA",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 600.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 70,
+   "total": 254679.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 126800.0,
+    "Cessão ou locação de veículos": 44000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 79.5,
+    "Locação/cessão de bens imóveis": 13800.0,
+    "Serviços advocatícios": 20000.0,
+    "Serviços contábeis": 30000.0,
+    "Serviços prestados por terceiros": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

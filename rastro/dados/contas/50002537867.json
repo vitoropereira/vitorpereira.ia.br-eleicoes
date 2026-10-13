@@ -1,0 +1,122 @@
+{
+ "sq": "50002537867",
+ "nome_urna": "JUNIOR MUNIZ",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 40000.0,
+  "por_origem": {
+   "Recursos próprios": 40000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 40000.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 40000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 91750.5,
+  "total_pago": 31100.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "53721430000169",
+    "nome": "LP CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "42520422000138",
+    "nome": "JAILTON DA SILVA SALES",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16200.0
+   },
+   {
+    "cnpj": "14752810000109",
+    "nome": "EMGRAF EMPRESARIAL GRAFICA FEIRENSE LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "55187492000168",
+    "nome": "MUNIZ ALMEIDA ADVOCACIA E CONSULTORIA JURIDICA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "09029247000105",
+    "nome": "GOL GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9450.0
+   },
+   {
+    "cnpj": "26476493000124",
+    "nome": "RANGE COMUNICACAO ESTRATEGICA LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "24759252000167",
+    "nome": "FEIRA ROTULOS E ETIQUETAS ADESIVAS LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 100.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 10000.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5,
+    "Locação/cessão de bens imóveis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,142 @@
+{
+ "sq": "100002542860",
+ "nome_urna": "PAULO CASÉ FERNANDES",
+ "cargo": "depest",
+ "uf": "MA",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 294391.4,
+  "por_origem": {
+   "Recursos de outros candidatos": 2500.0,
+   "Recursos de partido político": 164000.0,
+   "Recursos de pessoas físicas": 122891.4,
+   "Recursos próprios": 5000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 150000.0,
+   "FUNDO PARTIDARIO": 14000.0,
+   "OUTROS RECURSOS": 130391.4
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 150000.0
+   },
+   {
+    "cnpj": "47392744000162",
+    "nome": "Direção Estadual/Distrital - UNIÃO - MARANHÃO",
+    "total": 14000.0
+   },
+   {
+    "cnpj": "68470578000145",
+    "nome": "PEDRO LUCAS ANDRADE FERNANDES RIBEIRO",
+    "total": 2500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 14,
+   "total": 127891.4
+  }
+ },
+ "despesas": {
+  "total_contratado": 214575.0,
+  "total_pago": 184200.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "42934662000189",
+    "nome": "DANIEL AMARANTE SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 55000.0
+   },
+   {
+    "cnpj": "32080975000163",
+    "nome": "EBENEZER CONSULTORIA E CONTROLADORIA LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 42449.5
+   },
+   {
+    "cnpj": "36037248000174",
+    "nome": "T S LOPES",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "01565568000112",
+    "nome": "K R CARVALHO BRANCO",
+    "cnae": "13405",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 24375.0
+   },
+   {
+    "cnpj": "09228465000179",
+    "nome": "NEW TECH COMERCIO E SERVICO LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13550.0
+   },
+   {
+    "cnpj": "52404736000129",
+    "nome": "NAD COMBUSTIVEIS DO BRASIL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6800.0
+   },
+   {
+    "cnpj": "37394652000168",
+    "nome": "ETCETERA COMERCIO SERVICO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2400.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 0.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,135 @@
+{
+ "sq": "170002533320",
+ "nome_urna": "CLODOALDO MAGALHÃES",
+ "cargo": "depfed",
+ "uf": "PE",
+ "partido": "PV",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2712815.3,
+  "por_origem": {
+   "Recursos de partido político": 2599835.3,
+   "Recursos de pessoas físicas": 77980.0,
+   "Recursos próprios": 35000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2500000.0,
+   "OUTROS RECURSOS": 212815.3
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "31886963000168",
+    "nome": "Direção Nacional - PV",
+    "total": 2500000.0
+   },
+   {
+    "cnpj": "03281153000142",
+    "nome": "Direção Estadual/Distrital - PV - PERNAMBUCO",
+    "total": 99835.3
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 112980.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1673649.5,
+  "total_pago": 1728044.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "29681052000314",
+    "nome": "VIAMOB LOCACOES E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 504000.0
+   },
+   {
+    "cnpj": "36911274000180",
+    "nome": "GOLD PARTICIPACOES E COMERCIO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 350000.0
+   },
+   {
+    "cnpj": "61756841000118",
+    "nome": "K2 BRASIL ENTRETENIMENTO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "25173110000186",
+    "nome": "NOBREGA PROMOCOES E ILUMINACAO LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "27730443000194",
+    "nome": "ARAUJO FARDAMENTOS E SERVICOS TERCEIRIZADOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 50400.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "13392325000109",
+    "nome": "BCA PRODUCAO E DISTRIBUICAO DE FILMES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 1105.0
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 76.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 300068.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 68.5,
+    "Serviços advocatícios": 300000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,260 @@
+{
+ "sq": "210002534036",
+ "nome_urna": "ADÃO PRETTO",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 345500.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 40000.0,
+   "Recursos de partido político": 265500.0,
+   "Recursos de pessoas físicas": 40000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 305500.0,
+   "OUTROS RECURSOS": 40000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265500.0
+   },
+   {
+    "cnpj": "68306629000106",
+    "nome": "ANTONIO VALDECI OLIVEIRA DE OLIVEIRA",
+    "total": 40000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 8,
+   "total": 40000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 260792.0,
+  "total_pago": 301000.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "23339084000198",
+    "nome": "FELIX, FLORIANO, RONDON E RIBEIRO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "32300836000106",
+    "nome": "BRUNO BECKER SCHNEIDER",
+    "cnae": "47610",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10638.37
+   },
+   {
+    "cnpj": "56933804000106",
+    "nome": "GLADIS SILVA DA ROSA LTDA",
+    "cnae": "47555",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10500.0
+   },
+   {
+    "cnpj": "03591044000121",
+    "nome": "IMOBILIARIA TN SILVA LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "50680179000143",
+    "nome": "SUBLIMETEX LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8400.0
+   },
+   {
+    "cnpj": "49464089000136",
+    "nome": "PROMOCOES E EVENTOS RM LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "19157144000184",
+    "nome": "EQUIPE DJ PAVAO PRODUCOES E EVENTOS LTDA.",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "04002289000139",
+    "nome": "GELAIN IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "11744068000100",
+    "nome": "REALIZARE IMOVEIS SOCIEDADE SIMPLES",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "27164858000148",
+    "nome": "ABASTECEDORA MENINO DEUS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 869.24
+   },
+   {
+    "cnpj": "91110569000165",
+    "nome": "SINDICATO DOS TRABALHADORES NO CALCADO DE ROLANTE",
+    "cnae": "94201",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "08689190000108",
+    "nome": "ABASTECEDORA DE COMBUSTIVEIS PORTO ALEGRE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 548.05
+   },
+   {
+    "cnpj": "93489243011584",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 467.53
+   },
+   {
+    "cnpj": "09164791000160",
+    "nome": "REDE DE POSTOS APOLO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 327.77
+   },
+   {
+    "cnpj": "07473735014808",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 307.27
+   },
+   {
+    "cnpj": "93489243001007",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 304.86
+   },
+   {
+    "cnpj": "93489243000892",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 298.48
+   },
+   {
+    "cnpj": "92956176000130",
+    "nome": "GARAGEM SIQUEIRA CAMPOS SOCIEDADE SIMPLES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 230.38
+   },
+   {
+    "cnpj": "90735549000117",
+    "nome": "PLANALTO ENCOMENDAS LTDA",
+    "cnae": "49221",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 100.05
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 31,
+   "total": 182500.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 49000.0,
+    "Locação/cessão de bens imóveis": 10000.0,
+    "Publicidade por carros de som": 20000.0,
+    "Serviços contábeis": 10000.0,
+    "Serviços prestados por terceiros": 85500.0,
+    "Serviços próprios prestados por terceiros": 8000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

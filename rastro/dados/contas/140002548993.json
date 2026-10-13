@@ -1,0 +1,97 @@
+{
+ "sq": "140002548993",
+ "nome_urna": "ELIAS SANTIAGO",
+ "cargo": "depest",
+ "uf": "PA",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 265550.0,
+  "por_origem": {
+   "Recursos de partido político": 265550.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 265550.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265550.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 57851.0,
+  "total_pago": 89473.76,
+  "fornecedores_pj": [
+   {
+    "cnpj": "17191998000151",
+    "nome": "BIZ PIMENTA ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "44661396000193",
+    "nome": "ISELL DO BRASIL LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4248.0
+   },
+   {
+    "cnpj": "47696176000193",
+    "nome": "VIP COMERCIO E SERVICO LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3200.0
+   },
+   {
+    "cnpj": "31598404000152",
+    "nome": "31.598.404 ARLETH DE JESUS FIEL GONCALVES",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2200.0
+   },
+   {
+    "cnpj": "60366738000107",
+    "nome": "VIP CAMISETAS ARTIGOS ESPORTIVOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 16003.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.0,
+    "Serviços contábeis": 16000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,230 @@
+{
+ "sq": "40002531445",
+ "nome_urna": "ADAIL FILHO",
+ "cargo": "depfed",
+ "uf": "AM",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3125300.0,
+  "por_origem": {
+   "Recursos de partido político": 2810000.0,
+   "Recursos de pessoas físicas": 16000.0,
+   "Recursos próprios": 299300.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2810000.0,
+   "OUTROS RECURSOS": 315300.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 2810000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 315300.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1742643.5,
+  "total_pago": 1514258.44,
+  "fornecedores_pj": [
+   {
+    "cnpj": "04984400000130",
+    "nome": "CTA - CLEITON TAXI AEREO LTDA",
+    "cnae": "51200",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 366281.94
+   },
+   {
+    "cnpj": "15104965000100",
+    "nome": "LBRAZIL PRESTACAO DE SERVICOS DE COMUNICACAO E PUBLICIDADE LTDA",
+    "cnae": "82300",
+    "n_despesas": 3,
+    "tipos": [
+     "Criação e inclusão de páginas na internet",
+     "Produção de jingles, vinhetas e slogans",
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "37676571000150",
+    "nome": "L. DA S. P. BRASIL CIA LTDA",
+    "cnae": "78108",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "62785693000122",
+    "nome": "MBM COMERCIO E FABRICACAO DE ROUPAS LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 72500.0
+   },
+   {
+    "cnpj": "29799291000101",
+    "nome": "SILMARIA DE SOUSA PORTELA QUEIROZ",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 49000.0
+   },
+   {
+    "cnpj": "84537349000157",
+    "nome": "EXPRESS PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "18252366000113",
+    "nome": "M. S. DA CUNHA LTDA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "30356544000151",
+    "nome": "N. J. DA S. BEIRUTH FILHO",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "32845837000128",
+    "nome": "SOUL BR PARTICPACOES LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 6100.0
+   },
+   {
+    "cnpj": "09603196000183",
+    "nome": "MOISES CONCEICAO BACELAR",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "46146162000133",
+    "nome": "R. F. DE ARAUJO",
+    "cnae": "47121",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Materiais de expediente"
+    ],
+    "total": 5106.06
+   },
+   {
+    "cnpj": "08911457000160",
+    "nome": "JUNIOR S. DE SOUZA LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "44321344000178",
+    "nome": "A C COMERCIO ATACADISTA LTDA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "84477215001089",
+    "nome": "NAVERIO NAVEGACAO DO RIO AMAZONAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "36544507000153",
+    "nome": "SPEEDY REPRESENTACOES COMERCIO E SERVICOS DE AUTOMOVEIS LTDA",
+    "cnae": "45200",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "84477215002050",
+    "nome": "NAVERIO NAVEGACAO DO RIO AMAZONAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "21540360000156",
+    "nome": "A DE CASTRO AMORA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1900.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 917,
+   "total": 821255.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 712800.0,
+    "Cessão ou locação de veículos": 6000.0,
+    "Despesas com pessoal": 53000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 455.5,
+    "Locação/cessão de bens imóveis": 6000.0,
+    "Locação/cessão de bens móveis (exceto veículos)": 3000.0,
+    "Serviços advocatícios": 10000.0,
+    "Serviços contábeis": 15000.0,
+    "Serviços prestados por terceiros": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,289 @@
+{
+ "sq": "170002539474",
+ "nome_urna": "CORONEL FEITOSA",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 855800.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 100000.0,
+   "Recursos de partido político": 420000.0,
+   "Recursos de pessoas físicas": 218800.0,
+   "Recursos próprios": 117000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 520000.0,
+   "OUTROS RECURSOS": 335800.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 420000.0
+   },
+   {
+    "cnpj": "68438143000113",
+    "nome": "LUIZ DE FRANCA E SILVA MEIRA",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 335800.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 742879.53,
+  "total_pago": 691180.53,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 137000.0
+   },
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 114500.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 11,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 113500.0
+   },
+   {
+    "cnpj": "35659497000139",
+    "nome": "GRAFICA NMC LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 97500.0
+   },
+   {
+    "cnpj": "04311948000119",
+    "nome": "MANUELLA CARNEIRO LEAO PACIFICO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 31600.0
+   },
+   {
+    "cnpj": "12410952000162",
+    "nome": "LIG LIG INDUSTRIA E COMERCIO DE IMPRESSOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "38713634000164",
+    "nome": "MJPM PRODUCOES AUDIOVISUAL LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "31347246000168",
+    "nome": "ASSIS SERVICOS E COMERCIO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "09798307000154",
+    "nome": "SERVICAR S/A",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 14939.13
+   },
+   {
+    "cnpj": "15417088000119",
+    "nome": "IDEA LOCACAO DE ESTRUTURAS E ILUMINACAO LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "45524358000151",
+    "nome": "R C DA MOTA RIBEIRO LOCACOES DE VEICULOS",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5249.0
+   },
+   {
+    "cnpj": "39413658000160",
+    "nome": "SIER CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "54793769000133",
+    "nome": "54.793.769 MARIANO OLIVEIRA DA CUNHA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "08089088000171",
+    "nome": "CLUBE DOS OFICIAIS DA POLICIA E DO CORPO DE BOMBEIROS MILITAR DE PERNAMBUCO",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "13740077000140",
+    "nome": "SUA FARDA INDUSTRIA DE FARDAMENTOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "62606646000174",
+    "nome": "DENISE HERCULANO LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "12784559000139",
+    "nome": "PIZZARIA ATLANTICO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1950.0
+   },
+   {
+    "cnpj": "40495477000100",
+    "nome": "DJ COMUNICACAO E PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1760.0
+   },
+   {
+    "cnpj": "56047306000158",
+    "nome": "INOVE PUBLICIDADE E PROPAGANDA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1595.7
+   },
+   {
+    "cnpj": "30229279000140",
+    "nome": "30.229.279 LUCIANO DE MELO SOARES",
+    "cnae": "22293",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "50431772000156",
+    "nome": "50.431.772 FELIPE DA SILVA FERREIRA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 970.0
+   },
+   {
+    "cnpj": "02635488000159",
+    "nome": "COPIADORA E GRAFICA KM SERVICO LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 579.2
+   },
+   {
+    "cnpj": "43219444000125",
+    "nome": "ERICK HENRIQUE RAMOS TRINDADE SERVICE",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 400.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 25,
+   "total": 132836.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 4000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 36.5,
+    "Locação/cessão de bens imóveis": 50000.0,
+    "Publicidade por carros de som": 12000.0,
+    "Serviços prestados por terceiros": 66800.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

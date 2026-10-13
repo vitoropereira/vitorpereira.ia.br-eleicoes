@@ -1,0 +1,387 @@
+{
+ "sq": "110002547808",
+ "nome_urna": "VALMIR MORETTO",
+ "cargo": "depest",
+ "uf": "MT",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1270000.0,
+  "por_origem": {
+   "Recursos de partido político": 200000.0,
+   "Recursos de pessoas físicas": 1054000.0,
+   "Recursos próprios": 16000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "OUTROS RECURSOS": 1070000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 200000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 45,
+   "total": 1070000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 978685.27,
+  "total_pago": 1056059.52,
+  "fornecedores_pj": [
+   {
+    "cnpj": "63662136000187",
+    "nome": "TOP-PRINT COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 88890.0
+   },
+   {
+    "cnpj": "11285438000180",
+    "nome": "BEZERRA DE SOUZA FERREIRA DE SOUZA LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 36726.28
+   },
+   {
+    "cnpj": "49526797000154",
+    "nome": "49.526.797 NILZA RIBEIRO DA SILVA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 31300.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 21500.0
+   },
+   {
+    "cnpj": "31412610000126",
+    "nome": "L G N DE OLIVEIRA LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "37658635000190",
+    "nome": "GRAFICA BRASILEIRA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13500.0
+   },
+   {
+    "cnpj": "60863355000136",
+    "nome": "RJC COMERCIO DE ARTIGOS PARA BRINDES E CUTELARIA LTDA",
+    "cnae": "47636",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 7750.0
+   },
+   {
+    "cnpj": "32302704000105",
+    "nome": "C A COSTA LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 7260.0
+   },
+   {
+    "cnpj": "34841303000159",
+    "nome": "JOICE SILVA DE OLIVEIRA SOUZA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 6906.84
+   },
+   {
+    "cnpj": "13383353000160",
+    "nome": "ALISSON PEDRO DE MELLO",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 6300.0
+   },
+   {
+    "cnpj": "20121188000133",
+    "nome": "LAUDICEIA DE PAULA SILVA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 5995.0
+   },
+   {
+    "cnpj": "53775414000159",
+    "nome": "D C - COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4900.0
+   },
+   {
+    "cnpj": "46699490000167",
+    "nome": "SATELITE GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4660.0
+   },
+   {
+    "cnpj": "26909285000171",
+    "nome": "F A EGUES FRANCA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4200.0
+   },
+   {
+    "cnpj": "09117925000191",
+    "nome": "VIVERE BUFFET - EVENTOS E RECEPCOES LTDA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "32953905000172",
+    "nome": "TUBARAO INDUSTRIA COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "00954305000132",
+    "nome": "FAVORITO SUPERMERCADO LTDA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2182.38
+   },
+   {
+    "cnpj": "26099529000106",
+    "nome": "ORBIA DIGITAL LTDA",
+    "cnae": "62040",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1525.0
+   },
+   {
+    "cnpj": "24761579000173",
+    "nome": "H DA SILVA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1408.5
+   },
+   {
+    "cnpj": "37437142000120",
+    "nome": "CAFE NOIS DE MINAS LTDA",
+    "cnae": "47296",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "04894430000155",
+    "nome": "L H P DOS SANTOS NASCIMENTO CIA LTDA",
+    "cnae": "45307",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1186.08
+   },
+   {
+    "cnpj": "27084955000120",
+    "nome": "JEANE KATT SEGATTO ALVES SANTOS",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1080.0
+   },
+   {
+    "cnpj": "47855306000193",
+    "nome": "47.855.306 WELINTON TEIXEIRA DE MELO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "49707911000142",
+    "nome": "L P A SUARDI ATACADO LTDA",
+    "cnae": "10911",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 736.0
+   },
+   {
+    "cnpj": "44705769000180",
+    "nome": "ENTECH TELECOM LTDA",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 691.94
+   },
+   {
+    "cnpj": "09403315000154",
+    "nome": "B. ROSA BISPO",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 520.07
+   },
+   {
+    "cnpj": "06210854000189",
+    "nome": "APARECIDO DIONISIO DOS SANTOS",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "46758982000186",
+    "nome": "46.758.982 JUSSARA POQUIVIQUI DE MELO",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "05928523000116",
+    "nome": "PAPITO AUTO POSTO VARZEA GRANDE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 394.46
+   },
+   {
+    "cnpj": "06116600000104",
+    "nome": "PONTO DOS EPIS LTDA",
+    "cnae": "47130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 136.0
+   },
+   {
+    "cnpj": "03395287000194",
+    "nome": "T.M.MATIAS CAMPOS CIA LTDA",
+    "cnae": "47849",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 130.0
+   },
+   {
+    "cnpj": "19260103000119",
+    "nome": "POSTO FRONTEIRAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 88.24
+   },
+   {
+    "cnpj": "26538777000106",
+    "nome": "FERRAGENS RIBEIRO LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 56.7
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 154,
+   "total": 704911.78,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 505820.98,
+    "Cessão ou locação de veículos": 72000.0,
+    "Despesas com pessoal": 94500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 590.8,
+    "Locação/cessão de bens imóveis": 10000.0,
+    "Serviços advocatícios": 10000.0,
+    "Serviços contábeis": 10000.0,
+    "Serviços prestados por terceiros": 2000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

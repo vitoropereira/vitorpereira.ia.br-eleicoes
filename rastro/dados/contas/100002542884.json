@@ -1,0 +1,164 @@
+{
+ "sq": "100002542884",
+ "nome_urna": "JOSIVALDO JP",
+ "cargo": "depfed",
+ "uf": "MA",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2646535.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 7715.0,
+   "Recursos de partido político": 2623820.0,
+   "Recursos próprios": 15000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2609820.0,
+   "FUNDO PARTIDARIO": 14000.0,
+   "OUTROS RECURSOS": 22715.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 2609820.0
+   },
+   {
+    "cnpj": "47392744000162",
+    "nome": "Direção Estadual/Distrital - UNIÃO - MARANHÃO",
+    "total": 14000.0
+   },
+   {
+    "cnpj": "68468089000159",
+    "nome": "WANDERSON MANCHINHA SILVA CARVALHO",
+    "total": 7715.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 15000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1409435.1,
+  "total_pago": 1865245.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "40420040000107",
+    "nome": "MATARAZZO AUDIO VISUAL LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 360000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "07722538000159",
+    "nome": "VISUAL ARTE SPORT LTDA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 83990.0
+   },
+   {
+    "cnpj": "32080975000163",
+    "nome": "EBENEZER CONSULTORIA E CONTROLADORIA LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "00732085000100",
+    "nome": "SLP MULTIPLOS SERVICOS E COMERCIO LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 57652.1
+   },
+   {
+    "cnpj": "68966545000190",
+    "nome": "MATARAZZO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "11365521000169",
+    "nome": ".COM EMPREENDIMENTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 32500.0
+   },
+   {
+    "cnpj": "05027120000104",
+    "nome": "LILIANI AGROPECUARIA LTDA",
+    "cnae": "46222",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "42782829000133",
+    "nome": "L M S MOTA IND. E COMERCIO LTDA",
+    "cnae": "14223",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 16800.0
+   },
+   {
+    "cnpj": "04496308000120",
+    "nome": "G CARLOS NUNES",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 850.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 286,
+   "total": 477643.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 267500.0,
+    "Cessão ou locação de veículos": 70000.0,
+    "Despesas com pessoal": 80000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 143.0,
+    "Serviços advocatícios": 60000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

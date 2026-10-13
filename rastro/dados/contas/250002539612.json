@@ -1,0 +1,533 @@
+{
+ "sq": "250002539612",
+ "nome_urna": "ERIKA HILTON",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PSOL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2399368.71,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 93935.0,
+   "Recursos de origens não identificadas": 0.01,
+   "Recursos de outros candidatos": 8448.23,
+   "Recursos de partido político": 2244825.81,
+   "Recursos de pessoas físicas": 52159.66
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2253175.81,
+   "OUTROS RECURSOS": 146192.9
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "06954942000195",
+    "nome": "Direção Nacional - PSOL",
+    "total": 2244825.81
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 93935.0
+   },
+   {
+    "cnpj": "68437554000194",
+    "nome": "SOFIA FAVERO RICARDO",
+    "total": 8350.0
+   },
+   {
+    "cnpj": "68373162000109",
+    "nome": "MARIO MAURICI DE LIMA MORAIS",
+    "total": 98.23
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 52159.67
+  }
+ },
+ "despesas": {
+  "total_contratado": 1492048.08,
+  "total_pago": 1605082.17,
+  "fornecedores_pj": [
+   {
+    "cnpj": "51238617000180",
+    "nome": "GRAFICA E EDITORA EMBALAGEM CERTA LTDA",
+    "cnae": "18113",
+    "n_despesas": 20,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 319158.72
+   },
+   {
+    "cnpj": "44173100000195",
+    "nome": "SOL NASCENTE ENTRETENIMENTO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 116330.0
+   },
+   {
+    "cnpj": "36440413000134",
+    "nome": "FLORADA COMUNICACAO DE IMPACTO LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 105000.0
+   },
+   {
+    "cnpj": "40916158000120",
+    "nome": "PRISCILA PAMELA SANTOS ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "44078002000179",
+    "nome": "Neisser Bernardelli Advocacia",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 68000.0
+   },
+   {
+    "cnpj": "29756662000178",
+    "nome": "JULIANA ALMEIDA PRADO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 62000.0
+   },
+   {
+    "cnpj": "31576547000163",
+    "nome": "GUILHERME LIBERATTI DE ALMEIDA PRADO",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "48955286000195",
+    "nome": "GOUMARTE FILMS LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "51443794000107",
+    "nome": "CRF PROMOCOES LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30635.0
+   },
+   {
+    "cnpj": "17832228000140",
+    "nome": "RB CONTABILIDADE E SERVICOS ADMINISTRATIVOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "35459798000119",
+    "nome": "UNIFICA PRODUCOES E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 19910.0
+   },
+   {
+    "cnpj": "57430982000179",
+    "nome": "MAXIMA TERCEIRIZACAO DE SERVICOS LTDA",
+    "cnae": "80200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 12450.0
+   },
+   {
+    "cnpj": "68437983000161",
+    "nome": "EDIANE MARIA DO NASCIMENTO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 8820.0
+   },
+   {
+    "cnpj": "50939008000196",
+    "nome": "SP EVENTOS LTDA",
+    "cnae": "43991",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 8500.0
+   },
+   {
+    "cnpj": "19689839000107",
+    "nome": "SECULO 22 PRODUCOES LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7840.0
+   },
+   {
+    "cnpj": "52783153000156",
+    "nome": "52.783.153 NATHI CORDEIRO DA SILVA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7600.0
+   },
+   {
+    "cnpj": "26711605000184",
+    "nome": "WESLLEY DE PAULA SANTOS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 5085.0
+   },
+   {
+    "cnpj": "33291022000107",
+    "nome": "IATA INTERNATIONAL AIR TRANSPORT ASSOCIATION",
+    "cnae": "94111",
+    "n_despesas": 3,
+    "tipos": [
+     "Passagem Aérea"
+    ],
+    "total": 4587.35
+   },
+   {
+    "cnpj": "68000538000130",
+    "nome": "IMPACTO SEGURANCA LTDA",
+    "cnae": "80111",
+    "n_despesas": 1,
+    "tipos": [
+     "Segurança e prevenção, repressão e combate à violência política"
+    ],
+    "total": 4350.0
+   },
+   {
+    "cnpj": "46391816000194",
+    "nome": "CASA CUME PRODUCOES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "10282790000107",
+    "nome": "PRIME GERADORES LOCACAO DE EQUIPAMENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com geradores de energia"
+    ],
+    "total": 3800.0
+   },
+   {
+    "cnpj": "34859085000180",
+    "nome": "LOPES E SILVA TAPECARIA LTDA",
+    "cnae": "95291",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 2813.81
+   },
+   {
+    "cnpj": "35705214000148",
+    "nome": "CL7 SOLUCOES EM EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2610.0
+   },
+   {
+    "cnpj": "13909345000104",
+    "nome": "AGITA MORANGO RECREACAO PARA FESTAS LTDA",
+    "cnae": "93298",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2566.8
+   },
+   {
+    "cnpj": "61198164000160",
+    "nome": "PORTO SEGURO COMPANHIA DE SEGUROS GERAIS",
+    "cnae": "65120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2538.58
+   },
+   {
+    "cnpj": "19718926000145",
+    "nome": "B.S SOARES ALUGUEL DE MAQUINAS",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "40619047000152",
+    "nome": "40.619.047 LUCAS ARAUJO DA SILVA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "52082128000145",
+    "nome": "52.082.128 LUCAS CARVALHO SANTOS",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "53643727000153",
+    "nome": "DCM PRODUCOES LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "80732928006645",
+    "nome": "ATRIO HOTEIS S.A.",
+    "cnae": "55108",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1816.21
+   },
+   {
+    "cnpj": "71982920000109",
+    "nome": "WITTE - COMERCIO E SERVICOS GRAFICOS LTDA. - EM RECUPERACAO JUDICIAL",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1643.0
+   },
+   {
+    "cnpj": "32784569000181",
+    "nome": "GISELE. ROSA INCLUSAO E CIA",
+    "cnae": "85937",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1560.0
+   },
+   {
+    "cnpj": "05362499000109",
+    "nome": "GOMES GOMES ENTRETENIMENTO LTDA",
+    "cnae": "93298",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "46282763000173",
+    "nome": "YPE LOCACOES FRETES E INTERMEDIACAO DE NEGOCIOS LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "09967852012214",
+    "nome": "HOTELARIA ACCOR BRASIL S/A",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1366.29
+   },
+   {
+    "cnpj": "20905236000184",
+    "nome": "ALDOTT GRAPHIC COPIADORA LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1350.0
+   },
+   {
+    "cnpj": "13990738000195",
+    "nome": "MEUTICKET GESTAO DE TICKETS LTDA",
+    "cnae": "62091",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 905.0
+   },
+   {
+    "cnpj": "34946265000107",
+    "nome": "34.946.265 PAULA GARCIA CHIARETTI",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "52699457000130",
+    "nome": "ME RESERVE POUSADA AQUARELA MARESIAS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 576.41
+   },
+   {
+    "cnpj": "50955798000101",
+    "nome": "CLUBE BENEF CULT E RECREATIVO JUND 28 DE SETEMBRO",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 550.0
+   },
+   {
+    "cnpj": "59051647000195",
+    "nome": "ARTE ARENA ESTAMPA LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "16913039000482",
+    "nome": "CONFECCOES EL ELYON LTDA",
+    "cnae": "46427",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 322.5
+   },
+   {
+    "cnpj": "72892813000144",
+    "nome": "MONTE SERRAT HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 309.0
+   },
+   {
+    "cnpj": "61856571000621",
+    "nome": "COMPANHIA DE GAS DE SAO PAULO COMGAS",
+    "cnae": "35204",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 53.41
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 67,
+   "total": 346901.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 50825.0,
+    "Despesas com pessoal": 216800.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 26.0,
+    "Locação/cessão de bens imóveis": 68550.0,
+    "Produção de jingles, vinhetas e slogans": 10000.0,
+    "Serviços prestados por terceiros": 700.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

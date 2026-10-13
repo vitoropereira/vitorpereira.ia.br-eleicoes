@@ -1,0 +1,183 @@
+{
+ "sq": "60002545132",
+ "nome_urna": "GARDEL ROLIM",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 315399.0,
+  "por_origem": {
+   "Recursos de partido político": 120000.0,
+   "Recursos de pessoas físicas": 175399.0,
+   "Recursos próprios": 20000.0
+  },
+  "por_fonte": {
+   "FUNDO PARTIDARIO": 120000.0,
+   "OUTROS RECURSOS": 195399.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07967072000151",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - CEARÁ",
+    "total": 120000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 18,
+   "total": 195399.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 262976.41,
+  "total_pago": 207200.35,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "10597802000184",
+    "nome": "N. L. LOCACAO E SOLUCOES EM EVENTOS LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "66494172000177",
+    "nome": "BRIZEIN INDUSTRIA DE CONFECCOES E BRINDES LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "18606754000155",
+    "nome": "DELPHOS SERVICOS DE MARKETING E COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "55797180000176",
+    "nome": "SPEED FILMES LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "59861314000121",
+    "nome": "THIAGO MONTEZUMA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "57265476000171",
+    "nome": "WR GRAFICA EDITORA LTDA",
+    "cnae": "82113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9062.0
+   },
+   {
+    "cnpj": "63202800000105",
+    "nome": "SARAIVA ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "04342284000155",
+    "nome": "INCORPA ADMINISTRADORA DE IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 7085.0
+   },
+   {
+    "cnpj": "07652439000148",
+    "nome": "PROCOPY COMERCIO E SERVICOS DE COPIADORAS LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "13690097000153",
+    "nome": "FUN NIGHT EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "35206258000123",
+    "nome": "35.206.258 JOSE JEOVA SALES NUNES FILHO",
+    "cnae": "47563",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 4930.0
+   },
+   {
+    "cnpj": "08090734000382",
+    "nome": "SAO JOAO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3017.51
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 38,
+   "total": 77881.9,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 56000.0,
+    "Cessão ou locação de veículos": 12347.0,
+    "Despesas com pessoal": 9463.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 71.9
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

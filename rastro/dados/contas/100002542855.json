@@ -1,0 +1,124 @@
+{
+ "sq": "100002542855",
+ "nome_urna": "NATÁLIA DO JÚNIOR GARIMPEIRO",
+ "cargo": "depest",
+ "uf": "MA",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 779120.0,
+  "por_origem": {
+   "Recursos de partido político": 267120.0,
+   "Recursos de pessoas físicas": 493000.0,
+   "Recursos próprios": 19000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 267120.0,
+   "OUTROS RECURSOS": 512000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 193320.0
+   },
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 59000.0
+   },
+   {
+    "cnpj": "47392744000162",
+    "nome": "Direção Estadual/Distrital - UNIÃO - MARANHÃO",
+    "total": 14800.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 43,
+   "total": 512000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 398501.0,
+  "total_pago": 209621.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "29895348000176",
+    "nome": "ANDERSON BRUNO BARROS - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "30617896000113",
+    "nome": "W. RIOS SHOWS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "64955912000108",
+    "nome": "RM PRODUCOES E CONTEUDO LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "14876708000115",
+    "nome": "NOGUEIRA, ALBUQUERQUE E FREIRE ASSOCIADOS S/S",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 19000.0
+   },
+   {
+    "cnpj": "51299807000108",
+    "nome": "ALT SIGN COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 26,
+   "total": 81001.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 33000.0,
+    "Cessão ou locação de veículos": 4000.0,
+    "Despesas com transporte ou deslocamento": 40000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.0,
+    "Locação/cessão de bens imóveis": 4000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,312 @@
+{
+ "sq": "240002539981",
+ "nome_urna": "MARCOS DA ROSA",
+ "cargo": "depest",
+ "uf": "SC",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 266000.0,
+  "por_origem": {
+   "Recursos de partido político": 250000.0,
+   "Recursos de pessoas físicas": 16000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 250000.0,
+   "OUTROS RECURSOS": 16000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 250000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 16000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 534035.2,
+  "total_pago": 257950.7,
+  "fornecedores_pj": [
+   {
+    "cnpj": "86375870000160",
+    "nome": "TIPOTIL - INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 195472.0
+   },
+   {
+    "cnpj": "05897758000198",
+    "nome": "BEMLOCAR LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 43200.0
+   },
+   {
+    "cnpj": "35401719000119",
+    "nome": "SMART PRINT MATERIAL PUBLICITARIO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 29700.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "76817808000128",
+    "nome": "GRAFICA E EDITORA 3 DE MAIO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "40963599000183",
+    "nome": "ELECTIOCON LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 12250.0
+   },
+   {
+    "cnpj": "42532981000168",
+    "nome": "PHOENIX SUBLIMASTER LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9560.0
+   },
+   {
+    "cnpj": "25188538000100",
+    "nome": "ESSENT INOVACAO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 5250.0
+   },
+   {
+    "cnpj": "19234578000130",
+    "nome": "CAVI MODAS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4800.0
+   },
+   {
+    "cnpj": "82657461000104",
+    "nome": "CENTRO CULTURAL 25 DE JULHO DE BLUMENAU",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "10673533000198",
+    "nome": "OT3 ADMINISTRADORA DE BENS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "29380555000198",
+    "nome": "QUICKSTOP REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 669.98
+   },
+   {
+    "cnpj": "83392050000199",
+    "nome": "POSTO Z12 LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 458.86
+   },
+   {
+    "cnpj": "04614908000146",
+    "nome": "AMA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 295.62
+   },
+   {
+    "cnpj": "18733216000121",
+    "nome": "POSTO MONTE CARLO ILHOTA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 250.0
+   },
+   {
+    "cnpj": "79930681000147",
+    "nome": "AUTO POSTO RINCAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 240.86
+   },
+   {
+    "cnpj": "03295652000199",
+    "nome": "POSTO ADS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 239.11
+   },
+   {
+    "cnpj": "18436138000101",
+    "nome": "MODESTO AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 235.06
+   },
+   {
+    "cnpj": "80451289001176",
+    "nome": "REDE RUSSI LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 232.5
+   },
+   {
+    "cnpj": "83307926001476",
+    "nome": "BRASAO SUPERMERCADOS S/A",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 228.3
+   },
+   {
+    "cnpj": "83488882002661",
+    "nome": "POSTO MIME S.A.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 226.13
+   },
+   {
+    "cnpj": "84231596000120",
+    "nome": "POSTO FERRARI LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 225.18
+   },
+   {
+    "cnpj": "09164791000755",
+    "nome": "REDE DE POSTOS APOLO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "13268928000101",
+    "nome": "AUTO POSTO BALEIA FRANCA LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "82540576000106",
+    "nome": "AUTO POSTO CABECUDAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "84311190000158",
+    "nome": "POSTO PONTE ACU LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 59,
+   "total": 187701.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 162305.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 46.6,
+    "Locação/cessão de bens móveis (exceto veículos)": 2700.0,
+    "Serviços prestados por terceiros": 22650.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

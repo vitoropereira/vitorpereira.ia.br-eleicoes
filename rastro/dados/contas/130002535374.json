@@ -1,0 +1,201 @@
+{
+ "sq": "130002535374",
+ "nome_urna": "DR. JEAN FREIRE",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 741170.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 1610.0,
+   "Recursos de outros candidatos": 6180.0,
+   "Recursos de partido político": 365480.0,
+   "Recursos de pessoas físicas": 367900.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 271680.0,
+   "OUTROS RECURSOS": 469490.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 365480.0
+   },
+   {
+    "cnpj": "68345483000108",
+    "nome": "ROGERIO CORREIA DE MOURA BAPTISTA",
+    "total": 6180.0
+   },
+   {
+    "cnpj": "28067410000179",
+    "nome": "ELEGIS GESTAO ESTRATEGICA",
+    "total": 1610.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 15,
+   "total": 367900.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 94078.44,
+  "total_pago": 120109.7,
+  "fornecedores_pj": [
+   {
+    "cnpj": "07560718000181",
+    "nome": "LOCADORA DE VEICULOS FLORESTA LTDA",
+    "cnae": "77110",
+    "n_despesas": 4,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 38994.04
+   },
+   {
+    "cnpj": "37068284000168",
+    "nome": "FACIMES ROTULOS E ETIQUETAS LTDA",
+    "cnae": "18211",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 7650.0
+   },
+   {
+    "cnpj": "16504870000138",
+    "nome": "GRAFICA SILVA LARA LTDA",
+    "cnae": "58298",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5600.0
+   },
+   {
+    "cnpj": "32410827000160",
+    "nome": "IV GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "09264555000115",
+    "nome": "IMAGEM EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2420.0
+   },
+   {
+    "cnpj": "46586107000164",
+    "nome": "POSTO DOM JOAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2408.59
+   },
+   {
+    "cnpj": "38756034000183",
+    "nome": "PIRES OLIVEIRA CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2062.5
+   },
+   {
+    "cnpj": "67128914000103",
+    "nome": "67.128.914 IRENEIDE RODRIGUES FIGUEIREDO DUTRA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "21265392000190",
+    "nome": "SNC ESTRUTURAS E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1710.0
+   },
+   {
+    "cnpj": "21251640000144",
+    "nome": "ITAOBIM COUNTRY CLUBE",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1620.0
+   },
+   {
+    "cnpj": "22317550000171",
+    "nome": "M DESIGNER CITY LTDA",
+    "cnae": "58115",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 507.7
+   },
+   {
+    "cnpj": "49120004000100",
+    "nome": "49.120.004 DAIANE DIAS SANTANA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 430.0
+   },
+   {
+    "cnpj": "68517106000109",
+    "nome": "68.517.106 ANA CAROLINA GOMES TEIXEIRA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 350.0
+   },
+   {
+    "cnpj": "28067410000179",
+    "nome": "ELEGIS GESTAO ESTRATEGICA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 25.61
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 25800.0,
+   "por_tipo": {
+    "Despesas com pessoal": 25800.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

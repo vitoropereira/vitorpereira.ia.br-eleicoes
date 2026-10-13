@@ -1,0 +1,261 @@
+{
+ "sq": "250002534220",
+ "nome_urna": "LÉO OLIVEIRA",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1156246.1,
+  "por_origem": {
+   "Recursos de partido político": 903896.1,
+   "Recursos de pessoas físicas": 249890.0,
+   "Recursos próprios": 2460.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 703896.1,
+   "OUTROS RECURSOS": 452350.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 900000.0
+   },
+   {
+    "cnpj": "45302874000131",
+    "nome": "Direção Estadual/Distrital - MDB - SÃO PAULO",
+    "total": 3896.1
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 10,
+   "total": 252350.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1024617.3,
+  "total_pago": 734663.25,
+  "fornecedores_pj": [
+   {
+    "cnpj": "51847516000107",
+    "nome": "VOLARE IMPRESSAO TEXTIL LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 84825.0
+   },
+   {
+    "cnpj": "03701401000167",
+    "nome": "RIBERPRESS COMERCIO GRAFICO E EDITORA LTDA",
+    "cnae": "58115",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 83255.0
+   },
+   {
+    "cnpj": "49234487000166",
+    "nome": "SAO FRANCISCO GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 71903.4
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "30693863000152",
+    "nome": "GRATTITUDE FILMS PRODUCTIONS LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 28000.0
+   },
+   {
+    "cnpj": "47047601000113",
+    "nome": "MULIN - COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 18800.0
+   },
+   {
+    "cnpj": "18027779000102",
+    "nome": "LUMISOM EVENTOS CORPORATIVOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 16260.0
+   },
+   {
+    "cnpj": "47382001000101",
+    "nome": "VALERIA MARCHETTI DA ROCHA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10480.0
+   },
+   {
+    "cnpj": "55107551000140",
+    "nome": "SCALA COMPOSICAO GRAFICA LTDA",
+    "cnae": "17419",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 9630.0
+   },
+   {
+    "cnpj": "31063715000117",
+    "nome": "ARTSIS SERVICOS GRAFICOS LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8920.0
+   },
+   {
+    "cnpj": "47922470000176",
+    "nome": "RP PANFLETAGEM LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 8680.0
+   },
+   {
+    "cnpj": "52521383000147",
+    "nome": "52.521.383 LIGIA SANTOS NOGUEIRA DA SILVA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 6750.0
+   },
+   {
+    "cnpj": "03703471000154",
+    "nome": "FLASH - PANFLETAGEM LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3240.0
+   },
+   {
+    "cnpj": "52824989000151",
+    "nome": "PRPAGANELLI PARTICIPACOES LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "07277464000199",
+    "nome": "EURO SIGNS PRINT ADESIVOS DECORATIVOS LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 950.0
+   },
+   {
+    "cnpj": "04237189000191",
+    "nome": "NOVA COMUNICACAO VISUAL BRINDES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "33546956000142",
+    "nome": "33.546.956 ROBERTO PINHEIRO DO PRADO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 720.0
+   },
+   {
+    "cnpj": "01524847000138",
+    "nome": "DONALD PAPELARIA E INFORMATICA LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 276.0
+   },
+   {
+    "cnpj": "03769236000185",
+    "nome": "ATHENAS GRAFICA E EDITORA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 175.0
+   },
+   {
+    "cnpj": "29773922000113",
+    "nome": "ASSINAR CERTIFICADO DIGITAL LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 120.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 241,
+   "total": 608732.9,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 400199.4,
+    "Cessão ou locação de veículos": 151754.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 119.5,
+    "Locação/cessão de bens imóveis": 8100.0,
+    "Serviços advocatícios": 15000.0,
+    "Serviços contábeis": 15000.0,
+    "Serviços prestados por terceiros": 7560.0,
+    "Serviços próprios prestados por terceiros": 11000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

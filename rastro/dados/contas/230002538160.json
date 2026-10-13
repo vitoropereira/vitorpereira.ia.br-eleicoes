@@ -1,0 +1,96 @@
+{
+ "sq": "230002538160",
+ "nome_urna": "JEFERSON ALVES",
+ "cargo": "depest",
+ "uf": "RR",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 252300.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 100000.0,
+   "Recursos de pessoas físicas": 42300.0,
+   "Recursos próprios": 110000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 100000.0,
+   "OUTROS RECURSOS": 152300.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68411231000121",
+    "nome": "ADJALMA GONCALVES",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 152300.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 161401.6,
+  "total_pago": 219454.6,
+  "fornecedores_pj": [
+   {
+    "cnpj": "15369957000187",
+    "nome": "AUTO POSTO PREMIUM LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 19200.0
+   },
+   {
+    "cnpj": "68278284000116",
+    "nome": "VETORIZE SERVICOS E COMERCIO LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3800.0
+   },
+   {
+    "cnpj": "28011627000167",
+    "nome": "28.011.627 JESSICA DE SOUZA LIMA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1750.0
+   },
+   {
+    "cnpj": "32780176000108",
+    "nome": "R W DE ALBUQUERQUE LTDA",
+    "cnae": "46516",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 340.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 31,
+   "total": 136311.6,
+   "por_tipo": {
+    "Aquisição/Doação de bens móveis ou imóveis": 24000.0,
+    "Atividades de militância e mobilização de rua": 27000.0,
+    "Cessão ou locação de veículos": 22300.0,
+    "Despesas com pessoal": 28000.0,
+    "Diversas a especificar": 10000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 11.6,
+    "Serviços advocatícios": 10000.0,
+    "Serviços contábeis": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,446 @@
+{
+ "sq": "160002546804",
+ "nome_urna": "BATATINHA",
+ "cargo": "depest",
+ "uf": "PR",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 793505.82,
+  "por_origem": {
+   "Recursos de outros candidatos": 57592.5,
+   "Recursos de partido político": 190000.0,
+   "Recursos de pessoas físicas": 535913.32,
+   "Recursos próprios": 10000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 55302.5,
+   "OUTROS RECURSOS": 738203.32
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "15335562000163",
+    "nome": "Direção Municipal/Comissão Provisória - PSD - CASCAVEL - PR",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "14512048000193",
+    "nome": "Direção Estadual/Distrital - PSD - PARANÁ",
+    "total": 90000.0
+   },
+   {
+    "cnpj": "68464891000170",
+    "nome": "LEONALDO PARANHOS DA SILVA",
+    "total": 51250.0
+   },
+   {
+    "cnpj": "68464976000159",
+    "nome": "LEANDRE DAL PONTE",
+    "total": 4052.5
+   },
+   {
+    "cnpj": "68464876000122",
+    "nome": "HERALDO TRENTO",
+    "total": 2290.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 62,
+   "total": 545913.32
+  }
+ },
+ "despesas": {
+  "total_contratado": 592568.18,
+  "total_pago": 587925.89,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 13,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 210000.0
+   },
+   {
+    "cnpj": "23024039000144",
+    "nome": "KATARINHUK SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "04008938000109",
+    "nome": "GRAFICA POSITIVA LTDA",
+    "cnae": "18113",
+    "n_despesas": 13,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 44314.43
+   },
+   {
+    "cnpj": "49048883000107",
+    "nome": "E X MIDIA E PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 36000.0
+   },
+   {
+    "cnpj": "20848056000108",
+    "nome": "NMS - ASSESSORIA E CONSULTORIA LTDA.",
+    "cnae": "69206",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 31740.23
+   },
+   {
+    "cnpj": "41341641000197",
+    "nome": "41.341.641 DEBORA CRISTINA DAMASCENO",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "04868412000441",
+    "nome": "AUTO POSTO PRA FRENTE BRASIL LTDA",
+    "cnae": "47318",
+    "n_despesas": 77,
+    "tipos": [
+     "Combustíveis e lubrificantes",
+     "Água"
+    ],
+    "total": 18634.06
+   },
+   {
+    "cnpj": "18565027000197",
+    "nome": "GREGORIO GREGORIO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 13000.0
+   },
+   {
+    "cnpj": "10515156000169",
+    "nome": "E. L. FELIPE FELIPE LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 10392.0
+   },
+   {
+    "cnpj": "78405941000100",
+    "nome": "HOTEL MERCOSUL LTDA.",
+    "cnae": "55108",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 8800.0
+   },
+   {
+    "cnpj": "18180835000136",
+    "nome": "JOSE MARCOS ARRUDA DE OLIVEIRA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "08664980000139",
+    "nome": "BANDESUL INDUSTRIA E COMERCIO LTDA",
+    "cnae": "13596",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6602.0
+   },
+   {
+    "cnpj": "31964006000102",
+    "nome": "MIDIA FLEX MX UNIFORMES LTDA",
+    "cnae": "14134",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6495.0
+   },
+   {
+    "cnpj": "67913943000186",
+    "nome": "67.913.943 BRUNI FAGUNDES",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "04868412001413",
+    "nome": "AUTO POSTO PRA FRENTE BRASIL LTDA",
+    "cnae": "47318",
+    "n_despesas": 21,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5245.98
+   },
+   {
+    "cnpj": "21632822000165",
+    "nome": "SUPER PRINT PAPEIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "76299270000107",
+    "nome": "NORDESTE TRANSPORTES LTDA",
+    "cnae": "49221",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "59137550000108",
+    "nome": "59.137.550 PAULO ROBERTO DANTAS PAES BARRETO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 4900.0
+   },
+   {
+    "cnpj": "41356051000138",
+    "nome": "RESTAURANTE VITALIDADE LTDA",
+    "cnae": "56112",
+    "n_despesas": 13,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 4590.0
+   },
+   {
+    "cnpj": "23343115000184",
+    "nome": "PB COMUNICACOES LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "37189127000100",
+    "nome": "E ALLIANA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "58719558000101",
+    "nome": "58.719.558 JOAO VITOR MIRANDOLLA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 2800.0
+   },
+   {
+    "cnpj": "33013232000133",
+    "nome": "AM SONORIZACAO LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "33311532000107",
+    "nome": "LILIA FLORIANO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1120.0
+   },
+   {
+    "cnpj": "15221634000141",
+    "nome": "R D DAVID - PRODUTOS PROMOCIONAIS",
+    "cnae": "14134",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "07327346000148",
+    "nome": "C. R. BELETI BELETI LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "82444050000122",
+    "nome": "FORTUNATO FORTUNATO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "04868412000360",
+    "nome": "AUTO POSTO PRA FRENTE BRASIL LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 931.47
+   },
+   {
+    "cnpj": "12294200000183",
+    "nome": "PERFIL BRINDES LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 910.0
+   },
+   {
+    "cnpj": "04868412001090",
+    "nome": "AUTO POSTO PRA FRENTE BRASIL LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 820.52
+   },
+   {
+    "cnpj": "04868412000956",
+    "nome": "AUTO POSTO PRA FRENTE BRASIL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 721.99
+   },
+   {
+    "cnpj": "04868412001502",
+    "nome": "AUTO POSTO PRA FRENTE BRASIL LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 550.81
+   },
+   {
+    "cnpj": "88327960000101",
+    "nome": "CANTELLE VIAGENS E TURISMO LTDA",
+    "cnae": "49221",
+    "n_despesas": 6,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 434.36
+   },
+   {
+    "cnpj": "04868412000107",
+    "nome": "AUTO POSTO PRA FRENTE BRASIL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 385.53
+   },
+   {
+    "cnpj": "80227796000159",
+    "nome": "EXPRESSO PRINCESA DOS CAMPOS SA",
+    "cnae": "49221",
+    "n_despesas": 4,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 290.92
+   },
+   {
+    "cnpj": "04868412000280",
+    "nome": "AUTO POSTO PRA FRENTE BRASIL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 202.38
+   },
+   {
+    "cnpj": "79571618000161",
+    "nome": "TUPI SCREEN DISTRIBUIDOR DE PRODUTOS PARA SERIGRAFIA E COMUNICACAO VISUAL LTDA",
+    "cnae": "46931",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 120.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 53,
+   "total": 76366.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 43200.0,
+    "Despesas com pessoal": 27800.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 46.5,
+    "Locação/cessão de bens imóveis": 5000.0,
+    "Serviços prestados por terceiros": 320.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

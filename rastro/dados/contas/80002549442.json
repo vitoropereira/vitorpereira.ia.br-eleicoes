@@ -1,0 +1,121 @@
+{
+ "sq": "80002549442",
+ "nome_urna": "DR. FERNANDO SANTORIO",
+ "cargo": "depest",
+ "uf": "ES",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 375000.0,
+  "por_origem": {
+   "Recursos de partido político": 150000.0,
+   "Recursos de pessoas físicas": 115000.0,
+   "Recursos próprios": 110000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 150000.0,
+   "OUTROS RECURSOS": 225000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 150000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 225000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 109617.36,
+  "total_pago": 95720.92,
+  "fornecedores_pj": [
+   {
+    "cnpj": "38731601000147",
+    "nome": "CANDELA ESTRATEGIA E COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "39802699000149",
+    "nome": "ESPORTIVO SOCIETE BALL GAUCHAO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 17107.2
+   },
+   {
+    "cnpj": "49464815000110",
+    "nome": "PLOTTEC IMPRESSOES E PROJETOS LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 4113.41
+   },
+   {
+    "cnpj": "28472546000164",
+    "nome": "GRAFICA CENTRAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "34765228000194",
+    "nome": "RGM COMERCIO DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 794.25
+   },
+   {
+    "cnpj": "54020841000190",
+    "nome": "LCR GRAFICA E EDITORA LTDA",
+    "cnae": "18121",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 550.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 6,
+   "total": 56052.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 24000.0,
+    "Locação/cessão de bens imóveis": 28000.0,
+    "Serviços prestados por terceiros": 4052.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

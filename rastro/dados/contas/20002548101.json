@@ -1,0 +1,92 @@
+{
+ "sq": "20002548101",
+ "nome_urna": "GABI GONÇALVES",
+ "cargo": "depest",
+ "uf": "AL",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 234000.0,
+  "por_origem": {
+   "Recursos de partido político": 200000.0,
+   "Recursos de pessoas físicas": 9000.0,
+   "Recursos próprios": 25000.0
+  },
+  "por_fonte": {
+   "FUNDO PARTIDARIO": 200000.0,
+   "OUTROS RECURSOS": 34000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01308052000192",
+    "nome": "Direção Estadual/Distrital - MDB - ALAGOAS",
+    "total": 200000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 34000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 186953.38,
+  "total_pago": 0.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "07270919000144",
+    "nome": "GOMES PEREIRA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "10836151000138",
+    "nome": "FOCO ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "04214147000135",
+    "nome": "LOC CONSTRUCOES E EMPREENDIMENTOS LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "20266767000174",
+    "nome": "FARIAS E LESSA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1514.57
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 20,
+   "total": 32438.81,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 17343.63,
+    "Cessão ou locação de veículos": 6322.58,
+    "Despesas com pessoal": 3890.16,
+    "Publicidade por carros de som": 4882.44
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

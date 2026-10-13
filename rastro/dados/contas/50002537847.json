@@ -1,0 +1,99 @@
+{
+ "sq": "50002537847",
+ "nome_urna": "ROBERTO CARLOS",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "PV",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 357900.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 200000.0,
+   "Recursos de pessoas físicas": 32900.0,
+   "Recursos próprios": 125000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "OUTROS RECURSOS": 157900.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68430419000117",
+    "nome": "JOAO CARLOS BACELAR BATISTA",
+    "total": 200000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 17,
+   "total": 157900.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 235295.8,
+  "total_pago": 125295.8,
+  "fornecedores_pj": [
+   {
+    "cnpj": "28133075000160",
+    "nome": "EQUITECH SOLUCOES EM EQUIPAMENTOS PARA ESCRITORIO LTDA",
+    "cnae": "47512",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 126000.0
+   },
+   {
+    "cnpj": "29905129000120",
+    "nome": "RCS ARAUJO GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 84000.0
+   },
+   {
+    "cnpj": "53721430000169",
+    "nome": "LP CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "65734781000193",
+    "nome": "BARTIRA LUA RAMOS MONTEIRO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "29014507000186",
+    "nome": "EVG-ADMINISTRACAO DE IMOVEIS PROPRIOS LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 295.8,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 295.8
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

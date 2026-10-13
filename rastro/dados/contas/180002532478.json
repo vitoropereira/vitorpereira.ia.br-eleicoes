@@ -1,0 +1,316 @@
+{
+ "sq": "180002532478",
+ "nome_urna": "DELEGADO CHARLES",
+ "cargo": "depfed",
+ "uf": "PI",
+ "partido": "PV",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1138828.32,
+  "por_origem": {
+   "Recursos de partido político": 1019750.0,
+   "Recursos de pessoas físicas": 75327.67,
+   "Recursos próprios": 43750.65
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1019750.0,
+   "OUTROS RECURSOS": 119078.32
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "31886963000168",
+    "nome": "Direção Nacional - PV",
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "07473085000174",
+    "nome": "Direção Estadual/Distrital - PT - PIAUÍ",
+    "total": 19750.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 16,
+   "total": 119078.32
+  }
+ },
+ "despesas": {
+  "total_contratado": 444747.5,
+  "total_pago": 325333.14,
+  "fornecedores_pj": [
+   {
+    "cnpj": "40166079000140",
+    "nome": "MILANEZ LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 195000.0
+   },
+   {
+    "cnpj": "11407621000100",
+    "nome": "JOSE MARIA DE ARAUJO COSTA ADVOCACIA E CONSULTORIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "09192288000118",
+    "nome": "MAZUAD AUTO LOCADORA E LOGISTICA LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 51600.0
+   },
+   {
+    "cnpj": "21591697000192",
+    "nome": "AGILIZA SERVICOS CONTABEIS E APOIO ADMINISTRATIVO LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "19113452000108",
+    "nome": "LIMA EVENTOS E SERVICOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 37000.0
+   },
+   {
+    "cnpj": "02687493000105",
+    "nome": "I. H. MARTINS SILVEIRA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "21509129000108",
+    "nome": "IMOBILIARIA ROCHA ROCHA LTDA",
+    "cnae": "68218",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 7249.86
+   },
+   {
+    "cnpj": "42192726000113",
+    "nome": "CLEMENTINO EVENTOS LTDA",
+    "cnae": "52125",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "23444709000181",
+    "nome": "SIEART GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1580.0
+   },
+   {
+    "cnpj": "08596605000107",
+    "nome": "POSTO HOMERO CASTELO BRANCO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1360.86
+   },
+   {
+    "cnpj": "51404422000163",
+    "nome": "POSTO IDEAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 964.86
+   },
+   {
+    "cnpj": "18596332000146",
+    "nome": "TEXAS DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 836.73
+   },
+   {
+    "cnpj": "65235965000109",
+    "nome": "65.235.965 CAMILA DE SOUSA ALENCAR",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "40841494000313",
+    "nome": "POSTO CERTO UR LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 525.01
+   },
+   {
+    "cnpj": "59872652000169",
+    "nome": "MEGA PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 508.01
+   },
+   {
+    "cnpj": "26070671000112",
+    "nome": "POSTO SANTA ISABEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 455.35
+   },
+   {
+    "cnpj": "69605939000186",
+    "nome": "AUTO COMERCIAL PIRAJA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 448.0
+   },
+   {
+    "cnpj": "05812320000240",
+    "nome": "JOALANDRO COELHO DE SOUSA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 433.2
+   },
+   {
+    "cnpj": "26654974000182",
+    "nome": "POSTO ALIANCA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 410.06
+   },
+   {
+    "cnpj": "09641208000164",
+    "nome": "FCN.X CARVALHO COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 280.03
+   },
+   {
+    "cnpj": "47287190000133",
+    "nome": "MAXXI MEGA PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 260.06
+   },
+   {
+    "cnpj": "52589435000117",
+    "nome": "G LEAL N C DE VASCONCELOS",
+    "cnae": "45200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 240.0
+   },
+   {
+    "cnpj": "19334593000231",
+    "nome": "PAPELARIA DO ESTUDANTE LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 104.33
+   },
+   {
+    "cnpj": "73807471000260",
+    "nome": "F M FERREIRA DE SOUSA LTDA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 71.88
+   },
+   {
+    "cnpj": "31838128000829",
+    "nome": "DISTRIBUICAO DE ALIMENTOS VANGUARDA S/A",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 45.16
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 68,
+   "total": 10174.1,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 8660.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 114.1,
+    "Serviços prestados por terceiros": 1400.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,79 @@
+{
+ "sq": "30002533021",
+ "nome_urna": "DR. VICTOR AMORAS",
+ "cargo": "depest",
+ "uf": "AP",
+ "partido": "REDE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 550000.0,
+  "por_origem": {
+   "Recursos de partido político": 550000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 550000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "17981188000107",
+    "nome": "Direção Nacional - REDE",
+    "total": 550000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 281001.0,
+  "total_pago": 237321.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "37040402000120",
+    "nome": "3 CLIKS - PUBLICIDADE E MARKETING LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 127000.0
+   },
+   {
+    "cnpj": "65345521000126",
+    "nome": "LR CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "37847917000136",
+    "nome": "AMAZON MIDIA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 5,
+   "total": 98001.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.0,
+    "Locação/cessão de bens imóveis": 20000.0,
+    "Serviços advocatícios": 25000.0,
+    "Serviços prestados por terceiros": 53000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

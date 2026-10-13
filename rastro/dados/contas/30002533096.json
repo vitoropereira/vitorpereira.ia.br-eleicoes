@@ -1,0 +1,172 @@
+{
+ "sq": "30002533096",
+ "nome_urna": "PROFESSORA MARCIVÂNIA",
+ "cargo": "depfed",
+ "uf": "AP",
+ "partido": "PCDOB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2150621.0,
+  "por_origem": {
+   "Recursos de partido político": 2052000.0,
+   "Recursos de pessoas físicas": 98621.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2052000.0,
+   "OUTROS RECURSOS": 98621.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "54956495000156",
+    "nome": "Direção Nacional - PCDOB",
+    "total": 2052000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 33,
+   "total": 98621.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1334675.0,
+  "total_pago": 1386675.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "31277848000196",
+    "nome": "QUINTELA SA SERVICOS LTDA",
+    "cnae": "63917",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 365000.0
+   },
+   {
+    "cnpj": "50485376000101",
+    "nome": "FCX EMPREENDIMENTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 11,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 237800.0
+   },
+   {
+    "cnpj": "37847917000136",
+    "nome": "AMAZON MIDIA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 187575.0
+   },
+   {
+    "cnpj": "10522077000185",
+    "nome": "POSTO DE COMBUSTIVEIS JARDINS LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 123000.0
+   },
+   {
+    "cnpj": "02747184000183",
+    "nome": "R M R DE ALMEIDA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 99600.0
+   },
+   {
+    "cnpj": "60045391000192",
+    "nome": "ANTUNES ZANGISKI SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "44553242000188",
+    "nome": "L. CARLOS CORREA FEIO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "15644022000161",
+    "nome": "FRANCISCO MONTEIRO CANTIDIO",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "46879914000175",
+    "nome": "AGIR LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "50091329000183",
+    "nome": "FN EMPREENDIMENTOS LTDA",
+    "cnae": "47296",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 14400.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "36168198000164",
+    "nome": "MOISES HOMOBONO NERI BRITO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 32,
+   "total": 177300.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 145800.0,
+    "Locação/cessão de bens imóveis": 31500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

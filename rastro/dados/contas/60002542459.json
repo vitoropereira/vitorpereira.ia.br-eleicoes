@@ -1,0 +1,280 @@
+{
+ "sq": "60002542459",
+ "nome_urna": "DAVI DE RAIMUNDÃO",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 760126.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 13500.0,
+   "Recursos de partido político": 635000.0,
+   "Recursos de pessoas físicas": 100626.0,
+   "Recursos próprios": 11000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 648500.0,
+   "OUTROS RECURSOS": 111626.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 635000.0
+   },
+   {
+    "cnpj": "68468122000140",
+    "nome": "YURY BRUNO ALENCAR ARAUJO",
+    "total": 13500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 111626.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 449438.96,
+  "total_pago": 652298.48,
+  "fornecedores_pj": [
+   {
+    "cnpj": "58034632000156",
+    "nome": "CLB LOCACOES E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 45270.0
+   },
+   {
+    "cnpj": "12214854000150",
+    "nome": "FONTENELE BONFIM LTDA",
+    "cnae": "58298",
+    "n_despesas": 24,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 37495.0
+   },
+   {
+    "cnpj": "00200508000133",
+    "nome": "SOGRAFICA SOBRAL GRAFICA LTDA",
+    "cnae": "18121",
+    "n_despesas": 14,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 35219.2
+   },
+   {
+    "cnpj": "26153091000199",
+    "nome": "26.153.091 MARIA FERREIRA DOMINGOS",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 32724.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "05036551000129",
+    "nome": "JAYMES ALVES FERREIRA LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24600.0
+   },
+   {
+    "cnpj": "55086114000198",
+    "nome": "PEDRO EUGENIO SOARES MARQUES LTDA",
+    "cnae": "13405",
+    "n_despesas": 17,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22770.0
+   },
+   {
+    "cnpj": "07410389000192",
+    "nome": "ANDERSON QUEIROZ SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "05806191000105",
+    "nome": "PREMIUM CAR RENTAL E TRANSPORTES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "34503369000139",
+    "nome": "FABIO RUAN GOMES DE SOUZA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "13968397000151",
+    "nome": "TECNUS GESTAO DE NEGOCIOS LTDA.",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 12400.0
+   },
+   {
+    "cnpj": "36768574000151",
+    "nome": "AMORIM PETROLEO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 8,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 11273.33
+   },
+   {
+    "cnpj": "22747930000146",
+    "nome": "AVANTI PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10395.0
+   },
+   {
+    "cnpj": "09521937000187",
+    "nome": "ECOPRINT SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7365.13
+   },
+   {
+    "cnpj": "10838228000109",
+    "nome": "JOAO VICTOR DE ALENCAR GRANGEIRO",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 3008.0
+   },
+   {
+    "cnpj": "53985178000103",
+    "nome": "RECORT COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2490.0
+   },
+   {
+    "cnpj": "27852518000100",
+    "nome": "ENVASADORA DE AGUA IDALINA LTDA",
+    "cnae": "11216",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 2430.0
+   },
+   {
+    "cnpj": "50192172000182",
+    "nome": "SEIS CORDAS FIDELIS PRODUCOES ARTISTICAS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "64548539000162",
+    "nome": "64.548.539 LUCIANO LUIZ DA SILVA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1820.0
+   },
+   {
+    "cnpj": "11135130000158",
+    "nome": "J. COUTINHO DA SILVA FILHO",
+    "cnae": "61906",
+    "n_despesas": 1,
+    "tipos": [
+     "Telefone"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "58598879000103",
+    "nome": "58.598.879 BRUNO JEFFERSON DA SILVA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 650.0
+   },
+   {
+    "cnpj": "13371009000150",
+    "nome": "R.S. COMERCIAL LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 39.8
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 88,
+   "total": 119589.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 110500.0,
+    "Despesas com pessoal": 9000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 89.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

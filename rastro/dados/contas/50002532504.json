@@ -1,0 +1,316 @@
+{
+ "sq": "50002532504",
+ "nome_urna": "LÉO PRATES",
+ "cargo": "depfed",
+ "uf": "BA",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2371216.91,
+  "por_origem": {
+   "Recursos de partido político": 2192216.91,
+   "Recursos de pessoas físicas": 179000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2000000.0,
+   "FUNDO PARTIDARIO": 2216.91,
+   "OUTROS RECURSOS": 369000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 2190000.0
+   },
+   {
+    "cnpj": "08666672000142",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - BAHIA",
+    "total": 2216.91
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 179000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2278636.99,
+  "total_pago": 2308971.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "35018438000181",
+    "nome": "SPACE PRODUCOES DE EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 8,
+    "tipos": [
+     "Atividades de militância e mobilização de rua",
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 687751.0
+   },
+   {
+    "cnpj": "67168797000101",
+    "nome": "DS GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 498450.0
+   },
+   {
+    "cnpj": "27928677000140",
+    "nome": "BELO IMPRESSOES GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 190058.0
+   },
+   {
+    "cnpj": "16089567000116",
+    "nome": "PRESS COLOR GRAFICOS ESPECIALIZADOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 129010.0
+   },
+   {
+    "cnpj": "62489031000105",
+    "nome": "PIPA CRIATIVIDADE VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 107233.05
+   },
+   {
+    "cnpj": "13326558000103",
+    "nome": "COPIADORA ELI LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "13525731000100",
+    "nome": "AGENCIAMENTO E PUBLICIDADE IDEIA LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 99889.28
+   },
+   {
+    "cnpj": "03407054000164",
+    "nome": "SILVA DIAS CONSTRUCOES E SERVICOS LTDA",
+    "cnae": "81214",
+    "n_despesas": 2,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 82715.56
+   },
+   {
+    "cnpj": "18365785000161",
+    "nome": "MEGGA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 66150.0
+   },
+   {
+    "cnpj": "32252078000190",
+    "nome": "PARLA COMUNICACAO DIGITAL ASSESSORIA DE IMPRENSA E CONSULTORIA LTDA",
+    "cnae": "70204",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "18474096000195",
+    "nome": "BANDARRA PRODUCOES LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 32616.04
+   },
+   {
+    "cnpj": "53721430000169",
+    "nome": "LP CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "07823239000100",
+    "nome": "FIESTA BAHIA HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 21830.0
+   },
+   {
+    "cnpj": "10522293000120",
+    "nome": "MAHMED SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "15188360000136",
+    "nome": "CENTRO ESPANHOL",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "15111297000130",
+    "nome": "EMPRESA EDITORA A TARDE S A",
+    "cnae": "58221",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 14101.5
+   },
+   {
+    "cnpj": "14583041000162",
+    "nome": "EMPRESA BAIANA DE JORNALISMO S A",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 12185.6
+   },
+   {
+    "cnpj": "01855960000104",
+    "nome": "MEGA POSTO BERIMBAU LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10700.0
+   },
+   {
+    "cnpj": "17230649000100",
+    "nome": "CERIMONIAL MUNDO ENCANTADO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 9770.76
+   },
+   {
+    "cnpj": "02103578000107",
+    "nome": "SITE EDITORA LTDA",
+    "cnae": "58221",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 5110.0
+   },
+   {
+    "cnpj": "34639040000108",
+    "nome": "KASO EMPREENDIMENTOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "03019757000115",
+    "nome": "LOC TUDO LOCACAO E ASSISTENCIA TECNICA LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3710.0
+   },
+   {
+    "cnpj": "13358270000110",
+    "nome": "EDITAR - EDITORA ACCIOLI RAMOS LTDA",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1680.0
+   },
+   {
+    "cnpj": "40289478000106",
+    "nome": "DOCA 1 COWORKING, CURSOS DE CAPACITACAO E EVENTOS SPE LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 19676.2,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 176.2,
+    "Locação/cessão de bens imóveis": 19500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

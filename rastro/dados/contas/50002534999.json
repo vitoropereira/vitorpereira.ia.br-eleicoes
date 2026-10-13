@@ -1,0 +1,405 @@
+{
+ "sq": "50002534999",
+ "nome_urna": "MANUEL ROCHA",
+ "cargo": "depfed",
+ "uf": "BA",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3021849.77,
+  "por_origem": {
+   "Recursos de partido político": 2898249.77,
+   "Recursos de pessoas físicas": 123600.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2893496.1,
+   "FUNDO PARTIDARIO": 4753.67,
+   "OUTROS RECURSOS": 123600.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 2893496.1
+   },
+   {
+    "cnpj": "45928648000160",
+    "nome": "Direção Estadual/Distrital - UNIÃO - BAHIA",
+    "total": 4753.67
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 123600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2346747.28,
+  "total_pago": 2895025.08,
+  "fornecedores_pj": [
+   {
+    "cnpj": "24356637000183",
+    "nome": "OCEANO PRODUCAO MUSICAL E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 3,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 600000.0
+   },
+   {
+    "cnpj": "67168797000101",
+    "nome": "DS GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 390358.5
+   },
+   {
+    "cnpj": "52531642000110",
+    "nome": "GUSTAVO DA SILVA MOTA DOS SANTOS",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 217000.0
+   },
+   {
+    "cnpj": "26740802000121",
+    "nome": "FDS SERVICOS E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 201400.0
+   },
+   {
+    "cnpj": "57574965000105",
+    "nome": "CORAL ESTUDIO DE MOTION E ANIMACAO LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "10803361000120",
+    "nome": "MP L COMERCIO E INFORMATICA LTDA",
+    "cnae": "14223",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 124050.0
+   },
+   {
+    "cnpj": "68319422000168",
+    "nome": "ANTONIO ELINALDO ARAUJO DA SILVA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 108000.0
+   },
+   {
+    "cnpj": "10522293000120",
+    "nome": "MAHMED SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "14682975000151",
+    "nome": "GRAFICA CAETITE LTDA",
+    "cnae": "58298",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 55890.0
+   },
+   {
+    "cnpj": "26080840000103",
+    "nome": "A PLAY S COMERCIO E SERVICOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 52520.0
+   },
+   {
+    "cnpj": "53721430000169",
+    "nome": "LP CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "17849433000119",
+    "nome": "GRAFICA OLIVEIRA SANTANA LTDA.",
+    "cnae": "58298",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 43890.0
+   },
+   {
+    "cnpj": "18541925000105",
+    "nome": "GRAFICA GUANAMBI LTDA",
+    "cnae": "58298",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 39948.0
+   },
+   {
+    "cnpj": "05769382000136",
+    "nome": "HANGAR 1 COMERCIO DE COMBUSTIVEIS E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 27496.5
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "10766142000118",
+    "nome": "NOVA ERA AQUARIOS CONFECCOES, TREINAMENTO E CONSULTORIA LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21997.8
+   },
+   {
+    "cnpj": "57808327000101",
+    "nome": "LOTUS COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19500.0
+   },
+   {
+    "cnpj": "11578488000155",
+    "nome": "IZANE FARIAS DE ALMEIDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18934.2
+   },
+   {
+    "cnpj": "01630610000131",
+    "nome": "MACTRA COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 15842.68
+   },
+   {
+    "cnpj": "31422968000130",
+    "nome": "QUALIGRAFF TEAM BSB LTDA",
+    "cnae": "18211",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15450.0
+   },
+   {
+    "cnpj": "54581618000111",
+    "nome": "JSM INDUSTRIA E SERVICOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10800.0
+   },
+   {
+    "cnpj": "09336339000138",
+    "nome": "ITAGRAF EDITORA E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9440.0
+   },
+   {
+    "cnpj": "04967379000164",
+    "nome": "LOURIVAL DUARTE DE ABREU",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8160.0
+   },
+   {
+    "cnpj": "17794237000194",
+    "nome": "M B ESPORTES GRAFICA E PAPAELARIA LTDA",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7280.0
+   },
+   {
+    "cnpj": "63201867000125",
+    "nome": "GRAFICA E EDITORA MESQUITA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7250.0
+   },
+   {
+    "cnpj": "21631760000177",
+    "nome": "LUMEN COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5945.0
+   },
+   {
+    "cnpj": "73507162000941",
+    "nome": "OESTE COMERCIAL DE COMBUSTIVEIS PARA AVIACAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3771.6
+   },
+   {
+    "cnpj": "09572644000129",
+    "nome": "LEY PLACAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3376.0
+   },
+   {
+    "cnpj": "52172813000162",
+    "nome": "LUIS ANTONIO BATISTA SILVA",
+    "cnae": "90019",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3350.0
+   },
+   {
+    "cnpj": "02242769000141",
+    "nome": "GRAFICA E EDITORA ALVARES MONTEIRO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3300.0
+   },
+   {
+    "cnpj": "00784177000126",
+    "nome": "GRAFICA LIVRAMENTO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2850.0
+   },
+   {
+    "cnpj": "06299214000197",
+    "nome": "J.F. GRAFICA E TECNOLOGIA LTDA.",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "24630629000183",
+    "nome": "VH AGENCIA DIGITAL E INTERNET LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 775.0
+   },
+   {
+    "cnpj": "63988963000165",
+    "nome": "GRAFICA PORTO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "42220723000146",
+    "nome": "GRAFICA PAPEL BOM LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 400.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 40022.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 22.0,
+    "Serviços prestados por terceiros": 40000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

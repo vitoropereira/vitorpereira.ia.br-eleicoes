@@ -1,0 +1,556 @@
+{
+ "sq": "210002533902",
+ "nome_urna": "FERNANDA MELCHIONNA",
+ "cargo": "depfed",
+ "uf": "RS",
+ "partido": "PSOL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2437125.27,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 4455.0,
+   "Recursos de partido político": 2281470.27,
+   "Recursos de pessoas físicas": 118700.0,
+   "Recursos próprios": 32500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2281470.27,
+   "OUTROS RECURSOS": 155655.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "06954942000195",
+    "nome": "Direção Nacional - PSOL",
+    "total": 2091567.46
+   },
+   {
+    "cnpj": "11664131000190",
+    "nome": "Direção Estadual/Distrital - PSOL - RIO GRANDE DO SUL",
+    "total": 189902.81
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 4455.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 42,
+   "total": 151200.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1956095.07,
+  "total_pago": 1314857.9,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 410000.0
+   },
+   {
+    "cnpj": "15705697000173",
+    "nome": "EVAG COMUNICACAO E TECNOLOGIA LTDA.",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 162000.0
+   },
+   {
+    "cnpj": "68748772000140",
+    "nome": "MZ FERNANDES IMPRESSOS LTDA",
+    "cnae": "47610",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 105357.0
+   },
+   {
+    "cnpj": "55008753000135",
+    "nome": "RS GRAFICA IMPRESSAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 100269.0
+   },
+   {
+    "cnpj": "65698630000127",
+    "nome": "NOTERA MEDIA LTDA",
+    "cnae": "63992",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 66700.0
+   },
+   {
+    "cnpj": "44691407000188",
+    "nome": "ALZIMERI O. FERNANDES ANTONIO CARLOS LIMA DE OLIVEIRA LTDA",
+    "cnae": "47610",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 56220.0
+   },
+   {
+    "cnpj": "92821701000100",
+    "nome": "RBS - ZERO HORA EDITORA JORNALISTICA S.A.",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 53708.13
+   },
+   {
+    "cnpj": "03696700000150",
+    "nome": "VAGNER CRISTIANO GARCIA DUTRA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "19264763000178",
+    "nome": "CRISTINA GRANDEMAGNE DISTRIBUIDORA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 39640.0
+   },
+   {
+    "cnpj": "88804513000104",
+    "nome": "KADU MALHAS COMERCIO DE ROUPAS LTDA",
+    "cnae": "47814",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 36607.0
+   },
+   {
+    "cnpj": "58895246000159",
+    "nome": "IMPACTA COMUNICACAO E MIDIAS DIGITAIS LTDA",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "93741312000137",
+    "nome": "DIOS VIEIRA MARKETING E PROPAGANDA LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 29242.4
+   },
+   {
+    "cnpj": "94350113000160",
+    "nome": "JOKA SUBLIMACAO DIGITAL LTDA",
+    "cnae": "13405",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25960.0
+   },
+   {
+    "cnpj": "66469923000103",
+    "nome": "66.469.923 CAMILA CLARA ABECH",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "30643459000174",
+    "nome": "30.643.459 ALLAN LEAL DA SILVA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 16200.0
+   },
+   {
+    "cnpj": "05824788000174",
+    "nome": "EMPRESA DE TRANSPORTES KOPERECK LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 14700.0
+   },
+   {
+    "cnpj": "07473735000181",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "03604248000150",
+    "nome": "HAMILTON GARCIA LEITE PRODUCOES ARTISTICAS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 12156.0
+   },
+   {
+    "cnpj": "92666015000101",
+    "nome": "O PAO DOS POBRES DE SANTO ANTONIO",
+    "cnae": "87301",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 11005.9
+   },
+   {
+    "cnpj": "92691336000166",
+    "nome": "CREDITO REAL IMOVEIS E CONDOMINIOS S A",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 11005.9
+   },
+   {
+    "cnpj": "92757798000139",
+    "nome": "EMPRESA JORNALISTICA CALDAS JUNIOR LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 10800.0
+   },
+   {
+    "cnpj": "18157653000144",
+    "nome": "18.157.653 PEDRO HERTER MANCUSO",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 9800.0
+   },
+   {
+    "cnpj": "33043805000171",
+    "nome": "MATEUS MULLER",
+    "cnae": "49299",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesas com transporte ou deslocamento",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8887.0
+   },
+   {
+    "cnpj": "91665570000156",
+    "nome": "GRUPO EDITORIAL SINOS SA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 7920.0
+   },
+   {
+    "cnpj": "62031052000182",
+    "nome": "62.031.052 RAQUEL MATOS SILVA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 7800.0
+   },
+   {
+    "cnpj": "19582515000175",
+    "nome": "ANDRE LUIZ VARELA DUTRA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "26748774000199",
+    "nome": "NEWCO SM - EMPRESA JORNALISTICA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 5116.06
+   },
+   {
+    "cnpj": "41197667000103",
+    "nome": "TASCHETTO TONDOLO TRANSPORTE LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "97269740000160",
+    "nome": "AGENCIA DE CORREIOS FRANQUEADA ACORIANOS LTDA",
+    "cnae": "53105",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 3570.76
+   },
+   {
+    "cnpj": "05489226000111",
+    "nome": "SOCIEDADE RECREATIVA BENEFICENTE E CULTURAL BANDA DA SALDANHA MARINHO",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "08342657000149",
+    "nome": "ESPETAO SANTANA - CHURRASCARIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 3075.0
+   },
+   {
+    "cnpj": "15337299000141",
+    "nome": "CATIA LARISSA JUZWIAK",
+    "cnae": "49248",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "34149747000128",
+    "nome": "ANA LAURA DE SOUZA BARONI",
+    "cnae": "47130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2640.0
+   },
+   {
+    "cnpj": "03080511000159",
+    "nome": "JORNAL OPINIAO DE VIAMAO LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "31809116000108",
+    "nome": "31.809.116 MARCIO ALEXANDRE GOBBI",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "23147452000104",
+    "nome": "OUTROS 500 LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "11750556000111",
+    "nome": "LUEL-TUR TRANSPORTES DE PASSAGEIROS LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "53286946000122",
+    "nome": "PADARIA QUERO PAO LTDA",
+    "cnae": "47211",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "47908854000134",
+    "nome": "47.908.854 ERICK ALMEIDA DE OLIVEIRA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 840.0
+   },
+   {
+    "cnpj": "92660760000143",
+    "nome": "VEPPO CIA LIMITADA",
+    "cnae": "79902",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 661.95
+   },
+   {
+    "cnpj": "01394856000151",
+    "nome": "AVENTURA - CAMPING E NAUTICA LTDA.",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Aquisição/Doação de bens móveis ou imóveis"
+    ],
+    "total": 527.0
+   },
+   {
+    "cnpj": "04185347000107",
+    "nome": "AMPLA EMPRESA JORNALISTICA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "50113148000100",
+    "nome": "50.113.148 CRISTIANO SCHLAVIN ARDENGHI BRIZOLLA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "92954106000142",
+    "nome": "VIACAO OURO E PRATA SA",
+    "cnae": "49221",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 429.0
+   },
+   {
+    "cnpj": "11247692000193",
+    "nome": "ABASTECEDORA DE COMBUSTIVEIS PHOENIX LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 253.0
+   },
+   {
+    "cnpj": "95592077000104",
+    "nome": "PLANALTO TRANSPORTES LTDA",
+    "cnae": "49221",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 232.15
+   },
+   {
+    "cnpj": "06367990000187",
+    "nome": "PENHA ENCOMENDAS EXPRESS LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 165.7
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 91.35
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 189,
+   "total": 593714.77,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 527717.18,
+    "Cessão ou locação de veículos": 7000.0,
+    "Despesas com transporte ou deslocamento": 18000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 273.0,
+    "Impostos, contribuições e taxas": 1624.59,
+    "Serviços prestados por terceiros": 39100.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

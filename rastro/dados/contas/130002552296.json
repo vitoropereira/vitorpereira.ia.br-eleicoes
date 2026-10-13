@@ -1,0 +1,794 @@
+{
+ "sq": "130002552296",
+ "nome_urna": "CLEITINHO AZEVEDO",
+ "cargo": "governador",
+ "uf": "MG",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1140300.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 16800.0,
+   "Recursos de pessoas físicas": 1123500.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 1140300.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68237365000178",
+    "nome": "JOSE GERALDO DE ANDRADE",
+    "total": 16800.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 69,
+   "total": 1123500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 877847.44,
+  "total_pago": 749547.03,
+  "fornecedores_pj": [
+   {
+    "cnpj": "68245066000185",
+    "nome": "V. U. PEREIRA IMPRESSAO E SINALIZACAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 247000.0
+   },
+   {
+    "cnpj": "26479153000157",
+    "nome": "AEROSPEED TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 162500.0
+   },
+   {
+    "cnpj": "25372472000104",
+    "nome": "PROJEMINAS COMERCIO E SERVICOS LTDA",
+    "cnae": "46427",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "20158440000189",
+    "nome": "SERCONTA SERVICOS CONTABEIS LTDA",
+    "cnae": "82199",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 52000.0
+   },
+   {
+    "cnpj": "23537497000187",
+    "nome": "CANDIDO E CANDIDO NETO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "31164268000273",
+    "nome": "ACAAP - ASSOCIACAO CLUBE DE AVIACAO DO ALTO PARANAIBA",
+    "cnae": "46818",
+    "n_despesas": 12,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 28665.18
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "56905322000134",
+    "nome": "FERNANDO HENRIQUE COSTA DE OLIVEIRA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 9,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 17442.5
+   },
+   {
+    "cnpj": "21433829000158",
+    "nome": "TOMARELLO QUADROS, MOLDURAS E DECORACAO LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16500.0
+   },
+   {
+    "cnpj": "43022538000100",
+    "nome": "LIKE GRAFICA INDUSTRIA E COMERCIO LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 16400.0
+   },
+   {
+    "cnpj": "03465043000130",
+    "nome": "INVISTA EDITORA E IMPRESSAO LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "41682046000115",
+    "nome": "BRAZIL LIDER COMUNICACAO VISUAL E COMERCIO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "64476872000103",
+    "nome": "MATIZ GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15500.0
+   },
+   {
+    "cnpj": "59024138000173",
+    "nome": "ADVIDA LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 14016.67
+   },
+   {
+    "cnpj": "04544646000190",
+    "nome": "IMPACTO COMUNICACAO VISUAL LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 13200.0
+   },
+   {
+    "cnpj": "31339280000190",
+    "nome": "ESPACIAL FILMES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "56019930000141",
+    "nome": "INOVE INTELIGENCIA EM TECNOLOGIA DESENVOLVIMENTO DE SISTEMA E MARKETING LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "60735763000102",
+    "nome": "DIOGO ANDRADE VIEIRA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "06199207000113",
+    "nome": "ULTRACOPY DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6920.0
+   },
+   {
+    "cnpj": "39825435000291",
+    "nome": "MARLIM AZUL COMERCIO E TRANSPORTE DE PETROLEO E DERIVADOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6840.0
+   },
+   {
+    "cnpj": "03763808000208",
+    "nome": "MCOURA COMBUSTIVEIS DE AVIACAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6294.84
+   },
+   {
+    "cnpj": "20111290000158",
+    "nome": "GRAFICA EDITORA CEDABLIO LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3800.0
+   },
+   {
+    "cnpj": "44153283000187",
+    "nome": "GUILHERME RAFAEL SAVOLDI SECCI",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3750.0
+   },
+   {
+    "cnpj": "13971779000134",
+    "nome": "IMPRESS PLACAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "54827328000105",
+    "nome": "FORMO TECNOLOGIA E SERVICOS LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "34028316343574",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 3312.26
+   },
+   {
+    "cnpj": "33005413000118",
+    "nome": "AL CONSTRUTORA E INCORPORADORA LTDA",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "42346085000104",
+    "nome": "GOMES MAIA AVIATION LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2690.8
+   },
+   {
+    "cnpj": "69197467000170",
+    "nome": "69.197.467 ALEXANDRE AQUINO PEREIRA SANTANA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "60051748000145",
+    "nome": "SAFIRA AVIATION LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes",
+     "Diversas a especificar"
+    ],
+    "total": 1816.55
+   },
+   {
+    "cnpj": "16951665000110",
+    "nome": "RB GRAFICA DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1750.0
+   },
+   {
+    "cnpj": "19059849000401",
+    "nome": "MILDO ALVES ADMINISTRACAO COMERCIO E TRANSPORTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1650.0
+   },
+   {
+    "cnpj": "34159406000133",
+    "nome": "MG PRINT LTDA.",
+    "cnae": "82997",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1550.0
+   },
+   {
+    "cnpj": "38656930000170",
+    "nome": "ORGANIZACOES SOUKI LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1533.26
+   },
+   {
+    "cnpj": "13014702000176",
+    "nome": "WILIAM V EMILIO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1300.0
+   },
+   {
+    "cnpj": "01422568000163",
+    "nome": "PAPELARIA E COPIADORA MAXIMA I LTDA",
+    "cnae": "47610",
+    "n_despesas": 3,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1221.93
+   },
+   {
+    "cnpj": "58149941000171",
+    "nome": "58.149.941 NIELSON CANUTO",
+    "cnae": "52231",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1050.0
+   },
+   {
+    "cnpj": "28395388000196",
+    "nome": "BLACK TAXI AEREO E SERVICOS AERONAUTICOS S/A",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 1037.85
+   },
+   {
+    "cnpj": "17741214000111",
+    "nome": "SMEP BH HOTEIS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "08067614000100",
+    "nome": "AERO HAUS LTDA",
+    "cnae": "46699",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "14193368000128",
+    "nome": "FENIX PARTICIPACOES E NEGOCIOS S.A.",
+    "cnae": "64638",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "32938389000107",
+    "nome": "MARCIMAR CARLOS FORMIGHIERI",
+    "cnae": "52401",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "01528170000106",
+    "nome": "COMERCIAL GOMES E NEVES LTDA",
+    "cnae": "47610",
+    "n_despesas": 3,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 475.65
+   },
+   {
+    "cnpj": "19769694000154",
+    "nome": "MARRA MARRA COMERCIAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 431.94
+   },
+   {
+    "cnpj": "64419116000142",
+    "nome": "GC JET SERVICES SERVICOS AEREOS LTDA",
+    "cnae": "52401",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QUEROAPOIAR.COM.BR LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 349.0
+   },
+   {
+    "cnpj": "02577006000151",
+    "nome": "POSTO XANDO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 333.73
+   },
+   {
+    "cnpj": "46708456000101",
+    "nome": "POSTO TRANSMARINS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 323.95
+   },
+   {
+    "cnpj": "36535816000167",
+    "nome": "AUTO POSTO NASCENTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 322.02
+   },
+   {
+    "cnpj": "04748235000117",
+    "nome": "ALTO UMUARAMA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 315.73
+   },
+   {
+    "cnpj": "37975731000162",
+    "nome": "POSTO NOVA UNIAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 311.49
+   },
+   {
+    "cnpj": "18071050000125",
+    "nome": "HOTEL PANORAMA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 307.35
+   },
+   {
+    "cnpj": "16665259000191",
+    "nome": "POSTO AEROPORTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 306.47
+   },
+   {
+    "cnpj": "17333899000167",
+    "nome": "POSTO MUSTANG LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 306.47
+   },
+   {
+    "cnpj": "04385626000114",
+    "nome": "JOSE PENHA SILVA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 285.0
+   },
+   {
+    "cnpj": "13569064000150",
+    "nome": "REDE HG COMBUSTIVEIS LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 264.36
+   },
+   {
+    "cnpj": "45063379000117",
+    "nome": "JOAO PEDRO C. E. OLIVEIRA SERVICOS AERONAUTICOS",
+    "cnae": "52401",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 260.0
+   },
+   {
+    "cnpj": "03875171000152",
+    "nome": "AUTO POSTO SEMINARIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 248.36
+   },
+   {
+    "cnpj": "02196687000108",
+    "nome": "SAVASTANO E PORTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 248.14
+   },
+   {
+    "cnpj": "33737454000107",
+    "nome": "PACHECO POUSADA E RESTAURANTE LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 235.0
+   },
+   {
+    "cnpj": "19848233000258",
+    "nome": "POSTO SANTA EDWIGES PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 229.81
+   },
+   {
+    "cnpj": "04524416000836",
+    "nome": "JMF - COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 228.21
+   },
+   {
+    "cnpj": "19848233000177",
+    "nome": "POSTO SANTA EDWIGES PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 218.01
+   },
+   {
+    "cnpj": "52727522000193",
+    "nome": "POSTO MARINHO CAMPANHA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 211.05
+   },
+   {
+    "cnpj": "17272550000162",
+    "nome": "POSTO ZEPPE SAO JOSE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 209.06
+   },
+   {
+    "cnpj": "47688005000112",
+    "nome": "47.688.005 HIANY GARCIA FARIA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 205.0
+   },
+   {
+    "cnpj": "02024746002023",
+    "nome": "POSTO SUPER TIGRE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 197.18
+   },
+   {
+    "cnpj": "05666780000127",
+    "nome": "HOTEL ARANAS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 180.0
+   },
+   {
+    "cnpj": "11125016000147",
+    "nome": "AUTO POSTO GILROMA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 163.99
+   },
+   {
+    "cnpj": "25975475000124",
+    "nome": "AUTO POSTO BONANZA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 152.62
+   },
+   {
+    "cnpj": "07830113000163",
+    "nome": "POSTO PARACATU LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 142.97
+   },
+   {
+    "cnpj": "20864330000132",
+    "nome": "POSTO VILA ESTACAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 100.01
+   },
+   {
+    "cnpj": "18727053000174",
+    "nome": "PAGAR.ME S.A.",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 44.7
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 4,
+   "total": 30598.33,
+   "por_tipo": {
+    "Despesas com pessoal": 11663.33,
+    "Despesas com transporte ou deslocamento": 10391.67,
+    "Diversas a especificar": 950.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 45.0,
+    "Serviços prestados por terceiros": 7548.33
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

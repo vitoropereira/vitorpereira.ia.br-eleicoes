@@ -1,0 +1,359 @@
+{
+ "sq": "50002538779",
+ "nome_urna": "JORGE SOLLA",
+ "cargo": "depfed",
+ "uf": "BA",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1957062.08,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 22225.0,
+   "Recursos de partido político": 1800000.0,
+   "Recursos de pessoas físicas": 134837.08
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1800000.0,
+   "OUTROS RECURSOS": 157062.08
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1800000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 22225.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 185,
+   "total": 134837.08
+  }
+ },
+ "despesas": {
+  "total_contratado": 1827904.78,
+  "total_pago": 1940518.86,
+  "fornecedores_pj": [
+   {
+    "cnpj": "05770290000176",
+    "nome": "GENSA - GRAFICA E EDITORA NOSSA SENHORA APARECIDA LTDA",
+    "cnae": "18229",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 82250.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "57139496000104",
+    "nome": "57.139.496 RAFAELA FERNANDO SILVA",
+    "cnae": "59120",
+    "n_despesas": 2,
+    "tipos": [
+     "Criação e inclusão de páginas na internet",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "60553261000160",
+    "nome": "LARA SOFIA ROCHA MENDES DA SILVA LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "61944514000190",
+    "nome": "BC EVENTOS E FESTAS LTDA",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 21900.0
+   },
+   {
+    "cnpj": "29614322000102",
+    "nome": "NEOMAR RODRIGUES DIAS FILHO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "04793679000174",
+    "nome": "LOGGER ACESSORIA, GESTAO EMPRESARIAL E LOCACOES LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 19200.0
+   },
+   {
+    "cnpj": "23162496000103",
+    "nome": "RHC PATRIMONIAL LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "14997688000130",
+    "nome": "INFORMATICA EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 12361.03
+   },
+   {
+    "cnpj": "68430819000122",
+    "nome": "LAURA CAROLINA SILVA DOS SANTOS",
+    "cnae": "94928",
+    "n_despesas": 3,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "68430532000100",
+    "nome": "YULO OITICICA PEREIRA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "07969541000171",
+    "nome": "PETROFLEX COMERCIO E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 8200.0
+   },
+   {
+    "cnpj": "17808680000177",
+    "nome": "ANTONIO VIANA LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "29140095000120",
+    "nome": "YURI DE G N B DE ALMEIDA COMUNICACAO DIGITAL",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "38256696000194",
+    "nome": "HEKO DIGITAL LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6250.0
+   },
+   {
+    "cnpj": "05918029000170",
+    "nome": "POSTO DE SERVICOS RIBEIRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6200.0
+   },
+   {
+    "cnpj": "46168997000194",
+    "nome": "YOUR GRAPHIC BRASIL SERVICOS GRAFICOS LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4200.0
+   },
+   {
+    "cnpj": "58750994000143",
+    "nome": "RAINBOW PRINT AGENCIA GRAFICA LTDA",
+    "cnae": "63194",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3050.0
+   },
+   {
+    "cnpj": "34028316794908",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 2552.88
+   },
+   {
+    "cnpj": "09029247000105",
+    "nome": "GOL GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2190.0
+   },
+   {
+    "cnpj": "62607456000171",
+    "nome": "62.607.456 CAUA ADLER FEITOSA SANTOS",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 1276.44
+   },
+   {
+    "cnpj": "27357528000179",
+    "nome": "SANDOVAL AUGUSTO ROCHA MASCARENHAS",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "17163909000163",
+    "nome": "ART COR COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 885.99
+   },
+   {
+    "cnpj": "07014198000705",
+    "nome": "ATACADAO DO PAPEL LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 642.55
+   },
+   {
+    "cnpj": "08434381000129",
+    "nome": "PLOTTAR - COMUNICACAO VISUAL E PUBLICIDADE LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 564.6
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 498.19
+   },
+   {
+    "cnpj": "59119203000144",
+    "nome": "ROTA PUBLICIDADE E SERVICOS DE ACABAMENTOS GRAFICOS LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 390.0
+   },
+   {
+    "cnpj": "47907007000155",
+    "nome": "JL COMERCIO DE PRESENTES E SERVICOS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "11979599000173",
+    "nome": "LEILA DAYANE DE ANDRADE CAMPOS DOS SANTOS",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 140.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 371,
+   "total": 1474953.1,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 10500.0,
+    "Despesas com pessoal": 1433229.5,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 223.6,
+    "Locação/cessão de bens imóveis": 29200.0,
+    "Produção de jingles, vinhetas e slogans": 1800.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

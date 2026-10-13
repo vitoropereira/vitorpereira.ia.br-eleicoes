@@ -1,0 +1,186 @@
+{
+ "sq": "270002544484",
+ "nome_urna": "VILMAR",
+ "cargo": "depest",
+ "uf": "TO",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 570256.12,
+  "por_origem": {
+   "Recursos de outros candidatos": 1070.92,
+   "Recursos de partido político": 502185.2,
+   "Recursos de pessoas físicas": 67000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 500000.0,
+   "FUNDO PARTIDARIO": 2185.2,
+   "OUTROS RECURSOS": 68070.92
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 500000.0
+   },
+   {
+    "cnpj": "08738595000199",
+    "nome": "Direção Estadual/Distrital - PL - TOCANTINS",
+    "total": 2185.2
+   },
+   {
+    "cnpj": "68492195000178",
+    "nome": "MARIA AUXILIADORA SEABRA REZENDE",
+    "total": 1070.92
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 67000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 247188.63,
+  "total_pago": 15300.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "11547309000112",
+    "nome": "SOLANO DONATO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "17435939000181",
+    "nome": "CARLOS JOSE DA SILVA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "49121815000118",
+    "nome": "PIXEL ASSESSORIA CONSULTORIA E MARKETING LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "15428275000106",
+    "nome": "15.428.275 VICTOR LIMA AL KHOURY",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "26749191000182",
+    "nome": "AMILTON OLIVEIRA - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "08835836000118",
+    "nome": "SANTOS IND. E COM. DE CONFECCOES - LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6300.0
+   },
+   {
+    "cnpj": "25298246000112",
+    "nome": "FERREIRA NETO COMERCIO VAREJISTA DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5111.54
+   },
+   {
+    "cnpj": "15388714000196",
+    "nome": "LUKY MARKETING E PUBLICIDADE LTDA",
+    "cnae": "68218",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3839.75
+   },
+   {
+    "cnpj": "11369757000173",
+    "nome": "COMERCIO DE COMBUSTIVEIS TOCANTINS DE COLMEIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1919.35
+   },
+   {
+    "cnpj": "36403464000196",
+    "nome": "PALMAS SERVICOS DE FEIRAS E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "40310467000152",
+    "nome": "T M FERREIRA LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 250.0
+   },
+   {
+    "cnpj": "44579656000186",
+    "nome": "AL DISTRIBUIDORA LTDA",
+    "cnae": "46478",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 167.49
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 47,
+   "total": 58800.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 7800.0,
+    "Cessão ou locação de veículos": 16000.0,
+    "Despesas com pessoal": 31500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5,
+    "Locação/cessão de bens imóveis": 2500.0,
+    "Produção de jingles, vinhetas e slogans": 1000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

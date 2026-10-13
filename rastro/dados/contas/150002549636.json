@@ -1,0 +1,374 @@
+{
+ "sq": "150002549636",
+ "nome_urna": "AGUINALDO RIBEIRO",
+ "cargo": "depfed",
+ "uf": "PB",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1650000.0,
+  "por_origem": {
+   "Recursos de partido político": 1590000.0,
+   "Recursos de pessoas físicas": 60000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1590000.0,
+   "OUTROS RECURSOS": 60000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 1590000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 60000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1258964.3,
+  "total_pago": 1015743.21,
+  "fornecedores_pj": [
+   {
+    "cnpj": "20072544000176",
+    "nome": "MAIS GRAFICA E SERVICOS LTDA",
+    "cnae": "18211",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 99060.0
+   },
+   {
+    "cnpj": "07796243000127",
+    "nome": "PLASTFORT- INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
+    "cnae": "22226",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 69004.22
+   },
+   {
+    "cnpj": "37735608000174",
+    "nome": "ZAPIER GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 12,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 67230.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 65000.0
+   },
+   {
+    "cnpj": "49082848000104",
+    "nome": "SOUZA XAVIER PRODUTORA TAKES AUDIOVISUAL LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 55400.0
+   },
+   {
+    "cnpj": "01435911000104",
+    "nome": "LAMUNIER VEICULOS LTDA",
+    "cnae": "45111",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "24747532000155",
+    "nome": "FRANCISCO FIDELIS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "53310870000123",
+    "nome": "ECONT CONSULTORIA E ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "02401445000109",
+    "nome": "O L LOCACAO E INCORPORACAO LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 35500.0
+   },
+   {
+    "cnpj": "48563071000129",
+    "nome": "SP AVIACAO TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 33600.0
+   },
+   {
+    "cnpj": "30960047000168",
+    "nome": "MASAO YOGI JUNIOR",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "08566846000103",
+    "nome": "CONSTRUTORA HEMA LTDA",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "68655137000118",
+    "nome": "EASY LOCACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "67289168000130",
+    "nome": "IMAGINARI CENOGRAFIA E COMUNICACAO VISUAL LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19000.0
+   },
+   {
+    "cnpj": "13386661000149",
+    "nome": "AVATAR PRESTADORA DE SERVICOS LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "25342097000141",
+    "nome": "ANA LETICIA DANTAS DE CARVALHO",
+    "cnae": "74102",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 12500.0
+   },
+   {
+    "cnpj": "41274492000190",
+    "nome": "HERCULES DUTRA SANTOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 6,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 11270.0
+   },
+   {
+    "cnpj": "24915493000158",
+    "nome": "24.915.493 RAFAEL RAMIRES QUEIROZ",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "38713634000164",
+    "nome": "MJPM PRODUCOES AUDIOVISUAL LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "84010040000708",
+    "nome": "PIONEIRO COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9312.6
+   },
+   {
+    "cnpj": "49138745000100",
+    "nome": "49.138.745 RENATA MATOS DO O RAFFANI",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "38485856000177",
+    "nome": "38.485.856 GEORGE JOSE XAVIER CABRAL FILHO",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "52878051000114",
+    "nome": "LAUREN - GESTAO, PRODUCAO E CULTURA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "40980690000107",
+    "nome": "DIVAILDO BARTOLOMEU DE LIMA JUNIOR CIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 4375.0
+   },
+   {
+    "cnpj": "52665788000159",
+    "nome": "ATUAL BUREAU DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2340.0
+   },
+   {
+    "cnpj": "09307232000161",
+    "nome": "POSTO DE COMBUSTIVEL SHOPPING LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2287.49
+   },
+   {
+    "cnpj": "31519910000109",
+    "nome": "EXPRESSAO TAMBAU COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2176.21
+   },
+   {
+    "cnpj": "20300157008043",
+    "nome": "NOVO ATACADO COMERCIO DE ALIMENTOS SA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 936.0
+   },
+   {
+    "cnpj": "68394862000180",
+    "nome": "68.394.862 JONATA GABRIEL TEIXEIRA MARCELINO",
+    "cnae": "95118",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "13653463000102",
+    "nome": "NEOPRINT GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 320.0
+   },
+   {
+    "cnpj": "11287886000112",
+    "nome": "GM COMERCIO DE PRODUTOS DE HIGIENIZACAO PROFISSIONAL LTDA",
+    "cnae": "46494",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 89.1
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 66,
+   "total": 431463.68,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 133420.0,
+    "Despesas com pessoal": 85985.18,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 58.5,
+    "Publicidade por carros de som": 205000.0,
+    "Serviços próprios prestados por terceiros": 7000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

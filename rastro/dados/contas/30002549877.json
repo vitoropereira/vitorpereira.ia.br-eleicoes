@@ -1,0 +1,63 @@
+{
+ "sq": "30002549877",
+ "nome_urna": "JAIME PEREZ",
+ "cargo": "depest",
+ "uf": "AP",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 40001.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 20000.0,
+   "Recursos próprios": 20001.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 40001.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 40001.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 30400.0,
+  "total_pago": 40000.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "12238090000132",
+    "nome": "M.D. PRESTADORA DE SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17400.0
+   },
+   {
+    "cnpj": "67081439000167",
+    "nome": "EV DIGITAL LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 3000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 10000.0,
+   "por_tipo": {
+    "Serviços advocatícios": 5000.0,
+    "Serviços contábeis": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

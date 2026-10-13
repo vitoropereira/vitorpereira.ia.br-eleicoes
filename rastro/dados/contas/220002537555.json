@@ -1,0 +1,462 @@
+{
+ "sq": "220002537555",
+ "nome_urna": "LUIZINHO GOEBEL",
+ "cargo": "depest",
+ "uf": "RO",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1151824.99,
+  "por_origem": {
+   "Recursos de outros candidatos": 9275.0,
+   "Recursos de partido político": 899999.99,
+   "Recursos de pessoas físicas": 217550.0,
+   "Recursos próprios": 25000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 899999.99,
+   "OUTROS RECURSOS": 251825.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 899999.99
+   },
+   {
+    "cnpj": "68438235000101",
+    "nome": "BRUNO SCHEID",
+    "total": 9275.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 41,
+   "total": 242550.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 865653.44,
+  "total_pago": 1055201.78,
+  "fornecedores_pj": [
+   {
+    "cnpj": "37481441000162",
+    "nome": "RESERVA LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 7,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 55852.46
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 9,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 54120.0
+   },
+   {
+    "cnpj": "15340752000179",
+    "nome": "SCHRAMM ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "30179146000107",
+    "nome": "J. D ALVES GRAFICA INFINITY LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 41280.0
+   },
+   {
+    "cnpj": "33032373000101",
+    "nome": "ANA PAULA APARECIDA GIROLOMETTO",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "22840706000447",
+    "nome": "AUTO POSTO CATARINENSE LTDA",
+    "cnae": "47318",
+    "n_despesas": 45,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 13111.91
+   },
+   {
+    "cnpj": "34770685000177",
+    "nome": "IRMAOS RUSSI LTDA",
+    "cnae": "47318",
+    "n_despesas": 33,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 12779.03
+   },
+   {
+    "cnpj": "06864931000114",
+    "nome": "AUTO POSTO CONE SUL LTDA",
+    "cnae": "47318",
+    "n_despesas": 48,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6565.75
+   },
+   {
+    "cnpj": "14655103000102",
+    "nome": "MULTIGRAFICA SERVICOS GRAFICOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6415.0
+   },
+   {
+    "cnpj": "34997066000110",
+    "nome": "GAMA INCORPORACAO DE EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "12398013000140",
+    "nome": "VILHENA SERVICOS COMERCIO E TRANSPORTES LTDA",
+    "cnae": "49248",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "04707821000202",
+    "nome": "SOJA - COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 12,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3952.0
+   },
+   {
+    "cnpj": "23768026000180",
+    "nome": "VIZON HOTELARIA E LOCADORA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3900.0
+   },
+   {
+    "cnpj": "37020868000163",
+    "nome": "STRIKE, SOM, LUZ E LED LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "63745558000116",
+    "nome": "AUTO POSTO MATAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 17,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2866.28
+   },
+   {
+    "cnpj": "08593602000101",
+    "nome": "AUTO POSTO FRARE LTDA",
+    "cnae": "47318",
+    "n_despesas": 19,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2807.42
+   },
+   {
+    "cnpj": "02714223000146",
+    "nome": "AUTO POSTO RIBEIRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 8,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2223.05
+   },
+   {
+    "cnpj": "38299385000102",
+    "nome": "COMERCIO DE COMBUSTIVEIS ALTO ALEGRE LTDA",
+    "cnae": "47318",
+    "n_despesas": 12,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2097.58
+   },
+   {
+    "cnpj": "07925231000155",
+    "nome": "AUTO POSTO 21 LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2078.22
+   },
+   {
+    "cnpj": "62092162000154",
+    "nome": "J. AIMI INDUSTRIA DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "09018816000206",
+    "nome": "PERNAMBUCO - COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 11,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1681.19
+   },
+   {
+    "cnpj": "05914650000166",
+    "nome": "ENERGISA RONDONIA - DISTRIBUIDORA DE ENERGIA S.A",
+    "cnae": "35140",
+    "n_despesas": 1,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 1652.97
+   },
+   {
+    "cnpj": "13147750000132",
+    "nome": "AUTO POSTO FOX LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1519.03
+   },
+   {
+    "cnpj": "10321821000183",
+    "nome": "YUNE NET TELECOMUNICACOES LTDA",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 1499.7
+   },
+   {
+    "cnpj": "08624321000179",
+    "nome": "A V COMERCIO VAREJISTA DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1370.49
+   },
+   {
+    "cnpj": "01060256000157",
+    "nome": "L.H.C COMERCIO E SERVICOS LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1350.0
+   },
+   {
+    "cnpj": "22840706000102",
+    "nome": "AUTO POSTO CATARINENSE LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1113.25
+   },
+   {
+    "cnpj": "09271603000283",
+    "nome": "BEM COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 8,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1000.79
+   },
+   {
+    "cnpj": "07193395000135",
+    "nome": "AUTO POSTO OURO VERDE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 744.0
+   },
+   {
+    "cnpj": "13400308000176",
+    "nome": "IMPORTADORA E EXPORTADORA ESTEVAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 557.74
+   },
+   {
+    "cnpj": "08290508000183",
+    "nome": "VICENTE LEAO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 472.5
+   },
+   {
+    "cnpj": "05593306000112",
+    "nome": "AUTO POSTO JOWAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 449.4
+   },
+   {
+    "cnpj": "05893935000168",
+    "nome": "RT COMERCIO SERVICOS E TRANSPORTE DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 423.0
+   },
+   {
+    "cnpj": "20080454000127",
+    "nome": "AUTO POSTO ALTERNATIVO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 343.77
+   },
+   {
+    "cnpj": "01282343000159",
+    "nome": "C C I COMERCIO DE COMBUSTIVEIS ITAPORANGA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 342.0
+   },
+   {
+    "cnpj": "07611248000138",
+    "nome": "BALDIN SANTOS COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 339.43
+   },
+   {
+    "cnpj": "03857464000107",
+    "nome": "MEGAPEL COMERCIO E DISTRIBUICAO LTDA",
+    "cnae": "46478",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 326.8
+   },
+   {
+    "cnpj": "07928956000105",
+    "nome": "AUTO POSTO PATRAO ARIQUEMES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 290.03
+   },
+   {
+    "cnpj": "08293360000130",
+    "nome": "AUTO POSTO G10 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 260.85
+   },
+   {
+    "cnpj": "84598382000197",
+    "nome": "NEXUS INFORMATICA LTDA",
+    "cnae": "47512",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes",
+     "Materiais de expediente"
+    ],
+    "total": 173.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 181,
+   "total": 553194.8,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 393461.0,
+    "Cessão ou locação de veículos": 61600.0,
+    "Despesas com pessoal": 66000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 333.8,
+    "Locação/cessão de bens imóveis": 4800.0,
+    "Publicidade por carros de som": 27000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

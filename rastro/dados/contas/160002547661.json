@@ -1,0 +1,745 @@
+{
+ "sq": "160002547661",
+ "nome_urna": "DELTAN DALLAGNOL",
+ "cargo": "senador",
+ "uf": "PR",
+ "partido": "NOVO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 4058102.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 166790.0,
+   "Recursos de partido político": 2907420.0,
+   "Recursos de pessoas físicas": 553892.0,
+   "Recursos próprios": 430000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 300000.0,
+   "FUNDO PARTIDARIO": 2107420.0,
+   "OUTROS RECURSOS": 1650682.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13405866000124",
+    "nome": "Direção Nacional - NOVO",
+    "total": 2400000.0
+   },
+   {
+    "cnpj": "26398527000100",
+    "nome": "Direção Estadual/Distrital - NOVO - PARANÁ",
+    "total": 507420.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 166790.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 22,
+   "total": 983892.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 3275904.57,
+  "total_pago": 2204114.07,
+  "fornecedores_pj": [
+   {
+    "cnpj": "21246199000102",
+    "nome": "LEANDRO ROSA ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 1100000.0
+   },
+   {
+    "cnpj": "05145815000182",
+    "nome": "ARTE LUX PRODUCOES CINEMATOGRAFICAS LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 500000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 15,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 490000.0
+   },
+   {
+    "cnpj": "67502405000107",
+    "nome": "CLIO MARKETING POLITICO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 400000.0
+   },
+   {
+    "cnpj": "45110969000153",
+    "nome": "OVERCOME COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 122142.86
+   },
+   {
+    "cnpj": "53787086000100",
+    "nome": "DENIZARD NASCIMENTO CONSULTORIA E ASSESSORIA LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "43624926000160",
+    "nome": "AGENCIA MEST LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 60869.56
+   },
+   {
+    "cnpj": "74046731000104",
+    "nome": "TAXI AEREO HERCULES LTDA.",
+    "cnae": "51129",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 44613.33
+   },
+   {
+    "cnpj": "85057529000102",
+    "nome": "HELLOGRAF ARTES GRAFICAS LTDA",
+    "cnae": "18113",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 35411.7
+   },
+   {
+    "cnpj": "47456312000178",
+    "nome": "PS CONTABILIDADE ELEITORAL E CONSULTORIA ESPECIALIZADA LTDA.",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "41371868000185",
+    "nome": "HUMANO DIGITAL DESENVOLVIMENTO PROFISSIONAL LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 33500.0
+   },
+   {
+    "cnpj": "17746811000139",
+    "nome": "SOUNDVIEW TECNOLOGIA LIMITADA",
+    "cnae": "62040",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 32656.25
+   },
+   {
+    "cnpj": "63493234000138",
+    "nome": "ANA JULIA PEREIRA RUSSI",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 28571.43
+   },
+   {
+    "cnpj": "42383367000181",
+    "nome": "42.383.367 LUIZ FELIPE GONCALVES BARBOZA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "52830522000114",
+    "nome": "KELLI KADANUS AGENCIA DE PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 21875.0
+   },
+   {
+    "cnpj": "61250867000190",
+    "nome": "LUMBERJACKS BARBER SHOP COWORKING LTDA",
+    "cnae": "96025",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "25188538000100",
+    "nome": "ESSENT INOVACAO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "64862608000108",
+    "nome": "64.862.608 AMAURI DO AMARAL BERNARDES JUNIOR",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "30107367000170",
+    "nome": "FDUBA DESIGN LTDA",
+    "cnae": "74102",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 13877.55
+   },
+   {
+    "cnpj": "62275537000111",
+    "nome": "62.275.537 ALEX FUQUINI DOS SANTOS",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 12395.83
+   },
+   {
+    "cnpj": "85490746000183",
+    "nome": "REFERENCIA LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12055.75
+   },
+   {
+    "cnpj": "34498651000175",
+    "nome": "HM DIVULGACOES LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 11925.0
+   },
+   {
+    "cnpj": "49635057000156",
+    "nome": "49.635.057 ARTHUR JUAN FRANCA WILGES",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10800.0
+   },
+   {
+    "cnpj": "46892548000194",
+    "nome": "SOLVE BRANDING LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 8802.08
+   },
+   {
+    "cnpj": "52135619000107",
+    "nome": "LMM SERVICOS ADMINISTRATIVOS LTDA",
+    "cnae": "82199",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4157.85
+   },
+   {
+    "cnpj": "21367972000199",
+    "nome": "GUSTAVO PEREIRA SGUISSARDI",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3890.0
+   },
+   {
+    "cnpj": "55214691000118",
+    "nome": "NSC AGENCIA DE MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "62282216000144",
+    "nome": "62.282.216 MELISSA KAMILLY BRAZ MENDES",
+    "cnae": "74200",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "57384322000107",
+    "nome": "57.384.322 TALES TABELINI SANTOS",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2916.66
+   },
+   {
+    "cnpj": "52927367000159",
+    "nome": "52.927.367 IVANILDO FRANCISCO DOS SANTOS TERCEIRO",
+    "cnae": "58131",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2708.33
+   },
+   {
+    "cnpj": "10289458000166",
+    "nome": "IDEOPROMO LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 2618.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 2445.79
+   },
+   {
+    "cnpj": "12423428000126",
+    "nome": "DUO PROMO ACOES PROMOCIONAIS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "40721040000147",
+    "nome": "GIHAN MAJZOUB CENTRO DE BELEZA LTDA",
+    "cnae": "96025",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "05280083000133",
+    "nome": "CAMISETAS CURITIBA LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1448.0
+   },
+   {
+    "cnpj": "23439563000186",
+    "nome": "CRTCOM INDUSTRIA VISUAL LTDA",
+    "cnae": "18211",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1439.24
+   },
+   {
+    "cnpj": "63979928000180",
+    "nome": "63.979.928 PEDRO NATAN ROAS DE LIMA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1323.64
+   },
+   {
+    "cnpj": "10571343000160",
+    "nome": "RMZ FUKAMI COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1222.74
+   },
+   {
+    "cnpj": "22092207000176",
+    "nome": "PICTORIAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1135.04
+   },
+   {
+    "cnpj": "35744086000141",
+    "nome": "PLUS B2B LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1090.0
+   },
+   {
+    "cnpj": "35307712000132",
+    "nome": "FRAGMENTOS FILMES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1050.0
+   },
+   {
+    "cnpj": "58976977000129",
+    "nome": "58.976.977 TULIO FEROLLA DURSO NETTO",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "57208791000167",
+    "nome": "MANEI STUDIOS LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 899.0
+   },
+   {
+    "cnpj": "18354249000160",
+    "nome": "AUDIO PLUS SOM E ILUMINACAO LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 720.0
+   },
+   {
+    "cnpj": "05379113000163",
+    "nome": "CATEDRAL COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 699.9
+   },
+   {
+    "cnpj": "42674735000140",
+    "nome": "APTEK AUDIOVISUAL LTDA",
+    "cnae": "62091",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 660.0
+   },
+   {
+    "cnpj": "04642602000365",
+    "nome": "BRINCADEIRAS DE PAPEL - PAPELARIA E PRESENTES LTDA",
+    "cnae": "47610",
+    "n_despesas": 9,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 613.9
+   },
+   {
+    "cnpj": "33090933000176",
+    "nome": "ARMANDO GUERRA FILHOS CONFEITARIA LTDA",
+    "cnae": "10961",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 609.0
+   },
+   {
+    "cnpj": "49329375000199",
+    "nome": "FAMILIA FERRALLY COMERCIO DE EMBALAGENS LTDA",
+    "cnae": "46869",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 422.78
+   },
+   {
+    "cnpj": "97361505000113",
+    "nome": "COMERCIO DE EMBALAGENS DE PAULA LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 349.0
+   },
+   {
+    "cnpj": "03309863000133",
+    "nome": "AUTO POSTO DO PAO DE QUEIJO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 341.47
+   },
+   {
+    "cnpj": "12132199000190",
+    "nome": "RODOLUZ COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 337.6
+   },
+   {
+    "cnpj": "35864819000181",
+    "nome": "EPS TRAVEL E CONCIERGE BRASIL LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 312.51
+   },
+   {
+    "cnpj": "78116670004586",
+    "nome": "CIA BEAL DE ALIMENTOS",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 227.94
+   },
+   {
+    "cnpj": "57313639000144",
+    "nome": "57.313.639 DANILO PIRES DO NASCIMENTO",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 218.64
+   },
+   {
+    "cnpj": "43177567000140",
+    "nome": "PETROLEO E DERIVADOS TUPINAMBA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 215.52
+   },
+   {
+    "cnpj": "68363804000199",
+    "nome": "BANDEPAR BANDEIRAS LTDA",
+    "cnae": "13596",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 188.0
+   },
+   {
+    "cnpj": "09505713000181",
+    "nome": "PESCAROLO E PESCAROLO BEBIDAS LTDA",
+    "cnae": "47237",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 152.0
+   },
+   {
+    "cnpj": "05206994000110",
+    "nome": "ANTONIO MOREIRA GONCALVES",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 99.0
+   },
+   {
+    "cnpj": "26984946000123",
+    "nome": "SELF COMERCIO DE ELETRONICOS E BRINQUEDOS LTDA",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 79.8
+   },
+   {
+    "cnpj": "11625471000101",
+    "nome": "SETE FESTAS LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 43.8
+   },
+   {
+    "cnpj": "79065181002561",
+    "nome": "DISTRIBUIDORA CURITIBA DE PAPEIS E LIVROS S/A",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 31.0
+   },
+   {
+    "cnpj": "08250287000110",
+    "nome": "ARMARINHOS SAO MIGUEL LTDA",
+    "cnae": "47555",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 29.9
+   },
+   {
+    "cnpj": "21956769000158",
+    "nome": "LIMAO E MEL COMERCIO DE HORTIFRUTIGRANJEIROS LTDA",
+    "cnae": "47245",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 28.48
+   },
+   {
+    "cnpj": "81713836000135",
+    "nome": "GRAFICA EXPRESS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 27.0
+   },
+   {
+    "cnpj": "06057223047488",
+    "nome": "SENDAS DISTRIBUIDORA S/A",
+    "cnae": "47113",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 26.44
+   },
+   {
+    "cnpj": "14205658000144",
+    "nome": "MIRAI - COMERCIO DE UTILIDADES LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 15.0
+   },
+   {
+    "cnpj": "09528921000104",
+    "nome": "BM DISTRIBUIDORA DE AGUA MINERAL LTDA",
+    "cnae": "47849",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 5.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 11,
+   "total": 104610.26,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 8100.0,
+    "Despesas com pessoal": 96471.8,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 38.46
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

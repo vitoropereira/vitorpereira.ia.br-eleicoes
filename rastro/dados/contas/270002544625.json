@@ -1,0 +1,298 @@
+{
+ "sq": "270002544625",
+ "nome_urna": "LUCIANO OLIVEIRA",
+ "cargo": "depest",
+ "uf": "TO",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 582216.35,
+  "por_origem": {
+   "Recursos de partido político": 4816.35,
+   "Recursos de pessoas físicas": 430400.0,
+   "Recursos próprios": 147000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 582216.35
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08738595000199",
+    "nome": "Direção Estadual/Distrital - PL - TOCANTINS",
+    "total": 4816.35
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 20,
+   "total": 577400.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 430952.51,
+  "total_pago": 496713.71,
+  "fornecedores_pj": [
+   {
+    "cnpj": "24906480000112",
+    "nome": "LAMPION AGENCIA DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "11979388000130",
+    "nome": "K S DE SOUSA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "07119531000147",
+    "nome": "AVANTHI SOLUCOES EM CONTABILIDADE PUBLICA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "12431048000133",
+    "nome": "MARCICLEA VIEIRA DA SILVA LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14984.1
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 14500.0
+   },
+   {
+    "cnpj": "10341110000170",
+    "nome": "EVERARDO RABELO BARROS",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "30206280000150",
+    "nome": "AUTO POSTO GUERRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9757.4
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "31158948000101",
+    "nome": "J P PEREIRA BIZARRIA LTDA",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7430.0
+   },
+   {
+    "cnpj": "15720302000101",
+    "nome": "CORES EM PAPEL INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6720.5
+   },
+   {
+    "cnpj": "64943371000190",
+    "nome": "ALFHA LOCACOES E LOGISTICA PARA EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 6500.0
+   },
+   {
+    "cnpj": "97535555000170",
+    "nome": "JP EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "24188975000153",
+    "nome": "SUPREMA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5100.0
+   },
+   {
+    "cnpj": "32839947000187",
+    "nome": "PORTA NOVA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3775.0
+   },
+   {
+    "cnpj": "10546659000100",
+    "nome": "J F DE ARAUJO",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3593.0
+   },
+   {
+    "cnpj": "33562638000175",
+    "nome": "AUTO POSTO SANTA TEREZINHA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3199.31
+   },
+   {
+    "cnpj": "00798638000110",
+    "nome": "AGUA SANTA CLARA IND. E COM. DE BEBIDAS LTDA",
+    "cnae": "11216",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2550.0
+   },
+   {
+    "cnpj": "07727594000186",
+    "nome": "NATALYA BRINDES LTDA",
+    "cnae": "14126",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2390.0
+   },
+   {
+    "cnpj": "09010776000248",
+    "nome": "ARAGUAIA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "11604145000118",
+    "nome": "VERA E BORGES LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "20268542000157",
+    "nome": "LUCIA DE FATIMA SOUSA LIMA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "25259472000194",
+    "nome": "25.259.472 ELENILDA PORTELA MESSIAS MARTINS",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 916.0
+   },
+   {
+    "cnpj": "22645440000139",
+    "nome": "P1 EVENTOS LOCACAO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "51746087000181",
+    "nome": "51.746.087 RODRIGO DE ALMEIDA CAMBRAIA",
+    "cnae": "13529",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 265.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 97,
+   "total": 165272.2,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 69000.0,
+    "Cessão ou locação de veículos": 46000.0,
+    "Despesas com pessoal": 45221.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 151.2,
+    "Locação/cessão de bens imóveis": 3000.0,
+    "Publicidade por carros de som": 1900.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

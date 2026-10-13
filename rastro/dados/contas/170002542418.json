@@ -1,0 +1,162 @@
+{
+ "sq": "170002542418",
+ "nome_urna": "SILENO",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 376374.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 100000.0,
+   "Recursos de partido político": 129374.0,
+   "Recursos de pessoas físicas": 112000.0,
+   "Recursos próprios": 35000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 169374.0,
+   "OUTROS RECURSOS": 207000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68456170000119",
+    "nome": "FELIPE AUGUSTO LYRA CARRERAS",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "10669331000172",
+    "nome": "Direção Estadual/Distrital - PSB - PERNAMBUCO",
+    "total": 29374.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 147000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 295760.0,
+  "total_pago": 115900.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "00758606000190",
+    "nome": "MXM GRAFICA E EMBALAGENS LTDA",
+    "cnae": "17311",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 53500.0
+   },
+   {
+    "cnpj": "31834222000133",
+    "nome": "GCH2 ADMINISTRADORA E GESTORA DE BENS IMOVEIS LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "12327355000179",
+    "nome": "J E LOCACAO E PRODUCAO DE EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 9600.0
+   },
+   {
+    "cnpj": "18938887000129",
+    "nome": "MOBIBRASIL PERNAMBUCO LTDA",
+    "cnae": "49213",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 6500.0
+   },
+   {
+    "cnpj": "03892344000140",
+    "nome": "MALHARIA ATLANTICO LTDA",
+    "cnae": "14126",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5220.0
+   },
+   {
+    "cnpj": "54970013000112",
+    "nome": "BURLE LOBO GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2950.0
+   },
+   {
+    "cnpj": "16417246000101",
+    "nome": "FOCO SOLUCOES AMBIENTAIS E SERVICOS LTDA",
+    "cnae": "37029",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "12480722000170",
+    "nome": "RONALDO RODRIGUES DE BARROS COMUNICACAO VISUAL",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1750.0
+   },
+   {
+    "cnpj": "24724867000158",
+    "nome": "MONTE TOLDOS LOCACOES LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 800.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 87,
+   "total": 196040.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 196040.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

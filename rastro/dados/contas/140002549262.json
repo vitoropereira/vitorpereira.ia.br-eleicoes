@@ -1,0 +1,396 @@
+{
+ "sq": "140002549262",
+ "nome_urna": "LANUZIA CUNHA",
+ "cargo": "depest",
+ "uf": "PA",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1097500.0,
+  "por_origem": {
+   "Recursos de partido político": 300000.0,
+   "Recursos de pessoas físicas": 797500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 300000.0,
+   "OUTROS RECURSOS": 797500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 300000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 16,
+   "total": 797500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 683107.59,
+  "total_pago": 342548.81,
+  "fornecedores_pj": [
+   {
+    "cnpj": "26014967000116",
+    "nome": "WLLISSES DE CASTRO JORGE",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "55315232000120",
+    "nome": "F M DE MOURA COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23047.2
+   },
+   {
+    "cnpj": "07151812000187",
+    "nome": "L C SERVICOS E LOCACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 7,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 21300.0
+   },
+   {
+    "cnpj": "63202866000103",
+    "nome": "63.202.866 ELIANA MORAIS QUEIROZ",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "26734678000434",
+    "nome": "J. M. SERVICOS E COMERCIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 25,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 12668.75
+   },
+   {
+    "cnpj": "12934015000106",
+    "nome": "BIANCA S SOUSA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 9010.0
+   },
+   {
+    "cnpj": "04536247000188",
+    "nome": "LOJA MACONICA PIONEIRA DA TRANSAMAZONICA N 44",
+    "cnae": "94308",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 7950.0
+   },
+   {
+    "cnpj": "12591019000139",
+    "nome": "R DA S COSTA E MENDONCA COMERCIO DE TECIDOS LTDA",
+    "cnae": "47555",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 7886.0
+   },
+   {
+    "cnpj": "43575358000155",
+    "nome": "43.575.358 JOSE BONIFACIO PEREIRA NETO",
+    "cnae": "43223",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 6400.0
+   },
+   {
+    "cnpj": "14840679000212",
+    "nome": "C C DAIBES PINHEIRO LTDA",
+    "cnae": "46354",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 4351.0
+   },
+   {
+    "cnpj": "34613273000123",
+    "nome": "DACAR SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3700.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "60280945000136",
+    "nome": "60.280.945 VALDEANE MARQUES LIMA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "51621955000105",
+    "nome": "I C COMERCIO DE PRODUTOS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2895.0
+   },
+   {
+    "cnpj": "07984683000108",
+    "nome": "R E ROCHA COMERCIO E SERVICOS LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 2820.5
+   },
+   {
+    "cnpj": "58113154000170",
+    "nome": "H P JARDIM CONFECCAO",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2786.0
+   },
+   {
+    "cnpj": "52906775000124",
+    "nome": "52.906.775 ISMAEL COELHO DE OLIVEIRA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2200.0
+   },
+   {
+    "cnpj": "60385862000101",
+    "nome": "P G DE C MAIA ALIMENTACAO",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2120.0
+   },
+   {
+    "cnpj": "24965277000117",
+    "nome": "24.965.277 JOSELIA PEREIRA DOS SANTOS",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "27584009000143",
+    "nome": "MARABA GELO LTDA",
+    "cnae": "10996",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "29171036000110",
+    "nome": "29.171.036 AMANDA JULIA ROSA DIAS RODRIGUES",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "75315333020053",
+    "nome": "ATACADAO S.A.",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 1689.6
+   },
+   {
+    "cnpj": "03995515005398",
+    "nome": "MATEUS SUPERMERCADOS S.A.",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 1646.4
+   },
+   {
+    "cnpj": "35232548000141",
+    "nome": "SYSTEM NOVAS SOLUCOES LTDA",
+    "cnae": "43223",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "04806280000180",
+    "nome": "L Z BARACHO COMERCIO LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1280.0
+   },
+   {
+    "cnpj": "47879810000123",
+    "nome": "T. C. DOS S. DE DEUS IMPRESSOES GRAFICAS",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "56138222000120",
+    "nome": "AUTO POSTO BR 230 LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 923.56
+   },
+   {
+    "cnpj": "36355818000174",
+    "nome": "36.355.818 FABIO PEREIRA DA SILVA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "22956171000121",
+    "nome": "A M LIBERATO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 745.0
+   },
+   {
+    "cnpj": "67821436000112",
+    "nome": "67.821.436 CARLOS VINICIUS ALVES BORGES",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "13695931000101",
+    "nome": "JAILSON DOS SANTOS VARELA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "51010292000346",
+    "nome": "NORTE SUL DISTRIBUIDORA DE EMBALAGENS, MAQUINAS E EQUIPAMENTOS LTDA",
+    "cnae": "46656",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 346.5
+   },
+   {
+    "cnpj": "15754475000140",
+    "nome": "HOSTGATOR BRASIL LTDA.",
+    "cnae": "63119",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 107.58
+   },
+   {
+    "cnpj": "10243350000132",
+    "nome": "EDUARDO MENDES DE QUEIROZ CIA LTDA",
+    "cnae": "95291",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 96.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 246,
+   "total": 509838.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 309000.0,
+    "Cessão ou locação de veículos": 44900.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 38.5,
+    "Publicidade por carros de som": 32000.0,
+    "Serviços advocatícios": 30000.0,
+    "Serviços contábeis": 3000.0,
+    "Serviços prestados por terceiros": 49700.0,
+    "Serviços próprios prestados por terceiros": 41200.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

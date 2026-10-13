@@ -1,0 +1,141 @@
+{
+ "sq": "170002535176",
+ "nome_urna": "FABRIZIO FERRAZ",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 342642.0,
+  "por_origem": {
+   "Recursos de partido político": 330000.0,
+   "Recursos próprios": 12642.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 330000.0,
+   "OUTROS RECURSOS": 12642.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 330000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 12642.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 209949.5,
+  "total_pago": 259295.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "66035431000100",
+    "nome": "OPINIAO PESQUISAS QUANTITATIVAS LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 33000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "11038639000182",
+    "nome": "CONECTE SOLUCOES CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "40782902000141",
+    "nome": "B A M COMERCO DE ARTIGOS DO VESTUARIO LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "33586326000100",
+    "nome": "ATIVA SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 13500.0
+   },
+   {
+    "cnpj": "34507307000103",
+    "nome": "ELO TEXTIL NE LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13200.0
+   },
+   {
+    "cnpj": "22198794000182",
+    "nome": "ANDRE CAVALCANTE FALABELLA LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "00758606000190",
+    "nome": "MXM GRAFICA E EMBALAGENS LTDA",
+    "cnae": "17311",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9600.0
+   },
+   {
+    "cnpj": "10220390000169",
+    "nome": "CORNELIO FERRAZ INDUSTRIA E COMERCIO LTDA",
+    "cnae": "58298",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1146.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 5,
+   "total": 52503.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.5,
+    "Locação/cessão de bens imóveis": 3500.0,
+    "Serviços advocatícios": 13000.0,
+    "Serviços prestados por terceiros": 36000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

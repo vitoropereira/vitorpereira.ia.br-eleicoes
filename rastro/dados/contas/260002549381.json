@@ -1,0 +1,119 @@
+{
+ "sq": "260002549381",
+ "nome_urna": "PATO MARAVILHA",
+ "cargo": "depest",
+ "uf": "SE",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 598424.79,
+  "por_origem": {
+   "Recursos de outros candidatos": 360.0,
+   "Recursos de partido político": 598064.79
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 598064.79,
+   "OUTROS RECURSOS": 360.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 598064.79
+   },
+   {
+    "cnpj": "68519465000197",
+    "nome": "MARCIO COSTA MACEDO",
+    "total": 360.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 185200.0,
+  "total_pago": 112110.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13007646000142",
+    "nome": "GRAFICA EDITORA J ANDRADE LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 34820.0
+   },
+   {
+    "cnpj": "12575826000168",
+    "nome": "ALCANTARA CONTABILIDADE E DESENVOLVIMENTO PROFISSIONAL LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "23448661000180",
+    "nome": "MELO, NOVAES SOBRAL ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "14970182000138",
+    "nome": "GUILHERME VIAGENS E TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "14881040000102",
+    "nome": "MARIA DAYSE BOMFIM BATISTA DE SANTANA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5900.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 29,
+   "total": 54480.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 39820.0,
+    "Despesas com pessoal": 11500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 10.0,
+    "Eventos de promoção da candidatura": 1150.0,
+    "Locação/cessão de bens imóveis": 2000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

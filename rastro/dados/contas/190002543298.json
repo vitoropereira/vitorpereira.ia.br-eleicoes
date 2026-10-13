@@ -1,0 +1,127 @@
+{
+ "sq": "190002543298",
+ "nome_urna": "MARINA DO MST",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1251003.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 20493.0,
+   "Recursos de partido político": 1115500.0,
+   "Recursos de pessoas físicas": 115010.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1115500.0,
+   "OUTROS RECURSOS": 135503.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1115500.0
+   },
+   {
+    "cnpj": "30043931000138",
+    "nome": "TAX PAYMENTS TECNOLOGIA EM MEIOS DE PAGAMENTOS LTDA",
+    "total": 20493.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 100,
+   "total": 115010.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 332160.88,
+  "total_pago": 383440.88,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "00971215000150",
+    "nome": "3 GRAPH GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 56870.0
+   },
+   {
+    "cnpj": "07446384000110",
+    "nome": "FAGUNDES ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "62265316000162",
+    "nome": "FX MARKETING E LOGISTICA LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "26642855000100",
+    "nome": "CASTRO, VIEIRA E FERREIRA CONTADORES ELEITORAIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 11475.0
+   },
+   {
+    "cnpj": "14437788000102",
+    "nome": "FLEX MARKETING DIRETO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10600.0
+   },
+   {
+    "cnpj": "30043931000138",
+    "nome": "TAX PAYMENTS TECNOLOGIA EM MEIOS DE PAGAMENTOS LTDA",
+    "cnae": "62040",
+    "n_despesas": 8,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 202.88
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 26,
+   "total": 68013.0,
+   "por_tipo": {
+    "Despesas com pessoal": 62000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 13.0,
+    "Produção de jingles, vinhetas e slogans": 6000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,263 @@
+{
+ "sq": "40002531447",
+ "nome_urna": "EDUARDO BRAGA",
+ "cargo": "senador",
+ "uf": "AM",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3680000.0,
+  "por_origem": {
+   "Recursos de partido político": 3660000.0,
+   "Recursos próprios": 20000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3600000.0,
+   "OUTROS RECURSOS": 80000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 3600000.0
+   },
+   {
+    "cnpj": "04160131000197",
+    "nome": "Direção Estadual/Distrital - MDB - AMAZONAS",
+    "total": 60000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 20000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2974323.4,
+  "total_pago": 488157.4,
+  "fornecedores_pj": [
+   {
+    "cnpj": "04984400000130",
+    "nome": "CTA - CLEITON TAXI AEREO LTDA",
+    "cnae": "51200",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 595000.0
+   },
+   {
+    "cnpj": "84495936000120",
+    "nome": "JM CONSULTORIA E ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 330000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 329000.0
+   },
+   {
+    "cnpj": "01341740000154",
+    "nome": "APUI TAXI AEREO S/A",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "16605335000173",
+    "nome": "J L DE B BRITO PRODUCOES LTDA",
+    "cnae": "59120",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans",
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "58127776000157",
+    "nome": "R P SERVICOS GRAFICOS E EVENTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "28573576000167",
+    "nome": "URISSANE COMUNICACAO LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "20033879000185",
+    "nome": "GUILHERME DE SALLES GONCALVES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 82000.0
+   },
+   {
+    "cnpj": "57203194000140",
+    "nome": "MONALISA GADELHA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "02487846000123",
+    "nome": "MXPRINT MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 36150.0
+   },
+   {
+    "cnpj": "55523299000150",
+    "nome": "NOVA ALIANCA COMERCIO ATACADISTA DE PRODUTOS ALIMENTICIOS E BEBIDAS LTDA.",
+    "cnae": "46397",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 28980.0
+   },
+   {
+    "cnpj": "24930645000191",
+    "nome": "JOBGRAF SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13800.0
+   },
+   {
+    "cnpj": "84526136000120",
+    "nome": "B C QUINTAS BARBOSA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9220.0
+   },
+   {
+    "cnpj": "36530515000140",
+    "nome": "D DE A CASAS LTDA.",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "32423065000136",
+    "nome": "DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "37884119000184",
+    "nome": "GB COMERCIO DE MAQUINAS E EQUIPAMENTOS INDUSTRIAL LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 5880.0
+   },
+   {
+    "cnpj": "08571056000108",
+    "nome": "DSH PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5760.0
+   },
+   {
+    "cnpj": "06044699000178",
+    "nome": "EMPRESA AMAZONENSE DE PLASTICOS LTDA",
+    "cnae": "22226",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2822.4
+   },
+   {
+    "cnpj": "52571680000105",
+    "nome": "M DA SILVA PEREIRA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2250.0
+   },
+   {
+    "cnpj": "47305557000102",
+    "nome": "R A SERVICOS GRAFICOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 90.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 670,
+   "total": 719871.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 588508.0,
+    "Despesas com pessoal": 90363.0,
+    "Locação/cessão de bens imóveis": 1000.0,
+    "Publicidade por carros de som": 25000.0,
+    "Serviços advocatícios": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

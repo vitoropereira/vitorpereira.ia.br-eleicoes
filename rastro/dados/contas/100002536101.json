@@ -1,0 +1,113 @@
+{
+ "sq": "100002536101",
+ "nome_urna": "VINICIUS FERRO",
+ "cargo": "depfed",
+ "uf": "MA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 722300.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 669300.0,
+   "Recursos próprios": 53000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 722300.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 58,
+   "total": 722300.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 715401.44,
+  "total_pago": 31000.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "20673889000185",
+    "nome": "K. F. N. GUIMARAES SERVICOS",
+    "cnae": "53202",
+    "n_despesas": 3,
+    "tipos": [
+     "Atividades de militância e mobilização de rua",
+     "Cessão ou locação de veículos",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 251501.44
+   },
+   {
+    "cnpj": "58404776000157",
+    "nome": "JV PRODUCOES E SERVICOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "01817095000101",
+    "nome": "ENA ADMINISTRADORA DE ATIVOS PROPRIOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "17586494000130",
+    "nome": "NR CONSULTORIA EMPRESARIAL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 31000.0
+   },
+   {
+    "cnpj": "68478678000118",
+    "nome": "NARYEN TECNOLOGIA E SERVICOS LTDA",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "29129687000141",
+    "nome": "SAKADA INDUSTRIA COMUNICACAO E EVENTOS LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12900.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 20000.0,
+   "por_tipo": {
+    "Serviços próprios prestados por terceiros": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

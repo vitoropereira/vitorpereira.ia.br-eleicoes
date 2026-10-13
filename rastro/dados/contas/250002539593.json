@@ -1,0 +1,319 @@
+{
+ "sq": "250002539593",
+ "nome_urna": "SÔNIA GUAJAJARA",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PSOL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2370912.13,
+  "por_origem": {
+   "Doações pela Internet": 2300.0,
+   "Recursos de Financiamento Coletivo": 30688.0,
+   "Recursos de partido político": 2170924.13,
+   "Recursos de pessoas físicas": 167000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2164410.46,
+   "FUNDO PARTIDARIO": 6513.67,
+   "OUTROS RECURSOS": 199988.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "06954942000195",
+    "nome": "Direção Nacional - PSOL",
+    "total": 2170924.13
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 30688.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 16,
+   "total": 169300.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1110389.55,
+  "total_pago": 1119527.73,
+  "fornecedores_pj": [
+   {
+    "cnpj": "60496721000166",
+    "nome": "LRS COMUNICACAO E CONSULTORIA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "07263666000181",
+    "nome": "BRASPOR GRAFICA E EDITORA LTDA.",
+    "cnae": "18113",
+    "n_despesas": 34,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 99393.1
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 89000.0
+   },
+   {
+    "cnpj": "39859168000192",
+    "nome": "CRAVO E SANTANA ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "27061065000101",
+    "nome": "FABIO MARCHETTO DE SOUZA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "47950642000115",
+    "nome": "MARCOS VINICIUS DA SILVA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "17922086000102",
+    "nome": "CORREIO DIGITAL TECNOLOGIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13008.5
+   },
+   {
+    "cnpj": "27563141000179",
+    "nome": "27.563.141 MAYRA BRITO MARTINS",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "23301162000165",
+    "nome": "VISUAL PROGRESS INDUSTRIA E COMERCIO LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "36435354000106",
+    "nome": "FERNANDO CLAUDIO DE FREITAS JUNIOR",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "37652270000197",
+    "nome": "GRACIA E GRACIA POUSADA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "53677204000128",
+    "nome": "N.M. SILVA SANTOS",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "38300033000120",
+    "nome": "ANA BEATRIZ GOMES NASCIMENTO HOSSRI",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1303.32
+   },
+   {
+    "cnpj": "62721204000179",
+    "nome": "AUTO POSTO JARDIM DAS BANDEIRAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1219.82
+   },
+   {
+    "cnpj": "15254213000117",
+    "nome": "LUCIANO BENEDITO",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 641.57
+   },
+   {
+    "cnpj": "61696027000155",
+    "nome": "AUTO POSTO ITALIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 537.71
+   },
+   {
+    "cnpj": "53162228000144",
+    "nome": "POSTO TURISTICO DO JARAGUA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 334.5
+   },
+   {
+    "cnpj": "33765778000140",
+    "nome": "POSTO FAROL 48 DA CASTELO INTERIOR LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 240.05
+   },
+   {
+    "cnpj": "23428000000192",
+    "nome": "POSTO DE SERVICOS REIMAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 230.08
+   },
+   {
+    "cnpj": "54426044000107",
+    "nome": "AUTO POSTO GIGANTE DE JOANOPOLIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 222.03
+   },
+   {
+    "cnpj": "51484749000192",
+    "nome": "AUTO POSTO CONCHA DE OURO LIMEIRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 208.05
+   },
+   {
+    "cnpj": "07017009000154",
+    "nome": "POSTO GARCIA DE CAMPINAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 202.36
+   },
+   {
+    "cnpj": "15753624000157",
+    "nome": "AUTO POSTO MORRO SANTO ANTONIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 197.52
+   },
+   {
+    "cnpj": "62286471000165",
+    "nome": "POSTO PAULICEIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 177.96
+   },
+   {
+    "cnpj": "44661208000127",
+    "nome": "DJ UTILIDADE DOMESTIC BAZAR LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 135.2
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 91,
+   "total": 562937.78,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 520237.08,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 80.7,
+    "Locação/cessão de bens imóveis": 42620.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

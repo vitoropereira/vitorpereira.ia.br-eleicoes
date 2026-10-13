@@ -1,0 +1,185 @@
+{
+ "sq": "240002539565",
+ "nome_urna": "OSMAR TEIXEIRA",
+ "cargo": "depest",
+ "uf": "SC",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 196000.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 57000.0,
+   "Recursos de partido político": 50000.0,
+   "Recursos de pessoas físicas": 89000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 50000.0,
+   "OUTROS RECURSOS": 146000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68415670000102",
+    "nome": "ANA PAULA DA SILVA",
+    "total": 57000.0
+   },
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 50000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 8,
+   "total": 89000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 200509.3,
+  "total_pago": 134427.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "21155119000103",
+    "nome": "GW C ADMINISTRACAO DE BENS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 31000.0
+   },
+   {
+    "cnpj": "40003710000190",
+    "nome": "MA MIDIAS LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 26254.8
+   },
+   {
+    "cnpj": "34894747000152",
+    "nome": "BOCA NO MUNDO SONORIZACAO LTDA.",
+    "cnae": "93298",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "22669178000162",
+    "nome": "SETE PRODUCOES E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "36467593000148",
+    "nome": "DUNA DIGITAL LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "22820095000122",
+    "nome": "UF COMUNICACAO VISUAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6525.0
+   },
+   {
+    "cnpj": "46357480000143",
+    "nome": "JINGLE BRASIL PRODUTORA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "37345982000163",
+    "nome": "AR UNIFORMES LTDA",
+    "cnae": "13405",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1700.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "79381893000112",
+    "nome": "UNIGRAF EDITORA E GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 965.0
+   },
+   {
+    "cnpj": "08328406000100",
+    "nome": "CLICK CAMISETAS INDUSTRIA E COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 405.0
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 29,
+   "total": 38119.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 38080.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 39.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

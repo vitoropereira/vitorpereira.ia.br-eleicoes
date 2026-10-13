@@ -1,0 +1,192 @@
+{
+ "sq": "160002540769",
+ "nome_urna": "PEDRO LUPION",
+ "cargo": "depfed",
+ "uf": "PR",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3111317.19,
+  "por_origem": {
+   "Recursos de partido político": 1791317.19,
+   "Recursos de pessoas físicas": 1320000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1341317.19,
+   "FUNDO PARTIDARIO": 200000.0,
+   "OUTROS RECURSOS": 1570000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 1341317.19
+   },
+   {
+    "cnpj": "08640056000112",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - PARANÁ",
+    "total": 450000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 14,
+   "total": 1320000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1450822.26,
+  "total_pago": 892335.35,
+  "fornecedores_pj": [
+   {
+    "cnpj": "17828846000117",
+    "nome": "JK ARTES GRAFICAS LTDA",
+    "cnae": "32990",
+    "n_despesas": 156,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 975761.5
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "24846061000132",
+    "nome": "MULTIPRINTS INDUSTRIA E COMERCIO LTDA",
+    "cnae": "13596",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 37888.0
+   },
+   {
+    "cnpj": "39760201000122",
+    "nome": "BARIGUI LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 8,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 30800.0
+   },
+   {
+    "cnpj": "50958901000169",
+    "nome": "THIAGO FRANCISCO MOREIRA BRANCO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "49150086000128",
+    "nome": "COMERCIAL PROTON LIMITADA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 11429.11
+   },
+   {
+    "cnpj": "12667593000123",
+    "nome": "JRKT B2B LTDA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4024.0
+   },
+   {
+    "cnpj": "78415056000102",
+    "nome": "VELOSO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 12,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3064.3
+   },
+   {
+    "cnpj": "54564822000124",
+    "nome": "ELITHE ADESIVOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "21804145000115",
+    "nome": "21.804.145 RONIERI CARLOS GOMES",
+    "cnae": "85929",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "00142824000104",
+    "nome": "SIG INDUSTRIA E COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 806.0
+   },
+   {
+    "cnpj": "19883785000116",
+    "nome": "CELIA REGINA AGOSTINHO",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "14164176000193",
+    "nome": "GRAFICA PARCERIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 345.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 152,
+   "total": 288004.35,
+   "por_tipo": {
+    "Despesas com pessoal": 212340.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 464.35,
+    "Locação/cessão de bens imóveis": 9600.0,
+    "Publicidade por carros de som": 3600.0,
+    "Serviços advocatícios": 30000.0,
+    "Serviços contábeis": 2000.0,
+    "Serviços prestados por terceiros": 30000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

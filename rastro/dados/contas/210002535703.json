@@ -1,0 +1,160 @@
+{
+ "sq": "210002535703",
+ "nome_urna": "VANICE DE MATOS",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 602780.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 60000.0,
+   "Recursos de partido político": 450000.0,
+   "Recursos de pessoas físicas": 92280.0,
+   "Recursos próprios": 500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 510000.0,
+   "OUTROS RECURSOS": 92780.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 450000.0
+   },
+   {
+    "cnpj": "68312571000103",
+    "nome": "OSMAR GASPARINI TERRA",
+    "total": 60000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 8,
+   "total": 92780.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 466419.74,
+  "total_pago": 242522.4,
+  "fornecedores_pj": [
+   {
+    "cnpj": "59811887000140",
+    "nome": "59.811.887 ERENI TERESINHA ROHDE",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 18500.0
+   },
+   {
+    "cnpj": "60360249000130",
+    "nome": "SOLUCAO LOCADORA E TRANSPORTES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "13256899000150",
+    "nome": "VALORIZE IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2349.4
+   },
+   {
+    "cnpj": "60570067000193",
+    "nome": "A S FRAGA CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 1750.0
+   },
+   {
+    "cnpj": "90921263000126",
+    "nome": "COLI GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1135.0
+   },
+   {
+    "cnpj": "04227306000136",
+    "nome": "KAISER COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 874.44
+   },
+   {
+    "cnpj": "25188538000100",
+    "nome": "ESSENT INOVACAO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "43297439000130",
+    "nome": "CM COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "93699619000117",
+    "nome": "VERNER WINKLER",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 400.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 101,
+   "total": 388160.9,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 212900.0,
+    "Cessão ou locação de veículos": 63000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 205.9,
+    "Locação/cessão de bens imóveis": 25055.0,
+    "Serviços advocatícios": 20000.0,
+    "Serviços prestados por terceiros": 67000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

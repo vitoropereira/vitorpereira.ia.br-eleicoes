@@ -1,0 +1,330 @@
+{
+ "sq": "250002536743",
+ "nome_urna": "EDINHO SILVA",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3078040.0,
+  "por_origem": {
+   "Recursos de partido político": 1325040.0,
+   "Recursos de pessoas físicas": 1753000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1175500.0,
+   "OUTROS RECURSOS": 1902540.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1175500.0
+   },
+   {
+    "cnpj": "51827566000122",
+    "nome": "Direção Municipal/Comissão Provisória - PT - ARARAQUARA - SP",
+    "total": 149540.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 8,
+   "total": 1753000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1860553.93,
+  "total_pago": 1921069.95,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 13,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 619000.0
+   },
+   {
+    "cnpj": "46558333000131",
+    "nome": "ELA MARKETING POLITICO CONSULTORIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68124975000165",
+    "nome": "N.C.A. CONSULTORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "24347979000137",
+    "nome": "MACIEL ART DESIGNER GRAFICO - LTDA",
+    "cnae": "47636",
+    "n_despesas": 23,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 75525.5
+   },
+   {
+    "cnpj": "44078002000179",
+    "nome": "Neisser Bernardelli Advocacia",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "07263666000181",
+    "nome": "BRASPOR GRAFICA E EDITORA LTDA.",
+    "cnae": "18113",
+    "n_despesas": 26,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 63549.8
+   },
+   {
+    "cnpj": "60496721000166",
+    "nome": "LRS COMUNICACAO E CONSULTORIA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "03045752000167",
+    "nome": "LUCIANO CONSTANTINO BORTOLOZZO CIA LTDA",
+    "cnae": "10911",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 16768.0
+   },
+   {
+    "cnpj": "05401439000140",
+    "nome": "INVENTY STAMP LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15600.0
+   },
+   {
+    "cnpj": "07533853000138",
+    "nome": "LOCATEL - LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "13988623000166",
+    "nome": "M. G. TRANSPORTE DE PASSAGEIROS LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "19824241000183",
+    "nome": "TRANSCOLAR TRANSPORTES ARARAQUARA LTDA",
+    "cnae": "49248",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "23791846000192",
+    "nome": "RICARDO GAMA PRODUCOES ARTISTICAS E MUSICAIS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "24947874000119",
+    "nome": "LOCAVANS TRANSPORTES LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "34259280000179",
+    "nome": "W. J. CINCO TRANSPORTE ESCOLARES LTDA",
+    "cnae": "49248",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "56950388000146",
+    "nome": "FREITAS DA SILVA TRANSPORTES LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "59689174000156",
+    "nome": "PRUDENCIO CIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11875.0
+   },
+   {
+    "cnpj": "04325991000133",
+    "nome": "SILKGRAF INDUSTRIA GRAFICA LTDA",
+    "cnae": "18229",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11036.16
+   },
+   {
+    "cnpj": "04527501000181",
+    "nome": "POSTO TOTAL ARARAQUARA LTDA",
+    "cnae": "47318",
+    "n_despesas": 69,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10824.01
+   },
+   {
+    "cnpj": "54854884000170",
+    "nome": "SILKGRAF INDUSTRIA DE EMBALAGENS LTDA",
+    "cnae": "17311",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8106.0
+   },
+   {
+    "cnpj": "61997755000105",
+    "nome": "VALLILO GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6900.0
+   },
+   {
+    "cnpj": "67168797000101",
+    "nome": "DS GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5004.8
+   },
+   {
+    "cnpj": "16624392000108",
+    "nome": "16.624.392 JAQUELINE LIVIA STIN",
+    "cnae": "43291",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2280.0
+   },
+   {
+    "cnpj": "33091565000180",
+    "nome": "WISE IN 7 FILMES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "20287912000101",
+    "nome": "DRIELE CRISTINA MORALLES",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "38249305000104",
+    "nome": "JORNAL O IMPARCIAL DE ARARAQUARA LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "64125101000171",
+    "nome": "64.125.101 LIVIA SARAH STIN MIGUEL",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 680.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 192,
+   "total": 584004.66,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 102000.0,
+    "Despesas com pessoal": 466310.92,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 26.0,
+    "Locação/cessão de bens imóveis": 15667.74
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

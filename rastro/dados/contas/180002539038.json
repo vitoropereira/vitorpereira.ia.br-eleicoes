@@ -1,0 +1,192 @@
+{
+ "sq": "180002539038",
+ "nome_urna": "GUSTAVO NEIVA",
+ "cargo": "depest",
+ "uf": "PI",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1156492.75,
+  "por_origem": {
+   "Recursos de partido político": 1134800.0,
+   "Recursos de pessoas físicas": 19692.75,
+   "Recursos próprios": 2000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 984800.0,
+   "FUNDO PARTIDARIO": 150000.0,
+   "OUTROS RECURSOS": 21692.75
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 1134800.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 21692.75
+  }
+ },
+ "despesas": {
+  "total_contratado": 831183.6,
+  "total_pago": 439911.6,
+  "fornecedores_pj": [
+   {
+    "cnpj": "04568685000128",
+    "nome": "OPEN SOLUCOES E SERVICOS LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "09446575000107",
+    "nome": "UPJ PRODUCOES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "07484108000146",
+    "nome": "PLUG PROPAGANDA MARKETING LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "21851015000133",
+    "nome": "CRUZ NEIVA SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "04626774000183",
+    "nome": "M. F. LIMA CARNEIRO CIA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "16499045000192",
+    "nome": "CONTARE SERVICOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "07789221000130",
+    "nome": "CRIATIVA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 21950.0
+   },
+   {
+    "cnpj": "39677405000102",
+    "nome": "INTEGRA RH CONSULTORIA E SOLUCOES LTDA",
+    "cnae": "78108",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 21484.0
+   },
+   {
+    "cnpj": "14013576000106",
+    "nome": "ACERTE EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "30632034000160",
+    "nome": "ZENITE GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11100.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "15825827000101",
+    "nome": "M D G DIAS NEGREIROS",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3300.0
+   },
+   {
+    "cnpj": "03515317000159",
+    "nome": "CECOL - CENTRO DE COMERCIO E LOCACAO LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2052.0
+   },
+   {
+    "cnpj": "56606188000170",
+    "nome": "Y I CADDAH",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1850.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 33447.6,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 33400.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 47.6
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,182 @@
+{
+ "sq": "90002543189",
+ "nome_urna": "JOSCILENE DO MANGÃO",
+ "cargo": "depest",
+ "uf": "GO",
+ "partido": "AGIR",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 566416.33,
+  "por_origem": {
+   "Recursos de partido político": 40000.0,
+   "Recursos de pessoas físicas": 526416.33
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 40000.0,
+   "OUTROS RECURSOS": 526416.33
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "32206989000180",
+    "nome": "Direção Nacional - AGIR",
+    "total": 40000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 30,
+   "total": 526416.33
+  }
+ },
+ "despesas": {
+  "total_contratado": 193045.9,
+  "total_pago": 141453.75,
+  "fornecedores_pj": [
+   {
+    "cnpj": "58166365000170",
+    "nome": "PERSONALIZE SOLUCOES LTDA",
+    "cnae": "47890",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18260.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "37737338000130",
+    "nome": "VIENA ADMINISTRACAO DE IMOVEIS LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Aquisição/Doação de bens móveis ou imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "58133999000127",
+    "nome": "VK EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "39346346000181",
+    "nome": "RESENDE FABRICA E REPRESENTACOES COMERCIAS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "59066047000109",
+    "nome": "M. SILVA DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3880.2
+   },
+   {
+    "cnpj": "47656446000132",
+    "nome": "JC UNIFORMES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "09509881000145",
+    "nome": "DISBRAP COMERCIO DE VEICULOS LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "22910750000133",
+    "nome": "ANA LUCIA DOS SANTOS CARVALHO FOTOGRAFIA",
+    "cnae": "47539",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1780.0
+   },
+   {
+    "cnpj": "06227397000135",
+    "nome": "VERA FRANCILIA GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "35374736000104",
+    "nome": "MS PRODUCOES E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "53311732000169",
+    "nome": "FABRICIO DAVID DOS SANTOS",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "03851419000145",
+    "nome": "S.D. ENGENHARIA E COMERCIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 570.7
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 128,
+   "total": 124855.0,
+   "por_tipo": {
+    "Aquisição/Doação de bens móveis ou imóveis": 3000.0,
+    "Atividades de militância e mobilização de rua": 117420.0,
+    "Cessão ou locação de veículos": 1500.0,
+    "Locação/cessão de bens imóveis": 2000.0,
+    "Serviços prestados por terceiros": 935.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

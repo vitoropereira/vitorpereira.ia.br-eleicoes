@@ -1,0 +1,484 @@
+{
+ "sq": "130002539728",
+ "nome_urna": "DUDA SALABERT",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "PSOL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2058827.51,
+  "por_origem": {
+   "Recursos de outros candidatos": 1000.0,
+   "Recursos de partido político": 2049000.0,
+   "Recursos de pessoas físicas": 8827.51
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2024000.0,
+   "FUNDO PARTIDARIO": 25000.0,
+   "OUTROS RECURSOS": 9827.51
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "06954942000195",
+    "nome": "Direção Nacional - PSOL",
+    "total": 2049000.0
+   },
+   {
+    "cnpj": "68344911000170",
+    "nome": "ADRIANA CRISTINA FABIANO DE SOUZA",
+    "total": 1000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 104,
+   "total": 8827.51
+  }
+ },
+ "despesas": {
+  "total_contratado": 1759820.45,
+  "total_pago": 1355454.86,
+  "fornecedores_pj": [
+   {
+    "cnpj": "64752158000109",
+    "nome": "OKAN COMUNICACAO LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 472000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "68771001000173",
+    "nome": "MERAKI SERVICOS ADMINISTRATIVOS SPE LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "25461161000103",
+    "nome": "OLIVEIRA FILHO ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "39494108000113",
+    "nome": "COMPOSE LOCACAO DE MOBILIARIOS E EVENTOS LTDA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Aquisição/Doação de bens móveis ou imóveis"
+    ],
+    "total": 53500.0
+   },
+   {
+    "cnpj": "43467379000157",
+    "nome": "NL SEGURANCAS E SERVICOS LTDA",
+    "cnae": "80111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 48000.0
+   },
+   {
+    "cnpj": "28689986000178",
+    "nome": "VAF COMUNICACOES LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "56981606000100",
+    "nome": "CAROLINA FERNANDES ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 32000.0
+   },
+   {
+    "cnpj": "42584630000109",
+    "nome": "42.584.630 KAROLINA MARQUES CIOTTO",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "18798140000112",
+    "nome": "CARIMBEX LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "04163510000130",
+    "nome": "LIDER BRINDES INDUSTRIA E COMERCIO LTDA",
+    "cnae": "22293",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 8820.25
+   },
+   {
+    "cnpj": "04309564000161",
+    "nome": "ESTRELA LOGISTICA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8616.67
+   },
+   {
+    "cnpj": "53593092000127",
+    "nome": "IJA BRINDES E MARKETING PROMOCIONAL LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "20968473000194",
+    "nome": "RONALDO SILVA GINO",
+    "cnae": "18300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 5200.0
+   },
+   {
+    "cnpj": "49264365000112",
+    "nome": "IMAS BRASIL ARTIGOS RECREATIVOS LTDA",
+    "cnae": "47636",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3945.3
+   },
+   {
+    "cnpj": "07274599000109",
+    "nome": "ACV ALIMENTOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 29,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 3060.29
+   },
+   {
+    "cnpj": "47344711000147",
+    "nome": "NOSSO SHOP ADMINISTRACAO DE FEIRAS, COMERCIO VAREJISTA E FOMENTO MERCANTIL LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "47661065000141",
+    "nome": "47.661.065 HENRIQUE VILELA VAZ CASTILHO",
+    "cnae": "85929",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "01003939000172",
+    "nome": "COMPUMAKE LOCACAO DE COMPUTADORES LTDA",
+    "cnae": "46516",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2240.0
+   },
+   {
+    "cnpj": "17176561000149",
+    "nome": "COMERCIO DE COMBUSTIVEIS ALEX LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "05575657000524",
+    "nome": "MRM - EMPREENDIMENTOS HOTELEIROS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1680.0
+   },
+   {
+    "cnpj": "30464712000122",
+    "nome": "STREET SCREEN COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1512.0
+   },
+   {
+    "cnpj": "21170680000161",
+    "nome": "LIMONADA AUDIOVISUAL LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "16641243000149",
+    "nome": "HABIT LTDA",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 1058.4
+   },
+   {
+    "cnpj": "17155342000183",
+    "nome": "LOJA ELETRICA LTDA",
+    "cnae": "47423",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1019.52
+   },
+   {
+    "cnpj": "59902749000177",
+    "nome": "59.902.749 MARCIO GUSTAVO BARBOSA MARTINS",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "62000669000130",
+    "nome": "62.000.669 CAROLINA JAUED CARVALHO DE SOUZA",
+    "cnae": "43304",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "64375040000109",
+    "nome": "64.375.040 ELAINE APARECIDA BARBOSA MOREIRA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 635.0
+   },
+   {
+    "cnpj": "14793600000169",
+    "nome": "ATUAL ESTRUTURAS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "53823638000199",
+    "nome": "53.823.638 EMERSON CALIXTO DE OLIVEIRA BRAGA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 550.0
+   },
+   {
+    "cnpj": "04231675000100",
+    "nome": "MINAS GARDEN HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 516.0
+   },
+   {
+    "cnpj": "25490137000100",
+    "nome": "MADEIREIRA PALOWA LTDA",
+    "cnae": "46711",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 463.34
+   },
+   {
+    "cnpj": "20849488000133",
+    "nome": "20.849.488 GERALDO MAGELA DE OLIVEIRA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 370.0
+   },
+   {
+    "cnpj": "03709278000120",
+    "nome": "POSTO PEDRA FORTE II LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 202.04
+   },
+   {
+    "cnpj": "24668224000134",
+    "nome": "COMERCIAL MONTEIRO LTDA",
+    "cnae": "47121",
+    "n_despesas": 3,
+    "tipos": [
+     "Materiais de expediente",
+     "Água"
+    ],
+    "total": 188.38
+   },
+   {
+    "cnpj": "01280937000120",
+    "nome": "AUTO POSTO LAVRAS SHELL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 180.37
+   },
+   {
+    "cnpj": "18489954000175",
+    "nome": "GM COMUNICACAO VISUAL EDITORACAO E IMPRESSAO GRAFICA DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 178.5
+   },
+   {
+    "cnpj": "23649825000137",
+    "nome": "POSTO NOSSA SENHORA APARECIDA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 157.62
+   },
+   {
+    "cnpj": "62270186005468",
+    "nome": "PRECOLANDIA COMERCIAL LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 57.9
+   },
+   {
+    "cnpj": "43283811009297",
+    "nome": "KALUNGA SA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 57.0
+   },
+   {
+    "cnpj": "17256512015148",
+    "nome": "DROGARIA ARAUJO S A",
+    "cnae": "47717",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 9.99
+   },
+   {
+    "cnpj": "02631420000100",
+    "nome": "ELETRO TUBOS TIAGO LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 4.5
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 133,
+   "total": 664997.38,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 219735.66,
+    "Despesas com pessoal": 27800.0,
+    "Despesas com transporte ou deslocamento": 180.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 171.72,
+    "Locação/cessão de bens imóveis": 48300.0,
+    "Produção de programas de rádio, televisão ou vídeo": 600.0,
+    "Serviços prestados por terceiros": 364710.0,
+    "Serviços próprios prestados por terceiros": 3500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,194 @@
+{
+ "sq": "50002535068",
+ "nome_urna": "PEDRO TAVARES",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 286845.1,
+  "por_origem": {
+   "Recursos de partido político": 286845.1
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 283676.1,
+   "FUNDO PARTIDARIO": 3169.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 283676.1
+   },
+   {
+    "cnpj": "45928648000160",
+    "nome": "Direção Estadual/Distrital - UNIÃO - BAHIA",
+    "total": 3169.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 111211.85,
+  "total_pago": 63570.63,
+  "fornecedores_pj": [
+   {
+    "cnpj": "64981537000162",
+    "nome": "ROCHAHUB-MARKETING E AUDIOVISUAL LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "48825638000198",
+    "nome": "VICENTE DE PAULA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "51149856000164",
+    "nome": "VL CONTABILIDADE SOCIEDADE SIMPLES LIMITADA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "03470235000135",
+    "nome": "ZOOM PUBLICIDADE EXTERIOR LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10886.4
+   },
+   {
+    "cnpj": "02103683000138",
+    "nome": "JOSELITO ARAUJO DOS SANTOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6800.0
+   },
+   {
+    "cnpj": "61747099000184",
+    "nome": "EMPRESARIAL CARISA NABUCO SPE LTDA",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "26434566000115",
+    "nome": "ALPHA TRANSPORTES E LOCACOES LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4620.0
+   },
+   {
+    "cnpj": "03230915000181",
+    "nome": "GGS INDUSTRIA, COMERCIO E SERVICOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3400.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "13794184000150",
+    "nome": "COMSERGRAF COMERCIO E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2202.0
+   },
+   {
+    "cnpj": "09029247000105",
+    "nome": "GOL GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "43864654000176",
+    "nome": "APONTO COMUNICACAO LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 530.45
+   },
+   {
+    "cnpj": "23626694000172",
+    "nome": "LIDER GRAFICA E SERVICOS LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 440.0
+   },
+   {
+    "cnpj": "08276813000200",
+    "nome": "SAMPAIO SOUZA SUPRIMENTOS XEROGRAFICOS LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 330.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 4,
+   "total": 21203.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.0,
+    "Locação/cessão de bens imóveis": 11000.0,
+    "Serviços prestados por terceiros": 10200.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,118 @@
+{
+ "sq": "20002540108",
+ "nome_urna": "MARCOS BARBOSA",
+ "cargo": "depest",
+ "uf": "AL",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 305000.0,
+  "por_origem": {
+   "Doações pela Internet": 10000.0,
+   "Recursos de partido político": 250000.0,
+   "Recursos de pessoas físicas": 10000.0,
+   "Recursos próprios": 35000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 250000.0,
+   "OUTROS RECURSOS": 55000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 250000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 55000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 88521.28,
+  "total_pago": 123521.28,
+  "fornecedores_pj": [
+   {
+    "cnpj": "48095477000124",
+    "nome": "BULHOES BRABO MAGALHAES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "43143766000138",
+    "nome": "MAURICIO FRANCISCO DA SILVA CONTABILIDADE",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "13106801000188",
+    "nome": "ARTE NOVA GRAFICA E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10500.0
+   },
+   {
+    "cnpj": "61179038000168",
+    "nome": "FIVE COMUNICACAO DIGITAL LTDA",
+    "cnae": "42111",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4400.0
+   },
+   {
+    "cnpj": "49090028000156",
+    "nome": "L.M. LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2600.0
+   },
+   {
+    "cnpj": "41053365000161",
+    "nome": "R C DIAS INDUSTRIA GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 521.28
+   },
+   {
+    "cnpj": "51189449000180",
+    "nome": "EDUARDO RAMON GUIMARAES DE FRANCA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 0,
+   "total": 0.0,
+   "por_tipo": {}
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

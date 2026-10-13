@@ -1,0 +1,163 @@
+{
+ "sq": "60002536967",
+ "nome_urna": "DR JAZIEL",
+ "cargo": "depfed",
+ "uf": "CE",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3100000.0,
+  "por_origem": {
+   "Recursos de partido político": 3100000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1700000.0,
+   "FUNDO PARTIDARIO": 1400000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1886706.7,
+  "total_pago": 1043987.2,
+  "fornecedores_pj": [
+   {
+    "cnpj": "58549063000181",
+    "nome": "FAYE DIGITAL LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 345000.0
+   },
+   {
+    "cnpj": "46243496000125",
+    "nome": "LOCX LOCACAO DE VEICULOS E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 6,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 108110.0
+   },
+   {
+    "cnpj": "40803409000160",
+    "nome": "LF FA SERVICOS GRAFICOS LTDA",
+    "cnae": "58115",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 60020.0
+   },
+   {
+    "cnpj": "14650163000124",
+    "nome": "PRIME INDUSTRIA GRAFICA LTDA",
+    "cnae": "17311",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 35500.0
+   },
+   {
+    "cnpj": "05887771000166",
+    "nome": "ETICK INDUSTRIA DE ETIQUETAS LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "04078953000123",
+    "nome": "SOUZA COMERCIO DE PETROLEO E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "41621441000198",
+    "nome": "GRAVA LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 11700.0
+   },
+   {
+    "cnpj": "52503996000151",
+    "nome": "EZEQUIEL MARTINS MACIEL LTDA",
+    "cnae": "82199",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 9600.0
+   },
+   {
+    "cnpj": "66111373000148",
+    "nome": "HDS SUPRIMENTOS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "24014350000175",
+    "nome": "ZAP LOCACOES LTDA",
+    "cnae": "43223",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 1600.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 357,
+   "total": 1258776.7,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 503000.0,
+    "Cessão ou locação de veículos": 30000.0,
+    "Despesas com pessoal": 701550.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 126.7,
+    "Locação/cessão de bens imóveis": 14100.0,
+    "Serviços advocatícios": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

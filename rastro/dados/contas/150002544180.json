@@ -1,0 +1,224 @@
+{
+ "sq": "150002544180",
+ "nome_urna": "ADRIANO GALDINO",
+ "cargo": "depest",
+ "uf": "PB",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 633318.65,
+  "por_origem": {
+   "Recursos de partido político": 601224.49,
+   "Recursos de pessoas físicas": 20000.0,
+   "Recursos próprios": 12094.16
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 400000.0,
+   "FUNDO PARTIDARIO": 200000.0,
+   "OUTROS RECURSOS": 33318.65
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 400000.0
+   },
+   {
+    "cnpj": "07644852000160",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - PARAÍBA",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "70118955000123",
+    "nome": "Direção Estadual/Distrital - PP - PARAÍBA",
+    "total": 1224.49
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 32094.16
+  }
+ },
+ "despesas": {
+  "total_contratado": 601635.22,
+  "total_pago": 611535.22,
+  "fornecedores_pj": [
+   {
+    "cnpj": "57286401000177",
+    "nome": "TOP PRINT DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 12,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 135800.0
+   },
+   {
+    "cnpj": "22608457000116",
+    "nome": "TOPMIDIA AGENCIA PRODUTORA LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "45443633000102",
+    "nome": "JD IMPRESSOS PERSONALIZADOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 54000.0
+   },
+   {
+    "cnpj": "18346150000117",
+    "nome": "DJALMA DOS SANTOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 46680.0
+   },
+   {
+    "cnpj": "26625056000125",
+    "nome": "D F PACK EMBALAGENS FLEXIVEIS LTDA",
+    "cnae": "22226",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 41156.25
+   },
+   {
+    "cnpj": "57972898000187",
+    "nome": "MULTI COLOR - TECNOLOGIA EM COMUNICACAO VISUAL E SERVICOS LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "44102237000159",
+    "nome": "IP INSTITUTO DE PESQUISAS E ACOMPANHAMENTO DE GESTAO LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "04994119000188",
+    "nome": "OPINIAO PESQUISAS SOCIAIS LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "48050163000105",
+    "nome": "CARLOS ALBERTO DE ARAUJO SOUTO",
+    "cnae": "47636",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 17780.0
+   },
+   {
+    "cnpj": "12425984000131",
+    "nome": "NOBEL VITA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "26690275000198",
+    "nome": "SOUZA LEAL CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "54828764000107",
+    "nome": "BRUNO LIRA CARVALHO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "64498154000138",
+    "nome": "TRIO CONCEITO BRASIL LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "11847169000106",
+    "nome": "T SOM SERVICOS TERCEIRIZADOS LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "01631699000150",
+    "nome": "POSTO DE COMBUSTIVEIS MARILIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4457.71
+   },
+   {
+    "cnpj": "40947145000119",
+    "nome": "REDE LUCENA POCINHENSE 1 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1081.26
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 14,
+   "total": 46680.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 22157.5,
+    "Cessão ou locação de veículos": 14000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 22.5,
+    "Locação/cessão de bens imóveis": 2500.0,
+    "Serviços prestados por terceiros": 8000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

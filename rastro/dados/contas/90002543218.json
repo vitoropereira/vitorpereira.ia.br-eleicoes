@@ -1,0 +1,95 @@
+{
+ "sq": "90002543218",
+ "nome_urna": "FLÁVIA MORAIS",
+ "cargo": "depfed",
+ "uf": "GO",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2866668.0,
+  "por_origem": {
+   "Recursos de partido político": 2850000.0,
+   "Recursos de pessoas físicas": 16668.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2850000.0,
+   "OUTROS RECURSOS": 16668.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 2850000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 16668.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 463300.0,
+  "total_pago": 414055.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "20048691000100",
+    "nome": "ALISSON ALVES DE MIRANDA",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "40875917000154",
+    "nome": "LAMS COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "64433090000197",
+    "nome": "GAB INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 10000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 78,
+   "total": 408300.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 91200.0,
+    "Cessão ou locação de veículos": 211700.0,
+    "Diversas a especificar": 27500.0,
+    "Locação/cessão de bens imóveis": 13900.0,
+    "Produção de programas de rádio, televisão ou vídeo": 15000.0,
+    "Serviços advocatícios": 4000.0,
+    "Serviços contábeis": 25000.0,
+    "Serviços prestados por terceiros": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

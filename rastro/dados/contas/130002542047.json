@@ -1,0 +1,225 @@
+{
+ "sq": "130002542047",
+ "nome_urna": "GUSTAVO SANTANA",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1217127.9,
+  "por_origem": {
+   "Recursos de outros candidatos": 1400.0,
+   "Recursos de partido político": 1205127.9,
+   "Recursos de pessoas físicas": 10600.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1195000.0,
+   "FUNDO PARTIDARIO": 10127.9,
+   "OUTROS RECURSOS": 12000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1195000.0
+   },
+   {
+    "cnpj": "08691904000112",
+    "nome": "Direção Estadual/Distrital - PL - MINAS GERAIS",
+    "total": 10127.9
+   },
+   {
+    "cnpj": "68468100000180",
+    "nome": "IGOR TARCIANO TIMO",
+    "total": 1400.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 10600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 965460.6,
+  "total_pago": 1175363.76,
+  "fornecedores_pj": [
+   {
+    "cnpj": "51735365000103",
+    "nome": "BIGRAFICA EMBALAGENS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 62650.0
+   },
+   {
+    "cnpj": "24154224000116",
+    "nome": "ADVOCACIA WILDE SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "07276180000188",
+    "nome": "KERR INDUSTRIA E COMERCIO DE BRINDES E SUPRIMENTOS LTDA",
+    "cnae": "46435",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 33642.5
+   },
+   {
+    "cnpj": "05972794000179",
+    "nome": "B T CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "64204416000104",
+    "nome": "GMP PUBLICIDADE E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 26697.5
+   },
+   {
+    "cnpj": "12305622000107",
+    "nome": "PONTUAL LOC CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6990.0
+   },
+   {
+    "cnpj": "04727240000143",
+    "nome": "MAXIMO INFORMATICA LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 6590.0
+   },
+   {
+    "cnpj": "01995938000151",
+    "nome": "GRAFICA E EDITORA PAGINA 12 LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3625.0
+   },
+   {
+    "cnpj": "42927464000198",
+    "nome": "AUTO POSTO DO ALEMAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 17,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3296.17
+   },
+   {
+    "cnpj": "61144095000101",
+    "nome": "SUDESTE GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "32410827000160",
+    "nome": "IV GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1012.5
+   },
+   {
+    "cnpj": "47114915000191",
+    "nome": "DM EXPRESS PRESTACAO DE SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 737.5
+   },
+   {
+    "cnpj": "37222547000222",
+    "nome": "TULA AUTO POSTO LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 316.99
+   },
+   {
+    "cnpj": "42888115000104",
+    "nome": "A EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 275.91
+   },
+   {
+    "cnpj": "65022175000145",
+    "nome": "JW AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 200.03
+   },
+   {
+    "cnpj": "71365167000102",
+    "nome": "PLANEJAR COMUNICACAO INTEGRADA LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 47,
+   "total": 737726.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 6200.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 26.5,
+    "Locação/cessão de bens imóveis": 6000.0,
+    "Serviços prestados por terceiros": 700500.0,
+    "Serviços próprios prestados por terceiros": 25000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

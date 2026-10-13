@@ -1,0 +1,363 @@
+{
+ "sq": "210002534038",
+ "nome_urna": "SOFIA CAVEDON",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 851723.81,
+  "por_origem": {
+   "Recursos de outros candidatos": 80000.0,
+   "Recursos de partido político": 625500.0,
+   "Recursos de pessoas físicas": 69960.0,
+   "Recursos próprios": 76263.81
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 705500.0,
+   "OUTROS RECURSOS": 146223.81
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 625500.0
+   },
+   {
+    "cnpj": "68306572000137",
+    "nome": "ELVINO JOSE BOHN GASS",
+    "total": 80000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 87,
+   "total": 146223.81
+  }
+ },
+ "despesas": {
+  "total_contratado": 662127.96,
+  "total_pago": 821623.81,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "34028316437986",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 35087.1
+   },
+   {
+    "cnpj": "60092172000164",
+    "nome": "MUDANCAS MARCOS LTDA",
+    "cnae": "49302",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 26934.38
+   },
+   {
+    "cnpj": "92757798000139",
+    "nome": "EMPRESA JORNALISTICA CALDAS JUNIOR LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 21600.0
+   },
+   {
+    "cnpj": "55008753000135",
+    "nome": "RS GRAFICA IMPRESSAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 14,
+    "tipos": [
+     "Eventos de promoção da candidatura",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21155.0
+   },
+   {
+    "cnpj": "88804513000104",
+    "nome": "KADU MALHAS COMERCIO DE ROUPAS LTDA",
+    "cnae": "47814",
+    "n_despesas": 11,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15122.5
+   },
+   {
+    "cnpj": "90964057000101",
+    "nome": "GRAFICA E EDITORA GAUCHA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13969.34
+   },
+   {
+    "cnpj": "02647652000148",
+    "nome": "PREDOMINA CONTABILIDADE E ASSESSORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "20977341000129",
+    "nome": "POA SIGN MIDIAS PARA COMUNICACAO VISUAL LTDA",
+    "cnae": "47598",
+    "n_despesas": 2,
+    "tipos": [
+     "Aquisição/Doação de bens móveis ou imóveis"
+    ],
+    "total": 9600.0
+   },
+   {
+    "cnpj": "28542384000193",
+    "nome": "CHURRASQUITA RESTAURANTE E CHURRASCARIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 6560.0
+   },
+   {
+    "cnpj": "91665570000156",
+    "nome": "GRUPO EDITORIAL SINOS SA",
+    "cnae": "58221",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "08786193000160",
+    "nome": "COMBUSTIVEIS PEGASUS IPIRANGA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3147.85
+   },
+   {
+    "cnpj": "17376797000129",
+    "nome": "JORNAL REPERCUSSAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2880.0
+   },
+   {
+    "cnpj": "94350113000160",
+    "nome": "JOKA SUBLIMACAO DIGITAL LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2780.0
+   },
+   {
+    "cnpj": "07263602000180",
+    "nome": "LOGIC-PRESS BRASIL LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2620.8
+   },
+   {
+    "cnpj": "90512682000104",
+    "nome": "JORNAL DO POVO LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2140.0
+   },
+   {
+    "cnpj": "03080511000159",
+    "nome": "JORNAL OPINIAO DE VIAMAO LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "60362875000165",
+    "nome": "60.362.875 CLARISSA FIGUEIRO FERREIRA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "68306862000180",
+    "nome": "THAIS MARIA FERREIRA SAMPAIO",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 1700.0
+   },
+   {
+    "cnpj": "61135041000180",
+    "nome": "MOSS UNIFORMES E BRINDES PERSONALIZADOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1305.0
+   },
+   {
+    "cnpj": "92724376000167",
+    "nome": "A SEMANA EDITORA JORNALISTICA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1190.0
+   },
+   {
+    "cnpj": "00373634000190",
+    "nome": "EDITORIAL NOVA FOLHA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "94555141000114",
+    "nome": "ROJOEL SIMAS DO AMARAL",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "59549786000143",
+    "nome": "PULSO SOLUCOES EM COMUNICACAO E CULTURA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 972.4
+   },
+   {
+    "cnpj": "53018874000132",
+    "nome": "D2 CONSULTORIA E INTEGRACAO COMUNICACAO LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 850.0
+   },
+   {
+    "cnpj": "13739341000125",
+    "nome": "CYBER DIM SERVICOS GRAFICOS E BRINDES LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 518.0
+   },
+   {
+    "cnpj": "08467115000100",
+    "nome": "COMPANHIA ESTADUAL DE DISTRIBUICAO DE ENERGIA ELETRICA - CEEE-D",
+    "cnae": "35140",
+    "n_despesas": 1,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 487.02
+   },
+   {
+    "cnpj": "97178560000172",
+    "nome": "G C S EDITORA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 360.0
+   },
+   {
+    "cnpj": "92660760000143",
+    "nome": "VEPPO CIA LIMITADA",
+    "cnae": "79902",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 283.45
+   },
+   {
+    "cnpj": "68748772000140",
+    "nome": "MZ FERNANDES IMPRESSOS LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 149.5
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 138,
+   "total": 423615.62,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 349499.0,
+    "Despesas com pessoal": 12251.0,
+    "Despesas com transporte ou deslocamento": 6215.62,
+    "Locação/cessão de bens imóveis": 39150.0,
+    "Publicidade por carros de som": 10500.0,
+    "Serviços advocatícios": 3000.0,
+    "Serviços prestados por terceiros": 3000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

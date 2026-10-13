@@ -1,0 +1,90 @@
+{
+ "sq": "190002533695",
+ "nome_urna": "RENATO MIRANDA",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 552684.66,
+  "por_origem": {
+   "Recursos de outros candidatos": 52684.66,
+   "Recursos de partido político": 500000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 552684.66
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 500000.0
+   },
+   {
+    "cnpj": "68236968000155",
+    "nome": "JORGE LUCIO FERREIRA MIRANDA",
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68470280000135",
+    "nome": "DOUGLAS RUAS DOS SANTOS",
+    "total": 2684.66
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 255499.0,
+  "total_pago": 259145.2,
+  "fornecedores_pj": [
+   {
+    "cnpj": "26712256000115",
+    "nome": "GRAFICA ROSA E SILVA 2016 LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 33436.5
+   },
+   {
+    "cnpj": "59505525000121",
+    "nome": "ESFERA ATITUDE COMUNICACAO VISUAL LTDA",
+    "cnae": "63992",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 27743.0
+   },
+   {
+    "cnpj": "63638307000132",
+    "nome": "63.638.307 LILIANE SOUZA MAGALHAES PEIXOTO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 5300.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 43,
+   "total": 189019.5,
+   "por_tipo": {
+    "Despesas com pessoal": 159000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 19.5,
+    "Serviços advocatícios": 15000.0,
+    "Serviços contábeis": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,267 @@
+{
+ "sq": "60002542476",
+ "nome_urna": "LUIZIANNE",
+ "cargo": "senador",
+ "uf": "CE",
+ "partido": "REDE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2646567.95,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 7915.0,
+   "Recursos de partido político": 2200000.0,
+   "Recursos de pessoas físicas": 438652.95
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2200000.0,
+   "OUTROS RECURSOS": 446567.95
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "17981188000107",
+    "nome": "Direção Nacional - REDE",
+    "total": 2200000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 7915.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 438652.95
+  }
+ },
+ "despesas": {
+  "total_contratado": 3158114.53,
+  "total_pago": 1856754.29,
+  "fornecedores_pj": [
+   {
+    "cnpj": "04405470000196",
+    "nome": "CONTACTO RELACOES PUBLICAS LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "14097991000187",
+    "nome": "RH8 SERVICOS E TERCEIRIZACOES LTDA",
+    "cnae": "78108",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 444520.0
+   },
+   {
+    "cnpj": "07167712000149",
+    "nome": "ADVENTSEVEN SERVICOS, GESTAO E DESENVOLVIMENTO GERENCIAL LTDA",
+    "cnae": "86101",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 239952.0
+   },
+   {
+    "cnpj": "13333253000129",
+    "nome": "EXECUTIVE AIR TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 235000.0
+   },
+   {
+    "cnpj": "04549133000172",
+    "nome": "SOLUTION ASSESSORIA, PLANEJAMENTO E SERVICOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "58335777000197",
+    "nome": "XL EMPREENDIMENTOS, LOCACOES E FARDAMENTOS LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 36000.0
+   },
+   {
+    "cnpj": "37801155000137",
+    "nome": "37.801.155 KELVIA CAMILA AGUIAR BRAZ",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 24775.0
+   },
+   {
+    "cnpj": "01971883000140",
+    "nome": "C A S LOCACAO E SERVICO LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "35893185000195",
+    "nome": "FRANCISCO RICHARDSON GONDIM CAVALCANTE LOCACOES E VIAGENS",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 19800.0
+   },
+   {
+    "cnpj": "00586176000177",
+    "nome": "LOCARFLEX LOCACOES DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9750.0
+   },
+   {
+    "cnpj": "11227495000102",
+    "nome": "UNY GESTAO DE BENEFICIOS LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 8257.95
+   },
+   {
+    "cnpj": "03884180000100",
+    "nome": "AARON INDUSTRIA DE ROTULOS E ETIQUETAS ADESIVAS LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5675.0
+   },
+   {
+    "cnpj": "46614298000120",
+    "nome": "MAC ASSESSORIA CONTABIL E SERVICOS ADMINISTRATIVOS",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5200.0
+   },
+   {
+    "cnpj": "14332147000193",
+    "nome": "14.332.147 ALUIZIO MOISES DE MEDEIROS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "05036551000129",
+    "nome": "JAYMES ALVES FERREIRA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2800.0
+   },
+   {
+    "cnpj": "04011639000123",
+    "nome": "PRINT SOLUCOES GRAFICAS E EVENTOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2200.0
+   },
+   {
+    "cnpj": "23715659000120",
+    "nome": "EXPRESSAO GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1150.0
+   },
+   {
+    "cnpj": "58979198000187",
+    "nome": "AMA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1088.09
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 163.99
+   },
+   {
+    "cnpj": "02824298000180",
+    "nome": "PRINTCOLOR GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 80.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 6,
+   "total": 48702.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.5,
+    "Locação/cessão de bens imóveis": 30700.0,
+    "Publicidade por carros de som": 8000.0,
+    "Serviços prestados por terceiros": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

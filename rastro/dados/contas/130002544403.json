@@ -1,0 +1,179 @@
+{
+ "sq": "130002544403",
+ "nome_urna": "JOÃO DO SOCIAL",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "AVANTE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 851102.77,
+  "por_origem": {
+   "Recursos de partido político": 353302.77,
+   "Recursos de pessoas físicas": 497800.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 225000.0,
+   "FUNDO PARTIDARIO": 125000.0,
+   "OUTROS RECURSOS": 501102.77
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "59933952000100",
+    "nome": "Direção Nacional - AVANTE",
+    "total": 350000.0
+   },
+   {
+    "cnpj": "14545907000140",
+    "nome": "Direção Estadual/Distrital - PSD - MINAS GERAIS",
+    "total": 3302.77
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 15,
+   "total": 497800.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 570337.78,
+  "total_pago": 449444.73,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 76833.43
+   },
+   {
+    "cnpj": "67203584000173",
+    "nome": "MPP PRIME SERVICOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por carros de som",
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 61000.0
+   },
+   {
+    "cnpj": "61144095000101",
+    "nome": "SUDESTE GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 12,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 46624.0
+   },
+   {
+    "cnpj": "37930582000115",
+    "nome": "LIMA RIBEIRO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 46000.0
+   },
+   {
+    "cnpj": "64204416000104",
+    "nome": "GMP PUBLICIDADE E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 14,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26238.5
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "48716128000182",
+    "nome": "GUILHERME AUGUSTO BRAGA MORAIS",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "16948306000104",
+    "nome": "LR GERAIS SOLUCOES EM GESTAO PUBLICA LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "25284079000150",
+    "nome": "25.284.079 HUDSON GOUTHIER DOS SANTOS JUNIOR",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "47181347000141",
+    "nome": "RIBEIRO ASSESSORIA EM GESTAO PUBLICA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "48531130000187",
+    "nome": "REDE MAIS DE COMBUSTIVEIS SALGADO FILHO LTDA",
+    "cnae": "47318",
+    "n_despesas": 10,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3792.85
+   },
+   {
+    "cnpj": "22257109000141",
+    "nome": "CREDICAR LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2929.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 271,
+   "total": 246920.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 175500.0,
+    "Locação/cessão de bens imóveis": 31720.0,
+    "Serviços prestados por terceiros": 39700.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

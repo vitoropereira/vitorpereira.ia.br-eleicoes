@@ -1,0 +1,391 @@
+{
+ "sq": "200002533868",
+ "nome_urna": "THABATTA PIMENTA",
+ "cargo": "depfed",
+ "uf": "RN",
+ "partido": "PV",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2500000.0,
+  "por_origem": {
+   "Recursos de partido político": 2500000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2500000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "31886963000168",
+    "nome": "Direção Nacional - PV",
+    "total": 2500000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1816881.94,
+  "total_pago": 1963115.11,
+  "fornecedores_pj": [
+   {
+    "cnpj": "31464054000131",
+    "nome": "F R COSTA JUNIOR PRODUCOES LIMITADA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 263020.0
+   },
+   {
+    "cnpj": "18974321000152",
+    "nome": "PRIORI COMUNICACAO ESTRATEGICA LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 230000.0
+   },
+   {
+    "cnpj": "11621320000185",
+    "nome": "M2 PLACAS E REVESTIMENTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 207773.97
+   },
+   {
+    "cnpj": "30967451000163",
+    "nome": "E COSTA DE SOUSA MACHADO",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 195000.0
+   },
+   {
+    "cnpj": "18945591000135",
+    "nome": "FERNANDES SILVEIRA ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 130000.0
+   },
+   {
+    "cnpj": "31321080000100",
+    "nome": "UNIGRAFICA INDUSTRIA GRAFICA LTDA",
+    "cnae": "17311",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 106347.0
+   },
+   {
+    "cnpj": "06915826000167",
+    "nome": "V FERNANDES BARBOSA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 90000.0
+   },
+   {
+    "cnpj": "33289983000187",
+    "nome": "LUIZ JERONIMO DE OLIVEIRA NETO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "58328976000178",
+    "nome": "C L FEITOSA COMERCIO E REPRESENTACOES LTDA",
+    "cnae": "46184",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 57827.9
+   },
+   {
+    "cnpj": "33612041000198",
+    "nome": "MAIA DANTAS CONSULTORIA ADMINISTRATIVA LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "04890770000108",
+    "nome": "INFOARTE LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21800.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "04065360000203",
+    "nome": "QUIRINO E SOUZA COMERCIO DE PETROLEO E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 16894.14
+   },
+   {
+    "cnpj": "20101345000149",
+    "nome": "AUGUSTO JOSE SILVEIRA PAIZINHO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 16200.0
+   },
+   {
+    "cnpj": "02728914000107",
+    "nome": "GADELHA RENT A CAR UNIPESSOAL LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "35058328000143",
+    "nome": "CATAMARAN COMERCIO E EVENTOS LTDA",
+    "cnae": "47296",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 13855.0
+   },
+   {
+    "cnpj": "42908733000179",
+    "nome": "PAVEL RENT CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12749.85
+   },
+   {
+    "cnpj": "44939813000117",
+    "nome": "MW DESIGN COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 12250.0
+   },
+   {
+    "cnpj": "46185418000111",
+    "nome": "C A DE F LOPES IMOVEIS",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "31923490000121",
+    "nome": "HS CAMISAS E SERIGRAFIA LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8400.0
+   },
+   {
+    "cnpj": "08546675000142",
+    "nome": "MUNDIAL VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7833.33
+   },
+   {
+    "cnpj": "34395351000160",
+    "nome": "ALINE L. DE ARAUJO SILVA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5331.62
+   },
+   {
+    "cnpj": "13587119000154",
+    "nome": "R4 - INDUSTRIA E COMERCIO LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "28256464000182",
+    "nome": "REVENDEDORA DE COMBUSTIVEIS BRASIL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2683.8
+   },
+   {
+    "cnpj": "47643797000109",
+    "nome": "47.643.797 WANNESSA MARIA DE OLIVEIRA CARLOS",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2644.0
+   },
+   {
+    "cnpj": "55034113000108",
+    "nome": "WELL POSTOS VII LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2364.41
+   },
+   {
+    "cnpj": "08383127000149",
+    "nome": "G.BEZERRA DE QUEIROZ CIA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2295.66
+   },
+   {
+    "cnpj": "58212328000151",
+    "nome": "AUTO POSTO D A LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1517.64
+   },
+   {
+    "cnpj": "21228121000165",
+    "nome": "J L MENDES DA CUNHA FILHO",
+    "cnae": "47237",
+    "n_despesas": 2,
+    "tipos": [
+     "Água"
+    ],
+    "total": 1480.44
+   },
+   {
+    "cnpj": "57803533000129",
+    "nome": "COMUNICACAO VISUAL SERIDO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 980.0
+   },
+   {
+    "cnpj": "07305986000157",
+    "nome": "POSTO DE COMBUSTIVEL AZEVEDO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 838.0
+   },
+   {
+    "cnpj": "03271641000179",
+    "nome": "ARAUJO DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 704.41
+   },
+   {
+    "cnpj": "24594640000216",
+    "nome": "R C F SILVA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 494.99
+   },
+   {
+    "cnpj": "40215596000161",
+    "nome": "J. SABINO DANTAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 419.58
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 61,
+   "total": 266576.2,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 15000.0,
+    "Cessão ou locação de veículos": 9921.0,
+    "Despesas com pessoal": 191200.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 155.2,
+    "Locação/cessão de bens imóveis": 50300.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

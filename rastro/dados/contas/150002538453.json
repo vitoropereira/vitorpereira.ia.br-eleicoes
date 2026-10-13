@@ -1,0 +1,293 @@
+{
+ "sq": "150002538453",
+ "nome_urna": "GEORGE MORAIS",
+ "cargo": "depfed",
+ "uf": "PB",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2415205.0,
+  "por_origem": {
+   "Recursos de partido político": 2400000.0,
+   "Recursos de pessoas físicas": 15205.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2400000.0,
+   "OUTROS RECURSOS": 15205.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2400000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 10,
+   "total": 15205.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1433093.83,
+  "total_pago": 1192742.19,
+  "fornecedores_pj": [
+   {
+    "cnpj": "41584767000192",
+    "nome": "41.584.767 KAIQUE BATISTA DA SILVA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "12478675000120",
+    "nome": "AGENCIA NUCLEO 83 SOLUCOES E SERVICOS LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 240000.0
+   },
+   {
+    "cnpj": "42197534000108",
+    "nome": "PETRONIO MATHEUS DUARTE ZACARIAS",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 220000.0
+   },
+   {
+    "cnpj": "39748524000109",
+    "nome": "ALINE KELY LUIZA MATIAS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "37969076000130",
+    "nome": "37.969.076 DENYS DEIVISON DANTAS MELQUIADES",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "61601848000160",
+    "nome": "THIAGO CANDEIA ANTUNES LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "25215800000150",
+    "nome": "GEM PRINT COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "59203864000153",
+    "nome": "59.203.864 JORDAN NOBREGA DE OLIVEIRA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "57278556000161",
+    "nome": "57.278.556 SILVIO CARLOS FERREIRA MEDEIROS",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "07796243000127",
+    "nome": "PLASTFORT- INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
+    "cnae": "22226",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20158.33
+   },
+   {
+    "cnpj": "37735608000174",
+    "nome": "ZAPIER GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "45443633000102",
+    "nome": "JD IMPRESSOS PERSONALIZADOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "56155032000110",
+    "nome": "56.155.032 RAFAELA GOMES BERNARDO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "30058024000162",
+    "nome": "FF LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "11372084002073",
+    "nome": "POSTO ALTERNATIVA DE COMBUSTIVEL E SERVICO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1910.01
+   },
+   {
+    "cnpj": "35419936000136",
+    "nome": "POSTO DIESEL SAO JOSE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1680.38
+   },
+   {
+    "cnpj": "11372084000100",
+    "nome": "POSTO ALTERNATIVA DE COMBUSTIVEL E SERVICO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1266.02
+   },
+   {
+    "cnpj": "11372084001778",
+    "nome": "POSTO ALTERNATIVA DE COMBUSTIVEL E SERVICO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 547.2
+   },
+   {
+    "cnpj": "11372084001425",
+    "nome": "POSTO ALTERNATIVA DE COMBUSTIVEL E SERVICO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 539.76
+   },
+   {
+    "cnpj": "09225665000178",
+    "nome": "JOSE ARAUJO",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 515.03
+   },
+   {
+    "cnpj": "11372084000534",
+    "nome": "POSTO ALTERNATIVA DE COMBUSTIVEL E SERVICO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 411.01
+   },
+   {
+    "cnpj": "11372084001344",
+    "nome": "POSTO ALTERNATIVA DE COMBUSTIVEL E SERVICO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 265.68
+   },
+   {
+    "cnpj": "11372084001697",
+    "nome": "POSTO ALTERNATIVA DE COMBUSTIVEL E SERVICO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 197.7
+   },
+   {
+    "cnpj": "11372084000615",
+    "nome": "POSTO ALTERNATIVA DE COMBUSTIVEL E SERVICO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 130.21
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 55,
+   "total": 213472.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 77770.0,
+    "Despesas com pessoal": 4500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 202.5,
+    "Serviços contábeis": 40000.0,
+    "Serviços prestados por terceiros": 91000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

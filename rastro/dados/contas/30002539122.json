@@ -1,0 +1,99 @@
+{
+ "sq": "30002539122",
+ "nome_urna": "JORGE AMANAJAS",
+ "cargo": "depest",
+ "uf": "AP",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 826980.0,
+  "por_origem": {
+   "Recursos de partido político": 773280.0,
+   "Recursos de pessoas físicas": 53700.0
+  },
+  "por_fonte": {
+   "FUNDO PARTIDARIO": 773280.0,
+   "OUTROS RECURSOS": 53700.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "45857088000109",
+    "nome": "Direção Estadual/Distrital - UNIÃO - AMAPÁ",
+    "total": 773280.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 53700.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 40994.1,
+  "total_pago": 31094.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "09175231000100",
+    "nome": "M R COM E SERVICOS LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "58188215000168",
+    "nome": "A. M. DOS ANJOS QUARESMA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14740.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 2280.0
+   },
+   {
+    "cnpj": "14784141000157",
+    "nome": "G DE O GOMES",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1960.0
+   },
+   {
+    "cnpj": "28893302000155",
+    "nome": "K. F. PRODUCOES LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1300.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 5714.1,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 14.1,
+    "Locação/cessão de bens imóveis": 5700.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

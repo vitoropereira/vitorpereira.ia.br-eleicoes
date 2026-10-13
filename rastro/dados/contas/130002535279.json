@@ -1,0 +1,243 @@
+{
+ "sq": "130002535279",
+ "nome_urna": "ROGÉRIO CORREIA",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2173500.0,
+  "por_origem": {
+   "Recursos de partido político": 1815500.0,
+   "Recursos de pessoas físicas": 333000.0,
+   "Recursos próprios": 25000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1815500.0,
+   "OUTROS RECURSOS": 358000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1815500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 47,
+   "total": 358000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1442612.89,
+  "total_pago": 1878479.97,
+  "fornecedores_pj": [
+   {
+    "cnpj": "07723260000134",
+    "nome": "ALICERCE EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 40,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 266340.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 9,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "49997700000191",
+    "nome": "SCHMIDT PRAXEDES ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "46311000000103",
+    "nome": "R5 COMUNICACAO E MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 39541.05
+   },
+   {
+    "cnpj": "07276180000188",
+    "nome": "KERR INDUSTRIA E COMERCIO DE BRINDES E SUPRIMENTOS LTDA",
+    "cnae": "46435",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 26700.0
+   },
+   {
+    "cnpj": "12305622000107",
+    "nome": "PONTUAL LOC CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 21816.66
+   },
+   {
+    "cnpj": "09122507000192",
+    "nome": "VISION COMUNICACAO EM IMPRESSAO DIGITAL LTDA",
+    "cnae": "82997",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 19500.0
+   },
+   {
+    "cnpj": "65925144000102",
+    "nome": "65.925.144 EDUARDO DOS SANTOS CORREA RIBEIRO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "17318718000123",
+    "nome": "PROMOVENDO PUBLICIDADE E PROMOCOES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 9800.0
+   },
+   {
+    "cnpj": "17779395000175",
+    "nome": "UBUNTU PRODUCOES ARTISTICAS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 6720.0
+   },
+   {
+    "cnpj": "10863221000147",
+    "nome": "IMPRESS EDITORA E GRAFICA LTDA",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "26571189000166",
+    "nome": "ROSSO MENDES LOCACAO LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5105.88
+   },
+   {
+    "cnpj": "48776960000174",
+    "nome": "CEU - CARGAS URGENTES LTDA",
+    "cnae": "49302",
+    "n_despesas": 26,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 5028.69
+   },
+   {
+    "cnpj": "48442998000100",
+    "nome": "SO PICK-UPS 4X4 LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "17462474000158",
+    "nome": "POSTO TOCANTINS LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3894.51
+   },
+   {
+    "cnpj": "01003939000172",
+    "nome": "COMPUMAKE LOCACAO DE COMPUTADORES LTDA",
+    "cnae": "46516",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2780.0
+   },
+   {
+    "cnpj": "67682436000189",
+    "nome": "FESTA DE FATO BH LTDA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1260.0
+   },
+   {
+    "cnpj": "04389355000175",
+    "nome": "CASEMIRO DECOR LTDA",
+    "cnae": "77390",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 890.0
+   },
+   {
+    "cnpj": "26641981000140",
+    "nome": "BH MIDIA AUDIO E VIDEO LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 650.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 263,
+   "total": 731586.1,
+   "por_tipo": {
+    "Despesas com pessoal": 687480.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 106.1,
+    "Locação/cessão de bens imóveis": 24000.0,
+    "Serviços contábeis": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

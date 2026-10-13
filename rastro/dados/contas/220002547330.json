@@ -1,0 +1,166 @@
+{
+ "sq": "220002547330",
+ "nome_urna": "DELEGADO ARAÚJO",
+ "cargo": "depest",
+ "uf": "RO",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 613426.16,
+  "por_origem": {
+   "Recursos de outros candidatos": 100000.0,
+   "Recursos de partido político": 207142.85,
+   "Recursos de pessoas físicas": 191529.01,
+   "Recursos próprios": 114754.3
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 307142.85,
+   "OUTROS RECURSOS": 306283.31
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 207142.85
+   },
+   {
+    "cnpj": "68470329000150",
+    "nome": "THIAGO LEITE FLORES PEREIRA",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 74,
+   "total": 306283.31
+  }
+ },
+ "despesas": {
+  "total_contratado": 410545.27,
+  "total_pago": 173712.71,
+  "fornecedores_pj": [
+   {
+    "cnpj": "34456848000141",
+    "nome": "C R B GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24160.0
+   },
+   {
+    "cnpj": "04990970000132",
+    "nome": "R. B. S. TRANSPORTES LTDA",
+    "cnae": "49213",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "08673662000134",
+    "nome": "LOURA JUNIOR FERREIRA NETO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "66457876000170",
+    "nome": "VERTICE INTELIGENCIA LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "04647634000191",
+    "nome": "ARUMA LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "04010130000166",
+    "nome": "GAROTINHO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5345.08
+   },
+   {
+    "cnpj": "63837996000104",
+    "nome": "63.837.996 DIOGO KIHARA DE BARROS",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "43643922000120",
+    "nome": "JIMMY MAXI",
+    "cnae": "43223",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "40973128000156",
+    "nome": "G. C. S. RESTAURANTE LTDA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "41860179000134",
+    "nome": "J NICARETTA LAVADOR",
+    "cnae": "45200",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 250.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 129,
+   "total": 313590.19,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 305590.19,
+    "Cessão ou locação de veículos": 8000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

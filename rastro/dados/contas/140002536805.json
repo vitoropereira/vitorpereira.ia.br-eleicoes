@@ -1,0 +1,100 @@
+{
+ "sq": "140002536805",
+ "nome_urna": "JUÁ PARÁ",
+ "cargo": "depest",
+ "uf": "PA",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 403255.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 15795.0,
+   "Recursos de partido político": 387460.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 215795.0,
+   "FUNDO PARTIDARIO": 187460.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "07959180000182",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - PARÁ",
+    "total": 187460.0
+   },
+   {
+    "cnpj": "68379728000100",
+    "nome": "EVANDRO GARLA PEREIRA DA SILVA",
+    "total": 15795.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 122514.5,
+  "total_pago": 131299.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "68711056000198",
+    "nome": "BRUNA LUCIANA NASCIMENTO DE LIMA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "22261677000116",
+    "nome": "EUCLIDES SIZO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "27830860000109",
+    "nome": "F PIRES PRODUCOES DE EVENTOS, COMERCIO E SERVICOS LTDA",
+    "cnae": "32990",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14010.0
+   },
+   {
+    "cnpj": "36220410000195",
+    "nome": "TACIOMAR GONCALVES FRAZAO",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 35004.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 15000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 4.5,
+    "Serviços contábeis": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

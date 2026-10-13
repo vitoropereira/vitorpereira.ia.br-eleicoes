@@ -1,0 +1,103 @@
+{
+ "sq": "70002538488",
+ "nome_urna": "PASTOR DANIEL DE CASTRO",
+ "cargo": "distrital",
+ "uf": "DF",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 309861.4,
+  "por_origem": {
+   "Recursos de outros candidatos": 1361.4,
+   "Recursos de partido político": 200000.0,
+   "Recursos de pessoas físicas": 108500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 100000.0,
+   "FUNDO PARTIDARIO": 100000.0,
+   "OUTROS RECURSOS": 109861.4
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "06254282000130",
+    "nome": "Direção Estadual/Distrital - PP - DISTRITO FEDERAL",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68608545000119",
+    "nome": "CELINA LEAO HIZIM FERREIRA",
+    "total": 1361.4
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 26,
+   "total": 108500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 230430.2,
+  "total_pago": 95873.38,
+  "fornecedores_pj": [
+   {
+    "cnpj": "20619709000187",
+    "nome": "AB GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 47640.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 13000.0
+   },
+   {
+    "cnpj": "06253212000167",
+    "nome": "EZZATA CONSULTORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QUEROAPOIAR.COM.BR LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 349.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 108,
+   "total": 158441.2,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 141000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 441.2,
+    "Locação/cessão de bens imóveis": 12000.0,
+    "Serviços advocatícios": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

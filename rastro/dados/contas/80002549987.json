@@ -1,0 +1,172 @@
+{
+ "sq": "80002549987",
+ "nome_urna": "DAVI ESMAEL",
+ "cargo": "depest",
+ "uf": "ES",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 129873.33,
+  "por_origem": {
+   "Recursos de outros candidatos": 72823.33,
+   "Recursos de pessoas físicas": 56250.0,
+   "Recursos próprios": 800.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 72823.33,
+   "OUTROS RECURSOS": 57050.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68464773000162",
+    "nome": "ERICK CABRAL MUSSO",
+    "total": 54430.0
+   },
+   {
+    "cnpj": "68608213000134",
+    "nome": "LORENZO SILVA DE PAZOLINI",
+    "total": 13393.33
+   },
+   {
+    "cnpj": "68608044000132",
+    "nome": "EVAIR VIEIRA DE MELO",
+    "total": 5000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 24,
+   "total": 57050.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 57261.32,
+  "total_pago": 78973.63,
+  "fornecedores_pj": [
+   {
+    "cnpj": "08646158000145",
+    "nome": "AQUARELA PERSONAL PRINT LTDA",
+    "cnae": "47415",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12726.52
+   },
+   {
+    "cnpj": "06114403000148",
+    "nome": "VIACOOPS COOPERATIVA DE SOLUCAO EM TRANSPORTES",
+    "cnae": "49230",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8250.0
+   },
+   {
+    "cnpj": "27326594000181",
+    "nome": "KING AUTOMOTORES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4542.8
+   },
+   {
+    "cnpj": "01671561000185",
+    "nome": "GM GRAFICA EDITORA LTDA",
+    "cnae": "58212",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2904.0
+   },
+   {
+    "cnpj": "63956986000198",
+    "nome": "SAMPOGNA CONFECCAO - PERSONALIZACAO - TERMICOS - BRINDES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2697.0
+   },
+   {
+    "cnpj": "34912794000181",
+    "nome": "LP PRODUCOES DE EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "27066273000195",
+    "nome": "POSTO ARVOREDO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1768.12
+   },
+   {
+    "cnpj": "56259092000183",
+    "nome": "CONECTANDO COMERCIO E SERVICO AUDIOVISUAL E INTERNET LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "08788618000170",
+    "nome": "J. S. PETROLEO E COMERCIO LTDA.",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 477.11
+   },
+   {
+    "cnpj": "10219055000140",
+    "nome": "TECPRINT COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 275.0
+   },
+   {
+    "cnpj": "16577742000114",
+    "nome": "AUTO POSTO ESCOLA COMERCIO DE COMBUSTIVEIS, LUBRIFICANTES E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 218.27
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 8,
+   "total": 19902.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 1000.0,
+    "Cessão ou locação de veículos": 4100.0,
+    "Despesas com pessoal": 14800.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

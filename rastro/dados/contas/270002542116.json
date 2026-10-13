@@ -1,0 +1,353 @@
+{
+ "sq": "270002542116",
+ "nome_urna": "IRATÃ ABREU",
+ "cargo": "depfed",
+ "uf": "TO",
+ "partido": "PSDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 824087.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 25087.0,
+   "Recursos de partido político": 500000.0,
+   "Recursos de pessoas físicas": 106000.0,
+   "Recursos próprios": 193000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 515087.0,
+   "OUTROS RECURSOS": 309000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "03653474000120",
+    "nome": "Direção Nacional - PSDB",
+    "total": 500000.0
+   },
+   {
+    "cnpj": "68499988000119",
+    "nome": "VICENTE ALVES DE OLIVEIRA JUNIOR",
+    "total": 25087.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 299000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 789372.33,
+  "total_pago": 766625.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 72000.0
+   },
+   {
+    "cnpj": "18418403000110",
+    "nome": "E. C. V. DE ALENCAR LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "51615351000148",
+    "nome": "ART MUSIC STUDIO PRODUTORA DE AUDIO VIDEO LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "18475438000191",
+    "nome": "LEMES E ANTUNYS LTDA",
+    "cnae": "18130",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 37090.2
+   },
+   {
+    "cnpj": "43542509000179",
+    "nome": "MAFA COMUNICACAO LTDA",
+    "cnae": "47598",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 31800.0
+   },
+   {
+    "cnpj": "07825085000196",
+    "nome": "JUVENAL KLAYBER GUINZELLI SOCIEDADE DE ADVOGADOS S/S",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "50140118000193",
+    "nome": "AGROPECUARIA SAO BENTO LTDA",
+    "cnae": "01512",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "22794235000135",
+    "nome": "DFP COMERCIAL LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "30764334000100",
+    "nome": "4 CANTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "19327003000162",
+    "nome": "AEROPOSTO NACIONAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 12383.75
+   },
+   {
+    "cnpj": "45594201000100",
+    "nome": "CLIC PERFORMANCE DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "97486534000101",
+    "nome": "MCM-COM DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "00798638000110",
+    "nome": "AGUA SANTA CLARA IND. E COM. DE BEBIDAS LTDA",
+    "cnae": "11216",
+    "n_despesas": 5,
+    "tipos": [
+     "Água"
+    ],
+    "total": 7800.0
+   },
+   {
+    "cnpj": "11265707000146",
+    "nome": "LIMBERGER DISTRIBUIDORA LTDA",
+    "cnae": "46893",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6992.0
+   },
+   {
+    "cnpj": "12084954000290",
+    "nome": "PARAISO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6699.0
+   },
+   {
+    "cnpj": "19121257000120",
+    "nome": "A. PINHEIRO DE ARAUJO LTDA",
+    "cnae": "47121",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente",
+     "Água"
+    ],
+    "total": 5653.78
+   },
+   {
+    "cnpj": "15388714000196",
+    "nome": "LUKY MARKETING E PUBLICIDADE LTDA",
+    "cnae": "68218",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5550.0
+   },
+   {
+    "cnpj": "42072697000156",
+    "nome": "LOCASIM E SERVICOS LTDA",
+    "cnae": "25993",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 4650.0
+   },
+   {
+    "cnpj": "61954369000128",
+    "nome": "ESPACO 21 - SERVICOS E ADMINISTRACAO LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "01630610001294",
+    "nome": "MACTRA COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1999.2
+   },
+   {
+    "cnpj": "33707483000118",
+    "nome": "33.707.483 RODRIGO MENESES MACIEL",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "38304360000150",
+    "nome": "CASA MARTINS LTDA",
+    "cnae": "77217",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "29879891000180",
+    "nome": "IMPRIMEMAIS SOLUCOES EM IMPRESSAO LTDA",
+    "cnae": "77331",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "21261232000173",
+    "nome": "ROCHA INFORMATICA LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "00767293000137",
+    "nome": "ASSOCIACAO COMERCIAL, INDUSTRIAL E PRESTACIONAL DE COLINAS DO TOCANTINS",
+    "cnae": "94111",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 420.0
+   },
+   {
+    "cnpj": "31158948000101",
+    "nome": "J P PEREIRA BIZARRIA LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 390.0
+   },
+   {
+    "cnpj": "02691223000178",
+    "nome": "APLIK COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 250.0
+   },
+   {
+    "cnpj": "59258547000134",
+    "nome": "C A B DOS SANTOS",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 64.5
+   },
+   {
+    "cnpj": "35572655000119",
+    "nome": "GIGANTE CASH CARRY COMERCIO DE ALIMENTOS LTDA.",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3.9
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 191,
+   "total": 387326.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 222500.0,
+    "Cessão ou locação de veículos": 27365.0,
+    "Despesas com pessoal": 111370.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 91.0,
+    "Locação/cessão de bens imóveis": 26000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

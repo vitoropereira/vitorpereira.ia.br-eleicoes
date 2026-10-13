@@ -1,0 +1,230 @@
+{
+ "sq": "210002535664",
+ "nome_urna": "ADRIANA LARA",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1190000.0,
+  "por_origem": {
+   "Recursos de partido político": 1140000.0,
+   "Recursos de pessoas físicas": 6850.0,
+   "Recursos próprios": 43150.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1100000.0,
+   "OUTROS RECURSOS": 90000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1140000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 50000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 728252.45,
+  "total_pago": 1177472.45,
+  "fornecedores_pj": [
+   {
+    "cnpj": "12545856000121",
+    "nome": "JULIANO LONGARAY RODRIGUES",
+    "cnae": "47628",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 53945.0
+   },
+   {
+    "cnpj": "18662561000111",
+    "nome": "PABLO FERREIRA DA TRINDADE",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 46000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 44000.0
+   },
+   {
+    "cnpj": "13107308000182",
+    "nome": "EXAME FISCAL CONTABILIDADE E ASSESSORIA CONTABIL E FISCAL LTDA",
+    "cnae": "69206",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 33000.0
+   },
+   {
+    "cnpj": "14483979000100",
+    "nome": "CONFRARIA AUTOMOTIVA MECANICA E ESTETICA DE VEICULOS LTDA",
+    "cnae": "45200",
+    "n_despesas": 5,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 28198.68
+   },
+   {
+    "cnpj": "57080048000174",
+    "nome": "57.080.048 JOSE EVARISTO PRESTES DA SILVA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "11031931000173",
+    "nome": "PREDIAL GAUCHA CONSULTORIA IMOBILIARIA LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "42584139000170",
+    "nome": "DA LUZ ESTRATEGIA E ASSESSORIA DE IMAGEM LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "04686704000110",
+    "nome": "ESTAMPA ASSESSORIA E PESQUISAS DE OPINIAO SOCIEDADE SIMPLES LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "87415725001281",
+    "nome": "FUNDACAO ATTILA TABORDA",
+    "cnae": "58123",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 5040.0
+   },
+   {
+    "cnpj": "91294256000104",
+    "nome": "POSTO CINTURAO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 15,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "14131443000126",
+    "nome": "ABREU FLORES PEREIRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3640.0
+   },
+   {
+    "cnpj": "40294106000160",
+    "nome": "TIAGO MENDES NOCCHI",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "10711442000108",
+    "nome": "BRUNO DA SILVA TORRES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "04066340000176",
+    "nome": "ECO REGIONAL EMPREENDIMENTOS JORNALISTICOS LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 980.0
+   },
+   {
+    "cnpj": "29982046000135",
+    "nome": "VINICIUS DA SILVA CAMPELLO",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 569.75
+   },
+   {
+    "cnpj": "34838778000196",
+    "nome": "JULIANA ANSELVA BIDINOTO",
+    "cnae": "32124",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 250.0
+   },
+   {
+    "cnpj": "87465613000182",
+    "nome": "JOAO CARLOS PINHEIRO FILHO LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 180.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 222,
+   "total": 429249.02,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 412249.02,
+    "Locação/cessão de bens imóveis": 17000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

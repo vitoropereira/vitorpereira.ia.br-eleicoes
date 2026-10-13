@@ -1,0 +1,202 @@
+{
+ "sq": "50002531399",
+ "nome_urna": "FELIX MENDONÇA",
+ "cargo": "depfed",
+ "uf": "BA",
+ "partido": "PDT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3000000.0,
+  "por_origem": {
+   "Recursos de partido político": 3000000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1500000.0,
+   "FUNDO PARTIDARIO": 1500000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00719575000169",
+    "nome": "Direção Nacional - PDT",
+    "total": 3000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1438221.8,
+  "total_pago": 2834740.92,
+  "fornecedores_pj": [
+   {
+    "cnpj": "67738741000145",
+    "nome": "CONECTA+ COMUNICACAO INTEGRADA LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 400000.0
+   },
+   {
+    "cnpj": "58341088000195",
+    "nome": "MRD COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "41651099000179",
+    "nome": "GRAFICA E SINGS LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 198047.0
+   },
+   {
+    "cnpj": "34983665000184",
+    "nome": "W. S. QUEIROZ LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "66742739000187",
+    "nome": "MYPRINT - GRAFICA E COMUNICACAO VISUAL LTDA",
+    "cnae": "62040",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 91775.0
+   },
+   {
+    "cnpj": "66248366000192",
+    "nome": "GIGA MIX GABRIEL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 63090.0
+   },
+   {
+    "cnpj": "46232933000105",
+    "nome": "GLADSON COSTA FERREIRA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos",
+     "Despesas com pessoal"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "55719917000132",
+    "nome": "55.719.917 MARIA ELIZABETE MONTEIRO LIMA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "48000333000147",
+    "nome": "C C COMUNICACAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 28000.0
+   },
+   {
+    "cnpj": "33867664000101",
+    "nome": "CONTRASTE EDITORA E INDUSTRIA GRAFICA LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "39993494000198",
+    "nome": "PEDRO HENRIQUE NOGUEIRA SANTOS",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "07553121000100",
+    "nome": "VL VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5335.0
+   },
+   {
+    "cnpj": "13994363000131",
+    "nome": "EMMANUEL VARGAS LEAL FILHO LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4180.0
+   },
+   {
+    "cnpj": "32681867000146",
+    "nome": "DESING DIGITAL E ASSESSORIA LTDA",
+    "cnae": "62040",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2250.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 8,
+   "total": 138044.8,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 44.8,
+    "Serviços prestados por terceiros": 136000.0,
+    "Serviços próprios prestados por terceiros": 2000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

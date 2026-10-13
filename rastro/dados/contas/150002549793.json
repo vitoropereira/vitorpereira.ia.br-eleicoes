@@ -1,0 +1,557 @@
+{
+ "sq": "150002549793",
+ "nome_urna": "JOAO AZEVÊDO",
+ "cargo": "senador",
+ "uf": "PB",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3035540.4,
+  "por_origem": {
+   "Recursos de partido político": 2600000.0,
+   "Recursos de pessoas físicas": 85540.4,
+   "Recursos próprios": 350000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2600000.0,
+   "OUTROS RECURSOS": 435540.4
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 2600000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 435540.4
+  }
+ },
+ "despesas": {
+  "total_contratado": 2885427.36,
+  "total_pago": 2961007.61,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 500000.0
+   },
+   {
+    "cnpj": "60703704000152",
+    "nome": "UBI COMUNICACAO LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 400000.0
+   },
+   {
+    "cnpj": "47128288000148",
+    "nome": "NOEZ SERVICOS DE CONSULTORIA EM CAMPANHAS DE MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "58519010000118",
+    "nome": "STUDIO PULSO LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "68370982000147",
+    "nome": "CRIASI SERVICOS DE CONSULTORIA E MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "08540403000135",
+    "nome": "GRAFICA J B LTDA",
+    "cnae": "18130",
+    "n_despesas": 8,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 107500.0
+   },
+   {
+    "cnpj": "03881176000198",
+    "nome": "ESTUDIO AUDIO VISUAL LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "10212999000196",
+    "nome": "FABIO BRITO FERREIRA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "62283329000164",
+    "nome": "AGENCIA ANENO PUBLICIDADE E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 88000.0
+   },
+   {
+    "cnpj": "55308004000123",
+    "nome": "PZERO CONSTRUTIVA LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 80460.0
+   },
+   {
+    "cnpj": "36417689000100",
+    "nome": "BORA ENTRETENIMENTO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "07796243000127",
+    "nome": "PLASTFORT- INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
+    "cnae": "22226",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 78115.0
+   },
+   {
+    "cnpj": "10596370000197",
+    "nome": "ASTEC GROUP CONTADORES ASSOCIADOS S/S LTDA.",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "19700128000196",
+    "nome": "SEGURA O BALANCE LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "67289168000130",
+    "nome": "IMAGINARI CENOGRAFIA E COMUNICACAO VISUAL LTDA",
+    "cnae": "90019",
+    "n_despesas": 4,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 64468.0
+   },
+   {
+    "cnpj": "26479153000157",
+    "nome": "AEROSPEED TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "02401445000109",
+    "nome": "O L LOCACAO E INCORPORACAO LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 36666.5
+   },
+   {
+    "cnpj": "08271306000194",
+    "nome": "MAIA EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "54786441000190",
+    "nome": "PIPA COWORKING LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "68492234000137",
+    "nome": "CRISTIANA MARIA AROUCHA LIMA FURTADO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "36603626000130",
+    "nome": "GRAZZIANE SCAPELLI CAVALCANTE BORGES",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 29988.0
+   },
+   {
+    "cnpj": "20072544000176",
+    "nome": "MAIS GRAFICA E SERVICOS LTDA",
+    "cnae": "18211",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26130.0
+   },
+   {
+    "cnpj": "68491683000160",
+    "nome": "JAILMA VASCONCELOS DE CARVALHO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "68492042000120",
+    "nome": "JOSE FREIRE DA COSTA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "68492018000191",
+    "nome": "ROBERTO LOPES BURITY",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "53992373000152",
+    "nome": "VERTICE SOLUCOES LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 10500.0
+   },
+   {
+    "cnpj": "12919833000130",
+    "nome": "PUMA NEGOCIOS IMOBILIARIOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68491443000166",
+    "nome": "KLECIDA NUNES RODRIGUES",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68491524000166",
+    "nome": "VALDINELE GOMES COSTA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68491532000102",
+    "nome": "JOSE PEREIRA DA SILVA FILHO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68491542000148",
+    "nome": "EDUARDO CARNEIRO DE BRITO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68491549000160",
+    "nome": "SIBELLE DA SILVA BARROS",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68491557000106",
+    "nome": "MARIA ALDENORA BEZERRA DE SOUSA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68491565000152",
+    "nome": "JANINE SILVA DE OLIVEIRA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68491654000107",
+    "nome": "CARLOS TIBERIO LIMEIRA SANTOS FERNANDES",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68491667000178",
+    "nome": "VIVIANE VIEIRA DE SOUSA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68491668000112",
+    "nome": "FLAVINA RACHEL FELICIANO DE AMORIM CAVALCANTI",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68491774000104",
+    "nome": "DANIEL SOARES DA COSTA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68491791000133",
+    "nome": "NIVALDO FERNANDES DE BARROS",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68491797000100",
+    "nome": "ANISIO SOARES MAIA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68492015000158",
+    "nome": "JOSE MARINALDO CARDOSO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68492155000126",
+    "nome": "GERLANE BANDEIRA DA SILVA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68492553000142",
+    "nome": "DIVANERE LIMA FERNANDES",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68628953000132",
+    "nome": "MARIA NILDALANIA BRAZ DE SOUZA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "10747286000127",
+    "nome": "GA LOCADORA DE VEICULOS E TURISMO LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "10619274000117",
+    "nome": "JME COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 6200.0
+   },
+   {
+    "cnpj": "37735608000174",
+    "nome": "ZAPIER GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "16403510000140",
+    "nome": "POSTO TRES LAGOAS COMERCIO E DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 320.0
+   },
+   {
+    "cnpj": "35724553000171",
+    "nome": "POSTO DE COMBUSTIVEIS RV LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 198.15
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 14,
+   "total": 27741.71,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 6600.0,
+    "Cessão ou locação de veículos": 6000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 25.5,
+    "Impostos, contribuições e taxas": 7616.21,
+    "Serviços prestados por terceiros": 7500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

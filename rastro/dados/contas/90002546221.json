@@ -1,0 +1,115 @@
+{
+ "sq": "90002546221",
+ "nome_urna": "CHARLES BENTO",
+ "cargo": "depest",
+ "uf": "GO",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 540000.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 490000.0,
+   "Recursos próprios": 50000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 540000.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 540000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 135785.5,
+  "total_pago": 125297.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "53948740000110",
+    "nome": "53.948.740 ALBERTO CORTES BARBOSA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "21135490000103",
+    "nome": "ROFE RENTAL E COMERCIO LTDA",
+    "cnae": "77322",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2700.0
+   },
+   {
+    "cnpj": "49801084000151",
+    "nome": "49.801.084 RANAELLEN VITORIA DE SOUSA SILVA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2700.0
+   },
+   {
+    "cnpj": "55845202000126",
+    "nome": "GOIAS DESTAQUE COMUNICACAO MARKETING E SERVICOS FINANCEIROS LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "56687074000100",
+    "nome": "DESTAK TEXTIL ESTAMPARIA E COMUNICACAO VISUAL LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "45372417000113",
+    "nome": "SOLUCOES ACABAMENTOS LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 820.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 46,
+   "total": 104565.5,
+   "por_tipo": {
+    "Despesas com pessoal": 68082.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.5,
+    "Locação/cessão de bens imóveis": 6480.0,
+    "Serviços advocatícios": 28000.0,
+    "Serviços contábeis": 2000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,404 @@
+{
+ "sq": "150002533578",
+ "nome_urna": "RUY CARNEIRO",
+ "cargo": "depfed",
+ "uf": "PB",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2009422.0,
+  "por_origem": {
+   "Recursos de partido político": 1890000.0,
+   "Recursos de pessoas físicas": 119422.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1890000.0,
+   "OUTROS RECURSOS": 119422.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 1890000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 10,
+   "total": 119422.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1651443.27,
+  "total_pago": 1714691.98,
+  "fornecedores_pj": [
+   {
+    "cnpj": "08540403000135",
+    "nome": "GRAFICA J B LTDA",
+    "cnae": "18130",
+    "n_despesas": 22,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 169590.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 134500.0
+   },
+   {
+    "cnpj": "39809327000144",
+    "nome": "ELECONT CONSULTORIA DE CONTAS ELEITORAL E PUBLICA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 110000.0
+   },
+   {
+    "cnpj": "25408506000165",
+    "nome": "CAVALCANTI E MENDES ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "33947343000117",
+    "nome": "MOSH COMUNICACAO E TECNOLOGIA LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "41162497000121",
+    "nome": "SELVA SERVICOS E PRODUCOES VISUAIS LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 65000.0
+   },
+   {
+    "cnpj": "29515835000166",
+    "nome": "CAISNOVO COMUNICACAO ESTRATEGIA E CONTEUDO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "10481872000172",
+    "nome": "APONTE EDITORA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "43676094000126",
+    "nome": "STEVEN ELLISON ARAUJO DE SOUSA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "51808825000178",
+    "nome": "MARMITAS JAMPA CABO BRANCO LTDA",
+    "cnae": "56201",
+    "n_despesas": 4,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 35172.0
+   },
+   {
+    "cnpj": "57018972000120",
+    "nome": "ABN LOCACAO E TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 31500.0
+   },
+   {
+    "cnpj": "47227438000170",
+    "nome": "OPINIAO PESQUISAS QUANTITATIVAS E QUALITATIVAS LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "44813219000185",
+    "nome": "CARLOS EDUARDO QUEIROGA MIRANDA",
+    "cnae": "58131",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "45457721000163",
+    "nome": "45.457.721 SAULO PACHECO DE OLIVEIRA FILHO",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "37735608000174",
+    "nome": "ZAPIER GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 19540.0
+   },
+   {
+    "cnpj": "10603988000137",
+    "nome": "PARLAMENTOPB COMUNICACAO LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "10541486000129",
+    "nome": "M3 LOCADORA DE VEICULOS LTDA.",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "19533015000143",
+    "nome": "NSF TRANSPORTES LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10183.49
+   },
+   {
+    "cnpj": "01420327000266",
+    "nome": "MOTOGAS INDUSTRIA DE COMPRESSAO E COMERCIO DE GAS NATURAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 8688.25
+   },
+   {
+    "cnpj": "07087863000197",
+    "nome": "GALVANNE RIVERA CAVALCANTE BORGES",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8100.0
+   },
+   {
+    "cnpj": "58594533000129",
+    "nome": "58.594.533 GABRIEL RIBEIRO SILVA DANTAS",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "40958703000141",
+    "nome": "40.958.703 WILKA MARCIA RODRIGUES DA SILVA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 5580.0
+   },
+   {
+    "cnpj": "44798673000104",
+    "nome": "44.798.673 RAYNARA ALEXANDRE DOS SANTOS SILVA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "48479891000137",
+    "nome": "48.479.891 JOAO VICTOR ALVES DE OLIVEIRA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "50184686000196",
+    "nome": "50.184.686 ANDRE ANTONIO RODRIGUES FREIRE",
+    "cnae": "58131",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "68836361000106",
+    "nome": "68.836.361 GLEYCE KELLY NOBREGA DE OLIVEIRA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2850.0
+   },
+   {
+    "cnpj": "70116132000169",
+    "nome": "SIND DAS EMP DE TRANSP COL URBAN DE PASS NO MUNIC DE JP",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2848.99
+   },
+   {
+    "cnpj": "07796243000127",
+    "nome": "PLASTFORT- INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
+    "cnae": "22226",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2671.5
+   },
+   {
+    "cnpj": "45443633000102",
+    "nome": "JD IMPRESSOS PERSONALIZADOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "33526158000159",
+    "nome": "MARCUS VINICIUS CORDEIRO DE MEDEIROS",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "04211357000331",
+    "nome": "VTO COMERCIO FARMACEUTICO LTDA",
+    "cnae": "47717",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 670.0
+   },
+   {
+    "cnpj": "68737075000193",
+    "nome": "68.737.075 SAMUEL ALYSSON DOMINGOS FRANCA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "01420327000509",
+    "nome": "MOTOGAS INDUSTRIA DE COMPRESSAO E COMERCIO DE GAS NATURAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 482.72
+   },
+   {
+    "cnpj": "01420327000428",
+    "nome": "MOTOGAS INDUSTRIA DE COMPRESSAO E COMERCIO DE GAS NATURAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 267.97
+   },
+   {
+    "cnpj": "01420327000185",
+    "nome": "MOTOGAS INDUSTRIA DE COMPRESSAO E COMERCIO DE GAS NATURAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 200.05
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 147,
+   "total": 644998.3,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 174847.0,
+    "Cessão ou locação de veículos": 8600.0,
+    "Despesas com pessoal": 417004.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 347.3,
+    "Locação/cessão de bens imóveis": 30000.0,
+    "Serviços prestados por terceiros": 14200.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

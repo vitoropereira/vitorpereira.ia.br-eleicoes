@@ -1,0 +1,167 @@
+{
+ "sq": "20002546941",
+ "nome_urna": "ISNALDO BULHÕES JR",
+ "cargo": "depfed",
+ "uf": "AL",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2560500.0,
+  "por_origem": {
+   "Recursos de partido político": 2000000.0,
+   "Recursos de pessoas físicas": 560500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2000000.0,
+   "OUTROS RECURSOS": 560500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 2000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 13,
+   "total": 560500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 649228.78,
+  "total_pago": 1149792.78,
+  "fornecedores_pj": [
+   {
+    "cnpj": "48390856000147",
+    "nome": "MATHEUS CAMPELO GUIMARAES DA SILVA LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 182176.0
+   },
+   {
+    "cnpj": "03893033000104",
+    "nome": "BRABO MAGALHAES ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "17569185000152",
+    "nome": "G M B DE CASTRO REIS",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "00887925000104",
+    "nome": "GRAFMARQUES INDUSTRIA EDITORA E SERVICOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 73618.0
+   },
+   {
+    "cnpj": "14876708000115",
+    "nome": "NOGUEIRA, ALBUQUERQUE E FREIRE ASSOCIADOS S/S",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "54715553000150",
+    "nome": "54.715.553 JOSE HORACIO MEDEIROS DE MELO",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 32000.0
+   },
+   {
+    "cnpj": "40560766000145",
+    "nome": "TM RENT CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "34625286000112",
+    "nome": "G M L DE ALBUQUERQUE LOCACOES LTDA",
+    "cnae": "49248",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "07313053000101",
+    "nome": "LINS E ALBUQUERQUE LOCACOES LTDA",
+    "cnae": "49248",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "22030264000120",
+    "nome": "ERICO ELIZIO DE ANDRADE VILAR",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "11355874000188",
+    "nome": "INFINNI SERVICOS E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 8520.0
+   },
+   {
+    "cnpj": "05072232000179",
+    "nome": "AUTO POSTO MILLENIUM LTDA",
+    "cnae": "47318",
+    "n_despesas": 24,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5914.78
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 0,
+   "total": 0.0,
+   "por_tipo": {}
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

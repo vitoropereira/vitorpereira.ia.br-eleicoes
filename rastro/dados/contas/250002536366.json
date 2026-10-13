@@ -1,0 +1,126 @@
+{
+ "sq": "250002536366",
+ "nome_urna": "DELEGADA GRACIELA",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1012812.79,
+  "por_origem": {
+   "Recursos de partido político": 1012812.79
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1000000.0,
+   "FUNDO PARTIDARIO": 5579.06,
+   "OUTROS RECURSOS": 7233.73
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "08701595000114",
+    "nome": "Direção Estadual/Distrital - PL - SÃO PAULO",
+    "total": 12812.79
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 633360.21,
+  "total_pago": 251073.9,
+  "fornecedores_pj": [
+   {
+    "cnpj": "02248675000180",
+    "nome": "GRAFICA FRANCANA LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 64676.0
+   },
+   {
+    "cnpj": "34875592000107",
+    "nome": "JONATHAS C. PALMEIRA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "60848833000139",
+    "nome": "PEDROSO TEXTIL LTDA",
+    "cnae": "13219",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 31489.4
+   },
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 30130.0
+   },
+   {
+    "cnpj": "63974071000105",
+    "nome": "CLARIGEST ASSESSORIA E CONSULTORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "68425158000147",
+    "nome": "HASAN PLAST COMUNICACAO VISUAL LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "64625171000199",
+    "nome": "TOWER FRANCA HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 600.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 120,
+   "total": 400464.81,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 335953.21,
+    "Despesas com pessoal": 59511.6,
+    "Locação/cessão de bens imóveis": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

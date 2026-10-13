@@ -1,0 +1,519 @@
+{
+ "sq": "110002550866",
+ "nome_urna": "VIRGINIA MENDES",
+ "cargo": "depfed",
+ "uf": "MT",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2956800.0,
+  "por_origem": {
+   "Recursos de partido político": 2924800.0,
+   "Recursos de pessoas físicas": 32000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2899800.0,
+   "OUTROS RECURSOS": 57000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 2899800.0
+   },
+   {
+    "cnpj": "45943051000195",
+    "nome": "Direção Estadual/Distrital - UNIÃO - MATO GROSSO",
+    "total": 25000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 32000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1976059.71,
+  "total_pago": 1335748.33,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 325000.0
+   },
+   {
+    "cnpj": "17946698000135",
+    "nome": "CYRINEU ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "24702862000124",
+    "nome": "ABELHA TAXI AEREO E MANUTENCAO LTDA",
+    "cnae": "51129",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 103691.67
+   },
+   {
+    "cnpj": "04870907000162",
+    "nome": "ZIAD A. FARES LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "37465515000177",
+    "nome": "MCA C0NTABILIDADE E AUDITORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "60766661000154",
+    "nome": "GORDO BRINDES COMERCIO DE BRINDES E PRODUTOS PERSONALIZADOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 56460.0
+   },
+   {
+    "cnpj": "28494808000191",
+    "nome": "IMPERIO TUR TRANSPORTE LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 41000.0
+   },
+   {
+    "cnpj": "40403437000190",
+    "nome": "A.L VEDANA LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "52643784000170",
+    "nome": "TRANSMARTINS TRANSPORTES RODOVIARIOS LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 18936.8
+   },
+   {
+    "cnpj": "59730056000144",
+    "nome": "59.730.056 EBER FERNANDO JESUS DA COSTA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "47854101000193",
+    "nome": "VA COMERCIO DE PRODUTOS E SOLUCOES LTDA",
+    "cnae": "45307",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 14300.0
+   },
+   {
+    "cnpj": "21598894000133",
+    "nome": "AERO SIAQ ADMINISTRADORA AEROPORTUARIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 13919.85
+   },
+   {
+    "cnpj": "19376436000108",
+    "nome": "DINAMICA AUTOMOTORES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 13900.0
+   },
+   {
+    "cnpj": "63922714000177",
+    "nome": "63.922.714 MATHEUS ENRIQUE FELIX PEREIRA",
+    "cnae": "43215",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "23929195000154",
+    "nome": "SERATA EDITORA GRAFICA E PUBLICIDADE LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10010.0
+   },
+   {
+    "cnpj": "57773173000160",
+    "nome": "L PRODUCOES LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 9200.0
+   },
+   {
+    "cnpj": "09001879001213",
+    "nome": "COMERCIAL AMAZONIA DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "14926356000750",
+    "nome": "AGUAS LEBRINHA LTDA",
+    "cnae": "47237",
+    "n_despesas": 2,
+    "tipos": [
+     "Água"
+    ],
+    "total": 6190.0
+   },
+   {
+    "cnpj": "11624357000167",
+    "nome": "PLACARTE COMERCIO E SERVICOS DE IMPRESSAO DIGITAL LTDA",
+    "cnae": "47512",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4898.0
+   },
+   {
+    "cnpj": "01143988000100",
+    "nome": "FLEXO MIDIA PERSONALIZADOS LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2950.0
+   },
+   {
+    "cnpj": "24714859000473",
+    "nome": "VITORIA REGIA AGUA MINERAL LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 2799.98
+   },
+   {
+    "cnpj": "45342445000198",
+    "nome": "ALBERTO ALVES DO NASCIMENTO LTDA",
+    "cnae": "77217",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2200.0
+   },
+   {
+    "cnpj": "02811716000102",
+    "nome": "ALESSIO DECKER CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1692.77
+   },
+   {
+    "cnpj": "02896716000144",
+    "nome": "D. E. CERUTTI CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 978.28
+   },
+   {
+    "cnpj": "08512459000186",
+    "nome": "AUTO POSTO PASQUALOTTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 910.95
+   },
+   {
+    "cnpj": "36961837000144",
+    "nome": "COMBUSTIVEIS E LUBRIFICANTES BUSSOLARO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 730.59
+   },
+   {
+    "cnpj": "33434356000192",
+    "nome": "GRAN BARRA HOTELARIA LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 638.6
+   },
+   {
+    "cnpj": "67029854000171",
+    "nome": "MGSANDRI COMERCIO DE COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 569.93
+   },
+   {
+    "cnpj": "05082661000550",
+    "nome": "MARMELEIRO AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 567.61
+   },
+   {
+    "cnpj": "09424309000183",
+    "nome": "AUTO POSTO BACABA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 480.42
+   },
+   {
+    "cnpj": "02823845000102",
+    "nome": "BOSQUE DA SAUDE COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 474.05
+   },
+   {
+    "cnpj": "16990682000167",
+    "nome": "F J CAVALHEIRO COMERCIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 443.12
+   },
+   {
+    "cnpj": "02054982000120",
+    "nome": "POSTO 77 COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 438.55
+   },
+   {
+    "cnpj": "23891404000118",
+    "nome": "REDE MAIS COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 436.58
+   },
+   {
+    "cnpj": "06240490000180",
+    "nome": "POSTO CAMPO VERDE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 431.8
+   },
+   {
+    "cnpj": "05961536000197",
+    "nome": "BEM BRASIL - COMERCIO DE COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 333.2
+   },
+   {
+    "cnpj": "08399617000567",
+    "nome": "SUELMEI CAMPOS BARBOSA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 321.1
+   },
+   {
+    "cnpj": "09380191000139",
+    "nome": "VALE DA SERRA COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 268.43
+   },
+   {
+    "cnpj": "08541954000113",
+    "nome": "AUTO POSTO TIBIRISSA III LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 241.08
+   },
+   {
+    "cnpj": "57710593000105",
+    "nome": "POSTO SAO ROQUE 29 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 233.61
+   },
+   {
+    "cnpj": "36919560000191",
+    "nome": "AUTO POSTO TERRA SANTA COM. DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 217.55
+   },
+   {
+    "cnpj": "41779350000185",
+    "nome": "VITORIA 77 COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 178.99
+   },
+   {
+    "cnpj": "15319954000210",
+    "nome": "J J FAMILIA AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 140.19
+   },
+   {
+    "cnpj": "16903492000165",
+    "nome": "OTI BRASIL TRANSPORTES LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 73.07
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 194,
+   "total": 565802.94,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 387920.0,
+    "Cessão ou locação de veículos": 9000.0,
+    "Despesas com pessoal": 142186.67,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 29.6,
+    "Locação/cessão de bens imóveis": 16666.67,
+    "Publicidade por carros de som": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

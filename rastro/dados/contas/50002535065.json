@@ -1,0 +1,114 @@
+{
+ "sq": "50002535065",
+ "nome_urna": "LUCIANO SIMÕES FILHO",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 588429.77,
+  "por_origem": {
+   "Recursos de partido político": 588429.77
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 283676.1,
+   "FUNDO PARTIDARIO": 4753.67,
+   "OUTROS RECURSOS": 300000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 583676.1
+   },
+   {
+    "cnpj": "45928648000160",
+    "nome": "Direção Estadual/Distrital - UNIÃO - BAHIA",
+    "total": 4753.67
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 494866.91,
+  "total_pago": 583366.91,
+  "fornecedores_pj": [
+   {
+    "cnpj": "67168797000101",
+    "nome": "DS GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 310279.91
+   },
+   {
+    "cnpj": "07544833000162",
+    "nome": "LUMIA COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 64500.0
+   },
+   {
+    "cnpj": "39357950000103",
+    "nome": "MATOS E WILDBERGER ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "05770290000176",
+    "nome": "GENSA - GRAFICA E EDITORA NOSSA SENHORA APARECIDA LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23780.0
+   },
+   {
+    "cnpj": "53721430000169",
+    "nome": "LP CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "47893390000130",
+    "nome": "ANTONIO EUGENIO DA SILVA NETO",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8299.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 9,
+   "total": 43008.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 8.0,
+    "Serviços prestados por terceiros": 43000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

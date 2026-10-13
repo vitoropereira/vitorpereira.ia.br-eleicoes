@@ -1,0 +1,198 @@
+{
+ "sq": "130002535321",
+ "nome_urna": "ANA PAULA SIQUEIRA",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1110560.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 3060.0,
+   "Recursos de partido político": 1015500.0,
+   "Recursos de pessoas físicas": 92000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1018560.0,
+   "OUTROS RECURSOS": 92000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1015500.0
+   },
+   {
+    "cnpj": "68345483000108",
+    "nome": "ROGERIO CORREIA DE MOURA BAPTISTA",
+    "total": 3060.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 92000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 352144.61,
+  "total_pago": 34219.24,
+  "fornecedores_pj": [
+   {
+    "cnpj": "65511327000173",
+    "nome": "BRASIL ELEGE - ESTRATEGIA E POSICIONAMENTO LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 175000.0
+   },
+   {
+    "cnpj": "14293669000123",
+    "nome": "ESTRELA LOCACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 19200.0
+   },
+   {
+    "cnpj": "61572614000132",
+    "nome": "MOBI MOBILIZACAO E MARKETING INTELIGENTE LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "12419108000100",
+    "nome": "ARTES BH DIGITAL LTDA",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9620.0
+   },
+   {
+    "cnpj": "44786532000171",
+    "nome": "SUPRIR SOLUCOES EM COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7340.48
+   },
+   {
+    "cnpj": "17197278000101",
+    "nome": "ALVARO MAIA ADMINISTRACAO DE IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 6992.93
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "02256882000186",
+    "nome": "JH COMPUTADORES LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 4180.0
+   },
+   {
+    "cnpj": "65368000000194",
+    "nome": "RAJI ESPORTES LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2370.0
+   },
+   {
+    "cnpj": "19292774000161",
+    "nome": "WAGNER GUALBERTO BRAZ",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "48988595000161",
+    "nome": "JT COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 562.5
+   },
+   {
+    "cnpj": "48776960000174",
+    "nome": "CEU - CARGAS URGENTES LTDA",
+    "cnae": "49302",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 300.94
+   },
+   {
+    "cnpj": "17462474000158",
+    "nome": "POSTO TOCANTINS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 265.26
+   },
+   {
+    "cnpj": "32648373000160",
+    "nome": "HOTEL RODRIGUES DA SILVA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 27,
+   "total": 104112.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 28600.0,
+    "Despesas com pessoal": 12500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 12.5,
+    "Serviços contábeis": 10000.0,
+    "Serviços prestados por terceiros": 53000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,330 @@
+{
+ "sq": "250002536405",
+ "nome_urna": "ROGÉRIO FRANCO",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1135409.05,
+  "por_origem": {
+   "Recursos de partido político": 662409.05,
+   "Recursos de pessoas físicas": 378000.0,
+   "Recursos próprios": 95000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 650000.0,
+   "FUNDO PARTIDARIO": 4727.63,
+   "OUTROS RECURSOS": 480681.42
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 650000.0
+   },
+   {
+    "cnpj": "08701595000114",
+    "nome": "Direção Estadual/Distrital - PL - SÃO PAULO",
+    "total": 12409.05
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 473000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 968344.4,
+  "total_pago": 737961.82,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 170000.0
+   },
+   {
+    "cnpj": "09204155000114",
+    "nome": "VITA PORTO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "07046094000189",
+    "nome": "ELYON SOLUCOES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 69,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 43550.69
+   },
+   {
+    "cnpj": "30922724000153",
+    "nome": "SLN PARTICIPACOES E INVESTIMENTOS LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 32666.67
+   },
+   {
+    "cnpj": "03088543000109",
+    "nome": "M. MELO COMUNICACOES LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "41105114000183",
+    "nome": "RAGUS NEGOCIOS E SERVICOS ESTRUTURAIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 15,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23848.0
+   },
+   {
+    "cnpj": "28299027000146",
+    "nome": "ALPHASETE GIRO ONLINE LTDA",
+    "cnae": "63194",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "44246304000109",
+    "nome": "AUTO POSTO PORTAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 18262.68
+   },
+   {
+    "cnpj": "54678851000117",
+    "nome": "SNT REFEICOES COLETIVAS E EVENTOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 17160.0
+   },
+   {
+    "cnpj": "23696138000172",
+    "nome": "JP PRODUCOES LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "05459990000144",
+    "nome": "CONTMAB CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "28916916000105",
+    "nome": "VILLECOM MIDIA LTDA",
+    "cnae": "58123",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 11600.0
+   },
+   {
+    "cnpj": "04386913000149",
+    "nome": "ELOS ESTUDIO E SERVICOS LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "66950405000107",
+    "nome": "66.950.405 JOSE VIEIRA DE SA NETO",
+    "cnae": "90019",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 8760.0
+   },
+   {
+    "cnpj": "10297149000138",
+    "nome": "GG COMERCIO DE AGUA MINERAL E DESCARTAVEIS LTDA",
+    "cnae": "47237",
+    "n_despesas": 4,
+    "tipos": [
+     "Água"
+    ],
+    "total": 7525.0
+   },
+   {
+    "cnpj": "52181893000112",
+    "nome": "GRYPHE COMUNICACAO INTEGRADA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6600.0
+   },
+   {
+    "cnpj": "08417805000147",
+    "nome": "UTILE PARTICIPACOES LTDA.",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 3515.25
+   },
+   {
+    "cnpj": "43733161000105",
+    "nome": "A SUAREZ LUSTRES INDUSTRIA DE PLASTICOS LTDA",
+    "cnae": "22226",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2800.0
+   },
+   {
+    "cnpj": "08818158000185",
+    "nome": "RCR PRODUCOES E EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "13515042000107",
+    "nome": "JULIETY APARECIDA DE CAMARGO DUARTE CHIODI COMERCIO DE CONFECCOES LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1596.0
+   },
+   {
+    "cnpj": "08699733000178",
+    "nome": "M C LOCACOES LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "20475730000156",
+    "nome": "CAROLINE MENDES ARAUJO",
+    "cnae": "43304",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "40978184000183",
+    "nome": "40.978.184 ANA CAROLINE ALMEIDA SEVERINO BECHI",
+    "cnae": "53202",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1005.53
+   },
+   {
+    "cnpj": "09232881000140",
+    "nome": "VISUAL DESIGN PRODUTORA AUDIO VISUAL LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "40299177000155",
+    "nome": "ALEXANDRE ROSA REZENDE",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 699.99
+   },
+   {
+    "cnpj": "93209765060950",
+    "nome": "WMS SUPERMERCADOS DO BRASIL LTDA.",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 19.98
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 68,
+   "total": 195134.61,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 17050.0,
+    "Despesas com pessoal": 147113.6,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 971.01,
+    "Serviços advocatícios": 30000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

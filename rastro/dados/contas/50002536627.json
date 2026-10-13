@@ -1,0 +1,308 @@
+{
+ "sq": "50002536627",
+ "nome_urna": "RICARDO MAIA",
+ "cargo": "depfed",
+ "uf": "BA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2891283.32,
+  "por_origem": {
+   "Recursos de partido político": 2850000.0,
+   "Recursos de pessoas físicas": 33933.32,
+   "Recursos próprios": 7350.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2850000.0,
+   "OUTROS RECURSOS": 41283.32
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 2850000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 41283.32
+  }
+ },
+ "despesas": {
+  "total_contratado": 974975.5,
+  "total_pago": 1505064.8,
+  "fornecedores_pj": [
+   {
+    "cnpj": "20821857000180",
+    "nome": "SOUZA CRUZ CONSULTORIA JURIDICA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "09076330000135",
+    "nome": "JK CHAGAS ASSESSORIA LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 88000.0
+   },
+   {
+    "cnpj": "63098995000195",
+    "nome": "ATUA GESTAO, PESQUISA E COMUNICACAO LTDA",
+    "cnae": "70204",
+    "n_despesas": 3,
+    "tipos": [
+     "Criação e inclusão de páginas na internet",
+     "Diversas a especificar",
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "34370919000199",
+    "nome": "M B J BASTOS GRAFICA EQUIPADORA STYLLO SOM",
+    "cnae": "45307",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 39710.0
+   },
+   {
+    "cnpj": "34598438000135",
+    "nome": "EMGRAF FLEXO E GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 39650.0
+   },
+   {
+    "cnpj": "19847761000101",
+    "nome": "L OLIVEIRA ROCHA",
+    "cnae": "47512",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 32180.0
+   },
+   {
+    "cnpj": "66082791000154",
+    "nome": "MIX COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 23250.0
+   },
+   {
+    "cnpj": "04223672000117",
+    "nome": "RM VEICULOS LTDA",
+    "cnae": "45129",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 21070.0
+   },
+   {
+    "cnpj": "63576642000153",
+    "nome": "GL PRODUCOES E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 19500.0
+   },
+   {
+    "cnpj": "05770290000176",
+    "nome": "GENSA - GRAFICA E EDITORA NOSSA SENHORA APARECIDA LTDA",
+    "cnae": "18229",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "37440594000161",
+    "nome": "JP PLOTAGEM LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 16200.0
+   },
+   {
+    "cnpj": "10607645000140",
+    "nome": "ALINE MACEDO DA SILVA REIS",
+    "cnae": "14142",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15180.0
+   },
+   {
+    "cnpj": "21434636000111",
+    "nome": "TAVARES EMPREENDIMENTOS LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10070.0
+   },
+   {
+    "cnpj": "00181502000166",
+    "nome": "HOTEL E RESTAURANTE A KASCATA LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens imóveis",
+     "Água"
+    ],
+    "total": 9660.0
+   },
+   {
+    "cnpj": "31343042000159",
+    "nome": "KAEL AUTOMOVEIS LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "65922498000195",
+    "nome": "JUNIOR IMPRESSAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 7245.0
+   },
+   {
+    "cnpj": "22789989000105",
+    "nome": "MATOS IMPRESSAO E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "32039946000158",
+    "nome": "F S LOCADORA DE VEICULOS LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4940.0
+   },
+   {
+    "cnpj": "28057365000171",
+    "nome": "EPJ TRANSPORTES E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4440.0
+   },
+   {
+    "cnpj": "20051834000133",
+    "nome": "VL COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3734.49
+   },
+   {
+    "cnpj": "13335063000140",
+    "nome": "ELENY TRANSPORTES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 1950.0
+   },
+   {
+    "cnpj": "16625708000178",
+    "nome": "IDEIA ATIVA GRAFICA LTDA",
+    "cnae": "17311",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "17121830000170",
+    "nome": "17.121.830 JOSE ROBERVAL CASSIANO DOS SANTOS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "27607229000145",
+    "nome": "AUTO POSTO WANDERLEYENSE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 802.26
+   },
+   {
+    "cnpj": "02575922000152",
+    "nome": "MAGNA CELIA DOS SANTOS CARVALHO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 648.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 178,
+   "total": 462345.75,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 222450.75,
+    "Despesas com pessoal": 184640.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 55.0,
+    "Locação/cessão de bens imóveis": 55200.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

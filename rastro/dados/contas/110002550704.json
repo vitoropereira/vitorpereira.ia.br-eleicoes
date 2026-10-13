@@ -1,0 +1,204 @@
+{
+ "sq": "110002550704",
+ "nome_urna": "ENGº SEBASTIÃO MACHADO REZENDE",
+ "cargo": "depest",
+ "uf": "MT",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 903980.0,
+  "por_origem": {
+   "Recursos de partido político": 689980.0,
+   "Recursos de pessoas físicas": 114000.0,
+   "Recursos próprios": 100000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 86994.0,
+   "FUNDO PARTIDARIO": 202986.0,
+   "OUTROS RECURSOS": 614000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "45943051000195",
+    "nome": "Direção Estadual/Distrital - UNIÃO - MATO GROSSO",
+    "total": 302986.0
+   },
+   {
+    "cnpj": "09102673000127",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - MATO GROSSO",
+    "total": 300000.0
+   },
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 86994.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 65,
+   "total": 214000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 160791.36,
+  "total_pago": 95206.71,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "68568580000151",
+    "nome": "VW CONTABILIDADE E AUDITORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "46267765000193",
+    "nome": "GRAFICA POWER PRINT LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11382.8
+   },
+   {
+    "cnpj": "16860367000115",
+    "nome": "ASSESSORATO VIAGENS E TURISMO LTDA",
+    "cnae": "79112",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10700.0
+   },
+   {
+    "cnpj": "51894051000145",
+    "nome": "51.894.051 DANIEL E SILVA ALCANTARA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "32953905000172",
+    "nome": "TUBARAO INDUSTRIA COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "16903492000165",
+    "nome": "OTI BRASIL TRANSPORTES LTDA",
+    "cnae": "49302",
+    "n_despesas": 8,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 1749.32
+   },
+   {
+    "cnpj": "04446949000170",
+    "nome": "COMERCIAL OURINHOS LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1675.4
+   },
+   {
+    "cnpj": "33070814001042",
+    "nome": "CARVALIMA TRANSPORTES LTDA",
+    "cnae": "49302",
+    "n_despesas": 14,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 1326.01
+   },
+   {
+    "cnpj": "93209765054047",
+    "nome": "WMS SUPERMERCADOS DO BRASIL LTDA.",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 938.02
+   },
+   {
+    "cnpj": "14948079000191",
+    "nome": "JUSCELINO SILVEIRA SEGURA CIA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 810.0
+   },
+   {
+    "cnpj": "08223714000170",
+    "nome": "V. FURTADO FURTADO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 528.15
+   },
+   {
+    "cnpj": "41854114000186",
+    "nome": "ROTA 65 COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 407.16
+   },
+   {
+    "cnpj": "14137069000176",
+    "nome": "ESTRELA EMBALAGENS DE PRODUTOS LTDA",
+    "cnae": "46869",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 368.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 13,
+   "total": 60806.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 9000.0,
+    "Despesas com pessoal": 6800.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 6.5,
+    "Serviços advocatícios": 45000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

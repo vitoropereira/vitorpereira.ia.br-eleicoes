@@ -1,0 +1,130 @@
+{
+ "sq": "160002547614",
+ "nome_urna": "RICARDO ZAMPIERI",
+ "cargo": "depest",
+ "uf": "PR",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 227800.0,
+  "por_origem": {
+   "Recursos de partido político": 140000.0,
+   "Recursos de pessoas físicas": 22800.0,
+   "Recursos próprios": 65000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 90000.0,
+   "FUNDO PARTIDARIO": 50000.0,
+   "OUTROS RECURSOS": 87800.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 140000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 87800.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 52563.4,
+  "total_pago": 33500.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "23477802000192",
+    "nome": "VARASSIN ADMINISTRADORA DE BENS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "50958901000169",
+    "nome": "THIAGO FRANCISCO MOREIRA BRANCO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5100.0
+   },
+   {
+    "cnpj": "03698303000118",
+    "nome": "CASTRO LIMA LTDA",
+    "cnae": "58239",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2280.0
+   },
+   {
+    "cnpj": "48897299000155",
+    "nome": "CARVALHO PEREIRA COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 554.4
+   },
+   {
+    "cnpj": "12036268000162",
+    "nome": "PRINTEX SERVICOS PUBLICITARIOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 550.0
+   },
+   {
+    "cnpj": "34966009000173",
+    "nome": "ANTONIO PAULO DE SOUZA NETO",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 470.0
+   },
+   {
+    "cnpj": "46326465000138",
+    "nome": "GRAFICA PERSONALIZEI LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 409.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 3200.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 3200.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,322 @@
+{
+ "sq": "130002542015",
+ "nome_urna": "LINCOLN PORTELA",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3235500.0,
+  "por_origem": {
+   "Recursos de partido político": 3175000.0,
+   "Recursos de pessoas físicas": 500.0,
+   "Recursos próprios": 60000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3175000.0,
+   "OUTROS RECURSOS": 60500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3175000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 60500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1763268.95,
+  "total_pago": 324565.11,
+  "fornecedores_pj": [
+   {
+    "cnpj": "09264555000115",
+    "nome": "IMAGEM EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 116895.0
+   },
+   {
+    "cnpj": "30912156000100",
+    "nome": "IONE APARECIDA DE SOUSA BESSA IMPRESSAO DIGITAL",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 86427.65
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "14352422000130",
+    "nome": "SOCIEDADE DE ADVOGADOS ARTHUR GUERRA E ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "38367053000118",
+    "nome": "VOWE AIR MOBILITY LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 32400.0
+   },
+   {
+    "cnpj": "41853779000175",
+    "nome": "DAIANE VITOR DE ALMEIDA WAN DER MAAS",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "40875675000107",
+    "nome": "40.875.675 KETLEEN NAYARA DA SILVA REIS BARROS",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "67817090000189",
+    "nome": "67.817.090 ROBERT BARBOSA DA SILVA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16100.0
+   },
+   {
+    "cnpj": "02256882000186",
+    "nome": "JH COMPUTADORES LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 8399.0
+   },
+   {
+    "cnpj": "12305622000107",
+    "nome": "PONTUAL LOC CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7769.79
+   },
+   {
+    "cnpj": "50435982000112",
+    "nome": "ACJ BULLEVARD SERVICOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "53013899000143",
+    "nome": "53.013.899 WESLEY GONZALES JACOMINI DOS SANTOS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 6950.0
+   },
+   {
+    "cnpj": "50808858000155",
+    "nome": "50.808.858 JONATHAN FERREIRA LIMA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 5089.24
+   },
+   {
+    "cnpj": "49210150000119",
+    "nome": "49.210.150 RODRIGO LUIZ BARBOSA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3400.0
+   },
+   {
+    "cnpj": "17183484000316",
+    "nome": "ARTEFATOS DE PAPEL LUCRI LTDA",
+    "cnae": "46478",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 2809.8
+   },
+   {
+    "cnpj": "03422226000179",
+    "nome": "CELEBRARE CERIMONIAL E PRODUCOES DE EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2772.0
+   },
+   {
+    "cnpj": "05786956000184",
+    "nome": "CCL DISTRIBUIDORA LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "12483203000165",
+    "nome": "FLOW PRODUCOES E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "17378258000129",
+    "nome": "ASSOCIACAO ATLETICA BANCO DO BRASIL BELO HORIZONTE",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "17711367000116",
+    "nome": "AUTO POSTO CALYPSO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "21289536000149",
+    "nome": "POSTO MILANI DE UBERLANDIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "01530043000141",
+    "nome": "REDE DAKOTA I LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1590.36
+   },
+   {
+    "cnpj": "32915942000196",
+    "nome": "JANARA BATISTA DOS SANTOS",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1550.0
+   },
+   {
+    "cnpj": "11675023000112",
+    "nome": "WR COMERCIO E SERVICOS LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1300.0
+   },
+   {
+    "cnpj": "28224735000118",
+    "nome": "POSTO OCEANO AZUL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "40281953000190",
+    "nome": "POSTO DE COMBUSTIVEIS SANTA MARIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "08683964000274",
+    "nome": "UNIAO BOSCATTI PARTICIPACAO E ADMINISTRACAO S/A.",
+    "cnae": "11216",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 692.81
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 488,
+   "total": 1299523.3,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 1260894.0,
+    "Cessão ou locação de veículos": 19650.0,
+    "Locação/cessão de bens imóveis": 16479.3,
+    "Produção de programas de rádio, televisão ou vídeo": 2500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

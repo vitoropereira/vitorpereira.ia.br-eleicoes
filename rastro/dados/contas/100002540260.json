@@ -1,0 +1,203 @@
+{
+ "sq": "100002540260",
+ "nome_urna": "IVO REZENDE",
+ "cargo": "depest",
+ "uf": "MA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 333420.0,
+  "por_origem": {
+   "Doações pela Internet": 15000.0,
+   "Recursos de pessoas físicas": 286020.0,
+   "Recursos próprios": 32400.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 333420.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 22,
+   "total": 333420.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 541407.52,
+  "total_pago": 50400.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "22651875000196",
+    "nome": "R W P V VALPORTO",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 140000.0
+   },
+   {
+    "cnpj": "19726378000103",
+    "nome": "WJ SERVICOS E COMERCIO LTDA",
+    "cnae": "58298",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 102950.0
+   },
+   {
+    "cnpj": "68045444000187",
+    "nome": "GESTRA SOLUCOES E ENTRETENIMENTO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "26800943000192",
+    "nome": "K B DE SOUZA SERVICES DISTRIBUIDORA",
+    "cnae": "78205",
+    "n_despesas": 3,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 71980.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "16535489000136",
+    "nome": "RONALDO DOS SANTOS OLIVEIRA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "41501537000112",
+    "nome": "SONIA MARIA ASSAD MARTINS E CIA LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16500.0
+   },
+   {
+    "cnpj": "33060364000205",
+    "nome": "SAO JORGE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 12101.76
+   },
+   {
+    "cnpj": "06943960000171",
+    "nome": "ANA BRANDAO - ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "29173704000148",
+    "nome": "ECO POSTO COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10445.76
+   },
+   {
+    "cnpj": "43180857000143",
+    "nome": "ROBERTO LEONARDO SILVA CASTRO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "56061314000159",
+    "nome": "56.061.314 MENANDRO SOUZA DA SILVA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3900.0
+   },
+   {
+    "cnpj": "14347964000115",
+    "nome": "M P PAIXAO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3800.0
+   },
+   {
+    "cnpj": "54863530000192",
+    "nome": "JR ADESIVOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1680.0
+   },
+   {
+    "cnpj": "35844647000184",
+    "nome": "J C SILVA LTDA",
+    "cnae": "17311",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "00812071000199",
+    "nome": "ELIEL F DE ALENCAR",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1350.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 51,
+   "total": 35800.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 19800.0,
+    "Locação/cessão de bens imóveis": 16000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

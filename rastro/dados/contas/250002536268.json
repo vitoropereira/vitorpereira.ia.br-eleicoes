@@ -1,0 +1,223 @@
+{
+ "sq": "250002536268",
+ "nome_urna": "ENIO TATTO",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 452100.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 90000.0,
+   "Recursos de partido político": 265500.0,
+   "Recursos de pessoas físicas": 5500.0,
+   "Recursos próprios": 91100.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 355500.0,
+   "OUTROS RECURSOS": 96600.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265500.0
+   },
+   {
+    "cnpj": "68373177000177",
+    "nome": "NILTO IGNACIO TATTO",
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68373194000104",
+    "nome": "JILMAR AUGUSTINHO TATTO",
+    "total": 40000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 96600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 302412.17,
+  "total_pago": 226715.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "02645155000100",
+    "nome": "JF PRINT GRAFICA E EDITORA LTDA",
+    "cnae": "17320",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 55177.5
+   },
+   {
+    "cnpj": "03188474000105",
+    "nome": "DIGRAF GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 20,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 54042.5
+   },
+   {
+    "cnpj": "10410225000170",
+    "nome": "JULLY STOCK TEXTIL LTDA",
+    "cnae": "14126",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 31636.0
+   },
+   {
+    "cnpj": "06002367000120",
+    "nome": "SILVEIRA, ANDRADE - ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "34912328000104",
+    "nome": "DEILDE FERREIRA DAS NEVES",
+    "cnae": "58298",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22440.0
+   },
+   {
+    "cnpj": "10865394000102",
+    "nome": "ANDREA RIBEIRO",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "08689647000184",
+    "nome": "VISTAR PRESTACAO DE SERVICOS DE DIGITACAO LTDA",
+    "cnae": "74102",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "64218330000130",
+    "nome": "TAV BRASIL MASTER LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "69064053000172",
+    "nome": "SINALL COMERCIO E SERVICOS DE MAQUINAS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 4832.69
+   },
+   {
+    "cnpj": "68682621000136",
+    "nome": "REDE VERTICES SERVICOS LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "62732761000195",
+    "nome": "MARCUS V DE LIMA CRISPIM Limitada",
+    "cnae": "94936",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "20211254000166",
+    "nome": "IVANILDO ALVES DE SOUZA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "43405815000163",
+    "nome": "EASY LABEL ETIQUETAS E IMPRESSOES LTDA",
+    "cnae": "17419",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 650.0
+   },
+   {
+    "cnpj": "20758286000186",
+    "nome": "HOSTINGER BRASIL HOSPEDAGEM DE SITES LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 71.88
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 12,
+   "total": 36521.6,
+   "por_tipo": {
+    "Despesas com pessoal": 23016.66,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 42.0,
+    "Locação/cessão de bens imóveis": 13462.94
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

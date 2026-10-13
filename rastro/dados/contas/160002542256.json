@@ -1,0 +1,135 @@
+{
+ "sq": "160002542256",
+ "nome_urna": "DR. ANTENOR",
+ "cargo": "depest",
+ "uf": "PR",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 300640.58,
+  "por_origem": {
+   "Recursos de outros candidatos": 6540.58,
+   "Recursos de partido político": 265500.0,
+   "Recursos de pessoas físicas": 2000.0,
+   "Recursos próprios": 26600.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 252135.58,
+   "FUNDO PARTIDARIO": 15500.0,
+   "OUTROS RECURSOS": 33005.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265500.0
+   },
+   {
+    "cnpj": "68379669000170",
+    "nome": "JOSE CARLOS BECKER DE OLIVEIRA E SILVA",
+    "total": 4535.0
+   },
+   {
+    "cnpj": "68379713000141",
+    "nome": "ANTONIO TADEU VENERI",
+    "total": 2005.58
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 28600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 203035.0,
+  "total_pago": 162335.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "00913039000108",
+    "nome": "ULTRAPRESS EDITORA GRAFICA LTDA",
+    "cnae": "58298",
+    "n_despesas": 13,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 37500.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "22457839000196",
+    "nome": "NIECKARS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "50603693000185",
+    "nome": "50.603.693 RAUL DE PARIS",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "81713836000135",
+    "nome": "GRAFICA EXPRESS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3675.0
+   },
+   {
+    "cnpj": "43572707000185",
+    "nome": "LUIS PAULO KOPPE",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "68379689000140",
+    "nome": "CLEVERSON PINGOS BUENO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 3050.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 17,
+   "total": 97310.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 38300.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 10.0,
+    "Serviços contábeis": 10000.0,
+    "Serviços prestados por terceiros": 49000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

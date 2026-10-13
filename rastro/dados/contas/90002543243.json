@@ -1,0 +1,178 @@
+{
+ "sq": "90002543243",
+ "nome_urna": "SILVYE ALVES",
+ "cargo": "depfed",
+ "uf": "GO",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3000000.0,
+  "por_origem": {
+   "Recursos de partido político": 3000000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3000000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 3000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2328914.68,
+  "total_pago": 332396.14,
+  "fornecedores_pj": [
+   {
+    "cnpj": "63862048000129",
+    "nome": "POLITIKEY COMUNICACAO ESTRATEGICA LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 350000.0
+   },
+   {
+    "cnpj": "27689176000159",
+    "nome": "WANDIR ALLAN TALITA HAYASAKI SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "31286371000105",
+    "nome": "RASSI.XYZ EMPREENDIMENTOS LTDA",
+    "cnae": "35115",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "36940679000146",
+    "nome": "CORREA GOMES CONTABILIDADE ASSESSORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "37326188000172",
+    "nome": "ACHEI LAGOINHA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 19500.0
+   },
+   {
+    "cnpj": "24935788000196",
+    "nome": "AFA INDUSTRIA COMERCIO E SERVICOS LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13200.0
+   },
+   {
+    "cnpj": "34438090000119",
+    "nome": "RB PRODUCOES E ENTRETENIMENTO LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "38756034000183",
+    "nome": "PIRES OLIVEIRA CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "30495321000175",
+    "nome": "ATACADAO BOM PRECO LTDA",
+    "cnae": "46354",
+    "n_despesas": 2,
+    "tipos": [
+     "Água"
+    ],
+    "total": 3581.13
+   },
+   {
+    "cnpj": "14053178000105",
+    "nome": "MAIS BRASIL PUBLICIDADE E PROPAGANDA LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "01595271000280",
+    "nome": "POSTO XODO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1278.02
+   },
+   {
+    "cnpj": "12290274000141",
+    "nome": "PEIXOTO E DIAS - SOLUCAO EM NEGOCIOS INTELIGENTES LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 180.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 367,
+   "total": 1638075.53,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 862975.53,
+    "Cessão ou locação de veículos": 74000.0,
+    "Despesas com pessoal": 701100.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

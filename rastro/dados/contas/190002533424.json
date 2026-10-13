@@ -1,0 +1,189 @@
+{
+ "sq": "190002533424",
+ "nome_urna": "JAIR BITTENCOURT",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1036842.5,
+  "por_origem": {
+   "Recursos de outros candidatos": 13742.5,
+   "Recursos de partido político": 903100.0,
+   "Recursos próprios": 120000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 713372.5,
+   "FUNDO PARTIDARIO": 203100.0,
+   "OUTROS RECURSOS": 120370.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 900000.0
+   },
+   {
+    "cnpj": "68237165000115",
+    "nome": "DANIELLE DYTZ DA CUNHA",
+    "total": 9792.5
+   },
+   {
+    "cnpj": "68237780000121",
+    "nome": "EDUARDO PAZUELLO",
+    "total": 3580.0
+   },
+   {
+    "cnpj": "08703299000152",
+    "nome": "Direção Estadual/Distrital - PL - RIO DE JANEIRO",
+    "total": 3100.0
+   },
+   {
+    "cnpj": "68437606000122",
+    "nome": "GUTEMBERG REIS DE OLIVEIRA",
+    "total": 370.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 120000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 579147.85,
+  "total_pago": 355559.13,
+  "fornecedores_pj": [
+   {
+    "cnpj": "19046411000146",
+    "nome": "J DE O BASTOS COMUNICACAO VISUAL E EVENTOS",
+    "cnae": "73122",
+    "n_despesas": 14,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 55226.68
+   },
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "07400158000106",
+    "nome": "SERRI E SOARES COMUNICACAO VISUAL LTDA",
+    "cnae": "47512",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19115.25
+   },
+   {
+    "cnpj": "08381171000110",
+    "nome": "A4 GRAFICA E EDITORA LTDA",
+    "cnae": "18211",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18680.0
+   },
+   {
+    "cnpj": "16669200000171",
+    "nome": "AGENCIA KAYA LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 16500.0
+   },
+   {
+    "cnpj": "02928435000126",
+    "nome": "VICECONTE E TARDIN LTDA",
+    "cnae": "18130",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15249.92
+   },
+   {
+    "cnpj": "60142907000117",
+    "nome": "MAX LOGI TRANSPORTES LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "00553744000133",
+    "nome": "CONFECCOES MY DREAM LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 5700.0
+   },
+   {
+    "cnpj": "17887151000106",
+    "nome": "ERICA MARIA SANCHES CAMARGO",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "03161144000118",
+    "nome": "RV DOS SANTOS ALVES PLACAS E IMPRESSAO DIGITAL",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "17102935000181",
+    "nome": "PAULA SORIANO MEIRELLES",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 350.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 254,
+   "total": 418626.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 66500.0,
+    "Despesas com pessoal": 297600.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 26.0,
+    "Locação/cessão de bens imóveis": 11000.0,
+    "Publicidade por carros de som": 13500.0,
+    "Serviços advocatícios": 15000.0,
+    "Serviços contábeis": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

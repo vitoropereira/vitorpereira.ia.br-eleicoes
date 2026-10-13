@@ -1,0 +1,324 @@
+{
+ "sq": "140002546710",
+ "nome_urna": "JOAQUIM PASSARINHO",
+ "cargo": "depfed",
+ "uf": "PA",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 957505.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 653605.0,
+   "Recursos próprios": 303900.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 957505.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 32,
+   "total": 957505.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 662015.27,
+  "total_pago": 851941.81,
+  "fornecedores_pj": [
+   {
+    "cnpj": "65928730000100",
+    "nome": "R T SERVICOS E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 3,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 161362.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 105000.0
+   },
+   {
+    "cnpj": "04622892000113",
+    "nome": "PEMA - PEREIRA MARCELO TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 5,
+    "tipos": [
+     "Atividades de militância e mobilização de rua",
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 94790.0
+   },
+   {
+    "cnpj": "01537578000144",
+    "nome": "C L F VIAGENS E TURISMO LTDA",
+    "cnae": "79112",
+    "n_despesas": 23,
+    "tipos": [
+     "Passagem Aérea"
+    ],
+    "total": 40085.01
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 21490.0
+   },
+   {
+    "cnpj": "14631413000189",
+    "nome": "FOCO TREINAMENTO E MARKETING LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "40205000000142",
+    "nome": "N S ASSESSORIA E CONSULTORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "33540690000120",
+    "nome": "NOVA COLORIR IMPRESSAO DIGITAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19500.0
+   },
+   {
+    "cnpj": "13094409000166",
+    "nome": "OK LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 14500.0
+   },
+   {
+    "cnpj": "63760260000185",
+    "nome": "NEXUS COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14070.0
+   },
+   {
+    "cnpj": "57619133000168",
+    "nome": "COMUNICACAO VISUAL DE COM. E SERV. LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 13500.0
+   },
+   {
+    "cnpj": "58306144000150",
+    "nome": "58.306.144 DIOGO CARNEIRO DE OLIVEIRA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 12300.0
+   },
+   {
+    "cnpj": "02743288000110",
+    "nome": "LOCAMIL SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "28052398000129",
+    "nome": "GONTRAN, SANTOS SANTA BRIGIDA ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "48400836000100",
+    "nome": "POSTO CARAJAS - DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "22956171000121",
+    "nome": "A M LIBERATO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9950.0
+   },
+   {
+    "cnpj": "17620604000133",
+    "nome": "T. P. MONTENEGRO GRAFICA LTDA",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "18326727000129",
+    "nome": "BIG SERVICOS IMPRESSAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7865.0
+   },
+   {
+    "cnpj": "65287132000191",
+    "nome": "OHB EVENTOS E RECEPCOES LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "06226958000181",
+    "nome": "A DA SILVA LOPES LTDA",
+    "cnae": "43291",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7125.0
+   },
+   {
+    "cnpj": "63814339000141",
+    "nome": "POSTO SAO DOMINGOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6080.71
+   },
+   {
+    "cnpj": "12933200000186",
+    "nome": "POSTO TIDA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4006.9
+   },
+   {
+    "cnpj": "83648246000100",
+    "nome": "CALIGRAFIA LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "33930727000127",
+    "nome": "33.930.727 SUED EDUARDO RODRIGUES DOS SANTOS",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1490.0
+   },
+   {
+    "cnpj": "05775396000162",
+    "nome": "LIDER GRAFICA E EDITORA LTDA",
+    "cnae": "58212",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1250.0
+   },
+   {
+    "cnpj": "27243432000180",
+    "nome": "M M COMBUSTIVEIS DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1185.95
+   },
+   {
+    "cnpj": "26304844000110",
+    "nome": "B SANTOS DE CARVALHO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "04566961000119",
+    "nome": "M M AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 33,
+   "total": 38464.7,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 38400.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 64.7
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

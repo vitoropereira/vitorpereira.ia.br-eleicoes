@@ -1,0 +1,188 @@
+{
+ "sq": "180002533551",
+ "nome_urna": "DR. THALES COELHO",
+ "cargo": "depest",
+ "uf": "PI",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 664322.17,
+  "por_origem": {
+   "Recursos de partido político": 269750.0,
+   "Recursos de pessoas físicas": 270572.17,
+   "Recursos próprios": 124000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 250000.0,
+   "FUNDO PARTIDARIO": 19750.0,
+   "OUTROS RECURSOS": 394572.17
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 250000.0
+   },
+   {
+    "cnpj": "07473085000174",
+    "nome": "Direção Estadual/Distrital - PT - PIAUÍ",
+    "total": 19750.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 33,
+   "total": 394572.17
+  }
+ },
+ "despesas": {
+  "total_contratado": 291604.05,
+  "total_pago": 550145.55,
+  "fornecedores_pj": [
+   {
+    "cnpj": "65010022000188",
+    "nome": "BEMGRAFIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 160000.0
+   },
+   {
+    "cnpj": "19275299000115",
+    "nome": "PEDRO BRITO NETO",
+    "cnae": "58298",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24775.0
+   },
+   {
+    "cnpj": "30215839000108",
+    "nome": "DANIEL LEONARDO DE LIMA VIANA - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "39541284000169",
+    "nome": "PUBLICONT CONTABILIDADE E ASSESSORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "44577656000147",
+    "nome": "IMOBE IMOBILIARIA EFICIENTE LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "05570992000106",
+    "nome": "COLOR SYSTEMS COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9250.0
+   },
+   {
+    "cnpj": "39748902000146",
+    "nome": "JOSE C DA SILVA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3750.0
+   },
+   {
+    "cnpj": "44948796000184",
+    "nome": "DANIEL DIMAS ALVES DE OLIVEIRA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3400.0
+   },
+   {
+    "cnpj": "40064664000139",
+    "nome": "J A C B FERREIRA JUNIOR ESTRUTURAS E SERVICOS",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1650.0
+   },
+   {
+    "cnpj": "69611606000240",
+    "nome": "IRANY HONORIO DA SILVA CIA LTDA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 27.45
+   },
+   {
+    "cnpj": "19334593000150",
+    "nome": "PAPELARIA DO ESTUDANTE LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 20.9
+   },
+   {
+    "cnpj": "06049856000138",
+    "nome": "ECIO BARBOSA COELHO",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 7.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 8,
+   "total": 16723.7,
+   "por_tipo": {
+    "Despesas com pessoal": 14589.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 34.7,
+    "Locação/cessão de bens imóveis": 2100.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

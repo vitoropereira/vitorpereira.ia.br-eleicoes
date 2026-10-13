@@ -1,0 +1,199 @@
+{
+ "sq": "80002536278",
+ "nome_urna": "GILSON DANIEL",
+ "cargo": "depfed",
+ "uf": "ES",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1424740.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 2560.0,
+   "Recursos de partido político": 1300000.0,
+   "Recursos de pessoas físicas": 38300.0,
+   "Recursos próprios": 83880.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1300000.0,
+   "OUTROS RECURSOS": 124740.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 1300000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 2560.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 122180.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 358883.32,
+  "total_pago": 215668.53,
+  "fornecedores_pj": [
+   {
+    "cnpj": "17473978000173",
+    "nome": "SOM PRA DEDEL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 90000.0
+   },
+   {
+    "cnpj": "55758219000146",
+    "nome": "AUGE ESTRATEGIA DIGITAL LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 67760.0
+   },
+   {
+    "cnpj": "27252147000125",
+    "nome": "GRAFICA E EDITORA JEP LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 29000.0
+   },
+   {
+    "cnpj": "57340024000107",
+    "nome": "JHONNYTUR LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 28200.0
+   },
+   {
+    "cnpj": "29401848000104",
+    "nome": "CORPEL GRAFICA EDITORA E COMUNICACAO VISUAL LTDA",
+    "cnae": "18121",
+    "n_despesas": 3,
+    "tipos": [
+     "Atividades de militância e mobilização de rua",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24925.0
+   },
+   {
+    "cnpj": "41063791000186",
+    "nome": "CONTAIFFER ESTRUTURAS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "43119257000170",
+    "nome": "A S RIGO - ATTITUDE UNIFORMES",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 7800.0
+   },
+   {
+    "cnpj": "24595309000130",
+    "nome": "RAMON DE QUADROS HENRICONI",
+    "cnae": "47563",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "08681872000174",
+    "nome": "LETCIA CONFECCOES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3200.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "04834618000108",
+    "nome": "IVAL COMERCIO E SERVICOS LTDA",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1612.0
+   },
+   {
+    "cnpj": "32462434000108",
+    "nome": "ALMIR NERES DE SOUZA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "24517444000167",
+    "nome": "24.517.444 FABIO BRUNO ALVES DE ALMEIDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 790.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 50.92
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 54,
+   "total": 89145.4,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 80074.0,
+    "Despesas com pessoal": 7430.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 29.4,
+    "Locação/cessão de bens imóveis": 1612.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

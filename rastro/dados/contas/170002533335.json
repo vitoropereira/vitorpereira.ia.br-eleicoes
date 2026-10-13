@@ -1,0 +1,115 @@
+{
+ "sq": "170002533335",
+ "nome_urna": "LARA SANTANA",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PV",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 620200.0,
+  "por_origem": {
+   "Recursos de partido político": 20000.0,
+   "Recursos de pessoas físicas": 570200.0,
+   "Recursos próprios": 30000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 20000.0,
+   "OUTROS RECURSOS": 600200.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "31886963000168",
+    "nome": "Direção Nacional - PV",
+    "total": 20000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 30,
+   "total": 600200.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 312070.5,
+  "total_pago": 493320.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "45773088000112",
+    "nome": "AGENCIA MANDACARU COMUNICACAO E MARKETING LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 118875.4
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 65000.0
+   },
+   {
+    "cnpj": "11038639000182",
+    "nome": "CONECTE SOLUCOES CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "02097529000109",
+    "nome": "EMC2 DISTRIBUIDORA DE MATERIAIS DE PAPEIS E DESCARTAVEIS LTDA",
+    "cnae": "46184",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18075.0
+   },
+   {
+    "cnpj": "12480722000170",
+    "nome": "RONALDO RODRIGUES DE BARROS COMUNICACAO VISUAL",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "45967656000116",
+    "nome": "CANAA ALUGUEIS E EMPREENDIMENTOS LTDA",
+    "cnae": "77322",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 10,
+   "total": 57120.1,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 8484.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 15.1,
+    "Locação/cessão de bens imóveis": 15000.0,
+    "Serviços advocatícios": 30000.0,
+    "Serviços prestados por terceiros": 1621.0,
+    "Serviços próprios prestados por terceiros": 2000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,449 @@
+{
+ "sq": "210002537066",
+ "nome_urna": "POMPEO DE MATTOS",
+ "cargo": "depfed",
+ "uf": "RS",
+ "partido": "PDT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3000000.0,
+  "por_origem": {
+   "Recursos de partido político": 3000000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3000000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00719575000169",
+    "nome": "Direção Nacional - PDT",
+    "total": 3000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1262956.93,
+  "total_pago": 1234003.93,
+  "fornecedores_pj": [
+   {
+    "cnpj": "05677050000121",
+    "nome": "ANS IMPRESSOES GRAFICAS LTDA.",
+    "cnae": "17419",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 150845.93
+   },
+   {
+    "cnpj": "02118988000113",
+    "nome": "LM GRAFICA E EDITORA LTDA",
+    "cnae": "18211",
+    "n_despesas": 11,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 146274.0
+   },
+   {
+    "cnpj": "32219667000176",
+    "nome": "NK DISTRIBUIDORA LTDA",
+    "cnae": "13511",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 87750.0
+   },
+   {
+    "cnpj": "39158679000187",
+    "nome": "GUSTAVO ECCHER LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 74830.0
+   },
+   {
+    "cnpj": "32930305000199",
+    "nome": "DOLICCA SOLUCAO EM SUBLIMACAO LTDA",
+    "cnae": "13405",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 66000.0
+   },
+   {
+    "cnpj": "88057187000100",
+    "nome": "GRAFICA LAJEADENSE LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 64355.4
+   },
+   {
+    "cnpj": "67217857000139",
+    "nome": "THOMAS LAURI GLASER",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 58387.0
+   },
+   {
+    "cnpj": "48114026000197",
+    "nome": "ALISSON THIAGO NASCIMENTO DE ARAUJO",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 42000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "64040472000150",
+    "nome": "64.040.472 JOSE DAVID PEREIRA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "03994736000110",
+    "nome": "GRAFICA B L LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11190.0
+   },
+   {
+    "cnpj": "11614140000176",
+    "nome": "CORRESPONDENTE E AUTOLOCADORA SANTOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10440.0
+   },
+   {
+    "cnpj": "68437358000110",
+    "nome": "GIULIANO TAMAGNO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "90339102000129",
+    "nome": "LANDO CIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "92660760000143",
+    "nome": "VEPPO CIA LIMITADA",
+    "cnae": "79902",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 9157.4
+   },
+   {
+    "cnpj": "68437408000169",
+    "nome": "GABRIELA ORTIZ ABENEL",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "68437448000100",
+    "nome": "THIAGO ENGELMAN DE LEON MADEIRA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 8160.0
+   },
+   {
+    "cnpj": "68437271000142",
+    "nome": "LUIZ FERNANDO CUOZZO LEMOS",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "02567479000178",
+    "nome": "FAURO FAURO LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 7875.0
+   },
+   {
+    "cnpj": "48485073000147",
+    "nome": "48.485.073 EDUARDO SILVEIRA DE CARVALHO",
+    "cnae": "95118",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 7280.0
+   },
+   {
+    "cnpj": "11308080000163",
+    "nome": "PARQUE ENCOSTA DA SERRA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6050.0
+   },
+   {
+    "cnpj": "05356081000180",
+    "nome": "ALEXANDER NEGOCIOS IMOBILIARIOS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "44841855000110",
+    "nome": "PAZZINI ORGANIZACOES LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "33542914000133",
+    "nome": "TH7 PROJETOS E CONSTRUCAO CIVIL LTDA",
+    "cnae": "41204",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 4987.6
+   },
+   {
+    "cnpj": "68437351000106",
+    "nome": "SARA MARROCOS BEZERRA GALL",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "07621640000168",
+    "nome": "ARQNEW IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4400.0
+   },
+   {
+    "cnpj": "41050157000109",
+    "nome": "D V BRAGAGNOLO GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "87506283000126",
+    "nome": "PROLAR IMOVEIS ADMINISTRACAO E CORRETAGEM LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "68512574000182",
+    "nome": "68.512.574 DEBORA SCHILLING GULARTE",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3995.0
+   },
+   {
+    "cnpj": "08537467000187",
+    "nome": "PINHO RENT A CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3800.0
+   },
+   {
+    "cnpj": "22228093000149",
+    "nome": "JULIA ZAMBONATO GENRO",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3800.0
+   },
+   {
+    "cnpj": "87657854000123",
+    "nome": "GRAFICA E EDITORA JORNALISTICA SENTINELA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2746.8
+   },
+   {
+    "cnpj": "08768465000107",
+    "nome": "POSTO DE COMBUSTIVEIS DICO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2723.11
+   },
+   {
+    "cnpj": "15823680000110",
+    "nome": "CONSTRUTORA BERTOLIN LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "64377772000120",
+    "nome": "64.377.772 ROSANE CRISTINA OLIVEIRA DA SILVEIRA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "20587619000151",
+    "nome": "DIAS DIAS COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "03116988000147",
+    "nome": "POSTO BURMANN FILHA LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1360.17
+   },
+   {
+    "cnpj": "03219579000176",
+    "nome": "LOTHAR CARLOS GOLDBECK",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 854.89
+   },
+   {
+    "cnpj": "12562786000110",
+    "nome": "SALTO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 697.44
+   },
+   {
+    "cnpj": "73817017000100",
+    "nome": "MAIL EXPRESS REPRESENTACOES POSTAIS LTDA",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 394.19
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 89,
+   "total": 382803.0,
+   "por_tipo": {
+    "Despesas com pessoal": 348970.0,
+    "Locação/cessão de bens imóveis": 28333.0,
+    "Serviços prestados por terceiros": 5500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,229 @@
+{
+ "sq": "110002542649",
+ "nome_urna": "BETO DOIS A UM",
+ "cargo": "depest",
+ "uf": "MT",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 674021.0,
+  "por_origem": {
+   "Recursos de partido político": 350000.0,
+   "Recursos de pessoas físicas": 197021.0,
+   "Recursos próprios": 127000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 150000.0,
+   "OUTROS RECURSOS": 524021.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "45943051000195",
+    "nome": "Direção Estadual/Distrital - UNIÃO - MATO GROSSO",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 150000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 324021.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 695360.05,
+  "total_pago": 120448.82,
+  "fornecedores_pj": [
+   {
+    "cnpj": "31765722000160",
+    "nome": "UNIAO TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 222480.0
+   },
+   {
+    "cnpj": "04870907000162",
+    "nome": "ZIAD A. FARES LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 55000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 55000.0
+   },
+   {
+    "cnpj": "30613136000138",
+    "nome": "FELICIO COMERCIO E LOCACAO DE AUTOMOVEIS LTDA",
+    "cnae": "45111",
+    "n_despesas": 5,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 41801.32
+   },
+   {
+    "cnpj": "60225944000199",
+    "nome": "I. ALVES DE LIMA JUNIOR LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "41139745000113",
+    "nome": "EVENTUS LOCADORA LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "02580316000478",
+    "nome": "ATIVA LOCACAO LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "37612443000143",
+    "nome": "DAVANTI PUBLICIDADE E MIDIA LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4875.0
+   },
+   {
+    "cnpj": "54804051000103",
+    "nome": "54.804.051 VALDIR NUNES",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4450.0
+   },
+   {
+    "cnpj": "34255797000190",
+    "nome": "RC PRODUCOES LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 4400.0
+   },
+   {
+    "cnpj": "34459186000163",
+    "nome": "M W M PRODUCOES E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "57400192000140",
+    "nome": "BOSQUE DE ROSARIO SPE LTDA",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "48339305000159",
+    "nome": "DEGUSTARE SERVICOS DE ALIMENTACAO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "37488012000389",
+    "nome": "B M COMERCIAL DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 12,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1831.22
+   },
+   {
+    "cnpj": "00597244000101",
+    "nome": "CIDA FRANCO COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 978.99
+   },
+   {
+    "cnpj": "01160370000159",
+    "nome": "ASSOCIACAO DOS SERVIDORES MUNICIPAIS DE CAMPO VERDE-MT",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 350.0
+   },
+   {
+    "cnpj": "31358879000333",
+    "nome": "RIO NOVO ENCOMENDAS E CARGAS LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 138.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 102,
+   "total": 264055.52,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 155831.52,
+    "Cessão ou locação de veículos": 8000.0,
+    "Despesas com pessoal": 82600.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 24.0,
+    "Locação/cessão de bens imóveis": 10600.0,
+    "Pré-instalação física de comitê de campanha": 7000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

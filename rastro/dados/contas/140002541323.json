@@ -1,0 +1,173 @@
+{
+ "sq": "140002541323",
+ "nome_urna": "RENATO OLIVEIRA",
+ "cargo": "depest",
+ "uf": "PA",
+ "partido": "AVANTE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 352527.79,
+  "por_origem": {
+   "Recursos de outros candidatos": 4427.79,
+   "Recursos de pessoas físicas": 348100.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 352527.79
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68455551000183",
+    "nome": "JOSE BENITO PRIANTE JUNIOR",
+    "total": 4427.79
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 24,
+   "total": 348100.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 256066.75,
+  "total_pago": 281574.87,
+  "fornecedores_pj": [
+   {
+    "cnpj": "65610824000129",
+    "nome": "IVAN JUNIOR ALVAO PIMENTA",
+    "cnae": "14126",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 44500.0
+   },
+   {
+    "cnpj": "62000965000131",
+    "nome": "62.000.965 KAUA KARLLISON CONCEICAO ARAUJO",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 34500.0
+   },
+   {
+    "cnpj": "39402329000114",
+    "nome": "COOKIE COFFEE BELEM LTDA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 21500.0
+   },
+   {
+    "cnpj": "06300116000122",
+    "nome": "ARAUJO PESTANA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "40196003000167",
+    "nome": "AUTO POSTO RABELO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10078.65
+   },
+   {
+    "cnpj": "13766237000120",
+    "nome": "CENTENO, NASCIMENTO, PINHEIRO, ALMEIDA GRAIM ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "41915444000134",
+    "nome": "WAGNER S DA SILVA LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "03665540000182",
+    "nome": "BRASHOW PROMOCOES E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 1728.0
+   },
+   {
+    "cnpj": "56019253000161",
+    "nome": "AC COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1380.0
+   },
+   {
+    "cnpj": "64965655000187",
+    "nome": "64.965.655 FABRICIO DA SILVA MARTINS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "29293106000102",
+    "nome": "EXCLUSIVA CERTIFICADORA SERVICOS LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 250.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 69,
+   "total": 92230.1,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 16500.0,
+    "Despesas com pessoal": 25695.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 35.1,
+    "Locação/cessão de bens imóveis": 6000.0,
+    "Produção de jingles, vinhetas e slogans": 3000.0,
+    "Serviços contábeis": 10000.0,
+    "Serviços prestados por terceiros": 31000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

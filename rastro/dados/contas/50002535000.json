@@ -1,0 +1,318 @@
+{
+ "sq": "50002535000",
+ "nome_urna": "PAULO AZI",
+ "cargo": "depfed",
+ "uf": "BA",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2948249.77,
+  "por_origem": {
+   "Recursos de partido político": 2898249.77,
+   "Recursos de pessoas físicas": 40000.0,
+   "Recursos próprios": 10000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2893496.1,
+   "FUNDO PARTIDARIO": 4753.67,
+   "OUTROS RECURSOS": 50000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 2893496.1
+   },
+   {
+    "cnpj": "45928648000160",
+    "nome": "Direção Estadual/Distrital - UNIÃO - BAHIA",
+    "total": 4753.67
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 50000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2226343.37,
+  "total_pago": 2255793.57,
+  "fornecedores_pj": [
+   {
+    "cnpj": "67168797000101",
+    "nome": "DS GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 389430.0
+   },
+   {
+    "cnpj": "49835474000142",
+    "nome": "CKLS EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 375500.0
+   },
+   {
+    "cnpj": "68319428000135",
+    "nome": "SANDRO DE OLIVEIRA REGIS",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "00149796000149",
+    "nome": "J M GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 103390.0
+   },
+   {
+    "cnpj": "68319452000174",
+    "nome": "PAULO SERGIO PARANHOS DE MAGALHAES JUNIOR",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "61042113000144",
+    "nome": "PACIFICO ENTRETENIMENTO E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "68319395000123",
+    "nome": "EMERSON PENALVA LOPES DOS SANTOS",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "53131986000103",
+    "nome": "UP GRAFICA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 39600.0
+   },
+   {
+    "cnpj": "35093823000193",
+    "nome": "FENIX COMERCIO E SERVICO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 39200.0
+   },
+   {
+    "cnpj": "52976091000107",
+    "nome": "DEU BOOM LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 34000.0
+   },
+   {
+    "cnpj": "40212959000105",
+    "nome": "INDICES ANALISES CONSULTORIA E ESTATISTICA LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "04241959000170",
+    "nome": "MULTIPLICAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 25316.34
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "53721430000169",
+    "nome": "LP CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "01630610000131",
+    "nome": "MACTRA COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10246.5
+   },
+   {
+    "cnpj": "08304720000152",
+    "nome": "CENTRAL DE EVENTOS E TURISMO DA BAHIA LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "00254564000150",
+    "nome": "CONSUPORTE LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5440.0
+   },
+   {
+    "cnpj": "62739986000173",
+    "nome": "62.739.986 GONCALO SILVA SANTANA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 4990.0
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 4786.65
+   },
+   {
+    "cnpj": "26080840000103",
+    "nome": "A PLAY S COMERCIO E SERVICOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "11792941000121",
+    "nome": "BRUNO COSTA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "54208133000187",
+    "nome": "54.208.133 KARLA KAROLINE DE JESUS CERQUEIRA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "13558515000153",
+    "nome": "ASSOCIACAO BAHIANA DE SUPERMERCADOS",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "31269757000109",
+    "nome": "START PRINT LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 690.0
+   },
+   {
+    "cnpj": "24630629000183",
+    "nome": "VH AGENCIA DIGITAL E INTERNET LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "07192452000161",
+    "nome": "3L COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 279.78
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 51,
+   "total": 696874.1,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 42.1,
+    "Locação/cessão de bens imóveis": 36812.0,
+    "Serviços prestados por terceiros": 660020.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

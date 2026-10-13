@@ -1,0 +1,341 @@
+{
+ "sq": "80002542409",
+ "nome_urna": "DA VITÓRIA",
+ "cargo": "depfed",
+ "uf": "ES",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3107462.75,
+  "por_origem": {
+   "Recursos de outros candidatos": 13244.75,
+   "Recursos de partido político": 2900000.0,
+   "Recursos de pessoas físicas": 174218.0,
+   "Recursos próprios": 20000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2808194.75,
+   "FUNDO PARTIDARIO": 104775.0,
+   "OUTROS RECURSOS": 194493.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 2900000.0
+   },
+   {
+    "cnpj": "68545717000152",
+    "nome": "DANIEL SANTANA BARBOSA",
+    "total": 13244.75
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 24,
+   "total": 194218.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1236515.43,
+  "total_pago": 858614.14,
+  "fornecedores_pj": [
+   {
+    "cnpj": "18634320000169",
+    "nome": "FERNANDO CARREIRO CONSULTORES ASSOCIADOS S/S LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 154761.0
+   },
+   {
+    "cnpj": "46661766000118",
+    "nome": "WERLANE BRAGUNCE MAULAZ SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "37826380000128",
+    "nome": "MORED ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "14927489000156",
+    "nome": "J MORO SERVICOS",
+    "cnae": "18121",
+    "n_despesas": 21,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25137.0
+   },
+   {
+    "cnpj": "10944716000109",
+    "nome": "KRD ALUGUEL DE IMOVEIS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20100.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "27252147000125",
+    "nome": "GRAFICA E EDITORA JEP LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "31287667000140",
+    "nome": "FONTANA ARTES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13650.0
+   },
+   {
+    "cnpj": "39316666000199",
+    "nome": "REDE BRASILEIRA DE AUTOMOTORES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12233.5
+   },
+   {
+    "cnpj": "05929022000154",
+    "nome": "FLASH LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6700.0
+   },
+   {
+    "cnpj": "10892133000173",
+    "nome": "RL - COMERCIO E ALUGUEL DE VEICULOS LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "45711170000112",
+    "nome": "45.711.170 HERIC MARTINELLI DEVENS",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "27486414000129",
+    "nome": "ITAJUBY EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "51421232000154",
+    "nome": "CACHOEIRO COMUNICACAO VISUAL INDUSTRIA COMERCIO E SERVICOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4219.0
+   },
+   {
+    "cnpj": "27419142000144",
+    "nome": "POSTO IATE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2180.56
+   },
+   {
+    "cnpj": "09153174000169",
+    "nome": "RIBEIRO E GUIMARAES EMPREENDIMENTOS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2150.0
+   },
+   {
+    "cnpj": "21564829000197",
+    "nome": "CAROLINE BONA CAMATTA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1575.0
+   },
+   {
+    "cnpj": "40134537000169",
+    "nome": "SUPLYMAX COMERCIO E SERVICOS DE EQUIPAMENTOS LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "27279876000175",
+    "nome": "POSTO DE GASOLINA SAO MIGUEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1298.92
+   },
+   {
+    "cnpj": "02468894000174",
+    "nome": "POSTO OURO NEGRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 802.8
+   },
+   {
+    "cnpj": "35058363000162",
+    "nome": "J V E CERQUEIRA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 693.47
+   },
+   {
+    "cnpj": "48651613000115",
+    "nome": "POSTO PORTAL DO CAPARAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 532.98
+   },
+   {
+    "cnpj": "05428031000161",
+    "nome": "POSTO SANTA BARBARA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 381.58
+   },
+   {
+    "cnpj": "27302488000168",
+    "nome": "POSTO BLUMENAU LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 367.63
+   },
+   {
+    "cnpj": "27119460000190",
+    "nome": "AUTO SERVICO DINO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 350.3
+   },
+   {
+    "cnpj": "03955074000170",
+    "nome": "POSTO E HOTEL BARRA DO RIACHO - LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 297.07
+   },
+   {
+    "cnpj": "15282814000133",
+    "nome": "AUTO POSTO GUACUI LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 221.97
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 404,
+   "total": 744462.65,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 554880.0,
+    "Cessão ou locação de veículos": 73250.0,
+    "Despesas com pessoal": 86513.55,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 319.1,
+    "Locação/cessão de bens imóveis": 29500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

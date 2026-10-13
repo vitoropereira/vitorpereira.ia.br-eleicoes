@@ -1,0 +1,277 @@
+{
+ "sq": "120002536068",
+ "nome_urna": "ANDRE SALINEIRO",
+ "cargo": "depest",
+ "uf": "MS",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 967346.66,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 13400.0,
+   "Recursos de partido político": 940680.0,
+   "Recursos de pessoas físicas": 10000.0,
+   "Recursos próprios": 3266.66
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 800000.0,
+   "FUNDO PARTIDARIO": 140680.0,
+   "OUTROS RECURSOS": 26666.66
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 800000.0
+   },
+   {
+    "cnpj": "09002846000135",
+    "nome": "Direção Estadual/Distrital - PL - MATO GROSSO DO SUL",
+    "total": 140680.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 13400.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 13266.66
+  }
+ },
+ "despesas": {
+  "total_contratado": 894090.16,
+  "total_pago": 966507.16,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "26571393000187",
+    "nome": "FELIZ GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 52868.0
+   },
+   {
+    "cnpj": "34028316944144",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 24508.0
+   },
+   {
+    "cnpj": "46929664000130",
+    "nome": "VINICIUS RODRIGUES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "54813023000144",
+    "nome": "DESIGN 3 PROPAGANDA VISUAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 13060.0
+   },
+   {
+    "cnpj": "45087583000178",
+    "nome": "BRUNO BURGATT JOLO",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "11815600000124",
+    "nome": "CANTOO PRODUTOS E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3568.0
+   },
+   {
+    "cnpj": "03126158000109",
+    "nome": "TIPOGRAFIA PROGRESSO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "26797102000173",
+    "nome": "RBQ COMUNICACAO IMPRESSA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "46631696000155",
+    "nome": "PHM FILMES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "66974444000136",
+    "nome": "VELTRA MARKETING DIRETO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "18727053000174",
+    "nome": "PAGAR.ME S.A.",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "26742116000190",
+    "nome": "SAFRA BOA EVENTOS E PRODUCOES LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "08726563000254",
+    "nome": "DISTRIBUIDORA CENTRAL EMBALAGENS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 784.67
+   },
+   {
+    "cnpj": "26175559000146",
+    "nome": "R FIX BRASIL COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 720.0
+   },
+   {
+    "cnpj": "37557519000185",
+    "nome": "SADAN FESTAS LTDA",
+    "cnae": "47237",
+    "n_despesas": 3,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 610.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 327.49
+   },
+   {
+    "cnpj": "17108123000143",
+    "nome": "ROSCIO OPHIR DOS SANTOS",
+    "cnae": "47237",
+    "n_despesas": 2,
+    "tipos": [
+     "Água"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "39994996000133",
+    "nome": "BOTCONVERSA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 299.0
+   },
+   {
+    "cnpj": "53743361000194",
+    "nome": "KEILA DA SILVA LIMA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 240.0
+   },
+   {
+    "cnpj": "02517521000146",
+    "nome": "ASSOCIACAO DE COMUNICACAO SOCIAL CRISTA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 234,
+   "total": 604105.0,
+   "por_tipo": {
+    "Despesas com pessoal": 571900.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 205.0,
+    "Locação/cessão de bens imóveis": 7000.0,
+    "Serviços contábeis": 25000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

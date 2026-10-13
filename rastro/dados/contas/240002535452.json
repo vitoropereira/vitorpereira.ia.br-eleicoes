@@ -1,0 +1,161 @@
+{
+ "sq": "240002535452",
+ "nome_urna": "ODAIR TRAMONTIN",
+ "cargo": "depest",
+ "uf": "SC",
+ "partido": "NOVO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 316989.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 11124.0,
+   "Recursos de outros candidatos": 55315.0,
+   "Recursos de partido político": 11000.0,
+   "Recursos de pessoas físicas": 195550.0,
+   "Recursos próprios": 44000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 316989.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68329263000182",
+    "nome": "GILSON MARQUES VIEIRA",
+    "total": 55315.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 11124.0
+   },
+   {
+    "cnpj": "28822118000114",
+    "nome": "Direção Estadual/Distrital - NOVO - SANTA CATARINA",
+    "total": 11000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 23,
+   "total": 239550.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 65774.42,
+  "total_pago": 66758.42,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 23500.0
+   },
+   {
+    "cnpj": "51854816000113",
+    "nome": "51.854.816 FABIANA KIENEN",
+    "cnae": "47598",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11050.0
+   },
+   {
+    "cnpj": "13635962000169",
+    "nome": "DSA PANFLETAGEM LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros",
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 10750.0
+   },
+   {
+    "cnpj": "00806881000132",
+    "nome": "GRAFICA VOLPATO LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9390.0
+   },
+   {
+    "cnpj": "68329297000177",
+    "nome": "RODRIGO LIVRAMENTO ARAUJO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "46817922000197",
+    "nome": "JWA SOLUCOES EM VENDAS E MARKETING LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3100.0
+   },
+   {
+    "cnpj": "22584836000113",
+    "nome": "TALITA GRACIELLE DE MIRA INACIO",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2975.0
+   },
+   {
+    "cnpj": "68329274000162",
+    "nome": "LUCIO VANDERLINDE",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 617.5
+   },
+   {
+    "cnpj": "23513892000120",
+    "nome": "BLUGRAF GRAFICA DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 560.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 329.92
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 2.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

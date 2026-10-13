@@ -1,0 +1,216 @@
+{
+ "sq": "90002547018",
+ "nome_urna": "VIRMONDES CRUVINEL",
+ "cargo": "depest",
+ "uf": "GO",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1060017.94,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 43270.45,
+   "Recursos de outros candidatos": 10791.66,
+   "Recursos de partido político": 805155.83,
+   "Recursos de pessoas físicas": 157000.0,
+   "Recursos próprios": 43800.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 807040.83,
+   "OUTROS RECURSOS": 252977.11
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 405155.83
+   },
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 400000.0
+   },
+   {
+    "cnpj": "28067410000179",
+    "nome": "ELEGIS GESTAO ESTRATEGICA",
+    "total": 43270.45
+   },
+   {
+    "cnpj": "68470342000109",
+    "nome": "CELIO ANTONIO DA SILVEIRA",
+    "total": 8906.66
+   },
+   {
+    "cnpj": "68526875000165",
+    "nome": "LEDA BORGES DE MOURA",
+    "total": 1885.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 200800.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 468023.39,
+  "total_pago": 205260.84,
+  "fornecedores_pj": [
+   {
+    "cnpj": "00293829000120",
+    "nome": "J. VIRGILIO IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "01732140000117",
+    "nome": "MW - AUDITORIA E CONSULTORIA SS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "35109227000154",
+    "nome": "FLY BANNER IMPRESSAO DIGITAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19485.0
+   },
+   {
+    "cnpj": "43344419000173",
+    "nome": "ITS MOBILIDADE LTDA",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 19361.0
+   },
+   {
+    "cnpj": "28252061000165",
+    "nome": "QUALIQUANTI MARKETING E COMUNICACAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10050.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "04787170000119",
+    "nome": "FABINO GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6581.05
+   },
+   {
+    "cnpj": "01796505000177",
+    "nome": "TRAPY ZOMBA CONFECCOES BRINDES LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5200.0
+   },
+   {
+    "cnpj": "32312128000187",
+    "nome": "SMART LOC LOCACOES E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "39418757000135",
+    "nome": "DF CONSTRUCOES CONSULTORIA IMOBILIARIA LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "35368139000177",
+    "nome": "CRIATIVA IMPRESSOES DIGITAIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2880.0
+   },
+   {
+    "cnpj": "21062177000192",
+    "nome": "PEDRO HENRIQUE CAVALCANTE DE SOUSA DIAS",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2050.0
+   },
+   {
+    "cnpj": "14707720000104",
+    "nome": "CONEXAO DIGITAL SOLUTION - COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1370.0
+   },
+   {
+    "cnpj": "28067410000179",
+    "nome": "ELEGIS GESTAO ESTRATEGICA",
+    "cnae": "70204",
+    "n_despesas": 3,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 820.84
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 153,
+   "total": 315725.5,
+   "por_tipo": {
+    "Despesas com pessoal": 283542.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 62.5,
+    "Locação/cessão de bens imóveis": 12121.0,
+    "Serviços advocatícios": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

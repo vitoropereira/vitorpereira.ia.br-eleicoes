@@ -1,0 +1,420 @@
+{
+ "sq": "110002550863",
+ "nome_urna": "FÁBIO GARCIA",
+ "cargo": "depfed",
+ "uf": "MT",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3214800.0,
+  "por_origem": {
+   "Recursos de partido político": 2899800.0,
+   "Recursos de pessoas físicas": 315000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2899800.0,
+   "OUTROS RECURSOS": 315000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 2899800.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 12,
+   "total": 315000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1512563.6,
+  "total_pago": 722530.94,
+  "fornecedores_pj": [
+   {
+    "cnpj": "10857732000156",
+    "nome": "MAURICIO MAGALHAES FARIA JUNIOR SOCIEDADE UNIPESSOAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "26873706000151",
+    "nome": "IDEA SOLUCOES CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "35592729000189",
+    "nome": "HF COMUNICACAO ESTRATEGIA E ASSESSORIA DE IMPRENSA LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "15093055000160",
+    "nome": "F. C. GONCALVES",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "08306495000193",
+    "nome": "VELZ RENT A CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 33500.0
+   },
+   {
+    "cnpj": "27107920000160",
+    "nome": "UNICAR LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "11060598000120",
+    "nome": "ALE COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "19376436000108",
+    "nome": "DINAMICA AUTOMOTORES LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 11800.0
+   },
+   {
+    "cnpj": "05511956000171",
+    "nome": "EVA TUR TRANSPORTES LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 9600.0
+   },
+   {
+    "cnpj": "40821882000170",
+    "nome": "ERICA BOMFIM ALMEIDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 9600.0
+   },
+   {
+    "cnpj": "32953905000172",
+    "nome": "TUBARAO INDUSTRIA COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8260.0
+   },
+   {
+    "cnpj": "24259274000168",
+    "nome": "V L B INDUSTRIA E COMERCIO DE CLIMATIZADORES LTDA",
+    "cnae": "28232",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 5940.0
+   },
+   {
+    "cnpj": "20270965000101",
+    "nome": "K. K. DE OLIVEIRA LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4760.0
+   },
+   {
+    "cnpj": "14926356000750",
+    "nome": "AGUAS LEBRINHA LTDA",
+    "cnae": "47237",
+    "n_despesas": 2,
+    "tipos": [
+     "Água"
+    ],
+    "total": 4547.5
+   },
+   {
+    "cnpj": "48437465000130",
+    "nome": "HAGE PARTICIPACOES E EMPREENDIMENTOS COMERCIAIS LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "01143988000100",
+    "nome": "FLEXO MIDIA PERSONALIZADOS LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2598.0
+   },
+   {
+    "cnpj": "02759135000160",
+    "nome": "HOTEL POLLES LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "07342935000103",
+    "nome": "CXW SERVICOS E NEGOCIOS DE TECNOLOGIA LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2190.0
+   },
+   {
+    "cnpj": "25302760000184",
+    "nome": "S. C. M. VIEIRA INDUSTRIA E COMERCIO DE UNIFORMES LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1980.0
+   },
+   {
+    "cnpj": "73783649000108",
+    "nome": "GRAFICA PRINT INDUSTRIA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1485.0
+   },
+   {
+    "cnpj": "59126255000148",
+    "nome": "2P TRANSPORTES LTDA",
+    "cnae": "49302",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 1291.38
+   },
+   {
+    "cnpj": "03359887000105",
+    "nome": "GRAFICA PIONEIRA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "04017029000137",
+    "nome": "VIACAO JUINA LTDA - EM RECUPERACAO JUDICIAL",
+    "cnae": "49302",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 942.08
+   },
+   {
+    "cnpj": "50390402000118",
+    "nome": "SEVEN DIGITAL GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "31358879000333",
+    "nome": "RIO NOVO ENCOMENDAS E CARGAS LTDA",
+    "cnae": "49302",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 550.0
+   },
+   {
+    "cnpj": "41118462000195",
+    "nome": "EFATA DISTRIBUIDORA LTDA",
+    "cnae": "46869",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 479.7
+   },
+   {
+    "cnpj": "01807639000146",
+    "nome": "CDA ATACADO DE PRODUTOS DESCARTAVEL E LIMPEZA LTDA",
+    "cnae": "46397",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 333.8
+   },
+   {
+    "cnpj": "09001879001728",
+    "nome": "COMERCIAL AMAZONIA DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 323.01
+   },
+   {
+    "cnpj": "33364021000226",
+    "nome": "ELOG EXPRESS ENCOMENDAS LTDA EM RECUPERACAO JUDICIAL",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 290.0
+   },
+   {
+    "cnpj": "09001879003852",
+    "nome": "COMERCIAL AMAZONIA DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 202.71
+   },
+   {
+    "cnpj": "28279948000147",
+    "nome": "AUTO POSTO SANTA MARTA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "54850957000156",
+    "nome": "BUS EXPRESS LOGISTICA LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 135.0
+   },
+   {
+    "cnpj": "10880685000161",
+    "nome": "PREMIER AUTO POSTO CUIABA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 97.47
+   },
+   {
+    "cnpj": "08216108000128",
+    "nome": "ZF INFORMATICA E PAPELARIA LTDA",
+    "cnae": "46516",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 54.2
+   },
+   {
+    "cnpj": "21374485000153",
+    "nome": "J. MARTINS DA SILVA LTDA",
+    "cnae": "47423",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 39.95
+   },
+   {
+    "cnpj": "93209765054128",
+    "nome": "WMS SUPERMERCADOS DO BRASIL LTDA.",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 18.3
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 194,
+   "total": 737845.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 335390.0,
+    "Despesas com pessoal": 402400.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 55.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

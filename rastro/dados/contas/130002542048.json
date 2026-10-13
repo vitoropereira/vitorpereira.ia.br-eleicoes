@@ -1,0 +1,375 @@
+{
+ "sq": "130002542048",
+ "nome_urna": "SAMUEL CAIRES",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 612553.52,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 2205.22,
+   "Recursos de partido político": 609998.3,
+   "Recursos de pessoas físicas": 350.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 550000.0,
+   "OUTROS RECURSOS": 62553.52
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 560000.0
+   },
+   {
+    "cnpj": "08691904000112",
+    "nome": "Direção Estadual/Distrital - PL - MINAS GERAIS",
+    "total": 49998.3
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 2205.22
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 350.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 398711.59,
+  "total_pago": 489957.18,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 52000.0
+   },
+   {
+    "cnpj": "67221351000101",
+    "nome": "PRISMAH LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "51921460000193",
+    "nome": "KATHLEEN MATOS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 43000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 26024.19
+   },
+   {
+    "cnpj": "01638944000151",
+    "nome": "PENTAGONO CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 11056.29
+   },
+   {
+    "cnpj": "68877326000135",
+    "nome": "68.877.326 VINICIUS NUNES DA SILVA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "55611026000168",
+    "nome": "55.611.026 ELVIS ELIAQUIM DE OLIVEIRA SILVA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 7785.0
+   },
+   {
+    "cnpj": "12841373000174",
+    "nome": "GRAFICA PAMPULHA LTDA.",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 7160.0
+   },
+   {
+    "cnpj": "29925379000122",
+    "nome": "29.925.379 JOSE GUSTAVO PORTO DIAS",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "42553148000101",
+    "nome": "FLAVIANA CONCEICAO MARTINS PEDROGA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "59777621000129",
+    "nome": "NOBRE MARKETING E TECNOLOGIA LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 4146.78
+   },
+   {
+    "cnpj": "26335565000113",
+    "nome": "26.335.565 AROLDO ALVES DE AZEVEDO JUNIOR",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "42451803000102",
+    "nome": "CASSIO NASCIMENTO DE CASTRO",
+    "cnae": "95126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "22051853000195",
+    "nome": "GERALDA MAGNA DOS SANTOS FERNANDES",
+    "cnae": "47121",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1823.0
+   },
+   {
+    "cnpj": "45499788000160",
+    "nome": "INTEGRA SERVICOS E SUPRIMENTOS LTDA",
+    "cnae": "85929",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "49131096000116",
+    "nome": "PE DE FERRO CONFECCOES LTDA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 1326.0
+   },
+   {
+    "cnpj": "03857669000192",
+    "nome": "POSTO ALJIG LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1189.82
+   },
+   {
+    "cnpj": "34028316348967",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 516.2
+   },
+   {
+    "cnpj": "20789673000180",
+    "nome": "IMPRESILK COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 360.0
+   },
+   {
+    "cnpj": "06031178000186",
+    "nome": "ELCIO DE CARVALHO SILVA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "06943829000104",
+    "nome": "NORTE LINE TELECOMUNICACOES LTDA",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "22547761000109",
+    "nome": "MAX PRIMI IMPRESSORAS E COPIADORAS LTDA",
+    "cnae": "47512",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)",
+     "Materiais de expediente"
+    ],
+    "total": 272.9
+   },
+   {
+    "cnpj": "06981180000116",
+    "nome": "CEMIG DISTRIBUICAO S.A",
+    "cnae": "35140",
+    "n_despesas": 2,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 178.7
+   },
+   {
+    "cnpj": "17281106000103",
+    "nome": "COMPANHIA DE SANEAMENTO DE MINAS GERAIS COPASA MG",
+    "cnae": "36006",
+    "n_despesas": 2,
+    "tipos": [
+     "Água"
+    ],
+    "total": 159.1
+   },
+   {
+    "cnpj": "12105570000125",
+    "nome": "UWBR VOX TELECOMUNICACOES S/A",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 103.27
+   },
+   {
+    "cnpj": "11517707000196",
+    "nome": "FONT E SOUZA LTDA",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 79.4
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 44.82
+   },
+   {
+    "cnpj": "31329946000120",
+    "nome": "EMPORIO MONTES CLAROS LTDA",
+    "cnae": "47822",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 13.0
+   },
+   {
+    "cnpj": "22661482000244",
+    "nome": "FREIOPECAS LTDA",
+    "cnae": "47415",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 12.7
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 31,
+   "total": 145060.42,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 6250.0,
+    "Despesas com pessoal": 89366.77,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 26.5,
+    "Locação/cessão de bens imóveis": 34377.15,
+    "Locação/cessão de bens móveis (exceto veículos)": 6600.0,
+    "Serviços prestados por terceiros": 8440.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,209 @@
+{
+ "sq": "20002548090",
+ "nome_urna": "LELO MAIA",
+ "cargo": "depest",
+ "uf": "AL",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 293184.01,
+  "por_origem": {
+   "Recursos de outros candidatos": 13390.0,
+   "Recursos de partido político": 100000.0,
+   "Recursos de pessoas físicas": 158348.01,
+   "Recursos próprios": 21446.0
+  },
+  "por_fonte": {
+   "FUNDO PARTIDARIO": 100000.0,
+   "OUTROS RECURSOS": 193184.01
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01308052000192",
+    "nome": "Direção Estadual/Distrital - MDB - ALAGOAS",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68455298000168",
+    "nome": "LUCIANO SURUAGY DO AMARAL FILHO",
+    "total": 13390.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 179794.01
+  }
+ },
+ "despesas": {
+  "total_contratado": 174227.52,
+  "total_pago": 231614.01,
+  "fornecedores_pj": [
+   {
+    "cnpj": "10836151000138",
+    "nome": "FOCO ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "50558829000182",
+    "nome": "GALETERIA ANDRADE RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 10503.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "23220094000100",
+    "nome": "REDE EDITORA E SERVICOS GRAFICOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "13898993000102",
+    "nome": "TEXGRAF EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8024.0
+   },
+   {
+    "cnpj": "02804864000191",
+    "nome": "BELUMA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7797.02
+   },
+   {
+    "cnpj": "03867195000160",
+    "nome": "CONEXAO MONTAGENS E EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 6700.0
+   },
+   {
+    "cnpj": "61179038000168",
+    "nome": "FIVE COMUNICACAO DIGITAL LTDA",
+    "cnae": "42111",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4300.0
+   },
+   {
+    "cnpj": "13106801000188",
+    "nome": "ARTE NOVA GRAFICA E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "68096701000100",
+    "nome": "CN FESTAS E EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "52380451000103",
+    "nome": "ERA COMUNICACAO EVENTOS COMERCIO SERVICOS E LOCACOES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "24865944000190",
+    "nome": "HILLS PRODUCOES ARTISTICAS E CULTURAIS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "46791483000190",
+    "nome": "LIDER CONSULTORIA, GESTAO E SERVICOS LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 980.0
+   },
+   {
+    "cnpj": "11355874000188",
+    "nome": "INFINNI SERVICOS E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 700.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 37,
+   "total": 74223.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 47000.0,
+    "Despesas com pessoal": 5200.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 23.5,
+    "Locação/cessão de bens imóveis": 12000.0,
+    "Serviços advocatícios": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

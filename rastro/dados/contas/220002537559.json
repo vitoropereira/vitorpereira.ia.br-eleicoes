@@ -1,0 +1,234 @@
+{
+ "sq": "220002537559",
+ "nome_urna": "NIM BARROSO",
+ "cargo": "depest",
+ "uf": "RO",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 448039.19,
+  "por_origem": {
+   "Recursos de partido político": 300000.0,
+   "Recursos de pessoas físicas": 148039.19
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 300000.0,
+   "OUTROS RECURSOS": 148039.19
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 300000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 39,
+   "total": 148039.19
+  }
+ },
+ "despesas": {
+  "total_contratado": 280141.43,
+  "total_pago": 256129.75,
+  "fornecedores_pj": [
+   {
+    "cnpj": "04803689000143",
+    "nome": "GRAFICA BR DIGITAL LTDA",
+    "cnae": "58298",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 42608.0
+   },
+   {
+    "cnpj": "40160617000199",
+    "nome": "W ALVES DA SILVA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "64453182000139",
+    "nome": "64.453.182 TALITA LELIS DE OLIVEIRA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "32060995000172",
+    "nome": "DRT COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 13780.0
+   },
+   {
+    "cnpj": "50137202000158",
+    "nome": "C B NERY PRODUCOES EVENTOS",
+    "cnae": "90019",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 13550.0
+   },
+   {
+    "cnpj": "08632095000178",
+    "nome": "S. L. CESCONETTO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "05882881000135",
+    "nome": "POSTO NOVA BRASILIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 11787.48
+   },
+   {
+    "cnpj": "47892457000111",
+    "nome": "RODRIGUES BARROS SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "02680417000178",
+    "nome": "P. S. COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7290.0
+   },
+   {
+    "cnpj": "63765416000110",
+    "nome": "O. L. DE OLIVEIRA",
+    "cnae": "13511",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "05920467000173",
+    "nome": "ESPORTE CLUBE VERA CRUZ",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "32928943000175",
+    "nome": "MUNDIAL FX LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3900.0
+   },
+   {
+    "cnpj": "01060256000157",
+    "nome": "L.H.C COMERCIO E SERVICOS LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "35284143000157",
+    "nome": "AGUAPEI COMERCIO VAREJISTA DE MADEIRA LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2856.0
+   },
+   {
+    "cnpj": "66402160000175",
+    "nome": "J K DA SILVA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2250.0
+   },
+   {
+    "cnpj": "01963847000134",
+    "nome": "NOVA SPLENDORE COMERCIO IMPORTACAO E EXPORTACAO DE ELETRO E ELETRONICO E SERVICO DE DECORACAO LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "15754475000140",
+    "nome": "HOSTGATOR BRASIL LTDA.",
+    "cnae": "63119",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 87.88
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 36,
+   "total": 85032.07,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 49926.8,
+    "Despesas com pessoal": 15095.27,
+    "Despesas com transporte ou deslocamento": 10000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 10.0,
+    "Locação/cessão de bens imóveis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

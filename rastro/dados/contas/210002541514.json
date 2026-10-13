@@ -1,0 +1,459 @@
+{
+ "sq": "210002541514",
+ "nome_urna": "ALCEU MOREIRA",
+ "cargo": "depfed",
+ "uf": "RS",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3052500.0,
+  "por_origem": {
+   "Recursos de partido político": 2330000.0,
+   "Recursos de pessoas físicas": 707500.0,
+   "Recursos próprios": 15000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2330000.0,
+   "OUTROS RECURSOS": 722500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 2330000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 16,
+   "total": 722500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 935065.17,
+  "total_pago": 1358865.39,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 290000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 155000.0
+   },
+   {
+    "cnpj": "88000377000191",
+    "nome": "G BENEFICIAMENTO E COMERCIO DE TECIDOS LTDA",
+    "cnae": "13405",
+    "n_despesas": 16,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 114638.0
+   },
+   {
+    "cnpj": "26258993000190",
+    "nome": "MILTON CAVA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "15115234000151",
+    "nome": "SPEED PROMOCIONAL INDUSTRIA DE BRINDES LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 39990.0
+   },
+   {
+    "cnpj": "50981660000179",
+    "nome": "IBES ERON ALVES VAZ LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 37568.5
+   },
+   {
+    "cnpj": "68518648000198",
+    "nome": "ROBERTO FANTINEL",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "08537010000172",
+    "nome": "THS IMPRESSAO DIGITAL LTDA",
+    "cnae": "46192",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 24480.0
+   },
+   {
+    "cnpj": "13507524000204",
+    "nome": "D. C. VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 4,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 21830.0
+   },
+   {
+    "cnpj": "34047033000109",
+    "nome": "BLISS PRODUTORA DE AUDIO LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68519456000104",
+    "nome": "EDIVILSON MEURER BRUM",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "12541620000117",
+    "nome": "SERIBAND INDUSTRIA E COMERCIO DE CONFECCOES LTDA",
+    "cnae": "13596",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12750.0
+   },
+   {
+    "cnpj": "68519346000134",
+    "nome": "TANIA TEREZINHA DA SILVA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 11221.19
+   },
+   {
+    "cnpj": "68518614000101",
+    "nome": "JOAO FRANCISCO COIMBRA PARENTI",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68518821000158",
+    "nome": "MATEUS GIOVANONI TROJAN",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68519711000100",
+    "nome": "LUCIANA FLORES FIGUEIREDO MENDES",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "55499435000114",
+    "nome": "PULSAR IMOBILIARIO LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "68519582000150",
+    "nome": "SANDRO FIGUEIREDO DE OLIVEIRA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "27151252000178",
+    "nome": "E X PRODUCOES LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "68519514000191",
+    "nome": "CLAIR TOME KUHN",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "68519963000130",
+    "nome": "ARLINDO ANTONIO LOPES",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "68519977000153",
+    "nome": "MARCIO PEREIRA ANTUNES",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "07027856000108",
+    "nome": "NOSCHANG ARTES GRAFICAS LTDA",
+    "cnae": "17419",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4404.5
+   },
+   {
+    "cnpj": "90512682000104",
+    "nome": "JORNAL DO POVO LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 4320.0
+   },
+   {
+    "cnpj": "36923744000125",
+    "nome": "SM DUBLAGENS E TECIDOS LTDA",
+    "cnae": "22293",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4200.0
+   },
+   {
+    "cnpj": "89176887000187",
+    "nome": "NP IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "89790323000130",
+    "nome": "JP4 PRODUCOES TECNICAS E COMUNICACOES LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3650.0
+   },
+   {
+    "cnpj": "68518581000191",
+    "nome": "JULIA GRAZIELA AZAMBUJA DOS SANTOS DUTRA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 3440.0
+   },
+   {
+    "cnpj": "73535536000185",
+    "nome": "COMERCIAL DE COMBUSTIVEIS COELHO LTDA",
+    "cnae": "47318",
+    "n_despesas": 10,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2572.8
+   },
+   {
+    "cnpj": "55724685000100",
+    "nome": "RICARDO DANI BECKER SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 2431.5
+   },
+   {
+    "cnpj": "23484664000179",
+    "nome": "OLA EMPRESA JORNALISTICA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1994.2
+   },
+   {
+    "cnpj": "39158679000187",
+    "nome": "GUSTAVO ECCHER LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1300.0
+   },
+   {
+    "cnpj": "98597719000156",
+    "nome": "EMPRESA JORNALISTICA FOLHA DO MATE LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 875.25
+   },
+   {
+    "cnpj": "01236346000156",
+    "nome": "JORNAL NOSSA GENTE VALE DO TAQUARI LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 675.0
+   },
+   {
+    "cnpj": "04154982000127",
+    "nome": "CARLOS ANDRE DA COSTA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "90588484000124",
+    "nome": "EMPRESA JORNALISTICA BOTUCARAI LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 585.0
+   },
+   {
+    "cnpj": "04539571000150",
+    "nome": "INFORMATIVO REGIONAL EMPRESA JORNALISTICA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "03043551000120",
+    "nome": "ROTA DO YUCUMA TURISMO LTDA.",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 375.0
+   },
+   {
+    "cnpj": "11866896000102",
+    "nome": "ALVES EDITORA DE JORNAIS E REVISTAS LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "17514718000107",
+    "nome": "EDITORA IMIGRANTENSE LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "08467115000100",
+    "nome": "COMPANHIA ESTADUAL DE DISTRIBUICAO DE ENERGIA ELETRICA - CEEE-D",
+    "cnae": "35140",
+    "n_despesas": 1,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 64.23
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 6000.0,
+   "por_tipo": {
+    "Locação/cessão de bens imóveis": 6000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

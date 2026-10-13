@@ -1,0 +1,140 @@
+{
+ "sq": "100002540261",
+ "nome_urna": "DAVI BRANDÃO",
+ "cargo": "depest",
+ "uf": "MA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 168000.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 48000.0,
+   "Recursos próprios": 120000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 168000.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 168000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 138447.22,
+  "total_pago": 167998.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "40337954000109",
+    "nome": "A A DA SILVA FILHO LTDA",
+    "cnae": "46699",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22740.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "62196781000199",
+    "nome": "ALESSON H R FERREIRA PUBLICIDADE",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 12800.0
+   },
+   {
+    "cnpj": "28222873000168",
+    "nome": "J C RIBEIRO SANTOS",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10960.0
+   },
+   {
+    "cnpj": "10417608000170",
+    "nome": "IRMAOS SILVA SALES LTDA",
+    "cnae": "46796",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "30314620000166",
+    "nome": "D. ARANHA BRINGEL",
+    "cnae": "47431",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4324.8
+   },
+   {
+    "cnpj": "63583512000148",
+    "nome": "GRAFICA DIMENSAO SERVICOS LTDA",
+    "cnae": "18121",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3025.0
+   },
+   {
+    "cnpj": "06272793000184",
+    "nome": "EQUATORIAL MARANHAO DISTRIBUIDORA DE ENERGIA S.A",
+    "cnae": "35140",
+    "n_despesas": 2,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 2333.32
+   },
+   {
+    "cnpj": "54628967000141",
+    "nome": "R DOS S ABREU",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2240.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 12,
+   "total": 52024.1,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 8000.0,
+    "Despesas com pessoal": 14000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 24.1,
+    "Produção de jingles, vinhetas e slogans": 6000.0,
+    "Publicidade por carros de som": 4000.0,
+    "Serviços advocatícios": 10000.0,
+    "Serviços contábeis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

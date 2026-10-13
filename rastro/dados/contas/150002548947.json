@@ -1,0 +1,219 @@
+{
+ "sq": "150002548947",
+ "nome_urna": "MARIA PORTO",
+ "cargo": "depest",
+ "uf": "PB",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1000268.0,
+  "por_origem": {
+   "Recursos de partido político": 947268.0,
+   "Recursos de pessoas físicas": 53000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 947268.0,
+   "OUTROS RECURSOS": 53000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 947268.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 53000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 568707.93,
+  "total_pago": 832377.18,
+  "fornecedores_pj": [
+   {
+    "cnpj": "07796243000127",
+    "nome": "PLASTFORT- INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
+    "cnae": "22226",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 59824.73
+   },
+   {
+    "cnpj": "02401445000109",
+    "nome": "O L LOCACAO E INCORPORACAO LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 59780.0
+   },
+   {
+    "cnpj": "30985686000188",
+    "nome": "INK IMPRESSAO DE MATERIAL PUBLICITARIO, ENCADERNACAO E EDICAO DE CADASTROS LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 51870.0
+   },
+   {
+    "cnpj": "22012224000156",
+    "nome": "VENANCIO DE ALCANTARA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "37069786000103",
+    "nome": "37.069.786 LUCAS MONTEIRO BEZERRA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "37589804000188",
+    "nome": "NILDO NUNES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "47128288000148",
+    "nome": "NOEZ SERVICOS DE CONSULTORIA EM CAMPANHAS DE MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "10956929000142",
+    "nome": "ANOVA - INOVACAO E INTELIGENCIA EM PESQUISAS LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 37500.0
+   },
+   {
+    "cnpj": "47227438000170",
+    "nome": "OPINIAO PESQUISAS QUANTITATIVAS E QUALITATIVAS LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "97545826000178",
+    "nome": "FELLIX STUDIO LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 17600.0
+   },
+   {
+    "cnpj": "53754302000111",
+    "nome": "GERMANDO ALVES CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 12500.0
+   },
+   {
+    "cnpj": "13717870000128",
+    "nome": "13.717.870 JOSIAS PEREIRA DO NASCIMENTO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "19367885000190",
+    "nome": "CRIATIVA INDUSTRIA DE COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "28934932000120",
+    "nome": "RENATO WAGNNER GUEDES DE OLIVEIRA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "01845824000125",
+    "nome": "ADIJAILSON COSTA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1100.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 8,
+   "total": 24933.2,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 33.2,
+    "Serviços prestados por terceiros": 24900.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,396 @@
+{
+ "sq": "150002551789",
+ "nome_urna": "LUCAS RIBEIRO",
+ "cargo": "governador",
+ "uf": "PB",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 7618673.0,
+  "por_origem": {
+   "Recursos de partido político": 7581173.0,
+   "Recursos de pessoas físicas": 30000.0,
+   "Recursos próprios": 7500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 7581173.0,
+   "OUTROS RECURSOS": 37500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 5000000.0
+   },
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 2581173.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 37500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 4946861.01,
+  "total_pago": 6206132.78,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 12,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 840000.0
+   },
+   {
+    "cnpj": "40365580000135",
+    "nome": "DUOZZ COMUNICACAO E ESTRATEGIA LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 350000.0
+   },
+   {
+    "cnpj": "10212999000196",
+    "nome": "FABIO BRITO FERREIRA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "57580279000147",
+    "nome": "FABIO ANDRADE MEDEIROS - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 280000.0
+   },
+   {
+    "cnpj": "07796243000127",
+    "nome": "PLASTFORT- INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
+    "cnae": "22226",
+    "n_despesas": 5,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 261946.0
+   },
+   {
+    "cnpj": "68370982000147",
+    "nome": "CRIASI SERVICOS DE CONSULTORIA E MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 230000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 220000.0
+   },
+   {
+    "cnpj": "37735608000174",
+    "nome": "ZAPIER GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 23,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 219751.6
+   },
+   {
+    "cnpj": "13510794000185",
+    "nome": "CENTRAL PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 180000.0
+   },
+   {
+    "cnpj": "26479153000157",
+    "nome": "AEROSPEED TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 159250.0
+   },
+   {
+    "cnpj": "20072544000176",
+    "nome": "MAIS GRAFICA E SERVICOS LTDA",
+    "cnae": "18211",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 156800.0
+   },
+   {
+    "cnpj": "08540403000135",
+    "nome": "GRAFICA J B LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 156425.0
+   },
+   {
+    "cnpj": "03881176000198",
+    "nome": "ESTUDIO AUDIO VISUAL LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "47128288000148",
+    "nome": "NOEZ SERVICOS DE CONSULTORIA EM CAMPANHAS DE MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "19700128000196",
+    "nome": "SEGURA O BALANCE LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "10596370000197",
+    "nome": "ASTEC GROUP CONTADORES ASSOCIADOS S/S LTDA.",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "36417689000100",
+    "nome": "BORA ENTRETENIMENTO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "01435911000104",
+    "nome": "LAMUNIER VEICULOS LTDA",
+    "cnae": "45111",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 59600.0
+   },
+   {
+    "cnpj": "08271306000194",
+    "nome": "MAIA EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "54786441000190",
+    "nome": "PIPA COWORKING LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "59335070000143",
+    "nome": "NEXT RENTCAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "68655137000118",
+    "nome": "EASY LOCACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "55034348000191",
+    "nome": "RESOLUTION SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "11847169000106",
+    "nome": "T SOM SERVICOS TERCEIRIZADOS LTDA",
+    "cnae": "49299",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "67289168000130",
+    "nome": "IMAGINARI CENOGRAFIA E COMUNICACAO VISUAL LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 19000.0
+   },
+   {
+    "cnpj": "09307232000161",
+    "nome": "POSTO DE COMBUSTIVEL SHOPPING LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 13065.5
+   },
+   {
+    "cnpj": "12919833000130",
+    "nome": "PUMA NEGOCIOS IMOBILIARIOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "20300157008043",
+    "nome": "NOVO ATACADO COMERCIO DE ALIMENTOS SA",
+    "cnae": "47113",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação",
+     "Água"
+    ],
+    "total": 5628.0
+   },
+   {
+    "cnpj": "02401445000109",
+    "nome": "O L LOCACAO E INCORPORACAO LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "31519910000109",
+    "nome": "EXPRESSAO TAMBAU COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5374.71
+   },
+   {
+    "cnpj": "60621628000136",
+    "nome": "GR SERVICOS DE ALIMENTACAO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1620.0
+   },
+   {
+    "cnpj": "59120066000168",
+    "nome": "RESTAURANTE MARIAS EXPRESS LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "11287886000112",
+    "nome": "GM COMERCIO DE PRODUTOS DE HIGIENIZACAO PROFISSIONAL LTDA",
+    "cnae": "46494",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 198.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 126,
+   "total": 700302.2,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 218540.0,
+    "Cessão ou locação de veículos": 4200.0,
+    "Despesas com transporte ou deslocamento": 3855.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 122.0,
+    "Impostos, contribuições e taxas": 25539.74,
+    "Publicidade por carros de som": 325000.0,
+    "Serviços prestados por terceiros": 123045.46
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,331 @@
+{
+ "sq": "190002538031",
+ "nome_urna": "JOÃO PIRES",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 530190.35,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 71898.0,
+   "Recursos de outros candidatos": 30283.0,
+   "Recursos de partido político": 104788.35,
+   "Recursos de pessoas físicas": 323221.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 130283.0,
+   "OUTROS RECURSOS": 399907.35
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "14705221000170",
+    "nome": "Direção Estadual/Distrital - PSD - RIO DE JANEIRO",
+    "total": 104788.35
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 71898.0
+   },
+   {
+    "cnpj": "68470065000134",
+    "nome": "EDUARDO DA COSTA PAES",
+    "total": 30000.0
+   },
+   {
+    "cnpj": "68441881000110",
+    "nome": "DANIEL RICARDO SORANZ PINTO",
+    "total": 283.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 15,
+   "total": 323221.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 471894.65,
+  "total_pago": 274755.93,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 195000.0
+   },
+   {
+    "cnpj": "27821313000167",
+    "nome": "COLOR SET INDUSTRIA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 46350.0
+   },
+   {
+    "cnpj": "19339433000102",
+    "nome": "LAURO RABHA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "55989747000106",
+    "nome": "ATITUDE PREMIUM VEICULOS LTDA",
+    "cnae": "45111",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 24048.0
+   },
+   {
+    "cnpj": "22719675000128",
+    "nome": "RIBALTA HOTELARIA E TURISMO LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 23372.06
+   },
+   {
+    "cnpj": "32219330000169",
+    "nome": "IMPRESOUL ARTES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18600.0
+   },
+   {
+    "cnpj": "26642855000100",
+    "nome": "CASTRO, VIEIRA E FERREIRA CONTADORES ELEITORAIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 16525.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 14500.0
+   },
+   {
+    "cnpj": "32578668000107",
+    "nome": "CCC EMPREENDIMENTOS E PARTICIPACOES LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "02495060000158",
+    "nome": "IMPRINT 2001 GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12400.0
+   },
+   {
+    "cnpj": "11510082000130",
+    "nome": "FAST SOLUTIONS PRIME SERVICOS GRAFICO S LTDA",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9450.0
+   },
+   {
+    "cnpj": "11804138000160",
+    "nome": "ASSOCIACAO NACIONAL DE ARTES E CULTURA",
+    "cnae": "94120",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 6040.0
+   },
+   {
+    "cnpj": "50038866000160",
+    "nome": "BFG EMPREENDIMENTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5980.0
+   },
+   {
+    "cnpj": "10888515000123",
+    "nome": "PAPEL SEMENTE INDUSTRIA E COMERCIO LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5600.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 1566.05
+   },
+   {
+    "cnpj": "42407841000168",
+    "nome": "SAO CRISTOVAO POSTO DE SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 777.53
+   },
+   {
+    "cnpj": "30019285000173",
+    "nome": "ADM PETROLEO E DERIVADOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 467.79
+   },
+   {
+    "cnpj": "42309849000191",
+    "nome": "GERICINO AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 430.62
+   },
+   {
+    "cnpj": "37569213000149",
+    "nome": "IGLU ESTUDIO E PRODUCOES LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "42254086000129",
+    "nome": "AUTO POSTO CRISTIANE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 316.65
+   },
+   {
+    "cnpj": "31257273000140",
+    "nome": "31.257.273 GRACIETE APARECIDA ALVES VALADAO",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 310.0
+   },
+   {
+    "cnpj": "18936123000102",
+    "nome": "POSTO DE COMBUSTIVEIS TREVO DE MANILHA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 283.63
+   },
+   {
+    "cnpj": "03259263032592",
+    "nome": "AUTO POSTO BRASIL 2000 LTDA",
+    "cnae": null,
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 224.03
+   },
+   {
+    "cnpj": "03668507000106",
+    "nome": "POSTO ABREU LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 211.26
+   },
+   {
+    "cnpj": "31953466000135",
+    "nome": "GALOP GASOLINA LUBRIFICANTES E PECAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 192.31
+   },
+   {
+    "cnpj": "29490281000190",
+    "nome": "POSTO SERVICENTRO CARNEIRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 50.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 10,
+   "total": 44799.72,
+   "por_tipo": {
+    "Despesas com pessoal": 31285.72,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 14.0,
+    "Locação/cessão de bens imóveis": 13500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

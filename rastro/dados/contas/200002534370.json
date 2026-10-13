@@ -1,0 +1,203 @@
+{
+ "sq": "200002534370",
+ "nome_urna": "BIBIANO",
+ "cargo": "depest",
+ "uf": "RN",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 359437.2,
+  "por_origem": {
+   "Recursos de partido político": 200000.0,
+   "Recursos de pessoas físicas": 159437.2
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "OUTROS RECURSOS": 159437.2
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 200000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 10,
+   "total": 159437.2
+  }
+ },
+ "despesas": {
+  "total_contratado": 287381.27,
+  "total_pago": 306538.08,
+  "fornecedores_pj": [
+   {
+    "cnpj": "27097495000175",
+    "nome": "J. DA S. FERNANDES ASSESSORIA E CONSULTORIA CONTABIL E ADMINISTRATIVA",
+    "cnae": "82113",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos",
+     "Publicidade por carros de som",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 102977.88
+   },
+   {
+    "cnpj": "37437114000103",
+    "nome": "HOUSE CONSTRUCOES, PAVIMENTACAO E COMERCIO LTDA",
+    "cnae": "41204",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 68000.0
+   },
+   {
+    "cnpj": "09199046000156",
+    "nome": "BARROS, MARIZ REBOUCAS ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "30549766000190",
+    "nome": "SEJA FA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "35314597000123",
+    "nome": "ARAUJO E FERNANDES LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "13205348000167",
+    "nome": "J. L. VIANA PINHEIRO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "27997819000121",
+    "nome": "GRID COMUNICACAO VISUAL, SINALIZACAO E EVENTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "15742278000101",
+    "nome": "POSTO SUMARE LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2915.42
+   },
+   {
+    "cnpj": "51436385000175",
+    "nome": "51.436.385 FRANCISCO DE ASSIS SALDANHA DA SILVA",
+    "cnae": "82300",
+    "n_despesas": 4,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "70039003000114",
+    "nome": "H V O - EMPREENDIMENTOS TURISTICOS E LAZER LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1762.0
+   },
+   {
+    "cnpj": "52714577000169",
+    "nome": "B A SUPERMERCADO LTDA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1672.77
+   },
+   {
+    "cnpj": "51672009000180",
+    "nome": "EDUARDO ALEF DE FREITAS QUEIROZ",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1350.0
+   },
+   {
+    "cnpj": "54243692000128",
+    "nome": "M D F C MEDEIROS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "17340447000102",
+    "nome": "MARICLEYDSON COSTA DA SILVA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 675.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 11628.2,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 7.2,
+    "Produção de jingles, vinhetas e slogans": 10000.0,
+    "Serviços prestados por terceiros": 1621.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

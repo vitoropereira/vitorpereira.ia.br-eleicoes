@@ -1,0 +1,195 @@
+{
+ "sq": "170002543759",
+ "nome_urna": "GLEIDE ÂNGELO",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1212000.0,
+  "por_origem": {
+   "Recursos de partido político": 1200000.0,
+   "Recursos de pessoas físicas": 12000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1100000.0,
+   "FUNDO PARTIDARIO": 100000.0,
+   "OUTROS RECURSOS": 12000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 1200000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 12000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1036916.29,
+  "total_pago": 841843.6,
+  "fornecedores_pj": [
+   {
+    "cnpj": "00758606000190",
+    "nome": "MXM GRAFICA E EMBALAGENS LTDA",
+    "cnae": "17311",
+    "n_despesas": 12,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 195800.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 105000.0
+   },
+   {
+    "cnpj": "03892344000140",
+    "nome": "MALHARIA ATLANTICO LTDA",
+    "cnae": "14126",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 83737.2
+   },
+   {
+    "cnpj": "60872534000130",
+    "nome": "HEITOR G LIMA COMUNICACAO E PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 48000.0
+   },
+   {
+    "cnpj": "66035431000100",
+    "nome": "OPINIAO PESQUISAS QUANTITATIVAS LTDA",
+    "cnae": "73203",
+    "n_despesas": 2,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "48360545000135",
+    "nome": "MARIO SERGIO GALVAO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "67288277000132",
+    "nome": "67.288.277 AIRTON GALDINO NOBLAT SOUZA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "48998662000129",
+    "nome": "BCC LOCACOES DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 13000.0
+   },
+   {
+    "cnpj": "19946727000194",
+    "nome": "DORCAM LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "45524358000151",
+    "nome": "R C DA MOTA RIBEIRO LOCACOES DE VEICULOS",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68609389000100",
+    "nome": "IRIS DANIELE DE MENEZES EXP CONTABIL",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "10570118000109",
+    "nome": "ARY LUCIO DA SILVA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5250.0
+   },
+   {
+    "cnpj": "48222413000147",
+    "nome": "AUTO POSTO SAO MIGUEL COMERCIO VAREJISTA DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2747.39
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 1816.2
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 223,
+   "total": 456565.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 423450.0,
+    "Despesas com pessoal": 15000.0,
+    "Despesas com transporte ou deslocamento": 15000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 115.5,
+    "Produção de jingles, vinhetas e slogans": 3000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,237 @@
+{
+ "sq": "50002532625",
+ "nome_urna": "DANIEL ALENCAR",
+ "cargo": "depfed",
+ "uf": "BA",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2432000.0,
+  "por_origem": {
+   "Recursos de partido político": 2200000.0,
+   "Recursos de pessoas físicas": 231800.0,
+   "Recursos próprios": 200.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2000000.0,
+   "OUTROS RECURSOS": 432000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 2000000.0
+   },
+   {
+    "cnpj": "14894130000120",
+    "nome": "Direção Estadual/Distrital - PSD - BAHIA",
+    "total": 200000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 232000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1343310.47,
+  "total_pago": 1123203.62,
+  "fornecedores_pj": [
+   {
+    "cnpj": "42520422000138",
+    "nome": "JAILTON DA SILVA SALES",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 590180.0
+   },
+   {
+    "cnpj": "51941621000100",
+    "nome": "HOVER PARTICIPACOES LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 108000.0
+   },
+   {
+    "cnpj": "14674451000119",
+    "nome": "ATA AEROTAXI ABAETE LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 106400.0
+   },
+   {
+    "cnpj": "05959877000128",
+    "nome": "MATTOS MEDINA ADVOCACIA CONSULTORIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "40514119000105",
+    "nome": "CONTROLLER CONTABILIDADE CONSULTORIA SOCIEDADE SIMPLES LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "46168997000194",
+    "nome": "YOUR GRAPHIC BRASIL SERVICOS GRAFICOS LTDA",
+    "cnae": "18229",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 45500.0
+   },
+   {
+    "cnpj": "49691425000183",
+    "nome": "49.691.425 ELIANE LEAL DE LIMA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "31285857000129",
+    "nome": "RAO COMUNICACAO E MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "48473434000135",
+    "nome": "MILA MUNIZ DANTAS",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 29000.0
+   },
+   {
+    "cnpj": "56334906000105",
+    "nome": "56.334.906 CAIO MUNIZ DANTAS",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "12209884000178",
+    "nome": "PONTO 8 WEB COMUNICACAO LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 24390.24
+   },
+   {
+    "cnpj": "47241143000159",
+    "nome": "JOSINEIDY BETO CASTRO TORRES",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "59372781000198",
+    "nome": "H2 COMUNICACAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 12500.0
+   },
+   {
+    "cnpj": "55353253000130",
+    "nome": "55.353.253 GIOVANA GIRDWOOD DE LACERDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "66239887000183",
+    "nome": "66.239.887 NATHANE DE SANTANA SANTOS",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "67168797000101",
+    "nome": "DS GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1377.88
+   },
+   {
+    "cnpj": "33089201000166",
+    "nome": "PEDRO PAULO LOPES ORNELAS SERVICOS LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 239.6
+   },
+   {
+    "cnpj": "26182271000875",
+    "nome": "EMPRESA CERTIFICADORA NORDESTE LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 199.75
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 26,
+   "total": 194523.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 5600.0,
+    "Despesas com pessoal": 188910.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 13.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

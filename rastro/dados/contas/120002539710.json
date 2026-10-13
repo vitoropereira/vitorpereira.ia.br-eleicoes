@@ -1,0 +1,215 @@
+{
+ "sq": "120002539710",
+ "nome_urna": "LONDRES MACHADO",
+ "cargo": "depest",
+ "uf": "MS",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 417170.02,
+  "por_origem": {
+   "Recursos de partido político": 250000.0,
+   "Recursos de pessoas físicas": 42840.02,
+   "Recursos próprios": 124330.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 250000.0,
+   "OUTROS RECURSOS": 167170.02
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 250000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 167170.02
+  }
+ },
+ "despesas": {
+  "total_contratado": 120402.54,
+  "total_pago": 85519.29,
+  "fornecedores_pj": [
+   {
+    "cnpj": "32104469000167",
+    "nome": "GUTTIERREZ MARIOSA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "51595230000181",
+    "nome": "51.595.230 LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13630.0
+   },
+   {
+    "cnpj": "29605567000173",
+    "nome": "L G S GARCIA LEAL",
+    "cnae": "43291",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7960.0
+   },
+   {
+    "cnpj": "07080434000198",
+    "nome": "LUCAS NUNES DE FREITAS",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 7350.0
+   },
+   {
+    "cnpj": "12593551000195",
+    "nome": "DRCOSTA S JORNALISMO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "30521824000178",
+    "nome": "VBTUR COMERCIO E SERVICO LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "46357480000143",
+    "nome": "JINGLE BRASIL PRODUTORA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "37842383000155",
+    "nome": "ARMAZEM DOOR COMUNICACAO VISUAL E IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "41901272000140",
+    "nome": "BOM PALADAR BAR E RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1275.0
+   },
+   {
+    "cnpj": "08726196000108",
+    "nome": "RPR CRIACOES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 862.5
+   },
+   {
+    "cnpj": "15413826000150",
+    "nome": "ENERGISA MATO GROSSO DO SUL - DISTRIBUIDORA DE ENERGIA S.A.",
+    "cnae": "35140",
+    "n_despesas": 2,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 316.96
+   },
+   {
+    "cnpj": "12605423000114",
+    "nome": "CHAVES E VENTURA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "57825921000100",
+    "nome": "TRATTO COMUNICACAO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 275.0
+   },
+   {
+    "cnpj": "09480223000178",
+    "nome": "SL COMERCIO E REPRESENTACOES LTDA",
+    "cnae": "46478",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 140.1
+   },
+   {
+    "cnpj": "40432544000147",
+    "nome": "CLARO S.A.",
+    "cnae": "61205",
+    "n_despesas": 1,
+    "tipos": [
+     "Telefone"
+    ],
+    "total": 125.96
+   },
+   {
+    "cnpj": "04539125001621",
+    "nome": "AMERICOM COMERCIO DE APARELHOS ELETRONICOS LTDA",
+    "cnae": "47521",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 0.02
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 28,
+   "total": 47767.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 6000.0,
+    "Despesas com pessoal": 6000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 17.0,
+    "Locação/cessão de bens imóveis": 5500.0,
+    "Serviços contábeis": 15000.0,
+    "Serviços prestados por terceiros": 15250.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,461 @@
+{
+ "sq": "130002542096",
+ "nome_urna": "ROBERTA LOPES",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 773191.62,
+  "por_origem": {
+   "Recursos de partido político": 773091.62,
+   "Recursos de pessoas físicas": 100.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 650000.0,
+   "FUNDO PARTIDARIO": 13093.32,
+   "OUTROS RECURSOS": 110098.3
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 660000.0
+   },
+   {
+    "cnpj": "08691904000112",
+    "nome": "Direção Estadual/Distrital - PL - MINAS GERAIS",
+    "total": 113091.62
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 100.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 334449.25,
+  "total_pago": 499966.75,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "86529443000190",
+    "nome": "PONTES LOYOLA LTDA",
+    "cnae": "53105",
+    "n_despesas": 6,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 65535.14
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 26024.19
+   },
+   {
+    "cnpj": "19097346000188",
+    "nome": "VITALICITI LTDA",
+    "cnae": "47555",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24580.0
+   },
+   {
+    "cnpj": "01638944000151",
+    "nome": "PENTAGONO CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "12841373000174",
+    "nome": "GRAFICA PAMPULHA LTDA.",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8950.0
+   },
+   {
+    "cnpj": "55149547000145",
+    "nome": "G2A2 COMERCIAL LTDA",
+    "cnae": "18229",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8333.0
+   },
+   {
+    "cnpj": "51921460000193",
+    "nome": "KATHLEEN MATOS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "15040464000107",
+    "nome": "LEVI CLER SILVA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4740.0
+   },
+   {
+    "cnpj": "21314559004749",
+    "nome": "MOVIDA PARTICIPACOES S.A.",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4266.27
+   },
+   {
+    "cnpj": "40656954000171",
+    "nome": "PRINT DECORA COMUNICACAO VISUAL LIMITADA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3250.0
+   },
+   {
+    "cnpj": "08887247000183",
+    "nome": "SERVE SUL LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2300.0
+   },
+   {
+    "cnpj": "55043213000192",
+    "nome": "RN IMPRESSOES LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2010.0
+   },
+   {
+    "cnpj": "19560788000119",
+    "nome": "POSTO INDEPENDENCIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1601.66
+   },
+   {
+    "cnpj": "55018692000197",
+    "nome": "55.018.692 THIAGO JOSE DOS SANTOS",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "18885459000185",
+    "nome": "TOP CENTRO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1424.86
+   },
+   {
+    "cnpj": "13080644000189",
+    "nome": "YPE CONFECCOES E IMPRESSOES DIGITAIS LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1183.0
+   },
+   {
+    "cnpj": "24414873000109",
+    "nome": "COPAS INDUSTRIA E COMERCIO LTDA.",
+    "cnae": "22226",
+    "n_despesas": 5,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1131.1
+   },
+   {
+    "cnpj": "12111158000118",
+    "nome": "ECOPRINT SOLUCOES DIGITAIS LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 805.0
+   },
+   {
+    "cnpj": "06327072000124",
+    "nome": "MARCIRIO JOSE RIOS DE CARVALHO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "65571848000116",
+    "nome": "65.571.848 SOLANGE GOMES DO NASCIMENTO",
+    "cnae": "47555",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 599.46
+   },
+   {
+    "cnpj": "06981180000116",
+    "nome": "CEMIG DISTRIBUICAO S.A",
+    "cnae": "35140",
+    "n_despesas": 1,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 594.57
+   },
+   {
+    "cnpj": "04714928000199",
+    "nome": "FAZART COMUNICACAO LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 475.0
+   },
+   {
+    "cnpj": "66280827000104",
+    "nome": "RAFER INDUSTRIA E COMERCIO DE FERRO E ACO LTDA",
+    "cnae": "25993",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 351.6
+   },
+   {
+    "cnpj": "66343930000156",
+    "nome": "POSTO ROMUALDO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 318.91
+   },
+   {
+    "cnpj": "56108896000181",
+    "nome": "56.108.896 ADELIA DE LIMA GALVAO",
+    "cnae": "55906",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "51655737000183",
+    "nome": "POSTO ECO OLEGARIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 295.43
+   },
+   {
+    "cnpj": "20400413000170",
+    "nome": "RP COMBUSTIVEIS E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 292.07
+   },
+   {
+    "cnpj": "24222729000170",
+    "nome": "IURI COUTINHO RAMOS",
+    "cnae": "18211",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 277.0
+   },
+   {
+    "cnpj": "55528521000108",
+    "nome": "POSTO DE COMBUSTIVEIS IMPERADOR LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 268.8
+   },
+   {
+    "cnpj": "04699679000100",
+    "nome": "AUTO POSTO PONTENOVENSE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 268.15
+   },
+   {
+    "cnpj": "17451576000178",
+    "nome": "RODO POSTO SILVIO S LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 264.44
+   },
+   {
+    "cnpj": "00587496000141",
+    "nome": "AUTO POSTO AEROPORTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 253.23
+   },
+   {
+    "cnpj": "40970267000126",
+    "nome": "CENTRAL JUIZ DE FORA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 225.03
+   },
+   {
+    "cnpj": "20732017000140",
+    "nome": "AUTO POSTO NEPOMUCENO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 187.07
+   },
+   {
+    "cnpj": "21339965001902",
+    "nome": "TEIXEIRA E CHAVES LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 162.5
+   },
+   {
+    "cnpj": "25396037000101",
+    "nome": "JOSE RAMOS TOLEDO DE ALMEIDA",
+    "cnae": "25128",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 160.0
+   },
+   {
+    "cnpj": "51075876000138",
+    "nome": "MTAG ETIQUETAS ACESSORIOS EM GERAL LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 145.61
+   },
+   {
+    "cnpj": "17745613005705",
+    "nome": "SUPERMERCADO BAHAMAS S/A",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 23.98
+   },
+   {
+    "cnpj": "05214053001109",
+    "nome": "PARCO COMERCIO E SERVICOS LTDA",
+    "cnae": "47555",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 18.28
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 20,
+   "total": 80733.9,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 1810.0,
+    "Despesas com pessoal": 15080.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 11.0,
+    "Locação/cessão de bens imóveis": 54982.9,
+    "Produção de jingles, vinhetas e slogans": 2000.0,
+    "Publicidade por carros de som": 1600.0,
+    "Serviços prestados por terceiros": 5250.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

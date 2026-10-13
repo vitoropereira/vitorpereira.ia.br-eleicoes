@@ -1,0 +1,314 @@
+{
+ "sq": "170002533326",
+ "nome_urna": "CARLOS VERAS",
+ "cargo": "depfed",
+ "uf": "PE",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2079130.0,
+  "por_origem": {
+   "Recursos de partido político": 2015480.0,
+   "Recursos de pessoas físicas": 48100.0,
+   "Recursos próprios": 15550.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1815500.0,
+   "OUTROS RECURSOS": 263630.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 2015480.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 132,
+   "total": 63650.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 644096.02,
+  "total_pago": 778068.38,
+  "fornecedores_pj": [
+   {
+    "cnpj": "15385063000180",
+    "nome": "AGENCIA DIGITAL LOOK N FEEL LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 143000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "36310408000107",
+    "nome": "ANNE CABRAL ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "37735608000174",
+    "nome": "ZAPIER GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 31000.0
+   },
+   {
+    "cnpj": "26754103000130",
+    "nome": "TCS PROJETOS EVENTOS E TERCEIRIZACAO LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20300.0
+   },
+   {
+    "cnpj": "39602786000152",
+    "nome": "FORCA SERVICOS LTDA",
+    "cnae": "43215",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "18150186000120",
+    "nome": "18.150.186 RAONI ASSIS DE OLIVEIRA PIMENTEL",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "32968122000162",
+    "nome": "CHENIA CLIS DE O DA SILVA SERVICOS DE PRODUCOES ARTISTICAS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "35288607000101",
+    "nome": "BRITO LOCACOES DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8092.0
+   },
+   {
+    "cnpj": "36615989000195",
+    "nome": "D TARSO EMPREENDIMENTOS LTDA",
+    "cnae": "82997",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8050.0
+   },
+   {
+    "cnpj": "27966490000131",
+    "nome": "S M S INDUSTRIA DE CAMISETAS LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "39839357000101",
+    "nome": "RAD AGILE CRITICAL INFORMATICA LTDA",
+    "cnae": "62091",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "35603307000161",
+    "nome": "CCS GRAFICA E EDITORA COMERCIO E SERVICOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6400.0
+   },
+   {
+    "cnpj": "31856615000148",
+    "nome": "JASEIAS DE FRANCA DE SOUZA LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 3850.0
+   },
+   {
+    "cnpj": "58423896000100",
+    "nome": "TULIO MARTINS DE CRISTO",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1250.0
+   },
+   {
+    "cnpj": "10537623000151",
+    "nome": "J P FARDAS LTDA",
+    "cnae": "14134",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 864.6
+   },
+   {
+    "cnpj": "44619551000103",
+    "nome": "CHAILLINE AZEVEDO ALVES",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 650.0
+   },
+   {
+    "cnpj": "47310518000195",
+    "nome": "47.310.518 ALESSANDRA CECILIA LOYO CAVALCANTI",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "11601184002105",
+    "nome": "ARLINDO DA FONSECA LINS CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 280.09
+   },
+   {
+    "cnpj": "37203380000171",
+    "nome": "VILA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 230.0
+   },
+   {
+    "cnpj": "53848980000143",
+    "nome": "GRAFICA E EDITORA CORREIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 211.0
+   },
+   {
+    "cnpj": "04728699000161",
+    "nome": "DEUSELIA DE MEDEIROS SILVA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "09543430000124",
+    "nome": "ANA C DE ARAUJO ANDRADA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "11112844000140",
+    "nome": "ALUIZIO SAMPAIO FILHO COMERCIO DE COMBUSTIVEIS",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "15639773000190",
+    "nome": "POSTO DO SERTAO CUSTODIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 170.04
+   },
+   {
+    "cnpj": "29092416000169",
+    "nome": "F A D G CAVALCANTI LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 111.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 134,
+   "total": 282437.29,
+   "por_tipo": {
+    "Despesas com pessoal": 214596.44,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 90.85,
+    "Locação/cessão de bens imóveis": 32750.0,
+    "Serviços contábeis": 35000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,399 @@
+{
+ "sq": "250002536719",
+ "nome_urna": "ARLINDO CHINAGLIA",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2850491.92,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 1013.0,
+   "Recursos de outros candidatos": 2478.92,
+   "Recursos de partido político": 2188000.0,
+   "Recursos de pessoas físicas": 359000.0,
+   "Recursos próprios": 300000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1817978.92,
+   "OUTROS RECURSOS": 1032513.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1815500.0
+   },
+   {
+    "cnpj": "51827566000122",
+    "nome": "Direção Municipal/Comissão Provisória - PT - ARARAQUARA - SP",
+    "total": 372500.0
+   },
+   {
+    "cnpj": "68373172000144",
+    "nome": "PAULO ROBERTO FIORILO",
+    "total": 2478.92
+   },
+   {
+    "cnpj": "34490640000149",
+    "nome": "GMT TECNOLOGIA LTDA",
+    "total": 1013.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 659000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1823608.29,
+  "total_pago": 1625925.47,
+  "fornecedores_pj": [
+   {
+    "cnpj": "07263666000181",
+    "nome": "BRASPOR GRAFICA E EDITORA LTDA.",
+    "cnae": "18113",
+    "n_despesas": 96,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 184748.59
+   },
+   {
+    "cnpj": "68373248000131",
+    "nome": "SIMAO PEDRO CHIOVETTI",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 170000.0
+   },
+   {
+    "cnpj": "68373172000144",
+    "nome": "PAULO ROBERTO FIORILO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "68373285000140",
+    "nome": "JOSEMUNDO DARIO QUEIROZ",
+    "cnae": "94928",
+    "n_despesas": 4,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 134000.0
+   },
+   {
+    "cnpj": "68373309000160",
+    "nome": "ELISABETE TONOBOHN SIRAQUE",
+    "cnae": "94928",
+    "n_despesas": 4,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 105000.0
+   },
+   {
+    "cnpj": "68373327000142",
+    "nome": "LUIZ CLAUDIO MARCOLINO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68373317000107",
+    "nome": "ALTAIR NERI BEZERRA",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "62976515000189",
+    "nome": "FRONTINO RELACOES GOVERNAMENTAIS E COMUNICACAO LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "68373135000136",
+    "nome": "PEDRO ANTONIO BIGARDI",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "08288957000197",
+    "nome": "ACM COMPANY LTDA",
+    "cnae": "43291",
+    "n_despesas": 167,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 66640.0
+   },
+   {
+    "cnpj": "68373407000106",
+    "nome": "MARCELO NUNES SEMINALDO",
+    "cnae": "94928",
+    "n_despesas": 3,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 65000.0
+   },
+   {
+    "cnpj": "68373348000168",
+    "nome": "LECI BRANDAO DA SILVA",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "10865394000102",
+    "nome": "ANDREA RIBEIRO",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "29894258000160",
+    "nome": "MARILENE ARAUJO LUCIANO BARBOSA SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68373377000120",
+    "nome": "GUSTAVO LEMOS PETTA",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 49000.0
+   },
+   {
+    "cnpj": "23301162000165",
+    "nome": "VISUAL PROGRESS INDUSTRIA E COMERCIO LTDA",
+    "cnae": "47440",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "68373487000191",
+    "nome": "GUILHERME SPADARI BIANCO",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "68373419000122",
+    "nome": "RICARDO ALESSANDRO CAMARGO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 33800.0
+   },
+   {
+    "cnpj": "68373381000198",
+    "nome": "PRISCILA CINTRA NEVES GOMIDE",
+    "cnae": "94928",
+    "n_despesas": 3,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 32420.0
+   },
+   {
+    "cnpj": "68373510000148",
+    "nome": "ESTHER GALINA DA SILVA BRANCO DE MORAES",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "68373365000103",
+    "nome": "JOAO PAULO RILLO",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 28750.0
+   },
+   {
+    "cnpj": "68373591000186",
+    "nome": "ALESSANDRO CEZAR ARAUJO AZEVEDO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68373555000112",
+    "nome": "LEONARDO DOS REIS ADORNO BECKER GRANDINI",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "07071575000144",
+    "nome": "ALOC LOCACAO E COMERCIO DE EQUIPAMENTOS DE INFORMATICA LTDA",
+    "cnae": "77331",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 8225.97
+   },
+   {
+    "cnpj": "62799150000164",
+    "nome": "VENERAVEL ORDEM TERCEIRA DE SAO FRANCISCO DA PENITENCIA DA CIDADE DE SAO PAULO",
+    "cnae": "94910",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6560.0
+   },
+   {
+    "cnpj": "52315447000153",
+    "nome": "ASSOCIACAO COMERCIAL E EMPRESARIAL DE MATAO",
+    "cnae": "94111",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "06269982000106",
+    "nome": "JAPAN COPY EQUIPAMENTOS PARA ESCRITORIOS LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 650.0
+   },
+   {
+    "cnpj": "17922086000102",
+    "nome": "CORREIO DIGITAL TECNOLOGIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 370.0
+   },
+   {
+    "cnpj": "43283811006433",
+    "nome": "KALUNGA SA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 266.4
+   },
+   {
+    "cnpj": "02558157000162",
+    "nome": "TELEFONICA BRASIL S.A.",
+    "cnae": "61205",
+    "n_despesas": 1,
+    "tipos": [
+     "Telefone"
+    ],
+    "total": 74.18
+   },
+   {
+    "cnpj": "34490640000149",
+    "nome": "GMT TECNOLOGIA LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 20.16
+   },
+   {
+    "cnpj": "60792082000186",
+    "nome": "COMERCIAL DISTRIBUIDORA VINTE E UM LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 20.0
+   },
+   {
+    "cnpj": "46515720000190",
+    "nome": "AUTO POSTO BLA LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10.99
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 45,
+   "total": 157052.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 2000.0,
+    "Despesas com pessoal": 155021.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 31.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

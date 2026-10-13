@@ -1,0 +1,92 @@
+{
+ "sq": "10002544540",
+ "nome_urna": "ADAILTON CRUZ",
+ "cargo": "depest",
+ "uf": "AC",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 888440.0,
+  "por_origem": {
+   "Recursos de partido político": 869940.0,
+   "Recursos de pessoas físicas": 18500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 869940.0,
+   "OUTROS RECURSOS": 18500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 869940.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 18500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 206946.98,
+  "total_pago": 239279.32,
+  "fornecedores_pj": [
+   {
+    "cnpj": "36208878000164",
+    "nome": "GRAN RESERVA EVENTOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "36158810000118",
+    "nome": "AUTO POSTO VIA VERDE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 11985.0
+   },
+   {
+    "cnpj": "48498781000112",
+    "nome": "CRIART BRASIL LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3300.0
+   },
+   {
+    "cnpj": "06886449000185",
+    "nome": "F. ALMEIDA DA SILVA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1400.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 80,
+   "total": 178261.98,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 116323.88,
+    "Cessão ou locação de veículos": 29900.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 38.1,
+    "Serviços advocatícios": 20000.0,
+    "Serviços contábeis": 12000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

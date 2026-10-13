@@ -1,0 +1,169 @@
+{
+ "sq": "50002532632",
+ "nome_urna": "SERGIO BRITO",
+ "cargo": "depfed",
+ "uf": "BA",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2000000.0,
+  "por_origem": {
+   "Recursos de partido político": 2000000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2000000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 2000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 715394.4,
+  "total_pago": 1999860.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "30005047000109",
+    "nome": "APLIKI COMUNICACAO VISUAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 125000.0
+   },
+   {
+    "cnpj": "59477253000101",
+    "nome": "CARIGRAF LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 95000.0
+   },
+   {
+    "cnpj": "35552061000146",
+    "nome": "CRSP CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "41733391000130",
+    "nome": "ARAUJO GALVAO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "29614322000102",
+    "nome": "NEOMAR RODRIGUES DIAS FILHO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "09145473000151",
+    "nome": "AZ ENTRETENIMENTOS LTDA",
+    "cnae": "79902",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 36000.0
+   },
+   {
+    "cnpj": "09029247000105",
+    "nome": "GOL GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27550.0
+   },
+   {
+    "cnpj": "12209884000178",
+    "nome": "PONTO 8 WEB COMUNICACAO LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 24390.24
+   },
+   {
+    "cnpj": "38219588000141",
+    "nome": "AGNALDO MOURA DOS SANTOS",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22950.0
+   },
+   {
+    "cnpj": "33604295000164",
+    "nome": "NOVA GUIA PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "11340129000165",
+    "nome": "CELIO DE JESUS CAETITE",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1776.16
+   },
+   {
+    "cnpj": "12182120000136",
+    "nome": "ARTEMIDIA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1726.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 12,
+   "total": 221002.0,
+   "por_tipo": {
+    "Despesas com pessoal": 221000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

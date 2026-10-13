@@ -1,0 +1,155 @@
+{
+ "sq": "210002534277",
+ "nome_urna": "SERGIO ZAMBIASI",
+ "cargo": "depfed",
+ "uf": "RS",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1075851.64,
+  "por_origem": {
+   "Recursos de partido político": 1068251.64,
+   "Recursos de pessoas físicas": 7600.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1068025.35,
+   "FUNDO PARTIDARIO": 93.51,
+   "OUTROS RECURSOS": 7732.78
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 866965.0
+   },
+   {
+    "cnpj": "11036509000100",
+    "nome": "Direção Estadual/Distrital - PODE - RIO GRANDE DO SUL",
+    "total": 201286.64
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 7600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 387891.99,
+  "total_pago": 375527.93,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 12,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 131600.0
+   },
+   {
+    "cnpj": "92821701000100",
+    "nome": "RBS - ZERO HORA EDITORA JORNALISTICA S.A.",
+    "cnae": "58221",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 98445.6
+   },
+   {
+    "cnpj": "73817017000100",
+    "nome": "MAIL EXPRESS REPRESENTACOES POSTAIS LTDA",
+    "cnae": "53105",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 80741.64
+   },
+   {
+    "cnpj": "41772746000109",
+    "nome": "BERNARD ALVES MATHIAS",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "66767311000199",
+    "nome": "66.767.311 RENATA VIEIRA ESPINOSA DA SILVA",
+    "cnae": "74200",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "68293738000128",
+    "nome": "LUIZ ANTONIO DOMINGUES",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "56435030000185",
+    "nome": "56.435.030 JAQUELINE DINORA DE CAMPOS",
+    "cnae": "49302",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 1850.0
+   },
+   {
+    "cnpj": "05563868000113",
+    "nome": "BELLER COMERCIO DE PAPEIS LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 510.17
+   },
+   {
+    "cnpj": "93489243004103",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 478.86
+   },
+   {
+    "cnpj": "11393320000418",
+    "nome": "AUTO POSTO ALMIRANTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 442.12
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 4823.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 4800.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 23.6
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

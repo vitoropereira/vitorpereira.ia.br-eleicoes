@@ -1,0 +1,99 @@
+{
+ "sq": "40002537627",
+ "nome_urna": "ABDALA FRAXE",
+ "cargo": "depest",
+ "uf": "AM",
+ "partido": "AVANTE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 471478.0,
+  "por_origem": {
+   "Recursos de partido político": 150000.0,
+   "Recursos de pessoas físicas": 222478.0,
+   "Recursos próprios": 99000.0
+  },
+  "por_fonte": {
+   "FUNDO PARTIDARIO": 150000.0,
+   "OUTROS RECURSOS": 321478.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "59933952000100",
+    "nome": "Direção Nacional - AVANTE",
+    "total": 150000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 29,
+   "total": 321478.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 53131.5,
+  "total_pago": 11906.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "04018784000136",
+    "nome": "GRAMA-GRAFICA MANAUS LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 41000.0
+   },
+   {
+    "cnpj": "04141849000136",
+    "nome": "MAELY INDUSTRIA E COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "41087194000191",
+    "nome": "DLM GRAFICA E COMERCIO DE BRINDES PERSONALIZADOS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "29799291000101",
+    "nome": "SILMARIA DE SOUSA PORTELA QUEIROZ",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 1000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 31.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 31.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

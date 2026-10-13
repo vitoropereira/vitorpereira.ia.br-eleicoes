@@ -1,0 +1,79 @@
+{
+ "sq": "50002532899",
+ "nome_urna": "JOÃO BACELAR",
+ "cargo": "depfed",
+ "uf": "BA",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1350000.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 1350000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 1350000.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 1350000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 103866.0,
+  "total_pago": 0.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "10522293000120",
+    "nome": "MAHMED SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "10550800000130",
+    "nome": "CONFACIL CONTABILIDADE FACIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "61144095000101",
+    "nome": "SUDESTE GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18866.0
+   },
+   {
+    "cnpj": "35306549000193",
+    "nome": "SOUL BRAZIL LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 15000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 0,
+   "total": 0.0,
+   "por_tipo": {}
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

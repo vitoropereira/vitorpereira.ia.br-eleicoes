@@ -1,0 +1,151 @@
+{
+ "sq": "150002544190",
+ "nome_urna": "JUTAY MENESES",
+ "cargo": "depest",
+ "uf": "PB",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 818466.46,
+  "por_origem": {
+   "Recursos de outros candidatos": 500000.0,
+   "Recursos de partido político": 300000.0,
+   "Recursos de pessoas físicas": 18466.46
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 455000.0,
+   "FUNDO PARTIDARIO": 245000.0,
+   "OUTROS RECURSOS": 118466.46
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68492491000179",
+    "nome": "VALDIR TRINDADE DOS SANTOS",
+    "total": 500000.0
+   },
+   {
+    "cnpj": "07644852000160",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - PARAÍBA",
+    "total": 205000.0
+   },
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 95000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 18466.46
+  }
+ },
+ "despesas": {
+  "total_contratado": 131908.8,
+  "total_pago": 264048.8,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25215800000150",
+    "nome": "GEM PRINT COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 36300.0
+   },
+   {
+    "cnpj": "02401445000109",
+    "nome": "O L LOCACAO E INCORPORACAO LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 34000.0
+   },
+   {
+    "cnpj": "13955637000183",
+    "nome": "MULTIPLA COMUNICACAO, SERVICOS E CONSULTORIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "60999204000100",
+    "nome": "ALLYNSON MAXWELL SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "53401064000160",
+    "nome": "ATUAL SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8500.0
+   },
+   {
+    "cnpj": "09113507000398",
+    "nome": "ESPORTE CLUBE CABO BRANCO",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "28884721000120",
+    "nome": "MAGALHAES CONTABILIDADE PERICIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "52226023000112",
+    "nome": "52.226.023 JANILSON DANTAS MOURA DO NASCIMENTO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "06057223053453",
+    "nome": "SENDAS DISTRIBUIDORA S/A",
+    "cnae": "47113",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Água"
+    ],
+    "total": 1104.3
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 4.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 4.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

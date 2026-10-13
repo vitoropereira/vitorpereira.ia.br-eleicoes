@@ -1,0 +1,138 @@
+{
+ "sq": "140002546709",
+ "nome_urna": "DELEGADO CAVEIRA",
+ "cargo": "depfed",
+ "uf": "PA",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2304000.0,
+  "por_origem": {
+   "Recursos de partido político": 2300000.0,
+   "Recursos de pessoas físicas": 4000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2300000.0,
+   "OUTROS RECURSOS": 4000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2300000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 4000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 577345.0,
+  "total_pago": 922225.15,
+  "fornecedores_pj": [
+   {
+    "cnpj": "22956171000121",
+    "nome": "A M LIBERATO",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 135000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "13293197000146",
+    "nome": "BRASIL DE CASTRO - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "40205000000142",
+    "nome": "N S ASSESSORIA E CONSULTORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "55292471000102",
+    "nome": "AB COMUNICACAO DIGITAL LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "22956171000393",
+    "nome": "A M LIBERATO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "57502107000155",
+    "nome": "GXPRINT SERVICOS GRAFICOS LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8350.0
+   },
+   {
+    "cnpj": "02023011000112",
+    "nome": "WHF SERVICOS E LOCACOES LTDA",
+    "cnae": "71120",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1495.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 13,
+   "total": 72500.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 72500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

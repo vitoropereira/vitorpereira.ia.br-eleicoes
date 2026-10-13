@@ -1,0 +1,775 @@
+{
+ "sq": "90002540993",
+ "nome_urna": "DANIEL VILELA",
+ "cargo": "governador",
+ "uf": "GO",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 9374500.0,
+  "por_origem": {
+   "Recursos de partido político": 7947500.0,
+   "Recursos de pessoas físicas": 1427000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 7067500.0,
+   "FUNDO PARTIDARIO": 30000.0,
+   "OUTROS RECURSOS": 2277000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 7067500.0
+   },
+   {
+    "cnpj": "15397777000109",
+    "nome": "Direção Estadual/Distrital - PSD - GOIÁS",
+    "total": 650000.0
+   },
+   {
+    "cnpj": "00886861000119",
+    "nome": "Direção Estadual/Distrital - MDB - GOIÁS",
+    "total": 230000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 13,
+   "total": 1427000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 6894529.14,
+  "total_pago": 7346736.92,
+  "fornecedores_pj": [
+   {
+    "cnpj": "04986141000186",
+    "nome": "F7 COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 1750000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 594000.0
+   },
+   {
+    "cnpj": "26723599000185",
+    "nome": "BRASPETRO DISTRIBUIDORA DE PETROLEO LTDA",
+    "cnae": "46818",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 520000.0
+   },
+   {
+    "cnpj": "41789434000108",
+    "nome": "BLACK DOG ESTUDIOS E PRODUTORA LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 400000.0
+   },
+   {
+    "cnpj": "04386913000149",
+    "nome": "ELOS ESTUDIO E SERVICOS LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 229500.0
+   },
+   {
+    "cnpj": "39659721000143",
+    "nome": "GMT7 AIR TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 10,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 182329.88
+   },
+   {
+    "cnpj": "16851106000139",
+    "nome": "AMS GRAFICA E EDITORA LTDA",
+    "cnae": "58191",
+    "n_despesas": 14,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 134957.2
+   },
+   {
+    "cnpj": "13377622000185",
+    "nome": "WS SERVICOS DE LOCACAO LTDA",
+    "cnae": "77110",
+    "n_despesas": 19,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 114838.64
+   },
+   {
+    "cnpj": "03711934000120",
+    "nome": "EDILSON EMERICH PAZINI LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "21160910000101",
+    "nome": "AMERICO PORCIUNCULA FILMES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "52131538000139",
+    "nome": "MELG EVENTOS LTDA",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "56123411000129",
+    "nome": "BLOCO 107 PRODUCOES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 95500.0
+   },
+   {
+    "cnpj": "27151534000175",
+    "nome": "CROSARA E FRANCA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "41973787000155",
+    "nome": "SALA DE PRODUCAO AUDIOVISUAL LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "20664790000117",
+    "nome": "AMASV ZARPA TRANSMISSAO E ARMAZENAMENTO DE DADOS S.A.",
+    "cnae": "63119",
+    "n_despesas": 6,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 72600.0
+   },
+   {
+    "cnpj": "00073031000172",
+    "nome": "E M DA SILVA, INDUSTRIA COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 71000.0
+   },
+   {
+    "cnpj": "60599565000169",
+    "nome": "VIATEXTIL IND. E COM. LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 64500.0
+   },
+   {
+    "cnpj": "13638943000196",
+    "nome": "W. J. ROSA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 21,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 62670.0
+   },
+   {
+    "cnpj": "07804514000149",
+    "nome": "TRAICE AUDITORIA E CONSULTORIA S/S LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "11960372000186",
+    "nome": "CARNEIRO, FERREIRA GOMES SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "01796505000177",
+    "nome": "TRAPY ZOMBA CONFECCOES BRINDES LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 56000.0
+   },
+   {
+    "cnpj": "04454790002422",
+    "nome": "AIR BP BRASIL LTDA.",
+    "cnae": "46818",
+    "n_despesas": 17,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 50679.48
+   },
+   {
+    "cnpj": "47023188000157",
+    "nome": "CLEONE MEIRELLES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "08894505000159",
+    "nome": "NUCLEO PRODUCOES GRAFICAS E EDITORA LTDA",
+    "cnae": "18211",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 48164.0
+   },
+   {
+    "cnpj": "53933235000100",
+    "nome": "WANESSA BORGES JPP COMUNICACOES II LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 43000.0
+   },
+   {
+    "cnpj": "27689176000159",
+    "nome": "WANDIR ALLAN TALITA HAYASAKI SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "01875844000149",
+    "nome": "CITY TOUR TRANSPORTES TURISTICOS LTDA",
+    "cnae": "49299",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos",
+     "Diversas a especificar"
+    ],
+    "total": 28558.51
+   },
+   {
+    "cnpj": "52071201000183",
+    "nome": "52.071.201 MARCOS ALEXANDRE FONSECA SEPULVEDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 27500.0
+   },
+   {
+    "cnpj": "22612697000194",
+    "nome": "22.612.697 JEFFERSON CAVALCANTI RIBEIRO PESSOA NETO",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "24008857000116",
+    "nome": "CAIADO E HATSCHBACH SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "37798430000100",
+    "nome": "ALENCASTRO VEIGA - SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "62539621000103",
+    "nome": "62.539.621 RICARDO WAKABAYASHI",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "55672160000179",
+    "nome": "AURA GRAFICA E IMPRESSOES ESPECIAIS LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "13057958000160",
+    "nome": "KYOODO SERVICOS DE PRODUCOES CINEMATOGRAFICAS LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 17500.0
+   },
+   {
+    "cnpj": "16000572000453",
+    "nome": "GOIAS ABASTECIMENTO DE AERONAVE LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 15856.75
+   },
+   {
+    "cnpj": "34912565000167",
+    "nome": "BRAUN SERVICOS AEREOS LTDA",
+    "cnae": "52401",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "17263210000175",
+    "nome": "COUTINHO MORAES ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "17707771000116",
+    "nome": "ROCHA - SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "34059356000112",
+    "nome": "VILELA PATO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "09102044002221",
+    "nome": "SAGA BRASIL ADMINISTRACAO E PARTICIPACOES S.A.",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "16990297000110",
+    "nome": "FLYDOC ASSESSORIA AERONAUTICA LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "02249001000108",
+    "nome": "VALENTE CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7362.75
+   },
+   {
+    "cnpj": "33103809000106",
+    "nome": "AUTOMOTIVA COMERCIO E SERVICOS LTDA",
+    "cnae": "29301",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5250.0
+   },
+   {
+    "cnpj": "16000572000100",
+    "nome": "GOIAS ABASTECIMENTO DE AERONAVE LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5185.0
+   },
+   {
+    "cnpj": "36909380000200",
+    "nome": "RIO NOVO TRANSPORTES E TURISMO LTDA",
+    "cnae": "49221",
+    "n_despesas": 4,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "40669034000198",
+    "nome": "MZN BRASIL 001 SPE LTDA",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "60827416000100",
+    "nome": "60.827.416 IGOR COELHO AGUIAR",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4410.0
+   },
+   {
+    "cnpj": "49290694000138",
+    "nome": "AUTO POSTO CASCAVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2949.22
+   },
+   {
+    "cnpj": "14311101000198",
+    "nome": "FRANCA RODRIGUES AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2729.5
+   },
+   {
+    "cnpj": "20413243000169",
+    "nome": "AUTO POSTO PETRONAVES LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2725.09
+   },
+   {
+    "cnpj": "23017789000199",
+    "nome": "BRASCOM JARAGUA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2310.28
+   },
+   {
+    "cnpj": "08381059000936",
+    "nome": "FERREIRA COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1954.01
+   },
+   {
+    "cnpj": "19850532000146",
+    "nome": "JRT COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1901.23
+   },
+   {
+    "cnpj": "37396447000131",
+    "nome": "POSTO Z + Z JATAI LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1742.19
+   },
+   {
+    "cnpj": "04142631000104",
+    "nome": "AUTO POSTO SANTA LUZIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1631.75
+   },
+   {
+    "cnpj": "65475552000100",
+    "nome": "AL COMBUSTIVEIS MINACU LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1466.45
+   },
+   {
+    "cnpj": "31919989000165",
+    "nome": "JET AVIACAO COMERCIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1335.6
+   },
+   {
+    "cnpj": "02621522000136",
+    "nome": "POSTO JACAREZINHO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1086.72
+   },
+   {
+    "cnpj": "40225615000130",
+    "nome": "JOYO TECNOLOGIA BRASIL LTDA.",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "60398777000188",
+    "nome": "3 TRILHAS COMERCIO DE DERIVADOS DE PETROLEO CAMPOS BELOS I LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 667.46
+   },
+   {
+    "cnpj": "42206269000764",
+    "nome": "CONCESSIONARIA DO BLOCO CENTRAL S.A.",
+    "cnae": "52401",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 425.69
+   },
+   {
+    "cnpj": "29761180000106",
+    "nome": "AUTO POSTO TUCANO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 425.03
+   },
+   {
+    "cnpj": "15559082000186",
+    "nome": "INFRAMERICA CONCESSIONARIA DO AEROPORTO DE BRASILIA S/A",
+    "cnae": "52401",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 408.84
+   },
+   {
+    "cnpj": "00144808000142",
+    "nome": "NIQUELANDIA AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 313.56
+   },
+   {
+    "cnpj": "32196293000110",
+    "nome": "GC COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 311.98
+   },
+   {
+    "cnpj": "46222646000114",
+    "nome": "CLEAN PAPER PRODUTOS E EQUIPAMENTOS DE LIMPEZA LTDA",
+    "cnae": "46494",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 280.0
+   },
+   {
+    "cnpj": "03387537000144",
+    "nome": "GALICIA COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 162.34
+   },
+   {
+    "cnpj": "23760800000106",
+    "nome": "POSTO PELICANO II LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 141.49
+   },
+   {
+    "cnpj": "11418841000130",
+    "nome": "MUTIRAO COMERCIO E DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 100.85
+   },
+   {
+    "cnpj": "06158097000141",
+    "nome": "GRAFICA FRANCO MARTINS LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 60.0
+   },
+   {
+    "cnpj": "39428491000101",
+    "nome": "POSTO ANTONELLI ALEXANIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 48.15
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1267,
+   "total": 1415489.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 60000.0,
+    "Despesas com pessoal": 948457.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 32.5,
+    "Publicidade por carros de som": 307000.0,
+    "Serviços prestados por terceiros": 100000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

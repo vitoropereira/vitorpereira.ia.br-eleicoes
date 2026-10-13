@@ -1,0 +1,168 @@
+{
+ "sq": "100002537259",
+ "nome_urna": "MARIANA CARVALHO",
+ "cargo": "depfed",
+ "uf": "MA",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2090950.0,
+  "por_origem": {
+   "Recursos de partido político": 2000000.0,
+   "Recursos de pessoas físicas": 72950.0,
+   "Recursos próprios": 18000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1500000.0,
+   "FUNDO PARTIDARIO": 500000.0,
+   "OUTROS RECURSOS": 90950.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 90950.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1425475.4,
+  "total_pago": 1927350.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 10,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 340000.0
+   },
+   {
+    "cnpj": "21581926000198",
+    "nome": "IMPLAY TECNOLOGIA E COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 220000.0
+   },
+   {
+    "cnpj": "67221351000101",
+    "nome": "PRISMAH LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 175000.0
+   },
+   {
+    "cnpj": "16465371000189",
+    "nome": "CASA DA IMPRESSAO LTDA",
+    "cnae": "47512",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 32500.0
+   },
+   {
+    "cnpj": "04496308000120",
+    "nome": "G CARLOS NUNES",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15400.0
+   },
+   {
+    "cnpj": "02855790000112",
+    "nome": "AUTO POSTO GUIMARAES LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "55154300000117",
+    "nome": "IDEAL COMERCIO E ESPORTES LTDA",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "07722538000159",
+    "nome": "VISUAL ARTE SPORT LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6500.0
+   },
+   {
+    "cnpj": "17337230000143",
+    "nome": "TERRASUL ENVASADORA DE BEBIDAS LTDA",
+    "cnae": "11216",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 5600.0
+   },
+   {
+    "cnpj": "14668281000160",
+    "nome": "J O POSTO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1470.0
+   },
+   {
+    "cnpj": "58976977000129",
+    "nome": "58.976.977 TULIO FEROLLA DURSO NETTO",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 1000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 228,
+   "total": 606005.4,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 317100.0,
+    "Cessão ou locação de veículos": 43500.0,
+    "Despesas com pessoal": 40000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 305.4,
+    "Locação/cessão de bens imóveis": 21600.0,
+    "Publicidade por carros de som": 18500.0,
+    "Serviços advocatícios": 80000.0,
+    "Serviços contábeis": 50000.0,
+    "Serviços prestados por terceiros": 35000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

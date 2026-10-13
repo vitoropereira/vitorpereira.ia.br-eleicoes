@@ -1,0 +1,122 @@
+{
+ "sq": "90002540967",
+ "nome_urna": "DR. AMARILDO",
+ "cargo": "depest",
+ "uf": "GO",
+ "partido": "NOVO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 315183.34,
+  "por_origem": {
+   "Recursos de outros candidatos": 236183.34,
+   "Recursos de pessoas físicas": 30000.0,
+   "Recursos próprios": 49000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 141183.34,
+   "FUNDO PARTIDARIO": 90000.0,
+   "OUTROS RECURSOS": 84000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68461496000134",
+    "nome": "HUMBERTO TEOFILO DE MENEZES NETO",
+    "total": 236183.34
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 79000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 169644.27,
+  "total_pago": 83614.27,
+  "fornecedores_pj": [
+   {
+    "cnpj": "63862048000129",
+    "nome": "POLITIKEY COMUNICACAO ESTRATEGICA LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "51672266000111",
+    "nome": "MEGA PRINT COMUNICACAO VISUAL LTDA",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 8400.0
+   },
+   {
+    "cnpj": "07807367000160",
+    "nome": "MAANAIM - GRAFICA E EDITORA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4950.0
+   },
+   {
+    "cnpj": "37326188000172",
+    "nome": "ACHEI LAGOINHA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3900.0
+   },
+   {
+    "cnpj": "18954678000179",
+    "nome": "MIL DISTRIBUIDORA DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "68461853000164",
+    "nome": "ELEICAO 2026 EDUARDO LUIZ ROCHA CUBAS DEPUTADO FEDERAL",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 350.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 4,
+   "total": 25044.27,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 10000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 44.27,
+    "Serviços prestados por terceiros": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

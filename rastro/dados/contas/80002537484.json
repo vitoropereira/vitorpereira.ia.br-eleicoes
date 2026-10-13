@@ -1,0 +1,208 @@
+{
+ "sq": "80002537484",
+ "nome_urna": "DELEGADO LEANDRO SPERANDIO",
+ "cargo": "depest",
+ "uf": "ES",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 165340.0,
+  "por_origem": {
+   "Recursos de partido político": 52560.0,
+   "Recursos de pessoas físicas": 112780.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 50000.0,
+   "FUNDO PARTIDARIO": 2560.0,
+   "OUTROS RECURSOS": 112780.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 50000.0
+   },
+   {
+    "cnpj": "26815656000156",
+    "nome": "Direção Estadual/Distrital - PODE - ESPÍRITO SANTO",
+    "total": 2560.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 16,
+   "total": 112780.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 102393.33,
+  "total_pago": 113578.03,
+  "fornecedores_pj": [
+   {
+    "cnpj": "66683703000170",
+    "nome": "66.683.703 EUDIMAR PIFFER",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 16500.0
+   },
+   {
+    "cnpj": "08448403000100",
+    "nome": "MASTER LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8300.0
+   },
+   {
+    "cnpj": "23797660000140",
+    "nome": "POSTO DE COMBUSTIVEL SHOW LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6130.16
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "09437036000101",
+    "nome": "SABOR DA PICANHA CHURRASCARIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 3300.0
+   },
+   {
+    "cnpj": "29401848000104",
+    "nome": "CORPEL GRAFICA EDITORA E COMUNICACAO VISUAL LTDA",
+    "cnae": "18121",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "14927489000156",
+    "nome": "J MORO SERVICOS",
+    "cnae": "18121",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1560.0
+   },
+   {
+    "cnpj": "05125726000174",
+    "nome": "GELDEN EQUIPAMENTOS DE SEGURANCA LTDA",
+    "cnae": "46427",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1170.0
+   },
+   {
+    "cnpj": "38375394000135",
+    "nome": "CLERISTON ALVES VIANA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "58517270000154",
+    "nome": "GOTA DE SONHO LTDA",
+    "cnae": "14118",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1050.0
+   },
+   {
+    "cnpj": "49155574000128",
+    "nome": "SAFETY EPI LTDA",
+    "cnae": "46427",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1026.0
+   },
+   {
+    "cnpj": "49464815000110",
+    "nome": "PLOTTEC IMPRESSOES E PROJETOS LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "31787476000148",
+    "nome": "AUTO POSTO TRIVILIN LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 741.29
+   },
+   {
+    "cnpj": "45518996000160",
+    "nome": "POSTO MONTE SECO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 624.48
+   },
+   {
+    "cnpj": "03585027000181",
+    "nome": "VITAL COMERCIO DE PAPELARIA LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 72.27
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 34,
+   "total": 51819.13,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 19690.13,
+    "Despesas com pessoal": 17615.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 14.0,
+    "Locação/cessão de bens imóveis": 9500.0,
+    "Serviços prestados por terceiros": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

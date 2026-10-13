@@ -1,0 +1,333 @@
+{
+ "sq": "160002532859",
+ "nome_urna": "PAULO LITRO",
+ "cargo": "depfed",
+ "uf": "PR",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3101027.5,
+  "por_origem": {
+   "Recursos de outros candidatos": 44502.5,
+   "Recursos de partido político": 3004525.0,
+   "Recursos de pessoas físicas": 52000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2899800.0,
+   "OUTROS RECURSOS": 201227.5
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 2899800.0
+   },
+   {
+    "cnpj": "14512048000193",
+    "nome": "Direção Estadual/Distrital - PSD - PARANÁ",
+    "total": 104725.0
+   },
+   {
+    "cnpj": "68519401000196",
+    "nome": "ADAO FERNANDES DA SILVA",
+    "total": 44502.5
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 52000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2889511.69,
+  "total_pago": 92542.22,
+  "fornecedores_pj": [
+   {
+    "cnpj": "85057529000102",
+    "nome": "HELLOGRAF ARTES GRAFICAS LTDA",
+    "cnae": "18113",
+    "n_despesas": 12,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 100858.4
+   },
+   {
+    "cnpj": "15282230000168",
+    "nome": "AGENCIA PRIME PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "10594330000106",
+    "nome": "A. S. DE AGUIAR - CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 30450.0
+   },
+   {
+    "cnpj": "17786819000129",
+    "nome": "GOTARDI ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "10515156000169",
+    "nome": "E. L. FELIPE FELIPE LTDA",
+    "cnae": "58298",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 29350.0
+   },
+   {
+    "cnpj": "10399894000279",
+    "nome": "C2 LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 26950.0
+   },
+   {
+    "cnpj": "76449891000120",
+    "nome": "LUMINOSOS LUZ NEON LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 25383.0
+   },
+   {
+    "cnpj": "21632822000165",
+    "nome": "SUPER PRINT PAPEIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "25106446000126",
+    "nome": "IRG TELEATENDIMENTO LTDA",
+    "cnae": "82202",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "04996525000180",
+    "nome": "KALOIRY PLACAS E PAINEIS LTDA",
+    "cnae": "32990",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 14325.0
+   },
+   {
+    "cnpj": "20324313000102",
+    "nome": "I. N. DE ALMEIDA LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 9890.0
+   },
+   {
+    "cnpj": "15178990000120",
+    "nome": "MODERNA EDITORA GRAFICA LTDA",
+    "cnae": "58298",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7580.0
+   },
+   {
+    "cnpj": "00960253000107",
+    "nome": "AGRODIAMANTE - PECUARIA E AGROFLORESTAL LTDA",
+    "cnae": "01512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "00330966000197",
+    "nome": "CORGRAF GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4725.0
+   },
+   {
+    "cnpj": "36547468000148",
+    "nome": "ALLEBRANDT COMUNICACAO VISUAL LTDA",
+    "cnae": "17419",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "14728231000120",
+    "nome": "XUXU EVENTOS LTDA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "53210026000120",
+    "nome": "RATINHO TRANSPORTES LTDA",
+    "cnae": "49248",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 1950.0
+   },
+   {
+    "cnpj": "75915355000100",
+    "nome": "POSTO DOIS VIZINHOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1679.58
+   },
+   {
+    "cnpj": "54313613000108",
+    "nome": "WINN IMPRESSAO DIGITAL LTDA",
+    "cnae": "47130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1590.0
+   },
+   {
+    "cnpj": "06302712000141",
+    "nome": "DUCATI AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1170.08
+   },
+   {
+    "cnpj": "13424790000184",
+    "nome": "GAZETA DO ABRANCHES LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "05494210000105",
+    "nome": "PALADINI INDUSTRIA E COMERCIO DE PLACAS E ADESIVOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 945.0
+   },
+   {
+    "cnpj": "00077682000130",
+    "nome": "GEFESON ARCEGO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "03198193000125",
+    "nome": "AUTO POSTO NOVO MILENIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 603.8
+   },
+   {
+    "cnpj": "05758190000124",
+    "nome": "TROVAO SONORIZACOES LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "33216689000145",
+    "nome": "IDFEDERAL CERTIFICADOS DIGITAIS LTDA",
+    "cnae": "63119",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 180.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 532,
+   "total": 2457981.83,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 201312.32,
+    "Despesas com pessoal": 2238419.51,
+    "Locação/cessão de bens imóveis": 18250.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

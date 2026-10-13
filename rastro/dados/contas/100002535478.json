@@ -1,0 +1,198 @@
+{
+ "sq": "100002535478",
+ "nome_urna": "CATULÉ JUNIOR",
+ "cargo": "depest",
+ "uf": "MA",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 374420.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 267420.0,
+   "Recursos próprios": 107000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 374420.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 22,
+   "total": 374420.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 249597.1,
+  "total_pago": 352414.8,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25368619000184",
+    "nome": "A L M S SILVA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "66307932000190",
+    "nome": "A B PRODUCOES E FESTAS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 9940.0
+   },
+   {
+    "cnpj": "10587603000195",
+    "nome": "ESTRATEGIA PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "17668873000170",
+    "nome": "ERIC GUIMARAES ARAUJO",
+    "cnae": "18130",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8960.0
+   },
+   {
+    "cnpj": "01532188000181",
+    "nome": "DELMAYR DOS SANTOS MELO",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6120.0
+   },
+   {
+    "cnpj": "06087085000173",
+    "nome": "COLORTECH CONSTRUCOES E SERVICOS LTDA",
+    "cnae": "41204",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "10513552000157",
+    "nome": "L. H. C. SOARES LTDA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "40665590000196",
+    "nome": "E COSTA VILANOVA LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3275.5
+   },
+   {
+    "cnpj": "08951848000108",
+    "nome": "M A PAIVA BEZERRA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "34868733000164",
+    "nome": "YES SUPRIMENTOS COMUNICACAO VISUAL LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2600.0
+   },
+   {
+    "cnpj": "42954341000146",
+    "nome": "42.954.341 EDINALDO DANTAS VENTURA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 870.0
+   },
+   {
+    "cnpj": "04455651000127",
+    "nome": "GRAFICA GIORDANIA E EDITORA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "28155758000118",
+    "nome": "EMBANORD LTDA",
+    "cnae": "17311",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 772.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 100.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 123,
+   "total": 180659.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 90000.0,
+    "Cessão ou locação de veículos": 37500.0,
+    "Despesas com pessoal": 24000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 159.6,
+    "Locação/cessão de bens imóveis": 11000.0,
+    "Serviços advocatícios": 12000.0,
+    "Serviços prestados por terceiros": 6000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

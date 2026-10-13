@@ -1,0 +1,273 @@
+{
+ "sq": "140002537040",
+ "nome_urna": "RAIMUNDO SANTOS",
+ "cargo": "depfed",
+ "uf": "PA",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1871017.63,
+  "por_origem": {
+   "Recursos de partido político": 1500000.0,
+   "Recursos de pessoas físicas": 66017.63,
+   "Recursos próprios": 305000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1500000.0,
+   "OUTROS RECURSOS": 371017.63
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 1500000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 10,
+   "total": 371017.63
+  }
+ },
+ "despesas": {
+  "total_contratado": 661532.55,
+  "total_pago": 1067998.44,
+  "fornecedores_pj": [
+   {
+    "cnpj": "26653503000150",
+    "nome": "R. MARQUES COMUNICACAO VISUAL",
+    "cnae": "43291",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 69800.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "10888742000159",
+    "nome": "I L CAMPOS SERVICOS POSTAIS LTDA",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 39466.56
+   },
+   {
+    "cnpj": "17940670000190",
+    "nome": "C. KZAN",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "52356552000130",
+    "nome": "52.356.552 DAVI DA SILVA FIGUEIREDO",
+    "cnae": "58191",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16058.7
+   },
+   {
+    "cnpj": "36869728000100",
+    "nome": "COLLOR GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16050.0
+   },
+   {
+    "cnpj": "18848463000173",
+    "nome": "V S DA CRUZ",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 14970.05
+   },
+   {
+    "cnpj": "19614800000120",
+    "nome": "AUTO POSTO INDEPENDENCIA COMERCIO DE COMBUSTIVEL E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 14074.06
+   },
+   {
+    "cnpj": "09296295000160",
+    "nome": "AZUL LINHAS AEREAS BRASILEIRAS S.A.",
+    "cnae": "51111",
+    "n_despesas": 3,
+    "tipos": [
+     "Passagem Aérea"
+    ],
+    "total": 13935.36
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10618.4
+   },
+   {
+    "cnpj": "65179654000170",
+    "nome": "PRINT SPORTS LTDA",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "61759779000118",
+    "nome": "61.759.779 DANIEL CARLOS PINTO LOPES",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "51955068000165",
+    "nome": "OCEAN WAYS VIAGENS LTDA",
+    "cnae": "79112",
+    "n_despesas": 2,
+    "tipos": [
+     "Passagem Aérea"
+    ],
+    "total": 5678.2
+   },
+   {
+    "cnpj": "53187051000130",
+    "nome": "53.187.051 WALBER TAVARES DA COSTA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3700.0
+   },
+   {
+    "cnpj": "17795684000168",
+    "nome": "COMERCIO DE ALIMENTOS PERSEVERANCA LTDA",
+    "cnae": "46397",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 767.28
+   },
+   {
+    "cnpj": "44723969000166",
+    "nome": "C. G. ALUGUEIS DE COMPUTADORES E NOTEBOOKS LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "13437498000104",
+    "nome": "F R LUCENA COMERCIO VAREJISTA LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 524.5
+   },
+   {
+    "cnpj": "06957694000489",
+    "nome": "ECONOMICO COMERCIO DE ALIMENTOS LTDA",
+    "cnae": "46397",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 373.17
+   },
+   {
+    "cnpj": "83322784000100",
+    "nome": "AUTO POSTO POPULAR LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 365.19
+   },
+   {
+    "cnpj": "23917962000105",
+    "nome": "SW CERTIFICACAO DIGITAL LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 250.0
+   },
+   {
+    "cnpj": "28200289000101",
+    "nome": "LUSTOSA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 210.05
+   },
+   {
+    "cnpj": "20618618000127",
+    "nome": "POSTO CASTANHEIRA II LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 170.03
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 145,
+   "total": 365921.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 79160.0,
+    "Despesas com pessoal": 252211.0,
+    "Locação/cessão de bens imóveis": 4550.0,
+    "Serviços advocatícios": 15000.0,
+    "Serviços contábeis": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

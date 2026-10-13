@@ -1,0 +1,148 @@
+{
+ "sq": "170002535172",
+ "nome_urna": "JEFERSON TIMÓTEO",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 390000.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 40000.0,
+   "Recursos de partido político": 350000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 390000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 350000.0
+   },
+   {
+    "cnpj": "68319398000167",
+    "nome": "RICARDO TEOBALDO CAVALCANTI",
+    "total": 40000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 430267.5,
+  "total_pago": 344402.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "46789036000105",
+    "nome": "BLACK SHEEP COMERCIO E SERVICOS PUBLICITARIOS LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 82000.0
+   },
+   {
+    "cnpj": "66931182000122",
+    "nome": "VX COMERCIO E IMPORTACAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 60590.0
+   },
+   {
+    "cnpj": "35593706000199",
+    "nome": "UNIPAUTA FORMULARIOS LTDA",
+    "cnae": "18121",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 32500.0
+   },
+   {
+    "cnpj": "11038639000182",
+    "nome": "CONECTE SOLUCOES CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "11431244000145",
+    "nome": "ASSOCIACAO DAS INDS DO EIXO SUL DO ESTADO DE PERNAMBUCO",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "65799315000196",
+    "nome": "65.799.315 LADY DYANA DOS SANTOS CUNHA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 16750.0
+   },
+   {
+    "cnpj": "11294303000180",
+    "nome": "MUNICIPIO DE ESCADA",
+    "cnae": "84116",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14450.0
+   },
+   {
+    "cnpj": "31346818000194",
+    "nome": "A GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12900.0
+   },
+   {
+    "cnpj": "59438783000132",
+    "nome": "BALLA ESTAMPARIA LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 20,
+   "total": 169077.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 33000.0,
+    "Cessão ou locação de veículos": 82000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 77.5,
+    "Serviços advocatícios": 48000.0,
+    "Serviços prestados por terceiros": 6000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

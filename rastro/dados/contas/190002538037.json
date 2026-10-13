@@ -1,0 +1,129 @@
+{
+ "sq": "190002538037",
+ "nome_urna": "LUIZ PAULO",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 311248.2,
+  "por_origem": {
+   "Recursos de partido político": 241991.42,
+   "Recursos de pessoas físicas": 34256.78,
+   "Recursos próprios": 35000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 241500.0,
+   "OUTROS RECURSOS": 69748.2
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 240000.0
+   },
+   {
+    "cnpj": "14705221000170",
+    "nome": "Direção Estadual/Distrital - PSD - RIO DE JANEIRO",
+    "total": 1991.42
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 69256.78
+  }
+ },
+ "despesas": {
+  "total_contratado": 213370.35,
+  "total_pago": 216070.35,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 126332.68
+   },
+   {
+    "cnpj": "02495060000158",
+    "nome": "IMPRINT 2001 GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 10,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 45325.0
+   },
+   {
+    "cnpj": "04067191000160",
+    "nome": "EDITORA GLOBO S/A",
+    "cnae": "58221",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 7447.2
+   },
+   {
+    "cnpj": "61860001000109",
+    "nome": "COWORKING DOWNTOWN CARIOCA LTDA",
+    "cnae": "82113",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6860.0
+   },
+   {
+    "cnpj": "42988564000124",
+    "nome": "LG SIGNS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6601.0
+   },
+   {
+    "cnpj": "54130213000167",
+    "nome": "ARTES GRAFICAS NOVA HIGHTECH LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "61503239000179",
+    "nome": "CUSTODIO NUNES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 2000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 5,
+   "total": 14804.47,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 6000.0,
+    "Despesas com pessoal": 803.57,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.9,
+    "Serviços contábeis": 8000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

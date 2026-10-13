@@ -1,0 +1,321 @@
+{
+ "sq": "260002548691",
+ "nome_urna": "CRISTIANO CAVALCANTE",
+ "cargo": "depest",
+ "uf": "SE",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 720064.79,
+  "por_origem": {
+   "Recursos de outros candidatos": 2000.0,
+   "Recursos de partido político": 598064.79,
+   "Recursos próprios": 120000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 598064.79,
+   "OUTROS RECURSOS": 122000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 598064.79
+   },
+   {
+    "cnpj": "68468415000128",
+    "nome": "FABIO CRUZ MITIDIERI",
+    "total": 2000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 120000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 835261.22,
+  "total_pago": 633150.59,
+  "fornecedores_pj": [
+   {
+    "cnpj": "49442507000194",
+    "nome": "TREND COMUNICACAO DIGITAL LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "19961285000155",
+    "nome": "FLAVIA ELIZANGELA A. S. SILVA PRODUCOES E EVENTOS",
+    "cnae": "77390",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com geradores de energia",
+     "Publicidade por carros de som"
+    ],
+    "total": 62200.0
+   },
+   {
+    "cnpj": "03418239000174",
+    "nome": "VILA - NOVA, CARVALHO, SAMPAIO, CALUMBY E CONRADO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "10568170000120",
+    "nome": "EXACTO CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "28204825000147",
+    "nome": "NETO CONFECCOES E COMUNICACAO VISUAL LTDA",
+    "cnae": "13405",
+    "n_despesas": 7,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 32695.0
+   },
+   {
+    "cnpj": "64124133000152",
+    "nome": "RM CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 31600.0
+   },
+   {
+    "cnpj": "09177228000126",
+    "nome": "STILL GRAFICA E ENCADERNADORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30350.0
+   },
+   {
+    "cnpj": "15664264000117",
+    "nome": "RN LOCACOES DE MAQUINAS E EQUIPAMENTOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "27966490000131",
+    "nome": "S M S INDUSTRIA DE CAMISETAS LTDA",
+    "cnae": "13405",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "15454009000654",
+    "nome": "UNIR LOCACOES E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 18500.0
+   },
+   {
+    "cnpj": "07075892001453",
+    "nome": "RPB AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 8,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 16006.59
+   },
+   {
+    "cnpj": "40009617000192",
+    "nome": "TRUKS INDUSTRIA E COMERCIO LTDA",
+    "cnae": "14126",
+    "n_despesas": 4,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos"
+    ],
+    "total": 15558.5
+   },
+   {
+    "cnpj": "03631148000112",
+    "nome": "RVM LOCACAO E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "12184807000100",
+    "nome": "PREST SERVICE - REPRESENTACOES E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "53591124000155",
+    "nome": "COMUNICAJU COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 6880.0
+   },
+   {
+    "cnpj": "34549088000117",
+    "nome": "34.549.088 LUIZ MAGNO VIEIRA SANTOS",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 6450.0
+   },
+   {
+    "cnpj": "51415251000178",
+    "nome": "JADIEL NASCIMENTO COSTA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "52059778000170",
+    "nome": "ANY MANUELLA COMERCIAL DE MEDICAMENTOS LTDA",
+    "cnae": "47717",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3441.6
+   },
+   {
+    "cnpj": "13233093000146",
+    "nome": "COLEGIO IMACULADA CONCEICAO",
+    "cnae": "85139",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "10797013000197",
+    "nome": "KONNTE COMERCIO E SERVICOS LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 780.0
+   },
+   {
+    "cnpj": "33412132000180",
+    "nome": "GELO FEST - COMERCIO E SERVICOS LTDA",
+    "cnae": "47237",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 720.0
+   },
+   {
+    "cnpj": "58751586000106",
+    "nome": "58.751.586 AIRTON LIMA SANTOS",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "58070452000120",
+    "nome": "IGUA SERGIPE S.A.",
+    "cnae": "36006",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 293.21
+   },
+   {
+    "cnpj": "13017462000163",
+    "nome": "ENERGISA SERGIPE - DISTRIBUIDORA DE ENERGIA S.A",
+    "cnae": "35140",
+    "n_despesas": 1,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 108.42
+   },
+   {
+    "cnpj": "53827974000100",
+    "nome": "J.A.S.S COMERCIO E SERVICO LTDA",
+    "cnae": "46371",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 17.7
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 204,
+   "total": 225560.2,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 155080.0,
+    "Despesas com pessoal": 58100.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 130.2,
+    "Locação/cessão de bens imóveis": 12250.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

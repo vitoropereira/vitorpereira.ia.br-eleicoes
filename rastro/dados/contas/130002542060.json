@@ -1,0 +1,242 @@
+{
+ "sq": "130002542060",
+ "nome_urna": "ANTONIO CARLOS ARANTES",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 904760.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 3160.0,
+   "Recursos de partido político": 495000.0,
+   "Recursos de pessoas físicas": 286600.0,
+   "Recursos próprios": 120000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 495000.0,
+   "OUTROS RECURSOS": 409760.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 495000.0
+   },
+   {
+    "cnpj": "68464862000109",
+    "nome": "LAFAYETTE LUIZ DOORGAL DE ANDRADA",
+    "total": 3160.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 29,
+   "total": 406600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 718799.98,
+  "total_pago": 222914.2,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 10,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20350.0
+   },
+   {
+    "cnpj": "53164383000108",
+    "nome": "53.164.383 CRISTIANO SOSTENES DORNELAS CARVALHO",
+    "cnae": "73190",
+    "n_despesas": 4,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 19880.0
+   },
+   {
+    "cnpj": "09264555000115",
+    "nome": "IMAGEM EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 7,
+    "tipos": [
+     "Diversas a especificar",
+     "Produção de jingles, vinhetas e slogans",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16140.0
+   },
+   {
+    "cnpj": "34028316280203",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 11461.63
+   },
+   {
+    "cnpj": "10186946000148",
+    "nome": "VIP LOC VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10040.0
+   },
+   {
+    "cnpj": "11928494000195",
+    "nome": "11.928.494 TIAGO VALERIO GOULART",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "13653171000161",
+    "nome": "F A - PRESTADORA DE SERVICOS LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "24902371000127",
+    "nome": "SINDICATO RURAL DE SAO SEBASTIAO DO PARAISO",
+    "cnae": "94111",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "65928261000111",
+    "nome": "HOUSE TALENT PRODUCOES E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "55275850000194",
+    "nome": "55.275.850 FLAVIO ROBSON BENES JUNIOR",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "31568556000102",
+    "nome": "ANTONIO CARLOS DE PAULA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "08613402000173",
+    "nome": "AUTO POSTO GUATAPARA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1359.78
+   },
+   {
+    "cnpj": "30364355000120",
+    "nome": "QUALITY MARKETING E COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1170.0
+   },
+   {
+    "cnpj": "04436336000152",
+    "nome": "SERGIO APARECIDO DE LIMA CIA. LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1019.81
+   },
+   {
+    "cnpj": "46500606000197",
+    "nome": "46.500.606 VALMIR ROGERIO VIEIRA",
+    "cnae": "58123",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 970.0
+   },
+   {
+    "cnpj": "18092259000175",
+    "nome": "TATIANE CARLA DE CAMPOS REZENDE LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 148.66
+   },
+   {
+    "cnpj": "55790989000176",
+    "nome": "AGENCIA DIGITAL FORUS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 137.8
+   },
+   {
+    "cnpj": "02952749000164",
+    "nome": "NETSPEED LTDA",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 74.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 432,
+   "total": 612548.3,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 107000.0,
+    "Despesas com pessoal": 465482.5,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 65.8,
+    "Serviços advocatícios": 20000.0,
+    "Serviços contábeis": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,137 @@
+{
+ "sq": "250002536415",
+ "nome_urna": "CORONEL PAGANOTTO",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 517509.04,
+  "por_origem": {
+   "Recursos de partido político": 362409.04,
+   "Recursos de pessoas físicas": 155100.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 350000.0,
+   "FUNDO PARTIDARIO": 4727.62,
+   "OUTROS RECURSOS": 162781.42
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 350000.0
+   },
+   {
+    "cnpj": "08701595000114",
+    "nome": "Direção Estadual/Distrital - PL - SÃO PAULO",
+    "total": 12409.04
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 155100.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 458553.98,
+  "total_pago": 505070.98,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 35,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 253000.0
+   },
+   {
+    "cnpj": "47461986000160",
+    "nome": "BLUEGRAF EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 9,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 34975.0
+   },
+   {
+    "cnpj": "31381837000151",
+    "nome": "GPA SOLUCOES VISUAIS E MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 27601.0
+   },
+   {
+    "cnpj": "37590818000111",
+    "nome": "ESCRITORIO LIRA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "52658801000142",
+    "nome": "D S MOURA BATISTA",
+    "cnae": "85996",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "18803711000160",
+    "nome": "CAMISETAS E BRINDES BEM BOLADO LTDA",
+    "cnae": "47814",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 5193.5
+   },
+   {
+    "cnpj": "05855297000190",
+    "nome": "ZARA S EXPRESS SERVICOS DE MOTOCICLISTAS LTDA",
+    "cnae": "53202",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3941.48
+   },
+   {
+    "cnpj": "49345898000129",
+    "nome": "PRESS NEWS EMPRESA JORNALISTICA E DE COMUNICACAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1600.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 50,
+   "total": 92243.0,
+   "por_tipo": {
+    "Despesas com pessoal": 92201.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 42.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

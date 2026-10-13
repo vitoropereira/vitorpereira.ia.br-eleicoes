@@ -1,0 +1,170 @@
+{
+ "sq": "30002531189",
+ "nome_urna": "LORRAN BARRETO",
+ "cargo": "depest",
+ "uf": "AP",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 406000.0,
+  "por_origem": {
+   "Recursos de partido político": 400000.0,
+   "Recursos de pessoas físicas": 6000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 400000.0,
+   "OUTROS RECURSOS": 6000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 400000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 6000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 204768.1,
+  "total_pago": 279395.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "23108527000130",
+    "nome": "E. L. B. DE FARIAS E CIA LTDA",
+    "cnae": "74102",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 38000.0
+   },
+   {
+    "cnpj": "06895176000135",
+    "nome": "PARANHOS E VANCAN ODONTOLOGIA E MEDICINA LTDA",
+    "cnae": "86305",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "21496223000161",
+    "nome": "AMAZZON CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "37687121000163",
+    "nome": "MESQUITA WILLIAM ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "55828637000162",
+    "nome": "55.828.637 EDINELSON DIAS PALHETA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "08607983000130",
+    "nome": "K J S FURTADO",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "09405430000168",
+    "nome": "REAL PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "05574260000194",
+    "nome": "AMAZONITA FILMES E SERVICOS DE COMUNICACAO E MARKETING LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 6500.0
+   },
+   {
+    "cnpj": "02747184000183",
+    "nome": "R M R DE ALMEIDA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2250.0
+   },
+   {
+    "cnpj": "05694575000175",
+    "nome": "SINDICATO DOS TRABALHADORES E TRABALHADORAS NAS INDUSTRIAS URBANAS DO ESTADO DO AMAPA - STIU-AP",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "42581161000166",
+    "nome": "S.D. SUBLIME VARIEDADE - ATACADO E VAREJO LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1180.0
+   },
+   {
+    "cnpj": "07995919000101",
+    "nome": "UBIRAJARA ASSIS EMPREENDIMENTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 820.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 6,
+   "total": 56018.1,
+   "por_tipo": {
+    "Despesas com pessoal": 53000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 18.1,
+    "Serviços prestados por terceiros": 3000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

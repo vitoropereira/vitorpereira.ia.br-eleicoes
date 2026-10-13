@@ -1,0 +1,64 @@
+{
+ "sq": "230002552049",
+ "nome_urna": "JEAN FRANK",
+ "cargo": "depest",
+ "uf": "RR",
+ "partido": "PDT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 50000.0,
+  "por_origem": {
+   "Recursos de partido político": 50000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 50000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00719575000169",
+    "nome": "Direção Nacional - PDT",
+    "total": 50000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 5200.0,
+  "total_pago": 36330.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "37271877000127",
+    "nome": "37.271.877 REBSON EDUARDO SILVA LITLE",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 0,
+   "total": 0.0,
+   "por_tipo": {}
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

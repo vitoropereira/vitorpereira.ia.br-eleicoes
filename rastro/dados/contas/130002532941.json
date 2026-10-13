@@ -1,0 +1,88 @@
+{
+ "sq": "130002532941",
+ "nome_urna": "FERNANDO BRENO",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PRD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 620000.0,
+  "por_origem": {
+   "Recursos de partido político": 500000.0,
+   "Recursos próprios": 120000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 500000.0,
+   "OUTROS RECURSOS": 120000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "49054431000120",
+    "nome": "Direção Nacional - PRD",
+    "total": 500000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 120000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 28286.0,
+  "total_pago": 96296.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 8500.0
+   },
+   {
+    "cnpj": "08793266000140",
+    "nome": "AGENCIA COMUM COMERCIO E DESENVOLVIMENTO DE PRODUTOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3150.0
+   },
+   {
+    "cnpj": "54068898000169",
+    "nome": "DIGITAL PRINT COMUNICACAO VISUAL LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 936.0
+   },
+   {
+    "cnpj": "02264795000170",
+    "nome": "IMPRIMI COMUNICACAO VISUAL LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 700.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 15000.0,
+   "por_tipo": {
+    "Serviços contábeis": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

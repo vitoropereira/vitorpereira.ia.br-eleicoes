@@ -1,0 +1,604 @@
+{
+ "sq": "240002541406",
+ "nome_urna": "PEZENTI",
+ "cargo": "depfed",
+ "uf": "SC",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2916000.0,
+  "por_origem": {
+   "Recursos de partido político": 2850000.0,
+   "Recursos de pessoas físicas": 66000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2850000.0,
+   "OUTROS RECURSOS": 66000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 2850000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 66000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1638311.7,
+  "total_pago": 1831356.15,
+  "fornecedores_pj": [
+   {
+    "cnpj": "72348469000127",
+    "nome": "GRAFICA APIUNA LTDA",
+    "cnae": "18229",
+    "n_despesas": 13,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 315190.0
+   },
+   {
+    "cnpj": "36668383000118",
+    "nome": "PATTERN COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 102256.0
+   },
+   {
+    "cnpj": "68461483000165",
+    "nome": "EMERSON MAAS",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "47777373000137",
+    "nome": "INOVA SOLUCOES PROMOCIONAIS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 94900.0
+   },
+   {
+    "cnpj": "09644875000109",
+    "nome": "DGA - DIGITAL ART COMUNICACAO VISUAL LTDA",
+    "cnae": "58298",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 94210.0
+   },
+   {
+    "cnpj": "68461713000196",
+    "nome": "MARCOS RAFAEL PIACENTINI BOTH",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "42532981000168",
+    "nome": "PHOENIX SUBLIMASTER LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 69500.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 59000.0
+   },
+   {
+    "cnpj": "68462372000173",
+    "nome": "EMERSON LUCIANO STEIN",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 56000.0
+   },
+   {
+    "cnpj": "68462073000139",
+    "nome": "JOAO NATEL POLLONIO MACHADO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "53980506000170",
+    "nome": "A2F PRODUCAO AUDIOVISUAL LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "68462336000100",
+    "nome": "LEATRICE MENDONCA BEZ DE OLIVEIRA GOMES",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "82972159000132",
+    "nome": "GRAFICA E EDITORA GANDREI LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27750.0
+   },
+   {
+    "cnpj": "26990162000108",
+    "nome": "LUIZ HENRIQUE PEREIRA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68462003000180",
+    "nome": "JORGE LUIZ KOCH",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "06698836000198",
+    "nome": "KS COMERCIO DE VEICULOS LTDA",
+    "cnae": "45111",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "46068307000125",
+    "nome": "COMPLEXO NOSSA SENHORA DE LOURDES E DO LOUVOR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 12800.0
+   },
+   {
+    "cnpj": "15462684000110",
+    "nome": "POSTO DE COMBUSTIVEL MACHADINHO LTDA",
+    "cnae": "47318",
+    "n_despesas": 34,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9000.87
+   },
+   {
+    "cnpj": "43996373000177",
+    "nome": "43.996.373 CHARLIS HAMM",
+    "cnae": "43223",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "19322161000120",
+    "nome": "LUCIANO DOS SANTOS ESPORTES",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "20521405000182",
+    "nome": "COMPLETA SOLUCOES WEB LTDA",
+    "cnae": "62091",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 1750.0
+   },
+   {
+    "cnpj": "09651525000161",
+    "nome": "FIEDLER EMBALAGENS E PAPELARIA LTDA",
+    "cnae": "46869",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1298.27
+   },
+   {
+    "cnpj": "00127046000176",
+    "nome": "RODOSERRA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 536.94
+   },
+   {
+    "cnpj": "25178706000179",
+    "nome": "POSTO DE COMBUSTIVEIS V H LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 477.9
+   },
+   {
+    "cnpj": "58994983000109",
+    "nome": "POSTO FIREBALL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 469.08
+   },
+   {
+    "cnpj": "31199352000141",
+    "nome": "AUTO POSTO AG8 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 415.15
+   },
+   {
+    "cnpj": "37821721000172",
+    "nome": "E D M - COMERCIO DE COMBUSTIVEIS E TRANSPORTES LTDA EM RECUPERACAO JUDICIAL",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 330.42
+   },
+   {
+    "cnpj": "83488882003129",
+    "nome": "POSTO MIME S.A.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 319.86
+   },
+   {
+    "cnpj": "34049406000180",
+    "nome": "AUTO POSTO PORTAL DE CAMBORIU LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 309.99
+   },
+   {
+    "cnpj": "04382157000180",
+    "nome": "ESPLANADA COMERCIO DE COMBUSTIVES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 308.94
+   },
+   {
+    "cnpj": "54947501000109",
+    "nome": "MAHLE HORIZONTE COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 296.07
+   },
+   {
+    "cnpj": "83646984007708",
+    "nome": "A. ANGELONI CIA. LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 292.89
+   },
+   {
+    "cnpj": "08911601000168",
+    "nome": "SBB COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 291.32
+   },
+   {
+    "cnpj": "83158824000979",
+    "nome": "COOPERATIVA REGIONAL AGROPECUARIA DE CAMPOS NOVOS - COPERCAMPOS",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 286.87
+   },
+   {
+    "cnpj": "80959588000306",
+    "nome": "POSTO J. E. CESCA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 284.7
+   },
+   {
+    "cnpj": "28613771000173",
+    "nome": "AMIGAO - COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 278.0
+   },
+   {
+    "cnpj": "49651146000196",
+    "nome": "POSTO ZAKA PAPANDUVA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 273.8
+   },
+   {
+    "cnpj": "86705894000300",
+    "nome": "DE NONI COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 273.77
+   },
+   {
+    "cnpj": "83004838000180",
+    "nome": "FAM COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 271.28
+   },
+   {
+    "cnpj": "83488882002408",
+    "nome": "POSTO MIME S.A.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 270.24
+   },
+   {
+    "cnpj": "83220723004978",
+    "nome": "COOPERATIVA REGIONAL ITAIPU",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 270.0
+   },
+   {
+    "cnpj": "80956543000116",
+    "nome": "AUTO POSTO SCHELLER LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 269.98
+   },
+   {
+    "cnpj": "22558846000184",
+    "nome": "AUTO POSTO AG3 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 264.03
+   },
+   {
+    "cnpj": "50014494000131",
+    "nome": "CENTRO AUTOMOTIVO ABELARDO LUZ LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 261.11
+   },
+   {
+    "cnpj": "56198614000184",
+    "nome": "POSTO ITAPETRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 251.38
+   },
+   {
+    "cnpj": "83573212006630",
+    "nome": "COOPERATIVA DE PRODUCAO E CONSUMO CONCORDIA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 250.6
+   },
+   {
+    "cnpj": "08812366000177",
+    "nome": "AUTO POSTO IRMAOS LINZMEIER LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 248.72
+   },
+   {
+    "cnpj": "10688757000173",
+    "nome": "CENTRO AUTOMOTIVO VITORINO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 248.4
+   },
+   {
+    "cnpj": "80979107000324",
+    "nome": "CESCA CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 242.02
+   },
+   {
+    "cnpj": "08033253002117",
+    "nome": "STANG STANG LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 231.53
+   },
+   {
+    "cnpj": "76859750000185",
+    "nome": "MARCIO DIOMARIO DA ROSA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 228.99
+   },
+   {
+    "cnpj": "50286736000146",
+    "nome": "AUTO POSTO CAPINZAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 223.0
+   },
+   {
+    "cnpj": "53517721000130",
+    "nome": "MENEGATTI SAO BENTO DO SUL COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 158.58
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 46,
+   "total": 372021.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 16000.0,
+    "Despesas com pessoal": 334000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 21.0,
+    "Locação/cessão de bens imóveis": 15000.0,
+    "Serviços contábeis": 7000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

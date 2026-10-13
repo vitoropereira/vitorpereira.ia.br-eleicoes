@@ -1,0 +1,302 @@
+{
+ "sq": "80002541002",
+ "nome_urna": "MANU",
+ "cargo": "depfed",
+ "uf": "ES",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1223240.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 1230.0,
+   "Recursos de partido político": 911000.0,
+   "Recursos de pessoas físicas": 241010.0,
+   "Recursos próprios": 70000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 901230.0,
+   "FUNDO PARTIDARIO": 11000.0,
+   "OUTROS RECURSOS": 311010.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 911000.0
+   },
+   {
+    "cnpj": "68602780000183",
+    "nome": "JOSE RENATO CASAGRANDE",
+    "total": 1230.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 26,
+   "total": 311010.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 996202.68,
+  "total_pago": 1144965.65,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 21,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 394000.0
+   },
+   {
+    "cnpj": "13288292000151",
+    "nome": "AGNALDO ALVES DA COSTA",
+    "cnae": "63917",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 28000.0
+   },
+   {
+    "cnpj": "26262472000106",
+    "nome": "RIO MARINHO COMERCIO E SERVICOS LTDA",
+    "cnae": "58298",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23370.0
+   },
+   {
+    "cnpj": "20441175000141",
+    "nome": "ML SERVICOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "40580513000133",
+    "nome": "ENSEADA AGENCIA DE MARKETING LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "11787170000184",
+    "nome": "11.787.170 EMERSON ROGERIO REBULI",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "06175892000148",
+    "nome": "COMPROCARD LTDA",
+    "cnae": "82997",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 12572.09
+   },
+   {
+    "cnpj": "18072839000109",
+    "nome": "BREDA IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8260.0
+   },
+   {
+    "cnpj": "30957153000192",
+    "nome": "GRAFICA VENDA NOVA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6750.0
+   },
+   {
+    "cnpj": "19881319000100",
+    "nome": "V. P. SOLUCAO E IMPRESSAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6290.0
+   },
+   {
+    "cnpj": "02495060000158",
+    "nome": "IMPRINT 2001 GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5330.0
+   },
+   {
+    "cnpj": "64053050000110",
+    "nome": "PIRES PARTICIPACOES E INVESTIMENTOS LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4863.0
+   },
+   {
+    "cnpj": "01834552000168",
+    "nome": "FAZ TUDO PROMOCIONAL LTDA",
+    "cnae": "47555",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4650.0
+   },
+   {
+    "cnpj": "03644683000108",
+    "nome": "CZ RENT A CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3400.0
+   },
+   {
+    "cnpj": "27353630000104",
+    "nome": "ROSELKY GRAFICA INDUSTRIA E COMERCIO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3175.0
+   },
+   {
+    "cnpj": "37273972000160",
+    "nome": "LUCIANO DE OLIVEIRA INACIO",
+    "cnae": null,
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "63177134000100",
+    "nome": "63.177.134 LUIS CARLOS LOTERIO",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 880.0
+   },
+   {
+    "cnpj": "27330943000139",
+    "nome": "MALHARIA CRISTMARA LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "29313568000144",
+    "nome": "GRAFICA BORGES LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 495.0
+   },
+   {
+    "cnpj": "23191363000157",
+    "nome": "JORNAL CANELA VERDE LTDA",
+    "cnae": "58123",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 489.0
+   },
+   {
+    "cnpj": "28472546000164",
+    "nome": "GRAFICA CENTRAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 480.0
+   },
+   {
+    "cnpj": "36638107000107",
+    "nome": "BELYRIO COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 395.0
+   },
+   {
+    "cnpj": "34229337000197",
+    "nome": "VISIVA COMUNICACAO VISUAL LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 180.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 185,
+   "total": 393123.59,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 203915.0,
+    "Cessão ou locação de veículos": 3000.0,
+    "Despesas com pessoal": 171040.59,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 168.0,
+    "Serviços advocatícios": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,227 @@
+{
+ "sq": "180002534826",
+ "nome_urna": "TONINHO DE CARIDADE",
+ "cargo": "depest",
+ "uf": "PI",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 339633.55,
+  "por_origem": {
+   "Recursos de outros candidatos": 6666.67,
+   "Recursos de partido político": 150000.0,
+   "Recursos de pessoas físicas": 62966.88,
+   "Recursos próprios": 120000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 156666.67,
+   "OUTROS RECURSOS": 182966.88
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 150000.0
+   },
+   {
+    "cnpj": "68306266000109",
+    "nome": "JULIO CESAR DE CARVALHO LIMA",
+    "total": 6666.67
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 182966.88
+  }
+ },
+ "despesas": {
+  "total_contratado": 190275.14,
+  "total_pago": 254844.6,
+  "fornecedores_pj": [
+   {
+    "cnpj": "58330214000106",
+    "nome": "L NORTE MULTIPLATAFORMA DE COMUNICACAO LTDA",
+    "cnae": "60217",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "16499045000192",
+    "nome": "CONTARE SERVICOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "13290715000178",
+    "nome": "MENESES FERNANDES SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "16926523000101",
+    "nome": "RJC SERVICOS E CONSTRUCOES LTDA",
+    "cnae": "43134",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 22666.44
+   },
+   {
+    "cnpj": "15772110000149",
+    "nome": "SILVA EMBALAGENS DE PAPEL LTDA",
+    "cnae": "58298",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "86913951000177",
+    "nome": "R SILVA E SOUSA LTDA",
+    "cnae": "58298",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9750.0
+   },
+   {
+    "cnpj": "32304068000150",
+    "nome": "KLEBIMARIO DE S. SANTOS",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "34028316178352",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 6701.31
+   },
+   {
+    "cnpj": "35083288000190",
+    "nome": "MARCUS JULIAO ALMEIDA ENTRETENIMENTOS ARTISTICOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 6600.0
+   },
+   {
+    "cnpj": "02927004000145",
+    "nome": "TRANSSERVICE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1982.21
+   },
+   {
+    "cnpj": "05730903000303",
+    "nome": "COMERCIAL DE PETROLEO CAFE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 505.56
+   },
+   {
+    "cnpj": "04805601000122",
+    "nome": "R. DEMES CIA. LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 500.01
+   },
+   {
+    "cnpj": "10781414000159",
+    "nome": "POSTO MATEUS COMBUSTIVEL DE QUALIDADE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 480.01
+   },
+   {
+    "cnpj": "28681263000122",
+    "nome": "ADEMILTON ADEMAR COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 466.02
+   },
+   {
+    "cnpj": "08965163000110",
+    "nome": "DANTAS COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 464.94
+   },
+   {
+    "cnpj": "07483266000181",
+    "nome": "PIPEL-PICOS PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 422.01
+   },
+   {
+    "cnpj": "25971443000150",
+    "nome": "LEOPOLDINO ROCHA JUNIOR",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 13.98
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 7222.65,
+   "por_tipo": {
+    "Despesas com pessoal": 1215.75,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 6.9,
+    "Locação/cessão de bens imóveis": 6000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

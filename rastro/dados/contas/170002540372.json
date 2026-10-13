@@ -1,0 +1,362 @@
+{
+ "sq": "170002540372",
+ "nome_urna": "ANDRÉA MEDEIROS",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 995900.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 400000.0,
+   "Recursos de partido político": 100000.0,
+   "Recursos de pessoas físicas": 495900.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 500000.0,
+   "OUTROS RECURSOS": 495900.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68455987000172",
+    "nome": "GUILHERME ARISTOTELES UCHOA CAVALCANTI PESSOA DE MELO JUNIOR",
+    "total": 400000.0
+   },
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 28,
+   "total": 495900.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 681273.89,
+  "total_pago": 641379.78,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 95000.0
+   },
+   {
+    "cnpj": "30797904000150",
+    "nome": "30.797.904 BRUNO LEITE PESSOA DE ANDRADE",
+    "cnae": "58298",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 50134.0
+   },
+   {
+    "cnpj": "39413658000160",
+    "nome": "SIER CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "67045290000160",
+    "nome": "TRIPLOX LOCACOES LTDA",
+    "cnae": "49299",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 39600.0
+   },
+   {
+    "cnpj": "61291516000127",
+    "nome": "ARTMAIS SERVICOS GRAFICOS E PUBLICITARIOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 38460.0
+   },
+   {
+    "cnpj": "32522471000156",
+    "nome": "MARIA ALICE CAVALCANTI DE MORAIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 22475.37
+   },
+   {
+    "cnpj": "04039975000184",
+    "nome": "ADVOCACIA PIMENTEL BANDEIRA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "28705647000138",
+    "nome": "ERALDO INACIO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "63551988000105",
+    "nome": "63.551.988 HENRIQUE MENDES DIAS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "37995344000198",
+    "nome": "ANDREA RAMOS DOS SANTOS PINHEIRO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "40027291000126",
+    "nome": "COPA LOCACAO E MONTAGEM LTDA",
+    "cnae": "77390",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "60691641000161",
+    "nome": "R. LASALVIA ENGENHARIA LTDA",
+    "cnae": "71120",
+    "n_despesas": 3,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "05288230000111",
+    "nome": "SIGNPRO SINALIZACOES E IMPRESSAO COMPUTADORIZADAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12510.0
+   },
+   {
+    "cnpj": "53175123000120",
+    "nome": "TEXTIL LITORAL NORTE LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12400.0
+   },
+   {
+    "cnpj": "41601000000124",
+    "nome": "GUSA OBRAS DE INSTALACOES LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 11200.0
+   },
+   {
+    "cnpj": "14877395000110",
+    "nome": "ONZE CONSTRUCOES LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "26987507000174",
+    "nome": "BAMDU ECODESIGN LTDA",
+    "cnae": "47547",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 9350.0
+   },
+   {
+    "cnpj": "49442792000143",
+    "nome": "49.442.792 DYANNE ANDRESSA DE LIMA BARROS",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "68235356000148",
+    "nome": "68.235.356 ROSANGELA RIBEIRO DE MELO",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7400.0
+   },
+   {
+    "cnpj": "33586326000100",
+    "nome": "ATIVA SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "35241841000175",
+    "nome": "35.241.841 LUCIANA ANEZIO DA SILVA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "02284300000175",
+    "nome": "CENTRO DE FORMACAO DE CONDUTORES NOSSA SENHORA DA CONCEICAO LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "33397509000179",
+    "nome": "ALBERTO AYMAR EVENTOS E-COMMERCE E CONSULTORIA LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "44672075000194",
+    "nome": "DHC TURISMO LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "33342917000123",
+    "nome": "DOMINGOS LIRA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3334.72
+   },
+   {
+    "cnpj": "45817005000140",
+    "nome": "JOSATEX INDUSTRIA E COMERCIO DE CONFECCOES LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "11752618000124",
+    "nome": "LDTV - LOCACAO DE EQUIPAMENTOS AUDIOVISUAIS LTDA.",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2700.0
+   },
+   {
+    "cnpj": "28787279000114",
+    "nome": "COPYFLEX GRAFICA DIGITAL LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 957.0
+   },
+   {
+    "cnpj": "02782466000111",
+    "nome": "LAGES FIGUEIROA LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "54040195000122",
+    "nome": "54.040.195 EDUARDO LUCAS LOPES DOS SANTOS",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 360.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 80,
+   "total": 181492.8,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 98900.0,
+    "Cessão ou locação de veículos": 40850.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 142.8,
+    "Locação/cessão de bens imóveis": 40000.0,
+    "Serviços prestados por terceiros": 1600.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

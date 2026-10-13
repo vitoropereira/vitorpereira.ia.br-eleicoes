@@ -1,0 +1,205 @@
+{
+ "sq": "120002536066",
+ "nome_urna": "CORONEL DAVID",
+ "cargo": "depest",
+ "uf": "MS",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1122446.96,
+  "por_origem": {
+   "Recursos de outros candidatos": 950.0,
+   "Recursos de partido político": 1000620.0,
+   "Recursos de pessoas físicas": 58000.0,
+   "Recursos próprios": 62876.96
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1000000.0,
+   "FUNDO PARTIDARIO": 1570.0,
+   "OUTROS RECURSOS": 120876.96
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "68345692000143",
+    "nome": "MARCOS SBOROWSKI POLLON",
+    "total": 950.0
+   },
+   {
+    "cnpj": "09002846000135",
+    "nome": "Direção Estadual/Distrital - PL - MATO GROSSO DO SUL",
+    "total": 620.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 120876.96
+  }
+ },
+ "despesas": {
+  "total_contratado": 994686.99,
+  "total_pago": 1116296.35,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 62900.0
+   },
+   {
+    "cnpj": "12259603000191",
+    "nome": "SERILUMI SERVICOS DE IMPRESSAO DIGITAL LTDA",
+    "cnae": "18211",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 52925.0
+   },
+   {
+    "cnpj": "06270812000133",
+    "nome": "A. F. BARBOSA CIA. LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 51000.0
+   },
+   {
+    "cnpj": "31323476000197",
+    "nome": "SANTINI SCAINI ADVOGADOS ASSOCIADOS SS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "04829513000160",
+    "nome": "GRAFICA GLOBO LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 37960.0
+   },
+   {
+    "cnpj": "68505061000144",
+    "nome": "EPM CONSULTORIA E SERVICOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "51595230000181",
+    "nome": "51.595.230 LTDA",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13055.0
+   },
+   {
+    "cnpj": "47259902000100",
+    "nome": "DOUGLAS WELKER DUARTE DE SOUZA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "46841445000103",
+    "nome": "VM SPORTS LTDA",
+    "cnae": "82113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6600.0
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 5,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3774.48
+   },
+   {
+    "cnpj": "46631696000155",
+    "nome": "PHM FILMES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "40751979000154",
+    "nome": "EDE MONTEIRO DE ARRUDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "27783383000178",
+    "nome": "VISUAL CAMISETERIA LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "03232675000154",
+    "nome": "VIACAO CRUZEIRO DO SUL LTDA",
+    "cnae": "49221",
+    "n_despesas": 5,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 738.84
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 249,
+   "total": 679983.67,
+   "por_tipo": {
+    "Despesas com pessoal": 678500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1483.67
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

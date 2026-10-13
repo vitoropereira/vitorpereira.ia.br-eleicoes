@@ -1,0 +1,135 @@
+{
+ "sq": "190002539336",
+ "nome_urna": "GUTEMBERG REIS",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2935460.2,
+  "por_origem": {
+   "Recursos de outros candidatos": 460.2,
+   "Recursos de partido político": 2850000.0,
+   "Recursos de pessoas físicas": 85000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2850000.0,
+   "OUTROS RECURSOS": 85460.2
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 2850000.0
+   },
+   {
+    "cnpj": "68315533000104",
+    "nome": "MUNIR FRANCISCO",
+    "total": 460.2
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 85000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2536969.88,
+  "total_pago": 460204.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 97355.0
+   },
+   {
+    "cnpj": "30800890000187",
+    "nome": "CHAPEU DO SOL POSTO DE GASOLINA E LUBRIFICACAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 37111.38
+   },
+   {
+    "cnpj": "10698493000139",
+    "nome": "COSTA AGENCIA DE TURISMO E TRANSPORTE DE CAXIAS LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 28800.0
+   },
+   {
+    "cnpj": "40820918000100",
+    "nome": "CAIRE COMERCIO E LOCACAO DE VEICULOS LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 13524.0
+   },
+   {
+    "cnpj": "09205713000166",
+    "nome": "POSTO DE GASOLINA CAPINHA DA SERRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10177.5
+   },
+   {
+    "cnpj": "28976165000112",
+    "nome": "AUTOMOVEL CLUBE FLUMINENSE",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "15575511000109",
+    "nome": "BRASIGRAF ARTES GRAFICAS E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 14,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9430.0
+   },
+   {
+    "cnpj": "12299221000191",
+    "nome": "TERRA COMUNICACAO VISUAL E SERVICOS LTDA",
+    "cnae": "13545",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1800.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1146,
+   "total": 2328772.0,
+   "por_tipo": {
+    "Despesas com pessoal": 2325530.0,
+    "Serviços contábeis": 3242.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

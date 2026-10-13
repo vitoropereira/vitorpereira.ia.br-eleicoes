@@ -1,0 +1,210 @@
+{
+ "sq": "180002534825",
+ "nome_urna": "JÚLIO CESAR FILHO",
+ "cargo": "depest",
+ "uf": "PI",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 379848.25,
+  "por_origem": {
+   "Recursos de partido político": 150000.0,
+   "Recursos de pessoas físicas": 109848.25,
+   "Recursos próprios": 120000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 150000.0,
+   "OUTROS RECURSOS": 229848.25
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 150000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 229848.25
+  }
+ },
+ "despesas": {
+  "total_contratado": 232448.99,
+  "total_pago": 270178.15,
+  "fornecedores_pj": [
+   {
+    "cnpj": "21434397000108",
+    "nome": "GLOBAL MONSTER LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "16499045000192",
+    "nome": "CONTARE SERVICOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "18317476000116",
+    "nome": "B R F CONSTRUCOES LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "08596605000107",
+    "nome": "POSTO HOMERO CASTELO BRANCO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "10767225000121",
+    "nome": "BRANDIM LANCHES LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "07230596000165",
+    "nome": "EXTAND MONTAGENS E EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 17100.0
+   },
+   {
+    "cnpj": "37318831000116",
+    "nome": "ARAUJO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "04835212000140",
+    "nome": "VERAS INDUSTRIA COMERCIO E SERVICOS LTDA",
+    "cnae": "32990",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 8920.0
+   },
+   {
+    "cnpj": "13170806000170",
+    "nome": "SENTRA DISTRIBUIDORA E SERVICOS LTDA",
+    "cnae": "46915",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "41767536000114",
+    "nome": "EXXYA EMPREENDIMENTOS ENGENHARIA E ENERGIA RENOVAVEIS LTDA",
+    "cnae": "42219",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "30632034000160",
+    "nome": "ZENITE GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "10176750000172",
+    "nome": "PONCE DESING COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5100.0
+   },
+   {
+    "cnpj": "01399568000190",
+    "nome": "IMOBILIARIA CONSTRUTORA CANAA LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "05586866000140",
+    "nome": "R N S LOPES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4375.0
+   },
+   {
+    "cnpj": "10854656000125",
+    "nome": "PL DISTRIBUICAO DE PRODUTOS ALIMENTICIOS LTDA",
+    "cnae": "46915",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 249.49
+   },
+   {
+    "cnpj": "00113110000402",
+    "nome": "COMERCIAL EQIP LTDA.",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 201.5
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 6003.0,
+   "por_tipo": {
+    "Despesas com pessoal": 6000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

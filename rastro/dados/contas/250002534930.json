@@ -1,0 +1,295 @@
+{
+ "sq": "250002534930",
+ "nome_urna": "EDINHO ARAUJO",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PRD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2127413.0,
+  "por_origem": {
+   "Recursos de partido político": 2022412.5,
+   "Recursos de pessoas físicas": 100000.0,
+   "Recursos próprios": 5000.5
+  },
+  "por_fonte": {
+   "FUNDO PARTIDARIO": 2022412.5,
+   "OUTROS RECURSOS": 105000.5
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "53495793000123",
+    "nome": "Direção Estadual/Distrital - PRD - SÃO PAULO",
+    "total": 2022412.5
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 105000.5
+  }
+ },
+ "despesas": {
+  "total_contratado": 1977934.65,
+  "total_pago": 2105000.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "09510802000116",
+    "nome": "COORPTRANS - COOPERATIVA RIO PRETENSE DE SERVICOS DE TRANSPORTE DE CARGA E PASSAGEIROS",
+    "cnae": "49302",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 774742.11
+   },
+   {
+    "cnpj": "62315365000162",
+    "nome": "YOUNG LTDA",
+    "cnae": "74102",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 124900.0
+   },
+   {
+    "cnpj": "59689174000156",
+    "nome": "PRUDENCIO CIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 118800.0
+   },
+   {
+    "cnpj": "67527321000110",
+    "nome": "67.527.321 CAIO SEMINATTI CASAL",
+    "cnae": "74200",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "55247078000105",
+    "nome": "55.247.078 JURANDIR DA SILVA FERREIRA",
+    "cnae": "47636",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "48308019000126",
+    "nome": "FOTOGRAVURA RIO PRETO LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 52000.0
+   },
+   {
+    "cnpj": "34028316267290",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 35995.2
+   },
+   {
+    "cnpj": "26698750000172",
+    "nome": "BBP ACOES E PROMOCOES LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 22800.0
+   },
+   {
+    "cnpj": "27455882000136",
+    "nome": "CICLAIR GOMES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "11226504000140",
+    "nome": "SILVIA SUZUKI GARCIA",
+    "cnae": "18229",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18905.0
+   },
+   {
+    "cnpj": "50230931000154",
+    "nome": "TERMOPLAST SP INDUSTRIA PLASTICA LTDA",
+    "cnae": "22293",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15590.75
+   },
+   {
+    "cnpj": "38427987000106",
+    "nome": "JORNAL GAZETA DE RIO PRETO LTDA",
+    "cnae": "58221",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 13600.0
+   },
+   {
+    "cnpj": "59963488000103",
+    "nome": "EMPRESA DE PUBLICIDADE RIO PRETO S.A.",
+    "cnae": "58221",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por jornais e revistas",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10900.0
+   },
+   {
+    "cnpj": "53973426000198",
+    "nome": "JORNAL A CIDADE DE VOTUPORANGA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "18460479000104",
+    "nome": "MARCOS APARECIDO FLORENCIO",
+    "cnae": "73190",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5350.0
+   },
+   {
+    "cnpj": "13189845000119",
+    "nome": "GB COSTA CONSULTORIA E MARKETING",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 5340.0
+   },
+   {
+    "cnpj": "58023623000160",
+    "nome": "WALDNER LUI PROMOCOES PRODUCOES E PUBLICACOES LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3420.0
+   },
+   {
+    "cnpj": "68038637000100",
+    "nome": "ZIZATUR AGENCIA DE VIAGENS E TURISMO LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Passagem Aérea"
+    ],
+    "total": 1806.59
+   },
+   {
+    "cnpj": "02678884000163",
+    "nome": "SILVA POLETTO EDITORA E COMUNICACAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "49888438000147",
+    "nome": "MARIO AURELIO SAMPAIO E SILVA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "65708158000166",
+    "nome": "URANO EXPRESS LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 658.0
+   },
+   {
+    "cnpj": "64842434000111",
+    "nome": "64.842.434 ADALBERTO DA SILVA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "30644766000170",
+    "nome": "MJM CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 3,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 319.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 48,
+   "total": 309408.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 96300.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 108.0,
+    "Produção de jingles, vinhetas e slogans": 3000.0,
+    "Serviços contábeis": 20000.0,
+    "Serviços prestados por terceiros": 190000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,236 @@
+{
+ "sq": "140002551126",
+ "nome_urna": "VICTOR DIAS",
+ "cargo": "depest",
+ "uf": "PA",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 766627.87,
+  "por_origem": {
+   "Recursos de partido político": 203275.02,
+   "Recursos de pessoas físicas": 448792.85,
+   "Recursos próprios": 114560.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 203275.02,
+   "OUTROS RECURSOS": 563352.85
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 203275.02
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 17,
+   "total": 563352.85
+  }
+ },
+ "despesas": {
+  "total_contratado": 537932.5,
+  "total_pago": 683365.87,
+  "fornecedores_pj": [
+   {
+    "cnpj": "31045424000104",
+    "nome": "VOEJA TAXIAEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 232766.66
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 53686.17
+   },
+   {
+    "cnpj": "17620604000133",
+    "nome": "T. P. MONTENEGRO GRAFICA LTDA",
+    "cnae": "58115",
+    "n_despesas": 13,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 40293.0
+   },
+   {
+    "cnpj": "26921908000121",
+    "nome": "HOSPFAR INDUSTRIA E COMERCIO DE PRODUTOS HOSPITALARES S.A.",
+    "cnae": "46443",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "63859961000338",
+    "nome": "MARAJO LOCACAO E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 18783.18
+   },
+   {
+    "cnpj": "41820000000115",
+    "nome": "CARVALHO E GOMES LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "16637577000149",
+    "nome": "CHARONE E DIAS ADVOGADOS ASSOCIADOS S/S",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "36904877000154",
+    "nome": "PEDRO MAUES LOUREIRO BISNETO",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "31833470000160",
+    "nome": "COSTA IMPRESSOES LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8960.0
+   },
+   {
+    "cnpj": "53282340000119",
+    "nome": "A M B DOS SANTOS",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 8225.0
+   },
+   {
+    "cnpj": "55979247000193",
+    "nome": "R N AZEVEDO DA SILVA",
+    "cnae": "13405",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8200.0
+   },
+   {
+    "cnpj": "40821516000111",
+    "nome": "C. A. LOPES DE SOUSA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "11585897000189",
+    "nome": "IRMAOS FERREIRA COMERCIO DE COMBUSTIVEL E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6149.43
+   },
+   {
+    "cnpj": "15741481000163",
+    "nome": "DINASTIA VIAGENS E TURISMO LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Passagem Aérea"
+    ],
+    "total": 2828.46
+   },
+   {
+    "cnpj": "04819490000103",
+    "nome": "LOURENCO AUGUSTO SILVA PIRES D AVILA SERVICOS E COMERCIO DE IMPRESSAO GRAFICA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2160.0
+   },
+   {
+    "cnpj": "30950922000120",
+    "nome": "FLUXO MARKETING DIGITAL E TECNOLOGIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "28114176000193",
+    "nome": "R.M. DA LUZ SERVICOS LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "48657075000176",
+    "nome": "48.657.075 RAMIRO AMARAL DUARTE",
+    "cnae": "47512",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação",
+     "Materiais de expediente"
+    ],
+    "total": 670.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 60,
+   "total": 79610.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 38520.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 90.6,
+    "Produção de jingles, vinhetas e slogans": 10000.0,
+    "Publicidade por materiais impressos": 3000.0,
+    "Serviços prestados por terceiros": 28000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

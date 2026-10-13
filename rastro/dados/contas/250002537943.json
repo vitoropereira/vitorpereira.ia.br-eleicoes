@@ -1,0 +1,211 @@
+{
+ "sq": "250002537943",
+ "nome_urna": "MARIA ROSAS",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2581449.83,
+  "por_origem": {
+   "Recursos de partido político": 2533249.83,
+   "Recursos de pessoas físicas": 48200.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1893000.0,
+   "FUNDO PARTIDARIO": 640249.83,
+   "OUTROS RECURSOS": 48200.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 2093000.0
+   },
+   {
+    "cnpj": "07794600000118",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - SÃO PAULO",
+    "total": 440249.83
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 12,
+   "total": 48200.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2039439.95,
+  "total_pago": 2036279.63,
+  "fornecedores_pj": [
+   {
+    "cnpj": "10498116000156",
+    "nome": "PREMIERE CONSULTORIA E PROJETOS LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 285000.0
+   },
+   {
+    "cnpj": "09413342000108",
+    "nome": "PONTODIGITAL SERVICOS GRAFICOS LTDA",
+    "cnae": "58298",
+    "n_despesas": 29,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 216300.0
+   },
+   {
+    "cnpj": "37331288000197",
+    "nome": "RONI MOTORS LOCACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 8,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 156000.0
+   },
+   {
+    "cnpj": "45504716000164",
+    "nome": "ZERO AGENCY LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "24347979000137",
+    "nome": "MACIEL ART DESIGNER GRAFICO - LTDA",
+    "cnae": "47636",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 63775.0
+   },
+   {
+    "cnpj": "12338078000108",
+    "nome": "VIVA STAR COMUNICACAO VISUAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 33292.0
+   },
+   {
+    "cnpj": "19409559000106",
+    "nome": "ZEHAVA SERVICOS DE APOIO ADMINISTRATIVO LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "56029381000196",
+    "nome": "PAZLANDIM COMERCIO E MOBILIDADE URBANA LTDA",
+    "cnae": "49230",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16070.0
+   },
+   {
+    "cnpj": "43187418000162",
+    "nome": "AUTO POSTO CARLU LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "39291525000169",
+    "nome": "ERNESTO ASSESSORIA E CONSULTORIA LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "44313815000104",
+    "nome": "ALTERNATIVA AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "07587695000107",
+    "nome": "AUTO POSTO JEOVA - JIRE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "29789582000119",
+    "nome": "AUTO POSTO SAO BENTO DE RIO CLARO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "43513001000142",
+    "nome": "AUTO POSTO MONTANA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 506,
+   "total": 1138002.95,
+   "por_tipo": {
+    "Despesas com pessoal": 1069597.75,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 285.2,
+    "Locação/cessão de bens imóveis": 43120.0,
+    "Produção de jingles, vinhetas e slogans": 5000.0,
+    "Serviços advocatícios": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

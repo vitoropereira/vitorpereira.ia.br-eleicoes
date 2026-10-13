@@ -1,0 +1,315 @@
+{
+ "sq": "130002542054",
+ "nome_urna": "MARILIA AMARAL",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 762832.63,
+  "por_origem": {
+   "Recursos de partido político": 760000.0,
+   "Recursos de pessoas físicas": 2832.63
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 760000.0,
+   "OUTROS RECURSOS": 2832.63
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 760000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 2832.63
+  }
+ },
+ "despesas": {
+  "total_contratado": 241889.55,
+  "total_pago": 287998.32,
+  "fornecedores_pj": [
+   {
+    "cnpj": "55807991000100",
+    "nome": "MATHEUS SANTOS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "64668611000195",
+    "nome": "SPE CONCRETIZA LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "21652672000151",
+    "nome": "TARGET FROTAS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5834.0
+   },
+   {
+    "cnpj": "03359506000180",
+    "nome": "IMPACT BRASIL COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5760.0
+   },
+   {
+    "cnpj": "38009434000125",
+    "nome": "HG LOCADORA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3828.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "09292570000177",
+    "nome": "FAST CLEAN COMERCIO E DISTRIBUICAO LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1900.0
+   },
+   {
+    "cnpj": "39408815000140",
+    "nome": "39.408.815 ADRIANE RAQUEL FIGUEIREDO",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1630.0
+   },
+   {
+    "cnpj": "35957022000129",
+    "nome": "35.957.022 RONALDO CASTRO CARVALHO",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "26908119000150",
+    "nome": "NOVA R IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "17212995000157",
+    "nome": "COMBO AUTO POSTO COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 826.07
+   },
+   {
+    "cnpj": "18954582000100",
+    "nome": "CENTRO DE FORMACAO DO MARCELINHO LTDA",
+    "cnae": "85911",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 747.9
+   },
+   {
+    "cnpj": "04737552001100",
+    "nome": "MART MINAS DISTRIBUICAO LTDA",
+    "cnae": "47113",
+    "n_despesas": 6,
+    "tipos": [
+     "Alimentação",
+     "Materiais de expediente"
+    ],
+    "total": 614.52
+   },
+   {
+    "cnpj": "19283605000165",
+    "nome": "AGENOR POSTO DE COMBUSTIVEIS LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 574.68
+   },
+   {
+    "cnpj": "33699713000144",
+    "nome": "NUNES COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 491.95
+   },
+   {
+    "cnpj": "43283811013219",
+    "nome": "KALUNGA SA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 403.8
+   },
+   {
+    "cnpj": "43283811014967",
+    "nome": "KALUNGA SA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 356.4
+   },
+   {
+    "cnpj": "05333717000179",
+    "nome": "RODOPOSTO OLIVEIRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 350.0
+   },
+   {
+    "cnpj": "02553038000117",
+    "nome": "COMERCIAL MINAS GRILL LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 300.05
+   },
+   {
+    "cnpj": "38252868000151",
+    "nome": "BELLA EDITORA E GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 275.0
+   },
+   {
+    "cnpj": "43022538000100",
+    "nome": "LIKE GRAFICA INDUSTRIA E COMERCIO LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 275.0
+   },
+   {
+    "cnpj": "67656805000169",
+    "nome": "PATRIK LOURRAN DE LIMA MACIEL",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 271.0
+   },
+   {
+    "cnpj": "18953356000105",
+    "nome": "PETROCAR LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 236.11
+   },
+   {
+    "cnpj": "22090526000142",
+    "nome": "DIVENDAS COMERCIAL LTDA",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 133.6
+   },
+   {
+    "cnpj": "04737552001614",
+    "nome": "MART MINAS DISTRIBUICAO LTDA",
+    "cnae": "47113",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação",
+     "Materiais de expediente"
+    ],
+    "total": 19.97
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 22,
+   "total": 119761.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 93800.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.0,
+    "Impostos, contribuições e taxas": 17.5,
+    "Locação/cessão de bens imóveis": 9042.0,
+    "Produção de jingles, vinhetas e slogans": 2000.0,
+    "Serviços contábeis": 14900.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

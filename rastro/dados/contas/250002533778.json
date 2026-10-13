@@ -1,0 +1,99 @@
+{
+ "sq": "250002533778",
+ "nome_urna": "SARGENTO CASTRO",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 332916.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 322915.0,
+   "Recursos próprios": 10001.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 322915.0,
+   "OUTROS RECURSOS": 10001.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68237389000127",
+    "nome": "ISRAEL NANTES SANTOS",
+    "total": 322915.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 10001.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 139742.9,
+  "total_pago": 175442.9,
+  "fornecedores_pj": [
+   {
+    "cnpj": "10496590000149",
+    "nome": "SCREAM - MKT ASSESSORIA E CONSULTORIA LTDA.",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "17407838000105",
+    "nome": "BISSOLI SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "24347979000137",
+    "nome": "MACIEL ART DESIGNER GRAFICO - LTDA",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "08142850000136",
+    "nome": "WBL GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1899.9
+   },
+   {
+    "cnpj": "10876448000127",
+    "nome": "RC SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 840.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 10003.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.0,
+    "Serviços contábeis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,165 @@
+{
+ "sq": "240002541935",
+ "nome_urna": "CARLOS BOLSONARO",
+ "cargo": "senador",
+ "uf": "SC",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 4403000.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 100000.0,
+   "Recursos de partido político": 4300000.0,
+   "Recursos de pessoas físicas": 3000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 4300000.0,
+   "OUTROS RECURSOS": 103000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 4300000.0
+   },
+   {
+    "cnpj": "68461700000117",
+    "nome": "CAROLINE RODRIGUES DE TONI",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 3000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 3284918.38,
+  "total_pago": 3213151.8,
+  "fornecedores_pj": [
+   {
+    "cnpj": "23087346000174",
+    "nome": "VENTURA ESTUDIO LTDA",
+    "cnae": "59111",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "23412180000114",
+    "nome": "EXACT INDUSTRIA E SERVICOS DE EMBALAGENS E ROTULOS LTDA",
+    "cnae": "17311",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 605400.0
+   },
+   {
+    "cnpj": "29859785000134",
+    "nome": "FORMA CONSULTORIA EM MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 500000.0
+   },
+   {
+    "cnpj": "31456921000197",
+    "nome": "REDITUS COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 500000.0
+   },
+   {
+    "cnpj": "07373055000196",
+    "nome": "G P S CONSULTORIA, PROJETOS E OBRAS LTDA",
+    "cnae": "70204",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "67579639000144",
+    "nome": "FAROL COMUNICACAO INTEGRADA LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 216547.0
+   },
+   {
+    "cnpj": "48407875000139",
+    "nome": "DALLASTRA TREINAMENTO GERENCIAL LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 85000.0
+   },
+   {
+    "cnpj": "48933104000185",
+    "nome": "JAINE POKOMAIER MOROKOWSKI",
+    "cnae": "47547",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 37500.0
+   },
+   {
+    "cnpj": "37345982000163",
+    "nome": "AR UNIFORMES LTDA",
+    "cnae": "13405",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 29450.0
+   },
+   {
+    "cnpj": "07111059000104",
+    "nome": "XP ESTUDIO DE PRODUCOES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9207.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 1766.58
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 47.8,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 47.8
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

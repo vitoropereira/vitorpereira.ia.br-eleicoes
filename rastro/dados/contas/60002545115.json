@@ -1,0 +1,120 @@
+{
+ "sq": "60002545115",
+ "nome_urna": "DAVID DURAND",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 360525.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 243600.0,
+   "Recursos de partido político": 70000.0,
+   "Recursos de pessoas físicas": 24670.0,
+   "Recursos próprios": 22255.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 243600.0,
+   "FUNDO PARTIDARIO": 70000.0,
+   "OUTROS RECURSOS": 46925.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68492340000110",
+    "nome": "RONALDO MANCHADO MARTINS",
+    "total": 243600.0
+   },
+   {
+    "cnpj": "07967072000151",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - CEARÁ",
+    "total": 70000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 46925.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 232675.57,
+  "total_pago": 174135.57,
+  "fornecedores_pj": [
+   {
+    "cnpj": "12685777000116",
+    "nome": "D. J. ADMINISTRACAO DE IMOVEIS LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "22530234000183",
+    "nome": "THIAGO CARVALHO ASSESSORIA JURIDICA E LEGISLATIVA LTDA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "03977401000194",
+    "nome": "CASABLANCA RENT A CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "07295702000199",
+    "nome": "SERVI 100 COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 25,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9081.07
+   },
+   {
+    "cnpj": "48509051000170",
+    "nome": "NBL INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6450.0
+   },
+   {
+    "cnpj": "04963686000177",
+    "nome": "PROSERVICE COMERCIO E SERVICOS LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 137,
+   "total": 167144.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 135500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 644.5,
+    "Locação/cessão de bens imóveis": 3000.0,
+    "Serviços contábeis": 10000.0,
+    "Serviços prestados por terceiros": 18000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

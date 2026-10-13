@@ -1,0 +1,128 @@
+{
+ "sq": "250002536387",
+ "nome_urna": "LISBOA",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 726746.67,
+  "por_origem": {
+   "Recursos de partido político": 715246.67,
+   "Recursos de pessoas físicas": 11500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 700000.0,
+   "FUNDO PARTIDARIO": 15246.67,
+   "OUTROS RECURSOS": 11500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 700000.0
+   },
+   {
+    "cnpj": "08701595000114",
+    "nome": "Direção Estadual/Distrital - PL - SÃO PAULO",
+    "total": 15246.67
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 11500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 486600.05,
+  "total_pago": 700000.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 188628.49
+   },
+   {
+    "cnpj": "19023922000142",
+    "nome": "INFINITI PUBLICIDADE PROPAGANDA E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 172800.0
+   },
+   {
+    "cnpj": "35554822000107",
+    "nome": "SELECT PRODUCOES E MARKETING LTDA",
+    "cnae": "59120",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos",
+     "Despesa com Impulsionamento de Conteúdos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "59088687000101",
+    "nome": "BONSUNET CONSULTORIA , ASSESSORIA E SOLUCOES INTEGRADAS GUARULHOS LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 29900.0
+   },
+   {
+    "cnpj": "59705889000155",
+    "nome": "MVM CONSULTORIA CONTABIL E SERVICOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "41878205000151",
+    "nome": "KATHELYN DA SILVA ALVES",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "07558287000119",
+    "nome": "COCAIA COMERCIO DE LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 195.06
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 10,
+   "total": 25076.5,
+   "por_tipo": {
+    "Despesas com pessoal": 15000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 76.5,
+    "Locação/cessão de bens imóveis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

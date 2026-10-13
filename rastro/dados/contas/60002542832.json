@@ -1,0 +1,166 @@
+{
+ "sq": "60002542832",
+ "nome_urna": "DRA SILVANA",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1259050.0,
+  "por_origem": {
+   "Recursos de partido político": 1259050.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1000000.0,
+   "OUTROS RECURSOS": 259050.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "08808169000184",
+    "nome": "Direção Estadual/Distrital - PL - CEARÁ",
+    "total": 259050.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 542761.5,
+  "total_pago": 423071.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "58549063000181",
+    "nome": "FAYE DIGITAL LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 149000.0
+   },
+   {
+    "cnpj": "46243496000125",
+    "nome": "LOCX LOCACAO DE VEICULOS E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 42282.0
+   },
+   {
+    "cnpj": "05887771000166",
+    "nome": "ETICK INDUSTRIA DE ETIQUETAS LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 28800.0
+   },
+   {
+    "cnpj": "14650163000124",
+    "nome": "PRIME INDUSTRIA GRAFICA LTDA",
+    "cnae": "17311",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "40803409000160",
+    "nome": "LF FA SERVICOS GRAFICOS LTDA",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24180.0
+   },
+   {
+    "cnpj": "52503996000151",
+    "nome": "EZEQUIEL MARTINS MACIEL LTDA",
+    "cnae": "82199",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 10500.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "34116698000127",
+    "nome": "SMAK IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "04078953000123",
+    "nome": "SOUZA COMERCIO DE PETROLEO E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "24014350000175",
+    "nome": "ZAP LOCACOES LTDA",
+    "cnae": "43223",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 1600.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 69,
+   "total": 238399.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 103900.0,
+    "Despesas com pessoal": 107400.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 99.5,
+    "Locação/cessão de bens imóveis": 2000.0,
+    "Serviços advocatícios": 25000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,262 @@
+{
+ "sq": "190002534839",
+ "nome_urna": "AUREO RIBEIRO",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "SOLIDARIEDADE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2503000.0,
+  "por_origem": {
+   "Recursos de partido político": 2000000.0,
+   "Recursos de pessoas físicas": 396400.0,
+   "Recursos próprios": 106600.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2000000.0,
+   "OUTROS RECURSOS": 503000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "20045169000175",
+    "nome": "Direção Estadual/Distrital - SOLIDARIEDADE - RIO DE JANEIRO",
+    "total": 2000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 29,
+   "total": 503000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1248268.75,
+  "total_pago": 818770.37,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 140000.0
+   },
+   {
+    "cnpj": "60629178000128",
+    "nome": "60.629.178 BRENDA RIBEIRO LINHARES",
+    "cnae": "56201",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 47010.0
+   },
+   {
+    "cnpj": "29973826000119",
+    "nome": "A NOSSA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 43,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 32020.0
+   },
+   {
+    "cnpj": "07396700000196",
+    "nome": "LORD RODRIGO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 125,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 22805.07
+   },
+   {
+    "cnpj": "50321780000220",
+    "nome": "CHEGOUW SOLUCOES TECNOLOGICAS EM MOBILIDADE URBANA LTDA",
+    "cnae": "77110",
+    "n_despesas": 5,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 19000.0
+   },
+   {
+    "cnpj": "44448899000185",
+    "nome": "FACTOR COMUNICACAO VISUAL LTDA",
+    "cnae": "61108",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8020.0
+   },
+   {
+    "cnpj": "47329291000120",
+    "nome": "MF CONTABILIDADE ELEITORAL E PARTIDARIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "21849180000150",
+    "nome": "STILLO SIGN COMUNICACAO VISUAL LTDA",
+    "cnae": "58191",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4920.0
+   },
+   {
+    "cnpj": "34058917000169",
+    "nome": "ASSOCIACAO BRASILEIRA DE IMPRENSA",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4167.0
+   },
+   {
+    "cnpj": "05849439000107",
+    "nome": "RIO ATIVA COMUNICACAO E DESIGN LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3980.0
+   },
+   {
+    "cnpj": "54557341000191",
+    "nome": "FMV ALIMENTACAO E SERVICOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2240.0
+   },
+   {
+    "cnpj": "10862396000130",
+    "nome": "CAFE CEM COMERCIO DE ALIMENTOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1950.0
+   },
+   {
+    "cnpj": "29861549000152",
+    "nome": "MAX SHOPPING COMERCIO DE FOGOS, ARMAS, ESPORTE E VESTUARIO LTDA.",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1950.0
+   },
+   {
+    "cnpj": "23412180000114",
+    "nome": "EXACT INDUSTRIA E SERVICOS DE EMBALAGENS E ROTULOS LTDA",
+    "cnae": "17311",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1560.0
+   },
+   {
+    "cnpj": "04557599000110",
+    "nome": "ASSAF E ASSAF SONORIZACAO, COMERCIO E SERVICOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "33088924000140",
+    "nome": "LFERRAZ RESTAURANTE E COMERCIO DE ALIMENTOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "18009021000133",
+    "nome": "BR HOTELS ADMINISTRADORA LTDA.",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 790.0
+   },
+   {
+    "cnpj": "19487975000114",
+    "nome": "ALX BRASIL SIGN LTDA",
+    "cnae": "46516",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "23611008000190",
+    "nome": "UNIFORMIZE RIO ROUPAS PROFISSIONAIS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "01395200000153",
+    "nome": "BAR E RESTAURANTE CENTRAL DE MACABU LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "26051070000162",
+    "nome": "ALINE RUBERTO DA SILVA NORBERTO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 519,
+   "total": 946556.68,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 729656.68,
+    "Cessão ou locação de veículos": 8000.0,
+    "Despesas com pessoal": 200600.0,
+    "Locação/cessão de bens imóveis": 8300.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

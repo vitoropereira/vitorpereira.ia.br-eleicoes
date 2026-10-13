@@ -1,0 +1,253 @@
+{
+ "sq": "180002533196",
+ "nome_urna": "GEORGIANO",
+ "cargo": "depfed",
+ "uf": "PI",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1453713.4,
+  "por_origem": {
+   "Recursos de partido político": 1375000.0,
+   "Recursos de pessoas físicas": 51713.4,
+   "Recursos próprios": 27000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1375000.0,
+   "OUTROS RECURSOS": 78713.4
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 1375000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 12,
+   "total": 78713.4
+  }
+ },
+ "despesas": {
+  "total_contratado": 1031112.89,
+  "total_pago": 99504.13,
+  "fornecedores_pj": [
+   {
+    "cnpj": "63546195000190",
+    "nome": "FAB PUBLICIDADE LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 272000.0
+   },
+   {
+    "cnpj": "15827503000102",
+    "nome": "GUMERCINDO GOMES DE ARAUJO NETO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 185000.0
+   },
+   {
+    "cnpj": "01399568000190",
+    "nome": "IMOBILIARIA CONSTRUTORA CANAA LTDA",
+    "cnae": "41204",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento",
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 124500.0
+   },
+   {
+    "cnpj": "08596605000107",
+    "nome": "POSTO HOMERO CASTELO BRANCO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 90734.38
+   },
+   {
+    "cnpj": "16499045000192",
+    "nome": "CONTARE SERVICOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "54697762000118",
+    "nome": "CANAA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "10767225000121",
+    "nome": "BRANDIM LANCHES LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "07230596000165",
+    "nome": "EXTAND MONTAGENS E EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "09116541000154",
+    "nome": "AUTO LESTE LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 29000.0
+   },
+   {
+    "cnpj": "10176750000172",
+    "nome": "PONCE DESING COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 28900.0
+   },
+   {
+    "cnpj": "52336957000107",
+    "nome": "JM INDUSTRIA DE EMBALAGENS E ROTULOS LTDA",
+    "cnae": "17419",
+    "n_despesas": 11,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27920.0
+   },
+   {
+    "cnpj": "13290715000178",
+    "nome": "MENESES FERNANDES SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "45193313000141",
+    "nome": "L L M CONSTRUTORA LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 22240.0
+   },
+   {
+    "cnpj": "35148048000126",
+    "nome": "J R SILVA FILHO VESTUARIO LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6900.0
+   },
+   {
+    "cnpj": "03709221000121",
+    "nome": "RTC SERVICOS DE TRANSPORTE DE PASSAGEIROS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6750.0
+   },
+   {
+    "cnpj": "02687493000105",
+    "nome": "I. H. MARTINS SILVEIRA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4400.0
+   },
+   {
+    "cnpj": "00557774000118",
+    "nome": "TEIXEIRA E LEITE LTDA",
+    "cnae": "46354",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2700.0
+   },
+   {
+    "cnpj": "59595908000138",
+    "nome": "M V VIEIRA PEREIRA LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1280.0
+   },
+   {
+    "cnpj": "45167140000197",
+    "nome": "E PACHECO LOPES FILHO PACHECAO LTDA",
+    "cnae": "46931",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 654.01
+   },
+   {
+    "cnpj": "00113110000160",
+    "nome": "COMERCIAL EQIP LTDA.",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 633.5
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 6,
+   "total": 17501.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 5500.0,
+    "Despesas com pessoal": 12000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

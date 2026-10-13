@@ -1,0 +1,134 @@
+{
+ "sq": "140002549265",
+ "nome_urna": "CORONEL NEIL",
+ "cargo": "depest",
+ "uf": "PA",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 835552.55,
+  "por_origem": {
+   "Recursos de partido político": 700000.0,
+   "Recursos de pessoas físicas": 109592.51,
+   "Recursos próprios": 25960.04
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 700000.0,
+   "OUTROS RECURSOS": 135552.55
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 700000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 14,
+   "total": 135552.55
+  }
+ },
+ "despesas": {
+  "total_contratado": 442775.16,
+  "total_pago": 383387.16,
+  "fornecedores_pj": [
+   {
+    "cnpj": "10394168000182",
+    "nome": "OFFICE COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 191102.0
+   },
+   {
+    "cnpj": "57502107000155",
+    "nome": "GXPRINT SERVICOS GRAFICOS LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 58753.3
+   },
+   {
+    "cnpj": "35868114000132",
+    "nome": "RRN POSTO DE COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 18844.47
+   },
+   {
+    "cnpj": "14082648000169",
+    "nome": "POSTO UMARIZAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 15799.84
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 11500.0
+   },
+   {
+    "cnpj": "61649105000160",
+    "nome": "MANGUITA SERVICOS LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 8500.0
+   },
+   {
+    "cnpj": "66382834000117",
+    "nome": "66.382.834 EVERTON FABIO SILVA DE SOUSA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "22400928000104",
+    "nome": "POSTO DE COMBUSTIVEL NOSSA SENHORA DE LURDES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1352.75
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 34,
+   "total": 132922.8,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 24000.0,
+    "Despesas com pessoal": 31900.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 22.8,
+    "Publicidade por carros de som": 25000.0,
+    "Serviços advocatícios": 40000.0,
+    "Serviços contábeis": 12000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

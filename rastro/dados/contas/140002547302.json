@@ -1,0 +1,133 @@
+{
+ "sq": "140002547302",
+ "nome_urna": "BOB FLLAY",
+ "cargo": "depfed",
+ "uf": "PA",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 538000.0,
+  "por_origem": {
+   "Recursos de partido político": 495000.0,
+   "Recursos próprios": 43000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 495000.0,
+   "OUTROS RECURSOS": 43000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 495000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 43000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 370268.33,
+  "total_pago": 515088.96,
+  "fornecedores_pj": [
+   {
+    "cnpj": "54031031000139",
+    "nome": "ULTRA PRINT IMPRESSAO DIGITAL E SUBLIMACAO LTDA.",
+    "cnae": "18130",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 211500.0
+   },
+   {
+    "cnpj": "13293197000146",
+    "nome": "BRASIL DE CASTRO - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "35372453000123",
+    "nome": "ARTPRINT1000 PRO SPORT LTDA",
+    "cnae": "13405",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 37640.0
+   },
+   {
+    "cnpj": "52922980000183",
+    "nome": "52.922.980 RODRIGO CAMARAO RODRIGUES",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "16619766000199",
+    "nome": "MARCELO COSTA VILHENA",
+    "cnae": "43304",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 4850.0
+   },
+   {
+    "cnpj": "19757796000150",
+    "nome": "PIROPESCA COMERCIO DE ARTIGOS DE PESCA LTDA",
+    "cnae": "47636",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2399.98
+   },
+   {
+    "cnpj": "07436513000431",
+    "nome": "COLINA DISTRIBUIDORA DE PRODUTOS ALIMENTICIOS LTDA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 1776.0
+   },
+   {
+    "cnpj": "24372139000124",
+    "nome": "TRADICAO LOPES LTDA",
+    "cnae": "11216",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 363.35
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 31,
+   "total": 56739.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 1700.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 39.0,
+    "Locação/cessão de bens imóveis": 25000.0,
+    "Serviços contábeis": 30000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,230 @@
+{
+ "sq": "250002536733",
+ "nome_urna": "JOAO PAULO CUNHA",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2263933.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 933.0,
+   "Recursos de partido político": 1175500.0,
+   "Recursos de pessoas físicas": 1087500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1175500.0,
+   "OUTROS RECURSOS": 1088433.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1175500.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 933.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 13,
+   "total": 1087500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 942400.44,
+  "total_pago": 917753.63,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 11,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 194000.0
+   },
+   {
+    "cnpj": "68373213000100",
+    "nome": "MARIA IZABEL AZEVEDO NORONHA",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 160000.0
+   },
+   {
+    "cnpj": "68373446000103",
+    "nome": "LEANDRO CANDIDO SOARES",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "07046094000189",
+    "nome": "ELYON SOLUCOES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 20,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 132849.01
+   },
+   {
+    "cnpj": "01750650000117",
+    "nome": "MAZZ DESIGN E COMUNICACAO VISUAL LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "11606199000112",
+    "nome": "SANTO, BORGES, SENA SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "04105606000142",
+    "nome": "PRINT MIXX COMERCIO DE CONFECCAO E COMUNICACAO VISUAL LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 34980.0
+   },
+   {
+    "cnpj": "42621762000155",
+    "nome": "MM2B SERVICOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 32500.0
+   },
+   {
+    "cnpj": "61997755000105",
+    "nome": "VALLILO GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 18,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20333.27
+   },
+   {
+    "cnpj": "29932187000143",
+    "nome": "GILSON LOPES MORAES",
+    "cnae": "47890",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4251.16
+   },
+   {
+    "cnpj": "96498647000164",
+    "nome": "SINDICATO DOS TRABALHADORES NAS IND.DA C.CIVIL OSASCO",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "03605072000150",
+    "nome": "TEMPO SOLUCOES GRAFICAS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2640.0
+   },
+   {
+    "cnpj": "34276520000143",
+    "nome": "ZIULOSCAR GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1002.94
+   },
+   {
+    "cnpj": "52341865000115",
+    "nome": "CMG COMPANY LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 640.0
+   },
+   {
+    "cnpj": "48112374000125",
+    "nome": "BALDO ARTES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros",
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 367.56
+   },
+   {
+    "cnpj": "50981315000135",
+    "nome": "SINDICATO DOS TRABALHADORES DA INDUSTRIA GRAFICA, DA COMUNICACAO GRAFICA E DOS SERVICOS GRAFICOS DE CAJAMAR, JUNDIAI, VINHEDO E REGIAO",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 300.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 28,
+   "total": 109036.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 44500.0,
+    "Despesas com pessoal": 18500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 36.5,
+    "Locação/cessão de bens imóveis": 6000.0,
+    "Serviços prestados por terceiros": 40000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

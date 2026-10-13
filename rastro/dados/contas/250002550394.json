@@ -1,0 +1,276 @@
+{
+ "sq": "250002550394",
+ "nome_urna": "PAULO SERRA",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PSDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1438491.0,
+  "por_origem": {
+   "Recursos de partido político": 1414491.0,
+   "Recursos de pessoas físicas": 13000.0,
+   "Recursos próprios": 11000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1410000.0,
+   "OUTROS RECURSOS": 28491.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "03653474000120",
+    "nome": "Direção Nacional - PSDB",
+    "total": 1410000.0
+   },
+   {
+    "cnpj": "01464897000177",
+    "nome": "Direção Municipal/Comissão Provisória - PSDB - SANTO ANDRÉ - SP",
+    "total": 4491.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 24000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1218884.92,
+  "total_pago": 1223974.39,
+  "fornecedores_pj": [
+   {
+    "cnpj": "07496162000101",
+    "nome": "FERA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 23,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 299188.8
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 9,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 286000.0
+   },
+   {
+    "cnpj": "09383641000147",
+    "nome": "F.A.R.O PROPAGANDA E PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 210000.0
+   },
+   {
+    "cnpj": "31504292000123",
+    "nome": "LIFT LIVE MARKETING LIMITADA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 210000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 33800.0
+   },
+   {
+    "cnpj": "01848486000185",
+    "nome": "MULTCONT - PRESTACAO DE SERVICOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "10761012000273",
+    "nome": "CALLADO, PETRIN, PAES E CEZAR ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "33486174000165",
+    "nome": "PD SERVICOS PROPAGANDA PUBLICIDADE E MARKETING LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "28169107000187",
+    "nome": "GBM PARKING E SERVICOS EMPRESARIAIS LTDA",
+    "cnae": "52231",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "57510760000166",
+    "nome": "CLUBE ATLETICO ARAMACAN",
+    "cnae": "93123",
+    "n_despesas": 4,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 19957.2
+   },
+   {
+    "cnpj": "03623639000111",
+    "nome": "IMAGE COLOR EDITORA E SERVICOS LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15840.0
+   },
+   {
+    "cnpj": "14027289000147",
+    "nome": "AUTO POSTO ARTUR DE QUEIROS LTDA",
+    "cnae": "47318",
+    "n_despesas": 75,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 13690.79
+   },
+   {
+    "cnpj": "53712402000185",
+    "nome": "CASA DE PORTUGAL DO GRANDE ABC",
+    "cnae": "94308",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 11800.0
+   },
+   {
+    "cnpj": "56868593000167",
+    "nome": "L O DIVULGACOES PROPAGANDA UNIPESSOAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6363.63
+   },
+   {
+    "cnpj": "23878661000110",
+    "nome": "PAULO OSEAS ROCHA CHACON",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3270.0
+   },
+   {
+    "cnpj": "01743084000116",
+    "nome": "EDITORA GRUPO GERENCIA LIMITADA",
+    "cnae": "58239",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "57541377000175",
+    "nome": "DIARIO DO GRANDE ABC SA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1794.0
+   },
+   {
+    "cnpj": "00225464000104",
+    "nome": "ABC PRINT EMBALAGENS LTDA",
+    "cnae": "17320",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1740.0
+   },
+   {
+    "cnpj": "06141809000110",
+    "nome": "ABC REPORTER EMPRESA JORNALISTICA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1700.0
+   },
+   {
+    "cnpj": "15233201000106",
+    "nome": "UNICK EMPRESA JORNALISTICA LTDA",
+    "cnae": "58131",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "04007656000197",
+    "nome": "GET SERVICOS DE IMPRESSAO E ACABAMENTOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 930.0
+   },
+   {
+    "cnpj": "48862528000104",
+    "nome": "UNIAO VILA SA FUTEBOL CLUBE",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 4010.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 10.5,
+    "Serviços próprios prestados por terceiros": 4000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,169 @@
+{
+ "sq": "10002538358",
+ "nome_urna": "PERPÉTUA ALMEIDA",
+ "cargo": "depfed",
+ "uf": "AC",
+ "partido": "PCDOB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2557740.0,
+  "por_origem": {
+   "Recursos de partido político": 2473740.0,
+   "Recursos de pessoas físicas": 84000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2269740.0,
+   "FUNDO PARTIDARIO": 204000.0,
+   "OUTROS RECURSOS": 84000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "54956495000156",
+    "nome": "Direção Nacional - PCDOB",
+    "total": 2469740.0
+   },
+   {
+    "cnpj": "71585319000174",
+    "nome": "Direção Estadual/Distrital - PCDOB - ACRE",
+    "total": 4000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 84000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 499619.5,
+  "total_pago": 434986.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "20664526000183",
+    "nome": "CASTRO MELO ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 90280.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 33000.0
+   },
+   {
+    "cnpj": "66688894000162",
+    "nome": "66.688.894 ALEX SANDRO DE ALMEIDA LIMA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19200.0
+   },
+   {
+    "cnpj": "42730299000180",
+    "nome": "POSTO BEM TE VI 10 LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 13000.0
+   },
+   {
+    "cnpj": "33448253000181",
+    "nome": "JSO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 11500.0
+   },
+   {
+    "cnpj": "16572809000128",
+    "nome": "O. J. DE S. OLIVEIRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "35130975000119",
+    "nome": "F S SANTANA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "24773795000139",
+    "nome": "R. A. R. DA SILVA",
+    "cnae": "45307",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "63604631000130",
+    "nome": "POSTO RI LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5425.0
+   },
+   {
+    "cnpj": "50486669000103",
+    "nome": "J R A DA SILVA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "62303837000167",
+    "nome": "62.303.837 MARIANO BRANDAO DE BRITO JUNIOR",
+    "cnae": "43223",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 28,
+   "total": 293714.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 10700.0,
+    "Cessão ou locação de veículos": 75000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 14.5,
+    "Locação/cessão de bens imóveis": 12000.0,
+    "Serviços prestados por terceiros": 188000.0,
+    "Serviços próprios prestados por terceiros": 8000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

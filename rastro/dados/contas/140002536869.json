@@ -1,0 +1,200 @@
+{
+ "sq": "140002536869",
+ "nome_urna": "GUSTAVO SEFER",
+ "cargo": "depest",
+ "uf": "PA",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 813170.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 1000.0,
+   "Recursos de pessoas físicas": 687170.0,
+   "Recursos próprios": 125000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 813170.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68379736000156",
+    "nome": "JAIR LOPES MARTINS",
+    "total": 1000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 30,
+   "total": 812170.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 362572.12,
+  "total_pago": 590766.78,
+  "fornecedores_pj": [
+   {
+    "cnpj": "06180439000120",
+    "nome": "AEROTOP TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 115000.0
+   },
+   {
+    "cnpj": "17940670000190",
+    "nome": "C. KZAN",
+    "cnae": "18130",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 62300.0
+   },
+   {
+    "cnpj": "00805055000179",
+    "nome": "CONSULT-ESCRITORIO DE CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "10888742000159",
+    "nome": "I L CAMPOS SERVICOS POSTAIS LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 27974.85
+   },
+   {
+    "cnpj": "25098903000188",
+    "nome": "SATURNO CONSULTORIA EM PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 22300.0
+   },
+   {
+    "cnpj": "83357046000190",
+    "nome": "BRAN CAR VEICULOS LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 16600.0
+   },
+   {
+    "cnpj": "52356552000130",
+    "nome": "52.356.552 DAVI DA SILVA FIGUEIREDO",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 15048.0
+   },
+   {
+    "cnpj": "24947034000156",
+    "nome": "SGR CAPITAL LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "32985017000131",
+    "nome": "PROSPER TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "23776323000177",
+    "nome": "SOS AGENCIA DE VIAGENS E PASSAGENS AEREAS LTDA",
+    "cnae": "79112",
+    "n_despesas": 5,
+    "tipos": [
+     "Passagem Aérea"
+    ],
+    "total": 9390.47
+   },
+   {
+    "cnpj": "59240022000171",
+    "nome": "AIRPLANE TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 8500.0
+   },
+   {
+    "cnpj": "05286979000120",
+    "nome": "J. PAIVA FERREIRA JUNIOR",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7125.0
+   },
+   {
+    "cnpj": "51111135000165",
+    "nome": "SUPER ESTAMPAS SERVICOS E COMERCIO LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "29982883000164",
+    "nome": "POSTO L K S NOVELINO LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4383.8
+   },
+   {
+    "cnpj": "07468274000159",
+    "nome": "CARMEM LUCIA DOS SANTOS",
+    "cnae": "14118",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1150.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 11800.0,
+   "por_tipo": {
+    "Locação/cessão de bens imóveis": 1800.0,
+    "Serviços advocatícios": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

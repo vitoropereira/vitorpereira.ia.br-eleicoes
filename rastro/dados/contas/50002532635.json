@@ -1,0 +1,330 @@
+{
+ "sq": "50002532635",
+ "nome_urna": "CHARLES FERNANDES",
+ "cargo": "depfed",
+ "uf": "BA",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2473525.0,
+  "por_origem": {
+   "Recursos de partido político": 2170000.0,
+   "Recursos de pessoas físicas": 303525.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2000000.0,
+   "OUTROS RECURSOS": 473525.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 2000000.0
+   },
+   {
+    "cnpj": "14894130000120",
+    "nome": "Direção Estadual/Distrital - PSD - BAHIA",
+    "total": 170000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 303525.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2127095.65,
+  "total_pago": 599347.89,
+  "fornecedores_pj": [
+   {
+    "cnpj": "48369608000114",
+    "nome": "ROMULO GONCALVES BEZERRA LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 350000.0
+   },
+   {
+    "cnpj": "23273953000129",
+    "nome": "LOBO COMUNICACAO VISUAL PUBLICIDADE LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 52350.0
+   },
+   {
+    "cnpj": "12990853000369",
+    "nome": "DIOGENES GUIMARAES DE SOUZA",
+    "cnae": "10961",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 47453.6
+   },
+   {
+    "cnpj": "10413100000101",
+    "nome": "FUJIGRAF INDUSTRIA GRAFICA LTDA",
+    "cnae": "58298",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 44632.0
+   },
+   {
+    "cnpj": "14445373000180",
+    "nome": "POSTO GUARUJA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 43665.61
+   },
+   {
+    "cnpj": "09371175000180",
+    "nome": "JNGD COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17317.5
+   },
+   {
+    "cnpj": "03701149000196",
+    "nome": "TRANSPORTADORA LC LTDA.",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "34028316000537",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 12509.2
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "59109774000106",
+    "nome": "59.109.774 FERNANDO ROQUE BENEVIDES",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "10757087000108",
+    "nome": "AUTO POSTO MV LTDA.",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 8223.0
+   },
+   {
+    "cnpj": "12098995000154",
+    "nome": "AUTO POSTO DR LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5626.25
+   },
+   {
+    "cnpj": "13756234000105",
+    "nome": "POSTO DE GASOLINA W3 LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3399.57
+   },
+   {
+    "cnpj": "40584369000103",
+    "nome": "RAVENA AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3068.68
+   },
+   {
+    "cnpj": "11546822000199",
+    "nome": "FLORES E COTRIM LTDA",
+    "cnae": "47237",
+    "n_despesas": 3,
+    "tipos": [
+     "Água"
+    ],
+    "total": 2691.0
+   },
+   {
+    "cnpj": "09102109000104",
+    "nome": "ALVOMAC MATERIAIS PARA CONSTRUCOES LTDA",
+    "cnae": "47440",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2515.0
+   },
+   {
+    "cnpj": "37099622000129",
+    "nome": "DIEGO SILVA LOPES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2450.0
+   },
+   {
+    "cnpj": "03446018000100",
+    "nome": "FRAGA PANIFICACAO LTDA.",
+    "cnae": "47211",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2358.75
+   },
+   {
+    "cnpj": "62604625000110",
+    "nome": "REDE LP COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2256.78
+   },
+   {
+    "cnpj": "04422167000100",
+    "nome": "INDUSTRIAL GRAPHICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1990.0
+   },
+   {
+    "cnpj": "02323721000168",
+    "nome": "FABRICATTO INDUSTRIA E COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "10356914000143",
+    "nome": "AUTO POSTO BAKANA COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 775.95
+   },
+   {
+    "cnpj": "00732700000170",
+    "nome": "GRAFICA GRAMATOS LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 720.0
+   },
+   {
+    "cnpj": "11976094000155",
+    "nome": "OSVALDO TEIXEIRA DE AZEVEDO E CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 626.87
+   },
+   {
+    "cnpj": "51292009000154",
+    "nome": "ANDRADE BRITO POSTO DE COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 432.0
+   },
+   {
+    "cnpj": "11964689000190",
+    "nome": "ELIEL COTRIM PASSOS",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "13253749000192",
+    "nome": "ISAAC CONSTRUCOES LTDA",
+    "cnae": "47415",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 14.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 493,
+   "total": 1485719.89,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 329000.0,
+    "Despesas com pessoal": 965927.29,
+    "Diversas a especificar": 4250.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 42.6,
+    "Locação/cessão de bens imóveis": 1500.0,
+    "Serviços advocatícios": 80000.0,
+    "Serviços contábeis": 80000.0,
+    "Serviços prestados por terceiros": 25000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

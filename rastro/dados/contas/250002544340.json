@@ -1,0 +1,161 @@
+{
+ "sq": "250002544340",
+ "nome_urna": "RENATA ABREU",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3177097.35,
+  "por_origem": {
+   "Recursos de partido político": 2500000.0,
+   "Recursos de pessoas físicas": 677097.35
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2500000.0,
+   "OUTROS RECURSOS": 677097.35
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 2500000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 40,
+   "total": 677097.35
+  }
+ },
+ "despesas": {
+  "total_contratado": 945334.85,
+  "total_pago": 802088.35,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 10,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 380000.0
+   },
+   {
+    "cnpj": "27142686000101",
+    "nome": "MUNICIPIO DE ALFREDO CHAVES",
+    "cnae": "84116",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "62315365000162",
+    "nome": "YOUNG LTDA",
+    "cnae": "74102",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "26593253000100",
+    "nome": "LEV360 PRODUCOES E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 48850.0
+   },
+   {
+    "cnpj": "03823768000153",
+    "nome": "TOM MAIOR ESPETACULOS E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 42467.2
+   },
+   {
+    "cnpj": "17407838000105",
+    "nome": "BISSOLI SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "07211925000120",
+    "nome": "VERBO COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "53103933000170",
+    "nome": "GALACTICA PROCESSAMENTO E ASSESSORIA CONTABIL",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "11506306000130",
+    "nome": "RP LIGHTING LOCACAO E ILUMINACAO LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "31534083000122",
+    "nome": "MARCO AURELIO SOUSA DIAS",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1117.45
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 72,
+   "total": 245900.2,
+   "por_tipo": {
+    "Despesas com pessoal": 216600.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 50.2,
+    "Locação/cessão de bens imóveis": 18250.0,
+    "Locação/cessão de bens móveis (exceto veículos)": 11000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

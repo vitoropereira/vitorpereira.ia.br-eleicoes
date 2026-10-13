@@ -1,0 +1,78 @@
+{
+ "sq": "20002548091",
+ "nome_urna": "REMI CALHEIROS",
+ "cargo": "depest",
+ "uf": "AL",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 115000.0,
+  "por_origem": {
+   "Recursos de partido político": 100000.0,
+   "Recursos de pessoas físicas": 15000.0
+  },
+  "por_fonte": {
+   "FUNDO PARTIDARIO": 100000.0,
+   "OUTROS RECURSOS": 15000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01308052000192",
+    "nome": "Direção Estadual/Distrital - MDB - ALAGOAS",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 15000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 42675.0,
+  "total_pago": 0.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "11053706000138",
+    "nome": "DALLETY DOS S CAVALVANTE LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 23750.0
+   },
+   {
+    "cnpj": "11355874000188",
+    "nome": "INFINNI SERVICOS E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2625.0
+   },
+   {
+    "cnpj": "00887925000104",
+    "nome": "GRAFMARQUES INDUSTRIA EDITORA E SERVICOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1300.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 15000.0,
+   "por_tipo": {
+    "Serviços contábeis": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

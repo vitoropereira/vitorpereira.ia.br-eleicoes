@@ -1,0 +1,249 @@
+{
+ "sq": "150002538457",
+ "nome_urna": "CABO GILBERTO SILVA",
+ "cargo": "depfed",
+ "uf": "PB",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2630885.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 5885.0,
+   "Recursos de partido político": 2500000.0,
+   "Recursos de pessoas físicas": 70000.0,
+   "Recursos próprios": 55000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2505885.0,
+   "OUTROS RECURSOS": 125000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2500000.0
+   },
+   {
+    "cnpj": "68430616000136",
+    "nome": "MARCELO ANTONIO CARTAXO QUEIROGA LOPES",
+    "total": 5885.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 10,
+   "total": 125000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2032748.67,
+  "total_pago": 2222067.03,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 12,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 203000.0
+   },
+   {
+    "cnpj": "37589804000188",
+    "nome": "NILDO NUNES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 190000.0
+   },
+   {
+    "cnpj": "49189777000135",
+    "nome": "KLEBER FALCAO BOUDOUX JUNIOR",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "64254673000150",
+    "nome": "PRESTCONTA - CONTABILIDADE ELEITORAL E PARTIDARIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "25215800000150",
+    "nome": "GEM PRINT COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 136000.0
+   },
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 135000.0
+   },
+   {
+    "cnpj": "52932641000188",
+    "nome": "AGENCIA DE SERVICOS CACTOS LTDA.",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 73600.0
+   },
+   {
+    "cnpj": "08325394000160",
+    "nome": "W C A - GESTAO EMPRESARIAL LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 68000.0
+   },
+   {
+    "cnpj": "47333134000198",
+    "nome": "OPINIAO PESQUISAS QUANTITATIVAS E MARKETING LTDA",
+    "cnae": "73203",
+    "n_despesas": 2,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 42000.0
+   },
+   {
+    "cnpj": "17273891000152",
+    "nome": "LOKVANS TURISMO RECEPTIVO SERVICOS LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 29900.0
+   },
+   {
+    "cnpj": "25160265000188",
+    "nome": "DIONES MENESES DA SILVA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "48456256000134",
+    "nome": "48.456.256 MARIA CELIA FELICIANO DE ARAUJO DOS SANTOS",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "19495212000115",
+    "nome": "JOANA ANGELICA ARAUJO DOS SANTOS",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 3775.0
+   },
+   {
+    "cnpj": "56426853000144",
+    "nome": "56.426.853 MARIA RAQUEL ARAUJO BEZERRA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 3260.0
+   },
+   {
+    "cnpj": "08240660000151",
+    "nome": "AUTO POSTO DE COMBUSTIVEIS FREEWAY LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3055.17
+   },
+   {
+    "cnpj": "60529326000132",
+    "nome": "60.529.326 EMMANUEL BRITO BATISTA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2394.0
+   },
+   {
+    "cnpj": "19220711000108",
+    "nome": "19.220.711 MARIA EDILEUZA GOMES",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2375.0
+   },
+   {
+    "cnpj": "59947232000102",
+    "nome": "HOTDOG DO MONACI LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2125.0
+   },
+   {
+    "cnpj": "05483878000149",
+    "nome": "POSTO NOBERTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 272,
+   "total": 803764.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 714354.0,
+    "Cessão ou locação de veículos": 52450.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 260.5,
+    "Serviços prestados por terceiros": 36700.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

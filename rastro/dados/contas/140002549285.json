@@ -1,0 +1,151 @@
+{
+ "sq": "140002549285",
+ "nome_urna": "MARIZA ALMEIDA",
+ "cargo": "depest",
+ "uf": "PA",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 600000.0,
+  "por_origem": {
+   "Recursos de partido político": 600000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 600000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 600000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 348963.5,
+  "total_pago": 0.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "50178421000185",
+    "nome": "50.178.421 HIANES DE SOUZA LIMA",
+    "cnae": "74200",
+    "n_despesas": 3,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 46000.0
+   },
+   {
+    "cnpj": "33823061000108",
+    "nome": "LISTAPA BRASIL ATIVIDADE DE INTERNET LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "20111774000105",
+    "nome": "R A DE SOUSA COMUNICACAO VISUAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "23331485000100",
+    "nome": "L.P DA CUNHA COMUNICACAO VISUAL E PRODUCOES LTDA",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27500.0
+   },
+   {
+    "cnpj": "68441056000115",
+    "nome": "68.441.056 HUGO LIMA DOS SANTOS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "51579247000145",
+    "nome": "51.579.247 MAURICIO RIBEIRO DOS SANTOS CORDEIRO",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 6800.0
+   },
+   {
+    "cnpj": "13975443000140",
+    "nome": "M T S EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "26669002000161",
+    "nome": "GRAFICA E EDITORA RAMOS LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1054.5
+   },
+   {
+    "cnpj": "54991204000160",
+    "nome": "54.991.204 JESSE CURSINO RIBEIRO",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 550.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QUEROAPOIAR.COM.BR LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 349.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 9,
+   "total": 164210.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 80000.0,
+    "Locação/cessão de bens imóveis": 16210.0,
+    "Serviços advocatícios": 2000.0,
+    "Serviços contábeis": 6000.0,
+    "Serviços prestados por terceiros": 60000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

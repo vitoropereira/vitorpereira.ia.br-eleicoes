@@ -1,0 +1,195 @@
+{
+ "sq": "270002548456",
+ "nome_urna": "VANDA MONTEIRO",
+ "cargo": "depest",
+ "uf": "TO",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 680996.68,
+  "por_origem": {
+   "Recursos de outros candidatos": 3240.57,
+   "Recursos de partido político": 616756.11,
+   "Recursos de pessoas físicas": 12000.0,
+   "Recursos próprios": 49000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 402486.17,
+   "FUNDO PARTIDARIO": 203631.11,
+   "OUTROS RECURSOS": 74879.4
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 500000.0
+   },
+   {
+    "cnpj": "45877002000100",
+    "nome": "Direção Estadual/Distrital - UNIÃO - TOCANTINS",
+    "total": 101111.11
+   },
+   {
+    "cnpj": "08738595000199",
+    "nome": "Direção Estadual/Distrital - PL - TOCANTINS",
+    "total": 15645.0
+   },
+   {
+    "cnpj": "68492195000178",
+    "nome": "MARIA AUXILIADORA SEABRA REZENDE",
+    "total": 2486.17
+   },
+   {
+    "cnpj": "68527002000177",
+    "nome": "FABIO PEREIRA VAZ",
+    "total": 754.4
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 61000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 277216.99,
+  "total_pago": 265760.76,
+  "fornecedores_pj": [
+   {
+    "cnpj": "28910844000199",
+    "nome": "EXPERTISE CONTABILIDADE S/S LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "41745347000140",
+    "nome": "LEANDRO GOMES DE MELO - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "49628929000159",
+    "nome": "MENTES DIGITAIS LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "36005565000109",
+    "nome": "B DE S NONATO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22032.0
+   },
+   {
+    "cnpj": "52658392000184",
+    "nome": "52.658.392 MAURO RODRIGUES BRAGA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "49193222000167",
+    "nome": "ALMEIDA LOCACAO DE GUINDASTES LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 19000.0
+   },
+   {
+    "cnpj": "05742553000133",
+    "nome": "GRAFICA OFICIO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8500.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "41002276000196",
+    "nome": "APICE MIDIA COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4534.49
+   },
+   {
+    "cnpj": "24188975000153",
+    "nome": "SUPREMA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3040.0
+   },
+   {
+    "cnpj": "14177767000286",
+    "nome": "POSTO VASCONCELOS COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "26919416000100",
+    "nome": "SILVANO DE SOUSA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 17,
+   "total": 57110.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 29500.0,
+    "Despesas com pessoal": 25000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 10.5,
+    "Locação/cessão de bens imóveis": 2600.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

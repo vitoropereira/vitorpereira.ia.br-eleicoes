@@ -1,0 +1,197 @@
+{
+ "sq": "120002536072",
+ "nome_urna": "MARCIO FERNANDES",
+ "cargo": "depest",
+ "uf": "MS",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1004020.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 3400.0,
+   "Recursos de partido político": 1000620.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1000000.0,
+   "FUNDO PARTIDARIO": 620.0,
+   "OUTROS RECURSOS": 3400.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "68430074000100",
+    "nome": "DAGOBERTO NOGUEIRA FILHO",
+    "total": 3400.0
+   },
+   {
+    "cnpj": "09002846000135",
+    "nome": "Direção Estadual/Distrital - PL - MATO GROSSO DO SUL",
+    "total": 620.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 875798.31,
+  "total_pago": 825050.72,
+  "fornecedores_pj": [
+   {
+    "cnpj": "32829739000105",
+    "nome": "BARBOSA MILAN SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 65000.0
+   },
+   {
+    "cnpj": "00457496000127",
+    "nome": "CLIPP COMUNICACAO LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "04344283000140",
+    "nome": "ARTPRINT COMUNICACAO VISUAL LTDA.",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 43175.0
+   },
+   {
+    "cnpj": "16368168000194",
+    "nome": "A N FERZELI NEGOCIOS IMOBILIARIOS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 32439.28
+   },
+   {
+    "cnpj": "11275814000155",
+    "nome": "PROATIVA INFORMATICA LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 20890.65
+   },
+   {
+    "cnpj": "05673485000106",
+    "nome": "J. M. F. DOS REIS COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15450.0
+   },
+   {
+    "cnpj": "54027580000130",
+    "nome": "54.027.580 RUTE MIRELLI SOARES OLIVEIRA",
+    "cnae": "59120",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "46631696000155",
+    "nome": "PHM FILMES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "28411327000175",
+    "nome": "BAZAR DAS EMBALAGENS COMERCIO E LOCACAO LTDA",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1121.88
+   },
+   {
+    "cnpj": "08726196000108",
+    "nome": "RPR CRIACOES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 862.5
+   },
+   {
+    "cnpj": "30713615000126",
+    "nome": "PHABLO DYONE VIDAL BELO",
+    "cnae": "90027",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "57825921000100",
+    "nome": "TRATTO COMUNICACAO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 275.0
+   },
+   {
+    "cnpj": "00163202000154",
+    "nome": "J R FERNANDES CIA LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 24.2
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 297,
+   "total": 621759.8,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 45400.0,
+    "Despesas com pessoal": 480200.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 193.8,
+    "Locação/cessão de bens imóveis": 650.0,
+    "Produção de jingles, vinhetas e slogans": 2000.0,
+    "Serviços contábeis": 55000.0,
+    "Serviços prestados por terceiros": 38316.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

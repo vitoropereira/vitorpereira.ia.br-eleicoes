@@ -1,0 +1,112 @@
+{
+ "sq": "70002550322",
+ "nome_urna": "ALBERTO FRAGA",
+ "cargo": "depfed",
+ "uf": "DF",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3327600.0,
+  "por_origem": {
+   "Recursos de partido político": 3100000.0,
+   "Recursos de pessoas físicas": 27600.0,
+   "Recursos próprios": 200000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3100000.0,
+   "OUTROS RECURSOS": 227600.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 8,
+   "total": 227600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1439551.5,
+  "total_pago": 1046701.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 546499.0
+   },
+   {
+    "cnpj": "58166365000170",
+    "nome": "PERSONALIZE SOLUCOES LTDA",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 114750.0
+   },
+   {
+    "cnpj": "68745740000190",
+    "nome": "BSB SPORTS E IMPRESSOS LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 67500.0
+   },
+   {
+    "cnpj": "31422968000130",
+    "nome": "QUALIGRAFF TEAM BSB LTDA",
+    "cnae": "18211",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 38500.0
+   },
+   {
+    "cnpj": "00306597000105",
+    "nome": "CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "37992868000125",
+    "nome": "LUPA ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 324,
+   "total": 637302.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 610300.0,
+    "Cessão ou locação de veículos": 27000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

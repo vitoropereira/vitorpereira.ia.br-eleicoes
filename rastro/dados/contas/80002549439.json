@@ -1,0 +1,177 @@
+{
+ "sq": "80002549439",
+ "nome_urna": "ADILSON ESPINDULA",
+ "cargo": "depest",
+ "uf": "ES",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 371336.13,
+  "por_origem": {
+   "Recursos de outros candidatos": 19776.0,
+   "Recursos de partido político": 300000.0,
+   "Recursos de pessoas físicas": 26560.13,
+   "Recursos próprios": 25000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 318140.0,
+   "OUTROS RECURSOS": 53196.13
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 300000.0
+   },
+   {
+    "cnpj": "68465043000186",
+    "nome": "JOSIAS MARIO DA VITORIA",
+    "total": 18140.0
+   },
+   {
+    "cnpj": "68344957000199",
+    "nome": "GILSON DANIEL BATISTA",
+    "total": 1480.0
+   },
+   {
+    "cnpj": "68461691000164",
+    "nome": "MARIA EMANUELA ALVES PEDROSO",
+    "total": 156.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 51560.13
+  }
+ },
+ "despesas": {
+  "total_contratado": 216569.53,
+  "total_pago": 272104.53,
+  "fornecedores_pj": [
+   {
+    "cnpj": "30685622000161",
+    "nome": "GRAFICA E EDITORA FOLLADOR LTDA",
+    "cnae": "18121",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 40805.0
+   },
+   {
+    "cnpj": "26641786000110",
+    "nome": "MARCELO NUNES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "08725209000124",
+    "nome": "MASTER PLAC COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 11600.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 7700.0
+   },
+   {
+    "cnpj": "08147922000138",
+    "nome": "ROCHA LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6663.7
+   },
+   {
+    "cnpj": "37826380000128",
+    "nome": "MORED ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 5800.0
+   },
+   {
+    "cnpj": "08650511000160",
+    "nome": "N C SERVICOS DE ASSESSORIA E COMUNICACAO LTDA",
+    "cnae": "63992",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "31483241000162",
+    "nome": "AUTO POSTO MARTINENSE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1182.17
+   },
+   {
+    "cnpj": "30564280000121",
+    "nome": "UNI POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1115.07
+   },
+   {
+    "cnpj": "08581195000201",
+    "nome": "POSTO RIOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 963.59
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 59,
+   "total": 111240.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 91440.0,
+    "Cessão ou locação de veículos": 5000.0,
+    "Despesas com pessoal": 14800.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

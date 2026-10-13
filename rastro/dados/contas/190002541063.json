@@ -1,0 +1,76 @@
+{
+ "sq": "190002541063",
+ "nome_urna": "BEBETO",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3000000.0,
+  "por_origem": {
+   "Recursos de partido político": 3000000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3000000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 3000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 233950.91,
+  "total_pago": 101051.46,
+  "fornecedores_pj": [
+   {
+    "cnpj": "08243128000198",
+    "nome": "NEGUINHO DA BEIJA FLOR PRODUCOES E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "00861331000116",
+    "nome": "DANIEL MOTTA VALADAO",
+    "cnae": "74200",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22900.0
+   },
+   {
+    "cnpj": "68082385000117",
+    "nome": "MAXSIGN SINALIZACOES INDUSTRIAIS E OFFSHORE LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 608.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 59,
+   "total": 180442.91,
+   "por_tipo": {
+    "Despesas com pessoal": 180442.91
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

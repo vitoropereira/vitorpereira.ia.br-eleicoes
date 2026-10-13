@@ -1,0 +1,199 @@
+{
+ "sq": "170002540355",
+ "nome_urna": "ANTONIO MORAES",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 572470.0,
+  "por_origem": {
+   "Recursos de partido político": 200000.0,
+   "Recursos de pessoas físicas": 252470.0,
+   "Recursos próprios": 120000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "OUTROS RECURSOS": 372470.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 200000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 39,
+   "total": 372470.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 296700.0,
+  "total_pago": 358879.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "00758606000190",
+    "nome": "MXM GRAFICA E EMBALAGENS LTDA",
+    "cnae": "17311",
+    "n_despesas": 16,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 84450.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "04936503000124",
+    "nome": "IRACILDA DE FIGUEIREDO SOUZA",
+    "cnae": "49302",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 35800.0
+   },
+   {
+    "cnpj": "03654469000132",
+    "nome": "BUREAU DE IMAGENS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25368.0
+   },
+   {
+    "cnpj": "65344873000167",
+    "nome": "MALHARIA SANTA MARIA LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "10687226000166",
+    "nome": "TRANSPORTADORA ITAMARACA LTDA",
+    "cnae": "49213",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "19274072000155",
+    "nome": "JULIERME BARBOSA XAVIER",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "61804018000130",
+    "nome": "PAULO GOMES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "51772470000104",
+    "nome": "INSTITUTO DATATRENDS LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "52931392000106",
+    "nome": "GWVS FOTOGRAFIA E PRODUCOES CULTURAIS LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 8890.0
+   },
+   {
+    "cnpj": "40495477000100",
+    "nome": "DJ COMUNICACAO E PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6552.0
+   },
+   {
+    "cnpj": "24347979000137",
+    "nome": "MACIEL ART DESIGNER GRAFICO - LTDA",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4350.0
+   },
+   {
+    "cnpj": "09165297000110",
+    "nome": "ELIELSON DE ALBUQUERQUE LEMOS CIA LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "33486159000117",
+    "nome": "CAMILLO J L MOUTINHO",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 550.0
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 0,
+   "total": 0.0,
+   "por_tipo": {}
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

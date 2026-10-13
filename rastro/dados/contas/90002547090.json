@@ -1,0 +1,140 @@
+{
+ "sq": "90002547090",
+ "nome_urna": "RUBENS MARQUES",
+ "cargo": "depest",
+ "uf": "GO",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 367755.8,
+  "por_origem": {
+   "Recursos de outros candidatos": 203255.8,
+   "Recursos de pessoas físicas": 37500.0,
+   "Recursos próprios": 127000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 93255.8,
+   "OUTROS RECURSOS": 274500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68518748000114",
+    "nome": "AAVA SANTIAGO AGUIAR",
+    "total": 203255.8
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 164500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 60963.5,
+  "total_pago": 81951.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "48583631000107",
+    "nome": "COOPGRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "01732140000117",
+    "nome": "MW - AUDITORIA E CONSULTORIA SS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "54053029000160",
+    "nome": "54.053.029 EUCLIDES PIMENTA DE CASTRO",
+    "cnae": "63992",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "00293829000120",
+    "nome": "J. VIRGILIO IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "26713715000185",
+    "nome": "ROMANO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "03396403000190",
+    "nome": "CIRGRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3900.0
+   },
+   {
+    "cnpj": "55593464000140",
+    "nome": "55.593.464 LUCIMARA MARCELA GOMES DE OLIVEIRA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2980.0
+   },
+   {
+    "cnpj": "42127410000148",
+    "nome": "JMP COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "57498153000128",
+    "nome": "APLIC IND E COM DE ETIQUETAS ADESIVOS E EMBALAGENS LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1080.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 4,
+   "total": 4503.5,
+   "por_tipo": {
+    "Despesas com pessoal": 4500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

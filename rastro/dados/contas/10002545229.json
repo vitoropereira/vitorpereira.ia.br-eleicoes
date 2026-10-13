@@ -1,0 +1,187 @@
+{
+ "sq": "10002545229",
+ "nome_urna": "ZÉ ADRIANO",
+ "cargo": "depfed",
+ "uf": "AC",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2000000.0,
+  "por_origem": {
+   "Recursos de partido político": 2000000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2000000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 2000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 811995.5,
+  "total_pago": 903786.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "02035162000190",
+    "nome": "P L MARTINI",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 219150.0
+   },
+   {
+    "cnpj": "46602235000154",
+    "nome": "T H MOREIRA LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Criação e inclusão de páginas na internet",
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "57036913000185",
+    "nome": "SANDERSON SILVA MARIANO DE ALMEIDA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 170000.0
+   },
+   {
+    "cnpj": "07941947000146",
+    "nome": "J A COMUNICACAO VISUAL LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 87095.0
+   },
+   {
+    "cnpj": "48904369000155",
+    "nome": "REDE POSTO 7 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 32000.0
+   },
+   {
+    "cnpj": "28216063000107",
+    "nome": "AUTO POSTO ROSELLAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "33746960000154",
+    "nome": "AUTO POSTO DANTAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 18696.0
+   },
+   {
+    "cnpj": "11429349000160",
+    "nome": "AUTO POSTO RIO BRANCO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 17500.0
+   },
+   {
+    "cnpj": "31557591000126",
+    "nome": "VETOR AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "40586941000173",
+    "nome": "AUTO POSTO BOIADEIRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "13564484000143",
+    "nome": "AUTO POSTO RIBEIRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "02627538000156",
+    "nome": "AUTO POSTO PINHEIRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "04596169000107",
+    "nome": "AUTO POSTO PACIFICO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4302.0
+   },
+   {
+    "cnpj": "41875596000150",
+    "nome": "POSTO ROSELLAO II LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1750.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 2.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

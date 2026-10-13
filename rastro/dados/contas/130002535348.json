@@ -1,0 +1,166 @@
+{
+ "sq": "130002535348",
+ "nome_urna": "ULYSSES GOMES",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 821640.0,
+  "por_origem": {
+   "Recursos de partido político": 675440.0,
+   "Recursos de pessoas físicas": 131200.0,
+   "Recursos próprios": 15000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 250000.0,
+   "FUNDO PARTIDARIO": 15500.0,
+   "OUTROS RECURSOS": 556140.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 675440.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 146200.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 671063.5,
+  "total_pago": 447979.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 149900.0
+   },
+   {
+    "cnpj": "36450576000106",
+    "nome": "FGW EDUCACAO COMUNICACAO E CONSULTORIA LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "22317550000171",
+    "nome": "M DESIGNER CITY LTDA",
+    "cnae": "58115",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17860.0
+   },
+   {
+    "cnpj": "09264555000115",
+    "nome": "IMAGEM EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10200.0
+   },
+   {
+    "cnpj": "68060072000168",
+    "nome": "HELLEN CHRISTINE MANTUANI LEITE LOPES LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "07723260000134",
+    "nome": "ALICERCE EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 27,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7308.0
+   },
+   {
+    "cnpj": "11922756000104",
+    "nome": "JHONATHAN EMILIANO RODRIGUES",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 5400.0
+   },
+   {
+    "cnpj": "34159406000133",
+    "nome": "MG PRINT LTDA.",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "12990858000120",
+    "nome": "D A PRODUCOES LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2450.0
+   },
+   {
+    "cnpj": "26908119000150",
+    "nome": "NOVA R IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1260.0
+   },
+   {
+    "cnpj": "50419968000125",
+    "nome": "50.419.968 JANAINA PEREIRA GUIMARAES",
+    "cnae": "47431",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 510.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 181,
+   "total": 443675.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 182825.5,
+    "Cessão ou locação de veículos": 2000.0,
+    "Locação/cessão de bens imóveis": 6650.0,
+    "Serviços advocatícios": 10000.0,
+    "Serviços prestados por terceiros": 242200.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

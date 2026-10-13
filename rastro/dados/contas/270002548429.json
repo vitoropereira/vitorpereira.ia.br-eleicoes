@@ -1,0 +1,181 @@
+{
+ "sq": "270002548429",
+ "nome_urna": "MARCOS JUNIOR",
+ "cargo": "depest",
+ "uf": "TO",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 896805.9,
+  "por_origem": {
+   "Recursos de outros candidatos": 224581.06,
+   "Recursos de partido político": 24224.84,
+   "Recursos de pessoas físicas": 612000.0,
+   "Recursos próprios": 36000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 217000.0,
+   "FUNDO PARTIDARIO": 1504.34,
+   "OUTROS RECURSOS": 678301.56
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68526998000104",
+    "nome": "SANDOVAL LOBO CARDOSO",
+    "total": 217000.0
+   },
+   {
+    "cnpj": "08738595000199",
+    "nome": "Direção Estadual/Distrital - PL - TOCANTINS",
+    "total": 22720.5
+   },
+   {
+    "cnpj": "68492195000178",
+    "nome": "MARIA AUXILIADORA SEABRA REZENDE",
+    "total": 7581.06
+   },
+   {
+    "cnpj": "02658200000161",
+    "nome": "Direção Estadual/Distrital - PODE - TOCANTINS",
+    "total": 1504.34
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 17,
+   "total": 648000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 594607.03,
+  "total_pago": 480611.61,
+  "fornecedores_pj": [
+   {
+    "cnpj": "24906480000112",
+    "nome": "LAMPION AGENCIA DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 54000.0
+   },
+   {
+    "cnpj": "20591738000188",
+    "nome": "MANZANO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "26229045000126",
+    "nome": "GISELMA COELHO PEDROSA LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "28910844000199",
+    "nome": "EXPERTISE CONTABILIDADE S/S LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "09015122000126",
+    "nome": "GRAFICA E EDITORA SANTO EXPEDITO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22700.0
+   },
+   {
+    "cnpj": "07727594000186",
+    "nome": "NATALYA BRINDES LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "27489776000173",
+    "nome": "HIDROMETALICOS MINERACAO LTDA",
+    "cnae": "11216",
+    "n_despesas": 2,
+    "tipos": [
+     "Água"
+    ],
+    "total": 11200.0
+   },
+   {
+    "cnpj": "11649005000166",
+    "nome": "FLASH - COMUNICACAO VISUAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6500.0
+   },
+   {
+    "cnpj": "11604145000118",
+    "nome": "VERA E BORGES LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "97486534000101",
+    "nome": "MCM-COM DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 968.83
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 178,
+   "total": 194238.2,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 45900.0,
+    "Cessão ou locação de veículos": 35500.0,
+    "Despesas com pessoal": 102800.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 38.2,
+    "Locação/cessão de bens imóveis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

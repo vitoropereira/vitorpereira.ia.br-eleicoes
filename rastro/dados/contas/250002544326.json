@@ -1,0 +1,168 @@
+{
+ "sq": "250002544326",
+ "nome_urna": "FELIPE BECARI",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1645000.0,
+  "por_origem": {
+   "Recursos de partido político": 1645000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1645000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 1645000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 433428.5,
+  "total_pago": 0.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "11660014000158",
+    "nome": "DELMANTO CRISTALDI SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "34125673000190",
+    "nome": "AGENCIA LIBERO DIGITAL MARKETING E TREINAMENTO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "44279650000193",
+    "nome": "STILL LABS TECNOLOGIA LTDA",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 28025.0
+   },
+   {
+    "cnpj": "44293837000141",
+    "nome": "LUCAS SIQUEIRA MENDES",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "05690333000103",
+    "nome": "RP7 COMUNICACAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 9216.0
+   },
+   {
+    "cnpj": "00158540000106",
+    "nome": "COP BEM GRAFICA E EDITORA LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "56966394000191",
+    "nome": "MIMO ASSESSORIA LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "34654391000180",
+    "nome": "34.654.391 LUCAS NATHAN DE SOUSA SILVA",
+    "cnae": "53202",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com pessoal",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2300.0
+   },
+   {
+    "cnpj": "63681741000103",
+    "nome": "GIRO MORUMBI COMUNICACOES MIDIA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1673.0
+   },
+   {
+    "cnpj": "28726006000160",
+    "nome": "28.726.006 MARCOS PAULO DE NOVAIS ALVES SOUSA",
+    "cnae": "53202",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 770.0
+   },
+   {
+    "cnpj": "46827018000162",
+    "nome": "46.827.018 SUZETTE APARECIDA DA SILVA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 194.5
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 9,
+   "total": 56250.0,
+   "por_tipo": {
+    "Despesas com pessoal": 41250.0,
+    "Locação/cessão de bens imóveis": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,142 @@
+{
+ "sq": "140002549266",
+ "nome_urna": "TATI BARRA",
+ "cargo": "depest",
+ "uf": "PA",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1270000.0,
+  "por_origem": {
+   "Recursos de partido político": 1248000.0,
+   "Recursos próprios": 22000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 910000.0,
+   "FUNDO PARTIDARIO": 338000.0,
+   "OUTROS RECURSOS": 22000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1248000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 22000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 840722.1,
+  "total_pago": 824322.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 750000.0
+   },
+   {
+    "cnpj": "40225615000130",
+    "nome": "JOYO TECNOLOGIA BRASIL LTDA.",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "15287739000101",
+    "nome": "AL ESCRITORIO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "41100591000156",
+    "nome": "MOREIRA FILHO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "20979922000108",
+    "nome": "GRAFICA SEXTO SENTIDO LTDA",
+    "cnae": "58131",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9885.0
+   },
+   {
+    "cnpj": "15988569000184",
+    "nome": "IN PRIME SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "58938059000105",
+    "nome": "OPTIMIDIA ESTRATEGIAS DIGITAIS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "64090989000154",
+    "nome": "C B RIBEIRO COMERCIO E SERVICO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "64965655000187",
+    "nome": "64.965.655 FABRICIO DA SILVA MARTINS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 20,
+   "total": 26237.1,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 26199.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 38.1
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

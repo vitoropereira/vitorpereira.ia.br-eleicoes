@@ -1,0 +1,330 @@
+{
+ "sq": "250002535975",
+ "nome_urna": "EDUARDO CURY",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3091415.7,
+  "por_origem": {
+   "Recursos de partido político": 3010729.7,
+   "Recursos de pessoas físicas": 78686.0,
+   "Recursos próprios": 2000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1500000.0,
+   "FUNDO PARTIDARIO": 1447174.61,
+   "OUTROS RECURSOS": 144241.09
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2900000.0
+   },
+   {
+    "cnpj": "08701595000114",
+    "nome": "Direção Estadual/Distrital - PL - SÃO PAULO",
+    "total": 110729.7
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 80686.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2568600.37,
+  "total_pago": 2094643.12,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 320000.0
+   },
+   {
+    "cnpj": "09204155000114",
+    "nome": "VITA PORTO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "10386377000184",
+    "nome": "VITA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 24,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 171820.0
+   },
+   {
+    "cnpj": "62463779000139",
+    "nome": "MRS BARROZO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "46391734000140",
+    "nome": "C PATRIK DA SILVA",
+    "cnae": "93131",
+    "n_despesas": 4,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 63000.0
+   },
+   {
+    "cnpj": "68353075000190",
+    "nome": "ROSANA RABELO MONTANINI",
+    "cnae": "94928",
+    "n_despesas": 3,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 57800.0
+   },
+   {
+    "cnpj": "42911882000197",
+    "nome": "ALEXANDRINA PEREIRA DE OLIVEIRA PORTO",
+    "cnae": "82199",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 49590.0
+   },
+   {
+    "cnpj": "26022481000120",
+    "nome": "26.022.481 MARIA GORETTI TAVARES DA SILVA",
+    "cnae": "13405",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 48475.0
+   },
+   {
+    "cnpj": "44405247000163",
+    "nome": "SACS ASSESSORIA CONTABIL E AUDITORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 44000.0
+   },
+   {
+    "cnpj": "33322586000160",
+    "nome": "FOCO VISUAL COMERCIO DE PRODUTOS PROMOCIONAIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "07737391000170",
+    "nome": "SINGULAR COMUNICACAO VISUAL MECK LTDA",
+    "cnae": "47890",
+    "n_despesas": 12,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 19320.0
+   },
+   {
+    "cnpj": "10541890000100",
+    "nome": "CINTIA DA SILVA SOUZA COMUNICACAO VISUAL",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17550.0
+   },
+   {
+    "cnpj": "06065895000129",
+    "nome": "S G M K LOCACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 13300.0
+   },
+   {
+    "cnpj": "61879862000120",
+    "nome": "CONSUPLAN CONSULTORIA E PLANEJAMENTO IMOBILIARIO LTDA",
+    "cnae": "68218",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 12084.76
+   },
+   {
+    "cnpj": "14484227000164",
+    "nome": "C2 VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7207.0
+   },
+   {
+    "cnpj": "47543163000184",
+    "nome": "JORNAL INFORME VALE LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "07391348000104",
+    "nome": "07.391.348 VALDEVINO PAULO DA SILVA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1720.0
+   },
+   {
+    "cnpj": "41828530000100",
+    "nome": "DIMI COMUNICACAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "04746182000103",
+    "nome": "AUTO POSTO TAK VILA EMA I LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1455.01
+   },
+   {
+    "cnpj": "63935365000128",
+    "nome": "LEMAPEL COMERCIO DE PAPEIS E MATERIAIS TECNICOS LTDA",
+    "cnae": "82199",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 841.2
+   },
+   {
+    "cnpj": "67560071000110",
+    "nome": "67.560.071 WELLINGTON SILVA DE FARIAS",
+    "cnae": "49302",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "05776305000103",
+    "nome": "POSTO CRUZEIRO CENTRAL LTDA.",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 676.21
+   },
+   {
+    "cnpj": "07265698000116",
+    "nome": "C.V. MENDONCA FOTOCOPIAS",
+    "cnae": "82199",
+    "n_despesas": 3,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 423.4
+   },
+   {
+    "cnpj": "01157555000376",
+    "nome": "TENDA ATACADO SA",
+    "cnae": "46931",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 179.79
+   },
+   {
+    "cnpj": "63415037000109",
+    "nome": "MERCADINHO MANTO AZUL LTDA",
+    "cnae": "47121",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 168.0
+   },
+   {
+    "cnpj": "10736109000145",
+    "nome": "DESCARTAVEIS DO VALE COMERCIO VAREJISTA DE EMBALAGENS LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 42.5
+   },
+   {
+    "cnpj": "58556110000114",
+    "nome": "RHTS PAPELARIA LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 6.25
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 412,
+   "total": 1390241.25,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 912240.55,
+    "Despesas com pessoal": 467674.5,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 326.2,
+    "Serviços advocatícios": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

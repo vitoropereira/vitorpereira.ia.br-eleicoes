@@ -1,0 +1,187 @@
+{
+ "sq": "170002543737",
+ "nome_urna": "PASTOR JÚNIOR TÉRCIO",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 652998.46,
+  "por_origem": {
+   "Recursos de partido político": 392798.46,
+   "Recursos de pessoas físicas": 140200.0,
+   "Recursos próprios": 120000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 300000.0,
+   "FUNDO PARTIDARIO": 92798.46,
+   "OUTROS RECURSOS": 260200.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 392798.46
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 8,
+   "total": 260200.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 964652.11,
+  "total_pago": 652660.11,
+  "fornecedores_pj": [
+   {
+    "cnpj": "03892344000140",
+    "nome": "MALHARIA ATLANTICO LTDA",
+    "cnae": "14126",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 299992.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 12,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 272700.0
+   },
+   {
+    "cnpj": "67552744000190",
+    "nome": "67.552.744 ROMERO ANDRADE DA HORA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 32500.0
+   },
+   {
+    "cnpj": "21491555000153",
+    "nome": "FABIO HENRIQUE DE OLIVEIRA MARTINS -",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "27730443000194",
+    "nome": "ARAUJO FARDAMENTOS E SERVICOS TERCEIRIZADOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "11038639000182",
+    "nome": "CONECTE SOLUCOES CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "38422768000126",
+    "nome": "F CATAO COMERCIO, INVESTIMENTOS E ADMINISTRACAO IMOBILIARIA LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "39870543000103",
+    "nome": "FABIO TEIXEIRA DOS SANTOS - SERVICOS PUBLICITARIOS",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha",
+     "Publicidade por adesivos"
+    ],
+    "total": 14650.0
+   },
+   {
+    "cnpj": "41041013000196",
+    "nome": "OBA GRAFICA DIGITAL OFF SET LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "07065530000167",
+    "nome": "JL LEMOS COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7735.21
+   },
+   {
+    "cnpj": "31264326000150",
+    "nome": "EV COMERCIO DE MATERIAIS PARA CONTRUCAO LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 5300.0
+   },
+   {
+    "cnpj": "68068745000126",
+    "nome": "ARAUJO NUNES ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "63324525000100",
+    "nome": "GS SOLUCOES E ENGENHARIA LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 122,
+   "total": 209274.9,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 115580.0,
+    "Cessão ou locação de veículos": 49700.0,
+    "Despesas com transporte ou deslocamento": 18200.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 124.9,
+    "Produção de jingles, vinhetas e slogans": 1000.0,
+    "Pré-instalação física de comitê de campanha": 1040.0,
+    "Serviços prestados por terceiros": 23630.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

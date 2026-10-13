@@ -1,0 +1,200 @@
+{
+ "sq": "170002542425",
+ "nome_urna": "ERIBERTO FILHO",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 560000.0,
+  "por_origem": {
+   "Recursos de partido político": 335000.0,
+   "Recursos de pessoas físicas": 105000.0,
+   "Recursos próprios": 120000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 335000.0,
+   "OUTROS RECURSOS": 225000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 300000.0
+   },
+   {
+    "cnpj": "10669331000172",
+    "nome": "Direção Estadual/Distrital - PSB - PERNAMBUCO",
+    "total": 35000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 225000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 342151.38,
+  "total_pago": 257540.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "04187276000181",
+    "nome": "ROSA E SILVA ENGENHARIA LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "02577031000135",
+    "nome": "MAG GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "29267112000195",
+    "nome": "UNIDOIS COMERCIO E SERVICOS LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "04723670000197",
+    "nome": "BRASCOLOR GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16440.0
+   },
+   {
+    "cnpj": "11345668000197",
+    "nome": "11.345.668 LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12960.0
+   },
+   {
+    "cnpj": "61038929000102",
+    "nome": "ANTONIO RIBEIRO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "68609389000100",
+    "nome": "IRIS DANIELE DE MENEZES EXP CONTABIL",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "03892344000140",
+    "nome": "MALHARIA ATLANTICO LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "60829492000154",
+    "nome": "WLAN INDUSTRIA, COMERCIO E FACCAO DE CAMISAS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5750.0
+   },
+   {
+    "cnpj": "41024050000196",
+    "nome": "ART TUDO FRANQUIA DOS CORREIOS LTDA",
+    "cnae": "53105",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 3623.38
+   },
+   {
+    "cnpj": "35051449000163",
+    "nome": "MECGRAF LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3400.0
+   },
+   {
+    "cnpj": "03673047000104",
+    "nome": "EDSON DE ARAUJO JUNIOR",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1558.0
+   },
+   {
+    "cnpj": "12895133000152",
+    "nome": "FORMATO QUATRO GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1470.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 129,
+   "total": 161450.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 92350.0,
+    "Despesas com pessoal": 18250.0,
+    "Despesas com transporte ou deslocamento": 34450.0,
+    "Produção de jingles, vinhetas e slogans": 500.0,
+    "Pré-instalação física de comitê de campanha": 3900.0,
+    "Publicidade por carros de som": 500.0,
+    "Serviços prestados por terceiros": 11500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

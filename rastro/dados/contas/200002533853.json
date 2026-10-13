@@ -1,0 +1,200 @@
+{
+ "sq": "200002533853",
+ "nome_urna": "IVANILSON OLIVEIRA",
+ "cargo": "depest",
+ "uf": "RN",
+ "partido": "PV",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 517700.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 395000.0,
+   "Recursos próprios": 122700.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 517700.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 517700.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 276957.51,
+  "total_pago": 334269.64,
+  "fornecedores_pj": [
+   {
+    "cnpj": "09476670000153",
+    "nome": "MARCOS LANUCE SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "04951589000164",
+    "nome": "MERITUS ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "20689884000140",
+    "nome": "OBJETIVA LOCACOES E ENTRETENIMENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "59927695000102",
+    "nome": "AUCITRANS LOGISTICA E LOCACOES LTDA",
+    "cnae": "49302",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "35353029000131",
+    "nome": "IRIS MIRIA DE OLIVEIRA GAMA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "19596325000107",
+    "nome": "C G V REBOUCAS",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "27997819000121",
+    "nome": "GRID COMUNICACAO VISUAL, SINALIZACAO E EVENTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8136.21
+   },
+   {
+    "cnpj": "22606932000115",
+    "nome": "AARTH ASSESSORIA EMPRESARIAL LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "63807814000152",
+    "nome": "63.807.814 FRANCKLIN RENARLLY DE OLIVEIRA SILVA",
+    "cnae": "96092",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "24587883000146",
+    "nome": "W C PINTO COMBUSTIVEIS E TRANSPORTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2585.71
+   },
+   {
+    "cnpj": "21932164000127",
+    "nome": "BELLA EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 1050.0
+   },
+   {
+    "cnpj": "34028316034865",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 638.22
+   },
+   {
+    "cnpj": "39371702000117",
+    "nome": "ANTONIA EDILMA DO NASCIMENTO OLIVEIRA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 140.0
+   },
+   {
+    "cnpj": "34299202000106",
+    "nome": "BANLEK SERVICOS AUDIOVISUAIS LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 97.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 48,
+   "total": 88810.37,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 13185.58,
+    "Despesas com pessoal": 38398.79,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 26.0,
+    "Locação/cessão de bens imóveis": 11000.0,
+    "Produção de jingles, vinhetas e slogans": 2700.0,
+    "Publicidade por carros de som": 11000.0,
+    "Serviços prestados por terceiros": 12500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

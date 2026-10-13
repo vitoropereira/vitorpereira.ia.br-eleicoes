@@ -1,0 +1,195 @@
+{
+ "sq": "20002548089",
+ "nome_urna": "CIBELE MOURA",
+ "cargo": "depest",
+ "uf": "AL",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 461545.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 500.0,
+   "Recursos de partido político": 200000.0,
+   "Recursos de pessoas físicas": 217000.0,
+   "Recursos próprios": 44045.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 100500.0,
+   "FUNDO PARTIDARIO": 100000.0,
+   "OUTROS RECURSOS": 261045.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "01308052000192",
+    "nome": "Direção Estadual/Distrital - MDB - ALAGOAS",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68455298000168",
+    "nome": "LUCIANO SURUAGY DO AMARAL FILHO",
+    "total": 500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 261045.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 330011.12,
+  "total_pago": 282363.44,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 68600.0
+   },
+   {
+    "cnpj": "14876708000115",
+    "nome": "NOGUEIRA, ALBUQUERQUE E FREIRE ASSOCIADOS S/S",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "38332354000106",
+    "nome": "FRANCO CORDEIRO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "36798241000175",
+    "nome": "36.798.241 DEIZE TEOFILO RATIS E SILVA",
+    "cnae": "13596",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "08763706000117",
+    "nome": "SAGAZ PRODUTORA DE AUDIO LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "11062146000188",
+    "nome": "GRAFICA E EDITORA SPEEDGRAF LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 9500.0
+   },
+   {
+    "cnpj": "06999225000180",
+    "nome": "N.J TOUR RECEPTIVO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "09280520000170",
+    "nome": "AUTO POSTO COMENDADOR LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6824.37
+   },
+   {
+    "cnpj": "29535950000100",
+    "nome": "IMPREGRAF GRAFICA E BRINDES LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 4800.0
+   },
+   {
+    "cnpj": "47046122000182",
+    "nome": "DEEP MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3750.0
+   },
+   {
+    "cnpj": "68259843000140",
+    "nome": "68.259.843 WILLY FELIPE SILVA DE MIRANDA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 3150.0
+   },
+   {
+    "cnpj": "64472508000175",
+    "nome": "64.472.508 DANIEL FRANCISCO FERREIRA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "31258047000183",
+    "nome": "KAS SERVICOS GRAFICOS E COMUNICACAO VISUAL UNIPESSOAL LIMITADA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 120.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 56,
+   "total": 132266.75,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 79180.55,
+    "Despesas com pessoal": 12000.0,
+    "Despesas com transporte ou deslocamento": 18000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 86.2,
+    "Serviços prestados por terceiros": 23000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

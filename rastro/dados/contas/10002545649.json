@@ -1,0 +1,202 @@
+{
+ "sq": "10002545649",
+ "nome_urna": "CHIQUINHO DO DUDA",
+ "cargo": "depest",
+ "uf": "AC",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 730000.0,
+  "por_origem": {
+   "Recursos de partido político": 150000.0,
+   "Recursos de pessoas físicas": 455000.0,
+   "Recursos próprios": 125000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 150000.0,
+   "OUTROS RECURSOS": 580000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 150000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 21,
+   "total": 580000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 582256.86,
+  "total_pago": 52394.2,
+  "fornecedores_pj": [
+   {
+    "cnpj": "23657819000121",
+    "nome": "E.O.PEREIRA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 49030.0
+   },
+   {
+    "cnpj": "26246367000183",
+    "nome": "H DE S MENEZES LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "64391209000106",
+    "nome": "NORONHA FERREIRA ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "40956759000167",
+    "nome": "T R D AGNOLO SOLUCOES EMPRESARIAIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "02035162000190",
+    "nome": "P L MARTINI",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13000.0
+   },
+   {
+    "cnpj": "45056460000170",
+    "nome": "R. DE A. MENDONCA",
+    "cnae": "43215",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2270.0
+   },
+   {
+    "cnpj": "04021218000930",
+    "nome": "DIOCESE DE CRUZEIRO DO SUL",
+    "cnae": "94910",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "42537592000125",
+    "nome": "WALDERLUCIO BARROS DE SANTANA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "04780554000371",
+    "nome": "ALEM A SILVA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 690.06
+   },
+   {
+    "cnpj": "08424409000147",
+    "nome": "V. H. MELO LTDA",
+    "cnae": "45307",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "26607066000138",
+    "nome": "AUTO POSTO IMPERIAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 561.45
+   },
+   {
+    "cnpj": "33746960000154",
+    "nome": "AUTO POSTO DANTAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 473.45
+   },
+   {
+    "cnpj": "57611065000190",
+    "nome": "AUTO POSTO BOSQUE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 424.2
+   },
+   {
+    "cnpj": "62303837000167",
+    "nome": "62.303.837 MARIANO BRANDAO DE BRITO JUNIOR",
+    "cnae": "43223",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 350.0
+   },
+   {
+    "cnpj": "26554435000503",
+    "nome": "L G ALIMENTOS DO BRASIL LTDA",
+    "cnae": "46915",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 124.2
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 207,
+   "total": 430733.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 289033.5,
+    "Cessão ou locação de veículos": 83500.0,
+    "Despesas com pessoal": 56700.0,
+    "Locação/cessão de bens imóveis": 1500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

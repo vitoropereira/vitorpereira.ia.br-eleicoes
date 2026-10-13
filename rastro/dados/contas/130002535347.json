@@ -1,0 +1,381 @@
+{
+ "sq": "130002535347",
+ "nome_urna": "BEATRIZ CERQUEIRA",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 773809.66,
+  "por_origem": {
+   "Recursos de partido político": 725500.0,
+   "Recursos de pessoas físicas": 48309.66
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 725500.0,
+   "OUTROS RECURSOS": 48309.66
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 725500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 12,
+   "total": 48309.66
+  }
+ },
+ "despesas": {
+  "total_contratado": 152180.77,
+  "total_pago": 285007.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "17175993000135",
+    "nome": "TAMOIOS KOLORO EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 28100.0
+   },
+   {
+    "cnpj": "61764850000150",
+    "nome": "GRAFICA DUOTONE LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25330.0
+   },
+   {
+    "cnpj": "49928315000192",
+    "nome": "AL9 EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17790.0
+   },
+   {
+    "cnpj": "48442998000100",
+    "nome": "SO PICK-UPS 4X4 LTDA",
+    "cnae": "77110",
+    "n_despesas": 4,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15380.0
+   },
+   {
+    "cnpj": "68261724000122",
+    "nome": "GRAFICA E EDITORA RS LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13850.0
+   },
+   {
+    "cnpj": "33106144000186",
+    "nome": "33.106.144 MARCELO AUGUSTO VIEIRA SAD",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "34028316342330",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 8756.44
+   },
+   {
+    "cnpj": "65925144000102",
+    "nome": "65.925.144 EDUARDO DOS SANTOS CORREA RIBEIRO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "25898537000141",
+    "nome": "ATRIUM EMPRESA DE VIAGENS E TURISMO LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Passagem Aérea"
+    ],
+    "total": 4495.37
+   },
+   {
+    "cnpj": "21960877000102",
+    "nome": "ROVIGO EMPREENDIMENTOS LTDA",
+    "cnae": "53105",
+    "n_despesas": 10,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 2837.41
+   },
+   {
+    "cnpj": "20655104000141",
+    "nome": "THIAGO SILK SUBLIMACAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2800.0
+   },
+   {
+    "cnpj": "38082257000102",
+    "nome": "PHOENIX INDUSTRIA E COMERCIO LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2550.0
+   },
+   {
+    "cnpj": "17318718000123",
+    "nome": "PROMOVENDO PUBLICIDADE E PROMOCOES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2450.0
+   },
+   {
+    "cnpj": "27163481000102",
+    "nome": "ALUGUEL DE MESAS BH LTDA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1860.0
+   },
+   {
+    "cnpj": "14714983000132",
+    "nome": "14.714.983 DANIELA MOREIRA CORREA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "25371717000170",
+    "nome": "DIGITAL SIGNS MIDIAS IMPRESSAS LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 647.0
+   },
+   {
+    "cnpj": "60563731000762",
+    "nome": "CENTRAL UNICA DOS TRABALHADORES-CUT",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "04035505000142",
+    "nome": "SAGRADA FAMILIA DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 592.93
+   },
+   {
+    "cnpj": "06372018000109",
+    "nome": "HOTEL DOM HENRIQUE LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 550.0
+   },
+   {
+    "cnpj": "21582234000164",
+    "nome": "POSTO GRA DUQUESA LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 513.99
+   },
+   {
+    "cnpj": "11512764000182",
+    "nome": "JKV COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 262.55
+   },
+   {
+    "cnpj": "17462474000158",
+    "nome": "POSTO TOCANTINS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 245.75
+   },
+   {
+    "cnpj": "30166678000100",
+    "nome": "POSTO BARAO VPP LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 214.29
+   },
+   {
+    "cnpj": "08789003000168",
+    "nome": "POSTO IPE AMARELO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 201.08
+   },
+   {
+    "cnpj": "22049332000101",
+    "nome": "UNIAO OPERARIA DE GOVERNADOR VALADARES",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "11076267000189",
+    "nome": "POSTO AUTO GIRO 2 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 188.01
+   },
+   {
+    "cnpj": "06066744000195",
+    "nome": "SINDICATO DOS SERVIDORES PUBLICOS DO MUNICIPIO DE ITAMARANDIBA - SINDISITA",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 100.0
+   },
+   {
+    "cnpj": "16808560000107",
+    "nome": "SINDICATO DOS TRABALHADORES RURAIS DE ARACUAI",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 100.0
+   },
+   {
+    "cnpj": "18090902000121",
+    "nome": "SINDICATO DOS PRODUTORES RURAIS DE ITUETA",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 100.0
+   },
+   {
+    "cnpj": "20198527000180",
+    "nome": "ALO CARIMBOS COMERCIAL LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 56.0
+   },
+   {
+    "cnpj": "05356285000111",
+    "nome": "STUDIUM DO CONHECIMENTO TREINAMENTO E COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 47.81
+   },
+   {
+    "cnpj": "06946804000164",
+    "nome": "PAQ SERVICOS DE CONSERTOS EM MAQUINAS LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 39.9
+   },
+   {
+    "cnpj": "06981180000116",
+    "nome": "CEMIG DISTRIBUICAO S.A",
+    "cnae": "35140",
+    "n_despesas": 1,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 35.17
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 3787.07,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 26.0,
+    "Serviços prestados por terceiros": 2161.33,
+    "Serviços próprios prestados por terceiros": 1599.74
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

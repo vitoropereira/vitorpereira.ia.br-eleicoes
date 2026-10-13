@@ -1,0 +1,1116 @@
+{
+ "sq": "160002542287",
+ "nome_urna": "JEFFREY CHIQUINI",
+ "cargo": "depfed",
+ "uf": "PR",
+ "partido": "NOVO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2225509.9,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 11019.78,
+   "Recursos de outros candidatos": 177.78,
+   "Recursos de partido político": 2070000.0,
+   "Recursos de pessoas físicas": 144312.34
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 300177.78,
+   "FUNDO PARTIDARIO": 1570000.0,
+   "OUTROS RECURSOS": 355332.12
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13405866000124",
+    "nome": "Direção Nacional - NOVO",
+    "total": 2020000.0
+   },
+   {
+    "cnpj": "26398527000100",
+    "nome": "Direção Estadual/Distrital - NOVO - PARANÁ",
+    "total": 50000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 11019.78
+   },
+   {
+    "cnpj": "68464781000109",
+    "nome": "JOAO LUCAS PORTUGAL DE OLIVEIRA",
+    "total": 177.78
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 144312.34
+  }
+ },
+ "despesas": {
+  "total_contratado": 1791338.42,
+  "total_pago": 1722769.33,
+  "fornecedores_pj": [
+   {
+    "cnpj": "85057529000102",
+    "nome": "HELLOGRAF ARTES GRAFICAS LTDA",
+    "cnae": "18113",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 413031.32
+   },
+   {
+    "cnpj": "12423428000126",
+    "nome": "DUO PROMO ACOES PROMOCIONAIS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 278971.0
+   },
+   {
+    "cnpj": "45110969000153",
+    "nome": "OVERCOME COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 183960.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 181500.0
+   },
+   {
+    "cnpj": "03839251000152",
+    "nome": "JOSE DOMINGOS LINARES LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 168000.0
+   },
+   {
+    "cnpj": "21246199000102",
+    "nome": "LEANDRO ROSA ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 85000.0
+   },
+   {
+    "cnpj": "41626774000100",
+    "nome": "ANJO ACABAMENTOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 35958.5
+   },
+   {
+    "cnpj": "47214703000186",
+    "nome": "47.214.703 ADAM MAAMARI MOREIRA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 28000.0
+   },
+   {
+    "cnpj": "55214691000118",
+    "nome": "55.214.691 NICOLE SANTA CRUZ DA SILVA OTAVIANO",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "62166357000100",
+    "nome": "62.166.357 GISELI LOURENCO PIMENTEL VIRMOND",
+    "cnae": "56121",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "25408682000105",
+    "nome": "SERIE 7 AUTOMOVEIS LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "67795279000118",
+    "nome": "HONORIX CONSULTORIA LTDA",
+    "cnae": "62040",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "62408556000179",
+    "nome": "NO CENTRO DA POLITICA COMUNICACAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "03831809000153",
+    "nome": "MIDIASHOW LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "76711068000140",
+    "nome": "PLASTIPEL PLASTIFICACAO DE PAPEL LTDA",
+    "cnae": "58298",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7621.4
+   },
+   {
+    "cnpj": "61168661000115",
+    "nome": "JVW HOTELARIA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 6086.0
+   },
+   {
+    "cnpj": "72040637000112",
+    "nome": "CCM AGENCIA DE SERVICOS POSTAIS LTDA",
+    "cnae": "53105",
+    "n_despesas": 15,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 6034.6
+   },
+   {
+    "cnpj": "12823807000103",
+    "nome": "ARSJ PROMOCOES E EVENTOS LTDA",
+    "cnae": "47547",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "68363804000199",
+    "nome": "BANDEPAR BANDEIRAS LTDA",
+    "cnae": "13596",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5300.0
+   },
+   {
+    "cnpj": "57515675000190",
+    "nome": "MATEUS GUIMARAES FURTADO",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "31026873000105",
+    "nome": "BUENO TRIO ELETRICO SOM E AUDIOVISUAL LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3800.0
+   },
+   {
+    "cnpj": "27254429000161",
+    "nome": "MANDALA FACTORY LTDA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 3675.0
+   },
+   {
+    "cnpj": "02311845000123",
+    "nome": "GOLDEN INGA HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 3337.2
+   },
+   {
+    "cnpj": "20676778000122",
+    "nome": "MULTIMEDIA ADMINISTRACAO E PARTICIPACOES LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3200.0
+   },
+   {
+    "cnpj": "19794622000167",
+    "nome": "C. S DO SANTO EVENTOS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 5,
+    "tipos": [
+     "Cessão ou locação de veículos",
+     "Diversas a especificar"
+    ],
+    "total": 2748.27
+   },
+   {
+    "cnpj": "47060021000166",
+    "nome": "ROMANCILDA HOTELARIA E RESTAURANTE LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 2687.0
+   },
+   {
+    "cnpj": "03319996000190",
+    "nome": "EDITORA DIARIO DOS CAMPOS LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "00571116000180",
+    "nome": "J. M. GRANDI",
+    "cnae": "13596",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2150.0
+   },
+   {
+    "cnpj": "26547278000177",
+    "nome": "JULIMARA KREUSCH",
+    "cnae": "46427",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1890.0
+   },
+   {
+    "cnpj": "77765840000501",
+    "nome": "CONTABILISTA SUPRIMENTOS CORPORATIVOS S.A.",
+    "cnae": "47610",
+    "n_despesas": 9,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1833.65
+   },
+   {
+    "cnpj": "54244415000130",
+    "nome": "MIL EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1590.0
+   },
+   {
+    "cnpj": "15695498000121",
+    "nome": "MODENA HOTELARIA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1554.0
+   },
+   {
+    "cnpj": "48108292000107",
+    "nome": "CAP E ARTE LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "07987314000179",
+    "nome": "NOVA FONTE COMERCIO DE BEBIDAS LIMITADA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 1298.0
+   },
+   {
+    "cnpj": "17289475000142",
+    "nome": "BUS SERVICOS DE AGENDAMENTO S.A.",
+    "cnae": "79902",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 1167.41
+   },
+   {
+    "cnpj": "60963459000112",
+    "nome": "HOTEL PONTA GROSSA SAO MARCOS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1020.0
+   },
+   {
+    "cnpj": "09621536000107",
+    "nome": "M.A.ZANONI E CIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1005.4
+   },
+   {
+    "cnpj": "08039041000101",
+    "nome": "ROSANE ELBANI KSIAZKIEWICZ",
+    "cnae": "23303",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 988.0
+   },
+   {
+    "cnpj": "03412151000145",
+    "nome": "ANDREA DE LAZARI",
+    "cnae": "45307",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 980.0
+   },
+   {
+    "cnpj": "11679507000130",
+    "nome": "NLG TERMOTECNICA LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 886.3
+   },
+   {
+    "cnpj": "05013136000230",
+    "nome": "HOTEL SAN PIETRO LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 875.0
+   },
+   {
+    "cnpj": "30933818000128",
+    "nome": "DFABR IMPRESSAO DIGITAL LTDA",
+    "cnae": "47547",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 860.0
+   },
+   {
+    "cnpj": "07837409000106",
+    "nome": "R.H.F. RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 760.6
+   },
+   {
+    "cnpj": "22092207000176",
+    "nome": "PICTORIAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "20077908000100",
+    "nome": "MEGA DIGITAL LTDA.",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 650.0
+   },
+   {
+    "cnpj": "11282649000169",
+    "nome": "RESTAURANTE TIROL LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 614.35
+   },
+   {
+    "cnpj": "82255019000143",
+    "nome": "AUTO POSTO WEBA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 596.0
+   },
+   {
+    "cnpj": "08882405000455",
+    "nome": "QUICK BURGUER ALIMENTOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 590.13
+   },
+   {
+    "cnpj": "80227796000159",
+    "nome": "EXPRESSO PRINCESA DOS CAMPOS SA",
+    "cnae": "49221",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 561.44
+   },
+   {
+    "cnpj": "43739437000154",
+    "nome": "VIGNOTTO COMERCIO DE ALIMENTOS LTDA",
+    "cnae": "47113",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação",
+     "Água"
+    ],
+    "total": 459.07
+   },
+   {
+    "cnpj": "07443157000130",
+    "nome": "VIJU RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 447.0
+   },
+   {
+    "cnpj": "06057223048530",
+    "nome": "SENDAS DISTRIBUIDORA S/A",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 444.4
+   },
+   {
+    "cnpj": "81111734000140",
+    "nome": "MARQUEZE CASARIL E CIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 440.2
+   },
+   {
+    "cnpj": "06967691000183",
+    "nome": "RESTAURANTE E PASTELARIA SHOPPING PANAMBI LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 401.0
+   },
+   {
+    "cnpj": "25155230000150",
+    "nome": "25.155.230 ARTUR PRISCO SILVA DE JESUS SANTANA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "13783221017877",
+    "nome": "MADERO INDUSTRIA E COMERCIO S.A.",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 353.0
+   },
+   {
+    "cnpj": "60979966000144",
+    "nome": "FERREIRA AUTO CENTER LTDA",
+    "cnae": "45200",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 320.0
+   },
+   {
+    "cnpj": "15119679000100",
+    "nome": "PETRO KENNEDY COMERCIO E TRANSPORTE DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 305.42
+   },
+   {
+    "cnpj": "10571343000160",
+    "nome": "RMZ FUKAMI COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 304.29
+   },
+   {
+    "cnpj": "22310597000103",
+    "nome": "AUTO POSTO PACHECO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 278.04
+   },
+   {
+    "cnpj": "05483837000152",
+    "nome": "CONDOR AUTO POSTO RODOVIARIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 266.04
+   },
+   {
+    "cnpj": "78289055000150",
+    "nome": "AUTO POSTO TS LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 265.75
+   },
+   {
+    "cnpj": "85058170000180",
+    "nome": "AUTO POSTO ORTONA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 256.91
+   },
+   {
+    "cnpj": "81056046000124",
+    "nome": "POSTO TREVISO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 251.07
+   },
+   {
+    "cnpj": "61324822000112",
+    "nome": "61.324.822 BRUNO TOSKI DOS SANTOS",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 250.0
+   },
+   {
+    "cnpj": "26508062000100",
+    "nome": "FAZENDA MARINGA RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 245.34
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 226.93
+   },
+   {
+    "cnpj": "37987504000157",
+    "nome": "LP RESTAURANTE E CHOPERIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 222.09
+   },
+   {
+    "cnpj": "01438784001098",
+    "nome": "LEROY MERLIN COMPANHIA BRASILEIRA DE BRICOLAGEM",
+    "cnae": "47440",
+    "n_despesas": 2,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 129.8
+   },
+   {
+    "cnpj": "78586674000107",
+    "nome": "VIACAO GARCIA LTDA",
+    "cnae": "49221",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 125.86
+   },
+   {
+    "cnpj": "31020529000109",
+    "nome": "RESTAURANTE KONGTA WEIQUAN LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 112.78
+   },
+   {
+    "cnpj": "77044618003365",
+    "nome": "BALAROTI - COMERCIO DE MATERIAIS DE CONSTRUCAO S.A.",
+    "cnae": "47440",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente",
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 112.7
+   },
+   {
+    "cnpj": "17595372000453",
+    "nome": "PASSARO VERDE EXPRESS LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 100.0
+   },
+   {
+    "cnpj": "79379491001317",
+    "nome": "HAVAN S.A",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 89.99
+   },
+   {
+    "cnpj": "26716832000445",
+    "nome": "SAINT HONORE COMERCIO DE ALIMENTOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 87.8
+   },
+   {
+    "cnpj": "72040850000124",
+    "nome": "KENT FRIO ALIMENTOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 83.29
+   },
+   {
+    "cnpj": "85014793000665",
+    "nome": "ELETRORASTRO COMERCIO DE MATERIAL ELETRICO LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 78.66
+   },
+   {
+    "cnpj": "52469034000123",
+    "nome": "QUENTITAS COMERCIAL LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 78.4
+   },
+   {
+    "cnpj": "42323669000164",
+    "nome": "EMPORIO DE PAULA COMERCIO DE CESTAS E DECORACOES LTDA",
+    "cnae": "47296",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 69.8
+   },
+   {
+    "cnpj": "03222765000164",
+    "nome": "PANDA AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 69.0
+   },
+   {
+    "cnpj": "08246561000187",
+    "nome": "AZUL MARINHO PAPELARIA LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 50.7
+   },
+   {
+    "cnpj": "14172636000125",
+    "nome": "CRIARMAIS DESIGN LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 50.0
+   },
+   {
+    "cnpj": "16951168000112",
+    "nome": "HX MATERIAIS DE CONSTRUCAO LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 45.0
+   },
+   {
+    "cnpj": "53130482000160",
+    "nome": "GOLDEN RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 44.26
+   },
+   {
+    "cnpj": "05040321000133",
+    "nome": "O MUNDO DAS CONFEITEIRAS PRODUTOS PARA PANIFICACAO LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 42.0
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Telefone"
+    ],
+    "total": 40.0
+   },
+   {
+    "cnpj": "02270467000187",
+    "nome": "SARON LUCIANE DA ROCHA POMBO",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 39.9
+   },
+   {
+    "cnpj": "19262676000181",
+    "nome": "NUCLEO BRASIL SERVIDORES LTDA",
+    "cnae": "63119",
+    "n_despesas": 1,
+    "tipos": [
+     "Telefone"
+    ],
+    "total": 35.9
+   },
+   {
+    "cnpj": "76430438005645",
+    "nome": "IRMAOS MUFFATO CIA LTDA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 35.37
+   },
+   {
+    "cnpj": "34935453000121",
+    "nome": "IMPORTLED ATACADISTA DE ILUMINACAO LTDA",
+    "cnae": "46737",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 34.0
+   },
+   {
+    "cnpj": "05012399000144",
+    "nome": "ELIANE CUBOTA ISHIZU PIZZARIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 29.5
+   },
+   {
+    "cnpj": "54763532000100",
+    "nome": "A C C SANTOS LIMITADA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 28.92
+   },
+   {
+    "cnpj": "62352822000199",
+    "nome": "W1 GRAFICA RAPIDA LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 28.0
+   },
+   {
+    "cnpj": "76430438014555",
+    "nome": "IRMAOS MUFFATO CIA LTDA",
+    "cnae": "47113",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação",
+     "Materiais de expediente"
+    ],
+    "total": 26.56
+   },
+   {
+    "cnpj": "21617670000121",
+    "nome": "NOVA PARRILLA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 19.8
+   },
+   {
+    "cnpj": "00147733000153",
+    "nome": "SAN MIGUEL COM. DE PAES LTDA",
+    "cnae": "47211",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 15.9
+   },
+   {
+    "cnpj": "51687151000109",
+    "nome": "DON AUREO DELIVERY LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 15.6
+   },
+   {
+    "cnpj": "03393922000102",
+    "nome": "LEMA PIZZARIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 12.0
+   },
+   {
+    "cnpj": "50607784000199",
+    "nome": "H13 OFICINAS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 11.5
+   },
+   {
+    "cnpj": "79166641000170",
+    "nome": "C. ECKERT CIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 9.0
+   },
+   {
+    "cnpj": "78413325000193",
+    "nome": "SUPERMERCADO JACOMAR LTDA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 7.98
+   },
+   {
+    "cnpj": "47585842000116",
+    "nome": "TUTTI CUCINA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 5.0
+   },
+   {
+    "cnpj": "05164875000142",
+    "nome": "PASSA QUATRO COMERCIO DE ALIMENTOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2.5
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 24,
+   "total": 214003.83,
+   "por_tipo": {
+    "Despesas com pessoal": 159100.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 353.83,
+    "Pré-instalação física de comitê de campanha": 200.0,
+    "Serviços prestados por terceiros": 54350.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

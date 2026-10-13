@@ -1,0 +1,189 @@
+{
+ "sq": "250002539294",
+ "nome_urna": "CAIO FRANÇA",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 856535.29,
+  "por_origem": {
+   "Recursos de outros candidatos": 1000.0,
+   "Recursos de partido político": 750235.29,
+   "Recursos de pessoas físicas": 65300.0,
+   "Recursos próprios": 40000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 751156.86,
+   "FUNDO PARTIDARIO": 78.43,
+   "OUTROS RECURSOS": 105300.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "56275696000113",
+    "nome": "Direção Estadual/Distrital - PSB - SÃO PAULO",
+    "total": 750235.29
+   },
+   {
+    "cnpj": "68552990000104",
+    "nome": "MARCIO LUIZ FRANCA GOMES",
+    "total": 1000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 105300.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 468019.84,
+  "total_pago": 355456.56,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 160000.0
+   },
+   {
+    "cnpj": "08142850000136",
+    "nome": "WBL GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 41708.61
+   },
+   {
+    "cnpj": "27289191000100",
+    "nome": "CASAL SIGN - COMERCIO, IMPORTADORA E SERVICOS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20238.7
+   },
+   {
+    "cnpj": "09239301000147",
+    "nome": "LUIZ C. DA FONSECA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15890.0
+   },
+   {
+    "cnpj": "51410605000191",
+    "nome": "1234 NEGOCIOS E REPRESENTACOES LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15580.0
+   },
+   {
+    "cnpj": "03429320000150",
+    "nome": "C B DOS SANTOS GRAFICA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14894.0
+   },
+   {
+    "cnpj": "53103933000170",
+    "nome": "GALACTICA PROCESSAMENTO E ASSESSORIA CONTABIL",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "17546332000179",
+    "nome": "MACUCO ENGENHARIA E CONSTRUCOES LTDA",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4800.0
+   },
+   {
+    "cnpj": "04479348000164",
+    "nome": "PROFITUS PARTICIPACOES LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "10491325000178",
+    "nome": "ALMEIDA - CONSULTORIA DE IMOVEIS LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "61769796000136",
+    "nome": "CONECCT GRAFICA E COMUNICACAO VISUAL LTDA",
+    "cnae": "47130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1280.0
+   },
+   {
+    "cnpj": "71089890000106",
+    "nome": "AUTO POSTO ANTONIO EMERICK LTDA.",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1058.03
+   },
+   {
+    "cnpj": "28525744000149",
+    "nome": "IDALINA ZANETTI MOREIRA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 600.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 85,
+   "total": 172970.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 9500.0,
+    "Despesa com geradores de energia": 1621.0,
+    "Despesas com pessoal": 140849.5,
+    "Locação/cessão de bens imóveis": 21000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

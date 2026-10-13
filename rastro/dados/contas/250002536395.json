@@ -1,0 +1,154 @@
+{
+ "sq": "250002536395",
+ "nome_urna": "TENENTE COIMBRA",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1082415.06,
+  "por_origem": {
+   "Recursos de outros candidatos": 45000.0,
+   "Recursos de partido político": 962409.06,
+   "Recursos de pessoas físicas": 65006.0,
+   "Recursos próprios": 10000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 950000.0,
+   "FUNDO PARTIDARIO": 49727.64,
+   "OUTROS RECURSOS": 82687.42
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 950000.0
+   },
+   {
+    "cnpj": "68352928000179",
+    "nome": "RENATO ANTONIO BOLSONARO",
+    "total": 45000.0
+   },
+   {
+    "cnpj": "08701595000114",
+    "nome": "Direção Estadual/Distrital - PL - SÃO PAULO",
+    "total": 12409.06
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 75006.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 552356.39,
+  "total_pago": 252179.64,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "17546332000179",
+    "nome": "MACUCO ENGENHARIA E CONSTRUCOES LTDA",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "50281169000135",
+    "nome": "CARVALHO E OLIVEIRA SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "44405247000163",
+    "nome": "SACS ASSESSORIA CONTABIL E AUDITORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "08142850000136",
+    "nome": "WBL GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15906.39
+   },
+   {
+    "cnpj": "47288291000129",
+    "nome": "LUCAS RAMAZZA VIEIRA",
+    "cnae": "13596",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 15400.0
+   },
+   {
+    "cnpj": "23857701000147",
+    "nome": "PONTE PENSIL LOCADORA DE VEICULOS, TRANSPORTE E TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "60011343000183",
+    "nome": "VILA RICA PARK LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "13295386000158",
+    "nome": "ALMEIDA RODRIGUES MANUTENCAO EM INFORMATICA LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 152,
+   "total": 294050.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 265500.0,
+    "Despesas com pessoal": 16000.0,
+    "Locação/cessão de bens imóveis": 12550.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

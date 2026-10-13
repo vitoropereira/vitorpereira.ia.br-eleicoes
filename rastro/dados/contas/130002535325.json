@@ -1,0 +1,205 @@
+{
+ "sq": "130002535325",
+ "nome_urna": "MARQUINHO LEMOS",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 492830.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 16350.0,
+   "Recursos de partido político": 365480.0,
+   "Recursos de pessoas físicas": 11000.0,
+   "Recursos próprios": 100000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 281850.0,
+   "OUTROS RECURSOS": 210980.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265500.0
+   },
+   {
+    "cnpj": "16847535000132",
+    "nome": "Direção Estadual/Distrital - PT - MINAS GERAIS",
+    "total": 99980.0
+   },
+   {
+    "cnpj": "68345483000108",
+    "nome": "ROGERIO CORREIA DE MOURA BAPTISTA",
+    "total": 16350.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 111000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 219106.1,
+  "total_pago": 154100.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "51512640000111",
+    "nome": "ANDREIA LEMOS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 31000.0
+   },
+   {
+    "cnpj": "37068284000168",
+    "nome": "FACIMES ROTULOS E ETIQUETAS LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 10440.0
+   },
+   {
+    "cnpj": "01955898000114",
+    "nome": "SC EDITORA GRAFICA LTDA",
+    "cnae": "18211",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9460.0
+   },
+   {
+    "cnpj": "08651402000168",
+    "nome": "MKT SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7970.0
+   },
+   {
+    "cnpj": "52782662000164",
+    "nome": "LBJ HOLDING E PARTICIPACOES LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5600.0
+   },
+   {
+    "cnpj": "68103482000149",
+    "nome": "68.103.482 MILTON SILVA",
+    "cnae": "82997",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "51077982000150",
+    "nome": "51.077.982 LUIZ HENRIQUE LOPES FAUSTINO GALCERAN",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "62069404000199",
+    "nome": "62.069.404 CARLOS XAVIER DE FREITAS CARVALHO",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "22317550000171",
+    "nome": "M DESIGNER CITY LTDA",
+    "cnae": "58115",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2900.0
+   },
+   {
+    "cnpj": "22599583000151",
+    "nome": "MINASGRAF EDITORA LTDA..",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1680.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "60918900000144",
+    "nome": "60.918.900 VALDEVINO JOSE DE SANTANA NETO",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "18737920000152",
+    "nome": "WEVERSON ALMEIDA DA SILVA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1300.0
+   },
+   {
+    "cnpj": "54984458000151",
+    "nome": "RTA UNIFORMES E BORDADOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1068.6
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 63,
+   "total": 133587.5,
+   "por_tipo": {
+    "Despesas com pessoal": 103987.5,
+    "Locação/cessão de bens imóveis": 14600.0,
+    "Serviços advocatícios": 5000.0,
+    "Serviços contábeis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

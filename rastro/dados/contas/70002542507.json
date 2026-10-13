@@ -1,0 +1,124 @@
+{
+ "sq": "70002542507",
+ "nome_urna": "DAYSE AMARILIO",
+ "cargo": "distrital",
+ "uf": "DF",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 654782.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 230000.0,
+   "Recursos de partido político": 404782.0,
+   "Recursos de pessoas físicas": 20000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 404782.0,
+   "OUTROS RECURSOS": 250000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 400000.0
+   },
+   {
+    "cnpj": "68468518000198",
+    "nome": "ISRAEL MATOS BATISTA",
+    "total": 230000.0
+   },
+   {
+    "cnpj": "03475971000186",
+    "nome": "Direção Estadual/Distrital - PSB - DISTRITO FEDERAL",
+    "total": 4782.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 20000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 491902.5,
+  "total_pago": 276083.92,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "43624926000160",
+    "nome": "AGENCIA MEST LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Criação e inclusão de páginas na internet",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 28000.0
+   },
+   {
+    "cnpj": "03210763000155",
+    "nome": "BARBOSA DIAS ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "31365904000144",
+    "nome": "GISELE CRISTINE DE ALMEIDA MONTENEGRO",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "34300771000116",
+    "nome": "SHEKINAH LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7800.0
+   },
+   {
+    "cnpj": "15666080000196",
+    "nome": "S.M. SOLUCOES GRAFICAS E PUBLICITARIAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2600.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 80,
+   "total": 293502.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 47500.0,
+    "Cessão ou locação de veículos": 17000.0,
+    "Criação e inclusão de páginas na internet": 28000.0,
+    "Despesas com pessoal": 201000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

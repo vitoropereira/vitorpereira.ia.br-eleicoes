@@ -1,0 +1,236 @@
+{
+ "sq": "240002540080",
+ "nome_urna": "JEAN VOLPATO",
+ "cargo": "depest",
+ "uf": "SC",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 225850.8,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 6958.0,
+   "Recursos de partido político": 122200.0,
+   "Recursos de pessoas físicas": 50692.8,
+   "Recursos próprios": 46000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 122200.0,
+   "OUTROS RECURSOS": 103650.8
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 122200.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 6958.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 10,
+   "total": 96692.8
+  }
+ },
+ "despesas": {
+  "total_contratado": 168978.65,
+  "total_pago": 167498.85,
+  "fornecedores_pj": [
+   {
+    "cnpj": "12424988000103",
+    "nome": "IGC - INDUSTRIA GRAFICA CATARINENSE LTDA",
+    "cnae": "18113",
+    "n_despesas": 13,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 43060.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 35280.3
+   },
+   {
+    "cnpj": "33426138000106",
+    "nome": "TROIKA MARKETING LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "45719318000165",
+    "nome": "REIPACK DISTRIBUIDORA LTDA",
+    "cnae": "46869",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 7025.0
+   },
+   {
+    "cnpj": "22271531000151",
+    "nome": "JANINE KAMERS SERPA",
+    "cnae": "14126",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6620.0
+   },
+   {
+    "cnpj": "19234578000130",
+    "nome": "CAVI MODAS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6600.0
+   },
+   {
+    "cnpj": "23500128000110",
+    "nome": "MK2 IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6450.33
+   },
+   {
+    "cnpj": "33347487000132",
+    "nome": "ART MIDIA COMUNICACOES LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4860.0
+   },
+   {
+    "cnpj": "22204015000104",
+    "nome": "MR BAR E DANCETERIA LTDA",
+    "cnae": "93298",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "59417393000186",
+    "nome": "59.417.393 MARIA CANDIDA COSTA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "42532981000168",
+    "nome": "PHOENIX SUBLIMASTER LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1056.0
+   },
+   {
+    "cnpj": "14230105000141",
+    "nome": "ANTONIO MARCOS DOS S. DORNELES",
+    "cnae": "90019",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "48456191000127",
+    "nome": "48.456.191 IGOR ALEXANDRE ALFARTH",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "08387230000167",
+    "nome": "ANGELO LUIZ POLETTO MENDES",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 490.0
+   },
+   {
+    "cnpj": "24595309000130",
+    "nome": "RAMON DE QUADROS HENRICONI",
+    "cnae": "47563",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "08250718000148",
+    "nome": "RESTAURANTE E LANCHONETE ELU LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 350.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 167.52
+   },
+   {
+    "cnpj": "08655112000192",
+    "nome": "ELIAS COPIAS COMERCIO E ASSISTENCIA LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 95.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 19,
+   "total": 29524.5,
+   "por_tipo": {
+    "Despesas com pessoal": 29500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 24.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

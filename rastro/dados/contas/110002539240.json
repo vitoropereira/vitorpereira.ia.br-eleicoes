@@ -1,0 +1,369 @@
+{
+ "sq": "110002539240",
+ "nome_urna": "SAMANTHA DO ABILIO",
+ "cargo": "depest",
+ "uf": "MT",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1309132.67,
+  "por_origem": {
+   "Recursos de outros candidatos": 500.0,
+   "Recursos de partido político": 453000.0,
+   "Recursos de pessoas físicas": 855632.67
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 250000.0,
+   "OUTROS RECURSOS": 1059132.67
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 250000.0
+   },
+   {
+    "cnpj": "08767054000199",
+    "nome": "Direção Estadual/Distrital - PL - MATO GROSSO",
+    "total": 203000.0
+   },
+   {
+    "cnpj": "68606105000122",
+    "nome": "WELLINGTON ANTONIO FAGUNDES",
+    "total": 500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 107,
+   "total": 855632.67
+  }
+ },
+ "despesas": {
+  "total_contratado": 1059666.38,
+  "total_pago": 433380.18,
+  "fornecedores_pj": [
+   {
+    "cnpj": "26873706000151",
+    "nome": "IDEA SOLUCOES CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 73084.42
+   },
+   {
+    "cnpj": "19581821000197",
+    "nome": "EUNICE LOUREIRO DE SOUZA ALMEIDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 44463.01
+   },
+   {
+    "cnpj": "32571492000161",
+    "nome": "32.571.492 EMILY TATIANE DA SILVA FERRO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "26239119000105",
+    "nome": "THIAGO GRISOLIA CERQUEIRA",
+    "cnae": "45111",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "57905265000156",
+    "nome": "BODEGUITA EM KAZA MT LTDA",
+    "cnae": "56112",
+    "n_despesas": 4,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 11517.0
+   },
+   {
+    "cnpj": "23929195000154",
+    "nome": "SERATA EDITORA GRAFICA E PUBLICIDADE LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9100.0
+   },
+   {
+    "cnpj": "73783649000108",
+    "nome": "GRAFICA PRINT INDUSTRIA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6500.0
+   },
+   {
+    "cnpj": "24714859000473",
+    "nome": "VITORIA REGIA AGUA MINERAL LTDA",
+    "cnae": "49302",
+    "n_despesas": 4,
+    "tipos": [
+     "Água"
+    ],
+    "total": 4860.0
+   },
+   {
+    "cnpj": "46267765000193",
+    "nome": "GRAFICA POWER PRINT LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4230.0
+   },
+   {
+    "cnpj": "11508506000122",
+    "nome": "E L C - CONSTRUTORA E INCORPORADORA LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4083.33
+   },
+   {
+    "cnpj": "47440099000106",
+    "nome": "H-CLOTHERS ESPORTS LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3900.0
+   },
+   {
+    "cnpj": "65975947000163",
+    "nome": "R. BONFIN ENS",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3204.25
+   },
+   {
+    "cnpj": "55592343000184",
+    "nome": "55.592.343 JULIO BISPO DE CERQUEIRA NETO",
+    "cnae": "85996",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2600.0
+   },
+   {
+    "cnpj": "33070814001042",
+    "nome": "CARVALIMA TRANSPORTES LTDA",
+    "cnae": "49302",
+    "n_despesas": 21,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 2015.54
+   },
+   {
+    "cnpj": "53035198000105",
+    "nome": "REFRESC CLIMATIZADORES LTDA",
+    "cnae": "47857",
+    "n_despesas": 4,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1333.32
+   },
+   {
+    "cnpj": "47158161000171",
+    "nome": "GABRIELLY DE PAULA FLORES",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "56879479000132",
+    "nome": "56.879.479 RONAN CELLA TARTERO",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "42560997000184",
+    "nome": "SAL E LUZ COMERCIO ATACADISTA DE VESTUARIO E ACESSORIOS LTDA",
+    "cnae": "46427",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "06953015000150",
+    "nome": "WANESSA DE ABREU LTDA",
+    "cnae": "46494",
+    "n_despesas": 7,
+    "tipos": [
+     "Diversas a especificar",
+     "Materiais de expediente"
+    ],
+    "total": 637.99
+   },
+   {
+    "cnpj": "58439228000162",
+    "nome": "K. J. Z. DE A. CARVALHO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 633.88
+   },
+   {
+    "cnpj": "04913580000169",
+    "nome": "J.N. COMERCIAL LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "58704401000102",
+    "nome": "58.704.401 YURE VINICIUS DOS SANTOS LARA",
+    "cnae": "77292",
+    "n_despesas": 3,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "33070814000151",
+    "nome": "CARVALIMA TRANSPORTES LTDA",
+    "cnae": "49302",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 374.02
+   },
+   {
+    "cnpj": "21021861000126",
+    "nome": "F R DISTRIBUIDORA DE PAPEIS LTDA EM RECUPERACAO JUDICIAL",
+    "cnae": "46931",
+    "n_despesas": 7,
+    "tipos": [
+     "Diversas a especificar",
+     "Materiais de expediente"
+    ],
+    "total": 249.39
+   },
+   {
+    "cnpj": "28812419000167",
+    "nome": "CONSTRUMASSA MATERIAIS DE CONSTRUCAO LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 150.0
+   },
+   {
+    "cnpj": "11000090000137",
+    "nome": "CARVALHO EMBALAGENS LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 130.0
+   },
+   {
+    "cnpj": "16903492000165",
+    "nome": "OTI BRASIL TRANSPORTES LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 90.0
+   },
+   {
+    "cnpj": "14699807000179",
+    "nome": "C. G. DE LIMA LTDA",
+    "cnae": "46397",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 48.0
+   },
+   {
+    "cnpj": "07900203000183",
+    "nome": "VANDECIR LIZ DA SILVA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 12.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 196,
+   "total": 758100.23,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 481829.39,
+    "Cessão ou locação de veículos": 7000.0,
+    "Despesas com pessoal": 253640.84,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 130.0,
+    "Locação/cessão de bens imóveis": 10000.0,
+    "Locação/cessão de bens móveis (exceto veículos)": 5500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

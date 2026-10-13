@@ -1,0 +1,285 @@
+{
+ "sq": "130002535301",
+ "nome_urna": "ANA ELISA",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 916803.34,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 138783.0,
+   "Recursos de outros candidatos": 2000.0,
+   "Recursos de partido político": 669810.34,
+   "Recursos de pessoas físicas": 106210.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 669810.34,
+   "OUTROS RECURSOS": 246993.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 669810.34
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 138783.0
+   },
+   {
+    "cnpj": "68344911000170",
+    "nome": "ADRIANA CRISTINA FABIANO DE SOUZA",
+    "total": 2000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 106210.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 794972.01,
+  "total_pago": 862264.14,
+  "fornecedores_pj": [
+   {
+    "cnpj": "60970219000145",
+    "nome": "DEBORA BALDIN LTDA",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 131202.0
+   },
+   {
+    "cnpj": "60901178000135",
+    "nome": "PONTO SETE LOCACAO E VENDA DE IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 32170.0
+   },
+   {
+    "cnpj": "36440413000134",
+    "nome": "FLORADA COMUNICACAO DE IMPACTO LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "34028316343574",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 6,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 23760.7
+   },
+   {
+    "cnpj": "29816985000100",
+    "nome": "REGUFE TEIXEIRA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "30850849000115",
+    "nome": "REGUFE BRAGA TEIXEIRA ASSESSORIA E CONSULTORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 13000.0
+   },
+   {
+    "cnpj": "53478057000167",
+    "nome": "LETICIA CAMILA DE MELO BAHIA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "54361870000115",
+    "nome": "SOLUCAR SOLUCOES EM LOCACOES DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 11027.79
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "67148139000158",
+    "nome": "ZAP PRINT GRAFICA LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9700.0
+   },
+   {
+    "cnpj": "86472289000167",
+    "nome": "POSTO VEM-CAR LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4168.84
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 6,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 3166.28
+   },
+   {
+    "cnpj": "41056836000195",
+    "nome": "41.056.836 WILLIAM SANTOS NEVES",
+    "cnae": "43304",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "07723260000134",
+    "nome": "ALICERCE EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "13971804000180",
+    "nome": "DIVINEWS PORTAL DE NOTICIAS LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "39609273000173",
+    "nome": "39.609.273 GILBERTO BENFICA DOS SANTOS",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1700.0
+   },
+   {
+    "cnpj": "09171201000126",
+    "nome": "GRAFICA AGITO LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1640.0
+   },
+   {
+    "cnpj": "66015171000100",
+    "nome": "66.015.171 CAROLAINE STEFANY GONCALVES LACERDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1040.0
+   },
+   {
+    "cnpj": "55149547000145",
+    "nome": "G2A2 COMERCIAL LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 680.0
+   },
+   {
+    "cnpj": "07249951000148",
+    "nome": "PRIME ESTAMPARIA LTDA",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 450.0
+   },
+   {
+    "cnpj": "22758817000166",
+    "nome": "MAXI TINTAS LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 103.5
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 74,
+   "total": 460662.9,
+   "por_tipo": {
+    "Despesas com pessoal": 443039.9,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 123.0,
+    "Impostos, contribuições e taxas": 1000.0,
+    "Locação/cessão de bens imóveis": 9000.0,
+    "Multas eleitorais": 7500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

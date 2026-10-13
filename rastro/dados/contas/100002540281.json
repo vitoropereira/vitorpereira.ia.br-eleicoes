@@ -1,0 +1,195 @@
+{
+ "sq": "100002540281",
+ "nome_urna": "NETO EVANGELISTA",
+ "cargo": "depest",
+ "uf": "MA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 368553.5,
+  "por_origem": {
+   "Recursos de pessoas físicas": 237520.25,
+   "Recursos próprios": 131033.25
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 368553.5
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 49,
+   "total": 368553.5
+  }
+ },
+ "despesas": {
+  "total_contratado": 261459.84,
+  "total_pago": 335552.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 92500.0
+   },
+   {
+    "cnpj": "34028316121164",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 47993.6
+   },
+   {
+    "cnpj": "29129687000141",
+    "nome": "SAKADA INDUSTRIA COMUNICACAO E EVENTOS LTDA",
+    "cnae": "74901",
+    "n_despesas": 11,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 31713.6
+   },
+   {
+    "cnpj": "25031966000117",
+    "nome": "REGO CARVALHO GOMES ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "42994792000107",
+    "nome": "BUSINESS SERVICOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "41470063000199",
+    "nome": "SETE CORES INDUSTRIA E COMERCIO LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8350.0
+   },
+   {
+    "cnpj": "22850760000120",
+    "nome": "CASA DE IMPRESSAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 18,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7797.7
+   },
+   {
+    "cnpj": "04398811000143",
+    "nome": "MALHARIA VITORIA INDUSTRIA E COMERCIO DE CONFECCAO LTDA",
+    "cnae": "47555",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6968.0
+   },
+   {
+    "cnpj": "11191055000142",
+    "nome": "LA 7 PARTICIPACOES E EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "08092210000169",
+    "nome": "MEGA RENT A CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "06302616000101",
+    "nome": "COMERCIAL PETROMAR LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1681.74
+   },
+   {
+    "cnpj": "48517495000157",
+    "nome": "OUTMIDIA COMUNICACAO SOCIEDADE UNIPESSOAL LIMITADA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "65063358000109",
+    "nome": "65.063.358 ANDERSON ALVES DIAS",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "23217549000138",
+    "nome": "23.217.549 GIANNE DA SILVA LIMA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "41487364000125",
+    "nome": "TORY BRINDES LTDA",
+    "cnae": "22293",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 800.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 7,
+   "total": 30955.2,
+   "por_tipo": {
+    "Despesas com pessoal": 16000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 55.2,
+    "Serviços prestados por terceiros": 14900.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,107 @@
+{
+ "sq": "10002536340",
+ "nome_urna": "EDUARDO RIBEIRO",
+ "cargo": "depest",
+ "uf": "AC",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 422678.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 150000.0,
+   "Recursos de partido político": 100000.0,
+   "Recursos de pessoas físicas": 99678.0,
+   "Recursos próprios": 73000.0
+  },
+  "por_fonte": {
+   "FUNDO PARTIDARIO": 250000.0,
+   "OUTROS RECURSOS": 172678.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68283135000145",
+    "nome": "MIRLA MORAES MIRANDA MARIANO",
+    "total": 150000.0
+   },
+   {
+    "cnpj": "09017845000164",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - ACRE",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 30,
+   "total": 172678.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 106875.25,
+  "total_pago": 81571.6,
+  "fornecedores_pj": [
+   {
+    "cnpj": "10678911000126",
+    "nome": "DERZE SILVA ASSESSORIA E SERVICOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "09466162000194",
+    "nome": "SANFER CONSULTORIA LTDA",
+    "cnae": "46192",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "29198914000190",
+    "nome": "W. C. DE BRITO LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5300.0
+   },
+   {
+    "cnpj": "02035162000190",
+    "nome": "P L MARTINI",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3700.0
+   },
+   {
+    "cnpj": "07466381000148",
+    "nome": "JOAFRA - AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1903.65
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 10,
+   "total": 60971.6,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 53450.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 21.6,
+    "Locação/cessão de bens imóveis": 7500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,310 @@
+{
+ "sq": "100002542869",
+ "nome_urna": "AMANDA GENTIL",
+ "cargo": "depfed",
+ "uf": "MA",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3247300.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 50050.0,
+   "Recursos de partido político": 3020000.0,
+   "Recursos de pessoas físicas": 142250.0,
+   "Recursos próprios": 35000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2900000.0,
+   "FUNDO PARTIDARIO": 120000.0,
+   "OUTROS RECURSOS": 227300.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 3020000.0
+   },
+   {
+    "cnpj": "68454998000138",
+    "nome": "DANIELLA JADAO MENESES",
+    "total": 50050.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 14,
+   "total": 177250.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1933839.37,
+  "total_pago": 3005881.09,
+  "fornecedores_pj": [
+   {
+    "cnpj": "35844647000184",
+    "nome": "J C SILVA LTDA",
+    "cnae": "17311",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 384250.0
+   },
+   {
+    "cnpj": "48551631000125",
+    "nome": "DISCOVER SERVICOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "05410681000180",
+    "nome": "GRAFICA FOLHA DO NORDESTE LTDA",
+    "cnae": "58298",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 220020.0
+   },
+   {
+    "cnpj": "15827503000102",
+    "nome": "GUMERCINDO GOMES DE ARAUJO NETO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 152500.0
+   },
+   {
+    "cnpj": "64389397000138",
+    "nome": "64.389.397 BARBARA THAMYRES SILVA EVANGELISTA TEIXEIRA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "40311024000186",
+    "nome": "AMAR PRODUCOES LTDA.",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 90000.0
+   },
+   {
+    "cnpj": "63208530000140",
+    "nome": "LUCAS NASCIMENTO SANTOS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "45041632000131",
+    "nome": "A AZEVEDO ABREU CONSULTORIA E CONTROLADORIA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "00963743000167",
+    "nome": "S F PINHEIRO E CIA LTDA",
+    "cnae": "47521",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "40665590000196",
+    "nome": "E COSTA VILANOVA LTDA",
+    "cnae": "47318",
+    "n_despesas": 29,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 35900.0
+   },
+   {
+    "cnpj": "01532188000181",
+    "nome": "DELMAYR DOS SANTOS MELO",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "07175717000113",
+    "nome": "J. B. F. TRANSPORTE COLETIVOS E TURISMO LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "19726378000103",
+    "nome": "WJ SERVICOS E COMERCIO LTDA",
+    "cnae": "58298",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18500.0
+   },
+   {
+    "cnpj": "02114465000107",
+    "nome": "POSTO SANTA MARTA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10004.29
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "48648739000130",
+    "nome": "FHP EMPREENDIMENTOS E PARTICIPACOES LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "28117082000178",
+    "nome": "SANTOS MARTINS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9837.48
+   },
+   {
+    "cnpj": "41593185000172",
+    "nome": "POSTO HC1 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 8789.0
+   },
+   {
+    "cnpj": "02499003000147",
+    "nome": "PANIFICADORA PAO E LEITE LTDA",
+    "cnae": "10911",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "31838128000152",
+    "nome": "DISTRIBUICAO DE ALIMENTOS VANGUARDA S/A",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "38203366000130",
+    "nome": "TREVO COMERCIO E SERVICOS LTDA",
+    "cnae": "46494",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6500.0
+   },
+   {
+    "cnpj": "43064881000117",
+    "nome": "POSTO HC2 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5010.1
+   },
+   {
+    "cnpj": "11580827000138",
+    "nome": "POSTO CASTRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "19072760000132",
+    "nome": "ALMAPO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 25,
+   "total": 163028.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 101000.0,
+    "Despesas com pessoal": 62000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 28.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,175 @@
+{
+ "sq": "80002549470",
+ "nome_urna": "JACK ROCHA",
+ "cargo": "depfed",
+ "uf": "ES",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2940135.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 135.0,
+   "Recursos de partido político": 2940000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2940135.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 2940000.0
+   },
+   {
+    "cnpj": "68594638000131",
+    "nome": "HELDER IGNACIO SALOMAO",
+    "total": 135.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1020173.8,
+  "total_pago": 294049.04,
+  "fornecedores_pj": [
+   {
+    "cnpj": "37271105000195",
+    "nome": "THAYS LARA DIAS RAMOS",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "40356937000119",
+    "nome": "LUCIA HELENA DORNELLAS - LD CONSULTORIA EM GESTAO",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "08938413000123",
+    "nome": "F A SONORIZACAO LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "40047840000124",
+    "nome": "INFORTEC LICITACOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 72000.0
+   },
+   {
+    "cnpj": "27252147000125",
+    "nome": "GRAFICA E EDITORA JEP LTDA",
+    "cnae": "58298",
+    "n_despesas": 16,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24960.0
+   },
+   {
+    "cnpj": "09910994000158",
+    "nome": "VIX ASSESSORIA E CONSULTORIA EMPRESARIAL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "27618804000105",
+    "nome": "VICTOR HUGO DE MENEZES - MP SOLUCOES",
+    "cnae": "43291",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16465.3
+   },
+   {
+    "cnpj": "63818813000103",
+    "nome": "ALX INDUSTRIA LTDA",
+    "cnae": "14126",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6840.0
+   },
+   {
+    "cnpj": "01751214000162",
+    "nome": "MARCOS RIBEIRO SANTOS",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "37456410000151",
+    "nome": "ALL SERV COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 55,
+   "total": 167408.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 160400.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 8.5,
+    "Locação/cessão de bens imóveis": 7000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

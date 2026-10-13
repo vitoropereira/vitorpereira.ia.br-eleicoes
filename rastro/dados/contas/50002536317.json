@@ -1,0 +1,826 @@
+{
+ "sq": "50002536317",
+ "nome_urna": "JAQUES WAGNER",
+ "cargo": "senador",
+ "uf": "BA",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3851320.93,
+  "por_origem": {
+   "Recursos de partido político": 3018320.93,
+   "Recursos de pessoas físicas": 300000.0,
+   "Recursos próprios": 533000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2668320.93,
+   "FUNDO PARTIDARIO": 50000.0,
+   "OUTROS RECURSOS": 1133000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 2668320.93
+   },
+   {
+    "cnpj": "13477302000105",
+    "nome": "Direção Estadual/Distrital - PT - BAHIA",
+    "total": 350000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 833000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 3759422.64,
+  "total_pago": 1443830.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "23533529000176",
+    "nome": "CRITICAL MASS COMUNICACAO DIGITAL LTDA.",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 294996.24
+   },
+   {
+    "cnpj": "52356077000100",
+    "nome": "PEDRO SCAVUZZI SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 265000.0
+   },
+   {
+    "cnpj": "18170075000186",
+    "nome": "RG8 TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 207500.0
+   },
+   {
+    "cnpj": "13994239000176",
+    "nome": "MACACO GORDO PUBLICIDADE E SERVICOS LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "16874501000137",
+    "nome": "MELISSA DANTAS DE ANDRADE LIMA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "06933485000152",
+    "nome": "HERINGER TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 163550.0
+   },
+   {
+    "cnpj": "11204975000158",
+    "nome": "FONEMATECA - SERVICOS E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 145000.0
+   },
+   {
+    "cnpj": "29140095000120",
+    "nome": "YURI DE G N B DE ALMEIDA COMUNICACAO DIGITAL",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 140000.0
+   },
+   {
+    "cnpj": "18171455000135",
+    "nome": "JOAO PINTO RODRIGUES DA COSTA JUNIOR",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 112500.0
+   },
+   {
+    "cnpj": "31285857000129",
+    "nome": "RAO COMUNICACAO E MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 110000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 84000.0
+   },
+   {
+    "cnpj": "10989205000103",
+    "nome": "CACCICCIO COMUNICACAO E PUBLICIDADE LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "52789580000141",
+    "nome": "52.789.580 BRENNO ALVES GUERRA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 66000.0
+   },
+   {
+    "cnpj": "66161168000197",
+    "nome": "66.161.168 ALEXSANDRO DOS SANTOS GONCALVES",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 66000.0
+   },
+   {
+    "cnpj": "00395342000158",
+    "nome": "AUDIC CONTABILIDADE SOCIEDADE SIMPLES LIMITADA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 65000.0
+   },
+   {
+    "cnpj": "09157537000134",
+    "nome": "IPIRA NEGOCIOS LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "15353835000100",
+    "nome": "ESTEIRA FILMES E ANIMACOES LTDA",
+    "cnae": "59120",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 55000.0
+   },
+   {
+    "cnpj": "22675097000175",
+    "nome": "CASCIO MKT E PROMOCAO DE VENDAS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 52500.0
+   },
+   {
+    "cnpj": "24471249000143",
+    "nome": "CLAUDIA REGINA SOUZA DA COSTA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "64032825000170",
+    "nome": "PREMIER PRODUCOES EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "16950441000194",
+    "nome": "MARCIO CARVALHO FIGUEREDO",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 46400.0
+   },
+   {
+    "cnpj": "46301739000134",
+    "nome": "SANGUE NOVO PRODUTORA LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 42500.0
+   },
+   {
+    "cnpj": "02159427000162",
+    "nome": "SOFA DA SOGRA EDITORA E SERVICOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 42000.0
+   },
+   {
+    "cnpj": "65851902000187",
+    "nome": "LOVISI COMUNICACAO LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "66350688000148",
+    "nome": "LATINA PRODUTORA DIGITAL LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "03200737000146",
+    "nome": "XYZ HUMAN-CENTERED DESIGN LTDA",
+    "cnae": "90027",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 37500.0
+   },
+   {
+    "cnpj": "08744133000184",
+    "nome": "ONZE MARKETING E DESIGN LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 37500.0
+   },
+   {
+    "cnpj": "63921057000143",
+    "nome": "63.921.057 LUIS ALBERTO DE OLIVEIRA BATISTA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 37500.0
+   },
+   {
+    "cnpj": "17280185000138",
+    "nome": "NATIVA SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 34499.9
+   },
+   {
+    "cnpj": "10373735000114",
+    "nome": "VASCONCELOS SIMOES ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 33000.0
+   },
+   {
+    "cnpj": "17729694000103",
+    "nome": "HILARIAO NEVES ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "26166100000186",
+    "nome": "MENDES MENDONCA ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "29335396000100",
+    "nome": "FLIP SERVICOS LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "40854545000180",
+    "nome": "NAPOLI MARKETING DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "62738111000157",
+    "nome": "62.738.111 MARIA BEATRIZ CUNHA DOS SANTOS",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "47249762000190",
+    "nome": "VISION PRODUCOES E SERVICOS LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 27500.0
+   },
+   {
+    "cnpj": "64374602000191",
+    "nome": "64.374.602 RODRIGO CONCEICAO DE OLIVEIRA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 27500.0
+   },
+   {
+    "cnpj": "68296632000188",
+    "nome": "DI PAOLO LAB CREATIVE LTDA",
+    "cnae": "74102",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 27500.0
+   },
+   {
+    "cnpj": "68298847000138",
+    "nome": "VIBES COMUNICA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "10505398000171",
+    "nome": "COSTA MEDRADO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "15256298000172",
+    "nome": "15.256.298 MATHEUS TAVARES PIRAJA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "48325210000186",
+    "nome": "LADO B PRODUTOS GRAFICOS LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "58834940000166",
+    "nome": "PAULO SIMAS COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "20698798000102",
+    "nome": "20.698.798 FELIPE PEREIRA DE SOUZA PRATES",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "22166919000192",
+    "nome": "22.166.919 BERNARDO FAEL O DWYER",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "34609282000140",
+    "nome": "MALASSOMBRO AUDIOVISUAL LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "39687859000156",
+    "nome": "IB REPRESENTACOES ARTISTICAS LTDA",
+    "cnae": "79902",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "68927761000127",
+    "nome": "CASTELOS COMUNICACAO E MARKETING LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "22469913000194",
+    "nome": "MARCELO CHAGAS COSTA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "30367462000102",
+    "nome": "MIRANDA PRODUCOES LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "50721727000136",
+    "nome": "KOFI PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "60048706000155",
+    "nome": "60.048.706 ESTER DOS SANTOS ARAUJO",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "66314103000134",
+    "nome": "66.314.103 ALBERT DOUGLAS SILVA SANTOS",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68048770000148",
+    "nome": "ISABEL ARRUDA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68094034000126",
+    "nome": "GB PRODUCOES E PUBLICIDADE LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 19000.0
+   },
+   {
+    "cnpj": "29863703000125",
+    "nome": "JL TRANSPORTES E TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "37740741000119",
+    "nome": "RICARDO DE LIMA SILVA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 16250.0
+   },
+   {
+    "cnpj": "40225615000130",
+    "nome": "JOYO TECNOLOGIA BRASIL LTDA.",
+    "cnae": "63194",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "18749900000100",
+    "nome": "VIVIANE LIMA DE MATOS DOS SANTOS",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "22815181000147",
+    "nome": "A S SANTANA LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "60667767000109",
+    "nome": "B G PEIXOTO LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "65981251000140",
+    "nome": "65.981.251 CAIO CARVALHO DOS SANTOS",
+    "cnae": "43215",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "38291762000167",
+    "nome": "38.291.762 JAIANNE DE JESUS COSTA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "68888475000108",
+    "nome": "68.888.475 FERNANDA SOUSA DOS SANTOS",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "07259259000109",
+    "nome": "MERCES ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 13000.0
+   },
+   {
+    "cnpj": "35905731000160",
+    "nome": "35.905.731 ANDERSON VIDAL QUEIROZ DOS SANTOS",
+    "cnae": "96025",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 11250.0
+   },
+   {
+    "cnpj": "67605863000163",
+    "nome": "67.605.863 GUILHERME DOS SANTOS AMORIM",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 11250.0
+   },
+   {
+    "cnpj": "29974584000188",
+    "nome": "29.974.584 EVANIZE SILVA SANTOS",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "40568941000140",
+    "nome": "CJ SERVICOS E EMPREENDIMENTOS LTDA",
+    "cnae": "71120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "40270006000101",
+    "nome": "DANILO TRANCOSO LOPO DE AMORIM",
+    "cnae": "95118",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "68868878000187",
+    "nome": "68.868.878 ALICE URPIA SANTOS",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "20664790000117",
+    "nome": "AMASV ZARPA TRANSMISSAO E ARMAZENAMENTO DE DADOS S.A.",
+    "cnae": "63119",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6840.0
+   },
+   {
+    "cnpj": "67772924000187",
+    "nome": "67.772.924 RAFAEL SILVA ALMEIDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "38440090000104",
+    "nome": "DANILO DA SILVA PURIDADE",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "15151046000340",
+    "nome": "POSTO KALILANDIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "24759252000167",
+    "nome": "FEIRA ROTULOS E ETIQUETAS ADESIVAS LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3864.0
+   },
+   {
+    "cnpj": "42273679000132",
+    "nome": "(AS) CONSULTORIA E DESENVOLVIMENTO DE NEGOCIOS LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 3000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 4,
+   "total": 58022.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 22.5,
+    "Serviços prestados por terceiros": 58000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,469 @@
+{
+ "sq": "130002539490",
+ "nome_urna": "IZA LOURENÇA",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PSOL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1108958.67,
+  "por_origem": {
+   "Recursos de outros candidatos": 58650.0,
+   "Recursos de partido político": 984472.63,
+   "Recursos de pessoas físicas": 65836.04
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 937549.64,
+   "FUNDO PARTIDARIO": 104072.99,
+   "OUTROS RECURSOS": 67336.04
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "06954942000195",
+    "nome": "Direção Nacional - PSOL",
+    "total": 920246.13
+   },
+   {
+    "cnpj": "27178691000174",
+    "nome": "Direção Estadual/Distrital - PSOL - MINAS GERAIS",
+    "total": 64226.5
+   },
+   {
+    "cnpj": "68438124000197",
+    "nome": "DARIO RICARDO BRAGA DE MOURA",
+    "total": 48850.0
+   },
+   {
+    "cnpj": "68571277000108",
+    "nome": "AUREA CAROLINA DE FREITAS E SILVA",
+    "total": 5000.0
+   },
+   {
+    "cnpj": "68437685000171",
+    "nome": "CELIA NUNES CORREA",
+    "total": 4800.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 14,
+   "total": 65836.04
+  }
+ },
+ "despesas": {
+  "total_contratado": 510296.77,
+  "total_pago": 382527.71,
+  "fornecedores_pj": [
+   {
+    "cnpj": "33936921000110",
+    "nome": "FIGUEIREDO TROGO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "dLocal Brasil IP S.A",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "35755101000157",
+    "nome": "CAJUINA PRODUCOES E MIDIA DIGITAL LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 36000.0
+   },
+   {
+    "cnpj": "20111290000158",
+    "nome": "Gráfica Editora Cedablio Ltda.",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 33185.0
+   },
+   {
+    "cnpj": "53672386000144",
+    "nome": "BARRETO AMARAL GESTAO E INOVACAO LTDA",
+    "cnae": "62040",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "43642348000195",
+    "nome": "Industrias Neon Ltda",
+    "cnae": "46737",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6800.0
+   },
+   {
+    "cnpj": "21960877000102",
+    "nome": "Rovigo Empreendimentos LTDA",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 5223.22
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR S.A.",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4151.95
+   },
+   {
+    "cnpj": "20133351000188",
+    "nome": "QUINTÃO IMÓVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "53714998000152",
+    "nome": "MARIA PAULA MONTEIRO MACHADO",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "65570984000191",
+    "nome": "LUCAS MARQUES DE ALMEIDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 2900.0
+   },
+   {
+    "cnpj": "14710031000140",
+    "nome": "FOLHETO FACIL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1760.0
+   },
+   {
+    "cnpj": "21821800000143",
+    "nome": "IZZY HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1740.0
+   },
+   {
+    "cnpj": "55149547000145",
+    "nome": "G2A2 COMERCIAL LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1740.0
+   },
+   {
+    "cnpj": "48776960000174",
+    "nome": "CEU CARGAS URGENTES LTDA",
+    "cnae": "49302",
+    "n_despesas": 18,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 1726.18
+   },
+   {
+    "cnpj": "65359279000140",
+    "nome": "PABLO HENRIQUE RAMOS DE AZEVEDO",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1300.0
+   },
+   {
+    "cnpj": "44271508000108",
+    "nome": "BRENDA VITORIA ALVES TAVARES",
+    "cnae": "96025",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "21170680000161",
+    "nome": "LIMONADA AUDIOVISUAL LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "40187496000179",
+    "nome": "São Pedro Combustiveis",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 444.64
+   },
+   {
+    "cnpj": "02369525000124",
+    "nome": "Auto Posto Vale LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 430.3
+   },
+   {
+    "cnpj": "23878556000180",
+    "nome": "Posto Teleferico LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 306.03
+   },
+   {
+    "cnpj": "26841315000155",
+    "nome": "CRISTIANO MACHADO POSTO CRISTIANO MACHADO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 271.22
+   },
+   {
+    "cnpj": "64438708000101",
+    "nome": "CCA Comercial de combustiveis automotivos",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 252.37
+   },
+   {
+    "cnpj": "27089396000141",
+    "nome": "LIRIO POSTO",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 237.43
+   },
+   {
+    "cnpj": "02685478000128",
+    "nome": "MARLIW EMPREENDIMENTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 231.83
+   },
+   {
+    "cnpj": "16696445000198",
+    "nome": "POSTO QUATRO RODAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 230.78
+   },
+   {
+    "cnpj": "14552512000175",
+    "nome": "AGORA AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 206.7
+   },
+   {
+    "cnpj": "05363398000144",
+    "nome": "Posto Everest",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 195.52
+   },
+   {
+    "cnpj": "20198527000180",
+    "nome": "ALO CARIMBOS COMERCIAL LTDA",
+    "cnae": "82997",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 195.0
+   },
+   {
+    "cnpj": "06934844000196",
+    "nome": "Posto de Combustivel Vila Cruzeiro Limitada",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 184.65
+   },
+   {
+    "cnpj": "03567739000178",
+    "nome": "Posto Carmenia S.A",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 180.0
+   },
+   {
+    "cnpj": "07857349000274",
+    "nome": "POSTO PEQUIS",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 168.9
+   },
+   {
+    "cnpj": "19376275000152",
+    "nome": "POSTO DE COMBUSTIVEL VIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 162.66
+   },
+   {
+    "cnpj": "35721974000149",
+    "nome": "POSTO FLORESTA LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 133.43
+   },
+   {
+    "cnpj": "45784019000104",
+    "nome": "Deposito Floresta",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 37.9
+   },
+   {
+    "cnpj": "01928075023302",
+    "nome": "DMA DISTRIBUIDORA S/A",
+    "cnae": "46915",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 33.6
+   },
+   {
+    "cnpj": "49434544000150",
+    "nome": "CHAMOU GAS E AGUA LTDA",
+    "cnae": "47849",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 25.0
+   },
+   {
+    "cnpj": "04641376003070",
+    "nome": "SUPERMERCADOS BH COM. DE ALIMENTOS S.A",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 19.96
+   },
+   {
+    "cnpj": "01928075001333",
+    "nome": "DMA DISTRIBUIDORA S/A",
+    "cnae": "46915",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 8.9
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 53,
+   "total": 278013.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 150850.0,
+    "Despesas com pessoal": 5000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 35.5,
+    "Locação/cessão de bens imóveis": 8600.0,
+    "Produção de jingles, vinhetas e slogans": 9000.0,
+    "Produção de programas de rádio, televisão ou vídeo": 7300.0,
+    "Pré-instalação física de comitê de campanha": 1500.0,
+    "Publicidade por materiais impressos": 15000.0,
+    "Serviços prestados por terceiros": 80728.1
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

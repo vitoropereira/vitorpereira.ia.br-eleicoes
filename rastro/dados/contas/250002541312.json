@@ -1,0 +1,343 @@
+{
+ "sq": "250002541312",
+ "nome_urna": "GUILHERME DERRITE",
+ "cargo": "senador",
+ "uf": "SP",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 7695140.01,
+  "por_origem": {
+   "Recursos de partido político": 5850000.0,
+   "Recursos de pessoas físicas": 1845140.01
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2350000.0,
+   "FUNDO PARTIDARIO": 3500000.0,
+   "OUTROS RECURSOS": 1845140.01
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 5850000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 59,
+   "total": 1845140.01
+  }
+ },
+ "despesas": {
+  "total_contratado": 5202835.22,
+  "total_pago": 5396119.12,
+  "fornecedores_pj": [
+   {
+    "cnpj": "48942689000108",
+    "nome": "RTV FILMES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1320000.0
+   },
+   {
+    "cnpj": "52264807000135",
+    "nome": "PLTK COMUNICACAO ESTRATEGICA LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1150000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 1020000.0
+   },
+   {
+    "cnpj": "05915213000167",
+    "nome": "FLAVIO BRITTO E CRISTIANE BRITTO ADVOCACIA E CONSULTORIA JURIDICA ADVOGADOS ASSOCIADOS S/S",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 500000.0
+   },
+   {
+    "cnpj": "08294927000193",
+    "nome": "THAFMA SERVICOS AUXILIARES DO TRANSPORTE AEREO LTDA",
+    "cnae": "52401",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 189086.0
+   },
+   {
+    "cnpj": "09546840000129",
+    "nome": "OBDI LOCACAO DE VEICULOS LTDA",
+    "cnae": "49230",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes",
+     "Diversas a especificar",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 127000.0
+   },
+   {
+    "cnpj": "17455913000103",
+    "nome": "VOAR AVIATION TAXI AEREO E MANUTENCAO LTDA.",
+    "cnae": "51129",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 115000.0
+   },
+   {
+    "cnpj": "51919759000103",
+    "nome": "LUANA HUMER EID",
+    "cnae": "63917",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 105000.0
+   },
+   {
+    "cnpj": "18345791000157",
+    "nome": "MAIRINCK ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "02641559000126",
+    "nome": "JAPAN DESIGNERS DO BRASIL LTDA",
+    "cnae": "47890",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 87550.0
+   },
+   {
+    "cnpj": "24663068000119",
+    "nome": "ROTORFLY TAXI AEREO E SERVICOS AEREOS ESPECIALIZADOS LTDA",
+    "cnae": "51129",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 65000.0
+   },
+   {
+    "cnpj": "68237389000127",
+    "nome": "ISRAEL NANTES SANTOS",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 57500.0
+   },
+   {
+    "cnpj": "12264284000102",
+    "nome": "SALES TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 53000.0
+   },
+   {
+    "cnpj": "21156308000109",
+    "nome": "RENASEB - EMPRESA DE SEGURANCA E VIGILANCIA LTDA",
+    "cnae": "80111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 32536.25
+   },
+   {
+    "cnpj": "33952234000198",
+    "nome": "FDR COMUNICARE DESENVOLVIMENTO LTDA",
+    "cnae": "85996",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30800.0
+   },
+   {
+    "cnpj": "10876448000127",
+    "nome": "RC SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21540.0
+   },
+   {
+    "cnpj": "68237409000160",
+    "nome": "MARCOS DAS NEVES PALUMBO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "50925016000183",
+    "nome": "DCONTROLL SE LTDA",
+    "cnae": "47571",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 11954.21
+   },
+   {
+    "cnpj": "68469204000100",
+    "nome": "FENIX COMERCIO DE PAPEIS LTDA",
+    "cnae": "53105",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 10113.2
+   },
+   {
+    "cnpj": "54753156000172",
+    "nome": "OPERADORA LEGAL X LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5891.0
+   },
+   {
+    "cnpj": "01010003000179",
+    "nome": "DEBATE EMPRESA JORNALISTICA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 5680.0
+   },
+   {
+    "cnpj": "12087761000101",
+    "nome": "MARTINEZ EVENTOS SERVICOS E COMERCIO LTDA",
+    "cnae": "77292",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3750.0
+   },
+   {
+    "cnpj": "22989691000130",
+    "nome": "IPERO COMUNICACAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2700.0
+   },
+   {
+    "cnpj": "11780748000170",
+    "nome": "ANTONIO SERGIO MERIDA SANCHES",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2655.0
+   },
+   {
+    "cnpj": "07179812000195",
+    "nome": "FERNANDO DE ARAUJO SILVA PUBLICIDADE",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "68174751000168",
+    "nome": "EDITORA NOSSO BAIRRO COMUNICACAO E PUBLICIDADE INTEGRADA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "09722227000115",
+    "nome": "DUARTES GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1350.0
+   },
+   {
+    "cnpj": "43776517000180",
+    "nome": "COMPANHIA DE SANEAMENTO BASICO DO ESTADO DE SAO PAULO - SABESP",
+    "cnae": "36006",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 163.96
+   },
+   {
+    "cnpj": "23828584000193",
+    "nome": "ANDREOTTI ANDREOTTI COMERCIO DE PRODUTOS ALIMENTICIOS LTDA.",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 130.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 9,
+   "total": 161435.6,
+   "por_tipo": {
+    "Despesas com pessoal": 131400.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 35.6,
+    "Locação/cessão de bens móveis (exceto veículos)": 30000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

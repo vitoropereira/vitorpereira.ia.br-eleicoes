@@ -1,0 +1,171 @@
+{
+ "sq": "90002548664",
+ "nome_urna": "ALESSANDRO MOREIRA",
+ "cargo": "depest",
+ "uf": "GO",
+ "partido": "PRD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 156125.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 10425.0,
+   "Recursos de pessoas físicas": 80000.0,
+   "Recursos próprios": 65700.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 156125.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68470445000179",
+    "nome": "ADRIANO ANTONIO AVELAR",
+    "total": 10425.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 145700.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 122887.27,
+  "total_pago": 73576.27,
+  "fornecedores_pj": [
+   {
+    "cnpj": "01796505000177",
+    "nome": "TRAPY ZOMBA CONFECCOES BRINDES LTDA",
+    "cnae": "14126",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27400.0
+   },
+   {
+    "cnpj": "07804514000149",
+    "nome": "TRAICE AUDITORIA E CONSULTORIA S/S LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "26713715000185",
+    "nome": "ROMANO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "32173458000139",
+    "nome": "SONALDO ALVES DE LIMA",
+    "cnae": "96092",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "14707720000104",
+    "nome": "CONEXAO DIGITAL SOLUTION - COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4230.0
+   },
+   {
+    "cnpj": "10229779000175",
+    "nome": "JUVANI BATISTA SOBRINHO CIA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3245.0
+   },
+   {
+    "cnpj": "56781731000176",
+    "nome": "56.781.731 IGOR GEMENES RESENDE PACHECO",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "22253622000164",
+    "nome": "LOPES COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "38462304000143",
+    "nome": "ALL CARGO LOGISTICA E TRANSPORTES LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 1404.77
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "16930676000114",
+    "nome": "16.930.676 JONEI RODRIGUES DE OLIVEIRA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 390.0
+   },
+   {
+    "cnpj": "61779488000191",
+    "nome": "61.779.488 RODRIGO GOMES RIBEIRO",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 350.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 7,
+   "total": 15367.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 4.5,
+    "Locação/cessão de bens imóveis": 15363.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

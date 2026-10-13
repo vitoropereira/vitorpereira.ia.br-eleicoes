@@ -1,0 +1,206 @@
+{
+ "sq": "270002548521",
+ "nome_urna": "FABIO VAZ",
+ "cargo": "depfed",
+ "uf": "TO",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1649400.87,
+  "por_origem": {
+   "Recursos de outros candidatos": 1317.44,
+   "Recursos de partido político": 1510483.43,
+   "Recursos de pessoas físicas": 63600.0,
+   "Recursos próprios": 74000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1469941.58,
+   "FUNDO PARTIDARIO": 15690.87,
+   "OUTROS RECURSOS": 163768.42
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 1469770.06
+   },
+   {
+    "cnpj": "08738595000199",
+    "nome": "Direção Estadual/Distrital - PL - TOCANTINS",
+    "total": 25022.5
+   },
+   {
+    "cnpj": "08917083000190",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - TOCANTINS",
+    "total": 15690.87
+   },
+   {
+    "cnpj": "68492195000178",
+    "nome": "MARIA AUXILIADORA SEABRA REZENDE",
+    "total": 1070.92
+   },
+   {
+    "cnpj": "68553426000106",
+    "nome": "MARCUS VINICIUS CAMARGO PIRES",
+    "total": 246.52
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 8,
+   "total": 137600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 909993.68,
+  "total_pago": 1153958.02,
+  "fornecedores_pj": [
+   {
+    "cnpj": "11547309000112",
+    "nome": "SOLANO DONATO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "24906480000112",
+    "nome": "LAMPION AGENCIA DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "15720302000101",
+    "nome": "CORES EM PAPEL INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 101445.82
+   },
+   {
+    "cnpj": "31919649000134",
+    "nome": "31.919.649 ROSANA RIBEIRO LOPES",
+    "cnae": "47512",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 75480.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "24935788000196",
+    "nome": "AFA INDUSTRIA COMERCIO E SERVICOS LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 49760.0
+   },
+   {
+    "cnpj": "34028316741383",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 47393.68
+   },
+   {
+    "cnpj": "29485486000187",
+    "nome": "MENDES E BORGES EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "42897156000167",
+    "nome": "M M DE ARAUJO MADD TRANSPORTES",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "24188975000153",
+    "nome": "SUPREMA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9262.98
+   },
+   {
+    "cnpj": "56322023000177",
+    "nome": "SAUBER EMPREENDIMENTOS, ESTRUTURAS E EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 7200.0
+   },
+   {
+    "cnpj": "09010776000167",
+    "nome": "ARAGUAIA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1637.0
+   },
+   {
+    "cnpj": "93209765068340",
+    "nome": "WMS SUPERMERCADOS DO BRASIL LTDA.",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 908.7
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 47,
+   "total": 234905.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 48000.0,
+    "Despesas com pessoal": 138900.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 5.5,
+    "Locação/cessão de bens imóveis": 2000.0,
+    "Serviços contábeis": 46000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

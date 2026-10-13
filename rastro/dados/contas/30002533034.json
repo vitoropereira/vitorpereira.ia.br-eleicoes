@@ -1,0 +1,87 @@
+{
+ "sq": "30002533034",
+ "nome_urna": "FABRICIO FURLAN",
+ "cargo": "depest",
+ "uf": "AP",
+ "partido": "REDE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 550000.0,
+  "por_origem": {
+   "Recursos de partido político": 550000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 550000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "17981188000107",
+    "nome": "Direção Nacional - REDE",
+    "total": 550000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 445000.5,
+  "total_pago": 550000.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "28525331000164",
+    "nome": "J M R AMARAL",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "50252641000101",
+    "nome": "REALIZE ASSESSORIA LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "53573756000196",
+    "nome": "J. L. C. DOS SANTOS",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "05786345000136",
+    "nome": "TORK AUDITORIA E ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 200000.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5,
+    "Serviços advocatícios": 200000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

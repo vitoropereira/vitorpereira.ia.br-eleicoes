@@ -1,0 +1,228 @@
+{
+ "sq": "50002535050",
+ "nome_urna": "ELINALDO",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 668845.1,
+  "por_origem": {
+   "Recursos de outros candidatos": 158000.0,
+   "Recursos de partido político": 476845.1,
+   "Recursos de pessoas físicas": 34000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 441676.1,
+   "FUNDO PARTIDARIO": 193169.0,
+   "OUTROS RECURSOS": 34000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 283676.1
+   },
+   {
+    "cnpj": "45928648000160",
+    "nome": "Direção Estadual/Distrital - UNIÃO - BAHIA",
+    "total": 193169.0
+   },
+   {
+    "cnpj": "68319238000118",
+    "nome": "MANUEL AZEVEDO ROCHA",
+    "total": 108000.0
+   },
+   {
+    "cnpj": "68319373000163",
+    "nome": "PAULO VELLOSO DANTAS AZI",
+    "total": 50000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 34000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 615970.49,
+  "total_pago": 341401.56,
+  "fornecedores_pj": [
+   {
+    "cnpj": "61042113000144",
+    "nome": "PACIFICO ENTRETENIMENTO E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 3,
+    "tipos": [
+     "Atividades de militância e mobilização de rua",
+     "Locação/cessão de bens móveis (exceto veículos)",
+     "Publicidade por carros de som"
+    ],
+    "total": 256460.0
+   },
+   {
+    "cnpj": "67168797000101",
+    "nome": "DS GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 100000.66
+   },
+   {
+    "cnpj": "08377064000118",
+    "nome": "SENA RENT A CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 60010.2
+   },
+   {
+    "cnpj": "15745266000130",
+    "nome": "ESTJ COMERCIO E SERVICOS LTDA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 36500.0
+   },
+   {
+    "cnpj": "60511818000109",
+    "nome": "60.511.818 LEANDRO DE SOUZA SILVA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 31200.0
+   },
+   {
+    "cnpj": "53721430000169",
+    "nome": "LP CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "04373176000140",
+    "nome": "XANGO COMERCIO DE DERIVADOS DE PETROLEO E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 20249.43
+   },
+   {
+    "cnpj": "48568222000131",
+    "nome": "VM PRODUCOES LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "23626694000172",
+    "nome": "LIDER GRAFICA E SERVICOS LTDA",
+    "cnae": "18211",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11500.0
+   },
+   {
+    "cnpj": "50111852000124",
+    "nome": "THIAGO SANTOS BIANCHI SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 9500.0
+   },
+   {
+    "cnpj": "32137817000100",
+    "nome": "COMERCIO E DISTRIBUIDORA DE BEBIDAS O M LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "97430284000198",
+    "nome": "YANSA-COMERCIO DE DERIVADOS DE PETROLEO E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4318.0
+   },
+   {
+    "cnpj": "10711915000169",
+    "nome": "LULU PAPELARIA E ARMARINHO LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 2301.5
+   },
+   {
+    "cnpj": "35772387000189",
+    "nome": "CAMACARI NOTICIAS EDITORA PUBLICIDADE E PRODUTORA DE EVENTOS LTDA",
+    "cnae": "63917",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2300.0
+   },
+   {
+    "cnpj": "07438188000101",
+    "nome": "IDVENDAS LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 600.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 15030.7,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 30.7,
+    "Locação/cessão de bens imóveis": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

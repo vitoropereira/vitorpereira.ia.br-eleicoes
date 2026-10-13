@@ -1,0 +1,203 @@
+{
+ "sq": "80002537475",
+ "nome_urna": "FRANCO FIOROT",
+ "cargo": "depest",
+ "uf": "ES",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 480979.5,
+  "por_origem": {
+   "Recursos de outros candidatos": 162501.0,
+   "Recursos de partido político": 70978.5,
+   "Recursos de pessoas físicas": 237500.0,
+   "Recursos próprios": 10000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 204100.0,
+   "FUNDO PARTIDARIO": 20978.5,
+   "OUTROS RECURSOS": 255901.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68345494000180",
+    "nome": "JOAO GUERINO BALESTRASSI",
+    "total": 154100.0
+   },
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 50000.0
+   },
+   {
+    "cnpj": "26815656000156",
+    "nome": "Direção Estadual/Distrital - PODE - ESPÍRITO SANTO",
+    "total": 20978.5
+   },
+   {
+    "cnpj": "68461865000199",
+    "nome": "FELIPE RIGONI LOPES",
+    "total": 2899.0
+   },
+   {
+    "cnpj": "68464753000191",
+    "nome": "ALEXANDRE MARCELO COUTINHO SANTOS",
+    "total": 2650.0
+   },
+   {
+    "cnpj": "68461691000164",
+    "nome": "MARIA EMANUELA ALVES PEDROSO",
+    "total": 2195.0
+   },
+   {
+    "cnpj": "68465043000186",
+    "nome": "JOSIAS MARIO DA VITORIA",
+    "total": 657.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 12,
+   "total": 247500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 386548.86,
+  "total_pago": 152835.61,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 20,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 87946.65
+   },
+   {
+    "cnpj": "00208521000139",
+    "nome": "MIRYAN C. R. DA SILVA VIGUINI",
+    "cnae": "18121",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 62565.0
+   },
+   {
+    "cnpj": "34028316287216",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 15636.5
+   },
+   {
+    "cnpj": "32414708000185",
+    "nome": "INGRAL INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11900.0
+   },
+   {
+    "cnpj": "05056693000158",
+    "nome": "C. M. SEIBERT LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "28686288000119",
+    "nome": "J MOTA BIONDE TRANSPORTES",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "59370010000161",
+    "nome": "IRK COMUNICACAO VISUAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3020.0
+   },
+   {
+    "cnpj": "42476484000190",
+    "nome": "GREEN CAR LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "61706876000142",
+    "nome": "ROCHA TRANSPORTES E LOGISTICA LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "59649955000117",
+    "nome": "LINHARES MONITORAMENTO E SEGURANCA LTDA",
+    "cnae": "80200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 350.0
+   },
+   {
+    "cnpj": "34028316743084",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 319.11
+   },
+   {
+    "cnpj": "07584368000193",
+    "nome": "AUTO POSTO E SERVICOS BNH LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 275.6
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 146,
+   "total": 189536.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 61000.0,
+    "Despesas com pessoal": 128536.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,211 @@
+{
+ "sq": "160002547597",
+ "nome_urna": "FLÁVIA FRANCISCHINI",
+ "cargo": "depest",
+ "uf": "PR",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 315950.0,
+  "por_origem": {
+   "Recursos de partido político": 200000.0,
+   "Recursos de pessoas físicas": 79900.0,
+   "Recursos próprios": 36050.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "OUTROS RECURSOS": 115950.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 200000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 8,
+   "total": 115950.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 213751.19,
+  "total_pago": 197478.83,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 13,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 119000.0
+   },
+   {
+    "cnpj": "03758336000106",
+    "nome": "GRAFINORTE INDUSTRIA GRAFICA LTDA.",
+    "cnae": "58221",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17858.0
+   },
+   {
+    "cnpj": "27614664000105",
+    "nome": "BUENO ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "49414895000108",
+    "nome": "JPL SUBLIMACAO E TECIDOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 11475.0
+   },
+   {
+    "cnpj": "24068480000190",
+    "nome": "RENATO DE SOUZA SANTOS CALLIARI IMPRESSOES",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "44299967000191",
+    "nome": "44.299.967 GIOVANNA MONDADORI FONSECA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "58250627000180",
+    "nome": "58.250.627 FELIPE PERAZZOLI",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "49119625000166",
+    "nome": "AUTO POSTO MATEUS LEME LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3556.19
+   },
+   {
+    "cnpj": "76635119000100",
+    "nome": "LEAL LOCADORA DE VEICULOS E EQUIPAMENTOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3200.0
+   },
+   {
+    "cnpj": "65814888000141",
+    "nome": "STUDIO 353 LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "66385988000162",
+    "nome": "VIA PRO UNIFORMES LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "00913039000108",
+    "nome": "ULTRAPRESS EDITORA GRAFICA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2430.0
+   },
+   {
+    "cnpj": "68363804000199",
+    "nome": "BANDEPAR BANDEIRAS LTDA",
+    "cnae": "13596",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "54313613000108",
+    "nome": "WINN IMPRESSAO DIGITAL LTDA",
+    "cnae": "47130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1175.0
+   },
+   {
+    "cnpj": "81681421000127",
+    "nome": "DRS PLANEJAMENTO E CONSULTORIA LTDA",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "07870043000177",
+    "nome": "DPM DIGITAL E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 750.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 10007.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 7.0,
+    "Serviços contábeis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

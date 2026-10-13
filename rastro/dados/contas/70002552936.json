@@ -1,0 +1,191 @@
+{
+ "sq": "70002552936",
+ "nome_urna": "MICHELLE BOLSONARO",
+ "cargo": "senador",
+ "uf": "DF",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3550500.0,
+  "por_origem": {
+   "Recursos de partido político": 3448000.0,
+   "Recursos de pessoas físicas": 102500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3448000.0,
+   "OUTROS RECURSOS": 102500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3448000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 102500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2787963.55,
+  "total_pago": 2993908.22,
+  "fornecedores_pj": [
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 580000.0
+   },
+   {
+    "cnpj": "05915213000167",
+    "nome": "FLAVIO BRITTO E CRISTIANE BRITTO ADVOCACIA E CONSULTORIA JURIDICA ADVOGADOS ASSOCIADOS S/S",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 450000.0
+   },
+   {
+    "cnpj": "01068431000152",
+    "nome": "CARAVELA PRODUCOES E COMUNICACAO LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 439000.0
+   },
+   {
+    "cnpj": "42753412000142",
+    "nome": "HEAD 360 GRAUS SERVICOS DE MARKETING DIRETO LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "01688354000133",
+    "nome": "AV COMUNICACAO E MARKETING LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "10289274000104",
+    "nome": "ESTUDIOARTE PRODUCAO MUSICAL LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "12094530000125",
+    "nome": "SUPREMO INCORPORADORA E CONSTRUTORA LTDA",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "18345791000157",
+    "nome": "MAIRINCK ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "07713959000113",
+    "nome": "SHOK SEGURANCA LTDA",
+    "cnae": "80111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 51300.0
+   },
+   {
+    "cnpj": "37571001000104",
+    "nome": "I9 CONFECCAO DE BRINDES LTDA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 44700.0
+   },
+   {
+    "cnpj": "34028316481888",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 33884.6
+   },
+   {
+    "cnpj": "08220275000142",
+    "nome": "GRAFICA E EDITORA MOVIMENTO LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16709.95
+   },
+   {
+    "cnpj": "52620975000116",
+    "nome": "INOVE BRINDES COMERCIO E SERVICOS LTDA",
+    "cnae": "74102",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13995.0
+   },
+   {
+    "cnpj": "22385155000126",
+    "nome": "PG AR CONDICIONADO LTDA",
+    "cnae": "43223",
+    "n_despesas": 2,
+    "tipos": [
+     "Aquisição/Doação de bens móveis ou imóveis",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3550.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 171,
+   "total": 434824.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 17000.0,
+    "Despesas com pessoal": 399824.0,
+    "Locação/cessão de bens imóveis": 18000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,644 @@
+{
+ "sq": "160002542337",
+ "nome_urna": "LEANDRE",
+ "cargo": "depfed",
+ "uf": "PR",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3064141.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 686.0,
+   "Recursos de partido político": 2858025.0,
+   "Recursos de pessoas físicas": 130500.0,
+   "Recursos próprios": 74930.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2803300.0,
+   "OUTROS RECURSOS": 260841.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 2800000.0
+   },
+   {
+    "cnpj": "14512048000193",
+    "nome": "Direção Estadual/Distrital - PSD - PARANÁ",
+    "total": 58025.0
+   },
+   {
+    "cnpj": "68519191000136",
+    "nome": "ADEMAR LUIZ TRAIANO",
+    "total": 495.0
+   },
+   {
+    "cnpj": "68519401000196",
+    "nome": "ADAO FERNANDES DA SILVA",
+    "total": 191.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 78,
+   "total": 205430.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2622577.31,
+  "total_pago": 2929644.77,
+  "fornecedores_pj": [
+   {
+    "cnpj": "09193067000164",
+    "nome": "QTT COMUNICACAO LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 345000.0
+   },
+   {
+    "cnpj": "07582908000108",
+    "nome": "BULIGON SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 170000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "07553176000110",
+    "nome": "AGIL - INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 15,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 116398.1
+   },
+   {
+    "cnpj": "77338424000195",
+    "nome": "EDITORA E GRAFICA PARANA PRESS",
+    "cnae": "88006",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 76000.0
+   },
+   {
+    "cnpj": "03220857000105",
+    "nome": "CONTASUL CONTABILIDADE E CONSULTORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 65000.0
+   },
+   {
+    "cnpj": "23695085000175",
+    "nome": "PORTELA COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 43200.0
+   },
+   {
+    "cnpj": "92869650002130",
+    "nome": "IMPRESUL SERVICO GRAFICO E EDITORA LTDA",
+    "cnae": "18211",
+    "n_despesas": 15,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 40319.0
+   },
+   {
+    "cnpj": "22342912000184",
+    "nome": "BIO PLACAS COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20159.0
+   },
+   {
+    "cnpj": "84936657000155",
+    "nome": "SANTA LUCIANA ADMINISTRACAO DE BENS E PARTICIPACOES LIMITADA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 18500.0
+   },
+   {
+    "cnpj": "03103299000106",
+    "nome": "CARRO RESERVA PREVICAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 7,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 17515.0
+   },
+   {
+    "cnpj": "58764278000115",
+    "nome": "58.764.278 MIRISLAN OLIVEIRA SILVA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "23111656000187",
+    "nome": "CSA COMUNICACAO LTDA",
+    "cnae": "32990",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13585.0
+   },
+   {
+    "cnpj": "08875084000119",
+    "nome": "LAZZATUR TRANSPORTES LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "16584034000100",
+    "nome": "16.584.034 ALEXSANDRO PLETSCH",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "16700680000196",
+    "nome": "ARISI TRANSPORTES LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "28556541000110",
+    "nome": "DIEGO DA ROCHA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "50388009000190",
+    "nome": "FIREWARE TECNOLOGIA E SISTEMAS LTDA.",
+    "cnae": "18300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "00330966000197",
+    "nome": "CORGRAF GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4725.0
+   },
+   {
+    "cnpj": "17678462000165",
+    "nome": "JEED LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4094.0
+   },
+   {
+    "cnpj": "79964177000320",
+    "nome": "COMERCIO DE COMBUSTIVEIS PASTORELLO S.A.",
+    "cnae": "47318",
+    "n_despesas": 13,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3276.14
+   },
+   {
+    "cnpj": "95398095000150",
+    "nome": "ADENIR RODOLFO TECCHIO CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 11,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3002.42
+   },
+   {
+    "cnpj": "19809968000191",
+    "nome": "GRAFISUL GRAFICA LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2900.0
+   },
+   {
+    "cnpj": "12838425000153",
+    "nome": "PEGORARO E PEGORARO LTDA",
+    "cnae": "47318",
+    "n_despesas": 10,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2143.0
+   },
+   {
+    "cnpj": "75555433000102",
+    "nome": "AUTO POSTO GAYARDO LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1911.76
+   },
+   {
+    "cnpj": "46523204000108",
+    "nome": "POSTO TREVO LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1829.29
+   },
+   {
+    "cnpj": "03375210000152",
+    "nome": "ELIANE STANG HUNING CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1476.6
+   },
+   {
+    "cnpj": "02645111000180",
+    "nome": "AUTO POSTO ROSETTI LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1412.06
+   },
+   {
+    "cnpj": "26897252000159",
+    "nome": "FOX MILENIUM PLATINA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1310.73
+   },
+   {
+    "cnpj": "75925511000113",
+    "nome": "POSTO ILHABELA LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1260.38
+   },
+   {
+    "cnpj": "81642308000132",
+    "nome": "AUTO POSTO IPIRANGA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1234.93
+   },
+   {
+    "cnpj": "75653337000105",
+    "nome": "ISA AUTO POSTO DE SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1164.71
+   },
+   {
+    "cnpj": "40112326000125",
+    "nome": "POSTO MACEDO SANTA MARIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1154.25
+   },
+   {
+    "cnpj": "21099274000150",
+    "nome": "POSTO PALMEIRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1135.38
+   },
+   {
+    "cnpj": "51763087000190",
+    "nome": "AUTO POSTO BELGICA LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1098.47
+   },
+   {
+    "cnpj": "12781900000100",
+    "nome": "AUTO POSTO MALLET LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1094.4
+   },
+   {
+    "cnpj": "77714699000186",
+    "nome": "AUTO POSTO ERDANA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1031.01
+   },
+   {
+    "cnpj": "40296870000174",
+    "nome": "RESTAURANTE E PIZZARIA SABOR CASEIRO PATO BRANCO LTDA",
+    "cnae": "56112",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 980.0
+   },
+   {
+    "cnpj": "03582084000107",
+    "nome": "NELSON PERUSSOLO",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 956.73
+   },
+   {
+    "cnpj": "04948179000164",
+    "nome": "E LARA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 950.25
+   },
+   {
+    "cnpj": "76047000000109",
+    "nome": "ABASTECEDORA DE COMBUSTIVEIS SOUZA MACHADO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 918.26
+   },
+   {
+    "cnpj": "06068257000161",
+    "nome": "AUTO POSTO SANTO ANTONIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 865.71
+   },
+   {
+    "cnpj": "79061792000164",
+    "nome": "AUTO POSTO CIANORTE LTDA.",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 854.04
+   },
+   {
+    "cnpj": "02357932000111",
+    "nome": "AUTO POSTO STADLER LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 845.32
+   },
+   {
+    "cnpj": "02959363000184",
+    "nome": "COMERCIO DE COMBUSTIVEIS RCD LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 706.16
+   },
+   {
+    "cnpj": "16989531000199",
+    "nome": "POSTO HORIZONTE III LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 704.44
+   },
+   {
+    "cnpj": "06269570000168",
+    "nome": "ARION SILVA DOS SANTOS CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 691.94
+   },
+   {
+    "cnpj": "79863569008204",
+    "nome": "COASUL COOPERATIVA AGROINDUSTRIAL",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 680.47
+   },
+   {
+    "cnpj": "79586459000179",
+    "nome": "AUTO POSTO VIRMOND LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 631.03
+   },
+   {
+    "cnpj": "77142065000104",
+    "nome": "COMERCIAL DE PRODUTOS QUIMICOS GARDENSUR LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 590.17
+   },
+   {
+    "cnpj": "60601296000128",
+    "nome": "AUTO POSTO DRUNULE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 532.86
+   },
+   {
+    "cnpj": "81673808000646",
+    "nome": "SIVIERO CEREAIS, INSUMOS AGRICOLAS E TRANSPORTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 524.79
+   },
+   {
+    "cnpj": "04549472000159",
+    "nome": "AUTO POSTO GABRIELLY LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 481.09
+   },
+   {
+    "cnpj": "18293847000177",
+    "nome": "GPR COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 478.55
+   },
+   {
+    "cnpj": "75021519001801",
+    "nome": "SAN RAFAEL SEM E CEREAIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 395.4
+   },
+   {
+    "cnpj": "28664504000125",
+    "nome": "PERUSSOLO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 395.01
+   },
+   {
+    "cnpj": "75635854000143",
+    "nome": "COMERCIO DE COMBUSTIVEIS KIST LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 246.19
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 619,
+   "total": 1436218.27,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 121335.0,
+    "Despesas com pessoal": 1293939.37,
+    "Diversas a especificar": 2500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 343.9,
+    "Locação/cessão de bens imóveis": 16900.0,
+    "Locação/cessão de bens móveis (exceto veículos)": 1200.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

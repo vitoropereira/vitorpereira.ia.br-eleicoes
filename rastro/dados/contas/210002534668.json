@@ -1,0 +1,485 @@
+{
+ "sq": "210002534668",
+ "nome_urna": "OSMAR TERRA",
+ "cargo": "depfed",
+ "uf": "RS",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3380700.0,
+  "por_origem": {
+   "Recursos de partido político": 3170000.0,
+   "Recursos de pessoas físicas": 210700.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3170000.0,
+   "OUTROS RECURSOS": 210700.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3170000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 14,
+   "total": 210700.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2252155.35,
+  "total_pago": 591568.36,
+  "fornecedores_pj": [
+   {
+    "cnpj": "14476858000131",
+    "nome": "MAIS61 ASSESSORIA EM COMUNICACAO E ESTRATEGIA LTDA",
+    "cnae": "63917",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "67496458000154",
+    "nome": "MIGUEL OLIVEIRA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "65533233000103",
+    "nome": "65.533.233 LUCIANO SOUZA COSTA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 135000.0
+   },
+   {
+    "cnpj": "90921263000126",
+    "nome": "COLI GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 15,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 69200.0
+   },
+   {
+    "cnpj": "60570067000193",
+    "nome": "A S FRAGA CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 28000.0
+   },
+   {
+    "cnpj": "88804513000104",
+    "nome": "KADU MALHAS COMERCIO DE ROUPAS LTDA",
+    "cnae": "47814",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27539.0
+   },
+   {
+    "cnpj": "59811887000140",
+    "nome": "59.811.887 ERENI TERESINHA ROHDE",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 24990.0
+   },
+   {
+    "cnpj": "67264269000156",
+    "nome": "67.264.269 LUIS PAULO NITSCHE",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 22750.0
+   },
+   {
+    "cnpj": "67214160000104",
+    "nome": "67.214.160 JOAO PEDRO MARTINS FARIAS BARBOSA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "36824303000176",
+    "nome": "36.824.303 MARA REGINA SANTOS BRAGA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "88622444000100",
+    "nome": "WON COMUNICACAO TOTAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 21,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16787.56
+   },
+   {
+    "cnpj": "87527446000157",
+    "nome": "GRAFICA LINCK LTDA",
+    "cnae": "18211",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15108.36
+   },
+   {
+    "cnpj": "21608383000155",
+    "nome": "HUMANIZZA TREINAMENTOS E PESQUISAS LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "25188538000100",
+    "nome": "ESSENT INOVACAO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "88057187000100",
+    "nome": "GRAFICA LAJEADENSE LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8675.0
+   },
+   {
+    "cnpj": "87687489000108",
+    "nome": "POSTO DE COMBUSTIVEIS VACCARI LTDA",
+    "cnae": "47318",
+    "n_despesas": 30,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7808.73
+   },
+   {
+    "cnpj": "94350113000160",
+    "nome": "JOKA SUBLIMACAO DIGITAL LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5940.0
+   },
+   {
+    "cnpj": "03000720000145",
+    "nome": "LOCADORA DE VEICULOS SANTA CRUZ LTDA.",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5481.67
+   },
+   {
+    "cnpj": "92917277000100",
+    "nome": "HOTEL SAVOY INDUSTRIA HOTELEIRA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "68846500000182",
+    "nome": "COMPUNEW COMPUTADORES E ASSISTENCIA TECNICA LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "52484522000100",
+    "nome": "52.484.522 GREGORI DOS SANTOS SAGGIN",
+    "cnae": "43215",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2700.0
+   },
+   {
+    "cnpj": "10520277000107",
+    "nome": "COMERCIAL DE COMBUSTIVEIS RAMIRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "01402427000189",
+    "nome": "AALLFAX TELECOMUNICACOES LTDA",
+    "cnae": "95118",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2300.0
+   },
+   {
+    "cnpj": "61346163000115",
+    "nome": "POSTO DO HERMES LTDA",
+    "cnae": "47318",
+    "n_despesas": 9,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1874.3
+   },
+   {
+    "cnpj": "90903667000197",
+    "nome": "R C BARBI",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1202.3
+   },
+   {
+    "cnpj": "28053659000559",
+    "nome": "BOHRER MIGUEL COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1111.41
+   },
+   {
+    "cnpj": "48680160000155",
+    "nome": "ALESSANDRO KRAMER BORGES",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "01552252000510",
+    "nome": "CENTRO DE CONVENIENCIAS FALEIRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "39935498000110",
+    "nome": "POSTO DE COMBUSTIVEIS CINQUENTENARIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 897.72
+   },
+   {
+    "cnpj": "51232298000104",
+    "nome": "DIGITAL PRINT COPIAS LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 540.0
+   },
+   {
+    "cnpj": "88632823000180",
+    "nome": "POSTO DE SERVICO CAXIAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 516.06
+   },
+   {
+    "cnpj": "25260684000191",
+    "nome": "ABASTECEDORA AZ ZANINI LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 510.08
+   },
+   {
+    "cnpj": "12493716000157",
+    "nome": "12.493.716 PAULO JONAS DE CARVALHO SPENGLER",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 450.0
+   },
+   {
+    "cnpj": "97970297000150",
+    "nome": "ABASTECEDORA DE COMBUSTIVEIS KOCH LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 432.47
+   },
+   {
+    "cnpj": "08178768000242",
+    "nome": "AUTO POSTO CGP LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 431.26
+   },
+   {
+    "cnpj": "28550571000119",
+    "nome": "AUTO POSTO TRONCA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 294.51
+   },
+   {
+    "cnpj": "87687703000118",
+    "nome": "EMPRESA JORNALISTICA NOROESTE LTDA",
+    "cnae": "60101",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 284.4
+   },
+   {
+    "cnpj": "87723417000160",
+    "nome": "POSTO SANTA TEREZINHA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 236.43
+   },
+   {
+    "cnpj": "14902782000169",
+    "nome": "BONO IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "03419688000137",
+    "nome": "POSTO DE COMBUSTIVEL SAO PELEGRINO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 197.67
+   },
+   {
+    "cnpj": "29299122000102",
+    "nome": "ABASTECEDORA GUADALUPE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 144.75
+   },
+   {
+    "cnpj": "38228424000261",
+    "nome": "BASOTTI E BERTON COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 115.8
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 259,
+   "total": 1319535.87,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 451715.69,
+    "Despesas com pessoal": 228500.0,
+    "Despesas com transporte ou deslocamento": 23500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 210.18,
+    "Locação/cessão de bens imóveis": 117410.0,
+    "Serviços prestados por terceiros": 498200.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

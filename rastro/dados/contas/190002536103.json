@@ -1,0 +1,181 @@
+{
+ "sq": "190002536103",
+ "nome_urna": "DANI MONTEIRO",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PSOL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1102891.78,
+  "por_origem": {
+   "Recursos de outros candidatos": 1257.25,
+   "Recursos de partido político": 1081384.48,
+   "Recursos de pessoas físicas": 20250.05
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1081384.48,
+   "OUTROS RECURSOS": 21507.3
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "06954942000195",
+    "nome": "Direção Nacional - PSOL",
+    "total": 1073500.0
+   },
+   {
+    "cnpj": "08049726000120",
+    "nome": "Direção Estadual/Distrital - PSOL - RIO DE JANEIRO",
+    "total": 7884.48
+   },
+   {
+    "cnpj": "68470641000143",
+    "nome": "MARCELO RIBEIRO FREIXO",
+    "total": 1257.25
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 20250.05
+  }
+ },
+ "despesas": {
+  "total_contratado": 896121.23,
+  "total_pago": 537410.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "33285209000106",
+    "nome": "BASE LAB CONSULTORIA POLITICA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 86141.67
+   },
+   {
+    "cnpj": "25264544000191",
+    "nome": "FLORA, MATHEUS E MANGABEIRA SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 78595.0
+   },
+   {
+    "cnpj": "00971215000150",
+    "nome": "3 GRAPH GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 43100.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 38899.0
+   },
+   {
+    "cnpj": "37269663000116",
+    "nome": "RAZAO LINEAR ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 33000.0
+   },
+   {
+    "cnpj": "02147077000114",
+    "nome": "EDG EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30980.0
+   },
+   {
+    "cnpj": "14437788000102",
+    "nome": "FLEX MARKETING DIRETO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "27821313000167",
+    "nome": "COLOR SET INDUSTRIA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12295.0
+   },
+   {
+    "cnpj": "00965193000115",
+    "nome": "GRAFICA CALAIS LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8200.0
+   },
+   {
+    "cnpj": "05050916000170",
+    "nome": "NARCIZO IMOVEIS ADMINISTRACAO IMOBILIARIA LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "04067191000160",
+    "nome": "EDITORA GLOBO S/A",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1560.56
+   },
+   {
+    "cnpj": "13748574000194",
+    "nome": "DIGITAL INDOOR COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1250.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 179,
+   "total": 539600.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 366100.0,
+    "Despesas com pessoal": 132500.0,
+    "Locação/cessão de bens imóveis": 41000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

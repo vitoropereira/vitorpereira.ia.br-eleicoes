@@ -1,0 +1,194 @@
+{
+ "sq": "80002549986",
+ "nome_urna": "PABLO MURIBECA",
+ "cargo": "depest",
+ "uf": "ES",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 406144.33,
+  "por_origem": {
+   "Recursos de outros candidatos": 234868.33,
+   "Recursos de partido político": 20000.0,
+   "Recursos de pessoas físicas": 151276.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 134868.33,
+   "FUNDO PARTIDARIO": 20000.0,
+   "OUTROS RECURSOS": 251276.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68464773000162",
+    "nome": "ERICK CABRAL MUSSO",
+    "total": 101590.0
+   },
+   {
+    "cnpj": "68608044000132",
+    "nome": "EVAIR VIEIRA DE MELO",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68608213000134",
+    "nome": "LORENZO SILVA DE PAZOLINI",
+    "total": 21328.33
+   },
+   {
+    "cnpj": "09020572000107",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - ESPÍRITO SANTO",
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68464803000130",
+    "nome": "LUIZ CLAUDIO GOMES DIAS JUNIOR",
+    "total": 11950.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 33,
+   "total": 151276.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 211405.47,
+  "total_pago": 127541.89,
+  "fornecedores_pj": [
+   {
+    "cnpj": "34974866000115",
+    "nome": "ROZANE GIL GOMES PIFFER",
+    "cnae": "45307",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "29401848000104",
+    "nome": "CORPEL GRAFICA EDITORA E COMUNICACAO VISUAL LTDA",
+    "cnae": "18121",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15140.0
+   },
+   {
+    "cnpj": "28462816000156",
+    "nome": "PUMA TRANSPORTES E SERVICOS LTDA",
+    "cnae": "49248",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "66683703000170",
+    "nome": "66.683.703 EUDIMAR PIFFER",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "01834552000168",
+    "nome": "FAZ TUDO PROMOCIONAL LTDA",
+    "cnae": "47555",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7200.0
+   },
+   {
+    "cnpj": "49421260000120",
+    "nome": "ZANI ALIMENTOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 7074.0
+   },
+   {
+    "cnpj": "49464815000110",
+    "nome": "PLOTTEC IMPRESSOES E PROJETOS LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "07830414000197",
+    "nome": "REVENDA DE COMBUSTIVEIS BKR LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4405.8
+   },
+   {
+    "cnpj": "43180857000143",
+    "nome": "ROBERTO LEONARDO SILVA CASTRO",
+    "cnae": "90019",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "27536218000111",
+    "nome": "ASSOCIACAO DE MORADORES DO PARQUE RES LARANJEIRAS",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "20289273000105",
+    "nome": "IDEIA SERVICOS PERSONALIZADOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 750.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 29,
+   "total": 97835.67,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 61585.62,
+    "Cessão ou locação de veículos": 9232.55,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 17.5,
+    "Locação/cessão de bens imóveis": 27000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,236 @@
+{
+ "sq": "200002535726",
+ "nome_urna": "JULIO CESAR",
+ "cargo": "depest",
+ "uf": "RN",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 670000.0,
+  "por_origem": {
+   "Recursos de partido político": 600000.0,
+   "Recursos de pessoas físicas": 50000.0,
+   "Recursos próprios": 20000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 600000.0,
+   "OUTROS RECURSOS": 70000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 600000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 70000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 626784.94,
+  "total_pago": 319343.75,
+  "fornecedores_pj": [
+   {
+    "cnpj": "64269094000181",
+    "nome": "PAULO ALEX A PARDO SONORIZACAO",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "05842732000142",
+    "nome": "FACIL COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 98500.0
+   },
+   {
+    "cnpj": "58935159000188",
+    "nome": "RR COMUNICACAO E MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "27141629000108",
+    "nome": "F BATISTA DA SILVA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "25354778000120",
+    "nome": "JULIMARA G A DA SILVA ASSESSORIA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "49482783000186",
+    "nome": "FELIPE CORTEZ - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "13587119000154",
+    "nome": "R4 - INDUSTRIA E COMERCIO LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "12965469000144",
+    "nome": "J R DA CRUZ FELINTO",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15979.33
+   },
+   {
+    "cnpj": "49519790000105",
+    "nome": "F R DE AZEVEDO SERVICOS ADMINISTRATIVOS",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "68283588000171",
+    "nome": "ZAAZ TECNOLOGIA LTDA",
+    "cnae": "62031",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "68538053000102",
+    "nome": "68.538.053 LENIANY KAILANY MARIA DA SILVA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 12900.0
+   },
+   {
+    "cnpj": "33407207000134",
+    "nome": "ERIVERTON MENEZES DA ROCHA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 10800.0
+   },
+   {
+    "cnpj": "49362989000172",
+    "nome": "MAIS RASTREAMENTO LTDA",
+    "cnae": "80200",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10660.0
+   },
+   {
+    "cnpj": "27221071000251",
+    "nome": "VM COMERCIO VAREJISTA DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 8197.6
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "42363901000198",
+    "nome": "ROMUALDO GALVAO COMERCIO DE COMBUSTIVEIS DOMINGOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2072.27
+   },
+   {
+    "cnpj": "31321080000100",
+    "nome": "UNIGRAFICA INDUSTRIA GRAFICA LTDA",
+    "cnae": "17311",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1987.5
+   },
+   {
+    "cnpj": "32752798000114",
+    "nome": "CONSELHO REGIONAL DOS TECNICOS INDUSTRIAIS DO RIO GRANDE DO NORTE",
+    "cnae": "94120",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 68.17
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 26,
+   "total": 110620.07,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 28817.97,
+    "Cessão ou locação de veículos": 16200.0,
+    "Comícios": 10000.0,
+    "Despesas com pessoal": 10300.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 43.1,
+    "Locação/cessão de bens imóveis": 10000.0,
+    "Serviços prestados por terceiros": 4000.0,
+    "Serviços próprios prestados por terceiros": 31259.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

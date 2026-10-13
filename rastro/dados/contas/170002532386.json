@@ -1,0 +1,52 @@
+{
+ "sq": "170002532386",
+ "nome_urna": "JOBSON ALMEIDA",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 310000.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 210000.0,
+   "Recursos de partido político": 100000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 210000.0,
+   "OUTROS RECURSOS": 100000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68237093000106",
+    "nome": "SILVIO SERAFIM COSTA FILHO",
+    "total": 210000.0
+   },
+   {
+    "cnpj": "08065135000147",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - PERNAMBUCO",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 0.0,
+  "total_pago": 0.0,
+  "fornecedores_pj": [],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 0.0,
+   "por_tipo": {
+    "Não informada": 0.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

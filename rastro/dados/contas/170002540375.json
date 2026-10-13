@@ -1,0 +1,104 @@
+{
+ "sq": "170002540375",
+ "nome_urna": "JOÃOZINHO TENÓRIO",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 240000.0,
+  "por_origem": {
+   "Recursos de partido político": 200000.0,
+   "Recursos de pessoas físicas": 25000.0,
+   "Recursos próprios": 15000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "OUTROS RECURSOS": 40000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 200000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 40000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 77456.1,
+  "total_pago": 16814.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "48991579000128",
+    "nome": "IVISSON DE P. GUIMARAES",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "60278601000192",
+    "nome": "TALYTA DAMARIS DA COSTA",
+    "cnae": "18229",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2250.0
+   },
+   {
+    "cnpj": "27279467000179",
+    "nome": "ANGELICA C PEREIRA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1192.0
+   },
+   {
+    "cnpj": "32610772000131",
+    "nome": "E. B. DO NASCIMENTO LTDA",
+    "cnae": "46427",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 800.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 17,
+   "total": 39214.1,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 12200.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 14.1,
+    "Locação/cessão de bens imóveis": 4000.0,
+    "Serviços advocatícios": 10000.0,
+    "Serviços contábeis": 10000.0,
+    "Serviços prestados por terceiros": 3000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

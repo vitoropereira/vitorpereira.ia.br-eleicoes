@@ -1,0 +1,148 @@
+{
+ "sq": "20002548338",
+ "nome_urna": "FERNANDO PEREIRA",
+ "cargo": "depest",
+ "uf": "AL",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 771850.0,
+  "por_origem": {
+   "Recursos de partido político": 661800.0,
+   "Recursos de pessoas físicas": 75050.0,
+   "Recursos próprios": 35000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 650000.0,
+   "OUTROS RECURSOS": 121850.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 650000.0
+   },
+   {
+    "cnpj": "04181135000151",
+    "nome": "Direção Estadual/Distrital - PP - ALAGOAS",
+    "total": 11800.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 110050.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 337324.44,
+  "total_pago": 172418.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "17159578000198",
+    "nome": "M B BARROS CONSULTORIA LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "14876708000115",
+    "nome": "NOGUEIRA, ALBUQUERQUE E FREIRE ASSOCIADOS S/S",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "23856827000105",
+    "nome": "PONTES, MARINHO E VASCONCELLOS ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "27126527000113",
+    "nome": "GRUPO DE MARKETING DIGITAL SAO JUDAS TADEU LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "05132492000192",
+    "nome": "SAO SEBASTIAO LOCACAO DE VEICULOS E TURISMO LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 20670.94
+   },
+   {
+    "cnpj": "13124757000139",
+    "nome": "PONTO X IMPRESSAO DIGITAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "08803383000148",
+    "nome": "MILITAO GRAFICA E INFORMATICA LTDA",
+    "cnae": "47512",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3900.0
+   },
+   {
+    "cnpj": "23220094000100",
+    "nome": "REDE EDITORA E SERVICOS GRAFICOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3550.0
+   },
+   {
+    "cnpj": "54551283000199",
+    "nome": "PRO SIGN SERVICOS E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 60,
+   "total": 141703.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 110700.0,
+    "Despesas com pessoal": 25000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.5,
+    "Produção de jingles, vinhetas e slogans": 6000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

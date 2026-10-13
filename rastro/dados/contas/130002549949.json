@@ -1,0 +1,124 @@
+{
+ "sq": "130002549949",
+ "nome_urna": "DUARTE",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1057896.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 110000.0,
+   "Recursos de partido político": 50000.0,
+   "Recursos de pessoas físicas": 777896.0,
+   "Recursos próprios": 120000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 50000.0,
+   "OUTROS RECURSOS": 1007896.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68468363000190",
+    "nome": "RAFAEL TADEU SIMOES",
+    "total": 60000.0
+   },
+   {
+    "cnpj": "14545907000140",
+    "nome": "Direção Estadual/Distrital - PSD - MINAS GERAIS",
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68519374000151",
+    "nome": "CARLOS ALBERTO DIAS VIANA",
+    "total": 50000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 23,
+   "total": 897896.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 125851.77,
+  "total_pago": 132682.4,
+  "fornecedores_pj": [
+   {
+    "cnpj": "34805529000102",
+    "nome": "AGENCIA DE COMUNICACAO E PRODUTORA OPZ LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "23558043000354",
+    "nome": "GESOIS TECNOLOGIA, SERVICOS E HOSPEDAGEM LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11990.0
+   },
+   {
+    "cnpj": "12305622000107",
+    "nome": "PONTUAL LOC CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 11263.23
+   },
+   {
+    "cnpj": "17318718000123",
+    "nome": "PROMOVENDO PUBLICIDADE E PROMOCOES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5120.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4245.54
+   },
+   {
+    "cnpj": "64204416000104",
+    "nome": "GMP PUBLICIDADE E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1199.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 9,
+   "total": 72034.0,
+   "por_tipo": {
+    "Locação/cessão de bens imóveis": 5034.0,
+    "Serviços advocatícios": 30000.0,
+    "Serviços contábeis": 30000.0,
+    "Serviços próprios prestados por terceiros": 7000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

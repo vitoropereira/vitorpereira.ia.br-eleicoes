@@ -1,0 +1,389 @@
+{
+ "sq": "120002537356",
+ "nome_urna": "ISA MARCONDES",
+ "cargo": "depfed",
+ "uf": "MS",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1822700.0,
+  "por_origem": {
+   "Recursos de partido político": 1800000.0,
+   "Recursos de pessoas físicas": 3000.0,
+   "Recursos próprios": 19700.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1715000.0,
+   "FUNDO PARTIDARIO": 85000.0,
+   "OUTROS RECURSOS": 22700.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 1715000.0
+   },
+   {
+    "cnpj": "08607729000132",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - MATO GROSSO DO SUL",
+    "total": 85000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 22700.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 986970.87,
+  "total_pago": 651375.67,
+  "fornecedores_pj": [
+   {
+    "cnpj": "65098529000135",
+    "nome": "PUBLIACO DOURADOS LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 140000.0
+   },
+   {
+    "cnpj": "53649353000183",
+    "nome": "CAIO FABIO CARDOSO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 130000.0
+   },
+   {
+    "cnpj": "19597232000105",
+    "nome": "E. R. LEMOS",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 88000.0
+   },
+   {
+    "cnpj": "28639948000100",
+    "nome": "THEO VILALBA DE CARVALHO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 48000.0
+   },
+   {
+    "cnpj": "86929486000162",
+    "nome": "GRAFICA DOURATIPO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 39000.0
+   },
+   {
+    "cnpj": "15813842000130",
+    "nome": "CTT CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "14681553000161",
+    "nome": "MOREIRA, MACIEL, CUNHA E COSTA ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "55550670000173",
+    "nome": "HENSCHEL SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "59391523000159",
+    "nome": "59.391.523 DIEGO CORREA GAMARRA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "02432199000152",
+    "nome": "RICARDO VIANA ANDREATTA",
+    "cnae": "45111",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 11400.0
+   },
+   {
+    "cnpj": "24865944000190",
+    "nome": "HILLS PRODUCOES ARTISTICAS E CULTURAIS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "02331794000100",
+    "nome": "HOTEL OT LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 2534.2
+   },
+   {
+    "cnpj": "02966463000138",
+    "nome": "VERA PUGACEV",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1910.0
+   },
+   {
+    "cnpj": "12603054000120",
+    "nome": "PASE CIA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1750.0
+   },
+   {
+    "cnpj": "15452634000152",
+    "nome": "HOTEL CALDAS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1740.0
+   },
+   {
+    "cnpj": "20891632000108",
+    "nome": "KALIANDRA MARA ROSSONI RECK LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1640.0
+   },
+   {
+    "cnpj": "19274862000130",
+    "nome": "HOTEL B S LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1470.0
+   },
+   {
+    "cnpj": "18473891000169",
+    "nome": "HOTEL AGUA DO CEDRO LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1242.0
+   },
+   {
+    "cnpj": "07498982000132",
+    "nome": "AUTO POSTO FORTALEZA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 976.83
+   },
+   {
+    "cnpj": "15467293000199",
+    "nome": "ECO-TEX AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 588.97
+   },
+   {
+    "cnpj": "09199820000200",
+    "nome": "FRANCO POLISINI",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 588.0
+   },
+   {
+    "cnpj": "00324084000119",
+    "nome": "AUTO POSTO MONTE CARLO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 502.5
+   },
+   {
+    "cnpj": "08329044000171",
+    "nome": "POSTO INDUBRASIL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 437.57
+   },
+   {
+    "cnpj": "30754689000100",
+    "nome": "TIGRAO COMERCIO DE COMBUSTIVEIS E DERIVADOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 411.23
+   },
+   {
+    "cnpj": "22507045000270",
+    "nome": "AUTO POSTO PROGRESSO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 387.32
+   },
+   {
+    "cnpj": "16043929000138",
+    "nome": "AUTO POSTO MANCOES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 358.43
+   },
+   {
+    "cnpj": "04319159000124",
+    "nome": "BAZZO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 318.34
+   },
+   {
+    "cnpj": "02947844000170",
+    "nome": "MARIO DA FONSECA P DA SILVA CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 312.08
+   },
+   {
+    "cnpj": "21097620000160",
+    "nome": "BERTOZZI BERTOZZI COMERCIO DE COMBUSTIVEIS LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 304.01
+   },
+   {
+    "cnpj": "37982305000156",
+    "nome": "J P M HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 270.0
+   },
+   {
+    "cnpj": "29490519000187",
+    "nome": "AUTO POSTO COMERCIAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 269.53
+   },
+   {
+    "cnpj": "26852319000139",
+    "nome": "POSTO Z + Z IGOR LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 164.96
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 314,
+   "total": 397394.9,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 36500.0,
+    "Despesas com Hospedagem": 3000.0,
+    "Despesas com pessoal": 338638.3,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 56.6,
+    "Locação/cessão de bens imóveis": 19200.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

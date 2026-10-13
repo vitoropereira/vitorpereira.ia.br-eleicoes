@@ -1,0 +1,274 @@
+{
+ "sq": "150002544152",
+ "nome_urna": "ANDERSON MONTEIRO",
+ "cargo": "depest",
+ "uf": "PB",
+ "partido": "PV",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 363000.0,
+  "por_origem": {
+   "Recursos de partido político": 63000.0,
+   "Recursos de pessoas físicas": 180000.0,
+   "Recursos próprios": 120000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 63000.0,
+   "OUTROS RECURSOS": 300000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08301994000198",
+    "nome": "Direção Estadual/Distrital - PV - PARAÍBA",
+    "total": 63000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 13,
+   "total": 300000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 232424.83,
+  "total_pago": 318139.83,
+  "fornecedores_pj": [
+   {
+    "cnpj": "08540403000135",
+    "nome": "GRAFICA J B LTDA",
+    "cnae": "18130",
+    "n_despesas": 12,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 67360.0
+   },
+   {
+    "cnpj": "48050163000105",
+    "nome": "CARLOS ALBERTO DE ARAUJO SOUTO",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "67289168000130",
+    "nome": "IMAGINARI CENOGRAFIA E COMUNICACAO VISUAL LTDA",
+    "cnae": "90019",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25800.0
+   },
+   {
+    "cnpj": "07796243000127",
+    "nome": "PLASTFORT- INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
+    "cnae": "22226",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16901.5
+   },
+   {
+    "cnpj": "15706623000151",
+    "nome": "SEBASTIAO FLAVIO DE ARAUJO",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10200.0
+   },
+   {
+    "cnpj": "58770536000176",
+    "nome": "AND CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "33726728000154",
+    "nome": "ALDO LEANDRO ELEUTERIO COSTA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "06095249000104",
+    "nome": "HERLLEY PRODUCOES ARTISTICAS LIMITADA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "14116799000190",
+    "nome": "DELGADO E BARBOSA CONSULTORIA IMOBILIARIA LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "27104250000128",
+    "nome": "27.104.250 VINICIO VERISSIMO LEITE",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "36247630000102",
+    "nome": "GUSTAVO XAVIER SOUZA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "40171650000114",
+    "nome": "MOISES DE LUNA SANTOS",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "48237183000190",
+    "nome": "DEBORA DUARTE LIMEIRA PORTO",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "69019044000160",
+    "nome": "69.019.044 GENISIS DOS SANTOS ARAGAO",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "58539881000101",
+    "nome": "58.539.881 JACKSON TIAGO SALVADOR MARTINS PEREIRA",
+    "cnae": "01610",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "12086233000138",
+    "nome": "ALDENIR SANTIAGO DA SILVA",
+    "cnae": "32990",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3060.0
+   },
+   {
+    "cnpj": "36351523000120",
+    "nome": "36.351.523 KLINSMANN EMANUEL DE MELO BARBOSA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2300.0
+   },
+   {
+    "cnpj": "52409456000103",
+    "nome": "COMERCIAL DE COMBUSTIVEIS H7 LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1328.07
+   },
+   {
+    "cnpj": "32911037000168",
+    "nome": "NOW COMUNICACAO CRIATIVA LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1300.0
+   },
+   {
+    "cnpj": "45981956000150",
+    "nome": "REDE DE POSTOS 4 IRMAOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 875.58
+   },
+   {
+    "cnpj": "15754475000140",
+    "nome": "HOSTGATOR BRASIL LTDA.",
+    "cnae": "63119",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 197.28
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 9,
+   "total": 20062.4,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 4000.0,
+    "Despesas com pessoal": 4000.0,
+    "Despesas com transporte ou deslocamento": 9000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 62.4,
+    "Serviços próprios prestados por terceiros": 3000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

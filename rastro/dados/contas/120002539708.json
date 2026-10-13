@@ -1,0 +1,171 @@
+{
+ "sq": "120002539708",
+ "nome_urna": "PROFESSOR RINALDO MODESTO",
+ "cargo": "depest",
+ "uf": "MS",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 707720.0,
+  "por_origem": {
+   "Recursos de partido político": 676620.0,
+   "Recursos de pessoas físicas": 22300.0,
+   "Recursos próprios": 8800.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 483300.0,
+   "FUNDO PARTIDARIO": 193320.0,
+   "OUTROS RECURSOS": 31100.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 483300.0
+   },
+   {
+    "cnpj": "45889746000136",
+    "nome": "Direção Estadual/Distrital - UNIÃO - MATO GROSSO DO SUL",
+    "total": 193320.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 15,
+   "total": 31100.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 255742.0,
+  "total_pago": 91908.32,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "19316626000130",
+    "nome": "GIOVANI LEDESMA FREITAS",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 4600.0
+   },
+   {
+    "cnpj": "46631696000155",
+    "nome": "PHM FILMES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "03618263000157",
+    "nome": "K L - MULTI EMPRESARIAL LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2800.0
+   },
+   {
+    "cnpj": "37557519000185",
+    "nome": "SADAN FESTAS LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "11275814000155",
+    "nome": "PROATIVA INFORMATICA LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1680.0
+   },
+   {
+    "cnpj": "21800607000126",
+    "nome": "NETMAXXI TELECOMUNICACOES E INFORMATICA LTDA",
+    "cnae": "61418",
+    "n_despesas": 1,
+    "tipos": [
+     "Telefone"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "02969905000108",
+    "nome": "TROKAR POSTOS DE SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 702.87
+   },
+   {
+    "cnpj": "12075667000728",
+    "nome": "S. PIRES COMERCIO DE ALIMENTOS LTDA",
+    "cnae": "47113",
+    "n_despesas": 8,
+    "tipos": [
+     "Alimentação",
+     "Diversas a especificar"
+    ],
+    "total": 355.64
+   },
+   {
+    "cnpj": "47280211000199",
+    "nome": "J C COMUNICACAO VISUAL LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 136.0
+   },
+   {
+    "cnpj": "37369307000174",
+    "nome": "FERNANDES BAR E CONVENIENCIA LTDA",
+    "cnae": "47296",
+    "n_despesas": 4,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 62.99
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 63,
+   "total": 209004.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 147000.0,
+    "Cessão ou locação de veículos": 15000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 4.5,
+    "Locação/cessão de bens imóveis": 7000.0,
+    "Serviços advocatícios": 20000.0,
+    "Serviços contábeis": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

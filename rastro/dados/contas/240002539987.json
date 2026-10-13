@@ -1,0 +1,222 @@
+{
+ "sq": "240002539987",
+ "nome_urna": "CHICA DO ESKUDLARK",
+ "cargo": "depest",
+ "uf": "SC",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 353000.0,
+  "por_origem": {
+   "Recursos de partido político": 150000.0,
+   "Recursos de pessoas físicas": 203000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 150000.0,
+   "OUTROS RECURSOS": 203000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 150000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 203000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 330152.81,
+  "total_pago": 292565.31,
+  "fornecedores_pj": [
+   {
+    "cnpj": "28922816000191",
+    "nome": "TTX AGENCIAMENTO E SERVICOS LIMITADA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "82906942000106",
+    "nome": "JAWI INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 45851.2
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 39498.01
+   },
+   {
+    "cnpj": "82169020000155",
+    "nome": "GRAFICA TAIOENSE LTDA",
+    "cnae": "18130",
+    "n_despesas": 17,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 32907.5
+   },
+   {
+    "cnpj": "09249668000141",
+    "nome": "INDUSTRIA GRAFICA ESCALA LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25320.9
+   },
+   {
+    "cnpj": "24597727000166",
+    "nome": "P4 COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "03508042000126",
+    "nome": "ILHA BRINDES COMERCIO DE BRINDES LTDA",
+    "cnae": "46893",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14464.0
+   },
+   {
+    "cnpj": "57237264000180",
+    "nome": "FIRMO SOLUCOES LOGISTICAS LTDA",
+    "cnae": "73190",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 11850.0
+   },
+   {
+    "cnpj": "11510097000107",
+    "nome": "SERGIO VASSELAI IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "02102190000183",
+    "nome": "CHARLES ROTHERMEL CIA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6890.1
+   },
+   {
+    "cnpj": "44942082000169",
+    "nome": "NENY DESIGNER LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5088.0
+   },
+   {
+    "cnpj": "42532981000168",
+    "nome": "PHOENIX SUBLIMASTER LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4487.5
+   },
+   {
+    "cnpj": "02555734000162",
+    "nome": "MARCOS AURELIO DA SILVA SERVICOS GRAFICOS",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2860.0
+   },
+   {
+    "cnpj": "76817808000128",
+    "nome": "GRAFICA E EDITORA 3 DE MAIO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2560.0
+   },
+   {
+    "cnpj": "50598608000138",
+    "nome": "50.598.608 LEONARDO TILLMANN",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "42978736000189",
+    "nome": "ARTE COR COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 450.0
+   },
+   {
+    "cnpj": "09633402000106",
+    "nome": "MENDONCA E CIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 10.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 8,
+   "total": 28915.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 25729.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 22.6,
+    "Locação/cessão de bens imóveis": 3164.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,121 @@
+{
+ "sq": "240002537938",
+ "nome_urna": "SERGIO MOTTA",
+ "cargo": "depest",
+ "uf": "SC",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 504000.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 50000.0,
+   "Recursos de partido político": 450000.0,
+   "Recursos de pessoas físicas": 4000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 400000.0,
+   "FUNDO PARTIDARIO": 100000.0,
+   "OUTROS RECURSOS": 4000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 350000.0
+   },
+   {
+    "cnpj": "08093442000131",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - SANTA CATARINA",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68379710000108",
+    "nome": "PAULO ALCEU DORIA VAN LEEUWEN",
+    "total": 50000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 4000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 97357.5,
+  "total_pago": 53007.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 28000.0
+   },
+   {
+    "cnpj": "07857617000177",
+    "nome": "MENEZES NIEBUHR SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "19910112000108",
+    "nome": "NORTE CONSULT CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "46310516000133",
+    "nome": "RODRIGO MENDES DOS SANTOS",
+    "cnae": "58131",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 11500.0
+   },
+   {
+    "cnpj": "07453082000179",
+    "nome": "NOVAMIX COMERCIO IMPORTACAO E EXPORTACAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3750.0
+   },
+   {
+    "cnpj": "37345982000163",
+    "nome": "AR UNIFORMES LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 600.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 6,
+   "total": 13507.5,
+   "por_tipo": {
+    "Despesas com pessoal": 13500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 7.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

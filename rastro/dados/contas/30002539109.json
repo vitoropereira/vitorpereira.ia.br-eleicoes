@@ -1,0 +1,84 @@
+{
+ "sq": "30002539109",
+ "nome_urna": "JOSELYO MAIS SAÚDE",
+ "cargo": "depest",
+ "uf": "AP",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 691000.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 191000.0,
+   "Recursos de partido político": 500000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 191000.0,
+   "OUTROS RECURSOS": 500000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 500000.0
+   },
+   {
+    "cnpj": "68345451000102",
+    "nome": "FELIPE EDSON PINTO",
+    "total": 191000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 131500.0,
+  "total_pago": 0.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "58912926000133",
+    "nome": "AGENCIA 82 LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "35631859000183",
+    "nome": "M G ASSESSORIA CONTABIL E EMPRESARIAL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 19000.0
+   },
+   {
+    "cnpj": "43305354000157",
+    "nome": "MELEM SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 19000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 12,
+   "total": 53500.0,
+   "por_tipo": {
+    "Locação/cessão de bens imóveis": 30000.0,
+    "Serviços próprios prestados por terceiros": 23500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

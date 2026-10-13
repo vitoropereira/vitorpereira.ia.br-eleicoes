@@ -1,0 +1,286 @@
+{
+ "sq": "210002534584",
+ "nome_urna": "VALDECI OLIVEIRA",
+ "cargo": "depfed",
+ "uf": "RS",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 880367.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 862.0,
+   "Recursos de partido político": 855500.0,
+   "Recursos de pessoas físicas": 24005.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 855500.0,
+   "OUTROS RECURSOS": 24867.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 855500.0
+   },
+   {
+    "cnpj": "20986786000175",
+    "nome": "APOIA.SE",
+    "total": 862.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 33,
+   "total": 24005.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 487717.88,
+  "total_pago": 630083.96,
+  "fornecedores_pj": [
+   {
+    "cnpj": "68312535000131",
+    "nome": "ADAO PRETTO FILHO",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "68312542000133",
+    "nome": "LELIO NUNES LOPES FILHO",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "34497291000197",
+    "nome": "TURNA SACCOL ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "68312543000188",
+    "nome": "LEONARDO DA COSTA SILVA",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "88804513000104",
+    "nome": "KADU MALHAS COMERCIO DE ROUPAS LTDA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21250.0
+   },
+   {
+    "cnpj": "68312539000110",
+    "nome": "ALEXANDRE BUBLITZ",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "02507787000108",
+    "nome": "GRAFICA E EDITORA RELAMPAGO LTDA",
+    "cnae": "18113",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18030.24
+   },
+   {
+    "cnpj": "02586879000120",
+    "nome": "IMOBILIARIA PICCININI LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "87776217000176",
+    "nome": "GRAFICA JACUI LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13150.0
+   },
+   {
+    "cnpj": "94350113000160",
+    "nome": "JOKA SUBLIMACAO DIGITAL LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10750.0
+   },
+   {
+    "cnpj": "68312715000113",
+    "nome": "HALLEY LINO DE SOUZA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "28170639000134",
+    "nome": "CAROLINE DE FARIAS TEIXEIRA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "58787650000109",
+    "nome": "58.787.650 TIAGO DIAS DA SILVA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "68312668000108",
+    "nome": "PAULO VANDERLEI FAGUAGA SIQUEIRA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "05147669000124",
+    "nome": "ISOPPO LONDERO LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3125.0
+   },
+   {
+    "cnpj": "53823971000106",
+    "nome": "53.823.971 LEONARDO MAIA RODRIGUES",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "62865579000102",
+    "nome": "62.865.579 FELIPE DE JESUS DA ROSA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "25167751000128",
+    "nome": "RICARDO FAGUNDES DE PIETRO LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1785.48
+   },
+   {
+    "cnpj": "26608068000141",
+    "nome": "OUTLINE IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "04291577000150",
+    "nome": "DIONISIO J. C. BORSA CIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 450.0
+   },
+   {
+    "cnpj": "05197465000106",
+    "nome": "EDUARDO ANDRES ZOLIN",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 95.94
+   },
+   {
+    "cnpj": "20986786000175",
+    "nome": "APOIA.SE",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 18.72
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 152,
+   "total": 199312.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 187500.0,
+    "Cessão ou locação de veículos": 11600.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 212.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

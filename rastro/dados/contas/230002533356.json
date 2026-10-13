@@ -1,0 +1,123 @@
+{
+ "sq": "230002533356",
+ "nome_urna": "NETO LOUREIRO",
+ "cargo": "depest",
+ "uf": "RR",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 412200.0,
+  "por_origem": {
+   "Recursos de partido político": 400000.0,
+   "Recursos próprios": 12200.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 400000.0,
+   "OUTROS RECURSOS": 12200.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 400000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 12200.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 289024.4,
+  "total_pago": 409079.4,
+  "fornecedores_pj": [
+   {
+    "cnpj": "43681152000100",
+    "nome": "A P FREITAS SERVICOS",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans",
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 79000.0
+   },
+   {
+    "cnpj": "07442073000182",
+    "nome": "REAL EMPREENDIMENTOS E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "10607500000140",
+    "nome": "SOLUCAO CONTABILIDADE, AUDITORIA, ASSESSORIA E CONSULTORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "40226940000118",
+    "nome": "SADAMATSU SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "47521583000160",
+    "nome": "GRAFICA G3 LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12665.0
+   },
+   {
+    "cnpj": "26835073000278",
+    "nome": "SALLUZ COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7700.0
+   },
+   {
+    "cnpj": "26835073000197",
+    "nome": "SALLUZ COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 25,
+   "total": 76159.4,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 33000.0,
+    "Cessão ou locação de veículos": 18000.0,
+    "Despesas com pessoal": 25000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 159.4
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

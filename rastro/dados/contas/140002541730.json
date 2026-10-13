@@ -1,0 +1,192 @@
+{
+ "sq": "140002541730",
+ "nome_urna": "IRAN LIMA",
+ "cargo": "depest",
+ "uf": "PA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 629071.1,
+  "por_origem": {
+   "Recursos de outros candidatos": 250471.1,
+   "Recursos de partido político": 175000.0,
+   "Recursos de pessoas físicas": 78600.0,
+   "Recursos próprios": 125000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 425471.1,
+   "OUTROS RECURSOS": 203600.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68455551000183",
+    "nome": "JOSE BENITO PRIANTE JUNIOR",
+    "total": 250000.0
+   },
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 175000.0
+   },
+   {
+    "cnpj": "68456016000147",
+    "nome": "CASSIO COELHO ANDRADE",
+    "total": 471.1
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 203600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 280280.43,
+  "total_pago": 347877.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "06180439000120",
+    "nome": "AEROTOP TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "55801573000106",
+    "nome": "55.801.573 MARCIO AUGUSTO FLEXA SANTOS",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "32985017000131",
+    "nome": "PROSPER TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 37000.0
+   },
+   {
+    "cnpj": "12507345000115",
+    "nome": "VR3 LTDA",
+    "cnae": "82300",
+    "n_despesas": 5,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 34350.0
+   },
+   {
+    "cnpj": "14517565000155",
+    "nome": "GRAFICA E EDITORA LESS LTDA",
+    "cnae": "18130",
+    "n_despesas": 12,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 32310.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "38246119000111",
+    "nome": "M DE L DOS S TAVARES COERCIO E SERVICOS",
+    "cnae": "47814",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11700.0
+   },
+   {
+    "cnpj": "55675688000100",
+    "nome": "XAVIER COMERCIO E SERVICOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 5400.0
+   },
+   {
+    "cnpj": "10593625000168",
+    "nome": "CAPACITAS CONSULTORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "11081412000110",
+    "nome": "BASSALO GONCALVES ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "10325327000197",
+    "nome": "ESTACAO DIGITAL SERVICOS PUBLICITARIOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3700.0
+   },
+   {
+    "cnpj": "03223433000102",
+    "nome": "V.S.T.NERY COMERCIAL",
+    "cnae": "47849",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 1150.0
+   },
+   {
+    "cnpj": "41934926000131",
+    "nome": "GUARA SERVICOS DE TRANSPORTES LTDA",
+    "cnae": "77195",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 1133.33
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 3537.1,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 37.1,
+    "Locação/cessão de bens imóveis": 3500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

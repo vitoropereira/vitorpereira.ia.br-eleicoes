@@ -1,0 +1,214 @@
+{
+ "sq": "170002539476",
+ "nome_urna": "ANDRÉ FERREIRA",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1113813.3,
+  "por_origem": {
+   "Recursos de partido político": 1051944.25,
+   "Recursos de pessoas físicas": 6744.05,
+   "Recursos próprios": 55125.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1000000.0,
+   "FUNDO PARTIDARIO": 51944.25,
+   "OUTROS RECURSOS": 61869.05
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "01381039000169",
+    "nome": "Direção Estadual/Distrital - PL - PERNAMBUCO",
+    "total": 51944.25
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 61869.05
+  }
+ },
+ "despesas": {
+  "total_contratado": 978045.95,
+  "total_pago": 842175.23,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 140000.0
+   },
+   {
+    "cnpj": "20717136000124",
+    "nome": "KCV GRAFICA E EDITORA LTDA",
+    "cnae": "58298",
+    "n_despesas": 15,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 96610.0
+   },
+   {
+    "cnpj": "47235779000198",
+    "nome": "OPINIAO PESQUISAS QUANTITATIVAS E CONSULTORIA LTDA",
+    "cnae": "73203",
+    "n_despesas": 2,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "00758606000190",
+    "nome": "MXM GRAFICA E EMBALAGENS LTDA",
+    "cnae": "17311",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 36650.0
+   },
+   {
+    "cnpj": "11038639000182",
+    "nome": "CONECTE SOLUCOES CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "07182261000119",
+    "nome": "C B LUCENA DISTRIBUIDORA LTDA",
+    "cnae": "46796",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 28850.0
+   },
+   {
+    "cnpj": "11029360000132",
+    "nome": "TROIA COMERCIO E TRANSPORTES LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 28600.0
+   },
+   {
+    "cnpj": "11052812000105",
+    "nome": "POSTO RECH LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 26403.19
+   },
+   {
+    "cnpj": "10211999000171",
+    "nome": "RR TERCERIZACAO E SERVICOS LTDA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19700.0
+   },
+   {
+    "cnpj": "08780690000150",
+    "nome": "W3 LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 14976.0
+   },
+   {
+    "cnpj": "33474270000193",
+    "nome": "A M. B. DE ARRUDA RIBEIRO INDUSTRIA E COMERCIO DE IMPRESSAO, ROTULOS E ETIQUETAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "07292942000130",
+    "nome": "JUSCELI BEZERRA DA SILVA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7740.0
+   },
+   {
+    "cnpj": "02579701000152",
+    "nome": "TVL LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7020.0
+   },
+   {
+    "cnpj": "18748887000166",
+    "nome": "ALN LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5590.0
+   },
+   {
+    "cnpj": "30740552000105",
+    "nome": "30.740.552 THALENNA MAYARA CORREIA DE SANTANA E SILVA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 4000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 492,
+   "total": 469906.76,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 317210.0,
+    "Cessão ou locação de veículos": 16000.0,
+    "Despesas com transporte ou deslocamento": 28266.66,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1630.1,
+    "Locação/cessão de bens imóveis": 33000.0,
+    "Segurança e prevenção, repressão e combate à violência política": 2500.0,
+    "Serviços advocatícios": 10000.0,
+    "Serviços prestados por terceiros": 61300.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

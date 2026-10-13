@@ -1,0 +1,114 @@
+{
+ "sq": "260002533079",
+ "nome_urna": "ICARO DE VALMIR",
+ "cargo": "depfed",
+ "uf": "SE",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1032562.0,
+  "por_origem": {
+   "Recursos de partido político": 1032562.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1000000.0,
+   "FUNDO PARTIDARIO": 32562.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "08508858000173",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - SERGIPE",
+    "total": 32562.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 216030.0,
+  "total_pago": 0.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "60743244000196",
+    "nome": "IPS PAPER ROTULOS E ETIQUETAS LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "21605773000171",
+    "nome": "CHAGAS TRINDADE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "43250282000198",
+    "nome": "GS CONTADORES ASSOCIADOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "05997973000160",
+    "nome": "ELTON LEANDRO CARVALHO OLIVEIRA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6200.0
+   },
+   {
+    "cnpj": "59703826000160",
+    "nome": "CRUZ MACHADO COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2430.0
+   },
+   {
+    "cnpj": "46107374000101",
+    "nome": "RUAN DE JESUS COSTA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 17,
+   "total": 40400.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 30400.0,
+    "Locação/cessão de bens imóveis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

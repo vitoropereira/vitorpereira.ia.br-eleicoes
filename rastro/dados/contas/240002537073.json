@@ -1,0 +1,622 @@
+{
+ "sq": "240002537073",
+ "nome_urna": "JORGINHO MELLO",
+ "cargo": "governador",
+ "uf": "SC",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 7896586.46,
+  "por_origem": {
+   "Recursos de origens não identificadas": 6000.0,
+   "Recursos de partido político": 6465000.0,
+   "Recursos de pessoas físicas": 1395586.46,
+   "Recursos próprios": 30000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 5700000.0,
+   "FUNDO PARTIDARIO": 10000.0,
+   "OUTROS RECURSOS": 2186586.46
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 5700000.0
+   },
+   {
+    "cnpj": "80150972000100",
+    "nome": "Direção Estadual/Distrital - PL - SANTA CATARINA",
+    "total": 765000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 90,
+   "total": 1431586.46
+  }
+ },
+ "despesas": {
+  "total_contratado": 6900115.51,
+  "total_pago": 7263075.98,
+  "fornecedores_pj": [
+   {
+    "cnpj": "23087346000174",
+    "nome": "VENTURA ESTUDIO LTDA",
+    "cnae": "59111",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1194000.0
+   },
+   {
+    "cnpj": "07532200000134",
+    "nome": "RDO COMUNICACAO VISUAL LTDA",
+    "cnae": "47890",
+    "n_despesas": 15,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 645670.42
+   },
+   {
+    "cnpj": "86375870000160",
+    "nome": "TIPOTIL - INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 11,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 625770.0
+   },
+   {
+    "cnpj": "10989862000142",
+    "nome": "MW MARKETING IMAGES LTDA ME",
+    "cnae": "82300",
+    "n_despesas": 3,
+    "tipos": [
+     "Eventos de promoção da candidatura",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 600000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 16,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 534997.0
+   },
+   {
+    "cnpj": "29859785000134",
+    "nome": "FORMA CONSULTORIA EM MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 469050.0
+   },
+   {
+    "cnpj": "07857617000177",
+    "nome": "MENEZES NIEBUHR SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 350000.0
+   },
+   {
+    "cnpj": "02007949000149",
+    "nome": "SANTAFE TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 288741.66
+   },
+   {
+    "cnpj": "75290122000169",
+    "nome": "IBAGY IMOVEIS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 252500.0
+   },
+   {
+    "cnpj": "19910112000108",
+    "nome": "NORTE CONSULT CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 251051.0
+   },
+   {
+    "cnpj": "11797429000178",
+    "nome": "CARTA BRANCA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 229420.0
+   },
+   {
+    "cnpj": "28664939000170",
+    "nome": "POLITEIA LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 221714.88
+   },
+   {
+    "cnpj": "81516106000144",
+    "nome": "DIVIART DIVISORIAS E ACABAMENTOS LTDA",
+    "cnae": "43304",
+    "n_despesas": 2,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 197000.0
+   },
+   {
+    "cnpj": "07111059000104",
+    "nome": "XP ESTUDIO DE PRODUCOES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 144924.5
+   },
+   {
+    "cnpj": "35401719000119",
+    "nome": "SMART PRINT MATERIAL PUBLICITARIO LTDA",
+    "cnae": "18130",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 125607.5
+   },
+   {
+    "cnpj": "35360884000170",
+    "nome": "BEST MARKETING E COMUNICACAO DIGITAL LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "18574279000182",
+    "nome": "FLORIPRESS COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 74650.0
+   },
+   {
+    "cnpj": "05913862000129",
+    "nome": "MINISTER SERVICOS DE VIGILANCIA LTDA",
+    "cnae": "80111",
+    "n_despesas": 3,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 64125.0
+   },
+   {
+    "cnpj": "08074472000109",
+    "nome": "STUDIO CLIPAGEM LTDA",
+    "cnae": "59111",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 61700.0
+   },
+   {
+    "cnpj": "05494613000146",
+    "nome": "ELBERT EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 56000.0
+   },
+   {
+    "cnpj": "77836443000141",
+    "nome": "ABRAO V. FERNANDES CIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 6,
+    "tipos": [
+     "Alimentação",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 44835.0
+   },
+   {
+    "cnpj": "42532981000168",
+    "nome": "PHOENIX SUBLIMASTER LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 43744.0
+   },
+   {
+    "cnpj": "52422578000130",
+    "nome": "L.E.S CONSULTORIA E PESQUISA LTDA",
+    "cnae": "58115",
+    "n_despesas": 3,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 41000.0
+   },
+   {
+    "cnpj": "01799858000120",
+    "nome": "MORRO DA CRUZ EMPREENDIMENTOS TURISTICOS LTDA",
+    "cnae": "79121",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "79391157000145",
+    "nome": "MISERVI ADMINISTRADORA DE SERVICOS LTDA",
+    "cnae": "78108",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 21375.0
+   },
+   {
+    "cnpj": "81632283000196",
+    "nome": "FROTA SIM LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "95803839000174",
+    "nome": "DISK CAR LOCACAO DE VEICULOS SA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7800.0
+   },
+   {
+    "cnpj": "83796284000100",
+    "nome": "HACASA ADMINISTRACAO E EMPREENDIMENTOS IMOBILIARIOS S/A",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5600.0
+   },
+   {
+    "cnpj": "83515650000105",
+    "nome": "CEPAR CONSTRUCAO E COMERCIO LTDA",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "08924039000107",
+    "nome": "AMERICA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 27,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4941.42
+   },
+   {
+    "cnpj": "83483230000186",
+    "nome": "SELBETTI TECNOLOGIA S.A.",
+    "cnae": "77331",
+    "n_despesas": 4,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4787.84
+   },
+   {
+    "cnpj": "51207912000170",
+    "nome": "POSTO ILHA DA MAGIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 18,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3784.89
+   },
+   {
+    "cnpj": "21777096000179",
+    "nome": "MTECH EVENTOS LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3650.0
+   },
+   {
+    "cnpj": "00087804000170",
+    "nome": "AUTO POSTO TALISMA LTDA",
+    "cnae": "47318",
+    "n_despesas": 20,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3474.07
+   },
+   {
+    "cnpj": "80678220000108",
+    "nome": "INVESTCITY INVESTIMENTO E ADMINISTRACAO DE IMOVEIS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "00109576000515",
+    "nome": "REDE DE POSTOS M7 LTDA.",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1009.85
+   },
+   {
+    "cnpj": "05598939000113",
+    "nome": "AUTO POSTO DUQUE LTDA.",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 914.82
+   },
+   {
+    "cnpj": "03833501000147",
+    "nome": "POSTO DE COMBUSTIVEIS MICHELLOS LTDA.",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 754.36
+   },
+   {
+    "cnpj": "36154293000109",
+    "nome": "RESTAURANTE E MARMITAS PEREQUE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "83552125000151",
+    "nome": "CLUBE ESPORTIVO, RECREATIVO E CULTURAL PRIMAVERA",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "09006278000221",
+    "nome": "ATACADO LITORAL LTDA",
+    "cnae": "46419",
+    "n_despesas": 4,
+    "tipos": [
+     "Materiais de expediente",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 607.5
+   },
+   {
+    "cnpj": "34354058000155",
+    "nome": "MS TRANSPORTE LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "04192442000138",
+    "nome": "AUTO POSTO BEGNINI LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 462.16
+   },
+   {
+    "cnpj": "25073302000110",
+    "nome": "LEANDRO MATERIAIS LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "26218157000181",
+    "nome": "AUTO POSTO CARVALHO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 287.94
+   },
+   {
+    "cnpj": "39680601000128",
+    "nome": "AUTO POSTO CENTRAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 265.2
+   },
+   {
+    "cnpj": "00109576000353",
+    "nome": "REDE DE POSTOS M7 LTDA.",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 253.05
+   },
+   {
+    "cnpj": "79249942000168",
+    "nome": "PETRO POSTO UNIAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 213.91
+   },
+   {
+    "cnpj": "79858221000155",
+    "nome": "D W HECKMANN CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 195.99
+   },
+   {
+    "cnpj": "83305235006400",
+    "nome": "COOPERATIVA AGROINDUSTRIAL ALFA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 179.56
+   },
+   {
+    "cnpj": "82729922000107",
+    "nome": "PLANALTO - COMERCIO DE COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 134.91
+   },
+   {
+    "cnpj": "00109576001678",
+    "nome": "REDE DE POSTOS M7 LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 129.68
+   },
+   {
+    "cnpj": "31565513000173",
+    "nome": "AUTO POSTO XANXERE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 117.0
+   },
+   {
+    "cnpj": "30934495000197",
+    "nome": "AUTO POSTO MIRES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 116.88
+   },
+   {
+    "cnpj": "83442061000136",
+    "nome": "AUTO POSTO ISAC LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 76.05
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 15,
+   "total": 161682.47,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 349.2,
+    "Impostos, contribuições e taxas": 15000.0,
+    "Locação/cessão de bens imóveis": 16000.0,
+    "Serviços prestados por terceiros": 130333.27
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,259 @@
+{
+ "sq": "240002543392",
+ "nome_urna": "DR. VICENTE",
+ "cargo": "depest",
+ "uf": "SC",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1091210.0,
+  "por_origem": {
+   "Recursos de partido político": 1000000.0,
+   "Recursos de pessoas físicas": 66000.0,
+   "Recursos próprios": 25210.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 300000.0,
+   "FUNDO PARTIDARIO": 700000.0,
+   "OUTROS RECURSOS": 91210.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "45738698000185",
+    "nome": "Direção Estadual/Distrital - UNIÃO - SANTA CATARINA",
+    "total": 700000.0
+   },
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 300000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 91210.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 778072.25,
+  "total_pago": 488777.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "84691419000127",
+    "nome": "IMPRESSORA IPIRANGA LTDA",
+    "cnae": "58298",
+    "n_despesas": 64,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 197032.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 11,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 103000.0
+   },
+   {
+    "cnpj": "09595747000104",
+    "nome": "SAVANA COLETIVOS LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "43463390000149",
+    "nome": "MYSTIC FILMES LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "25220736000104",
+    "nome": "UNIAO LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 13940.0
+   },
+   {
+    "cnpj": "14460841000196",
+    "nome": "JARAGUA COMERCIO E SERVICOS DE PAINEIS PUBLICITARIOS LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10680.0
+   },
+   {
+    "cnpj": "73331514000101",
+    "nome": "PLANO PESQUISAS LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 9230.0
+   },
+   {
+    "cnpj": "08945050000153",
+    "nome": "JORNAL O CORREIO DO POVO LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 7600.0
+   },
+   {
+    "cnpj": "04555612000100",
+    "nome": "EDITORA DO VALE LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 5100.0
+   },
+   {
+    "cnpj": "42371858000102",
+    "nome": "MAES SABOR REFEICOES LTDA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 4851.0
+   },
+   {
+    "cnpj": "36833825000134",
+    "nome": "BUSINESS GRAFICA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4574.0
+   },
+   {
+    "cnpj": "53480667000103",
+    "nome": "53.480.667 VOLMIR SOUZA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2300.0
+   },
+   {
+    "cnpj": "15555787000125",
+    "nome": "TESTO EDITORA E EVENTOS LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2250.0
+   },
+   {
+    "cnpj": "03659278000163",
+    "nome": "EDITORA ANA CAROLINA LTDA",
+    "cnae": "58239",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1690.0
+   },
+   {
+    "cnpj": "83488882000103",
+    "nome": "POSTO MIME S.A.",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1154.68
+   },
+   {
+    "cnpj": "83488882000880",
+    "nome": "POSTO MIME S.A.",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 736.37
+   },
+   {
+    "cnpj": "32295890000100",
+    "nome": "CERTIFIC DIGITAL SOLUCOES DE TECNOLOGIA DA INFORMACAO LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 210.0
+   },
+   {
+    "cnpj": "83488882004877",
+    "nome": "POSTO MIME S.A.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 184.2
+   },
+   {
+    "cnpj": "08236312000100",
+    "nome": "STILLO COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 180.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 81,
+   "total": 354360.0,
+   "por_tipo": {
+    "Despesas com pessoal": 326250.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 110.0,
+    "Serviços advocatícios": 25000.0,
+    "Serviços contábeis": 3000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

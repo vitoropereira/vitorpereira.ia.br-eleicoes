@@ -1,0 +1,224 @@
+{
+ "sq": "250002533757",
+ "nome_urna": "TELHADINHA - CAPITÃO TELHADA",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 641000.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 96000.0,
+   "Recursos de partido político": 518000.0,
+   "Recursos de pessoas físicas": 21000.0,
+   "Recursos próprios": 6000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 500000.0,
+   "FUNDO PARTIDARIO": 96000.0,
+   "OUTROS RECURSOS": 45000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 500000.0
+   },
+   {
+    "cnpj": "68236973000168",
+    "nome": "PAULO ADRIANO LOPES LUCINDA TELHADA",
+    "total": 96000.0
+   },
+   {
+    "cnpj": "00888402000174",
+    "nome": "Direção Estadual/Distrital - PP - SÃO PAULO",
+    "total": 18000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 27000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 562451.87,
+  "total_pago": 505468.54,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 195000.0
+   },
+   {
+    "cnpj": "07046094000189",
+    "nome": "ELYON SOLUCOES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 82890.0
+   },
+   {
+    "cnpj": "27122380000193",
+    "nome": "MARELLA ROLLO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "46298651000100",
+    "nome": "DOIS MUNDOS MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 44400.0
+   },
+   {
+    "cnpj": "53103933000170",
+    "nome": "GALACTICA PROCESSAMENTO E ASSESSORIA CONTABIL",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "49000815000160",
+    "nome": "LEVVA MOBILIDADE LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "29103053000110",
+    "nome": "LL DIAS LOGISTICA FREGUESIA LTDA",
+    "cnae": "53202",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4169.18
+   },
+   {
+    "cnpj": "54985932000160",
+    "nome": "LAPAPEL COMERCIO DE PAPEIS LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 3376.96
+   },
+   {
+    "cnpj": "06142901000102",
+    "nome": "ORION AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3200.38
+   },
+   {
+    "cnpj": "33322586000160",
+    "nome": "FOCO VISUAL COMERCIO DE PRODUTOS PROMOCIONAIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2990.0
+   },
+   {
+    "cnpj": "45380855000123",
+    "nome": "BRAIN TECNOLOGIA E SERVICOS LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2780.0
+   },
+   {
+    "cnpj": "22346813000170",
+    "nome": "E3M3 WEB STORE LTDA",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 2280.0
+   },
+   {
+    "cnpj": "39981100000181",
+    "nome": "39.981.100 FABIO DE SOUZA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1630.85
+   },
+   {
+    "cnpj": "13261160000136",
+    "nome": "PUBLICIDADE EM DIA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1192.0
+   },
+   {
+    "cnpj": "54134042000144",
+    "nome": "TP ESTAMPA LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 720.0
+   },
+   {
+    "cnpj": "33523710000155",
+    "nome": "SILVANA GONCALVES BAIA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 300.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 40,
+   "total": 116522.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 3000.0,
+    "Despesas com pessoal": 78000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 22.5,
+    "Locação/cessão de bens imóveis": 35500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,103 @@
+{
+ "sq": "20002548324",
+ "nome_urna": "ANTONIO ALBUQUERQUE",
+ "cargo": "depest",
+ "uf": "AL",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1000000.0,
+  "por_origem": {
+   "Recursos de partido político": 1000000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 869940.0,
+   "FUNDO PARTIDARIO": 130060.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 869940.0
+   },
+   {
+    "cnpj": "45844136000116",
+    "nome": "Direção Estadual/Distrital - UNIÃO - ALAGOAS",
+    "total": 130060.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 782064.7,
+  "total_pago": 660027.2,
+  "fornecedores_pj": [
+   {
+    "cnpj": "39308599000160",
+    "nome": "JOAO EDSON BARROS VIANA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 460000.0
+   },
+   {
+    "cnpj": "08386074000110",
+    "nome": "AGRA DAMACENA LTDA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "00887925000104",
+    "nome": "GRAFMARQUES INDUSTRIA EDITORA E SERVICOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 37537.5
+   },
+   {
+    "cnpj": "03893033000104",
+    "nome": "BRABO MAGALHAES ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "11355874000188",
+    "nome": "INFINNI SERVICOS E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 50027.2,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 27.2,
+    "Serviços contábeis": 50000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

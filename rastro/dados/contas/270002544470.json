@@ -1,0 +1,171 @@
+{
+ "sq": "270002544470",
+ "nome_urna": "FILIPE MARTINS",
+ "cargo": "depfed",
+ "uf": "TO",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3048933.6,
+  "por_origem": {
+   "Recursos de outros candidatos": 1558.42,
+   "Recursos de partido político": 2999375.18,
+   "Recursos próprios": 48000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2926912.5,
+   "FUNDO PARTIDARIO": 64050.18,
+   "OUTROS RECURSOS": 57970.92
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2900000.0
+   },
+   {
+    "cnpj": "08738595000199",
+    "nome": "Direção Estadual/Distrital - PL - TOCANTINS",
+    "total": 99375.18
+   },
+   {
+    "cnpj": "68492195000178",
+    "nome": "MARIA AUXILIADORA SEABRA REZENDE",
+    "total": 1070.92
+   },
+   {
+    "cnpj": "68504142000120",
+    "nome": "CARLOS EDUARDO TORRES GOMES",
+    "total": 487.5
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 48000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2086257.53,
+  "total_pago": 1318458.2,
+  "fornecedores_pj": [
+   {
+    "cnpj": "51615351000148",
+    "nome": "ART MUSIC STUDIO PRODUTORA DE AUDIO VIDEO LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 330000.0
+   },
+   {
+    "cnpj": "45299324000100",
+    "nome": "FIRST CLASS PRODUCOES LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 261500.0
+   },
+   {
+    "cnpj": "15720302000101",
+    "nome": "CORES EM PAPEL INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 14,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 183921.0
+   },
+   {
+    "cnpj": "46520178000164",
+    "nome": "KROMA FILMES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 115000.0
+   },
+   {
+    "cnpj": "28253863000190",
+    "nome": "ATLAS ALUGUEL DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 26600.0
+   },
+   {
+    "cnpj": "55981808000199",
+    "nome": "VERSATIL COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19900.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "02588773000166",
+    "nome": "STAR COMERCIO DE COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3963.07
+   },
+   {
+    "cnpj": "32878385000180",
+    "nome": "TOP FRIO AR CONDICIONADO LTDA",
+    "cnae": "43223",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "44579656000186",
+    "nome": "AL DISTRIBUIDORA LTDA",
+    "cnae": "46478",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 7.76
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 254,
+   "total": 1132965.7,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 1022146.0,
+    "Cessão ou locação de veículos": 52800.0,
+    "Despesas com pessoal": 50900.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 119.7,
+    "Locação/cessão de bens imóveis": 7000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

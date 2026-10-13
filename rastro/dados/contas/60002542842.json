@@ -1,0 +1,92 @@
+{
+ "sq": "60002542842",
+ "nome_urna": "TANCREDO DOS SANTOS",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 273500.0,
+  "por_origem": {
+   "Recursos de partido político": 200000.0,
+   "Recursos de pessoas físicas": 60000.0,
+   "Recursos próprios": 13500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 100000.0,
+   "FUNDO PARTIDARIO": 100000.0,
+   "OUTROS RECURSOS": 73500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 200000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 73500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 54520.5,
+  "total_pago": 52880.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "52598652000173",
+    "nome": "52.598.652 THAIS AMANDA MARTINS DE FREITAS",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "02824298000180",
+    "nome": "PRINTCOLOR GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2880.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 4,
+   "total": 8640.5,
+   "por_tipo": {
+    "Despesas com pessoal": 5640.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5,
+    "Locação/cessão de bens imóveis": 3000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,66 @@
+{
+ "sq": "40002545606",
+ "nome_urna": "CLÓVIS CURUBÃO",
+ "cargo": "depest",
+ "uf": "AM",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 173100.0,
+  "por_origem": {
+   "Recursos de partido político": 173100.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 173100.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 173100.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 45815.0,
+  "total_pago": 0.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "38305450000165",
+    "nome": "M. A. R. P. JUNIOR",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "28256671000137",
+    "nome": "BORDADOS COMERCIO LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 10,
+   "total": 24315.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 24315.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

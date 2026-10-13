@@ -1,0 +1,131 @@
+{
+ "sq": "210002539072",
+ "nome_urna": "CAPITÃO MARTIM",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 493782.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 932.0,
+   "Recursos de partido político": 273000.0,
+   "Recursos de pessoas físicas": 95850.0,
+   "Recursos próprios": 124000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 250000.0,
+   "OUTROS RECURSOS": 243782.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 250000.0
+   },
+   {
+    "cnpj": "07919379000187",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - RIO GRANDE DO SUL",
+    "total": 23000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 932.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 16,
+   "total": 219850.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 326207.47,
+  "total_pago": 448616.47,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 9,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 260357.42
+   },
+   {
+    "cnpj": "90744509000131",
+    "nome": "COPY STAR FOTOCOPIAS E ENCADERNACOES LTDA",
+    "cnae": "82199",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 28920.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "15115234000151",
+    "nome": "SPEED PROMOCIONAL INDUSTRIA DE BRINDES LTDA",
+    "cnae": "32990",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10735.0
+   },
+   {
+    "cnpj": "02162126000198",
+    "nome": "JORNAL L ATTUALITA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "32953013000171",
+    "nome": "FELIPE ROMAN MAZZAROLO LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 550.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 18.55
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 6,
+   "total": 4626.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 4600.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 26.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

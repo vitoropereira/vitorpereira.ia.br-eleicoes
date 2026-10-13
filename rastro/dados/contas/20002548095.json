@@ -1,0 +1,71 @@
+{
+ "sq": "20002548095",
+ "nome_urna": "DUDU RONALSA",
+ "cargo": "depest",
+ "uf": "AL",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 108000.0,
+  "por_origem": {
+   "Recursos de partido político": 100000.0,
+   "Recursos de pessoas físicas": 8000.0
+  },
+  "por_fonte": {
+   "FUNDO PARTIDARIO": 100000.0,
+   "OUTROS RECURSOS": 8000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01308052000192",
+    "nome": "Direção Estadual/Distrital - MDB - ALAGOAS",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 8000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 83800.0,
+  "total_pago": 8000.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "51299807000108",
+    "nome": "ALT SIGN COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 33500.0
+   },
+   {
+    "cnpj": "59436283000161",
+    "nome": "ELOHPRINT SINALIZACAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 14300.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 9,
+   "total": 36000.0,
+   "por_tipo": {
+    "Despesas com pessoal": 16000.0,
+    "Serviços advocatícios": 10000.0,
+    "Serviços contábeis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

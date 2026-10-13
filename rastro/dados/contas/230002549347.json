@@ -1,0 +1,214 @@
+{
+ "sq": "230002549347",
+ "nome_urna": "CATARINA GUERRA",
+ "cargo": "depest",
+ "uf": "RR",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1227767.6,
+  "por_origem": {
+   "Recursos de partido político": 1049727.6,
+   "Recursos de pessoas físicas": 168240.0,
+   "Recursos próprios": 9800.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1049727.6,
+   "OUTROS RECURSOS": 178040.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 1049727.6
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 29,
+   "total": 178040.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 789887.27,
+  "total_pago": 403965.07,
+  "fornecedores_pj": [
+   {
+    "cnpj": "54783644000122",
+    "nome": "RR PRODUCOES ENTRETENIMENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "28661679000189",
+    "nome": "WN TREINAMENTO CONSULTORIA PLANEJAMENTO E EMPREENDIMENTOS LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "37933577000166",
+    "nome": "RENAN DE ALMEIDA GONCALVES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "32546832000102",
+    "nome": "H. C. SOUZA LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "07610743000122",
+    "nome": "PERSONAL CONFECCOES RR LTDA",
+    "cnae": "14223",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26399.0
+   },
+   {
+    "cnpj": "84041011000100",
+    "nome": "INDUSTRIA E COMERCIO IORIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "18455198000163",
+    "nome": "T. A. DE A. B. PEREIRA LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "03667416000660",
+    "nome": "AUTO POSTO CINCO ESTRELAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 15942.42
+   },
+   {
+    "cnpj": "18723834000190",
+    "nome": "D COELHO LAGO",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 7360.0
+   },
+   {
+    "cnpj": "06983735000169",
+    "nome": "PARIMA LOCACAO BOA VISTA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7200.0
+   },
+   {
+    "cnpj": "84020957000190",
+    "nome": "MESQUITA E PADILHA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6319.25
+   },
+   {
+    "cnpj": "68897236000106",
+    "nome": "68.897.236 PAULO ALVES DE SOUZA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "84017888000165",
+    "nome": "FORBRAS RORAIMA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4800.0
+   },
+   {
+    "cnpj": "64785284000151",
+    "nome": "M L DA SILVA JUNIOR LOCADORA DE VEICULOS",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4700.0
+   },
+   {
+    "cnpj": "23438301000105",
+    "nome": "M N SANTOS COMERCIO DE INFORMATICA LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 4200.0
+   },
+   {
+    "cnpj": "33385646000193",
+    "nome": "VITA NORTE COMERCIO LTDA",
+    "cnae": "47296",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 3400.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 95,
+   "total": 199566.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 132000.0,
+    "Despesas com pessoal": 6550.0,
+    "Diversas a especificar": 16000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 16.6,
+    "Produção de jingles, vinhetas e slogans": 10000.0,
+    "Serviços contábeis": 35000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

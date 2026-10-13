@@ -1,0 +1,160 @@
+{
+ "sq": "180002536465",
+ "nome_urna": "MARCOS AURÉLIO",
+ "cargo": "depfed",
+ "uf": "PI",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2568000.0,
+  "por_origem": {
+   "Recursos de partido político": 2500000.0,
+   "Recursos de pessoas físicas": 68000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2500000.0,
+   "OUTROS RECURSOS": 68000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 2500000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 68000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 797698.2,
+  "total_pago": 1416559.71,
+  "fornecedores_pj": [
+   {
+    "cnpj": "68373295000185",
+    "nome": "THEMISTOCLES DE SAMPAIO PEREIRA FILHO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 400000.0
+   },
+   {
+    "cnpj": "68373693000100",
+    "nome": "ENEAS MAIA DOS SANTOS",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "55796135000105",
+    "nome": "THIAGO FERRER SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "58682743000179",
+    "nome": "ARAUJO E ALMEIDA ASSESSORIA CONTABIL-FINANCEIRA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "52336957000107",
+    "nome": "JM INDUSTRIA DE EMBALAGENS E ROTULOS LTDA",
+    "cnae": "17419",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13238.48
+   },
+   {
+    "cnpj": "00353368000133",
+    "nome": "GUABES PRODUCOES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 12500.0
+   },
+   {
+    "cnpj": "41085934000150",
+    "nome": "SB CONSULTORIA POLITICA E DE COMUNICACAO LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "09116541000154",
+    "nome": "AUTO LESTE LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "41088256000180",
+    "nome": "E. S. SOUZA RODRIGUES",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "06656656000143",
+    "nome": "CACIQUE PETROLEO LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 952.22
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 16,
+   "total": 113007.5,
+   "por_tipo": {
+    "Despesas com pessoal": 58000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 7.5,
+    "Locação/cessão de bens imóveis": 55000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

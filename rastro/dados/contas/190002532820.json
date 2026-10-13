@@ -1,0 +1,140 @@
+{
+ "sq": "190002532820",
+ "nome_urna": "RAFAEL SATIÊ",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1408340.92,
+  "por_origem": {
+   "Doações pela Internet": 12500.0,
+   "Recursos de outros candidatos": 5777.27,
+   "Recursos de partido político": 1027604.65,
+   "Recursos de pessoas físicas": 362459.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1005777.27,
+   "FUNDO PARTIDARIO": 3504.65,
+   "OUTROS RECURSOS": 399059.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "08703299000152",
+    "nome": "Direção Estadual/Distrital - PL - RIO DE JANEIRO",
+    "total": 27604.65
+   },
+   {
+    "cnpj": "68269095000187",
+    "nome": "ALEXANDRE ISQUIERDO MOREIRA",
+    "total": 3050.0
+   },
+   {
+    "cnpj": "68470280000135",
+    "nome": "DOUGLAS RUAS DOS SANTOS",
+    "total": 2727.27
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 20,
+   "total": 374959.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 535756.25,
+  "total_pago": 334950.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "54415517000170",
+    "nome": "VOTEC CONSULTORIA, PROPAGANDA E MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "33963085000162",
+    "nome": "MANDATO PRIME SERVICOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68462778000156",
+    "nome": "CRISTIANE RODRIGUES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "02495060000158",
+    "nome": "IMPRINT 2001 GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8493.75
+   },
+   {
+    "cnpj": "37572044000104",
+    "nome": "GRAFICOR COMUNICACAO VISUAL LTDA",
+    "cnae": "46478",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "03582702000119",
+    "nome": "NEW PAYOLO COMERCIAL E DISTRIBUIDORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 16,
+   "total": 99262.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 36750.0,
+    "Cessão ou locação de veículos": 20000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 12.5,
+    "Locação/cessão de bens imóveis": 12500.0,
+    "Publicidade por materiais impressos": 30000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

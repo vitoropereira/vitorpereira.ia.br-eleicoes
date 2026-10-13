@@ -1,0 +1,369 @@
+{
+ "sq": "160002546827",
+ "nome_urna": "COBRA REPORTER",
+ "cargo": "depest",
+ "uf": "PR",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 405002.49,
+  "por_origem": {
+   "Recursos de outros candidatos": 107072.49,
+   "Recursos de partido político": 186850.0,
+   "Recursos de pessoas físicas": 83580.0,
+   "Recursos próprios": 27500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 100800.0,
+   "OUTROS RECURSOS": 304202.49
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "14512048000193",
+    "nome": "Direção Estadual/Distrital - PSD - PARANÁ",
+    "total": 186850.0
+   },
+   {
+    "cnpj": "68464960000146",
+    "nome": "MARCELO RANGEL CRUZ DE OLIVEIRA",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68455188000104",
+    "nome": "PEDRO DEBONI LUPION MELLO",
+    "total": 6010.99
+   },
+   {
+    "cnpj": "68464891000170",
+    "nome": "LEONALDO PARANHOS DA SILVA",
+    "total": 800.0
+   },
+   {
+    "cnpj": "68455145000110",
+    "nome": "EDER EDUARDO BUBLITZ",
+    "total": 179.0
+   },
+   {
+    "cnpj": "68464561000185",
+    "nome": "DARLAN SCALCO",
+    "total": 82.5
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 36,
+   "total": 111080.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 383667.23,
+  "total_pago": 347839.4,
+  "fornecedores_pj": [
+   {
+    "cnpj": "54313613000108",
+    "nome": "WINN IMPRESSAO DIGITAL LTDA",
+    "cnae": "47130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 89100.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 14,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 33302.0
+   },
+   {
+    "cnpj": "07546380000103",
+    "nome": "MAURICIO CARNEIRO -ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "12278821000173",
+    "nome": "CANADA CONTABILIDADE E SISTEMAS DE INFORMACOES LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 29500.0
+   },
+   {
+    "cnpj": "27734916000121",
+    "nome": "DZ9 DESIGN BRANDING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 23500.0
+   },
+   {
+    "cnpj": "30568080000147",
+    "nome": "GERACASE ESTOJOS E EMBALAGENS LTDA",
+    "cnae": "16234",
+    "n_despesas": 16,
+    "tipos": [
+     "Publicidade por jornais e revistas",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19758.0
+   },
+   {
+    "cnpj": "55947908000107",
+    "nome": "LJA IMPRESSOES DIGITAIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14240.0
+   },
+   {
+    "cnpj": "12667593000123",
+    "nome": "JRKT B2B LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "95543377000101",
+    "nome": "SUPREMA LOTEADORA LTDA",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "05929678000177",
+    "nome": "SILVA RODRIGUES EDITORA LTDA",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 7250.0
+   },
+   {
+    "cnpj": "08981298000170",
+    "nome": "FACIL CAR LOGISTICA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "55462223000162",
+    "nome": "ALINE INVEST LTDA",
+    "cnae": "64930",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5400.0
+   },
+   {
+    "cnpj": "68363804000199",
+    "nome": "BANDEPAR BANDEIRAS LTDA",
+    "cnae": "13596",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "75205260000100",
+    "nome": "GRAFICA E EDITORA GODOY LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4925.0
+   },
+   {
+    "cnpj": "00330966000197",
+    "nome": "CORGRAF GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4725.0
+   },
+   {
+    "cnpj": "23361590000183",
+    "nome": "2K JEANS LTDA",
+    "cnae": "46427",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3192.0
+   },
+   {
+    "cnpj": "78375391000116",
+    "nome": "ROLEMAK ADMINISTRADORA DE IMOVEIS LTDA",
+    "cnae": "68102",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "01270349000106",
+    "nome": "KALAHAN COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2680.83
+   },
+   {
+    "cnpj": "27721082000110",
+    "nome": "HENRIQUE HORACIO DA SILVA - BRINDES",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2250.0
+   },
+   {
+    "cnpj": "51882717000145",
+    "nome": "L GUILHERME COMERCIO E ATACADO DE PRODUTOS LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1560.0
+   },
+   {
+    "cnpj": "44462474000120",
+    "nome": "A A ADMINISTRACAO DE BENS LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "48897299000155",
+    "nome": "CARVALHO PEREIRA COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1150.0
+   },
+   {
+    "cnpj": "17956109000108",
+    "nome": "LOCACAO SOLAR LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "36646483000143",
+    "nome": "RS IMPRESSOS LTDA.",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 914.0
+   },
+   {
+    "cnpj": "61198164000160",
+    "nome": "PORTO SEGURO COMPANHIA DE SEGUROS GERAIS",
+    "cnae": "65120",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 871.69
+   },
+   {
+    "cnpj": "29197065000150",
+    "nome": "CANTANTI EMBALAGENS LONDRINA LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 166.31
+   },
+   {
+    "cnpj": "05057352000105",
+    "nome": "OLIVEIRA SOUSA COMUNICACOES LTDA.",
+    "cnae": "61108",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 154.71
+   },
+   {
+    "cnpj": "14662762000168",
+    "nome": "C2 TECNOLOGIAS WEB LTDA",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 14.99
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 27,
+   "total": 69412.7,
+   "por_tipo": {
+    "Despesas com pessoal": 60800.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 112.7,
+    "Locação/cessão de bens imóveis": 8500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

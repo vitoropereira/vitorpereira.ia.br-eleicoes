@@ -1,0 +1,136 @@
+{
+ "sq": "270002546680",
+ "nome_urna": "CLAUDIA LELIS",
+ "cargo": "depest",
+ "uf": "TO",
+ "partido": "PV",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 905098.57,
+  "por_origem": {
+   "Recursos de partido político": 870157.81,
+   "Recursos de pessoas físicas": 34940.76
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 860000.0,
+   "FUNDO PARTIDARIO": 10157.81,
+   "OUTROS RECURSOS": 34940.76
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "31886963000168",
+    "nome": "Direção Nacional - PV",
+    "total": 850000.0
+   },
+   {
+    "cnpj": "06015813000131",
+    "nome": "Direção Estadual/Distrital - PV - TOCANTINS",
+    "total": 20157.81
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 34940.76
+  }
+ },
+ "despesas": {
+  "total_contratado": 494621.02,
+  "total_pago": 616768.36,
+  "fornecedores_pj": [
+   {
+    "cnpj": "22838553000150",
+    "nome": "IVETE GUIMARAES VIVAS",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 260000.0
+   },
+   {
+    "cnpj": "11547309000112",
+    "nome": "SOLANO DONATO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "65344326000181",
+    "nome": "ENTRE ATOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "11862722000171",
+    "nome": "M L PEDROSO CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 32000.0
+   },
+   {
+    "cnpj": "13196023000165",
+    "nome": "FM DE SOUSA FILHO LTDA",
+    "cnae": "43991",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13500.0
+   },
+   {
+    "cnpj": "34177756000122",
+    "nome": "34.177.756 ELIENE FERNANDES BANDEIRA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 8500.0
+   },
+   {
+    "cnpj": "43542509000179",
+    "nome": "MAFA COMUNICACAO LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1293.0
+   },
+   {
+    "cnpj": "34309267000187",
+    "nome": "COMERCIAL DE COMBUSTIVEIS CASA TUA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 322.52
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 8,
+   "total": 89005.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 85000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 5.5,
+    "Serviços prestados por terceiros": 4000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

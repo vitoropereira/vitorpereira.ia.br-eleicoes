@@ -1,0 +1,220 @@
+{
+ "sq": "210002548220",
+ "nome_urna": "EDIVILSON BRUM",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 507855.28,
+  "por_origem": {
+   "Recursos de outros candidatos": 20000.0,
+   "Recursos de partido político": 23770.19,
+   "Recursos de pessoas físicas": 450185.09,
+   "Recursos próprios": 13900.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 20000.0,
+   "OUTROS RECURSOS": 487855.28
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68475867000137",
+    "nome": "ALCEU MOREIRA DA SILVA",
+    "total": 20000.0
+   },
+   {
+    "cnpj": "87582714000133",
+    "nome": "Direção Estadual/Distrital - MDB - RIO GRANDE DO SUL",
+    "total": 3770.19
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 72,
+   "total": 464085.09
+  }
+ },
+ "despesas": {
+  "total_contratado": 133898.28,
+  "total_pago": 105038.28,
+  "fornecedores_pj": [
+   {
+    "cnpj": "88000377000191",
+    "nome": "G BENEFICIAMENTO E COMERCIO DE TECIDOS LTDA",
+    "cnae": "13405",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 39870.0
+   },
+   {
+    "cnpj": "39226947000150",
+    "nome": "39.226.947 WILLIAMS CAMPOS BORGES",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "32051077000187",
+    "nome": "EMPORIO RESTAURANTE E CAFE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 11160.0
+   },
+   {
+    "cnpj": "60443704000160",
+    "nome": "JAQUELINE CREMONINI DA SILVA LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "15115234000151",
+    "nome": "SPEED PROMOCIONAL INDUSTRIA DE BRINDES LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8200.0
+   },
+   {
+    "cnpj": "39158679000187",
+    "nome": "GUSTAVO ECCHER LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8125.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "66127468000150",
+    "nome": "VERITTAS SOLUCOES LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "21608383000155",
+    "nome": "HUMANIZZA TREINAMENTOS E PESQUISAS LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "89310742000127",
+    "nome": "IRMAOS GRACIOLA LTDA",
+    "cnae": "16226",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3450.0
+   },
+   {
+    "cnpj": "25188538000100",
+    "nome": "ESSENT INOVACAO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "45467970000130",
+    "nome": "LAZARO ELIZEO LUTZ FERREIRA VILELA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "62320332000100",
+    "nome": "62.320.332 TAINA SANTOS DA LUZ",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2620.0
+   },
+   {
+    "cnpj": "01950235000107",
+    "nome": "J. SUL ADMINISTRACAO DE IMOVEIS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "00443387000150",
+    "nome": "ADEMAR LEONCIO MACHADO",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 190.0
+   },
+   {
+    "cnpj": "52402246000193",
+    "nome": "ESPACO LED VIRTUAL LTDA",
+    "cnae": "47547",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 104.95
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 11178.33,
+   "por_tipo": {
+    "Locação/cessão de bens imóveis": 11178.33
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

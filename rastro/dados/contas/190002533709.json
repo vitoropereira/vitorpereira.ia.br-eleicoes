@@ -1,0 +1,62 @@
+{
+ "sq": "190002533709",
+ "nome_urna": "POUBEL FILHO",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 306454.51,
+  "por_origem": {
+   "Recursos de partido político": 306454.51
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 300000.0,
+   "FUNDO PARTIDARIO": 6454.51
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 300000.0
+   },
+   {
+    "cnpj": "08703299000152",
+    "nome": "Direção Estadual/Distrital - PL - RIO DE JANEIRO",
+    "total": 6454.51
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 268187.5,
+  "total_pago": 201500.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "68237245000170",
+    "nome": "FILIPPE MEDEIROS POUBEL",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 160000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 71,
+   "total": 108187.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 108187.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

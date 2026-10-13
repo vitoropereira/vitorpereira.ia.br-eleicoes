@@ -1,0 +1,169 @@
+{
+ "sq": "190002541068",
+ "nome_urna": "DELEGADO FELIPE CURI",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2540350.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 40350.0,
+   "Recursos de partido político": 2500000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2500000.0,
+   "OUTROS RECURSOS": 40350.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 2500000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 40350.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1753692.06,
+  "total_pago": 1863959.89,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 16,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 600000.0
+   },
+   {
+    "cnpj": "22144107000146",
+    "nome": "DAMIAN SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "37304696000150",
+    "nome": "MAIS FLUXO TRANSPORTES E LOGISTICA LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 96710.0
+   },
+   {
+    "cnpj": "52027055000199",
+    "nome": "A. MIRANDA PRODUCOES E EVENTOS LIMITADA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 73791.26
+   },
+   {
+    "cnpj": "33963085000162",
+    "nome": "MANDATO PRIME SERVICOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "01209604000105",
+    "nome": "SUPRASET GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 51000.0
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 4,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 25064.55
+   },
+   {
+    "cnpj": "12359362000152",
+    "nome": "BIROSGRAF - COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17350.0
+   },
+   {
+    "cnpj": "39617745000130",
+    "nome": "RIOSKYDIVE SERVICO DE TURISMO LTDA",
+    "cnae": "79121",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "56716181000101",
+    "nome": "ADN SINALIZACAO ARTES GRAFICAS LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1250.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 853.09
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 198,
+   "total": 715173.16,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 485134.16,
+    "Diversas a especificar": 65400.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 139.0,
+    "Locação/cessão de bens imóveis": 6000.0,
+    "Produção de programas de rádio, televisão ou vídeo": 115500.0,
+    "Serviços prestados por terceiros": 43000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

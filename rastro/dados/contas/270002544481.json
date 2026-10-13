@@ -1,0 +1,304 @@
+{
+ "sq": "270002544481",
+ "nome_urna": "WISTON GOMES",
+ "cargo": "depest",
+ "uf": "TO",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 673829.03,
+  "por_origem": {
+   "Recursos de outros candidatos": 3011.12,
+   "Recursos de partido político": 511117.91,
+   "Recursos de pessoas físicas": 139700.0,
+   "Recursos próprios": 20000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 503290.0,
+   "FUNDO PARTIDARIO": 2185.2,
+   "OUTROS RECURSOS": 168353.83
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 500000.0
+   },
+   {
+    "cnpj": "08738595000199",
+    "nome": "Direção Estadual/Distrital - PL - TOCANTINS",
+    "total": 7207.83
+   },
+   {
+    "cnpj": "45877002000100",
+    "nome": "Direção Estadual/Distrital - UNIÃO - TOCANTINS",
+    "total": 3910.08
+   },
+   {
+    "cnpj": "68504142000120",
+    "nome": "CARLOS EDUARDO TORRES GOMES",
+    "total": 1440.0
+   },
+   {
+    "cnpj": "68492195000178",
+    "nome": "MARIA AUXILIADORA SEABRA REZENDE",
+    "total": 1070.92
+   },
+   {
+    "cnpj": "68527002000177",
+    "nome": "FABIO PEREIRA VAZ",
+    "total": 500.2
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 17,
+   "total": 159700.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 400614.61,
+  "total_pago": 543990.89,
+  "fornecedores_pj": [
+   {
+    "cnpj": "27729309000173",
+    "nome": "PRO SYSTEM SONORIZACAO E ESTRUTURAS PARA EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 58000.0
+   },
+   {
+    "cnpj": "60450860000159",
+    "nome": "MARCELLA AYRES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "07119531000147",
+    "nome": "AVANTHI SOLUCOES EM CONTABILIDADE PUBLICA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "53512366000106",
+    "nome": "53.512.366 JOSE VITOR MENDES LIMA",
+    "cnae": "63992",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "09015122000126",
+    "nome": "GRAFICA E EDITORA SANTO EXPEDITO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22440.0
+   },
+   {
+    "cnpj": "53719864000124",
+    "nome": "AUTO POSTO WR LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 20044.72
+   },
+   {
+    "cnpj": "38756034000183",
+    "nome": "PIRES OLIVEIRA CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10965.0
+   },
+   {
+    "cnpj": "26852471000111",
+    "nome": "LUIS CARLOS FALCAO ALVES",
+    "cnae": "96092",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "38337046000173",
+    "nome": "38.337.046 SHESLEY CAVALCANTE LIMA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8501.0
+   },
+   {
+    "cnpj": "17434500000134",
+    "nome": "JLVM NEGOCIOS E PARTICIPACOES SOCIETARIAS LTDA",
+    "cnae": "64638",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "15720302000101",
+    "nome": "CORES EM PAPEL INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5700.0
+   },
+   {
+    "cnpj": "12047269000102",
+    "nome": "ARTS DESIGN IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4734.0
+   },
+   {
+    "cnpj": "11649005000166",
+    "nome": "FLASH - COMUNICACAO VISUAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4400.0
+   },
+   {
+    "cnpj": "10723391000126",
+    "nome": "GRAFICA STILLUS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3900.0
+   },
+   {
+    "cnpj": "57248021000148",
+    "nome": "57.248.021 KALWEST SILVA DE OLIVEIRA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "63136825000158",
+    "nome": "63.136.825 MARCUS GABRIEL LOPES TOLENTINO CARDOSO",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "04941903000128",
+    "nome": "L. J. RABELO CIA LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2750.0
+   },
+   {
+    "cnpj": "62747115000100",
+    "nome": "DISTRIBUIDORA MENESES LTDA",
+    "cnae": "47237",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1875.0
+   },
+   {
+    "cnpj": "42604304000108",
+    "nome": "AUTO POSTO SHALOM LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1220.0
+   },
+   {
+    "cnpj": "04299899000146",
+    "nome": "ASSOCIACAO DAS PRACAS DO BICO",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "21694545000115",
+    "nome": "SOS INFORMATICA E PAPELARIA LTDA",
+    "cnae": "95118",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 19.8
+   },
+   {
+    "cnpj": "23004883000103",
+    "nome": "J JUNIOR DA SILVA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 13.99
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 152,
+   "total": 130951.1,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 67500.0,
+    "Cessão ou locação de veículos": 6000.0,
+    "Despesas com pessoal": 29400.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 51.1,
+    "Locação/cessão de bens imóveis": 16000.0,
+    "Publicidade por carros de som": 12000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

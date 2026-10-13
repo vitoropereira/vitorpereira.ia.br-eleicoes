@@ -1,0 +1,453 @@
+{
+ "sq": "240002539384",
+ "nome_urna": "ZÉ TROVÃO",
+ "cargo": "depfed",
+ "uf": "SC",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3044581.2,
+  "por_origem": {
+   "Recursos de partido político": 3000000.0,
+   "Recursos de pessoas físicas": 44581.2
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1500000.0,
+   "FUNDO PARTIDARIO": 1500000.0,
+   "OUTROS RECURSOS": 44581.2
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 10,
+   "total": 44581.2
+  }
+ },
+ "despesas": {
+  "total_contratado": 1997053.47,
+  "total_pago": 1834814.9,
+  "fornecedores_pj": [
+   {
+    "cnpj": "07046094000189",
+    "nome": "ELYON SOLUCOES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 13,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 238445.17
+   },
+   {
+    "cnpj": "11517684000110",
+    "nome": "MM ESTRATEGIA E EVENTOS LTDA",
+    "cnae": "85996",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 210000.0
+   },
+   {
+    "cnpj": "38561986000141",
+    "nome": "D7 - DYNAMIC SEVEN CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 146280.0
+   },
+   {
+    "cnpj": "62781750000103",
+    "nome": "BRESSAN LOCACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 12,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 142290.0
+   },
+   {
+    "cnpj": "47270108000168",
+    "nome": "LIKE BUSINESS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "54322253000100",
+    "nome": "PRECISA GESTAO LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 9,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 47750.0
+   },
+   {
+    "cnpj": "59965466000174",
+    "nome": "59.965.466 PEDRO RIBEIRO XAVIER ESTEVES FRAGA RODRIGUES",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 43000.0
+   },
+   {
+    "cnpj": "10761012000273",
+    "nome": "CALLADO, PETRIN, PAES E CEZAR ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "33322586000160",
+    "nome": "FOCO VISUAL COMERCIO DE PRODUTOS PROMOCIONAIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 38640.0
+   },
+   {
+    "cnpj": "03547179000190",
+    "nome": "COOPERATIVA DE TRANSPORTE ESPECIAL, FRETAMENTO E TURISMO DE JOINVILLE - COOTREJ",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "34870772000104",
+    "nome": "MARIA APARECIDA DA SILVA PEREIRA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 25200.0
+   },
+   {
+    "cnpj": "37144791000133",
+    "nome": "ALMANN INDUSTRIA E COMERCIO DE ARTIGOS DO VESTUARIO LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 17500.0
+   },
+   {
+    "cnpj": "32893861000132",
+    "nome": "BRILLER INTELIGENCIA VIRTUAL LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "34308234000112",
+    "nome": "HANNA COMERCIO DE MOVEIS PLANEJADOS LTDA",
+    "cnae": "47547",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 7850.0
+   },
+   {
+    "cnpj": "24989638000165",
+    "nome": "JP LOCACOES PARA FESTAS E EVENTOS LTDA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "34200414000186",
+    "nome": "MAILOU SUPPLY E STORE VENDA E LOCACAO DE EQUIPAMENTOS DE INFORMATICA LTDA",
+    "cnae": "46516",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 4450.0
+   },
+   {
+    "cnpj": "80976012000195",
+    "nome": "HOTEL POUSADA DO VALE LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 3960.8
+   },
+   {
+    "cnpj": "14356587000180",
+    "nome": "MANICA VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3900.0
+   },
+   {
+    "cnpj": "63400506000108",
+    "nome": "SPHERE CORPORATE TRAINING LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3150.0
+   },
+   {
+    "cnpj": "77852176000104",
+    "nome": "GOLDEN HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 2820.0
+   },
+   {
+    "cnpj": "16607942000172",
+    "nome": "MULTILIZZA COMERCIAL LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 2656.5
+   },
+   {
+    "cnpj": "60220122000115",
+    "nome": "ESTACAO SABOR LTDA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2176.0
+   },
+   {
+    "cnpj": "03429847000184",
+    "nome": "MARAVILHAS PARK HOTEL LTDA.",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 2170.0
+   },
+   {
+    "cnpj": "65512697000125",
+    "nome": "65.512.697 JANE NICEIA FEUSER DE CARVALHO",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1983.0
+   },
+   {
+    "cnpj": "41897748000116",
+    "nome": "41.897.748 SANDY LOUIZE MELARA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1967.45
+   },
+   {
+    "cnpj": "63397703000115",
+    "nome": "63.397.703 VITOR HENRIQUE DE SOUZA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1830.0
+   },
+   {
+    "cnpj": "33793512000101",
+    "nome": "LUIZ CLAUDINEI SOTEIRO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1799.0
+   },
+   {
+    "cnpj": "29423248000147",
+    "nome": "MOINHO COMERCIO DE ARMARINHOS LTDA",
+    "cnae": "47555",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 854.98
+   },
+   {
+    "cnpj": "22281507000284",
+    "nome": "ITS - IMPORTACAO, TECNOLOGIA E SERVICOS LTDA",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 748.78
+   },
+   {
+    "cnpj": "02779800000188",
+    "nome": "AUTO POSTO DRM LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 617.41
+   },
+   {
+    "cnpj": "83401174000193",
+    "nome": "POSTO TRES CORES LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "11168652000156",
+    "nome": "AUTO POSTO PIRAI LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 500.5
+   },
+   {
+    "cnpj": "76608660000111",
+    "nome": "POSTO GRACIOSA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 467.75
+   },
+   {
+    "cnpj": "61649245000139",
+    "nome": "61.649.245 ARTHUR MARTINS NETO",
+    "cnae": "43215",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 330.0
+   },
+   {
+    "cnpj": "86321957000155",
+    "nome": "HOTEL TAIO LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 320.0
+   },
+   {
+    "cnpj": "31199352000141",
+    "nome": "AUTO POSTO AG8 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 290.03
+   },
+   {
+    "cnpj": "77875821000104",
+    "nome": "AUTO POSTO QUERENCIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 232.27
+   },
+   {
+    "cnpj": "09164791001999",
+    "nome": "REDE DE POSTOS APOLO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 191.32
+   },
+   {
+    "cnpj": "19635271000141",
+    "nome": "G76 TECNOLOGIA E INTERMEDIACAO DE NEGOCIOS LTDA",
+    "cnae": "95118",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 149.9
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 316,
+   "total": 752432.61,
+   "por_tipo": {
+    "Despesas com pessoal": 734431.81,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 300.8,
+    "Locação/cessão de bens imóveis": 12700.0,
+    "Serviços contábeis": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,255 @@
+{
+ "sq": "240002543409",
+ "nome_urna": "SÉRGIO GUIMARÃES",
+ "cargo": "depest",
+ "uf": "SC",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 253260.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 156260.0,
+   "Recursos próprios": 97000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 253260.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 27,
+   "total": 253260.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 242164.8,
+  "total_pago": 159101.51,
+  "fornecedores_pj": [
+   {
+    "cnpj": "19001207000109",
+    "nome": "TECHGRAFF GRAFICA E DESIGNER LTDA",
+    "cnae": "18211",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 51800.0
+   },
+   {
+    "cnpj": "37146721000114",
+    "nome": "A A MAINARDES LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 34635.0
+   },
+   {
+    "cnpj": "37345982000163",
+    "nome": "AR UNIFORMES LTDA",
+    "cnae": "13405",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "39360713000100",
+    "nome": "LAUTERT SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 16272.81
+   },
+   {
+    "cnpj": "04649441000170",
+    "nome": "LOCA AUTO LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10698.0
+   },
+   {
+    "cnpj": "23541263000103",
+    "nome": "KARAMBOLA PUBLICIDADE E PROPAGANDA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "63487962000137",
+    "nome": "LL SERVICOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "33154647000127",
+    "nome": "MARCIO ROGALSKI GRAFICA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9340.0
+   },
+   {
+    "cnpj": "34028316205180",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 6374.7
+   },
+   {
+    "cnpj": "23673074000194",
+    "nome": "TOP MULTIMIDIA E EVENTOS LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5600.0
+   },
+   {
+    "cnpj": "05494613000146",
+    "nome": "ELBERT EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5133.0
+   },
+   {
+    "cnpj": "52326142000147",
+    "nome": "KALOA MARKETING ESTRATEGICO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "44818414000106",
+    "nome": "IMPRIME ONLINE LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3250.0
+   },
+   {
+    "cnpj": "30679996000174",
+    "nome": "AUTO POSTO NOVO TEMPO LTDA",
+    "cnae": "47318",
+    "n_despesas": 12,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3213.79
+   },
+   {
+    "cnpj": "38438204000181",
+    "nome": "TOPNEWS COMUNICACAO EDITORACAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2600.0
+   },
+   {
+    "cnpj": "04187770000146",
+    "nome": "PAPELARIA JH FERNANDES LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 2420.0
+   },
+   {
+    "cnpj": "07399497000101",
+    "nome": "PALAVRA EDICAO DE JORNAIS LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "30876785000121",
+    "nome": "30.876.785 ANDRE LUIZ DA ROSA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "04140320000106",
+    "nome": "SYGA PLANEJAMENTO E MONTAGEM LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 620.0
+   },
+   {
+    "cnpj": "59834164000167",
+    "nome": "59.834.164 VITORIA ARCENO DE FARIAS",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 15107.5,
+   "por_tipo": {
+    "Despesas com pessoal": 5100.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 7.5,
+    "Locação/cessão de bens imóveis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

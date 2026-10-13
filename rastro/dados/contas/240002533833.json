@@ -1,0 +1,631 @@
+{
+ "sq": "240002533833",
+ "nome_urna": "PROFESSOR PEDRO UCZAI",
+ "cargo": "depfed",
+ "uf": "SC",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2050533.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 9183.0,
+   "Recursos de partido político": 1831000.0,
+   "Recursos de pessoas físicas": 84000.0,
+   "Recursos próprios": 126350.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1840183.0,
+   "OUTROS RECURSOS": 210350.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1831000.0
+   },
+   {
+    "cnpj": "68289709000192",
+    "nome": "DECIO NERY DE LIMA",
+    "total": 9183.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 19,
+   "total": 210350.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1977046.53,
+  "total_pago": 1973546.53,
+  "fornecedores_pj": [
+   {
+    "cnpj": "04137442000135",
+    "nome": "GL EDITORA GRAFICA LTDA",
+    "cnae": "58212",
+    "n_despesas": 88,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 384332.4
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 275000.0
+   },
+   {
+    "cnpj": "38347632000107",
+    "nome": "DFMKT COMUNICACAO E TECNOLOGIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "49869930000175",
+    "nome": "49.869.930 PERY ANTONIO TASCA",
+    "cnae": "59120",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "04176082000180",
+    "nome": "REUNIDAS TRANSPORTES S.A",
+    "cnae": "49221",
+    "n_despesas": 36,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 39288.06
+   },
+   {
+    "cnpj": "07171007000115",
+    "nome": "TIAGO SANTOS PRODUCOES AUDIOVISUAIS",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "27465664000182",
+    "nome": "CLAUDIR SOBIERAI SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "29075860000176",
+    "nome": "MESTRES DA SUBLIMACAO ESTAMPARIA E CONFECCAO LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "45965120000161",
+    "nome": "DECLASSE ASSESSORIA DE COMUNICACAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "06010428000100",
+    "nome": "POSTO MILAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 62,
+    "tipos": [
+     "Alimentação",
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 14185.02
+   },
+   {
+    "cnpj": "28266574000125",
+    "nome": "EF SOLUCOES SONORAS LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 12500.0
+   },
+   {
+    "cnpj": "34866876000137",
+    "nome": "34.866.876 TIAGO MILAN",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10850.0
+   },
+   {
+    "cnpj": "16772273000194",
+    "nome": "DJ JEOVANE SONORIZACOES LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 9200.0
+   },
+   {
+    "cnpj": "75437293000178",
+    "nome": "ASSOCIACAO RECREATIVA E ESPORTIVA DOS AMIGOS DO BAIRRO BELA VISTA",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6300.0
+   },
+   {
+    "cnpj": "04303357000108",
+    "nome": "DECANDIDO SONORIZACOES E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 4150.0
+   },
+   {
+    "cnpj": "13374631000112",
+    "nome": "AGLEISE MARILAN SOUZA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3760.0
+   },
+   {
+    "cnpj": "00198140000116",
+    "nome": "L. C. - RESTAURANTE E CHOPERIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "95858460000161",
+    "nome": "VILMAR MARTINS SONORIZACAO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3300.0
+   },
+   {
+    "cnpj": "04324112000159",
+    "nome": "PLANET DANCE SONORIZACAO LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3200.0
+   },
+   {
+    "cnpj": "79005591000140",
+    "nome": "SOCIEDADE RECREATIVA ESPORTIVA CULTURAL NOVO HORIZONTE",
+    "cnae": "94936",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "77910370000190",
+    "nome": "POSTO DA COLINA LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2424.25
+   },
+   {
+    "cnpj": "84950633002366",
+    "nome": "MITRA DIOCESANA DE LAGES",
+    "cnae": "94910",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1621.0
+   },
+   {
+    "cnpj": "30526075000171",
+    "nome": "JOSE SERGIO BOITA JUNIOR",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "85152536000185",
+    "nome": "POSTO SAO JORGE LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1442.71
+   },
+   {
+    "cnpj": "22212979000102",
+    "nome": "IVAN KRAISS",
+    "cnae": "43223",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "00127064000158",
+    "nome": "CLAUDINEI FERNANDO LIBRELATO",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "26310569000147",
+    "nome": "FRAIBURGO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1084.97
+   },
+   {
+    "cnpj": "17688208000148",
+    "nome": "ASSCON-PP ASSESSORIA E CONSULTORIA PUBLICA E PRIVADA LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 952.0
+   },
+   {
+    "cnpj": "03671477000197",
+    "nome": "AUTO POSTO LIGEIRINHO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 936.12
+   },
+   {
+    "cnpj": "06192810000173",
+    "nome": "GRAFICA E EDITORA CHOIKOSKI LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 910.0
+   },
+   {
+    "cnpj": "83787044000211",
+    "nome": "POSTO INGO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 900.67
+   },
+   {
+    "cnpj": "07995185000160",
+    "nome": "AUDIO MEDIA DIGITAL STUDIO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "83314930003596",
+    "nome": "ARQUIDIOCESE DE CHAPECO",
+    "cnae": "94910",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "80979107000162",
+    "nome": "CESCA CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 580.1
+   },
+   {
+    "cnpj": "54406182000124",
+    "nome": "CENTRO AUTOMOTIVO CACADOR LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 547.9
+   },
+   {
+    "cnpj": "03626094001098",
+    "nome": "IDEAL GUAPO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 540.95
+   },
+   {
+    "cnpj": "31565513000173",
+    "nome": "AUTO POSTO XANXERE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 349.83
+   },
+   {
+    "cnpj": "12307455000133",
+    "nome": "JPM COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 330.18
+   },
+   {
+    "cnpj": "39628024000125",
+    "nome": "AUTO POSTO VERENKA 04 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 305.04
+   },
+   {
+    "cnpj": "02589936000478",
+    "nome": "REDE DE POSTOS NORTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 304.58
+   },
+   {
+    "cnpj": "03107073000175",
+    "nome": "SINDICATO DOS TRABALHADORES NAS INDUSTRIAS DA ALIMENTACAO, EM COOPERATIVAS, AGROINDUSTRIAS E INDUSTRIAS NO MEIO RURAL DE CONCORDIA E REGIAO",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "79378196000102",
+    "nome": "SINDICATO DOS SERVIDORES PUBLICOS MUNICIPAIS DE JARAGUA DO SUL E REGIAO",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "14506775000148",
+    "nome": "POSTO JR SIMON LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 295.61
+   },
+   {
+    "cnpj": "31199352000141",
+    "nome": "AUTO POSTO AG8 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 293.45
+   },
+   {
+    "cnpj": "83156075000193",
+    "nome": "AUTO POSTO N S DE LOURDES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 292.02
+   },
+   {
+    "cnpj": "23448964002650",
+    "nome": "MP POSTOS E LOGISTICA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 285.02
+   },
+   {
+    "cnpj": "55760777000146",
+    "nome": "POSTO MAZO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 283.1
+   },
+   {
+    "cnpj": "32642312000195",
+    "nome": "POSTO DA SERRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 270.06
+   },
+   {
+    "cnpj": "83110726000376",
+    "nome": "POSTO ZIMMERMANN LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 260.05
+   },
+   {
+    "cnpj": "03455338002927",
+    "nome": "AUTO POSTO MEDITERRANEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 253.92
+   },
+   {
+    "cnpj": "80451289001176",
+    "nome": "REDE RUSSI LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 241.16
+   },
+   {
+    "cnpj": "85306728000107",
+    "nome": "POSTO DE COMBUSTIVEL REAL PARAISO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 230.05
+   },
+   {
+    "cnpj": "72469687000381",
+    "nome": "COMBUSTIVEIS GUAPO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 229.58
+   },
+   {
+    "cnpj": "06254289000151",
+    "nome": "REAL AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 207.3
+   },
+   {
+    "cnpj": "83828129000110",
+    "nome": "ASSOCIACAO DOS FUNCIONARIOS AMIGOS DO HOSPITAL SAO PAUL",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "81326258000184",
+    "nome": "POSTO GALO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 175.63
+   },
+   {
+    "cnpj": "07473735023807",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 157.4
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 268,
+   "total": 1001926.4,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 10000.0,
+    "Despesas com pessoal": 965700.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 476.4,
+    "Locação/cessão de bens imóveis": 15300.0,
+    "Locação/cessão de bens móveis (exceto veículos)": 450.0,
+    "Serviços contábeis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

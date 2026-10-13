@@ -1,0 +1,301 @@
+{
+ "sq": "20002547841",
+ "nome_urna": "DANIEL BARBOSA",
+ "cargo": "depfed",
+ "uf": "AL",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3124054.86,
+  "por_origem": {
+   "Recursos de partido político": 3111800.0,
+   "Recursos de pessoas físicas": 12254.86
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3100000.0,
+   "OUTROS RECURSOS": 24054.86
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 3100000.0
+   },
+   {
+    "cnpj": "04181135000151",
+    "nome": "Direção Estadual/Distrital - PP - ALAGOAS",
+    "total": 11800.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 12254.86
+  }
+ },
+ "despesas": {
+  "total_contratado": 1526594.07,
+  "total_pago": 1793846.37,
+  "fornecedores_pj": [
+   {
+    "cnpj": "50061432000180",
+    "nome": "FEAT WORK LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 450000.0
+   },
+   {
+    "cnpj": "07270919000144",
+    "nome": "GOMES PEREIRA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "14876708000115",
+    "nome": "NOGUEIRA, ALBUQUERQUE E FREIRE ASSOCIADOS S/S",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 85000.0
+   },
+   {
+    "cnpj": "45751316000153",
+    "nome": "TERRA MIDIA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por carros de som"
+    ],
+    "total": 62600.0
+   },
+   {
+    "cnpj": "61812873000193",
+    "nome": "COMERCIO DE COMBUSTIVEIS MASSARANDUBA LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 30698.41
+   },
+   {
+    "cnpj": "10642696000103",
+    "nome": "JOSE SILVA ROCHA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "13137478000100",
+    "nome": "RAFAEL BARBOSA DE OLIVEIRA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "04723148000105",
+    "nome": "GRAFICA FARIAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16800.0
+   },
+   {
+    "cnpj": "34028316151233",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 11168.85
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "67709835000196",
+    "nome": "AUTO POSTO GPL AGRESTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10078.32
+   },
+   {
+    "cnpj": "06991581000157",
+    "nome": "AMJ COMERCIO DISTRIBUIDORA LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 9000.72
+   },
+   {
+    "cnpj": "42730356000120",
+    "nome": "SUPER GRAFICA EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6900.0
+   },
+   {
+    "cnpj": "29540082000149",
+    "nome": "AB COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4953.31
+   },
+   {
+    "cnpj": "33359490000176",
+    "nome": "F MARTINS DE OLIVEIRA PUBLICIDADE",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3900.0
+   },
+   {
+    "cnpj": "49514127000118",
+    "nome": "SOU IMAGEM IMPRESSAO DIGITAL COMUNICACAO VISUAL E OUTDOOR LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3900.0
+   },
+   {
+    "cnpj": "35921340000130",
+    "nome": "WOULTHAMBERG RODRIGUES DOS SANTOS",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "41480855000144",
+    "nome": "CARLOS A DOS S FARIAS GRAFICA E EDITORA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "58494646000152",
+    "nome": "JORGE LUIZ EVANGELISTA JUNIOR",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "05352714000182",
+    "nome": "MARIA DAMASCENO DE FARIAS SERVICOS",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1170.0
+   },
+   {
+    "cnpj": "01242690000310",
+    "nome": "IBN PINTO E SILVA CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1104.46
+   },
+   {
+    "cnpj": "63980090000144",
+    "nome": "GEMAQ LOCACOES E TECNOLOGIA LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "06125169000154",
+    "nome": "LIVRARIA E PAPELARIA CENTRAL LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 180.0
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 171,
+   "total": 633800.0,
+   "por_tipo": {
+    "Alimentação": 16630.0,
+    "Atividades de militância e mobilização de rua": 301010.0,
+    "Cessão ou locação de veículos": 8500.0,
+    "Despesas com pessoal": 15660.0,
+    "Despesas com transporte ou deslocamento": 228000.0,
+    "Locação/cessão de bens imóveis": 20000.0,
+    "Publicidade por carros de som": 30000.0,
+    "Serviços prestados por terceiros": 14000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

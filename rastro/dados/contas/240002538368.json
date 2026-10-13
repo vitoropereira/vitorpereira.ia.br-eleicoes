@@ -1,0 +1,190 @@
+{
+ "sq": "240002538368",
+ "nome_urna": "PAULINHA",
+ "cargo": "depfed",
+ "uf": "SC",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1637300.0,
+  "por_origem": {
+   "Recursos de partido político": 1395000.0,
+   "Recursos de pessoas físicas": 242300.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1395000.0,
+   "OUTROS RECURSOS": 242300.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 1395000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 242300.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 843676.38,
+  "total_pago": 451574.88,
+  "fornecedores_pj": [
+   {
+    "cnpj": "86375870000160",
+    "nome": "TIPOTIL - INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 175240.0
+   },
+   {
+    "cnpj": "43357653000135",
+    "nome": "PHILIPPS FILMES LTDA.",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 124000.0
+   },
+   {
+    "cnpj": "43614804000193",
+    "nome": "CONSORCIO BC EVENTOS SPE LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 116267.0
+   },
+   {
+    "cnpj": "79381893000112",
+    "nome": "UNIGRAF EDITORA E GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 76452.0
+   },
+   {
+    "cnpj": "22820095000122",
+    "nome": "UF COMUNICACAO VISUAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 68535.0
+   },
+   {
+    "cnpj": "68257114000155",
+    "nome": "VRM REPRESENTACOES LTDA",
+    "cnae": "46192",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 51005.0
+   },
+   {
+    "cnpj": "37345982000163",
+    "nome": "AR UNIFORMES LTDA",
+    "cnae": "13405",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 36800.0
+   },
+   {
+    "cnpj": "11748257000142",
+    "nome": "MARCIA MARIA SOARES DA COSTA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22330.0
+   },
+   {
+    "cnpj": "20555572000144",
+    "nome": "20.555.572 KELVIN LEMES MILOCO",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5800.0
+   },
+   {
+    "cnpj": "04292016000176",
+    "nome": "SAK SOM SONORIZACAO LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4400.0
+   },
+   {
+    "cnpj": "21323286000116",
+    "nome": "OSVALDO PIETROSKI JUNIOR",
+    "cnae": "71197",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4160.0
+   },
+   {
+    "cnpj": "42433890000175",
+    "nome": "FLORIPA ATUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1951.0
+   },
+   {
+    "cnpj": "52764392000169",
+    "nome": "LOWA STUDIO COMPANY LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1060.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 5676.38,
+   "por_tipo": {
+    "Impostos, contribuições e taxas": 676.38,
+    "Serviços prestados por terceiros": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

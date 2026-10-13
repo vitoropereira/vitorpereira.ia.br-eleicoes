@@ -1,0 +1,469 @@
+{
+ "sq": "240002539382",
+ "nome_urna": "DANIELA REINEHR",
+ "cargo": "depfed",
+ "uf": "SC",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3127953.0,
+  "por_origem": {
+   "Recursos de partido político": 3000000.0,
+   "Recursos próprios": 127953.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1500000.0,
+   "FUNDO PARTIDARIO": 1500000.0,
+   "OUTROS RECURSOS": 127953.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 127953.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2963186.47,
+  "total_pago": 2788687.18,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 220000.0
+   },
+   {
+    "cnpj": "04137442000135",
+    "nome": "GL EDITORA GRAFICA LTDA",
+    "cnae": "58212",
+    "n_despesas": 72,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 122409.4
+   },
+   {
+    "cnpj": "68438234000159",
+    "nome": "NILZA NILDA SIMAS",
+    "cnae": "94928",
+    "n_despesas": 4,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "37722198000127",
+    "nome": "MOVIE BRASIL LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 85000.0
+   },
+   {
+    "cnpj": "48407875000139",
+    "nome": "DALLASTRA TREINAMENTO GERENCIAL LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "65457134000181",
+    "nome": "R3 ASSESSORIA DE TRAFEGO PAGO LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 55000.0
+   },
+   {
+    "cnpj": "10438708000182",
+    "nome": "CENTROSIGNS COMUNICACAO VISUAL LTDA",
+    "cnae": "77390",
+    "n_despesas": 12,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 50844.0
+   },
+   {
+    "cnpj": "86375870000160",
+    "nome": "TIPOTIL - INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 15,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 41458.0
+   },
+   {
+    "cnpj": "60019530000103",
+    "nome": "DN SERVICOS LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "31252223000170",
+    "nome": "LA VIA COMUNICACAO LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 23400.0
+   },
+   {
+    "cnpj": "43612907000114",
+    "nome": "PIRE DESIGN E PROPAGANDA LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "39816325000182",
+    "nome": "VIRTUAL COMPANY - SOLUCOES EM TECNOLOGIA LTDA",
+    "cnae": "63119",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "60823650000169",
+    "nome": "60.823.650 MARISA FERREIRA PEREIRA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20200.0
+   },
+   {
+    "cnpj": "29855711000120",
+    "nome": "NEOBE GESTAO E SERVICOS LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "82894221000115",
+    "nome": "EDITOGRAF INDUSTRIA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13146.0
+   },
+   {
+    "cnpj": "35976617000121",
+    "nome": "RENOVA MARKETING INTENCIONAL LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 11800.0
+   },
+   {
+    "cnpj": "42532981000168",
+    "nome": "PHOENIX SUBLIMASTER LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10723.0
+   },
+   {
+    "cnpj": "80939234000138",
+    "nome": "ARCUS INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8685.6
+   },
+   {
+    "cnpj": "02271529000175",
+    "nome": "TELE ARTES GRAFICA MARAVILHA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8680.0
+   },
+   {
+    "cnpj": "39695232000147",
+    "nome": "VOGEL E COSTA IMOVEIS E NEGOCIOS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 8500.0
+   },
+   {
+    "cnpj": "01887142000185",
+    "nome": "SOCIEDADE JORNALISTICA DIARIO DO IGUACU LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 8300.52
+   },
+   {
+    "cnpj": "28571077000130",
+    "nome": "28.571.077 KEYLLA APARECIDA CORAL",
+    "cnae": "49302",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 7900.0
+   },
+   {
+    "cnpj": "00428307001160",
+    "nome": "EXPRESSO SAO MIGUEL S/A",
+    "cnae": "49302",
+    "n_despesas": 45,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 5189.0
+   },
+   {
+    "cnpj": "48036150000181",
+    "nome": "NOVA BASE COMUNICACAO VISUAL LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4950.0
+   },
+   {
+    "cnpj": "35401719000119",
+    "nome": "SMART PRINT MATERIAL PUBLICITARIO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4935.0
+   },
+   {
+    "cnpj": "19080715000120",
+    "nome": "REVISTA DE CHAPECO LTDA",
+    "cnae": "58131",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 4158.0
+   },
+   {
+    "cnpj": "61617848000159",
+    "nome": "VANZIN COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3550.0
+   },
+   {
+    "cnpj": "35985453000107",
+    "nome": "GORGES IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "56848771000198",
+    "nome": "56.848.771 CARLOS ALBERTO RIBEIRO",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2700.0
+   },
+   {
+    "cnpj": "11797429000178",
+    "nome": "CARTA BRANCA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2585.0
+   },
+   {
+    "cnpj": "07823956000132",
+    "nome": "ARETEX INDUSTRIA E COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2395.0
+   },
+   {
+    "cnpj": "47720544000191",
+    "nome": "DJENIFER PATRICIA SIEBERT RIBEIRO",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2025.0
+   },
+   {
+    "cnpj": "15767709000194",
+    "nome": "VOICE COMUNICACAO LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "04176082000180",
+    "nome": "REUNIDAS TRANSPORTES S.A",
+    "cnae": "49221",
+    "n_despesas": 16,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 1986.1
+   },
+   {
+    "cnpj": "27395687000168",
+    "nome": "JORNAL E PORTAL DESTAQUES LTDA",
+    "cnae": "63992",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1350.0
+   },
+   {
+    "cnpj": "01114830000102",
+    "nome": "EDITORA JORNALISTICA NOVOESTE LTDA",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 1260.0
+   },
+   {
+    "cnpj": "49478124000176",
+    "nome": "RUDI IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1120.0
+   },
+   {
+    "cnpj": "30162636000109",
+    "nome": "VITOR CABRAL SILVEIRA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "73941098000155",
+    "nome": "COMERCIO DE SELOS E POSTAGENS LTDA",
+    "cnae": "53105",
+    "n_despesas": 6,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 487.0
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 344.2
+   },
+   {
+    "cnpj": "10992167002779",
+    "nome": "METAR LOGISTICA LTDA.",
+    "cnae": "49302",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 274.65
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 331,
+   "total": 1953031.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 1632800.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 13.0,
+    "Pré-instalação física de comitê de campanha": 2218.0,
+    "Serviços advocatícios": 60000.0,
+    "Serviços prestados por terceiros": 258000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}
