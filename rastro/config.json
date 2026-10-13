@@ -10,5 +10,36 @@
  "endereco_min_fornecedores": 2,
  "situacoes_irregulares": ["BAIXADA", "INAPTA", "SUSPENSA", "NULA"],
  "sobrenome_particulas": ["DA", "DE", "DO", "DAS", "DOS", "E", "DI", "DU", "VAN", "VON"],
- "sobrenomes_comuns": ["SILVA", "SANTOS", "OLIVEIRA", "SOUZA", "SOUSA", "RODRIGUES", "FERREIRA", "ALVES", "PEREIRA", "LIMA", "GOMES", "COSTA", "RIBEIRO", "MARTINS", "CARVALHO", "ALMEIDA", "LOPES", "SOARES", "FERNANDES", "VIEIRA", "BARBOSA", "ROCHA", "DIAS", "NASCIMENTO", "ANDRADE", "MOREIRA", "NUNES", "MARQUES", "MACHADO", "MENDES", "FREITAS", "CARDOSO", "RAMOS", "GONCALVES", "SANTANA", "TEIXEIRA", "JUNIOR", "FILHO", "NETO", "SOBRINHO"]
+ "sobrenomes_comuns": ["SILVA", "SANTOS", "OLIVEIRA", "SOUZA", "SOUSA", "RODRIGUES", "FERREIRA", "ALVES", "PEREIRA", "LIMA", "GOMES", "COSTA", "RIBEIRO", "MARTINS", "CARVALHO", "ALMEIDA", "LOPES", "SOARES", "FERNANDES", "VIEIRA", "BARBOSA", "ROCHA", "DIAS", "NASCIMENTO", "ANDRADE", "MOREIRA", "NUNES", "MARQUES", "MACHADO", "MENDES", "FREITAS", "CARDOSO", "RAMOS", "GONCALVES", "SANTANA", "TEIXEIRA", "JUNIOR", "FILHO", "NETO", "SOBRINHO"],
+ "percentil_comparacao": 95,
+ "min_campanhas_grupo": 10,
+ "quantis_metodo": "inclusive",
+ "votacao_infima_fracao_eleitorado": 0.0001,
+ "dia_eleicao": "2026-10-04",
+ "tardio_dias": 7,
+ "tardio_pct_ultimos_dias": 0.5,
+ "pf_qtd_min": 20,
+ "pf_repetido_min_campanhas": 3,
+ "pf_valor_alto": 5000,
+ "pf_redondo_multiplo": 1000,
+ "pf_redondo_alto_min_qtd": 3,
+ "saque_termos": [
+  "SAQUE",
+  "ESPECIE",
+  "ESPÉCIE"
+ ],
+ "nomeacoes_mes": "2026-09",
+ "nomeacoes_funcoes": {
+  "DAS": "Direção e Assessoramento Superiores (Lei 8.460/1992 e correlatas): cargo em comissão",
+  "FCPE": "Função Comissionada do Poder Executivo (Lei 14.204/2021)",
+  "CCE": "Cargo Comissionado Executivo (Lei 14.204/2021)",
+  "FCE": "Função Comissionada Executiva (Lei 14.204/2021)",
+  "NES": "Natureza Especial: ministro de Estado e equivalentes"
+ },
+ "nomeacoes_funcoes_fonte": "Prefixos de SIGLA_FUNCAO do cadastro SIAPE do Portal da Transparência; revisar contra as siglas reais da base na VPS",
+ "nomeacoes_fontes": {
+  "siape": "https://portaldatransparencia.gov.br/download-de-dados/servidores/{mes}",
+  "camara": null,
+  "senado": null
+ }
 }

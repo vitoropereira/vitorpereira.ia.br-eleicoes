@@ -3,19 +3,22 @@
 Cache por Last-Modified: só baixa de novo se o TSE publicou versão mais nova. Nunca roda em 25/10.
 Uso: python3 rastro/baixar.py"""
 import contextlib
+import logging
 import shutil
 import urllib.error
 import urllib.request
 from datetime import date
 from pathlib import Path
 
+log = logging.getLogger("rastro.baixar")
 OUT = Path(__file__).resolve().parent / "brutos"
 BASE = "https://cdn.tse.jus.br/estatistica/sead/odsele"
 URL_CONTAS = f"{BASE}/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
 URL_DESPESA_DOC = f"{BASE}/prestacao_contas/despesa_documento_2026.zip"
-# extrato bancário: URL no CDN ainda não achada (extrato_bancario_2026.zip dá 404); entra quando a Issue que o usa a confirmar
+# extrato bancário: o nome extrato_bancario_2026.zip deu 404; este é o do plano e pode ainda não existir no CDN (404 = aviso)
+URL_EXTRATO = f"{BASE}/prestacao_contas/extrato_bancario_candidato_2026.zip"
 URL_CAND = f"{BASE}/consulta_cand/consulta_cand_2026.zip"
-ARQUIVOS = [URL_CONTAS, URL_DESPESA_DOC, URL_CAND]
+ARQUIVOS = [URL_CONTAS, URL_DESPESA_DOC, URL_EXTRATO, URL_CAND]
 UA = "eleicoes-2026-painel/1.0 (dados abertos; github.com/vitoropereira/vitorpereira.ia.br-eleicoes)"
 DIA_APURACAO = date(2026, 10, 25)
 
@@ -52,10 +55,25 @@ def baixar(url, dest, opener=urllib.request.urlopen, hoje=None):
     return "baixado"
 
 
+def baixar_todos(urls=ARQUIVOS, out=OUT, opener=urllib.request.urlopen, hoje=None):
+    """Baixa cada url em out/. 404 vira aviso ('não encontrado') e não derruba os outros; {nome: situação}."""
+    res = {}
+    for url in urls:
+        dest = Path(out) / url.rsplit("/", 1)[-1]
+        try:
+            res[dest.name] = baixar(url, dest, opener, hoje)
+        except urllib.error.HTTPError as e:
+            if e.code != 404:
+                raise
+            log.warning("%s: 404 no CDN do TSE (arquivo ainda não publicado ou nome errado); seguindo", url)
+            res[dest.name] = "não encontrado"
+    return res
+
+
 def main():
-    for url in ARQUIVOS:
-        dest = OUT / url.rsplit("/", 1)[-1]
-        print(f"{dest.name}: {baixar(url, dest)}")
+    logging.basicConfig(level=logging.WARNING, format="%(message)s")
+    for nome, situacao in baixar_todos().items():
+        print(f"{nome}: {situacao}")
 
 
 if __name__ == "__main__":

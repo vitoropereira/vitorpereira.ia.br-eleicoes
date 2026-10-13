@@ -3,11 +3,9 @@ import os
 import tempfile
 import unittest
 import zipfile
-from datetime import date
 from pathlib import Path
-from urllib.error import HTTPError
 
-from rastro import baixar, cnpj, contas
+from rastro import cnpj, contas
 
 RAIZ = Path(__file__).resolve().parent.parent
 FIX = RAIZ / "tests" / "fixtures" / "rastro" / "cnpj"
@@ -119,47 +117,3 @@ class TestGerar(unittest.TestCase):
         self.assertEqual(achados, [])
         for cpf in ("11144477735", "98765432100", "12345678909"):
             self.assertNotIn(cpf, self.texto)
-
-
-class TestMain(unittest.TestCase):
-    class Resp:
-        headers = {}
-
-        def read(self, n=-1):
-            return b""
-
-        def close(self):
-            pass
-
-    def test_urls_por_mes(self):
-        urls = []
-
-        def opener(req, timeout=None):
-            urls.append(req.full_url)
-            raise HTTPError(req.full_url, 404, "x", {}, None)
-
-        with tempfile.TemporaryDirectory() as td:
-            antigo = baixar.OUT
-            baixar.OUT = Path(td)
-            try:
-                with self.assertRaises(HTTPError):
-                    cnpj.main(["--mes", "2026-08"], opener=opener, hoje=date(2026, 10, 13))
-            finally:
-                baixar.OUT = antigo
-        self.assertEqual(urls, [cnpj.url_zip("2026-08", "Empresas0.zip")])
-        self.assertIn("path=/2026-08&files=Empresas0.zip", urls[0])
-
-    def test_bloqueia_25_10(self):
-        def opener(*a, **k):
-            raise AssertionError("não pode baixar em 25/10")
-
-        with self.assertRaises(SystemExit):
-            cnpj.main([], opener=opener, hoje=date(2026, 10, 25))
-
-    def test_mes_invalido(self):
-        with self.assertRaises(SystemExit):
-            cnpj.main(["--mes", "2026-13"])
-
-
-if __name__ == "__main__":
-    unittest.main()

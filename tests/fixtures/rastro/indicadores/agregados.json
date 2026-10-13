@@ -1,12 +1,24 @@
 {
  "por_cnpj": {
   "11111111000191": {"total_recebido": 90000.0, "n_campanhas": 2, "campanhas": ["1001", "9999"]},
-  "22222222000191": {"total_recebido": 50000.0, "n_campanhas": 1, "campanhas": ["1001"]},
-  "33333333000191": {"total_recebido": 501000.0, "n_campanhas": 2, "campanhas": ["1001", "1002"]},
+  "22222222000191": {"total_recebido": 50000.0, "n_campanhas": 1, "campanhas": ["1001", "2001"]},
+  "33333333000191": {"total_recebido": 501000.0, "n_campanhas": 2, "campanhas": ["1001", "1002", "2002"]},
   "10101010000191": {"total_recebido": 600.0, "n_campanhas": 5, "campanhas": ["1003", "9001", "9002", "9003", "9004"]},
   "20202020000191": {"total_recebido": 300.0, "n_campanhas": 5, "campanhas": ["1003", "9001", "9002", "9003", "9004"]},
   "30303030000191": {"total_recebido": 100.0, "n_campanhas": 4, "campanhas": ["1003", "9001", "9002", "9003"]}
  },
- "por_tipo_cargo_uf": {}, "custo_por_voto": {}, "eleitorado": {},
+ "por_tipo_cargo_uf": {
+  "Serviços prestados por terceiros|depfed|AC": [1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000],
+  "Combustíveis e lubrificantes|depfed|AC": [1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000],
+  "Publicidade por materiais impressos|depfed|AC": [1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000]
+ },
+ "custo_por_voto": {"depfed|AC": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "depest|AC": [1, 2, 3, 4, 5, 6, 7, 8, 9]},
+ "eleitorado": {"AC": 600000},
+ "repasses": {"1001": {"2002": 1000.0, "2001": 3000.0, "2003": 500.0, "2004": 100.0}},
+ "candidatos": {
+  "2001": {"nome": "CANDIDATO INFIMO", "cargo": "depest", "uf": "AC", "votos": 20},
+  "2002": {"nome": "CANDIDATO VOTADO", "cargo": "depest", "uf": "AC", "votos": 5000},
+  "2003": {"nome": "CANDIDATO SEM COMUM", "cargo": "depest", "uf": "AC", "votos": 30}
+ },
  "fonte": ["https://exemplo.invalid/tse"], "data_base": "2026-10-05", "gerado_em": "2026-10-13T00:00:00+00:00"
 }

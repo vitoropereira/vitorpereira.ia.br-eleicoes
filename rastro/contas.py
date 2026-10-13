@@ -30,6 +30,7 @@ ELEITOS = AQUI / "dados" / "eleitos.json"
 SAIDA_CONTAS = AQUI / "dados" / "contas"
 SAIDA_AGREGADOS = AQUI / "dados" / "base" / "agregados.json"
 SAIDA_HASH = BRUTOS / "doadores_hash.json"
+SAIDA_PF = BRUTOS / "pf_por_campanha.json"
 SAL = AQUI / ".sal"
 
 CARGO_DS = {"governador": "governador", "senador": "senador", "deputado federal": "depfed",
@@ -115,7 +116,9 @@ def novo_cand(linha):
             "por_fonte": defaultdict(Decimal), "doa_pj": {}, "doa_pf": defaultdict(Decimal),
             "desp": False, "contratado": Decimal(0), "pago": Decimal(0), "ids": set(), "ids_pago": set(),
             "forn_pj": {}, "forn_pf": defaultdict(Decimal), "pf_tipo": defaultdict(Decimal),
-            "tipo_total": defaultdict(Decimal)}
+            "tipo_total": defaultdict(Decimal), "nome": None, "recebido_de": defaultdict(Decimal),
+            "cnpj_prestador": None,
+            "pago_dia": defaultdict(Decimal), "com_data": False}
 
 
 def acumular(zip_path, invalidas):
@@ -127,7 +130,11 @@ def acumular(zip_path, invalidas):
         if dt:
             datas.add(dt)
         prestador[l["SQ_PRESTADOR_CONTAS"]] = l["SQ_CANDIDATO"]
-        return cands.setdefault(l["SQ_CANDIDATO"], novo_cand(l))
+        c = cands.setdefault(l["SQ_CANDIDATO"], novo_cand(l))
+        cnpj = digitos(l.get("NR_CNPJ_PRESTADOR_CONTA"))  # CNPJ da campanha: dado público
+        if len(cnpj) == 14:
+            c["cnpj_prestador"] = cnpj
+        return c
 
     def pessoa(cpf, nome, sq, v, papel):
         p = pessoas.setdefault(cpf, {"nome": nome, "campanhas": set(), "total": Decimal(0), "papeis": set()})
@@ -145,6 +152,10 @@ def acumular(zip_path, invalidas):
         c["rec_total"] += v
         c["por_origem"][texto(l, "DS_ORIGEM_RECEITA") or "Não informada"] += v
         c["por_fonte"][texto(l, "DS_FONTE_RECEITA") or "Não informada"] += v
+        sq_doador = texto(l, "SQ_CANDIDATO_DOADOR")  # coluna pode faltar: vira None
+        if sq_doador and sq_doador != l["SQ_CANDIDATO"]:
+            c["nome"] = c["nome"] or texto(l, "NM_CANDIDATO") or texto(l, "NM_URNA_CANDIDATO")
+            c["recebido_de"][sq_doador] += v
         doc, nome = digitos(l.get("NR_CPF_CNPJ_DOADOR")), limpar_texto(l.get("NM_DOADOR"))
         if len(doc) == 14:
             d = c["doa_pj"].setdefault(doc, [nome, Decimal(0)])
@@ -192,6 +203,12 @@ def acumular(zip_path, invalidas):
             continue
         c["ids_pago"].add(chave)
         c["pago"] += v
+        if "DT_PAGTO_DESPESA" in l:
+            c["com_data"] = True
+            try:
+                c["pago_dia"][data_iso(texto(l, "DT_PAGTO_DESPESA") or "")] += v
+            except ValueError:
+                invalidas[f"{arq} (data)"] += 1
     return cands, pessoas, (data_iso(max(datas, key=data_iso)) if datas else None)
 
 
@@ -210,8 +227,12 @@ def contas_json(e, c, meta):
                                      "tipos": sorted(f["tipos"]), "total": num(f["total"])}
                                     for k, f in sorted(c["forn_pj"].items(), key=lambda kv: (-kv[1]["total"], kv[0]))],
                 "fornecedores_pf": {"qtd": qtd(c["forn_pf"]), "total": num(sum(c["forn_pf"].values(), Decimal(0))),
-                                    "por_tipo": {k: num(v) for k, v in sorted(c["pf_tipo"].items())}}}
+                                    "por_tipo": {k: num(v) for k, v in sorted(c["pf_tipo"].items())},
+                                    "valores": sorted(num(v) for doc, v in c["forn_pf"].items() if doc)},
+                "por_tipo": {k: num(v) for k, v in sorted(c["tipo_total"].items())}}
+        desp["pago_por_dia"] = ({k: num(v) for k, v in sorted(c["pago_dia"].items())} if c["com_data"] else None)
     return {"sq": e["sq"], "nome_urna": e["nome_urna"], "cargo": e["cargo"], "uf": e["uf"], "partido": e["partido"],
+            "cnpj_prestador": c["cnpj_prestador"] if c else None,
             "prestacao_parcial": rec is not None or desp is not None,
             "receitas": rec, "despesas": desp, **meta}
 
@@ -239,6 +260,7 @@ def ler_votos(dados_dir, ufs):
 
 def agregados_json(cands, votos, eleitorado, meta):
     por_cnpj, por_tipo, custo = {}, defaultdict(list), defaultdict(list)
+    repasses, candidatos = defaultdict(dict), {}
     for sq, c in cands.items():
         for cnpj, f in c["forn_pj"].items():
             a = por_cnpj.setdefault(cnpj, {"total_recebido": Decimal(0), "campanhas": []})
@@ -248,6 +270,11 @@ def agregados_json(cands, votos, eleitorado, meta):
         for tipo, t in c["tipo_total"].items():
             por_tipo[f"{tipo}|{cargo}|{c['uf']}"].append(num(t))
         cargo_v, uf_v, n_votos = votos.get(sq, (None, None, 0))
+        for doador, v in c["recebido_de"].items():
+            repasses[doador][sq] = num(v)
+        if c["recebido_de"]:
+            candidatos[sq] = {"nome": c["nome"], "cargo": cargo_v or cargo, "uf": uf_v or c["uf"],
+                              "votos": n_votos if sq in votos else None}
         if cargo_v and n_votos > 0 and c["ids"]:
             custo[f"{cargo_v}|{uf_v}"].append(round(float(c["contratado"]) / n_votos, 2))
     return {
@@ -256,6 +283,8 @@ def agregados_json(cands, votos, eleitorado, meta):
         "por_tipo_cargo_uf": {k: sorted(v) for k, v in sorted(por_tipo.items())},
         "custo_por_voto": {k: sorted(v) for k, v in sorted(custo.items())},
         "eleitorado": dict(sorted(eleitorado.items())),
+        "repasses": {d: dict(sorted(r.items())) for d, r in sorted(repasses.items())},
+        "candidatos": dict(sorted(candidatos.items())),
         **meta,
     }
 
@@ -281,14 +310,20 @@ def hash_json(pessoas, sal):
     return out
 
 
+def pf_por_campanha(cands, sal):
+    """{sq: [sha256(sal+cpf)]} dos fornecedores PF de cada campanha. Hash de CPF não se publica: fica em brutos/."""
+    return {sq: sorted(hashlib.sha256((sal + doc).encode()).hexdigest() for doc in c["forn_pf"] if len(doc) == 11)
+            for sq, c in sorted(cands.items())}
+
+
 def gravar(caminho, obj):
     caminho = Path(caminho)
     caminho.parent.mkdir(parents=True, exist_ok=True)
     caminho.write_text(json.dumps(obj, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
-def gerar(zip_path, eleitos_path, dados_dir, ufs, sal, saida_contas, saida_agregados, saida_hash):
-    """Roda tudo e grava as 3 saídas. Devolve o contador de linhas inválidas por arquivo."""
+def gerar(zip_path, eleitos_path, dados_dir, ufs, sal, saida_contas, saida_agregados, saida_hash, saida_pf=None):
+    """Roda tudo e grava as saídas (a de hashes de PF só se saida_pf vier). Devolve o contador de linhas inválidas por arquivo."""
     invalidas = Counter()
     cands, pessoas, data_base = acumular(zip_path, invalidas)
     meta = {"fonte": [URL_CONTAS], "data_base": data_base,
@@ -299,16 +334,18 @@ def gerar(zip_path, eleitos_path, dados_dir, ufs, sal, saida_contas, saida_agreg
     votos, eleitorado = ler_votos(dados_dir, ufs)
     gravar(saida_agregados, agregados_json(cands, votos, eleitorado, meta))
     gravar(saida_hash, hash_json(pessoas, sal))
+    if saida_pf is not None:
+        gravar(saida_pf, pf_por_campanha(cands, sal))
     return invalidas
 
 
 def main():
     logging.basicConfig(level=logging.WARNING, format="%(message)s")
-    invalidas = gerar(ZIP_CONTAS, ELEITOS, DADOS, UFS, carregar_sal(), SAIDA_CONTAS, SAIDA_AGREGADOS, SAIDA_HASH)
+    invalidas = gerar(ZIP_CONTAS, ELEITOS, DADOS, UFS, carregar_sal(), SAIDA_CONTAS, SAIDA_AGREGADOS, SAIDA_HASH, SAIDA_PF)
     n = len(list(SAIDA_CONTAS.glob("*.json")))
     print(f"{n} contas em {SAIDA_CONTAS}; agregados em {SAIDA_AGREGADOS}")
     for arq in ("receitas_candidatos", "despesas_contratadas_candidatos", "despesas_pagas_candidatos",
-                "despesas_pagas_candidatos (sem candidato)"):
+                "despesas_pagas_candidatos (sem candidato)", "despesas_pagas_candidatos (data)"):
         print(f"linhas inválidas em {arq}: {invalidas[arq]}")
 
 

@@ -58,7 +58,7 @@ class TestLerCsv(unittest.TestCase):
             gen = contas.ler_csv(z, "receitas_candidatos")
             linhas = list(gen)
             self.assertEqual(os.listdir(td), ["contas.zip"])  # nada extraído
-        self.assertEqual(len(linhas), 6)  # o _AC e o doador_originario repetem linhas e ficam de fora
+        self.assertEqual(len(linhas), 7)  # o _AC e o doador_originario repetem linhas e ficam de fora
         self.assertEqual(linhas[0]["NM_DOADOR"], "EMPRESA DOADORA SA")
         con = [l for l in self._ler("despesas_contratadas_candidatos") if l["SQ_DESPESA"] == "D1"]
         self.assertEqual(con[0]["NM_FORNECEDOR"], "GRÁFICA ALFA LTDA")  # latin-1 decodificado
@@ -103,8 +103,9 @@ class TestGerar(unittest.TestCase):
         z = montar_zip(t)
         cls.sal = "sal-de-teste"
         cls.contas_dir, cls.agr, cls.hash = t / "contas", t / "base" / "agregados.json", t / "hash.json"
+        cls.pf = t / "brutos" / "pf_por_campanha.json"
         cls.invalidas = contas.gerar(z, FIX / "eleitos.json", RELATORIO, ["ac"], cls.sal,
-                                     cls.contas_dir, cls.agr, cls.hash)
+                                     cls.contas_dir, cls.agr, cls.hash, cls.pf)
         cls.c = {p.stem: json.loads(p.read_text(encoding="utf-8")) for p in cls.contas_dir.glob("*.json")}
         cls.a = json.loads(cls.agr.read_text(encoding="utf-8"))
 
@@ -117,10 +118,13 @@ class TestGerar(unittest.TestCase):
 
     def test_campos_do_contrato(self):
         c = self.c["1021"]
-        self.assertEqual(set(c), {"sq", "nome_urna", "cargo", "uf", "partido", "prestacao_parcial",
+        self.assertEqual(set(c), {"sq", "nome_urna", "cargo", "uf", "partido", "cnpj_prestador", "prestacao_parcial",
                                   "receitas", "despesas", "fonte", "data_base", "gerado_em"})
         self.assertEqual(set(c["receitas"]), {"total", "por_origem", "por_fonte", "doadores_pj", "doadores_pf"})
-        self.assertEqual(set(c["despesas"]), {"total_contratado", "total_pago", "fornecedores_pj", "fornecedores_pf"})
+        self.assertEqual(set(c["despesas"]), {"total_contratado", "total_pago", "fornecedores_pj", "fornecedores_pf",
+                                             "por_tipo", "pago_por_dia"})
+        self.assertEqual(sum(c["despesas"]["por_tipo"].values()), c["despesas"]["total_contratado"])
+        self.assertEqual(c["despesas"]["por_tipo"]["Publicidade por materiais impressos"], 900.0)
         self.assertEqual(c["data_base"], "2026-10-12")  # maior DT_GERACAO (há linhas de 10/10)
         self.assertEqual(c["fonte"], [contas.URL_CONTAS])
         self.assertTrue(c["prestacao_parcial"])
@@ -154,7 +158,32 @@ class TestGerar(unittest.TestCase):
         self.assertEqual(mei["cnae"], "7319002")
         self.assertEqual(mei["tipos"], ["Serviços prestados por terceiros"])
         self.assertEqual(d["fornecedores_pf"],
-                         {"qtd": 1, "total": 100.0, "por_tipo": {"Atividades de militância": 100.0}})
+                         {"qtd": 1, "total": 100.0, "por_tipo": {"Atividades de militância": 100.0}, "valores": [100.0]})
+
+    def test_cnpj_prestador(self):
+        self.assertEqual(self.c["1021"]["cnpj_prestador"], "12345678000195")
+        self.assertEqual(self.c["1023"]["cnpj_prestador"], "32345678000195")
+        self.assertIsNone(self.c["1031"]["cnpj_prestador"])
+        for c in self.c.values():
+            self.assertTrue(c["cnpj_prestador"] is None or re.fullmatch(r"\d{14}", c["cnpj_prestador"]))
+
+    def test_pago_por_dia_sem_duplicar_parcela(self):
+        # D1 em 3 parcelas (05/10, 27/09, 03/10), D2 com data #NULO: soma no total, mas não vira dia
+        d = self.c["1021"]["despesas"]
+        self.assertEqual(d["pago_por_dia"], {"2026-09-27": 300.0, "2026-10-03": 300.0, "2026-10-05": 300.0})
+        self.assertEqual(d["total_pago"], 2134.56)
+        self.assertEqual(self.invalidas["despesas_pagas_candidatos (data)"], 1)
+        self.assertIsNone(self.c["1031"]["despesas"])
+
+    def test_pf_anonimo_e_hash_fora_do_contas(self):
+        self.assertEqual(self.c["1021"]["despesas"]["fornecedores_pf"]["valores"], [100.0])
+        bruto = "".join(p.read_text(encoding="utf-8") for p in self.contas_dir.glob("*.json"))
+        h_forn = contas.hashlib.sha256((self.sal + CPF_PF_FORN).encode()).hexdigest()
+        self.assertNotIn(h_forn, bruto)
+        self.assertNotIn("cpfs_hash", bruto)
+        pf = json.loads(self.pf.read_text(encoding="utf-8"))
+        self.assertEqual(pf["1021"], [h_forn])
+        self.assertNotIn(CPF_PF_FORN, self.pf.read_text(encoding="utf-8"))
 
     def test_eleito_sem_prestacao(self):
         c = self.c["1031"]
@@ -174,6 +203,12 @@ class TestGerar(unittest.TestCase):
         self.assertEqual(a["data_base"], "2026-10-12")
         self.assertEqual(a["fonte"], [contas.URL_CONTAS])
         self.assertIn("gerado_em", a)
+
+    def test_repasses_entre_candidatos(self):
+        self.assertEqual(self.a["repasses"], {"1021": {"1022": 400.0}})
+        self.assertEqual(self.a["candidatos"], {"1022": {"nome": "FED NAO ELEITO", "cargo": "depfed", "uf": "AC",
+                                                         "votos": self.a["candidatos"]["1022"]["votos"]}})
+        self.assertGreater(self.a["candidatos"]["1022"]["votos"], 0)
 
     def test_hash_sem_cpf_inteiro(self):
         bruto = self.hash.read_text(encoding="utf-8")
