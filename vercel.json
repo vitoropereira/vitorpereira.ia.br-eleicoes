@@ -90,6 +90,15 @@
    ]
   },
   {
+   "source": "/analise/codigo/(.*)\\.(py|json|md)",
+   "headers": [
+    {
+     "key": "Content-Type",
+     "value": "text/plain; charset=utf-8"
+    }
+   ]
+  },
+  {
    "source": "/analise/dados/(.*)",
    "headers": [
     {

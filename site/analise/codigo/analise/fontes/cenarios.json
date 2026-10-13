@@ -1,0 +1,237 @@
+{
+ "gerado_em": "08/10/2026",
+ "precisa": {
+  "lula_pct_dos_eliminados": 61.94,
+  "flavio_pct_dos_eliminados": 38.06,
+  "votos_validos": 119300788,
+  "minimo_para_vencer": 59650395,
+  "eliminados_votos": 9316747,
+  "flavio_precisa_votos": 3545892,
+  "lula_precisa_votos": 5770857,
+  "formula": "(⌊V/2⌋+1 − votos_do_finalista_no_1T) ÷ votos_dos_eliminados, com V=119.300.788 válidos (mesmo total no 2T); eliminados = V − 56.104.503 − 53.879.538 = 9.316.747. Flávio: (59.650.395−56.104.503)÷9.316.747 = 38,06%; Lula: (59.650.395−53.879.538)÷9.316.747 = 61,94%.",
+  "nota": "Base: votos válidos (candidatos), conforme municipios/geo/t1/presidente.json; brancos/nulos fora.",
+  "conferido": true
+ },
+ "eliminados": [
+  {
+   "nome": "Escritor Augusto Cury",
+   "partido": "AVANTE",
+   "votos": 3448569,
+   "lado_partido": "C",
+   "apoio_2t": "neutro: não apoiará nenhum dos dois (A Gazeta e A Crítica, 05/10/2026)",
+   "fonte_url": "https://acritica.net/eleicoes-2026/zema-cury-renan-caiado-segundo-turno/",
+   "fonte_data": "2026-10-05",
+   "conferido": true,
+   "apoio_candidato": "C"
+  },
+  {
+   "nome": "Renan Santos",
+   "partido": "MISSÃO",
+   "votos": 2675887,
+   "lado_partido": "C",
+   "apoio_2t": "neutro: não fará campanha por nenhum nem pedirá abstenção; eleitor livre",
+   "fonte_url": "https://acritica.net/eleicoes-2026/zema-cury-renan-caiado-segundo-turno/",
+   "fonte_data": "2026-10-05",
+   "conferido": true,
+   "apoio_candidato": "C"
+  },
+  {
+   "nome": "Ronaldo Caiado",
+   "partido": "PSD",
+   "votos": 2605148,
+   "lado_partido": "C",
+   "apoio_2t": "apoio pessoal a Flávio (06/10/2026): \"A mobilização para Flávio será em tempo integral\"; Kassab (PSD) liberou filiados, sem posição oficial",
+   "fonte_url": "https://istoe.com.br/caiado-apoia-flavio-bolsonaro-segundo-turno",
+   "fonte_data": "2026-10-06",
+   "conferido": true,
+   "apoio_candidato": "F"
+  },
+  {
+   "nome": "Zema",
+   "partido": "NOVO",
+   "votos": 326488,
+   "lado_partido": "F",
+   "apoio_2t": "apoio pessoal a Flávio em vídeo (05/10/2026): \"Voto contra o PT, voto no Flávio Bolsonaro\"",
+   "fonte_url": "https://timesbrasil.com.br/brasil/decisao-2026-zema-declara-apoio-a-flavio-bolsonaro-no-2o-turno/",
+   "fonte_data": "2026-10-05",
+   "conferido": true,
+   "apoio_candidato": "F"
+  },
+  {
+   "nome": "Demais 6 candidatos (UP, PSTU, DC, PCB, DEMOCRATA, PCO)",
+   "partido": "vários",
+   "votos": 260655,
+   "lado_partido": "C",
+   "apoio_2t": "sem posição verificada; tratados como 50/50 nos cenários",
+   "fonte_url": "",
+   "fonte_data": "",
+   "conferido": false,
+   "obs": "Soma local dos votos (TSE apuração local, arquivo do repo); posições individuais não verificadas e removidas.",
+   "apoio_candidato": null
+  }
+ ],
+ "pesquisas": [
+  {
+   "instituto": "Datafolha",
+   "campo": "06–08/10/2026",
+   "data": "08/10",
+   "amostra": 2520,
+   "margem_pp": 2,
+   "registro_tse": "BR-02949/2026",
+   "lula": 45,
+   "flavio": 49,
+   "url": "https://www.brasildefato.com.br/2026/10/08/datafolha-segundo-turno-flavio-bolsonaro-49-lula-45/",
+   "antes_1t": false,
+   "lula_validos": 48,
+   "flavio_validos": 52,
+   "obs": "Registro BR-02949/2026 e números conferidos no Brasil de Fato; campo 06–08/10 e amostra 2.520 conferidos também na CartaCapital. AtlasIntel divulga 09/10. Cenário total: Flávio 49, Lula 45; válidos 52 x 48.",
+   "publicada_apos_1t": true,
+   "conferido": true,
+   "url_alt": "https://www.cartacapital.com.br/cartaexpressa/os-detalhes-da-nova-pesquisa-datafolha-a-1a-sobre-lula-x-flavio-bolsonaro-no-2o-turno/"
+  },
+  {
+   "instituto": "PoderData",
+   "campo": "05–07/10/2026",
+   "data": "08/10",
+   "amostra": 3000,
+   "margem_pp": 1.8,
+   "registro_tse": "BR-08134/2026",
+   "lula": 47,
+   "flavio": 53,
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-outubro-2026-segundo-turno/",
+   "antes_1t": false,
+   "publicada_apos_1t": true,
+   "lula_validos": 47,
+   "flavio_validos": 53,
+   "obs": "Números informados em votos válidos (53 x 47); fonte única (Gazeta do Povo).",
+   "conferido": true
+  },
+  {
+   "instituto": "Datafolha",
+   "campo": "28/09–01/10/2026",
+   "data": "01/10",
+   "amostra": 2506,
+   "margem_pp": 2,
+   "registro_tse": "BR-08039/2026",
+   "lula": 48,
+   "flavio": 45,
+   "url": "https://tribunadejundiai.com.br/politica/eleicoes-2026/datafolha-lula-tem-48-e-flavio-bolsonaro-45-em-eventual-segundo-turno/",
+   "antes_1t": true,
+   "obs": "Campo corrigido: 28/09–01/10 (Times Brasil e outra matéria; Tribuna de Jundiaí dizia 29/09 e Wikipédia 28–30/09, ambos divergentes). Registro BR-08039/2026 em 2 fontes.",
+   "url_alt": "https://timesbrasil.com.br/brasil/lula-tem-48-e-flavio-bolsonaro-45-e-estao-tecnicamente-empatados-no-segundo-turno-aponta-datafolha/",
+   "conferido": true
+  },
+  {
+   "instituto": "Real Time Big Data",
+   "campo": "26–30/09/2026",
+   "data": "01/10",
+   "amostra": 2000,
+   "margem_pp": 2,
+   "registro_tse": "BR-09503/2026",
+   "lula": 45,
+   "flavio": 46,
+   "url": "https://www.bahianoticias.com.br/noticia/321774-real-time-big-data-flavio-bolsonaro-tem-46-e-lula-45-no-cenario-de-disputa-em-segundo-turno",
+   "antes_1t": true,
+   "conferido": true
+  },
+  {
+   "instituto": "AtlasIntel/Bloomberg",
+   "campo": "23–28/09/2026",
+   "data": "29/09",
+   "amostra": 5005,
+   "margem_pp": 1,
+   "registro_tse": "BR-04391/2026",
+   "lula": 47.6,
+   "flavio": 47.7,
+   "url": "https://tvtnews.com.br/atlasintel-29-9-pesquisa-presidente-2026/",
+   "antes_1t": true,
+   "citacao": "\"Flávio registrando 47,7% e Lula 47,6%\"",
+   "obs": "Fonte única (TVT News).",
+   "conferido": true
+  },
+  {
+   "instituto": "Quaest",
+   "campo": "02–03/10/2026",
+   "data": "03/10",
+   "amostra": 3702,
+   "margem_pp": 2,
+   "registro_tse": "BR-02197/2026",
+   "lula": 42,
+   "flavio": 44,
+   "url": "https://sbtnews.sbt.com.br/noticia/politica/quaest-flavio-tem-44-e-lula-42-no-2-turno",
+   "antes_1t": true,
+   "obs": "Adicionada: pesquisa mais recente da Quaest antes do 1T; fonte única.",
+   "conferido": true
+  },
+  {
+   "instituto": "Quaest",
+   "campo": "24–27/09/2026",
+   "data": "28/09",
+   "amostra": 2004,
+   "margem_pp": 2,
+   "registro_tse": "BR-06520/2026",
+   "lula": 42,
+   "flavio": 42,
+   "url": "https://tribunadejundiai.com.br/politica/eleicoes-2026/quaest-segundo-turno-lula-42-flavio-42/",
+   "antes_1t": true,
+   "conferido": true
+  }
+ ],
+ "cenarios": [
+  {
+   "nome": "Neutro: eliminados se dividem 50/50",
+   "descricao": "Eliminados = 119.300.788 − 56.104.503 − 53.879.538 = 9.316.747. Cada finalista recebe 50% (4.658.373): Lula 53.879.538 + 4.658.373 = 58.537.911 (49,07%); Flávio 56.104.503 + 4.658.374 = 60.762.877 (50,93%). Mesmo total de válidos. Cenário, não previsão.",
+   "lula": 49.07,
+   "flavio": 50.93,
+   "conferido": true
+  },
+  {
+   "nome": "Lado declarado: apoiadores de Flávio vão para ele",
+   "descricao": "Caiado (2.605.148) + Zema (326.488) = 2.931.636 votos, 100% para Flávio (apoio pessoal declarado; hipótese-teto). Os outros 6.385.111 (sem declaração ou neutros) divididos 50/50. Flávio recebe 65,73% dos eliminados: Lula 47,84%, Flávio 52,16%. Eleitor não segue o candidato automaticamente; cenário, não previsão.",
+   "lula": 47.84,
+   "flavio": 52.16,
+   "conferido": true
+  },
+  {
+   "nome": "Como a Datafolha de 08/10 (válidos)",
+   "descricao": "Datafolha 06–08/10: válidos Flávio 52% × Lula 48%. Aplicado a 119.300.788 válidos, Flávio precisaria de 63,67% dos eliminados e Lula de 36,33%. Uma de duas pesquisas pós-1T (com PoderData 53 x 47); margem ±2 pp. Cenário, não previsão.",
+   "lula": 48.0,
+   "flavio": 52.0,
+   "conferido": true
+  },
+  {
+   "nome": "Transferência como em 2022",
+   "descricao": "Em 2022 (Lula 48,43%→50,90%; Bolsonaro 43,20%→49,10%), os 8,37% dos eliminados do 1T renderam +2,47 pp a Lula e +5,90 pp a Bolsonaro: Lula 29,5%, Bolsonaro 70,5% (ganho ÷ 8,37). Aplicado aos 9.316.747 eliminados de 2026 (7,81% dos válidos): Lula 47,47%, Flávio 52,53%. Supõe mesmo total de válidos e mesmo comportamento; cenário, não previsão.",
+   "lula": 47.47,
+   "flavio": 52.53,
+   "conferido": true
+  }
+ ],
+ "fontes_2022": [
+  {
+   "fato": "2T 2022: Lula 50,90% (60.345.999) × Bolsonaro 49,10% (58.206.354)",
+   "url": "https://www.tse.jus.br/comunicacao/noticias/2022/Outubro/100-das-secoes-totalizadas-confira-como-ficou-o-quadro-eleitoral-apos-o-2o-turno",
+   "conferido": true
+  },
+  {
+   "fato": "1T 2022: Lula 48,43% (57.259.504) × Bolsonaro 43,20% (51.072.345); Tebet 4,16% (4.915.423), Ciro 3,04% (~3,6 mi). Eliminados somam 8,37% dos válidos (derivado: 100−48,43−43,20)",
+   "url": "https://www.metropoles.com/brasil/eleicoes-2022/tse-conclui-apuracao-do-1o-turno-lula-4843-e-bolsonaro-4320",
+   "url_alt": "https://www.opovo.com.br/eleicoes-2022/2022/10/05/simone-tebet-anuncia-apoio-a-lula-no-segundo-turno-das-eleicoes.html",
+   "conferido": true
+  },
+  {
+   "fato": "Tebet anunciou apoio a Lula em 05/10/2022; PDT (unânime) e Ciro Gomes (vídeo) em 04/10/2022",
+   "url": "https://www.opovo.com.br/eleicoes-2022/2022/10/05/simone-tebet-anuncia-apoio-a-lula-no-segundo-turno-das-eleicoes.html",
+   "url_alt": "https://www.correiobraziliense.com.br/politica/2022/10/5041882-sem-citar-lula-ciro-declara-apoio-ao-petista-e-acompanha-decisao-do-pdt.html",
+   "conferido": true
+  },
+  {
+   "fato": "Datas 1T 02/10/2022 e 2T 30/10/2022",
+   "url": "https://www.metropoles.com/brasil/eleicoes-2022/tse-conclui-apuracao-do-1o-turno-lula-4843-e-bolsonaro-4320",
+   "conferido": true
+  }
+ ],
+ "metodo": "Cenários são aritmética transparente, não previsão. Base: votos válidos do 1º turno (TSE, apuração local) com o mesmo total no 2º. Eliminados repartidos por regra explícita em cada cenário. Apoios vêm da imprensa (links); sem declaração = 50/50. Pesquisas têm margem de erro e foram checadas nas matérias citadas, com registro TSE conferido nas matérias.",
+ "verificado_em": "08/10/2026",
+ "conferido": true
+}

@@ -40,6 +40,28 @@ class Saida(unittest.TestCase):
             self.assertNotIn("sbp_", h, p)
         self.assertFalse(any(self.SITE.rglob(".env*")))
 
+    @unittest.skipUnless((R / "site" / "index.html").exists(), "rode python3 build_site.py antes")
+    def test_site_sem_link_do_repo(self):
+        repo = "github.com/vitoropereira/" + "vitorpereira.ia.br-eleicoes"  # concatenado para o teste não casar consigo mesmo
+        com_link = []
+        for p in self.SITE.rglob("*"):
+            if p.is_file():
+                try:
+                    if repo in p.read_text(encoding="utf-8"):
+                        com_link.append(str(p.relative_to(self.SITE)))
+                except UnicodeDecodeError:
+                    pass
+        self.assertEqual(com_link, [], "o repo pode ser privado: o site não pode linkar para ele")
+
+    @unittest.skipUnless((R / "site" / "index.html").exists(), "rode python3 build_site.py antes")
+    def test_codigo_da_analise_espelha_as_fontes(self):
+        destino = self.SITE / "analise" / "codigo"
+        self.assertTrue((destino / "index.html").exists())
+        for rel in B.CODIGO_ANALISE:
+            self.assertTrue((destino / rel).exists(), rel)
+            self.assertEqual((destino / rel).read_bytes(), (R / rel).read_bytes(), rel)
+            self.assertIn(f'href="{rel}"', (destino / "index.html").read_text(), rel)
+
 
 if __name__ == "__main__":
     unittest.main()

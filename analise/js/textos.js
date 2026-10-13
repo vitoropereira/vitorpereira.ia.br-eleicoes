@@ -2,7 +2,7 @@
 import { html } from "/vendor/preact-htm.module.js";
 
 const TSE = html`<a href="https://resultados.tse.jus.br/oficial/app/index.html" rel="noopener">TSE</a>`;
-const CALC = html`<a href="https://github.com/vitoropereira/vitorpereira.ia.br-eleicoes/tree/main/analise" rel="noopener">cálculo aberto</a>`;
+const CALC = html`<a href="/analise/codigo/">cálculo aberto</a>`;
 
 export const FONTE = {
   campos: html`Fonte: ${TSE}, 1º turno de 2026, votos nominais e de legenda por partido. Lados: classificação em <a href="#metodo">Método</a>.`,

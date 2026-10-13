@@ -39,7 +39,8 @@ class Repo(unittest.TestCase):
                 pass
         self.assertEqual(com_velho, [], "link do repo antigo ainda presente")
         textos = (R / "analise/js/textos.js").read_text()
-        self.assertIn("github.com/vitoropereira/vitorpereira.ia.br-eleicoes/tree/main/analise", textos)
+        self.assertIn("/analise/codigo/", textos)
+        self.assertNotIn("github.com/vitoropereira/" + "vitorpereira.ia.br-eleicoes", textos)
 
 
 if __name__ == "__main__":
