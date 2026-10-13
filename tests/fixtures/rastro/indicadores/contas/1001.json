@@ -2,7 +2,7 @@
  "sq": "1001", "nome_urna": "FICTICIO UM", "cargo": "depfed", "uf": "AC", "partido": "PP", "cnpj_prestador": "12345678000195",
  "prestacao_parcial": true, "receitas": null,
  "despesas": {
-  "total_contratado": 20000.0, "total_pago": 0,
+  "total_contratado": 725000.0, "total_pago": 0,
   "fornecedores_pj": [
    {"cnpj": "11111111000191", "nome": "MEI GRANDE", "cnae": "47440", "n_despesas": 1, "tipos": ["Serviços prestados por terceiros"], "total": 60000.0},
    {"cnpj": "22222222000191", "nome": "MEI PEQUENO", "cnae": "47440", "n_despesas": 1, "tipos": ["Serviços prestados por terceiros"], "total": 50000.0},

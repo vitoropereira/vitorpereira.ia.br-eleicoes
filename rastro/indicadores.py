@@ -1,10 +1,12 @@
 """Indicadores da Receita (mei_acima_teto, empresa_recem_aberta, atividade_incompativel, socio_doador, mais o
-ramo de nomeações do socio_ligado), de comparação (preco_fora_da_curva, gasto_por_voto, transferencia_candidato)
+ramo de nomeações do socio_ligado; parte 2: socio_ligado, multicampanha, situacao_irregular, concentracao,
+endereco_compartilhado), de comparação (preco_fora_da_curva, gasto_por_voto, transferencia_candidato)
 e de pessoal e extrato (pessoal_pf, saque_especie, pagamento_tardio).
 
 Funções puras, sem limiar fixo no código (tudo vem de rastro/config.json). Cada item segue o contrato
 {nome, fato, valor, fonte_url, contraparte?}. Nenhum CPF, nem trecho, vai para a saída; CNPJ de MEI sai mascarado; pessoa física paga só entra como contagem.
 """
+import functools
 import json
 import logging
 import re
@@ -14,13 +16,13 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 try:
-    from rastro.baixar import URL_EXTRATO
+    from rastro.baixar import URL_CAND, URL_EXTRATO
     from rastro.cnpj import BASE_CNPJ, _norm
     from rastro.contas import ELEITOS, SAIDA_AGREGADOS, SAIDA_CONTAS, SAIDA_HASH, SAIDA_PF, URL_CONTAS, digitos, gravar
     from rastro.extrato import SAIDA_SAQUES
     from rastro.nomeacoes import NOMEADOS
 except ImportError:  # rodado como script: python3 rastro/indicadores.py
-    from baixar import URL_EXTRATO
+    from baixar import URL_CAND, URL_EXTRATO
     from cnpj import BASE_CNPJ, _norm
     from contas import ELEITOS, SAIDA_AGREGADOS, SAIDA_CONTAS, SAIDA_HASH, SAIDA_PF, URL_CONTAS, digitos, gravar
     from extrato import SAIDA_SAQUES
@@ -32,6 +34,7 @@ CONFIG = AQUI / "config.json"
 CNAE_X_TIPO = AQUI / "cnae_x_tipo.json"
 FORNECEDORES = AQUI / "dados" / "fornecedores.json"
 SAIDA = AQUI / "dados" / "indicadores.json"
+CANDIDATOS = AQUI / "brutos" / "candidatos.json"
 FONTE_RECEITA = BASE_CNPJ.rsplit("/download", 1)[0]
 RE_MEIO = re.compile(r"\*{3}(\d{6})\*{2}")
 PAPEIS_DOADOR = ("doador", "ambos")
@@ -377,17 +380,169 @@ def socio_nomeado(sq, contas, fornecedores, idx_nomeados, cfg):
     return out
 
 
+@functools.lru_cache(maxsize=4)
+def _ignorar_chave(particulas, comuns):
+    return frozenset(_norm(x) for x in particulas + comuns)
+
+
+def _ignorar(cfg):
+    return _ignorar_chave(tuple(cfg["sobrenome_particulas"]), tuple(cfg["sobrenomes_comuns"]))
+
+
+def sobrenomes(nome, cfg):
+    """Sobrenomes de um nome civil: tokens depois do prenome, sem partículas nem sobrenomes comuns (normalizados)."""
+    ignorar = _ignorar(cfg)
+    return {t for t in _norm(nome).split()[1:] if t not in ignorar}
+
+
+def indice_candidatos(candidatos):
+    """{(nome normalizado, cpf_meio): [sq]} só de quem tem CPF; sem CPF não casa só por nome."""
+    idx = {}
+    for sq, c in (candidatos or {}).items():
+        if c.get("cpf_meio") and c.get("nome"):
+            idx.setdefault((_norm(c["nome"]), c["cpf_meio"]), []).append(sq)
+    return idx
+
+
+def socio_ligado(sq, contas, fornecedores, candidatos, cfg, idx=None):
+    """Sócio que consta como candidato/suplente em 2026 (nome e trecho do CPF), ou que tem o mesmo sobrenome do pagador."""
+    if idx is None:
+        idx = indice_candidatos(candidatos)
+    pagador = (candidatos or {}).get(sq)
+    sob_pagador = sobrenomes(pagador["nome"], cfg) if pagador and pagador.get("nome") else set()
+    out = []
+    for cnpj, f in _fornecedores_pj(contas):
+        rec = fornecedores.get(cnpj) or {}
+        if rec.get("mei"):
+            continue  # sócio de MEI é a própria pessoa física: fica fora
+        vistos = set()
+        for s in rec.get("socios") or []:
+            if not s.get("nome"):
+                continue
+            nome = _norm(s["nome"])
+            m = RE_MEIO.fullmatch((s.get("cpf_mascarado") or "").strip())
+            chave = (nome, m.group(1) if m else None)
+            if chave in vistos:
+                continue
+            fato = None
+            cands = [c for c in idx.get(chave, []) if c != sq] if m else []
+            if cands:
+                c = candidatos[cands[0]]
+                fato = (f"{nome}, sócio(a) desta empresa, consta como candidato(a)/suplente em 2026 "
+                        f"({c.get('cargo') or 'cargo não informado'}, {c.get('uf') or 'UF não informada'}); pode ser homônimo")
+            elif sob_pagador and nome != _norm(pagador["nome"]):
+                comum = sorted(sob_pagador & sobrenomes(s["nome"], cfg))
+                if comum:
+                    fato = (f"{nome}, sócio(a) desta empresa, tem o mesmo sobrenome ({', '.join(comum)}) do(a) "
+                            f"candidato(a) que a contratou; sobrenome igual não prova relação entre as pessoas")
+            if not fato:
+                continue
+            vistos.add(chave)
+            out.append({"nome": "socio_ligado", "fato": fato, "valor": f["total"], "fonte_url": URL_CAND,
+                        "contraparte": _contraparte(cnpj, f, rec)})
+    return out
+
+
+def multicampanha(sq, contas, fornecedores, agregados, cfg):
+    minimo = cfg["multicampanha_min"]
+    out = []
+    for cnpj, f in _fornecedores_pj(contas):
+        agr = (agregados.get("por_cnpj") or {}).get(cnpj)
+        if not agr or agr["n_campanhas"] < minimo:
+            continue
+        out.append({
+            "nome": "multicampanha",
+            "fato": f"Fornecedor de {agr['n_campanhas']} campanhas em 2026 (o painel destaca a partir de {minimo})",
+            "valor": agr["n_campanhas"],
+            "fonte_url": URL_CONTAS,
+            "contraparte": _contraparte(cnpj, f, fornecedores.get(cnpj) or {}),
+        })
+    return out
+
+
+def situacao_irregular(sq, contas, fornecedores, cfg, data_base=None):
+    irregulares = {s.upper() for s in cfg["situacoes_irregulares"]}
+    base = f" (base de {data_base})" if data_base else ""
+    out = []
+    for cnpj, f in _fornecedores_pj(contas):
+        rec = fornecedores.get(cnpj) or {}
+        sit = (rec.get("situacao") or "").upper()
+        if sit not in irregulares:
+            continue
+        out.append({
+            "nome": "situacao_irregular",
+            "fato": f"Situação cadastral na Receita: {sit}{base}",
+            "valor": f["total"],
+            "fonte_url": FONTE_RECEITA,
+            "contraparte": _contraparte(cnpj, f, rec),
+        })
+    return out
+
+
+def concentracao(sq, contas, fornecedores, cfg):
+    total = ((contas or {}).get("despesas") or {}).get("total_contratado")
+    limite = cfg["concentracao_pct"]
+    if not total or total <= 0:
+        return []  # sem base não há percentual: cala
+    out = []
+    for cnpj, f in _fornecedores_pj(contas):
+        if f["total"] * 100 <= limite * total:
+            continue
+        pct = round(f["total"] * 100 / total, 1)
+        out.append({
+            "nome": "concentracao",
+            "fato": (f"Concentra {str(pct).replace('.', ',')}% do total contratado pela campanha "
+                     f"({brl(f['total'])} de {brl(total)}); o painel destaca acima de {limite}%"),
+            "valor": pct,
+            "fonte_url": URL_CONTAS,
+            "contraparte": _contraparte(cnpj, f, fornecedores.get(cnpj) or {}),
+        })
+    return out
+
+
+def endereco_compartilhado(sq, contas, fornecedores, cfg):
+    """Fornecedores da mesma campanha com o mesmo endereço na Receita. O endereço não sai (de MEI pode ser a casa)."""
+    grupos = {}
+    for cnpj, f in _fornecedores_pj(contas):
+        chave = (fornecedores.get(cnpj) or {}).get("endereco_chave")
+        if chave:
+            grupos.setdefault(chave, []).append((cnpj, f))
+    out = []
+    for membros in grupos.values():
+        if len({c[:8] for c, _ in membros}) < cfg["endereco_min_fornecedores"]:  # matriz e filial são a mesma empresa
+            continue
+        for cnpj, f in membros:
+            rec = fornecedores.get(cnpj) or {}
+            outros = [_contraparte(c, g, fornecedores.get(c) or {}) for c, g in membros if c != cnpj]
+            out.append({
+                "nome": "endereco_compartilhado",
+                "fato": f"Mesmo endereço cadastrado na Receita que outro(s) fornecedor(es) da campanha: {'; '.join(outros)}",
+                "valor": f["total"],
+                "fonte_url": FONTE_RECEITA,
+                "contraparte": _contraparte(cnpj, f, rec),
+            })
+    return out
+
+
 def calcular(sq, contas, fornecedores, agregados, doadores_hash, cfg, cnae_x_tipo, idx=None,
-             pf_hash=None, saques=None, idx_pf=None, idx_nomeados=None, eleito=None):
+             pf_hash=None, saques=None, idx_pf=None, idx_nomeados=None, eleito=None,
+             candidatos=None, idx_cand=None, data_base=None):
     """Itens dos indicadores de um eleito; doadores_hash, idx_nomeados, pf_hash e saques None pulam socio_doador,
-    socio_ligado, a parte de repetidos do pessoal_pf e o saque_especie; eleito=None pula os de votos/cargo."""
+    socio_ligado, a parte de repetidos do pessoal_pf e o saque_especie; eleito=None pula os de votos/cargo; candidatos=None
+    pula o ramo candidato/sobrenome do socio_ligado."""
     itens = (mei_acima_teto(sq, contas, fornecedores, agregados, cfg)
              + empresa_recem_aberta(sq, contas, fornecedores, cfg)
              + atividade_incompativel(sq, contas, fornecedores, cnae_x_tipo))
     if doadores_hash is not None:
         itens += socio_doador(sq, contas, fornecedores, doadores_hash, idx)
+    if candidatos is not None:
+        itens += socio_ligado(sq, contas, fornecedores, candidatos, cfg, idx_cand)
     if idx_nomeados is not None:
         itens += socio_nomeado(sq, contas, fornecedores, idx_nomeados, cfg)
+    itens += (multicampanha(sq, contas, fornecedores, agregados, cfg)
+              + situacao_irregular(sq, contas, fornecedores, cfg, data_base)
+              + concentracao(sq, contas, fornecedores, cfg)
+              + endereco_compartilhado(sq, contas, fornecedores, cfg))
     if eleito is not None:
         itens += preco_fora_da_curva(sq, contas, eleito, agregados, cfg)
         itens += gasto_por_voto(sq, contas, eleito, agregados, cfg)
@@ -408,7 +563,7 @@ def ler_opcional(caminho, o_que):
 
 def gerar(dir_contas, fornecedores_path, agregados_path, hash_path, cfg, saida, cnae_x_tipo=None,
           pf_path=None, saques_path=None, nomeados_path=NOMEADOS,
-          eleitos_path=ELEITOS):
+          eleitos_path=ELEITOS, candidatos_path=CANDIDATOS):
     cnae_x_tipo = cnae_x_tipo if cnae_x_tipo is not None else ler_json(CNAE_X_TIPO)
     env = ler_json(fornecedores_path)
     fornecedores = env["fornecedores"]
@@ -418,7 +573,15 @@ def gerar(dir_contas, fornecedores_path, agregados_path, hash_path, cfg, saida, 
     else:
         doadores_hash = None
         log.warning("sem %s: socio_doador pulado", hash_path)
+    if Path(candidatos_path).exists():
+        candidatos = ler_json(candidatos_path)
+        if not any(c.get("cpf_meio") for c in candidatos.values()):
+            log.warning("%s sem nenhum cpf_meio: o ramo candidato do socio_ligado não vai casar", candidatos_path)
+    else:
+        candidatos = None
+        log.warning("sem %s: socio_ligado pulado", candidatos_path)
     idx = indice_doadores(doadores_hash) if doadores_hash is not None else None  # uma vez, não por eleito
+    idx_cand = indice_candidatos(candidatos) if candidatos is not None else None
     if Path(eleitos_path).exists():
         eleitos = {e["sq"]: e for e in ler_json(eleitos_path)["eleitos"]}
     else:
@@ -442,10 +605,11 @@ def gerar(dir_contas, fornecedores_path, agregados_path, hash_path, cfg, saida, 
         sq = str(contas.get("sq") or arq.stem)
         itens = calcular(sq, contas, fornecedores, agregados, doadores_hash, cfg, cnae_x_tipo, idx,
                          pf_hash=pf_hash, saques=saques, idx_pf=idx_pf, idx_nomeados=idx_nomeados,
-                         eleito=eleitos.get(sq))
+                         eleito=eleitos.get(sq), candidatos=candidatos, idx_cand=idx_cand,
+                         data_base=env.get("data_base"))
         if itens:
             res[sq] = itens
-    fonte = [FONTE_RECEITA, URL_CONTAS] + ([URL_EXTRATO] if saques is not None else [])
+    fonte = [FONTE_RECEITA, URL_CONTAS, URL_CAND] + ([URL_EXTRATO] if saques is not None else [])
     if idx_nomeados is not None and (cfg.get("nomeacoes_fontes") or {}).get("siape"):
         fonte.append(cfg["nomeacoes_fontes"]["siape"].format(mes=cfg["nomeacoes_mes"].replace("-", "")))
     for e in (env, agregados):

@@ -2,7 +2,10 @@
  "por_cnpj": {
   "11111111000191": {"total_recebido": 90000.0, "n_campanhas": 2, "campanhas": ["1001", "9999"]},
   "22222222000191": {"total_recebido": 50000.0, "n_campanhas": 1, "campanhas": ["1001", "2001"]},
-  "33333333000191": {"total_recebido": 501000.0, "n_campanhas": 2, "campanhas": ["1001", "1002", "2002"]}
+  "33333333000191": {"total_recebido": 501000.0, "n_campanhas": 2, "campanhas": ["1001", "1002", "2002"]},
+  "10101010000191": {"total_recebido": 600.0, "n_campanhas": 5, "campanhas": ["1003", "9001", "9002", "9003", "9004"]},
+  "20202020000191": {"total_recebido": 300.0, "n_campanhas": 5, "campanhas": ["1003", "9001", "9002", "9003", "9004"]},
+  "30303030000191": {"total_recebido": 100.0, "n_campanhas": 4, "campanhas": ["1003", "9001", "9002", "9003"]}
  },
  "por_tipo_cargo_uf": {
   "Serviços prestados por terceiros|depfed|AC": [1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000],

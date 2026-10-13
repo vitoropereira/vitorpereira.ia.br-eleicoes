@@ -15,7 +15,11 @@
     {"nome": "JOSE DA SILVA", "cpf_mascarado": "***654321**"},
     {"nome": "MARIA PEREIRA", "cpf_mascarado": "***111111**"},
     {"nome": "PAULO FORNECEDOR", "cpf_mascarado": "***222222**"},
-    {"nome": "ANA LIMA", "cpf_mascarado": null}
-   ]}
+    {"nome": "ANA LIMA", "cpf_mascarado": null},
+    {"nome": "CARLOS BRANDAO MOTA", "cpf_mascarado": "***888888**"}
+   ]},
+  "10101010000191": {"razao": "EMPRESA BAIXADA LTDA", "abertura": "2015-01-01", "situacao": "BAIXADA", "cnae": "4744099", "mei": false, "simples": false, "endereco_chave": "RUA A|1|11111111", "socios": []},
+  "20202020000191": {"razao": "MEI INAPTO", "abertura": "2015-01-01", "situacao": "INAPTA", "cnae": "4744099", "mei": true, "simples": true, "endereco_chave": "RUA A|1|11111111", "socios": []},
+  "30303030000191": {"razao": "EMPRESA ATIVA LTDA", "abertura": "2015-01-01", "situacao": "ATIVA", "cnae": "4744099", "mei": false, "simples": false, "endereco_chave": "RUA B|2|22222222", "socios": []}
  }
 }

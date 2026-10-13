@@ -17,7 +17,8 @@ URL_CONTAS = f"{BASE}/prestacao_contas/prestacao_de_contas_eleitorais_candidatos
 URL_DESPESA_DOC = f"{BASE}/prestacao_contas/despesa_documento_2026.zip"
 # extrato bancário: o nome extrato_bancario_2026.zip deu 404; este é o do plano e pode ainda não existir no CDN (404 = aviso)
 URL_EXTRATO = f"{BASE}/prestacao_contas/extrato_bancario_candidato_2026.zip"
-ARQUIVOS = [URL_CONTAS, URL_DESPESA_DOC, URL_EXTRATO]
+URL_CAND = f"{BASE}/consulta_cand/consulta_cand_2026.zip"
+ARQUIVOS = [URL_CONTAS, URL_DESPESA_DOC, URL_EXTRATO, URL_CAND]
 UA = "eleicoes-2026-painel/1.0 (dados abertos; github.com/vitoropereira/vitorpereira.ia.br-eleicoes)"
 DIA_APURACAO = date(2026, 10, 25)
 

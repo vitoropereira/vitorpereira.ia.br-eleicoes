@@ -25,6 +25,14 @@ NOMEADOS = lj("nomeados.json")
 IDX_NOM = ind.indice_nomeados(NOMEADOS)
 C1001 = lj("contas/1001.json")
 C1002 = lj("contas/1002.json")
+C1003 = lj("contas/1003.json")
+CAND = lj("candidatos.json")
+PARTE2 = ("multicampanha_min", "concentracao_pct", "endereco_min_fornecedores", "situacoes_irregulares",
+          "sobrenome_particulas", "sobrenomes_comuns")
+TODOS = {"mei_acima_teto", "empresa_recem_aberta", "atividade_incompativel", "socio_doador", "socio_ligado",
+         "multicampanha", "situacao_irregular", "concentracao", "endereco_compartilhado",
+         "preco_fora_da_curva", "gasto_por_voto", "transferencia_candidato",
+         "pessoal_pf", "saque_especie", "pagamento_tardio"}
 ELEITOS = lj("eleitos.json")["eleitos"]
 E1001, E1002 = ELEITOS
 PF = lj("pf_por_campanha.json")
@@ -73,6 +81,15 @@ class TestConfig(unittest.TestCase):
         self.assertEqual(set(cfg["nomeacoes_fontes"]), {"siape", "camara", "senado"})
         self.assertIn("{mes}", cfg["nomeacoes_fontes"]["siape"])
         self.assertTrue(cfg["nomeacoes_fontes"]["siape"].startswith("https://"))
+
+    def test_chaves_da_parte_2(self):
+        cfg = json.loads((RAIZ / "rastro" / "config.json").read_text(encoding="utf-8"))
+        for k in ("multicampanha_min", "concentracao_pct", "endereco_min_fornecedores"):
+            self.assertGreater(cfg[k], 0, k)
+        for k in ("situacoes_irregulares", "sobrenome_particulas", "sobrenomes_comuns"):
+            self.assertTrue(cfg[k] and all(isinstance(x, str) and x for x in cfg[k]), k)
+        for k in PARTE2:  # o fixture diverge de propósito em outras chaves (pf_*, nomeacoes_*), nestas não
+            self.assertEqual(cfg[k], CFG[k], k)
 
     def test_tabela_tem_nota_e_listas(self):
         tabela = json.loads((RAIZ / "rastro" / "cnae_x_tipo.json").read_text(encoding="utf-8"))
@@ -274,7 +291,7 @@ class TestGastoPorVoto(unittest.TestCase):
         r = self.rodar()
         self.assertEqual(len(r), 1)
         self.assertEqual(r[0]["nome"], "gasto_por_voto")
-        self.assertEqual(r[0]["valor"], 20.0)
+        self.assertEqual(r[0]["valor"], 725.0)  # 725.000 contratados / 1.000 votos
         self.assertIn("11,45", r[0]["fato"])
 
     def test_abaixo_cala(self):
@@ -535,15 +552,219 @@ class TestSocioNomeado(unittest.TestCase):
             self.assertNotIn(meio, txt)
 
 
+class TestSobrenomes(unittest.TestCase):
+    def test_particulas_e_comuns_saem(self):
+        self.assertEqual(ind.sobrenomes("MARIA DOS SANTOS PEREIRA", CFG), set())
+        self.assertEqual(ind.sobrenomes("MARIA DOS SANTOS BRANDAO", CFG), {"BRANDAO"})
+
+    def test_prenome_nao_conta(self):
+        self.assertEqual(ind.sobrenomes("BRANDAO MOTA", CFG), {"MOTA"})
+
+    def test_acentos_normalizados(self):
+        self.assertEqual(ind.sobrenomes("Carlos Brandão da Mota", CFG), {"BRANDAO", "MOTA"})
+        self.assertEqual(ind.sobrenomes("Ana Gonçalves Pires", CFG), {"PIRES"})
+
+    def test_nome_de_uma_palavra(self):
+        self.assertEqual(ind.sobrenomes("MADONNA", CFG), set())
+        self.assertEqual(ind.sobrenomes("", CFG), set())
+
+
+class TestSocioLigado(unittest.TestCase):
+    def rodar(self, cand=CAND, forn=FORN):
+        return ind.socio_ligado("1001", so(C1001, {"99999999000191"}), forn, cand, CFG)
+
+    def socios(self, *socios):
+        forn = copy.deepcopy(FORN)
+        forn["99999999000191"]["socios"] = list(socios)
+        return forn
+
+    def test_ramo_candidato_dispara(self):
+        r = [i for i in self.rodar() if "candidato(a)/suplente" in i["fato"]]
+        self.assertEqual(len(r), 1)
+        self.assertEqual(r[0]["nome"], "socio_ligado")
+        self.assertIn("JOSE DA SILVA", r[0]["fato"])
+        self.assertIn("pode ser homônimo", r[0]["fato"])
+        self.assertEqual(r[0]["valor"], 15000.0)
+        self.assertEqual(r[0]["contraparte"], "SOCIEDADE COM SOCIOS LTDA")
+
+    def test_homonimo_com_cpf_diferente_nao_casa(self):
+        forn = self.socios({"nome": "JOSE DA SILVA", "cpf_mascarado": "***654321**"})
+        self.assertEqual(self.rodar(forn=forn), [])
+
+    def test_candidato_sem_cpf_nao_casa_so_por_nome(self):
+        forn = self.socios({"nome": "MARIA PEREIRA", "cpf_mascarado": "***111111**"})
+        self.assertEqual(self.rodar(forn=forn), [])
+
+    def test_socio_sem_cpf_mascarado_nao_casa(self):
+        forn = self.socios({"nome": "JOSE DA SILVA", "cpf_mascarado": None})
+        self.assertEqual(self.rodar(forn=forn), [])
+
+    def test_o_proprio_pagador_nao_conta(self):
+        cand = {"1001": {"nome": "JOSE DA SILVA", "uf": "AC", "cargo": "X", "cpf_meio": "123456"}}
+        forn = self.socios({"nome": "JOSE DA SILVA", "cpf_mascarado": "***123456**"})
+        self.assertEqual(self.rodar(cand=cand, forn=forn), [])
+
+    def test_ramo_sobrenome_dispara(self):
+        r = [i for i in self.rodar() if "sobrenome" in i["fato"]]
+        self.assertEqual(len(r), 1)
+        self.assertIn("CARLOS BRANDAO MOTA", r[0]["fato"])
+        self.assertIn("mesmo sobrenome", r[0]["fato"])
+        self.assertNotIn("parente", r[0]["fato"].lower())
+
+    def test_so_sobrenome_comum_nao_dispara(self):
+        cand = {"1001": {"nome": "ANA SILVA", "uf": "AC", "cargo": "X", "cpf_meio": None}}
+        forn = self.socios({"nome": "JOSE DA SILVA", "cpf_mascarado": "***000000**"})
+        self.assertEqual(self.rodar(cand=cand, forn=forn), [])
+
+    def test_so_particula_em_comum_nao_dispara(self):
+        cand = {"1001": {"nome": "ANA DA ROSA", "uf": "AC", "cargo": "X", "cpf_meio": None}}
+        forn = self.socios({"nome": "CARLOS DA MOTA", "cpf_mascarado": "***000000**"})
+        self.assertEqual(self.rodar(cand=cand, forn=forn), [])
+
+    def test_mei_fica_de_fora(self):
+        forn = copy.deepcopy(FORN)
+        forn["99999999000191"]["mei"] = True
+        self.assertEqual(self.rodar(forn=forn), [])
+
+    def test_sem_pagador_no_arquivo_cala_o_ramo_sobrenome(self):
+        cand = {k: v for k, v in CAND.items() if k != "1001"}
+        self.assertFalse([i for i in self.rodar(cand=cand) if "sobrenome" in i["fato"]])
+
+    def test_um_item_por_socio(self):
+        forn = self.socios({"nome": "JOSE DA SILVA", "cpf_mascarado": "***123456**"},
+                           {"nome": "JOSE DA SILVA", "cpf_mascarado": "***123456**"})
+        self.assertEqual(len(self.rodar(forn=forn)), 1)
+
+
+class TestMulticampanha(unittest.TestCase):
+    def rodar(self, cnpj="10101010000191", cfg=CFG):
+        return ind.multicampanha("1003", so(C1003, {cnpj}), FORN, AGR, cfg)
+
+    def test_n_dispara(self):
+        r = self.rodar()
+        self.assertEqual(len(r), 1)
+        self.assertEqual(r[0]["valor"], 5)
+        self.assertIn("5 campanhas", r[0]["fato"])
+        self.assertEqual(r[0]["contraparte"], "EMPRESA BAIXADA LTDA")
+
+    def test_n_menos_um_nao_dispara(self):
+        self.assertEqual(self.rodar("30303030000191"), [])  # 4 campanhas, N=5
+        self.assertEqual(len(self.rodar("30303030000191", {**CFG, "multicampanha_min": 4})), 1)
+
+    def test_mei_mascarado(self):
+        r = self.rodar("20202020000191")
+        self.assertEqual(r[0]["contraparte"], "**.***.***/0001-**")
+        self.assertNotIn("20202020", json.dumps(r))
+
+    def test_fora_dos_agregados_nao_dispara(self):
+        self.assertEqual(ind.multicampanha("1001", so(C1001, {"44444444000191"}), FORN, AGR, CFG), [])
+
+
+class TestSituacaoIrregular(unittest.TestCase):
+    def rodar(self, situacao, base="2026-09-01"):
+        forn = copy.deepcopy(FORN)
+        forn["30303030000191"]["situacao"] = situacao
+        return ind.situacao_irregular("1003", so(C1003, {"30303030000191"}), forn, CFG, base)
+
+    def test_cada_situacao_da_lista_dispara(self):
+        for sit in CFG["situacoes_irregulares"]:
+            r = self.rodar(sit)
+            self.assertEqual(len(r), 1, sit)
+            self.assertEqual(r[0]["fato"], f"Situação cadastral na Receita: {sit} (base de 2026-09-01)")
+            self.assertEqual(r[0]["valor"], 100.0)
+
+    def test_ativa_e_nula_nao_disparam(self):
+        self.assertEqual(self.rodar("ATIVA"), [])
+        self.assertEqual(self.rodar(None), [])
+
+    def test_fornecedor_ausente_nao_dispara(self):
+        self.assertEqual(ind.situacao_irregular("1003", so(C1003, {"30303030000191"}), {}, CFG), [])
+
+    def test_sem_data_base_omite_o_parentese(self):
+        self.assertNotIn("base de", self.rodar("BAIXADA", None)[0]["fato"])
+
+
+class TestConcentracao(unittest.TestCase):
+    def rodar(self, contas=C1003, cfg=CFG):
+        return ind.concentracao("1003", contas, FORN, cfg)
+
+    def test_acima_dispara(self):
+        r = self.rodar()
+        self.assertEqual(len(r), 1)  # 60% de 1000; o de 30% e o de 10% ficam de fora
+        self.assertEqual(r[0]["valor"], 60.0)
+        self.assertIn("60,0%", r[0]["fato"])
+        self.assertIn("50%", r[0]["fato"])
+        self.assertEqual(r[0]["contraparte"], "EMPRESA BAIXADA LTDA")
+
+    def test_exatamente_x_nao_dispara(self):
+        self.assertEqual(self.rodar(cfg={**CFG, "concentracao_pct": 60}), [])
+        self.assertEqual(len(self.rodar(cfg={**CFG, "concentracao_pct": 59.9})), 1)
+
+    def test_total_zero_ou_nulo_cala(self):
+        for total in (0, None):
+            c = copy.deepcopy(C1003)
+            c["despesas"]["total_contratado"] = total
+            self.assertEqual(self.rodar(c), [], total)
+
+    def test_sem_despesas_cala(self):
+        self.assertEqual(self.rodar({"sq": "1003", "despesas": None}), [])
+
+    def test_mei_mascarado(self):
+        r = self.rodar(cfg={**CFG, "concentracao_pct": 20})
+        self.assertIn("**.***.***/0001-**", [i["contraparte"] for i in r])
+
+
+class TestEndereco(unittest.TestCase):
+    def rodar(self, forn=FORN, contas=C1003, cfg=CFG):
+        return ind.endereco_compartilhado("1003", contas, forn, cfg)
+
+    def test_dois_fornecedores_disparam_um_item_cada(self):
+        r = self.rodar()
+        self.assertEqual(len(r), 2)
+        por = {i["contraparte"]: i for i in r}
+        self.assertEqual(set(por), {"EMPRESA BAIXADA LTDA", "**.***.***/0001-**"})
+        self.assertIn("**.***.***/0001-**", por["EMPRESA BAIXADA LTDA"]["fato"])  # cita o MEI mascarado
+        self.assertIn("EMPRESA BAIXADA LTDA", por["**.***.***/0001-**"]["fato"])
+        self.assertEqual(por["EMPRESA BAIXADA LTDA"]["valor"], 600.0)
+
+    def test_fato_nao_traz_endereco(self):
+        txt = json.dumps(self.rodar(), ensure_ascii=False)
+        self.assertNotIn("RUA A", txt)
+        self.assertNotIn("11111111", txt)
+
+    def test_endereco_nulo_nunca_agrupa(self):
+        forn = copy.deepcopy(FORN)
+        for c in ("10101010000191", "20202020000191"):
+            forn[c]["endereco_chave"] = None
+        self.assertEqual(self.rodar(forn), [])
+
+    def test_um_so_fornecedor_nao_dispara(self):
+        self.assertEqual(self.rodar(contas=so(C1003, {"10101010000191", "30303030000191"})), [])
+
+    def test_matriz_e_filial_nao_contam_como_dois(self):
+        forn = copy.deepcopy(FORN)
+        forn["10101010000272"] = {**forn["10101010000191"]}
+        contas = copy.deepcopy(so(C1003, {"10101010000191"}))
+        contas["despesas"]["fornecedores_pj"].append({**contas["despesas"]["fornecedores_pj"][0], "cnpj": "10101010000272"})
+        self.assertEqual(self.rodar(forn, contas), [])
+
+    def test_minimo_vem_do_config(self):
+        self.assertEqual(self.rodar(cfg={**CFG, "endereco_min_fornecedores": 3}), [])
+
+    def test_mesmo_endereco_em_campanhas_diferentes_nao_dispara(self):
+        self.assertEqual(self.rodar(contas=so(C1003, {"10101010000191"})), [])
+        self.assertEqual(self.rodar(contas=so(C1003, {"20202020000191"})), [])
+
+
 class TestGerar(unittest.TestCase):
     def gerar(self, hash_path=FIX / "doadores_hash.json", pf_path=FIX / "pf_por_campanha.json",
               saques_path=FIX / "extrato_saques.json", nomeados_path=FIX / "nomeados.json",
-              eleitos_path=FIX / "eleitos.json"):
+              eleitos_path=FIX / "eleitos.json", cand_path=FIX / "candidatos.json"):
         tmp = tempfile.mkdtemp()
         saida = Path(tmp) / "indicadores.json"
         ind.gerar(FIX / "contas", FIX / "fornecedores.json", FIX / "agregados.json", hash_path, CFG, saida,
                   cnae_x_tipo=TABELA, pf_path=pf_path, saques_path=saques_path, nomeados_path=nomeados_path,
-                  eleitos_path=eleitos_path)
+                  eleitos_path=eleitos_path, candidatos_path=cand_path)
         return saida.read_text(encoding="utf-8"), json.loads(saida.read_text(encoding="utf-8"))
 
     def test_forma_envelope_e_ordem(self):
@@ -552,14 +773,19 @@ class TestGerar(unittest.TestCase):
         self.assertEqual(d["data_base"], "2026-09-01")
         self.assertIn("https://exemplo.invalid/receita", d["fonte"])
         self.assertIn("https://exemplo.invalid/tse", d["fonte"])
-        self.assertEqual(list(d["indicadores"]), ["1001"])
+        self.assertEqual(list(d["indicadores"]), ["1001", "1003"])
         nomes = [i["nome"] for i in d["indicadores"]["1001"]]
         self.assertEqual(nomes, ["mei_acima_teto", "empresa_recem_aberta", "atividade_incompativel", "socio_doador",
-                                 "socio_ligado", "preco_fora_da_curva", "gasto_por_voto", "transferencia_candidato",
+                                 "socio_ligado", "socio_ligado", "socio_ligado", "concentracao",
+                                 "preco_fora_da_curva", "gasto_por_voto", "transferencia_candidato",
                                  "transferencia_candidato", "pessoal_pf", "pessoal_pf", "pessoal_pf",
                                  "saque_especie", "pagamento_tardio", "pagamento_tardio"])
         self.assertIn(ind.URL_EXTRATO, d["fonte"])
         self.assertIn("https://exemplo.invalid/portal/202609", d["fonte"])
+        nomes = [i["nome"] for i in d["indicadores"]["1003"]]
+        self.assertEqual(nomes, ["multicampanha", "multicampanha", "situacao_irregular", "situacao_irregular",
+                                 "concentracao", "endereco_compartilhado", "endereco_compartilhado"])
+        self.assertIn(ind.URL_CAND, d["fonte"])
         for itens in d["indicadores"].values():
             for i in itens:
                 self.assertEqual(set(i) - {"contraparte"}, {"nome", "fato", "valor", "fonte_url"})
@@ -573,8 +799,11 @@ class TestGerar(unittest.TestCase):
         txt, _ = self.gerar()
         self.assertEqual(cpfs_validos(txt), [])
         self.assertNotIn("11111111000191", txt)
-        for meio in ("123456", "654321", "999999"):
+        for meio in ("123456", "654321", "999999", "777777", "888888", "555555", "666666"):
             self.assertNotIn(meio, txt)
+        for cnpj in ("10101010000191", "20202020000191"):
+            self.assertNotIn(cnpj, txt)
+        self.assertNotIn("RUA A", txt)
         for proibida in ("fraude", "laranja", "fictícia"):
             self.assertNotIn(proibida, txt.lower())
         pessoal = [i for itens in json.loads(txt)["indicadores"].values() for i in itens if i["nome"] == "pessoal_pf"]
@@ -592,13 +821,26 @@ class TestGerar(unittest.TestCase):
         self.assertEqual(nomes.count("pessoal_pf"), 2)  # sobram contagem e redondos; repetidos precisa do arquivo
         self.assertNotIn(ind.URL_EXTRATO, d["fonte"])
 
+    def test_vocabulario_e_nomes(self):
+        txt, d = self.gerar()
+        nomes = {i["nome"] for itens in d["indicadores"].values() for i in itens}
+        self.assertEqual(nomes, TODOS)
+        for palavra in ("fraude", "laranja", "fictícia", "parente"):
+            self.assertNotIn(palavra, txt.lower())
+
+    def test_sem_candidatos_pula_so_o_ramo_candidato_com_aviso(self):
+        with self.assertLogs("rastro.indicadores", level="WARNING"):
+            _, d = self.gerar(cand_path=FIX / "nao_existe.json")
+        itens = [i for its in d["indicadores"].values() for i in its]
+        self.assertEqual({i["nome"] for i in itens}, TODOS)  # socio_ligado segue pelo ramo nomeações
+        self.assertEqual([i for i in itens if i["nome"] == "socio_ligado" and i["fonte_url"] == ind.URL_CAND], [])
+        self.assertNotIn(ind.URL_CAND, [i["fonte_url"] for i in itens])
+
     def test_sem_hash_pula_socio_doador_com_aviso(self):
         with self.assertLogs("rastro.indicadores", level="WARNING"):
             _, d = self.gerar(FIX / "nao_existe.json")
         nomes = {i["nome"] for itens in d["indicadores"].values() for i in itens}
-        self.assertEqual(nomes, {"mei_acima_teto", "empresa_recem_aberta", "atividade_incompativel", "socio_ligado",
-                                 "preco_fora_da_curva", "gasto_por_voto", "transferencia_candidato",
-                                 "pessoal_pf", "saque_especie", "pagamento_tardio"})
+        self.assertEqual(nomes, TODOS - {"socio_doador"})
 
     def test_eleito_fora_do_eleitos_json_pula_so_os_de_votos(self):
         with self.assertLogs("rastro.indicadores", level="WARNING"):
@@ -612,9 +854,11 @@ class TestGerar(unittest.TestCase):
         with self.assertLogs("rastro.indicadores", level="WARNING") as lg:
             _, d = self.gerar(nomeados_path=FIX / "nao_existe.json")
         self.assertTrue(any("socio_ligado" in m for m in lg.output))
-        nomes = {i["nome"] for itens in d["indicadores"].values() for i in itens}
-        self.assertNotIn("socio_ligado", nomes)
-        self.assertNotIn("https://exemplo.invalid/portal/202609", d["fonte"])
+        itens = [i for its in d["indicadores"].values() for i in its]
+        siape = "https://exemplo.invalid/portal/202609"
+        self.assertEqual([i for i in itens if i["nome"] == "socio_ligado" and i["fonte_url"] == siape], [])
+        self.assertIn("socio_ligado", {i["nome"] for i in itens})  # o ramo candidato/sobrenome segue
+        self.assertNotIn(siape, d["fonte"])
 
 
 if __name__ == "__main__":
