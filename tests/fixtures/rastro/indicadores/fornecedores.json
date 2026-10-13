@@ -1,0 +1,21 @@
+{
+ "fonte": ["https://exemplo.invalid/receita"], "data_base": "2026-09-01", "gerado_em": "2026-10-13T00:00:00+00:00",
+ "fornecedores": {
+  "11111111000191": {"razao": "MEI GRANDE", "abertura": "2019-03-01", "situacao": "ATIVA", "cnae": "4744099", "mei": true, "simples": true, "endereco_chave": null, "socios": []},
+  "22222222000191": {"razao": "MEI PEQUENO", "abertura": "2019-03-01", "situacao": "ATIVA", "cnae": "4744099", "mei": true, "simples": true, "endereco_chave": null, "socios": []},
+  "33333333000191": {"razao": "EMPRESA GRANDE LTDA", "abertura": "2010-05-05", "situacao": "ATIVA", "cnae": "4744099", "mei": false, "simples": false, "endereco_chave": null, "socios": []},
+  "44444444000191": {"razao": "EMPRESA NOVA LTDA", "abertura": "2026-01-10", "situacao": "ATIVA", "cnae": "4744099", "mei": false, "simples": false, "endereco_chave": null, "socios": []},
+  "55555555000191": {"razao": "EMPRESA FRONTEIRA LTDA", "abertura": "2025-08-15", "situacao": "ATIVA", "cnae": "4744099", "mei": false, "simples": false, "endereco_chave": null, "socios": []},
+  "66666666000191": {"razao": "GRAFICA COMBUSTIVEL LTDA", "abertura": "2012-01-01", "situacao": "ATIVA", "cnae": "1813001", "mei": false, "simples": false, "endereco_chave": null, "socios": []},
+  "77777777000191": {"razao": "GRAFICA IMPRESSOS LTDA", "abertura": "2012-01-01", "situacao": "ATIVA", "cnae": "1813001", "mei": false, "simples": false, "endereco_chave": null, "socios": []},
+  "88888888000191": {"razao": "GRAFICA OUTRO LTDA", "abertura": null, "situacao": "ATIVA", "cnae": "1813001", "mei": false, "simples": false, "endereco_chave": null, "socios": []},
+  "99999999000191": {"razao": "SOCIEDADE COM SOCIOS LTDA", "abertura": "2012-01-01", "situacao": "ATIVA", "cnae": "4744099", "mei": false, "simples": false, "endereco_chave": null,
+   "socios": [
+    {"nome": "José da Silva", "cpf_mascarado": "***123456**"},
+    {"nome": "JOSE DA SILVA", "cpf_mascarado": "***654321**"},
+    {"nome": "MARIA PEREIRA", "cpf_mascarado": "***111111**"},
+    {"nome": "PAULO FORNECEDOR", "cpf_mascarado": "***222222**"},
+    {"nome": "ANA LIMA", "cpf_mascarado": null}
+   ]}
+ }
+}
