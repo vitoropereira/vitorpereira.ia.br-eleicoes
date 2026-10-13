@@ -55,3 +55,29 @@ só o `socio_doador` é pulado (aviso no log). Uso: `python3 rastro/indicadores.
   dispara se todos os tipos do fornecedor estão na tabela e nenhum é compatível com o CNAE; qualquer tipo fora da tabela ou
   CNAE ausente cala. Para cortar falso positivo, acrescente prefixos; para cobrir mais tipos, acrescente chaves. Revisão humana
   obrigatória antes de ir ao site.
+
+## Indicadores da Receita, parte 2 (`indicadores.py`, `candidatos.py`)
+
+Mais cinco indicadores no mesmo contrato: `socio_ligado`, `multicampanha`, `situacao_irregular`, `concentracao` e
+`endereco_compartilhado`. Todos os limiares e listas ficam em `config.json`.
+
+**Ordem de execução:** `python3 rastro/baixar.py` → `python3 rastro/candidatos.py` → `python3 rastro/indicadores.py`
+(depois de `contas.py` e `cnpj.py`). O `candidatos.py` lê `consulta_cand_2026.zip` (titulares e suplentes) e grava
+`rastro/brutos/candidatos.json` (`{sq: {nome, uf, cargo, cpf_meio|None}}`), **fora do git**, porque tem o trecho do CPF.
+Sem esse arquivo o `socio_ligado` inteiro é pulado (aviso no log); `gerar()` aceita `candidatos_path=`.
+
+- `socio_ligado`: dois ramos. (1) o sócio consta como candidato/suplente em 2026 (nome normalizado **e** 6 dígitos do meio
+  do CPF iguais, candidato diferente do pagador; candidato sem CPF no arquivo não casa só por nome). (2) o sócio tem o
+  **mesmo sobrenome** do candidato pagador; o `fato` diz "mesmo sobrenome", nunca "parente". Sócio de MEI fica de fora.
+  O ramo "cargo comissionado / nomeação política" é da Issue 11.
+- `multicampanha`: fornecedor em `n_campanhas >= multicampanha_min` (agregados). `valor` = `n_campanhas`.
+- `situacao_irregular`: situação cadastral em `situacoes_irregulares` (BAIXADA, INAPTA, SUSPENSA, NULA).
+- `concentracao`: fornecedor acima de `concentracao_pct` % de `despesas.total_contratado` (contratado, não pago: a parcial
+  tem muita despesa ainda não paga). Total 0 ou nulo cala. `valor` = o percentual.
+- `endereco_compartilhado`: `endereco_min_fornecedores` ou mais fornecedores da **mesma campanha** com o mesmo
+  `endereco_chave`; um item para cada, citando os outros. O endereço não sai (o de MEI pode ser a casa da pessoa).
+
+Chaves novas do `config.json`: `multicampanha_min` (5), `concentracao_pct` (50), `endereco_min_fornecedores` (2),
+`situacoes_irregulares`, `sobrenome_particulas` e `sobrenomes_comuns` (incluem agnomes: JUNIOR, FILHO, NETO, SOBRINHO).
+Os valores 5, 50 e 2 são palpites: ajuste conforme o que a primeira rodada mostrar. Sobrenome = todo token depois do
+prenome, sem partículas e sem os comuns; basta um em comum. Fato de sobrenome é textual e **não** prova relação.

@@ -1,4 +1,5 @@
-"""Indicadores da Receita, parte 1: mei_acima_teto, empresa_recem_aberta, atividade_incompativel, socio_doador.
+"""Indicadores da Receita: mei_acima_teto, empresa_recem_aberta, atividade_incompativel, socio_doador (parte 1) e
+socio_ligado, multicampanha, situacao_irregular, concentracao, endereco_compartilhado (parte 2).
 
 Funções puras, sem limiar fixo no código (tudo vem de rastro/config.json). Cada item segue o contrato
 {nome, fato, valor, fonte_url, contraparte?}. Nenhum CPF, nem trecho, vai para a saída; CNPJ de MEI sai mascarado.
@@ -10,9 +11,11 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 try:
+    from rastro.baixar import URL_CAND
     from rastro.cnpj import BASE_CNPJ, _norm
     from rastro.contas import SAIDA_AGREGADOS, SAIDA_CONTAS, SAIDA_HASH, URL_CONTAS, digitos, gravar
 except ImportError:  # rodado como script: python3 rastro/indicadores.py
+    from baixar import URL_CAND
     from cnpj import BASE_CNPJ, _norm
     from contas import SAIDA_AGREGADOS, SAIDA_CONTAS, SAIDA_HASH, URL_CONTAS, digitos, gravar
 
@@ -22,6 +25,7 @@ CONFIG = AQUI / "config.json"
 CNAE_X_TIPO = AQUI / "cnae_x_tipo.json"
 FORNECEDORES = AQUI / "dados" / "fornecedores.json"
 SAIDA = AQUI / "dados" / "indicadores.json"
+CANDIDATOS = AQUI / "brutos" / "candidatos.json"
 FONTE_RECEITA = BASE_CNPJ.rsplit("/download", 1)[0]
 RE_MEIO = re.compile(r"\*{3}(\d{6})\*{2}")
 PAPEIS_DOADOR = ("doador", "ambos")
@@ -160,17 +164,159 @@ def socio_doador(sq, contas, fornecedores, doadores_hash, idx=None):
     return out
 
 
-def calcular(sq, contas, fornecedores, agregados, doadores_hash, cfg, cnae_x_tipo, idx=None):
-    """Itens dos quatro indicadores de um eleito; doadores_hash=None pula o socio_doador."""
+def sobrenomes(nome, cfg):
+    """Sobrenomes de um nome civil: tokens depois do prenome, sem partículas nem sobrenomes comuns (normalizados)."""
+    ignorar = {_norm(x) for x in cfg["sobrenome_particulas"]} | {_norm(x) for x in cfg["sobrenomes_comuns"]}
+    return {t for t in _norm(nome).split()[1:] if t not in ignorar}
+
+
+def indice_candidatos(candidatos):
+    """{(nome normalizado, cpf_meio): [sq]} só de quem tem CPF; sem CPF não casa só por nome."""
+    idx = {}
+    for sq, c in (candidatos or {}).items():
+        if c.get("cpf_meio") and c.get("nome"):
+            idx.setdefault((_norm(c["nome"]), c["cpf_meio"]), []).append(sq)
+    return idx
+
+
+def socio_ligado(sq, contas, fornecedores, candidatos, cfg, idx=None):
+    """Sócio que consta como candidato/suplente em 2026 (nome e trecho do CPF), ou que tem o mesmo sobrenome do pagador."""
+    if idx is None:
+        idx = indice_candidatos(candidatos)
+    pagador = (candidatos or {}).get(sq)
+    sob_pagador = sobrenomes(pagador["nome"], cfg) if pagador and pagador.get("nome") else set()
+    out = []
+    for cnpj, f in _fornecedores_pj(contas):
+        rec = fornecedores.get(cnpj) or {}
+        if rec.get("mei"):
+            continue  # sócio de MEI é a própria pessoa física: fica fora
+        vistos = set()
+        for s in rec.get("socios") or []:
+            if not s.get("nome"):
+                continue
+            nome = _norm(s["nome"])
+            m = RE_MEIO.fullmatch((s.get("cpf_mascarado") or "").strip())
+            chave = (nome, m.group(1) if m else None)
+            if chave in vistos:
+                continue
+            fato = None
+            cands = [c for c in idx.get(chave, []) if c != sq] if m else []
+            if cands:
+                c = candidatos[cands[0]]
+                fato = (f"{nome}, sócio(a) desta empresa, consta como candidato(a)/suplente em 2026 "
+                        f"({c.get('cargo') or 'cargo não informado'}, {c.get('uf') or 'UF não informada'}); pode ser homônimo")
+            elif sob_pagador and nome != _norm(pagador["nome"]):
+                comum = sorted(sob_pagador & sobrenomes(s["nome"], cfg))
+                if comum:
+                    fato = (f"{nome}, sócio(a) desta empresa, tem o mesmo sobrenome ({', '.join(comum)}) do(a) "
+                            f"candidato(a) que a contratou; sobrenome igual não prova relação entre as pessoas")
+            if not fato:
+                continue
+            vistos.add(chave)
+            out.append({"nome": "socio_ligado", "fato": fato, "valor": f["total"], "fonte_url": URL_CAND,
+                        "contraparte": _contraparte(cnpj, f, rec)})
+    return out
+
+
+def multicampanha(sq, contas, fornecedores, agregados, cfg):
+    minimo = cfg["multicampanha_min"]
+    out = []
+    for cnpj, f in _fornecedores_pj(contas):
+        agr = (agregados.get("por_cnpj") or {}).get(cnpj)
+        if not agr or agr["n_campanhas"] < minimo:
+            continue
+        out.append({
+            "nome": "multicampanha",
+            "fato": f"Fornecedor de {agr['n_campanhas']} campanhas em 2026 (o painel destaca a partir de {minimo})",
+            "valor": agr["n_campanhas"],
+            "fonte_url": URL_CONTAS,
+            "contraparte": _contraparte(cnpj, f, fornecedores.get(cnpj) or {}),
+        })
+    return out
+
+
+def situacao_irregular(sq, contas, fornecedores, cfg, data_base=None):
+    irregulares = {s.upper() for s in cfg["situacoes_irregulares"]}
+    base = f" (base de {data_base})" if data_base else ""
+    out = []
+    for cnpj, f in _fornecedores_pj(contas):
+        rec = fornecedores.get(cnpj) or {}
+        sit = (rec.get("situacao") or "").upper()
+        if sit not in irregulares:
+            continue
+        out.append({
+            "nome": "situacao_irregular",
+            "fato": f"Situação cadastral na Receita: {sit}{base}",
+            "valor": f["total"],
+            "fonte_url": FONTE_RECEITA,
+            "contraparte": _contraparte(cnpj, f, rec),
+        })
+    return out
+
+
+def concentracao(sq, contas, fornecedores, cfg):
+    total = ((contas or {}).get("despesas") or {}).get("total_contratado")
+    limite = cfg["concentracao_pct"]
+    if not total or total <= 0:
+        return []  # sem base não há percentual: cala
+    out = []
+    for cnpj, f in _fornecedores_pj(contas):
+        if f["total"] * 100 <= limite * total:
+            continue
+        pct = round(f["total"] * 100 / total, 1)
+        out.append({
+            "nome": "concentracao",
+            "fato": (f"Concentra {str(pct).replace('.', ',')}% do total contratado pela campanha "
+                     f"({brl(f['total'])} de {brl(total)}); o painel destaca acima de {limite}%"),
+            "valor": pct,
+            "fonte_url": URL_CONTAS,
+            "contraparte": _contraparte(cnpj, f, fornecedores.get(cnpj) or {}),
+        })
+    return out
+
+
+def endereco_compartilhado(sq, contas, fornecedores, cfg):
+    """Fornecedores da mesma campanha com o mesmo endereço na Receita. O endereço não sai (de MEI pode ser a casa)."""
+    grupos = {}
+    for cnpj, f in _fornecedores_pj(contas):
+        chave = (fornecedores.get(cnpj) or {}).get("endereco_chave")
+        if chave:
+            grupos.setdefault(chave, []).append((cnpj, f))
+    out = []
+    for membros in grupos.values():
+        if len(membros) < cfg["endereco_min_fornecedores"]:
+            continue
+        for cnpj, f in membros:
+            rec = fornecedores.get(cnpj) or {}
+            outros = [_contraparte(c, g, fornecedores.get(c) or {}) for c, g in membros if c != cnpj]
+            out.append({
+                "nome": "endereco_compartilhado",
+                "fato": f"Mesmo endereço cadastrado na Receita que outro(s) fornecedor(es) da campanha: {'; '.join(outros)}",
+                "valor": f["total"],
+                "fonte_url": FONTE_RECEITA,
+                "contraparte": _contraparte(cnpj, f, rec),
+            })
+    return out
+
+
+def calcular(sq, contas, fornecedores, agregados, doadores_hash, cfg, cnae_x_tipo, idx=None,
+             candidatos=None, idx_cand=None, data_base=None):
+    """Itens dos nove indicadores de um eleito; doadores_hash=None pula o socio_doador, candidatos=None o socio_ligado."""
     itens = (mei_acima_teto(sq, contas, fornecedores, agregados, cfg)
              + empresa_recem_aberta(sq, contas, fornecedores, cfg)
              + atividade_incompativel(sq, contas, fornecedores, cnae_x_tipo))
     if doadores_hash is not None:
         itens += socio_doador(sq, contas, fornecedores, doadores_hash, idx)
-    return itens
+    if candidatos is not None:
+        itens += socio_ligado(sq, contas, fornecedores, candidatos, cfg, idx_cand)
+    return (itens + multicampanha(sq, contas, fornecedores, agregados, cfg)
+            + situacao_irregular(sq, contas, fornecedores, cfg, data_base)
+            + concentracao(sq, contas, fornecedores, cfg)
+            + endereco_compartilhado(sq, contas, fornecedores, cfg))
 
 
-def gerar(dir_contas, fornecedores_path, agregados_path, hash_path, cfg, saida, cnae_x_tipo=None):
+def gerar(dir_contas, fornecedores_path, agregados_path, hash_path, cfg, saida, cnae_x_tipo=None,
+          candidatos_path=CANDIDATOS):
     cnae_x_tipo = cnae_x_tipo if cnae_x_tipo is not None else ler_json(CNAE_X_TIPO)
     env = ler_json(fornecedores_path)
     fornecedores = env["fornecedores"]
@@ -180,15 +326,22 @@ def gerar(dir_contas, fornecedores_path, agregados_path, hash_path, cfg, saida, 
     else:
         doadores_hash = None
         log.warning("sem %s: socio_doador pulado", hash_path)
+    if Path(candidatos_path).exists():
+        candidatos = ler_json(candidatos_path)
+    else:
+        candidatos = None
+        log.warning("sem %s: socio_ligado pulado", candidatos_path)
     idx = indice_doadores(doadores_hash) if doadores_hash is not None else None  # uma vez, não por eleito
+    idx_cand = indice_candidatos(candidatos) if candidatos is not None else None
     res = {}
     for arq in sorted(Path(dir_contas).glob("*.json")):
         contas = ler_json(arq)
         sq = str(contas.get("sq") or arq.stem)
-        itens = calcular(sq, contas, fornecedores, agregados, doadores_hash, cfg, cnae_x_tipo, idx)
+        itens = calcular(sq, contas, fornecedores, agregados, doadores_hash, cfg, cnae_x_tipo, idx,
+                         candidatos, idx_cand, env.get("data_base"))
         if itens:
             res[sq] = itens
-    fonte = [FONTE_RECEITA, URL_CONTAS]
+    fonte = [FONTE_RECEITA, URL_CONTAS, URL_CAND]
     for e in (env, agregados):
         for u in e.get("fonte") or []:
             if u not in fonte:

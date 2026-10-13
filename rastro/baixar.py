@@ -14,7 +14,8 @@ BASE = "https://cdn.tse.jus.br/estatistica/sead/odsele"
 URL_CONTAS = f"{BASE}/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
 URL_DESPESA_DOC = f"{BASE}/prestacao_contas/despesa_documento_2026.zip"
 # extrato bancário: URL no CDN ainda não achada (extrato_bancario_2026.zip dá 404); entra quando a Issue que o usa a confirmar
-ARQUIVOS = [URL_CONTAS, URL_DESPESA_DOC]
+URL_CAND = f"{BASE}/consulta_cand/consulta_cand_2026.zip"
+ARQUIVOS = [URL_CONTAS, URL_DESPESA_DOC, URL_CAND]
 UA = "eleicoes-2026-painel/1.0 (dados abertos; github.com/vitoropereira/vitorpereira.ia.br-eleicoes)"
 DIA_APURACAO = date(2026, 10, 25)
 

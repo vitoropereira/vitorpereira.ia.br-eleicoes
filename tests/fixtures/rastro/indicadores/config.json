@@ -4,5 +4,11 @@
  "mei_teto_url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm",
  "campanha_inicio": "2026-08-16",
  "campanha_inicio_fonte": "Calendário eleitoral 2026 (Res. TSE): início da propaganda e da campanha em 16/08",
- "recem_aberta_dias": 365
+ "recem_aberta_dias": 365,
+ "multicampanha_min": 5,
+ "concentracao_pct": 50,
+ "endereco_min_fornecedores": 2,
+ "situacoes_irregulares": ["BAIXADA", "INAPTA", "SUSPENSA", "NULA"],
+ "sobrenome_particulas": ["DA", "DE", "DO", "DAS", "DOS", "E", "DI", "DU", "VAN", "VON"],
+ "sobrenomes_comuns": ["SILVA", "SANTOS", "OLIVEIRA", "SOUZA", "SOUSA", "RODRIGUES", "FERREIRA", "ALVES", "PEREIRA", "LIMA", "GOMES", "COSTA", "RIBEIRO", "MARTINS", "CARVALHO", "ALMEIDA", "LOPES", "SOARES", "FERNANDES", "VIEIRA", "BARBOSA", "ROCHA", "DIAS", "NASCIMENTO", "ANDRADE", "MOREIRA", "NUNES", "MARQUES", "MACHADO", "MENDES", "FREITAS", "CARDOSO", "RAMOS", "GONCALVES", "SANTANA", "TEIXEIRA", "JUNIOR", "FILHO", "NETO", "SOBRINHO"]
 }

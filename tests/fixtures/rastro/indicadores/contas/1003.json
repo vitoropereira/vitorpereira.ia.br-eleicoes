@@ -1,0 +1,13 @@
+{
+ "sq": "1003", "nome_urna": "FICTICIO TRES", "cargo": "depest", "uf": "AC", "partido": "PSD",
+ "prestacao_parcial": true, "receitas": null,
+ "despesas": {
+  "total_contratado": 1000, "total_pago": 400,
+  "fornecedores_pj": [
+   {"cnpj": "10101010000191", "nome": "EMPRESA BAIXADA LTDA", "cnae": "47440", "n_despesas": 1, "tipos": ["Serviços prestados por terceiros"], "total": 600.0},
+   {"cnpj": "20202020000191", "nome": "MEI INAPTO", "cnae": "47440", "n_despesas": 1, "tipos": ["Serviços prestados por terceiros"], "total": 300.0},
+   {"cnpj": "30303030000191", "nome": "EMPRESA ATIVA LTDA", "cnae": "47440", "n_despesas": 1, "tipos": ["Serviços prestados por terceiros"], "total": 100.0}
+  ],
+  "fornecedores_pf": {"qtd": 0, "total": 0, "por_tipo": {}}
+ }
+}
