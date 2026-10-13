@@ -1,0 +1,144 @@
+{
+ "sq": "190002533420",
+ "nome_urna": "MÁRCIO GUALBERTO",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 631695.25,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 2924.0,
+   "Recursos de outros candidatos": 180596.25,
+   "Recursos de partido político": 401325.0,
+   "Recursos de pessoas físicas": 46850.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 581921.25,
+   "OUTROS RECURSOS": 49774.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 400000.0
+   },
+   {
+    "cnpj": "68237275000187",
+    "nome": "CHRISTINE NOGUEIRA DOS REIS TONIETTO",
+    "total": 107868.98
+   },
+   {
+    "cnpj": "68470280000135",
+    "nome": "DOUGLAS RUAS DOS SANTOS",
+    "total": 72727.27
+   },
+   {
+    "cnpj": "34490640000149",
+    "nome": "GMT TECNOLOGIA LTDA",
+    "total": 2924.0
+   },
+   {
+    "cnpj": "08703299000152",
+    "nome": "Direção Estadual/Distrital - PL - RIO DE JANEIRO",
+    "total": 1325.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 29,
+   "total": 46850.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 260283.6,
+  "total_pago": 326705.96,
+  "fornecedores_pj": [
+   {
+    "cnpj": "07319470000161",
+    "nome": "V B AMORIM SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 13,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 56760.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 9050.0
+   },
+   {
+    "cnpj": "17549354000192",
+    "nome": "ESUBLIMACAO CONFECCAO E PERSONALIZACAO LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "42990193000115",
+    "nome": "BRADCAST PRODUTORA AUDIOVISUAL LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 350.0
+   },
+   {
+    "cnpj": "02553357000122",
+    "nome": "POSTO DE GASOLINA MARECHAL DE BANGU LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 78.8
+   },
+   {
+    "cnpj": "34490640000149",
+    "nome": "GMT TECNOLOGIA LTDA",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 62.71
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 99,
+   "total": 192882.09,
+   "por_tipo": {
+    "Despesas com pessoal": 180430.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 52.09,
+    "Locação/cessão de bens imóveis": 6400.0,
+    "Serviços advocatícios": 6000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

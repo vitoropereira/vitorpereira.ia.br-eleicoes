@@ -1,0 +1,115 @@
+{
+ "sq": "190002550489",
+ "nome_urna": "MARCELO QUEIROZ",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PSDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1662201.84,
+  "por_origem": {
+   "Recursos de partido político": 1264701.84,
+   "Recursos de pessoas físicas": 81000.0,
+   "Recursos próprios": 316500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1264701.84,
+   "OUTROS RECURSOS": 397500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "03653474000120",
+    "nome": "Direção Nacional - PSDB",
+    "total": 1260000.0
+   },
+   {
+    "cnpj": "32080483000178",
+    "nome": "Direção Estadual/Distrital - PSDB - RIO DE JANEIRO",
+    "total": 4701.84
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 397500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1244901.69,
+  "total_pago": 1213804.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 13,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 617000.0
+   },
+   {
+    "cnpj": "19339433000102",
+    "nome": "LAURO RABHA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "08383586000122",
+    "nome": "VELOPRINT GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27050.0
+   },
+   {
+    "cnpj": "41605776000112",
+    "nome": "JOREAL CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 21500.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "03582702000119",
+    "nome": "NEW PAYOLO COMERCIAL E DISTRIBUIDORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 11,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11166.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 247,
+   "total": 518185.69,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 517969.69,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 216.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,184 @@
+{
+ "sq": "60002541558",
+ "nome_urna": "EMILIA PESSOA",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "PSDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 723500.0,
+  "por_origem": {
+   "Recursos de partido político": 660000.0,
+   "Recursos de pessoas físicas": 27500.0,
+   "Recursos próprios": 36000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 660000.0,
+   "OUTROS RECURSOS": 63500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "03653474000120",
+    "nome": "Direção Nacional - PSDB",
+    "total": 660000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 63500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 359884.68,
+  "total_pago": 123671.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "32075292000118",
+    "nome": "AGENCIA PIC MKT LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 115000.0
+   },
+   {
+    "cnpj": "05633505000107",
+    "nome": "GESTAO CONTABIL ASSOCIADOS S/S LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "15030206000131",
+    "nome": "MAX ESTAMPARIA DIGITAL E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12150.0
+   },
+   {
+    "cnpj": "50599955000185",
+    "nome": "CAUCAIA LOCACOES LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 11600.0
+   },
+   {
+    "cnpj": "08295710000106",
+    "nome": "PERICO LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "47672713000165",
+    "nome": "FRANCISCO MARCIO VIANA OLIVEIRA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "00563915000105",
+    "nome": "FABIANO PEREIRA DE OLIVEIRA LTDA",
+    "cnae": "37029",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "04011639000123",
+    "nome": "PRINT SOLUCOES GRAFICAS E EVENTOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2875.0
+   },
+   {
+    "cnpj": "14650163000124",
+    "nome": "PRIME INDUSTRIA GRAFICA LTDA",
+    "cnae": "17311",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2600.0
+   },
+   {
+    "cnpj": "55405389000147",
+    "nome": "J V MOURA TINTAS DIGITAIS LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2244.0
+   },
+   {
+    "cnpj": "21240998000171",
+    "nome": "MARLOC MARITIMA LOCACOES LTDA",
+    "cnae": "77322",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1080.0
+   },
+   {
+    "cnpj": "02947220000152",
+    "nome": "POSTO ESTRUTURANTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 862.08
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 118,
+   "total": 137373.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 82820.0,
+    "Cessão ou locação de veículos": 10000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 17.1,
+    "Locação/cessão de bens imóveis": 8000.0,
+    "Serviços advocatícios": 10000.0,
+    "Serviços prestados por terceiros": 26536.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

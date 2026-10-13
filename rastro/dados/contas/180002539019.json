@@ -1,0 +1,149 @@
+{
+ "sq": "180002539019",
+ "nome_urna": "ZÉ FERNANDO",
+ "cargo": "depest",
+ "uf": "PI",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1059600.0,
+  "por_origem": {
+   "Recursos de partido político": 1000000.0,
+   "Recursos de pessoas físicas": 34600.0,
+   "Recursos próprios": 25000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1000000.0,
+   "OUTROS RECURSOS": 59600.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 1000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 12,
+   "total": 59600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 497404.02,
+  "total_pago": 627560.8,
+  "fornecedores_pj": [
+   {
+    "cnpj": "55287984000125",
+    "nome": "ZIGSERVICE LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "07484108000146",
+    "nome": "PLUG PROPAGANDA MARKETING LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "10750754000112",
+    "nome": "GEORGIA NUNES ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "30632034000160",
+    "nome": "ZENITE GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 59000.0
+   },
+   {
+    "cnpj": "15570114000144",
+    "nome": "MS SERVICOS E TECNOLOGIA LTDA",
+    "cnae": "77110",
+    "n_despesas": 4,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 53900.0
+   },
+   {
+    "cnpj": "07789221000130",
+    "nome": "CRIATIVA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 27600.0
+   },
+   {
+    "cnpj": "15825827000101",
+    "nome": "M D G DIAS NEGREIROS",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16100.0
+   },
+   {
+    "cnpj": "14013576000106",
+    "nome": "ACERTE EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "62714298000159",
+    "nome": "LIDERA CONSULTORIA ELEITORAL E PARTIDARIA LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "08596605000107",
+    "nome": "POSTO HOMERO CASTELO BRANCO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 803.52
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 0.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

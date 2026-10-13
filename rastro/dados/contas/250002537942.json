@@ -1,0 +1,136 @@
+{
+ "sq": "250002537942",
+ "nome_urna": "MARCOS PEREIRA",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2861857.81,
+  "por_origem": {
+   "Recursos de partido político": 2856857.81,
+   "Recursos de pessoas físicas": 5000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 830000.0,
+   "FUNDO PARTIDARIO": 626857.81,
+   "OUTROS RECURSOS": 1405000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 2800000.0
+   },
+   {
+    "cnpj": "07794600000118",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - SÃO PAULO",
+    "total": 56857.81
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 5000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1624846.3,
+  "total_pago": 963573.7,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "35256150000145",
+    "nome": "PRINT CENARIOS E SOLUCOES EM COMUNICACAO VISUAL LTDA",
+    "cnae": "31012",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 70450.0
+   },
+   {
+    "cnpj": "25185787000134",
+    "nome": "GBC EDIT PRINTER LTDA",
+    "cnae": "58115",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 28900.0
+   },
+   {
+    "cnpj": "09413342000108",
+    "nome": "PONTODIGITAL SERVICOS GRAFICOS LTDA",
+    "cnae": "58298",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25712.0
+   },
+   {
+    "cnpj": "65693427000168",
+    "nome": "SHIFTWORKS TECNOLOGIA E MARKETING DO BRASIL LTDA",
+    "cnae": "62023",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "13644863000143",
+    "nome": "MIDAS COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4044.0
+   },
+   {
+    "cnpj": "12338078000108",
+    "nome": "VIVA STAR COMUNICACAO VISUAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "09481634000188",
+    "nome": "QUALIFICADOS BRASIL EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 666,
+   "total": 1382240.3,
+   "por_tipo": {
+    "Despesas com pessoal": 1382000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 240.3
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,108 @@
+{
+ "sq": "10002545231",
+ "nome_urna": "SOCORRO NERI",
+ "cargo": "depfed",
+ "uf": "AC",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3176000.0,
+  "por_origem": {
+   "Recursos de partido político": 3176000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3176000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 3176000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 393000.5,
+  "total_pago": 93050.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "00529581000153",
+    "nome": "AUTO POSTO AMAPA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "02787053000120",
+    "nome": "ACRE PUBLICIDADE LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "06906483000174",
+    "nome": "POSTO VILLAGE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "34800935000174",
+    "nome": "PROGRESSO COMERCIO DE COMBUSTIVEIS E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "15504352000151",
+    "nome": "OK REFRIGERACAO YH PECAS E SERVICOS LTDA",
+    "cnae": "33147",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 15000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 8,
+   "total": 119000.5,
+   "por_tipo": {
+    "Despesa com Impulsionamento de Conteúdos": 75000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5,
+    "Locação/cessão de bens imóveis": 44000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

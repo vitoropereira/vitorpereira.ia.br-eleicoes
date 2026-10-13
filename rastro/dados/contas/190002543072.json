@@ -1,0 +1,153 @@
+{
+ "sq": "190002543072",
+ "nome_urna": "DIEGO QUAQUA",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1015500.0,
+  "por_origem": {
+   "Recursos de partido político": 929500.0,
+   "Recursos de pessoas físicas": 86000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 929500.0,
+   "OUTROS RECURSOS": 86000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 929500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 23,
+   "total": 86000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 628429.59,
+  "total_pago": 180575.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "07319470000161",
+    "nome": "V B AMORIM SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 81,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 110145.0
+   },
+   {
+    "cnpj": "22144107000146",
+    "nome": "DAMIAN SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "27295473000110",
+    "nome": "SISTEMA MARILA DE COMUNICACAO LTDA",
+    "cnae": "60101",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "08243128000198",
+    "nome": "NEGUINHO DA BEIJA FLOR PRODUCOES E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "26642855000100",
+    "nome": "CASTRO, VIEIRA E FERREIRA CONTADORES ELEITORAIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "21921129000102",
+    "nome": "HORIZONTE 16 LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "10326168000145",
+    "nome": "GLOBAL IMOVEIS CONSULTORIA E SERVICOS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "04626001000105",
+    "nome": "OUT VISION SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3960.0
+   },
+   {
+    "cnpj": "29837374000148",
+    "nome": "ESPORTE CLUBE MARICA",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "31678086000130",
+    "nome": "AUTO POSTO MARGUI II LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1074.59
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 266,
+   "total": 348750.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 36000.0,
+    "Despesas com pessoal": 281000.0,
+    "Despesas com transporte ou deslocamento": 15000.0,
+    "Locação/cessão de bens imóveis": 15750.0,
+    "Produção de jingles, vinhetas e slogans": 1000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

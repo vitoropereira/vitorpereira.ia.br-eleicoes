@@ -1,0 +1,333 @@
+{
+ "sq": "180002533192",
+ "nome_urna": "WILSON MARTINS",
+ "cargo": "depfed",
+ "uf": "PI",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1519266.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 41516.0,
+   "Recursos de partido político": 1375000.0,
+   "Recursos de pessoas físicas": 21500.0,
+   "Recursos próprios": 81250.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1375000.0,
+   "OUTROS RECURSOS": 144266.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 1375000.0
+   },
+   {
+    "cnpj": "68238024000117",
+    "nome": "RAFAEL TAJRA FONTELES",
+    "total": 33516.0
+   },
+   {
+    "cnpj": "68306321000152",
+    "nome": "MARCELO COSTA E CASTRO",
+    "total": 8000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 102750.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 453270.17,
+  "total_pago": 1218567.64,
+  "fornecedores_pj": [
+   {
+    "cnpj": "03015691000195",
+    "nome": "GUIMARAES AMORIM - ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 90000.0
+   },
+   {
+    "cnpj": "35540195000147",
+    "nome": "SITUA TECNOLOGIA LTDA",
+    "cnae": "62040",
+    "n_despesas": 3,
+    "tipos": [
+     "Serviços prestados por terceiros",
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 89490.0
+   },
+   {
+    "cnpj": "58682743000179",
+    "nome": "ARAUJO E ALMEIDA ASSESSORIA CONTABIL-FINANCEIRA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "01818672000171",
+    "nome": "HUBCOM BRASIL LTDA",
+    "cnae": "85996",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura",
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 28752.0
+   },
+   {
+    "cnpj": "55809095000180",
+    "nome": "FLEX SERVICO GRAFICO LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27579.0
+   },
+   {
+    "cnpj": "43998257000197",
+    "nome": "LUUCA SOLUCOES CRIATIVAS LTDA",
+    "cnae": "74102",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23250.0
+   },
+   {
+    "cnpj": "04202993000135",
+    "nome": "GRAFICA DO POVO LTDA",
+    "cnae": "58212",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13200.0
+   },
+   {
+    "cnpj": "65502019000181",
+    "nome": "65.502.019 NEUSA MARIA DE MELO VALADARES",
+    "cnae": "80200",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 10500.0
+   },
+   {
+    "cnpj": "48685249000104",
+    "nome": "M DA C SOUSA PAPELARIA LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10400.0
+   },
+   {
+    "cnpj": "43615405000147",
+    "nome": "V N MARTINS JUNIOR LOCACAO E TRANSPORTES",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "05685823000111",
+    "nome": "RESTAURANTE O GALDENCIO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 6504.0
+   },
+   {
+    "cnpj": "08596605000107",
+    "nome": "POSTO HOMERO CASTELO BRANCO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5630.71
+   },
+   {
+    "cnpj": "06685663000173",
+    "nome": "BRITO E GADELHA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "45951080000107",
+    "nome": "QSN EMPREENDIMENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 5350.0
+   },
+   {
+    "cnpj": "25204667000137",
+    "nome": "MARIA ELENILSA MOURA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2460.0
+   },
+   {
+    "cnpj": "36307133000152",
+    "nome": "BUFFALO EXPRESS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1950.0
+   },
+   {
+    "cnpj": "52027649000108",
+    "nome": "J L EMPREENDIMENTOS LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1875.0
+   },
+   {
+    "cnpj": "46470703000184",
+    "nome": "SERRA DA CAPIVARA HOTEL RESORT E CONVENTION SPE LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 748.65
+   },
+   {
+    "cnpj": "05521307000151",
+    "nome": "URUCUI DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 533.05
+   },
+   {
+    "cnpj": "31838128002015",
+    "nome": "DISTRIBUICAO DE ALIMENTOS VANGUARDA S/A",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 524.35
+   },
+   {
+    "cnpj": "10330389000782",
+    "nome": "COMERCIAL AGRICOLA SUSSUAPARA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 518.78
+   },
+   {
+    "cnpj": "26070671000112",
+    "nome": "POSTO SANTA ISABEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 480.03
+   },
+   {
+    "cnpj": "07483266000181",
+    "nome": "PIPEL-PICOS PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 333.23
+   },
+   {
+    "cnpj": "07397345000170",
+    "nome": "CASTRO OLIVEIRA IMPRESSOES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 260.0
+   },
+   {
+    "cnpj": "12504332000192",
+    "nome": "POSTO MAIS PARNAIBA AEROPORTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 255.35
+   },
+   {
+    "cnpj": "19334593000231",
+    "nome": "PAPELARIA DO ESTUDANTE LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 13.02
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 8,
+   "total": 28163.0,
+   "por_tipo": {
+    "Despesas com pessoal": 28152.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 11.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

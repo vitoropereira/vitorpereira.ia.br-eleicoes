@@ -1,0 +1,114 @@
+{
+ "sq": "50002532564",
+ "nome_urna": "JURAILTON SANTOS",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 187016.91,
+  "por_origem": {
+   "Recursos de partido político": 187016.91
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 100000.0,
+   "FUNDO PARTIDARIO": 87016.91
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "08666672000142",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - BAHIA",
+    "total": 87016.91
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 109089.3,
+  "total_pago": 105740.01,
+  "fornecedores_pj": [
+   {
+    "cnpj": "07556546000172",
+    "nome": "PRESSGRAF IMPORTACAO TECNOLOGIA E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 40930.0
+   },
+   {
+    "cnpj": "04821551000177",
+    "nome": "SPEED WAY - LOCADORA DE AUTOMOVEIS LTDA.",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8820.0
+   },
+   {
+    "cnpj": "01855960000104",
+    "nome": "MEGA POSTO BERIMBAU LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 8072.3
+   },
+   {
+    "cnpj": "00254564000150",
+    "nome": "CONSUPORTE LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6860.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "66279235000172",
+    "nome": "HANZEL PRODUCOES E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2900.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 14,
+   "total": 38007.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 27000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 7.0,
+    "Serviços prestados por terceiros": 11000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

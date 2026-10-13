@@ -1,0 +1,217 @@
+{
+ "sq": "190002539658",
+ "nome_urna": "MARCOS TAVARES",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PDT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3000000.0,
+  "por_origem": {
+   "Recursos de partido político": 3000000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2000000.0,
+   "FUNDO PARTIDARIO": 1000000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00719575000169",
+    "nome": "Direção Nacional - PDT",
+    "total": 3000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2926072.89,
+  "total_pago": 2022730.42,
+  "fornecedores_pj": [
+   {
+    "cnpj": "68461777000197",
+    "nome": "RODRIGO OLIVEIRA DA SILVA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 83000.0
+   },
+   {
+    "cnpj": "57211679000185",
+    "nome": "DDA AGENCIA DE TURISMO E SERVICOS LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 78400.0
+   },
+   {
+    "cnpj": "60594659000145",
+    "nome": "DE SOUZA TOUR LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "29973826000119",
+    "nome": "A NOSSA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 49500.0
+   },
+   {
+    "cnpj": "37762922000146",
+    "nome": "FERREIRA CONSULTORIA DE NEGOCIOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 15,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 39575.0
+   },
+   {
+    "cnpj": "52318404000121",
+    "nome": "ANC TURISMO E TRANSPORTES LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 36300.0
+   },
+   {
+    "cnpj": "19753199000157",
+    "nome": "POWER PRINT GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 31060.0
+   },
+   {
+    "cnpj": "44448899000185",
+    "nome": "FACTOR COMUNICACAO VISUAL LTDA",
+    "cnae": "61108",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30600.0
+   },
+   {
+    "cnpj": "08243128000198",
+    "nome": "NEGUINHO DA BEIJA FLOR PRODUCOES E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "59505525000121",
+    "nome": "ESFERA ATITUDE COMUNICACAO VISUAL LTDA",
+    "cnae": "63992",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 28980.0
+   },
+   {
+    "cnpj": "42293385000172",
+    "nome": "CJ EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10300.0
+   },
+   {
+    "cnpj": "54205276000135",
+    "nome": "CLAROS SERVICOS EVENTOS LTDA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 9300.0
+   },
+   {
+    "cnpj": "66183397000102",
+    "nome": "66.183.397 LAURA CAMOES ZAGO GONCALVES",
+    "cnae": "56121",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 6960.0
+   },
+   {
+    "cnpj": "03582702000119",
+    "nome": "NEW PAYOLO COMERCIAL E DISTRIBUIDORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "43283811011518",
+    "nome": "KALUNGA SA",
+    "cnae": "47610",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar",
+     "Materiais de expediente"
+    ],
+    "total": 626.8
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1019,
+   "total": 2377471.09,
+   "por_tipo": {
+    "Alimentação": 382.67,
+    "Atividades de militância e mobilização de rua": 2241257.42,
+    "Cessão ou locação de veículos": 110600.0,
+    "Despesas com pessoal": 4920.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 147.0,
+    "Locação/cessão de bens imóveis": 15000.0,
+    "Serviços contábeis": 5000.0,
+    "Água": 164.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

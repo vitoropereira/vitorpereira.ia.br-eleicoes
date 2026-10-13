@@ -1,0 +1,109 @@
+{
+ "sq": "50002535085",
+ "nome_urna": "SOLDADO PRISCO",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 200000.0,
+  "por_origem": {
+   "Recursos de partido político": 200000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 200000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 199965.82,
+  "total_pago": 199965.82,
+  "fornecedores_pj": [
+   {
+    "cnpj": "06973730000155",
+    "nome": "IDEIA ATIVA COMERCIO DE BRINDES LTDA",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 52000.0
+   },
+   {
+    "cnpj": "38658705000173",
+    "nome": "LILIAN REIS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "53721430000169",
+    "nome": "LP CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "13522337000100",
+    "nome": "ARTFILL COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24770.0
+   },
+   {
+    "cnpj": "68305261000153",
+    "nome": "68.305.261 JUREMA NASCIMENTO SOUZA PARANA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9540.0
+   },
+   {
+    "cnpj": "67011639000143",
+    "nome": "67.011.639 DEIJA NAIR LEMOS DA SILVA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4305.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 9,
+   "total": 19350.82,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 7560.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 6.0,
+    "Locação/cessão de bens imóveis": 5005.0,
+    "Serviços prestados por terceiros": 6779.82
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

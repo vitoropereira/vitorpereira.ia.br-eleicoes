@@ -1,0 +1,235 @@
+{
+ "sq": "130002542079",
+ "nome_urna": "ANDERSON LIMA",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 938498.3,
+  "por_origem": {
+   "Recursos de partido político": 609998.3,
+   "Recursos de pessoas físicas": 328500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 550000.0,
+   "OUTROS RECURSOS": 388498.3
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 560000.0
+   },
+   {
+    "cnpj": "08691904000112",
+    "nome": "Direção Estadual/Distrital - PL - MINAS GERAIS",
+    "total": 49998.3
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 328500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 299165.64,
+  "total_pago": 481680.01,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "56005830000166",
+    "nome": "CONECTA CONSULTORIA E NEGOCIOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 3,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30800.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 29056.45
+   },
+   {
+    "cnpj": "09296927000195",
+    "nome": "RICOCHETE PUBLICIDADE E PROPAGANDA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 11500.0
+   },
+   {
+    "cnpj": "54984458000151",
+    "nome": "RTA UNIFORMES E BORDADOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "12841373000174",
+    "nome": "GRAFICA PAMPULHA LTDA.",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6265.0
+   },
+   {
+    "cnpj": "10893077000191",
+    "nome": "AUTO POSTO 9 COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "25370172000188",
+    "nome": "SISTEMA ADMINISTRACAO DE IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "10515531000170",
+    "nome": "CHURRASCARIA PIM GRILL LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 3733.8
+   },
+   {
+    "cnpj": "15261163000103",
+    "nome": "GRAFICA E EDITORA PRINT SERVICE LTDA",
+    "cnae": "58212",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "26042099000188",
+    "nome": "LUCIANO PEREIRA PIRES",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "06156783000183",
+    "nome": "LAURENCE SEVERINO VILELA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "54903982000150",
+    "nome": "GVS DECOR LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1169.0
+   },
+   {
+    "cnpj": "15414225000161",
+    "nome": "15.414.225 FERNANDO ARANTES BARBOSA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "54155928000174",
+    "nome": "IMPACTAR PROMOTORIA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "66744845000108",
+    "nome": "66.744.845 JAMILTON GABRIEL DANY CURCINO",
+    "cnae": "77217",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "17479182000128",
+    "nome": "MAURO MARCIO GUIMARAES",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "21232859000104",
+    "nome": "21.232.859 ALYA VILAS BOAS",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 300.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 18,
+   "total": 137641.39,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 18642.86,
+    "Locação/cessão de bens imóveis": 69500.0,
+    "Serviços prestados por terceiros": 49498.53
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

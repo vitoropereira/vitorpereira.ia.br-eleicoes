@@ -1,0 +1,330 @@
+{
+ "sq": "190002540157",
+ "nome_urna": "RENAN FERREIRINHA",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2851788.44,
+  "por_origem": {
+   "Recursos de partido político": 1506788.44,
+   "Recursos de pessoas físicas": 1345000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1500000.0,
+   "FUNDO PARTIDARIO": 2.32,
+   "OUTROS RECURSOS": 1351786.12
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 1500000.0
+   },
+   {
+    "cnpj": "14705221000170",
+    "nome": "Direção Estadual/Distrital - PSD - RIO DE JANEIRO",
+    "total": 6788.44
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 55,
+   "total": 1345000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2355407.23,
+  "total_pago": 2253664.25,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 510000.0
+   },
+   {
+    "cnpj": "28660364000117",
+    "nome": "M I L COMUNICACAO E EVENTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 128,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 284891.8
+   },
+   {
+    "cnpj": "43326751000105",
+    "nome": "DOHA BRASIL SOLUCOES LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "41808835000150",
+    "nome": "2D TRANSPORTES LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 63700.0
+   },
+   {
+    "cnpj": "66753982000109",
+    "nome": "PRIME DESCARTAVEIS DE SAO GONCALO LTDA",
+    "cnae": "47598",
+    "n_despesas": 8,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 44774.0
+   },
+   {
+    "cnpj": "36260269000154",
+    "nome": "CAR SERVICE LOGISTICA E EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 42750.0
+   },
+   {
+    "cnpj": "33550944000191",
+    "nome": "GALOC SERVICOS LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 19000.0
+   },
+   {
+    "cnpj": "23412180000114",
+    "nome": "EXACT INDUSTRIA E SERVICOS DE EMBALAGENS E ROTULOS LTDA",
+    "cnae": "17311",
+    "n_despesas": 12,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 17079.0
+   },
+   {
+    "cnpj": "10572619000124",
+    "nome": "GRAF ONE GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15680.0
+   },
+   {
+    "cnpj": "32578668000107",
+    "nome": "CCC EMPREENDIMENTOS E PARTICIPACOES LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "02265602000104",
+    "nome": "IMPRICAR ETIQUETAS DO BRASIL LTDA",
+    "cnae": "47610",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 12690.0
+   },
+   {
+    "cnpj": "07590525000173",
+    "nome": "VILELA, MIRANDA E AGUIAR FERNANDES ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "05033125000131",
+    "nome": "W COLOR EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "26734660000190",
+    "nome": "JRP GRAFICA E EDITORA LTDA",
+    "cnae": "58298",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2111.0
+   },
+   {
+    "cnpj": "25091669000167",
+    "nome": "M+4 SOLUCOES VISUAIS LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2070.0
+   },
+   {
+    "cnpj": "05058322000105",
+    "nome": "POSTO MODELO JMLBG LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 363.24
+   },
+   {
+    "cnpj": "02944029000157",
+    "nome": "J.P.X COMBUSTIVEIS E CONVENIENCIAS - BARRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 267.68
+   },
+   {
+    "cnpj": "01315468000138",
+    "nome": "POSTO DE GASOLINA JOCKEY RIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 242.06
+   },
+   {
+    "cnpj": "33381724000181",
+    "nome": "POSTO DE LUBRIFICACAO SAO PEDRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 236.31
+   },
+   {
+    "cnpj": "07877289000170",
+    "nome": "POSTO MANE GARRINCHA DE BOTAFOGO LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 216.0
+   },
+   {
+    "cnpj": "47976306000141",
+    "nome": "AUTO POSTO DE COMBUSTIVEL PENHA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 206.06
+   },
+   {
+    "cnpj": "03797684000192",
+    "nome": "AUTO POSTO CEDRO DO LIBANO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 177.21
+   },
+   {
+    "cnpj": "33062134000196",
+    "nome": "POSTO SILOMAR DE COMBUSTIVEIS E ACESSORIOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 169.83
+   },
+   {
+    "cnpj": "02373202000104",
+    "nome": "GOLDEN GREEN AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 101.53
+   },
+   {
+    "cnpj": "26722414000118",
+    "nome": "POSTO DE ABASTECIMENTO ARCANJO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 87.56
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 398,
+   "total": 1120593.95,
+   "por_tipo": {
+    "Despesas com pessoal": 1118734.05,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1859.9
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

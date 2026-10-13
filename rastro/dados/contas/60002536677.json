@@ -1,0 +1,197 @@
+{
+ "sq": "60002536677",
+ "nome_urna": "JEOVÁ MOTA",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 477547.94,
+  "por_origem": {
+   "Recursos de partido político": 259547.94,
+   "Recursos de pessoas físicas": 188000.0,
+   "Recursos próprios": 30000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 259547.94,
+   "OUTROS RECURSOS": 218000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 259547.94
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 13,
+   "total": 218000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 288576.8,
+  "total_pago": 390323.91,
+  "fornecedores_pj": [
+   {
+    "cnpj": "02933302000148",
+    "nome": "QUALIGRAF - EDITORA E GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 15,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 66605.0
+   },
+   {
+    "cnpj": "45635946000162",
+    "nome": "DFL SERVICOS, ASSESSORIA E CONSULTORIA LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "47397291000167",
+    "nome": "HUGO V M COUTINHO",
+    "cnae": "47814",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25020.0
+   },
+   {
+    "cnpj": "04549133000172",
+    "nome": "SOLUTION ASSESSORIA, PLANEJAMENTO E SERVICOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "40379215000180",
+    "nome": "ANTONIO NIVALDO GOMES MORORO JUNIOR - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "00474292000102",
+    "nome": "FENIX LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "01139126000104",
+    "nome": "ARTBAN COMERCIO SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14500.0
+   },
+   {
+    "cnpj": "49929345000113",
+    "nome": "TX3 PARTICIPACOES LTDA.",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "23460132000100",
+    "nome": "TIPOGRAFIA ARTEGRAFICA LTDA",
+    "cnae": "18121",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9485.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "12207798000126",
+    "nome": "J. F PERES LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6080.0
+   },
+   {
+    "cnpj": "35419312000119",
+    "nome": "35.419.312 GERALDO ADAMS SILVA DA COSTA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5150.0
+   },
+   {
+    "cnpj": "04459123000227",
+    "nome": "FALPEL COMERCIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1467.04
+   },
+   {
+    "cnpj": "07040108000157",
+    "nome": "COMPANHIA DE AGUA E ESGOTO DO CEARA CAGECE",
+    "cnae": "36006",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 1.76
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 13,
+   "total": 41268.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 10800.0,
+    "Cessão ou locação de veículos": 15000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 468.0,
+    "Locação/cessão de bens imóveis": 1000.0,
+    "Produção de jingles, vinhetas e slogans": 10000.0,
+    "Serviços prestados por terceiros": 4000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

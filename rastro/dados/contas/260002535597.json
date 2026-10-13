@@ -1,0 +1,171 @@
+{
+ "sq": "260002535597",
+ "nome_urna": "ANA LUIZA",
+ "cargo": "depest",
+ "uf": "SE",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 326941.76,
+  "por_origem": {
+   "Recursos de outros candidatos": 16441.76,
+   "Recursos de partido político": 300000.0,
+   "Recursos de pessoas físicas": 5500.0,
+   "Recursos próprios": 5000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 316441.76,
+   "OUTROS RECURSOS": 10500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 300000.0
+   },
+   {
+    "cnpj": "68258354000174",
+    "nome": "JOSE THIAGO ALVES DE CARVALHO",
+    "total": 16441.76
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 10500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 288407.0,
+  "total_pago": 118582.25,
+  "fornecedores_pj": [
+   {
+    "cnpj": "58495205000175",
+    "nome": "D H INDUSTRIA E COMERCIO LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "32381223000132",
+    "nome": "32.381.223 JUVENAL ALVES DOS SANTOS",
+    "cnae": "14134",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19500.0
+   },
+   {
+    "cnpj": "13293335000197",
+    "nome": "GONZALEZ IMOBILIARIA LTDA.",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "13007646000142",
+    "nome": "GRAFICA EDITORA J ANDRADE LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14850.0
+   },
+   {
+    "cnpj": "38381602000109",
+    "nome": "FF CONSULTORIA CONTABIL E SOLUCOES FINANCEIRAS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "69108600000174",
+    "nome": "MARIA EDUARDA RIBEIRO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "08942738000180",
+    "nome": "MT SIGNS COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "13255732000174",
+    "nome": "ASSOCIACAO RURAL DE ESTANCIA",
+    "cnae": "94936",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "32864795000172",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 510.0
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 75,
+   "total": 181507.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 106986.0,
+    "Cessão ou locação de veículos": 10000.0,
+    "Despesas com pessoal": 24521.0,
+    "Despesas com transporte ou deslocamento": 38500.0,
+    "Locação/cessão de bens imóveis": 1500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

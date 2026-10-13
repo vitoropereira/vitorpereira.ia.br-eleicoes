@@ -1,0 +1,178 @@
+{
+ "sq": "130002535320",
+ "nome_urna": "ADRIANA SOUZA",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 822605.56,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 7255.13,
+   "Recursos de outros candidatos": 43504.14,
+   "Recursos de partido político": 678014.29,
+   "Recursos de pessoas físicas": 93832.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 711518.43,
+   "OUTROS RECURSOS": 111087.13
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 638014.29
+   },
+   {
+    "cnpj": "68345483000108",
+    "nome": "ROGERIO CORREIA DE MOURA BAPTISTA",
+    "total": 41350.0
+   },
+   {
+    "cnpj": "54956495000156",
+    "nome": "Direção Nacional - PCDOB",
+    "total": 40000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 7255.13
+   },
+   {
+    "cnpj": "68344820000134",
+    "nome": "WADSON NATHANIEL RIBEIRO",
+    "total": 1136.14
+   },
+   {
+    "cnpj": "68345152000160",
+    "nome": "PEDRO FARAH ROUSSEFF",
+    "total": 1018.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 61,
+   "total": 93832.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 242104.6,
+  "total_pago": 172725.42,
+  "fornecedores_pj": [
+   {
+    "cnpj": "51512640000111",
+    "nome": "ANDREIA LEMOS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 35500.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 16600.0
+   },
+   {
+    "cnpj": "27114942000157",
+    "nome": "PATRICONT LEGALIZA - CONTABILIDADE E CORRETORA DE SEGUROS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "21933742000140",
+    "nome": "COMUNICASOM PROMOCOES LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "01338388000106",
+    "nome": "RAJA RENT A CAR S/A",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6640.0
+   },
+   {
+    "cnpj": "48993222000189",
+    "nome": "48.993.222 PAULO WILHAN OLIVEIRA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "07723260000134",
+    "nome": "ALICERCE EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "21648654000104",
+    "nome": "BOA ESPERANCA PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1086.03
+   },
+   {
+    "cnpj": "22317550000171",
+    "nome": "M DESIGNER CITY LTDA",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 810.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 210.07
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 67,
+   "total": 153658.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 15500.0,
+    "Despesas com pessoal": 123150.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 8.5,
+    "Locação/cessão de bens imóveis": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

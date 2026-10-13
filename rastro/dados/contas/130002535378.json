@@ -1,0 +1,187 @@
+{
+ "sq": "130002535378",
+ "nome_urna": "MÁRIO HENRIQUE CAIXA",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PV",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 613987.0,
+  "por_origem": {
+   "Recursos de partido político": 284987.0,
+   "Recursos de pessoas físicas": 203000.0,
+   "Recursos próprios": 126000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "OUTROS RECURSOS": 413987.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "31886963000168",
+    "nome": "Direção Nacional - PV",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "25467358000150",
+    "nome": "Direção Estadual/Distrital - PV - MINAS GERAIS",
+    "total": 84987.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 329000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 304146.7,
+  "total_pago": 152453.98,
+  "fornecedores_pj": [
+   {
+    "cnpj": "17577230000110",
+    "nome": "OCEANO IMOVEIS LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 46307.33
+   },
+   {
+    "cnpj": "01338388000106",
+    "nome": "RAJA RENT A CAR S/A",
+    "cnae": "77110",
+    "n_despesas": 6,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 33552.72
+   },
+   {
+    "cnpj": "01995938000151",
+    "nome": "GRAFICA E EDITORA PAGINA 12 LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26620.0
+   },
+   {
+    "cnpj": "16589145000100",
+    "nome": "BELO GRAFICA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "46771164000113",
+    "nome": "RABBIT SPORTS COMERCIO ESPORTIVOS LTDA",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20240.0
+   },
+   {
+    "cnpj": "64204416000104",
+    "nome": "GMP PUBLICIDADE E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8500.0
+   },
+   {
+    "cnpj": "58011136000187",
+    "nome": "MGC TELECOM LTDA",
+    "cnae": "95126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 5486.0
+   },
+   {
+    "cnpj": "08226621000108",
+    "nome": "GRAFICA E EDITORA 1 PAGINA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5100.0
+   },
+   {
+    "cnpj": "22045447000381",
+    "nome": "TROLEZ MARINHO COMERCIO VAREJISTA E COMUNICACAO VISUAL LTDA",
+    "cnae": "46494",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "38499661000186",
+    "nome": "COMERCIO DE MOVEIS CARVALHO E MASCARENHAS LTDA",
+    "cnae": "47547",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "29171619000140",
+    "nome": "IMPLANTAR TELECOM SOCIEDADE LIMITADA",
+    "cnae": "61108",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2003.46
+   },
+   {
+    "cnpj": "06981180000116",
+    "nome": "CEMIG DISTRIBUICAO S.A",
+    "cnae": "35140",
+    "n_despesas": 1,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 801.09
+   },
+   {
+    "cnpj": "14338304000178",
+    "nome": "VINDI PAGAMENTOS S/A",
+    "cnae": "66193",
+    "n_despesas": 2,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 103.1
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 85,
+   "total": 123433.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 116520.0,
+    "Diversas a especificar": 1620.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 13.0,
+    "Locação/cessão de bens imóveis": 5280.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

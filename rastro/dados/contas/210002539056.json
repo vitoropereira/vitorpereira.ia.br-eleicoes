@@ -1,0 +1,164 @@
+{
+ "sq": "210002539056",
+ "nome_urna": "ELIZANDRO SABINO",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 554500.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 250000.0,
+   "Recursos de partido político": 280000.0,
+   "Recursos de pessoas físicas": 24500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 500000.0,
+   "FUNDO PARTIDARIO": 30000.0,
+   "OUTROS RECURSOS": 24500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 250000.0
+   },
+   {
+    "cnpj": "68379754000138",
+    "nome": "RONALDO NOGUEIRA DE OLIVEIRA",
+    "total": 250000.0
+   },
+   {
+    "cnpj": "07919379000187",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - RIO GRANDE DO SUL",
+    "total": 30000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 24500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 458703.6,
+  "total_pago": 445963.6,
+  "fornecedores_pj": [
+   {
+    "cnpj": "01851020000139",
+    "nome": "FASTER AGENCIA DE CORREIOS FRANQUEADA LTDA",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 35141.6
+   },
+   {
+    "cnpj": "22820956000172",
+    "nome": "FABIO P. DA SILVEIRA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 15700.0
+   },
+   {
+    "cnpj": "93439313000121",
+    "nome": "GRAFICA R J R LTDA",
+    "cnae": "58298",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11790.0
+   },
+   {
+    "cnpj": "28011062000118",
+    "nome": "TECHNIK BRASIL LTDA",
+    "cnae": "77217",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 10700.0
+   },
+   {
+    "cnpj": "15115234000151",
+    "nome": "SPEED PROMOCIONAL INDUSTRIA DE BRINDES LTDA",
+    "cnae": "32990",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 6965.0
+   },
+   {
+    "cnpj": "92784537000108",
+    "nome": "PREDIAL E ADMINISTRADORA HOTEIS PLAZA S A",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "12213827000162",
+    "nome": "BRAIAN FIORI",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2750.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "50121012000142",
+    "nome": "50.121.012 NELSON LUIS FIORI",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "08335652000199",
+    "nome": "LAPA MUSICA LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 900.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 100,
+   "total": 365757.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 356200.0,
+    "Diversas a especificar": 1000.0,
+    "Locação/cessão de bens imóveis": 5557.0,
+    "Serviços advocatícios": 1000.0,
+    "Serviços contábeis": 2000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

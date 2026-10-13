@@ -1,0 +1,354 @@
+{
+ "sq": "210002535671",
+ "nome_urna": "PROFESSOR CLÁUDIO BRANCHIERI",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1312036.63,
+  "por_origem": {
+   "Fundo Especial de Financiamento de Campanha": 36.63,
+   "Recursos de outros candidatos": 14000.0,
+   "Recursos de partido político": 1270000.0,
+   "Recursos de pessoas físicas": 28000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1284000.0,
+   "OUTROS RECURSOS": 28036.63
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1270000.0
+   },
+   {
+    "cnpj": "68312534000197",
+    "nome": "MAURICIO BEDIN MARCON",
+    "total": 14000.0
+   },
+   {
+    "cnpj": "68345608000191",
+    "nome": "CLAUDIO MAXIMILIANO BRANCHIERI",
+    "total": 36.63
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 28000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 937219.8,
+  "total_pago": 986925.37,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "05476664000145",
+    "nome": "CROMO GRAFICA E EDITORA LTDA",
+    "cnae": "17419",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 81350.0
+   },
+   {
+    "cnpj": "67025051000149",
+    "nome": "67.025.051 LUIS CESAR SCHULZ VIEIRA",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 39120.0
+   },
+   {
+    "cnpj": "21352229000165",
+    "nome": "WSW - WAIMER STACHLESKI SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "39492142000159",
+    "nome": "BP EDUCACAO E CONSULTORIA LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "64549540000101",
+    "nome": "DANIEL ISAC VICENTE ANTONIO DE CASTRO GONCALVES LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 20500.0
+   },
+   {
+    "cnpj": "68312534000197",
+    "nome": "MAURICIO BEDIN MARCON",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "90828401000127",
+    "nome": "GUAIBA SERVICOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "90312810000176",
+    "nome": "CORRETORA DE IMOVEIS CAXIAS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 18500.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "63142156000127",
+    "nome": "63.142.156 DEISE DE ALMEIDA MODESTO MORAIS",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "13844156000109",
+    "nome": "1000 IMPRESSOES NH LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14280.0
+   },
+   {
+    "cnpj": "14371887000139",
+    "nome": "J.M PASTECHAK TRANSPORTES LTDA",
+    "cnae": "49299",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 10050.0
+   },
+   {
+    "cnpj": "14976214000102",
+    "nome": "PKR TRANSPORTES LTDA",
+    "cnae": "49302",
+    "n_despesas": 5,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 8920.99
+   },
+   {
+    "cnpj": "52009992000111",
+    "nome": "52.009.992 ROSANGELA MACHADO PRADELLA",
+    "cnae": "49302",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 7050.0
+   },
+   {
+    "cnpj": "39439030000134",
+    "nome": "CLAUDIA SCHENKEL IMOVEIS LTDA.",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "03000720000145",
+    "nome": "LOCADORA DE VEICULOS SANTA CRUZ LTDA.",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 1754.13
+   },
+   {
+    "cnpj": "15741373000190",
+    "nome": "Direção Municipal/Comissão Provisória - PL - VERANÓPOLIS - RS",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "44158932000132",
+    "nome": "LIMA JORNALISMO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1450.0
+   },
+   {
+    "cnpj": "09278399000141",
+    "nome": "G2NETSUL LTDA",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1318.8
+   },
+   {
+    "cnpj": "07011546000197",
+    "nome": "AUTO POSTO ZM LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1291.51
+   },
+   {
+    "cnpj": "04845316000135",
+    "nome": "ALBACORA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1220.75
+   },
+   {
+    "cnpj": "11650935000130",
+    "nome": "MATHEUS MELLO ALENCASTRO",
+    "cnae": "95118",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "17866594000110",
+    "nome": "GIONGUES RESTAURANTE BUFFET LTDA.",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 896.0
+   },
+   {
+    "cnpj": "17661809000167",
+    "nome": "RULER PROPAGANDA E MARKETING LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "10952719000186",
+    "nome": "WANG COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "09474128000161",
+    "nome": "G.S.Z. COMERCIO DE SUPRIMENTOS PARA INFORMATICA LTDA",
+    "cnae": "47512",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 388.65
+   },
+   {
+    "cnpj": "00687144000168",
+    "nome": "GUAIBATEX INDUSTRIA E COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 350.0
+   },
+   {
+    "cnpj": "47815827000117",
+    "nome": "CAMINHOS DA SERRA GAUCHA S.A.",
+    "cnae": "52214",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 285.27
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 141,
+   "total": 391193.7,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 284235.0,
+    "Cessão ou locação de veículos": 4900.0,
+    "Despesas com pessoal": 101650.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 408.7
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

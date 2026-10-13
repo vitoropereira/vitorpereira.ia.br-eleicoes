@@ -1,0 +1,201 @@
+{
+ "sq": "250002544341",
+ "nome_urna": "DELEGADO BRUNO LIMA",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2623000.0,
+  "por_origem": {
+   "Recursos de partido político": 2500000.0,
+   "Recursos de pessoas físicas": 90000.0,
+   "Recursos próprios": 33000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2500000.0,
+   "OUTROS RECURSOS": 123000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 2500000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 123000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1260272.29,
+  "total_pago": 1048110.54,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 29,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 852000.0
+   },
+   {
+    "cnpj": "27122380000193",
+    "nome": "MARELLA ROLLO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "09259403000124",
+    "nome": "ANCROLIS COMERCIO DO VESTUARIO LTDA",
+    "cnae": "47814",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 36700.0
+   },
+   {
+    "cnpj": "09375165000112",
+    "nome": "JTN ASSESSORIA E PLANEJAMENTO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "35281038000164",
+    "nome": "LA2 EMPREENDIMENTOS E PARTICIPACOES SOCIETARIAS LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "13767889000189",
+    "nome": "BIS GRAFICA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8625.0
+   },
+   {
+    "cnpj": "28680448000112",
+    "nome": "PANFLETAGEM CAMPINAS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 7917.0
+   },
+   {
+    "cnpj": "06318207000195",
+    "nome": "NACIONAL LOCACAO DE MOVEIS E EQUIPAMENTOS PARA EVENTOS LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 6758.0
+   },
+   {
+    "cnpj": "29320261000170",
+    "nome": "MADRI LABEL ROTULOS ADESIVOS LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6500.0
+   },
+   {
+    "cnpj": "21314559000166",
+    "nome": "MOVIDA PARTICIPACOES S.A.",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6443.79
+   },
+   {
+    "cnpj": "27314163000103",
+    "nome": "MAYARA SILVESTRE DA SILVA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5335.0
+   },
+   {
+    "cnpj": "17922086000102",
+    "nome": "CORREIO DIGITAL TECNOLOGIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4225.0
+   },
+   {
+    "cnpj": "58328758000800",
+    "nome": "TELELOK LTDA",
+    "cnae": "77292",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1992.0
+   },
+   {
+    "cnpj": "13235477000106",
+    "nome": "FESTIVA LOCACOES E FESTAS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1763.96
+   },
+   {
+    "cnpj": "40481100000100",
+    "nome": "ENF DISTRIBUIDORA DE EMBALAGENS E ACESSORIOS PARA LIMPEZA LTDA.",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1510.3
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 94,
+   "total": 242502.24,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 200004.68,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 897.56,
+    "Locação/cessão de bens imóveis": 41600.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,267 @@
+{
+ "sq": "250002541861",
+ "nome_urna": "DANILO CAMPETTI",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 877247.42,
+  "por_origem": {
+   "Recursos de partido político": 493997.42,
+   "Recursos de pessoas físicas": 383250.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 150000.0,
+   "FUNDO PARTIDARIO": 343997.42,
+   "OUTROS RECURSOS": 383250.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07794600000118",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - SÃO PAULO",
+    "total": 343997.42
+   },
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 150000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 383250.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 904019.0,
+  "total_pago": 476949.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 112500.0
+   },
+   {
+    "cnpj": "08288515000140",
+    "nome": "GRAFICA E EDITORA REVELACAO LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 110000.0
+   },
+   {
+    "cnpj": "38329411000106",
+    "nome": "MENDES E MOTTA PRODUCOES LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 67500.0
+   },
+   {
+    "cnpj": "33600921000144",
+    "nome": "ASTT AGENCIA SERVICOS TURISMO E TRANSPORTES LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "23350933000104",
+    "nome": "GDS PRINTS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "19307395000106",
+    "nome": "RODOVIARIO NOSSA SENHORA DA PENHA LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 37500.0
+   },
+   {
+    "cnpj": "10479861000158",
+    "nome": "SERV-RIO TERCEIRIZACAO E SERVICOS LTDA",
+    "cnae": "81214",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 19800.0
+   },
+   {
+    "cnpj": "72960669000136",
+    "nome": "ASSARY CLUBE DE CAMPO",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 16210.0
+   },
+   {
+    "cnpj": "53311751000195",
+    "nome": "VILALVA EVENTOS VOTUPORANGA LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "39291525000169",
+    "nome": "ERNESTO ASSESSORIA E CONSULTORIA LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "40727065000158",
+    "nome": "HENRIQUE AUGUSTO DE MARCHI",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "65693427000168",
+    "nome": "SHIFTWORKS TECNOLOGIA E MARKETING DO BRASIL LTDA",
+    "cnae": "62023",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6700.0
+   },
+   {
+    "cnpj": "50346682000167",
+    "nome": "BRK PARTICIPACOES E EMPREENDIMENTOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "10569261000180",
+    "nome": "ALEXANDRE SANTELLO SOBREIRA LOCACOES",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "05114524000127",
+    "nome": "FORTPAR PARTICIPACOES LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "15537055000102",
+    "nome": "EDVALDO PEREIRA DA SILVA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2505.0
+   },
+   {
+    "cnpj": "04173230000103",
+    "nome": "04.173.230 CLOVIS DE SOUZA MELO",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "49193138000143",
+    "nome": "49.193.138 NAYARA LOURENCO BONGANHA CALENTE",
+    "cnae": "58123",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2360.0
+   },
+   {
+    "cnpj": "08617586000140",
+    "nome": "PERVIVERE PARTICIPACOES LTDA.",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1900.0
+   },
+   {
+    "cnpj": "37483212000187",
+    "nome": "37.483.212 CARLOS GABRIEL CARDOSO",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 650.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 128,
+   "total": 320394.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 18000.0,
+    "Despesas com pessoal": 293434.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 60.0,
+    "Locação/cessão de bens imóveis": 8900.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

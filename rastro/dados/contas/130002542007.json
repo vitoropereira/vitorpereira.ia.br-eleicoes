@@ -1,0 +1,499 @@
+{
+ "sq": "130002542007",
+ "nome_urna": "EROS BIONDINI",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3150960.87,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 987.0,
+   "Recursos de partido político": 3013893.2,
+   "Recursos de pessoas físicas": 136080.67
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2590000.0,
+   "FUNDO PARTIDARIO": 200000.0,
+   "OUTROS RECURSOS": 360960.87
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2790000.0
+   },
+   {
+    "cnpj": "08691904000112",
+    "nome": "Direção Estadual/Distrital - PL - MINAS GERAIS",
+    "total": 223893.2
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 987.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 45,
+   "total": 136080.67
+  }
+ },
+ "despesas": {
+  "total_contratado": 2543409.75,
+  "total_pago": 2588340.8,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 29,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 520000.0
+   },
+   {
+    "cnpj": "64204416000104",
+    "nome": "GMP PUBLICIDADE E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 13,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 329700.0
+   },
+   {
+    "cnpj": "66354457000102",
+    "nome": "VIDEO 1 E SELOS POSTAIS LTDA",
+    "cnae": "53105",
+    "n_despesas": 8,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 246575.92
+   },
+   {
+    "cnpj": "71056089000156",
+    "nome": "CENTERGRAF SERVICOS GRAFICOS LTDA",
+    "cnae": "58298",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 149800.0
+   },
+   {
+    "cnpj": "65179624000163",
+    "nome": "BELLI SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "42888115000104",
+    "nome": "A EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 12,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 45515.0
+   },
+   {
+    "cnpj": "43638702000108",
+    "nome": "PORTAL MIDIA ONLINE LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "43271608000163",
+    "nome": "BUZINA COMUNICACAO VISUAL LTDA",
+    "cnae": "18229",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12400.0
+   },
+   {
+    "cnpj": "41717591000108",
+    "nome": "HK CONTENT MARKETING E COMUNICACAO LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "17968553000135",
+    "nome": "JR COMERCIO E PRESTACAO DE SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 49,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 11068.26
+   },
+   {
+    "cnpj": "04363102000122",
+    "nome": "FERREIRA JUNIOR CONSULTORIA DE IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8202.58
+   },
+   {
+    "cnpj": "00961694000123",
+    "nome": "VOGA COMUNICACAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 7470.0
+   },
+   {
+    "cnpj": "56088195000128",
+    "nome": "ATTIVITA IMOVEIS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "45765362000101",
+    "nome": "45.765.362 FELIPE AUGUSTO SANTOS DOLABELLA",
+    "cnae": "63992",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 5900.0
+   },
+   {
+    "cnpj": "66752227000100",
+    "nome": "66.752.227 GUILHERME BORGES DOS SANTOS",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5900.0
+   },
+   {
+    "cnpj": "04318334000169",
+    "nome": "SUPER CANAL LTDA",
+    "cnae": "61418",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "41088096000179",
+    "nome": "CARRARO NEWS PRODUCOES E EVENTOS LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "04309564000161",
+    "nome": "ESTRELA LOGISTICA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4200.0
+   },
+   {
+    "cnpj": "08228010000786",
+    "nome": "PORT DISTRIBUIDORA DE INFORMATICA E PAPELARIA LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3599.4
+   },
+   {
+    "cnpj": "07475524000188",
+    "nome": "VALOR LOCACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3489.23
+   },
+   {
+    "cnpj": "10765796000127",
+    "nome": "PONTO NORTE EMPRESA JORNALISTICA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2600.0
+   },
+   {
+    "cnpj": "11120602000107",
+    "nome": "LIVIO BARBOSA CAMPOS",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "14293669000123",
+    "nome": "ESTRELA LOCACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "38499661000186",
+    "nome": "COMERCIO DE MOVEIS CARVALHO E MASCARENHAS LTDA",
+    "cnae": "47547",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2200.0
+   },
+   {
+    "cnpj": "13465047000172",
+    "nome": "13.465.047 RODRIGO BARBOSA DOS SANTOS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "22113708000191",
+    "nome": "RADIO CIDADE DE CARATINGA LTDA",
+    "cnae": "60101",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "20671709000126",
+    "nome": "A HIPERBOLE MARKETING DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1920.0
+   },
+   {
+    "cnpj": "03711624000105",
+    "nome": "DESIGN PROMOCOES PUBLICIDADES E RESPRESENTACOES LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "17440066000103",
+    "nome": "MAURO PIRES REPRESENTACOES LTDA",
+    "cnae": "46931",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "04910830000107",
+    "nome": "PARA COPIAS LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "25270202000184",
+    "nome": "VIDEO MIX PRODUTORA LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "01706798000154",
+    "nome": "MAGALHAES E OLIVEIRA LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 660.0
+   },
+   {
+    "cnpj": "04838578000172",
+    "nome": "AUTO POSTO TENDA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 571.38
+   },
+   {
+    "cnpj": "17292129000113",
+    "nome": "IATE TENIS CLUBE",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "38640439000232",
+    "nome": "EMBOL LTDA",
+    "cnae": "46869",
+    "n_despesas": 6,
+    "tipos": [
+     "Diversas a especificar",
+     "Materiais de expediente"
+    ],
+    "total": 478.09
+   },
+   {
+    "cnpj": "05781815000179",
+    "nome": "FILIBRAS COMERCIAL IMPORTACAO E EXPORTACAO LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 450.0
+   },
+   {
+    "cnpj": "23957236000116",
+    "nome": "PORT PAPELARIA INFORMATICA E UTILIDADES LTDA.",
+    "cnae": "47610",
+    "n_despesas": 3,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 361.3
+   },
+   {
+    "cnpj": "36923301000134",
+    "nome": "POSTO DO IRMAO S.A.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "33967103000184",
+    "nome": "DEMERGE BRASIL PRESTADORA DE SERVICOS DE ATIVOS VIRTUAIS E PAGAMENTOS LTDA",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Criação e inclusão de páginas na internet",
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 180.87
+   },
+   {
+    "cnpj": "33916080000189",
+    "nome": "FLAITON VESPOLI LAR CONSTRUCAO",
+    "cnae": "46737",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 80.0
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 40.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 19.63
+   },
+   {
+    "cnpj": "04641376012061",
+    "nome": "SUPERMERCADOS BH COMERCIO DE ALIMENTOS S/A",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 4.48
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 556,
+   "total": 1022823.61,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 318595.4,
+    "Despesas com pessoal": 542073.0,
+    "Diversas a especificar": 246.71,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 608.5,
+    "Locação/cessão de bens imóveis": 101300.0,
+    "Serviços contábeis": 60000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

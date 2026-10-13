@@ -1,0 +1,201 @@
+{
+ "sq": "130002542753",
+ "nome_urna": "ZÉ GUILHERME",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1153798.77,
+  "por_origem": {
+   "Recursos de outros candidatos": 100000.0,
+   "Recursos de partido político": 1020000.0,
+   "Recursos de pessoas físicas": 33798.77
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 920000.0,
+   "FUNDO PARTIDARIO": 200000.0,
+   "OUTROS RECURSOS": 33798.77
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 820000.0
+   },
+   {
+    "cnpj": "46551837000120",
+    "nome": "Direção Municipal/Comissão Provisória - UNIÃO - MONTES CLAROS - MG",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "68468151000102",
+    "nome": "MARCELO EDUARDO FREITAS",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 33798.77
+  }
+ },
+ "despesas": {
+  "total_contratado": 169281.64,
+  "total_pago": 41192.36,
+  "fornecedores_pj": [
+   {
+    "cnpj": "19517051000113",
+    "nome": "GROSS PARTICIPACOES ADMINISTRACOES E EMPR. IMOB. LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "21652672000151",
+    "nome": "TARGET FROTAS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 25480.0
+   },
+   {
+    "cnpj": "34150252000119",
+    "nome": "FC COMUNICACAO EVENTOS LTDA",
+    "cnae": "93191",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "22188400000105",
+    "nome": "GO COMUNICACAO VISUAL LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 12500.0
+   },
+   {
+    "cnpj": "12419108000100",
+    "nome": "ARTES BH DIGITAL LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "05314713000143",
+    "nome": "SANTOS RODRIGUES ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "25146801000190",
+    "nome": "SMARTBPO CONTABILIDADE INTELIGENTE LTDA.",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "04389355000175",
+    "nome": "CASEMIRO DECOR LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 4981.7
+   },
+   {
+    "cnpj": "04727240000143",
+    "nome": "MAXIMO INFORMATICA LTDA",
+    "cnae": "77331",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 4600.0
+   },
+   {
+    "cnpj": "08223834000178",
+    "nome": "POSTO MONTE SANTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2824.28
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "17498163000149",
+    "nome": "DISTRIBUIDORA TRIANGULO LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1247.66
+   },
+   {
+    "cnpj": "57741176000111",
+    "nome": "DLSPORTS COMERCIO E ESTAMPARIA LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "64437759000119",
+    "nome": "PRIMUS EDITORA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 135.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 7,
+   "total": 35413.0,
+   "por_tipo": {
+    "Despesas com pessoal": 35400.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 13.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,213 @@
+{
+ "sq": "210002534020",
+ "nome_urna": "HALLEY",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 605719.08,
+  "por_origem": {
+   "Recursos de outros candidatos": 13675.0,
+   "Recursos de partido político": 265500.0,
+   "Recursos de pessoas físicas": 300544.08,
+   "Recursos próprios": 26000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 279175.0,
+   "OUTROS RECURSOS": 326544.08
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265500.0
+   },
+   {
+    "cnpj": "68306629000106",
+    "nome": "ANTONIO VALDECI OLIVEIRA DE OLIVEIRA",
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68306680000100",
+    "nome": "ALEXANDRE DUARTE LINDENMEYER",
+    "total": 3675.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 71,
+   "total": 326544.08
+  }
+ },
+ "despesas": {
+  "total_contratado": 460602.97,
+  "total_pago": 474477.97,
+  "fornecedores_pj": [
+   {
+    "cnpj": "52615251000184",
+    "nome": "52.615.251 LUCAS DA ROCHA PINHEIRO",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 37500.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 9,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 30435.0
+   },
+   {
+    "cnpj": "04284301000145",
+    "nome": "TW7 COMUNICACOES LTDA",
+    "cnae": "59111",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30400.0
+   },
+   {
+    "cnpj": "05963397000130",
+    "nome": "MIDIA PLUS RS LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "07528530000156",
+    "nome": "GRAFICA E EDITORA SAGRADA FAMILIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 15925.0
+   },
+   {
+    "cnpj": "50894599000122",
+    "nome": "FOLHA COMUNICACAO VISUAL LTDA",
+    "cnae": "58298",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12833.4
+   },
+   {
+    "cnpj": "68306704000120",
+    "nome": "KATIA CILENE DE QUADROS DUARTE",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "57220807000157",
+    "nome": "57.220.807 RAQUEL DE OLIVEIRA CAPELLA PIRES",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6500.0
+   },
+   {
+    "cnpj": "11593370000104",
+    "nome": "APRIMORE SERVICOS CONTABEIS LTDA.",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 6484.0
+   },
+   {
+    "cnpj": "88804513000104",
+    "nome": "KADU MALHAS COMERCIO DE ROUPAS LTDA",
+    "cnae": "47814",
+    "n_despesas": 4,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3806.3
+   },
+   {
+    "cnpj": "24018754000137",
+    "nome": "IMOBILIARIA SAPUCAIA LTDA.",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2844.4
+   },
+   {
+    "cnpj": "93489243000116",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2107.07
+   },
+   {
+    "cnpj": "02929989000148",
+    "nome": "LINDENMEYER ADVOCACIA ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 1621.0
+   },
+   {
+    "cnpj": "94350113000160",
+    "nome": "JOKA SUBLIMACAO DIGITAL LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 993.3
+   },
+   {
+    "cnpj": "54709342000104",
+    "nome": "54.709.342 JOAO GUILHERME ROCHEL PEREIRA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 900.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 71,
+   "total": 279253.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 185743.5,
+    "Despesas com pessoal": 77956.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 104.0,
+    "Locação/cessão de bens imóveis": 15450.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,468 @@
+{
+ "sq": "200002535722",
+ "nome_urna": "BENES LEOCÁDIO",
+ "cargo": "depfed",
+ "uf": "RN",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2974440.29,
+  "por_origem": {
+   "Recursos de partido político": 2899800.0,
+   "Recursos de pessoas físicas": 59640.29,
+   "Recursos próprios": 15000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2899800.0,
+   "OUTROS RECURSOS": 74640.29
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 2899800.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 12,
+   "total": 74640.29
+  }
+ },
+ "despesas": {
+  "total_contratado": 2697973.01,
+  "total_pago": 953897.28,
+  "fornecedores_pj": [
+   {
+    "cnpj": "23895214000179",
+    "nome": "JALES COSTA E GASPAR SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "12517664000101",
+    "nome": "SL CONTADORES ASSOCIADOS LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "27583473000115",
+    "nome": "PROMO SERVICE LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 170390.0
+   },
+   {
+    "cnpj": "31321080000100",
+    "nome": "UNIGRAFICA INDUSTRIA GRAFICA LTDA",
+    "cnae": "17311",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 84390.11
+   },
+   {
+    "cnpj": "39819570000143",
+    "nome": "JOZAILTON VICTOR CAVALCANTI DA SILVA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 65000.0
+   },
+   {
+    "cnpj": "21597589000127",
+    "nome": "J H N DE MELO LTDA",
+    "cnae": "78205",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 49500.0
+   },
+   {
+    "cnpj": "51234019000133",
+    "nome": "LEMOS SERVICOS COMERCIO LTDA",
+    "cnae": "82113",
+    "n_despesas": 4,
+    "tipos": [
+     "Cessão ou locação de veículos",
+     "Publicidade por carros de som"
+    ],
+    "total": 41000.0
+   },
+   {
+    "cnpj": "05043616000163",
+    "nome": "MATURAYA INVESTIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 32000.0
+   },
+   {
+    "cnpj": "09643897000146",
+    "nome": "ERO LOCACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "38372129000101",
+    "nome": "J LUIZ DE ANDRADE SANTOS",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "27997819000121",
+    "nome": "GRID COMUNICACAO VISUAL, SINALIZACAO E EVENTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "32304440000129",
+    "nome": "A DE O VIANA EDITORA E COMUNICACAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 12500.0
+   },
+   {
+    "cnpj": "03637347000138",
+    "nome": "L S COMERCIO E SERVICOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12210.0
+   },
+   {
+    "cnpj": "13205348000167",
+    "nome": "J. L. VIANA PINHEIRO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "31346019000118",
+    "nome": "GARAGEM AUDIOS E PRODUCOES DE SOM LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "54696231000100",
+    "nome": "IPAY PRINT - SERVICOS ADMINISTRATIVOS E MARKENTIG LTDA",
+    "cnae": "82911",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "15154378000117",
+    "nome": "M JOSILENE VALENTIM DE M IMPERIAL",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "04890770000108",
+    "nome": "INFOARTE LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "17458412000172",
+    "nome": "PANIFICADORA DELICIA DE PAO LTDA",
+    "cnae": "47211",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 3800.0
+   },
+   {
+    "cnpj": "17340447000102",
+    "nome": "MARICLEYDSON COSTA DA SILVA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "14936977000120",
+    "nome": "WANDERSON EDSON GUILHERME DO NASCIMENTO",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "08345698000199",
+    "nome": "M. B. COM. E DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1518.14
+   },
+   {
+    "cnpj": "18511647000143",
+    "nome": "GIBA SOM ILUMINACAO E SERVICOS DE ENGENHARIA ELETRICA LTDA",
+    "cnae": "71120",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "10975626000177",
+    "nome": "10.975.626 JAMERSON ROQUE DA COSTA",
+    "cnae": "77292",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar",
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 960.0
+   },
+   {
+    "cnpj": "24206617000550",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 833.63
+   },
+   {
+    "cnpj": "55044175000192",
+    "nome": "55.044.175 DOUGLAS CAUA CABRAL OLIVEIRA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "03201304000105",
+    "nome": "J. EDIELSON DO REGO",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "24206617001793",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 569.89
+   },
+   {
+    "cnpj": "08383127000149",
+    "nome": "G.BEZERRA DE QUEIROZ CIA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 567.81
+   },
+   {
+    "cnpj": "08547432000129",
+    "nome": "POSTO FREI DAMIAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 384.0
+   },
+   {
+    "cnpj": "08547432000803",
+    "nome": "POSTO FREI DAMIAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 361.48
+   },
+   {
+    "cnpj": "04839900000773",
+    "nome": "AUTO POSTO SAO TOME LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 344.75
+   },
+   {
+    "cnpj": "08547432000552",
+    "nome": "POSTO FREI DAMIAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 330.02
+   },
+   {
+    "cnpj": "08547432000390",
+    "nome": "POSTO FREI DAMIAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 219.19
+   },
+   {
+    "cnpj": "08547432001010",
+    "nome": "POSTO FREI DAMIAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 198.62
+   },
+   {
+    "cnpj": "24206617002846",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 197.95
+   },
+   {
+    "cnpj": "24206617000398",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 192.75
+   },
+   {
+    "cnpj": "24206617001289",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 180.02
+   },
+   {
+    "cnpj": "24206617001106",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 180.01
+   },
+   {
+    "cnpj": "08713513000151",
+    "nome": "CASA NORTE LTDA",
+    "cnae": "46419",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 17.92
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 149,
+   "total": 1602226.72,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 11500.0,
+    "Despesas com pessoal": 1555574.72,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.0,
+    "Locação/cessão de bens imóveis": 150.0,
+    "Publicidade por carros de som": 15000.0,
+    "Serviços prestados por terceiros": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

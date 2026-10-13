@@ -1,0 +1,191 @@
+{
+ "sq": "170002535174",
+ "nome_urna": "WANDERSON FLORENCIO",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 184955.2,
+  "por_origem": {
+   "Recursos de partido político": 150000.0,
+   "Recursos de pessoas físicas": 34955.2
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 150000.0,
+   "OUTROS RECURSOS": 34955.2
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "10882771000103",
+    "nome": "Direção Estadual/Distrital - PODE - PERNAMBUCO",
+    "total": 150000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 34955.2
+  }
+ },
+ "despesas": {
+  "total_contratado": 254440.0,
+  "total_pago": 123985.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "70220413000167",
+    "nome": "UTILGRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 51715.0
+   },
+   {
+    "cnpj": "33474270000193",
+    "nome": "A M. B. DE ARRUDA RIBEIRO INDUSTRIA E COMERCIO DE IMPRESSAO, ROTULOS E ETIQUETAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 49800.0
+   },
+   {
+    "cnpj": "09284110000105",
+    "nome": "JPN -GESTORA E ADMINISTRADORA DE BENS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "11038639000182",
+    "nome": "CONECTE SOLUCOES CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "65344873000167",
+    "nome": "MALHARIA SANTA MARIA LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8575.0
+   },
+   {
+    "cnpj": "66447778000151",
+    "nome": "JL PROMOCOES E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "11345668000197",
+    "nome": "11.345.668 LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5950.0
+   },
+   {
+    "cnpj": "44619551000103",
+    "nome": "CHAILLINE AZEVEDO ALVES",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "27994496000112",
+    "nome": "GRAFICA VIRTUAL COMUNICACAO LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2200.0
+   },
+   {
+    "cnpj": "32218967000130",
+    "nome": "JAMILSON JOAQUIM DA SILVA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "55787676000169",
+    "nome": "55.787.676 MARICLAUDIO LEAO DA SILVA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "12895133000152",
+    "nome": "FORMATO QUATRO GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "46348746000191",
+    "nome": "L. M. T. BANDEIRA SUCESSO SISTEMAS",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1445.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 28,
+   "total": 56655.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 24655.0,
+    "Cessão ou locação de veículos": 22000.0,
+    "Serviços advocatícios": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,241 @@
+{
+ "sq": "190002541060",
+ "nome_urna": "DR. LUIZINHO",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3117000.0,
+  "por_origem": {
+   "Recursos de partido político": 3000000.0,
+   "Recursos próprios": 117000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3000000.0,
+   "OUTROS RECURSOS": 117000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 3000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 117000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2084556.43,
+  "total_pago": 2668102.83,
+  "fornecedores_pj": [
+   {
+    "cnpj": "02265602000104",
+    "nome": "IMPRICAR ETIQUETAS DO BRASIL LTDA",
+    "cnae": "47610",
+    "n_despesas": 37,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 564665.0
+   },
+   {
+    "cnpj": "52668919000151",
+    "nome": "KOBA CINE E VI DE O LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 400000.0
+   },
+   {
+    "cnpj": "55176613000176",
+    "nome": "ANALITIK MARKETING INTEGRA DA E SOLUCOES DE NEGOCIOS LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 280000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "22144107000146",
+    "nome": "DAMIAN SOCIE DA DE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "55686336000141",
+    "nome": "VETOR ARROW INSTITUTO DE PESQUISA E OPINIAO LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "26642855000100",
+    "nome": "CASTRO, VIEIRA E FERREIRA CONTADORES ELEITORAIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "59505525000121",
+    "nome": "ESFERA ATITUDE COMUNICACAO VISUAL LTDA",
+    "cnae": "63992",
+    "n_despesas": 46,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 47340.0
+   },
+   {
+    "cnpj": "08243128000198",
+    "nome": "NEGUINHO DA BEIJA FLOR PRODUCOES E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "14437788000102",
+    "nome": "FLEX MARKETING DIRETO LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 29960.0
+   },
+   {
+    "cnpj": "30085071000103",
+    "nome": "NOVA FUTURA MIDIA EXTERIOR LTDA",
+    "cnae": "18130",
+    "n_despesas": 44,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 26170.0
+   },
+   {
+    "cnpj": "07402698000110",
+    "nome": "GRAFICA E EDITORA PRINCIPE DA PAZ LTDA EPP",
+    "cnae": "18130",
+    "n_despesas": 41,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24347.68
+   },
+   {
+    "cnpj": "28594826000145",
+    "nome": "ARQPRINT REPROGRAFIA LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 21350.0
+   },
+   {
+    "cnpj": "11221984000157",
+    "nome": "REI DOS BLINDADOS LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "46133897000122",
+    "nome": "FARLA INDUSTRIA E COMERCIO DE ARTIGOS DO VESTUARIO LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 9100.0
+   },
+   {
+    "cnpj": "41287250000131",
+    "nome": "OAZEM COMUNICACOES VISUAIS E REPRESENTACOES LTDA",
+    "cnae": "18130",
+    "n_despesas": 24,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6440.0
+   },
+   {
+    "cnpj": "12359362000152",
+    "nome": "BIROSGRAF - COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "00530512000160",
+    "nome": "VELOZ TRANSRIO TRANSPORTE LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "23412180000114",
+    "nome": "EXACT INDUSTRIA E SERVIÇOS DE EMBALAGENS E ROTULOS LTDA",
+    "cnae": "17311",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 835.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 29,
+   "total": 167348.75,
+   "por_tipo": {
+    "Despesas com pessoal": 58400.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2948.75,
+    "Locação/cessão de bens imóveis": 106000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,137 @@
+{
+ "sq": "190002543080",
+ "nome_urna": "ANIELLE FRANCO",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2084985.07,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 9123.0,
+   "Recursos de partido político": 1903362.07,
+   "Recursos de pessoas físicas": 172500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1903362.07,
+   "OUTROS RECURSOS": 181623.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1903362.07
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 9123.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 172500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1220984.45,
+  "total_pago": 617286.95,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "07446384000110",
+    "nome": "FAGUNDES ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "29825570000283",
+    "nome": "AA ASSESSORIA E LOCACAO LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 31500.0
+   },
+   {
+    "cnpj": "00971215000150",
+    "nome": "3 GRAPH GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30510.0
+   },
+   {
+    "cnpj": "23412180000114",
+    "nome": "EXACT INDUSTRIA E SERVIÇOS DE EMBALAGENS E ROTULOS LTDA",
+    "cnae": "17311",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "26642855000100",
+    "nome": "CASTRO, VIEIRA E FERREIRA CONTA DO RES ELEITORAIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "58059370000184",
+    "nome": "SENNA SERVICOS E PRODUCOES GRAFICAS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 201.95
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 353,
+   "total": 1024172.5,
+   "por_tipo": {
+    "Despesas com pessoal": 1020033.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 139.5,
+    "Locação/cessão de bens imóveis": 4000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

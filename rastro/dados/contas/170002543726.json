@@ -1,0 +1,137 @@
+{
+ "sq": "170002543726",
+ "nome_urna": "DANNILO GODOY",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 300000.0,
+  "por_origem": {
+   "Recursos de partido político": 300000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 300000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 300000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 136361.0,
+  "total_pago": 284300.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "36057946000131",
+    "nome": "I E DE LIMA JUNIOR SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 43000.0
+   },
+   {
+    "cnpj": "44619551000103",
+    "nome": "CHAILLINE AZEVEDO ALVES",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 35950.0
+   },
+   {
+    "cnpj": "39147868000154",
+    "nome": "CAAM - CONSULTORIA E ASSESSORIA EM ADMINISTRACAO MUNICIPAL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "48282327000120",
+    "nome": "IGOR FERRO RAMOS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "07246388000154",
+    "nome": "DJALMA JUNIOR DA SILVA BEZERRA EDITORA E GRAFICA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8500.0
+   },
+   {
+    "cnpj": "00758606000190",
+    "nome": "MXM GRAFICA E EMBALAGENS LTDA",
+    "cnae": "17311",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7350.0
+   },
+   {
+    "cnpj": "28628981000135",
+    "nome": "FERREIRA COLOR COMERCIO LTDA",
+    "cnae": "47890",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5440.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "07286919000132",
+    "nome": "R TAVARES DE BARROS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 1621.0,
+   "por_tipo": {
+    "Serviços prestados por terceiros": 1621.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

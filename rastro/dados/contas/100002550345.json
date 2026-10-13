@@ -1,0 +1,109 @@
+{
+ "sq": "100002550345",
+ "nome_urna": "PAULA PRATA",
+ "cargo": "depest",
+ "uf": "MA",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 368000.0,
+  "por_origem": {
+   "Recursos de partido político": 50000.0,
+   "Recursos de pessoas físicas": 308000.0,
+   "Recursos próprios": 10000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 50000.0,
+   "OUTROS RECURSOS": 318000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 50000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 318000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 66664.2,
+  "total_pago": 15000.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "17018931000110",
+    "nome": "AMORIM LIMA SOUZA AMORIM LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "19457793000109",
+    "nome": "K20 FILMES LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "32080975000163",
+    "nome": "EBENEZER CONSULTORIA E CONTROLADORIA LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "43773881000196",
+    "nome": "MARIANA HELUY - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "59039088000106",
+    "nome": "A S BEZERRA BANDEIRA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1800.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 11,
+   "total": 4864.2,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 4864.2
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

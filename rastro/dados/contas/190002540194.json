@@ -1,0 +1,179 @@
+{
+ "sq": "190002540194",
+ "nome_urna": "DANIEL SORANZ",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1926530.02,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 113422.88,
+   "Recursos de outros candidatos": 17492.5,
+   "Recursos de partido político": 1607014.64,
+   "Recursos de pessoas físicas": 188600.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1609580.0,
+   "OUTROS RECURSOS": 316950.02
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 1600000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 113422.88
+   },
+   {
+    "cnpj": "68411155000154",
+    "nome": "CLAUDIO SOBRAL DE CAIADO CASTRO JUNIOR",
+    "total": 17492.5
+   },
+   {
+    "cnpj": "14705221000170",
+    "nome": "Direção Estadual/Distrital - PSD - RIO DE JANEIRO",
+    "total": 7014.64
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 188600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1372192.45,
+  "total_pago": 558317.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 290000.0
+   },
+   {
+    "cnpj": "26263330000163",
+    "nome": "EDITORA E GRAFICA FM LTDA",
+    "cnae": "58123",
+    "n_despesas": 184,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 258538.57
+   },
+   {
+    "cnpj": "14029488000194",
+    "nome": "MM SOUZA SOM - LUZ - IMAGEM LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 66000.0
+   },
+   {
+    "cnpj": "26642855000100",
+    "nome": "CASTRO, VIEIRA E FERREIRA CONTA DO RES ELEITORAIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 36339.0
+   },
+   {
+    "cnpj": "19339433000102",
+    "nome": "LAURO RABHA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "26324978000100",
+    "nome": "BARRUFA TUR AGENCIA DE TURISMO E FRETAMENTO LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 33600.0
+   },
+   {
+    "cnpj": "05020843000173",
+    "nome": "TIRA E RETIRA GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "42609602000190",
+    "nome": "AUTO POSTO TRES PONTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 14,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5383.73
+   },
+   {
+    "cnpj": "03288051000159",
+    "nome": "EMPRESA JORNALISTICA O AMARELINHO NOTICIAS LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 5300.0
+   },
+   {
+    "cnpj": "53858063000140",
+    "nome": "GDAY PROJETOS E COMUNICACAO VISUAL LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3100.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 2152.08
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 329,
+   "total": 626779.07,
+   "por_tipo": {
+    "Despesas com pessoal": 616600.57,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 178.5,
+    "Locação/cessão de bens imóveis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

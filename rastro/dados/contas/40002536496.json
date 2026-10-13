@@ -1,0 +1,183 @@
+{
+ "sq": "40002536496",
+ "nome_urna": "MARCELO PALHANO",
+ "cargo": "depest",
+ "uf": "AM",
+ "partido": "AGIR",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 600337.66,
+  "por_origem": {
+   "Recursos de pessoas físicas": 478090.45,
+   "Recursos próprios": 122247.21
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 600337.66
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 97,
+   "total": 600337.66
+  }
+ },
+ "despesas": {
+  "total_contratado": 315673.71,
+  "total_pago": 475197.46,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 11,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "84010040001500",
+    "nome": "PIONEIRO COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 29666.88
+   },
+   {
+    "cnpj": "31679916000143",
+    "nome": "ISAAC MIRANDA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "10803637000170",
+    "nome": "J. FRANCISCO S. DE ARAUJO",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "62458170000171",
+    "nome": "WSA SERVICOS E COMERCIO DE INFORMATICA LTDA",
+    "cnae": "47512",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "27120873000194",
+    "nome": "ALEANDRO CLEYDSON GONCALVES DE SOUSA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "84110394000120",
+    "nome": "MUCURIPE COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "52486910000120",
+    "nome": "IMPERIAL LOCACAO DE MAQUINAS E EQUIPAMENTOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "06136794000100",
+    "nome": "E S DA CRUZ COMERCIO VAREJISTA DE ARTIGOS DE PAPELARIA LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 6250.0
+   },
+   {
+    "cnpj": "04259133000138",
+    "nome": "FORT COMERCIO DE BEBIDAS LTDA",
+    "cnae": "46354",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 4080.0
+   },
+   {
+    "cnpj": "37959549000118",
+    "nome": "37.959.549 JEAN WILLIAMS NUNES SOUZA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "29799291000101",
+    "nome": "SILMARIA DE SOUSA PORTELA QUEIROZ",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "07439885000179",
+    "nome": "V E INDUSTRIA COMERCIO E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "05437959000102",
+    "nome": "R P V DA AMAZONIA LTDA",
+    "cnae": "46478",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 250.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 117,
+   "total": 53326.83,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 47878.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 65.5,
+    "Serviços prestados por terceiros": 5383.33
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

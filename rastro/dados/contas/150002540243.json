@@ -1,0 +1,148 @@
+{
+ "sq": "150002540243",
+ "nome_urna": "CAMILA TOSCANO",
+ "cargo": "depest",
+ "uf": "PB",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 307150.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 3550.0,
+   "Recursos de partido político": 300000.0,
+   "Recursos próprios": 3600.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 300000.0,
+   "OUTROS RECURSOS": 7150.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 300000.0
+   },
+   {
+    "cnpj": "68491824000145",
+    "nome": "CICERO DE LUCENA FILHO",
+    "total": 3550.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 3600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 174002.63,
+  "total_pago": 194891.01,
+  "fornecedores_pj": [
+   {
+    "cnpj": "47333134000198",
+    "nome": "OPINIAO PESQUISAS QUANTITATIVAS E MARKETING LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "64356471000110",
+    "nome": "ANIMA ESTUDIO CRIATIVO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "50320908000150",
+    "nome": "NATHALI ROLIM SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "58594063000101",
+    "nome": "M GONCALVES NETO SERVICOS",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "14739140000190",
+    "nome": "ALPHA DESIGN LTDA",
+    "cnae": "32990",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 12515.0
+   },
+   {
+    "cnpj": "53863631000109",
+    "nome": "GRAFICA SUPERA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9800.0
+   },
+   {
+    "cnpj": "30985686000188",
+    "nome": "INK IMPRESSAO DE MATERIAL PUBLICITARIO, ENCADERNACAO E EDICAO DE CADASTROS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4400.0
+   },
+   {
+    "cnpj": "40393572000100",
+    "nome": "GEZELEY MAX RODRIGUES GOMES COMERCIO LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3980.0
+   },
+   {
+    "cnpj": "04933861000183",
+    "nome": "POSTO DE COMBUSTIVEIS FREI DAMIAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1305.13
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 4,
+   "total": 42002.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.5,
+    "Locação/cessão de bens imóveis": 2000.0,
+    "Publicidade por carros de som": 35000.0,
+    "Serviços próprios prestados por terceiros": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

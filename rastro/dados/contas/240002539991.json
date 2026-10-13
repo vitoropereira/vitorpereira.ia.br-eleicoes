@@ -1,0 +1,250 @@
+{
+ "sq": "240002539991",
+ "nome_urna": "SORGATTO",
+ "cargo": "depest",
+ "uf": "SC",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 565769.02,
+  "por_origem": {
+   "Recursos de outros candidatos": 75000.0,
+   "Recursos de partido político": 150000.0,
+   "Recursos de pessoas físicas": 213769.02,
+   "Recursos próprios": 127000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 225000.0,
+   "OUTROS RECURSOS": 340769.02
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 150000.0
+   },
+   {
+    "cnpj": "68438360000103",
+    "nome": "RICARDO ZANATTA GUIDI",
+    "total": 75000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 13,
+   "total": 340769.02
+  }
+ },
+ "despesas": {
+  "total_contratado": 542239.89,
+  "total_pago": 443021.88,
+  "fornecedores_pj": [
+   {
+    "cnpj": "04137442000135",
+    "nome": "GL EDITORA GRAFICA LTDA",
+    "cnae": "58212",
+    "n_despesas": 26,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 147646.51
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 106441.2
+   },
+   {
+    "cnpj": "31252223000170",
+    "nome": "LA VIA COMUNICACAO LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "61617848000159",
+    "nome": "VANZIN COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 9396.0
+   },
+   {
+    "cnpj": "65457134000181",
+    "nome": "R3 ASSESSORIA DE TRAFEGO PAGO LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "37345982000163",
+    "nome": "AR UNIFORMES LTDA",
+    "cnae": "13405",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6080.0
+   },
+   {
+    "cnpj": "01887142000185",
+    "nome": "SOCIEDADE JORNALISTICA DIARIO DO IGUACU LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3661.4
+   },
+   {
+    "cnpj": "01890041000163",
+    "nome": "EMPRESA JORNALISTICA FORCA DO OESTE LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3060.0
+   },
+   {
+    "cnpj": "11295058000126",
+    "nome": "FRANKA ARQUITETURA E CONSTRUCAO LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "08657922000188",
+    "nome": "EMPRESA JORNALISTICA JORNAL EXPRESSAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2837.28
+   },
+   {
+    "cnpj": "15767709000194",
+    "nome": "VOICE COMUNICACAO LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "05494613000146",
+    "nome": "ELBERT EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1930.0
+   },
+   {
+    "cnpj": "09330210000112",
+    "nome": "NOVARTE COMUNICACAO VISUAL LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1925.0
+   },
+   {
+    "cnpj": "07688764000160",
+    "nome": "EDITORA SAO MIGUEL LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "19080715000120",
+    "nome": "REVISTA DE CHAPECO LTDA",
+    "cnae": "58131",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1584.0
+   },
+   {
+    "cnpj": "10413042000108",
+    "nome": "KLAGENBERG KLAGENBERG LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1551.0
+   },
+   {
+    "cnpj": "80154669000177",
+    "nome": "INDUSTRIA E COMERCIO DE CONFECCOES SCHOELER LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "06186657000171",
+    "nome": "Z IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1095.0
+   },
+   {
+    "cnpj": "82894221000115",
+    "nome": "EDITOGRAF INDUSTRIA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 789.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 57,
+   "total": 208243.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 183200.0,
+    "Despesas com pessoal": 5000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 43.5,
+    "Serviços advocatícios": 10000.0,
+    "Serviços contábeis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

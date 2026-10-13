@@ -1,0 +1,52 @@
+{
+ "sq": "30002549880",
+ "nome_urna": "KINOVAK",
+ "cargo": "depest",
+ "uf": "AP",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 264000.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 264000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 264000.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 264000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 133275.45,
+  "total_pago": 78275.45,
+  "fornecedores_pj": [
+   {
+    "cnpj": "10990394000126",
+    "nome": "TALENTO DIGITAL LTDA",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 78275.45
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 55000.0,
+   "por_tipo": {
+    "Serviços advocatícios": 25000.0,
+    "Serviços contábeis": 15000.0,
+    "Serviços próprios prestados por terceiros": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

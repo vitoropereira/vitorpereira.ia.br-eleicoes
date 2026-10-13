@@ -1,0 +1,224 @@
+{
+ "sq": "190002541091",
+ "nome_urna": "RUEDA",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3105570.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 120570.0,
+   "Recursos de partido político": 2985000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3020370.0,
+   "OUTROS RECURSOS": 85200.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 2985000.0
+   },
+   {
+    "cnpj": "68461778000131",
+    "nome": "MARCIO CORREIA DE OLIVEIRA",
+    "total": 120570.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2239272.72,
+  "total_pago": 2190753.97,
+  "fornecedores_pj": [
+   {
+    "cnpj": "34028316577052",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 386407.8
+   },
+   {
+    "cnpj": "23412180000114",
+    "nome": "EXACT INDUSTRIA E SERVICOS DE EMBALAGENS E ROTULOS LTDA",
+    "cnae": "17311",
+    "n_despesas": 30,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 356260.0
+   },
+   {
+    "cnpj": "06340575000130",
+    "nome": "MAVIMIX ADESIVOS DECORATIVOS LTDA",
+    "cnae": "47890",
+    "n_despesas": 17,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 188110.95
+   },
+   {
+    "cnpj": "19487975000114",
+    "nome": "ALX BRASIL SIGN LTDA",
+    "cnae": "46516",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 156000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 11,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 137039.0
+   },
+   {
+    "cnpj": "22694652000106",
+    "nome": "STORIA MIDIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "29973826000119",
+    "nome": "A NOSSA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 56980.0
+   },
+   {
+    "cnpj": "11804138000160",
+    "nome": "ASSOCIACAO NACIONAL DE ARTES E CULTURA",
+    "cnae": "94120",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "16670085001046",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 31018.4
+   },
+   {
+    "cnpj": "72044050000181",
+    "nome": "IMO S GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15400.0
+   },
+   {
+    "cnpj": "05849439000107",
+    "nome": "RIO ATIVA COMUNICACAO E DESIGN LTDA",
+    "cnae": "41204",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12400.0
+   },
+   {
+    "cnpj": "10360946000112",
+    "nome": "RAFAEL ALVES DE OLIVEIRA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "19339433000102",
+    "nome": "LAURO RABHA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "28937979000148",
+    "nome": "MEDEIROS E BARROS CORREIA ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "26495759000186",
+    "nome": "AUTO POSTO CASCAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 23,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7682.97
+   },
+   {
+    "cnpj": "05484028000165",
+    "nome": "MV MELUCCI COMUNICACAO LTDA",
+    "cnae": "18229",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3531.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 264,
+   "total": 708442.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 607583.5,
+    "Cessão ou locação de veículos": 45000.0,
+    "Despesas com pessoal": 2500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 359.1,
+    "Locação/cessão de bens imóveis": 5000.0,
+    "Produção de jingles, vinhetas e slogans": 3000.0,
+    "Serviços contábeis": 45000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

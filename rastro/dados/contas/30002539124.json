@@ -1,0 +1,118 @@
+{
+ "sq": "30002539124",
+ "nome_urna": "ROBERTO GÓES",
+ "cargo": "depest",
+ "uf": "AP",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 773280.0,
+  "por_origem": {
+   "Recursos de partido político": 773280.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 386640.0,
+   "FUNDO PARTIDARIO": 386640.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 386640.0
+   },
+   {
+    "cnpj": "45857088000109",
+    "nome": "Direção Estadual/Distrital - UNIÃO - AMAPÁ",
+    "total": 386640.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 272067.0,
+  "total_pago": 122402.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "50970941000126",
+    "nome": "M SILVA CHAGAS",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "02747184000183",
+    "nome": "R M R DE ALMEIDA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 32965.0
+   },
+   {
+    "cnpj": "59177076000130",
+    "nome": "59.177.076 JESSE FERREIRA DE MATOS",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "30409193000108",
+    "nome": "EDCARLOS DO NASCIMENTO CASTELO LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "50204004000160",
+    "nome": "ELEM KARINA GESTAO E MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 12,
+   "total": 170502.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 10500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.0,
+    "Locação/cessão de bens imóveis": 25000.0,
+    "Serviços advocatícios": 50000.0,
+    "Serviços contábeis": 20000.0,
+    "Serviços prestados por terceiros": 65000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

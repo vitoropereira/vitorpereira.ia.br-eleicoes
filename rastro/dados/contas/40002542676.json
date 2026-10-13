@@ -1,0 +1,161 @@
+{
+ "sq": "40002542676",
+ "nome_urna": "JOANA DARC",
+ "cargo": "depfed",
+ "uf": "AM",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2186019.6,
+  "por_origem": {
+   "Recursos de partido político": 2150000.0,
+   "Recursos de pessoas físicas": 36019.6
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1933200.0,
+   "FUNDO PARTIDARIO": 216800.0,
+   "OUTROS RECURSOS": 36019.6
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 1933200.0
+   },
+   {
+    "cnpj": "45858915000170",
+    "nome": "Direção Estadual/Distrital - UNIÃO - AMAZONAS",
+    "total": 216800.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 21,
+   "total": 36019.6
+  }
+ },
+ "despesas": {
+  "total_contratado": 910374.2,
+  "total_pago": 20084.2,
+  "fornecedores_pj": [
+   {
+    "cnpj": "07908761000195",
+    "nome": "D. M. DE AGUIAR CIA LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "49572657000112",
+    "nome": "L3 SERVICOS DE CONSULTORIA DIGITAL E MARKETING LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "34383241000189",
+    "nome": "ALBUQUERQUE REDIG ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "03633502000148",
+    "nome": "GRAFISA - GRAFICA E EDITORA LTDA",
+    "cnae": "18211",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16800.0
+   },
+   {
+    "cnpj": "19062493000112",
+    "nome": "LSMS COMERCIO DE MERCADORIAS LTDA",
+    "cnae": "46915",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Água"
+    ],
+    "total": 6500.0
+   },
+   {
+    "cnpj": "05220251000529",
+    "nome": "CIDADE COMERCIO DE DERIVADOS DE PETROLEO E TRANSPORTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "18621830000100",
+    "nome": "CENTRO EDUCACIONAL SECULO LTDA",
+    "cnae": "85139",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "19557557000156",
+    "nome": "DONE SERVICE CONSULTORIA E INSTALACOES LTDA",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4590.0
+   },
+   {
+    "cnpj": "04141849000136",
+    "nome": "MAELY INDUSTRIA E COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1400.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 122,
+   "total": 201084.2,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 121000.0,
+    "Despesas com pessoal": 10000.0,
+    "Despesas com transporte ou deslocamento": 5000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 84.2,
+    "Locação/cessão de bens imóveis": 15000.0,
+    "Serviços contábeis": 50000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

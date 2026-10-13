@@ -1,0 +1,271 @@
+{
+ "sq": "250002533776",
+ "nome_urna": "DELEGADO OLIM",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1086790.0,
+  "por_origem": {
+   "Recursos de partido político": 100000.0,
+   "Recursos de pessoas físicas": 986790.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 100000.0,
+   "OUTROS RECURSOS": 986790.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 34,
+   "total": 986790.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 946555.15,
+  "total_pago": 898299.65,
+  "fornecedores_pj": [
+   {
+    "cnpj": "30286200000113",
+    "nome": "DOTS GRAFICA LTDA",
+    "cnae": "47610",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 221662.2
+   },
+   {
+    "cnpj": "17407838000105",
+    "nome": "BISSOLI SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 55000.0
+   },
+   {
+    "cnpj": "32292101000170",
+    "nome": "TREMA BRASIL TRADING LTDA",
+    "cnae": "73114",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 53750.0
+   },
+   {
+    "cnpj": "46931034000109",
+    "nome": "EDUARDO ROQUE DE ASSIS DISTRIBUICAO",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "47600320000146",
+    "nome": "MINIKOWSKI GESTAO PATRIMONIAL E PARTICIPACOES LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 33450.0
+   },
+   {
+    "cnpj": "16670085009705",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 27377.0
+   },
+   {
+    "cnpj": "61533949000141",
+    "nome": "S/A O ESTADO DE S.PAULO",
+    "cnae": "58221",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 25812.0
+   },
+   {
+    "cnpj": "65292783000170",
+    "nome": "EVS COMUNICACAO VISUAL LTDA",
+    "cnae": "82997",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25750.0
+   },
+   {
+    "cnpj": "46298651000100",
+    "nome": "DOIS MUNDOS MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17250.0
+   },
+   {
+    "cnpj": "60579703000148",
+    "nome": "EMPRESA FOLHA DA MANHA S.A.",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 16100.0
+   },
+   {
+    "cnpj": "17837052000110",
+    "nome": "PRODCINE PRODUTORA AUDIOVISUAL LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "15572458000192",
+    "nome": "HELLOPC ALUGUE E USE TECNOLOGIA LTDA",
+    "cnae": "95118",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 5065.9
+   },
+   {
+    "cnpj": "06065895000129",
+    "nome": "S G M K LOCACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4650.0
+   },
+   {
+    "cnpj": "02964380000100",
+    "nome": "JOHN RICHARD LOCACAO DE MOVEIS LTDA.",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3521.41
+   },
+   {
+    "cnpj": "50644565000180",
+    "nome": "SANTA MENA DISTRIBUIDORA LTDA",
+    "cnae": "46869",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 2659.0
+   },
+   {
+    "cnpj": "27327328000173",
+    "nome": "RADAR DE GUARULHOS EMPRESA JORNALISTICA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2560.0
+   },
+   {
+    "cnpj": "43283811019500",
+    "nome": "KALUNGA SA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1166.04
+   },
+   {
+    "cnpj": "75315333006069",
+    "nome": "ATACADAO S.A.",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 724.69
+   },
+   {
+    "cnpj": "06209559000102",
+    "nome": "MAZURKY INDUSTRIA E COMERCIO DE EMBALAGENS LTDA",
+    "cnae": "17338",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 136.67
+   },
+   {
+    "cnpj": "29237659000148",
+    "nome": "FIX PAY ADMINISTRACAO DE PAGAMENTOS LTDA",
+    "cnae": "82997",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 5.94
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 115,
+   "total": 319214.3,
+   "por_tipo": {
+    "Despesas com pessoal": 314980.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 234.3,
+    "Produção de jingles, vinhetas e slogans": 4000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

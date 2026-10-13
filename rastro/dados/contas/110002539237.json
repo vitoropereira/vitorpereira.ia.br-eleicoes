@@ -1,0 +1,149 @@
+{
+ "sq": "110002539237",
+ "nome_urna": "FAISSAL",
+ "cargo": "depest",
+ "uf": "MT",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 786155.96,
+  "por_origem": {
+   "Recursos de partido político": 103000.0,
+   "Recursos de pessoas físicas": 568155.96,
+   "Recursos próprios": 115000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 100000.0,
+   "OUTROS RECURSOS": 686155.96
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "08767054000199",
+    "nome": "Direção Estadual/Distrital - PL - MATO GROSSO",
+    "total": 3000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 19,
+   "total": 683155.96
+  }
+ },
+ "despesas": {
+  "total_contratado": 361358.81,
+  "total_pago": 165428.06,
+  "fornecedores_pj": [
+   {
+    "cnpj": "60231992000190",
+    "nome": "SANTO DOM FOTOGRAFIAS E FILMES LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "32131251000100",
+    "nome": "AERO CENTER BRASIL TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 41000.0
+   },
+   {
+    "cnpj": "13278238000125",
+    "nome": "4 D DESIGNER GRAFICA EDITORA E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10040.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "14926356000750",
+    "nome": "AGUAS LEBRINHA LTDA",
+    "cnae": "47237",
+    "n_despesas": 2,
+    "tipos": [
+     "Água"
+    ],
+    "total": 6190.0
+   },
+   {
+    "cnpj": "32953905000172",
+    "nome": "TUBARAO INDUSTRIA COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4350.0
+   },
+   {
+    "cnpj": "45027831000195",
+    "nome": "DANIELTO ALMEIDA DA SILVA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "58439228000162",
+    "nome": "K. J. Z. DE A. CARVALHO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 394.2
+   },
+   {
+    "cnpj": "08459768000130",
+    "nome": "V CONCEICAO SILVA CIA LTDA",
+    "cnae": "47130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 108.68
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 74,
+   "total": 217275.93,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 78618.49,
+    "Cessão ou locação de veículos": 15391.67,
+    "Despesas com pessoal": 14749.99,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 21.1,
+    "Locação/cessão de bens imóveis": 6000.0,
+    "Serviços próprios prestados por terceiros": 102494.68
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

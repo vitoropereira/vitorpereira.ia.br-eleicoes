@@ -1,0 +1,112 @@
+{
+ "sq": "30002539120",
+ "nome_urna": "BIA POMBO",
+ "cargo": "depest",
+ "uf": "AP",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 681205.22,
+  "por_origem": {
+   "Recursos de partido político": 678205.22,
+   "Recursos de pessoas físicas": 3000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 678205.22,
+   "OUTROS RECURSOS": 3000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 678205.22
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 3000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 188053.17,
+  "total_pago": 98955.17,
+  "fornecedores_pj": [
+   {
+    "cnpj": "45646672000107",
+    "nome": "MONTEIRO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "38014466000119",
+    "nome": "M M EMPREENDIMENTOS E SOLUCOES LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 36800.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 16750.0
+   },
+   {
+    "cnpj": "39512152000109",
+    "nome": "E. S. DA SILVA DE OLIVEIRA E CIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "23103822000101",
+    "nome": "ALPHA GMCV LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14700.0
+   },
+   {
+    "cnpj": "09405430000168",
+    "nome": "REAL PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3037.5
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 18,
+   "total": 51765.67,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 16500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.0,
+    "Locação/cessão de bens imóveis": 6666.67,
+    "Publicidade por carros de som": 4000.0,
+    "Serviços próprios prestados por terceiros": 24598.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

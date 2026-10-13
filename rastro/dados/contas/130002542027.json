@@ -1,0 +1,408 @@
+{
+ "sq": "130002542027",
+ "nome_urna": "ROSANGELA REIS",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2863030.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 8130.0,
+   "Recursos de partido político": 2590000.0,
+   "Recursos de pessoas físicas": 173400.0,
+   "Recursos próprios": 91500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2590000.0,
+   "OUTROS RECURSOS": 273030.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2590000.0
+   },
+   {
+    "cnpj": "68237108000136",
+    "nome": "MARCIO LIMA DE PAULA",
+    "total": 5340.0
+   },
+   {
+    "cnpj": "68237365000178",
+    "nome": "JOSE GERALDO DE ANDRADE",
+    "total": 2790.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 84,
+   "total": 264900.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1513918.93,
+  "total_pago": 820186.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "24410313000186",
+    "nome": "GRAFICA DO VALE LTDA",
+    "cnae": "18113",
+    "n_despesas": 46,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 265960.0
+   },
+   {
+    "cnpj": "56019930000141",
+    "nome": "INOVE IMPRESSOES GRAFICAS E MARKETING POLITICO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "18343464000166",
+    "nome": "PREMIUM ASSESSORIA E SERVICOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "68575301000187",
+    "nome": "68.575.301 MATEUS OLIVEIRA LOPES",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 38000.0
+   },
+   {
+    "cnpj": "63585713000184",
+    "nome": "SB SPORTS ESTAMPARIAS E CONFECCOES LTDA",
+    "cnae": "13405",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 37000.0
+   },
+   {
+    "cnpj": "03830371000199",
+    "nome": "MINAS PESQUISAS E CONSULTORIAS LTDA",
+    "cnae": "73203",
+    "n_despesas": 13,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 30351.0
+   },
+   {
+    "cnpj": "55254671000170",
+    "nome": "F MATOS COMUNICACAO DIGITAL LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "03330471000156",
+    "nome": "VALDEIR GONCALVES DE OLIVEIRA",
+    "cnae": "58298",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24300.0
+   },
+   {
+    "cnpj": "29881825000144",
+    "nome": "W. CASTRO",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 16500.0
+   },
+   {
+    "cnpj": "36029257000113",
+    "nome": "CARVALHO NEGOCIOS IMOBILIARIOS LTDA",
+    "cnae": "68218",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "64737972000146",
+    "nome": "64.737.972 ALINE GOMES CUSTODIO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 5800.0
+   },
+   {
+    "cnpj": "30091218000160",
+    "nome": "MARCOS PAULO PORCHERI ALVES",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "23851057000108",
+    "nome": "BESSONI FORTES SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "10916767000119",
+    "nome": "JRC PRODUCOES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4700.0
+   },
+   {
+    "cnpj": "07422375000199",
+    "nome": "TALENTUS INFORMATICA E SERVICOS LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2900.0
+   },
+   {
+    "cnpj": "66342833000149",
+    "nome": "POSTO PARAGOMINAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2866.74
+   },
+   {
+    "cnpj": "31000712000134",
+    "nome": "ANDRADE INDUSTRIA COMERCIO E SERVICOS LTDA",
+    "cnae": "27902",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2800.0
+   },
+   {
+    "cnpj": "71080345000140",
+    "nome": "RV MODULOS E LOCACOES LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "21027537001006",
+    "nome": "AP MAGALHAES CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 702.92
+   },
+   {
+    "cnpj": "66209222000127",
+    "nome": "GRAFICA E PAPELARIA JULIANA LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 680.0
+   },
+   {
+    "cnpj": "09495600000142",
+    "nome": "EDITORA GRAFICA PAULA MOURA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 630.0
+   },
+   {
+    "cnpj": "21027537001359",
+    "nome": "AP MAGALHAES CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 318.64
+   },
+   {
+    "cnpj": "21027537000891",
+    "nome": "AP MAGALHAES CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 287.55
+   },
+   {
+    "cnpj": "21027537000700",
+    "nome": "AP MAGALHAES CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 271.95
+   },
+   {
+    "cnpj": "21027537000620",
+    "nome": "AP MAGALHAES CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 190.8
+   },
+   {
+    "cnpj": "21027537001430",
+    "nome": "AP MAGALHAES CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 156.12
+   },
+   {
+    "cnpj": "21027537000115",
+    "nome": "AP MAGALHAES CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 131.8
+   },
+   {
+    "cnpj": "21027537000549",
+    "nome": "AP MAGALHAES CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 62.85
+   },
+   {
+    "cnpj": "21027537001600",
+    "nome": "AP MAGALHAES CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 62.85
+   },
+   {
+    "cnpj": "25977208000196",
+    "nome": "GRAFICA SANTA RITA LTDA",
+    "cnae": "18121",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar",
+     "Materiais de expediente"
+    ],
+    "total": 54.34
+   },
+   {
+    "cnpj": "25977208000277",
+    "nome": "GRAFICA SANTA RITA LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 47.47
+   },
+   {
+    "cnpj": "21339965000779",
+    "nome": "TEIXEIRA E CHAVES LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 17.9
+   },
+   {
+    "cnpj": "21027537000972",
+    "nome": "AP MAGALHAES CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 15.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 313,
+   "total": 885011.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 613835.0,
+    "Cessão ou locação de veículos": 52500.0,
+    "Despesas com pessoal": 113150.0,
+    "Despesas com transporte ou deslocamento": 29000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 34.0,
+    "Locação/cessão de bens imóveis": 31492.0,
+    "Serviços próprios prestados por terceiros": 45000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

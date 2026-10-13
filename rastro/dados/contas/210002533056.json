@@ -1,0 +1,291 @@
+{
+ "sq": "210002533056",
+ "nome_urna": "RAMIRO ROSÁRIO",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "NOVO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 744895.74,
+  "por_origem": {
+   "Recursos de outros candidatos": 170452.5,
+   "Recursos de partido político": 411238.24,
+   "Recursos de pessoas físicas": 163205.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 345030.0,
+   "FUNDO PARTIDARIO": 107072.5,
+   "OUTROS RECURSOS": 292793.24
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13405866000124",
+    "nome": "Direção Nacional - NOVO",
+    "total": 349000.0
+   },
+   {
+    "cnpj": "68236992000194",
+    "nome": "FELIPE ZORTEA CAMOZZATO",
+    "total": 165252.5
+   },
+   {
+    "cnpj": "26471374000189",
+    "nome": "Direção Estadual/Distrital - NOVO - RIO GRANDE DO SUL",
+    "total": 62238.24
+   },
+   {
+    "cnpj": "68237141000166",
+    "nome": "TIAGO JOSE ALBRECHT",
+    "total": 5200.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 58,
+   "total": 163205.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 383218.64,
+  "total_pago": 364620.2,
+  "fornecedores_pj": [
+   {
+    "cnpj": "68237019000190",
+    "nome": "JULIA BUENO ZARDO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68237562000197",
+    "nome": "JOAO BATISTA GARCIA DIAS",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 32000.0
+   },
+   {
+    "cnpj": "93439313000121",
+    "nome": "GRAFICA R J R LTDA",
+    "cnae": "58298",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 29635.5
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 23600.0
+   },
+   {
+    "cnpj": "68237055000153",
+    "nome": "JARBAS NEUMANN",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 23500.0
+   },
+   {
+    "cnpj": "68237773000120",
+    "nome": "EDUARDO GIL DA SILVA CARREIRA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68237952000167",
+    "nome": "CARLA RODRIGUES DAITX",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68236914000190",
+    "nome": "ADEMAR RODRIGUES DE MORAES",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "51089907000100",
+    "nome": "51.089.907 PAULO HENRIQUE GONCALVES DE OLIVEIRA DA SILVA",
+    "cnae": "53202",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 12592.0
+   },
+   {
+    "cnpj": "17376797000129",
+    "nome": "JORNAL REPERCUSSAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 12400.0
+   },
+   {
+    "cnpj": "48253677000168",
+    "nome": "ANA PAULA MACHADO MARTINS ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "50231355000160",
+    "nome": "CUERVO LO PUMO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68778764000146",
+    "nome": "68.778.764 ANDREA MAURER DE MORAES",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "22470913000104",
+    "nome": "22.470.913 ALEXSANDRO FERNANDES PEREIRA DE OLIVEIRA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 8142.87
+   },
+   {
+    "cnpj": "46759332000155",
+    "nome": "46.759.332 CLEITON MARCELO ARTL RIBAS",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7157.13
+   },
+   {
+    "cnpj": "34028316437471",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 6701.31
+   },
+   {
+    "cnpj": "94350113000160",
+    "nome": "JOKA SUBLIMACAO DIGITAL LTDA",
+    "cnae": "13405",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6038.0
+   },
+   {
+    "cnpj": "05454055000195",
+    "nome": "BANG IMPRESSAO E PROGRAMACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3970.0
+   },
+   {
+    "cnpj": "05677050000121",
+    "nome": "ANS IMPRESSOES GRAFICAS LTDA.",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3603.9
+   },
+   {
+    "cnpj": "39158679000187",
+    "nome": "GUSTAVO ECCHER LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3079.0
+   },
+   {
+    "cnpj": "68237514000107",
+    "nome": "VITOR HUGO PINHEIRO BICCA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "88804513000104",
+    "nome": "KADU MALHAS COMERCIO DE ROUPAS LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1050.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 19,
+   "total": 68748.93,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 21358.68,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 155.5,
+    "Locação/cessão de bens imóveis": 2500.0,
+    "Serviços prestados por terceiros": 23336.97,
+    "Serviços próprios prestados por terceiros": 21397.78
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

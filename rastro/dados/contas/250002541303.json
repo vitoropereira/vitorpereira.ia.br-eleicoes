@@ -1,0 +1,511 @@
+{
+ "sq": "250002541303",
+ "nome_urna": "TARCÍSIO",
+ "cargo": "governador",
+ "uf": "SP",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 30501925.39,
+  "por_origem": {
+   "Recursos de partido político": 17334000.0,
+   "Recursos de pessoas físicas": 13167925.39
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 12290000.0,
+   "FUNDO PARTIDARIO": 1509000.0,
+   "OUTROS RECURSOS": 16702925.39
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 11625000.0
+   },
+   {
+    "cnpj": "07794600000118",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - SÃO PAULO",
+    "total": 4209000.0
+   },
+   {
+    "cnpj": "49054431000120",
+    "nome": "Direção Nacional - PRD",
+    "total": 1500000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 205,
+   "total": 13167925.39
+  }
+ },
+ "despesas": {
+  "total_contratado": 25270230.15,
+  "total_pago": 24229377.34,
+  "fornecedores_pj": [
+   {
+    "cnpj": "52264807000135",
+    "nome": "PLTK COMUNICACAO ESTRATEGICA LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4500000.0
+   },
+   {
+    "cnpj": "23024523000173",
+    "nome": "D. P. MALACHIAS - FILMES",
+    "cnae": "59111",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3800000.0
+   },
+   {
+    "cnpj": "30007119000157",
+    "nome": "CONNECT FILMES - PRODUCAO DE FILMES E PUBLICIDADE LTDA",
+    "cnae": "59111",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 3500000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 11,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 3200000.0
+   },
+   {
+    "cnpj": "04639525000122",
+    "nome": "MALHEIROS, PENTEADO E TOLEDO - ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 3,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 3000000.0
+   },
+   {
+    "cnpj": "44439001000102",
+    "nome": "COOPER POLI - COOPERATIVA DE TRABALHO DA INFRAESTRUTURA EMPRESARIAL",
+    "cnae": "78302",
+    "n_despesas": 8,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "51847516000107",
+    "nome": "VOLARE IMPRESSAO TEXTIL LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Materiais de expediente",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 575000.0
+   },
+   {
+    "cnpj": "42607745000163",
+    "nome": "CERVUS CONSULTORIA EMPRESARIAL LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 560000.0
+   },
+   {
+    "cnpj": "05915213000167",
+    "nome": "FLAVIO BRITTO E CRISTIANE BRITTO ADVOCACIA E CONSULTORIA JURIDICA ADVOGADOS ASSOCIADOS S/S",
+    "cnae": "69117",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 500000.0
+   },
+   {
+    "cnpj": "15529119000123",
+    "nome": "ESTUDIO 9 PRODUCOES AUDIOVISUAIS LTDA",
+    "cnae": "59111",
+    "n_despesas": 3,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 468600.0
+   },
+   {
+    "cnpj": "35659497000139",
+    "nome": "GRAFICA NMC LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 462000.0
+   },
+   {
+    "cnpj": "17162579000191",
+    "nome": "LIDER TAXI AEREO S/A - AIR BRASIL",
+    "cnae": "51129",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 444379.6
+   },
+   {
+    "cnpj": "42841176000116",
+    "nome": "SPAIR - TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 400000.0
+   },
+   {
+    "cnpj": "53103933000170",
+    "nome": "GALACTICA PROCESSAMENTO E ASSESSORIA CONTABIL",
+    "cnae": "69206",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 400000.0
+   },
+   {
+    "cnpj": "07263666000181",
+    "nome": "BRASPOR GRAFICA E EDITORA LTDA.",
+    "cnae": "18113",
+    "n_despesas": 18,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 342850.0
+   },
+   {
+    "cnpj": "05270800000146",
+    "nome": "GERP MERCADOLOGIA LTDA",
+    "cnae": "63119",
+    "n_despesas": 3,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 319000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "09204155000114",
+    "nome": "VITA PORTO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "13913408000104",
+    "nome": "XR GLOBAL BRASIL LTDA",
+    "cnae": "63119",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 146084.4
+   },
+   {
+    "cnpj": "47201085000130",
+    "nome": "TSP CONSULTORIA LTDA",
+    "cnae": "82113",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 130000.0
+   },
+   {
+    "cnpj": "56922854000180",
+    "nome": "IPJ ASSESSORIA TECNICA LTDA",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "72797897000137",
+    "nome": "VIC- TUR-LOCACAO DE VEICULOS RODOVIARIOS DE PASSAGEIROS LTDA",
+    "cnae": "49230",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 99000.0
+   },
+   {
+    "cnpj": "22834598000157",
+    "nome": "WEN TRANSPORTE E TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 66000.0
+   },
+   {
+    "cnpj": "39291525000169",
+    "nome": "ERNESTO ASSESSORIA E CONSULTORIA LTDA",
+    "cnae": "70204",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "17555481000102",
+    "nome": "WAGUINHO NEY TRANSPORTE E LOCADORA DE VEICULOS LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 58800.0
+   },
+   {
+    "cnpj": "38001363000114",
+    "nome": "IDEALIS COMUNICACAO E PRODUCAO DE FILMES LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "66462851000164",
+    "nome": "W7 EVENTOS LTDA",
+    "cnae": "90035",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 38000.0
+   },
+   {
+    "cnpj": "22584613000156",
+    "nome": "FROTA10 LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 32585.0
+   },
+   {
+    "cnpj": "45587474000110",
+    "nome": "FROTA VIP LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 32585.0
+   },
+   {
+    "cnpj": "62159285000165",
+    "nome": "FV LOCADORA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 32585.0
+   },
+   {
+    "cnpj": "03566143000153",
+    "nome": "CENTRO SOCIAL HAKKA DO BRASIL",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 29000.0
+   },
+   {
+    "cnpj": "13361914000120",
+    "nome": "ARTE VISAO VAN GOGH COMERCIO DE PRODUTOS PROMOCIONAIS LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 29000.0
+   },
+   {
+    "cnpj": "31226791000104",
+    "nome": "EXCLUSIVA LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 27233.0
+   },
+   {
+    "cnpj": "62345588000172",
+    "nome": "GMJTUR LOCACAO TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 25200.0
+   },
+   {
+    "cnpj": "17455913000103",
+    "nome": "VOAR AVIATION TAXI AEREO E MANUTENCAO LTDA.",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 24600.0
+   },
+   {
+    "cnpj": "21314559000166",
+    "nome": "MOVIDA PARTICIPACOES S.A.",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12830.67
+   },
+   {
+    "cnpj": "20211412000188",
+    "nome": "PLUXEE FROTA E COMBUSTIVEL BRASIL LTDA.",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10480.0
+   },
+   {
+    "cnpj": "37901538000187",
+    "nome": "JAPA PARK OFICIAL LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 9478.8
+   },
+   {
+    "cnpj": "53492874000170",
+    "nome": "53.492.874 DAVI DOS SANTOS",
+    "cnae": "49248",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 8400.0
+   },
+   {
+    "cnpj": "21989016000149",
+    "nome": "HM SOM ILUMINACAO LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 5800.0
+   },
+   {
+    "cnpj": "18649169000132",
+    "nome": "CODAM INDUSTRIAL LTDA",
+    "cnae": "13596",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "60570033000107",
+    "nome": "AUTO POSTO CECI LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2825.58
+   },
+   {
+    "cnpj": "37175551000104",
+    "nome": "BRITANICA VIAGENS E TURISMO LTDA",
+    "cnae": "79112",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 2803.0
+   },
+   {
+    "cnpj": "12446420000185",
+    "nome": "GRAFICA ROTATIVA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2450.0
+   },
+   {
+    "cnpj": "30667156000191",
+    "nome": "PILAR ECOTEC AMBIENTAL LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 19,
+   "total": 237960.1,
+   "por_tipo": {
+    "Despesas com pessoal": 237835.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 125.1
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

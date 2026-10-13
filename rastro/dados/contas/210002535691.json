@@ -1,0 +1,78 @@
+{
+ "sq": "210002535691",
+ "nome_urna": "ALI KLEMT",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 527500.0,
+  "por_origem": {
+   "Recursos de partido político": 450000.0,
+   "Recursos de pessoas físicas": 77500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 450000.0,
+   "OUTROS RECURSOS": 77500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 450000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 115,
+   "total": 77500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 316959.9,
+  "total_pago": 276061.4,
+  "fornecedores_pj": [
+   {
+    "cnpj": "64745171000122",
+    "nome": "PROPOSITO ASSESSORIA, CONSULTORIA E ESTRATEGIA INSTITUCIONAL LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 166000.0
+   },
+   {
+    "cnpj": "32069682000185",
+    "nome": "BP NETWORK TREINAMENTOS E GESTAO DE NEGOCIOS LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 140000.0
+   },
+   {
+    "cnpj": "15773480000109",
+    "nome": "DEIXA ELLA LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10900.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 59.9,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 59.9
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,240 @@
+{
+ "sq": "170002533345",
+ "nome_urna": "DANI PORTELA",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1127969.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 5824.0,
+   "Recursos de partido político": 1015500.0,
+   "Recursos de pessoas físicas": 106645.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1015500.0,
+   "OUTROS RECURSOS": 112469.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1015500.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 5824.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 106645.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 6706824.79,
+  "total_pago": 858086.74,
+  "fornecedores_pj": [
+   {
+    "cnpj": "11832075000155",
+    "nome": "PRO-VISUAL GRAFICA E EDITORA LTDA",
+    "cnae": "58131",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 68770.0
+   },
+   {
+    "cnpj": "17191539000178",
+    "nome": "G PRINT INDUSTRIA E COMERCIO DE ROTULOS LTDA",
+    "cnae": "17419",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 50680.0
+   },
+   {
+    "cnpj": "10537623000151",
+    "nome": "J P FARDAS LTDA",
+    "cnae": "14134",
+    "n_despesas": 30,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 39018.5
+   },
+   {
+    "cnpj": "15762432000107",
+    "nome": "MC SERVICOS E GESTAO EMPRESARIAL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "45856273000170",
+    "nome": "GESSICA MARIA BEZERRA DE AMORIM",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "09798307000154",
+    "nome": "SERVICAR S/A",
+    "cnae": "47318",
+    "n_despesas": 53,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 13277.79
+   },
+   {
+    "cnpj": "54171158000153",
+    "nome": "54.171.158 MATHEUS SANTOS DO NASCIMENTO",
+    "cnae": "58131",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "14107185000142",
+    "nome": "CENTRO TECNICO DE REFERENCIA EM ENSINO DE LIBRAS E ACESSIBILIDADE E EVENTOS LTDA",
+    "cnae": "85112",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "02579701000152",
+    "nome": "TVL LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "61538232000192",
+    "nome": "61.538.232 RENATO MANDARINE D ANGELO CICALESE",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2600.0
+   },
+   {
+    "cnpj": "27661142000156",
+    "nome": "27.661.142 YURI PINTO VILAR",
+    "cnae": "85937",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 1980.0
+   },
+   {
+    "cnpj": "61911676000121",
+    "nome": "RECIFE CLIMA E ESTRUTURAS LTDA",
+    "cnae": "77390",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "48661166000185",
+    "nome": "JEV SERVICOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "34880080000139",
+    "nome": "EXCLUSIVE SERVICOS E LOCACOES LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 920.0
+   },
+   {
+    "cnpj": "17475504000160",
+    "nome": "17.475.504 THIAGO DE LIMA SILVA",
+    "cnae": "49299",
+    "n_despesas": 3,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 230.02
+   },
+   {
+    "cnpj": "01079255000154",
+    "nome": "EPURA GRAFICA DIGITAL E SINALIZACAO LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 194.3
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 120.84
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 134,
+   "total": 6457933.34,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 248579.0,
+    "Despesas com pessoal": 6186065.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 144.5,
+    "Impostos, contribuições e taxas": 144.84,
+    "Pré-instalação física de comitê de campanha": 23000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

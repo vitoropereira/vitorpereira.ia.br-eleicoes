@@ -1,0 +1,164 @@
+{
+ "sq": "60002536690",
+ "nome_urna": "DR. GERONIMO",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 340598.07,
+  "por_origem": {
+   "Recursos de outros candidatos": 80000.0,
+   "Recursos de partido político": 187000.57,
+   "Recursos de pessoas físicas": 58000.0,
+   "Recursos próprios": 15597.5
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 217000.57,
+   "OUTROS RECURSOS": 123597.5
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 187000.57
+   },
+   {
+    "cnpj": "68373580000104",
+    "nome": "DENIS ANDERSON DA ROCHA BEZERRA",
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68373280000117",
+    "nome": "ACILON GONCALVES PINTO JUNIOR",
+    "total": 30000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 73597.5
+  }
+ },
+ "despesas": {
+  "total_contratado": 382311.35,
+  "total_pago": 155900.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "08730259000108",
+    "nome": "HARLEY BRAGA DIAS SIMOES LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 68000.0
+   },
+   {
+    "cnpj": "00212872000113",
+    "nome": "ASA SUL INDUSTRIA E COMERCIO DE MALHAS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "21982044000134",
+    "nome": "METODO CONTABILIDADE E CONSULTORIA SS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "43044285000175",
+    "nome": "CHAVES PESSOA - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "51474995000163",
+    "nome": "POSTO IDEAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5393.25
+   },
+   {
+    "cnpj": "63330594000119",
+    "nome": "ACS SOLUCOES E SERVICOS LTDA",
+    "cnae": "47571",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "64509472000157",
+    "nome": "ECONTAINER SOLUCOES INTELIGENTES LTDA",
+    "cnae": "77322",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "46513622000114",
+    "nome": "HLC COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "12155306000104",
+    "nome": "RICARDO GLEYDSON BATISTA DOS SANTOS",
+    "cnae": "47521",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 58,
+   "total": 96018.1,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 27770.16,
+    "Cessão ou locação de veículos": 6500.0,
+    "Despesas com pessoal": 57747.44,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5,
+    "Locação/cessão de bens imóveis": 4000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

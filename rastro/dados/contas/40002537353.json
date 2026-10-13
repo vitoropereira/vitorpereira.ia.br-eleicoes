@@ -1,0 +1,69 @@
+{
+ "sq": "40002537353",
+ "nome_urna": "DAVID REIS",
+ "cargo": "depest",
+ "uf": "AM",
+ "partido": "AVANTE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 119897.1,
+  "por_origem": {
+   "Recursos de partido político": 100000.0,
+   "Recursos de pessoas físicas": 19897.1
+  },
+  "por_fonte": {
+   "FUNDO PARTIDARIO": 100000.0,
+   "OUTROS RECURSOS": 19897.1
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "59933952000100",
+    "nome": "Direção Nacional - AVANTE",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 19897.1
+  }
+ },
+ "despesas": {
+  "total_contratado": 25123.6,
+  "total_pago": 0.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "62458170000171",
+    "nome": "WSA SERVICOS E COMERCIO DE INFORMATICA LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "23505231000152",
+    "nome": "MANAUS COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6123.6
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 7000.0,
+   "por_tipo": {
+    "Serviços advocatícios": 4000.0,
+    "Serviços contábeis": 3000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

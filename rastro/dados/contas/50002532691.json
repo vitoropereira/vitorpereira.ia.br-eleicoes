@@ -1,0 +1,155 @@
+{
+ "sq": "50002532691",
+ "nome_urna": "ALEX DA PIATÃ",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 276003.17,
+  "por_origem": {
+   "Recursos de partido político": 230000.0,
+   "Recursos próprios": 46003.17
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "OUTROS RECURSOS": 76003.17
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "14894130000120",
+    "nome": "Direção Estadual/Distrital - PSD - BAHIA",
+    "total": 30000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 46003.17
+  }
+ },
+ "despesas": {
+  "total_contratado": 199565.87,
+  "total_pago": 213238.87,
+  "fornecedores_pj": [
+   {
+    "cnpj": "54535287000183",
+    "nome": "CLIPS COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 11,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 53780.0
+   },
+   {
+    "cnpj": "26887880000153",
+    "nome": "SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "12209884000178",
+    "nome": "PONTO 8 WEB COMUNICACAO LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 24390.24
+   },
+   {
+    "cnpj": "18205033000133",
+    "nome": "OZEIAS TRANSPORTE LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 22920.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20019.5
+   },
+   {
+    "cnpj": "39934167000165",
+    "nome": "LEGALIZE - CONSULTORIA TRIBUTARIA E FINANCEIRA LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "45901796000191",
+    "nome": "R P DE ALMEIDA BOLSAS, COMERCIO E ACESSORIOS",
+    "cnae": "15211",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7200.0
+   },
+   {
+    "cnpj": "32696700000159",
+    "nome": "POSTO DE COMBUSTIVEIS VILATOIDE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6893.13
+   },
+   {
+    "cnpj": "51590639000105",
+    "nome": "RSN MIDIAS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6800.0
+   },
+   {
+    "cnpj": "55480752000199",
+    "nome": "L A MATEUS RAMOS",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 552.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 4,
+   "total": 7011.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 11.0,
+    "Locação/cessão de bens imóveis": 7000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

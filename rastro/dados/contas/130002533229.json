@@ -1,0 +1,264 @@
+{
+ "sq": "130002533229",
+ "nome_urna": "JUCA BAHIA",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PRD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 652850.0,
+  "por_origem": {
+   "Recursos de partido político": 300000.0,
+   "Recursos de pessoas físicas": 282850.0,
+   "Recursos próprios": 70000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 300000.0,
+   "OUTROS RECURSOS": 352850.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "49054431000120",
+    "nome": "Direção Nacional - PRD",
+    "total": 300000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 23,
+   "total": 352850.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 341631.45,
+  "total_pago": 221068.33,
+  "fornecedores_pj": [
+   {
+    "cnpj": "07634333000111",
+    "nome": "FRANCIS HENRIQUE CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "12419108000100",
+    "nome": "ARTES BH DIGITAL LTDA",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 23393.75
+   },
+   {
+    "cnpj": "26198515000484",
+    "nome": "SEMPRE EDITORA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Criação e inclusão de páginas na internet",
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "64204416000104",
+    "nome": "GMP PUBLICIDADE E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11250.0
+   },
+   {
+    "cnpj": "24996746000165",
+    "nome": "TURI - TRANSPORTE URBANO RODOVIARIO E INTERMUNICIPAL LTDA",
+    "cnae": "49213",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 7426.95
+   },
+   {
+    "cnpj": "05573115000199",
+    "nome": "05.573.115 ADRIANA RAMOS DA SILVA ALMEIDA",
+    "cnae": "14126",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5244.0
+   },
+   {
+    "cnpj": "34028316339895",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 4467.54
+   },
+   {
+    "cnpj": "58319969000100",
+    "nome": "58.319.969 ALLAN CRISTYAN DE OLIVEIRA FERREIRA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 3710.0
+   },
+   {
+    "cnpj": "60440298000182",
+    "nome": "AGIL E SUBLIME LTDA",
+    "cnae": "13405",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3590.0
+   },
+   {
+    "cnpj": "01995938000151",
+    "nome": "GRAFICA E EDITORA PAGINA 12 LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3200.0
+   },
+   {
+    "cnpj": "21498738000109",
+    "nome": "POSTO IGARUCU LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2846.29
+   },
+   {
+    "cnpj": "50182628000123",
+    "nome": "N.F - FERRAMENTAS E UTILIDADES LTDA",
+    "cnae": "47440",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1360.0
+   },
+   {
+    "cnpj": "29025592000188",
+    "nome": "COMERCIAL TRINDADE E MORAIS LTDA",
+    "cnae": "47211",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1240.0
+   },
+   {
+    "cnpj": "21324983000191",
+    "nome": "MIL CORES COMERCIAL LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 761.4
+   },
+   {
+    "cnpj": "16634285000152",
+    "nome": "LEANDRO FERNANDES COSTA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 475.0
+   },
+   {
+    "cnpj": "11916425000161",
+    "nome": "11.916.425 TADEU LUIZ DE FARIA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "25750068000119",
+    "nome": "MATOS E RIBEIRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 224.12
+   },
+   {
+    "cnpj": "20743019000135",
+    "nome": "DISTRIBUIDORA XISTO COMERCIO DE EMBALAGENS E DOCES EM GERAL LTDA",
+    "cnae": "46371",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 203.0
+   },
+   {
+    "cnpj": "02009269000164",
+    "nome": "LOJA ELETRICA NOSSA SENHORA DO ROSARIO LTDA",
+    "cnae": "47423",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 133.09
+   },
+   {
+    "cnpj": "24417607000130",
+    "nome": "INOVAR CONSTRUCOES E ACABAMENTOS LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 38.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 395,
+   "total": 209268.31,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 154382.81,
+    "Locação/cessão de bens imóveis": 8910.5,
+    "Serviços advocatícios": 3500.0,
+    "Serviços prestados por terceiros": 23300.0,
+    "Serviços próprios prestados por terceiros": 19175.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

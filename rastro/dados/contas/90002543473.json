@@ -1,0 +1,363 @@
+{
+ "sq": "90002543473",
+ "nome_urna": "DANIEL AGROBOM",
+ "cargo": "depfed",
+ "uf": "GO",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2158678.17,
+  "por_origem": {
+   "Recursos de partido político": 2000000.0,
+   "Recursos de pessoas físicas": 47966.67,
+   "Recursos próprios": 110711.5
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2000000.0,
+   "OUTROS RECURSOS": 158678.17
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 2000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 158678.17
+  }
+ },
+ "despesas": {
+  "total_contratado": 1421481.35,
+  "total_pago": 2003330.72,
+  "fornecedores_pj": [
+   {
+    "cnpj": "63862048000129",
+    "nome": "POLITIKEY COMUNICACAO ESTRATEGICA LTDA",
+    "cnae": "59111",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "55672160000179",
+    "nome": "AURA GRAFICA E IMPRESSOES ESPECIAIS LTDA",
+    "cnae": "58298",
+    "n_despesas": 11,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 104329.0
+   },
+   {
+    "cnpj": "48583631000107",
+    "nome": "COOPGRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 24,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 83176.0
+   },
+   {
+    "cnpj": "01796505000177",
+    "nome": "TRAPY ZOMBA CONFECCOES BRINDES LTDA",
+    "cnae": "14126",
+    "n_despesas": 16,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 80900.0
+   },
+   {
+    "cnpj": "14707720000104",
+    "nome": "CONEXAO DIGITAL SOLUTION - COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 67542.5
+   },
+   {
+    "cnpj": "53439074000195",
+    "nome": "MMX COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 67500.0
+   },
+   {
+    "cnpj": "35109227000154",
+    "nome": "FLY BANNER IMPRESSAO DIGITAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 57000.0
+   },
+   {
+    "cnpj": "27353984000140",
+    "nome": "PONTUAL SOLUCOES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 40565.0
+   },
+   {
+    "cnpj": "07804514000149",
+    "nome": "TRAICE AUDITORIA E CONSULTORIA S/S LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "38756034000183",
+    "nome": "PIRES OLIVEIRA CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24750.0
+   },
+   {
+    "cnpj": "26713715000185",
+    "nome": "ROMANO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "19738088000171",
+    "nome": "PLURAL ASSESSORIA DE IMPRENSA, PESQUISA E JORNALISMO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 18800.0
+   },
+   {
+    "cnpj": "07254028000102",
+    "nome": "IRIS LOCACAO DE IMOVEIS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 16336.27
+   },
+   {
+    "cnpj": "28262854000165",
+    "nome": "GLAUCO BORGES DE ARAUJO",
+    "cnae": "32990",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8715.0
+   },
+   {
+    "cnpj": "60526604000106",
+    "nome": "60.526.604 ELIZABET ROSA PINTO",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8640.0
+   },
+   {
+    "cnpj": "15255486000186",
+    "nome": "REAL CONTAINER LTDA",
+    "cnae": "77322",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 4300.0
+   },
+   {
+    "cnpj": "13026112000163",
+    "nome": "SAMIR DAHAS NOGUEIRA JUNIOR LTDA",
+    "cnae": "25110",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3950.0
+   },
+   {
+    "cnpj": "33037055000125",
+    "nome": "FEDERAL MIDIA E IMPRESSOES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3245.0
+   },
+   {
+    "cnpj": "23552453000126",
+    "nome": "ESTUDIO SOM E LOCACOES LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "13595514000189",
+    "nome": "PLANALTO COMERCIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1395.21
+   },
+   {
+    "cnpj": "01695897000188",
+    "nome": "W S DERIVADOS DO PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 615.04
+   },
+   {
+    "cnpj": "58076428000106",
+    "nome": "POSTO LARANJEIRAS 3 ARAPORA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "06951011000133",
+    "nome": "LIVRARIA E PAPELARIA 84 LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 518.0
+   },
+   {
+    "cnpj": "62275493000120",
+    "nome": "AL POSTO 84 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 444.7
+   },
+   {
+    "cnpj": "08894886000176",
+    "nome": "COPY PRINT INFORMATICA LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 360.0
+   },
+   {
+    "cnpj": "13842580000106",
+    "nome": "POSTO A1 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 348.33
+   },
+   {
+    "cnpj": "37293062000149",
+    "nome": "IMPERIO CERTIFICACAO DIGITAL LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 260.0
+   },
+   {
+    "cnpj": "37836319000161",
+    "nome": "AUTO POSTO JOIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 79.8
+   },
+   {
+    "cnpj": "10482745000198",
+    "nome": "AUTO POSTO SCAPIM LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 74.0
+   },
+   {
+    "cnpj": "04955914000167",
+    "nome": "ARTMANIA BUSINESS LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 60.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 640,
+   "total": 610477.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 4500.0,
+    "Despesas com pessoal": 570660.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 317.5,
+    "Publicidade por carros de som": 35000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

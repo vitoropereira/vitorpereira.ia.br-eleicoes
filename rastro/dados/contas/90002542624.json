@@ -1,0 +1,515 @@
+{
+ "sq": "90002542624",
+ "nome_urna": "MAGDA MOFATTO",
+ "cargo": "depfed",
+ "uf": "GO",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3264000.0,
+  "por_origem": {
+   "Recursos de partido político": 3030000.0,
+   "Recursos de pessoas físicas": 14000.0,
+   "Recursos próprios": 220000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3030000.0,
+   "OUTROS RECURSOS": 234000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3030000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 234000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 944038.74,
+  "total_pago": 574572.29,
+  "fornecedores_pj": [
+   {
+    "cnpj": "27151534000175",
+    "nome": "CROSARA E FRANCA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "61855669000150",
+    "nome": "MDS AP CONFECCOES LTDA",
+    "cnae": "47814",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por materiais impressos",
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 58320.0
+   },
+   {
+    "cnpj": "26225387000178",
+    "nome": "R REZENDE CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 55000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "60056689000106",
+    "nome": "ATAU MARKETING E BRANDING LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans",
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 20825.0
+   },
+   {
+    "cnpj": "24113180000186",
+    "nome": "GYN LOCADORA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 16232.16
+   },
+   {
+    "cnpj": "18713335000112",
+    "nome": "IMPERIO COMERCIO E SERVICOS LTDA",
+    "cnae": "43134",
+    "n_despesas": 66,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 15266.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "04806169000194",
+    "nome": "AUTO POSTO CHAFARIZ LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 12851.95
+   },
+   {
+    "cnpj": "15015873000145",
+    "nome": "DIAGNOSTICO PESQUISAS DE COMPORTAMENTO LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "25124074000160",
+    "nome": "VALPOSTO COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6337.51
+   },
+   {
+    "cnpj": "04697973000182",
+    "nome": "L. R. COMERCIAL DE MATERIAIS PARA CONSTRUCAO LTDA.",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "48583631000107",
+    "nome": "COOPGRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4820.0
+   },
+   {
+    "cnpj": "63592173000166",
+    "nome": "BARU 85 COZINHA BRASILEIRA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 4508.01
+   },
+   {
+    "cnpj": "01182484000108",
+    "nome": "POSTO CHAPARRAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "04418390000175",
+    "nome": "ALIANCA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3303.75
+   },
+   {
+    "cnpj": "02673534000104",
+    "nome": "COMERCIAL DE COMBUSTIVEIS LN LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2501.6
+   },
+   {
+    "cnpj": "23760800000106",
+    "nome": "POSTO PELICANO II LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "28306681000130",
+    "nome": "POSTO RIO QUENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "04200445000176",
+    "nome": "VAI E VEM COMERCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1909.26
+   },
+   {
+    "cnpj": "02532141000504",
+    "nome": "AEROPREST COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1794.0
+   },
+   {
+    "cnpj": "03388667000100",
+    "nome": "AUTO POSTO SANDE LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1647.96
+   },
+   {
+    "cnpj": "10276821000109",
+    "nome": "ZENILTON CALIXTO DE MACEDO E CIA. LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1625.0
+   },
+   {
+    "cnpj": "02713451000100",
+    "nome": "AUTO POSTO GOIANDIRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "02532141001152",
+    "nome": "AEROPREST COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1435.1
+   },
+   {
+    "cnpj": "56706414000195",
+    "nome": "AL COMBUSTIVEIS PALMELO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1420.33
+   },
+   {
+    "cnpj": "04454790002422",
+    "nome": "AIR BP BRASIL LTDA.",
+    "cnae": "46818",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1407.0
+   },
+   {
+    "cnpj": "02194780000183",
+    "nome": "IRLAN HONORIO CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1250.0
+   },
+   {
+    "cnpj": "10468621000158",
+    "nome": "CD AUTO CENTER LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1050.9
+   },
+   {
+    "cnpj": "09376938000185",
+    "nome": "E N DE ARAUJO",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1000.33
+   },
+   {
+    "cnpj": "21990757000140",
+    "nome": "POSTO AVENIDA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "02566941000112",
+    "nome": "POSTO CRISTO REDENTOR LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 622.01
+   },
+   {
+    "cnpj": "02087803000150",
+    "nome": "POSTO CUMARI LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 500.16
+   },
+   {
+    "cnpj": "04478341000128",
+    "nome": "AUTO POSTO COSTA E COSTA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "55574376000100",
+    "nome": "POSTO GOLD 2 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "13170895000154",
+    "nome": "UNIAO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 362.71
+   },
+   {
+    "cnpj": "28561445000160",
+    "nome": "POSTO ENTRE RIOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 350.0
+   },
+   {
+    "cnpj": "43137855000171",
+    "nome": "S 2 COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 320.0
+   },
+   {
+    "cnpj": "12134286000187",
+    "nome": "SUPERMERCADO BOMTEMPO LTDA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 285.74
+   },
+   {
+    "cnpj": "00150870000147",
+    "nome": "AUTO POSTO CAETANO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 230.0
+   },
+   {
+    "cnpj": "73544371000108",
+    "nome": "AUTO POSTO ENTRE TREVOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 230.0
+   },
+   {
+    "cnpj": "01714591000121",
+    "nome": "REZENDE BORGES LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 204.0
+   },
+   {
+    "cnpj": "02071371000190",
+    "nome": "POSTO CAMPEAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 150.0
+   },
+   {
+    "cnpj": "07237406000131",
+    "nome": "AUTO POSTO D. PEDRO II LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 100.06
+   },
+   {
+    "cnpj": "33651537000170",
+    "nome": "AUTO POSTO ESPLANADA I LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 60.0
+   },
+   {
+    "cnpj": "16913917000117",
+    "nome": "ALICE DAS GRACAS LOURENCO",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 50.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 134,
+   "total": 548068.2,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 274712.0,
+    "Cessão ou locação de veículos": 107000.0,
+    "Despesas com pessoal": 116189.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1667.2,
+    "Locação/cessão de bens imóveis": 48500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

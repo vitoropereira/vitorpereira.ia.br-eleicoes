@@ -1,0 +1,227 @@
+{
+ "sq": "250002536273",
+ "nome_urna": "PAULO FIORILO",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1005434.99,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 125154.99,
+   "Recursos de outros candidatos": 350000.0,
+   "Recursos de partido político": 315500.0,
+   "Recursos de pessoas físicas": 214780.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 615500.0,
+   "OUTROS RECURSOS": 389934.99
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265500.0
+   },
+   {
+    "cnpj": "68373251000155",
+    "nome": "ARLINDO CHIGNALIA JUNIOR",
+    "total": 150000.0
+   },
+   {
+    "cnpj": "28067410000179",
+    "nome": "ELEGIS GESTAO ESTRATEGICA",
+    "total": 125154.99
+   },
+   {
+    "cnpj": "68373194000104",
+    "nome": "JILMAR AUGUSTINHO TATTO",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "51827566000122",
+    "nome": "Direção Municipal/Comissão Provisória - PT - ARARAQUARA - SP",
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68373453000105",
+    "nome": "FRANCISCO DANIEL CELEGUIM DE MORAIS",
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68373177000177",
+    "nome": "NILTO IGNACIO TATTO",
+    "total": 30000.0
+   },
+   {
+    "cnpj": "68373106000174",
+    "nome": "ALFREDO ALVES CAVALCANTE",
+    "total": 20000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 29,
+   "total": 214780.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 227104.05,
+  "total_pago": 95574.22,
+  "fornecedores_pj": [
+   {
+    "cnpj": "34276520000143",
+    "nome": "ZIULOSCAR GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 11,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 41550.98
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "23531154000105",
+    "nome": "VERSA PRINT COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21536.0
+   },
+   {
+    "cnpj": "06019783000131",
+    "nome": "PROMOSOM EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 20800.0
+   },
+   {
+    "cnpj": "10547439000192",
+    "nome": "INTEGRACAO SOLUCOES CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68373242000164",
+    "nome": "MARCOS MONTANI CASEIRO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "29894258000160",
+    "nome": "MARILENE ARAUJO LUCIANO BARBOSA SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "60935657000172",
+    "nome": "CASA DE PORTUGAL",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "14480770000193",
+    "nome": "FANOEL S. DE ALMEIDA EXPRESS",
+    "cnae": "53202",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 5250.0
+   },
+   {
+    "cnpj": "06175490000143",
+    "nome": "NOVA ERA LOCACOES DE EQUIPAMENTOS AUDIO-VISUAIS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2943.0
+   },
+   {
+    "cnpj": "28067410000179",
+    "nome": "ELEGIS GESTAO ESTRATEGICA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 1961.17
+   },
+   {
+    "cnpj": "14710751000106",
+    "nome": "ATMOSPHERA STUDIO DE GRAVACAO UNIPESSOAL LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "48844158000174",
+    "nome": "MKD EDITORIAL LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 985.0
+   },
+   {
+    "cnpj": "01554285000175",
+    "nome": "CERTISIGN CERTIFICADORA DIGITAL S.A",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 274.9
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 17,
+   "total": 27003.0,
+   "por_tipo": {
+    "Despesas com pessoal": 22500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.0,
+    "Locação/cessão de bens imóveis": 4500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

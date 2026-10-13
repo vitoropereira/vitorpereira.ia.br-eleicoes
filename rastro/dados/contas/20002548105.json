@@ -1,0 +1,247 @@
+{
+ "sq": "20002548105",
+ "nome_urna": "GUILHERME LOPES",
+ "cargo": "depest",
+ "uf": "AL",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 608100.0,
+  "por_origem": {
+   "Recursos de partido político": 100000.0,
+   "Recursos de pessoas físicas": 433100.0,
+   "Recursos próprios": 75000.0
+  },
+  "por_fonte": {
+   "FUNDO PARTIDARIO": 100000.0,
+   "OUTROS RECURSOS": 508100.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01308052000192",
+    "nome": "Direção Estadual/Distrital - MDB - ALAGOAS",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 20,
+   "total": 508100.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 367930.71,
+  "total_pago": 77117.92,
+  "fornecedores_pj": [
+   {
+    "cnpj": "18576524000190",
+    "nome": "EXITO ESTRATEGIA LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "13059783000120",
+    "nome": "CALLADO E PAES ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "14876708000115",
+    "nome": "NOGUEIRA, ALBUQUERQUE E FREIRE ASSOCIADOS S/S",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "34704556000180",
+    "nome": "34.704.556 GUILHERME SANTOS ANGELO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 13500.0
+   },
+   {
+    "cnpj": "35632819000156",
+    "nome": "LAGOA DA ANTA EMPREENDIMENTOS HOTELEIROS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "40310676000104",
+    "nome": "40.310.676 MARTHA ISABELLE DOS MARTYRES OLIVEIRA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "11355874000188",
+    "nome": "INFINNI SERVICOS E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos"
+    ],
+    "total": 5100.0
+   },
+   {
+    "cnpj": "43764511000192",
+    "nome": "GJM SERVICOS E TERCEIZACAO LTDA",
+    "cnae": "81117",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "00887925000104",
+    "nome": "GRAFMARQUES INDUSTRIA EDITORA E SERVICOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3375.0
+   },
+   {
+    "cnpj": "41478442000125",
+    "nome": "41.478.442 LUISA AMALLIA DA SILVA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "24111914000198",
+    "nome": "PEDRO LOCACOES LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "12396339000561",
+    "nome": "DISTRIBUIDORA DE VEICULOS CONFIANCA LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2416.03
+   },
+   {
+    "cnpj": "07031865000164",
+    "nome": "BONANCA ADMINISTRACAO DE HOTEIS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "16515765000102",
+    "nome": "R V DA SILVA FERREIRA COMUNICACAO VISUAL",
+    "cnae": "47130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1406.87
+   },
+   {
+    "cnpj": "59436283000161",
+    "nome": "ELOHPRINT SINALIZACAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1280.0
+   },
+   {
+    "cnpj": "01234329000180",
+    "nome": "RECICLA RECICLAGEM LOBO Cia. LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "15754475000140",
+    "nome": "HOSTGATOR BRASIL LTDA.",
+    "cnae": "63119",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 82.81
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 2,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 80.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 123,
+   "total": 188790.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 91355.0,
+    "Cessão ou locação de veículos": 2000.0,
+    "Despesas com pessoal": 13822.0,
+    "Despesas com transporte ou deslocamento": 55000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 13.0,
+    "Locação/cessão de bens imóveis": 3600.0,
+    "Publicidade por carros de som": 20000.0,
+    "Serviços prestados por terceiros": 3000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

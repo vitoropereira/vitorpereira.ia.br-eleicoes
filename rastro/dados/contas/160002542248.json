@@ -1,0 +1,223 @@
+{
+ "sq": "160002542248",
+ "nome_urna": "MARIO VERRI",
+ "cargo": "depest",
+ "uf": "PR",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 237000.01,
+  "por_origem": {
+   "Recursos de outros candidatos": 5400.01,
+   "Recursos de partido político": 131500.0,
+   "Recursos de pessoas físicas": 76900.0,
+   "Recursos próprios": 23200.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 136900.01,
+   "OUTROS RECURSOS": 100100.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 131500.0
+   },
+   {
+    "cnpj": "68379713000141",
+    "nome": "ANTONIO TADEU VENERI",
+    "total": 5312.51
+   },
+   {
+    "cnpj": "68379679000105",
+    "nome": "EDUARDO GUILHERME REINER",
+    "total": 87.5
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 10,
+   "total": 100100.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 191667.77,
+  "total_pago": 150912.32,
+  "fornecedores_pj": [
+   {
+    "cnpj": "01069543000128",
+    "nome": "GRAFICA E EDITORA MASSONI LTDA",
+    "cnae": "18113",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 34010.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20500.0
+   },
+   {
+    "cnpj": "05639308000103",
+    "nome": "BEVILAQUA LEOPOLDINO CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "26276945000124",
+    "nome": "BORGHI, KALIL KOTSIFAS - ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "51897766000151",
+    "nome": "51.897.766 DAIANE FERREIRA DE ARAUJO",
+    "cnae": "43291",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4543.5
+   },
+   {
+    "cnpj": "59271137000123",
+    "nome": "59.271.137 ANDY CATARINE SILVA",
+    "cnae": "32990",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2811.92
+   },
+   {
+    "cnpj": "12328254000112",
+    "nome": "POSTO DUBAI LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2148.35
+   },
+   {
+    "cnpj": "26747811000144",
+    "nome": "ZEPPLIN TECNOLOGIA E SERVICOS DE ESCRITORIO LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "01207056000184",
+    "nome": "UNIDADE DE ENSINO SUPERIOR INGA LTDA",
+    "cnae": "85317",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "68363804000199",
+    "nome": "BANDEPAR BANDEIRAS LTDA",
+    "cnae": "13596",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "00774296000106",
+    "nome": "GRAFICA E EDITORA M. Z. LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 550.0
+   },
+   {
+    "cnpj": "21526639000185",
+    "nome": "IMPRIME CV LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 520.0
+   },
+   {
+    "cnpj": "22171430000109",
+    "nome": "ALLY EVENTOS E LOCACOES LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "55932367000135",
+    "nome": "PRINT LUX LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 434.0
+   },
+   {
+    "cnpj": "75431445000125",
+    "nome": "ASSOCIACAO DOS EMPREGADOS DA ITAIPU BINACIONAL BRASIL",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 150.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 24,
+   "total": 68000.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 30000.0,
+    "Despesas com pessoal": 29000.0,
+    "Publicidade por carros de som": 9000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,185 @@
+{
+ "sq": "150002544655",
+ "nome_urna": "TIBERIO LIMEIRA",
+ "cargo": "depest",
+ "uf": "PB",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 474950.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 277000.0,
+   "Recursos de pessoas físicas": 197950.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 277000.0,
+   "OUTROS RECURSOS": 197950.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68492510000167",
+    "nome": "FABIO TYRONE BRAGA DE OLIVEIRA",
+    "total": 267000.0
+   },
+   {
+    "cnpj": "68571449000143",
+    "nome": "JOAO AZEVEDO LINS FILHO",
+    "total": 10000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 49,
+   "total": 197950.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 297674.03,
+  "total_pago": 132419.3,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13510794000185",
+    "nome": "CENTRAL PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "08240660000151",
+    "nome": "AUTO POSTO DE COMBUSTIVEIS FREEWAY LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 51830.9
+   },
+   {
+    "cnpj": "04302609000176",
+    "nome": "VIMAEL IMOBILIARIA E PUBLICIDADE LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "21938799000131",
+    "nome": "21.938.799 DAVI GUEDES DE ANDRADE",
+    "cnae": "43291",
+    "n_despesas": 3,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20328.0
+   },
+   {
+    "cnpj": "13347016000389",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "82113",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "08540403000135",
+    "nome": "GRAFICA J B LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "10709777000183",
+    "nome": "CASTILHO ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "15031384000187",
+    "nome": "SANDRA MARIA SILVA DE CASTILHO",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "29618308000187",
+    "nome": "TELEFIBRA COMERCIO E SERVICOS LTDA",
+    "cnae": "33295",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5400.0
+   },
+   {
+    "cnpj": "67289168000130",
+    "nome": "IMAGINARI CENOGRAFIA E COMUNICACAO VISUAL LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "64755508000182",
+    "nome": "64.755.508 ILANA LUANA ALVES DE ALMEIDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2037.5
+   },
+   {
+    "cnpj": "15493015000106",
+    "nome": "LR NOVO MUNDO COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 275.63
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 4,
+   "total": 40802.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 27000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.0,
+    "Locação/cessão de bens imóveis": 13800.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

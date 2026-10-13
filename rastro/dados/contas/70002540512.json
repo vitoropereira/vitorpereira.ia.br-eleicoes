@@ -1,0 +1,187 @@
+{
+ "sq": "70002540512",
+ "nome_urna": "RICARDO VALE",
+ "cargo": "distrital",
+ "uf": "DF",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 683006.01,
+  "por_origem": {
+   "Recursos de outros candidatos": 3206.0,
+   "Recursos de partido político": 265500.0,
+   "Recursos de pessoas físicas": 398300.01,
+   "Recursos próprios": 16000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 268706.0,
+   "OUTROS RECURSOS": 414300.01
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265500.0
+   },
+   {
+    "cnpj": "68438111000118",
+    "nome": "ROBERTO POLICARPO FAGUNDES",
+    "total": 3206.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 75,
+   "total": 414300.01
+  }
+ },
+ "despesas": {
+  "total_contratado": 428320.4,
+  "total_pago": 454395.8,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 9,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 202000.0
+   },
+   {
+    "cnpj": "13453510000166",
+    "nome": "IDEIASCOM COMERCIO E SERVICOS DE COMUNICACAO E TECNOLOGIA LTDA",
+    "cnae": "82202",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "38407451000200",
+    "nome": "M4 INDUSTRIA COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30400.0
+   },
+   {
+    "cnpj": "21116170000106",
+    "nome": "INFINITA SOLUCOES IMOBILIARIAS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "07036477000176",
+    "nome": "PROJETO EVENTOS FESTAS E FORMATURAS LTDA",
+    "cnae": "93298",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "19855578000158",
+    "nome": "M P - TENDAS E FERRAGENS LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "42088040000187",
+    "nome": "NAIR PATRIMONIAL PARTICIPACOES LTDA.",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "04554113000190",
+    "nome": "JORNAL DO GUARA EDITORA E COMUNICACAO LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "13729360000170",
+    "nome": "LUGAR CERTO IMOBILIARIA LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "32677330001931",
+    "nome": "PD PAES E DELICIAS COMERCIO E INDUSTRIA DE PRODUTOS DE PANIFICACAO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 3795.0
+   },
+   {
+    "cnpj": "13036484000170",
+    "nome": "FORTIUM INDUSTRIA COMERCIO SERVICOS E TECNOLOGIA LTDA",
+    "cnae": "62091",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3370.9
+   },
+   {
+    "cnpj": "53990795000199",
+    "nome": "BRASILIA CAMISETA PROFISSIONAL LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "34697997000100",
+    "nome": "ALUK COMUNICACAO VISUAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1998.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 55,
+   "total": 107756.5,
+   "por_tipo": {
+    "Despesas com pessoal": 77600.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 36.5,
+    "Locação/cessão de bens imóveis": 30120.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

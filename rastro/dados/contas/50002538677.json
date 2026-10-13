@@ -1,0 +1,103 @@
+{
+ "sq": "50002538677",
+ "nome_urna": "MARQUINHO VIANA",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "PV",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 0.0,
+  "por_origem": {
+   "Não informada": 0.0
+  },
+  "por_fonte": {
+   "Não informada": 0.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 74836.0,
+  "total_pago": 0.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "26080840000103",
+    "nome": "A PLAY S COMERCIO E SERVICOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 43600.0
+   },
+   {
+    "cnpj": "02548313000104",
+    "nome": "S S VIVER TOUR VIAGENS E TURISMO LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "04220172000121",
+    "nome": "FLEXMIDIA COMERCIAL LTDA",
+    "cnae": "46516",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7011.0
+   },
+   {
+    "cnpj": "36723593000161",
+    "nome": "PRATICA ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "14682975000151",
+    "nome": "GRAFICA CAETITE LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2375.0
+   },
+   {
+    "cnpj": "13525731000100",
+    "nome": "AGENCIAMENTO E PUBLICIDADE IDEIA LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 450.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 5400.0,
+   "por_tipo": {
+    "Produção de jingles, vinhetas e slogans": 400.0,
+    "Serviços advocatícios": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

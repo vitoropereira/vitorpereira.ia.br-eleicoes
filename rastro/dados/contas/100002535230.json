@@ -1,0 +1,186 @@
+{
+ "sq": "100002535230",
+ "nome_urna": "ALUISIO MENDES",
+ "cargo": "depfed",
+ "uf": "MA",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1992988.37,
+  "por_origem": {
+   "Recursos de partido político": 1863488.37,
+   "Recursos de pessoas físicas": 18000.0,
+   "Recursos próprios": 111500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1753488.37,
+   "OUTROS RECURSOS": 239500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 1753488.37
+   },
+   {
+    "cnpj": "16520057000151",
+    "nome": "Direção Municipal/Comissão Provisória - REPUBLICANOS - SÃO LUÍS - MA",
+    "total": 110000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 129500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1073160.5,
+  "total_pago": 1870056.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "55474736000193",
+    "nome": "F DUTRA COMERCIO E SERVICOS LTDA",
+    "cnae": "80200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 400000.0
+   },
+   {
+    "cnpj": "55474736000274",
+    "nome": "F DUTRA COMERCIO E SERVICOS LTDA",
+    "cnae": "78108",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "11077458000165",
+    "nome": "VIA TAXI AEREO LTDA.",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "10330537000173",
+    "nome": "L.O.B.O EMPREENDIMENTOS LTDA",
+    "cnae": "43134",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 112000.0
+   },
+   {
+    "cnpj": "17668873000170",
+    "nome": "ERIC GUIMARAES ARAUJO",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 71490.0
+   },
+   {
+    "cnpj": "26764228000141",
+    "nome": "MADY LAINY SOUZA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "42994792000107",
+    "nome": "BUSINESS SERVICOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "29401282000110",
+    "nome": "AEROISA COMERCIAL DE COMBUSTIVEIS E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 30375.0
+   },
+   {
+    "cnpj": "08725872000129",
+    "nome": "CRIATIVA MARKETING E COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "21903173000190",
+    "nome": "ALCANCE CONSULTORIA SERVICOS E COMERCIO LTDA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10500.0
+   },
+   {
+    "cnpj": "35158716000104",
+    "nome": "CRISLENA INDUSTRIA E COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5750.0
+   },
+   {
+    "cnpj": "37394652000168",
+    "nome": "ETCETERA COMERCIO SERVICO LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4900.0
+   },
+   {
+    "cnpj": "59924243000169",
+    "nome": "59.924.243 LUCAS MATOS DE OLIVEIRA",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 4143.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 4002.5,
+   "por_tipo": {
+    "Despesa com Impulsionamento de Conteúdos": 4000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,201 @@
+{
+ "sq": "100002540263",
+ "nome_urna": "DANIELLA",
+ "cargo": "depest",
+ "uf": "MA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 563800.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 50900.0,
+   "Recursos de partido político": 170000.0,
+   "Recursos de pessoas físicas": 262900.0,
+   "Recursos próprios": 80000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 120000.0,
+   "FUNDO PARTIDARIO": 50000.0,
+   "OUTROS RECURSOS": 393800.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 170000.0
+   },
+   {
+    "cnpj": "68470064000190",
+    "nome": "AMANDA KELLY GENTIL GUIMARAES ROSA",
+    "total": 50900.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 16,
+   "total": 342900.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 300561.3,
+  "total_pago": 471955.36,
+  "fornecedores_pj": [
+   {
+    "cnpj": "35844647000184",
+    "nome": "J C SILVA LTDA",
+    "cnae": "17311",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 40150.0
+   },
+   {
+    "cnpj": "00963743000167",
+    "nome": "S F PINHEIRO E CIA LTDA",
+    "cnae": "47521",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "32456067000121",
+    "nome": "ATIVO ASSESSORIA CONSULTORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "33177095000172",
+    "nome": "LINS LTDA",
+    "cnae": "46699",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "57267185000112",
+    "nome": "FALCAO FALCAO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "15827503000102",
+    "nome": "GUMERCINDO GOMES DE ARAUJO NETO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 15250.0
+   },
+   {
+    "cnpj": "04502809000334",
+    "nome": "POSTO GUIMARAES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10117.6
+   },
+   {
+    "cnpj": "14249781000167",
+    "nome": "GM CONSULTORES LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 9888.2
+   },
+   {
+    "cnpj": "02499003000147",
+    "nome": "PANIFICADORA PAO E LEITE LTDA",
+    "cnae": "10911",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "31838128000152",
+    "nome": "DISTRIBUICAO DE ALIMENTOS VANGUARDA S/A",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "40665590000196",
+    "nome": "E COSTA VILANOVA LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4800.0
+   },
+   {
+    "cnpj": "04749598000177",
+    "nome": "J M ENGENHARIA E SERVICOS GRAFICOS LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4700.0
+   },
+   {
+    "cnpj": "19768656000187",
+    "nome": "INDUSTRIA GRAFICA E EDITORA SAO PAULO LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2750.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 12,
+   "total": 60405.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 15000.0,
+    "Despesas com pessoal": 15400.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 5.5,
+    "Locação/cessão de bens imóveis": 20000.0,
+    "Serviços prestados por terceiros": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

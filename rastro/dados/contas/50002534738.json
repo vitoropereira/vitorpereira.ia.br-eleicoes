@@ -1,0 +1,151 @@
+{
+ "sq": "50002534738",
+ "nome_urna": "NETO CARLETTO",
+ "cargo": "depfed",
+ "uf": "BA",
+ "partido": "AVANTE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1798789.71,
+  "por_origem": {
+   "Recursos de partido político": 1300000.0,
+   "Recursos de pessoas físicas": 361505.0,
+   "Recursos próprios": 137284.71
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1300000.0,
+   "OUTROS RECURSOS": 498789.71
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "59933952000100",
+    "nome": "Direção Nacional - AVANTE",
+    "total": 1300000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 498789.71
+  }
+ },
+ "despesas": {
+  "total_contratado": 972512.5,
+  "total_pago": 976214.6,
+  "fornecedores_pj": [
+   {
+    "cnpj": "34598438000135",
+    "nome": "EMGRAF FLEXO E GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "07620639000119",
+    "nome": "PORTO VIVAS COMERCIO, SERVICOS E CONSTRUTORA LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "01542994000130",
+    "nome": "CARVALHO CARVALHO INDUSTRIA E COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68798808000108",
+    "nome": "SAULO LELIS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 17500.0
+   },
+   {
+    "cnpj": "37731552000180",
+    "nome": "LOMANTO CERQUEIRA ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 12500.0
+   },
+   {
+    "cnpj": "21740082000180",
+    "nome": "BRENNO CARDOSO SILVA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5400.0
+   },
+   {
+    "cnpj": "13896000000163",
+    "nome": "DOURADO COMUNICACAO VISUAL E GRAFICA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3200.0
+   },
+   {
+    "cnpj": "14682975000151",
+    "nome": "GRAFICA CAETITE LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "30867948000100",
+    "nome": "AJATTO GRAFICA E SERVICOS LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 34,
+   "total": 630212.5,
+   "por_tipo": {
+    "Despesas com pessoal": 617000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 12.5,
+    "Locação/cessão de bens imóveis": 13200.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

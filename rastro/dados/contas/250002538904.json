@@ -1,0 +1,153 @@
+{
+ "sq": "250002538904",
+ "nome_urna": "EDIANE MARIA",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PSOL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1112927.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 3907.0,
+   "Recursos de outros candidatos": 8820.0,
+   "Recursos de partido político": 1080200.0,
+   "Recursos de pessoas físicas": 20000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1089020.0,
+   "OUTROS RECURSOS": 23907.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "06954942000195",
+    "nome": "Direção Nacional - PSOL",
+    "total": 1080200.0
+   },
+   {
+    "cnpj": "68438024000160",
+    "nome": "ERIKA SANTOS SILVA",
+    "total": 8820.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 3907.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 20000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 521796.75,
+  "total_pago": 217112.93,
+  "fornecedores_pj": [
+   {
+    "cnpj": "10635865000188",
+    "nome": "PUBLICOMUNICACAO PROPAGANDA E MARKETING LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 40826.6
+   },
+   {
+    "cnpj": "61997755000105",
+    "nome": "VALLILO GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 36618.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 33700.0
+   },
+   {
+    "cnpj": "50977656000137",
+    "nome": "CONTAS PARTIDARIAS CONSULTORIA E ASSESSORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 32400.0
+   },
+   {
+    "cnpj": "10464395000137",
+    "nome": "IZAEL LEMES TRINDADE SOROCABA",
+    "cnae": "53202",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "40048820000178",
+    "nome": "JESSICA DA MATA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "68438356000145",
+    "nome": "AUDEIDE CARDOSO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "04240708000170",
+    "nome": "TRIO ELETRICO BRASIL LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 92.43
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 56,
+   "total": 330659.72,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 69537.18,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 20.5,
+    "Serviços prestados por terceiros": 244102.04,
+    "Serviços próprios prestados por terceiros": 17000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

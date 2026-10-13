@@ -1,0 +1,191 @@
+{
+ "sq": "50002532630",
+ "nome_urna": "RAIMUNDO COSTA",
+ "cargo": "depfed",
+ "uf": "BA",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2233700.0,
+  "por_origem": {
+   "Recursos de partido político": 2100000.0,
+   "Recursos de pessoas físicas": 83700.0,
+   "Recursos próprios": 50000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2100000.0,
+   "OUTROS RECURSOS": 133700.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 2100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 33,
+   "total": 133700.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1335107.27,
+  "total_pago": 2154812.42,
+  "fornecedores_pj": [
+   {
+    "cnpj": "56304209000101",
+    "nome": "2P COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "00188004000145",
+    "nome": "URANUS 2 COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 268600.0
+   },
+   {
+    "cnpj": "35825661000130",
+    "nome": "TAPIS ROUGE PRODUCOES E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 219400.0
+   },
+   {
+    "cnpj": "07556546000172",
+    "nome": "PRESSGRAF IMPORTACAO TECNOLOGIA E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 181900.0
+   },
+   {
+    "cnpj": "66743508000198",
+    "nome": "M.I.P - MARKETING LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 90000.0
+   },
+   {
+    "cnpj": "15242471000183",
+    "nome": "WR EMPREENDIMENTOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "42755944000119",
+    "nome": "PEDRO MAGALHAES E LUIZ EDUARDO ROMANO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "22415388000124",
+    "nome": "DS CONTRIBUTE CONTABILIDADE PUBLICA E EMPRESARIAL LTDA.",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 28000.0
+   },
+   {
+    "cnpj": "04821551000177",
+    "nome": "SPEED WAY - LOCADORA DE AUTOMOVEIS LTDA.",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 25000.32
+   },
+   {
+    "cnpj": "12209884000178",
+    "nome": "PONTO 8 WEB COMUNICACAO LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 24390.24
+   },
+   {
+    "cnpj": "14458989000196",
+    "nome": "WF COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 21896.0
+   },
+   {
+    "cnpj": "12094432000198",
+    "nome": "EVANILDO CARDIM COUTINHO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5336.41
+   },
+   {
+    "cnpj": "43696229000115",
+    "nome": "ACERTPRINT COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 470.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 114.3,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 114.3
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

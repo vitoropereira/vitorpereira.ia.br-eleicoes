@@ -1,0 +1,193 @@
+{
+ "sq": "150002544185",
+ "nome_urna": "DR. JARQUES",
+ "cargo": "depest",
+ "uf": "PB",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 457224.49,
+  "por_origem": {
+   "Recursos de partido político": 451224.49,
+   "Recursos de pessoas físicas": 6000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 195000.0,
+   "FUNDO PARTIDARIO": 105000.0,
+   "OUTROS RECURSOS": 157224.49
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07644852000160",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - PARAÍBA",
+    "total": 255000.0
+   },
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 195000.0
+   },
+   {
+    "cnpj": "70118955000123",
+    "nome": "Direção Estadual/Distrital - PP - PARAÍBA",
+    "total": 1224.49
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 6000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 351051.6,
+  "total_pago": 295979.9,
+  "fornecedores_pj": [
+   {
+    "cnpj": "20174243000153",
+    "nome": "GUIA SERVICOS DE COMUNICACAO LTDA",
+    "cnae": "63992",
+    "n_despesas": 3,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans",
+     "Produção de programas de rádio, televisão ou vídeo",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "28941746000119",
+    "nome": "MCREPRE LTDA",
+    "cnae": "47113",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos"
+    ],
+    "total": 50253.0
+   },
+   {
+    "cnpj": "26057932000164",
+    "nome": "PRODUZ AUDIO SERVICOS LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "04994119000188",
+    "nome": "OPINIAO PESQUISAS SOCIAIS LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 28000.0
+   },
+   {
+    "cnpj": "10596370000197",
+    "nome": "ASTEC GROUP CONTADORES ASSOCIADOS S/S LTDA.",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "58503557000125",
+    "nome": "LAYON RODOLLFO DUTRA DA SILVA SANTOS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "58427070000100",
+    "nome": "PERSONA LTDA",
+    "cnae": "13405",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 15100.0
+   },
+   {
+    "cnpj": "15689756000167",
+    "nome": "JR SOLUCOES VISUAIS LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "08540403000135",
+    "nome": "GRAFICA J B LTDA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7240.0
+   },
+   {
+    "cnpj": "66760517000197",
+    "nome": "LOCAFACIL.BR ALUGUEL LTDA",
+    "cnae": "77322",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "09123654000187",
+    "nome": "COMPANHIA DE AGUA E ESGOTOS DA PARAIBA CAGEPA",
+    "cnae": "36006",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 685.42
+   },
+   {
+    "cnpj": "09095183000140",
+    "nome": "ENERGISA PARAIBA - DISTRIBUIDORA DE ENERGIA S.A",
+    "cnae": "35140",
+    "n_despesas": 1,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 552.68
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 11,
+   "total": 16220.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 16210.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 10.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

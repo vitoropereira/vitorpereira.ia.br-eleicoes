@@ -1,0 +1,121 @@
+{
+ "sq": "140002540619",
+ "nome_urna": "ANDRÉIA SIQUEIRA",
+ "cargo": "depfed",
+ "uf": "PA",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2005708.5,
+  "por_origem": {
+   "Recursos de partido político": 1904008.5,
+   "Recursos de pessoas físicas": 101700.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1000000.0,
+   "FUNDO PARTIDARIO": 13000.0,
+   "OUTROS RECURSOS": 992708.5
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 1013000.0
+   },
+   {
+    "cnpj": "02663820000199",
+    "nome": "Direção Estadual/Distrital - PSB - PARÁ",
+    "total": 846330.0
+   },
+   {
+    "cnpj": "03724618000192",
+    "nome": "Direção Municipal/Comissão Provisória - MDB - MARABÁ - PA",
+    "total": 44678.5
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 12,
+   "total": 101700.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 402767.0,
+  "total_pago": 1105445.47,
+  "fornecedores_pj": [
+   {
+    "cnpj": "06141617000103",
+    "nome": "BRASIL COMERCIO DE ARTIGOS GRAFICOS LTDA",
+    "cnae": "46478",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 102000.0
+   },
+   {
+    "cnpj": "32969011000170",
+    "nome": "INFINITAMENTE + CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "40488932000140",
+    "nome": "BIBAS, GAIA E MOURA SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "21581090000121",
+    "nome": "INSIGHT SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 38180.0
+   },
+   {
+    "cnpj": "37406249000101",
+    "nome": "T P C SERVICOS DE TRANSPORTES E LOCACAO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 17987.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 145,
+   "total": 131600.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 99000.0,
+    "Cessão ou locação de veículos": 8600.0,
+    "Publicidade por carros de som": 24000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,421 @@
+{
+ "sq": "180002532479",
+ "nome_urna": "DR. FRANCISCO",
+ "cargo": "depfed",
+ "uf": "PI",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1930087.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 5130.0,
+   "Recursos de partido político": 1819750.0,
+   "Recursos de pessoas físicas": 65207.0,
+   "Recursos próprios": 40000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1824880.0,
+   "OUTROS RECURSOS": 105207.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1800000.0
+   },
+   {
+    "cnpj": "07473085000174",
+    "nome": "Direção Estadual/Distrital - PT - PIAUÍ",
+    "total": 19750.0
+   },
+   {
+    "cnpj": "68238024000117",
+    "nome": "RAFAEL TAJRA FONTELES",
+    "total": 5130.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 12,
+   "total": 105207.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 948556.96,
+  "total_pago": 1545832.42,
+  "fornecedores_pj": [
+   {
+    "cnpj": "15827503000102",
+    "nome": "GUMERCINDO GOMES DE ARAUJO NETO LTDA",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "55809095000180",
+    "nome": "FLEX SERVICO GRAFICO LTDA",
+    "cnae": "18113",
+    "n_despesas": 12,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 71871.5
+   },
+   {
+    "cnpj": "21500360000122",
+    "nome": "SILVA BARROSO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "54701208000167",
+    "nome": "ONNISFERA SOLUCOES INTEGRADAS LTDA",
+    "cnae": "18229",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 47871.5
+   },
+   {
+    "cnpj": "39936812000189",
+    "nome": "RAFAEL DA SILVA OLIVEIRA",
+    "cnae": "73114",
+    "n_despesas": 3,
+    "tipos": [
+     "Comícios",
+     "Locação/cessão de bens móveis (exceto veículos)",
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 42490.0
+   },
+   {
+    "cnpj": "21591697000192",
+    "nome": "AGILIZA SERVICOS CONTABEIS E APOIO ADMINISTRATIVO LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "46709340000197",
+    "nome": "P D PEREIRA CHAVES",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 33000.0
+   },
+   {
+    "cnpj": "21088004000143",
+    "nome": "SERVFAZ SERVICOS DE SEGURANCA LTDA",
+    "cnae": "80111",
+    "n_despesas": 1,
+    "tipos": [
+     "Segurança e prevenção, repressão e combate à violência política"
+    ],
+    "total": 27312.5
+   },
+   {
+    "cnpj": "43004368000130",
+    "nome": "L R DO NASCIMENTO LIMA LTDA",
+    "cnae": "29107",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "33132640000104",
+    "nome": "M V OLIVEIRA VIEIRA",
+    "cnae": "18113",
+    "n_despesas": 13,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26235.0
+   },
+   {
+    "cnpj": "35503459000192",
+    "nome": "EUVALDO BARROS FEITOSA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 21500.0
+   },
+   {
+    "cnpj": "17577449000110",
+    "nome": "MY CAR LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 17040.0
+   },
+   {
+    "cnpj": "34028316181574",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 16593.72
+   },
+   {
+    "cnpj": "33684831000189",
+    "nome": "THIAGO L DA SILVA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15382.0
+   },
+   {
+    "cnpj": "11491405000196",
+    "nome": "JEPHISON ARAUJO DA SILVA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 13500.0
+   },
+   {
+    "cnpj": "48685249000104",
+    "nome": "M DA C SOUSA PAPELARIA LTDA",
+    "cnae": "47610",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12062.5
+   },
+   {
+    "cnpj": "66718590000109",
+    "nome": "DIVINA COZINHA LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 7125.0
+   },
+   {
+    "cnpj": "00294351000152",
+    "nome": "COMERCIAL BEBIFESTAS LTDA",
+    "cnae": "47237",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)",
+     "Água"
+    ],
+    "total": 5372.0
+   },
+   {
+    "cnpj": "21137464000114",
+    "nome": "T MENDES MELO LIMA - ARTES GRAFICAS",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4950.0
+   },
+   {
+    "cnpj": "35822351000162",
+    "nome": "I P DA SILVA SERVICOS E VENDA DE PECAS E ACESSORIOS AUTOMOTORES LTDA",
+    "cnae": "45200",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4170.0
+   },
+   {
+    "cnpj": "56606188000170",
+    "nome": "Y I CADDAH",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "02927004000307",
+    "nome": "TRANSSERVICE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3035.11
+   },
+   {
+    "cnpj": "68040470000112",
+    "nome": "HOTEL FLORIANO LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2875.0
+   },
+   {
+    "cnpj": "02927004000145",
+    "nome": "TRANSSERVICE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2604.54
+   },
+   {
+    "cnpj": "58912050000125",
+    "nome": "GRAFICA GABRIELLA LTDA",
+    "cnae": "46478",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2262.5
+   },
+   {
+    "cnpj": "01991038000136",
+    "nome": "BEETHOVEN BRANDAO EMPREENDIMENTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1183.72
+   },
+   {
+    "cnpj": "34966838000156",
+    "nome": "F. G. COM. DE EQUIPAMENTOS E SERVICOS LTDA.",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1130.0
+   },
+   {
+    "cnpj": "42744320000104",
+    "nome": "B H BERTOLDO ANDRADE PRODUCOES LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "93209765040682",
+    "nome": "WMS SUPERMERCADOS DO BRASIL LTDA.",
+    "cnae": "47113",
+    "n_despesas": 4,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 988.07
+   },
+   {
+    "cnpj": "42054180000134",
+    "nome": "FG COPIADORAS E SERVICOS LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "26165413000381",
+    "nome": "J V AMORIM LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 690.15
+   },
+   {
+    "cnpj": "37909259000160",
+    "nome": "GRUPO IMPRESSO GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 312.0
+   },
+   {
+    "cnpj": "32112256000187",
+    "nome": "IURI DE OLIVEIRA PRACA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 228.0
+   },
+   {
+    "cnpj": "08792015000141",
+    "nome": "PEDRO AFONSO SILVA LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 21.75
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 20,
+   "total": 138850.4,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 102000.0,
+    "Despesas com pessoal": 7685.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 112.4,
+    "Locação/cessão de bens imóveis": 7500.0,
+    "Serviços prestados por terceiros": 21553.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

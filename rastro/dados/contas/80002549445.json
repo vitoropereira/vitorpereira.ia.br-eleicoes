@@ -1,0 +1,129 @@
+{
+ "sq": "80002549445",
+ "nome_urna": "PETER COSTA",
+ "cargo": "depest",
+ "uf": "ES",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 328850.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 156755.0,
+   "Recursos de partido político": 150000.0,
+   "Recursos de pessoas físicas": 22095.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 300000.0,
+   "OUTROS RECURSOS": 28850.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 150000.0
+   },
+   {
+    "cnpj": "68464568000105",
+    "nome": "EDSON MARCIO DE ALMEIDA",
+    "total": 150000.0
+   },
+   {
+    "cnpj": "68464728000108",
+    "nome": "RENATA SABRA BAIAO FIORIO NASCIMENTO",
+    "total": 3450.0
+   },
+   {
+    "cnpj": "68464753000191",
+    "nome": "ALEXANDRE MARCELO COUTINHO SANTOS",
+    "total": 3305.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 22095.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 118694.06,
+  "total_pago": 97595.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13122119000189",
+    "nome": "FACILITTA CONTABILIDADE CONSULTORIA E NEGOCIOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "57802848000151",
+    "nome": "57.802.848 ROBERTO VELASCO DUTRA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "04310842000109",
+    "nome": "AUTO POSTO SAO JOSE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6072.56
+   },
+   {
+    "cnpj": "44658453000185",
+    "nome": "44.658.453 BETANIA BRUM GOMES",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3300.0
+   },
+   {
+    "cnpj": "29537155000143",
+    "nome": "29.537.155 WILLIAM MARQUEZ FLORINDO",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "27126101000160",
+    "nome": "GRACAL GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 220.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 26,
+   "total": 83701.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 14180.0,
+    "Cessão ou locação de veículos": 44000.0,
+    "Despesas com pessoal": 8320.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.5,
+    "Locação/cessão de bens imóveis": 2200.0,
+    "Serviços advocatícios": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,280 @@
+{
+ "sq": "60002540726",
+ "nome_urna": "ILO NETO",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 574625.0,
+  "por_origem": {
+   "Recursos de partido político": 43225.0,
+   "Recursos de pessoas físicas": 513250.0,
+   "Recursos próprios": 18150.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 27725.0,
+   "FUNDO PARTIDARIO": 15500.0,
+   "OUTROS RECURSOS": 531400.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 43225.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 26,
+   "total": 531400.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 377549.25,
+  "total_pago": 538019.7,
+  "fornecedores_pj": [
+   {
+    "cnpj": "36310705000152",
+    "nome": "IMPULSE COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "00212872000113",
+    "nome": "ASA SUL INDUSTRIA E COMERCIO DE MALHAS LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25200.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "55105129000156",
+    "nome": "TANIA MARTINS FERREIRA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "62910210000174",
+    "nome": "TOM ARTE GRAFICA E COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23512.5
+   },
+   {
+    "cnpj": "13408058000110",
+    "nome": "AIRTON PALACIO DE SOUZA JUNIOR LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 15821.28
+   },
+   {
+    "cnpj": "13328959000100",
+    "nome": "PEDRO TEIXEIRA CAVALCANTE NETO ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "46185264000168",
+    "nome": "46.185.264 MARIA VILENE DA SILVA BARBOSA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "19336598000112",
+    "nome": "A N SILVA DE MEL SERVICOS E COMERCIO",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "05036551000129",
+    "nome": "JAYMES ALVES FERREIRA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3200.0
+   },
+   {
+    "cnpj": "36705478000164",
+    "nome": "ANTONIO EDSON BEZERRA PALACIO",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3149.0
+   },
+   {
+    "cnpj": "02933302000148",
+    "nome": "QUALIGRAF - EDITORA E GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2700.0
+   },
+   {
+    "cnpj": "64792561000153",
+    "nome": "64.792.561 IGOR GONCALVES PINHEIRO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2295.0
+   },
+   {
+    "cnpj": "15081431000105",
+    "nome": "SOLUTION TECHNOLOGIA LTDA",
+    "cnae": "95118",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "29218426000106",
+    "nome": "PL GRAFICA UNIPESSOAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "51216866000175",
+    "nome": "ANTONIO J. C. DE M. JUNIOR LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1080.0
+   },
+   {
+    "cnpj": "13408058000382",
+    "nome": "AIRTON PALACIO DE SOUZA JUNIOR LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 862.77
+   },
+   {
+    "cnpj": "05717186000118",
+    "nome": "CAMARA DE DIRIGENTES LOJISTAS DE IGUATU",
+    "cnae": "94111",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "03932483000150",
+    "nome": "E N MORENO LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 640.0
+   },
+   {
+    "cnpj": "02342254000113",
+    "nome": "M A PINHEIRO LTDA",
+    "cnae": "47610",
+    "n_despesas": 4,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 320.0
+   },
+   {
+    "cnpj": "26942996000148",
+    "nome": "26.942.996 PATRICIA MARIA FERNANDES PALACIO",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 210.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 87,
+   "total": 168608.7,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 16632.0,
+    "Cessão ou locação de veículos": 36421.0,
+    "Despesas com pessoal": 67558.0,
+    "Despesas com transporte ou deslocamento": 18150.0,
+    "Diversas a especificar": 4200.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 107.7,
+    "Locação/cessão de bens imóveis": 17000.0,
+    "Publicidade por carros de som": 8000.0,
+    "Serviços próprios prestados por terceiros": 540.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

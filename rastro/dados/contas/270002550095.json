@@ -1,0 +1,174 @@
+{
+ "sq": "270002550095",
+ "nome_urna": "LEO BARBOSA",
+ "cargo": "depest",
+ "uf": "TO",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 598890.44,
+  "por_origem": {
+   "Recursos de outros candidatos": 12050.42,
+   "Recursos de partido político": 437840.02,
+   "Recursos de pessoas físicas": 149000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 199092.5,
+   "FUNDO PARTIDARIO": 222031.52,
+   "OUTROS RECURSOS": 177766.42
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08917083000190",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - TOCANTINS",
+    "total": 222031.52
+   },
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 190000.0
+   },
+   {
+    "cnpj": "08738595000199",
+    "nome": "Direção Estadual/Distrital - PL - TOCANTINS",
+    "total": 25808.5
+   },
+   {
+    "cnpj": "68527002000177",
+    "nome": "FABIO PEREIRA VAZ",
+    "total": 9092.5
+   },
+   {
+    "cnpj": "68492195000178",
+    "nome": "MARIA AUXILIADORA SEABRA REZENDE",
+    "total": 2957.92
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 10,
+   "total": 149000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 122310.58,
+  "total_pago": 21001.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "23004194000107",
+    "nome": "MAIA PROPAGANDA E MARKETING LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "64027995000167",
+    "nome": "HSA PRODUCOES LTDA",
+    "cnae": "73114",
+    "n_despesas": 3,
+    "tipos": [
+     "Eventos de promoção da candidatura",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23450.0
+   },
+   {
+    "cnpj": "65681036000123",
+    "nome": "MAYSSA VIEIRA PICCOLO PINHEIRO LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "55586547000102",
+    "nome": "GTM COMUNICACAO VISUAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "07727594000186",
+    "nome": "NATALYA BRINDES LTDA",
+    "cnae": "14126",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8960.0
+   },
+   {
+    "cnpj": "53300895000146",
+    "nome": "PAZINI CONFECCOES LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "51039890000186",
+    "nome": "PAULO PEDRO FERREIRA BARBOSA LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "13543878000115",
+    "nome": "NACIONAL EMPREENDIMENTOS LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3450.0
+   },
+   {
+    "cnpj": "34309267000187",
+    "nome": "COMERCIAL DE COMBUSTIVEIS CASA TUA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1899.58
+   },
+   {
+    "cnpj": "37421336000138",
+    "nome": "JOSE A R MATOS",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1050.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 5,
+   "total": 16501.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 7000.0,
+    "Despesas com pessoal": 9500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

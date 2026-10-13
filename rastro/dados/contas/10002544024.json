@@ -1,0 +1,95 @@
+{
+ "sq": "10002544024",
+ "nome_urna": "LEÔNCIO CASTRO",
+ "cargo": "depest",
+ "uf": "AC",
+ "partido": "PSDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 168000.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 20000.0,
+   "Recursos de partido político": 10000.0,
+   "Recursos de pessoas físicas": 53000.0,
+   "Recursos próprios": 85000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 30000.0,
+   "OUTROS RECURSOS": 138000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68492535000160",
+    "nome": "JULIET NEVES MATOS",
+    "total": 20000.0
+   },
+   {
+    "cnpj": "03653474000120",
+    "nome": "Direção Nacional - PSDB",
+    "total": 10000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 138000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 71450.5,
+  "total_pago": 90050.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "48498781000112",
+    "nome": "CRIART BRASIL LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 31500.0
+   },
+   {
+    "cnpj": "40626148000150",
+    "nome": "EVERTON FROTA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 6550.0
+   },
+   {
+    "cnpj": "45991563000127",
+    "nome": "M MACHADO SERVICOS DE GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3400.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 0.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

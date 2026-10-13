@@ -1,0 +1,378 @@
+{
+ "sq": "110002550859",
+ "nome_urna": "LEO BORTOLIN",
+ "cargo": "depest",
+ "uf": "MT",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1146184.72,
+  "por_origem": {
+   "Recursos de outros candidatos": 6229.16,
+   "Recursos de pessoas físicas": 1025004.56,
+   "Recursos próprios": 114951.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 6229.16,
+   "OUTROS RECURSOS": 1139955.56
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68605947000160",
+    "nome": "JANAINA GREYCE RIVA FAGUNDES",
+    "total": 6229.16
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 33,
+   "total": 1139955.56
+  }
+ },
+ "despesas": {
+  "total_contratado": 692661.53,
+  "total_pago": 173157.78,
+  "fornecedores_pj": [
+   {
+    "cnpj": "27107920000160",
+    "nome": "UNICAR LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 8,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 91698.69
+   },
+   {
+    "cnpj": "05972555000119",
+    "nome": "JJ PROPAGANDAS, SERVICOS E SONORIZACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "23510356000170",
+    "nome": "F. M LIMA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "25188538000100",
+    "nome": "ESSENT INOVACAO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços contábeis",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "53575421000107",
+    "nome": "PANTANAL FILMES AUDIO E IMAGEM LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "02944523000111",
+    "nome": "DUARTE AMORIM CIA LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 36000.0
+   },
+   {
+    "cnpj": "11020513000180",
+    "nome": "W BERTUNCELLI GRAFICA 3D LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "10280806003150",
+    "nome": "FRIBON TRANSPORTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 20994.1
+   },
+   {
+    "cnpj": "19755063000186",
+    "nome": "T. J. CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20950.0
+   },
+   {
+    "cnpj": "17714268000198",
+    "nome": "SCHAFER AGROPECUARIA LTDA",
+    "cnae": "01512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "32953905000172",
+    "nome": "TUBARAO INDUSTRIA COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "65532170000162",
+    "nome": "J. SACCO JUNIOR",
+    "cnae": "52401",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 12480.0
+   },
+   {
+    "cnpj": "34307631000170",
+    "nome": "BUMARGI LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "08876164000199",
+    "nome": "DIAMANTE AZUL EMPRESA HOTELEIRA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 4827.0
+   },
+   {
+    "cnpj": "84010040000104",
+    "nome": "PIONEIRO COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 4082.72
+   },
+   {
+    "cnpj": "43027120000195",
+    "nome": "BELVEDERE COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 12,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3095.0
+   },
+   {
+    "cnpj": "41475057000124",
+    "nome": "NM CONVENIENCIA LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "39825435001263",
+    "nome": "MARLIM AZUL COMERCIO E TRANSPORTE DE PETROLEO E DERIVADOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 1550.0
+   },
+   {
+    "cnpj": "10529163000110",
+    "nome": "PROJEWEB EVENTOS LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "20978400000183",
+    "nome": "POSTO DE SERVICOS DE COMBUSTIVEIS TOP LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1043.4
+   },
+   {
+    "cnpj": "43549814000192",
+    "nome": "COMERCIO DE COMBUSTIVEL REDE BRASIL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 518.63
+   },
+   {
+    "cnpj": "03843307001971",
+    "nome": "DIOCESE DE RONDONOPOLIS - GUIRATINGA",
+    "cnae": "94910",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "05773237000129",
+    "nome": "COMERCIO DE COMBUSTIVEIS MOTA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 471.79
+   },
+   {
+    "cnpj": "32196903000186",
+    "nome": "POSTO CASTELANDIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 444.27
+   },
+   {
+    "cnpj": "10269290000127",
+    "nome": "J. C. ROHDEN CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 380.0
+   },
+   {
+    "cnpj": "09424309000183",
+    "nome": "AUTO POSTO BACABA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 335.09
+   },
+   {
+    "cnpj": "22620102000142",
+    "nome": "AUTO POSTO BANDEIRANTES COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 310.05
+   },
+   {
+    "cnpj": "01160370000159",
+    "nome": "ASSOCIACAO DOS SERVIDORES MUNICIPAIS DE CAMPO VERDE-MT",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "33070814001042",
+    "nome": "CARVALIMA TRANSPORTES LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 210.2
+   },
+   {
+    "cnpj": "55962521000111",
+    "nome": "POSTO URBANO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 107.79
+   },
+   {
+    "cnpj": "51388930000103",
+    "nome": "G J DE MEDEIROS",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 13.5
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 66,
+   "total": 192349.3,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 65680.0,
+    "Cessão ou locação de veículos": 8500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 32.1,
+    "Locação/cessão de bens imóveis": 2500.0,
+    "Publicidade por carros de som": 250.0,
+    "Serviços advocatícios": 60000.0,
+    "Serviços prestados por terceiros": 5000.0,
+    "Serviços próprios prestados por terceiros": 50387.2
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

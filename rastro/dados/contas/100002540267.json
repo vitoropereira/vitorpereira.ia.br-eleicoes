@@ -1,0 +1,189 @@
+{
+ "sq": "100002540267",
+ "nome_urna": "BRUNA PESSOA",
+ "cargo": "depest",
+ "uf": "MA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 748323.0,
+  "por_origem": {
+   "Recursos de partido político": 630000.0,
+   "Recursos de pessoas físicas": 98323.0,
+   "Recursos próprios": 20000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 630000.0,
+   "OUTROS RECURSOS": 118323.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 630000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 27,
+   "total": 118323.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 243163.01,
+  "total_pago": 307623.12,
+  "fornecedores_pj": [
+   {
+    "cnpj": "48517495000157",
+    "nome": "OUTMIDIA COMUNICACAO SOCIEDADE UNIPESSOAL LIMITADA",
+    "cnae": "43291",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 51000.0
+   },
+   {
+    "cnpj": "50302932000167",
+    "nome": "50.302.932 MARIANA FARIAS GOMES",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "24620019000107",
+    "nome": "AGITA BRASIL COMERCIO DE CAMISETAS PARA EVENTOS LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22750.0
+   },
+   {
+    "cnpj": "02906885000118",
+    "nome": "CONTMAP ASSESSORIA CONTABIL LTDA.",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "32883819000130",
+    "nome": "A P CARVALHO - COMERCIO E SERVICOS LTDA",
+    "cnae": "46494",
+    "n_despesas": 1,
+    "tipos": [
+     "Aquisição/Doação de bens móveis ou imóveis"
+    ],
+    "total": 10700.0
+   },
+   {
+    "cnpj": "18795845000186",
+    "nome": "18.795.845 DANILO JORGE TAVORA COSTA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "38203366000130",
+    "nome": "TREVO COMERCIO E SERVICOS LTDA",
+    "cnae": "46494",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2950.0
+   },
+   {
+    "cnpj": "47661330000191",
+    "nome": "B S SILVA COMUNICAO VISUAL",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2034.36
+   },
+   {
+    "cnpj": "33336211000159",
+    "nome": "CATI CVI LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1480.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "07049976000106",
+    "nome": "J GONCALVES DOS SANTOS FILHO CIA LTDA",
+    "cnae": "46737",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 501.6
+   },
+   {
+    "cnpj": "38357076000222",
+    "nome": "TINTORAMA COMERCIO DE TINTAS E MATERIAIS DE CONTRUCOES EM GERAL LTDA",
+    "cnae": "47415",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 270.0
+   },
+   {
+    "cnpj": "35196823001514",
+    "nome": "NICOLAU DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 259.05
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 59,
+   "total": 88218.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 2640.0,
+    "Cessão ou locação de veículos": 3000.0,
+    "Despesas com pessoal": 12072.0,
+    "Despesas com transporte ou deslocamento": 31300.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 6.0,
+    "Locação/cessão de bens imóveis": 27000.0,
+    "Pré-instalação física de comitê de campanha": 2200.0,
+    "Serviços advocatícios": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

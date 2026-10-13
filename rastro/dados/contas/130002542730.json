@@ -1,0 +1,136 @@
+{
+ "sq": "130002542730",
+ "nome_urna": "DELEGADO MARCELO FREITAS",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3031643.75,
+  "por_origem": {
+   "Recursos de outros candidatos": 3243.75,
+   "Recursos de partido político": 2899800.0,
+   "Recursos de pessoas físicas": 78600.0,
+   "Recursos próprios": 50000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2899800.0,
+   "OUTROS RECURSOS": 131843.75
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 2899800.0
+   },
+   {
+    "cnpj": "68437345000140",
+    "nome": "LUCAS LASMAR DE MOURA COSTA RESENDE",
+    "total": 3243.75
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 128600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 124464.5,
+  "total_pago": 22502.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "66276882000120",
+    "nome": "MY HOUSE LTDA",
+    "cnae": "47547",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "32638872000176",
+    "nome": "LEAO TRANSPORTES, GRAFICA E IMPRESSOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "05745742000160",
+    "nome": "GUIMARAES E AMARAL LTDA",
+    "cnae": "47563",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 13000.0
+   },
+   {
+    "cnpj": "66256629000105",
+    "nome": "CELSOM PRODUTORA DE AUDIO E PROMOCOES LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "00947030000100",
+    "nome": "SAYRO EQUIPAMENTOS DE SEGURANCA LTDA",
+    "cnae": "32922",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3900.0
+   },
+   {
+    "cnpj": "46180855000142",
+    "nome": "REAL MARKETING SERVICOS LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "43072106000103",
+    "nome": "43.072.106 SAMARA RIBEIRO VELOSO",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "20789673000180",
+    "nome": "IMPRESILK COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 362.5
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 4,
+   "total": 2702.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.0,
+    "Locação/cessão de bens imóveis": 2700.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

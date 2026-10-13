@@ -1,0 +1,177 @@
+{
+ "sq": "130002542110",
+ "nome_urna": "DELEGADA SHEILA",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1020426.67,
+  "por_origem": {
+   "Recursos de partido político": 1007426.67,
+   "Recursos de pessoas físicas": 3000.0,
+   "Recursos próprios": 10000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 995000.0,
+   "FUNDO PARTIDARIO": 12426.67,
+   "OUTROS RECURSOS": 13000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 995000.0
+   },
+   {
+    "cnpj": "08691904000112",
+    "nome": "Direção Estadual/Distrital - PL - MINAS GERAIS",
+    "total": 12426.67
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 13000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 285419.0,
+  "total_pago": 241727.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "05033125000131",
+    "nome": "W COLOR EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 54450.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "30610748000177",
+    "nome": "NILCEA FONSECA DA SILVA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 37620.0
+   },
+   {
+    "cnpj": "09142549000195",
+    "nome": "REPCLYS SERVICOS GRAFICOS LTDA",
+    "cnae": "18229",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27444.0
+   },
+   {
+    "cnpj": "12209210000173",
+    "nome": "12.209.210 WILLIAM DA SILVA SANTANA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19575.0
+   },
+   {
+    "cnpj": "07126473000189",
+    "nome": "A. VIEIRA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "03236976000156",
+    "nome": "J. F. MAIS SERVICOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "19097346000188",
+    "nome": "VITALICITI LTDA",
+    "cnae": "47555",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7130.0
+   },
+   {
+    "cnpj": "07851262000109",
+    "nome": "MV EVENTOS ARTISTICOS E ESPORTIVOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "06375805000104",
+    "nome": "MIGUEL CANDIDO CLICHERIA LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5700.0
+   },
+   {
+    "cnpj": "01483224000164",
+    "nome": "EDT INFORMATICA LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "25729559000188",
+    "nome": "FACS NEGOCIOS E PARTICIPACOES LTDA.",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2400.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 13,
+   "total": 63100.0,
+   "por_tipo": {
+    "Despesas com pessoal": 63100.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

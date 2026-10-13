@@ -1,0 +1,165 @@
+{
+ "sq": "50002538714",
+ "nome_urna": "ROGÉRIO ANDRADE",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 225600.0,
+  "por_origem": {
+   "Recursos de partido político": 150000.0,
+   "Recursos de pessoas físicas": 75600.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 150000.0,
+   "OUTROS RECURSOS": 75600.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 150000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 75600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 239522.76,
+  "total_pago": 120189.09,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25527287000133",
+    "nome": "HILDEBRANDO JORGE DA SILVA FILHO CERIMONIAL",
+    "cnae": "77292",
+    "n_despesas": 2,
+    "tipos": [
+     "Atividades de militância e mobilização de rua",
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "08831616000116",
+    "nome": "MACOY FILMES LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 24750.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "07850206000150",
+    "nome": "R. ESQUIVEL MORAES DA SILVA EDITORA LTDA",
+    "cnae": "58298",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13940.0
+   },
+   {
+    "cnpj": "05520115000120",
+    "nome": "BOMBONE INDUSTRIA E COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12800.0
+   },
+   {
+    "cnpj": "26760283000163",
+    "nome": "FAROS BRASIL ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "12593616000100",
+    "nome": "LEVO EMPREENDIMENTOS LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "34028316404972",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 6063.09
+   },
+   {
+    "cnpj": "16625708000178",
+    "nome": "IDEIA ATIVA GRAFICA LTDA",
+    "cnae": "17311",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5624.0
+   },
+   {
+    "cnpj": "13434723000140",
+    "nome": "BAHIA PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "33804303000116",
+    "nome": "CRUZEIRO DO SUL COM DE COMBUSTIVEIS E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2385.34
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 21,
+   "total": 102960.33,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 6000.0,
+    "Criação e inclusão de páginas na internet": 6000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.0,
+    "Locação/cessão de bens imóveis": 23500.0,
+    "Serviços advocatícios": 30000.0,
+    "Serviços prestados por terceiros": 37458.33
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

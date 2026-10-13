@@ -1,0 +1,172 @@
+{
+ "sq": "190002550520",
+ "nome_urna": "JUNINHO DO PNEU",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PSDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1243030.66,
+  "por_origem": {
+   "Recursos de outros candidatos": 8114.32,
+   "Recursos de partido político": 883895.0,
+   "Recursos de pessoas físicas": 101021.34,
+   "Recursos próprios": 250000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 880000.0,
+   "FUNDO PARTIDARIO": 3895.0,
+   "OUTROS RECURSOS": 359135.66
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "03653474000120",
+    "nome": "Direção Nacional - PSDB",
+    "total": 880000.0
+   },
+   {
+    "cnpj": "68461794000124",
+    "nome": "RAFAEL PEREIRA NOBRE",
+    "total": 7290.82
+   },
+   {
+    "cnpj": "32080483000178",
+    "nome": "Direção Estadual/Distrital - PSDB - RIO DE JANEIRO",
+    "total": 3895.0
+   },
+   {
+    "cnpj": "68385975000119",
+    "nome": "LUCIANA FERREIRA LOPES POLATI",
+    "total": 823.5
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 351021.34
+  }
+ },
+ "despesas": {
+  "total_contratado": 1059006.7,
+  "total_pago": 1071347.8,
+  "fornecedores_pj": [
+   {
+    "cnpj": "61144095000101",
+    "nome": "SUDESTE GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 18,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 53966.0
+   },
+   {
+    "cnpj": "05879792000130",
+    "nome": "RENATO MORGADO PRODUCOES LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "22657821000138",
+    "nome": "ACB ABREU TRANSPORTE DE CARGAS",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "53858063000140",
+    "nome": "GDAY PROJETOS E COMUNICACAO VISUAL LTDA",
+    "cnae": "73114",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15670.0
+   },
+   {
+    "cnpj": "16862665000144",
+    "nome": "ANGELO FERREIRA MARTINS SOARES",
+    "cnae": "18130",
+    "n_despesas": 18,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 14480.0
+   },
+   {
+    "cnpj": "49998052000198",
+    "nome": "IZAIAS DUARTE SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "33088924000140",
+    "nome": "LFERRAZ RESTAURANTE E COMERCIO DE ALIMENTOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "27525336000124",
+    "nome": "POSTO DE GASOLINA DO NETINHO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1250.0
+   },
+   {
+    "cnpj": "13149842000151",
+    "nome": "RAG BUSINESS GROUP LTDA",
+    "cnae": "71120",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1037.5
+   },
+   {
+    "cnpj": "41287250000131",
+    "nome": "OAZEM COMUNICACOES VISUAIS E REPRESENTACOES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 330.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 344,
+   "total": 924273.2,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 242600.0,
+    "Despesas com pessoal": 599000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2673.2,
+    "Serviços advocatícios": 35000.0,
+    "Serviços contábeis": 45000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

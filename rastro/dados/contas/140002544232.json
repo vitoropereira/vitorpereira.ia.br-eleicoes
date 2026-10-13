@@ -1,0 +1,101 @@
+{
+ "sq": "140002544232",
+ "nome_urna": "FABRICIO MIRANDA",
+ "cargo": "depest",
+ "uf": "PA",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 70000.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 70000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 70000.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 12,
+   "total": 70000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 117300.0,
+  "total_pago": 47550.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "38246119000111",
+    "nome": "M DE L DOS S TAVARES COERCIO E SERVICOS",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "35145506000173",
+    "nome": "ELIELTON CORADASSI SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "59708523000130",
+    "nome": "L C FERREIRA LOBATO",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "42292768000126",
+    "nome": "ROYAL COMERCIO E SERVICOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "60634390000183",
+    "nome": "60.634.390 DANIEL SANTOS DE BRITO",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "47696176000193",
+    "nome": "VIP COMERCIO E SERVICO LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 700.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 4,
+   "total": 42000.0,
+   "por_tipo": {
+    "Locação/cessão de bens imóveis": 35000.0,
+    "Serviços prestados por terceiros": 7000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,440 @@
+{
+ "sq": "130002543650",
+ "nome_urna": "LUIZ PAULO",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 983700.0,
+  "por_origem": {
+   "Recursos de partido político": 725000.0,
+   "Recursos de pessoas físicas": 258700.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 983700.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 525000.0
+   },
+   {
+    "cnpj": "03940864000181",
+    "nome": "Direção Estadual/Distrital - PSB - MINAS GERAIS",
+    "total": 200000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 22,
+   "total": 258700.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 909662.4,
+  "total_pago": 270671.82,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 110000.0
+   },
+   {
+    "cnpj": "42888115000104",
+    "nome": "A EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 14,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 51016.88
+   },
+   {
+    "cnpj": "63265736000101",
+    "nome": "PODER ELEITORAL LTDA.",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "03580846000136",
+    "nome": "MADGAV - MONTEIRO DE ANDRADE, DINIZ, GALUPPO E VIANA ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "12058968000158",
+    "nome": "AGUIAR IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14617.5
+   },
+   {
+    "cnpj": "38496902000133",
+    "nome": "CENTRAL DE APOIO ADMINISTRATIVO E SERVICOS LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 14500.0
+   },
+   {
+    "cnpj": "04372697000182",
+    "nome": "C J C ROCHA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11583.6
+   },
+   {
+    "cnpj": "64204416000104",
+    "nome": "GMP PUBLICIDADE E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11353.26
+   },
+   {
+    "cnpj": "34028316343060",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 7192.79
+   },
+   {
+    "cnpj": "12443816000179",
+    "nome": "12.443.816 MATHEUS DE MELLO GONCALVES RIBEIRO",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7070.0
+   },
+   {
+    "cnpj": "52402391000174",
+    "nome": "GC ESTRATEGIAS DIGITAIS LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "62124822000131",
+    "nome": "ESPACO ERNESTA LANDICA LTDA.",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "07708533000171",
+    "nome": "LOK AUTO LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4200.0
+   },
+   {
+    "cnpj": "19992478000173",
+    "nome": "ASSOCIACAO MINEIRA DOS CRIADORES DE ZEBU",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3750.0
+   },
+   {
+    "cnpj": "28813056000184",
+    "nome": "28.813.056 JOSIAS CASTRO DE SA JUNIOR",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 3200.0
+   },
+   {
+    "cnpj": "68698213000172",
+    "nome": "68.698.213 NAITON FIGUEIREDO LIMA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2250.0
+   },
+   {
+    "cnpj": "21967148000170",
+    "nome": "LUIS F DE OLIVEIRA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "22771650000173",
+    "nome": "ESTEVAO SOARES RIBAS",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "33820248000158",
+    "nome": "JOSE ADONIAS RIBEIRO",
+    "cnae": "58123",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "05065889000109",
+    "nome": "MARIA DAS MERCES DOS SANTOS CASSEMIRO",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1440.0
+   },
+   {
+    "cnpj": "35913950000191",
+    "nome": "FESTA PRONTA LTDA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1420.0
+   },
+   {
+    "cnpj": "18344255000137",
+    "nome": "PRESENTE POP LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1320.0
+   },
+   {
+    "cnpj": "37794504000130",
+    "nome": "A A SIQUEIRA JUNIOR",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "45842748000170",
+    "nome": "E F S EVENTOS E ENTRETENIMENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "02717314000135",
+    "nome": "02.717.314 FABIO FERNANDES SOARES",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "63479008000100",
+    "nome": "OLIVEIRA PINTO - ESTRATEGIA, GESTAO, MARKETING E EVENTOS LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "04930180000161",
+    "nome": "G. M. A. PRODUCOES E EVENTOS LTDA.",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "29992284000121",
+    "nome": "JK EMPREENDIMENTOS COMERCIAIS E FOMENTOS LTDA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 804.0
+   },
+   {
+    "cnpj": "63828320000154",
+    "nome": "EMPREENDIMENTOS ALVES LTDA",
+    "cnae": "10996",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 610.0
+   },
+   {
+    "cnpj": "16837619000195",
+    "nome": "ASSOCIACAO COMERCIAL INDUSTRIAL E DE SERVICOS DE NOVA LIMA",
+    "cnae": "94111",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "60853301000190",
+    "nome": "BANDA GLORIFICAR PRODUCOES E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "34792235000185",
+    "nome": "34.792.235 WALDEMIRO VIVEIROS",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 550.0
+   },
+   {
+    "cnpj": "10704665000130",
+    "nome": "DROGARIA E PERFUMARIA MEDIC MINAS LTDA",
+    "cnae": "47717",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 367.86
+   },
+   {
+    "cnpj": "00487928000142",
+    "nome": "COPYCENTRO LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "54034174000102",
+    "nome": "54.034.174 ALISSON BARBOSA RIBAS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "30726437000178",
+    "nome": "W. A. TELECOMUNICACOES LTDA",
+    "cnae": "43215",
+    "n_despesas": 2,
+    "tipos": [
+     "Criação e inclusão de páginas na internet",
+     "Diversas a especificar"
+    ],
+    "total": 156.51
+   },
+   {
+    "cnpj": "25494303000139",
+    "nome": "J A PECAS TINTAS LTDA",
+    "cnae": "45307",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 25.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 321,
+   "total": 562335.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 507809.0,
+    "Cessão ou locação de veículos": 8000.0,
+    "Despesas com pessoal": 32000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 26.0,
+    "Locação/cessão de bens imóveis": 14500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

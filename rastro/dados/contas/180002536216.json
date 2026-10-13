@@ -1,0 +1,206 @@
+{
+ "sq": "180002536216",
+ "nome_urna": "DR. HÉLIO",
+ "cargo": "depest",
+ "uf": "PI",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 424912.0,
+  "por_origem": {
+   "Recursos de partido político": 275000.0,
+   "Recursos de pessoas físicas": 32912.0,
+   "Recursos próprios": 117000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "FUNDO PARTIDARIO": 75000.0,
+   "OUTROS RECURSOS": 149912.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "07441918000115",
+    "nome": "Direção Estadual/Distrital - MDB - PIAUÍ",
+    "total": 75000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 149912.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 311228.93,
+  "total_pago": 57054.83,
+  "fornecedores_pj": [
+   {
+    "cnpj": "35038092000183",
+    "nome": "C V DE OLIVEIRA FERNANDES LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "19752891000160",
+    "nome": "GREEN LTDA",
+    "cnae": "43991",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 47414.1
+   },
+   {
+    "cnpj": "40401759000109",
+    "nome": "A S SOARES LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "67119253000150",
+    "nome": "LANARA CAMPOS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "16499045000192",
+    "nome": "CONTARE SERVICOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "00353368000133",
+    "nome": "GUABES PRODUCOES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 12500.0
+   },
+   {
+    "cnpj": "69617454000102",
+    "nome": "ATLANTIC CITY WORLD CLUB",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "23444709000181",
+    "nome": "SIEART GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9750.0
+   },
+   {
+    "cnpj": "02418305000143",
+    "nome": "IMOBILIARIA ROCHA FILHO LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8250.0
+   },
+   {
+    "cnpj": "49871398000120",
+    "nome": "49.871.398 RENATA PAIVA FERREIRA SANTOS",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "06656656001620",
+    "nome": "CACIQUE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 965.33
+   },
+   {
+    "cnpj": "86913951000177",
+    "nome": "R SILVA E SOUSA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "10992212000156",
+    "nome": "BRANDAO BRANDAO LTDA.",
+    "cnae": "46494",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 594.5
+   },
+   {
+    "cnpj": "01789274000174",
+    "nome": "MALHARIA LEVE SOLTO LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 455.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 3000.0,
+   "por_tipo": {
+    "Locação/cessão de bens imóveis": 3000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

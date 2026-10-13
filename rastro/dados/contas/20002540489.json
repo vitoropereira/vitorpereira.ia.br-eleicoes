@@ -1,0 +1,202 @@
+{
+ "sq": "20002540489",
+ "nome_urna": "JULIA NUNES",
+ "cargo": "depfed",
+ "uf": "AL",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1038300.0,
+  "por_origem": {
+   "Recursos de partido político": 1000000.0,
+   "Recursos de pessoas físicas": 38300.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1000000.0,
+   "OUTROS RECURSOS": 38300.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 1000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 10,
+   "total": 38300.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 675996.07,
+  "total_pago": 337241.63,
+  "fornecedores_pj": [
+   {
+    "cnpj": "65713095000136",
+    "nome": "65.713.095 MARCOS SANTOS DE ARAUJO",
+    "cnae": "25128",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "14876708000115",
+    "nome": "NOGUEIRA, ALBUQUERQUE E FREIRE ASSOCIADOS S/S",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "40649056000196",
+    "nome": "ANGELO WAGNER DOS SANTOS",
+    "cnae": "77110",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 41000.0
+   },
+   {
+    "cnpj": "11994347000113",
+    "nome": "JORGE OLIVEIRA SILVA DE PERNAMBUES",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "39419555000108",
+    "nome": "AGUIAR, ANDRADE, CALLADO CARVALHO - ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "33875968000110",
+    "nome": "INTELIGENCIA INTEGRADA S/S LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "05900875000163",
+    "nome": "FERREIRA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4268.57
+   },
+   {
+    "cnpj": "54229107000135",
+    "nome": "SINALIZART COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "29061526000163",
+    "nome": "DPMC COMERCIO DE AGUA MINERAL LTDA",
+    "cnae": "11216",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2010.0
+   },
+   {
+    "cnpj": "05518639000187",
+    "nome": "AUTO POSTO DA PEDRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1555.14
+   },
+   {
+    "cnpj": "29856594000119",
+    "nome": "FELICIDADE EMPREENDIMENTOS COMERCIAIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1476.52
+   },
+   {
+    "cnpj": "09081895000100",
+    "nome": "T. DE F. ROCHA BARBOSA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1313.8
+   },
+   {
+    "cnpj": "05388025000209",
+    "nome": "BARBOSA ROCHA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 570.87
+   },
+   {
+    "cnpj": "05388025000128",
+    "nome": "BARBOSA ROCHA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 285.11
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 105,
+   "total": 370016.06,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 199299.41,
+    "Despesas com pessoal": 74371.42,
+    "Despesas com transporte ou deslocamento": 45948.93,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 396.3,
+    "Locação/cessão de bens imóveis": 50000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

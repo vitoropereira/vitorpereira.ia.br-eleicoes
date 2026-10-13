@@ -1,0 +1,103 @@
+{
+ "sq": "230002549248",
+ "nome_urna": "GENILSON COSTA",
+ "cargo": "depest",
+ "uf": "RR",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 405820.66,
+  "por_origem": {
+   "Recursos de partido político": 405820.66
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 302715.55,
+   "FUNDO PARTIDARIO": 103105.11
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 302715.55
+   },
+   {
+    "cnpj": "08026413000157",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - RORAIMA",
+    "total": 103105.11
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 198400.0,
+  "total_pago": 0.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "27359974000112",
+    "nome": "INSTITUTO PADRAO DE PESQUISA DE OPINIAO PUBLICA, CONSULTORIA E ASSESSORIA LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "42912751000124",
+    "nome": "FELIPHE MOREIRA DE SOUZA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "12403018000113",
+    "nome": "JAIME DEAN O DE SOUZA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "56100782000195",
+    "nome": "ROBERTO FERNANDES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "84017888000165",
+    "nome": "FORBRAS RORAIMA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9400.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 20,
+   "total": 59000.0,
+   "por_tipo": {
+    "Despesas com pessoal": 59000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

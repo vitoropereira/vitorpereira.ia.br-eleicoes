@@ -1,0 +1,282 @@
+{
+ "sq": "250002533647",
+ "nome_urna": "BALEIA ROSSI",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3034369.1,
+  "por_origem": {
+   "Recursos de partido político": 3017234.1,
+   "Recursos de pessoas físicas": 14800.0,
+   "Recursos próprios": 2335.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2853896.1,
+   "FUNDO PARTIDARIO": 163338.0,
+   "OUTROS RECURSOS": 17135.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 2850000.0
+   },
+   {
+    "cnpj": "45302874000131",
+    "nome": "Direção Estadual/Distrital - MDB - SÃO PAULO",
+    "total": 167234.1
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 17135.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1502975.55,
+  "total_pago": 1346962.23,
+  "fornecedores_pj": [
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 9,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 700000.0
+   },
+   {
+    "cnpj": "51847516000107",
+    "nome": "VOLARE IMPRESSAO TEXTIL LTDA",
+    "cnae": "18130",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 223650.0
+   },
+   {
+    "cnpj": "49234487000166",
+    "nome": "SAO FRANCISCO GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 21,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 143592.1
+   },
+   {
+    "cnpj": "37980715000168",
+    "nome": "F.E.CANDIDO COMERCIO E SERVICOS",
+    "cnae": "47610",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 79767.07
+   },
+   {
+    "cnpj": "37796670000176",
+    "nome": "PRODUTORA DE CONTEUDO CONTEUDO PLAY LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "46007380000197",
+    "nome": "DNS FACILITY LTDA",
+    "cnae": "80200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 34000.0
+   },
+   {
+    "cnpj": "09204155000114",
+    "nome": "VITA PORTO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "47047601000113",
+    "nome": "MULIN - COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "50560910000105",
+    "nome": "POPULI EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "55107551000140",
+    "nome": "SCALA COMPOSICAO GRAFICA LTDA",
+    "cnae": "17419",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 10970.0
+   },
+   {
+    "cnpj": "33546956000142",
+    "nome": "33.546.956 ROBERTO PINHEIRO DO PRADO",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 9720.0
+   },
+   {
+    "cnpj": "31063715000117",
+    "nome": "ARTSIS SERVICOS GRAFICOS LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8920.0
+   },
+   {
+    "cnpj": "52521383000147",
+    "nome": "52.521.383 LIGIA SANTOS NOGUEIRA DA SILVA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 6750.0
+   },
+   {
+    "cnpj": "64907926000148",
+    "nome": "LASER PRESS GRAFICA E EDITORA LTDA.",
+    "cnae": "58212",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2600.0
+   },
+   {
+    "cnpj": "27959343000134",
+    "nome": "G.M. SABINO PUBLICIDADES E EVENTOS",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "04237189000191",
+    "nome": "NOVA COMUNICACAO VISUAL BRINDES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "24347979000137",
+    "nome": "MACIEL ART DESIGNER GRAFICO - LTDA",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "67687012000107",
+    "nome": "DOMINIUM INFORMATICA LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 970.0
+   },
+   {
+    "cnpj": "07277464000199",
+    "nome": "EURO SIGNS PRINT ADESIVOS DECORATIVOS LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 950.0
+   },
+   {
+    "cnpj": "41741484000107",
+    "nome": "ROSANGELA APARECIDA GERONDE FROZZA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "29773922000113",
+    "nome": "ASSINAR CERTIFICADO DIGITAL LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 120.0
+   },
+   {
+    "cnpj": "37690751000197",
+    "nome": "SELECT DISTRIBUIDORA DE PRODUTOS DE LIMPEZA E DESCARTAVEIS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 30.88
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 36,
+   "total": 167735.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 33642.0,
+    "Cessão ou locação de veículos": 76650.0,
+    "Despesas com pessoal": 14966.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 29.5,
+    "Locação/cessão de bens imóveis": 3000.0,
+    "Serviços contábeis": 20000.0,
+    "Serviços prestados por terceiros": 19448.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,142 @@
+{
+ "sq": "70002538503",
+ "nome_urna": "RÔNEY NEMER",
+ "cargo": "distrital",
+ "uf": "DF",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 627500.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 150000.0,
+   "Recursos de partido político": 200000.0,
+   "Recursos de pessoas físicas": 206500.0,
+   "Recursos próprios": 71000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 250000.0,
+   "FUNDO PARTIDARIO": 100000.0,
+   "OUTROS RECURSOS": 277500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68430684000103",
+    "nome": "CARLOS DALVAN SOARES DE OLIVEIRA",
+    "total": 150000.0
+   },
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "06254282000130",
+    "nome": "Direção Estadual/Distrital - PP - DISTRITO FEDERAL",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 13,
+   "total": 277500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 89117.5,
+  "total_pago": 101387.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "00849844000101",
+    "nome": "CONSTRUTORA E ADMINISTRADORA CORREIA LTDA",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10500.0
+   },
+   {
+    "cnpj": "29625016000171",
+    "nome": "GRAFICA E EDITORA ZUZA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8750.0
+   },
+   {
+    "cnpj": "38076089000142",
+    "nome": "AUTO POSTO AGUAS CLARAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "66057360000138",
+    "nome": "SUCESSO IMPRESSOES DIGITAIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4940.0
+   },
+   {
+    "cnpj": "52670187000134",
+    "nome": "52.670.187 RAFAEL DORNELAS DE ALMEIDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "56480102000106",
+    "nome": "RESTAURANTE GURGEL LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 3675.0
+   },
+   {
+    "cnpj": "15792210000137",
+    "nome": "RG MIDIA OUTDOOR LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1750.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 2.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

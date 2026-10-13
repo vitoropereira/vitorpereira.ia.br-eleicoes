@@ -1,0 +1,148 @@
+{
+ "sq": "230002549243",
+ "nome_urna": "DARBI DE JESUS",
+ "cargo": "depest",
+ "uf": "RR",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 504100.0,
+  "por_origem": {
+   "Recursos de partido político": 504100.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 500000.0,
+   "FUNDO PARTIDARIO": 4100.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 500000.0
+   },
+   {
+    "cnpj": "08026413000157",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - RORAIMA",
+    "total": 4100.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 419377.9,
+  "total_pago": 106715.9,
+  "fornecedores_pj": [
+   {
+    "cnpj": "84017888000165",
+    "nome": "FORBRAS RORAIMA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19820.0
+   },
+   {
+    "cnpj": "26835073000278",
+    "nome": "SALLUZ COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 16447.5
+   },
+   {
+    "cnpj": "29791180000159",
+    "nome": "MARCOS VELOSO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "53694900000142",
+    "nome": "PAULO VICTOR MELO ALVES",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "10901797000151",
+    "nome": "IMPACTO COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos"
+    ],
+    "total": 13500.0
+   },
+   {
+    "cnpj": "04162481000192",
+    "nome": "ANDRE VIEIRA SILVA LTDA",
+    "cnae": "47563",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "58140266000110",
+    "nome": "A. CAIO FERREIRA DE SOUZA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 5310.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "33385646000193",
+    "nome": "VITA NORTE COMERCIO LTDA",
+    "cnae": "47296",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Água"
+    ],
+    "total": 2928.4
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 182,
+   "total": 314372.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 37743.0,
+    "Despesas com pessoal": 266895.0,
+    "Serviços prestados por terceiros": 9734.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

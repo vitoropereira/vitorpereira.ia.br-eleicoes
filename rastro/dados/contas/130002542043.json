@@ -1,0 +1,371 @@
+{
+ "sq": "130002542043",
+ "nome_urna": "CAPOREZZO",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2652127.89,
+  "por_origem": {
+   "Recursos de partido político": 2600127.89,
+   "Recursos de pessoas físicas": 52000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2590000.0,
+   "FUNDO PARTIDARIO": 10127.89,
+   "OUTROS RECURSOS": 52000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2590000.0
+   },
+   {
+    "cnpj": "08691904000112",
+    "nome": "Direção Estadual/Distrital - PL - MINAS GERAIS",
+    "total": 10127.89
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 10,
+   "total": 52000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1897530.17,
+  "total_pago": 2474381.47,
+  "fornecedores_pj": [
+   {
+    "cnpj": "22999094000197",
+    "nome": "MIDIA MARKETING DIGITAL DO TRIANGULO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 360000.0
+   },
+   {
+    "cnpj": "68464894000104",
+    "nome": "WASHINGTON FERNANDO RODRIGUES",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 317345.0
+   },
+   {
+    "cnpj": "68395347000114",
+    "nome": "WS GRAFICA E SERVICOS DIGITAIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 67825.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 46000.0
+   },
+   {
+    "cnpj": "47342926000129",
+    "nome": "LUIS HENRIQUE PEREIRA NASCIMENTO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "30927399000111",
+    "nome": "PRIME TUR TRANSPORTE E TURISMO LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 28800.0
+   },
+   {
+    "cnpj": "23338197000179",
+    "nome": "CARDIESEL LTDA EM RECUPERACAO JUDICIAL",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "19139090000124",
+    "nome": "FABRICA DE EVENTOS LTDA",
+    "cnae": "73114",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 19827.5
+   },
+   {
+    "cnpj": "01638944000151",
+    "nome": "PENTAGONO CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 14900.0
+   },
+   {
+    "cnpj": "42971796000170",
+    "nome": "FERNANDES E GARCIA AGENCIA DE SERVICOS POSTAIS LTDA",
+    "cnae": "53105",
+    "n_despesas": 12,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 14702.71
+   },
+   {
+    "cnpj": "42964940000140",
+    "nome": "AQUARIUS PRESTACAO DE SERVICOS LTDA",
+    "cnae": "53105",
+    "n_despesas": 4,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 8823.94
+   },
+   {
+    "cnpj": "14473635000110",
+    "nome": "INOVAR LOCACOES E COMERCIO DE EQUIPAMENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "66058148000195",
+    "nome": "66.058.148 LUCINETE MARIA DE JESUS SILVA",
+    "cnae": "47237",
+    "n_despesas": 2,
+    "tipos": [
+     "Água"
+    ],
+    "total": 7272.0
+   },
+   {
+    "cnpj": "56948343000137",
+    "nome": "SAVVY HUB DE NEGOCIOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "09495600000142",
+    "nome": "EDITORA GRAFICA PAULA MOURA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4300.0
+   },
+   {
+    "cnpj": "52816050000145",
+    "nome": "52.816.050 JOAO PEDRO CAPDEVILLE DE ABREU LUCARELLI CAMARA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "13162772000171",
+    "nome": "RF COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3950.86
+   },
+   {
+    "cnpj": "07890842000105",
+    "nome": "GOES SOUZA LTDA",
+    "cnae": "47539",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "66744845000108",
+    "nome": "66.744.845 JAMILTON GABRIEL DANY CURCINO",
+    "cnae": "77217",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 3350.0
+   },
+   {
+    "cnpj": "21312624000114",
+    "nome": "POSTO ITUIUTABA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3348.45
+   },
+   {
+    "cnpj": "67817090000189",
+    "nome": "67.817.090 ROBERT BARBOSA DA SILVA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2754.0
+   },
+   {
+    "cnpj": "07318919000177",
+    "nome": "COMPANHIA DAS TENDAS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "49219696000130",
+    "nome": "49.219.696 CAROLINE CRISTINA ALVARES",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1900.0
+   },
+   {
+    "cnpj": "45762807000108",
+    "nome": "CORE DECORE LTDA",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1440.0
+   },
+   {
+    "cnpj": "35217591000138",
+    "nome": "ARAGUAIA CACA, PESCA E RACOES LTDA",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1350.0
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 1247.2
+   },
+   {
+    "cnpj": "61342634000117",
+    "nome": "61.342.634 ELZA ALVES TRAJANO",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 850.0
+   },
+   {
+    "cnpj": "42911644000181",
+    "nome": "M H A COMERCIO E SERVICOS LTDA",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 772.8
+   },
+   {
+    "cnpj": "05555642000170",
+    "nome": "POSTO FORMULA BR LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 326.91
+   },
+   {
+    "cnpj": "42911008000150",
+    "nome": "MASTER FLOWS INFORMACAO LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 195.5
+   },
+   {
+    "cnpj": "34028316354266",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 55.8
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 242,
+   "total": 899692.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 519768.0,
+    "Cessão ou locação de veículos": 56600.0,
+    "Despesas com pessoal": 290942.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 182.5,
+    "Locação/cessão de bens imóveis": 26200.0,
+    "Produção de jingles, vinhetas e slogans": 1000.0,
+    "Serviços prestados por terceiros": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

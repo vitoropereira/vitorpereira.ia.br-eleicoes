@@ -1,0 +1,177 @@
+{
+ "sq": "200002533888",
+ "nome_urna": "CORONEL AZEVEDO",
+ "cargo": "depest",
+ "uf": "RN",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 687949.67,
+  "por_origem": {
+   "Recursos de outros candidatos": 30949.67,
+   "Recursos de partido político": 350000.0,
+   "Recursos de pessoas físicas": 187000.0,
+   "Recursos próprios": 120000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 380949.67,
+   "OUTROS RECURSOS": 307000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 350000.0
+   },
+   {
+    "cnpj": "68306676000141",
+    "nome": "ELIESER GIRAO MONTEIRO FILHO",
+    "total": 30949.67
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 17,
+   "total": 307000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 415639.38,
+  "total_pago": 449159.38,
+  "fornecedores_pj": [
+   {
+    "cnpj": "65316468000135",
+    "nome": "SPM AGENCY E AWAN PARTICIPATION LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 72000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "17340447000102",
+    "nome": "MARICLEYDSON COSTA DA SILVA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 54200.0
+   },
+   {
+    "cnpj": "19198353000176",
+    "nome": "SOLUCAO MARKETING LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 49722.0
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 31566.7
+   },
+   {
+    "cnpj": "13158173000184",
+    "nome": "LEIRIA ADMINISTRADORA E EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 28000.0
+   },
+   {
+    "cnpj": "32304440000129",
+    "nome": "A DE O VIANA EDITORA E COMUNICACAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "31321080000100",
+    "nome": "UNIGRAFICA INDUSTRIA GRAFICA LTDA",
+    "cnae": "17311",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24700.0
+   },
+   {
+    "cnpj": "55815758000170",
+    "nome": "CALCULUS ASSESSORIA E CONSULTORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "36920725000145",
+    "nome": "LN LOCACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "40480636000100",
+    "nome": "F S M DE SOUSA COMUNICACAO VISUAL",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4170.0
+   },
+   {
+    "cnpj": "08397499000124",
+    "nome": "POSTO SAO LUIZ LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 275.48
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 30005.2,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 5.2,
+    "Serviços advocatícios": 30000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,311 @@
+{
+ "sq": "160002542371",
+ "nome_urna": "LUIZ FERNANDO GUERRA",
+ "cargo": "depest",
+ "uf": "PR",
+ "partido": "NOVO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1078265.02,
+  "por_origem": {
+   "Recursos de outros candidatos": 2265.02,
+   "Recursos de partido político": 1000000.0,
+   "Recursos de pessoas físicas": 76000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "FUNDO PARTIDARIO": 350000.0,
+   "OUTROS RECURSOS": 528265.02
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13405866000124",
+    "nome": "Direção Nacional - NOVO",
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "68455188000104",
+    "nome": "PEDRO DEBONI LUPION MELLO",
+    "total": 1714.8
+   },
+   {
+    "cnpj": "68237208000162",
+    "nome": "PAULO HENRIQUE COLETTI FERNANDES",
+    "total": 550.22
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 16,
+   "total": 76000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 901648.76,
+  "total_pago": 1053917.26,
+  "fornecedores_pj": [
+   {
+    "cnpj": "24377532000100",
+    "nome": "M V SANTOS GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 46740.0
+   },
+   {
+    "cnpj": "75624932000104",
+    "nome": "GRAFICA E EDITORA KAYGANGUE LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 44440.0
+   },
+   {
+    "cnpj": "02988320000127",
+    "nome": "ROTTA GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 31597.91
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "09218022000105",
+    "nome": "BEBBER ORGANIZACAO EMPRESARIAL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "20033879000185",
+    "nome": "GUILHERME DE SALLES GONCALVES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "09571885000153",
+    "nome": "GRAFICA TUSSI LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19090.0
+   },
+   {
+    "cnpj": "13096421000100",
+    "nome": "GOSS TRANSPORTE E TURISMO LTDA",
+    "cnae": "49248",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 13000.0
+   },
+   {
+    "cnpj": "07200228000174",
+    "nome": "HABICRED SERVICOS LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "22475938000109",
+    "nome": "FOLHA DE CURITIBA LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "54082957000153",
+    "nome": "F B CONFECCAO LTDA",
+    "cnae": "13596",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "29209498000189",
+    "nome": "W N CARTONAGEM LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "15508052000140",
+    "nome": "15.508.052 PAULO OCTAVIO MENEGAS DE MELLO",
+    "cnae": "85929",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "77637684000161",
+    "nome": "COTRANS LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2587.0
+   },
+   {
+    "cnpj": "79127569000172",
+    "nome": "TIGRAO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 10,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2016.32
+   },
+   {
+    "cnpj": "67608897000101",
+    "nome": "GRAFICA MARTE LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "01651304000181",
+    "nome": "AUTO POSTO TIGRE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 701.67
+   },
+   {
+    "cnpj": "17100883000104",
+    "nome": "COMERCIO DE GENEROS ALIMENTICIOS HOLUB LTDA",
+    "cnae": "47121",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 581.04
+   },
+   {
+    "cnpj": "79964177000168",
+    "nome": "COMERCIO DE COMBUSTIVEIS PASTORELLO S.A.",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 484.3
+   },
+   {
+    "cnpj": "41214137000126",
+    "nome": "AUTO POSTO PESTANA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 341.93
+   },
+   {
+    "cnpj": "04868412000441",
+    "nome": "AUTO POSTO PRA FRENTE BRASIL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 272.0
+   },
+   {
+    "cnpj": "02959363000184",
+    "nome": "COMERCIO DE COMBUSTIVEIS RCD LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "19951933000516",
+    "nome": "L.T. NICHELE COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 196.59
+   },
+   {
+    "cnpj": "34797814000110",
+    "nome": "EFETIVA PREMIUM CERTIFICADO DIGITAL LTDA.",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 180.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 205,
+   "total": 609720.0,
+   "por_tipo": {
+    "Despesas com pessoal": 609550.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 170.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

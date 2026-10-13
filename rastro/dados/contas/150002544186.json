@@ -1,0 +1,160 @@
+{
+ "sq": "150002544186",
+ "nome_urna": "OLÍVIA MOTTA",
+ "cargo": "depest",
+ "uf": "PB",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1348000.0,
+  "por_origem": {
+   "Recursos de partido político": 1270000.0,
+   "Recursos de pessoas físicas": 70000.0,
+   "Recursos próprios": 8000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1205000.0,
+   "FUNDO PARTIDARIO": 65000.0,
+   "OUTROS RECURSOS": 78000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 1205000.0
+   },
+   {
+    "cnpj": "07644852000160",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - PARAÍBA",
+    "total": 65000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 78000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 875600.6,
+  "total_pago": 500268.42,
+  "fornecedores_pj": [
+   {
+    "cnpj": "34787198000117",
+    "nome": "APOENNA DE OLIVEIRA D SALDANHA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 114000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "16965084000138",
+    "nome": "CAMILO S LOCACOES LTDA",
+    "cnae": "77292",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 24600.0
+   },
+   {
+    "cnpj": "10596370000197",
+    "nome": "ASTEC GROUP CONTADORES ASSOCIADOS S/S LTDA.",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "12425984000131",
+    "nome": "NOBEL VITA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "57972898000187",
+    "nome": "MULTI COLOR - TECNOLOGIA EM COMUNICACAO VISUAL E SERVICOS LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "04116842000164",
+    "nome": "AUTOPOSTO CALIFORNIA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10976.54
+   },
+   {
+    "cnpj": "08540403000135",
+    "nome": "GRAFICA J B LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 6250.0
+   },
+   {
+    "cnpj": "26625056000125",
+    "nome": "D F PACK EMBALAGENS FLEXIVEIS LTDA",
+    "cnae": "22226",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "27117054000198",
+    "nome": "EDSON LEITE MONTENEGRO",
+    "cnae": "43991",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 307,
+   "total": 605274.06,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 487606.16,
+    "Cessão ou locação de veículos": 101000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 82.9,
+    "Impostos, contribuições e taxas": 585.0,
+    "Locação/cessão de bens imóveis": 7000.0,
+    "Serviços prestados por terceiros": 9000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

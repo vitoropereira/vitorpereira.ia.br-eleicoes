@@ -1,0 +1,180 @@
+{
+ "sq": "130002535293",
+ "nome_urna": "PAULO GUEDES",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2508100.0,
+  "por_origem": {
+   "Doações pela Internet": 10000.0,
+   "Recursos de partido político": 2017100.0,
+   "Recursos de pessoas físicas": 264000.0,
+   "Recursos próprios": 217000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2015500.0,
+   "FUNDO PARTIDARIO": 1600.0,
+   "OUTROS RECURSOS": 491000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 2015500.0
+   },
+   {
+    "cnpj": "16847535000132",
+    "nome": "Direção Estadual/Distrital - PT - MINAS GERAIS",
+    "total": 1600.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 491000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 312504.15,
+  "total_pago": 340047.26,
+  "fornecedores_pj": [
+   {
+    "cnpj": "37068284000168",
+    "nome": "FACIMES ROTULOS E ETIQUETAS LTDA",
+    "cnae": "18211",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27740.0
+   },
+   {
+    "cnpj": "51159004000158",
+    "nome": "BRUNA JHENNYFFER PENA ARAUJO",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "16615346000134",
+    "nome": "JB IMOVEIS EMPREENDIMENTOS LIMITADA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "10863221000147",
+    "nome": "IMPRESS EDITORA E GRAFICA LTDA",
+    "cnae": "58115",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19740.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "19490672000150",
+    "nome": "EXCLUSIVE COMUNICACAO VISUAL LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "26079953000180",
+    "nome": "LOCADORA MOTOCAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6500.0
+   },
+   {
+    "cnpj": "62227299000179",
+    "nome": "VISUAL PRINT SOLUCOES LTDA",
+    "cnae": "82199",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6280.0
+   },
+   {
+    "cnpj": "27082181000107",
+    "nome": "IBRAPE-INSTITUTO BRASILEIRO DE ASSESSORIA E PROJETOS LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5050.0
+   },
+   {
+    "cnpj": "35479512000167",
+    "nome": "ELITE ESTAMPARIA E CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3250.0
+   },
+   {
+    "cnpj": "37923951000142",
+    "nome": "MCF OUTSOURCING LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1475.0
+   },
+   {
+    "cnpj": "17027418000195",
+    "nome": "PALIMONTES COMERCIO E SERVICOS LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 74.35
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 35,
+   "total": 172394.8,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 45200.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 23.8,
+    "Locação/cessão de bens imóveis": 22200.0,
+    "Serviços prestados por terceiros": 104971.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

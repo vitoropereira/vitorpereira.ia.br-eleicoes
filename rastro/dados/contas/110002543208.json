@@ -1,0 +1,247 @@
+{
+ "sq": "110002543208",
+ "nome_urna": "VALDIR BARRANCO",
+ "cargo": "depest",
+ "uf": "MT",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 491082.05,
+  "por_origem": {
+   "Recursos de outros candidatos": 19585.35,
+   "Recursos de partido político": 270796.7,
+   "Recursos de pessoas físicas": 165700.0,
+   "Recursos próprios": 35000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 269585.35,
+   "FUNDO PARTIDARIO": 15500.0,
+   "OUTROS RECURSOS": 205996.7
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265500.0
+   },
+   {
+    "cnpj": "68470362000180",
+    "nome": "ROSA NEIDE SANDES DE ALMEIDA",
+    "total": 19585.35
+   },
+   {
+    "cnpj": "01872993000154",
+    "nome": "Direção Estadual/Distrital - PT - MATO GROSSO",
+    "total": 5296.7
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 34,
+   "total": 200700.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 309758.44,
+  "total_pago": 149419.62,
+  "fornecedores_pj": [
+   {
+    "cnpj": "27107920000160",
+    "nome": "UNICAR LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 10,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 36333.32
+   },
+   {
+    "cnpj": "25188538000100",
+    "nome": "ESSENT INOVACAO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 13000.0
+   },
+   {
+    "cnpj": "43807978000172",
+    "nome": "VICENTE MONGE DIAS",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 8500.0
+   },
+   {
+    "cnpj": "64208980000103",
+    "nome": "ARJ PRESTACAO DE SERVICOS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 7137.0
+   },
+   {
+    "cnpj": "26089395000134",
+    "nome": "ELVIS KLAUK JUNIOR SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "65041912000157",
+    "nome": "65.041.912 GLEYSON DIEGO MORAES FERREIRA",
+    "cnae": "77292",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "14034336000180",
+    "nome": "GRAFICA PROMO LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3400.0
+   },
+   {
+    "cnpj": "46325870000131",
+    "nome": "ANTONIO PINTO DE OLIVEIRA FILHO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "30139413000112",
+    "nome": "A. P. DA SILVA FIGUEIREDO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2234.0
+   },
+   {
+    "cnpj": "93209765054047",
+    "nome": "WMS SUPERMERCADOS DO BRASIL LTDA.",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2040.48
+   },
+   {
+    "cnpj": "24503991000193",
+    "nome": "AUTO POSTO REZENDAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1628.04
+   },
+   {
+    "cnpj": "33364021000226",
+    "nome": "ELOG EXPRESS ENCOMENDAS LTDA EM RECUPERACAO JUDICIAL",
+    "cnae": "49302",
+    "n_despesas": 7,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 1190.0
+   },
+   {
+    "cnpj": "42811159000136",
+    "nome": "ANA PAULA LOCACOES E EVENTOS LTDA",
+    "cnae": "77292",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "13383353000160",
+    "nome": "ALISSON PEDRO DE MELLO",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 730.0
+   },
+   {
+    "cnpj": "18336208000141",
+    "nome": "PEDRO AGUIAR DA SILVA NETO",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 350.0
+   },
+   {
+    "cnpj": "01169959000118",
+    "nome": "KI LEGAL FESTAS LTDA",
+    "cnae": "47237",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura",
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 210.0
+   },
+   {
+    "cnpj": "14137069000176",
+    "nome": "ESTRELA EMBALAGENS DE PRODUTOS LTDA",
+    "cnae": "46869",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 6.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 88,
+   "total": 199999.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 157400.0,
+    "Cessão ou locação de veículos": 10000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 249.6,
+    "Locação/cessão de bens imóveis": 7350.0,
+    "Locação/cessão de bens móveis (exceto veículos)": 3000.0,
+    "Serviços prestados por terceiros": 22000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,283 @@
+{
+ "sq": "180002536461",
+ "nome_urna": "CASTRO NETO",
+ "cargo": "depfed",
+ "uf": "PI",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2585465.75,
+  "por_origem": {
+   "Recursos de partido político": 2480000.0,
+   "Recursos de pessoas físicas": 80465.75,
+   "Recursos próprios": 25000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2000000.0,
+   "OUTROS RECURSOS": 585465.75
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 2480000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 105465.75
+  }
+ },
+ "despesas": {
+  "total_contratado": 1674432.58,
+  "total_pago": 2301711.46,
+  "fornecedores_pj": [
+   {
+    "cnpj": "49243048000110",
+    "nome": "AV SERVICOS E FORNECIMENTO LTDA",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Atividades de militância e mobilização de rua",
+     "Despesas com pessoal"
+    ],
+    "total": 399597.74
+   },
+   {
+    "cnpj": "13067360000152",
+    "nome": "SCLM CONSULTORIA E GESTAO EMPRESARIAL LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 350000.0
+   },
+   {
+    "cnpj": "00288475000125",
+    "nome": "R DE MACEDO NUNES",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "50673804000120",
+    "nome": "SMARTPRINT LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 138500.0
+   },
+   {
+    "cnpj": "56343268000180",
+    "nome": "EULALIO OLIVEIRA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "09643969000155",
+    "nome": "MAX DIGITAL PRINT LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 62150.0
+   },
+   {
+    "cnpj": "16499045000192",
+    "nome": "CONTARE SERVICOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "11886613000194",
+    "nome": "N C LOPES DOS SANTOS",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 57279.2
+   },
+   {
+    "cnpj": "54234858000140",
+    "nome": "MARCA COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 43000.0
+   },
+   {
+    "cnpj": "69603512000149",
+    "nome": "DONIZETE PAES LIMA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 37500.0
+   },
+   {
+    "cnpj": "07562537000194",
+    "nome": "JEO ESTAMPARIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 28800.0
+   },
+   {
+    "cnpj": "20458756000196",
+    "nome": "PORTO IMOBILIARIA LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "00353368000133",
+    "nome": "GUABES PRODUCOES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 12500.0
+   },
+   {
+    "cnpj": "12761444000129",
+    "nome": "NILO AMORIM TRANSPORTES LTDA",
+    "cnae": "49299",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 5170.0
+   },
+   {
+    "cnpj": "11886613000356",
+    "nome": "N C LOPES DOS SANTOS",
+    "cnae": "47849",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "25140178000169",
+    "nome": "BORGES CAMURCA RESTAURANTES LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 4280.0
+   },
+   {
+    "cnpj": "60616940000131",
+    "nome": "WL SOLUCOES DIGITAIS PERSONALIZADAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1780.0
+   },
+   {
+    "cnpj": "45167140000197",
+    "nome": "E PACHECO LOPES FILHO PACHECAO LTDA",
+    "cnae": "46931",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1309.72
+   },
+   {
+    "cnpj": "08986525000150",
+    "nome": "CACIQUE COMBUSTIVEIS LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 605.96
+   },
+   {
+    "cnpj": "53009174000181",
+    "nome": "LIDER POSTO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 504.0
+   },
+   {
+    "cnpj": "33967103000184",
+    "nome": "DEMERGE BRASIL PRESTADORA DE SERVICOS DE ATIVOS VIRTUAIS E PAGAMENTOS LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 455.76
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 300.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 18,
+   "total": 147700.2,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 146000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 150.2,
+    "Publicidade por carros de som": 1550.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

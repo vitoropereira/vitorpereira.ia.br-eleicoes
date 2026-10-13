@@ -1,0 +1,219 @@
+{
+ "sq": "40002541745",
+ "nome_urna": "ADJUTO AFONSO",
+ "cargo": "depest",
+ "uf": "AM",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 818000.5,
+  "por_origem": {
+   "Recursos de partido político": 700000.0,
+   "Recursos de pessoas físicas": 68000.5,
+   "Recursos próprios": 50000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 700000.0,
+   "OUTROS RECURSOS": 118000.5
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 600000.0
+   },
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 25,
+   "total": 118000.5
+  }
+ },
+ "despesas": {
+  "total_contratado": 580964.5,
+  "total_pago": 216081.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "23019465000190",
+    "nome": "LORENZONI E ALVES ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "14379922000166",
+    "nome": "ARSENAL SERVICOS E PRODUCOES DE EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "26588516000192",
+    "nome": "PENTA REFRIGERACAO E ENGENHARIA LTDA",
+    "cnae": "43223",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "33457709000170",
+    "nome": "K. DE S. MACHADO SERVICOS",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "60391793000149",
+    "nome": "M 3 EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "05526766000128",
+    "nome": "GRAFICA E EDITORA VITORIA LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 23400.0
+   },
+   {
+    "cnpj": "04337695000152",
+    "nome": "FABRICA DE EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "07964849000124",
+    "nome": "M SALES GOMES TRANSPORTE LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "21602394000128",
+    "nome": "V E V PRODUCAO E ORGANIZACAO DE FESTAS E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "36025935000170",
+    "nome": "T A TRANSPORTE DE PASSAGEIROS LTDA",
+    "cnae": "49213",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "10773536000101",
+    "nome": "D. R. A. DERIVADO DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9477.0
+   },
+   {
+    "cnpj": "84129261000104",
+    "nome": "A GOMES DOS REIS FILHO",
+    "cnae": "47717",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "38331324000185",
+    "nome": "V S COMERCIO VAREJISTA DE MERCADORIA LTDA",
+    "cnae": "47849",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 5400.0
+   },
+   {
+    "cnpj": "05437959000102",
+    "nome": "R P V DA AMAZONIA LTDA",
+    "cnae": "46478",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 2650.45
+   },
+   {
+    "cnpj": "43755208000123",
+    "nome": "TAYRONE DARIO CRUZ DO AMARAL LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 750.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 198,
+   "total": 174287.05,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 122961.0,
+    "Cessão ou locação de veículos": 5000.0,
+    "Despesas com pessoal": 10500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 826.05,
+    "Serviços contábeis": 10000.0,
+    "Serviços prestados por terceiros": 25000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

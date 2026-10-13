@@ -1,0 +1,177 @@
+{
+ "sq": "190002541682",
+ "nome_urna": "MÁRCIO CANELLA",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1170191.25,
+  "por_origem": {
+   "Recursos de outros candidatos": 106931.25,
+   "Recursos de partido político": 1063260.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1169540.0,
+   "OUTROS RECURSOS": 651.25
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 1063260.0
+   },
+   {
+    "cnpj": "68462375000107",
+    "nome": "ANTONIO EDUARDO GONCALVES DE RUEDA",
+    "total": 106280.0
+   },
+   {
+    "cnpj": "68552950000162",
+    "nome": "RICARDO MARTINS DAVID",
+    "total": 651.25
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 893133.51,
+  "total_pago": 750447.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "23412180000114",
+    "nome": "EXACT INDUSTRIA E SERVICOS DE EMBALAGENS E ROTULOS LTDA",
+    "cnae": "17311",
+    "n_despesas": 15,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 228650.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 10,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 220000.0
+   },
+   {
+    "cnpj": "22694652000106",
+    "nome": "STORIA MIDIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "11804138000160",
+    "nome": "ASSOCIACAO NACIONAL DE ARTES E CULTURA",
+    "cnae": "94120",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "05849439000107",
+    "nome": "RIO ATIVA COMUNICACAO E DESIGN LTDA",
+    "cnae": "41204",
+    "n_despesas": 33,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 40809.0
+   },
+   {
+    "cnpj": "10360946000112",
+    "nome": "RAFAEL ALVES DE OLIVEIRA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "28937979000148",
+    "nome": "MEDEIROS E BARROS CORREIA ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "26712176000160",
+    "nome": "BEST SOLUTION EDITORA E ARTES LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9990.0
+   },
+   {
+    "cnpj": "29973826000119",
+    "nome": "A NOSSA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "26495759000186",
+    "nome": "AUTO POSTO CASCAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 10,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3519.21
+   },
+   {
+    "cnpj": "06340575000130",
+    "nome": "MAVIMIX ADESIVOS DECORATIVOS LTDA",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1864.5
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 52,
+   "total": 213300.8,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 122741.8,
+    "Cessão ou locação de veículos": 20000.0,
+    "Despesas com pessoal": 32500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 59.0,
+    "Locação/cessão de bens imóveis": 5000.0,
+    "Produção de jingles, vinhetas e slogans": 3000.0,
+    "Serviços contábeis": 30000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,191 @@
+{
+ "sq": "240002539969",
+ "nome_urna": "JULIANA MACIEL",
+ "cargo": "depest",
+ "uf": "SC",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 480130.67,
+  "por_origem": {
+   "Recursos de partido político": 150000.0,
+   "Recursos de pessoas físicas": 212130.67,
+   "Recursos próprios": 118000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 150000.0,
+   "OUTROS RECURSOS": 330130.67
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 150000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 330130.67
+  }
+ },
+ "despesas": {
+  "total_contratado": 399646.1,
+  "total_pago": 344652.8,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 140000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 44000.0
+   },
+   {
+    "cnpj": "56196164000190",
+    "nome": "56.196.164 GIOVANNA LYSSA AIRES",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 29000.0
+   },
+   {
+    "cnpj": "40830264000197",
+    "nome": "SALIBA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "00330966000197",
+    "nome": "CORGRAF GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24013.3
+   },
+   {
+    "cnpj": "76849595000116",
+    "nome": "TREVISANI LOCACAO DE IMOVEIS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "00513783000107",
+    "nome": "EMPRESA REGIONAL DE NEGOCIOS LTDA",
+    "cnae": "58123",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15500.0
+   },
+   {
+    "cnpj": "28325557000111",
+    "nome": "QI IMPRESSAO GRAFICA E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "01181294000168",
+    "nome": "PIERO COMERCIO E CONFECCAO DE ARTIGOS DO VESTUARIO LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3264.0
+   },
+   {
+    "cnpj": "04489202000108",
+    "nome": "HARMONIZE INDUSTRIA E COMERCIO TEXTIL LTDA",
+    "cnae": "14223",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "82729922000107",
+    "nome": "PLANALTO - COMERCIO DE COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1473.1
+   },
+   {
+    "cnpj": "04777365000188",
+    "nome": "VITAL PEREIRA EMPREENDIMENTOS TURISTICOS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "63243053000153",
+    "nome": "TRENZINHO UNI DUNI TE LTDA",
+    "cnae": "93298",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "31308739000199",
+    "nome": "LUDKA PRODUCOES CULTURAIS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 400.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 32,
+   "total": 81295.7,
+   "por_tipo": {
+    "Despesas com pessoal": 81250.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 45.7
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

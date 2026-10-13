@@ -1,0 +1,152 @@
+{
+ "sq": "250002536361",
+ "nome_urna": "RODRIGO ASHIUCHI",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 971409.05,
+  "por_origem": {
+   "Recursos de partido político": 962409.05,
+   "Recursos de pessoas físicas": 9000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 650000.0,
+   "FUNDO PARTIDARIO": 304727.63,
+   "OUTROS RECURSOS": 16681.42
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 950000.0
+   },
+   {
+    "cnpj": "08701595000114",
+    "nome": "Direção Estadual/Distrital - PL - SÃO PAULO",
+    "total": 12409.05
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 9000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 287353.9,
+  "total_pago": 20000.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "32207039000170",
+    "nome": "ASSIMILAR SERVICOS DE COMUNICACAO E MARKETING LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 146653.9
+   },
+   {
+    "cnpj": "06282133000184",
+    "nome": "TUDA ENGENHARIA E CONSULTORIA LTDA",
+    "cnae": "43304",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "47688932000132",
+    "nome": "SEMPRE PROPAGANDA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "00645965000131",
+    "nome": "MURC EDITORA GRAFICA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24200.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "53637481000107",
+    "nome": "TRES ILHAS COMUNICACAO VISUAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "10862849000128",
+    "nome": "DIGNA - TREINAMENTO, ASSESSORIA E CONSULTORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "55276898000117",
+    "nome": "AFRANIO EVARISTO DA SILVA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "17893045000135",
+    "nome": "MARTINA PARTICIPACOES E ADMINISTRACAO DE BENS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "44409811000116",
+    "nome": "ASSOCIACAO CULTURAL SUZANENSE",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 0,
+   "total": 0.0,
+   "por_tipo": {}
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

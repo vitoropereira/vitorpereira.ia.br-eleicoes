@@ -1,0 +1,344 @@
+{
+ "sq": "240002533831",
+ "nome_urna": "GIOVANA MONDARDO",
+ "cargo": "depfed",
+ "uf": "SC",
+ "partido": "PCDOB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2565483.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 8033.0,
+   "Recursos de partido político": 2469000.0,
+   "Recursos de pessoas físicas": 88450.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2350000.0,
+   "FUNDO PARTIDARIO": 119000.0,
+   "OUTROS RECURSOS": 96483.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "54956495000156",
+    "nome": "Direção Nacional - PCDOB",
+    "total": 2450000.0
+   },
+   {
+    "cnpj": "79886313000149",
+    "nome": "Direção Estadual/Distrital - PCDOB - SANTA CATARINA",
+    "total": 19000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 8033.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 23,
+   "total": 88450.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1059180.19,
+  "total_pago": 722150.68,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 85000.0
+   },
+   {
+    "cnpj": "58996789000162",
+    "nome": "DAVIDA GESTAO LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "01488278000112",
+    "nome": "FARAH, GOMES E ADVOGADOS - SOCIEDADE SIMPLES (S/S)",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 28000.0
+   },
+   {
+    "cnpj": "40963599000183",
+    "nome": "ELECTIOCON LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 26250.0
+   },
+   {
+    "cnpj": "33427744000146",
+    "nome": "JOSE ROBERTO PALUDO",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 17360.0
+   },
+   {
+    "cnpj": "24410699000126",
+    "nome": "RM LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 14938.4
+   },
+   {
+    "cnpj": "09256171000150",
+    "nome": "IPC - INSTITUTO DE PESQUISA CATARINENSE LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 14500.0
+   },
+   {
+    "cnpj": "25188538000100",
+    "nome": "ESSENT INOVACAO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 11250.0
+   },
+   {
+    "cnpj": "05748155000124",
+    "nome": "DELTA EDITORA E SERVICOS GRAFICOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11200.0
+   },
+   {
+    "cnpj": "95803839000174",
+    "nome": "DISK CAR LOCACAO DE VEICULOS SA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5900.0
+   },
+   {
+    "cnpj": "65599096000100",
+    "nome": "PRO WIND ARTES LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5800.0
+   },
+   {
+    "cnpj": "83659151000183",
+    "nome": "SOCIEDADE RECREATIVA UNIAO MINEIRA",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "19344479000101",
+    "nome": "DUO COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3200.0
+   },
+   {
+    "cnpj": "07224379000162",
+    "nome": "PORTAL MIX EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "18865528000199",
+    "nome": "18.865.528 JOSE ELTON PEREIRA DA SILVA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "79005591000140",
+    "nome": "SOCIEDADE RECREATIVA ESPORTIVA CULTURAL NOVO HORIZONTE",
+    "cnae": "94936",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "15505790000134",
+    "nome": "FLT ASSESSORIA EM TURISMO LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 2416.0
+   },
+   {
+    "cnpj": "22450881000185",
+    "nome": "REDBLUE ESTAMPARIA E ACABAMENTOS LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1580.0
+   },
+   {
+    "cnpj": "51817635000117",
+    "nome": "51.817.635 EDIO JOSE LUCCA",
+    "cnae": "77322",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1300.0
+   },
+   {
+    "cnpj": "73439150000170",
+    "nome": "EMBALAGENS ELIANE LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "29108221000160",
+    "nome": "EDER PEREIRA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "17657777000126",
+    "nome": "EDUARDO FRANCELINO MENEGALI",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 960.0
+   },
+   {
+    "cnpj": "39995193000101",
+    "nome": "39.995.193 TAMYRIS SOUZA DA SILVA",
+    "cnae": "85937",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "39585563000124",
+    "nome": "ACL INDUSTRIA E COMERCIO DE PRODUTOS PARA EVENTOS LTDA",
+    "cnae": "13596",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 385.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 234.14
+   },
+   {
+    "cnpj": "00369029000145",
+    "nome": "DISK CARIMBOS INDUSTRIA E COMERCIO LTDA",
+    "cnae": "22196",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 230.0
+   },
+   {
+    "cnpj": "42662103000167",
+    "nome": "LEONARDO DAGOSTINI LTDA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 119.0
+   },
+   {
+    "cnpj": "83874495000105",
+    "nome": "PAPELARIA PROGRESSO LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 99.15
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 133,
+   "total": 752508.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 356260.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 48.5,
+    "Serviços advocatícios": 35000.0,
+    "Serviços prestados por terceiros": 361200.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

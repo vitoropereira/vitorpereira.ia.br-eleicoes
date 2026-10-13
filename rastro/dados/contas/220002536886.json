@@ -1,0 +1,203 @@
+{
+ "sq": "220002536886",
+ "nome_urna": "SOFIA ANDRADE",
+ "cargo": "depfed",
+ "uf": "RO",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1446410.99,
+  "por_origem": {
+   "Recursos de partido político": 1349999.99,
+   "Recursos de pessoas físicas": 96411.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1349999.99,
+   "OUTROS RECURSOS": 96411.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1349999.99
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 37,
+   "total": 96411.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 760936.69,
+  "total_pago": 465325.71,
+  "fornecedores_pj": [
+   {
+    "cnpj": "52869359000101",
+    "nome": "VEM SER PUBLICIDADE, CONSULTORIA E TREINAMENTOS LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "57113278000192",
+    "nome": "EXATHUS ASSESSORIA E CONSULTORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 84000.0
+   },
+   {
+    "cnpj": "05748398000162",
+    "nome": "CAICO VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "84571116000170",
+    "nome": "ROCHA MUNIZ LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "18291282000199",
+    "nome": "R. M. S. COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 13980.0
+   },
+   {
+    "cnpj": "41176605000115",
+    "nome": "BORA LOCACOES E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8200.0
+   },
+   {
+    "cnpj": "34770685000339",
+    "nome": "IRMAOS RUSSI LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7005.39
+   },
+   {
+    "cnpj": "62639832000100",
+    "nome": "P H D COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "11773245000178",
+    "nome": "MASSARI COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3900.0
+   },
+   {
+    "cnpj": "14410553000127",
+    "nome": "A.C.F. MOREIRA",
+    "cnae": "47237",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar",
+     "Materiais de expediente"
+    ],
+    "total": 1965.3
+   },
+   {
+    "cnpj": "45991563000127",
+    "nome": "M MACHADO SERVICOS DE GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1498.5
+   },
+   {
+    "cnpj": "24525161000167",
+    "nome": "EVOLUA TECNOLOGIC COMERCIO E SERVICOS LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "05963158000180",
+    "nome": "KAIL KAIL COMERCIO DE GELO LTDA",
+    "cnae": "10996",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 432.0
+   },
+   {
+    "cnpj": "04392411000120",
+    "nome": "ASSOCIACAO COMERCIAL, INDUSTRIAL E SERVICOS DE GUAJARA MIRIM",
+    "cnae": "94111",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 43,
+   "total": 251255.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 59811.0,
+    "Cessão ou locação de veículos": 35000.0,
+    "Despesas com pessoal": 149731.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 13.5,
+    "Locação/cessão de bens móveis (exceto veículos)": 6700.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,276 @@
+{
+ "sq": "120002536055",
+ "nome_urna": "ZÉ TEIXEIRA",
+ "cargo": "depest",
+ "uf": "MS",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1137720.0,
+  "por_origem": {
+   "Recursos de partido político": 170620.0,
+   "Recursos de pessoas físicas": 855000.0,
+   "Recursos próprios": 112100.0
+  },
+  "por_fonte": {
+   "FUNDO PARTIDARIO": 100620.0,
+   "OUTROS RECURSOS": 1037100.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "09002846000135",
+    "nome": "Direção Estadual/Distrital - PL - MATO GROSSO DO SUL",
+    "total": 170620.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 967100.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 978944.1,
+  "total_pago": 1078784.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "51304261000136",
+    "nome": "A.M GRAFICA PAPELARIA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 125000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 9511.99
+   },
+   {
+    "cnpj": "58051403000140",
+    "nome": "SPOTNIK PRODUCAO E ASSESSORIA EM RADIODIFUSAO LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "01459994000171",
+    "nome": "R V SANTOS CIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "42822326000144",
+    "nome": "NEFTALI WILLIAN RODRIGUES",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "20022960000160",
+    "nome": "RM - CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "12762864000120",
+    "nome": "GRAFICA LUAR EDITORA E PAPELARIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "03617768000105",
+    "nome": "SELETA SOCIEDADE CARITATIVA E HUMANITARIA",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "46631696000155",
+    "nome": "PHM FILMES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "27413829000172",
+    "nome": "27.413.829 ALEXANDRE LEITE VASCONCELLOS",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "45762326000194",
+    "nome": "JR ARTE FINAL LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1900.0
+   },
+   {
+    "cnpj": "57553899000197",
+    "nome": "GUSTAVO VICENTE MARKETING E COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1280.0
+   },
+   {
+    "cnpj": "05483643000157",
+    "nome": "SEPRIVA SEGURANCA LTDA",
+    "cnae": "80111",
+    "n_despesas": 1,
+    "tipos": [
+     "Segurança e prevenção, repressão e combate à violência política"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "37533320000117",
+    "nome": "JOAO CARLOS BARBOSA MORAES",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "08726196000108",
+    "nome": "RPR CRIACOES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 862.5
+   },
+   {
+    "cnpj": "15469000000102",
+    "nome": "CASA DA AMIZADE DE RIO BRILHANTE",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "03861291000109",
+    "nome": "DOURAPLAST LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 518.0
+   },
+   {
+    "cnpj": "03126158000109",
+    "nome": "TIPOGRAFIA PROGRESSO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "37212982000195",
+    "nome": "ASSOCIACAO DE PAIS E AMIGOS DOS EXCEPCIONAIS DE CAARAPO-MS",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "57825921000100",
+    "nome": "TRATTO COMUNICACAO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 275.0
+   },
+   {
+    "cnpj": "13236697000146",
+    "nome": "EBANX BRASIL INSTITUICAO DE PAGAMENTO LTDA",
+    "cnae": "62091",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 62.1
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 151,
+   "total": 794694.51,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 718400.0,
+    "Cessão ou locação de veículos": 10000.0,
+    "Despesas com pessoal": 24750.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1544.51,
+    "Serviços advocatícios": 15000.0,
+    "Serviços contábeis": 15000.0,
+    "Serviços prestados por terceiros": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

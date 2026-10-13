@@ -1,0 +1,296 @@
+{
+ "sq": "140002551139",
+ "nome_urna": "PAULA TITAN",
+ "cargo": "depest",
+ "uf": "PA",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 678626.25,
+  "por_origem": {
+   "Recursos de outros candidatos": 4065.1,
+   "Recursos de partido político": 530000.0,
+   "Recursos de pessoas físicas": 124561.15,
+   "Recursos próprios": 20000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 530000.0,
+   "OUTROS RECURSOS": 148626.25
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 530000.0
+   },
+   {
+    "cnpj": "68455551000183",
+    "nome": "JOSE BENITO PRIANTE JUNIOR",
+    "total": 2785.0
+   },
+   {
+    "cnpj": "68456016000147",
+    "nome": "CASSIO COELHO ANDRADE",
+    "total": 1280.1
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 22,
+   "total": 144561.15
+  }
+ },
+ "despesas": {
+  "total_contratado": 591563.13,
+  "total_pago": 649789.23,
+  "fornecedores_pj": [
+   {
+    "cnpj": "57691439000125",
+    "nome": "ARRUDA FIGUEIREDO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "17714408000128",
+    "nome": "SF CONSULTT CONSULTORIA E CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "11787021000115",
+    "nome": "CONECTE MIDIA COMUNICACAO LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 31000.0
+   },
+   {
+    "cnpj": "22618242000186",
+    "nome": "BRITO E PORPINO LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 26730.0
+   },
+   {
+    "cnpj": "68413334000120",
+    "nome": "SATIRO GOMES NASCIMENTO JUNIOR",
+    "cnae": "18229",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25400.0
+   },
+   {
+    "cnpj": "18326727000129",
+    "nome": "BIG SERVICOS IMPRESSAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 20325.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 17500.0
+   },
+   {
+    "cnpj": "27469370000129",
+    "nome": "B. S. DE ARAUJO OLIVEIRA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16200.0
+   },
+   {
+    "cnpj": "17796540000126",
+    "nome": "D. R. LUNAS COMERCIO E SERVICOS",
+    "cnae": "47547",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12600.0
+   },
+   {
+    "cnpj": "47644832000104",
+    "nome": "LEO BEBIDAS LTDA",
+    "cnae": "47237",
+    "n_despesas": 3,
+    "tipos": [
+     "Água"
+    ],
+    "total": 7560.0
+   },
+   {
+    "cnpj": "40821516000111",
+    "nome": "C. A. LOPES DE SOUSA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "83838839000120",
+    "nome": "SUPER POSTO PALMEIRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6390.93
+   },
+   {
+    "cnpj": "48592777000119",
+    "nome": "J T ROMANHOLY FERREIRA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "52135593000105",
+    "nome": "52.135.593 JOSE ROBERTO VAZ COUTINHO",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "04819490000103",
+    "nome": "LOURENCO AUGUSTO SILVA PIRES D AVILA SERVICOS E COMERCIO DE IMPRESSAO GRAFICA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3750.0
+   },
+   {
+    "cnpj": "48029457000155",
+    "nome": "AMS DE SOUSA DEPOSITO DE BEBIDAS LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 2650.0
+   },
+   {
+    "cnpj": "46286780000189",
+    "nome": "46.286.780 ANDERSON MAMEDIO SILVA OLIVEIRA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "55940593000168",
+    "nome": "AVANCE IMOVEIS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "75315333023079",
+    "nome": "ATACADAO S.A.",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 2256.0
+   },
+   {
+    "cnpj": "41689682000179",
+    "nome": "MARIA LARISSA DE MORAES OLIVEIRA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "41356552000114",
+    "nome": "BARUC COMERCIO, SERVICOS E PRODUCOES LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1110.0
+   },
+   {
+    "cnpj": "21755518000105",
+    "nome": "A N N DO NASCIMENTO LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1050.0
+   },
+   {
+    "cnpj": "08759790000103",
+    "nome": "AMAZONIA COMERCIO DE ARTIGOS DE ARMARINHO LTDA",
+    "cnae": "46419",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 52.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 117,
+   "total": 318489.2,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 127350.0,
+    "Cessão ou locação de veículos": 95120.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 339.2,
+    "Eventos de promoção da candidatura": 2600.0,
+    "Locação/cessão de bens imóveis": 16500.0,
+    "Serviços prestados por terceiros": 76580.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

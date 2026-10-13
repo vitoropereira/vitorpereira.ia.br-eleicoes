@@ -1,0 +1,133 @@
+{
+ "sq": "70002539540",
+ "nome_urna": "AGNELO QUEIROZ",
+ "cargo": "depfed",
+ "uf": "DF",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 330636.02,
+  "por_origem": {
+   "Recursos de partido político": 198250.0,
+   "Recursos de pessoas físicas": 130376.02,
+   "Recursos próprios": 2010.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 182750.0,
+   "FUNDO PARTIDARIO": 15500.0,
+   "OUTROS RECURSOS": 132386.02
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 198250.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 145,
+   "total": 132386.02
+  }
+ },
+ "despesas": {
+  "total_contratado": 97608.59,
+  "total_pago": 121639.59,
+  "fornecedores_pj": [
+   {
+    "cnpj": "68561051000126",
+    "nome": "GRAFICA NOBRE PUBLICIDADE E CONFECCAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 28580.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 23490.0
+   },
+   {
+    "cnpj": "64980401000138",
+    "nome": "REGULARIZE CONTAS ELEITORAIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 14500.0
+   },
+   {
+    "cnpj": "45877695000122",
+    "nome": "SVS COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4269.5
+   },
+   {
+    "cnpj": "11850861000185",
+    "nome": "GRAFICA NICODEMOS LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3150.0
+   },
+   {
+    "cnpj": "39920691000187",
+    "nome": "BUREAU BSB GRAFICA DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 560.0
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 3019.09,
+   "por_tipo": {
+    "Despesas com pessoal": 3000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 19.09
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,70 @@
+{
+ "sq": "10002545646",
+ "nome_urna": "ARLENILSON CUNHA",
+ "cargo": "depest",
+ "uf": "AC",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 250000.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 100000.0,
+   "Recursos de partido político": 150000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 250000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 150000.0
+   },
+   {
+    "cnpj": "68504301000196",
+    "nome": "EDEN ALVES AZEVEDO",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 43000.0,
+  "total_pago": 92675.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "00529581000153",
+    "nome": "AUTO POSTO AMAPA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "02035162000190",
+    "nome": "P L MARTINI",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 0,
+   "total": 0.0,
+   "por_tipo": {}
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

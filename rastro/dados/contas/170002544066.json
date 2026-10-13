@@ -1,0 +1,346 @@
+{
+ "sq": "170002544066",
+ "nome_urna": "FERNANDO FILHO",
+ "cargo": "depfed",
+ "uf": "PE",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3058220.0,
+  "por_origem": {
+   "Recursos de partido político": 2823220.0,
+   "Recursos de pessoas físicas": 235000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1793220.0,
+   "OUTROS RECURSOS": 1265000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 2823220.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 235000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2621771.47,
+  "total_pago": 2997346.49,
+  "fornecedores_pj": [
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 605500.0
+   },
+   {
+    "cnpj": "47402712000109",
+    "nome": "NE ELEICOES SPE LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 500000.0
+   },
+   {
+    "cnpj": "18116873000120",
+    "nome": "MM TAXI AEREO LTDA",
+    "cnae": "52401",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 264960.0
+   },
+   {
+    "cnpj": "31308450000170",
+    "nome": "VALEPRINT GRAFICA DIGITAL E COMUNICACAO VISUAL LTDA",
+    "cnae": "18229",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 233000.0
+   },
+   {
+    "cnpj": "35603307000161",
+    "nome": "CCS GRAFICA E EDITORA COMERCIO E SERVICOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 12,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 136000.0
+   },
+   {
+    "cnpj": "39709768000174",
+    "nome": "EW CARVALHO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 110000.0
+   },
+   {
+    "cnpj": "10212826000178",
+    "nome": "D. CAMPOS - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 69500.0
+   },
+   {
+    "cnpj": "10582850000107",
+    "nome": "M C S LOCACAO E SERVICOS DE TRANSPORTES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 59800.0
+   },
+   {
+    "cnpj": "54115036000140",
+    "nome": "VINTE E UM FILMES PRODUTORA AUDIOVISUAL LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "09327342000195",
+    "nome": "ENGEMAK LTDA",
+    "cnae": "77110",
+    "n_despesas": 5,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 34528.04
+   },
+   {
+    "cnpj": "61300092000110",
+    "nome": "ANA LUISA AMORIM GONCALVES LIMA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 26562.5
+   },
+   {
+    "cnpj": "14272275000199",
+    "nome": "PIPOCA PRODUCOES E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "51333481000198",
+    "nome": "KAIO SOM PRODUCOES E EVENTOS LTDA",
+    "cnae": "47539",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68829343000105",
+    "nome": "COCCINELLE BLANCHE LTDA",
+    "cnae": "62091",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "43059059000168",
+    "nome": "R.N.S TRANSPORTES LOCACOES LTDA",
+    "cnae": "49213",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "29918355000146",
+    "nome": "CASA AMARELA COMPRA, VENDA E ALUGUEL DE IMOVEIS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "59254528000130",
+    "nome": "POSTO MILAGRES COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10545.85
+   },
+   {
+    "cnpj": "34028316060947",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 7505.52
+   },
+   {
+    "cnpj": "45697744000145",
+    "nome": "PJB PRODUCOES ARTISTICAS , EVENTOS E SERVICOS LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "43145974000176",
+    "nome": "VALEMIX ATACAREJO DE MATERIAL DE CONSTRUCAO LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 4950.0
+   },
+   {
+    "cnpj": "37317108000112",
+    "nome": "CCI EMPREENDIMENTO E INCORPORACAO SPE LTDA",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "54457174000107",
+    "nome": "TACIO CAMARGO COMUNICACAO E MARKETING LTDA",
+    "cnae": "60217",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "58734218000150",
+    "nome": "58.734.218 MARIANNE FERREIRA GUARDIAO DE ALBUQUERQUE CESAR",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "59437182000105",
+    "nome": "59.437.182 CRISTIANO PRAZERES DA SILVA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "09023639000167",
+    "nome": "GALDINO COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1964.04
+   },
+   {
+    "cnpj": "37424805000172",
+    "nome": "AUTO POSTO DE COMBUSTIVEIS AVENIDA RECIFE LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 962.02
+   },
+   {
+    "cnpj": "09101645000195",
+    "nome": "TELEACO COMERCIAL DE FERRO LTDA",
+    "cnae": "46729",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 936.0
+   },
+   {
+    "cnpj": "11380693000101",
+    "nome": "VALE MIX ATACADISTA DE MATERIAL DE CONSTRUCAO LTDA",
+    "cnae": "46796",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 210.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 109,
+   "total": 332847.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 179300.0,
+    "Cessão ou locação de veículos": 79500.0,
+    "Despesas com pessoal": 11900.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 147.5,
+    "Publicidade por carros de som": 34000.0,
+    "Serviços contábeis": 23000.0,
+    "Serviços prestados por terceiros": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

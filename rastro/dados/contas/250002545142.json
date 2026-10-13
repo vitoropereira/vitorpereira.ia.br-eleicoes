@@ -1,0 +1,221 @@
+{
+ "sq": "250002545142",
+ "nome_urna": "RICARDO FRANÇA",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1013788.0,
+  "por_origem": {
+   "Recursos de partido político": 952400.0,
+   "Recursos de pessoas físicas": 28784.0,
+   "Recursos próprios": 32604.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 952400.0,
+   "OUTROS RECURSOS": 61388.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 952400.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 61388.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 554409.31,
+  "total_pago": 462519.41,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 165000.0
+   },
+   {
+    "cnpj": "34028316311702",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 126584.79
+   },
+   {
+    "cnpj": "15440892000119",
+    "nome": "ALEIXO COSTA SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "17013903000100",
+    "nome": "G G L TRANSPORTES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 27450.0
+   },
+   {
+    "cnpj": "20489497000160",
+    "nome": "MARCOS PAULO PIRES DE OLIVEIRA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "68457294000119",
+    "nome": "CERES ASSESSORIA E GESTAO LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "28680448000112",
+    "nome": "PANFLETAGEM CAMPINAS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "15139895000117",
+    "nome": "PORTAL E EDITORA MAIS EXPRESSAO LTDA",
+    "cnae": "63194",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 7200.0
+   },
+   {
+    "cnpj": "50080175000124",
+    "nome": "PAPELARIA FRANCISCO AVILA LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 5526.0
+   },
+   {
+    "cnpj": "31155311000153",
+    "nome": "31.155.311 DIEGO HENRIQUE MODESTO",
+    "cnae": "90019",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "45750980000188",
+    "nome": "MARIA APARECIDA SEIXAS",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2800.0
+   },
+   {
+    "cnpj": "29981769000110",
+    "nome": "LUGEL COMERCIO E APLICACAO DE PELICULAS ADESIVAS LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "10774876000149",
+    "nome": "M.A. POKER",
+    "cnae": "47555",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "36476735000133",
+    "nome": "AG CLICK GRAFICA E EDITORA LTDA.",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "61585865077960",
+    "nome": "RAIA DROGASIL S/A",
+    "cnae": "47717",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 437.94
+   },
+   {
+    "cnpj": "30671823000100",
+    "nome": "KLIVEX COMERCIO VAREJISTA DE MERCADORIAS DE LIMPEZA LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 32.2
+   },
+   {
+    "cnpj": "01937635004250",
+    "nome": "SONDA SUPERMERCADOS EXPORTACAO E IMPORTACAO S.A.",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 17.38
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 34,
+   "total": 120961.0,
+   "por_tipo": {
+    "Despesas com pessoal": 100440.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 21.0,
+    "Locação/cessão de bens imóveis": 20500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,374 @@
+{
+ "sq": "180002533967",
+ "nome_urna": "MARCELO CASTRO",
+ "cargo": "senador",
+ "uf": "PI",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3334139.05,
+  "por_origem": {
+   "Recursos de outros candidatos": 235659.5,
+   "Recursos de partido político": 3000000.0,
+   "Recursos de pessoas físicas": 53478.75,
+   "Recursos próprios": 45000.8
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3023512.5,
+   "OUTROS RECURSOS": 310626.55
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 3000000.0
+   },
+   {
+    "cnpj": "68373516000115",
+    "nome": "JOSE DIAS DE CASTRO NETO",
+    "total": 178631.0
+   },
+   {
+    "cnpj": "68238024000117",
+    "nome": "RAFAEL TAJRA FONTELES",
+    "total": 57028.5
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 8,
+   "total": 98479.55
+  }
+ },
+ "despesas": {
+  "total_contratado": 2163016.94,
+  "total_pago": 2650340.52,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 12,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 430000.0
+   },
+   {
+    "cnpj": "06305943000109",
+    "nome": "CLOSE AUDIOVISUAL LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "49243048000110",
+    "nome": "AV SERVICOS E FORNECIMENTO LTDA",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Atividades de militância e mobilização de rua",
+     "Despesas com pessoal"
+    ],
+    "total": 252089.35
+   },
+   {
+    "cnpj": "38412712000190",
+    "nome": "BUNKER ADVERTISING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "50673804000120",
+    "nome": "SMARTPRINT LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 157500.0
+   },
+   {
+    "cnpj": "10308997000103",
+    "nome": "HALLEY SA GRAFICA E EDITORA",
+    "cnae": "18113",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 150800.0
+   },
+   {
+    "cnpj": "16499045000192",
+    "nome": "CONTARE SERVICOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 145000.0
+   },
+   {
+    "cnpj": "57267185000112",
+    "nome": "FALCAO FALCAO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 145000.0
+   },
+   {
+    "cnpj": "43972539000115",
+    "nome": "EF PONTES JUNIOR TRANSPORTES LTDA",
+    "cnae": "49248",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 57330.0
+   },
+   {
+    "cnpj": "60616940000131",
+    "nome": "WL SOLUCOES DIGITAIS PERSONALIZADAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 40490.0
+   },
+   {
+    "cnpj": "07829743000118",
+    "nome": "F. P. BORGES GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 37000.0
+   },
+   {
+    "cnpj": "05586866000140",
+    "nome": "R N S LOPES",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26250.0
+   },
+   {
+    "cnpj": "03003930000197",
+    "nome": "CEARA TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "33133730000110",
+    "nome": "FORTLIGHT COMUNICACAO LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19200.0
+   },
+   {
+    "cnpj": "34028316181574",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 15955.5
+   },
+   {
+    "cnpj": "13657248000171",
+    "nome": "WELSON VEICULOS LTDA",
+    "cnae": "45129",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "52058379000194",
+    "nome": "SIGNA LTDA",
+    "cnae": "47814",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8862.9
+   },
+   {
+    "cnpj": "06983654000169",
+    "nome": "DARCY ARAUJO IMOVEIS LIMITADA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "06656656002944",
+    "nome": "CACIQUE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7524.19
+   },
+   {
+    "cnpj": "06656656000143",
+    "nome": "CACIQUE PETROLEO LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6804.5
+   },
+   {
+    "cnpj": "04443021000213",
+    "nome": "EUROPA INVESTIMENTOS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "23166661000197",
+    "nome": "PATAMARES PRODUCOES LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 4400.0
+   },
+   {
+    "cnpj": "58473940000188",
+    "nome": "58.473.940 THIAGO DE QUEIROZ SILVA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3950.0
+   },
+   {
+    "cnpj": "43559245000166",
+    "nome": "GENI V DE SOUSA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2210.0
+   },
+   {
+    "cnpj": "45167140000197",
+    "nome": "E PACHECO LOPES FILHO PACHECAO LTDA",
+    "cnae": "46931",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1814.66
+   },
+   {
+    "cnpj": "53392710000170",
+    "nome": "53.392.710 DEBORA JAMARA DA SILVA SAMPAIO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "08537574000105",
+    "nome": "GOSTO NA BOCA PONTO DE ALIMENTACAO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 880.0
+   },
+   {
+    "cnpj": "06656656003754",
+    "nome": "CACIQUE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 778.51
+   },
+   {
+    "cnpj": "10176750000172",
+    "nome": "PONCE DESING COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "06656656005021",
+    "nome": "CACIQUE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 500.13
+   },
+   {
+    "cnpj": "05439562000150",
+    "nome": "VIRTEX TELECOM LTDA",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Telefone"
+    ],
+    "total": 199.9
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 6,
+   "total": 44727.3,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 44700.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 27.3
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

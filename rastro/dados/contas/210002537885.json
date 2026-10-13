@@ -1,0 +1,590 @@
+{
+ "sq": "210002537885",
+ "nome_urna": "NICOLE WEBER COVATTI",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1270354.1,
+  "por_origem": {
+   "Recursos de partido político": 1265000.0,
+   "Recursos próprios": 5354.1
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1265000.0,
+   "OUTROS RECURSOS": 5354.1
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 1265000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 5354.1
+  }
+ },
+ "despesas": {
+  "total_contratado": 1145086.68,
+  "total_pago": 1262469.24,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "01720535000108",
+    "nome": "PRISMA SINALIZACAO E COMUNICACAO VISUAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 76060.0
+   },
+   {
+    "cnpj": "94990835000180",
+    "nome": "PRINT PRESS FORMULARIOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 66060.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "05476664000145",
+    "nome": "CROMO GRAFICA E EDITORA LTDA",
+    "cnae": "17419",
+    "n_despesas": 20,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 33353.0
+   },
+   {
+    "cnpj": "66133900000115",
+    "nome": "ZILIO HOLDING E PARTICIPACOES LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 33000.0
+   },
+   {
+    "cnpj": "95424834000130",
+    "nome": "GAZETA DO SUL S/A - EM RECUPERACAO JUDICIAL",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 24750.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "22525222000160",
+    "nome": "CK COMERCIO E IMPORTACAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19840.0
+   },
+   {
+    "cnpj": "08578317000111",
+    "nome": "PELICULA VIDEO DESIGN LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "56441320000131",
+    "nome": "CARLOS EDUARDO VILELA NUNES LTDA.",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16400.0
+   },
+   {
+    "cnpj": "93818755000189",
+    "nome": "GRAFOCEM IMPRESSOS GRAFICOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16022.5
+   },
+   {
+    "cnpj": "02868231000147",
+    "nome": "ALFA LATINO AMERICA LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 14700.0
+   },
+   {
+    "cnpj": "07447405000111",
+    "nome": "ELF LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 11907.0
+   },
+   {
+    "cnpj": "54710202000156",
+    "nome": "MARINA SOPELSA LOPES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 11400.0
+   },
+   {
+    "cnpj": "43957904000112",
+    "nome": "CESAR SCHMITT SOUSA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 9600.0
+   },
+   {
+    "cnpj": "15115234000151",
+    "nome": "SPEED PROMOCIONAL INDUSTRIA DE BRINDES LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8175.0
+   },
+   {
+    "cnpj": "58411181000129",
+    "nome": "SUBLIMY PRINT LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7343.0
+   },
+   {
+    "cnpj": "07356684000108",
+    "nome": "AUTO POSTO TIO BIBA LTDA",
+    "cnae": "47318",
+    "n_despesas": 20,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5969.06
+   },
+   {
+    "cnpj": "01415078000130",
+    "nome": "LEODEGAR FRIELINK",
+    "cnae": "45307",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5616.0
+   },
+   {
+    "cnpj": "02906922000279",
+    "nome": "GIOVANE F. PICK LTDA",
+    "cnae": "47318",
+    "n_despesas": 20,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5357.01
+   },
+   {
+    "cnpj": "33337933000128",
+    "nome": "FREITAS ZARO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5121.29
+   },
+   {
+    "cnpj": "94972825000111",
+    "nome": "COMERCIAL DE COMBUSTIVEIS B C LTDA",
+    "cnae": "47318",
+    "n_despesas": 19,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4689.33
+   },
+   {
+    "cnpj": "93711224000192",
+    "nome": "AMC CONSULTORIA E CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "00110559000336",
+    "nome": "ABASTECEDORA DE COMBUSTIVEIS T W LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2828.3
+   },
+   {
+    "cnpj": "87723417001728",
+    "nome": "POSTO SANTA TEREZINHA LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2593.88
+   },
+   {
+    "cnpj": "63272252000190",
+    "nome": "ZANELLA SERVICOS DIGITAIS E BRINDES LTDA",
+    "cnae": "82199",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "00110559000174",
+    "nome": "ABASTECEDORA DE COMBUSTIVEIS T W LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2332.11
+   },
+   {
+    "cnpj": "91010082000453",
+    "nome": "H.LANG FILHO COMERCIO,REPRESENTACOES E TRANSPORTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 11,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2323.2
+   },
+   {
+    "cnpj": "04895663000172",
+    "nome": "SAGAS COMERCIO DE OLEOS E COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2089.61
+   },
+   {
+    "cnpj": "89053078000188",
+    "nome": "POSTO DE ABASTECIMENTO ROTA DO MAR LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1873.88
+   },
+   {
+    "cnpj": "93489243009172",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1123.61
+   },
+   {
+    "cnpj": "10785679000125",
+    "nome": "A F DREHER - EDITORA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "93489243000620",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1057.81
+   },
+   {
+    "cnpj": "93489243006580",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1010.14
+   },
+   {
+    "cnpj": "13453035000128",
+    "nome": "NETTO EMPRESA JORNALISTICA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "95424834000211",
+    "nome": "GAZETA DO SUL S/A - EM RECUPERACAO JUDICIAL",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 945.0
+   },
+   {
+    "cnpj": "05491962000104",
+    "nome": "ABASTECEDORA DE COMBUSTIVEIS NONOAI LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 923.82
+   },
+   {
+    "cnpj": "90512682000104",
+    "nome": "JORNAL DO POVO LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "91010082000372",
+    "nome": "H.LANG FILHO COMERCIO,REPRESENTACOES E TRANSPORTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 846.44
+   },
+   {
+    "cnpj": "87856738000133",
+    "nome": "PEROLA EDITORA JORNALISTICA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 736.0
+   },
+   {
+    "cnpj": "93489243004022",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 709.91
+   },
+   {
+    "cnpj": "93489243000701",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 664.33
+   },
+   {
+    "cnpj": "93489243006319",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 549.81
+   },
+   {
+    "cnpj": "94286861000121",
+    "nome": "LUIS CARLOS MEDEIROS MACHADO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 540.0
+   },
+   {
+    "cnpj": "93489243010260",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 485.16
+   },
+   {
+    "cnpj": "93489243005428",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 408.64
+   },
+   {
+    "cnpj": "42606075000160",
+    "nome": "P. C. B. RANGEL",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 350.0
+   },
+   {
+    "cnpj": "31373058000104",
+    "nome": "COMERCIO DE COMBUSTIVEIS CODORNA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 336.31
+   },
+   {
+    "cnpj": "93489243002160",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 250.97
+   },
+   {
+    "cnpj": "93489243002917",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 240.52
+   },
+   {
+    "cnpj": "91010082000100",
+    "nome": "H.LANG FILHO COMERCIO,REPRESENTACOES E TRANSPORTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 221.29
+   },
+   {
+    "cnpj": "93489243006742",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 213.58
+   },
+   {
+    "cnpj": "93489243004294",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 169.17
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 151,
+   "total": 496500.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 496500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

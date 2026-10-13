@@ -1,0 +1,161 @@
+{
+ "sq": "150002548940",
+ "nome_urna": "MICHEL HENRIQUE",
+ "cargo": "depest",
+ "uf": "PB",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 273900.0,
+  "por_origem": {
+   "Recursos de partido político": 100000.0,
+   "Recursos de pessoas físicas": 48900.0,
+   "Recursos próprios": 125000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 100000.0,
+   "OUTROS RECURSOS": 173900.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 12,
+   "total": 173900.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 172712.45,
+  "total_pago": 68342.45,
+  "fornecedores_pj": [
+   {
+    "cnpj": "37735608000174",
+    "nome": "ZAPIER GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "55884611000131",
+    "nome": "OFFSET PRODUTORA AUDIOVISUAL LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 21805.0
+   },
+   {
+    "cnpj": "37589804000188",
+    "nome": "NILDO NUNES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "66035431000100",
+    "nome": "OPINIAO PESQUISAS QUANTITATIVAS LTDA",
+    "cnae": "73203",
+    "n_despesas": 2,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "64254673000150",
+    "nome": "PRESTCONTA - CONTABILIDADE ELEITORAL E PARTIDARIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "43677128000105",
+    "nome": "D EMILIA DA NOBREGA SALVIANO",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "55550003000190",
+    "nome": "SOLU ASSESSORIA EM MARKETING LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "44037707000148",
+    "nome": "POSTO DE COMBUSTIVEL B B LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1907.9
+   },
+   {
+    "cnpj": "32911037000168",
+    "nome": "NOW COMUNICACAO CRIATIVA LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1160.0
+   },
+   {
+    "cnpj": "31072736000107",
+    "nome": "NV COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 914.55
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 11,
+   "total": 28925.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 15920.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 5.0,
+    "Serviços prestados por terceiros": 13000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,237 @@
+{
+ "sq": "140002540454",
+ "nome_urna": "RENILCE NICODEMOS",
+ "cargo": "depfed",
+ "uf": "PA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2346699.22,
+  "por_origem": {
+   "Recursos de partido político": 2251899.22,
+   "Recursos de pessoas físicas": 79800.0,
+   "Recursos próprios": 15000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2250000.0,
+   "OUTROS RECURSOS": 96699.22
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 2250000.0
+   },
+   {
+    "cnpj": "03724618000192",
+    "nome": "Direção Municipal/Comissão Provisória - MDB - MARABÁ - PA",
+    "total": 1899.22
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 94800.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 698021.33,
+  "total_pago": 766648.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "46611306000185",
+    "nome": "AMAZON GREEN TAXI AEREO E SERVICOS AERONAUTICOS LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 180000.0
+   },
+   {
+    "cnpj": "04144804000115",
+    "nome": "GRIFFO COMUNICACAO E JORNALISMO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "31461537000182",
+    "nome": "CHARLES ARAUJO DA PAZ LTDA",
+    "cnae": "73190",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 97653.33
+   },
+   {
+    "cnpj": "17940670000190",
+    "nome": "C. KZAN",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "59460616000198",
+    "nome": "KDS COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 33000.0
+   },
+   {
+    "cnpj": "14899792000192",
+    "nome": "CASTRO DE ASSIS LTDA",
+    "cnae": "93298",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "45002882000162",
+    "nome": "MARCOS SOUZA SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "58630862000188",
+    "nome": "D DOS P DA SILVA CONSULTORIA E AUDITORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "22473510000119",
+    "nome": "P C BRASIL COMERCIO E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 24500.0
+   },
+   {
+    "cnpj": "15534401000107",
+    "nome": "MOREIRA GODOY COMERCIO E SERVICOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "03339851000151",
+    "nome": "GLOBAL GRAFICA DA AMAZONIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6260.0
+   },
+   {
+    "cnpj": "64090989000154",
+    "nome": "C B RIBEIRO COMERCIO E SERVICO LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 6100.0
+   },
+   {
+    "cnpj": "45916742000108",
+    "nome": "45.916.742 EDILSON JOSE CASTRO SILVA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "13278602000157",
+    "nome": "GRT COMUNICACAO VISUAL E PELICULAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "24902119000118",
+    "nome": "POSTO PIT STOP DUQUE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "30101699000147",
+    "nome": "L. ZEPPELIN S. SANTOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "51402456000119",
+    "nome": "MEURY PRODUTORA LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 5,
+   "total": 20008.0,
+   "por_tipo": {
+    "Despesas com pessoal": 6000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 8.0,
+    "Locação/cessão de bens imóveis": 14000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

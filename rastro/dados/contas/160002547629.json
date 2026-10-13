@@ -1,0 +1,110 @@
+{
+ "sq": "160002547629",
+ "nome_urna": "PAULO GOMES DA TV",
+ "cargo": "depest",
+ "uf": "PR",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 506000.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 61500.0,
+   "Recursos de partido político": 410000.0,
+   "Recursos de pessoas físicas": 29500.0,
+   "Recursos próprios": 5000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 271500.0,
+   "FUNDO PARTIDARIO": 200000.0,
+   "OUTROS RECURSOS": 34500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 410000.0
+   },
+   {
+    "cnpj": "68519357000114",
+    "nome": "GILSON DE SOUZA",
+    "total": 61500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 34500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 186860.23,
+  "total_pago": 150352.92,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 105000.0
+   },
+   {
+    "cnpj": "07424839000104",
+    "nome": "BRACELLOS RAUTENBERG GRAFICA LTDA",
+    "cnae": "58298",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "05121419000115",
+    "nome": "PLANETA LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "30578349000176",
+    "nome": "YEZ - COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 230.0
+   },
+   {
+    "cnpj": "10717962000209",
+    "nome": "ATEKY INTERNET LTDA",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 0.73
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 19,
+   "total": 68629.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 22000.0,
+    "Despesas com pessoal": 24628.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.5,
+    "Serviços contábeis": 22000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

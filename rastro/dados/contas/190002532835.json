@@ -1,0 +1,205 @@
+{
+ "sq": "190002532835",
+ "nome_urna": "JULIA DE CASTRO",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 604567.98,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 2056.02,
+   "Recursos de outros candidatos": 16727.27,
+   "Recursos de partido político": 505595.64,
+   "Recursos de pessoas físicas": 80189.05
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 522322.91,
+   "OUTROS RECURSOS": 82245.07
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 500000.0
+   },
+   {
+    "cnpj": "68470216000154",
+    "nome": "FERNANDA ANCHIETA LOUBACK",
+    "total": 14000.0
+   },
+   {
+    "cnpj": "08703299000152",
+    "nome": "Direção Estadual/Distrital - PL - RIO DE JANEIRO",
+    "total": 5595.64
+   },
+   {
+    "cnpj": "68470280000135",
+    "nome": "DOUGLAS RUAS DOS SANTOS",
+    "total": 2727.27
+   },
+   {
+    "cnpj": "34490640000149",
+    "nome": "GMT TECNOLOGIA LTDA",
+    "total": 2056.02
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 15,
+   "total": 80189.05
+  }
+ },
+ "despesas": {
+  "total_contratado": 306022.47,
+  "total_pago": 312532.45,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "32659638000125",
+    "nome": "STUDIOS PHD LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 15307.68
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8008.7
+   },
+   {
+    "cnpj": "62819273000110",
+    "nome": "62.819.273 YGOR DA SILVA CARVALHO DOS SANTOS",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "17171266000108",
+    "nome": "GOL OLIMPICO COMBUSTIVEIS E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "10342877000114",
+    "nome": "POSTO DE GASOLINA PRAIA DA BARRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "54655280000103",
+    "nome": "54.655.280 VINICIUS PEREIRA ANDRADE",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "04089573000194",
+    "nome": "INOVA PRINT GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3300.0
+   },
+   {
+    "cnpj": "39071931000116",
+    "nome": "PAPELARIA MEXICO RIO LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 612.0
+   },
+   {
+    "cnpj": "47937326000103",
+    "nome": "47.937.326 GIULLIA VALADAO LISBOA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 280.0
+   },
+   {
+    "cnpj": "34490640000149",
+    "nome": "GMT TECNOLOGIA LTDA",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 40.99
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 41,
+   "total": 122973.1,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 57650.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 103.1,
+    "Locação/cessão de bens imóveis": 7900.0,
+    "Locação/cessão de bens móveis (exceto veículos)": 6000.0,
+    "Produção de programas de rádio, televisão ou vídeo": 6900.0,
+    "Serviços prestados por terceiros": 44420.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

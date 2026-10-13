@@ -1,0 +1,230 @@
+{
+ "sq": "130002542754",
+ "nome_urna": "BETINHO PINTO COELHO",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1012251.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 105000.0,
+   "Recursos de partido político": 230000.0,
+   "Recursos de pessoas físicas": 667251.0,
+   "Recursos próprios": 10000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 105000.0,
+   "OUTROS RECURSOS": 907251.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "45915411000145",
+    "nome": "Direção Estadual/Distrital - UNIÃO - MINAS GERAIS",
+    "total": 230000.0
+   },
+   {
+    "cnpj": "68468363000190",
+    "nome": "RAFAEL TADEU SIMOES",
+    "total": 105000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 22,
+   "total": 677251.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 679820.82,
+  "total_pago": 386526.21,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 88000.0
+   },
+   {
+    "cnpj": "34260068000121",
+    "nome": "MAXXMIDIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10800.0
+   },
+   {
+    "cnpj": "61549503000105",
+    "nome": "ADM SERVICOS DE LOCACAO LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 7959.18
+   },
+   {
+    "cnpj": "04734354000110",
+    "nome": "TRANSPORTES BOM JESUS DE MATOZINHOS LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "51735365000103",
+    "nome": "BIGRAFICA EMBALAGENS LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4460.0
+   },
+   {
+    "cnpj": "24489783000187",
+    "nome": "TELLES TELLES LTDA",
+    "cnae": "58298",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4450.0
+   },
+   {
+    "cnpj": "08215755000115",
+    "nome": "MARIA DAS GRACAS BELO BERTOLI CIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3420.0
+   },
+   {
+    "cnpj": "48659045000107",
+    "nome": "PELICANO SOLUCOES EM MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "60950315000121",
+    "nome": "60.950.315 RENATO LIMA DE CARVALHO SILVEIRA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "23280196000110",
+    "nome": "23.280.196 SERGIO BATISTA LOUREIRO",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1984.0
+   },
+   {
+    "cnpj": "18901025000121",
+    "nome": "POSTO 2 ABASTECIMENTO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1958.5
+   },
+   {
+    "cnpj": "00475562000191",
+    "nome": "GRAFICA C S LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1380.0
+   },
+   {
+    "cnpj": "34028316258119",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 1276.44
+   },
+   {
+    "cnpj": "57022877000109",
+    "nome": "57.022.877 RAMON COSTA DE ASSIS",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 880.0
+   },
+   {
+    "cnpj": "07016380000100",
+    "nome": "SPORTS.COM CONFECCOES LTDA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 840.0
+   },
+   {
+    "cnpj": "09814551000163",
+    "nome": "EDITORA E PRESTADORA DE SERVICOS GAZETA MONTENSE LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "59927665000198",
+    "nome": "SKY COMERCIO E ARTES GRAFICAS DO BRASIL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 380.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 300,
+   "total": 542432.7,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 318784.0,
+    "Cessão ou locação de veículos": 4000.0,
+    "Despesas com pessoal": 197547.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 101.7,
+    "Serviços contábeis": 22000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,91 @@
+{
+ "sq": "140002536866",
+ "nome_urna": "DELEGADO NILTON NEVES",
+ "cargo": "depest",
+ "uf": "PA",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 256988.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 136988.0,
+   "Recursos próprios": 120000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 256988.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 40,
+   "total": 256988.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 74567.47,
+  "total_pago": 85219.47,
+  "fornecedores_pj": [
+   {
+    "cnpj": "15988569000184",
+    "nome": "IN PRIME SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 37500.0
+   },
+   {
+    "cnpj": "13735044000101",
+    "nome": "E CARLOS DOS SANTOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 8105.0
+   },
+   {
+    "cnpj": "62011557000185",
+    "nome": "CAMILA RIBEIRO PEIXOTO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 8105.0
+   },
+   {
+    "cnpj": "43049366000168",
+    "nome": "POSTO SCAFF COMERCIO DE COMBUSTIVEIS E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5269.47
+   },
+   {
+    "cnpj": "05962546000147",
+    "nome": "VENUS EMPREENDIMENTOS SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3588.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 12000.0,
+   "por_tipo": {
+    "Locação/cessão de bens imóveis": 12000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

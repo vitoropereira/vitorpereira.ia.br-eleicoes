@@ -1,0 +1,212 @@
+{
+ "sq": "130002549960",
+ "nome_urna": "GIL PEREIRA",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1032800.0,
+  "por_origem": {
+   "Recursos de partido político": 150000.0,
+   "Recursos de pessoas físicas": 839800.0,
+   "Recursos próprios": 43000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 1032800.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "14545907000140",
+    "nome": "Direção Estadual/Distrital - PSD - MINAS GERAIS",
+    "total": 150000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 61,
+   "total": 882800.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 238012.04,
+  "total_pago": 127743.44,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 45100.0
+   },
+   {
+    "cnpj": "19270206000160",
+    "nome": "RONA EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 37226.7
+   },
+   {
+    "cnpj": "44005565000137",
+    "nome": "SCAPOLE UNIFORMES LTDA",
+    "cnae": "14134",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 31500.0
+   },
+   {
+    "cnpj": "20789673000180",
+    "nome": "IMPRESILK COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15870.0
+   },
+   {
+    "cnpj": "45934846000137",
+    "nome": "ADX COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9235.0
+   },
+   {
+    "cnpj": "09509637000182",
+    "nome": "GRAFCENTER LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4745.0
+   },
+   {
+    "cnpj": "47114915000191",
+    "nome": "DM EXPRESS PRESTACAO DE SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2950.0
+   },
+   {
+    "cnpj": "08654031000178",
+    "nome": "COMERCIO DE COMBUSTIVEIS GM LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "55988074000170",
+    "nome": "AUTO POSTO LIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "01321096000403",
+    "nome": "POSTO PETROMAC LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "02886194000108",
+    "nome": "MISTER SOM DIGITAL STUDIO LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "09267887000153",
+    "nome": "AUTO POSTO CAPITAO ENEAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "17611876000177",
+    "nome": "POSTO PETRAMAR LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "27852447000145",
+    "nome": "AUTO POSTO VEREDAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "42888115000104",
+    "nome": "A EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 441.47
+   },
+   {
+    "cnpj": "33720521000172",
+    "nome": "PAPELMAX PAPELARIA INFORMATICA E PRESENTES LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 37.2
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 95,
+   "total": 82306.67,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 44400.0,
+    "Locação/cessão de bens imóveis": 12906.67,
+    "Serviços prestados por terceiros": 25000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

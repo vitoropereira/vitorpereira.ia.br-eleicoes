@@ -1,0 +1,248 @@
+{
+ "sq": "60002540740",
+ "nome_urna": "LUISA CELA",
+ "cargo": "depfed",
+ "uf": "CE",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1629706.14,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 22982.0,
+   "Recursos de partido político": 1504724.14,
+   "Recursos de pessoas físicas": 102000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1504724.14,
+   "OUTROS RECURSOS": 124982.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1504724.14
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 22982.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 8,
+   "total": 102000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1057337.95,
+  "total_pago": 985358.58,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 167000.0
+   },
+   {
+    "cnpj": "23235876000112",
+    "nome": "MAR - BRANDING E ESTRATEGIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 96750.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 63000.0
+   },
+   {
+    "cnpj": "37801155000137",
+    "nome": "37.801.155 KELVIA CAMILA AGUIAR BRAZ",
+    "cnae": "49230",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 56250.0
+   },
+   {
+    "cnpj": "23582184000140",
+    "nome": "202B SERVICOS DE ESTUDIOS CINEMATOGRAFICOS LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 55000.0
+   },
+   {
+    "cnpj": "36301942000157",
+    "nome": "F M E CHAVES - SERVICOS CONTABEIS",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "39530180000159",
+    "nome": "RAUL PINHEIRO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "46243496000125",
+    "nome": "LOCX LOCACAO DE VEICULOS E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 4,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 44970.0
+   },
+   {
+    "cnpj": "26434410000134",
+    "nome": "MAG COMERCIO E SERVICOS LTDA",
+    "cnae": "18229",
+    "n_despesas": 4,
+    "tipos": [
+     "Materiais de expediente",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24550.0
+   },
+   {
+    "cnpj": "02963095000174",
+    "nome": "MARCOGRAF GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15010.0
+   },
+   {
+    "cnpj": "61240076000189",
+    "nome": "PAPI INDUSTRIA E COMERCIO DE CONFECCAO LTDA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14500.0
+   },
+   {
+    "cnpj": "58979198000187",
+    "nome": "AMA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9200.0
+   },
+   {
+    "cnpj": "04138490000148",
+    "nome": "HN COMERCIAL DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4282.56
+   },
+   {
+    "cnpj": "14650163000124",
+    "nome": "PRIME INDUSTRIA GRAFICA LTDA",
+    "cnae": "17311",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "43508299000100",
+    "nome": "M I R MARTINS CASTRO",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2040.0
+   },
+   {
+    "cnpj": "62910210000174",
+    "nome": "TOM ARTE GRAFICA E COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1550.0
+   },
+   {
+    "cnpj": "05036551000129",
+    "nome": "JAYMES ALVES FERREIRA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 524.0
+   },
+   {
+    "cnpj": "04011639000123",
+    "nome": "PRINT SOLUCOES GRAFICAS E EVENTOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 202,
+   "total": 397211.39,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 283923.22,
+    "Despesas com pessoal": 97663.67,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 124.5,
+    "Locação/cessão de bens imóveis": 15500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

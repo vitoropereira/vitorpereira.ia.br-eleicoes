@@ -1,0 +1,170 @@
+{
+ "sq": "50002535081",
+ "nome_urna": "CINTHYA MARABÁ",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 442000.0,
+  "por_origem": {
+   "Recursos de partido político": 300000.0,
+   "Recursos de pessoas físicas": 142000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 300000.0,
+   "OUTROS RECURSOS": 142000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 300000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 142000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 445071.84,
+  "total_pago": 375093.24,
+  "fornecedores_pj": [
+   {
+    "cnpj": "36964935000135",
+    "nome": "F F SERVICOS, GRAFICA E REPRESENTACAO LTDA",
+    "cnae": "82113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 226879.5
+   },
+   {
+    "cnpj": "63140083000134",
+    "nome": "PLSA SERVICOS DE PILOTAGEM E SUPORTE AEREO LTDA",
+    "cnae": "52401",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 26273.74
+   },
+   {
+    "cnpj": "15160353000126",
+    "nome": "LOPES ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "61278927000182",
+    "nome": "M GUIMARAES MARTINS HUB 360",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "66081469000100",
+    "nome": "JOANINHA COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19911.6
+   },
+   {
+    "cnpj": "31128084000177",
+    "nome": "VOGT PARTICIPACOES LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "53721430000169",
+    "nome": "LP CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "08569641000173",
+    "nome": "08.569.641 LINDINALVA MARQUES DE SOUSA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 13500.0
+   },
+   {
+    "cnpj": "26136649000128",
+    "nome": "MUNDO DIGITAL COMUNICACAO LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "32972296000107",
+    "nome": "STEP ADS - TRAFEGO PAGO LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "32280504000107",
+    "nome": "ALVES COMERCIO, SERVICOS E DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5395.2
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 14,
+   "total": 28611.8,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 16500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 61.8,
+    "Locação/cessão de bens imóveis": 12050.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

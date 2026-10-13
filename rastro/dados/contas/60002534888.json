@@ -1,0 +1,293 @@
+{
+ "sq": "60002534888",
+ "nome_urna": "DANILO FORTE",
+ "cargo": "depfed",
+ "uf": "CE",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3188000.0,
+  "por_origem": {
+   "Recursos de partido político": 3000000.0,
+   "Recursos de pessoas físicas": 188000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3000000.0,
+   "OUTROS RECURSOS": 188000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 3000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 188000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1694845.03,
+  "total_pago": 1078200.86,
+  "fornecedores_pj": [
+   {
+    "cnpj": "02933302000148",
+    "nome": "QUALIGRAF - EDITORA E GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 44,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 443465.0
+   },
+   {
+    "cnpj": "17951571000104",
+    "nome": "TANGERINA DESIGN COMUNICACAO E CONSULTORIA LTDA",
+    "cnae": "74102",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "28160223000135",
+    "nome": "28.160.223 GILMARA BRIOSO MOTA",
+    "cnae": "47555",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 63500.0
+   },
+   {
+    "cnpj": "31097039000100",
+    "nome": "FMA VIGILANCIA LTDA",
+    "cnae": "80111",
+    "n_despesas": 1,
+    "tipos": [
+     "Segurança e prevenção, repressão e combate à violência política"
+    ],
+    "total": 52733.34
+   },
+   {
+    "cnpj": "33494650000190",
+    "nome": "KURINGA COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 48600.0
+   },
+   {
+    "cnpj": "29458824000191",
+    "nome": "KANTOBYTE SOLUCOES E TECNOLOGIA LTDA",
+    "cnae": "95118",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 47768.0
+   },
+   {
+    "cnpj": "64746226000119",
+    "nome": "64.746.226 JOAO PAULO DE CASTRO GOMES",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 47000.0
+   },
+   {
+    "cnpj": "09721348000142",
+    "nome": "TIMBO BEAREZ PESQUISA E INFORMATICA LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "21650180000127",
+    "nome": "CARLOS MOTA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "41936027000178",
+    "nome": "MARIA VANUSA TEMOTEO FREITAS",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 32000.0
+   },
+   {
+    "cnpj": "46243496000125",
+    "nome": "LOCX LOCACAO DE VEICULOS E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 30650.4
+   },
+   {
+    "cnpj": "27179802000167",
+    "nome": "I. A. CRUZ SERVICOS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 30600.0
+   },
+   {
+    "cnpj": "00563915000105",
+    "nome": "FABIANO PEREIRA DE OLIVEIRA LTDA",
+    "cnae": "37029",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "61593979000143",
+    "nome": "61.593.979 FRANCISCO ARTHUR COLARES SANTOS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 15239.0
+   },
+   {
+    "cnpj": "23616783000138",
+    "nome": "JANDER ALVES JUCA",
+    "cnae": "16293",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 10170.0
+   },
+   {
+    "cnpj": "16507313000170",
+    "nome": "PHOENIX SOLUCOES E EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 8692.5
+   },
+   {
+    "cnpj": "32142871000136",
+    "nome": "M A CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "67642929000195",
+    "nome": "67.642.929 CARLOS HENRIQUE FRANCA DE VASCONCELOS",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5084.0
+   },
+   {
+    "cnpj": "04277973000123",
+    "nome": "LOCBOX -LOCACAO DE BOXES E EQUIPAMENTOS LTDA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 4200.0
+   },
+   {
+    "cnpj": "10939906000120",
+    "nome": "RCI COMERCIO E SERVICOS LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2200.0
+   },
+   {
+    "cnpj": "35158235000190",
+    "nome": "JCS GERADORES LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com geradores de energia"
+    ],
+    "total": 1700.0
+   },
+   {
+    "cnpj": "52643623000186",
+    "nome": "52.643.623 FRANCISCO AILTON LIMA COSTA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "04777270000164",
+    "nome": "CABRAL REEFER MANUTENCAO DE CONTEINERES LTDA",
+    "cnae": "33147",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1333.33
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 131,
+   "total": 470409.46,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 181674.15,
+    "Cessão ou locação de veículos": 11000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 103.9,
+    "Serviços contábeis": 35000.0,
+    "Serviços prestados por terceiros": 242631.41
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

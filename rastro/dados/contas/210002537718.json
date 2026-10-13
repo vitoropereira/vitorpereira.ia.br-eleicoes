@@ -1,0 +1,260 @@
+{
+ "sq": "210002537718",
+ "nome_urna": "COVATTI FILHO",
+ "cargo": "depfed",
+ "uf": "RS",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3028392.81,
+  "por_origem": {
+   "Recursos de partido político": 3023381.7,
+   "Recursos de pessoas físicas": 5011.11
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2636555.2,
+   "FUNDO PARTIDARIO": 386826.5,
+   "OUTROS RECURSOS": 5011.11
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 3023381.7
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 5011.11
+  }
+ },
+ "despesas": {
+  "total_contratado": 535707.18,
+  "total_pago": 778763.18,
+  "fornecedores_pj": [
+   {
+    "cnpj": "66133900000115",
+    "nome": "ZILIO HOLDING E PARTICIPACOES LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 48000.0
+   },
+   {
+    "cnpj": "07447405000111",
+    "nome": "ELF LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 4,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 42013.0
+   },
+   {
+    "cnpj": "02868231000147",
+    "nome": "ALFA LATINO AMERICA LTDA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 22393.0
+   },
+   {
+    "cnpj": "94990835000180",
+    "nome": "PRINT PRESS FORMULARIOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21867.4
+   },
+   {
+    "cnpj": "58411181000129",
+    "nome": "SUBLIMY PRINT LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20980.0
+   },
+   {
+    "cnpj": "56441320000131",
+    "nome": "CARLOS EDUARDO VILELA NUNES LTDA.",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 18050.0
+   },
+   {
+    "cnpj": "19453961000180",
+    "nome": "BR SUL EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "43957904000112",
+    "nome": "CESAR SCHMITT SOUSA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 9600.0
+   },
+   {
+    "cnpj": "23285134000100",
+    "nome": "AUTOSUL LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8575.0
+   },
+   {
+    "cnpj": "93711224000192",
+    "nome": "AMC CONSULTORIA E CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "05491962000104",
+    "nome": "ABASTECEDORA DE COMBUSTIVEIS NONOAI LTDA",
+    "cnae": "47318",
+    "n_despesas": 12,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2674.84
+   },
+   {
+    "cnpj": "14526852000121",
+    "nome": "JULITA THIESEN LTDA",
+    "cnae": "47318",
+    "n_despesas": 10,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2672.09
+   },
+   {
+    "cnpj": "24060754000103",
+    "nome": "COMERCIO DE COMBUSTIVEIS MP LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1634.75
+   },
+   {
+    "cnpj": "42606075000160",
+    "nome": "P. C. B. RANGEL",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1415.0
+   },
+   {
+    "cnpj": "00110559000336",
+    "nome": "ABASTECEDORA DE COMBUSTIVEIS T W LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1180.21
+   },
+   {
+    "cnpj": "97497333000100",
+    "nome": "COMERCIAL DE COMBUSTIVEIS LUPATINI LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 978.23
+   },
+   {
+    "cnpj": "64076923000100",
+    "nome": "64.076.923 ADRIELE DAISE ZOUNAR DE CAMARGO",
+    "cnae": "25993",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 675.0
+   },
+   {
+    "cnpj": "30892209000178",
+    "nome": "E G COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 554.06
+   },
+   {
+    "cnpj": "00624595000237",
+    "nome": "POSTO DE COMBUSTIVEIS FUZER LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 478.19
+   },
+   {
+    "cnpj": "04895663000172",
+    "nome": "SAGAS COMERCIO DE OLEOS E COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 339.04
+   },
+   {
+    "cnpj": "87712725000271",
+    "nome": "AUTO ABASTECEDORA PAPAGAIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 252.37
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 401,
+   "total": 308375.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 298375.0,
+    "Locação/cessão de bens imóveis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

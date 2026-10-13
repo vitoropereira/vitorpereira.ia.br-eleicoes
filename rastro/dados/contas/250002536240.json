@@ -1,0 +1,169 @@
+{
+ "sq": "250002536240",
+ "nome_urna": "BARBA",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 374500.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 58000.0,
+   "Recursos de partido político": 295500.0,
+   "Recursos de pessoas físicas": 21000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 285500.0,
+   "OUTROS RECURSOS": 89000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265500.0
+   },
+   {
+    "cnpj": "68373073000162",
+    "nome": "JOAO PAULO CUNHA",
+    "total": 38000.0
+   },
+   {
+    "cnpj": "51827566000122",
+    "nome": "Direção Municipal/Comissão Provisória - PT - ARARAQUARA - SP",
+    "total": 30000.0
+   },
+   {
+    "cnpj": "68373177000177",
+    "nome": "NILTO IGNACIO TATTO",
+    "total": 20000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 21000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 217329.81,
+  "total_pago": 129397.49,
+  "fornecedores_pj": [
+   {
+    "cnpj": "34276520000143",
+    "nome": "ZIULOSCAR GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 18,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 92507.05
+   },
+   {
+    "cnpj": "49000815000160",
+    "nome": "LEVVA MOBILIDADE LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "40437219000177",
+    "nome": "FACANHA SANTOS SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "55062533000190",
+    "nome": "SINDICATO SERV PUB MUNIC E AUTARQUICOS S BERNARDO CAMPO",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "04059685000100",
+    "nome": "GRAFTEC GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6016.4
+   },
+   {
+    "cnpj": "51879624000161",
+    "nome": "ALVO PRINT COMUNICACAO VISUAL LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4550.0
+   },
+   {
+    "cnpj": "71535520000147",
+    "nome": "SINDICATO DOS METALURGICOS DO ABC",
+    "cnae": "94201",
+    "n_despesas": 4,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2518.46
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 839.66
+   },
+   {
+    "cnpj": "61997755000105",
+    "nome": "VALLILO GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 226.0
+   },
+   {
+    "cnpj": "59115402000184",
+    "nome": "AUTO POSTO SAO BERNARDO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 145.07
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 20,
+   "total": 76527.17,
+   "por_tipo": {
+    "Despesas com pessoal": 26000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5,
+    "Locação/cessão de bens imóveis": 21526.67,
+    "Publicidade por carros de som": 9000.0,
+    "Serviços advocatícios": 10000.0,
+    "Serviços contábeis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

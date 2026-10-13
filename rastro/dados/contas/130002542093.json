@@ -1,0 +1,256 @@
+{
+ "sq": "130002542093",
+ "nome_urna": "PEDRO LUIZ",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 866113.3,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 1665.0,
+   "Recursos de partido político": 622998.3,
+   "Recursos de pessoas físicas": 128200.0,
+   "Recursos próprios": 113250.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 550000.0,
+   "OUTROS RECURSOS": 316113.3
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 560000.0
+   },
+   {
+    "cnpj": "08691904000112",
+    "nome": "Direção Estadual/Distrital - PL - MINAS GERAIS",
+    "total": 62998.3
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 1665.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 59,
+   "total": 241450.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 553530.51,
+  "total_pago": 575224.17,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 17,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 234730.0
+   },
+   {
+    "cnpj": "27395308000130",
+    "nome": "RH ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 67000.0
+   },
+   {
+    "cnpj": "10224645000161",
+    "nome": "WV TOUR LOCACOES FRETAMENTOS LTDA",
+    "cnae": "49213",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "60313881000122",
+    "nome": "BROSS CONNECT COMUNICACAO ESTRATEGICA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "12305622000107",
+    "nome": "PONTUAL LOC CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 14193.29
+   },
+   {
+    "cnpj": "00671320000173",
+    "nome": "FERREIRA PARTICIPACOES E EMPREENDIMENTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "07871828000164",
+    "nome": "ESTAMPARIA DE TECIDOS DREAM LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9414.57
+   },
+   {
+    "cnpj": "23849151000114",
+    "nome": "ELDORADO AUTOMOVEIS LANTERNAGEM E PINTURA LTDA",
+    "cnae": "45200",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "12841373000174",
+    "nome": "GRAFICA PAMPULHA LTDA.",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8950.0
+   },
+   {
+    "cnpj": "64493136000163",
+    "nome": "64.493.136 DOUGLAS LIMA FIGUEIREDO",
+    "cnae": "85929",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 8300.0
+   },
+   {
+    "cnpj": "17815946000109",
+    "nome": "IMPACTO COMUNICACAO VISUAL E ADMINISTRADORA DA PROPRIEDADE IMOBILIARIA LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "09617458000169",
+    "nome": "AKKA MOBILITY LTDA.",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "67817090000189",
+    "nome": "67.817.090 ROBERT BARBOSA DA SILVA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2800.0
+   },
+   {
+    "cnpj": "01708132000216",
+    "nome": "POSTO ELOHIM LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "18771203000147",
+    "nome": "REI DAS CARRETINHAS LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "57741176000111",
+    "nome": "DLSPORTS COMERCIO E ESTAMPARIA LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 768.0
+   },
+   {
+    "cnpj": "01955898000114",
+    "nome": "SC EDITORA GRAFICA LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 650.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 405.43
+   },
+   {
+    "cnpj": "14848027000143",
+    "nome": "MP PRODUTOS E SERVICOS LTDA",
+    "cnae": "46478",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 190.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 52,
+   "total": 141129.22,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 3000.0,
+    "Despesas com pessoal": 113238.52,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 90.7,
+    "Locação/cessão de bens imóveis": 3000.0,
+    "Serviços advocatícios": 10000.0,
+    "Serviços prestados por terceiros": 11800.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

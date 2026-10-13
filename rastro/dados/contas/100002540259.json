@@ -1,0 +1,193 @@
+{
+ "sq": "100002540259",
+ "nome_urna": "ABIGAIL CUNHA",
+ "cargo": "depest",
+ "uf": "MA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 513000.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 200000.0,
+   "Recursos de partido político": 120000.0,
+   "Recursos de pessoas físicas": 86000.0,
+   "Recursos próprios": 107000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 320000.0,
+   "OUTROS RECURSOS": 193000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68353228000107",
+    "nome": "JOSE LOURENCO BOMFIM JUNIOR",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 120000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 193000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 135828.77,
+  "total_pago": 113174.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "32241644000168",
+    "nome": "C CLAUDINA CARDOSO",
+    "cnae": "18229",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23270.0
+   },
+   {
+    "cnpj": "09664362000151",
+    "nome": "MACBAND REPRESENTACOES E COMERCIO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "42994792000107",
+    "nome": "BUSINESS SERVICOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "62746963000196",
+    "nome": "M COSTA SOUSA COMERCIO LTDA",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "08100202000117",
+    "nome": "F. DE ASSIS CASTRO DE SOUSA",
+    "cnae": "82997",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4985.0
+   },
+   {
+    "cnpj": "10765853000178",
+    "nome": "F S NASCIMENTO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4600.0
+   },
+   {
+    "cnpj": "15217765000155",
+    "nome": "CARVALHO SERVICOS LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "46906495000113",
+    "nome": "M R DA S COMERCIO DE PLASTICOS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "40337954000109",
+    "nome": "A A DA SILVA FILHO LTDA",
+    "cnae": "46699",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3400.0
+   },
+   {
+    "cnpj": "13076293000132",
+    "nome": "AUTO POSTO PACHECO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1999.77
+   },
+   {
+    "cnpj": "08039682000158",
+    "nome": "L A BRANDAO SERVICOS LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1050.0
+   },
+   {
+    "cnpj": "07172944000195",
+    "nome": "K DE F C FREITAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 253.3
+   },
+   {
+    "cnpj": "23435993000120",
+    "nome": "L A ARRUDA FILHO E CIA LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 225.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 48,
+   "total": 43545.7,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 1900.0,
+    "Cessão ou locação de veículos": 8000.0,
+    "Despesas com pessoal": 9400.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 45.7,
+    "Produção de jingles, vinhetas e slogans": 2000.0,
+    "Publicidade por carros de som": 3200.0,
+    "Serviços advocatícios": 10000.0,
+    "Serviços prestados por terceiros": 9000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

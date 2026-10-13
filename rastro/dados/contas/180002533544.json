@@ -1,0 +1,254 @@
+{
+ "sq": "180002533544",
+ "nome_urna": "RUBENS VIEIRA",
+ "cargo": "depest",
+ "uf": "PI",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 392255.0,
+  "por_origem": {
+   "Recursos de partido político": 269750.0,
+   "Recursos de pessoas físicas": 85505.0,
+   "Recursos próprios": 37000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 250000.0,
+   "FUNDO PARTIDARIO": 19750.0,
+   "OUTROS RECURSOS": 122505.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 250000.0
+   },
+   {
+    "cnpj": "07473085000174",
+    "nome": "Direção Estadual/Distrital - PT - PIAUÍ",
+    "total": 19750.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 13,
+   "total": 122505.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 508148.16,
+  "total_pago": 283938.41,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13067360000152",
+    "nome": "SCLM CONSULTORIA E GESTAO EMPRESARIAL LTDA",
+    "cnae": "70204",
+    "n_despesas": 3,
+    "tipos": [
+     "Atividades de militância e mobilização de rua",
+     "Produção de jingles, vinhetas e slogans",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 86000.0
+   },
+   {
+    "cnpj": "68286379000181",
+    "nome": "JB GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 12,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 65017.5
+   },
+   {
+    "cnpj": "17189039000100",
+    "nome": "ANSELMO ALVES DE SOUSA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "17239440000107",
+    "nome": "GESTAO CONTABILIDADE ASSESSORIA PUBLICA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "65849126000180",
+    "nome": "RODRIGUES SERVICOS COMERCIO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "33132640000104",
+    "nome": "M V OLIVEIRA VIEIRA",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 31880.0
+   },
+   {
+    "cnpj": "48685249000104",
+    "nome": "M DA C SOUSA PAPELARIA LTDA",
+    "cnae": "47610",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 28750.0
+   },
+   {
+    "cnpj": "63513204000146",
+    "nome": "CONSTRUTORA ANDRADE JUNIOR LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 26623.33
+   },
+   {
+    "cnpj": "63683040000103",
+    "nome": "J U SILVA FILHO",
+    "cnae": "18130",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24731.73
+   },
+   {
+    "cnpj": "34028316181574",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 19465.71
+   },
+   {
+    "cnpj": "18573928000120",
+    "nome": "NOGUEIRA NETO IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10348.1
+   },
+   {
+    "cnpj": "24901497000187",
+    "nome": "24.901.497 RAIMUNDO GLEISON DE ARAUJO CARVALHO",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "08596605000107",
+    "nome": "POSTO HOMERO CASTELO BRANCO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4753.32
+   },
+   {
+    "cnpj": "49650840000199",
+    "nome": "PROLDATA LTDA",
+    "cnae": "63119",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 4520.0
+   },
+   {
+    "cnpj": "07789221000130",
+    "nome": "CRIATIVA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3800.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "05949309000146",
+    "nome": "VIEIRA SUPERMERCADO LTDA",
+    "cnae": "47121",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação",
+     "Materiais de expediente"
+    ],
+    "total": 319.5
+   },
+   {
+    "cnpj": "15754475000140",
+    "nome": "HOSTGATOR BRASIL LTDA.",
+    "cnae": "63119",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 140.41
+   },
+   {
+    "cnpj": "05062619000225",
+    "nome": "ASA DISTRIBUIDORA LTDA",
+    "cnae": "46478",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 23.96
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 14,
+   "total": 39774.6,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 20000.0,
+    "Despesas com pessoal": 19452.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 322.6
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

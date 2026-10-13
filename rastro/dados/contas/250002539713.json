@@ -1,0 +1,561 @@
+{
+ "sq": "250002539713",
+ "nome_urna": "IGOR SOARES",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2334202.41,
+  "por_origem": {
+   "Recursos de outros candidatos": 27545.0,
+   "Recursos de partido político": 2182407.41,
+   "Recursos de pessoas físicas": 124250.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 527545.0,
+   "FUNDO PARTIDARIO": 1125000.0,
+   "OUTROS RECURSOS": 681657.41
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 2175000.0
+   },
+   {
+    "cnpj": "68455725000108",
+    "nome": "LUIS FELIPE RODOMONTE DE SOUZA",
+    "total": 27545.0
+   },
+   {
+    "cnpj": "14567904000108",
+    "nome": "Direção Estadual/Distrital - PSD - SÃO PAULO",
+    "total": 7407.41
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 124250.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2022913.6,
+  "total_pago": 1232599.27,
+  "fornecedores_pj": [
+   {
+    "cnpj": "17423050000184",
+    "nome": "ENFIM PLUS COMUNICACAO VISUAL , COMERCIO E CONFECCOES GRAFICOS LTDA",
+    "cnae": "47890",
+    "n_despesas": 27,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 191450.0
+   },
+   {
+    "cnpj": "50614213000181",
+    "nome": "MARGRAF EDITORA E INDUSTRIA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 135000.0
+   },
+   {
+    "cnpj": "50426454000105",
+    "nome": "TERCEIRA IMPRESSAO GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 59,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 134905.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 130000.0
+   },
+   {
+    "cnpj": "68687759000128",
+    "nome": "68.687.759 NADJA MARTINELLI",
+    "cnae": "56201",
+    "n_despesas": 14,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 113070.0
+   },
+   {
+    "cnpj": "33789321000176",
+    "nome": "SALOMAO, ABRAHAO, RAPOSO E COTTA SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "25185787000134",
+    "nome": "GBC EDIT PRINTER LTDA",
+    "cnae": "58115",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 77495.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 50999.9
+   },
+   {
+    "cnpj": "21756298000134",
+    "nome": "EUZARIA COMERCIO DE CONFECCOES E SERVICOS DE PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "62309273000170",
+    "nome": "FORMAG S GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 28490.0
+   },
+   {
+    "cnpj": "47650666000159",
+    "nome": "47.650.666 MOISES DE CAMARGO",
+    "cnae": "45200",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos",
+     "Diversas a especificar"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "51443794000107",
+    "nome": "CRF PROMOCOES LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 21886.34
+   },
+   {
+    "cnpj": "03756535000185",
+    "nome": "BATICUM PRODUCOES MUSICAIS LTDA",
+    "cnae": "59120",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "05459990000144",
+    "nome": "CONTMAB CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "61521865000198",
+    "nome": "61.521.865 QUEILA PEDROSA BARROS",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "08052472000108",
+    "nome": "TRANS RAVENA LOCADORA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 16033.33
+   },
+   {
+    "cnpj": "28299027000146",
+    "nome": "ALPHASETE GIRO ONLINE LTDA",
+    "cnae": "63194",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "60839654000135",
+    "nome": "ARQUEFLEX ROTULOS E ETIQUETAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 32,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14038.0
+   },
+   {
+    "cnpj": "55001879000188",
+    "nome": "AUTO POSTO POLISERVICOS I LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 25,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 12038.25
+   },
+   {
+    "cnpj": "54382896000140",
+    "nome": "MRL EMPREENDIMENTOS E PARTICIPACOES LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 11760.0
+   },
+   {
+    "cnpj": "28916916000105",
+    "nome": "VILLECOM MIDIA LTDA",
+    "cnae": "58123",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 11600.0
+   },
+   {
+    "cnpj": "55946934000102",
+    "nome": "IDEXTER MAGAZINE LTDA",
+    "cnae": "47130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "09476952000150",
+    "nome": "P C - ITAPEVI FRETAMENTOS LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10200.0
+   },
+   {
+    "cnpj": "60333853000258",
+    "nome": "LAR ANALIA FRANCO",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8921.5
+   },
+   {
+    "cnpj": "28303468000174",
+    "nome": "RENATO CAVALCANTE COMUNICACAO VISUAL E SOLUCOES GRAFICAS",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 8750.0
+   },
+   {
+    "cnpj": "62546475000135",
+    "nome": "62.546.475 AUDREY CRISTINA SUCS PEREIRA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 8020.0
+   },
+   {
+    "cnpj": "08142850000136",
+    "nome": "WBL GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7199.99
+   },
+   {
+    "cnpj": "11035305000155",
+    "nome": "TREZEE SOLUCOES LTDA",
+    "cnae": "42138",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 6960.0
+   },
+   {
+    "cnpj": "34583515000183",
+    "nome": "ADILSON AGUAS LTDA",
+    "cnae": "47237",
+    "n_despesas": 2,
+    "tipos": [
+     "Água"
+    ],
+    "total": 6500.0
+   },
+   {
+    "cnpj": "12017857000101",
+    "nome": "CEZIMAR MARCOS DOS SANTOS",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5850.0
+   },
+   {
+    "cnpj": "14063413000120",
+    "nome": "ME5A EMPREENDIMENTOS E PARTICIPACOES S.A.",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5716.0
+   },
+   {
+    "cnpj": "43060069000113",
+    "nome": "CONCRETIZA CONCRETO LTDA",
+    "cnae": "23303",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3960.0
+   },
+   {
+    "cnpj": "64822653000139",
+    "nome": "AUTO POSTO DE CASTRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 15,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3206.2
+   },
+   {
+    "cnpj": "02272397000104",
+    "nome": "SR LOCACOES E TRANSPORTE LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3200.0
+   },
+   {
+    "cnpj": "05468610000138",
+    "nome": "DIGITAL 5 PRODUCOES LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "48207387000188",
+    "nome": "LORD BAN COMERCIO E LOCACAO LTDA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2940.0
+   },
+   {
+    "cnpj": "31466804000104",
+    "nome": "URBENIO F SOARES DA SILVA",
+    "cnae": "14142",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2890.0
+   },
+   {
+    "cnpj": "45493699000107",
+    "nome": "POSTO ALUMINIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 14,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2874.54
+   },
+   {
+    "cnpj": "32184708000136",
+    "nome": "MUDHOUSE TECHNOLOGIES LTDA",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2613.33
+   },
+   {
+    "cnpj": "10636279000158",
+    "nome": "ALEX SANDRO BRASIL",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "06894636000100",
+    "nome": "FORTCALHAS - COBERTURAS E GALPOES LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2380.5
+   },
+   {
+    "cnpj": "27751047000143",
+    "nome": "JAPAN SPORTS DO BRASIL LTDA",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1650.0
+   },
+   {
+    "cnpj": "49118524000170",
+    "nome": "GRAFICORES - CONFECCOES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1650.0
+   },
+   {
+    "cnpj": "13515042000107",
+    "nome": "JULIETY APARECIDA DE CAMARGO DUARTE CHIODI COMERCIO DE CONFECCOES LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1596.0
+   },
+   {
+    "cnpj": "14567718000179",
+    "nome": "BRANI FERNANDES MINERADORA INDUSTRIA E COMERCIO LTDA",
+    "cnae": "11216",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 901.6
+   },
+   {
+    "cnpj": "35940438000568",
+    "nome": "REINALDO CHICAROLLI MARTINS SUPERMERCADOS LTDA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 593.01
+   },
+   {
+    "cnpj": "05813060000147",
+    "nome": "RECICLALVES COMERCIO DE MATERIAIS RECICLAVEIS LTDA",
+    "cnae": "46877",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "67801027000154",
+    "nome": "BAZAR ANA PAULA JSN ITAPEVI LTDA",
+    "cnae": "47130",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar",
+     "Materiais de expediente"
+    ],
+    "total": 394.8
+   },
+   {
+    "cnpj": "93209765060950",
+    "nome": "WMS SUPERMERCADOS DO BRASIL LTDA.",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 31.98
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 293,
+   "total": 720248.33,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 61033.33,
+    "Despesas com pessoal": 505028.62,
+    "Diversas a especificar": 14557.46,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2945.58,
+    "Locação/cessão de bens imóveis": 41683.34,
+    "Serviços advocatícios": 95000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,706 @@
+{
+ "sq": "210002538537",
+ "nome_urna": "DANRLEI",
+ "cargo": "depfed",
+ "uf": "RS",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2246100.0,
+  "por_origem": {
+   "Recursos de partido político": 2240000.0,
+   "Recursos de pessoas físicas": 6100.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2240000.0,
+   "OUTROS RECURSOS": 6100.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 2240000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 6100.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1531097.7,
+  "total_pago": 1968545.54,
+  "fornecedores_pj": [
+   {
+    "cnpj": "73273088000199",
+    "nome": "GRAFICA E EDITORA BENTO GONCALVES LTDA",
+    "cnae": "17419",
+    "n_despesas": 31,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 140084.0
+   },
+   {
+    "cnpj": "68455563000108",
+    "nome": "ALOISIO TALSO CLASSMANN",
+    "cnae": "94928",
+    "n_despesas": 3,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 115000.0
+   },
+   {
+    "cnpj": "68456122000120",
+    "nome": "NERI ANDRADE PEREIRA JUNIOR",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "38462641000130",
+    "nome": "ADRIANA BEATRIZ NUNES BONIATTI SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 65000.0
+   },
+   {
+    "cnpj": "68455936000140",
+    "nome": "CESAR OLIVEIRA DE SOUZA",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 65000.0
+   },
+   {
+    "cnpj": "68456225000190",
+    "nome": "LORENA PIRES GARCIA",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "61482895000132",
+    "nome": "FLSP LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68456120000131",
+    "nome": "MARCELO ARRUDA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68456197000101",
+    "nome": "NADINE TAGLIARI FARIAS ANFLOR",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "59447429000174",
+    "nome": "DUKA OLIVEIRA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 46700.0
+   },
+   {
+    "cnpj": "68455384000170",
+    "nome": "MARCELO PITOL",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 44000.0
+   },
+   {
+    "cnpj": "05454055000195",
+    "nome": "BANG IMPRESSAO E PROGRAMACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 44,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 41668.5
+   },
+   {
+    "cnpj": "20336140000142",
+    "nome": "BRUNA KETZER PERALTA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 39772.0
+   },
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 39000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "68455051000141",
+    "nome": "MATEUS JOSE DE LIMA WESP",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "68456059000122",
+    "nome": "JULIO CESAR HENRIQUE JEREMIAS",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 24885.93
+   },
+   {
+    "cnpj": "32300836000106",
+    "nome": "BRUNO BECKER SCHNEIDER",
+    "cnae": "47610",
+    "n_despesas": 8,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22447.0
+   },
+   {
+    "cnpj": "10676087000175",
+    "nome": "BARSAND PARTICIPACOES LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 13800.0
+   },
+   {
+    "cnpj": "50894599000122",
+    "nome": "FOLHA COMUNICACAO VISUAL LTDA",
+    "cnae": "58298",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13132.5
+   },
+   {
+    "cnpj": "46466141000103",
+    "nome": "BE+ LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "68455094000127",
+    "nome": "MELANIE GEIGER DE ALBUQUERQUE",
+    "cnae": "94928",
+    "n_despesas": 3,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "62609432000151",
+    "nome": "LUCAS OSORIO RIZZATTI LTDA",
+    "cnae": "63917",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "51516829000182",
+    "nome": "COMPLACA LTDA",
+    "cnae": "32990",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9700.0
+   },
+   {
+    "cnpj": "08415939000129",
+    "nome": "APPROPRIATO COMERCIO DE UTILIDADES LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 8637.5
+   },
+   {
+    "cnpj": "68456234000181",
+    "nome": "MARCIO LUIS LISSEMERKI FERREIRA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "20012222000131",
+    "nome": "VIAMONTE COMERCIO DE BRINDES LTDA",
+    "cnae": "46893",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 6500.0
+   },
+   {
+    "cnpj": "26330535000114",
+    "nome": "LORILENE CORREA QUEVEDO",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "68456231000148",
+    "nome": "ANDERSON JOSE PIETZARKA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "10955271000154",
+    "nome": "DALPETRO ABASTECEDORA DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 8,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1931.16
+   },
+   {
+    "cnpj": "35247621000159",
+    "nome": "ABASTECEDORA DE COMBUSTIVEIS ITACOLOMI LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1345.55
+   },
+   {
+    "cnpj": "20890807000154",
+    "nome": "POSTO DE COMBUSTIVEIS E CONVENIENCIAS CAMINHO DO GOL LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 907.98
+   },
+   {
+    "cnpj": "04606672000104",
+    "nome": "ABASTECEDORA DE COMBUSTIVEIS PER L AMERICA LTDA.",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 845.49
+   },
+   {
+    "cnpj": "95425369001043",
+    "nome": "COMERCIO DE COMBUSTIVEIS NEVOEIRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 834.24
+   },
+   {
+    "cnpj": "14980152000102",
+    "nome": "SIM PROPAGANDA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "25407869000186",
+    "nome": "S S AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 599.4
+   },
+   {
+    "cnpj": "16527016000197",
+    "nome": "L. R. CHEGUHEM CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 565.07
+   },
+   {
+    "cnpj": "11393320000418",
+    "nome": "AUTO POSTO ALMIRANTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 496.18
+   },
+   {
+    "cnpj": "16750866000230",
+    "nome": "COMERCIO DE COMBUSTIVEIS MALLMANN LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 401.1
+   },
+   {
+    "cnpj": "93234086000106",
+    "nome": "GARAGEM BELEM LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 317.49
+   },
+   {
+    "cnpj": "01157271000118",
+    "nome": "COMERCIAL DE COMBUSTIVEIS PLANETARIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 274.7
+   },
+   {
+    "cnpj": "03597901000109",
+    "nome": "COMERCIO DE COMBUSTIVEIS FENIC LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 270.09
+   },
+   {
+    "cnpj": "07368646000175",
+    "nome": "GRAFICA GAUCHA LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 260.0
+   },
+   {
+    "cnpj": "95425369000152",
+    "nome": "COMERCIO DE COMBUSTIVEIS NEVOEIRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 249.4
+   },
+   {
+    "cnpj": "01991461002007",
+    "nome": "S S COMERCIO DE COMBUSTIVEIS SA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 247.4
+   },
+   {
+    "cnpj": "89656110000110",
+    "nome": "AUTO POSTO JONAVE LTDA EM RECUPERACAO JUDICIAL",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 245.93
+   },
+   {
+    "cnpj": "07473735009561",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 242.51
+   },
+   {
+    "cnpj": "07473735003520",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 242.39
+   },
+   {
+    "cnpj": "13793895000100",
+    "nome": "R TAUBE POSTO DE COMBUSTIVEIS E CONVENIENCIAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 240.3
+   },
+   {
+    "cnpj": "08689190000108",
+    "nome": "ABASTECEDORA DE COMBUSTIVEIS PORTO ALEGRE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 239.31
+   },
+   {
+    "cnpj": "14565491000122",
+    "nome": "CM BR COMERCIO DE COMBUSTIVEIS LTDA EM RECUPERACAO JUDICIAL",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 238.03
+   },
+   {
+    "cnpj": "24361152000188",
+    "nome": "COMERCIO DE COMBUSTIVEIS MENDESCAR LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 233.16
+   },
+   {
+    "cnpj": "60639537000128",
+    "nome": "GROSSI COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 226.4
+   },
+   {
+    "cnpj": "87596177000180",
+    "nome": "ABASTECEDORA CASQUENSE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 222.04
+   },
+   {
+    "cnpj": "36905276000166",
+    "nome": "COMERCIAL DE COMBUSTIVEIS PR LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 197.3
+   },
+   {
+    "cnpj": "23448964004866",
+    "nome": "MP POSTOS E LOGISTICA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 194.99
+   },
+   {
+    "cnpj": "12564276000181",
+    "nome": "STILO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 176.04
+   },
+   {
+    "cnpj": "92482231000105",
+    "nome": "AMARILDO FERNANDO SOARES",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 160.0
+   },
+   {
+    "cnpj": "92660760000143",
+    "nome": "VEPPO CIA LIMITADA",
+    "cnae": "79902",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 105.95
+   },
+   {
+    "cnpj": "34028316438524",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 93.0
+   },
+   {
+    "cnpj": "05563868003309",
+    "nome": "BELLER COMERCIO DE PAPEIS LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 58.88
+   },
+   {
+    "cnpj": "34028316566441",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 55.8
+   },
+   {
+    "cnpj": "97059695000119",
+    "nome": "SERGIO LUIZ COSTA JUNIOR CIA LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 40.7
+   },
+   {
+    "cnpj": "05563868000113",
+    "nome": "BELLER COMERCIO DE PAPEIS LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 14.9
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 152,
+   "total": 381397.39,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 338382.39,
+    "Cessão ou locação de veículos": 8900.0,
+    "Despesas com pessoal": 5500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 215.0,
+    "Locação/cessão de bens imóveis": 19400.0,
+    "Locação/cessão de bens móveis (exceto veículos)": 9000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

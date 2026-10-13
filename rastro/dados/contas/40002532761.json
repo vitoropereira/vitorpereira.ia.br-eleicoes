@@ -1,0 +1,204 @@
+{
+ "sq": "40002532761",
+ "nome_urna": "SIDNEY LEITE",
+ "cargo": "depfed",
+ "uf": "AM",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2609515.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 8970.0,
+   "Recursos de partido político": 2000000.0,
+   "Recursos de pessoas físicas": 600545.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2008610.0,
+   "OUTROS RECURSOS": 600905.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 2000000.0
+   },
+   {
+    "cnpj": "68267015000154",
+    "nome": "OMAR JOSE ABDEL AZIZ",
+    "total": 8610.0
+   },
+   {
+    "cnpj": "68237542000116",
+    "nome": "EDNAILSON LEITE ROZENHA",
+    "total": 360.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 22,
+   "total": 600545.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1464958.58,
+  "total_pago": 2355490.68,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 18,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 601000.0
+   },
+   {
+    "cnpj": "13100379000153",
+    "nome": "T. SAAD FILMES E VIDEOS LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 10,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 144000.0
+   },
+   {
+    "cnpj": "31812351000120",
+    "nome": "A G FURTADO SERVICOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 42,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 75818.5
+   },
+   {
+    "cnpj": "84316421000116",
+    "nome": "RIO BRANCO AEROTAXI LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 25500.0
+   },
+   {
+    "cnpj": "33206875000101",
+    "nome": "WILLIAMS SILVA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "22999999000167",
+    "nome": "AUTO POSTO REZENDE PARQUE DEZ LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 14944.5
+   },
+   {
+    "cnpj": "53874136000197",
+    "nome": "53.874.136 GABRIEL DE BRITO PALHAO",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 12800.0
+   },
+   {
+    "cnpj": "03633502000148",
+    "nome": "GRAFISA - GRAFICA E EDITORA LTDA",
+    "cnae": "18211",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8600.0
+   },
+   {
+    "cnpj": "10441464000278",
+    "nome": "A. R. T. TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "55940527000198",
+    "nome": "GELADAO COMERCIO VAREJISTA DE BEBIDAS LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 4950.0
+   },
+   {
+    "cnpj": "21602394000128",
+    "nome": "V E V PRODUCAO E ORGANIZACAO DE FESTAS E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 2610.68
+   },
+   {
+    "cnpj": "84521053013711",
+    "nome": "TAPAJOS COMERCIO DE MEDICAMENTOS LTDA",
+    "cnae": "47717",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1536.0
+   },
+   {
+    "cnpj": "33922098000193",
+    "nome": "MVL COMERCIO, SELECAO E AGENCIAMENTO DE MAO DE OBRA LTDA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 9.9
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 547,
+   "total": 400189.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 344505.0,
+    "Despesas com pessoal": 54450.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 234.0,
+    "Serviços contábeis": 1000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

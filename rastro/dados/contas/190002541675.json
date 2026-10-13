@@ -1,0 +1,121 @@
+{
+ "sq": "190002541675",
+ "nome_urna": "DELEGADO BERNARDO LEAL",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 521740.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 3640.0,
+   "Recursos de outros candidatos": 250000.0,
+   "Recursos de partido político": 250000.0,
+   "Recursos de pessoas físicas": 8100.0,
+   "Recursos próprios": 10000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 500000.0,
+   "OUTROS RECURSOS": 21740.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 250000.0
+   },
+   {
+    "cnpj": "68461727000100",
+    "nome": "FELIPE LOBATO CURI",
+    "total": 250000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 3640.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 18100.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 314929.39,
+  "total_pago": 64929.39,
+  "fornecedores_pj": [
+   {
+    "cnpj": "49746445000104",
+    "nome": "TYNDARO MENEZES LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "18710896000168",
+    "nome": "JOAO BOSCO FILHO ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 9495.0
+   },
+   {
+    "cnpj": "33963085000162",
+    "nome": "MANDATO PRIME SERVICOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "37982181000109",
+    "nome": "GRAFICA E IMPRESSAO BRASIL LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2348.76
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 84.63
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 1.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

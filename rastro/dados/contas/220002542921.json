@@ -1,0 +1,94 @@
+{
+ "sq": "220002542921",
+ "nome_urna": "CÁSSIO GOIS",
+ "cargo": "depest",
+ "uf": "RO",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 241400.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 167000.0,
+   "Recursos próprios": 74400.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 241400.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 241400.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 146252.0,
+  "total_pago": 5549.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "35314289000106",
+    "nome": "SILVARES ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "42471290000100",
+    "nome": "42.471.290 LUCIENE SAMARA DE SOUZA",
+    "cnae": "96092",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "10268644000119",
+    "nome": "RO AMBIENTAL E SERVICOS LTDA.",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "44941716000169",
+    "nome": "G P DISTRIBUIDORA LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 216.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 53,
+   "total": 102036.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 87536.0,
+    "Locação/cessão de bens imóveis": 10000.0,
+    "Produção de jingles, vinhetas e slogans": 2000.0,
+    "Serviços prestados por terceiros": 2500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

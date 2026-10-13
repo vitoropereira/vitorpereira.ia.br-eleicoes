@@ -1,0 +1,422 @@
+{
+ "sq": "130002542003",
+ "nome_urna": "LAFAYETTE ANDRADA",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3121320.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 620.0,
+   "Recursos de partido político": 3090000.0,
+   "Recursos de pessoas físicas": 10000.0,
+   "Recursos próprios": 20700.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2590000.0,
+   "OUTROS RECURSOS": 531320.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2590000.0
+   },
+   {
+    "cnpj": "08691904000112",
+    "nome": "Direção Estadual/Distrital - PL - MINAS GERAIS",
+    "total": 500000.0
+   },
+   {
+    "cnpj": "68468191000154",
+    "nome": "VITORIO FILHO RIBEIRO",
+    "total": 620.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 30700.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2616994.5,
+  "total_pago": 2430823.12,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 14,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 121000.0
+   },
+   {
+    "cnpj": "01338388000106",
+    "nome": "RAJA RENT A CAR S/A",
+    "cnae": "77110",
+    "n_despesas": 13,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 78376.66
+   },
+   {
+    "cnpj": "32480687000104",
+    "nome": "RESULTADO VIRTUAL LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "56019930000141",
+    "nome": "INOVE INTELIGENCIA EM TECNOLOGIA DESENVOLVIMENTO DE SISTEMA E MARKETING LTDA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24021.2
+   },
+   {
+    "cnpj": "62354045000111",
+    "nome": "62.354.045 MARIA FERNANDA DE OLIVEIRA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "45253766000116",
+    "nome": "POSTO BOM JESUS DE ARACUAI LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7939.27
+   },
+   {
+    "cnpj": "08651402000168",
+    "nome": "MKT SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 6320.0
+   },
+   {
+    "cnpj": "19482441000103",
+    "nome": "POSTO BELVEDERE DE BARBACENA LTDA.",
+    "cnae": "47318",
+    "n_despesas": 24,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3261.5
+   },
+   {
+    "cnpj": "68517499000142",
+    "nome": "SAPUCAI POST LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 3191.1
+   },
+   {
+    "cnpj": "01317116000111",
+    "nome": "J.H. GRAFICA EDITORA LTDA",
+    "cnae": "58212",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2940.0
+   },
+   {
+    "cnpj": "24489783000187",
+    "nome": "TELLES TELLES LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2900.0
+   },
+   {
+    "cnpj": "05215347000175",
+    "nome": "NAYANDRA GRAFICA E EDITORA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "25951419000150",
+    "nome": "GRAFICA PALLOS LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2130.0
+   },
+   {
+    "cnpj": "17082744000103",
+    "nome": "AUTOMOVEL CLUB DE BARBACENA",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "65265337000176",
+    "nome": "65.265.337 MARCELO MARCIANO DA SILVA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "41213768000120",
+    "nome": "LIBERDADE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 10,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1714.13
+   },
+   {
+    "cnpj": "19053339000184",
+    "nome": "VAGNER DONIZETTI ALVES",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1621.0
+   },
+   {
+    "cnpj": "57262340000108",
+    "nome": "PRIME DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1598.09
+   },
+   {
+    "cnpj": "18092259000175",
+    "nome": "TATIANE CARLA DE CAMPOS REZENDE LTDA",
+    "cnae": "43291",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1473.25
+   },
+   {
+    "cnpj": "07170211000111",
+    "nome": "GRAFICA E EDITORA CENTRO OESTE LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "02529098000102",
+    "nome": "AUTO POSTO MONTANA LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1396.31
+   },
+   {
+    "cnpj": "07909954000160",
+    "nome": "PONTOCOM COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1182.0
+   },
+   {
+    "cnpj": "14584366000240",
+    "nome": "POSTO SIMAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1113.24
+   },
+   {
+    "cnpj": "05336514000136",
+    "nome": "GRAFICA E EDITORA D.R. LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "36665728000180",
+    "nome": "WEB RADIO CENTRAL LTDA",
+    "cnae": "60101",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "00475562000191",
+    "nome": "GRAFICA C S LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 960.0
+   },
+   {
+    "cnpj": "21408950000120",
+    "nome": "GRAFICA CRUZEIRO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 950.0
+   },
+   {
+    "cnpj": "29566772000177",
+    "nome": "29.566.772 VILMA MARIA SANTANA BERNARDES",
+    "cnae": "32990",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar",
+     "Locação/cessão de bens móveis (exceto veículos)",
+     "Publicidade por adesivos"
+    ],
+    "total": 920.0
+   },
+   {
+    "cnpj": "03359506000180",
+    "nome": "IMPACT BRASIL COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "46080828000106",
+    "nome": "RESTAURANTE FAJUNIOR LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 769.95
+   },
+   {
+    "cnpj": "19553270000158",
+    "nome": "LIVRARIA BERNADETE LTDA",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 599.8
+   },
+   {
+    "cnpj": "22877115000100",
+    "nome": "22.877.115 WELLINGTON JOSE DE OLIVEIRA",
+    "cnae": "95118",
+    "n_despesas": 3,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 312.0
+   },
+   {
+    "cnpj": "64857367000109",
+    "nome": "AUTO POSTO BRASIL PETRO NEPOMUCENO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 151.0
+   },
+   {
+    "cnpj": "97541971000180",
+    "nome": "TOP GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 150.0
+   },
+   {
+    "cnpj": "02249582000170",
+    "nome": "P.O.COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 140.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 372,
+   "total": 2289064.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 183000.0,
+    "Despesas com pessoal": 2028963.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 476.0,
+    "Locação/cessão de bens imóveis": 21625.0,
+    "Publicidade por carros de som": 9000.0,
+    "Serviços advocatícios": 23000.0,
+    "Serviços contábeis": 23000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,180 @@
+{
+ "sq": "220002539996",
+ "nome_urna": "DR. FERNANDO MÁXIMO",
+ "cargo": "senador",
+ "uf": "RO",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2796000.0,
+  "por_origem": {
+   "Recursos de partido político": 2576000.0,
+   "Recursos de pessoas físicas": 200000.0,
+   "Recursos próprios": 20000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1676000.0,
+   "OUTROS RECURSOS": 1120000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2576000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 220000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 3195126.42,
+  "total_pago": 1223045.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "12126807000154",
+    "nome": "SERVEAS SOLUCOES E SERVICOS LTDA",
+    "cnae": "47521",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 500000.0
+   },
+   {
+    "cnpj": "27856112000103",
+    "nome": "CAMARGO, MAGALHAES CANEDO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 500000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 480000.0
+   },
+   {
+    "cnpj": "26983273000197",
+    "nome": "VITORINO MENDONCA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 220000.0
+   },
+   {
+    "cnpj": "04778630000142",
+    "nome": "RIMA - RIO MADEIRA AVIACAO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "12793819000132",
+    "nome": "ACOTEC ASSESSORIA E CONSULTORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "52369466000162",
+    "nome": "COMPLIANCE ASSESSORIA CONSULTORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "45991563000127",
+    "nome": "M MACHADO SERVICOS DE GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "41676221000161",
+    "nome": "IMPACT COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 13200.0
+   },
+   {
+    "cnpj": "05152588000112",
+    "nome": "COMERCIO DE DERIVADOS DE PETROLEO ESTRELA LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9999.15
+   },
+   {
+    "cnpj": "11773245000178",
+    "nome": "MASSARI COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3750.0
+   },
+   {
+    "cnpj": "18291282000199",
+    "nome": "R. M. S. COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1260.01
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 526,
+   "total": 848917.26,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 836417.26,
+    "Cessão ou locação de veículos": 12500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

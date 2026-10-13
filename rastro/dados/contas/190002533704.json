@@ -1,0 +1,162 @@
+{
+ "sq": "190002533704",
+ "nome_urna": "ALAN LOPES",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 723085.92,
+  "por_origem": {
+   "Recursos de outros candidatos": 72727.27,
+   "Recursos de partido político": 606604.55,
+   "Recursos de pessoas físicas": 42750.0,
+   "Recursos próprios": 1004.1
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 472727.27,
+   "FUNDO PARTIDARIO": 203504.55,
+   "OUTROS RECURSOS": 46854.1
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 600000.0
+   },
+   {
+    "cnpj": "68329270000184",
+    "nome": "CARLOS FRANCISCO PORTINHO",
+    "total": 70000.0
+   },
+   {
+    "cnpj": "08703299000152",
+    "nome": "Direção Estadual/Distrital - PL - RIO DE JANEIRO",
+    "total": 6604.55
+   },
+   {
+    "cnpj": "68470280000135",
+    "nome": "DOUGLAS RUAS DOS SANTOS",
+    "total": 2727.27
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 43754.1
+  }
+ },
+ "despesas": {
+  "total_contratado": 639938.6,
+  "total_pago": 481229.6,
+  "fornecedores_pj": [
+   {
+    "cnpj": "23412180000114",
+    "nome": "EXACT INDUSTRIA E SERVICOS DE EMBALAGENS E ROTULOS LTDA",
+    "cnae": "17311",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por jornais e revistas",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 166952.0
+   },
+   {
+    "cnpj": "24020493000190",
+    "nome": "BACELLAR IMOBILIARIA LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "59842790000103",
+    "nome": "PH PRINT GRAFICA DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 15939.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "33963085000162",
+    "nome": "MANDATO PRIME SERVICOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "09422816000188",
+    "nome": "AQUATIVA CONSULTORIA LTDA",
+    "cnae": "86216",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6600.0
+   },
+   {
+    "cnpj": "00820882000131",
+    "nome": "DESEJO DE GUARANA LANCHONETE LTDA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "33878430000160",
+    "nome": "ASSOCIACAO DOS SERVIDORES PUBLICOS - CLUB MUNICIPAL",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "01433251000122",
+    "nome": "ARTE GRAFICA ELIZIO LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 147,
+   "total": 389947.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 357918.0,
+    "Cessão ou locação de veículos": 7000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 29.6,
+    "Locação/cessão de bens imóveis": 10000.0,
+    "Serviços advocatícios": 10000.0,
+    "Serviços prestados por terceiros": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

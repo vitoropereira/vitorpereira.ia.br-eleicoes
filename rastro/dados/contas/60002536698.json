@@ -1,0 +1,230 @@
+{
+ "sq": "60002536698",
+ "nome_urna": "DR. ACILON",
+ "cargo": "depfed",
+ "uf": "CE",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1365004.87,
+  "por_origem": {
+   "Recursos de partido político": 935004.87,
+   "Recursos de pessoas físicas": 430000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 935004.87,
+   "OUTROS RECURSOS": 430000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 935004.87
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 430000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1306469.82,
+  "total_pago": 1260718.33,
+  "fornecedores_pj": [
+   {
+    "cnpj": "62222348000180",
+    "nome": "SMARTTIME GESTAO E DESENVOLVIMENTO HUMANO LTDA",
+    "cnae": "78108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 282054.0
+   },
+   {
+    "cnpj": "19025450000167",
+    "nome": "RW7 FILMES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 265000.0
+   },
+   {
+    "cnpj": "08730259000108",
+    "nome": "HARLEY BRAGA DIAS SIMOES LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 125000.0
+   },
+   {
+    "cnpj": "68373344000180",
+    "nome": "MARTA MARIA DO SOCORRO LIMA BARROS GONCALVES",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "20304814000127",
+    "nome": "UNIVERSO COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 12,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 88155.0
+   },
+   {
+    "cnpj": "26717584000104",
+    "nome": "TENORIO, MENEZES FREITAS ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "51724801000130",
+    "nome": "CCR CONSULTORIA LTDA",
+    "cnae": "71197",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 43680.0
+   },
+   {
+    "cnpj": "68373599000142",
+    "nome": "GERONIMO DE SOUZA MUNHOZ",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "67689175000129",
+    "nome": "67.689.175 MARCELO ARAMYS DIOGO ANDRADE",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "52743602000132",
+    "nome": "K L TURISMO E LOCACAO LTDA",
+    "cnae": "49299",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 24666.66
+   },
+   {
+    "cnpj": "14932833000103",
+    "nome": "MALT LOCACAO DE VEICULOS E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10200.0
+   },
+   {
+    "cnpj": "42116048000100",
+    "nome": "FLYCAR LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8893.33
+   },
+   {
+    "cnpj": "04072324000196",
+    "nome": "REDE ALFA POSTO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6791.45
+   },
+   {
+    "cnpj": "35211101000196",
+    "nome": "EMPRESA NORDESTINA DE TURISMO LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "07943562000118",
+    "nome": "OLIVEIRA PACHECO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1244.88
+   },
+   {
+    "cnpj": "02363871000103",
+    "nome": "PROVEDORNET SERVICOS DE TELECOMUNICACOES LTDA",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "11604140000195",
+    "nome": "R. DA S. COLACO LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 380.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 4,
+   "total": 70004.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 4.5,
+    "Locação/cessão de bens imóveis": 55000.0,
+    "Serviços contábeis": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

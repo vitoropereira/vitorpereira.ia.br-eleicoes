@@ -1,0 +1,226 @@
+{
+ "sq": "240002539972",
+ "nome_urna": "GUILHERME COLOMBO",
+ "cargo": "depest",
+ "uf": "SC",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1050640.0,
+  "por_origem": {
+   "Recursos de partido político": 1000000.0,
+   "Recursos de pessoas físicas": 40000.0,
+   "Recursos próprios": 10640.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 370000.0,
+   "FUNDO PARTIDARIO": 60000.0,
+   "OUTROS RECURSOS": 620640.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 50640.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 687107.6,
+  "total_pago": 589125.6,
+  "fornecedores_pj": [
+   {
+    "cnpj": "23963862000115",
+    "nome": "FLY JET AVIATION LTDA",
+    "cnae": "52401",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos",
+     "Publicidade por materiais impressos",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 85000.0
+   },
+   {
+    "cnpj": "07448688000116",
+    "nome": "GRAFICA E EDITORA CAPPELER LTDA",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 74125.0
+   },
+   {
+    "cnpj": "07857617000177",
+    "nome": "MENEZES NIEBUHR SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "43357653000135",
+    "nome": "PHILIPPS FILMES LTDA.",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "19910112000108",
+    "nome": "NORTE CONSULT CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "19890566000164",
+    "nome": "PPDEX DISTRIBUICAO DE IMPRESSOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "13343250000176",
+    "nome": "ENERGIA NATURAL CONFECCOES E DISTRIBUICAO LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "09028165000146",
+    "nome": "LASERTEC TECNOLOGIA EM SERVICOS E SUPRIMENTOS LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 6830.0
+   },
+   {
+    "cnpj": "79667655000178",
+    "nome": "CONSTRUTORA FONTANA LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "06017462000106",
+    "nome": "EDITORA FOLHA DE VIDEIRA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4440.0
+   },
+   {
+    "cnpj": "17430961000139",
+    "nome": "BOUTIQUE DOS CARIMBOS INDUSTRIA, COMERCIO, VAREJISTA E SERVICOS DE ARTIGOS PARA ESCRITORIO LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "65668748000102",
+    "nome": "65.668.748 NAZARENO RODRIGUES MOREIRA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2770.0
+   },
+   {
+    "cnpj": "85164853000111",
+    "nome": "SANDRA EVENTOS E RECREACOES LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "53480667000103",
+    "nome": "53.480.667 VOLMIR SOUZA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "22450881000185",
+    "nome": "REDBLUE ESTAMPARIA E ACABAMENTOS LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "50476038000103",
+    "nome": "FLEX IMPRESSOES LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 262.5
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 29,
+   "total": 208280.1,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 34800.0,
+    "Despesas com pessoal": 152440.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 40.1,
+    "Publicidade por materiais impressos": 21000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

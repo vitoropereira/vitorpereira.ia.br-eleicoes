@@ -1,0 +1,90 @@
+{
+ "sq": "250002536734",
+ "nome_urna": "JULIANA CARDOSO",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2916000.0,
+  "por_origem": {
+   "Recursos de partido político": 2865500.0,
+   "Recursos de pessoas físicas": 50500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2865500.0,
+   "OUTROS RECURSOS": 50500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 2865500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 50500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1008375.6,
+  "total_pago": 331370.6,
+  "fornecedores_pj": [
+   {
+    "cnpj": "23958694000170",
+    "nome": "WF PRINT SOLUCOES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 35380.0
+   },
+   {
+    "cnpj": "06917045000101",
+    "nome": "METROPOLE TURISMO FRETAMENTO E LOCADORA LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 33915.0
+   },
+   {
+    "cnpj": "68373425000180",
+    "nome": "JULIANA FRAGA E SILVA DE SOUZA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "61997755000105",
+    "nome": "VALLILO GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 624,
+   "total": 899080.6,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 9000.0,
+    "Despesas com pessoal": 890005.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 75.6
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

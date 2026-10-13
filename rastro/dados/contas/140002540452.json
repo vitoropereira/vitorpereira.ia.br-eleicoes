@@ -1,0 +1,203 @@
+{
+ "sq": "140002540452",
+ "nome_urna": "PRIANTE",
+ "cargo": "depfed",
+ "uf": "PA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2960000.0,
+  "por_origem": {
+   "Recursos de partido político": 2850000.0,
+   "Recursos próprios": 110000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2850000.0,
+   "OUTROS RECURSOS": 110000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 2850000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 110000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1083652.2,
+  "total_pago": 1368433.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 400000.0
+   },
+   {
+    "cnpj": "68468279000176",
+    "nome": "IRAN ATAIDE DE LIMA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "04216356000118",
+    "nome": "ALVO MARKETING E PUBLICIDADE LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "11569213000155",
+    "nome": "I S BARBOSA SANTAREM LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 25025.0
+   },
+   {
+    "cnpj": "11847388000187",
+    "nome": "ABEJET COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 23725.0
+   },
+   {
+    "cnpj": "28970600000100",
+    "nome": "HI NEO COMUNICACAO E MARKETING LTDA.",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "43335257000107",
+    "nome": "I S BARBOSA SAO JOSE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 11926.2
+   },
+   {
+    "cnpj": "14825933000122",
+    "nome": "14.825.933 WILLY REINALDO MIRANDA DA SILVA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "83928226000184",
+    "nome": "L P D AVILA FILHO LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9650.0
+   },
+   {
+    "cnpj": "16798344000128",
+    "nome": "I. S. BARBOSA ITB LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9558.0
+   },
+   {
+    "cnpj": "04622892000113",
+    "nome": "PEMA - PEREIRA MARCELO TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7140.0
+   },
+   {
+    "cnpj": "20959790000144",
+    "nome": "JULIANY AVGAS COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6778.2
+   },
+   {
+    "cnpj": "03339851000151",
+    "nome": "GLOBAL GRAFICA DA AMAZONIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6055.8
+   },
+   {
+    "cnpj": "04819490000103",
+    "nome": "LOURENCO AUGUSTO SILVA PIRES D AVILA SERVICOS E COMERCIO DE IMPRESSAO GRAFICA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3426.0
+   },
+   {
+    "cnpj": "31833470000160",
+    "nome": "COSTA IMPRESSOES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2300.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 6,
+   "total": 248068.0,
+   "por_tipo": {
+    "Despesas com transporte ou deslocamento": 150000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 68.0,
+    "Locação/cessão de bens imóveis": 20000.0,
+    "Serviços advocatícios": 30000.0,
+    "Serviços contábeis": 20000.0,
+    "Serviços prestados por terceiros": 28000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

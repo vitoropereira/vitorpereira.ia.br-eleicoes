@@ -1,0 +1,244 @@
+{
+ "sq": "90002537441",
+ "nome_urna": "WILLIAN PANDA",
+ "cargo": "depest",
+ "uf": "GO",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 388600.0,
+  "por_origem": {
+   "Recursos de partido político": 200000.0,
+   "Recursos de pessoas físicas": 148600.0,
+   "Recursos próprios": 40000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "OUTROS RECURSOS": 188600.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 200000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 16,
+   "total": 188600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 341977.76,
+  "total_pago": 323723.02,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "55501566000199",
+    "nome": "PIETA COMUNICACAO ASSERTIVA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "17979149000167",
+    "nome": "BRUNO PENA ADVOGADOS ASSOCIADOS S/S",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "00799366000172",
+    "nome": "VILLAGE COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 19423.6
+   },
+   {
+    "cnpj": "13035767000106",
+    "nome": "M. G. COSTA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "24113180000186",
+    "nome": "GYN LOCADORA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6083.5
+   },
+   {
+    "cnpj": "53365489000161",
+    "nome": "ATIVA COMERCIO INDUSTRIA E IMPORTACAO LTDA",
+    "cnae": "46427",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4439.0
+   },
+   {
+    "cnpj": "34787772000137",
+    "nome": "JORNAL ONLINE NOSSA VOZ LTDA",
+    "cnae": "63194",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4300.0
+   },
+   {
+    "cnpj": "66030224000154",
+    "nome": "ABENCOADO DIGITAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2875.0
+   },
+   {
+    "cnpj": "55845202000126",
+    "nome": "GOIAS DESTAQUE COMUNICACAO MARKETING E SERVICOS FINANCEIROS LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "10233796000186",
+    "nome": "A @ ARTE COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "11816646000168",
+    "nome": "ERI BANDEIRA PRODUCOES E EVENTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "27135324000193",
+    "nome": "VIEIRA E VIEIRA AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 280.0
+   },
+   {
+    "cnpj": "54608845000193",
+    "nome": "REDE DE POSTOS TOCA DA ONCA URUACU LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 279.3
+   },
+   {
+    "cnpj": "02444107000154",
+    "nome": "PRADO REZENDE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 171.61
+   },
+   {
+    "cnpj": "16823096000128",
+    "nome": "AUTO POSTO SERRA DOURADA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 71.92
+   },
+   {
+    "cnpj": "37372802000132",
+    "nome": "R C J COMBUSTIVEIS E DERIVADO DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 42.9
+   },
+   {
+    "cnpj": "07366945000170",
+    "nome": "AUTO POSTO KR LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 27.93
+   },
+   {
+    "cnpj": "36588471000100",
+    "nome": "PRIME ENERGY PIRINEUS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 12.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 72,
+   "total": 208671.0,
+   "por_tipo": {
+    "Despesas com pessoal": 140800.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 71.0,
+    "Locação/cessão de bens imóveis": 7800.0,
+    "Publicidade por carros de som": 60000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,152 @@
+{
+ "sq": "140002541711",
+ "nome_urna": "ANA CUNHA",
+ "cargo": "depest",
+ "uf": "PA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 229630.09,
+  "por_origem": {
+   "Recursos de outros candidatos": 4861.6,
+   "Recursos de partido político": 175969.0,
+   "Recursos de pessoas físicas": 16082.0,
+   "Recursos próprios": 32717.49
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 178071.1,
+   "FUNDO PARTIDARIO": 969.0,
+   "OUTROS RECURSOS": 50589.99
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 175000.0
+   },
+   {
+    "cnpj": "68455580000145",
+    "nome": "KENISTON DE JESUS REGO BRAGA",
+    "total": 4235.0
+   },
+   {
+    "cnpj": "83369082000173",
+    "nome": "Direção Estadual/Distrital - MDB - PARÁ",
+    "total": 969.0
+   },
+   {
+    "cnpj": "68456016000147",
+    "nome": "CASSIO COELHO ANDRADE",
+    "total": 471.1
+   },
+   {
+    "cnpj": "68455927000150",
+    "nome": "HENDERSON LIRA PINTO",
+    "total": 155.5
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 48799.49
+  }
+ },
+ "despesas": {
+  "total_contratado": 87839.53,
+  "total_pago": 81314.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "00805055000179",
+    "nome": "CONSULT-ESCRITORIO DE CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "17650749000187",
+    "nome": "R DO VALE COSTA CIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 18974.0
+   },
+   {
+    "cnpj": "66870357000139",
+    "nome": "ESTRATEGE CONSULTORIA E COMUNICACAO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "36571569000154",
+    "nome": "DANILO COUTO MARQUES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "24484741000153",
+    "nome": "MLLC COMERCIO E SERVICOS LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "48504582000170",
+    "nome": "R L DIAS CONFECCOES",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "05423446000142",
+    "nome": "CONDOMINIO DO EDIFICIO VILLAGE MILLENIUM",
+    "cnae": "81125",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "55042828000102",
+    "nome": "MULTI SERVICOS GRAFICOS LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 80.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 5485.53,
+   "por_tipo": {
+    "Despesas com pessoal": 2485.53,
+    "Produção de jingles, vinhetas e slogans": 3000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

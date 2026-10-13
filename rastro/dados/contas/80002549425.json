@@ -1,0 +1,192 @@
+{
+ "sq": "80002549425",
+ "nome_urna": "DR VITOR LOUZADA",
+ "cargo": "depest",
+ "uf": "ES",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 491500.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 314000.0,
+   "Recursos de partido político": 50000.0,
+   "Recursos de pessoas físicas": 2500.0,
+   "Recursos próprios": 125000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 364000.0,
+   "OUTROS RECURSOS": 127500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68553059000140",
+    "nome": "GILVAN AGUIAR COSTA",
+    "total": 310000.0
+   },
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68608222000125",
+    "nome": "MAGDA SANTOS MALTA",
+    "total": 4000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 127500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 313137.1,
+  "total_pago": 339615.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "34012035000162",
+    "nome": "RESOLVI - SERVICOS PRODUCOES E EVENTOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 85000.0
+   },
+   {
+    "cnpj": "34941850000106",
+    "nome": "EVANDRO FLEGLER FONSECA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "27252147000125",
+    "nome": "GRAFICA E EDITORA JEP LTDA",
+    "cnae": "58298",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 33250.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "00881084000110",
+    "nome": "LOCAL LOCADORA COLATINA LTDA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 13458.68
+   },
+   {
+    "cnpj": "21003516000160",
+    "nome": "21.003.516 GABRIEL ZAGO MARINO",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "36397026000162",
+    "nome": "GRAFICA SAO SILVANO LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5530.0
+   },
+   {
+    "cnpj": "19155577000109",
+    "nome": "19.155.577 MARCELO KALK BERNARDO",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "30697954000166",
+    "nome": "30.697.954 CRISTINA LUCHI SIQUEIRA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 2620.0
+   },
+   {
+    "cnpj": "05823350000171",
+    "nome": "JOAO BATISTA REGUETE DA COSTA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1880.0
+   },
+   {
+    "cnpj": "08971375000100",
+    "nome": "BRAX COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 8,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1828.42
+   },
+   {
+    "cnpj": "24127963000119",
+    "nome": "RUSSILEY PARPAIOLA - RESTAURANTE SELF SERVICE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 697.0
+   },
+   {
+    "cnpj": "28489532000153",
+    "nome": "POSTO ALVORADA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 220.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 29,
+   "total": 59653.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 54131.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 22.0,
+    "Locação/cessão de bens imóveis": 5500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

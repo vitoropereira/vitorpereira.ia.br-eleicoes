@@ -1,0 +1,432 @@
+{
+ "sq": "180002536214",
+ "nome_urna": "HENRIQUE PIRES",
+ "cargo": "depest",
+ "uf": "PI",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 852146.66,
+  "por_origem": {
+   "Recursos de partido político": 300000.0,
+   "Recursos de pessoas físicas": 442146.66,
+   "Recursos próprios": 110000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "OUTROS RECURSOS": 652146.66
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 300000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 552146.66
+  }
+ },
+ "despesas": {
+  "total_contratado": 321172.78,
+  "total_pago": 816938.09,
+  "fornecedores_pj": [
+   {
+    "cnpj": "04980871000170",
+    "nome": "CENTER GRAFICA E EDITORA LTDA",
+    "cnae": "58298",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 34150.0
+   },
+   {
+    "cnpj": "57845681000106",
+    "nome": "J A F NOGUEIRA NETO",
+    "cnae": "77390",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 33050.0
+   },
+   {
+    "cnpj": "57267185000112",
+    "nome": "FALCAO FALCAO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "58682743000179",
+    "nome": "ARAUJO E ALMEIDA ASSESSORIA CONTABIL-FINANCEIRA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "33133730000110",
+    "nome": "FORTLIGHT COMUNICACAO LTDA",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 29980.0
+   },
+   {
+    "cnpj": "53504011000175",
+    "nome": "L X S LIMITADA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 17250.0
+   },
+   {
+    "cnpj": "00353368000133",
+    "nome": "GUABES PRODUCOES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 12500.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 11500.0
+   },
+   {
+    "cnpj": "55088201000184",
+    "nome": "RAMOSEG SERVICOS E COMERCIO LTDA",
+    "cnae": "80200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "58395128000181",
+    "nome": "M N R COELHO LTDA",
+    "cnae": "47296",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8750.0
+   },
+   {
+    "cnpj": "44256234000170",
+    "nome": "TMJ CRIATIVA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "45439402000125",
+    "nome": "RAYANNE C DE SOUZA",
+    "cnae": "56112",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 7080.0
+   },
+   {
+    "cnpj": "52850058000128",
+    "nome": "PETROLEO COMBUSTIVEL III LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5525.41
+   },
+   {
+    "cnpj": "34028316621728",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 5105.76
+   },
+   {
+    "cnpj": "32267292001272",
+    "nome": "RMC COMERCIO DE ALIMENTOS LTDA",
+    "cnae": "47113",
+    "n_despesas": 4,
+    "tipos": [
+     "Diversas a especificar",
+     "Água"
+    ],
+    "total": 3660.22
+   },
+   {
+    "cnpj": "14728039000134",
+    "nome": "AUTO COMERCIAL BONTEMPO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1747.83
+   },
+   {
+    "cnpj": "65383637000150",
+    "nome": "JPSM PRODUCOES E SERVICOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "07483266000424",
+    "nome": "PIPEL-PICOS PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1200.06
+   },
+   {
+    "cnpj": "06620223000138",
+    "nome": "MUNIZ DE CARVALHO FILHOS LTDA",
+    "cnae": "55108",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1180.0
+   },
+   {
+    "cnpj": "02189729000183",
+    "nome": "MARKA MIDIA EXTERIOR LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "05354583000172",
+    "nome": "POSTO LUCAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 868.61
+   },
+   {
+    "cnpj": "57895469000153",
+    "nome": "JOAO JOSE DA SILVA COMBUSTIVEIS",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 841.0
+   },
+   {
+    "cnpj": "12066865000210",
+    "nome": "POSTO CLEMENTINO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 785.04
+   },
+   {
+    "cnpj": "32255199000195",
+    "nome": "AUTO POSTO GETY LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 575.05
+   },
+   {
+    "cnpj": "08986525001474",
+    "nome": "CACIQUE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 549.63
+   },
+   {
+    "cnpj": "10824285000210",
+    "nome": "BEZERRA VALADARES LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 522.37
+   },
+   {
+    "cnpj": "51899732000104",
+    "nome": "POSTO MOREIRA BOM JESUS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "05378824000113",
+    "nome": "GILDA JOAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 494.83
+   },
+   {
+    "cnpj": "09128473000143",
+    "nome": "AUTO POSTO GURGUEIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 487.74
+   },
+   {
+    "cnpj": "04661353000274",
+    "nome": "J L CARVALHO DA SILVA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 483.61
+   },
+   {
+    "cnpj": "05730903000303",
+    "nome": "COMERCIAL DE PETROLEO CAFE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 473.52
+   },
+   {
+    "cnpj": "26070671000112",
+    "nome": "POSTO SANTA ISABEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 460.07
+   },
+   {
+    "cnpj": "06703805000501",
+    "nome": "V. MACHADO CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 455.17
+   },
+   {
+    "cnpj": "53290099000170",
+    "nome": "POSTO KQ II SAO RAIMUNDO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 420.0
+   },
+   {
+    "cnpj": "41529223000128",
+    "nome": "VALDOITE DIAS DOS SANTOS",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 392.94
+   },
+   {
+    "cnpj": "27285278000290",
+    "nome": "AUTO POSTO BOM PRECO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "07696891000101",
+    "nome": "M C LEMOS CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 186.24
+   },
+   {
+    "cnpj": "31838128002287",
+    "nome": "DISTRIBUICAO DE ALIMENTOS VANGUARDA S/A",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 10.95
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 15,
+   "total": 60586.73,
+   "por_tipo": {
+    "Despesas com pessoal": 50479.23,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 107.5,
+    "Locação/cessão de bens imóveis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

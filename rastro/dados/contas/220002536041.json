@@ -1,0 +1,266 @@
+{
+ "sq": "220002536041",
+ "nome_urna": "DR. JAIME GAZOLA",
+ "cargo": "depfed",
+ "uf": "RO",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1489000.0,
+  "por_origem": {
+   "Recursos de partido político": 1188000.0,
+   "Recursos de pessoas físicas": 1000.0,
+   "Recursos próprios": 300000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1188000.0,
+   "OUTROS RECURSOS": 301000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 1100000.0
+   },
+   {
+    "cnpj": "04740909000137",
+    "nome": "Direção Estadual/Distrital - PODE - RONDÔNIA",
+    "total": 88000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 301000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 954416.99,
+  "total_pago": 1177593.36,
+  "fornecedores_pj": [
+   {
+    "cnpj": "33906644000100",
+    "nome": "HABIB, VIDAL E SANTANA ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 260000.0
+   },
+   {
+    "cnpj": "68887931000197",
+    "nome": "G M NAPOLIAO",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 159000.0
+   },
+   {
+    "cnpj": "10573786000190",
+    "nome": "CONTMAIS SERVICOS DE APOIO ADMINISTRATIVO LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 69500.0
+   },
+   {
+    "cnpj": "68464844000127",
+    "nome": "MARIA APARECIDA FERNANDES",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68464952000108",
+    "nome": "ROBSON JOSE MELO DE OLIVEIRA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68464974000160",
+    "nome": "NILZON LOPES DE OLIVEIRA JUNIOR",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68465013000170",
+    "nome": "RAFAELA AMELIA OLIVEIRA LIMA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68707717000101",
+    "nome": "GLAUCIA LOPES NEGREIROS",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "46753451000109",
+    "nome": "IZAC T A MOREIRA COMERCIO E SERVICOS",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "26279477000141",
+    "nome": "ALBUQUERQUE COMERCIO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 25930.0
+   },
+   {
+    "cnpj": "38368132000143",
+    "nome": "LIVE NORTE SERVICOS DE PRODUCAO E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 16540.0
+   },
+   {
+    "cnpj": "60604357000100",
+    "nome": "60.604.357 VICILENE BARROS DE SOUZA SILVA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "84722420000171",
+    "nome": "EMPRESA RONDONIA DE REFRIGERANTES LTDA",
+    "cnae": "11216",
+    "n_despesas": 2,
+    "tipos": [
+     "Água"
+    ],
+    "total": 12450.0
+   },
+   {
+    "cnpj": "05155992000140",
+    "nome": "RONDOFORMS EDITORA E GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9480.0
+   },
+   {
+    "cnpj": "12278579000138",
+    "nome": "EMERSON GONCALVES DA SILVA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "68357047000140",
+    "nome": "68.357.047 LUCIANO RAMOS LIMA",
+    "cnae": "52231",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "44754011000132",
+    "nome": "NORTE LOCACAO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "44251475000126",
+    "nome": "44.251.475 EZEQUIAS REBELO DE FREITAS",
+    "cnae": "53202",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2290.0
+   },
+   {
+    "cnpj": "32901932000100",
+    "nome": "S DA S GONCALVES",
+    "cnae": "86216",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2200.0
+   },
+   {
+    "cnpj": "22468293000179",
+    "nome": "COSTA ALBUQUERQUE COM. DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2019.59
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 40,
+   "total": 88607.4,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 61598.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 9.4,
+    "Publicidade por carros de som": 27000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

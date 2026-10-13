@@ -1,0 +1,154 @@
+{
+ "sq": "90002543128",
+ "nome_urna": "LUCAS KITÃO",
+ "cargo": "depest",
+ "uf": "GO",
+ "partido": "MOBILIZA",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 225000.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 125000.0,
+   "Recursos próprios": 100000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 225000.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 13,
+   "total": 225000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 226045.03,
+  "total_pago": 19402.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "28391564000111",
+    "nome": "DRR MULTI EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "40521629000100",
+    "nome": "40.521.629 NATHANY SILVA RODRIGUES DE NAPOLE",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "07194751000135",
+    "nome": "ACHEI AUTOMOVEIS LTDA",
+    "cnae": "77110",
+    "n_despesas": 5,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 16897.0
+   },
+   {
+    "cnpj": "34059356000112",
+    "nome": "VILELA PATO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "58365346000173",
+    "nome": "CARDOSO REIS ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "37552166000120",
+    "nome": "37.552.166 TAYRINE MARIA ARRUDA DE SOUZA",
+    "cnae": "77217",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2626.0
+   },
+   {
+    "cnpj": "07673826000160",
+    "nome": "MF BRASIL SERVICOS ESPECIAIS LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "24935788000196",
+    "nome": "AFA INDUSTRIA COMERCIO E SERVICOS LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 920.0
+   },
+   {
+    "cnpj": "07716577000143",
+    "nome": "PORTO VAZ RECICLAGEM DE CARTUCHOS LTDA",
+    "cnae": "47512",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens imóveis",
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 658.53
+   },
+   {
+    "cnpj": "00110901000136",
+    "nome": "G.B.C COMUNICACAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 120.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 63,
+   "total": 101923.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 72900.0,
+    "Despesas com pessoal": 29000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 23.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

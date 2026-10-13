@@ -1,0 +1,717 @@
+{
+ "sq": "200002533841",
+ "nome_urna": "SAMANDA DE LULA",
+ "cargo": "senador",
+ "uf": "RN",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3499731.49,
+  "por_origem": {
+   "Recursos de partido político": 3448198.32,
+   "Recursos próprios": 51533.17
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3430698.33,
+   "FUNDO PARTIDARIO": 17499.99,
+   "OUTROS RECURSOS": 51533.17
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 3430698.33
+   },
+   {
+    "cnpj": "20555712000184",
+    "nome": "Direção Estadual/Distrital - PT - RIO GRANDE DO NORTE",
+    "total": 17499.99
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 51533.17
+  }
+ },
+ "despesas": {
+  "total_contratado": 3475033.75,
+  "total_pago": 3055777.07,
+  "fornecedores_pj": [
+   {
+    "cnpj": "31898309000174",
+    "nome": "VGR COMUNICACAO LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 21,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 400000.0
+   },
+   {
+    "cnpj": "45875181000138",
+    "nome": "RITA CAMACHO CONSULTORIA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 320000.0
+   },
+   {
+    "cnpj": "08714391000118",
+    "nome": "CENTER FILMES AUDIOVISUAL LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "54313658000182",
+    "nome": "ANDRE CASTRO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "39254019000108",
+    "nome": "NAO ME KAHLO COMUNICACOES LTDA.",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "62714298000159",
+    "nome": "LIDERA CONSULTORIA ELEITORAL E PARTIDARIA LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 110000.0
+   },
+   {
+    "cnpj": "30628144000158",
+    "nome": "J J E DE MELO",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 90000.0
+   },
+   {
+    "cnpj": "42908733000179",
+    "nome": "PAVEL RENT CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 4,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 56266.52
+   },
+   {
+    "cnpj": "05001322000179",
+    "nome": "C E LUZ MOURA LTDA",
+    "cnae": "47423",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 42000.0
+   },
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "31511290000161",
+    "nome": "IZO ARAUJO DE MEDEIROS",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "47507235000138",
+    "nome": "IVANIR PEREIRA DA SILVA LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "22439948000180",
+    "nome": "AUTOINFORME COMUNICACAO LTDA",
+    "cnae": "63917",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 36000.0
+   },
+   {
+    "cnpj": "31321080000100",
+    "nome": "UNIGRAFICA INDUSTRIA GRAFICA LTDA",
+    "cnae": "17311",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 31893.0
+   },
+   {
+    "cnpj": "27997819000121",
+    "nome": "GRID COMUNICACAO VISUAL, SINALIZACAO E EVENTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "42429173000170",
+    "nome": "CARDOSO SILVA PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "59813491000132",
+    "nome": "59.813.491 ISRAEL CARDOSO DE ARAUJO",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "32304440000129",
+    "nome": "A DE O VIANA EDITORA E COMUNICACAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "42930940000120",
+    "nome": "TL COMUNICACAO E MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "47179801000120",
+    "nome": "47.179.801 JANA BESERRA DE SA",
+    "cnae": "63992",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "66461299000190",
+    "nome": "66.461.299 WILIANE CAVALCANTE MARTINS",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68882442000142",
+    "nome": "68.882.442 ALEXANDRE CAETANO RIBEIRO",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "40451027000115",
+    "nome": "40.451.027 WELLINA DIONISIO DA SILVA MEDEIROS",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 17500.0
+   },
+   {
+    "cnpj": "32824973000131",
+    "nome": "GILLIANO MIDSON DE PAIVA SOUZA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15200.0
+   },
+   {
+    "cnpj": "08597323000116",
+    "nome": "E M DANTAS COMERCIO E SERVICOS LTDA",
+    "cnae": "47521",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "09523745000100",
+    "nome": "GEOVANITO F. DE L. BRITO",
+    "cnae": "95118",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "24206617000800",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 13,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 8021.01
+   },
+   {
+    "cnpj": "00893306000114",
+    "nome": "LIFE SERVICOS TECNICOS LTDA",
+    "cnae": "33147",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "66840793000165",
+    "nome": "66.840.793 CELIA MARIA CARDOSO DA SILVA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "26583101000126",
+    "nome": "GENILSON DANTAS",
+    "cnae": "53202",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "39267259000139",
+    "nome": "F2 LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5200.0
+   },
+   {
+    "cnpj": "11574190000177",
+    "nome": "E G REVENDEDORA DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 10,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5114.05
+   },
+   {
+    "cnpj": "57729665000158",
+    "nome": "57.729.665 BIANCA BEATRIZ GOMES BATISTA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "24206617001955",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3315.96
+   },
+   {
+    "cnpj": "24206617004032",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 9,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3249.77
+   },
+   {
+    "cnpj": "41346459000129",
+    "nome": "FLORES DO CAMPO COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 12,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2853.89
+   },
+   {
+    "cnpj": "55756460000136",
+    "nome": "ANGICOS COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 10,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2775.3
+   },
+   {
+    "cnpj": "64079947000112",
+    "nome": "64.079.947 MARIA EDUARDA SOUZA DE AZEVEDO",
+    "cnae": "56201",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2685.5
+   },
+   {
+    "cnpj": "13587119000154",
+    "nome": "R4 - INDUSTRIA E COMERCIO LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "18570900000130",
+    "nome": "JOSIMAR DE MESQUITA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 2160.0
+   },
+   {
+    "cnpj": "41127084000106",
+    "nome": "ESTRADA DO GRUDE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1686.57
+   },
+   {
+    "cnpj": "39538119000158",
+    "nome": "SEGURA SOLUCOES INTELIGENTES LTDA",
+    "cnae": "80200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "24206617001289",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1133.42
+   },
+   {
+    "cnpj": "06224460000180",
+    "nome": "S G M COPIADORAS COMERCIO E SERVICOS LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "29050970000183",
+    "nome": "POUSADA URCA DO MINHOTO LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 960.0
+   },
+   {
+    "cnpj": "24206617001106",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 880.29
+   },
+   {
+    "cnpj": "36919772000179",
+    "nome": "CIDADE NOVA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 838.63
+   },
+   {
+    "cnpj": "24206617001793",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 807.11
+   },
+   {
+    "cnpj": "36010401000170",
+    "nome": "JOAO CAMARA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 681.93
+   },
+   {
+    "cnpj": "24206617003303",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 606.91
+   },
+   {
+    "cnpj": "24206617000550",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 550.89
+   },
+   {
+    "cnpj": "36885469000100",
+    "nome": "CIDADE DAS ROSAS COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 549.2
+   },
+   {
+    "cnpj": "24206617002846",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 534.41
+   },
+   {
+    "cnpj": "58025861000104",
+    "nome": "JUCURUTU COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 340.46
+   },
+   {
+    "cnpj": "24206617000207",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 339.78
+   },
+   {
+    "cnpj": "29502624000199",
+    "nome": "ANDREZA DEISE P DE MATOS RESTAURANTE",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "24195269000139",
+    "nome": "IRIS LIMA ANDRADE",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 264.0
+   },
+   {
+    "cnpj": "24206617000398",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 235.13
+   },
+   {
+    "cnpj": "40797112000130",
+    "nome": "MOINHO DOS VENTOS COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 218.61
+   },
+   {
+    "cnpj": "06057223031050",
+    "nome": "SENDAS DISTRIBUIDORA S/A",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 122.23
+   },
+   {
+    "cnpj": "24206617001017",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 69.97
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 40.0
+   },
+   {
+    "cnpj": "46256246000120",
+    "nome": "CHURRASCARIA COMERCIO SANTO ANTONIO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 40.0
+   },
+   {
+    "cnpj": "52601677000189",
+    "nome": "G L BENICIO MARANHAO",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 13.9
+   },
+   {
+    "cnpj": "06057223056207",
+    "nome": "SENDAS DISTRIBUIDORA S/A",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 13.75
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 82,
+   "total": 290771.56,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 22400.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 83.0,
+    "Produção de jingles, vinhetas e slogans": 25500.0,
+    "Serviços prestados por terceiros": 242788.56
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

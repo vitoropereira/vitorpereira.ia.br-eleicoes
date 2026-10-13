@@ -1,0 +1,163 @@
+{
+ "sq": "50002535570",
+ "nome_urna": "JOÃO DE FURÃO",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "AVANTE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 260000.0,
+  "por_origem": {
+   "Recursos de partido político": 80000.0,
+   "Recursos de pessoas físicas": 118000.0,
+   "Recursos próprios": 62000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 80000.0,
+   "OUTROS RECURSOS": 180000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "59933952000100",
+    "nome": "Direção Nacional - AVANTE",
+    "total": 80000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 180000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 195173.9,
+  "total_pago": 235785.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "07544833000162",
+    "nome": "LUMIA COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "32129984000100",
+    "nome": "SOUL AGENCIA DIGITAL LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "50721122000145",
+    "nome": "ADM RH CONSULTORIA E TREINAMENTO LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "39534427000105",
+    "nome": "LBFA IMPRESSOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 29580.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "05520115000120",
+    "nome": "BOMBONE INDUSTRIA E COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7800.0
+   },
+   {
+    "cnpj": "24759252000167",
+    "nome": "FEIRA ROTULOS E ETIQUETAS ADESIVAS LTDA",
+    "cnae": "17419",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "27426793000161",
+    "nome": "ARIA HALL EMPREENDIMENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "48351768000136",
+    "nome": "POSTO GETULIO DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1572.15
+   },
+   {
+    "cnpj": "46439622000111",
+    "nome": "FEIRA BANDEIRAS E IMPRESSOS LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1440.0
+   },
+   {
+    "cnpj": "46756034000101",
+    "nome": "A DE C R DA SILVA LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 271.25
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 5,
+   "total": 33510.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 10.5,
+    "Locação/cessão de bens imóveis": 8500.0,
+    "Serviços advocatícios": 10000.0,
+    "Serviços contábeis": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

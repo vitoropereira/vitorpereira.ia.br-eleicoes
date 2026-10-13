@@ -1,0 +1,181 @@
+{
+ "sq": "210002535669",
+ "nome_urna": "SCALCO",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1272500.0,
+  "por_origem": {
+   "Recursos de partido político": 1270000.0,
+   "Recursos próprios": 2500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1270000.0,
+   "OUTROS RECURSOS": 2500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1270000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 2500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 367879.43,
+  "total_pago": 154010.43,
+  "fornecedores_pj": [
+   {
+    "cnpj": "41645885000163",
+    "nome": "GUEGOO INDUSTRIA E COMERCIO DE PRODUTOS PARA COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 45287.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 42500.0
+   },
+   {
+    "cnpj": "27807819000111",
+    "nome": "L PEREIRA CONSULTORIA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 28780.0
+   },
+   {
+    "cnpj": "09168032000175",
+    "nome": "MI DIGITAL LTDA.",
+    "cnae": "18130",
+    "n_despesas": 13,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21622.0
+   },
+   {
+    "cnpj": "34360084000196",
+    "nome": "34.360.084 CYNDY SHARON DRESCH DA SILVA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68369189000128",
+    "nome": "68.369.189 DOUGLAS DE OLIVEIRA TELES",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "93532968000140",
+    "nome": "LORIGRAF GRAFICA E EDITORA LTDA",
+    "cnae": "58298",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19600.0
+   },
+   {
+    "cnpj": "18813835000126",
+    "nome": "ARKIO NEGOCIACOES E REPRESENTACOES LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "45599364000178",
+    "nome": "XPLAY DIGITAL LTDA",
+    "cnae": "62023",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6750.0
+   },
+   {
+    "cnpj": "00563381000117",
+    "nome": "LOVISON LOVISON LTDA",
+    "cnae": "47857",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 5900.0
+   },
+   {
+    "cnpj": "89566673000117",
+    "nome": "PRO PINK PAINEIS LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3489.42
+   },
+   {
+    "cnpj": "90389453000144",
+    "nome": "GRAFICA IMIGRANTE LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2220.0
+   },
+   {
+    "cnpj": "92016757007366",
+    "nome": "COMERCIAL ZAFFARI LTDA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 664.01
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 57,
+   "total": 141067.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 37.0,
+    "Locação/cessão de bens imóveis": 10600.0,
+    "Serviços prestados por terceiros": 130430.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

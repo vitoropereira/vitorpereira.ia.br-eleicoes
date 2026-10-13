@@ -1,0 +1,331 @@
+{
+ "sq": "60002536667",
+ "nome_urna": "LIA GOMES",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 782243.9,
+  "por_origem": {
+   "Recursos de outros candidatos": 139000.0,
+   "Recursos de partido político": 398243.9,
+   "Recursos de pessoas físicas": 245000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 398243.9,
+   "OUTROS RECURSOS": 384000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 398243.9
+   },
+   {
+    "cnpj": "68468285000123",
+    "nome": "CID FERREIRA GOMES",
+    "total": 139000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 245000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 454389.18,
+  "total_pago": 127265.96,
+  "fornecedores_pj": [
+   {
+    "cnpj": "00200508000133",
+    "nome": "SOGRAFICA SOBRAL GRAFICA LTDA",
+    "cnae": "18121",
+    "n_despesas": 21,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 44663.33
+   },
+   {
+    "cnpj": "07784028000106",
+    "nome": "AGIL PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "04549133000172",
+    "nome": "SOLUTION ASSESSORIA, PLANEJAMENTO E SERVICOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "12576687000197",
+    "nome": "PUPO ADVOCACIA S/S",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "14097991000187",
+    "nome": "RH8 SERVICOS E TERCEIRIZACOES LTDA",
+    "cnae": "78108",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 29604.42
+   },
+   {
+    "cnpj": "41414606000150",
+    "nome": "DIEGO POTE SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "00176802000157",
+    "nome": "LUIZ GONZAGA P DE QUEIROZ",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "58314310000160",
+    "nome": "ZERO 6 EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 3,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 17499.6
+   },
+   {
+    "cnpj": "10863187000100",
+    "nome": "ARTE SERVICOS LTDA.",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 16520.0
+   },
+   {
+    "cnpj": "03977401000194",
+    "nome": "CASABLANCA RENT A CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12390.0
+   },
+   {
+    "cnpj": "37677623000103",
+    "nome": "AMARAL E CARVALHO EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "12905738000187",
+    "nome": "DISK CACAMBA LOCACAO E SERVICOS LTDA",
+    "cnae": "77322",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "07206395000122",
+    "nome": "A VALDENES BRAGA DE SIQUEIRA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "05036551000129",
+    "nome": "JAYMES ALVES FERREIRA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4800.0
+   },
+   {
+    "cnpj": "61989432000161",
+    "nome": "GALPAO DAS CADEIRAS LOCACOES LTDA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "04281612000150",
+    "nome": "AMERICANA SERVICOS EMPRESARIAIS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "01488905000115",
+    "nome": "GLORIMAR PETROLEO E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3228.57
+   },
+   {
+    "cnpj": "23599316000147",
+    "nome": "MARIA DE LOURDES PONTE DE VASCONCELOS",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2520.0
+   },
+   {
+    "cnpj": "09500099000165",
+    "nome": "CARLOS ALBERTO PEREIRA DE SOUSA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "64150219000150",
+    "nome": "DONS SERVICOS E EMPREENDIMENTOS LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 745.0
+   },
+   {
+    "cnpj": "02736051000101",
+    "nome": "CONECTA EQUIPAMENTOS E SERVICOS LTDA",
+    "cnae": "95215",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 650.0
+   },
+   {
+    "cnpj": "14373576000109",
+    "nome": "SEDA - COMERCIO DE PRODUTOS ALIMENTICIOS E SERVICOS LTDA",
+    "cnae": "46397",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 525.0
+   },
+   {
+    "cnpj": "31757843000160",
+    "nome": "ANA CLEBIA RICARDO DA SILVA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 340.0
+   },
+   {
+    "cnpj": "03365404000177",
+    "nome": "M DE JESUS MARANHAO RODRIGUES",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 142.5
+   },
+   {
+    "cnpj": "14066273000143",
+    "nome": "HEITOR SOUSA RODRIGUES",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 105.0
+   },
+   {
+    "cnpj": "12337358000193",
+    "nome": "DIMAPOL DISTRIB DE MATERIAL DE LIMPEZA E PAPEL LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 59.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 27,
+   "total": 121096.76,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 21904.89,
+    "Cessão ou locação de veículos": 34441.27,
+    "Despesas com transporte ou deslocamento": 12000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 16.6,
+    "Locação/cessão de bens imóveis": 6000.0,
+    "Serviços prestados por terceiros": 46734.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

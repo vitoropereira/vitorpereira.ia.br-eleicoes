@@ -1,0 +1,460 @@
+{
+ "sq": "160002542324",
+ "nome_urna": "PARANHOS",
+ "cargo": "depfed",
+ "uf": "PR",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1982100.0,
+  "por_origem": {
+   "Recursos de partido político": 1629700.0,
+   "Recursos de pessoas físicas": 334400.0,
+   "Recursos próprios": 18000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1500000.0,
+   "OUTROS RECURSOS": 482100.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 1500000.0
+   },
+   {
+    "cnpj": "14512048000193",
+    "nome": "Direção Estadual/Distrital - PSD - PARANÁ",
+    "total": 129700.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 112,
+   "total": 352400.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1779251.58,
+  "total_pago": 1888589.21,
+  "fornecedores_pj": [
+   {
+    "cnpj": "68518734000109",
+    "nome": "RICARDO ALVES NASCIMENTO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "51311581000113",
+    "nome": "REDE VITRINE PARANA LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 54000.0
+   },
+   {
+    "cnpj": "68519813000126",
+    "nome": "OZIEL LUIZ DE SOUZA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "82444050000122",
+    "nome": "FORTUNATO FORTUNATO LTDA",
+    "cnae": "18130",
+    "n_despesas": 35,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 49180.0
+   },
+   {
+    "cnpj": "58411181000129",
+    "nome": "SUBLIMY PRINT LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 41241.0
+   },
+   {
+    "cnpj": "45351161000168",
+    "nome": "SB PRODUCOES E EVENTOS LTDA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 30600.0
+   },
+   {
+    "cnpj": "46183469000104",
+    "nome": "BARRETO PRODUCOES LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "24184823000182",
+    "nome": "C L SIQUEIRA SIQUEIRA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 28000.0
+   },
+   {
+    "cnpj": "38891381000119",
+    "nome": "CASTILHOS CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "53085743000178",
+    "nome": "53.085.743 THAINA ABRAHAO FERREIRA",
+    "cnae": "58131",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "56177077000196",
+    "nome": "SHEILA CASARIL SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "31374482000173",
+    "nome": "LUCAS DE CANDIDO PONESTK GRAFICA E EDITORA",
+    "cnae": "18130",
+    "n_despesas": 40,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18999.5
+   },
+   {
+    "cnpj": "00330966000197",
+    "nome": "CORGRAF GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18900.0
+   },
+   {
+    "cnpj": "23941220000115",
+    "nome": "NANDIM TRANSPORTE E TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "55860112000104",
+    "nome": "LETICIA MENDES CONSULTORIA EM PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 12800.0
+   },
+   {
+    "cnpj": "21632822000165",
+    "nome": "SUPER PRINT PAPEIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12500.0
+   },
+   {
+    "cnpj": "23849810000112",
+    "nome": "COLIBRI TRANSPORTES E TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 12500.0
+   },
+   {
+    "cnpj": "09602099000176",
+    "nome": "AGROPECUARIA PLD LTDA.",
+    "cnae": "01156",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "35084657000169",
+    "nome": "N S TRANSPORTES E SERVICOS LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "56346815000181",
+    "nome": "MATHEUS STONA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "04008938000109",
+    "nome": "GRAFICA POSITIVA LTDA",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8050.0
+   },
+   {
+    "cnpj": "09103054000157",
+    "nome": "LUCIANE ZORNITTA ROSSI",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "77867067000152",
+    "nome": "AUTO POSTO PEGORARO LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7899.09
+   },
+   {
+    "cnpj": "33311532000107",
+    "nome": "LILIA FLORIANO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 7688.0
+   },
+   {
+    "cnpj": "45080284000101",
+    "nome": "L M BARROS E CIA LTDA",
+    "cnae": "14134",
+    "n_despesas": 5,
+    "tipos": [
+     "Atividades de militância e mobilização de rua",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7600.0
+   },
+   {
+    "cnpj": "09230940000141",
+    "nome": "SENGI ENERGY LTDA",
+    "cnae": "25128",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "47889543000175",
+    "nome": "C. MALESSA TRANSPORTE DE PASSAGEIROS LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "30243374000107",
+    "nome": "EDINA T. RUBINI PRODUCOES E SONORIZACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "42655499000115",
+    "nome": "FELIPE DE GOES SILVA CONSULTORIA EM MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "76091768000180",
+    "nome": "TUIUTI ESPORTE CLUBE",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "29789319000120",
+    "nome": "RIDE HORSE - MODA E EVENTOS LTDA.",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "13041014000103",
+    "nome": "CENDRON FABRICA DE IMPRESSAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1825.0
+   },
+   {
+    "cnpj": "23479244000102",
+    "nome": "AGIV SEGURANCA E VIGILANCIA LTDA",
+    "cnae": "80111",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1680.0
+   },
+   {
+    "cnpj": "06561760000154",
+    "nome": "ALDINEI ALBERTON DAGUES - PRODUTOS GRAFICOS",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "46118728000113",
+    "nome": "KEYRIVE INOVA SIMPLES (I.S.)",
+    "cnae": "62031",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "78118106000181",
+    "nome": "ASSOCIACAO RURAL DO OESTE DO PARANA",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "67828646000132",
+    "nome": "VANZETTO COMERCIO DE ADESIVOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 975.0
+   },
+   {
+    "cnpj": "49961593000141",
+    "nome": "PAULO DE SOUZA PEREIRA SOCIEDADE UNIPESSOAL LTDA",
+    "cnae": "86500",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 395,
+   "total": 1102673.99,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 507318.19,
+    "Despesas com pessoal": 571500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 355.8,
+    "Locação/cessão de bens imóveis": 6500.0,
+    "Serviços próprios prestados por terceiros": 17000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

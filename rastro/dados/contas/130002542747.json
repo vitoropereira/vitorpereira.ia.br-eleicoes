@@ -1,0 +1,237 @@
+{
+ "sq": "130002542747",
+ "nome_urna": "RODRIGO LOPES",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1064054.37,
+  "por_origem": {
+   "Recursos de outros candidatos": 443243.5,
+   "Recursos de partido político": 536910.87,
+   "Recursos de pessoas físicas": 83900.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 926543.5,
+   "OUTROS RECURSOS": 137510.87
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 483300.0
+   },
+   {
+    "cnpj": "68468363000190",
+    "nome": "RAFAEL TADEU SIMOES",
+    "total": 425825.0
+   },
+   {
+    "cnpj": "45915411000145",
+    "nome": "Direção Estadual/Distrital - UNIÃO - MINAS GERAIS",
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68468170000139",
+    "nome": "TEREZA CRISTINA LEITE NAVARRO VIEIRA",
+    "total": 12817.5
+   },
+   {
+    "cnpj": "14545907000140",
+    "nome": "Direção Estadual/Distrital - PSD - MINAS GERAIS",
+    "total": 3610.87
+   },
+   {
+    "cnpj": "68403721000186",
+    "nome": "GILBERTO APARECIDO ABRAMO",
+    "total": 1719.0
+   },
+   {
+    "cnpj": "68468154000146",
+    "nome": "MOACIR MARTINS DA COSTA JUNIOR",
+    "total": 1685.0
+   },
+   {
+    "cnpj": "68468158000124",
+    "nome": "DIMAS FABIANO TOLEDO JUNIOR",
+    "total": 1197.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 55,
+   "total": 83900.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 604077.29,
+  "total_pago": 638509.78,
+  "fornecedores_pj": [
+   {
+    "cnpj": "20918877000173",
+    "nome": "GRAFICA FACIL COMUNICACAO LTDA",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 55400.0
+   },
+   {
+    "cnpj": "04731860000156",
+    "nome": "SERGIO PATRIZI CPF",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 41040.0
+   },
+   {
+    "cnpj": "12305622000107",
+    "nome": "PONTUAL LOC CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20336.63
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "53008473000100",
+    "nome": "CAVALCANTI LEMBI, AZEVEDO E RODRIGUES SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "57485144000100",
+    "nome": "57.485.144 MATHEUS VITAL DA SILVA",
+    "cnae": "25420",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 9050.0
+   },
+   {
+    "cnpj": "02657532000121",
+    "nome": "EDITORA ANDRADAS HOJE S/S LTDA.",
+    "cnae": "63194",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "11418568000143",
+    "nome": "ABC IMOVEIS JACUTINGA LTDA.",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "02737116000133",
+    "nome": "AUTO POSTO RIO BRANCO DE ANDRADAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1728.59
+   },
+   {
+    "cnpj": "11402031000195",
+    "nome": "11.402.031 SANDRA REGINA GUEDES",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1427.5
+   },
+   {
+    "cnpj": "08433892000126",
+    "nome": "BRUNO TEIXEIRA FOSSA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 980.0
+   },
+   {
+    "cnpj": "11416555000135",
+    "nome": "PAULO HENRIQUE RAMOS",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "68245066000185",
+    "nome": "V. U. PEREIRA IMPRESSAO E SINALIZACAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 290.0
+   },
+   {
+    "cnpj": "01955898000114",
+    "nome": "SC EDITORA GRAFICA LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 248.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 195,
+   "total": 418076.57,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 291290.97,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 385.6,
+    "Locação/cessão de bens imóveis": 10900.0,
+    "Serviços prestados por terceiros": 115500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

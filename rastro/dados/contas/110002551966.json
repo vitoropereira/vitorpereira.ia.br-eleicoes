@@ -1,0 +1,386 @@
+{
+ "sq": "110002551966",
+ "nome_urna": "MAURO MENDES",
+ "cargo": "senador",
+ "uf": "MT",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1589615.34,
+  "por_origem": {
+   "Recursos de outros candidatos": 8782.0,
+   "Recursos de partido político": 1495833.34,
+   "Recursos de pessoas físicas": 85000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1008457.0,
+   "OUTROS RECURSOS": 581158.34
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "45943051000195",
+    "nome": "Direção Estadual/Distrital - UNIÃO - MATO GROSSO",
+    "total": 495833.34
+   },
+   {
+    "cnpj": "68578308000152",
+    "nome": "OTAVIANO OLAVO PIVETTA",
+    "total": 8457.0
+   },
+   {
+    "cnpj": "68526751000180",
+    "nome": "ONDANIR BORTOLINI",
+    "total": 325.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 85000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2715084.53,
+  "total_pago": 675192.8,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13207081000147",
+    "nome": "PLANO B PRODUTORA DE FILMES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 715000.0
+   },
+   {
+    "cnpj": "17946698000135",
+    "nome": "CYRINEU ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 600000.0
+   },
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 225000.0
+   },
+   {
+    "cnpj": "07112825000147",
+    "nome": "SOUL PROPAGANDA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 155000.0
+   },
+   {
+    "cnpj": "24122372000159",
+    "nome": "RENCA COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 155000.0
+   },
+   {
+    "cnpj": "37465515000177",
+    "nome": "MCA C0NTABILIDADE E AUDITORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "24702862000124",
+    "nome": "ABELHA TAXI AEREO E MANUTENCAO LTDA",
+    "cnae": "51129",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 111872.23
+   },
+   {
+    "cnpj": "24935788000196",
+    "nome": "AFA INDUSTRIA COMERCIO E SERVICOS LTDA",
+    "cnae": "14134",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 59900.0
+   },
+   {
+    "cnpj": "31604730000125",
+    "nome": "DINAMICA CLIPPING E COMUNICACAO LTDA",
+    "cnae": "63992",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "40403437000190",
+    "nome": "A.L VEDANA LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 22294.6
+   },
+   {
+    "cnpj": "47854101000193",
+    "nome": "VA COMERCIO DE PRODUTOS E SOLUCOES LTDA",
+    "cnae": "45307",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 18800.0
+   },
+   {
+    "cnpj": "34715519000178",
+    "nome": "AMAZON GRAFICA E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15800.0
+   },
+   {
+    "cnpj": "73783649000108",
+    "nome": "GRAFICA PRINT INDUSTRIA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15800.0
+   },
+   {
+    "cnpj": "23929195000154",
+    "nome": "SERATA EDITORA GRAFICA E PUBLICIDADE LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4100.0
+   },
+   {
+    "cnpj": "09001879001213",
+    "nome": "COMERCIAL AMAZONIA DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "11624357000167",
+    "nome": "PLACARTE COMERCIO E SERVICOS DE IMPRESSAO DIGITAL LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 890.0
+   },
+   {
+    "cnpj": "05961536000197",
+    "nome": "BEM BRASIL - COMERCIO DE COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 865.36
+   },
+   {
+    "cnpj": "30260578000148",
+    "nome": "BIRCK COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 701.69
+   },
+   {
+    "cnpj": "01614052000110",
+    "nome": "AUTO POSTO NORTAO ITAUBA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 472.57
+   },
+   {
+    "cnpj": "15005853000193",
+    "nome": "CARAMUJO AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 452.67
+   },
+   {
+    "cnpj": "07295775000180",
+    "nome": "AUTO POSTO TIBIRISSA IPIRANGA DO NORTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 449.17
+   },
+   {
+    "cnpj": "48263137000165",
+    "nome": "AUTO POSTO AVANTE BRASIL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 440.57
+   },
+   {
+    "cnpj": "31141819000100",
+    "nome": "RODOBRAS COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 348.54
+   },
+   {
+    "cnpj": "36961837000144",
+    "nome": "COMBUSTIVEIS E LUBRIFICANTES BUSSOLARO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 331.9
+   },
+   {
+    "cnpj": "02413479000113",
+    "nome": "COM. DE COMB. E LUBRIFICANTES M. R. LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 323.33
+   },
+   {
+    "cnpj": "57710593000105",
+    "nome": "POSTO SAO ROQUE 29 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 320.75
+   },
+   {
+    "cnpj": "05798923000154",
+    "nome": "AUTO POSTO ARINOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 281.07
+   },
+   {
+    "cnpj": "03927792000132",
+    "nome": "COMLUC - COMERCIO DE LUBRIFICANTES E COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 178.8
+   },
+   {
+    "cnpj": "05385474000112",
+    "nome": "AUTO POSTO RODOVIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 177.68
+   },
+   {
+    "cnpj": "08541954000113",
+    "nome": "AUTO POSTO TIBIRISSA III LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 170.1
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 33,
+   "total": 116113.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 64600.0,
+    "Despesas com pessoal": 51500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 13.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

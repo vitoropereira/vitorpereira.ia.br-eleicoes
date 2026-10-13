@@ -1,0 +1,264 @@
+{
+ "sq": "250002536846",
+ "nome_urna": "DONATO",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 845554.7,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 10959.0,
+   "Recursos de outros candidatos": 400.0,
+   "Recursos de partido político": 265500.0,
+   "Recursos de pessoas físicas": 564000.0,
+   "Recursos próprios": 4695.7
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 265900.0,
+   "OUTROS RECURSOS": 579654.7
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265500.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 10959.0
+   },
+   {
+    "cnpj": "68373251000155",
+    "nome": "ARLINDO CHIGNALIA JUNIOR",
+    "total": 400.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 12,
+   "total": 568695.7
+  }
+ },
+ "despesas": {
+  "total_contratado": 821154.7,
+  "total_pago": 821154.7,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 550000.0
+   },
+   {
+    "cnpj": "07263666000181",
+    "nome": "BRASPOR GRAFICA E EDITORA LTDA.",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 46740.0
+   },
+   {
+    "cnpj": "24347979000137",
+    "nome": "MACIEL ART DESIGNER GRAFICO - LTDA",
+    "cnae": "47636",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 43400.0
+   },
+   {
+    "cnpj": "68373394000167",
+    "nome": "AUREO BACELAR DA SILVA",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "34125673000190",
+    "nome": "AGENCIA LIBERO DIGITAL MARKETING E TREINAMENTO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "74515503000136",
+    "nome": "INTERFILL INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 11,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20350.0
+   },
+   {
+    "cnpj": "10865394000102",
+    "nome": "ANDREA RIBEIRO",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "44293837000141",
+    "nome": "LUCAS SIQUEIRA MENDES",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15200.0
+   },
+   {
+    "cnpj": "31839299000104",
+    "nome": "2 GIGA VIDEO LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "06002367000120",
+    "nome": "SILVEIRA, ANDRADE - ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68373347000113",
+    "nome": "ADRIANA MARTINS DE SOUZA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68373382000132",
+    "nome": "DIEGO OLIVEIRA TURATO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "43906282000101",
+    "nome": "NEXUS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5600.0
+   },
+   {
+    "cnpj": "54086655000153",
+    "nome": "TABULEIRO COMUNICACAO E ESTRATEGIA POLITICA LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "12563204000110",
+    "nome": "INTERMIDIA COMUNICACAO VISUAL LTDA",
+    "cnae": "18211",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1289.0
+   },
+   {
+    "cnpj": "63089825036173",
+    "nome": "MITRA ARQUIDIOCESANA DE SAO PAULO",
+    "cnae": "94910",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "22392165000199",
+    "nome": "ATTBRASIL TECNOLOGIA, LOCACAO E SOLUCOES EM INFORMATICA LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 465.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 222.7
+   },
+   {
+    "cnpj": "23958694000170",
+    "nome": "WF PRINT SOLUCOES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "61997755000105",
+    "nome": "VALLILO GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 180.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 2508.0,
+   "por_tipo": {
+    "Despesas com pessoal": 2500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 8.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

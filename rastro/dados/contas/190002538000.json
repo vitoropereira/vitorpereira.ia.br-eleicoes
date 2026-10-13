@@ -1,0 +1,205 @@
+{
+ "sq": "190002538000",
+ "nome_urna": "JOYCE TRINDADE",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1147251.68,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 15120.0,
+   "Recursos de partido político": 901431.68,
+   "Recursos de pessoas físicas": 230700.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 900000.0,
+   "OUTROS RECURSOS": 247251.68
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 900000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 15120.0
+   },
+   {
+    "cnpj": "14705221000170",
+    "nome": "Direção Estadual/Distrital - PSD - RIO DE JANEIRO",
+    "total": 1431.68
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 230700.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 931052.28,
+  "total_pago": 596794.78,
+  "fornecedores_pj": [
+   {
+    "cnpj": "00962859000181",
+    "nome": "CIVILIDADE CONSULTORIA LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "31256446000105",
+    "nome": "DOCE FURIA COMUNICACAO LTDA.",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 92832.99
+   },
+   {
+    "cnpj": "04940459000126",
+    "nome": "CONECTA - EVENTOS PRODUCOES LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "55686336000141",
+    "nome": "VETOR ARROW INSTITUTO DE PESQUISA E OPINIAO LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "02495060000158",
+    "nome": "IMPRINT 2001 GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 6,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30500.0
+   },
+   {
+    "cnpj": "12479083000122",
+    "nome": "DURIG RIVERO AUDITORIA E ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "36310065000180",
+    "nome": "ARAUJO, MARTINS E VIEIRA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "54426669000179",
+    "nome": "GRAFICA IMPRESSAO CERTA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12279.0
+   },
+   {
+    "cnpj": "21270754000131",
+    "nome": "VAZ FERREIRA E TEIXEIRA ADMINISTRACAO DE IMOVEIS LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "03408755000118",
+    "nome": "EXPRESS REMOCOES LTDA",
+    "cnae": "86216",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "13976943000104",
+    "nome": "7 PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 535.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 319.09
+   },
+   {
+    "cnpj": "23611008000190",
+    "nome": "UNIFORMIZE RIO ROUPAS PROFISSIONAIS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 147.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 172,
+   "total": 472339.2,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 11938.55,
+    "Despesas com pessoal": 453400.65,
+    "Locação/cessão de bens imóveis": 7000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

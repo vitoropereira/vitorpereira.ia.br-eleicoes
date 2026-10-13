@@ -1,0 +1,594 @@
+{
+ "sq": "260002542491",
+ "nome_urna": "FÁBIO",
+ "cargo": "governador",
+ "uf": "SE",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 6606049.38,
+  "por_origem": {
+   "Recursos de outros candidatos": 108049.38,
+   "Recursos de partido político": 6000000.0,
+   "Recursos de pessoas físicas": 498000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 6108049.38,
+   "OUTROS RECURSOS": 498000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 6000000.0
+   },
+   {
+    "cnpj": "68519534000162",
+    "nome": "ANDRE LUIS DANTAS FERREIRA",
+    "total": 84994.38
+   },
+   {
+    "cnpj": "68519960000104",
+    "nome": "MAISA CRUZ MITIDIERI",
+    "total": 23055.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 13,
+   "total": 498000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 4652813.1,
+  "total_pago": 805127.37,
+  "fornecedores_pj": [
+   {
+    "cnpj": "02577651000174",
+    "nome": "W. G. PRODUCOES E PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 7,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1287000.0
+   },
+   {
+    "cnpj": "60668140000164",
+    "nome": "MAYARA PEDROSA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 500000.0
+   },
+   {
+    "cnpj": "48257995000105",
+    "nome": "48.257.995 FELIPE ANTONIO NASCIMENTO DA CONCEICAO",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 214200.0
+   },
+   {
+    "cnpj": "05473604000179",
+    "nome": "LIMA FREIRE ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "47499749000199",
+    "nome": "WB ENTRETENIMENTO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "09121239000194",
+    "nome": "PAM LTDA",
+    "cnae": "90019",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos",
+     "Publicidade por carros de som"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "09364966000182",
+    "nome": "PAULO ERNANI DE MENEZES ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "25383194000182",
+    "nome": "GOIS AGUIAR SERVICOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 95000.0
+   },
+   {
+    "cnpj": "20540250000121",
+    "nome": "JOSE ALDO DE CARVALHO",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 92000.0
+   },
+   {
+    "cnpj": "54788330000112",
+    "nome": "CAMISA DEZ SUBLIMACAO SERIGRAFIA LTDA",
+    "cnae": "14142",
+    "n_despesas": 6,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 91300.0
+   },
+   {
+    "cnpj": "10197881000136",
+    "nome": "INDUSTRIA GRAFICA E EDITORA VICENTE LTDA",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 82850.0
+   },
+   {
+    "cnpj": "26742291000187",
+    "nome": "GUIMARAES PESQUISAS E CONSULTORIA LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 63000.0
+   },
+   {
+    "cnpj": "51117103000177",
+    "nome": "LUZIA GOIS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "40009617000192",
+    "nome": "TRUKS INDUSTRIA E COMERCIO LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 55956.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "58589209000112",
+    "nome": "WP TRANSPORTES LOGISTICA E SERVICOS LTDA",
+    "cnae": "49299",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "01278227000166",
+    "nome": "PROSIGNS COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 48257.47
+   },
+   {
+    "cnpj": "43748392000184",
+    "nome": "VALOR IMOBILIARIA VENDAS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 46000.0
+   },
+   {
+    "cnpj": "48779443000159",
+    "nome": "SV COMUNICACAO VISUAL LTDA",
+    "cnae": "82199",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 45600.0
+   },
+   {
+    "cnpj": "10797013000197",
+    "nome": "KONNTE COMERCIO E SERVICOS LTDA",
+    "cnae": "17419",
+    "n_despesas": 19,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 37735.0
+   },
+   {
+    "cnpj": "54709341000160",
+    "nome": "PAM EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "13007646000142",
+    "nome": "GRAFICA EDITORA J ANDRADE LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26348.5
+   },
+   {
+    "cnpj": "48573045000181",
+    "nome": "VASCONCELOS TRANSPORTES LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "12184807000100",
+    "nome": "PREST SERVICE - REPRESENTACOES E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "49480847000100",
+    "nome": "49.480.847 ALEXSANDRO SANTOS CARVALHO",
+    "cnae": "96092",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "57726370000128",
+    "nome": "57.726.370 LUIS EDUARDO PORTO SANTOS",
+    "cnae": "96092",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "01463619000103",
+    "nome": "SOUZA LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "32887192000196",
+    "nome": "GILSON COSTA",
+    "cnae": "18211",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12800.0
+   },
+   {
+    "cnpj": "20021731000120",
+    "nome": "NORDESTE COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 12166.0
+   },
+   {
+    "cnpj": "14092882000177",
+    "nome": "KJM TELECOM LTDA",
+    "cnae": "47539",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "32864795003430",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10972.74
+   },
+   {
+    "cnpj": "06990590000123",
+    "nome": "GOOGLE BRASIL INTERNET LTDA.",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "32864795000253",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes",
+     "Despesa com geradores de energia"
+    ],
+    "total": 9676.83
+   },
+   {
+    "cnpj": "32864795002701",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6650.65
+   },
+   {
+    "cnpj": "11174306000180",
+    "nome": "SISA SAUIPE INDUSTRIAL S/A",
+    "cnae": "11216",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 5749.6
+   },
+   {
+    "cnpj": "25188538000100",
+    "nome": "ESSENT INOVACAO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "54944436000168",
+    "nome": "ROCHA ATACADO SUL LTDA",
+    "cnae": "46915",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 3550.0
+   },
+   {
+    "cnpj": "56173003000181",
+    "nome": "PANIFICACAO SAO LUCAS LTDA",
+    "cnae": "10911",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2710.0
+   },
+   {
+    "cnpj": "48530618000190",
+    "nome": "CENTRAL DAS VARIEDADES COMERCIO EM GERAL LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2352.0
+   },
+   {
+    "cnpj": "32864795002388",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2234.66
+   },
+   {
+    "cnpj": "32864795000172",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2093.34
+   },
+   {
+    "cnpj": "32864795002540",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1997.02
+   },
+   {
+    "cnpj": "32864795000920",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1865.32
+   },
+   {
+    "cnpj": "56334202000124",
+    "nome": "MLB PLASTICOS E IMPRESSOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1280.0
+   },
+   {
+    "cnpj": "32864795000504",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1263.13
+   },
+   {
+    "cnpj": "32864795002205",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1223.33
+   },
+   {
+    "cnpj": "00945181000129",
+    "nome": "BAROMA COMERCIO LTDA",
+    "cnae": "47890",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1034.5
+   },
+   {
+    "cnpj": "32864795001810",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 627.8
+   },
+   {
+    "cnpj": "32864795002035",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 429.2
+   },
+   {
+    "cnpj": "32864795001063",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 369.01
+   },
+   {
+    "cnpj": "32864795001144",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 60.17
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 250,
+   "total": 1043420.83,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 534095.83,
+    "Cessão ou locação de veículos": 272812.0,
+    "Despesas com pessoal": 99423.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 90.0,
+    "Locação/cessão de bens imóveis": 8000.0,
+    "Publicidade por carros de som": 35000.0,
+    "Serviços contábeis": 54000.0,
+    "Serviços prestados por terceiros": 40000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,296 @@
+{
+ "sq": "220002547346",
+ "nome_urna": "PEDRO FERNANDES",
+ "cargo": "depest",
+ "uf": "RO",
+ "partido": "PRD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 863406.2,
+  "por_origem": {
+   "Recursos de outros candidatos": 149900.0,
+   "Recursos de pessoas físicas": 592166.0,
+   "Recursos próprios": 121340.2
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 149900.0,
+   "OUTROS RECURSOS": 713506.2
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68519626000142",
+    "nome": "JEFFERSON RIBEIRO DA ROCHA",
+    "total": 149900.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 19,
+   "total": 713506.2
+  }
+ },
+ "despesas": {
+  "total_contratado": 612419.52,
+  "total_pago": 831240.2,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "34456848000141",
+    "nome": "C R B GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23560.0
+   },
+   {
+    "cnpj": "47468771000171",
+    "nome": "NORDAX SERVICE LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20886.25
+   },
+   {
+    "cnpj": "18777220000191",
+    "nome": "CEU ASSESSORIA E PUBLICACOES LTDA",
+    "cnae": "63917",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "54338969000104",
+    "nome": "ZOOP SOLUCOES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15926.0
+   },
+   {
+    "cnpj": "02677757000220",
+    "nome": "PUPIN TRANSPORTES E TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "16805309000199",
+    "nome": "AUTO POSTO DO LAGO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 11883.22
+   },
+   {
+    "cnpj": "32667955000193",
+    "nome": "CORCINA ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "03758336000106",
+    "nome": "GRAFINORTE INDUSTRIA GRAFICA LTDA.",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4280.0
+   },
+   {
+    "cnpj": "11943836000146",
+    "nome": "PV ALUGUEL DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "10539155000154",
+    "nome": "ODOMIR JOSE GAVA LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2393.29
+   },
+   {
+    "cnpj": "03559491000446",
+    "nome": "INDUSTRIA E COMERCIO DE BEBIDAS MDM LTDA",
+    "cnae": "46354",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 2171.0
+   },
+   {
+    "cnpj": "18809615000129",
+    "nome": "R A PARTICIPACOES S/A",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "10732661000165",
+    "nome": "POSTO DE COMBUSTIVEIS BEZERRA LUZ LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1508.0
+   },
+   {
+    "cnpj": "11736884000163",
+    "nome": "A. R. BATISTA FILHO",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "05883425000100",
+    "nome": "EMERSON DOS SANTOS POSTO DE GASOLINA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1386.0
+   },
+   {
+    "cnpj": "26270442000141",
+    "nome": "RAFAEL ARNOLD ESQUIVEL",
+    "cnae": "47211",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "10424122000169",
+    "nome": "PHILIPPE A. R. TONANI",
+    "cnae": "14126",
+    "n_despesas": 4,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1050.0
+   },
+   {
+    "cnpj": "08875905000117",
+    "nome": "K. G. DE ALMEIDA CIA LTDA",
+    "cnae": "47113",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "23036550000247",
+    "nome": "DOMINGUES NETO COMERCIO VAREJISTA DE COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 853.2
+   },
+   {
+    "cnpj": "10964693000196",
+    "nome": "BRASIL AUTO SERVICO DE PRODUTOS ALIMENTICIOS S.A.",
+    "cnae": "47113",
+    "n_despesas": 4,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 649.19
+   },
+   {
+    "cnpj": "64640413000113",
+    "nome": "AUTO POSTO PACAAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 364.5
+   },
+   {
+    "cnpj": "30994184000113",
+    "nome": "ELO DIGITAL CERTIFICADORA LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 190.0
+   },
+   {
+    "cnpj": "20399802000123",
+    "nome": "A. R. FARONI LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 77.8
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 220,
+   "total": 397941.07,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 287329.43,
+    "Cessão ou locação de veículos": 22000.0,
+    "Despesas com pessoal": 45248.84,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 362.8,
+    "Locação/cessão de bens imóveis": 7000.0,
+    "Publicidade por carros de som": 36000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

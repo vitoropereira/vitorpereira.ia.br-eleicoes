@@ -1,0 +1,138 @@
+{
+ "sq": "210002534334",
+ "nome_urna": "BRUNA MOLZ",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 708760.29,
+  "por_origem": {
+   "Recursos de partido político": 662260.29,
+   "Recursos de pessoas físicas": 40000.0,
+   "Recursos próprios": 6500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 662034.0,
+   "FUNDO PARTIDARIO": 226.29,
+   "OUTROS RECURSOS": 46500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 662034.0
+   },
+   {
+    "cnpj": "11036509000100",
+    "nome": "Direção Estadual/Distrital - PODE - RIO GRANDE DO SUL",
+    "total": 226.29
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 46500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 92558.08,
+  "total_pago": 78863.2,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 21500.0
+   },
+   {
+    "cnpj": "68888898000110",
+    "nome": "BONETTO - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "58362386000161",
+    "nome": "RUNA INFO SERVICE LTDA",
+    "cnae": "95118",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10320.0
+   },
+   {
+    "cnpj": "22349155000170",
+    "nome": "BALLUZ CONFECCOES LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "03730938000155",
+    "nome": "TOPSIGN IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 525.0
+   },
+   {
+    "cnpj": "61346163000115",
+    "nome": "POSTO DO HERMES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 273.03
+   },
+   {
+    "cnpj": "89677595003496",
+    "nome": "COOPERATIVA TRITICOLA DE ESPUMOSO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 250.01
+   },
+   {
+    "cnpj": "19210534000170",
+    "nome": "RG COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 249.49
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 11,
+   "total": 40440.55,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 24500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 12.0,
+    "Locação/cessão de bens imóveis": 6500.0,
+    "Serviços prestados por terceiros": 9428.55
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

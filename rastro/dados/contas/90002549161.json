@@ -1,0 +1,254 @@
+{
+ "sq": "90002549161",
+ "nome_urna": "ANDERSON TEODORO",
+ "cargo": "depest",
+ "uf": "GO",
+ "partido": "PRD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 578900.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 182400.0,
+   "Recursos de pessoas físicas": 286500.0,
+   "Recursos próprios": 110000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 80000.0,
+   "OUTROS RECURSOS": 498900.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68470069000112",
+    "nome": "LUCAS DE CASTRO SANTOS",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68475936000102",
+    "nome": "DENES PEREIRA ALVES",
+    "total": 80000.0
+   },
+   {
+    "cnpj": "68470330000184",
+    "nome": "JOSE NELTO LAGARES DAS MERCEZ",
+    "total": 2400.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 32,
+   "total": 396500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 628406.67,
+  "total_pago": 263896.81,
+  "fornecedores_pj": [
+   {
+    "cnpj": "58107215000196",
+    "nome": "OJD SERVICOS LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 9,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 55500.0
+   },
+   {
+    "cnpj": "34613924000185",
+    "nome": "INOVE PRODUCAO DE EVENTOS E SHOW LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "34623759000142",
+    "nome": "ARAUJO E MORAIS SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "39544753000101",
+    "nome": "INSTITUTO DE COMUNICACAO SIMPLIFICADA LTDA",
+    "cnae": "73190",
+    "n_despesas": 5,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans",
+     "Produção de programas de rádio, televisão ou vídeo",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "06978037000175",
+    "nome": "IMPPLEMENT SOLUCOES LTDA",
+    "cnae": "62040",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13800.0
+   },
+   {
+    "cnpj": "09537196000122",
+    "nome": "KARLEY DA SILVA PAIVA",
+    "cnae": "18229",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12710.0
+   },
+   {
+    "cnpj": "05101098000197",
+    "nome": "NEI IMOVEIS, EMPREENDIMENTOS, INCORPORADORA CONSTRUTORA LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "20663565000166",
+    "nome": "REDE WISE CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "24663068000119",
+    "nome": "ROTORFLY TAXI AEREO E SERVICOS AEREOS ESPECIALIZADOS LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 6080.0
+   },
+   {
+    "cnpj": "43344419000173",
+    "nome": "ITS MOBILIDADE LTDA",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5905.0
+   },
+   {
+    "cnpj": "04806169000194",
+    "nome": "AUTO POSTO CHAFARIZ LTDA",
+    "cnae": "47318",
+    "n_despesas": 21,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4173.01
+   },
+   {
+    "cnpj": "00073031000172",
+    "nome": "E M DA SILVA, INDUSTRIA COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2800.0
+   },
+   {
+    "cnpj": "12560575000148",
+    "nome": "AUTO POSTO GUAIRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2184.14
+   },
+   {
+    "cnpj": "09373967000193",
+    "nome": "AUTO POSTO JURACI JUNIOR LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1402.81
+   },
+   {
+    "cnpj": "03460742000198",
+    "nome": "JB GRAFICA E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 950.0
+   },
+   {
+    "cnpj": "45574760000140",
+    "nome": "LEITAO IMPRESSAO 3D LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 320.0
+   },
+   {
+    "cnpj": "10519272000156",
+    "nome": "PAES LEME E LEME LTDA EPP",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 203.01
+   },
+   {
+    "cnpj": "33746525000120",
+    "nome": "AGL CERTIFICADORA DIGITAL LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 190.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 380,
+   "total": 374188.7,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 339000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 188.7,
+    "Publicidade por carros de som": 35000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,226 @@
+{
+ "sq": "60002536699",
+ "nome_urna": "IDILVAN",
+ "cargo": "depfed",
+ "uf": "CE",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1945710.0,
+  "por_origem": {
+   "Recursos de partido político": 1901210.0,
+   "Recursos de pessoas físicas": 20500.0,
+   "Recursos próprios": 24000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1901210.0,
+   "OUTROS RECURSOS": 44500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 1901210.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 44500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 809871.81,
+  "total_pago": 982812.81,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 10,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 302000.0
+   },
+   {
+    "cnpj": "28829255000180",
+    "nome": "T3 SOLUCOES CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 95700.0
+   },
+   {
+    "cnpj": "42543420000164",
+    "nome": "VLBR FILMES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "02240314000197",
+    "nome": "COSBELLE ADMIINISTRACAO DE IMOVEIS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "02824298000180",
+    "nome": "PRINTCOLOR GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 29700.0
+   },
+   {
+    "cnpj": "39465275000136",
+    "nome": "R ROMARIO D ROCHA AGENCIA DE MARKETING E TREINAMENTO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "55225142000149",
+    "nome": "EVENTIS ESTRUTURAS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 18300.0
+   },
+   {
+    "cnpj": "12328169000154",
+    "nome": "G2 LOCACAO DE CONTEINERES LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 12200.0
+   },
+   {
+    "cnpj": "23616783000138",
+    "nome": "JANDER ALVES JUCA",
+    "cnae": "16293",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 8500.0
+   },
+   {
+    "cnpj": "67019924000100",
+    "nome": "JGS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 5850.0
+   },
+   {
+    "cnpj": "19069961000180",
+    "nome": "HELIO REGIS LOPES ARAUJO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5800.0
+   },
+   {
+    "cnpj": "00212872000113",
+    "nome": "ASA SUL INDUSTRIA E COMERCIO DE MALHAS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4700.0
+   },
+   {
+    "cnpj": "64603539000118",
+    "nome": "64.603.539 IRANETE MELO DOS SANTOS",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4590.0
+   },
+   {
+    "cnpj": "33734546000125",
+    "nome": "E. VIANA DE OLIVEIRA",
+    "cnae": "43223",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2920.0
+   },
+   {
+    "cnpj": "12592981000192",
+    "nome": "CRIATIVA KULTURA PRODUCOES LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "52336687000134",
+    "nome": "SAN JOSEMARIA ESCRIVA GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1360.0
+   },
+   {
+    "cnpj": "42559116000105",
+    "nome": "PINZON EXTINTORES E GASES SERVICOS LTDA",
+    "cnae": "43223",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 700.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 49,
+   "total": 209051.81,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 32420.0,
+    "Comícios": 10400.0,
+    "Despesas com pessoal": 59731.5,
+    "Despesas com transporte ou deslocamento": 5500.0,
+    "Diversas a especificar": 35500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 14.4,
+    "Impostos, contribuições e taxas": 485.91,
+    "Serviços advocatícios": 65000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

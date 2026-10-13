@@ -1,0 +1,120 @@
+{
+ "sq": "270002544478",
+ "nome_urna": "GIPÃO",
+ "cargo": "depest",
+ "uf": "TO",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 713993.03,
+  "por_origem": {
+   "Recursos de outros candidatos": 50287.85,
+   "Recursos de partido político": 535705.18,
+   "Recursos de pessoas físicas": 8000.0,
+   "Recursos próprios": 120000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 551850.0,
+   "FUNDO PARTIDARIO": 31455.18,
+   "OUTROS RECURSOS": 130687.85
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 500000.0
+   },
+   {
+    "cnpj": "68491544000137",
+    "nome": "HENRIQUE JORGE HJ ROSA MARTINS",
+    "total": 50000.0
+   },
+   {
+    "cnpj": "08738595000199",
+    "nome": "Direção Estadual/Distrital - PL - TOCANTINS",
+    "total": 35705.18
+   },
+   {
+    "cnpj": "68527002000177",
+    "nome": "FABIO PEREIRA VAZ",
+    "total": 287.85
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 128000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 426862.04,
+  "total_pago": 388160.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "34150361000136",
+    "nome": "BASE NORTE DISTRIBUIDORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16300.0
+   },
+   {
+    "cnpj": "09405702000120",
+    "nome": "RIGOL E VIEIRA ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "31156984000128",
+    "nome": "QUARTO FILMS LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "31381204000143",
+    "nome": "ALMEIDA E PADILHA LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "60096605000150",
+    "nome": "POSTO VIA NORTE COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3025.54
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 138,
+   "total": 383536.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 293000.0,
+    "Cessão ou locação de veículos": 54000.0,
+    "Despesas com pessoal": 36500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 36.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

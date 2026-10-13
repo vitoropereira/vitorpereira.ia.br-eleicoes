@@ -1,0 +1,134 @@
+{
+ "sq": "20002548100",
+ "nome_urna": "HUGO WANDERLEY",
+ "cargo": "depest",
+ "uf": "AL",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 255900.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 500.0,
+   "Recursos de partido político": 225000.0,
+   "Recursos de pessoas físicas": 30400.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 100000.0,
+   "FUNDO PARTIDARIO": 125000.0,
+   "OUTROS RECURSOS": 30900.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01308052000192",
+    "nome": "Direção Estadual/Distrital - MDB - ALAGOAS",
+    "total": 125000.0
+   },
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68455298000168",
+    "nome": "LUCIANO SURUAGY DO AMARAL FILHO",
+    "total": 500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 30400.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 101177.95,
+  "total_pago": 35561.95,
+  "fornecedores_pj": [
+   {
+    "cnpj": "14876708000115",
+    "nome": "NOGUEIRA, ALBUQUERQUE E FREIRE ASSOCIADOS S/S",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "34956590000142",
+    "nome": "FRANCA NERI SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "36037008000170",
+    "nome": "NORDEST LOCACOES E EMPREENDIMENTOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 14666.0
+   },
+   {
+    "cnpj": "23949380000100",
+    "nome": "RAUL BARBOSA MALTA GAIA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2600.0
+   },
+   {
+    "cnpj": "05900875000163",
+    "nome": "FERREIRA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2298.95
+   },
+   {
+    "cnpj": "01301040000136",
+    "nome": "GRAFPEL IND GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1650.0
+   },
+   {
+    "cnpj": "11636652000133",
+    "nome": "MARIA LUCIDALVA SOARES",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 360.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 8,
+   "total": 17603.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 2000.0,
+    "Despesas com pessoal": 6000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.0,
+    "Locação/cessão de bens imóveis": 1000.0,
+    "Serviços prestados por terceiros": 8600.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

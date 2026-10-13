@@ -1,0 +1,97 @@
+{
+ "sq": "150002544187",
+ "nome_urna": "BRANCO MENDES",
+ "cargo": "depest",
+ "uf": "PB",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 221000.0,
+  "por_origem": {
+   "Recursos de partido político": 200000.0,
+   "Recursos de pessoas físicas": 1000.0,
+   "Recursos próprios": 20000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 95000.0,
+   "FUNDO PARTIDARIO": 105000.0,
+   "OUTROS RECURSOS": 21000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07644852000160",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - PARAÍBA",
+    "total": 105000.0
+   },
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 95000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 21000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 151501.5,
+  "total_pago": 69001.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "51466440000170",
+    "nome": "I F DE OLIVEIRA PORTAIS E AGENCIA DE NOTICIAS",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 97000.0
+   },
+   {
+    "cnpj": "44457660000171",
+    "nome": "MARTINS CONSTRUTORA LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 19000.0
+   },
+   {
+    "cnpj": "55569086000160",
+    "nome": "LUCAS MENDES FERREIRA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "45443633000102",
+    "nome": "JD IMPRESSOS PERSONALIZADOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 21501.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.5,
+    "Serviços contábeis": 20000.0,
+    "Serviços prestados por terceiros": 1500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,127 @@
+{
+ "sq": "230002549251",
+ "nome_urna": "TAYLA PERES",
+ "cargo": "depest",
+ "uf": "RR",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 604300.0,
+  "por_origem": {
+   "Recursos de partido político": 602300.0,
+   "Recursos próprios": 2000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 600000.0,
+   "FUNDO PARTIDARIO": 2300.0,
+   "OUTROS RECURSOS": 2000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 600000.0
+   },
+   {
+    "cnpj": "08026413000157",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - RORAIMA",
+    "total": 2300.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 2000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 191236.5,
+  "total_pago": 185396.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13406312000141",
+    "nome": "FERREIRA E PICAO LTDA",
+    "cnae": "77110",
+    "n_despesas": 6,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 47799.5
+   },
+   {
+    "cnpj": "27359974000112",
+    "nome": "INSTITUTO PADRAO DE PESQUISA DE OPINIAO PUBLICA, CONSULTORIA E ASSESSORIA LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "05939533000319",
+    "nome": "ARNOGAS CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 17950.4
+   },
+   {
+    "cnpj": "47036680000167",
+    "nome": "W. C. MARTINS CIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "10607500000140",
+    "nome": "SOLUCAO CONTABILIDADE, AUDITORIA, ASSESSORIA E CONSULTORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "46786069000193",
+    "nome": "GRAFICAZE LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9290.0
+   },
+   {
+    "cnpj": "09664649000181",
+    "nome": "O. DE MOURA ALMEIDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 180.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 44,
+   "total": 55016.6,
+   "por_tipo": {
+    "Despesas com pessoal": 45000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 16.6,
+    "Serviços advocatícios": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

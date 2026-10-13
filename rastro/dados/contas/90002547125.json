@@ -1,0 +1,341 @@
+{
+ "sq": "90002547125",
+ "nome_urna": "PAULO DO VALE",
+ "cargo": "depest",
+ "uf": "GO",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 790659.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 128604.0,
+   "Recursos de partido político": 200055.0,
+   "Recursos de pessoas físicas": 335000.0,
+   "Recursos próprios": 127000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 204500.0,
+   "OUTROS RECURSOS": 586159.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "68474009000178",
+    "nome": "LUCAS MARTINS DO VALE",
+    "total": 128604.0
+   },
+   {
+    "cnpj": "00886861000119",
+    "nome": "Direção Estadual/Distrital - MDB - GOIÁS",
+    "total": 55.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 462000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 672457.71,
+  "total_pago": 619748.61,
+  "fornecedores_pj": [
+   {
+    "cnpj": "00073031000172",
+    "nome": "E M DA SILVA, INDUSTRIA COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 63000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "43180525000169",
+    "nome": "HACO PARCERIA AERONAUTICA LTDA",
+    "cnae": "77195",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "06158097000141",
+    "nome": "GRAFICA FRANCO MARTINS LTDA",
+    "cnae": "18229",
+    "n_despesas": 23,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 28760.0
+   },
+   {
+    "cnpj": "13761165000128",
+    "nome": "COLEMAR MOURA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "02532141001071",
+    "nome": "AEROPREST COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 12335.6
+   },
+   {
+    "cnpj": "17246674000173",
+    "nome": "DENER FERREIRA BORGES",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "09455703000189",
+    "nome": "VICO FILMES LTDA",
+    "cnae": "73114",
+    "n_despesas": 3,
+    "tipos": [
+     "Criação e inclusão de páginas na internet",
+     "Produção de jingles, vinhetas e slogans",
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 9500.0
+   },
+   {
+    "cnpj": "00310634000140",
+    "nome": "EXPRESSO RIO VERDE TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "28028063000175",
+    "nome": "JVS PARTICIPACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "27317356000100",
+    "nome": "SUPER SPORT RV INDUSTRIA ESPORTIVA LTDA",
+    "cnae": "14126",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5250.0
+   },
+   {
+    "cnpj": "18337898000153",
+    "nome": "FORMATO COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5184.0
+   },
+   {
+    "cnpj": "04766502000189",
+    "nome": "DURIGON EVENTOS E FORMATURAS LTDA",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "07033321000131",
+    "nome": "WILLIAN JOSE SIQUEIRA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "37350733000166",
+    "nome": "AUTO POSTO ARAUJO CUNHA LTDA",
+    "cnae": "47318",
+    "n_despesas": 15,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3697.41
+   },
+   {
+    "cnpj": "73475600000180",
+    "nome": "COMERCIAL DE COMBUSTIVEIS RUBICOM LTDA",
+    "cnae": "47318",
+    "n_despesas": 10,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3339.98
+   },
+   {
+    "cnpj": "29680335000180",
+    "nome": "29.680.335 ALBERTO DE SOUSA CRUVINEL",
+    "cnae": "77390",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3082.0
+   },
+   {
+    "cnpj": "18378532000122",
+    "nome": "PARAISO COMBUSTIVEIS DE AVIAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2910.0
+   },
+   {
+    "cnpj": "21943009000106",
+    "nome": "RAVEL COMERCIO DE VEICULOS, PECAS E SERVICOS LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "01298382000144",
+    "nome": "GUIMARAES BORGES COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2317.4
+   },
+   {
+    "cnpj": "18674922000140",
+    "nome": "GIRLENE ALEXANDRE VAZ VIEIRA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "03817702000150",
+    "nome": "VOLUS INSTITUICAO DE PAGAMENTO LTDA",
+    "cnae": "82997",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes",
+     "Diversas a especificar"
+    ],
+    "total": 1556.93
+   },
+   {
+    "cnpj": "00734885000152",
+    "nome": "PANIFICADORA OPCAO LTDA",
+    "cnae": "47211",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1104.0
+   },
+   {
+    "cnpj": "04806169000194",
+    "nome": "AUTO POSTO CHAFARIZ LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 831.98
+   },
+   {
+    "cnpj": "13782899000193",
+    "nome": "FREITAS PANIFICADORA LTDA",
+    "cnae": "47121",
+    "n_despesas": 4,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 682.08
+   },
+   {
+    "cnpj": "23970242000103",
+    "nome": "JAQUELINE ALVES MARTINS",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 580.0
+   },
+   {
+    "cnpj": "42206269000764",
+    "nome": "CONCESSIONARIA DO BLOCO CENTRAL S.A.",
+    "cnae": "52401",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 483.44
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 266,
+   "total": 383342.89,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 332507.04,
+    "Cessão ou locação de veículos": 7500.0,
+    "Despesas com pessoal": 15000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 85.85,
+    "Eventos de promoção da candidatura": 5250.0,
+    "Locação/cessão de bens imóveis": 8000.0,
+    "Publicidade por carros de som": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

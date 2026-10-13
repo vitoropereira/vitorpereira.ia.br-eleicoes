@@ -1,0 +1,159 @@
+{
+ "sq": "250002536845",
+ "nome_urna": "RODRIGO MAR",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 731150.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 276650.0,
+   "Recursos de partido político": 190500.0,
+   "Recursos de pessoas físicas": 174000.0,
+   "Recursos próprios": 90000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 465795.0,
+   "OUTROS RECURSOS": 265355.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 190500.0
+   },
+   {
+    "cnpj": "68373194000104",
+    "nome": "JILMAR AUGUSTINHO TATTO",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68373575000193",
+    "nome": "RUI GOETHE DA COSTA FALCAO",
+    "total": 80000.0
+   },
+   {
+    "cnpj": "68373453000105",
+    "nome": "FRANCISCO DANIEL CELEGUIM DE MORAIS",
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68373477000156",
+    "nome": "THIAGO DOS REIS PEREIRA DOS SANTOS",
+    "total": 34000.0
+   },
+   {
+    "cnpj": "68373118000107",
+    "nome": "PAULO BATISTA DOS REIS",
+    "total": 12650.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 19,
+   "total": 264000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 348763.4,
+  "total_pago": 339199.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 13,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 260000.0
+   },
+   {
+    "cnpj": "42621762000155",
+    "nome": "MM2B SERVICOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 9500.0
+   },
+   {
+    "cnpj": "31381837000151",
+    "nome": "GPA SOLUCOES VISUAIS E MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "22317550000171",
+    "nome": "M DESIGNER CITY LTDA",
+    "cnae": "58115",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "46357480000143",
+    "nome": "JINGLE BRASIL PRODUTORA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "57602609000158",
+    "nome": "SIND.TRAB.EMP.TRANSP.RODOANEXO ABCDMRP E RG DA SERRA",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "21746969000186",
+    "nome": "RAFAEL LIMA ALMEIDA DA SILVA CERTIFICADORA LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 253.0
+   },
+   {
+    "cnpj": "43283811006190",
+    "nome": "KALUNGA SA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 15.8
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 64,
+   "total": 61494.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 48450.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 44.6,
+    "Serviços advocatícios": 10000.0,
+    "Serviços prestados por terceiros": 3000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

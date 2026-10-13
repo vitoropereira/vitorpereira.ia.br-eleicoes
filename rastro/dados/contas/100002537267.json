@@ -1,0 +1,183 @@
+{
+ "sq": "100002537267",
+ "nome_urna": "DR. ORLANDO",
+ "cargo": "depfed",
+ "uf": "MA",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2067140.8,
+  "por_origem": {
+   "Recursos de partido político": 2000000.0,
+   "Recursos de pessoas físicas": 57640.8,
+   "Recursos próprios": 9500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2000000.0,
+   "OUTROS RECURSOS": 67140.8
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 13,
+   "total": 67140.8
+  }
+ },
+ "despesas": {
+  "total_contratado": 822525.8,
+  "total_pago": 1973185.8,
+  "fornecedores_pj": [
+   {
+    "cnpj": "17137483000173",
+    "nome": "THIAGO MIRANDA SANTIAGO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "41470063000199",
+    "nome": "SETE CORES INDUSTRIA E COMERCIO LTDA",
+    "cnae": "18113",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 117910.0
+   },
+   {
+    "cnpj": "20488337000105",
+    "nome": "L M D L COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 90830.0
+   },
+   {
+    "cnpj": "05083158000196",
+    "nome": "C L C PINTO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "28155758000118",
+    "nome": "EMBANORD LTDA",
+    "cnae": "17311",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "24973630000100",
+    "nome": "L. H. R. DE LUCENA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 60400.0
+   },
+   {
+    "cnpj": "40238137000101",
+    "nome": "P DA S LOPES LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 44000.0
+   },
+   {
+    "cnpj": "05966756000103",
+    "nome": "D. DOS SANTOS FERREIRA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "40516161000157",
+    "nome": "VERAS MOUSINHO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "48685249000104",
+    "nome": "M DA C SOUSA PAPELARIA LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18800.0
+   },
+   {
+    "cnpj": "36932383000183",
+    "nome": "F. HUMBERTO T. DE SOUZA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "07829743000118",
+    "nome": "F. P. BORGES GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 6,
+   "total": 20085.8,
+   "por_tipo": {
+    "Despesas com pessoal": 8000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 85.8,
+    "Locação/cessão de bens imóveis": 12000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

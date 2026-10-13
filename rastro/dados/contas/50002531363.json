@@ -1,0 +1,128 @@
+{
+ "sq": "50002531363",
+ "nome_urna": "MARCINHO OLIVEIRA",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "PDT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 200000.0,
+  "por_origem": {
+   "Recursos de partido político": 200000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00719575000169",
+    "nome": "Direção Nacional - PDT",
+    "total": 200000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 280041.34,
+  "total_pago": 165638.34,
+  "fornecedores_pj": [
+   {
+    "cnpj": "17143879000123",
+    "nome": "CREACT GROUP LTDA",
+    "cnae": "17419",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 116550.0
+   },
+   {
+    "cnpj": "46439622000111",
+    "nome": "FEIRA BANDEIRAS E IMPRESSOS LTDA",
+    "cnae": "17419",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 77770.0
+   },
+   {
+    "cnpj": "53721430000169",
+    "nome": "LP CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "22755782000101",
+    "nome": "JD2 SERVICOS E LOCACOES LTDA",
+    "cnae": "43215",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "43215717000163",
+    "nome": "ESTRELA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 12817.04
+   },
+   {
+    "cnpj": "30760192000103",
+    "nome": "GF OLIVEIRA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "31289815000166",
+    "nome": "MANOEL JORGE DOS SANTOS JUNIOR",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "24865944000190",
+    "nome": "HILLS PRODUCOES ARTISTICAS E CULTURAIS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 5000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 4,
+   "total": 14904.3,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 41.3,
+    "Serviços advocatícios": 10000.0,
+    "Serviços prestados por terceiros": 4863.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,178 @@
+{
+ "sq": "250002535948",
+ "nome_urna": "MIGUEL LOMBARDI",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3170084.06,
+  "por_origem": {
+   "Recursos de partido político": 3090084.06,
+   "Recursos de pessoas físicas": 80000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1450000.0,
+   "FUNDO PARTIDARIO": 1589705.76,
+   "OUTROS RECURSOS": 130378.3
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3000000.0
+   },
+   {
+    "cnpj": "08701595000114",
+    "nome": "Direção Estadual/Distrital - PL - SÃO PAULO",
+    "total": 90084.06
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 80000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 570075.74,
+  "total_pago": 518739.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "09204155000114",
+    "nome": "VITA PORTO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "25173751000130",
+    "nome": "BRUNA MAGALHAES DE SOUSA GRAFICA E TREINAMENTOS LTDA",
+    "cnae": "18229",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 108400.0
+   },
+   {
+    "cnpj": "49276242000100",
+    "nome": "TZG MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 53000.0
+   },
+   {
+    "cnpj": "15222833000174",
+    "nome": "FALA FERA LIMEIRA INDUSTRIA E COMERCIO DE CONFECCAO LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 33200.0
+   },
+   {
+    "cnpj": "63974071000105",
+    "nome": "CLARIGEST ASSESSORIA E CONSULTORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 29000.0
+   },
+   {
+    "cnpj": "17278282000196",
+    "nome": "FABIANO DOS SANTOS BRINDES",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14250.0
+   },
+   {
+    "cnpj": "02746845000156",
+    "nome": "VIEIRA, ALMEIDA BARROS GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8100.0
+   },
+   {
+    "cnpj": "34028316304323",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 5493.6
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "20856208000114",
+    "nome": "RENOVA SERVICOS DE PUBLICIDADE LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 359.1
+   },
+   {
+    "cnpj": "96289848000151",
+    "nome": "P.J. DE GASPERI FILHO CIA LTDA",
+    "cnae": "47211",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 10.28
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 60,
+   "total": 192512.76,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 186461.96,
+    "Despesas com pessoal": 6000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 50.8
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

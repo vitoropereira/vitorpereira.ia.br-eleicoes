@@ -1,0 +1,468 @@
+{
+ "sq": "160002546808",
+ "nome_urna": "ROMANELLI",
+ "cargo": "depest",
+ "uf": "PR",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 656118.5,
+  "por_origem": {
+   "Recursos de outros candidatos": 13950.6,
+   "Recursos de partido político": 343150.0,
+   "Recursos de pessoas físicas": 171955.0,
+   "Recursos próprios": 127062.9
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 500.0,
+   "OUTROS RECURSOS": 655618.5
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "14512048000193",
+    "nome": "Direção Estadual/Distrital - PSD - PARANÁ",
+    "total": 343150.0
+   },
+   {
+    "cnpj": "68455188000104",
+    "nome": "PEDRO DEBONI LUPION MELLO",
+    "total": 12829.6
+   },
+   {
+    "cnpj": "68237208000162",
+    "nome": "PAULO HENRIQUE COLETTI FERNANDES",
+    "total": 621.0
+   },
+   {
+    "cnpj": "68464891000170",
+    "nome": "LEONALDO PARANHOS DA SILVA",
+    "total": 500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 13,
+   "total": 299017.9
+  }
+ },
+ "despesas": {
+  "total_contratado": 149449.64,
+  "total_pago": 120608.6,
+  "fornecedores_pj": [
+   {
+    "cnpj": "28020762000179",
+    "nome": "GRZ CONFECCOES LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20500.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "34028316002076",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 6,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 15378.03
+   },
+   {
+    "cnpj": "21632822000165",
+    "nome": "SUPER PRINT PAPEIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12658.0
+   },
+   {
+    "cnpj": "20033879000185",
+    "nome": "GUILHERME DE SALLES GONCALVES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "17678462000165",
+    "nome": "JEED LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8020.8
+   },
+   {
+    "cnpj": "03758336000106",
+    "nome": "GRAFINORTE INDUSTRIA GRAFICA LTDA.",
+    "cnae": "58221",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6660.0
+   },
+   {
+    "cnpj": "72208507000146",
+    "nome": "ESTILO CONTABILIDADE SS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "00913039000108",
+    "nome": "ULTRAPRESS EDITORA GRAFICA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3320.0
+   },
+   {
+    "cnpj": "28285431000160",
+    "nome": "COMBUSTIVEIS E CONVENIENCIA OKATA LTDA",
+    "cnae": "47318",
+    "n_despesas": 12,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3125.69
+   },
+   {
+    "cnpj": "34724417000119",
+    "nome": "34.724.417 FERNANDO MARTINS PRESTES",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "01222493000177",
+    "nome": "TOPGRAF EDITORA E GRAFICA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2050.0
+   },
+   {
+    "cnpj": "85057529000102",
+    "nome": "HELLOGRAF ARTES GRAFICAS LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1605.0
+   },
+   {
+    "cnpj": "50292817000159",
+    "nome": "COMEDY ENTRETENIMENTO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "57043280000132",
+    "nome": "57.043.280 REGIANE DA SILVA BELEM",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 960.0
+   },
+   {
+    "cnpj": "02131692000132",
+    "nome": "L C MONTEIRO - JORNAL REGIONAL",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "30568110000115",
+    "nome": "AUTO POSTO BLUE 32 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 471.96
+   },
+   {
+    "cnpj": "78901915000750",
+    "nome": "POSTOS PELANDA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 419.56
+   },
+   {
+    "cnpj": "04307363000125",
+    "nome": "SANTOS DUMONT - COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 389.08
+   },
+   {
+    "cnpj": "34755905000193",
+    "nome": "AUTO POSTO MUSEU LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 370.31
+   },
+   {
+    "cnpj": "46803525000166",
+    "nome": "AUTO POSTO ZAKA CHAMPAGNAT LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 320.24
+   },
+   {
+    "cnpj": "00082866000199",
+    "nome": "HIDALGO HIDALGO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 274.0
+   },
+   {
+    "cnpj": "51991567000108",
+    "nome": "COMERCIO DE COMBUSTIVEIS VAROTTO LOANDA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 269.0
+   },
+   {
+    "cnpj": "30572294000197",
+    "nome": "AUTO POSTO DO CRISTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 260.15
+   },
+   {
+    "cnpj": "44475727000281",
+    "nome": "REDE PUPPI LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 255.57
+   },
+   {
+    "cnpj": "79340840000153",
+    "nome": "AUTO POSTO ROSANE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 254.88
+   },
+   {
+    "cnpj": "76304948000100",
+    "nome": "PURETZ PURETZ LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 240.0
+   },
+   {
+    "cnpj": "09379278000277",
+    "nome": "COMERCIO DE COMBUSTIVEIS CASARIN LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 238.74
+   },
+   {
+    "cnpj": "68819150000165",
+    "nome": "MARIDANC COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 235.0
+   },
+   {
+    "cnpj": "42836840000139",
+    "nome": "TROVAO POSTO E CONVENIENCIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 204.99
+   },
+   {
+    "cnpj": "34028316278578",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 188.5
+   },
+   {
+    "cnpj": "11887557000102",
+    "nome": "AUTO POSTO DO MEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 185.25
+   },
+   {
+    "cnpj": "51868841000156",
+    "nome": "AUTO POSTO REZENDE II LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 182.22
+   },
+   {
+    "cnpj": "79183067000169",
+    "nome": "AUTO POSTO JATAY LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 176.94
+   },
+   {
+    "cnpj": "08112780000173",
+    "nome": "AUTO POSTO ANILA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 160.01
+   },
+   {
+    "cnpj": "76071950000179",
+    "nome": "AUTO POSTO BORSATTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 160.0
+   },
+   {
+    "cnpj": "05385719000101",
+    "nome": "TRUCCOLLO CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 155.92
+   },
+   {
+    "cnpj": "36145895000280",
+    "nome": "AUTO POSTO PR 272 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 138.9
+   },
+   {
+    "cnpj": "04377021000181",
+    "nome": "MAGDA LENA MARIUCCI TOCUNDUVA PIAI LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 108.5
+   },
+   {
+    "cnpj": "82080979000209",
+    "nome": "MAURETTI AGENCIA FRANQUEADA LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 34.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 19,
+   "total": 29978.4,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 27560.4,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 18.0,
+    "Locação/cessão de bens imóveis": 2400.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

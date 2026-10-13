@@ -1,0 +1,182 @@
+{
+ "sq": "240002543410",
+ "nome_urna": "ALTAIR SILVA",
+ "cargo": "depest",
+ "uf": "SC",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 254125.52,
+  "por_origem": {
+   "Recursos de partido político": 200000.0,
+   "Recursos próprios": 54125.52
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "OUTROS RECURSOS": 54125.52
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 200000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 54125.52
+  }
+ },
+ "despesas": {
+  "total_contratado": 213418.02,
+  "total_pago": 244072.02,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 9,
+    "tipos": [
+     "Criação e inclusão de páginas na internet",
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 42500.0
+   },
+   {
+    "cnpj": "49776145000178",
+    "nome": "TOR TEXTIL LTDA",
+    "cnae": "47636",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17250.0
+   },
+   {
+    "cnpj": "07034850000150",
+    "nome": "MERCUR EMBALAGENS E ETIQUETAS LTDA",
+    "cnae": "17311",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8077.5
+   },
+   {
+    "cnpj": "19001207000109",
+    "nome": "TECHGRAFF GRAFICA E DESIGNER LTDA",
+    "cnae": "18211",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6390.0
+   },
+   {
+    "cnpj": "15558465000130",
+    "nome": "PONTOCOM IMPRESSOES E PLACAS LTDA",
+    "cnae": "32990",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6010.5
+   },
+   {
+    "cnpj": "66533582000180",
+    "nome": "ON TRAFEGO PAGO LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5794.0
+   },
+   {
+    "cnpj": "33555915000112",
+    "nome": "METTA GRAFICA E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5039.52
+   },
+   {
+    "cnpj": "33334568000106",
+    "nome": "EA COMUNICACAO LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 4550.0
+   },
+   {
+    "cnpj": "01887142000185",
+    "nome": "SOCIEDADE JORNALISTICA DIARIO DO IGUACU LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3039.0
+   },
+   {
+    "cnpj": "11210595000126",
+    "nome": "ADAIAN ROGERIO DOS SANTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "10413042000108",
+    "nome": "KLAGENBERG KLAGENBERG LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2068.0
+   },
+   {
+    "cnpj": "11945314000183",
+    "nome": "DARCI FERNANDO BOITA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "09249668000141",
+    "nome": "INDUSTRIA GRAFICA ESCALA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 524.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 21,
+   "total": 107975.5,
+   "por_tipo": {
+    "Despesas com pessoal": 87000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 15.5,
+    "Locação/cessão de bens imóveis": 16460.0,
+    "Serviços contábeis": 4500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

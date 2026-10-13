@@ -1,0 +1,196 @@
+{
+ "sq": "240002541393",
+ "nome_urna": "TIAGO ZILLI",
+ "cargo": "depest",
+ "uf": "SC",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 245963.4,
+  "por_origem": {
+   "Recursos de pessoas físicas": 142963.4,
+   "Recursos próprios": 103000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 245963.4
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 245963.4
+  }
+ },
+ "despesas": {
+  "total_contratado": 126623.6,
+  "total_pago": 225747.3,
+  "fornecedores_pj": [
+   {
+    "cnpj": "15556796000130",
+    "nome": "BE BENTO CENTRO DE EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 28000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Atividades de militância e mobilização de rua",
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "37762022000107",
+    "nome": "PERFORMANCE COMUNICACAO LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "85332328000168",
+    "nome": "GRAFICA EDITORA TURVENSE LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8700.0
+   },
+   {
+    "cnpj": "85172948000187",
+    "nome": "BEZ BATTI GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5260.0
+   },
+   {
+    "cnpj": "57057760000152",
+    "nome": "57.057.760 ELIZETE TEREZINHA DE BORBA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 5250.0
+   },
+   {
+    "cnpj": "06336862000176",
+    "nome": "CAVERA PARK HOTEL E POUSADA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "48947644000118",
+    "nome": "48.947.644 RUBENS DANIEL BATISTA DA SILVA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "10650396000176",
+    "nome": "GRAFICA CASA DO CARIMBO LTDA",
+    "cnae": "18121",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4900.0
+   },
+   {
+    "cnpj": "25288716000167",
+    "nome": "VISUALIZE ESTAMPARIA DIGITAL LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4636.0
+   },
+   {
+    "cnpj": "02542834000154",
+    "nome": "IND. E COM. DE CONFECCOES LORICH LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "02177792000108",
+    "nome": "VOLTA GRANDE COMUNICACOES LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "06286545000192",
+    "nome": "GALATAS MIDIAS E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1350.0
+   },
+   {
+    "cnpj": "49293348000103",
+    "nome": "49.293.348 DAIANA DA ROSA GONCALVES",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 1250.0
+   },
+   {
+    "cnpj": "11860166000102",
+    "nome": "MARIA DA SILVA LEITE CIA. LTDA.",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 550.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 13,
+   "total": 11627.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 3600.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 27.6,
+    "Serviços advocatícios": 8000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

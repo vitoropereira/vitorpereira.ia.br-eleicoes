@@ -1,0 +1,527 @@
+{
+ "sq": "210002537712",
+ "nome_urna": "AFONSO HAMM",
+ "cargo": "depfed",
+ "uf": "RS",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2888555.2,
+  "por_origem": {
+   "Recursos de partido político": 2651555.2,
+   "Recursos de pessoas físicas": 237000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2536555.2,
+   "FUNDO PARTIDARIO": 100000.0,
+   "OUTROS RECURSOS": 252000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 2636555.2
+   },
+   {
+    "cnpj": "74703034000189",
+    "nome": "Direção Estadual/Distrital - PP - RIO GRANDE DO SUL",
+    "total": 15000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 30,
+   "total": 237000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1147316.52,
+  "total_pago": 967974.86,
+  "fornecedores_pj": [
+   {
+    "cnpj": "33961124000192",
+    "nome": "DREAMER LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "88625181000788",
+    "nome": "ASSOCIACAO LITERARIA SAO BOAVENTURA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 71518.0
+   },
+   {
+    "cnpj": "07086926000190",
+    "nome": "LIZIANE QUEVEDO",
+    "cnae": "77110",
+    "n_despesas": 9,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 57431.68
+   },
+   {
+    "cnpj": "07239059000186",
+    "nome": "BARROSO MACHADO LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 46210.23
+   },
+   {
+    "cnpj": "22820956000172",
+    "nome": "FABIO P. DA SILVEIRA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 43620.0
+   },
+   {
+    "cnpj": "68462703000175",
+    "nome": "F WORK TEXTIL LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "65928501000188",
+    "nome": "RENATA AGUZZOLLI PROENCA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "20240945000198",
+    "nome": "20.240.945 JORGE HILTO BANDERA DOS SANTOS",
+    "cnae": "49248",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "29982046000135",
+    "nome": "VINICIUS DA SILVA CAMPELLO",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13700.0
+   },
+   {
+    "cnpj": "27109020000151",
+    "nome": "27.109.020 RENATO SILVEIRA BELEM",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 10400.0
+   },
+   {
+    "cnpj": "07636560000186",
+    "nome": "GRAFICA IGIGRAF LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9690.0
+   },
+   {
+    "cnpj": "13507524000115",
+    "nome": "D. C. VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5525.0
+   },
+   {
+    "cnpj": "10571673000155",
+    "nome": "RAFIZA AUTOLOCADORA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "05757241000284",
+    "nome": "F.F.STAEVIE COMBUSTIVEIS LTDA EM RECUPERACAO JUDICIAL",
+    "cnae": "47318",
+    "n_despesas": 15,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3034.38
+   },
+   {
+    "cnpj": "52183783000190",
+    "nome": "FABIO L SOUSA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "87793121000116",
+    "nome": "COMERCIAL DE COMBUSTIVEIS NERY MACHADO LTDA",
+    "cnae": "47318",
+    "n_despesas": 13,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2841.26
+   },
+   {
+    "cnpj": "15310946000121",
+    "nome": "NTA - NUCLEO TECNICO DE APOIO E SERVICOS DE EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1860.0
+   },
+   {
+    "cnpj": "93784221000189",
+    "nome": "JERSON LUIZ ALTHAUS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1792.0
+   },
+   {
+    "cnpj": "04971874000147",
+    "nome": "POSTO NATIVUS LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1670.12
+   },
+   {
+    "cnpj": "54598836000169",
+    "nome": "54.598.836 CRISTOFERSON MEDEIROS SILVA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1300.0
+   },
+   {
+    "cnpj": "04916756000136",
+    "nome": "DI BRUNO COMERCIAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1058.1
+   },
+   {
+    "cnpj": "02162126000198",
+    "nome": "JORNAL L ATTUALITA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "07473735002478",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 959.21
+   },
+   {
+    "cnpj": "07473735007941",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 779.39
+   },
+   {
+    "cnpj": "07473735002982",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 731.12
+   },
+   {
+    "cnpj": "53660043000160",
+    "nome": "LUIS EDUARDO S. SOARES LOCACOES LTDA.",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 690.0
+   },
+   {
+    "cnpj": "07473735018048",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 620.43
+   },
+   {
+    "cnpj": "05757241000101",
+    "nome": "F.F.STAEVIE COMBUSTIVEIS LTDA EM RECUPERACAO JUDICIAL",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 573.38
+   },
+   {
+    "cnpj": "18963598000180",
+    "nome": "SANDER E ESTEVES LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 490.0
+   },
+   {
+    "cnpj": "05757241000365",
+    "nome": "F.F.STAEVIE COMBUSTIVEIS LTDA EM RECUPERACAO JUDICIAL",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 339.92
+   },
+   {
+    "cnpj": "07473735014646",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 337.27
+   },
+   {
+    "cnpj": "07473735017904",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 289.57
+   },
+   {
+    "cnpj": "07473735011620",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 287.7
+   },
+   {
+    "cnpj": "07473735009561",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 282.45
+   },
+   {
+    "cnpj": "07473735024609",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 277.03
+   },
+   {
+    "cnpj": "07473735012511",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 264.79
+   },
+   {
+    "cnpj": "07473735024102",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 233.25
+   },
+   {
+    "cnpj": "07473735014808",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 218.35
+   },
+   {
+    "cnpj": "07473735018390",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 216.12
+   },
+   {
+    "cnpj": "07473735015022",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 206.28
+   },
+   {
+    "cnpj": "07473735010659",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 202.03
+   },
+   {
+    "cnpj": "07473735008751",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 196.37
+   },
+   {
+    "cnpj": "07473735003520",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 179.7
+   },
+   {
+    "cnpj": "53457923000133",
+    "nome": "ZCAR ALUGUEL DE CARROS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 100.0
+   },
+   {
+    "cnpj": "26254349000143",
+    "nome": "MILANE FONSECA DE VARGAS CIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 75.0
+   },
+   {
+    "cnpj": "07473735006546",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 48.39
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 197,
+   "total": 651468.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 590010.5,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 57.5,
+    "Locação/cessão de bens imóveis": 40900.0,
+    "Serviços prestados por terceiros": 20500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

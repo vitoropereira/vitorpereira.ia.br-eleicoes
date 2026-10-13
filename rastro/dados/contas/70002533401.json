@@ -1,0 +1,139 @@
+{
+ "sq": "70002533401",
+ "nome_urna": "KEKA BAGNO",
+ "cargo": "distrital",
+ "uf": "DF",
+ "partido": "PSOL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 408097.67,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 15955.0,
+   "Recursos de outros candidatos": 28850.5,
+   "Recursos de partido político": 363292.17
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 332142.67,
+   "FUNDO PARTIDARIO": 60000.0,
+   "OUTROS RECURSOS": 15955.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "06954942000195",
+    "nome": "Direção Nacional - PSOL",
+    "total": 340805.82
+   },
+   {
+    "cnpj": "68266952000195",
+    "nome": "FABIO FELIX SILVEIRA",
+    "total": 28850.5
+   },
+   {
+    "cnpj": "08678505000111",
+    "nome": "Direção Estadual/Distrital - PSOL - DISTRITO FEDERAL",
+    "total": 22486.35
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 15955.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 114686.9,
+  "total_pago": 102456.9,
+  "fornecedores_pj": [
+   {
+    "cnpj": "15705697000173",
+    "nome": "EVAG COMUNICACAO E TECNOLOGIA LTDA.",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "00331066000164",
+    "nome": "LOCABRAS LOCADORA BRASILIA DE VEICULOS LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6750.0
+   },
+   {
+    "cnpj": "00482240000170",
+    "nome": "GH COMUNICACAO GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6750.0
+   },
+   {
+    "cnpj": "67136407000111",
+    "nome": "67.136.407 GUILHERME DE SOUZA FEU",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "08855665000199",
+    "nome": "NGD - NUCLEO GRAFICO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 418.82
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 12,
+   "total": 55968.08,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 9000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 21.1,
+    "Locação/cessão de bens imóveis": 4946.98,
+    "Serviços prestados por terceiros": 42000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

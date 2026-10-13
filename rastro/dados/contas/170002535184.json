@@ -1,0 +1,203 @@
+{
+ "sq": "170002535184",
+ "nome_urna": "GUSTAVO GOUVEIA",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 821800.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 244000.0,
+   "Recursos de partido político": 450000.0,
+   "Recursos de pessoas físicas": 117800.0,
+   "Recursos próprios": 10000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 694000.0,
+   "OUTROS RECURSOS": 127800.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 300000.0
+   },
+   {
+    "cnpj": "68319307000193",
+    "nome": "MARCELLO FUCHS CAMPOS GOUVEIA",
+    "total": 234000.0
+   },
+   {
+    "cnpj": "10882771000103",
+    "nome": "Direção Estadual/Distrital - PODE - PERNAMBUCO",
+    "total": 150000.0
+   },
+   {
+    "cnpj": "68319398000167",
+    "nome": "RICARDO TEOBALDO CAVALCANTI",
+    "total": 10000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 127800.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 560488.55,
+  "total_pago": 328990.79,
+  "fornecedores_pj": [
+   {
+    "cnpj": "27279467000179",
+    "nome": "ANGELICA C PEREIRA",
+    "cnae": "74200",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 100001.0
+   },
+   {
+    "cnpj": "11473934000167",
+    "nome": "ALMEIDA PAULA ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "25173110000186",
+    "nome": "NOBREGA PROMOCOES E ILUMINACAO LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 29996.0
+   },
+   {
+    "cnpj": "12906491000113",
+    "nome": "POSTO SERVICO CIDADE LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 16332.62
+   },
+   {
+    "cnpj": "33851337000161",
+    "nome": "A R A BEZERRA ASSESSORIA E CONSULTORIA CONTABIL E FINANCEIRA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "66931182000122",
+    "nome": "VX COMERCIO E IMPORTACAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 12240.0
+   },
+   {
+    "cnpj": "51809050000155",
+    "nome": "MCS PRODUCOES E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "55160914000101",
+    "nome": "E C EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "10211999000171",
+    "nome": "RR TERCERIZACAO E SERVICOS LTDA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6110.0
+   },
+   {
+    "cnpj": "65996653000118",
+    "nome": "POSTO EJ LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5199.1
+   },
+   {
+    "cnpj": "26956997000141",
+    "nome": "EDU PETRO COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5185.33
+   },
+   {
+    "cnpj": "67996696000129",
+    "nome": "67.996.696 SWELHO NUNES DA SILVA",
+    "cnae": "96092",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 80,
+   "total": 258924.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 102600.0,
+    "Cessão ou locação de veículos": 8000.0,
+    "Despesas com pessoal": 23284.0,
+    "Despesas com transporte ou deslocamento": 75000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 40.5,
+    "Publicidade por carros de som": 20000.0,
+    "Serviços prestados por terceiros": 30000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

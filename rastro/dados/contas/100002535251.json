@@ -1,0 +1,259 @@
+{
+ "sq": "100002535251",
+ "nome_urna": "ERLANIO XAVIER",
+ "cargo": "depfed",
+ "uf": "MA",
+ "partido": "PDT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2129715.0,
+  "por_origem": {
+   "Recursos de partido político": 2000000.0,
+   "Recursos de pessoas físicas": 20000.0,
+   "Recursos próprios": 109715.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1000000.0,
+   "FUNDO PARTIDARIO": 1000000.0,
+   "OUTROS RECURSOS": 129715.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00719575000169",
+    "nome": "Direção Nacional - PDT",
+    "total": 2000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 129715.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1218502.06,
+  "total_pago": 2109519.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "17686492000113",
+    "nome": "GAMA PINHEIRO PRODUCOES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 450000.0
+   },
+   {
+    "cnpj": "66692915000113",
+    "nome": "JV EVENTOS E EMPREENDIMENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por carros de som",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 320000.0
+   },
+   {
+    "cnpj": "42994792000107",
+    "nome": "BUSINESS SERVICOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "08585377000161",
+    "nome": "POSTO SANTA ANA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 34032.72
+   },
+   {
+    "cnpj": "11365521000169",
+    "nome": ".COM EMPREENDIMENTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30599.5
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 29000.0
+   },
+   {
+    "cnpj": "41470063000199",
+    "nome": "SETE CORES INDUSTRIA E COMERCIO LTDA",
+    "cnae": "18113",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20624.0
+   },
+   {
+    "cnpj": "17668873000170",
+    "nome": "ERIC GUIMARAES ARAUJO",
+    "cnae": "18130",
+    "n_despesas": 17,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19750.0
+   },
+   {
+    "cnpj": "65947207000113",
+    "nome": "POSTO MORAES SANTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 19000.0
+   },
+   {
+    "cnpj": "17367130000160",
+    "nome": "FOCO CONSTRUTORA E SERVICOS LTDA",
+    "cnae": "71120",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "07722538000159",
+    "nome": "VISUAL ARTE SPORT LTDA",
+    "cnae": "47814",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "02699001000100",
+    "nome": "GRAFICA EDITORA REGO LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13500.0
+   },
+   {
+    "cnpj": "27426270000115",
+    "nome": "ALEXANDRO SANTOS LIMA",
+    "cnae": "77322",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 12500.0
+   },
+   {
+    "cnpj": "08159182000150",
+    "nome": "COCAIS MA AGUAS MINERAIS LTDA",
+    "cnae": "11216",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "37394652000168",
+    "nome": "ETCETERA COMERCIO SERVICO LTDA",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10027.5
+   },
+   {
+    "cnpj": "20520418000137",
+    "nome": "T ZAVARIZE CUPERTINO COMERCIO LTDA",
+    "cnae": "47814",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8280.0
+   },
+   {
+    "cnpj": "22992784000114",
+    "nome": "AUTO POSTO PIONEIRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7851.84
+   },
+   {
+    "cnpj": "36632063000108",
+    "nome": "M M COMUNICACAO VISUAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3900.0
+   },
+   {
+    "cnpj": "64125817000179",
+    "nome": "SSC LUMINOSOS LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3881.0
+   },
+   {
+    "cnpj": "68345646000144",
+    "nome": "NAURA CELIA ROSA PIRES",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 2.8
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 45,
+   "total": 154552.7,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 46000.0,
+    "Cessão ou locação de veículos": 10000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 52.7,
+    "Locação/cessão de bens imóveis": 13000.0,
+    "Serviços advocatícios": 40000.0,
+    "Serviços prestados por terceiros": 7500.0,
+    "Serviços próprios prestados por terceiros": 38000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

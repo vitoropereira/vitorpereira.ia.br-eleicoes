@@ -1,0 +1,213 @@
+{
+ "sq": "190002541635",
+ "nome_urna": "FELIPE PAMPOLHA",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 730000.0,
+  "por_origem": {
+   "Recursos de partido político": 700000.0,
+   "Recursos de pessoas físicas": 30000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 300000.0,
+   "FUNDO PARTIDARIO": 400000.0,
+   "OUTROS RECURSOS": 30000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 700000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 30000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 599293.32,
+  "total_pago": 508847.86,
+  "fornecedores_pj": [
+   {
+    "cnpj": "27605095000123",
+    "nome": "BR GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 35,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 44479.0
+   },
+   {
+    "cnpj": "65868335000171",
+    "nome": "INOVE LETREIROS LTDA",
+    "cnae": "32990",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 37070.0
+   },
+   {
+    "cnpj": "13778849000132",
+    "nome": "ZERMATT TRANSPORTES E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 26400.0
+   },
+   {
+    "cnpj": "12359362000152",
+    "nome": "BIROSGRAF - COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "20702873000153",
+    "nome": "PEDRO MELO SOM LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "33743154000122",
+    "nome": "CASINO BANGU SOCIEDADE CULTURAL RECREATIVA E ESPORTIVA",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "58059370000184",
+    "nome": "SENNA SERVICOS E PRODUCOES GRAFICAS LTDA",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16640.0
+   },
+   {
+    "cnpj": "19339433000102",
+    "nome": "LAURO RABHA ADVOGA DOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "26642855000100",
+    "nome": "CASTRO, VIEIRA E FERREIRA CONTADORES ELEITORAIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 11665.0
+   },
+   {
+    "cnpj": "43822301000103",
+    "nome": "SEVENSUL INOVACAO EM IMPRESSAO LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 11500.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "22072727000117",
+    "nome": "JOAO ANDRE OLIVEIRA DO NASCIMENTO",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "14178012000204",
+    "nome": "ECOLOG TRANSPORTE LOCACAO E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "06340575000130",
+    "nome": "MAVIMIX ADESIVOS DECORATIVOS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2980.0
+   },
+   {
+    "cnpj": "02265602000104",
+    "nome": "IMPRICAR ETIQUETAS DO BRASIL LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2420.0
+   },
+   {
+    "cnpj": "02825532000193",
+    "nome": "PIRAQUARA AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 648.93
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 166,
+   "total": 349990.39,
+   "por_tipo": {
+    "Despesas com pessoal": 349158.34,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 832.05
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

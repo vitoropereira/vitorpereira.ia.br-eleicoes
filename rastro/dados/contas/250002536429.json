@@ -1,0 +1,133 @@
+{
+ "sq": "250002536429",
+ "nome_urna": "DANILO BALAS",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1018809.04,
+  "por_origem": {
+   "Recursos de outros candidatos": 30000.0,
+   "Recursos de partido político": 962409.04,
+   "Recursos de pessoas físicas": 9000.0,
+   "Recursos próprios": 17400.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 950000.0,
+   "FUNDO PARTIDARIO": 34727.62,
+   "OUTROS RECURSOS": 34081.42
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 950000.0
+   },
+   {
+    "cnpj": "68352928000179",
+    "nome": "RENATO ANTONIO BOLSONARO",
+    "total": 30000.0
+   },
+   {
+    "cnpj": "08701595000114",
+    "nome": "Direção Estadual/Distrital - PL - SÃO PAULO",
+    "total": 12409.04
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 26400.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 475638.71,
+  "total_pago": 422607.48,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 13,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 267000.0
+   },
+   {
+    "cnpj": "26203762000189",
+    "nome": "SANTA IGIA COMPRA, VENDA E LOCACAO DE IMOVEIS PROPRIOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "40189245000123",
+    "nome": "RICARDO STELLA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "00192198000152",
+    "nome": "GRAFICA E EDITORA PARATODOS SOROCABA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12100.0
+   },
+   {
+    "cnpj": "11725726000108",
+    "nome": "DIFERENCIAL EDITORA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "03106403000108",
+    "nome": "CERRADO COMERCIO E SERVICOS POSTAIS LTDA",
+    "cnae": "53105",
+    "n_despesas": 11,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 769.01
+   },
+   {
+    "cnpj": "61681369000100",
+    "nome": "IMPERIO DTF PRINT LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 699.9
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 41,
+   "total": 132069.8,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 84049.8,
+    "Despesas com pessoal": 18020.0,
+    "Serviços contábeis": 30000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,308 @@
+{
+ "sq": "210002535698",
+ "nome_urna": "CLÁUDIO TATSCH",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 562300.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 40000.0,
+   "Recursos de partido político": 500000.0,
+   "Recursos de pessoas físicas": 22300.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 540000.0,
+   "OUTROS RECURSOS": 22300.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 500000.0
+   },
+   {
+    "cnpj": "68312614000142",
+    "nome": "GIOVANI CHERINI",
+    "total": 40000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 22300.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 361257.35,
+  "total_pago": 367211.81,
+  "fornecedores_pj": [
+   {
+    "cnpj": "87776217000176",
+    "nome": "GRAFICA JACUI LTDA",
+    "cnae": "18130",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 56740.0
+   },
+   {
+    "cnpj": "00617395000176",
+    "nome": "ROZNIESKI COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 5,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 38655.0
+   },
+   {
+    "cnpj": "57175581000110",
+    "nome": "A S P CASTRO PANFLETAGEM LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 32400.0
+   },
+   {
+    "cnpj": "55245553000104",
+    "nome": "ORIENTTE ASSESSORIA E CONSULTORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 10,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 23300.0
+   },
+   {
+    "cnpj": "15115234000151",
+    "nome": "SPEED PROMOCIONAL INDUSTRIA DE BRINDES LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19580.0
+   },
+   {
+    "cnpj": "90804576000102",
+    "nome": "IMOBILIARIA RODRIGUES LIMITADA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 15600.0
+   },
+   {
+    "cnpj": "59648286000169",
+    "nome": "DECOR LOCACOES LTDA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 15207.9
+   },
+   {
+    "cnpj": "63509993000141",
+    "nome": "J. BUENO SADER LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 13350.0
+   },
+   {
+    "cnpj": "90512682000104",
+    "nome": "JORNAL DO POVO LTDA",
+    "cnae": "58221",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 11880.0
+   },
+   {
+    "cnpj": "48627637000139",
+    "nome": "AGENCIA CRATOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "01541262000126",
+    "nome": "EDITORIAL EXPRESSAO LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 6612.0
+   },
+   {
+    "cnpj": "25053197000158",
+    "nome": "CENTENO MENDES ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 6520.0
+   },
+   {
+    "cnpj": "06143836000393",
+    "nome": "MICHEL PEREIRA DOS SANTOS",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6400.0
+   },
+   {
+    "cnpj": "55314987000100",
+    "nome": "POSTO SINGULAR CACHOEIRA DO SUL LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2437.38
+   },
+   {
+    "cnpj": "60247695000132",
+    "nome": "ALEXANDRE DA ROSA DE MATTOS LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1795.5
+   },
+   {
+    "cnpj": "20418991000134",
+    "nome": "SCHUMACHER E SOUZA TINTAS E ACESSORIOS LTDA",
+    "cnae": "47415",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 706.0
+   },
+   {
+    "cnpj": "40399696000195",
+    "nome": "40.399.696 ALCINDO UNFER",
+    "cnae": "33295",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 450.0
+   },
+   {
+    "cnpj": "04887863000183",
+    "nome": "POSTO CABRAIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 241.41
+   },
+   {
+    "cnpj": "88124375000104",
+    "nome": "STAEVIE CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 235.84
+   },
+   {
+    "cnpj": "16725586000191",
+    "nome": "SOLANGE DILETA PAGLIARINI - COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 203.5
+   },
+   {
+    "cnpj": "96134945000175",
+    "nome": "CENTRAL DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 203.46
+   },
+   {
+    "cnpj": "27127918000152",
+    "nome": "BRIDI COMERCIO DE COMBUSTIVEIS E TRANSPORTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 200.02
+   },
+   {
+    "cnpj": "52884617000110",
+    "nome": "CST SERVICOS DE TI LTDA",
+    "cnae": "62091",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 199.0
+   },
+   {
+    "cnpj": "02016440000162",
+    "nome": "RGE SUL DISTRIBUIDORA DE ENERGIA S.A.",
+    "cnae": "35140",
+    "n_despesas": 1,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 179.46
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 29,
+   "total": 71160.88,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 56820.88,
+    "Cessão ou locação de veículos": 14340.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

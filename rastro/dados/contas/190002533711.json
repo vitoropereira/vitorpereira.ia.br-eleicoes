@@ -1,0 +1,158 @@
+{
+ "sq": "190002533711",
+ "nome_urna": "DR. PEDRO RICARDO",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 564907.5,
+  "por_origem": {
+   "Recursos de outros candidatos": 1257.5,
+   "Recursos de partido político": 303600.0,
+   "Recursos de pessoas físicas": 260050.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 304545.0,
+   "OUTROS RECURSOS": 260362.5
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 300000.0
+   },
+   {
+    "cnpj": "08703299000152",
+    "nome": "Direção Estadual/Distrital - PL - RIO DE JANEIRO",
+    "total": 3600.0
+   },
+   {
+    "cnpj": "68237165000115",
+    "nome": "DANIELLE DYTZ DA CUNHA",
+    "total": 945.0
+   },
+   {
+    "cnpj": "68237206000173",
+    "nome": "DIOGO GONCALVES BALIEIRO DINIZ",
+    "total": 312.5
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 22,
+   "total": 260050.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 330690.21,
+  "total_pago": 200216.49,
+  "fornecedores_pj": [
+   {
+    "cnpj": "11703763000115",
+    "nome": "SEKTOR PUBLICIDADE SOLUCOES E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 18,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 116702.5
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 53011.39
+   },
+   {
+    "cnpj": "21921129000102",
+    "nome": "HORIZONTE 16 LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 14850.0
+   },
+   {
+    "cnpj": "03515960000182",
+    "nome": "INDUSTRIA GRAFICA E EDITORA FENIX LTDA",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11544.0
+   },
+   {
+    "cnpj": "19133731000133",
+    "nome": "NOBRE TRANSPORTE E TURISMO LTDA",
+    "cnae": "49248",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5900.0
+   },
+   {
+    "cnpj": "27145007000158",
+    "nome": "PARLAMENTO FILMES LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "31449135000162",
+    "nome": "AUTO SERVICO SUDOESTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 10,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3000.22
+   },
+   {
+    "cnpj": "26312379000169",
+    "nome": "L MAFFEI LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "39681325000112",
+    "nome": "STAR DE ITAPERUNA HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 60,
+   "total": 119182.1,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 115895.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 45.1,
+    "Serviços advocatícios": 1621.0,
+    "Serviços contábeis": 1621.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

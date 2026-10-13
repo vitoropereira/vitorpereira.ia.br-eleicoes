@@ -1,0 +1,204 @@
+{
+ "sq": "250002530115",
+ "nome_urna": "MARINA HELENA",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "NOVO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2198320.21,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 112290.13,
+   "Recursos de partido político": 1324283.08,
+   "Recursos de pessoas físicas": 511747.0,
+   "Recursos próprios": 250000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 394000.0,
+   "FUNDO PARTIDARIO": 501283.08,
+   "OUTROS RECURSOS": 1303037.13
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13405866000124",
+    "nome": "Direção Nacional - NOVO",
+    "total": 894750.0
+   },
+   {
+    "cnpj": "26406177000186",
+    "nome": "Direção Estadual/Distrital - NOVO - SÃO PAULO",
+    "total": 429533.08
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 112290.13
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 43,
+   "total": 761747.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 603461.63,
+  "total_pago": 502630.3,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 9,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "09388850000426",
+    "nome": "PINION TECNOLOGIA S.A.",
+    "cnae": "63119",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 52782.0
+   },
+   {
+    "cnpj": "65742179000106",
+    "nome": "65.742.179 ANGELA LAMERAS MACENA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 44500.0
+   },
+   {
+    "cnpj": "40715474000134",
+    "nome": "MEDIASENSU MARKETING E PRODUCAO LTDA",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 42025.0
+   },
+   {
+    "cnpj": "62869204000110",
+    "nome": "C C RAMOS MARKETING LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "08142850000136",
+    "nome": "WBL GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23463.89
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 19635.9
+   },
+   {
+    "cnpj": "50579137000110",
+    "nome": "50.579.137 EVELLYN CAROLINE SANTOS LIMA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 2645.56
+   },
+   {
+    "cnpj": "67728734000162",
+    "nome": "GRAFICA PGW LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2205.0
+   },
+   {
+    "cnpj": "54869640000161",
+    "nome": "SELOART SOLUCOES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1130.0
+   },
+   {
+    "cnpj": "17203782000169",
+    "nome": "KG CAMISETAS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 444.0
+   },
+   {
+    "cnpj": "41863836000105",
+    "nome": "BORDON ADMINISTRADORA LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 352.0
+   },
+   {
+    "cnpj": "03416082000148",
+    "nome": "SEMCO DISPLAYS EXPOSITORES E STANDS PORTATEIS INDUSTRIA E COMERCIO LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 120.6
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 14,
+   "total": 123157.68,
+   "por_tipo": {
+    "Despesas com pessoal": 64969.39,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 119.79,
+    "Serviços prestados por terceiros": 13656.0,
+    "Serviços próprios prestados por terceiros": 44412.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

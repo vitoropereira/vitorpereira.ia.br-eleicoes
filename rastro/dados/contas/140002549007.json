@@ -1,0 +1,148 @@
+{
+ "sq": "140002549007",
+ "nome_urna": "MARIA",
+ "cargo": "depest",
+ "uf": "PA",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 728111.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 60000.0,
+   "Recursos de partido político": 650500.0,
+   "Recursos de pessoas físicas": 17611.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 710500.0,
+   "OUTROS RECURSOS": 17611.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 650500.0
+   },
+   {
+    "cnpj": "68526690000150",
+    "nome": "ALFREDO CARDOSO COSTA",
+    "total": 60000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 17611.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 250173.3,
+  "total_pago": 118739.06,
+  "fornecedores_pj": [
+   {
+    "cnpj": "30101699000147",
+    "nome": "L. ZEPPELIN S. SANTOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "03339851000151",
+    "nome": "GLOBAL GRAFICA DA AMAZONIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 11,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27562.8
+   },
+   {
+    "cnpj": "04096126000162",
+    "nome": "R.S.E. SILVA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "26317390000111",
+    "nome": "WALMIR BRELAZ SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "53461145000156",
+    "nome": "RODOLFO SILVA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "53182155000152",
+    "nome": "UP UP PRODUCAO E MARKETING LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "19886727000146",
+    "nome": "MARKA CAMISAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 5600.0
+   },
+   {
+    "cnpj": "11340063000103",
+    "nome": "R A LEAL LTDA",
+    "cnae": "50998",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 5000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 58,
+   "total": 74010.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 66000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 10.5,
+    "Produção de jingles, vinhetas e slogans": 1000.0,
+    "Serviços prestados por terceiros": 7000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

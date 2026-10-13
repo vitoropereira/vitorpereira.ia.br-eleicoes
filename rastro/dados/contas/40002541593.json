@@ -1,0 +1,91 @@
+{
+ "sq": "40002541593",
+ "nome_urna": "FELIPE SOUZA",
+ "cargo": "depest",
+ "uf": "AM",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 369786.64,
+  "por_origem": {
+   "Recursos de partido político": 240000.0,
+   "Recursos de pessoas físicas": 59786.64,
+   "Recursos próprios": 70000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 240000.0,
+   "OUTROS RECURSOS": 129786.64
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 240000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 36,
+   "total": 129786.64
+  }
+ },
+ "despesas": {
+  "total_contratado": 52606.0,
+  "total_pago": 35094.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "06108422000161",
+    "nome": "FM INDUSTRIA GRAFICA E LOCACAO DE MAQUINAS E EQUIPAMENTOS LTDA",
+    "cnae": "58298",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3850.0
+   },
+   {
+    "cnpj": "42400170000103",
+    "nome": "POSTO VIEIRALVES COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "41011777000139",
+    "nome": "WIND.PRO FABRICACAO DE PAINEIS E LETREIROS LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 450.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 21,
+   "total": 16306.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 16212.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 94.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

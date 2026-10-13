@@ -1,0 +1,206 @@
+{
+ "sq": "190002536110",
+ "nome_urna": "FLAVIO SERAFINI",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PSOL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1195504.48,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 2120.0,
+   "Recursos de partido político": 1145384.48,
+   "Recursos de pessoas físicas": 18000.0,
+   "Recursos próprios": 30000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1140163.15,
+   "OUTROS RECURSOS": 55341.33
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "06954942000195",
+    "nome": "Direção Nacional - PSOL",
+    "total": 1133500.0
+   },
+   {
+    "cnpj": "08049726000120",
+    "nome": "Direção Estadual/Distrital - PSOL - RIO DE JANEIRO",
+    "total": 11884.48
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 2120.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 48000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 872402.29,
+  "total_pago": 662244.13,
+  "fornecedores_pj": [
+   {
+    "cnpj": "02147077000114",
+    "nome": "EDG EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 25,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 158752.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 80100.0
+   },
+   {
+    "cnpj": "25264544000191",
+    "nome": "FLORA, MATHEUS E MANGABEIRA SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 61700.0
+   },
+   {
+    "cnpj": "43607470000140",
+    "nome": "OBSERVATORIO DE IDEIAS, GESTAO DE WORKSHOPS, EVENTOS E HOSPITALIDADE LTDA",
+    "cnae": null,
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 42068.2
+   },
+   {
+    "cnpj": "42491159000104",
+    "nome": "ADMINISTRACAO E PARTICIPACAO DAC LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 40092.8
+   },
+   {
+    "cnpj": "26642855000100",
+    "nome": "CASTRO, VIEIRA E FERREIRA CONTADORES ELEITORAIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 23110.0
+   },
+   {
+    "cnpj": "42129498000137",
+    "nome": "RENATA NUNES ADMINISTRACAO E CORRETAGEM DE IMOVEIS",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 17500.0
+   },
+   {
+    "cnpj": "27821313000167",
+    "nome": "COLOR SET INDUSTRIA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6450.0
+   },
+   {
+    "cnpj": "33878430000160",
+    "nome": "ASSOCIACAO DOS SERVIDORES PUBLICOS - CLUB MUNICIPAL",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "54130213000167",
+    "nome": "ARTES GRAFICAS NOVA HIGHTECH LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "02052410000101",
+    "nome": "D FLESH SERVICOS E CONVENIENCIAS LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1890.0
+   },
+   {
+    "cnpj": "12631681000175",
+    "nome": "YA AKOV FACHADAS E COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1568.75
+   },
+   {
+    "cnpj": "13748574000194",
+    "nome": "DIGITAL INDOOR COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1250.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 54.24
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 139,
+   "total": 429866.3,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 312055.0,
+    "Despesas com pessoal": 63680.0,
+    "Despesas com transporte ou deslocamento": 13200.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 191.3,
+    "Locação/cessão de bens imóveis": 12100.0,
+    "Serviços prestados por terceiros": 28640.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

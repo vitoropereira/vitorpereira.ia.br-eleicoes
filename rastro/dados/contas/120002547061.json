@@ -1,0 +1,199 @@
+{
+ "sq": "120002547061",
+ "nome_urna": "PEDRO KEMP",
+ "cargo": "depest",
+ "uf": "MS",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 446070.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 1220.0,
+   "Recursos de partido político": 265500.0,
+   "Recursos de pessoas físicas": 52350.0,
+   "Recursos próprios": 127000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 251220.0,
+   "FUNDO PARTIDARIO": 15500.0,
+   "OUTROS RECURSOS": 179350.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265500.0
+   },
+   {
+    "cnpj": "68519293000151",
+    "nome": "VANDER LUIZ DOS SANTOS LOUBET",
+    "total": 1220.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 14,
+   "total": 179350.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 133734.69,
+  "total_pago": 143158.58,
+  "fornecedores_pj": [
+   {
+    "cnpj": "02418746000145",
+    "nome": "GRAFICA CAPITAL LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13580.0
+   },
+   {
+    "cnpj": "47123803000105",
+    "nome": "LEONARDO MATTOS DA SILVA",
+    "cnae": "43291",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12500.0
+   },
+   {
+    "cnpj": "37537353000135",
+    "nome": "MESPER SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12083.0
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 8698.84
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "01332532000199",
+    "nome": "AUTO POSTO MILENIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "16561156000181",
+    "nome": "VEM ALUGUEL DE CARROS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3800.0
+   },
+   {
+    "cnpj": "10306434000178",
+    "nome": "VALDEVINO SOLUCOES GRAFICAS LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "67087069000175",
+    "nome": "67.087.069 ROGERIO VILMAR CASTILHO GUEDES JUNIOR",
+    "cnae": "58191",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3550.0
+   },
+   {
+    "cnpj": "36617857000100",
+    "nome": "CONFEX COMERCIO E CONFECCAO DE ARTIGOS DO VESTUARIO LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3400.0
+   },
+   {
+    "cnpj": "30472271000100",
+    "nome": "GUARA MARKETING ESTRATEGICO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2225.0
+   },
+   {
+    "cnpj": "03232675000154",
+    "nome": "VIACAO CRUZEIRO DO SUL LTDA",
+    "cnae": "49221",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 2060.35
+   },
+   {
+    "cnpj": "32900346000132",
+    "nome": "JEAN LUNARDI",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 960.0
+   },
+   {
+    "cnpj": "09039957000116",
+    "nome": "TIPO BAND LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 270.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 4,
+   "total": 54007.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 4000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 7.5,
+    "Serviços advocatícios": 40000.0,
+    "Serviços contábeis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,427 @@
+{
+ "sq": "250002535991",
+ "nome_urna": "DELEGADO PAULO BILYNSKYJ",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2926400.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 15000.0,
+   "Recursos de partido político": 2900000.0,
+   "Recursos de pessoas físicas": 11400.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1450000.0,
+   "FUNDO PARTIDARIO": 1450000.0,
+   "OUTROS RECURSOS": 26400.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2900000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QUEROAPOIAR.COM.BR LTDA",
+    "total": 15000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 11400.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 822451.98,
+  "total_pago": 1163790.92,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "15416875000146",
+    "nome": "KUFA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "22700384000198",
+    "nome": "GUSTAVO HEBER NASCIMENTO COSTA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68492672000103",
+    "nome": "ACADEMIA DE NEGOCIOS LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "15237642000186",
+    "nome": "CENTRALIZA PRODUCOES E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "08653788000147",
+    "nome": "PAGI GRAFICA LTDA",
+    "cnae": "47610",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22877.45
+   },
+   {
+    "cnpj": "15021623000118",
+    "nome": "FABIO LUIZ MAZZUCO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13500.0
+   },
+   {
+    "cnpj": "36014803000142",
+    "nome": "VINICIUS DA SILVA ORGANIZACAO DE FESTAS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 13500.0
+   },
+   {
+    "cnpj": "15748196000174",
+    "nome": "M.VAZ COMERCIO DE VEICULOS LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "34661120000151",
+    "nome": "A. MATOS COMERCIO DE VEICULOS LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "29542806000193",
+    "nome": "NAUTICA MARKETING E COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 6260.0
+   },
+   {
+    "cnpj": "09967852007725",
+    "nome": "HOTELARIA ACCOR BRASIL S/A",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 3281.51
+   },
+   {
+    "cnpj": "30833253000107",
+    "nome": "D. ITIUBA INSTALACOES METALICAS LTDA",
+    "cnae": "43304",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 1900.0
+   },
+   {
+    "cnpj": "26555099000181",
+    "nome": "J. DOMINGOS COCENZO CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 9,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1815.54
+   },
+   {
+    "cnpj": "80732928006645",
+    "nome": "ATRIO HOTEIS S.A.",
+    "cnae": "55108",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1744.2
+   },
+   {
+    "cnpj": "54844998000130",
+    "nome": "RODOPOSTO CORAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1397.15
+   },
+   {
+    "cnpj": "11794293000142",
+    "nome": "HABITAT HOTEL DE PIRASSUNUNGA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1336.0
+   },
+   {
+    "cnpj": "59002890000113",
+    "nome": "NSP IMPRESSOS E BRINDES PERSONALIZADOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 940.0
+   },
+   {
+    "cnpj": "17609594000801",
+    "nome": "ALJA HOTELARIA SERVICOS LTDA",
+    "cnae": "55108",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 832.0
+   },
+   {
+    "cnpj": "04898351000112",
+    "nome": "AUTO POSTO AVENIDA DE PIRASSUNUNGA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 741.56
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QUEROAPOIAR.COM.BR LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 582.0
+   },
+   {
+    "cnpj": "45543568000197",
+    "nome": "CANTINHO DO CEU AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 468.19
+   },
+   {
+    "cnpj": "47993050000180",
+    "nome": "VITTORIO PACCHIAROTTI COMERCIO DE COMBUSTIVEIS EM RECUPERACAO JUDICIAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 459.95
+   },
+   {
+    "cnpj": "72911837000799",
+    "nome": "POSTO MONTE CARLO LAGO AZUL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 447.42
+   },
+   {
+    "cnpj": "43950492000199",
+    "nome": "AUTO POSTO PAU SECO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 422.11
+   },
+   {
+    "cnpj": "08442236000190",
+    "nome": "AUTO POSTO JOSE MARIA LISBOA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 297.95
+   },
+   {
+    "cnpj": "05350828000193",
+    "nome": "YOSHIURA MEIRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 254.04
+   },
+   {
+    "cnpj": "07935650000178",
+    "nome": "JORNAL DO PORTO LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 250.0
+   },
+   {
+    "cnpj": "36031608000120",
+    "nome": "DELICIAS DA TERRA RESTAURANTE E CHOPERIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 210.68
+   },
+   {
+    "cnpj": "58166398000110",
+    "nome": "BARAZAL CIA LTDA.",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 190.0
+   },
+   {
+    "cnpj": "48689007000199",
+    "nome": "PPRINT PAINEIS E SOLUCOES VISUAIS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 162.0
+   },
+   {
+    "cnpj": "66766678000198",
+    "nome": "KEBABA LANCHES ARABES LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 45.0
+   },
+   {
+    "cnpj": "42591651187030",
+    "nome": "ARCOS DOURADOS COMERCIO DE ALIMENTOS SA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 30.1
+   },
+   {
+    "cnpj": "61198428000185",
+    "nome": "FAZENDA LAGO AZUL RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 17.8
+   },
+   {
+    "cnpj": "06161685000134",
+    "nome": "JOSE ALEIXO PADARIA CONFEITARIA E EMPORIO LTDA",
+    "cnae": "10911",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10.0
+   },
+   {
+    "cnpj": "51789634000106",
+    "nome": "RESTAURANTE E LANCHONETE PAU SECO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 9.0
+   },
+   {
+    "cnpj": "01888835000192",
+    "nome": "MARTA MONTEIRO DELLA LIBERA CIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 8.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 18,
+   "total": 119462.33,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 66347.83,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 14.5,
+    "Locação/cessão de bens imóveis": 53100.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

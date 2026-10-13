@@ -1,0 +1,521 @@
+{
+ "sq": "250002539399",
+ "nome_urna": "JONAS DONIZETTE",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3052353.0,
+  "por_origem": {
+   "Recursos de partido político": 2070890.0,
+   "Recursos de pessoas físicas": 941463.0,
+   "Recursos próprios": 40000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1995890.0,
+   "OUTROS RECURSOS": 1056463.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 1500000.0
+   },
+   {
+    "cnpj": "05749466000108",
+    "nome": "Direção Municipal/Comissão Provisória - PSB - CAMPINAS - SP",
+    "total": 570890.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 80,
+   "total": 981463.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2550880.06,
+  "total_pago": 2444478.64,
+  "fornecedores_pj": [
+   {
+    "cnpj": "30907214000107",
+    "nome": "QUALITY PRINT A J LTDA",
+    "cnae": "73190",
+    "n_despesas": 71,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos"
+    ],
+    "total": 349558.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 304500.0
+   },
+   {
+    "cnpj": "49549214000100",
+    "nome": "P G PRINT LTDA",
+    "cnae": "18229",
+    "n_despesas": 101,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 74423.0
+   },
+   {
+    "cnpj": "08080006000128",
+    "nome": "POLI PUBLICIDADE LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "17650728000161",
+    "nome": "FONTANA PRODUCOES LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "51847516000107",
+    "nome": "VOLARE IMPRESSAO TEXTIL LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 41120.0
+   },
+   {
+    "cnpj": "22342732000100",
+    "nome": "BONVENON EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 40572.0
+   },
+   {
+    "cnpj": "48180012000171",
+    "nome": "KARINA ETIQUETAS INDUSTRIA E COMERCIO LTDA",
+    "cnae": "17419",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 39000.0
+   },
+   {
+    "cnpj": "00224029000157",
+    "nome": "PONTO ALTO SOM LTDA.",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 38000.0
+   },
+   {
+    "cnpj": "33684688000125",
+    "nome": "MICHEL DELLA TORRE COSTA TRANSPORTES",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "07192217000190",
+    "nome": "PELEGRINI BARBOSA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "08142850000136",
+    "nome": "WBL GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "48866430000117",
+    "nome": "IDEIA DELA MARKETING LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "46134425000194",
+    "nome": "HOTEIS ROYAL PALM PLAZA LTDA.",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação",
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 19828.0
+   },
+   {
+    "cnpj": "12039966000111",
+    "nome": "LINK CARD ADMINISTRADORA DE BENEFICIOS LTDA",
+    "cnae": "70204",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 18034.26
+   },
+   {
+    "cnpj": "02701646000121",
+    "nome": "NEUSA DOMINGUES MACIEL CORREA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "05477994000155",
+    "nome": "ISAAC MENDES DE SANTANA TRANSPORTES",
+    "cnae": "49248",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "17171395000198",
+    "nome": "G. A. FERREIRA TRANSPORTES LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "19604828000187",
+    "nome": "SILVAMAR TRANSPORTES E TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "33263572000112",
+    "nome": "E.M.DE CAMPOS SILVA CONTABILIDADE",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "37510348000139",
+    "nome": "TRANSPORTES PREMIUM A D LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "44559619000106",
+    "nome": "44.559.619 CICERO ALVES DE OLIVEIRA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "63458658000161",
+    "nome": "ALMEXPRESS TRANSPORTE LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "36218525000145",
+    "nome": "36.218.525 ARHIAM RODRIGUES DA SILVA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 8250.0
+   },
+   {
+    "cnpj": "32611092000132",
+    "nome": "RONALDO MIGUEL SALES BUENO",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "29700097000127",
+    "nome": "ALIANZA GRAFICA LTDA.",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5200.0
+   },
+   {
+    "cnpj": "05441213000172",
+    "nome": "LA AGUA - COMERCIO DE AGUA E BEBIDAS LTDA",
+    "cnae": "47237",
+    "n_despesas": 3,
+    "tipos": [
+     "Água"
+    ],
+    "total": 5184.0
+   },
+   {
+    "cnpj": "59388289000100",
+    "nome": "59.388.289 GUSTAVO HENRIQUE LIRA DO NASCIMENTO",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 5100.0
+   },
+   {
+    "cnpj": "67303848000160",
+    "nome": "67.303.848 SAMUEL DE SOUZA ABREU",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3540.0
+   },
+   {
+    "cnpj": "14717699000110",
+    "nome": "ARTES BRASIL COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "13067976000123",
+    "nome": "COMTEREZA - SERVICOS DE BUFFET LTDA",
+    "cnae": "56201",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 3465.0
+   },
+   {
+    "cnpj": "46989245000194",
+    "nome": "CARLOS ROBERTO MIGUEL",
+    "cnae": "43291",
+    "n_despesas": 4,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos"
+    ],
+    "total": 3455.0
+   },
+   {
+    "cnpj": "02356242000148",
+    "nome": "PAULO C. CARBONATO",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "14009370000102",
+    "nome": "GERMANICA LOCADORA DE VEICULOS LIMITADA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "62835962000118",
+    "nome": "GRAFICA E EDITORA SERRANO LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1128.0
+   },
+   {
+    "cnpj": "08608583000140",
+    "nome": "R. BOSCOLO PRODUTOS DE LIMPEZA LTDA",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 962.5
+   },
+   {
+    "cnpj": "59895748000142",
+    "nome": "GAZETA DO RIO PARDO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "02113712000142",
+    "nome": "2000 PROMOCOES PUBLICIDADES EVENTOS E EDITORA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "25406087000122",
+    "nome": "VAGNER DOS SANTOS SILVA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "50229616000107",
+    "nome": "EDITORA PERISCOPIO LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 646.8
+   },
+   {
+    "cnpj": "59684631000110",
+    "nome": "A TRIBUNA DE AMPARO JORNAL LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "00946478000109",
+    "nome": "COPIMAQ LOCACOES LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 579.0
+   },
+   {
+    "cnpj": "07164834000181",
+    "nome": "CLAUDEMIR FLORINDO",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "62373758000122",
+    "nome": "PAPELARIA FULCONI LTDA",
+    "cnae": "47610",
+    "n_despesas": 3,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 253.0
+   },
+   {
+    "cnpj": "24347979000137",
+    "nome": "MACIEL ART DESIGNER GRAFICO - LTDA",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 250.0
+   },
+   {
+    "cnpj": "03226004000180",
+    "nome": "NETO COMERCIO DE FRUTAS LTDA",
+    "cnae": "46338",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 120.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 622,
+   "total": 1256011.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 209790.0,
+    "Despesas com pessoal": 1034124.5,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 473.5,
+    "Locação/cessão de bens imóveis": 11200.0,
+    "Publicidade por materiais impressos": 423.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

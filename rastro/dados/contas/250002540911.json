@@ -1,0 +1,134 @@
+{
+ "sq": "250002540911",
+ "nome_urna": "THAMMY MIRANDA",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1186247.41,
+  "por_origem": {
+   "Recursos de outros candidatos": 1064.5,
+   "Recursos de partido político": 907407.41,
+   "Recursos de pessoas físicas": 274475.5,
+   "Recursos próprios": 3300.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 707857.0,
+   "FUNDO PARTIDARIO": 1064.5,
+   "OUTROS RECURSOS": 477325.91
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 900000.0
+   },
+   {
+    "cnpj": "14567904000108",
+    "nome": "Direção Estadual/Distrital - PSD - SÃO PAULO",
+    "total": 7407.41
+   },
+   {
+    "cnpj": "68455645000152",
+    "nome": "IGOR SOARES EBERT",
+    "total": 1064.5
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 40,
+   "total": 277775.5
+  }
+ },
+ "despesas": {
+  "total_contratado": 580356.6,
+  "total_pago": 452029.7,
+  "fornecedores_pj": [
+   {
+    "cnpj": "26359744000190",
+    "nome": "MURIEL E POLICICIO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "08142850000136",
+    "nome": "WBL GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14792.0
+   },
+   {
+    "cnpj": "20974000000108",
+    "nome": "BRIGER ADMINISTRACAO E PARTICIPACAO S.A.",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 14071.8
+   },
+   {
+    "cnpj": "53947431000126",
+    "nome": "53.947.431 ALEX SANTOS OLIVEIRA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "66475160000103",
+    "nome": "COMEGE CONSULTORIA TRIBUTARIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "53738226000150",
+    "nome": "ESTACAO DE ABASTECIMENTO ROTA 66 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 251.3
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 277,
+   "total": 519241.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 25000.0,
+    "Despesas com pessoal": 493867.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 374.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

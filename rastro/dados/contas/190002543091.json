@@ -1,0 +1,156 @@
+{
+ "sq": "190002543091",
+ "nome_urna": "NÍSIA TRINDADE",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1481347.13,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 42647.13,
+   "Recursos de partido político": 1415700.0,
+   "Recursos de pessoas físicas": 23000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1415700.0,
+   "OUTROS RECURSOS": 65647.13
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1415700.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 42647.13
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 28,
+   "total": 23000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 654727.6,
+  "total_pago": 428327.6,
+  "fornecedores_pj": [
+   {
+    "cnpj": "65289374000114",
+    "nome": "COTIGUARA ARTES E FILME LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 143000.0
+   },
+   {
+    "cnpj": "60496721000166",
+    "nome": "LRS COMUNICACAO E CONSULTORIA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 140000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 102860.55
+   },
+   {
+    "cnpj": "30118665000165",
+    "nome": "RETRATO SERVICOS FOTOGRAFICOS LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 78000.0
+   },
+   {
+    "cnpj": "05356798000122",
+    "nome": "VIVEIROS DE CASTRO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "37269663000116",
+    "nome": "RAZAO LINEAR ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "33818600000110",
+    "nome": "DEPARTAMENTO DO RJ DO INSTITUTO DE ARQUITETOS DO BRASIL",
+    "cnae": "94120",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6500.0
+   },
+   {
+    "cnpj": "11455311000161",
+    "nome": "RRM GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "32554883000178",
+    "nome": "TNC-GAN TERAPIA NUTRICIONAL E COMERCIO LTDA",
+    "cnae": "86500",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 955.45
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 55,
+   "total": 137911.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 127840.0,
+    "Despesas com pessoal": 10000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 71.6
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

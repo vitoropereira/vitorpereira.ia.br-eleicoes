@@ -1,0 +1,213 @@
+{
+ "sq": "60002537671",
+ "nome_urna": "SIMÃO PEDRO",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 428500.0,
+  "por_origem": {
+   "Recursos de partido político": 250000.0,
+   "Recursos de pessoas físicas": 88500.0,
+   "Recursos próprios": 90000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 250000.0,
+   "OUTROS RECURSOS": 178500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 250000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 15,
+   "total": 178500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 235874.2,
+  "total_pago": 274567.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "37779530000190",
+    "nome": "F W L COMERCIO E INDUSTRIA DE CONFECCOES LTDA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 49432.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 38130.0
+   },
+   {
+    "cnpj": "33516192000142",
+    "nome": "JOSEMBERG VIEIRA DE ARAUJO",
+    "cnae": "59201",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "05633505000107",
+    "nome": "GESTAO CONTABIL ASSOCIADOS S/S LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "10698461000133",
+    "nome": "PACHECO OLIVEIRA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "09153315000143",
+    "nome": "SVC CAMISETAS INDUSTRIA DE CONFECCOES E SERIGRAFIA LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10640.0
+   },
+   {
+    "cnpj": "12257051000182",
+    "nome": "VALDINEI RAMOS DOS SANTOS",
+    "cnae": "46168",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "67703723000128",
+    "nome": "JADERSIVO MIDIA LTDA",
+    "cnae": "18121",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "26846738000168",
+    "nome": "COPHEL EXPRESS IMPRESSOES E SERVICOS DIGITAIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4670.12
+   },
+   {
+    "cnpj": "12328169000154",
+    "nome": "G2 LOCACAO DE CONTEINERES LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 4350.0
+   },
+   {
+    "cnpj": "48325194000121",
+    "nome": "J M PARTICIPACOES LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "38036492000148",
+    "nome": "FRANCISCO CARVALHO DAS NEVES LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "31226914000107",
+    "nome": "LUCCAS M BARRETO",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 950.0
+   },
+   {
+    "cnpj": "25348331000148",
+    "nome": "CICERO MARCIO BRITO DE OLIVEIRA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "07012214000127",
+    "nome": "GRAFICA E EDITORA POUCHAIN RAMOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 575.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 179.88
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 20,
+   "total": 39697.2,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 28477.1,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 20.1,
+    "Locação/cessão de bens imóveis": 1200.0,
+    "Serviços prestados por terceiros": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

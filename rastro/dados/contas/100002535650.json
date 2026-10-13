@@ -1,0 +1,194 @@
+{
+ "sq": "100002535650",
+ "nome_urna": "MAEDJA CAMPOS",
+ "cargo": "depest",
+ "uf": "MA",
+ "partido": "PDT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 502250.0,
+  "por_origem": {
+   "Recursos de partido político": 300000.0,
+   "Recursos de pessoas físicas": 202250.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 300000.0,
+   "OUTROS RECURSOS": 202250.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00719575000169",
+    "nome": "Direção Nacional - PDT",
+    "total": 300000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 202250.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 160908.5,
+  "total_pago": 397844.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "41520594000149",
+    "nome": "EQUIPAR LOCACAO DE EQUIPAMENTOS E SERVICOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 31600.0
+   },
+   {
+    "cnpj": "42994792000107",
+    "nome": "BUSINESS SERVICOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "06087085000173",
+    "nome": "COLORTECH CONSTRUCOES E SERVICOS LTDA",
+    "cnae": "41204",
+    "n_despesas": 13,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17270.0
+   },
+   {
+    "cnpj": "07172944000195",
+    "nome": "K DE F C FREITAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13022.0
+   },
+   {
+    "cnpj": "30654630000140",
+    "nome": "M P A J PRESTACAO DE SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "05055624000120",
+    "nome": "MINERACAO MONT ALVERNE LTDA",
+    "cnae": "11216",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 3720.0
+   },
+   {
+    "cnpj": "47543291000128",
+    "nome": "CENTRO ESPECIALIZADO EM MAQUINAS E EQUIPAMENTOS LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "66709267000160",
+    "nome": "66.709.267 JEIDERSON ARAUJO SOUSA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "22762047000125",
+    "nome": "D M DE SOUSA LTDA",
+    "cnae": "13308",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "66032016000194",
+    "nome": "METODO SOLUCOES EM GESTAO E SERVICOS ESPECIALIZADOS LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 2340.0
+   },
+   {
+    "cnpj": "69388361000153",
+    "nome": "QUALITECH ENGENHARIA LTDA.",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "19726378000103",
+    "nome": "WJ SERVICOS E COMERCIO LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "23321280000135",
+    "nome": "F DE A S CAMPOS E CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 710.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 450.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 50,
+   "total": 51296.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 15350.0,
+    "Despesas com pessoal": 19900.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 46.5,
+    "Locação/cessão de bens imóveis": 4000.0,
+    "Serviços advocatícios": 12000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

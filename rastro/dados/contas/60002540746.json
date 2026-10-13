@@ -1,0 +1,253 @@
+{
+ "sq": "60002540746",
+ "nome_urna": "RAIMUNDO MARTINS",
+ "cargo": "depfed",
+ "uf": "CE",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 946320.0,
+  "por_origem": {
+   "Recursos de partido político": 828500.0,
+   "Recursos de pessoas físicas": 95320.0,
+   "Recursos próprios": 22500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 828500.0,
+   "OUTROS RECURSOS": 117820.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 828500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 14,
+   "total": 117820.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 486426.39,
+  "total_pago": 436431.56,
+  "fornecedores_pj": [
+   {
+    "cnpj": "48651794000180",
+    "nome": "JAMYLLE DE MELO GUIMARAES",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "00212872000113",
+    "nome": "ASA SUL INDUSTRIA E COMERCIO DE MALHAS LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 42750.0
+   },
+   {
+    "cnpj": "17343713000150",
+    "nome": "WILKER MACEDO LIMA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "14650163000124",
+    "nome": "PRIME INDUSTRIA GRAFICA LTDA",
+    "cnae": "17311",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "36301942000157",
+    "nome": "F M E CHAVES - SERVICOS CONTABEIS",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "46448490000194",
+    "nome": "P B SOLUCOES IMOBILIARIAS LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 18500.0
+   },
+   {
+    "cnpj": "23576416000158",
+    "nome": "JOSE CLAUDIO DA ROCHA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "03399264000158",
+    "nome": "G B PEIXOTO LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 9480.0
+   },
+   {
+    "cnpj": "21763932000166",
+    "nome": "LOCPREMIUM LOCADORA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7600.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 6400.0
+   },
+   {
+    "cnpj": "02824298000180",
+    "nome": "PRINTCOLOR GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3849.0
+   },
+   {
+    "cnpj": "18229158000101",
+    "nome": "DANIEL PERES TIMBO",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 3834.0
+   },
+   {
+    "cnpj": "30967838000110",
+    "nome": "JULIO HERMINIO LUZ LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "09521937000187",
+    "nome": "ECOPRINT SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2866.5
+   },
+   {
+    "cnpj": "41644624000129",
+    "nome": "AMBIENTAL NORDESTE LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2200.0
+   },
+   {
+    "cnpj": "24993170000182",
+    "nome": "M R NOGUEIRA FILHO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1884.96
+   },
+   {
+    "cnpj": "68536081000182",
+    "nome": "F A COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "04138490000148",
+    "nome": "HN COMERCIAL DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 670.73
+   },
+   {
+    "cnpj": "52428458000140",
+    "nome": "SOUSA CRUZ VENDAS E SERVICOS LTDA",
+    "cnae": "33139",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 650.0
+   },
+   {
+    "cnpj": "38234040000170",
+    "nome": "CHICLIMP DISTRIBUIDORA DE ARTIGOS DE LIMPEZA LTDA",
+    "cnae": "46494",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 30.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 149,
+   "total": 249511.2,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 207100.0,
+    "Despesas com pessoal": 28320.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 91.2,
+    "Locação/cessão de bens imóveis": 14000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

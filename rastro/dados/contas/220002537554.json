@@ -1,0 +1,150 @@
+{
+ "sq": "220002537554",
+ "nome_urna": "JEAN MENDONÇA",
+ "cargo": "depest",
+ "uf": "RO",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 981549.99,
+  "por_origem": {
+   "Recursos de outros candidatos": 16550.0,
+   "Recursos de partido político": 949999.99,
+   "Recursos de pessoas físicas": 15000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 966549.99,
+   "OUTROS RECURSOS": 15000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 949999.99
+   },
+   {
+    "cnpj": "68438235000101",
+    "nome": "BRUNO SCHEID",
+    "total": 16550.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 15000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 683852.48,
+  "total_pago": 246653.48,
+  "fornecedores_pj": [
+   {
+    "cnpj": "61818315000135",
+    "nome": "E ANTONIO DE LIMA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "27856112000103",
+    "nome": "CAMARGO, MAGALHAES CANEDO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "02635441000195",
+    "nome": "GRAFICA EDITORA E IMPRESSOS NACIONAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16800.0
+   },
+   {
+    "cnpj": "18588643000163",
+    "nome": "B ALVES TRANSPORTES E LOCACOES LTDA",
+    "cnae": "49302",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "44345050000186",
+    "nome": "NOVA COMUNICACAO VISUAL LTDA",
+    "cnae": "25420",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "04647634000191",
+    "nome": "ARUMA LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "45991563000127",
+    "nome": "M MACHADO SERVICOS DE GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 9900.0
+   },
+   {
+    "cnpj": "07607184000282",
+    "nome": "BRASIL ACO EPITACIO IMPORTACAO E EXPORTACAO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "04380678000106",
+    "nome": "AUTO POSTO PIMENTA BUENO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1999.98
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 222,
+   "total": 515152.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 87800.0,
+    "Despesas com pessoal": 362351.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.5,
+    "Publicidade por carros de som": 10000.0,
+    "Serviços advocatícios": 25000.0,
+    "Serviços contábeis": 20000.0,
+    "Serviços prestados por terceiros": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

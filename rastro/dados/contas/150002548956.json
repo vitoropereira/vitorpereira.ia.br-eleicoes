@@ -1,0 +1,84 @@
+{
+ "sq": "150002548956",
+ "nome_urna": "GILBERTINHO",
+ "cargo": "depest",
+ "uf": "PB",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 370000.0,
+  "por_origem": {
+   "Recursos de partido político": 370000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 150000.0,
+   "FUNDO PARTIDARIO": 220000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "45893270000107",
+    "nome": "Direção Estadual/Distrital - UNIÃO - PARAÍBA",
+    "total": 220000.0
+   },
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 150000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 123002.5,
+  "total_pago": 140002.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "37735608000174",
+    "nome": "ZAPIER GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "47227438000170",
+    "nome": "OPINIAO PESQUISAS QUANTITATIVAS E QUALITATIVAS LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "18265456000149",
+    "nome": "M2 CONSULTORIA LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 3000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 6,
+   "total": 40002.5,
+   "por_tipo": {
+    "Despesas com pessoal": 25000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.5,
+    "Serviços advocatícios": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

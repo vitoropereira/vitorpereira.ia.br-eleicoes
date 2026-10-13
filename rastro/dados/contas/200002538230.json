@@ -1,0 +1,356 @@
+{
+ "sq": "200002538230",
+ "nome_urna": "EZEQUIEL",
+ "cargo": "depest",
+ "uf": "RN",
+ "partido": "PSDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 569770.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 569770.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 569770.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 22,
+   "total": 569770.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 482413.7,
+  "total_pago": 530718.95,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "16724877000165",
+    "nome": "EBA - COMUNICACAO E MARKETING POLITICO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "09643897000146",
+    "nome": "ERO LOCACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 5,
+    "tipos": [
+     "Cessão ou locação de veículos",
+     "Publicidade por carros de som"
+    ],
+    "total": 39500.0
+   },
+   {
+    "cnpj": "54313658000182",
+    "nome": "ANDRE CASTRO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "68389457000173",
+    "nome": "J BASILIO SERVICOS E ASSESSORIA LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "31321080000100",
+    "nome": "UNIGRAFICA INDUSTRIA GRAFICA LTDA",
+    "cnae": "17311",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15088.0
+   },
+   {
+    "cnpj": "59813491000132",
+    "nome": "59.813.491 ISRAEL CARDOSO DE ARAUJO",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13300.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "08547432000633",
+    "nome": "POSTO FREI DAMIAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 9,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9000.85
+   },
+   {
+    "cnpj": "21597589000127",
+    "nome": "J H N DE MELO LTDA",
+    "cnae": "78205",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "12693141000116",
+    "nome": "A A DE ALMEIDA LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5680.0
+   },
+   {
+    "cnpj": "55044175000192",
+    "nome": "55.044.175 DOUGLAS CAUA CABRAL OLIVEIRA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "08547432000714",
+    "nome": "POSTO FREI DAMIAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 8,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4939.54
+   },
+   {
+    "cnpj": "13587119000154",
+    "nome": "R4 - INDUSTRIA E COMERCIO LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4750.0
+   },
+   {
+    "cnpj": "15003806000100",
+    "nome": "ANDERSON M A DE OLIVEIRA LTDA",
+    "cnae": "38114",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "64170146000168",
+    "nome": "VP PROMOCOES EVENTOS E SERVICOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "24206617000126",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "46818",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3634.35
+   },
+   {
+    "cnpj": "40480636000100",
+    "nome": "F S M DE SOUSA COMUNICACAO VISUAL",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3475.0
+   },
+   {
+    "cnpj": "22160823000117",
+    "nome": "GILSON CANINDE DA SILVA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "42191685000140",
+    "nome": "EVOLUTION MEDIA LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "08547432000803",
+    "nome": "POSTO FREI DAMIAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2351.67
+   },
+   {
+    "cnpj": "08240451000108",
+    "nome": "BOUGANVILLE RECEPCOES LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "24552216000128",
+    "nome": "GIOVANNA HACKRADT REGO",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1850.0
+   },
+   {
+    "cnpj": "08547432000552",
+    "nome": "POSTO FREI DAMIAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1313.04
+   },
+   {
+    "cnpj": "54696231000100",
+    "nome": "IPAY PRINT - SERVICOS ADMINISTRATIVOS E MARKENTIG LTDA",
+    "cnae": "82911",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1305.0
+   },
+   {
+    "cnpj": "08547432001010",
+    "nome": "POSTO FREI DAMIAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1013.51
+   },
+   {
+    "cnpj": "13475478000110",
+    "nome": "ARENA DAS DUNAS CONCESSAO E EVENTOS S/A",
+    "cnae": "93115",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "49473115000192",
+    "nome": "49.473.115 LUIZ SERGIO VIRGOLINO PERONICO",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "08547432000390",
+    "nome": "POSTO FREI DAMIAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 361.53
+   },
+   {
+    "cnpj": "24206617000550",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 360.13
+   },
+   {
+    "cnpj": "08547432000129",
+    "nome": "POSTO FREI DAMIAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 317.58
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 33,
+   "total": 182773.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 44000.0,
+    "Cessão ou locação de veículos": 29500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 23.5,
+    "Locação/cessão de bens imóveis": 950.0,
+    "Publicidade por carros de som": 75000.0,
+    "Serviços prestados por terceiros": 33300.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

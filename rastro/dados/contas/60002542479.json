@@ -1,0 +1,147 @@
+{
+ "sq": "60002542479",
+ "nome_urna": "CID GOMES",
+ "cargo": "senador",
+ "uf": "CE",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3667954.88,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 69429.67,
+   "Recursos de partido político": 1135525.21,
+   "Recursos de pessoas físicas": 2263000.0,
+   "Recursos próprios": 200000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1135525.21,
+   "OUTROS RECURSOS": 2532429.67
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 1135525.21
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 69429.67
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 2463000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1465336.46,
+  "total_pago": 133942.95,
+  "fornecedores_pj": [
+   {
+    "cnpj": "04405470000196",
+    "nome": "CONTACTO RELACOES PUBLICAS LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "13087728000144",
+    "nome": "SOLAR TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 235000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "04549133000172",
+    "nome": "SOLUTION ASSESSORIA, PLANEJAMENTO E SERVICOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "07167712000149",
+    "nome": "ADVENTSEVEN SERVICOS, GESTAO E DESENVOLVIMENTO GERENCIAL LTDA",
+    "cnae": "86101",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 32500.0
+   },
+   {
+    "cnpj": "01971883000140",
+    "nome": "C A S LOCACAO E SERVICO LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "11227495000102",
+    "nome": "UNY GESTAO DE BENEFICIOS LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10243.51
+   },
+   {
+    "cnpj": "58979198000187",
+    "nome": "AMA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6150.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 1442.45
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 10000.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5,
+    "Serviços prestados por terceiros": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

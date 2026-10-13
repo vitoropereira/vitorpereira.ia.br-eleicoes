@@ -1,0 +1,648 @@
+{
+ "sq": "210002534897",
+ "nome_urna": "GIOVANI CHERINI",
+ "cargo": "depfed",
+ "uf": "RS",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3211000.0,
+  "por_origem": {
+   "Recursos de partido político": 3170000.0,
+   "Recursos de pessoas físicas": 35000.0,
+   "Recursos próprios": 6000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3170000.0,
+   "OUTROS RECURSOS": 41000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3170000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 41000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2136720.84,
+  "total_pago": 2585403.13,
+  "fornecedores_pj": [
+   {
+    "cnpj": "15115234000151",
+    "nome": "SPEED PROMOCIONAL INDUSTRIA DE BRINDES LTDA",
+    "cnae": "32990",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 127630.0
+   },
+   {
+    "cnpj": "05476664000145",
+    "nome": "CROMO GRAFICA E EDITORA LTDA",
+    "cnae": "17419",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 105300.0
+   },
+   {
+    "cnpj": "09146749000116",
+    "nome": "AUTOLOCADORA LINCK MELLO LTDA",
+    "cnae": "77110",
+    "n_despesas": 19,
+    "tipos": [
+     "Cessão ou locação de veículos",
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 96824.58
+   },
+   {
+    "cnpj": "07447405000111",
+    "nome": "ELF LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 11,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 95246.6
+   },
+   {
+    "cnpj": "68345643000100",
+    "nome": "ADRIANE CERINI",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 94000.0
+   },
+   {
+    "cnpj": "55875500000169",
+    "nome": "RODRIGO NEVES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "25053197000158",
+    "nome": "CENTENO MENDES ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 33510.0
+   },
+   {
+    "cnpj": "22901723000102",
+    "nome": "CIMAROSTI IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 25500.0
+   },
+   {
+    "cnpj": "90589540000145",
+    "nome": "GRAFICA LIDER LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22561.2
+   },
+   {
+    "cnpj": "68312645000101",
+    "nome": "VALDECI JOSE MARTINS ROCHA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68345841000174",
+    "nome": "CLAUDIO GILNEI TATSCH",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "08537010000172",
+    "nome": "THS IMPRESSAO DIGITAL LTDA",
+    "cnae": "46192",
+    "n_despesas": 4,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12995.0
+   },
+   {
+    "cnpj": "87000089000174",
+    "nome": "COUROARTE COMERCIO DE BRINDES PROMOCIONAIS LTDA",
+    "cnae": "46893",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 12460.0
+   },
+   {
+    "cnpj": "23285134000100",
+    "nome": "AUTOSUL LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10080.0
+   },
+   {
+    "cnpj": "88000377000191",
+    "nome": "G BENEFICIAMENTO E COMERCIO DE TECIDOS LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9500.0
+   },
+   {
+    "cnpj": "01530830000193",
+    "nome": "EDITORA EVANGRAF LTDA",
+    "cnae": "58212",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9397.5
+   },
+   {
+    "cnpj": "05677050000121",
+    "nome": "ANS IMPRESSOES GRAFICAS LTDA.",
+    "cnae": "17419",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7644.94
+   },
+   {
+    "cnpj": "33776125000167",
+    "nome": "RODRIGUES MECANICA E ELETRICA AUTOMOTIVA LTDA",
+    "cnae": "45200",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5350.0
+   },
+   {
+    "cnpj": "53720531000115",
+    "nome": "C. M. GOMES DE OLIVEIRA SOUZA DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 4950.0
+   },
+   {
+    "cnpj": "33045363000100",
+    "nome": "TOP CLUB LOCACOES E ORGANIZACAO DE EVENTOS LTDA",
+    "cnae": "77292",
+    "n_despesas": 2,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4110.0
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 3829.32
+   },
+   {
+    "cnpj": "88625181000788",
+    "nome": "ASSOCIACAO LITERARIA SAO BOAVENTURA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2950.0
+   },
+   {
+    "cnpj": "03509226000100",
+    "nome": "PASSOGRAFIC INDUSTRIA GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2790.0
+   },
+   {
+    "cnpj": "46208878000118",
+    "nome": "JOAO CARLOS QUEIROZ BONETTI NETO",
+    "cnae": "53202",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2600.0
+   },
+   {
+    "cnpj": "08689190000108",
+    "nome": "ABASTECEDORA DE COMBUSTIVEIS PORTO ALEGRE LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2384.49
+   },
+   {
+    "cnpj": "67218274000122",
+    "nome": "DFR ANGEL LOCACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2160.0
+   },
+   {
+    "cnpj": "09506894000160",
+    "nome": "RL NET INTERNET LTDA",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "68104929000102",
+    "nome": "68.104.929 ODAIR BERNARDES DOS SANTOS",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "97497333000100",
+    "nome": "COMERCIAL DE COMBUSTIVEIS LUPATINI LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1281.76
+   },
+   {
+    "cnpj": "90065103000122",
+    "nome": "ABASTECEDORA DE COMBUSTIVEIS VERDES MARES LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1211.1
+   },
+   {
+    "cnpj": "73817017000100",
+    "nome": "MAIL EXPRESS REPRESENTACOES POSTAIS LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 1170.96
+   },
+   {
+    "cnpj": "05133768000157",
+    "nome": "COMERCIO DE COMBUSTIVEIS GRODERS LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1166.5
+   },
+   {
+    "cnpj": "03358858000382",
+    "nome": "ABASTECEDORA DE COMBUSTIVEIS RIOXEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1162.8
+   },
+   {
+    "cnpj": "11342355000185",
+    "nome": "AUTO POSTO CIDADE JARDIM LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1157.77
+   },
+   {
+    "cnpj": "95425369000152",
+    "nome": "COMERCIO DE COMBUSTIVEIS NEVOEIRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1152.51
+   },
+   {
+    "cnpj": "18108615000100",
+    "nome": "POSTO PONTUAL COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1148.38
+   },
+   {
+    "cnpj": "04563781000183",
+    "nome": "POSTO RAVANELLO LTDA.",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1101.08
+   },
+   {
+    "cnpj": "03358858000200",
+    "nome": "ABASTECEDORA DE COMBUSTIVEIS RIOXEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1092.72
+   },
+   {
+    "cnpj": "14131443000126",
+    "nome": "ABREU FLORES PEREIRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 980.82
+   },
+   {
+    "cnpj": "89371058000155",
+    "nome": "COMERCIAL DE COMBUSTIVEIS ROSUL LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 809.87
+   },
+   {
+    "cnpj": "06886783000139",
+    "nome": "POSTO SAO SEBASTIAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 719.54
+   },
+   {
+    "cnpj": "27360993000169",
+    "nome": "VPS COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 613.23
+   },
+   {
+    "cnpj": "58179553000133",
+    "nome": "POSTO DE COMBUSTIVEIS ORTOLAN LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 588.4
+   },
+   {
+    "cnpj": "51032256000111",
+    "nome": "EXXEN COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 547.97
+   },
+   {
+    "cnpj": "36471731000162",
+    "nome": "PATRICIA MEDEIROS GOULART",
+    "cnae": "10911",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 525.0
+   },
+   {
+    "cnpj": "89371058000236",
+    "nome": "COMERCIAL DE COMBUSTIVEIS ROSUL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 464.42
+   },
+   {
+    "cnpj": "92647023000372",
+    "nome": "COMERCIAL GROSSI DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 457.8
+   },
+   {
+    "cnpj": "92647023000100",
+    "nome": "COMERCIAL GROSSI DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 445.73
+   },
+   {
+    "cnpj": "14060985000236",
+    "nome": "BCR COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 439.57
+   },
+   {
+    "cnpj": "93015006000709",
+    "nome": "COMPANHIA ZAFFARI COMERCIO E INDUSTRIA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 388.03
+   },
+   {
+    "cnpj": "14060985000155",
+    "nome": "BCR COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 320.42
+   },
+   {
+    "cnpj": "62287186000169",
+    "nome": "VIP DOIS IRMAOS COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 189.63
+   },
+   {
+    "cnpj": "59425936000107",
+    "nome": "POSTO ROTA 386 SEBERI DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 151.75
+   },
+   {
+    "cnpj": "16774950000103",
+    "nome": "VIVARTE SOLUCAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 150.0
+   },
+   {
+    "cnpj": "58125276000186",
+    "nome": "58.125.276 BERNARDO PINTO BITTENCOURT",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 150.0
+   },
+   {
+    "cnpj": "11452733000183",
+    "nome": "POSTO DO CLESIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 93.8
+   },
+   {
+    "cnpj": "07553594000107",
+    "nome": "07.553.594 ALESSANDRO CORREA DOS SANTOS",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 80.0
+   },
+   {
+    "cnpj": "48119436000120",
+    "nome": "AGUAS DO CENTRO LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 354,
+   "total": 1239145.65,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 967870.0,
+    "Despesas com pessoal": 225000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 465.1,
+    "Locação/cessão de bens imóveis": 45810.55
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

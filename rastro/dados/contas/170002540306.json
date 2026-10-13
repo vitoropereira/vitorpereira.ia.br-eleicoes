@@ -1,0 +1,411 @@
+{
+ "sq": "170002540306",
+ "nome_urna": "ELIANE SOARES",
+ "cargo": "depfed",
+ "uf": "PE",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1807302.0,
+  "por_origem": {
+   "Recursos de partido político": 1438502.0,
+   "Recursos de pessoas físicas": 115200.0,
+   "Recursos próprios": 253600.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1024502.0,
+   "FUNDO PARTIDARIO": 214000.0,
+   "OUTROS RECURSOS": 568800.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 1364000.0
+   },
+   {
+    "cnpj": "10669331000172",
+    "nome": "Direção Estadual/Distrital - PSB - PERNAMBUCO",
+    "total": 74502.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 13,
+   "total": 368800.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1240773.19,
+  "total_pago": 1685930.37,
+  "fornecedores_pj": [
+   {
+    "cnpj": "56503893000142",
+    "nome": "REGINA PAULA VIEIRA DE OLIVEIRA",
+    "cnae": "18130",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 97720.0
+   },
+   {
+    "cnpj": "04937174000136",
+    "nome": "GUIMARAES SERVICOS GRAFICOS LTDA",
+    "cnae": "17419",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 73200.0
+   },
+   {
+    "cnpj": "44619551000103",
+    "nome": "CHAILLINE AZEVEDO ALVES",
+    "cnae": "14126",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 72000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 10,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 70006.87
+   },
+   {
+    "cnpj": "03892344000140",
+    "nome": "MALHARIA ATLANTICO LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 59600.0
+   },
+   {
+    "cnpj": "43997833000181",
+    "nome": "JOSE JEFFERSON MARINHO LIMA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "29327000000182",
+    "nome": "JOSE EDUARDO DE MELO SOUZA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "62606646000174",
+    "nome": "DENISE HERCULANO LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "35461325000237",
+    "nome": "VALLETUBO INDUSTRIA DE PLASTICOS LTDA",
+    "cnae": "22293",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 23060.0
+   },
+   {
+    "cnpj": "23355264000163",
+    "nome": "CARLOS EDUARDO DA SILVA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "36496796000162",
+    "nome": "BENICIO BENICIO ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "28329434000159",
+    "nome": "28.329.434 JAKSON GUIMARAES MODESTO",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 20790.0
+   },
+   {
+    "cnpj": "27298252000103",
+    "nome": "NN CONCEPT TRANSPORTES E SERVICOS LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 16200.0
+   },
+   {
+    "cnpj": "01768854000185",
+    "nome": "AUTO POSTO AMBIENTAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 12137.89
+   },
+   {
+    "cnpj": "36055995000135",
+    "nome": "JOSE EXPEDITO GRANJA BEZERRA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "28954221000118",
+    "nome": "ROBERIO OLIVEIRA MENDES FILHO LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 11994.8
+   },
+   {
+    "cnpj": "11744209000186",
+    "nome": "GENESIS CONSTRUCAO LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 9232.34
+   },
+   {
+    "cnpj": "46117980000108",
+    "nome": "GRAFICA IDEIA SERVICO E EDICAO DE LIVROS, JORNAIS E PUBLICACOES LTDA",
+    "cnae": "58115",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7921.5
+   },
+   {
+    "cnpj": "21752561000117",
+    "nome": "MAYCON BARBOZA DE SOUZA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 6500.0
+   },
+   {
+    "cnpj": "51985164000156",
+    "nome": "51.985.164 SIDCLEI ALVES DIAS",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6031.26
+   },
+   {
+    "cnpj": "51173726000167",
+    "nome": "51.173.726 PEDRO HENRIQUE ALVES DE OLIVEIRA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "21440832000107",
+    "nome": "ROBERIO OLIVEIRA MENDES LTDA",
+    "cnae": "47318",
+    "n_despesas": 8,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4344.18
+   },
+   {
+    "cnpj": "28324256000173",
+    "nome": "EDUARDO K M VASCONCELOS",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4000.85
+   },
+   {
+    "cnpj": "07090642000178",
+    "nome": "LUCICLEIDE GUIMARAES MENDES",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2966.25
+   },
+   {
+    "cnpj": "10591800000188",
+    "nome": "ARTDESIGNER COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 2834.0
+   },
+   {
+    "cnpj": "68728573000170",
+    "nome": "68.728.573 GEORGE HUMBERTO DINIZ SOUZA E SILVA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "28954221000207",
+    "nome": "ROBERIO OLIVEIRA MENDES FILHO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2109.73
+   },
+   {
+    "cnpj": "68802170000123",
+    "nome": "ART ESTAMPA OURICURI LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1760.0
+   },
+   {
+    "cnpj": "60704191000102",
+    "nome": "60.704.191 CORINA BARROS CAVALCANTE",
+    "cnae": "36006",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1656.0
+   },
+   {
+    "cnpj": "11188227000200",
+    "nome": "POSTO SAO SEBASTIAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1567.72
+   },
+   {
+    "cnpj": "04704225000180",
+    "nome": "JUSIEUDA CAVALCANTI DE MACEDO ALVES LTDA",
+    "cnae": "47717",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1496.0
+   },
+   {
+    "cnpj": "13171394000192",
+    "nome": "LUIZ BATISTA FREIRE",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1436.0
+   },
+   {
+    "cnpj": "28626129000129",
+    "nome": "RENAN AMARAL DE SOUZA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 1314.36
+   },
+   {
+    "cnpj": "34142312000151",
+    "nome": "WAGNER DIEGO DA SILVA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 480.0
+   },
+   {
+    "cnpj": "48022360000110",
+    "nome": "EXODO CONSTRUCOES E SERVICOS LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 127.92
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 255,
+   "total": 587285.52,
+   "por_tipo": {
+    "Alimentação": 7500.0,
+    "Atividades de militância e mobilização de rua": 336786.5,
+    "Cessão ou locação de veículos": 130228.92,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 121.1,
+    "Locação/cessão de bens imóveis": 12000.0,
+    "Serviços advocatícios": 15000.0,
+    "Serviços prestados por terceiros": 85649.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

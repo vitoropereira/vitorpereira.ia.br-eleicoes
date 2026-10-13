@@ -1,0 +1,178 @@
+{
+ "sq": "50002532502",
+ "nome_urna": "DIEGO CORONEL",
+ "cargo": "depfed",
+ "uf": "BA",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2000000.0,
+  "por_origem": {
+   "Recursos de partido político": 2000000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2000000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 2000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 964288.13,
+  "total_pago": 1839514.04,
+  "fornecedores_pj": [
+   {
+    "cnpj": "26080840000103",
+    "nome": "A PLAY S COMERCIO E SERVICOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 211201.0
+   },
+   {
+    "cnpj": "13087728000144",
+    "nome": "SOLAR TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 84633.33
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68342331000143",
+    "nome": "VERSO 1 PUBLICIDADE LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 31800.0
+   },
+   {
+    "cnpj": "64742358000172",
+    "nome": "INOVA NOVA PROPAGANDA E COMERCIO LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "05087278000161",
+    "nome": "ISMERIM ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "45817881000176",
+    "nome": "ODILON SANTOS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "13326558000103",
+    "nome": "COPIADORA ELI LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11805.0
+   },
+   {
+    "cnpj": "51546482000110",
+    "nome": "ONEJETS TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "24759252000167",
+    "nome": "FEIRA ROTULOS E ETIQUETAS ADESIVAS LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5590.0
+   },
+   {
+    "cnpj": "14752810000109",
+    "nome": "EMGRAF EMPRESARIAL GRAFICA FEIRENSE LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3300.0
+   },
+   {
+    "cnpj": "46439622000111",
+    "nome": "FEIRA BANDEIRAS E IMPRESSOS LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 927.6
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 25,
+   "total": 460031.2,
+   "por_tipo": {
+    "Despesas com pessoal": 420000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 31.2,
+    "Serviços contábeis": 40000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

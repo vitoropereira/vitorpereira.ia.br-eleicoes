@@ -1,0 +1,621 @@
+{
+ "sq": "130002551786",
+ "nome_urna": "DOMINGOS SÁVIO",
+ "cargo": "senador",
+ "uf": "MG",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 5444904.69,
+  "por_origem": {
+   "Recursos de outros candidatos": 4437.81,
+   "Recursos de partido político": 5400000.0,
+   "Recursos próprios": 40466.88
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 5000000.0,
+   "OUTROS RECURSOS": 444904.69
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 5400000.0
+   },
+   {
+    "cnpj": "68464944000153",
+    "nome": "MARCOS VINICIUS DA SILVA BIZARRO",
+    "total": 4437.81
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 40466.88
+  }
+ },
+ "despesas": {
+  "total_contratado": 3902917.54,
+  "total_pago": 3961543.4,
+  "fornecedores_pj": [
+   {
+    "cnpj": "22373476000100",
+    "nome": "FILMAVIDEO LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 510000.0
+   },
+   {
+    "cnpj": "38709741000119",
+    "nome": "AKZA MEDIA FILMES LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 510000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 360000.0
+   },
+   {
+    "cnpj": "68245066000185",
+    "nome": "V. U. PEREIRA IMPRESSAO E SINALIZACAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 40,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 261402.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 15,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 246001.0
+   },
+   {
+    "cnpj": "21168531000168",
+    "nome": "ARW EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 31,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 241867.0
+   },
+   {
+    "cnpj": "44627121000133",
+    "nome": "IMPRESSO EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 13,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 222517.0
+   },
+   {
+    "cnpj": "21752925000169",
+    "nome": "ROCHA E SILVA SERVICOS DE CONTABILIDADE LTDA.",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 220000.0
+   },
+   {
+    "cnpj": "12098890000103",
+    "nome": "ROCHA E SILVA SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 180000.0
+   },
+   {
+    "cnpj": "01955898000114",
+    "nome": "SC EDITORA GRAFICA LTDA",
+    "cnae": "18211",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 83926.0
+   },
+   {
+    "cnpj": "17190604000140",
+    "nome": "EGL-EDITORES GRAFICOS LTDA.",
+    "cnae": "18113",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 40200.0
+   },
+   {
+    "cnpj": "13913408000104",
+    "nome": "XR GLOBAL BRASIL LTDA",
+    "cnae": "63119",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 37026.0
+   },
+   {
+    "cnpj": "38065109000180",
+    "nome": "CODIGO DIGITAL LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 37000.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 7,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 36382.7
+   },
+   {
+    "cnpj": "27689472000150",
+    "nome": "CENTERPRINTING PROCESSAMENTO E IMPRESSAO LTDA",
+    "cnae": "63119",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 34073.38
+   },
+   {
+    "cnpj": "56005830000166",
+    "nome": "CONECTA CONSULTORIA E NEGOCIOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "39869163000140",
+    "nome": "39.869.163 ISADORA VINHAL SILVA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "42346085000104",
+    "nome": "GOMES MAIA AVIATION LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 7676.9
+   },
+   {
+    "cnpj": "86472289000167",
+    "nome": "POSTO VEM-CAR LTDA",
+    "cnae": "47318",
+    "n_despesas": 37,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6576.66
+   },
+   {
+    "cnpj": "05941204000140",
+    "nome": "MONSTHER COMERCIO DE EQUIPAMENTOS DE INFORMATICA LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "09098599000112",
+    "nome": "CENTRAL LESTE DE TURISMO LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "39825435000100",
+    "nome": "MARLIM AZUL COMERCIO E TRANSPORTE DE PETROLEO E DERIVADOS LTDA",
+    "cnae": "33163",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 4806.32
+   },
+   {
+    "cnpj": "41340751000134",
+    "nome": "MAM TEXTIL LTDA",
+    "cnae": "46494",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3725.0
+   },
+   {
+    "cnpj": "04006551000113",
+    "nome": "ENCAPEL ADMINISTRACAO DE IMOVEIS PROPRIOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "09190825000190",
+    "nome": "LEGRAF EDITORA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "02077599000197",
+    "nome": "GRAFICA E PAPELARIA GIOMAR LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2250.0
+   },
+   {
+    "cnpj": "22596308000184",
+    "nome": "GAZETA DE MINAS GRAFICA E EDITORA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "60440298000182",
+    "nome": "AGIL E SUBLIME LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "17469701005640",
+    "nome": "ARCELORMITTAL BRASIL S.A.",
+    "cnae": "46796",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1188.03
+   },
+   {
+    "cnpj": "42803882000173",
+    "nome": "FRANQUIA CANDIDES LTDA",
+    "cnae": "53105",
+    "n_despesas": 4,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 1154.45
+   },
+   {
+    "cnpj": "07876896000116",
+    "nome": "POSTO JENIPAPO DE SALINAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 600.08
+   },
+   {
+    "cnpj": "65298747000113",
+    "nome": "POSTO PTB LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 561.05
+   },
+   {
+    "cnpj": "17428198000101",
+    "nome": "PEREIRA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 558.15
+   },
+   {
+    "cnpj": "03857669000192",
+    "nome": "POSTO ALJIG LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 539.76
+   },
+   {
+    "cnpj": "09310530000100",
+    "nome": "POSTO SOLLAR LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 347.28
+   },
+   {
+    "cnpj": "03857669000273",
+    "nome": "POSTO ALJIG LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 334.16
+   },
+   {
+    "cnpj": "17507930000139",
+    "nome": "POSTO BATISTAO LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 318.34
+   },
+   {
+    "cnpj": "01273485000150",
+    "nome": "POSTO SCHUMACKER LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 312.53
+   },
+   {
+    "cnpj": "33470413000199",
+    "nome": "ASSOCIACAO AMIGOS DA FERROVIARIA DE LAVRAS - AFELA",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "19283605000165",
+    "nome": "AGENOR POSTO DE COMBUSTIVEIS LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 286.83
+   },
+   {
+    "cnpj": "64244767000149",
+    "nome": "POSTO W3 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 285.0
+   },
+   {
+    "cnpj": "19485879000137",
+    "nome": "OLIMPIA AUTO-POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 284.08
+   },
+   {
+    "cnpj": "41732397000193",
+    "nome": "POSTO CARIJO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 283.86
+   },
+   {
+    "cnpj": "22265797000434",
+    "nome": "BARRIGAO COMERCIAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 280.04
+   },
+   {
+    "cnpj": "50659849000140",
+    "nome": "POSTO TEIXEIRA DE ERVALIA LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 279.63
+   },
+   {
+    "cnpj": "09489996000204",
+    "nome": "AUTO POSTO AMANDA E JULIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 274.34
+   },
+   {
+    "cnpj": "17043351000182",
+    "nome": "IGUATEMY AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 272.79
+   },
+   {
+    "cnpj": "08474773000111",
+    "nome": "POSTOS PMG LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 270.08
+   },
+   {
+    "cnpj": "16917882000194",
+    "nome": "POSTO E RESTAURANTE PRIMAVERA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 264.16
+   },
+   {
+    "cnpj": "22756944000126",
+    "nome": "POSTO CAETE-MIRIM LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 255.03
+   },
+   {
+    "cnpj": "13569064001040",
+    "nome": "REDE HG COMBUSTIVEIS LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 251.6
+   },
+   {
+    "cnpj": "07012185000101",
+    "nome": "POSTO VILA TABOCAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 240.99
+   },
+   {
+    "cnpj": "07660130000108",
+    "nome": "COMERCIAL DE COMBUSTIVEIS PRIMAVERA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 238.47
+   },
+   {
+    "cnpj": "32014189000168",
+    "nome": "AUTO POSTO BEIJA FLOR II LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 237.76
+   },
+   {
+    "cnpj": "51655737000183",
+    "nome": "POSTO ECO OLEGARIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 196.16
+   },
+   {
+    "cnpj": "19848233000258",
+    "nome": "POSTO SANTA EDWIGES PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 143.43
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 276,
+   "total": 800929.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 80216.0,
+    "Despesa com geradores de energia": 2000.0,
+    "Despesas com pessoal": 669590.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 123.5,
+    "Serviços prestados por terceiros": 49000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

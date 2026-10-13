@@ -1,0 +1,621 @@
+{
+ "sq": "160002546846",
+ "nome_urna": "HUSSEIN BAKRI",
+ "cargo": "depest",
+ "uf": "PR",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 909141.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 7016.0,
+   "Recursos de partido político": 288025.0,
+   "Recursos de pessoas físicas": 538100.0,
+   "Recursos próprios": 76000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 800.0,
+   "OUTROS RECURSOS": 908341.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "14512048000193",
+    "nome": "Direção Estadual/Distrital - PSD - PARANÁ",
+    "total": 288025.0
+   },
+   {
+    "cnpj": "68464561000185",
+    "nome": "DARLAN SCALCO",
+    "total": 2475.0
+   },
+   {
+    "cnpj": "68455188000104",
+    "nome": "PEDRO DEBONI LUPION MELLO",
+    "total": 1881.0
+   },
+   {
+    "cnpj": "68455145000110",
+    "nome": "EDER EDUARDO BUBLITZ",
+    "total": 1547.5
+   },
+   {
+    "cnpj": "68464891000170",
+    "nome": "LEONALDO PARANHOS DA SILVA",
+    "total": 800.0
+   },
+   {
+    "cnpj": "68464876000122",
+    "nome": "HERALDO TRENTO",
+    "total": 312.5
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 34,
+   "total": 614100.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 973930.25,
+  "total_pago": 859047.85,
+  "fornecedores_pj": [
+   {
+    "cnpj": "41573886000140",
+    "nome": "GRAFICA BERNDT LTDA",
+    "cnae": "58239",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 44000.0
+   },
+   {
+    "cnpj": "11836758000180",
+    "nome": "ADRIANA ANDRETTA LTDA.",
+    "cnae": "47555",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 43700.0
+   },
+   {
+    "cnpj": "05142531000132",
+    "nome": "KNACK E SANTOS LTDA",
+    "cnae": "62091",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 42760.0
+   },
+   {
+    "cnpj": "00185002000100",
+    "nome": "GRAFICA LUMAR LTDA",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 37249.8
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 34200.0
+   },
+   {
+    "cnpj": "17980346000104",
+    "nome": "A MAIS COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26587.3
+   },
+   {
+    "cnpj": "35415607000117",
+    "nome": "ELENICE MURGANA POGOGELSKI",
+    "cnae": "49299",
+    "n_despesas": 5,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 24520.0
+   },
+   {
+    "cnpj": "84833227000108",
+    "nome": "PEDROSO NEGOCIOS IMOBILIARIOS LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "19008348000153",
+    "nome": "M. R. ILTCHECHEN CONTABILIDADE",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "81642308000132",
+    "nome": "AUTO POSTO IPIRANGA LTDA",
+    "cnae": "47318",
+    "n_despesas": 32,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9178.84
+   },
+   {
+    "cnpj": "28740492000170",
+    "nome": "SANTA CHIARA COMUNICACAO LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 8736.0
+   },
+   {
+    "cnpj": "02426701000112",
+    "nome": "GRAFICA EXECUTIVA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7800.0
+   },
+   {
+    "cnpj": "54206985000135",
+    "nome": "54.206.985 LUCAS FERREIRA",
+    "cnae": "74200",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7200.0
+   },
+   {
+    "cnpj": "79132932000148",
+    "nome": "J A COLLA E CIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6440.0
+   },
+   {
+    "cnpj": "81579633000106",
+    "nome": "P L RAMBO E CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 26,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5618.19
+   },
+   {
+    "cnpj": "59163376000160",
+    "nome": "BOMBARDELLI IMPRESSOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5150.4
+   },
+   {
+    "cnpj": "85057529000102",
+    "nome": "HELLOGRAF ARTES GRAFICAS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4725.0
+   },
+   {
+    "cnpj": "82494030000166",
+    "nome": "OKLAHOMA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 12,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3272.23
+   },
+   {
+    "cnpj": "76293547000194",
+    "nome": "SOCIEDADE CULTURAL E RECREATIVA LIRA",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3242.0
+   },
+   {
+    "cnpj": "77859080000160",
+    "nome": "GRAFICA LEX LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3099.0
+   },
+   {
+    "cnpj": "07143978000151",
+    "nome": "ZELORA SOLUCOES QUIMICAS E BIOLOGICAS LTDA",
+    "cnae": "20134",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "82326828000107",
+    "nome": "ECOVALE TRATAMENTO DE RESIDUOS URBANOS LTDA",
+    "cnae": "38114",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "04370488000108",
+    "nome": "PLURAL MARKETING, NEGOCIOS, IMPORTACAO, EXPORTACAO E COMERCIO LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2800.0
+   },
+   {
+    "cnpj": "09305717000116",
+    "nome": "PROMIX PRODUCOES E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "10495215001580",
+    "nome": "CENTER SUL COMERCIO E DISTRIBUICAO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2340.0
+   },
+   {
+    "cnpj": "40776796000193",
+    "nome": "40.776.796 ANDERSON LUCAS LEAL HILARIO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "12071586000164",
+    "nome": "CHISLENE DOS SANTOS",
+    "cnae": "47423",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1950.0
+   },
+   {
+    "cnpj": "78143674000132",
+    "nome": "POSTO POSECOL LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1834.97
+   },
+   {
+    "cnpj": "44849312000140",
+    "nome": "INLE COMERCIO DE MOVEIS GARDEN E MATERIAIS DE CONSTRUCAO LTDA",
+    "cnae": "47547",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "58511111000142",
+    "nome": "58.511.111 FABRICIO SCHEWINSKI",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "05613189000373",
+    "nome": "NELI REGINA PABIS",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "51782113000127",
+    "nome": "JOELCIO TADEU DE ANDRADE LTDA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1220.03
+   },
+   {
+    "cnpj": "78945870000120",
+    "nome": "GENOVEVA GADENS DUDZIAK LTDA",
+    "cnae": "47318",
+    "n_despesas": 9,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1215.8
+   },
+   {
+    "cnpj": "04365514000100",
+    "nome": "MARCOS EDI PAZINATO",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "52830136000122",
+    "nome": "SM MARINHO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1160.0
+   },
+   {
+    "cnpj": "04624998000156",
+    "nome": "ORLANDO JUAREZ TIBES",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 974.56
+   },
+   {
+    "cnpj": "19171497000139",
+    "nome": "LOUISE LUCCA CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "12497666000186",
+    "nome": "PRESTIGE COMERCIO ATACADISTA DE EMBALAGENS LTDA",
+    "cnae": "46869",
+    "n_despesas": 7,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 613.06
+   },
+   {
+    "cnpj": "82494030000328",
+    "nome": "OKLAHOMA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 601.09
+   },
+   {
+    "cnpj": "46296286000103",
+    "nome": "JULIANO GELINSKI",
+    "cnae": "43304",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "04368898000106",
+    "nome": "COPEL DISTRIBUICAO S.A.",
+    "cnae": "35140",
+    "n_despesas": 1,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 417.72
+   },
+   {
+    "cnpj": "04404625000170",
+    "nome": "HULLER LAZZERIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 391.8
+   },
+   {
+    "cnpj": "64085164000141",
+    "nome": "SAO MIGUEL 02 COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 352.4
+   },
+   {
+    "cnpj": "04991422000127",
+    "nome": "ANJOS PARAGUACU PECAS, ACESSORIOS E SERVICOS LTDA",
+    "cnae": "45307",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 350.0
+   },
+   {
+    "cnpj": "03111576000114",
+    "nome": "D.L. STACNY - LANCHONETE E RESTAURANTE",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 344.97
+   },
+   {
+    "cnpj": "05654856000102",
+    "nome": "AUTO POSTO TITAN LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 301.7
+   },
+   {
+    "cnpj": "81642308000213",
+    "nome": "AUTO POSTO IPIRANGA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 257.23
+   },
+   {
+    "cnpj": "12146615000100",
+    "nome": "A CASA DA INFORMATICA LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 250.0
+   },
+   {
+    "cnpj": "80038193000109",
+    "nome": "COMERCIO DE BATERIAS VARNIER LTDA",
+    "cnae": "45307",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 243.48
+   },
+   {
+    "cnpj": "95681953000179",
+    "nome": "ASSOCIACAO DE MORADORES DO CONJ RESIDENCIAL PANORAMA",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 150.0
+   },
+   {
+    "cnpj": "10495215000770",
+    "nome": "CENTER SUL COMERCIO E DISTRIBUICAO LTDA",
+    "cnae": "46397",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 129.36
+   },
+   {
+    "cnpj": "10495215001237",
+    "nome": "CENTER SUL COMERCIO E DISTRIBUICAO LTDA",
+    "cnae": "46397",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 69.86
+   },
+   {
+    "cnpj": "65649511000184",
+    "nome": "LIGGA SERVICOS EM TELECOM S.A.",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Telefone"
+    ],
+    "total": 14.18
+   },
+   {
+    "cnpj": "10495215000346",
+    "nome": "CENTER SUL COMERCIO E DISTRIBUICAO LTDA",
+    "cnae": "46397",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 10.99
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 319,
+   "total": 594758.29,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 535859.26,
+    "Cessão ou locação de veículos": 9500.0,
+    "Despesas com pessoal": 7755.53,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 43.5,
+    "Locação/cessão de bens imóveis": 41600.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,254 @@
+{
+ "sq": "110002547793",
+ "nome_urna": "DR. EUGÊNIO",
+ "cargo": "depest",
+ "uf": "MT",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 670705.6,
+  "por_origem": {
+   "Recursos de partido político": 426605.6,
+   "Recursos de pessoas físicas": 240100.0,
+   "Recursos próprios": 4000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "OUTROS RECURSOS": 470705.6
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "45943051000195",
+    "nome": "Direção Estadual/Distrital - UNIÃO - MATO GROSSO",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "09102673000127",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - MATO GROSSO",
+    "total": 26605.6
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 18,
+   "total": 244100.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 255304.64,
+  "total_pago": 296991.84,
+  "fornecedores_pj": [
+   {
+    "cnpj": "32367118000149",
+    "nome": "LEAO SERVICOS MEDICOS LTDA",
+    "cnae": "86305",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "15116557000160",
+    "nome": "CATULE PRODUCOES, PUBLICIDADES, NEWS, VIAGENS E SERVICOS LTDA",
+    "cnae": "63917",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "21944357000106",
+    "nome": "VASCONCELOS DE MORAES ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 13200.0
+   },
+   {
+    "cnpj": "10590296000100",
+    "nome": "AUTO POSTO MARTINI LTDA",
+    "cnae": "47318",
+    "n_despesas": 13,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10092.61
+   },
+   {
+    "cnpj": "46801211000124",
+    "nome": "SOUSA SANTANA CONSULTORIA E SERVICOS LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 8930.0
+   },
+   {
+    "cnpj": "21199784000107",
+    "nome": "LIGIA FERREIRA RODRIGUES",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 7475.0
+   },
+   {
+    "cnpj": "10547525000103",
+    "nome": "C. A. R. REBELATTO CIA. LTDA.",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 7050.0
+   },
+   {
+    "cnpj": "20544241000109",
+    "nome": "J V PORTO SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "07516047000151",
+    "nome": "CREUZA SOUZA SANTANA",
+    "cnae": "14118",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3060.0
+   },
+   {
+    "cnpj": "19138548000120",
+    "nome": "CENTRAL AR CONSTRUCOES E MAQUINAS LTDA",
+    "cnae": "33147",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2700.0
+   },
+   {
+    "cnpj": "14931018000111",
+    "nome": "GRAFICA MULTICOR LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2620.0
+   },
+   {
+    "cnpj": "26588921000100",
+    "nome": "FARIAS SANTOS FARIA ZAMPA LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1651.72
+   },
+   {
+    "cnpj": "51388930000103",
+    "nome": "G J DE MEDEIROS",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1337.92
+   },
+   {
+    "cnpj": "20140457000109",
+    "nome": "POSTO SERVE MAIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1208.6
+   },
+   {
+    "cnpj": "15052038000185",
+    "nome": "ASSOCIACAO COMERCIAL E EMPRESARIAL DE AGUA BOA",
+    "cnae": "94111",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "07418552000163",
+    "nome": "TIGRAO AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 865.76
+   },
+   {
+    "cnpj": "55511905000118",
+    "nome": "SMART OIL COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 547.53
+   },
+   {
+    "cnpj": "29350500000135",
+    "nome": "V. P. GEHM COMUNICACAO VISUAL",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 285.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 87,
+   "total": 128280.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 86241.0,
+    "Cessão ou locação de veículos": 15000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 39.5,
+    "Locação/cessão de bens imóveis": 12000.0,
+    "Serviços contábeis": 10000.0,
+    "Serviços prestados por terceiros": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

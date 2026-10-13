@@ -1,0 +1,810 @@
+{
+ "sq": "110002542640",
+ "nome_urna": "MAX RUSSI",
+ "cargo": "depest",
+ "uf": "MT",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1219829.87,
+  "por_origem": {
+   "Recursos de outros candidatos": 57685.1,
+   "Recursos de partido político": 532378.74,
+   "Recursos de pessoas físicas": 529766.03,
+   "Recursos próprios": 100000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 464349.5,
+   "FUNDO PARTIDARIO": 52546.84,
+   "OUTROS RECURSOS": 702933.53
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 450000.0
+   },
+   {
+    "cnpj": "30574060000189",
+    "nome": "Direção Estadual/Distrital - PODE - MATO GROSSO",
+    "total": 82378.74
+   },
+   {
+    "cnpj": "68456129000142",
+    "nome": "MARCOS ROBERTO LESSA RITELA",
+    "total": 57685.1
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 70,
+   "total": 629766.03
+  }
+ },
+ "despesas": {
+  "total_contratado": 843031.9,
+  "total_pago": 1009037.65,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 9,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 240000.0
+   },
+   {
+    "cnpj": "00320967000150",
+    "nome": "WDA TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 137005.0
+   },
+   {
+    "cnpj": "18146888000130",
+    "nome": "MUSIVA STAGE MUSIC LTDA",
+    "cnae": "93298",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 36750.0
+   },
+   {
+    "cnpj": "19627377000101",
+    "nome": "ALLEGRATUR AGENCIA DE VIAGENS E TURISMO LTDA",
+    "cnae": "49230",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 36300.0
+   },
+   {
+    "cnpj": "38265539000145",
+    "nome": "ERICK FERNANDES DO NASCIMENTO TAVARES",
+    "cnae": "61108",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 22005.0
+   },
+   {
+    "cnpj": "73783649000108",
+    "nome": "GRAFICA PRINT INDUSTRIA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21600.0
+   },
+   {
+    "cnpj": "10666611000127",
+    "nome": "MARCELO TAVARES LEMOS",
+    "cnae": "90019",
+    "n_despesas": 4,
+    "tipos": [
+     "Serviços prestados por terceiros",
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 17500.0
+   },
+   {
+    "cnpj": "54811858000165",
+    "nome": "54.811.858 JOAO VICTOR AQUINO DE SOUZA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "02869615000184",
+    "nome": "BOM CLIMA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 36,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 16788.37
+   },
+   {
+    "cnpj": "15558905000159",
+    "nome": "P A PROMOCOES E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "48699702000131",
+    "nome": "MB CONSULTORIA E ASSESSORIA POLITICA LTDA",
+    "cnae": "60101",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "49937721000111",
+    "nome": "RK SUPRIMENTOS E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14450.0
+   },
+   {
+    "cnpj": "11624357000167",
+    "nome": "PLACARTE COMERCIO E SERVICOS DE IMPRESSAO DIGITAL LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10500.0
+   },
+   {
+    "cnpj": "16938910000150",
+    "nome": "NSJC LOCACAO DE EQUIPAMENTOS PARA EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 4,
+    "tipos": [
+     "Comícios",
+     "Água"
+    ],
+    "total": 8767.2
+   },
+   {
+    "cnpj": "53385239000193",
+    "nome": "53.385.239 CHARLES LENNON RIBEIRO LIMA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4300.0
+   },
+   {
+    "cnpj": "50349710000108",
+    "nome": "50.349.710 LUZINETE BISPO DE ALMEIDA PEREIRA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 4200.0
+   },
+   {
+    "cnpj": "10317615000108",
+    "nome": "L. DE ARRUDA MACIEL JUNIOR",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "12750032000193",
+    "nome": "EURIPEDES DIVINO DE REZENDE",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "68132728000100",
+    "nome": "LZN CASA DE SHOW LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3300.0
+   },
+   {
+    "cnpj": "27153067000112",
+    "nome": "H M DO AMARAL E CIA LTDA",
+    "cnae": "47121",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros",
+     "Água"
+    ],
+    "total": 3006.0
+   },
+   {
+    "cnpj": "13056013000124",
+    "nome": "EMARANHAO PRODUCOES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "31358879000333",
+    "nome": "RIO NOVO ENCOMENDAS E CARGAS LTDA",
+    "cnae": "49302",
+    "n_despesas": 16,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2624.0
+   },
+   {
+    "cnpj": "24395182000105",
+    "nome": "CHIROLI UNIFORMES LTDA",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "67644903000186",
+    "nome": "67.644.903 JANECI RABAIOLI",
+    "cnae": "77233",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "32953905000172",
+    "nome": "TUBARAO INDUSTRIA COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2200.0
+   },
+   {
+    "cnpj": "86982790000173",
+    "nome": "CAPRIATA DE SOUZA LIMA SOUZA LIMA LTDA",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "12694918000167",
+    "nome": "WAGNER SANTOS SILVA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "18626541000195",
+    "nome": "MIX AGENCIA DE PUBLICIDADES LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "58824440000143",
+    "nome": "58.824.440 DARIO FERREIRA DOS SANTOS",
+    "cnae": "47563",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "59024181000139",
+    "nome": "VALDIRENE MACEDO BARBOZA LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "60867857000135",
+    "nome": "VN EMPREENDIMENTOS HOTELEIROS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "47825730000195",
+    "nome": "CLESIO ESTEVAO SPAGNOL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "36958262000100",
+    "nome": "RUSSI RUSSI LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1161.02
+   },
+   {
+    "cnpj": "61367647000140",
+    "nome": "JOSUE MIRANDA PRODUCOES LTDA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1140.0
+   },
+   {
+    "cnpj": "20986630001247",
+    "nome": "DIOCESE DE PRIMAVERA DO LESTE-PARANATINGA",
+    "cnae": "94910",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "02827159000100",
+    "nome": "CENTRO DE TRADICOES GAUCHA",
+    "cnae": "94936",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "36910164000101",
+    "nome": "ASSOC DOS SARGENTOS,SUBTENENTES E OFICIAIS ADMINISTRATIVO E ESPEC. DA POLICIA MILITAR E BOMBEIROS MILITAR ATIVOS E INATIVOS DE MT - ASSOADE",
+    "cnae": "94308",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "46828504000103",
+    "nome": "HELP VIDA PRONTO SOCORRO MOVEL DE CUIABA LTDA",
+    "cnae": "86101",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "60635774000110",
+    "nome": "60.635.774 GIOVANNA DAYANE DE SOUZA ISLER",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "59869474000117",
+    "nome": "PLACARTE MT COMERCIO E SERVICOS DE IMPRESSAO LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 880.0
+   },
+   {
+    "cnpj": "10528483000155",
+    "nome": "ILARIO CONVENIENCIA LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 870.0
+   },
+   {
+    "cnpj": "24595309000130",
+    "nome": "RAMON DE QUADROS HENRICONI",
+    "cnae": "47563",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "59706574000122",
+    "nome": "PEDRO LUCIO VIEIRA DE MORAES",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "67044223000121",
+    "nome": "LOJA MACONICA TEMPLO DE KARNAK N 125",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "68286550000152",
+    "nome": "68.286.550 PHABLO HENRIQUE SOARES PEREIRA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "36582602000141",
+    "nome": "F. R. DE OLIVEIRA SILVA LTDA",
+    "cnae": "47849",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 544.2
+   },
+   {
+    "cnpj": "00333815000192",
+    "nome": "ASSOCIACAO DOS OFICIAIS DA POLICIA E BOMBEIRO MILITAR DE MATO GROSSO",
+    "cnae": "93298",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "02003438000159",
+    "nome": "SINDICATO DOS AGENTES DE REGULACAO E FISCALIZACAO DO MUNICIPIO DE CUIABA",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "55127470000102",
+    "nome": "55.127.470 ADRIANO JOSE DA SILVA",
+    "cnae": "45412",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "17995625000133",
+    "nome": "SENHORA MERCES ANTUNES DE SOUZA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 480.0
+   },
+   {
+    "cnpj": "00358143000170",
+    "nome": "LISBOA HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 475.0
+   },
+   {
+    "cnpj": "27691228000121",
+    "nome": "MARCOS ANTONIO ALVES DE FREITAS",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 450.0
+   },
+   {
+    "cnpj": "86915048000145",
+    "nome": "COMERCIAL DE COMBUSTIVEIS NORTELANDIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 448.11
+   },
+   {
+    "cnpj": "00724402000139",
+    "nome": "HOTEL TOQUINHO LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 420.0
+   },
+   {
+    "cnpj": "09416328000168",
+    "nome": "BUSINESS CONSULT - CONSULTORIA DE NEGOCIOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "11234890000112",
+    "nome": "ASSOCIACAO RECREATIVA PURISSIMA",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "15037559000163",
+    "nome": "ASSOCIACAO DOS MORADORES DO BAIRRO COOPHAMIL - AMBC",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "18078356000103",
+    "nome": "ASSOCIACAO DESPORTIVA VETERANOS DE PARANATINGA",
+    "cnae": "93191",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "23318847000114",
+    "nome": "ASSOCIACAO CUIDA BEM DE MIM",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "33388415000133",
+    "nome": "ASSOCIACAO DOS PEQUENOS PRODUTORES RURAIS MONTE SINAI",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "37466349000123",
+    "nome": "ASSOCIACAO DOS CABOS E SOLDADOS DA POLICIA MILITAR E BOMBEIRO MILITAR DO ESTADO DE MATO GROSSO",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "39528324000132",
+    "nome": "JOACIR TORQUATO ESTACIO",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "40580343000197",
+    "nome": "GILMARA DA SILVA MARTINS LTDA",
+    "cnae": "96025",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "55753480000153",
+    "nome": "HELEM G BARROS RESTAURANTE E MERCEARIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "04017029000137",
+    "nome": "VIACAO JUINA LTDA - EM RECUPERACAO JUDICIAL",
+    "cnae": "49302",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 359.68
+   },
+   {
+    "cnpj": "61685803000111",
+    "nome": "61.685.803 PAULO RICARDO DE ARAUJO",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 320.0
+   },
+   {
+    "cnpj": "02696482000353",
+    "nome": "JSJ COMERCIO ATACADISTA DE PRODUTOS ALIMENTICIOS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 316.8
+   },
+   {
+    "cnpj": "09318538000113",
+    "nome": "09.318.538 IVAN DA SILVA BARBOSA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "13166249000113",
+    "nome": "BF PRODUCOES LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "06057223055740",
+    "nome": "SENDAS DISTRIBUIDORA S/A",
+    "cnae": "47113",
+    "n_despesas": 3,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 128.49
+   },
+   {
+    "cnpj": "76080738001735",
+    "nome": "EUCATUR-EMPRESA UNIAO CASCAVEL DE TRANSPORTES E TURISMO LTDA",
+    "cnae": "79902",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 121.54
+   },
+   {
+    "cnpj": "49946584000181",
+    "nome": "G. O. L. SOBRINHO",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 120.0
+   },
+   {
+    "cnpj": "08459768000130",
+    "nome": "V CONCEICAO SILVA CIA LTDA",
+    "cnae": "47130",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 14.6
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 97,
+   "total": 162486.89,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 49923.0,
+    "Cessão ou locação de veículos": 10300.0,
+    "Despesas com pessoal": 42619.39,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 124.5,
+    "Locação/cessão de bens imóveis": 6620.0,
+    "Serviços contábeis": 35000.0,
+    "Serviços prestados por terceiros": 17900.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

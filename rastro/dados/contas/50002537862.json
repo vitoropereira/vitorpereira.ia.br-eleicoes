@@ -1,0 +1,151 @@
+{
+ "sq": "50002537862",
+ "nome_urna": "NEUSA CADORE",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 763825.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 325.0,
+   "Recursos de partido político": 710000.0,
+   "Recursos de pessoas físicas": 33500.0,
+   "Recursos próprios": 20000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 710325.0,
+   "OUTROS RECURSOS": 53500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 710000.0
+   },
+   {
+    "cnpj": "68430190000110",
+    "nome": "VALMIR CARLOS DA ASSUNCAO",
+    "total": 325.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 53500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 337591.94,
+  "total_pago": 316354.17,
+  "fornecedores_pj": [
+   {
+    "cnpj": "52617136000149",
+    "nome": "52.617.136 MARCOS PEREIRA DA SILVA JUNIOR",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27500.0
+   },
+   {
+    "cnpj": "62792117000102",
+    "nome": "ALGRAF COMERCIO E SERVICOS GRAFICOS EDITORA LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "27928677000140",
+    "nome": "BELO IMPRESSOES GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 15502.7
+   },
+   {
+    "cnpj": "46439622000111",
+    "nome": "FEIRA BANDEIRAS E IMPRESSOS LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 14500.0
+   },
+   {
+    "cnpj": "04821551000177",
+    "nome": "SPEED WAY - LOCADORA DE AUTOMOVEIS LTDA.",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12916.88
+   },
+   {
+    "cnpj": "21631760000177",
+    "nome": "LUMEN COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3900.0
+   },
+   {
+    "cnpj": "03564673000162",
+    "nome": "ROMILDO PEDREIRA DE ALMEIDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3743.86
+   },
+   {
+    "cnpj": "02707872000110",
+    "nome": "AUTO POSTO GRANDE RIO LTDA - EM RECUPERACAO JUDICIAL",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "03109446000147",
+    "nome": "MULTIPLA- COMERCIO E SERVICOS PARA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 450.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 36,
+   "total": 234578.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 33000.0,
+    "Despesas com pessoal": 179500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 78.5,
+    "Locação/cessão de bens imóveis": 12500.0,
+    "Serviços advocatícios": 6500.0,
+    "Serviços contábeis": 3000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

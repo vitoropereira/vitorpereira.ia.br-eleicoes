@@ -1,0 +1,392 @@
+{
+ "sq": "130002542058",
+ "nome_urna": "VITTORIO MEDIOLI",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1198459.6,
+  "por_origem": {
+   "Recursos de outros candidatos": 11000.0,
+   "Recursos de partido político": 10127.9,
+   "Recursos de pessoas físicas": 1057330.0,
+   "Recursos próprios": 120001.7
+  },
+  "por_fonte": {
+   "FUNDO PARTIDARIO": 11877.9,
+   "OUTROS RECURSOS": 1186581.7
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08691904000112",
+    "nome": "Direção Estadual/Distrital - PL - MINAS GERAIS",
+    "total": 10127.9
+   },
+   {
+    "cnpj": "68464899000137",
+    "nome": "FABIO AUGUSTO RAMALHO DOS SANTOS",
+    "total": 7500.0
+   },
+   {
+    "cnpj": "68464921000149",
+    "nome": "CLAUDIA ARAUJO ROMUALDO",
+    "total": 1750.0
+   },
+   {
+    "cnpj": "68468100000180",
+    "nome": "IGOR TARCIANO TIMO",
+    "total": 1750.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 19,
+   "total": 1177331.7
+  }
+ },
+ "despesas": {
+  "total_contratado": 959708.69,
+  "total_pago": 1155165.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 113000.0
+   },
+   {
+    "cnpj": "26198515000484",
+    "nome": "SEMPRE EDITORA LTDA",
+    "cnae": "58221",
+    "n_despesas": 26,
+    "tipos": [
+     "Publicidade por jornais e revistas",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 107230.0
+   },
+   {
+    "cnpj": "45000886000101",
+    "nome": "VT8 MARKETING DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "24989958000115",
+    "nome": "DIAS ROCHA CIA LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "51433859000125",
+    "nome": "GMC COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 33000.0
+   },
+   {
+    "cnpj": "52256134000171",
+    "nome": "LETICIA LACERDA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "10715007000143",
+    "nome": "VIASUPER DISTRIBUIDORA DE PERIODICOS LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 24080.0
+   },
+   {
+    "cnpj": "01638944000151",
+    "nome": "PENTAGONO CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "01015513000139",
+    "nome": "MACAV PROMOCOES LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 17350.0
+   },
+   {
+    "cnpj": "36524598000165",
+    "nome": "POSTO DE COMBUSTIVEIS VILA PIRATA LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 14807.48
+   },
+   {
+    "cnpj": "09236122000156",
+    "nome": "WG AUDIO VIDEO LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "42455219000125",
+    "nome": "RONALDO DA SILVEIRA JUNIOR",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "64204416000104",
+    "nome": "GMP PUBLICIDADE E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 11900.0
+   },
+   {
+    "cnpj": "36084040000106",
+    "nome": "36.084.040 DIEGO OLIVEIRA E SILVA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 9600.0
+   },
+   {
+    "cnpj": "37759247000104",
+    "nome": "POSTO DE COMBUSTIVEIS VILA COYOTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 8663.24
+   },
+   {
+    "cnpj": "31958792000135",
+    "nome": "DV COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7020.0
+   },
+   {
+    "cnpj": "32928823000178",
+    "nome": "32.928.823 CLAUDIANO RIBEIRO DINIZ",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 6850.0
+   },
+   {
+    "cnpj": "30507312000157",
+    "nome": "SIRLENE FERNANDES DA SILVA",
+    "cnae": "56112",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 6640.0
+   },
+   {
+    "cnpj": "05948719000172",
+    "nome": "ESCRITORIOS VICENTE ARAUJO ADMINISTRACAO E VENDA DE IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "09510381000123",
+    "nome": "DHD IMOVEIS E CONSERVADORA LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "07069828000145",
+    "nome": "POWER LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4100.0
+   },
+   {
+    "cnpj": "36183500000153",
+    "nome": "36.183.500 INARAH NAIA SAMPAIO MACHADO",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com geradores de energia"
+    ],
+    "total": 3100.0
+   },
+   {
+    "cnpj": "52739010000147",
+    "nome": "52.739.010 ALICE ARAUJO DE ASSUNCAO",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "45160952000100",
+    "nome": "45.160.952 LUCAS LIMA DA ROSA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2230.0
+   },
+   {
+    "cnpj": "59123701000160",
+    "nome": "59.123.701 JOSE JOAQUIM DE BRITO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Segurança e prevenção, repressão e combate à violência política"
+    ],
+    "total": 1350.0
+   },
+   {
+    "cnpj": "24727078000170",
+    "nome": "DAGMAR FERNANDES SILVA",
+    "cnae": "96092",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 1300.0
+   },
+   {
+    "cnpj": "28584840000168",
+    "nome": "28.584.840 TIAGO HENRIQUE DE SOUZA RABELO",
+    "cnae": "82997",
+    "n_despesas": 3,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1300.0
+   },
+   {
+    "cnpj": "27919420000122",
+    "nome": "AUGUSTO PROJETOS LTDA",
+    "cnae": "43223",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "62231627000100",
+    "nome": "GRAFICA COMPLETA PRINT LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "05016579000102",
+    "nome": "SJ SANTOS LTDA",
+    "cnae": "47237",
+    "n_despesas": 3,
+    "tipos": [
+     "Água"
+    ],
+    "total": 780.0
+   },
+   {
+    "cnpj": "50769016000131",
+    "nome": "50.769.016 LUCELIA CARDOSO FINAMORE DE SOUZA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "24783329000134",
+    "nome": "QUALITYCERT CERTIFICACAO LTDA",
+    "cnae": "62091",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 185.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 178,
+   "total": 379122.97,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 157575.97,
+    "Cessão ou locação de veículos": 83250.0,
+    "Despesas com pessoal": 121540.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 7.0,
+    "Serviços prestados por terceiros": 6750.0,
+    "Serviços próprios prestados por terceiros": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

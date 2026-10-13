@@ -1,0 +1,271 @@
+{
+ "sq": "160002547648",
+ "nome_urna": "DELEGADA TATHIANA GUZELLA",
+ "cargo": "depest",
+ "uf": "PR",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 932701.0,
+  "por_origem": {
+   "Recursos de partido político": 910680.0,
+   "Recursos de pessoas físicas": 17000.0,
+   "Recursos próprios": 5021.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 900000.0,
+   "FUNDO PARTIDARIO": 10680.0,
+   "OUTROS RECURSOS": 22021.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 900000.0
+   },
+   {
+    "cnpj": "08730637000145",
+    "nome": "Direção Estadual/Distrital - PL - PARANÁ",
+    "total": 10680.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 13,
+   "total": 22021.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 501550.72,
+  "total_pago": 199901.94,
+  "fornecedores_pj": [
+   {
+    "cnpj": "34498651000175",
+    "nome": "HM DIVULGACOES LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 257600.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "35071268000107",
+    "nome": "PECCININ ALESSI - SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "22059574000178",
+    "nome": "JUAREZ MIGUEL DA SILVA - CONTABILIDADE E CONSULTORIA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "10199730000117",
+    "nome": "KNR IMPRESSOES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Materiais de expediente",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9750.0
+   },
+   {
+    "cnpj": "03214629000122",
+    "nome": "RPK GESTAO E ADMINISTRACAO DE PROPRIEDADE IMOBILIARIA LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "81713836000135",
+    "nome": "GRAFICA EXPRESS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4416.0
+   },
+   {
+    "cnpj": "77637684000161",
+    "nome": "COTRANS LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "80530686000161",
+    "nome": "PANIFICADORA ECONOBOX LTDA",
+    "cnae": "10911",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1371.9
+   },
+   {
+    "cnpj": "60525617000152",
+    "nome": "60.525.617 JUCELIA SAQUETO NUNES",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1166.1
+   },
+   {
+    "cnpj": "28587783000170",
+    "nome": "LANCHONETE BOLA GRIL LTDA",
+    "cnae": "56112",
+    "n_despesas": 5,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 424.5
+   },
+   {
+    "cnpj": "62447916000141",
+    "nome": "POSTO TIO ZICO REBOUCAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 410.19
+   },
+   {
+    "cnpj": "50599090000157",
+    "nome": "PVH PETRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 345.49
+   },
+   {
+    "cnpj": "85495497000119",
+    "nome": "PEDRO ENIO MAGALHAES TELES",
+    "cnae": "47237",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente",
+     "Água"
+    ],
+    "total": 153.0
+   },
+   {
+    "cnpj": "78413325001912",
+    "nome": "SUPERMERCADO JACOMAR LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 150.0
+   },
+   {
+    "cnpj": "37295717000118",
+    "nome": "CAETANO PLASTICOS EMBALAGENS LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 81.4
+   },
+   {
+    "cnpj": "24517509000174",
+    "nome": "24.517.509 ARACI DA SILVA BORCATTE DE ALMEIDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 66.0
+   },
+   {
+    "cnpj": "93209765048152",
+    "nome": "WMS SUPERMERCADOS DO BRASIL LTDA.",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 65.4
+   },
+   {
+    "cnpj": "76189406002927",
+    "nome": "CONDOR SUPER CENTER LTDA",
+    "cnae": "47113",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação",
+     "Diversas a especificar"
+    ],
+    "total": 26.89
+   },
+   {
+    "cnpj": "41792255000111",
+    "nome": "CWB INFOCEL BRINDES E IMPRESSOS LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 10.78
+   },
+   {
+    "cnpj": "39544938000108",
+    "nome": "POSTO SAO LOURENCO M7 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5.57
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 25,
+   "total": 113107.5,
+   "por_tipo": {
+    "Despesas com pessoal": 113100.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 7.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

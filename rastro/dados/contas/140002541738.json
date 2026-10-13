@@ -1,0 +1,136 @@
+{
+ "sq": "140002541738",
+ "nome_urna": "NENEM ALBUQUERQUE",
+ "cargo": "depest",
+ "uf": "PA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 949320.33,
+  "por_origem": {
+   "Recursos de outros candidatos": 143820.33,
+   "Recursos de partido político": 775000.0,
+   "Recursos de pessoas físicas": 26000.0,
+   "Recursos próprios": 4500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 916814.33,
+   "OUTROS RECURSOS": 32506.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 775000.0
+   },
+   {
+    "cnpj": "68455973000159",
+    "nome": "RENILCE CONCEICAO NICODEMOS DE ALBUQUERQUE",
+    "total": 143820.33
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 30500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 127201.5,
+  "total_pago": 81551.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "37796670000176",
+    "nome": "PRODUTORA DE CONTEUDO CONTEUDO PLAY LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "22473510000119",
+    "nome": "P C BRASIL COMERCIO E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 19600.0
+   },
+   {
+    "cnpj": "45002882000162",
+    "nome": "MARCOS SOUZA SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "58630862000188",
+    "nome": "D DOS P DA SILVA CONSULTORIA E AUDITORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "45916742000108",
+    "nome": "45.916.742 EDILSON JOSE CASTRO SILVA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "24902119000118",
+    "nome": "POSTO PIT STOP DUQUE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "64090989000154",
+    "nome": "C B RIBEIRO COMERCIO E SERVICO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "17940670000190",
+    "nome": "C. KZAN",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1100.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 3001.5,
+   "por_tipo": {
+    "Despesas com pessoal": 3000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

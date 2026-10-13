@@ -1,0 +1,220 @@
+{
+ "sq": "170002533338",
+ "nome_urna": "JOÃO PAULO DO PT",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 613908.71,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 14862.0,
+   "Recursos de partido político": 250000.0,
+   "Recursos de pessoas físicas": 227584.73,
+   "Recursos próprios": 121461.98
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 250000.0,
+   "OUTROS RECURSOS": 363908.71
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 250000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 14862.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 26,
+   "total": 349046.71
+  }
+ },
+ "despesas": {
+  "total_contratado": 575225.21,
+  "total_pago": 603408.71,
+  "fornecedores_pj": [
+   {
+    "cnpj": "00758606000190",
+    "nome": "MXM GRAFICA E EMBALAGENS LTDA",
+    "cnae": "17311",
+    "n_despesas": 13,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 130950.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 82000.0
+   },
+   {
+    "cnpj": "09798307000154",
+    "nome": "SERVICAR S/A",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 52251.25
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "03892344000140",
+    "nome": "MALHARIA ATLANTICO LTDA",
+    "cnae": "14126",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17694.5
+   },
+   {
+    "cnpj": "36310408000107",
+    "nome": "ANNE CABRAL ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "65234383000108",
+    "nome": "65.234.383 DANILO LOPES DA ROCHA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 14134.0
+   },
+   {
+    "cnpj": "10798130000175",
+    "nome": "EDITORA JORNAL DO COMMERCIO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 8000.52
+   },
+   {
+    "cnpj": "44669528000123",
+    "nome": "MARIO ANTONIO M DOS SANTOS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "47536085000190",
+    "nome": "47.536.085 RAFAEL FIGUEIREDO ANDRADE",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3726.0
+   },
+   {
+    "cnpj": "40495477000100",
+    "nome": "DJ COMUNICACAO E PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3432.0
+   },
+   {
+    "cnpj": "56047306000158",
+    "nome": "INOVE PUBLICIDADE E PROPAGANDA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3132.5
+   },
+   {
+    "cnpj": "50303161000122",
+    "nome": "50.303.161 ANDERSON FERNANDO DA SILVA COSTA",
+    "cnae": "58191",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1245.0
+   },
+   {
+    "cnpj": "52428823000116",
+    "nome": "ZIP SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 560.0
+   },
+   {
+    "cnpj": "28769416000198",
+    "nome": "RODRIGO DE LIMA FERREIRA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 510.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 327.94
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 54,
+   "total": 216761.5,
+   "por_tipo": {
+    "Despesas com pessoal": 165721.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 40.5,
+    "Locação/cessão de bens imóveis": 40000.0,
+    "Serviços contábeis": 11000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

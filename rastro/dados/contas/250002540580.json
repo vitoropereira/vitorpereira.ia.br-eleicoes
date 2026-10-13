@@ -1,0 +1,376 @@
+{
+ "sq": "250002540580",
+ "nome_urna": "BARROS MUNHOZ",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1148407.41,
+  "por_origem": {
+   "Recursos de partido político": 1007407.41,
+   "Recursos de pessoas físicas": 141000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 680000.0,
+   "OUTROS RECURSOS": 468407.41
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 980000.0
+   },
+   {
+    "cnpj": "14567904000108",
+    "nome": "Direção Estadual/Distrital - PSD - SÃO PAULO",
+    "total": 27407.41
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 141000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1085245.89,
+  "total_pago": 664765.19,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 117688.91
+   },
+   {
+    "cnpj": "22317550000171",
+    "nome": "M DESIGNER CITY LTDA",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 36000.0
+   },
+   {
+    "cnpj": "51847516000107",
+    "nome": "VOLARE IMPRESSAO TEXTIL LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 29700.0
+   },
+   {
+    "cnpj": "28525744000149",
+    "nome": "IDALINA ZANETTI MOREIRA",
+    "cnae": "58298",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 29387.5
+   },
+   {
+    "cnpj": "15440892000119",
+    "nome": "ALEIXO COSTA SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "08189639000179",
+    "nome": "EDITORA E GRAFICA MARRECO LTDA",
+    "cnae": "18130",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22010.0
+   },
+   {
+    "cnpj": "04105606000142",
+    "nome": "PRINT MIXX COMERCIO DE CONFECCAO E COMUNICACAO VISUAL LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12400.0
+   },
+   {
+    "cnpj": "68457294000119",
+    "nome": "CERES ASSESSORIA E GESTAO LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "35174571000127",
+    "nome": "GARCIA SOM E ILUMINACAO LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 10500.0
+   },
+   {
+    "cnpj": "61192522000984",
+    "nome": "BIGNARDI - INDUSTRIA E COMERCIO DE PAPEIS E ARTEFATOS LTDA.",
+    "cnae": "46478",
+    "n_despesas": 4,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 10072.65
+   },
+   {
+    "cnpj": "00011835000147",
+    "nome": "TUTOIA EXPRESS SERVICOS POSTAIS LTDA",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 8801.99
+   },
+   {
+    "cnpj": "46236318000177",
+    "nome": "ALEXANDRE DO PRADO",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "51918555000158",
+    "nome": "GAZETA GUACUANA - EMPRESA JORNALISTICA LTDA",
+    "cnae": "58123",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "10874437000108",
+    "nome": "DEZ POSTAGENS LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 7319.35
+   },
+   {
+    "cnpj": "53164155000120",
+    "nome": "53.164.155 MAURICIO FERNANDES VENDITO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "57824428000176",
+    "nome": "FULL PRINT GRAF LTDA",
+    "cnae": "58212",
+    "n_despesas": 3,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 4950.8
+   },
+   {
+    "cnpj": "34546954000116",
+    "nome": "F J A DE MAGALHAES EDITORA DE JORNAIS",
+    "cnae": "58123",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "03474253000195",
+    "nome": "A C VICENZOTTI PUBLICIDADE",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3710.0
+   },
+   {
+    "cnpj": "08142850000136",
+    "nome": "WBL GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3273.99
+   },
+   {
+    "cnpj": "22676559000179",
+    "nome": "ELAINE JUNQUEIRA DE LIMA SILVA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "24974564000193",
+    "nome": "DOMEVIT NEGOCIOS CIVIS, MERCANTIS, PRESTACAO DE SERVICOS E PARTICIPACOES LTDA.",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "50688243000132",
+    "nome": "50.688.243 MATHEUS MARTINS CORREA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2925.0
+   },
+   {
+    "cnpj": "29371505000144",
+    "nome": "29.371.505 JAQUELINE AMORIELES ROSA FONSECA",
+    "cnae": "73190",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2600.0
+   },
+   {
+    "cnpj": "02789797000183",
+    "nome": "HERCULES CHAVEIROS E COMUNICACAO VISUAL LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "49485852000105",
+    "nome": "LN IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "27665153000104",
+    "nome": "27.665.153 DJANIRA MATILE SILVEIRA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "05857481000170",
+    "nome": "EDITORA GAZETA VGS LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1620.0
+   },
+   {
+    "cnpj": "02552439000152",
+    "nome": "JORNAL TRIBUNA DE ITAPIRA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "25147164000177",
+    "nome": "A. C. M. CASSIANO DANTAS",
+    "cnae": "58123",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1350.0
+   },
+   {
+    "cnpj": "48982485000192",
+    "nome": "EU VOCE CAMISETAS ETIQUETAS E UNIFORMES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 765.0
+   },
+   {
+    "cnpj": "44849511000158",
+    "nome": "JORNAL O MUNICIPIO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 760.0
+   },
+   {
+    "cnpj": "59895748000142",
+    "nome": "GAZETA DO RIO PARDO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 450.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 308,
+   "total": 703160.7,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 87000.0,
+    "Despesas com pessoal": 604548.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 312.7,
+    "Locação/cessão de bens imóveis": 11300.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

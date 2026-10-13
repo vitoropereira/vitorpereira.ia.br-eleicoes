@@ -1,0 +1,135 @@
+{
+ "sq": "140002544268",
+ "nome_urna": "ALEXANDRE GOMES",
+ "cargo": "depest",
+ "uf": "PA",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 83900.08,
+  "por_origem": {
+   "Recursos próprios": 83900.08
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 83900.08
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 83900.08
+  }
+ },
+ "despesas": {
+  "total_contratado": 198981.45,
+  "total_pago": 58733.59,
+  "fornecedores_pj": [
+   {
+    "cnpj": "65179654000170",
+    "nome": "PRINT SPORTS LTDA",
+    "cnae": "47636",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 42000.0
+   },
+   {
+    "cnpj": "60729512000115",
+    "nome": "POSTO CRISTO LTDA.",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 31445.15
+   },
+   {
+    "cnpj": "43099933000190",
+    "nome": "ACD GRAFICA LTDA",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 28000.0
+   },
+   {
+    "cnpj": "25353373000177",
+    "nome": "PEGADA SERVICOS DE SOM, IMAGEM E TECNOLOGIA LTDA",
+    "cnae": "90019",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 19000.0
+   },
+   {
+    "cnpj": "54031031000139",
+    "nome": "ULTRA PRINT IMPRESSAO DIGITAL E SUBLIMACAO LTDA.",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "20933874000109",
+    "nome": "AMARAL VALERIO E NUNES LTDA",
+    "cnae": "79112",
+    "n_despesas": 2,
+    "tipos": [
+     "Passagem Aérea"
+    ],
+    "total": 6242.3
+   },
+   {
+    "cnpj": "05067137000187",
+    "nome": "ASSOCIACAO DOS CRONISTAS E LOCUTORES ESPORTIVOS DO PARA",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "68671292000128",
+    "nome": "68.671.292 LUCIO JORGE CHAGAS DO CARMO",
+    "cnae": "77390",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente",
+     "Água"
+    ],
+    "total": 1794.0
+   },
+   {
+    "cnpj": "68560799000104",
+    "nome": "GD GROUP LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1100.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 46,
+   "total": 55400.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 22500.0,
+    "Cessão ou locação de veículos": 18400.0,
+    "Despesas com pessoal": 8500.0,
+    "Produção de jingles, vinhetas e slogans": 2000.0,
+    "Serviços prestados por terceiros": 4000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

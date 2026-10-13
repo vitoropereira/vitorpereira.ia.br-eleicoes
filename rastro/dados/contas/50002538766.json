@@ -1,0 +1,366 @@
+{
+ "sq": "50002538766",
+ "nome_urna": "DANIEL",
+ "cargo": "depfed",
+ "uf": "BA",
+ "partido": "PCDOB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3087526.8,
+  "por_origem": {
+   "Recursos de partido político": 2639626.8,
+   "Recursos de pessoas físicas": 447900.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2065000.0,
+   "FUNDO PARTIDARIO": 490300.0,
+   "OUTROS RECURSOS": 532226.8
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "54956495000156",
+    "nome": "Direção Nacional - PCDOB",
+    "total": 2499626.8
+   },
+   {
+    "cnpj": "13758016000100",
+    "nome": "Direção Estadual/Distrital - PCDOB - BAHIA",
+    "total": 140000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 20,
+   "total": 447900.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1949815.26,
+  "total_pago": 1987344.48,
+  "fornecedores_pj": [
+   {
+    "cnpj": "68430603000167",
+    "nome": "CRISOSTOMO ANTONIO LIMA",
+    "cnae": "94928",
+    "n_despesas": 5,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 126000.0
+   },
+   {
+    "cnpj": "67231828000121",
+    "nome": "IBAHEM - INDÚSTRIA BAHIANA DE EMBALAGENS E GRÁFICA LTDA",
+    "cnae": "17311",
+    "n_despesas": 4,
+    "tipos": [
+     "Materiais de expediente",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 51650.0
+   },
+   {
+    "cnpj": "10507726000179",
+    "nome": "CPJ BRASIL CONTABILIDADE E CONSULTORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "23412180000114",
+    "nome": "EXACT INDUSTRIA E SERVICOS DE EMBALAGENS E ROTULOS LTDA",
+    "cnae": "17311",
+    "n_despesas": 11,
+    "tipos": [
+     "Materiais de expediente",
+     "Publicidade por adesivos"
+    ],
+    "total": 40750.01
+   },
+   {
+    "cnpj": "54327775000103",
+    "nome": "54.327.775 - CRUSI COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "44895344000181",
+    "nome": "44.895.344 TIAGO DE ARAUJO PEREIRA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68430274000154",
+    "nome": "JOAO FELIPE DE MELO LACERDA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "55698388000138",
+    "nome": "55.698.388 RAFAEL LUCAS COSTA LIMA OLIVEIRA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "63243927000172",
+    "nome": "ANAIDE MARIA CARNEIRO NOGUEIRA LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 11235.0
+   },
+   {
+    "cnpj": "05770290000176",
+    "nome": "GENSA - GRAFICA E EDITORA NOSSA SENHORA APARECIDA LTDA",
+    "cnae": "18229",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10005.0
+   },
+   {
+    "cnpj": "08628879000122",
+    "nome": "PATRIMONIAL DA COSTA LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "46963144000144",
+    "nome": "BRAUNAS FILMES E COMUNICACAO LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "64283442000175",
+    "nome": "64.283.442 PAULA EDUARDA DE ARAUJO SANTOS",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7600.0
+   },
+   {
+    "cnpj": "64010987000108",
+    "nome": "64.010.987 DAVID SIMAS DA SILVA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "65278907000162",
+    "nome": "65.278.907 RAFAEL DOS SANTOS RIBEIRO",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "44406456000121",
+    "nome": "44.406.456 DANILO JOSE SILVA GUIMARAES",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 4200.0
+   },
+   {
+    "cnpj": "04604874000109",
+    "nome": "STAMPMART - SERVICO DE MARKETING LTDA",
+    "cnae": "18211",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3955.0
+   },
+   {
+    "cnpj": "13653928000117",
+    "nome": "INDUSTRIA GRAFICA E EDITORA IRMAOS RIBEIRO LTDA",
+    "cnae": "58298",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3590.0
+   },
+   {
+    "cnpj": "28244624000173",
+    "nome": "HAVOK COMUNICAÇÃO, MARKETING, MIDIA E PRODUÇÕES LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "62906314000105",
+    "nome": "CARLOS AUGUSTO COSTA DOS SANTOS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "32958840000158",
+    "nome": "HERNANDES DE SÁ TELES NASCIMENTO",
+    "cnae": "43291",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2700.0
+   },
+   {
+    "cnpj": "05923766000161",
+    "nome": "CATAVENTO SOLUÇÕES EMPRESARIAIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2290.0
+   },
+   {
+    "cnpj": "46439622000111",
+    "nome": "FEIRA BANDEIRAS E IMPRESSOS LTDA",
+    "cnae": "17419",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2249.76
+   },
+   {
+    "cnpj": "08543475000136",
+    "nome": "ALUGUE TUDO EVENTOS LTDA",
+    "cnae": "46494",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1640.0
+   },
+   {
+    "cnpj": "54191650000190",
+    "nome": "JSP MERCADO LTDA",
+    "cnae": "47121",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação",
+     "Água"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "13799101000116",
+    "nome": "J A SOBRAL amp CIA LTDA - BONOCO",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 479.11
+   },
+   {
+    "cnpj": "07014198000969",
+    "nome": "ATACADAO DO PAPEL LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 137.4
+   },
+   {
+    "cnpj": "30842345000153",
+    "nome": "VONO TECNOLOGIA LTDA",
+    "cnae": "61906",
+    "n_despesas": 2,
+    "tipos": [
+     "Telefone"
+    ],
+    "total": 79.8
+   },
+   {
+    "cnpj": "07014198000373",
+    "nome": "ATACADAO DO PAPEL LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1.54
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 289,
+   "total": 1487852.64,
+   "por_tipo": {
+    "Alimentação": 33732.0,
+    "Atividades de militância e mobilização de rua": 1344269.48,
+    "Cessão ou locação de veículos": 44000.0,
+    "Despesas com pessoal": 53117.64,
+    "Despesas com transporte ou deslocamento": 12176.52,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 557.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

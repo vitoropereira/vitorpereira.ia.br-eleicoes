@@ -1,0 +1,200 @@
+{
+ "sq": "240002539977",
+ "nome_urna": "ANA CAMPAGNOLO",
+ "cargo": "depest",
+ "uf": "SC",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1271200.01,
+  "por_origem": {
+   "Recursos de partido político": 1250000.0,
+   "Recursos de pessoas físicas": 21200.01
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1250000.0,
+   "OUTROS RECURSOS": 21200.01
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1250000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 21200.01
+  }
+ },
+ "despesas": {
+  "total_contratado": 616452.73,
+  "total_pago": 552517.33,
+  "fornecedores_pj": [
+   {
+    "cnpj": "01463241000130",
+    "nome": "KARMANN AFG LTDA",
+    "cnae": "47610",
+    "n_despesas": 13,
+    "tipos": [
+     "Correspondências e despesas postais",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 188956.0
+   },
+   {
+    "cnpj": "49479417000178",
+    "nome": "BERNARDI WANDERLINDE ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 125000.0
+   },
+   {
+    "cnpj": "29937484000181",
+    "nome": "TARGET GESTAO ESTRATEGICA E EVENTOS LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "26072726000123",
+    "nome": "OS MICHELATO S LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 63448.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 55000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "24658582000166",
+    "nome": "ROGERIO JOSE PEIXER JUNIOR",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "73881997000100",
+    "nome": "VIRTUAL SERVICOS POSTAIS LTDA",
+    "cnae": "53105",
+    "n_despesas": 12,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 16030.63
+   },
+   {
+    "cnpj": "06186657000171",
+    "nome": "Z IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7300.0
+   },
+   {
+    "cnpj": "50476038000103",
+    "nome": "FLEX IMPRESSOES LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "80939234000138",
+    "nome": "ARCUS INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1590.0
+   },
+   {
+    "cnpj": "37641580000106",
+    "nome": "CLAUDIO MARTINS NATIVIDADE",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1155.0
+   },
+   {
+    "cnpj": "00443249000171",
+    "nome": "NOVA IMAGEM GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 230.0
+   },
+   {
+    "cnpj": "37146721000114",
+    "nome": "A A MAINARDES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 220.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 23.1,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 23.1
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

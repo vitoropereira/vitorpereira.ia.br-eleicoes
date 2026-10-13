@@ -1,0 +1,198 @@
+{
+ "sq": "40002532771",
+ "nome_urna": "EURICO TAVARES",
+ "cargo": "depest",
+ "uf": "AM",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 762230.0,
+  "por_origem": {
+   "Recursos de partido político": 300000.0,
+   "Recursos de pessoas físicas": 462230.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 100000.0,
+   "OUTROS RECURSOS": 662230.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "14813848000144",
+    "nome": "Direção Estadual/Distrital - PSD - AMAZONAS",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 22,
+   "total": 462230.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 381006.6,
+  "total_pago": 223750.8,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 140000.0
+   },
+   {
+    "cnpj": "49682170000192",
+    "nome": "M. G. MAIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "10441464000278",
+    "nome": "A. R. T. TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "01341740000154",
+    "nome": "APUI TAXI AEREO S/A",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "14987576000280",
+    "nome": "OLIVEIRA COMERCIO E SERVICOS FOTOGRAFICOS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "57203194000140",
+    "nome": "MONALISA GADELHA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "67636655000121",
+    "nome": "VITORINO CONSULTORIA E ASSESSORIA CONTABIL LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "55523299000150",
+    "nome": "NOVA ALIANCA COMERCIO ATACADISTA DE PRODUTOS ALIMENTICIOS E BEBIDAS LTDA.",
+    "cnae": "46397",
+    "n_despesas": 2,
+    "tipos": [
+     "Água"
+    ],
+    "total": 3995.0
+   },
+   {
+    "cnpj": "31812351000120",
+    "nome": "A G FURTADO SERVICOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "31660581000111",
+    "nome": "CONSTRUMAQUI MATERIAIS DE CONSTRUCAO LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "11459916000120",
+    "nome": "T S INDUSTRIA DE ETIQUETAS E COMERCIO DE EQUIPAMENTOS DE INFORMATICA LTDA",
+    "cnae": "17419",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "05526766000128",
+    "nome": "GRAFICA E EDITORA VITORIA LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 850.0
+   },
+   {
+    "cnpj": "62027857000152",
+    "nome": "MARCELO DA SILVA COLARES",
+    "cnae": "18211",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 230.0
+   },
+   {
+    "cnpj": "84509264000165",
+    "nome": "MAXPEL COMERCIAL LTDA",
+    "cnae": "46478",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 25.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 122,
+   "total": 132906.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 90050.0,
+    "Cessão ou locação de veículos": 20000.0,
+    "Despesas com pessoal": 22810.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 46.6
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

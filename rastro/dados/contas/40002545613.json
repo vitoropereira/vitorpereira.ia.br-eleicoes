@@ -1,0 +1,143 @@
+{
+ "sq": "40002545613",
+ "nome_urna": "ZÉ RICARDO",
+ "cargo": "depest",
+ "uf": "AM",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 229424.6,
+  "por_origem": {
+   "Recursos de outros candidatos": 1328.0,
+   "Recursos de partido político": 113100.0,
+   "Recursos de pessoas físicas": 33893.0,
+   "Recursos próprios": 81103.6
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 98928.0,
+   "FUNDO PARTIDARIO": 15500.0,
+   "OUTROS RECURSOS": 114996.6
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 113100.0
+   },
+   {
+    "cnpj": "68519838000120",
+    "nome": "JOAO VICTOR TAYAH LIMA",
+    "total": 1328.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 49,
+   "total": 114996.6
+  }
+ },
+ "despesas": {
+  "total_contratado": 120910.15,
+  "total_pago": 67545.15,
+  "fornecedores_pj": [
+   {
+    "cnpj": "22995005000134",
+    "nome": "OBJETIVA S/S LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "84510874000189",
+    "nome": "GRAFICA SANTA LUZIA INDUSTRIA E COMERCIO LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6450.0
+   },
+   {
+    "cnpj": "20703180000185",
+    "nome": "RUBI COMERCIO DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3280.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "01706877000165",
+    "nome": "COMERCIAL SAO FRANCISCO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1620.0
+   },
+   {
+    "cnpj": "05437959000102",
+    "nome": "R P V DA AMAZONIA LTDA",
+    "cnae": "46478",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 376.67
+   },
+   {
+    "cnpj": "17101251000165",
+    "nome": "CONVENIENCIA ADRIANOPOLIS COMERCIO DE BEBIDAS E ALIMENTOS LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 294.0
+   },
+   {
+    "cnpj": "50292798000837",
+    "nome": "COMERCIO DE MEDICAMENTOS MODENA ARAUJO S/A",
+    "cnae": "47717",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 125.98
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 22,
+   "total": 94763.5,
+   "por_tipo": {
+    "Alimentação": 9701.0,
+    "Atividades de militância e mobilização de rua": 27359.0,
+    "Cessão ou locação de veículos": 11695.0,
+    "Despesas com pessoal": 25394.5,
+    "Despesas com transporte ou deslocamento": 400.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 26.0,
+    "Serviços advocatícios": 10094.0,
+    "Serviços contábeis": 10094.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,167 @@
+{
+ "sq": "250002545156",
+ "nome_urna": "ROGERIO LINS",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 956815.62,
+  "por_origem": {
+   "Recursos de outros candidatos": 4815.62,
+   "Recursos de partido político": 510000.0,
+   "Recursos de pessoas físicas": 442000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 510000.0,
+   "OUTROS RECURSOS": 446815.62
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 510000.0
+   },
+   {
+    "cnpj": "68312570000150",
+    "nome": "SERGIO DI PACE DI NIZO",
+    "total": 4815.62
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 442000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 723821.91,
+  "total_pago": 573462.23,
+  "fornecedores_pj": [
+   {
+    "cnpj": "07263666000181",
+    "nome": "BRASPOR GRAFICA E EDITORA LTDA.",
+    "cnae": "18113",
+    "n_despesas": 125,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 285385.9
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "04844983000101",
+    "nome": "AUTO POSTO MX LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 31438.2
+   },
+   {
+    "cnpj": "11606199000112",
+    "nome": "SANTO, BORGES, SENA SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "12535668000112",
+    "nome": "CIINTELLECT CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "17423050000184",
+    "nome": "ENFIM PLUS COMUNICACAO VISUAL , COMERCIO E CONFECCOES GRAFICOS LTDA",
+    "cnae": "47890",
+    "n_despesas": 14,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25695.0
+   },
+   {
+    "cnpj": "29164163000191",
+    "nome": "HM EVENTOS BRASIL LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 13500.0
+   },
+   {
+    "cnpj": "43382234000153",
+    "nome": "A2 SERVICOS ESPECIAIS LTDA",
+    "cnae": "80200",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6550.0
+   },
+   {
+    "cnpj": "12065913000175",
+    "nome": "MBSERV ARTES GRAFICAS LTDA",
+    "cnae": "58298",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3540.26
+   },
+   {
+    "cnpj": "12446420000185",
+    "nome": "GRAFICA ROTATIVA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2980.0
+   },
+   {
+    "cnpj": "10410225000170",
+    "nome": "JULLY STOCK TEXTIL LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 440.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 72,
+   "total": 214292.55,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 100189.05,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 103.5,
+    "Serviços prestados por terceiros": 114000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

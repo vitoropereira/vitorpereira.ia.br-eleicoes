@@ -1,0 +1,224 @@
+{
+ "sq": "250002544355",
+ "nome_urna": "RODRIGO GAMBALE",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2041600.0,
+  "por_origem": {
+   "Doações pela Internet": 13000.0,
+   "Recursos de partido político": 1800000.0,
+   "Recursos de pessoas físicas": 223600.0,
+   "Recursos próprios": 5000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1800000.0,
+   "OUTROS RECURSOS": 241600.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 1800000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 35,
+   "total": 241600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 987280.12,
+  "total_pago": 697673.27,
+  "fornecedores_pj": [
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 15,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 125349.22
+   },
+   {
+    "cnpj": "26052128000192",
+    "nome": "SHIHARA FREIRE PEREIRA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 110000.0
+   },
+   {
+    "cnpj": "52410038000136",
+    "nome": "52.410.038 TAIZ ALVES DA ROCHA GOMES",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 38873.0
+   },
+   {
+    "cnpj": "54848310000190",
+    "nome": "54.848.310 CARLOS ANTONIO JUSTINO",
+    "cnae": "49230",
+    "n_despesas": 2,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 31200.0
+   },
+   {
+    "cnpj": "58287635000100",
+    "nome": "RESTAURANTE DO BRAGAS LTDA",
+    "cnae": "56112",
+    "n_despesas": 4,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 17857.5
+   },
+   {
+    "cnpj": "44335834000123",
+    "nome": "AUTO POSTO FERRAZ CENTRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 59,
+    "tipos": [
+     "Atividades de militância e mobilização de rua",
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 8340.51
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 6761.27
+   },
+   {
+    "cnpj": "17771662000168",
+    "nome": "NCS COMUNICACAO VISUAL E SERVICOS DE IMPRESSOES LTDA",
+    "cnae": "47512",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6237.55
+   },
+   {
+    "cnpj": "57052930000106",
+    "nome": "EDUCALED FORMACAO E TECNOLOGIAS EM PAINEIS DE LED LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 4030.13
+   },
+   {
+    "cnpj": "29554503000190",
+    "nome": "DIGIGRAF SOLUCOES GRAFICAS R.A. LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3133.0
+   },
+   {
+    "cnpj": "07713072000125",
+    "nome": "JN IMPRESSOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "12216250000142",
+    "nome": "VIVA VERDE SERVICOS LTDA",
+    "cnae": "81303",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 425.0
+   },
+   {
+    "cnpj": "55025084000100",
+    "nome": "ESPORTE CLUBE ONZE PAULISTA",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "27563815000135",
+    "nome": "27.563.815 FELIPE GONCALVES DUQUE",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "58665512000157",
+    "nome": "58.665.512 BEATHRIZ GIULIANA GUILHERME CRUZ",
+    "cnae": "47831",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 120.0
+   },
+   {
+    "cnpj": "51482306000162",
+    "nome": "MMHOSPEDAGEM LTDA",
+    "cnae": "63119",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 69.98
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 256,
+   "total": 632342.96,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 560690.96,
+    "Cessão ou locação de veículos": 51600.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 52.0,
+    "Locação/cessão de bens imóveis": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

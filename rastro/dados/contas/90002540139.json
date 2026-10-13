@@ -1,0 +1,125 @@
+{
+ "sq": "90002540139",
+ "nome_urna": "ANTONIO GOMIDE",
+ "cargo": "depest",
+ "uf": "GO",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 330380.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 28680.0,
+   "Recursos de partido político": 265500.0,
+   "Recursos de pessoas físicas": 21000.0,
+   "Recursos próprios": 15200.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 278680.0,
+   "FUNDO PARTIDARIO": 15500.0,
+   "OUTROS RECURSOS": 36200.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265500.0
+   },
+   {
+    "cnpj": "68437756000136",
+    "nome": "RUBENS OTONI GOMIDE",
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68438251000196",
+    "nome": "ADRIANA SAUTHIER ACCORSI",
+    "total": 8680.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 14,
+   "total": 36200.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 138977.55,
+  "total_pago": 119140.98,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 44950.0
+   },
+   {
+    "cnpj": "01018282000117",
+    "nome": "SUPER POSTO SANTO ANTONIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 81,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9216.75
+   },
+   {
+    "cnpj": "64433090000197",
+    "nome": "GAB INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 612.4
+   },
+   {
+    "cnpj": "45848276000162",
+    "nome": "AUTO POSTO SAO JUDAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 301.75
+   },
+   {
+    "cnpj": "05857474000178",
+    "nome": "POSTO MARCELOFARIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 288.65
+   },
+   {
+    "cnpj": "54889509000166",
+    "nome": "POSTO ANTONELLI BRASIL SUL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 193.5
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 54,
+   "total": 83414.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 7600.0,
+    "Despesas com pessoal": 65800.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 14.5,
+    "Serviços advocatícios": 5000.0,
+    "Serviços contábeis": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

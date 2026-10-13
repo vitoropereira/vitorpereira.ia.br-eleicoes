@@ -1,0 +1,243 @@
+{
+ "sq": "180002536217",
+ "nome_urna": "JOÃO MADISON",
+ "cargo": "depest",
+ "uf": "PI",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 425793.4,
+  "por_origem": {
+   "Recursos de outros candidatos": 16912.8,
+   "Recursos de partido político": 200000.0,
+   "Recursos de pessoas físicas": 118880.6,
+   "Recursos próprios": 90000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "OUTROS RECURSOS": 225793.4
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "68238024000117",
+    "nome": "RAFAEL TAJRA FONTELES",
+    "total": 11628.0
+   },
+   {
+    "cnpj": "68258307000120",
+    "nome": "JOSE RIBAMAR NOLETO DE SANTANA",
+    "total": 5284.8
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 208880.6
+  }
+ },
+ "despesas": {
+  "total_contratado": 181251.25,
+  "total_pago": 353429.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "58682743000179",
+    "nome": "ARAUJO E ALMEIDA ASSESSORIA CONTABIL-FINANCEIRA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "63734646000112",
+    "nome": "ROMULO QUARESMA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "29527080000110",
+    "nome": "VIC CAR EMPREENDIMENTOS LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "17907135000138",
+    "nome": "NAVE LOUCA PRODUCOES ARTISTICAS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 15600.0
+   },
+   {
+    "cnpj": "32054079000120",
+    "nome": "THAMIRYS DIAS VIANA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "00353368000133",
+    "nome": "GUABES PRODUCOES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 9500.0
+   },
+   {
+    "cnpj": "08596605000107",
+    "nome": "POSTO HOMERO CASTELO BRANCO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5540.51
+   },
+   {
+    "cnpj": "55648852000181",
+    "nome": "RE SERVICOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3700.0
+   },
+   {
+    "cnpj": "36029722000116",
+    "nome": "MARCOS LEVI FIGUEREDO DO NACIMENTO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "35844647000184",
+    "nome": "J C SILVA LTDA",
+    "cnae": "17311",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2900.0
+   },
+   {
+    "cnpj": "55809095000180",
+    "nome": "FLEX SERVICO GRAFICO LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2309.8
+   },
+   {
+    "cnpj": "37040347000178",
+    "nome": "POR DO SOL IMAGEM DIGITAL LTDA",
+    "cnae": "74200",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1250.0
+   },
+   {
+    "cnpj": "42555309000198",
+    "nome": "J MACHADO VIEIRA JUNIOR LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "58529101000134",
+    "nome": "POSTO CAFE COLONIAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 983.78
+   },
+   {
+    "cnpj": "28881174000120",
+    "nome": "AREIA BRANCA INDUSTRIA E COMERCIO DE AGUA LTDA",
+    "cnae": "11216",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 828.0
+   },
+   {
+    "cnpj": "07696891000101",
+    "nome": "M C LEMOS CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 250.02
+   },
+   {
+    "cnpj": "15754475000140",
+    "nome": "HOSTGATOR BRASIL LTDA.",
+    "cnae": "63119",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 140.41
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 6,
+   "total": 23548.73,
+   "por_tipo": {
+    "Despesas com pessoal": 9107.23,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 10.0,
+    "Locação/cessão de bens imóveis": 12000.0,
+    "Serviços prestados por terceiros": 2431.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

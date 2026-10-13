@@ -1,0 +1,338 @@
+{
+ "sq": "50002534990",
+ "nome_urna": "DAL BARRETO",
+ "cargo": "depfed",
+ "uf": "BA",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3145665.1,
+  "por_origem": {
+   "Recursos de partido político": 2896665.1,
+   "Recursos próprios": 249000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2893496.1,
+   "FUNDO PARTIDARIO": 3169.0,
+   "OUTROS RECURSOS": 249000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 2893496.1
+   },
+   {
+    "cnpj": "45928648000160",
+    "nome": "Direção Estadual/Distrital - UNIÃO - BAHIA",
+    "total": 3169.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 249000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1230684.98,
+  "total_pago": 2781938.8,
+  "fornecedores_pj": [
+   {
+    "cnpj": "40473064000124",
+    "nome": "BARRETO PARTICIPACOES SOCIETARIAS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 160000.0
+   },
+   {
+    "cnpj": "16625708000178",
+    "nome": "IDEIA ATIVA GRAFICA LTDA",
+    "cnae": "17311",
+    "n_despesas": 11,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 109048.0
+   },
+   {
+    "cnpj": "15683767000130",
+    "nome": "AMARGOSA TECH COMUNICACAO VISUAL LTDA",
+    "cnae": "13405",
+    "n_despesas": 22,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 96016.0
+   },
+   {
+    "cnpj": "09510950000130",
+    "nome": "POSTO BAITINGA LTDA.",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 82369.0
+   },
+   {
+    "cnpj": "03230915000181",
+    "nome": "GGS INDUSTRIA, COMERCIO E SERVICOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "26461537000142",
+    "nome": "SEJJA DEZZ SERVICOS DE TRANSPORTES LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 50800.0
+   },
+   {
+    "cnpj": "12427278000129",
+    "nome": "SILVEIRA SILVEIRA CONTADORES ASSOCIADOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "50051175000104",
+    "nome": "MAIS OBJETIVO MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "43614263000101",
+    "nome": "RB ENTRETENIMENTO E MARKETING LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "58077184000178",
+    "nome": "PEDRO CONI E CONI SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "07217285000166",
+    "nome": "AUTO POSTO AMARGOSA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 22365.5
+   },
+   {
+    "cnpj": "22899533000602",
+    "nome": "AIR BP PETROBAHIA LTDA",
+    "cnae": "46818",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 15996.55
+   },
+   {
+    "cnpj": "19847214000126",
+    "nome": "RVL TRANSPORTE E LOCACOES LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10500.0
+   },
+   {
+    "cnpj": "02430138000156",
+    "nome": "COMERCIAL SANTA HELENA LTDA",
+    "cnae": "45412",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "24207386000175",
+    "nome": "M3R1 GRAFICA E COMUNICACAO VISUAL LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9510.0
+   },
+   {
+    "cnpj": "22899533000947",
+    "nome": "AIR BP PETROBAHIA LTDA",
+    "cnae": "46818",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6708.0
+   },
+   {
+    "cnpj": "49433374000190",
+    "nome": "JOSE PEREIRA DUARTE JUNIOR LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6261.75
+   },
+   {
+    "cnpj": "35439268000109",
+    "nome": "K F C COMERCIO E SERVICOS LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "73507162000941",
+    "nome": "OESTE COMERCIAL DE COMBUSTIVEIS PARA AVIACAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5779.2
+   },
+   {
+    "cnpj": "52821736000124",
+    "nome": "DIEGO DE ALMEIDA VELAME",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "23485445000104",
+    "nome": "MECA ASSESSORIA AERONAUTICA LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3200.0
+   },
+   {
+    "cnpj": "00838000000165",
+    "nome": "RABELO E CUNHA LTDA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2600.0
+   },
+   {
+    "cnpj": "30817419000100",
+    "nome": "M M S DE SANTANA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1150.0
+   },
+   {
+    "cnpj": "22899533000351",
+    "nome": "AIR BP PETROBAHIA LTDA",
+    "cnae": "46818",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 983.68
+   },
+   {
+    "cnpj": "13807735000173",
+    "nome": "L QUIEZI GONCALVES",
+    "cnae": "56201",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 964.0
+   },
+   {
+    "cnpj": "08276813000200",
+    "nome": "SAMPAIO SOUZA SUPRIMENTOS XEROGRAFICOS LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 330.0
+   },
+   {
+    "cnpj": "43729883000188",
+    "nome": "LUIS EDUARDO CALDAS RESENDE",
+    "cnae": "45439",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "02103683000138",
+    "nome": "JOSELITO ARAUJO DOS SANTOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 250.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 22,
+   "total": 405553.3,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 53.3,
+    "Locação/cessão de bens imóveis": 13500.0,
+    "Serviços prestados por terceiros": 392000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

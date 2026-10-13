@@ -1,0 +1,128 @@
+{
+ "sq": "190002538014",
+ "nome_urna": "VINÍCIUS COZZOLINO",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 504280.89,
+  "por_origem": {
+   "Recursos de partido político": 250280.89,
+   "Recursos de pessoas físicas": 254000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 250000.0,
+   "OUTROS RECURSOS": 254280.89
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "14705221000170",
+    "nome": "Direção Estadual/Distrital - PSD - RIO DE JANEIRO",
+    "total": 150280.89
+   },
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 254000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 331619.02,
+  "total_pago": 193651.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 10,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 160000.0
+   },
+   {
+    "cnpj": "19339433000102",
+    "nome": "LAURO RABHA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "47329291000120",
+    "nome": "MF CONTABILIDADE ELEITORAL E PARTIDARIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 12500.0
+   },
+   {
+    "cnpj": "03235185000101",
+    "nome": "VIACAO VG - EM RECUPERACAO JUDICIAL LTDA",
+    "cnae": "49213",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "32373888000102",
+    "nome": "GRAFICA E PAPELARIA PHOENIX LTDA",
+    "cnae": "70204",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6612.5
+   },
+   {
+    "cnpj": "46951853000100",
+    "nome": "LB ASSESSORIA E CONSULTORIA EM MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2782.0
+   },
+   {
+    "cnpj": "09314539000190",
+    "nome": "AUTO POSTO TREVO DE MAGE LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 523.02
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 70,
+   "total": 90201.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 71700.0,
+    "Cessão ou locação de veículos": 10000.0,
+    "Despesas com transporte ou deslocamento": 6000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.5,
+    "Locação/cessão de bens imóveis": 2500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

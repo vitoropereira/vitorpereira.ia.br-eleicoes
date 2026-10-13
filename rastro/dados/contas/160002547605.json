@@ -1,0 +1,153 @@
+{
+ "sq": "160002547605",
+ "nome_urna": "JESSICÃO",
+ "cargo": "depest",
+ "uf": "PR",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 907968.0,
+  "por_origem": {
+   "Recursos de partido político": 907968.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 900000.0,
+   "FUNDO PARTIDARIO": 7968.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 900000.0
+   },
+   {
+    "cnpj": "08730637000145",
+    "nome": "Direção Estadual/Distrital - PL - PARANÁ",
+    "total": 7968.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 320758.0,
+  "total_pago": 322373.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 65000.0
+   },
+   {
+    "cnpj": "23339105000175",
+    "nome": "Eliete Tirolo Botelho - Publicidade e Propaganda",
+    "cnae": "73190",
+    "n_despesas": 3,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 56000.0
+   },
+   {
+    "cnpj": "66659750000188",
+    "nome": "PONTOARK GROUP LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "06288828000173",
+    "nome": "GS, MARIN E CIA LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 46000.0
+   },
+   {
+    "cnpj": "53873703000190",
+    "nome": "GRAFICA EQUILIBRIUM LTDA",
+    "cnae": "58239",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30400.0
+   },
+   {
+    "cnpj": "14595032000191",
+    "nome": "TEKKADAN GESTAO DE MIDIAS DIGITAIS LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "12667593000123",
+    "nome": "JRKT B2B LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "10992701000108",
+    "nome": "4 IDEIAS COMUNICACAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1738.0
+   },
+   {
+    "cnpj": "55947908000107",
+    "nome": "LJA IMPRESSOES DIGITAIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 320.0
+   },
+   {
+    "cnpj": "33817429000125",
+    "nome": "WF EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 300.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 9,
+   "total": 35000.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 10000.0,
+    "Despesas com pessoal": 25000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

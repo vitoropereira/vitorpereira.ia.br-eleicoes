@@ -1,0 +1,124 @@
+{
+ "sq": "260002550765",
+ "nome_urna": "FERNANDINHO FRANCO",
+ "cargo": "depest",
+ "uf": "SE",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 70200.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 4000.0,
+   "Recursos próprios": 66200.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 70200.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 70200.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 83896.0,
+  "total_pago": 4000.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "56334202000124",
+    "nome": "MLB PLASTICOS E IMPRESSOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27500.0
+   },
+   {
+    "cnpj": "28200683000140",
+    "nome": "LAERTE FONSECA ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "36569016000167",
+    "nome": "FONSECA CONTABILIDADE GOVERNANCA GESTAO LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "57898628000173",
+    "nome": "MIXMAIS SERVICE LTDA",
+    "cnae": "81214",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "29627225000154",
+    "nome": "CAJU HITS EDITORA E PRODUCOES MUSICAIS LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "42143851000133",
+    "nome": "JULIANA FERREIRA DOS SANTOS",
+    "cnae": "58131",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "35722276000168",
+    "nome": "AGENCIA RENDERIZE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "59703826000160",
+    "nome": "CRUZ MACHADO COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 796.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 9,
+   "total": 11600.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 9600.0,
+    "Despesas com pessoal": 2000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

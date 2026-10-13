@@ -1,0 +1,290 @@
+{
+ "sq": "170002534909",
+ "nome_urna": "MARCELO GOUVEIA",
+ "cargo": "depfed",
+ "uf": "PE",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2154028.13,
+  "por_origem": {
+   "Recursos de partido político": 2088278.13,
+   "Recursos de pessoas físicas": 65750.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2088278.13,
+   "OUTROS RECURSOS": 65750.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 1735000.0
+   },
+   {
+    "cnpj": "10882771000103",
+    "nome": "Direção Estadual/Distrital - PODE - PERNAMBUCO",
+    "total": 353278.13
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 65750.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1421467.86,
+  "total_pago": 1737710.19,
+  "fornecedores_pj": [
+   {
+    "cnpj": "68319301000116",
+    "nome": "GUSTAVO FUCHS CAMPOS GOUVEIA",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 234000.0
+   },
+   {
+    "cnpj": "19840864000140",
+    "nome": "CAMPELO COMUNICACAO ARTE LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 191473.4
+   },
+   {
+    "cnpj": "10211999000171",
+    "nome": "RR TERCERIZACAO E SERVICOS LTDA",
+    "cnae": "47814",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 185925.0
+   },
+   {
+    "cnpj": "11473934000167",
+    "nome": "ALMEIDA PAULA ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 9,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 77000.0
+   },
+   {
+    "cnpj": "25173110000186",
+    "nome": "NOBREGA PROMOCOES E ILUMINACAO LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "16445845000120",
+    "nome": "ALENCAR GRAFICA, EDITORA, COPIADORA E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 40634.8
+   },
+   {
+    "cnpj": "02847691000199",
+    "nome": "FLOR DA MATA COMERCIO EMPREENDIMENTOS E SERVICOS LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "08513512000163",
+    "nome": "GRAFICA FONSECA LTDA",
+    "cnae": "18121",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 35880.0
+   },
+   {
+    "cnpj": "33851337000161",
+    "nome": "A R A BEZERRA ASSESSORIA E CONSULTORIA CONTABIL E FINANCEIRA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "51809050000155",
+    "nome": "MCS PRODUCOES E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "18928595000105",
+    "nome": "V C H COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 13310.1
+   },
+   {
+    "cnpj": "07005206000153",
+    "nome": "COMPANHIA ASA RENT A CAR LOCACAO DE VEICULOS S A EM RECUPERACAO JUDICIAL",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 11432.0
+   },
+   {
+    "cnpj": "14535628000104",
+    "nome": "VENEZA LOCACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "32655653000103",
+    "nome": "JULYANNA KARYNA DOS SANTOS DE AMORIM",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "60117007000110",
+    "nome": "EVERTON DA SILVA MOURA DUBLE MULTIMARCAS",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "20876612000150",
+    "nome": "INOVAR SUBLIMACAO LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 4335.0
+   },
+   {
+    "cnpj": "52111454000133",
+    "nome": "POSTO ROSA LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4247.56
+   },
+   {
+    "cnpj": "67996696000129",
+    "nome": "67.996.696 SWELHO NUNES DA SILVA",
+    "cnae": "96092",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "66931182000122",
+    "nome": "VX COMERCIO E IMPORTACAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2189.0
+   },
+   {
+    "cnpj": "27279467000179",
+    "nome": "ANGELICA C PEREIRA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1395.0
+   },
+   {
+    "cnpj": "42427420000107",
+    "nome": "PAULO ROBERTO DE SANTANA SILVA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "35537778000119",
+    "nome": "VERONICA M BARBOSA BELCHIOR",
+    "cnae": "47555",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 299.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 130,
+   "total": 347147.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 92000.0,
+    "Cessão ou locação de veículos": 79000.0,
+    "Despesas com pessoal": 20371.0,
+    "Despesas com transporte ou deslocamento": 45000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 26.0,
+    "Locação/cessão de bens imóveis": 17000.0,
+    "Publicidade por carros de som": 41750.0,
+    "Serviços prestados por terceiros": 52000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

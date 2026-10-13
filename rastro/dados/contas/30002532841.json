@@ -1,0 +1,175 @@
+{
+ "sq": "30002532841",
+ "nome_urna": "JOSENILDO",
+ "cargo": "depfed",
+ "uf": "AP",
+ "partido": "PDT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3013500.0,
+  "por_origem": {
+   "Recursos de partido político": 3013500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3000000.0,
+   "FUNDO PARTIDARIO": 13500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00719575000169",
+    "nome": "Direção Nacional - PDT",
+    "total": 3000000.0
+   },
+   {
+    "cnpj": "02669787000104",
+    "nome": "Direção Estadual/Distrital - PDT - AMAPÁ",
+    "total": 13500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1270568.95,
+  "total_pago": 29990.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "29276575000113",
+    "nome": "NEW PRINT MIDIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 413711.0
+   },
+   {
+    "cnpj": "61124641000142",
+    "nome": "A Z SERVICOS ESPECIALIZADOS LTDA",
+    "cnae": "78108",
+    "n_despesas": 2,
+    "tipos": [
+     "Atividades de militância e mobilização de rua",
+     "Despesas com pessoal"
+    ],
+    "total": 307076.3
+   },
+   {
+    "cnpj": "22278960000150",
+    "nome": "J C N CANTANHEDE",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 200760.0
+   },
+   {
+    "cnpj": "64146101000158",
+    "nome": "RZ COMUNICACAO E MARKETING LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 147000.0
+   },
+   {
+    "cnpj": "63423363000150",
+    "nome": "V. BITENCURT BATISTA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 46187.4
+   },
+   {
+    "cnpj": "23434928000180",
+    "nome": "CLICAR GESTAO DE FROTAS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "04515761000137",
+    "nome": "ENGENHO ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "21609445000143",
+    "nome": "DI VETRO EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "48391087000100",
+    "nome": "MARCOS PIRES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 9990.0
+   },
+   {
+    "cnpj": "12064991000155",
+    "nome": "A A AGRA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "64999595000113",
+    "nome": "AUTO POSTO RV LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6344.25
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 5,
+   "total": 45000.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 27500.0,
+    "Locação/cessão de bens imóveis": 17500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

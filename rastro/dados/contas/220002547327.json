@@ -1,0 +1,287 @@
+{
+ "sq": "220002547327",
+ "nome_urna": "ISMAEL CRISPIN",
+ "cargo": "depest",
+ "uf": "RO",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1409727.7,
+  "por_origem": {
+   "Doações pela Internet": 1000.0,
+   "Recursos de partido político": 1102000.0,
+   "Recursos de pessoas físicas": 299727.7,
+   "Recursos próprios": 7000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1102000.0,
+   "OUTROS RECURSOS": 307727.7
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 1102000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 155,
+   "total": 307727.7
+  }
+ },
+ "despesas": {
+  "total_contratado": 874494.91,
+  "total_pago": 357153.4,
+  "fornecedores_pj": [
+   {
+    "cnpj": "30179146000107",
+    "nome": "J. D ALVES GRAFICA INFINITY LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 75100.0
+   },
+   {
+    "cnpj": "06127733000178",
+    "nome": "L. P. DA SILVA SONORIZACAO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 12500.0
+   },
+   {
+    "cnpj": "05893935000249",
+    "nome": "RT COMERCIO SERVICOS E TRANSPORTE DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10973.15
+   },
+   {
+    "cnpj": "53600662000169",
+    "nome": "MODERNIZE COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 9884.5
+   },
+   {
+    "cnpj": "01060256000157",
+    "nome": "L.H.C COMERCIO E SERVICOS LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "19199853000122",
+    "nome": "AUTO POSTO MIRANDA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2064.0
+   },
+   {
+    "cnpj": "05078112000189",
+    "nome": "AMARAL COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1837.5
+   },
+   {
+    "cnpj": "07995193000107",
+    "nome": "NEVES E MENEZES DISTRIBUIDORA DE GAS LTDA",
+    "cnae": "47849",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 832.0
+   },
+   {
+    "cnpj": "34747535000142",
+    "nome": "SIND DOS SERV PUBLICOS FEDERAIS EM RONDONIA SINDSEF",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "34518341000175",
+    "nome": "INFOMAX COM. VAREJISTA DE EQUIPAMENTOS E SUPRIMENTOS LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 797.0
+   },
+   {
+    "cnpj": "52567681000178",
+    "nome": "AUTO POSTO CORUMBIARA LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 788.01
+   },
+   {
+    "cnpj": "05593306000112",
+    "nome": "AUTO POSTO JOWAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 749.0
+   },
+   {
+    "cnpj": "08678504000177",
+    "nome": "LUNARDI CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 741.01
+   },
+   {
+    "cnpj": "06863057000443",
+    "nome": "CIBEL - COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 729.0
+   },
+   {
+    "cnpj": "31043368000160",
+    "nome": "D L COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 724.0
+   },
+   {
+    "cnpj": "10539155000154",
+    "nome": "ODOMIR JOSE GAVA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 617.6
+   },
+   {
+    "cnpj": "49270992000166",
+    "nome": "UNI INVESTIMENTOS LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 550.0
+   },
+   {
+    "cnpj": "06057223044705",
+    "nome": "SENDAS DISTRIBUIDORA S/A",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 517.5
+   },
+   {
+    "cnpj": "03946493000145",
+    "nome": "MARECHAL AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 372.5
+   },
+   {
+    "cnpj": "10257926000110",
+    "nome": "R. O. DA SILVA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 354.5
+   },
+   {
+    "cnpj": "04645599000171",
+    "nome": "D PRESS EDITORA E GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "07611248000138",
+    "nome": "BALDIN SANTOS COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 269.64
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 182,
+   "total": 679994.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 232993.0,
+    "Cessão ou locação de veículos": 95500.0,
+    "Despesas com pessoal": 115000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.0,
+    "Locação/cessão de bens imóveis": 2500.0,
+    "Serviços advocatícios": 150000.0,
+    "Serviços contábeis": 60000.0,
+    "Serviços prestados por terceiros": 24000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,293 @@
+{
+ "sq": "250002536831",
+ "nome_urna": "EMÍDIO",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 925502.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 250000.0,
+   "Recursos de partido político": 265500.0,
+   "Recursos de pessoas físicas": 410002.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 515500.0,
+   "OUTROS RECURSOS": 410002.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265500.0
+   },
+   {
+    "cnpj": "68373073000162",
+    "nome": "JOAO PAULO CUNHA",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "68373177000177",
+    "nome": "NILTO IGNACIO TATTO",
+    "total": 50000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 42,
+   "total": 410002.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 417107.47,
+  "total_pago": 96437.7,
+  "fornecedores_pj": [
+   {
+    "cnpj": "46558333000131",
+    "nome": "ELA MARKETING POLITICO CONSULTORIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "12502372000103",
+    "nome": "VALMAC SERVICOS TEMPORARIOS E EFETIVOS LTDA",
+    "cnae": "78205",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 38696.4
+   },
+   {
+    "cnpj": "31394008000103",
+    "nome": "OTHON FUNCHAL BARROS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "25080454000140",
+    "nome": "SN CONSULTORIA E ASSESSORIA CONTABIL LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "57584473000109",
+    "nome": "57.584.473 MARCOS DE PAULA TREDEZINI",
+    "cnae": "56201",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 17237.5
+   },
+   {
+    "cnpj": "12115111000122",
+    "nome": "ED - SOM PUBLICIDADE E EVENTOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12240.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "22876954000103",
+    "nome": "LSC TRAVEL LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6385.64
+   },
+   {
+    "cnpj": "61997755000105",
+    "nome": "VALLILO GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 6300.0
+   },
+   {
+    "cnpj": "11369932000122",
+    "nome": "VAL EMPREENDIMENTOS PARTICIPACOES E SERVICOS LTDA",
+    "cnae": "43991",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "17423050000184",
+    "nome": "ENFIM PLUS COMUNICACAO VISUAL , COMERCIO E CONFECCOES GRAFICOS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5200.0
+   },
+   {
+    "cnpj": "14456483000148",
+    "nome": "MAVIDEY SOLUCOES EM TECNOLOGIA LTDA",
+    "cnae": "62091",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "09424761000145",
+    "nome": "R.T. EVENTOS, COMERCIO E SERVICOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2330.0
+   },
+   {
+    "cnpj": "50426454000105",
+    "nome": "TERCEIRA IMPRESSAO GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2140.0
+   },
+   {
+    "cnpj": "96499132000189",
+    "nome": "VS PUBLICIDADE LTDA",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1940.0
+   },
+   {
+    "cnpj": "58471308000103",
+    "nome": "AUTO POSTO RIO COTIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1587.78
+   },
+   {
+    "cnpj": "44313815000104",
+    "nome": "ALTERNATIVA AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 11,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1412.03
+   },
+   {
+    "cnpj": "10386377000184",
+    "nome": "VITA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1225.0
+   },
+   {
+    "cnpj": "13943676000160",
+    "nome": "VISATI GRAFICA E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "10410225000170",
+    "nome": "JULLY STOCK TEXTIL LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "36706363000194",
+    "nome": "LFG ALTA COMUNICACAO VISUAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 252.0
+   },
+   {
+    "cnpj": "62890897000123",
+    "nome": "SANTO ANTONIO COMERCIO DE GAS LTDA",
+    "cnae": "47849",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 240.0
+   },
+   {
+    "cnpj": "65791089000105",
+    "nome": "PULIRE INDUSTRIA E COMERCIO DE MATERIAIS DE LIMPEZA LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 92.25
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 90,
+   "total": 202878.87,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 6200.0,
+    "Despesas com pessoal": 177840.67,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 138.2,
+    "Locação/cessão de bens imóveis": 18700.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

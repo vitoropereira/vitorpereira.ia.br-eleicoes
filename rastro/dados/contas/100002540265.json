@@ -1,0 +1,149 @@
+{
+ "sq": "100002540265",
+ "nome_urna": "RUI JORGE",
+ "cargo": "depest",
+ "uf": "MA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 488517.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 151017.0,
+   "Recursos de partido político": 30000.0,
+   "Recursos de pessoas físicas": 258500.0,
+   "Recursos próprios": 49000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 30000.0,
+   "OUTROS RECURSOS": 458517.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68353204000140",
+    "nome": "LARISSA DA SILVA TORRES COSTA",
+    "total": 151017.0
+   },
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 30000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 26,
+   "total": 307500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 148605.0,
+  "total_pago": 171188.92,
+  "fornecedores_pj": [
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 55000.0
+   },
+   {
+    "cnpj": "54965203000141",
+    "nome": "I VIANA SILVA LTDA",
+    "cnae": "18130",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26917.5
+   },
+   {
+    "cnpj": "54931221000102",
+    "nome": "54.931.221 FRANCISCA ALVES BRITO",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "17668873000170",
+    "nome": "ERIC GUIMARAES ARAUJO",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 9831.0
+   },
+   {
+    "cnpj": "48047132000103",
+    "nome": "M V COELHO LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "04496308000120",
+    "nome": "G CARLOS NUNES",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "49756895000188",
+    "nome": "SMART MIDIA EXTERIOR LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2750.0
+   },
+   {
+    "cnpj": "38203366000130",
+    "nome": "TREVO COMERCIO E SERVICOS LTDA",
+    "cnae": "46494",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "21334301000121",
+    "nome": "ANTONIO JOZAFA CARVALHO DA SILVA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2205.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 21,
+   "total": 25501.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 9500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.5,
+    "Serviços advocatícios": 8000.0,
+    "Serviços contábeis": 8000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

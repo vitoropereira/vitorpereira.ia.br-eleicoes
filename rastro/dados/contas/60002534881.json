@@ -1,0 +1,261 @@
+{
+ "sq": "60002534881",
+ "nome_urna": "AJ ALBUQUERQUE",
+ "cargo": "depfed",
+ "uf": "CE",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2953097.5,
+  "por_origem": {
+   "Recursos de partido político": 2950000.0,
+   "Recursos de pessoas físicas": 3097.5
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2950000.0,
+   "OUTROS RECURSOS": 3097.5
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 2950000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 3097.5
+  }
+ },
+ "despesas": {
+  "total_contratado": 733000.84,
+  "total_pago": 512734.47,
+  "fornecedores_pj": [
+   {
+    "cnpj": "40077572000193",
+    "nome": "BUSSOLA MARKETING E ESTRATEGIA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "40444308000140",
+    "nome": "GEORGE OLIVEIRA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "21982044000134",
+    "nome": "METODO CONTABILIDADE E CONSULTORIA SS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "01971883000140",
+    "nome": "C A S LOCACAO E SERVICO LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 47000.0
+   },
+   {
+    "cnpj": "05036551000129",
+    "nome": "JAYMES ALVES FERREIRA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 37500.0
+   },
+   {
+    "cnpj": "64142302000187",
+    "nome": "VEKTOR SERVICOS LTDA",
+    "cnae": "58191",
+    "n_despesas": 6,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 36372.1
+   },
+   {
+    "cnpj": "43964001000169",
+    "nome": "INDUSTRIA COMERCIO DE CONFECCOES MATOS MUNIZ LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "68434952000157",
+    "nome": "68.434.952 RAYANE DA COSTA CALIOPE",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "52436634000195",
+    "nome": "52.436.634 MATHEUS HENRIQUE CARVALHO DOS SANTOS",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "20468789000117",
+    "nome": "NEVES MOBILITY GESTAO DE FUNDOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "57730419000116",
+    "nome": "57.730.419 FELIPE PEREIRA FURTADO",
+    "cnae": "58131",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "07012214000127",
+    "nome": "GRAFICA E EDITORA POUCHAIN RAMOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 14657.5
+   },
+   {
+    "cnpj": "20035005000167",
+    "nome": "FULLLOC EQUIPAMENTOS PARA EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 12800.0
+   },
+   {
+    "cnpj": "64646594000195",
+    "nome": "64.646.594 LUIZ CARLOS RODRIGUES OLIVEIRA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10348.5
+   },
+   {
+    "cnpj": "52503996000151",
+    "nome": "EZEQUIEL MARTINS MACIEL LTDA",
+    "cnae": "82199",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6400.0
+   },
+   {
+    "cnpj": "44372920000106",
+    "nome": "TWISTER SAT CONSTRUCOES E RASTREAMENTO VEICULAR LTDA",
+    "cnae": "41204",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5800.0
+   },
+   {
+    "cnpj": "66559563000122",
+    "nome": "EVENTU PRODUCAO E COMUNICACAO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "03878483000110",
+    "nome": "MELOC - LOCACAO DE EQUIPAMENTOS LTDA",
+    "cnae": "77322",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1360.0
+   },
+   {
+    "cnpj": "11535248000173",
+    "nome": "PAPAGAIO COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 978.6
+   },
+   {
+    "cnpj": "09297899000120",
+    "nome": "O G DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 268.8
+   },
+   {
+    "cnpj": "11052697000241",
+    "nome": "TALIMPINHO COMERCIAL LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 13.3
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 16,
+   "total": 96502.04,
+   "por_tipo": {
+    "Despesas com pessoal": 96493.04,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 9.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

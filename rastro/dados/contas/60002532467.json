@@ -1,0 +1,205 @@
+{
+ "sq": "60002532467",
+ "nome_urna": "GEORGIA DO MARCELÃO",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "SOLIDARIEDADE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 704000.0,
+  "por_origem": {
+   "Recursos de partido político": 700000.0,
+   "Recursos de pessoas físicas": 4000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 700000.0,
+   "OUTROS RECURSOS": 4000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "18532307000107",
+    "nome": "Direção Nacional - SOLIDARIEDADE",
+    "total": 700000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 4000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 378328.49,
+  "total_pago": 298575.39,
+  "fornecedores_pj": [
+   {
+    "cnpj": "17235157000107",
+    "nome": "MULATO COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "10698461000133",
+    "nome": "PACHECO OLIVEIRA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "00474292000102",
+    "nome": "FENIX LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "14839356000128",
+    "nome": "HP EVENTOS, PECAS E SERVICOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 16900.0
+   },
+   {
+    "cnpj": "21982044000134",
+    "nome": "METODO CONTABILIDADE E CONSULTORIA SS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "39564689000112",
+    "nome": "ILCF TRANSPORTES LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 13200.0
+   },
+   {
+    "cnpj": "07012214000127",
+    "nome": "GRAFICA E EDITORA POUCHAIN RAMOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "05036551000129",
+    "nome": "JAYMES ALVES FERREIRA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6200.0
+   },
+   {
+    "cnpj": "13822617000134",
+    "nome": "GRAFIMIDIAS COMERCIO DE INFORMATICA E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4740.0
+   },
+   {
+    "cnpj": "10757187000126",
+    "nome": "COMERCIAL POPULAR DE BEBIDAS E ALIMENTOS LTDA",
+    "cnae": "47113",
+    "n_despesas": 5,
+    "tipos": [
+     "Alimentação",
+     "Diversas a especificar",
+     "Água"
+    ],
+    "total": 4192.3
+   },
+   {
+    "cnpj": "02932518000199",
+    "nome": "PROSPERIA COMERCIO E SERVICOS LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "05784072000190",
+    "nome": "COMERCIAL CAVALCANTE DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3216.67
+   },
+   {
+    "cnpj": "51394028000191",
+    "nome": "CONEXAO ADMINISTRATIVA LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "39850528000195",
+    "nome": "GRAFICA ARAGAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1020.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 59,
+   "total": 126859.52,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 66835.02,
+    "Cessão ou locação de veículos": 6500.0,
+    "Despesas com pessoal": 27700.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 24.5,
+    "Locação/cessão de bens imóveis": 9000.0,
+    "Publicidade por carros de som": 16800.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

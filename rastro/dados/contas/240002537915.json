@@ -1,0 +1,172 @@
+{
+ "sq": "240002537915",
+ "nome_urna": "LUCAS NEVES",
+ "cargo": "depest",
+ "uf": "SC",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 833000.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 265000.0,
+   "Recursos de partido político": 450000.0,
+   "Recursos de pessoas físicas": 98000.0,
+   "Recursos próprios": 20000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 575000.0,
+   "FUNDO PARTIDARIO": 140000.0,
+   "OUTROS RECURSOS": 118000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 350000.0
+   },
+   {
+    "cnpj": "68379710000108",
+    "nome": "PAULO ALCEU DORIA VAN LEEUWEN",
+    "total": 150000.0
+   },
+   {
+    "cnpj": "08093442000131",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - SANTA CATARINA",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68379756000127",
+    "nome": "JORGE GOETTEN DE LIMA",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68379879000168",
+    "nome": "FABRICIO JOSE SATIRO DE OLIVEIRA",
+    "total": 15000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 19,
+   "total": 118000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 174892.02,
+  "total_pago": 88294.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "86375870000160",
+    "nome": "TIPOTIL - INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 49291.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 33000.0
+   },
+   {
+    "cnpj": "01307671000162",
+    "nome": "GRAFICA AMBROSIO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15900.0
+   },
+   {
+    "cnpj": "56848771000198",
+    "nome": "56.848.771 CARLOS ALBERTO RIBEIRO",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15700.0
+   },
+   {
+    "cnpj": "04484195000143",
+    "nome": "GRAPHEL GRAFICA E EDITORA LAGES LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11195.0
+   },
+   {
+    "cnpj": "63831582000178",
+    "nome": "BUENA ALIANCA ADMINISTRADORA DE BENS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "60294545000180",
+    "nome": "60.294.545 FRANCINE JOSIANE DE OLIVEIRA HERMLE",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4311.0
+   },
+   {
+    "cnpj": "83227108000149",
+    "nome": "ASSOCIACAO EMPRESARIAL DE LAGES - ACIL",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "28827026000127",
+    "nome": "GT LASER LTDA",
+    "cnae": "25993",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 380.0
+   },
+   {
+    "cnpj": "05598939000113",
+    "nome": "AUTO POSTO DUQUE LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 311.52
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 7,
+   "total": 34003.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.5,
+    "Serviços prestados por terceiros": 34000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

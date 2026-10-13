@@ -1,0 +1,176 @@
+{
+ "sq": "210002548192",
+ "nome_urna": "RAFAEL BRAGA",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 298784.19,
+  "por_origem": {
+   "Recursos de partido político": 65984.19,
+   "Recursos de pessoas físicas": 184800.0,
+   "Recursos próprios": 48000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 30000.0,
+   "OUTROS RECURSOS": 268784.19
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "87582714000133",
+    "nome": "Direção Estadual/Distrital - MDB - RIO GRANDE DO SUL",
+    "total": 45984.19
+   },
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 20000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 25,
+   "total": 232800.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 227084.95,
+  "total_pago": 277194.95,
+  "fornecedores_pj": [
+   {
+    "cnpj": "90330622000170",
+    "nome": "GRAFICA E EDITORA IBIRUBA LTDA",
+    "cnae": "18130",
+    "n_despesas": 23,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 88460.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Criação e inclusão de páginas na internet",
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 19830.0
+   },
+   {
+    "cnpj": "37307177000145",
+    "nome": "DOM ARTE IMPRESSOS LTDA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6250.0
+   },
+   {
+    "cnpj": "06257037000186",
+    "nome": "ALINE ALESSANDRA ALMEIDA BRIZOLA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5375.0
+   },
+   {
+    "cnpj": "11683319000185",
+    "nome": "FRANCISCO DAROLD PEREIRA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3780.0
+   },
+   {
+    "cnpj": "12665863000167",
+    "nome": "JORNAL DIARIO SERRANO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "35636629000107",
+    "nome": "SANTOS SERVICOS DE CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "33530242000146",
+    "nome": "33.530.242 ZILMA TERESINHA DE OLIVEIRA",
+    "cnae": "47555",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1250.0
+   },
+   {
+    "cnpj": "88641741000100",
+    "nome": "EPJIL EMPRESA PUBLICITARIA E JORNALISTICA IBIRUBA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 950.0
+   },
+   {
+    "cnpj": "22923904000121",
+    "nome": "ELEMENTO COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "26003922000146",
+    "nome": "26.003.922 MARCELO CORTES DE CARVALHO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "52504183000186",
+    "nome": "LIVRO MAIS EDITORA EDUCACAO LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 390.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 28,
+   "total": 92799.95,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 92799.95
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

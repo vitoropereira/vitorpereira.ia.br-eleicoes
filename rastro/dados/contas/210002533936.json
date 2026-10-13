@@ -1,0 +1,193 @@
+{
+ "sq": "210002533936",
+ "nome_urna": "LUCIANA GENRO",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PSOL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1219435.12,
+  "por_origem": {
+   "Recursos de partido político": 1191735.12,
+   "Recursos de pessoas físicas": 14700.0,
+   "Recursos próprios": 13000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1190735.12,
+   "FUNDO PARTIDARIO": 1000.0,
+   "OUTROS RECURSOS": 27700.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "06954942000195",
+    "nome": "Direção Nacional - PSOL",
+    "total": 1095783.73
+   },
+   {
+    "cnpj": "11664131000190",
+    "nome": "Direção Estadual/Distrital - PSOL - RIO GRANDE DO SUL",
+    "total": 94951.39
+   },
+   {
+    "cnpj": "09482180000160",
+    "nome": "Direção Municipal/Comissão Provisória - PSOL - PORTO ALEGRE - RS",
+    "total": 1000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 27700.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 788142.19,
+  "total_pago": 981237.28,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 13,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 149940.0
+   },
+   {
+    "cnpj": "19264763000178",
+    "nome": "CRISTINA GRANDEMAGNE DISTRIBUIDORA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 34000.0
+   },
+   {
+    "cnpj": "34149747000128",
+    "nome": "ANA LAURA DE SOUZA BARONI",
+    "cnae": "47130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6639.0
+   },
+   {
+    "cnpj": "30643459000174",
+    "nome": "30.643.459 ALLAN LEAL DA SILVA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 4750.0
+   },
+   {
+    "cnpj": "07473735000181",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "15705697000173",
+    "nome": "EVAG COMUNICACAO E TECNOLOGIA LTDA.",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2719.0
+   },
+   {
+    "cnpj": "55008753000135",
+    "nome": "RS GRAFICA IMPRESSAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2598.57
+   },
+   {
+    "cnpj": "26748774000199",
+    "nome": "NEWCO SM - EMPRESA JORNALISTICA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2558.02
+   },
+   {
+    "cnpj": "49464089000136",
+    "nome": "PROMOCOES E EVENTOS RM LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "94350113000160",
+    "nome": "JOKA SUBLIMACAO DIGITAL LTDA",
+    "cnae": "13405",
+    "n_despesas": 4,
+    "tipos": [
+     "Atividades de militância e mobilização de rua",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1728.0
+   },
+   {
+    "cnpj": "33043805000171",
+    "nome": "MATEUS MULLER",
+    "cnae": "49299",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 1700.0
+   },
+   {
+    "cnpj": "60629000000187",
+    "nome": "60.629.000 CASSIANO FERNANDES GEMELLI",
+    "cnae": "43304",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1595.0
+   },
+   {
+    "cnpj": "88804513000104",
+    "nome": "KADU MALHAS COMERCIO DE ROUPAS LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 645.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 193,
+   "total": 573769.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 572164.1,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 405.5,
+    "Serviços prestados por terceiros": 1200.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

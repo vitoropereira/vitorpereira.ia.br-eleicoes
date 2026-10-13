@@ -1,0 +1,283 @@
+{
+ "sq": "210002535685",
+ "nome_urna": "COMANDANTE NÁDIA",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1329821.12,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 1703.9,
+   "Recursos de outros candidatos": 11720.0,
+   "Recursos de partido político": 1140000.0,
+   "Recursos de pessoas físicas": 176397.22
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 511720.0,
+   "OUTROS RECURSOS": 818101.12
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1120000.0
+   },
+   {
+    "cnpj": "08892050000132",
+    "nome": "Direção Estadual/Distrital - PL - RIO GRANDE DO SUL",
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68312681000167",
+    "nome": "FERNANDA DA CUNHA BARTH",
+    "total": 6720.0
+   },
+   {
+    "cnpj": "68312720000126",
+    "nome": "MARCELO PIRES MORAES",
+    "total": 5000.0
+   },
+   {
+    "cnpj": "28067410000179",
+    "nome": "ELEGIS GESTAO ESTRATEGICA",
+    "total": 1703.9
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 51,
+   "total": 176397.22
+  }
+ },
+ "despesas": {
+  "total_contratado": 647713.32,
+  "total_pago": 354661.22,
+  "fornecedores_pj": [
+   {
+    "cnpj": "05677050000121",
+    "nome": "ANS IMPRESSOES GRAFICAS LTDA.",
+    "cnae": "17419",
+    "n_despesas": 16,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 140093.71
+   },
+   {
+    "cnpj": "48253677000168",
+    "nome": "ANA PAULA MACHADO MARTINS ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "68312681000167",
+    "nome": "FERNANDA DA CUNHA BARTH",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "13844156000109",
+    "nome": "1000 IMPRESSOES NH LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14250.0
+   },
+   {
+    "cnpj": "68312541000199",
+    "nome": "KATIA KASPARY",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "30295140000103",
+    "nome": "CENTRAL DE CAMISETAS LTDA",
+    "cnae": "46192",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 5780.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "15115234000151",
+    "nome": "SPEED PROMOCIONAL INDUSTRIA DE BRINDES LTDA",
+    "cnae": "32990",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3100.0
+   },
+   {
+    "cnpj": "34028316566441",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 1811.1
+   },
+   {
+    "cnpj": "90744509000131",
+    "nome": "COPY STAR FOTOCOPIAS E ENCADERNACOES LTDA",
+    "cnae": "82199",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 850.0
+   },
+   {
+    "cnpj": "95592077000104",
+    "nome": "PLANALTO TRANSPORTES LTDA",
+    "cnae": "49221",
+    "n_despesas": 9,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 753.75
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 731.3
+   },
+   {
+    "cnpj": "94312634000123",
+    "nome": "CEMM SERVICOS POSTAIS LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 627.9
+   },
+   {
+    "cnpj": "88916549000171",
+    "nome": "CHE BELLO EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "92954106000142",
+    "nome": "VIACAO OURO E PRATA SA",
+    "cnae": "49221",
+    "n_despesas": 4,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 314.5
+   },
+   {
+    "cnpj": "01554285000175",
+    "nome": "CERTISIGN CERTIFICADORA DIGITAL S.A",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 274.9
+   },
+   {
+    "cnpj": "97755607000113",
+    "nome": "CITRAL TRANSPORTE E TURISMO SA",
+    "cnae": "49221",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 160.3
+   },
+   {
+    "cnpj": "91158717000111",
+    "nome": "EXPRESSO AZUL DE TRANSPORTE SA",
+    "cnae": "49221",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 131.0
+   },
+   {
+    "cnpj": "92189612000192",
+    "nome": "EXPRESSO EMBAIXADOR LTDA",
+    "cnae": "49221",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 44.8
+   },
+   {
+    "cnpj": "95424735000159",
+    "nome": "VIACAO UNIAO SANTA CRUZ LTDA",
+    "cnae": "49221",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 37.95
+   },
+   {
+    "cnpj": "28067410000179",
+    "nome": "ELEGIS GESTAO ESTRATEGICA",
+    "cnae": "70204",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 27.11
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 61,
+   "total": 397125.0,
+   "por_tipo": {
+    "Despesas com pessoal": 272125.0,
+    "Diversas a especificar": 110000.0,
+    "Serviços contábeis": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

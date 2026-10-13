@@ -1,0 +1,186 @@
+{
+ "sq": "140002540476",
+ "nome_urna": "LU OGAWA",
+ "cargo": "depfed",
+ "uf": "PA",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2216500.0,
+  "por_origem": {
+   "Recursos de partido político": 2160000.0,
+   "Recursos de pessoas físicas": 31500.0,
+   "Recursos próprios": 25000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2160000.0,
+   "OUTROS RECURSOS": 56500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 2160000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 56500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 795401.06,
+  "total_pago": 22488.06,
+  "fornecedores_pj": [
+   {
+    "cnpj": "03496913000139",
+    "nome": "C 8 COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 350000.0
+   },
+   {
+    "cnpj": "39607176000141",
+    "nome": "RESOLUTIVA EMPREENDIMENTOS LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 138000.0
+   },
+   {
+    "cnpj": "17284669000155",
+    "nome": "AMANDA LIMA FIGUEIREDO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "45010377000160",
+    "nome": "R.G. CONSULTORIA, ASSESSORIA CONTABIL EMPRESARIAL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 65000.0
+   },
+   {
+    "cnpj": "57619133000168",
+    "nome": "COMUNICACAO VISUAL DE COM. E SERV. LTDA",
+    "cnae": "47814",
+    "n_despesas": 11,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por jornais e revistas",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 23200.0
+   },
+   {
+    "cnpj": "02570474000102",
+    "nome": "MUNDIAL SERVICOS DE LOCACAO DE AUTOMOVEIS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "40821516000111",
+    "nome": "C. A. LOPES DE SOUSA LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17920.0
+   },
+   {
+    "cnpj": "31045424000104",
+    "nome": "VOEJA TAXIAEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 16500.0
+   },
+   {
+    "cnpj": "41762975000134",
+    "nome": "ARTECON EMPREENDIMENTOS LTDA",
+    "cnae": "77322",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15680.0
+   },
+   {
+    "cnpj": "47696176000193",
+    "nome": "VIP COMERCIO E SERVICO LTDA",
+    "cnae": "18229",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 14300.0
+   },
+   {
+    "cnpj": "15741481000163",
+    "nome": "DINASTIA VIAGENS E TURISMO LTDA",
+    "cnae": "79112",
+    "n_despesas": 2,
+    "tipos": [
+     "Passagem Aérea"
+    ],
+    "total": 5986.56
+   },
+   {
+    "cnpj": "38538585000170",
+    "nome": "RODRIGUES COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4050.0
+   },
+   {
+    "cnpj": "52765438000164",
+    "nome": "52.765.438 ADELINO OLIVEIRA LIMA NETO",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 700.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 51,
+   "total": 44064.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 39200.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.5,
+    "Serviços prestados por terceiros": 4863.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

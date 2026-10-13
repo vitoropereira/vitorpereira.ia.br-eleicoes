@@ -1,0 +1,64 @@
+{
+ "sq": "10002544524",
+ "nome_urna": "ANDRÉ DA DROGA VALE",
+ "cargo": "depest",
+ "uf": "AC",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 150000.0,
+  "por_origem": {
+   "Recursos de partido político": 150000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 150000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 150000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 14039.99,
+  "total_pago": 43039.99,
+  "fornecedores_pj": [
+   {
+    "cnpj": "62892693000121",
+    "nome": "GDLP COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 39.99
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 0,
+   "total": 0.0,
+   "por_tipo": {}
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,462 @@
+{
+ "sq": "260002547442",
+ "nome_urna": "JOAO DANIEL",
+ "cargo": "depfed",
+ "uf": "SE",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1927437.31,
+  "por_origem": {
+   "Recursos de partido político": 1915437.31,
+   "Recursos de pessoas físicas": 12000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1815500.0,
+   "OUTROS RECURSOS": 111937.31
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1815500.0
+   },
+   {
+    "cnpj": "15615958000164",
+    "nome": "Direção Estadual/Distrital - PT - SERGIPE",
+    "total": 99937.31
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 12000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1952004.24,
+  "total_pago": 1818329.02,
+  "fornecedores_pj": [
+   {
+    "cnpj": "59298272000162",
+    "nome": "59.298.272 CICERO CARLOS LINS DA SILVA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "32859100000164",
+    "nome": "TEXTOPRONTO GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 158728.0
+   },
+   {
+    "cnpj": "12694094000125",
+    "nome": "A C ANDRADE COMERCIO SERVICOS E LOCACOES LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "09087858000100",
+    "nome": "OPINIAO PESQUISAS E MARKETING LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 72000.0
+   },
+   {
+    "cnpj": "20212822000143",
+    "nome": "FEITOZA DE CARVALHO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "43661465000104",
+    "nome": "43.661.465 GILDEON BARBOSA DOS SANTOS",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 53130.0
+   },
+   {
+    "cnpj": "12667574000105",
+    "nome": "LOCASIN - LOCACAO E SERVICOS DE TRANSPORTES LTDA",
+    "cnae": "77110",
+    "n_despesas": 7,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 50525.0
+   },
+   {
+    "cnpj": "10960636000139",
+    "nome": "CABRAL AUDITORIA, PERICIA E CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "44134240000154",
+    "nome": "SP LOCACOES E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 4,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 46080.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 31360.0
+   },
+   {
+    "cnpj": "43694191000141",
+    "nome": "WELLINGTON LIMA DE JESUS LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 27800.0
+   },
+   {
+    "cnpj": "04503787000165",
+    "nome": "TEIXEIRA GUINDASTES II LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "00714593000158",
+    "nome": "OCEANICA INDUSTRIA E COMERCIO LTDA",
+    "cnae": "14223",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13000.0
+   },
+   {
+    "cnpj": "28294936000191",
+    "nome": "NATHALIE DAYANE SILVA MELO",
+    "cnae": "47512",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10500.0
+   },
+   {
+    "cnpj": "08942738000180",
+    "nome": "MT SIGNS COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8850.0
+   },
+   {
+    "cnpj": "32864795000920",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5666.53
+   },
+   {
+    "cnpj": "05996605000106",
+    "nome": "JAC CAMINHOES LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5600.0
+   },
+   {
+    "cnpj": "22773244000140",
+    "nome": "PLOTART COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5309.0
+   },
+   {
+    "cnpj": "53122005000153",
+    "nome": "OVERLAND CAR LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "62691904000168",
+    "nome": "VS PRODUCOES ARTISTICAS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "67820413000193",
+    "nome": "LGS SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "54362315000108",
+    "nome": "54.362.315 MOISES SILVA SOUZA",
+    "cnae": "25390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3750.0
+   },
+   {
+    "cnpj": "04547233000160",
+    "nome": "PROTECAO E FERRAMENTAS LTDA",
+    "cnae": "46494",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 2725.0
+   },
+   {
+    "cnpj": "04465201000115",
+    "nome": "IMPRESSOS DESIGNER LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2358.0
+   },
+   {
+    "cnpj": "56947374000173",
+    "nome": "56.947.374 ORISVALDO MONTEIRO DA SILVA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2200.0
+   },
+   {
+    "cnpj": "32864795001063",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1630.18
+   },
+   {
+    "cnpj": "32864795001144",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1067.1
+   },
+   {
+    "cnpj": "48764496000104",
+    "nome": "TB TELECOM LTDA",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Telefone"
+    ],
+    "total": 1065.0
+   },
+   {
+    "cnpj": "08846708000170",
+    "nome": "COPYGRAF COMERCIO DE COPIADORAS SERVICO LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "32864795002388",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 810.01
+   },
+   {
+    "cnpj": "32864795000172",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 661.68
+   },
+   {
+    "cnpj": "32864795000253",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 639.12
+   },
+   {
+    "cnpj": "32864795000334",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 570.0
+   },
+   {
+    "cnpj": "32864795001306",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 535.51
+   },
+   {
+    "cnpj": "32864795002205",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 461.31
+   },
+   {
+    "cnpj": "32864795002701",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 333.62
+   },
+   {
+    "cnpj": "00083042000133",
+    "nome": "PAULO COMERCIO E PAPELARIA LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 314.0
+   },
+   {
+    "cnpj": "32864795001900",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 291.11
+   },
+   {
+    "cnpj": "32864795001730",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 246.12
+   },
+   {
+    "cnpj": "32864795002540",
+    "nome": "REDE DE POSTOS PRESIDENTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 122.09
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 308,
+   "total": 917675.86,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 644769.76,
+    "Cessão ou locação de veículos": 47400.0,
+    "Despesas com pessoal": 93695.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 311.1,
+    "Locação/cessão de bens imóveis": 4000.0,
+    "Publicidade por carros de som": 127500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

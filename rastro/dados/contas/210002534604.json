@@ -1,0 +1,378 @@
+{
+ "sq": "210002534604",
+ "nome_urna": "MARIA DO ROSARIO",
+ "cargo": "depfed",
+ "uf": "RS",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2853643.18,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 18108.18,
+   "Recursos de partido político": 2815000.0,
+   "Recursos de pessoas físicas": 20535.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2815000.0,
+   "OUTROS RECURSOS": 38643.18
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 2815000.0
+   },
+   {
+    "cnpj": "28067410000179",
+    "nome": "ELEGIS GESTAO ESTRATEGICA",
+    "total": 18108.18
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 12,
+   "total": 20535.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1607471.19,
+  "total_pago": 1030121.62,
+  "fornecedores_pj": [
+   {
+    "cnpj": "73984692000123",
+    "nome": "GRAFICA E EDITORA V C LTDA",
+    "cnae": "18130",
+    "n_despesas": 16,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 200100.0
+   },
+   {
+    "cnpj": "22613238000125",
+    "nome": "LUCIO U.F DE MACEDO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 132000.0
+   },
+   {
+    "cnpj": "12052646000100",
+    "nome": "JAIRO DA SILVEIRA JUNIOR",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "92869650000196",
+    "nome": "IMPRESUL SERVICO GRAFICO E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 41600.0
+   },
+   {
+    "cnpj": "66127468000150",
+    "nome": "VERITTAS SOLUCOES LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 31500.0
+   },
+   {
+    "cnpj": "56933804000106",
+    "nome": "GLADIS SILVA DA ROSA LTDA",
+    "cnae": "47555",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 28000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "68312522000162",
+    "nome": "MARINA MARIA DE AVILA CALLEGARO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "48059766000178",
+    "nome": "FR PUBLICIDADE LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16794.0
+   },
+   {
+    "cnpj": "00828361000120",
+    "nome": "IMOBILIARIA KOPSTEIN LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "25188538000100",
+    "nome": "ESSENT INOVACAO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 13500.0
+   },
+   {
+    "cnpj": "68059992000166",
+    "nome": "IMPULSE DRIVE LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9800.0
+   },
+   {
+    "cnpj": "09273885000177",
+    "nome": "VIA MAIS REDE DE POSTOS S.A.",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "09146749000116",
+    "nome": "AUTOLOCADORA LINCK MELLO LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7820.0
+   },
+   {
+    "cnpj": "59882948000160",
+    "nome": "MILWAUKEE PRODUCAO DE EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "02054848000129",
+    "nome": "LUIS GUSTAVO BERNICKER",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1950.0
+   },
+   {
+    "cnpj": "41804453000158",
+    "nome": "41.804.453 JENIFER PUGLIERO DA ROSA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 1950.0
+   },
+   {
+    "cnpj": "38824625001899",
+    "nome": "POSTO LINHA VERDE LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "43624306000121",
+    "nome": "FH VIGILANCIA E MONITORAMENTO LTDA",
+    "cnae": "80111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 640.0
+   },
+   {
+    "cnpj": "36639923000135",
+    "nome": "36.639.923 CARLOS EDUARDO DA SILVA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "15431966000150",
+    "nome": "15.431.966 AVINE FERNANDES PEREIRA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "45876852000185",
+    "nome": "PRINTER INDUSTRIA E COMERCIO LTDA",
+    "cnae": "13596",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 465.0
+   },
+   {
+    "cnpj": "86862224000128",
+    "nome": "SAN ISIDRO HOTELARIA E TURISMO LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 351.0
+   },
+   {
+    "cnpj": "28067410000179",
+    "nome": "ELEGIS GESTAO ESTRATEGICA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 325.84
+   },
+   {
+    "cnpj": "28751321000147",
+    "nome": "GLOBAL PREVENCAO E SEGURANCA LTDA",
+    "cnae": "81117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 283.0
+   },
+   {
+    "cnpj": "22046269000141",
+    "nome": "CHIES LOCACAO DE MATERIAIS E EQUIPAMENTOS PARA FESTAS LTDA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 270.0
+   },
+   {
+    "cnpj": "07473735010063",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 226.51
+   },
+   {
+    "cnpj": "07473735016770",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 223.67
+   },
+   {
+    "cnpj": "07004809000130",
+    "nome": "POSTO BATOVI COMERCIAL - RS COMBUSTIVEIS E DERIVADOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 210.01
+   },
+   {
+    "cnpj": "11825802000157",
+    "nome": "INSTITUTO FENACON",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 199.75
+   },
+   {
+    "cnpj": "89557326000128",
+    "nome": "JUNIOR DISTRIBUIDORA DE SUPRIMENTOS CORPORATIVOS LTDA",
+    "cnae": "46478",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 60.52
+   },
+   {
+    "cnpj": "97269740000160",
+    "nome": "AGENCIA DE CORREIOS FRANQUEADA ACORIANOS LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 37.69
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 252,
+   "total": 984564.2,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 907464.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 120.2,
+    "Locação/cessão de bens imóveis": 15880.0,
+    "Serviços prestados por terceiros": 61100.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

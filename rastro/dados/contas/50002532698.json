@@ -1,0 +1,167 @@
+{
+ "sq": "50002532698",
+ "nome_urna": "NILTINHO",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 308325.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 1525.0,
+   "Recursos de partido político": 200000.0,
+   "Recursos de pessoas físicas": 57200.0,
+   "Recursos próprios": 49600.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "OUTROS RECURSOS": 108325.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "68430190000110",
+    "nome": "VALMIR CARLOS DA ASSUNCAO",
+    "total": 1525.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 106800.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 200047.94,
+  "total_pago": 266593.09,
+  "fornecedores_pj": [
+   {
+    "cnpj": "54829582000142",
+    "nome": "ATTA SERVICOS CO LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 50400.0
+   },
+   {
+    "cnpj": "03564743000182",
+    "nome": "CSN EMPREENDIMENTOS LTDA",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "62925390000168",
+    "nome": "62.925.390 ADILTON SILVA SANTOS",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "12209884000178",
+    "nome": "PONTO 8 WEB COMUNICACAO LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 24390.24
+   },
+   {
+    "cnpj": "13099218000197",
+    "nome": "VALNEY CRUZ FARIAS DE SIMOES FILHO",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 15400.0
+   },
+   {
+    "cnpj": "15160353000126",
+    "nome": "LOPES ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "66743508000198",
+    "nome": "M.I.P - MARKETING LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "35552061000146",
+    "nome": "CRSP CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "47038264000106",
+    "nome": "CARVALHO CAIRO, INDUSTRIA E COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5400.0
+   },
+   {
+    "cnpj": "53103103000143",
+    "nome": "SIGNS DO BRASIL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 342.0
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 6075.7,
+   "por_tipo": {
+    "Despesas com pessoal": 6000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 75.7
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,257 @@
+{
+ "sq": "170002541232",
+ "nome_urna": "SEBASTIÃO OLIVEIRA",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "AVANTE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 542000.0,
+  "por_origem": {
+   "Recursos de partido político": 500000.0,
+   "Recursos próprios": 42000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 450000.0,
+   "FUNDO PARTIDARIO": 50000.0,
+   "OUTROS RECURSOS": 42000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "59933952000100",
+    "nome": "Direção Nacional - AVANTE",
+    "total": 500000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 42000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 411905.22,
+  "total_pago": 487094.32,
+  "fornecedores_pj": [
+   {
+    "cnpj": "57251930000135",
+    "nome": "57.251.930 ADRIAN ALBUQUERQUE BARBOSA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "58138015000109",
+    "nome": "NOVA PRINT LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27750.0
+   },
+   {
+    "cnpj": "57982235000143",
+    "nome": "INNOVA AVIACAO EXECUTIVA LTDA",
+    "cnae": "51129",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 24500.0
+   },
+   {
+    "cnpj": "53175123000120",
+    "nome": "TEXTIL LITORAL NORTE LTDA",
+    "cnae": "14126",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23450.0
+   },
+   {
+    "cnpj": "16994727000171",
+    "nome": "PBF GRAFICA E TEXTIL LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "11038639000182",
+    "nome": "CONECTE SOLUCOES CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "35603307000161",
+    "nome": "CCS GRAFICA E EDITORA COMERCIO E SERVICOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14300.0
+   },
+   {
+    "cnpj": "26163120000101",
+    "nome": "E J DE MEDEIROS OPERADORES TURISTICOS LTDA",
+    "cnae": "49299",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 10680.0
+   },
+   {
+    "cnpj": "34028316002157",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 9381.9
+   },
+   {
+    "cnpj": "48780483000110",
+    "nome": "LIDER LOCADORA DE VEICULOS SOCIEDADE UNIPESSOAL LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8833.33
+   },
+   {
+    "cnpj": "09543430000124",
+    "nome": "ANA C DE ARAUJO ANDRADA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4203.21
+   },
+   {
+    "cnpj": "59254528000130",
+    "nome": "POSTO MILAGRES COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3598.04
+   },
+   {
+    "cnpj": "10211999000171",
+    "nome": "RR TERCERIZACAO E SERVICOS LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1875.0
+   },
+   {
+    "cnpj": "10698529000184",
+    "nome": "MARIA DEUZANI DE SOUZA PLACAS E PAINEIS",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "11114600000105",
+    "nome": "ISRAEL P MENESES MERCEARIA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 810.0
+   },
+   {
+    "cnpj": "43922035000190",
+    "nome": "MARCOS AMERICO NOGUEIRA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "02289819000146",
+    "nome": "POSTO CONCORDE LTDA.",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 797.96
+   },
+   {
+    "cnpj": "47243173000102",
+    "nome": "POSTO BALI LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 357.28
+   },
+   {
+    "cnpj": "11681483000153",
+    "nome": "POSTO SAO CRISTOVAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 237.8
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 66,
+   "total": 162230.7,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 89062.5,
+    "Cessão ou locação de veículos": 7000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 168.2,
+    "Locação/cessão de bens imóveis": 18000.0,
+    "Produção de jingles, vinhetas e slogans": 3000.0,
+    "Serviços advocatícios": 16000.0,
+    "Serviços prestados por terceiros": 29000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

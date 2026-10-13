@@ -1,0 +1,329 @@
+{
+ "sq": "50002538765",
+ "nome_urna": "VALMIR ASSUNÇÃO",
+ "cargo": "depfed",
+ "uf": "BA",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1873401.0,
+  "por_origem": {
+   "Recursos de partido político": 1800000.0,
+   "Recursos de pessoas físicas": 73401.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1800000.0,
+   "OUTROS RECURSOS": 73401.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1800000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 67,
+   "total": 73401.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1419984.55,
+  "total_pago": 1831921.34,
+  "fornecedores_pj": [
+   {
+    "cnpj": "47038264000106",
+    "nome": "CARVALHO CAIRO, INDUSTRIA E COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 6,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 231450.0
+   },
+   {
+    "cnpj": "05770290000176",
+    "nome": "GENSA - GRAFICA E EDITORA NOSSA SENHORA APARECIDA LTDA",
+    "cnae": "18229",
+    "n_despesas": 14,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 188600.0
+   },
+   {
+    "cnpj": "46439622000111",
+    "nome": "FEIRA BANDEIRAS E IMPRESSOS LTDA",
+    "cnae": "17419",
+    "n_despesas": 11,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 151505.0
+   },
+   {
+    "cnpj": "13477302000105",
+    "nome": "Direção Estadual/Distrital - PT - BAHIA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 115000.0
+   },
+   {
+    "cnpj": "60215438000119",
+    "nome": "EXXO GRAFICA E COMUNICACAO VISUAL LTDA",
+    "cnae": "47610",
+    "n_despesas": 34,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 113462.0
+   },
+   {
+    "cnpj": "37331906000107",
+    "nome": "YELLOW PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "29863703000125",
+    "nome": "JL TRANSPORTES E TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos",
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 50750.0
+   },
+   {
+    "cnpj": "00131454000100",
+    "nome": "BUSCAFORMA TURISMO E EMPREENDIMENTOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 9,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 44000.0
+   },
+   {
+    "cnpj": "28699022000100",
+    "nome": "FIRST PRINT SOLUCOES EM TECNOLOGIA LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 36000.0
+   },
+   {
+    "cnpj": "10505398000171",
+    "nome": "COSTA MEDRADO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "16670085091444",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 7,
+    "tipos": [
+     "Cessão ou locação de veículos",
+     "Diversas a especificar"
+    ],
+    "total": 34486.22
+   },
+   {
+    "cnpj": "24759252000167",
+    "nome": "FEIRA ROTULOS E ETIQUETAS ADESIVAS LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 34000.0
+   },
+   {
+    "cnpj": "50835562000123",
+    "nome": "J 2 CONTABILIDADE, CONSULTORIA EMPRESARIAL E PUBLICA LTDA",
+    "cnae": "69206",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 32000.0
+   },
+   {
+    "cnpj": "00645514000102",
+    "nome": "POSTO CHAME-CHAME COMERCIO E SERVICOS DE COMBUSTIVEIS LTDA",
+    "cnae": "47296",
+    "n_despesas": 12,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 14000.33
+   },
+   {
+    "cnpj": "54586030000150",
+    "nome": "PIZZA AL DENTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 12342.0
+   },
+   {
+    "cnpj": "26130888000170",
+    "nome": "XCOLORUM GRAFICA COMUNICACAO VISUAL LTDA",
+    "cnae": "13405",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10694.0
+   },
+   {
+    "cnpj": "03067780000185",
+    "nome": "HFM COMERCIO DE CARNES NOBRES SOCIEDADE UNIPESSOAL LTDA.",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 9840.0
+   },
+   {
+    "cnpj": "58306458000153",
+    "nome": "58.306.458 LIAMARA RODRIGUES DA SILVA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 9200.0
+   },
+   {
+    "cnpj": "50461647000199",
+    "nome": "50.461.647 NILMA PEREIRA DOS REIS",
+    "cnae": "56112",
+    "n_despesas": 4,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 6800.0
+   },
+   {
+    "cnpj": "28204653000101",
+    "nome": "MUSAS LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "24865944000190",
+    "nome": "HILLS PRODUCOES ARTISTICAS E CULTURAIS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "40270006000101",
+    "nome": "DANILO TRANCOSO LOPO DE AMORIM",
+    "cnae": "95118",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "53512199000101",
+    "nome": "V4 GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "54443314000198",
+    "nome": "BOCAPIU COMERCIO DE ALIMENTOS LTDA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 108.0
+   },
+   {
+    "cnpj": "13236697000146",
+    "nome": "EBANX BRASIL INSTITUICAO DE PAGAMENTO LTDA",
+    "cnae": "62091",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 64.0
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 72,
+   "total": 162243.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 83509.0,
+    "Cessão ou locação de veículos": 9760.0,
+    "Despesas com pessoal": 62870.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 104.0,
+    "Produção de jingles, vinhetas e slogans": 6000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

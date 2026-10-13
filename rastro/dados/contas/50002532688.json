@@ -1,0 +1,171 @@
+{
+ "sq": "50002532688",
+ "nome_urna": "EDUARDO ALENCAR",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 228000.0,
+  "por_origem": {
+   "Recursos de partido político": 200000.0,
+   "Recursos de pessoas físicas": 25000.0,
+   "Recursos próprios": 3000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "OUTROS RECURSOS": 28000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 200000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 28000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 46690.54,
+  "total_pago": 45866.84,
+  "fornecedores_pj": [
+   {
+    "cnpj": "12209884000178",
+    "nome": "PONTO 8 WEB COMUNICACAO LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 24390.24
+   },
+   {
+    "cnpj": "52034339000102",
+    "nome": "ESTRELA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "27029368000139",
+    "nome": "CINARA ARAGAO LOPES LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "01640197000196",
+    "nome": "J C B SANTANA INFORMATICA LTDA",
+    "cnae": "47512",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2627.5
+   },
+   {
+    "cnpj": "13099218000197",
+    "nome": "VALNEY CRUZ FARIAS DE SIMOES FILHO",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2310.0
+   },
+   {
+    "cnpj": "54227164000185",
+    "nome": "54.227.164 MANOEL BERNARDO DA FRANCA FILHO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "09336339000138",
+    "nome": "ITAGRAF EDITORA E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1462.8
+   },
+   {
+    "cnpj": "45756425000163",
+    "nome": "PRIMEIRA IMPRESSAO CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "06282997000104",
+    "nome": "ANTONIO CUNHA LIMA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 360.0
+   },
+   {
+    "cnpj": "18799897000473",
+    "nome": "DIGISEC CERTIFICACAO DIGITAL LTDA",
+    "cnae": "62091",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 235.0
+   },
+   {
+    "cnpj": "65373030000199",
+    "nome": "PRIME SOLUCOES CRIATIVAS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "37385918000106",
+    "nome": "HOLOFOTE COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 54.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 4501.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.0,
+    "Locação/cessão de bens imóveis": 4500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

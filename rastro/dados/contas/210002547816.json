@@ -1,0 +1,832 @@
+{
+ "sq": "210002547816",
+ "nome_urna": "SANDERSON",
+ "cargo": "senador",
+ "uf": "RS",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 4718497.0,
+  "por_origem": {
+   "Recursos de partido político": 4400000.0,
+   "Recursos de pessoas físicas": 318497.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 4400000.0,
+   "OUTROS RECURSOS": 318497.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 4400000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 16,
+   "total": 318497.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 3155229.86,
+  "total_pago": 3316745.34,
+  "fornecedores_pj": [
+   {
+    "cnpj": "03072087000109",
+    "nome": "FABIANO DA ROSA BONETTI",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 330000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 260000.0
+   },
+   {
+    "cnpj": "52588762000154",
+    "nome": "RENATA ESMERALDINO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "63777179000108",
+    "nome": "CRJ COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 190050.0
+   },
+   {
+    "cnpj": "88804513000104",
+    "nome": "KADU MALHAS COMERCIO DE ROUPAS LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 180600.0
+   },
+   {
+    "cnpj": "93222644000105",
+    "nome": "ATHOS CONTEUDOS EDITORIAIS LTDA",
+    "cnae": "58131",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "07104434000180",
+    "nome": "TRIANGULLO GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 126000.0
+   },
+   {
+    "cnpj": "36741043000175",
+    "nome": "CARLOS ALBERTO COSTA SOUZA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "20790493000118",
+    "nome": "L M RECORTES E SINALIZACAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "29017945000106",
+    "nome": "S. F. PROMOCOES E EVENTOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 73409.78
+   },
+   {
+    "cnpj": "25053197000158",
+    "nome": "CENTENO MENDES ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "60251804000195",
+    "nome": "TALLES KUNZLER FOTOGRAFIA LTDA",
+    "cnae": "74200",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 42600.0
+   },
+   {
+    "cnpj": "27703682000155",
+    "nome": "27.703.682 MARIA EDUARDA MONTENEGRO IZQUIERDO",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "17361151000178",
+    "nome": "NOVO DESIGN JV LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 38984.0
+   },
+   {
+    "cnpj": "49000815000160",
+    "nome": "LEVVA MOBILIDADE LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "13392325000109",
+    "nome": "BCA PRODUCAO E DISTRIBUICAO DE FILMES LTDA",
+    "cnae": "59111",
+    "n_despesas": 3,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 31248.0
+   },
+   {
+    "cnpj": "17221031000175",
+    "nome": "CANCIAN IMOVEIS LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "26476676000140",
+    "nome": "PAULO GABRIEL MARTINS DE MOURA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "49023379000144",
+    "nome": "SWELL MARKETING E COMUNICACAO LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "10338946000205",
+    "nome": "PANTHUS SPORT INDUSTRIA E COMERCIO DE VESTUARIO LTDA",
+    "cnae": "47636",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 28715.0
+   },
+   {
+    "cnpj": "09146749000116",
+    "nome": "AUTOLOCADORA LINCK MELLO LTDA",
+    "cnae": "77110",
+    "n_despesas": 4,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 25982.45
+   },
+   {
+    "cnpj": "30667395000141",
+    "nome": "30.667.395 YURI DA VEIGA VIEIRA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "07473735000181",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 8,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 22742.0
+   },
+   {
+    "cnpj": "67683868000104",
+    "nome": "67.683.868 MARCOS GOMES FLORES",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "62059635000111",
+    "nome": "DERLI OLIVEIRA CONSULTORIA DE NEGOCIOS LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 21334.0
+   },
+   {
+    "cnpj": "39616641000100",
+    "nome": "STYLE BUSINESS LOGISTICA LTDA",
+    "cnae": "49302",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 20468.0
+   },
+   {
+    "cnpj": "33485320000138",
+    "nome": "PORTO ALEGRE SERVICOS DIGITAIS LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68772642000142",
+    "nome": "V. ALMINHANA LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 16925.89
+   },
+   {
+    "cnpj": "40366294000194",
+    "nome": "MARCELO MAIA CARVALHO",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "66277696000106",
+    "nome": "66.277.696 JAIR LUIS GONCALVES",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 14950.0
+   },
+   {
+    "cnpj": "07159033000128",
+    "nome": "JNV GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14942.0
+   },
+   {
+    "cnpj": "00107596000123",
+    "nome": "TOME MACHADO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14930.0
+   },
+   {
+    "cnpj": "67260796000192",
+    "nome": "67.260.796 ANTONIO GABRIEL GADENZ",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 14650.0
+   },
+   {
+    "cnpj": "94350113000160",
+    "nome": "JOKA SUBLIMACAO DIGITAL LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10900.0
+   },
+   {
+    "cnpj": "03509226000100",
+    "nome": "PASSOGRAFIC INDUSTRIA GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10770.0
+   },
+   {
+    "cnpj": "66962944000158",
+    "nome": "66.962.944 GERSON ANTONIO MACHADO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10666.0
+   },
+   {
+    "cnpj": "93489243000116",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10610.97
+   },
+   {
+    "cnpj": "03552001000137",
+    "nome": "JJK VIDEO LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "63272252000190",
+    "nome": "ZANELLA SERVICOS DIGITAIS E BRINDES LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "23285134000100",
+    "nome": "AUTOSUL LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9920.0
+   },
+   {
+    "cnpj": "07447405000111",
+    "nome": "ELF LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9833.33
+   },
+   {
+    "cnpj": "02112603000100",
+    "nome": "MONTES VERDES - TURISMO E PARTICIPACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8900.0
+   },
+   {
+    "cnpj": "07866549000102",
+    "nome": "BATUQUE MUSICA LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 8900.0
+   },
+   {
+    "cnpj": "04116990000189",
+    "nome": "KOEFENDER EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "29015806000135",
+    "nome": "AUTO LOCADORA GOLD LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7750.0
+   },
+   {
+    "cnpj": "93000586000175",
+    "nome": "GARAGE SIGARAN LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6715.39
+   },
+   {
+    "cnpj": "24294224000111",
+    "nome": "AUTO POSTO BR BOQUEIRAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4149.82
+   },
+   {
+    "cnpj": "36088027000125",
+    "nome": "RPR DE CAMPOS COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4100.0
+   },
+   {
+    "cnpj": "34413052000101",
+    "nome": "34.413.052 MOACIR FARIAS DA SILVA JUNIOR",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "62052789000181",
+    "nome": "OPEN GRAFICA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3414.0
+   },
+   {
+    "cnpj": "93010080000147",
+    "nome": "MAGAZINE SOFIA LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 3200.0
+   },
+   {
+    "cnpj": "89996136000107",
+    "nome": "TRAJANO RODRIGUES IMOVEIS LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "73752180000131",
+    "nome": "JB EMPRESA JORNALISTICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2880.0
+   },
+   {
+    "cnpj": "07350773000147",
+    "nome": "PROSPERA TECNOLOGIA LTDA",
+    "cnae": "66193",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2520.0
+   },
+   {
+    "cnpj": "21861211000199",
+    "nome": "ANDRE CASTRO DOS SANTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2180.5
+   },
+   {
+    "cnpj": "07982466000189",
+    "nome": "GRUPO SEPE TIARAJU DE COMUNICACOES LTDA",
+    "cnae": "60101",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1887.5
+   },
+   {
+    "cnpj": "54331163000186",
+    "nome": "PEDRO P B MAINARDI LTDA",
+    "cnae": "80200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "88729629000118",
+    "nome": "GRAFICA JORNAL DAS MISSOES LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 990.0
+   },
+   {
+    "cnpj": "28976615000177",
+    "nome": "TRIANGULLO COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 980.0
+   },
+   {
+    "cnpj": "00758665000169",
+    "nome": "BIRO DE INFORMATICA NACIONAL LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 930.0
+   },
+   {
+    "cnpj": "48680160000155",
+    "nome": "ALESSANDRO KRAMER BORGES",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 920.0
+   },
+   {
+    "cnpj": "03514708000159",
+    "nome": "EMPRESA JORNALISTICA JORNAL ALTO URUGUAI LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "42337177000128",
+    "nome": "42.337.177 DIEGO XIMENO DE OLIVEIRA GODOY",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 649.0
+   },
+   {
+    "cnpj": "88090808000158",
+    "nome": "EMS SERVICOS GRAFICO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 645.0
+   },
+   {
+    "cnpj": "87392320000112",
+    "nome": "CURI SA HOTEIS E TURISMO",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 526.0
+   },
+   {
+    "cnpj": "30758325000107",
+    "nome": "BACKUP EQUIPAMENTOS FOTOGRAFICOS COMERCIO E IMPORTACAO LTDA",
+    "cnae": "47539",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 360.0
+   },
+   {
+    "cnpj": "04971874000732",
+    "nome": "POSTO NATIVUS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 359.59
+   },
+   {
+    "cnpj": "02088189000141",
+    "nome": "ANTONIO MARCOS F VIANA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 309.0
+   },
+   {
+    "cnpj": "64746406000109",
+    "nome": "64.746.406 JOSE VILMAR BORGES DE FREITAS",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "05563868001357",
+    "nome": "BELLER COMERCIO DE PAPEIS LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 284.5
+   },
+   {
+    "cnpj": "21921645000641",
+    "nome": "HOERLLE ASSUMPCAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 258.0
+   },
+   {
+    "cnpj": "01938678000182",
+    "nome": "ABASTECEDORA DE COMBUSTIVEIS PAVERAMA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 252.0
+   },
+   {
+    "cnpj": "08689190000108",
+    "nome": "ABASTECEDORA DE COMBUSTIVEIS PORTO ALEGRE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 217.58
+   },
+   {
+    "cnpj": "05563868004100",
+    "nome": "BELLER COMERCIO DE PAPEIS LTDA",
+    "cnae": "47610",
+    "n_despesas": 5,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 185.38
+   },
+   {
+    "cnpj": "92699206000170",
+    "nome": "CARTONAGEM HEGA LTDA",
+    "cnae": "17311",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 36.0
+   },
+   {
+    "cnpj": "12230854000143",
+    "nome": "SISTEGON COMERCIO DE COMBUSTIVEIS E SERVICOS AUTOMOTIVOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 30.78
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 134,
+   "total": 685568.4,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 72580.0,
+    "Cessão ou locação de veículos": 25500.0,
+    "Combustíveis e lubrificantes": 1050.0,
+    "Despesas com pessoal": 218400.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 178.4,
+    "Locação/cessão de bens imóveis": 98500.0,
+    "Produção de programas de rádio, televisão ou vídeo": 12000.0,
+    "Serviços prestados por terceiros": 257360.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,232 @@
+{
+ "sq": "240002541382",
+ "nome_urna": "FERNANDO KRELLING",
+ "cargo": "depest",
+ "uf": "SC",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 645000.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 100000.0,
+   "Recursos de pessoas físicas": 535000.0,
+   "Recursos próprios": 10000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 100000.0,
+   "OUTROS RECURSOS": 545000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68461600000190",
+    "nome": "RODRIGO COELHO",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 47,
+   "total": 545000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 102051.7,
+  "total_pago": 143745.11,
+  "fornecedores_pj": [
+   {
+    "cnpj": "85191146000114",
+    "nome": "GRAFICA WILLEJACK LTDA",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 31770.0
+   },
+   {
+    "cnpj": "34232043000114",
+    "nome": "IMAGO PUBLICIDADE E PROPAGANDA LTDA",
+    "cnae": "73114",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10650.0
+   },
+   {
+    "cnpj": "48518830000131",
+    "nome": "FABRICA DE BONECOS GT LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 9300.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8855.9
+   },
+   {
+    "cnpj": "66914822000196",
+    "nome": "BANDEIRAS E BANNERS LTDA",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 6400.0
+   },
+   {
+    "cnpj": "84718683000107",
+    "nome": "SOCIEDADE ESPORTIVA E RECREATIVA ALVORADA",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "55679805000103",
+    "nome": "55.679.805 LUIS FABIANO DE ALBARNAES",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 4200.0
+   },
+   {
+    "cnpj": "34802607000107",
+    "nome": "CHRISTIAN RADLOFF - KOSTEN GESTAO DO LUCRO",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "04575823000104",
+    "nome": "AUTO POSTO PETROVEIGA LTDA",
+    "cnae": "47318",
+    "n_despesas": 12,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1606.59
+   },
+   {
+    "cnpj": "60321324000153",
+    "nome": "MCM SUPRIMENTOS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "02292798000118",
+    "nome": "CELITO COPIAS LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "24326836000149",
+    "nome": "SC MIDIA E EVENTOS LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "63550485000107",
+    "nome": "63.550.485 ANDERSON ARAUJO FELICIO",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "36999229000129",
+    "nome": "BC VISUAL IMPRESSOES LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "09004513000145",
+    "nome": "RIFFEL COMERCIO ATACADISTA DE EMBALAGENS LTDA",
+    "cnae": "46869",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 413.95
+   },
+   {
+    "cnpj": "11467717000164",
+    "nome": "VISUAL DESIGN DE RESULTADO LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 305.76
+   },
+   {
+    "cnpj": "09574511000191",
+    "nome": "CENTRAL DE COPIAS E ARTES LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 240.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 12009.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 9.5,
+    "Serviços advocatícios": 4000.0,
+    "Serviços contábeis": 8000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

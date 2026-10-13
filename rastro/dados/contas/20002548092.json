@@ -1,0 +1,108 @@
+{
+ "sq": "20002548092",
+ "nome_urna": "HENRIQUE CHICÃO",
+ "cargo": "depest",
+ "uf": "AL",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 134000.0,
+  "por_origem": {
+   "Recursos de partido político": 100000.0,
+   "Recursos próprios": 34000.0
+  },
+  "por_fonte": {
+   "FUNDO PARTIDARIO": 100000.0,
+   "OUTROS RECURSOS": 34000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01308052000192",
+    "nome": "Direção Estadual/Distrital - MDB - ALAGOAS",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 34000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 101931.0,
+  "total_pago": 48431.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "16698544000109",
+    "nome": "ALMEIDA TEIXEIRA ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "11355874000188",
+    "nome": "INFINNI SERVICOS E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "26389078000133",
+    "nome": "CONTROLE CONTADORES ASSOCIADOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 13500.0
+   },
+   {
+    "cnpj": "23220094000100",
+    "nome": "REDE EDITORA E SERVICOS GRAFICOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "52109913000144",
+    "nome": "INSTITUTO APICE LTDA",
+    "cnae": "72207",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "08405491000162",
+    "nome": "IVANE DOS SANTOS BEZERRA ARTES GRAFICAS E SERIGRAFIA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6600.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 10,
+   "total": 17831.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 17831.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

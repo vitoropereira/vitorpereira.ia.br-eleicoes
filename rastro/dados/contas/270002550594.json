@@ -1,0 +1,128 @@
+{
+ "sq": "270002550594",
+ "nome_urna": "MARCOS DUARTE",
+ "cargo": "depest",
+ "uf": "TO",
+ "partido": "PRD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 138973.25,
+  "por_origem": {
+   "Recursos de partido político": 22273.25,
+   "Recursos de pessoas físicas": 97200.0,
+   "Recursos próprios": 19500.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 138973.25
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08738595000199",
+    "nome": "Direção Estadual/Distrital - PL - TOCANTINS",
+    "total": 20386.25
+   },
+   {
+    "cnpj": "45877002000100",
+    "nome": "Direção Estadual/Distrital - UNIÃO - TOCANTINS",
+    "total": 1887.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 13,
+   "total": 116700.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 97878.75,
+  "total_pago": 20149.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "34150361000136",
+    "nome": "BASE NORTE DISTRIBUIDORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5950.0
+   },
+   {
+    "cnpj": "24293104000108",
+    "nome": "EDU SHOW E ILUMINACAO LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "44673248000199",
+    "nome": "DOURADO PRODUTORA LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "34935350000161",
+    "nome": "PEGO PEGO LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "06333164000117",
+    "nome": "REDE DE POSTOS TOCA DA ONCA ARAGUAINA CIDADE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3959.0
+   },
+   {
+    "cnpj": "28586053000155",
+    "nome": "POSTO VIA LAGO COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2489.25
+   },
+   {
+    "cnpj": "15720302000101",
+    "nome": "CORES EM PAPEL INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2480.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 83,
+   "total": 69000.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 37000.0,
+    "Despesas com pessoal": 24000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5,
+    "Locação/cessão de bens imóveis": 8000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

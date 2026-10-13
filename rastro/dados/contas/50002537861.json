@@ -1,0 +1,249 @@
+{
+ "sq": "50002537861",
+ "nome_urna": "JÚLIO PINHEIRO",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 425630.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 14930.0,
+   "Recursos de partido político": 124600.0,
+   "Recursos de pessoas físicas": 286100.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 124600.0,
+   "OUTROS RECURSOS": 301030.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 124600.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 14930.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 69,
+   "total": 286100.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 365534.05,
+  "total_pago": 391163.87,
+  "fornecedores_pj": [
+   {
+    "cnpj": "56304209000101",
+    "nome": "2P COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "02089251000110",
+    "nome": "CONSTRUTORA ANDRADE SILVA E SERVICOS LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 28000.0
+   },
+   {
+    "cnpj": "05770290000176",
+    "nome": "GENSA - GRAFICA E EDITORA NOSSA SENHORA APARECIDA LTDA",
+    "cnae": "18229",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21205.0
+   },
+   {
+    "cnpj": "08303959000108",
+    "nome": "MAIS IMPRESSAO DECOR LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16780.0
+   },
+   {
+    "cnpj": "04066731000190",
+    "nome": "SAL E BRASA COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 16179.68
+   },
+   {
+    "cnpj": "46168997000194",
+    "nome": "YOUR GRAPHIC BRASIL SERVICOS GRAFICOS LTDA",
+    "cnae": "18229",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12334.1
+   },
+   {
+    "cnpj": "29614322000102",
+    "nome": "NEOMAR RODRIGUES DIAS FILHO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "15683767000130",
+    "nome": "AMARGOSA TECH COMUNICACAO VISUAL LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "38256696000194",
+    "nome": "HEKO DIGITAL LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6250.0
+   },
+   {
+    "cnpj": "57921600000100",
+    "nome": "RAFAEL ABREU MARKETING E TECNOLOGIA LTDA.",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6197.0
+   },
+   {
+    "cnpj": "09203546000114",
+    "nome": "AUTO GUINCHO AMARGOSA LTDA",
+    "cnae": "52290",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "13477302000105",
+    "nome": "PARTIDO DOS TRABALHADORES - BAHIA - BA - ESTADUAL",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "19600645000193",
+    "nome": "EXPERT SOLUCOES CONTABEIS-SOCIEDADE SIMPLES",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "33880610000186",
+    "nome": "POSTO CATITU LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3884.73
+   },
+   {
+    "cnpj": "52943664000198",
+    "nome": "FOX ARTS AMARGOSA LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2775.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 318.54
+   },
+   {
+    "cnpj": "58750994000143",
+    "nome": "RAINBOW PRINT AGENCIA GRAFICA LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 280.0
+   },
+   {
+    "cnpj": "29172146000104",
+    "nome": "SIMAS SOLUCOES E REPRESENTACOES LTDA",
+    "cnae": "46869",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 150.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 22,
+   "total": 24180.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 8000.0,
+    "Cessão ou locação de veículos": 11000.0,
+    "Despesas com pessoal": 4984.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 196.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

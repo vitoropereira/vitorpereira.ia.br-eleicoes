@@ -1,0 +1,352 @@
+{
+ "sq": "90002542626",
+ "nome_urna": "MAJOR VITOR HUGO",
+ "cargo": "depfed",
+ "uf": "GO",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1191877.38,
+  "por_origem": {
+   "Recursos de outros candidatos": 2312.5,
+   "Recursos de partido político": 1030000.0,
+   "Recursos de pessoas físicas": 149564.88,
+   "Recursos próprios": 10000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 330000.0,
+   "FUNDO PARTIDARIO": 700000.0,
+   "OUTROS RECURSOS": 161877.38
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1030000.0
+   },
+   {
+    "cnpj": "68475928000166",
+    "nome": "GUSTAVO GAYER MACHADO DE ARAUJO",
+    "total": 2312.5
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 14,
+   "total": 159564.88
+  }
+ },
+ "despesas": {
+  "total_contratado": 357065.73,
+  "total_pago": 138156.91,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "27151534000175",
+    "nome": "CROSARA E FRANCA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "23366502000136",
+    "nome": "DIOGENES RAMOS LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "40076021000105",
+    "nome": "VIRA CLICK LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "36940679000146",
+    "nome": "CORREA GOMES CONTABILIDADE ASSESSORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "63724737000177",
+    "nome": "GRAFICA MULTICORTE LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9500.0
+   },
+   {
+    "cnpj": "67033408000130",
+    "nome": "IMPRILUX SOLUCOES LTDA",
+    "cnae": "43291",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7247.5
+   },
+   {
+    "cnpj": "24095599000152",
+    "nome": "PREMIUM TUR LOCADORA LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5093.28
+   },
+   {
+    "cnpj": "54774319000101",
+    "nome": "54.774.319 JOSE DOS SANTOS RODRIGUES DA SILVA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 2555.0
+   },
+   {
+    "cnpj": "57273446000107",
+    "nome": "M DA GLORIA DAMASO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2300.0
+   },
+   {
+    "cnpj": "50480381000121",
+    "nome": "50.480.381 SILVON MARTINS ROCHA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "35109227000154",
+    "nome": "FLY BANNER IMPRESSAO DIGITAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1150.0
+   },
+   {
+    "cnpj": "47968376000158",
+    "nome": "CACULA, PALACE HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 796.0
+   },
+   {
+    "cnpj": "42525290000137",
+    "nome": "BAR E CHURRASCARIA PICANHA NA BRASA 064 LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 504.0
+   },
+   {
+    "cnpj": "35497340000154",
+    "nome": "35.497.340 FERNANDA DA SILVA DE OLIVEIRA GOLD",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 480.0
+   },
+   {
+    "cnpj": "02211749000880",
+    "nome": "POSTO 5.5. LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 467.56
+   },
+   {
+    "cnpj": "21520375000152",
+    "nome": "CRUVINEL COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 445.65
+   },
+   {
+    "cnpj": "07327181000104",
+    "nome": "3 IRMAOS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 358.0
+   },
+   {
+    "cnpj": "40261699000168",
+    "nome": "AMANDA BATISTA REIS",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 350.0
+   },
+   {
+    "cnpj": "39623603000185",
+    "nome": "APROTETORA COMERCIO DE EPI LTDA",
+    "cnae": "46427",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 304.05
+   },
+   {
+    "cnpj": "30495321000175",
+    "nome": "ATACADAO BOM PRECO LTDA",
+    "cnae": "46354",
+    "n_despesas": 3,
+    "tipos": [
+     "Materiais de expediente",
+     "Água"
+    ],
+    "total": 297.86
+   },
+   {
+    "cnpj": "58062416000114",
+    "nome": "JUCILENE PEREIRA DA COSTA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 252.0
+   },
+   {
+    "cnpj": "49833549000156",
+    "nome": "49.833.549 LEONARDO DE MEDEIROS MARINHO",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 240.0
+   },
+   {
+    "cnpj": "53325233000120",
+    "nome": "PAMPAS GRILL CHURRASCARIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 240.0
+   },
+   {
+    "cnpj": "19300256000142",
+    "nome": "CASA BRASIL COMERCIO E SERVICOS LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 139.0
+   },
+   {
+    "cnpj": "05929196000117",
+    "nome": "CAIAPO INDUSTRIA E COMERCIO DE AGUA MINERAL LTDA",
+    "cnae": "11216",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 86.0
+   },
+   {
+    "cnpj": "46095900000160",
+    "nome": "GIL OLIVEIRAS LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 72.0
+   },
+   {
+    "cnpj": "37314188000152",
+    "nome": "GRAMADO PIZZARIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 60.0
+   },
+   {
+    "cnpj": "03136893000195",
+    "nome": "REPAR CENTER COMERCIO DE MATERIAIS ELETRICOS LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 59.9
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 25,
+   "total": 107867.93,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 10164.43,
+    "Despesas com pessoal": 87000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 23.0,
+    "Publicidade por carros de som": 9059.5,
+    "Serviços prestados por terceiros": 1621.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

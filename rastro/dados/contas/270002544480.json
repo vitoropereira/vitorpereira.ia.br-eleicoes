@@ -1,0 +1,189 @@
+{
+ "sq": "270002544480",
+ "nome_urna": "MOISEMAR MARINHO",
+ "cargo": "depest",
+ "uf": "TO",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 613119.65,
+  "por_origem": {
+   "Recursos de outros candidatos": 24874.42,
+   "Recursos de partido político": 528245.23,
+   "Recursos de pessoas físicas": 29000.0,
+   "Recursos próprios": 31000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 539510.0,
+   "FUNDO PARTIDARIO": 5258.23,
+   "OUTROS RECURSOS": 68351.42
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 500000.0
+   },
+   {
+    "cnpj": "08738595000199",
+    "nome": "Direção Estadual/Distrital - PL - TOCANTINS",
+    "total": 28245.23
+   },
+   {
+    "cnpj": "68504142000120",
+    "nome": "CARLOS EDUARDO TORRES GOMES",
+    "total": 22860.0
+   },
+   {
+    "cnpj": "68492195000178",
+    "nome": "MARIA AUXILIADORA SEABRA REZENDE",
+    "total": 2014.42
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 15,
+   "total": 60000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 308397.7,
+  "total_pago": 421976.8,
+  "fornecedores_pj": [
+   {
+    "cnpj": "29409252000150",
+    "nome": "ENGENHO SERVICOS DE COMUNICACAO LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 125000.0
+   },
+   {
+    "cnpj": "28910844000199",
+    "nome": "EXPERTISE CONTABILIDADE S/S LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "34820064000150",
+    "nome": "MA GRAFICA EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 35150.0
+   },
+   {
+    "cnpj": "07283845000180",
+    "nome": "A F DA SILVA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 8010.0
+   },
+   {
+    "cnpj": "51615351000148",
+    "nome": "ART MUSIC STUDIO PRODUTORA DE AUDIO VIDEO LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "34309267000187",
+    "nome": "COMERCIAL DE COMBUSTIVEIS CASA TUA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "25042615000101",
+    "nome": "SINDICATO DOS POLICIAIS CIVIS DO ESTADO DO TOCANTINS-SINPOL-TO",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "07727594000186",
+    "nome": "NATALYA BRINDES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1450.0
+   },
+   {
+    "cnpj": "42180030000177",
+    "nome": "MAISCORES COMERCIO E SERVICOS DE COMUNICACAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1395.0
+   },
+   {
+    "cnpj": "00767293000137",
+    "nome": "ASSOCIACAO COMERCIAL, INDUSTRIAL E PRESTACIONAL DE COLINAS DO TOCANTINS",
+    "cnae": "94111",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 980.0
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 8,
+   "total": 66072.7,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 17000.0,
+    "Despesas com pessoal": 39000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 72.7,
+    "Locação/cessão de bens imóveis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,79 @@
+{
+ "sq": "270002546663",
+ "nome_urna": "IVORY DE LIRA",
+ "cargo": "depest",
+ "uf": "TO",
+ "partido": "PCDOB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 123440.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 123440.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 123440.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 123440.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 21480.0,
+  "total_pago": 22080.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "59568508000133",
+    "nome": "HORIZONTE INVESTIMENTOS E PARTICIPACOES LTDA",
+    "cnae": "64638",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "34230646000187",
+    "nome": "BOX MIL REPRESENTACOES LTDA",
+    "cnae": "46192",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6420.0
+   },
+   {
+    "cnpj": "11649005000166",
+    "nome": "FLASH - COMUNICACAO VISUAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5060.0
+   },
+   {
+    "cnpj": "03367837000161",
+    "nome": "CANADA LEGACY LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 0,
+   "total": 0.0,
+   "por_tipo": {}
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

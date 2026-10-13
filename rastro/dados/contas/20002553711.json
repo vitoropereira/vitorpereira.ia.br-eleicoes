@@ -1,0 +1,162 @@
+{
+ "sq": "20002553711",
+ "nome_urna": "MARINA JHC",
+ "cargo": "senador",
+ "uf": "AL",
+ "partido": "PSDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2497000.0,
+  "por_origem": {
+   "Recursos de partido político": 1890000.0,
+   "Recursos de pessoas físicas": 607000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1500000.0,
+   "OUTROS RECURSOS": 997000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "29417359000140",
+    "nome": "Direção Nacional - CIDADANIA",
+    "total": 1500000.0
+   },
+   {
+    "cnpj": "03653474000120",
+    "nome": "Direção Nacional - PSDB",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "69981769000134",
+    "nome": "Direção Estadual/Distrital - PSDB - ALAGOAS",
+    "total": 190000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 607000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1754734.2,
+  "total_pago": 1033993.7,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 9,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 600000.0
+   },
+   {
+    "cnpj": "45573353000119",
+    "nome": "TWOBUNKER PRODUCOES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "22707041000155",
+    "nome": "L S PRODUCOES PROMOCOES E EVENTOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 170500.0
+   },
+   {
+    "cnpj": "04386913000149",
+    "nome": "ELOS ESTUDIO E SERVICOS LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "07042588000195",
+    "nome": "BOMFIM JATOBA ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "35830555000145",
+    "nome": "G C R LIMA LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "04321720000100",
+    "nome": "LIMA NEVES LTDA",
+    "cnae": "61108",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros",
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "01301040000136",
+    "nome": "GRAFPEL IND GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 32340.0
+   },
+   {
+    "cnpj": "23919538000108",
+    "nome": "SJUSTINO CONSTRUCOES LOCACOES E SERVICOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 11400.0
+   },
+   {
+    "cnpj": "29061526000163",
+    "nome": "DPMC COMERCIO DE AGUA MINERAL LTDA",
+    "cnae": "11216",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 6800.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 177,
+   "total": 358694.2,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 283621.0,
+    "Cessão ou locação de veículos": 60000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 73.2,
+    "Serviços prestados por terceiros": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

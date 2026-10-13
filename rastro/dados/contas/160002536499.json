@@ -1,0 +1,315 @@
+{
+ "sq": "160002536499",
+ "nome_urna": "ARILSON CHIORATO",
+ "cargo": "depfed",
+ "uf": "PR",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1336285.5,
+  "por_origem": {
+   "Recursos de outros candidatos": 12474.5,
+   "Recursos de partido político": 856500.0,
+   "Recursos de pessoas físicas": 447311.0,
+   "Recursos próprios": 20000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 858100.0,
+   "OUTROS RECURSOS": 478185.5
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 856500.0
+   },
+   {
+    "cnpj": "68519025000130",
+    "nome": "THADEU DREHMER DE MELLO E SILVA",
+    "total": 10874.5
+   },
+   {
+    "cnpj": "68464941000110",
+    "nome": "LENIR CANDIDA DE ASSIS",
+    "total": 1600.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 44,
+   "total": 467311.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1275202.13,
+  "total_pago": 1178567.51,
+  "fornecedores_pj": [
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 18,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 450000.0
+   },
+   {
+    "cnpj": "26990067000104",
+    "nome": "CIANO GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 57220.0
+   },
+   {
+    "cnpj": "35830150000107",
+    "nome": "OLIVEIRA DIVULGACOES LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 42000.0
+   },
+   {
+    "cnpj": "27126354000133",
+    "nome": "TOPFY TECNOLOGIA S.A.",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "01069543000128",
+    "nome": "GRAFICA E EDITORA MASSONI LTDA",
+    "cnae": "18113",
+    "n_despesas": 20,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 36827.0
+   },
+   {
+    "cnpj": "35813418000100",
+    "nome": "QUEIROZ ASSI SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "05639308000103",
+    "nome": "BEVILAQUA LEOPOLDINO CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "00913039000108",
+    "nome": "ULTRAPRESS EDITORA GRAFICA LTDA",
+    "cnae": "58298",
+    "n_despesas": 14,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22300.0
+   },
+   {
+    "cnpj": "60737488000166",
+    "nome": "FULL7 INDUSTRIA E COMERCIO LTDA",
+    "cnae": "14134",
+    "n_despesas": 5,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13873.0
+   },
+   {
+    "cnpj": "51897766000151",
+    "nome": "51.897.766 DAIANE FERREIRA DE ARAUJO",
+    "cnae": "43291",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13872.1
+   },
+   {
+    "cnpj": "03758336000106",
+    "nome": "GRAFINORTE INDUSTRIA GRAFICA LTDA.",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9792.0
+   },
+   {
+    "cnpj": "38037213000160",
+    "nome": "38.037.213 FERNANDO APARECIDO RIBEIRO SILVA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "58449933000140",
+    "nome": "BLUE DODO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 7222.0
+   },
+   {
+    "cnpj": "05857880000130",
+    "nome": "REAL COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 20,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6559.65
+   },
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "58936542000150",
+    "nome": "58.936.542 DIEGO BRUNO BEGALLI GALDINO",
+    "cnae": "33147",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4162.5
+   },
+   {
+    "cnpj": "53365419000103",
+    "nome": "53.365.419 ABEL OLIVEIRA DE ALMEIDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "04349854000139",
+    "nome": "GRAFICA E PAPELARIA DO BOY LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1125.0
+   },
+   {
+    "cnpj": "55263535000147",
+    "nome": "STAMPCOM IND E COM LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 987.0
+   },
+   {
+    "cnpj": "41573886000140",
+    "nome": "GRAFICA BERNDT LTDA",
+    "cnae": "58239",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "07947185000195",
+    "nome": "CELIO RODRIGUES DA SILVA CIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "77540839000147",
+    "nome": "SINDICATO DOS TRABALHADORES NAS INDUSTRIAS DA CONSTRUCAO E DO MOBILIARIO DE ARAPONGAS",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "32104897000190",
+    "nome": "DELLA JAMES TELECOM LTDA",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 549.8
+   },
+   {
+    "cnpj": "13967723000106",
+    "nome": "GRAFICA E PAPELARIA CENTENARIO DO SUL LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 540.0
+   },
+   {
+    "cnpj": "10515156000169",
+    "nome": "E. L. FELIPE FELIPE LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 490.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 280,
+   "total": 494282.08,
+   "por_tipo": {
+    "Despesas com pessoal": 478469.08,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 13.0,
+    "Locação/cessão de bens imóveis": 9500.0,
+    "Publicidade por carros de som": 6300.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

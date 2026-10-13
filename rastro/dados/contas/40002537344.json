@@ -1,0 +1,112 @@
+{
+ "sq": "40002537344",
+ "nome_urna": "PLINIO VALÉRIO",
+ "cargo": "senador",
+ "uf": "AM",
+ "partido": "PSDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2773640.0,
+  "por_origem": {
+   "Recursos de partido político": 2400000.0,
+   "Recursos de pessoas físicas": 55000.0,
+   "Recursos próprios": 318640.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2400000.0,
+   "OUTROS RECURSOS": 373640.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "03653474000120",
+    "nome": "Direção Nacional - PSDB",
+    "total": 2400000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 373640.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1067500.5,
+  "total_pago": 1238500.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 27,
+    "tipos": [
+     "Atividades de militância e mobilização de rua",
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 577500.0
+   },
+   {
+    "cnpj": "35250580000150",
+    "nome": "FROTA AZEVEDO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "04984400000130",
+    "nome": "CTA - CLEITON TAXI AEREO LTDA",
+    "cnae": "51200",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 95000.0
+   },
+   {
+    "cnpj": "03184552000195",
+    "nome": "LOTUS REPRESENTANTE COMERCIAL LTDA",
+    "cnae": "46478",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "01682336000144",
+    "nome": "ITA LUCAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "34292231000138",
+    "nome": "SANTOS E OLIVEIRA LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 4500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 13,
+   "total": 43500.5,
+   "por_tipo": {
+    "Despesas com pessoal": 18500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5,
+    "Multas eleitorais": 25000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

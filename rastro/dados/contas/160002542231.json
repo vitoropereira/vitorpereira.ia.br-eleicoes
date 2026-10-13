@@ -1,0 +1,196 @@
+{
+ "sq": "160002542231",
+ "nome_urna": "ANGELO VANHONI",
+ "cargo": "depest",
+ "uf": "PR",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 308299.38,
+  "por_origem": {
+   "Recursos de outros candidatos": 2656.25,
+   "Recursos de partido político": 131500.0,
+   "Recursos de pessoas físicas": 174143.13
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 118656.25,
+   "FUNDO PARTIDARIO": 15500.0,
+   "OUTROS RECURSOS": 174143.13
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 131500.0
+   },
+   {
+    "cnpj": "68379713000141",
+    "nome": "ANTONIO TADEU VENERI",
+    "total": 2656.25
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 14,
+   "total": 174143.13
+  }
+ },
+ "despesas": {
+  "total_contratado": 234755.55,
+  "total_pago": 232478.15,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 49410.0
+   },
+   {
+    "cnpj": "30668644000113",
+    "nome": "ADN ADMINISTRACAO E NEGOCIOS LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 28000.0
+   },
+   {
+    "cnpj": "20033879000185",
+    "nome": "GUILHERME DE SALLES GONCALVES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "60940833000164",
+    "nome": "MULTI IMPRESSOS COMERCIO E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10032.0
+   },
+   {
+    "cnpj": "54313613000108",
+    "nome": "WINN IMPRESSAO DIGITAL LTDA",
+    "cnae": "47130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6350.8
+   },
+   {
+    "cnpj": "12676013000164",
+    "nome": "PATRAS SERVICOS GRAFICOS LTDA",
+    "cnae": "18229",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "03103299000106",
+    "nome": "CARRO RESERVA PREVICAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5856.55
+   },
+   {
+    "cnpj": "03220857000105",
+    "nome": "CONTASUL CONTABILIDADE E CONSULTORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 5800.0
+   },
+   {
+    "cnpj": "82581406000170",
+    "nome": "CROMOS EDITORA E INDUSTRIA GRAFICA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5800.0
+   },
+   {
+    "cnpj": "26990067000104",
+    "nome": "CIANO GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4400.0
+   },
+   {
+    "cnpj": "13634015000153",
+    "nome": "CEREJA COMUNICACOES LTDA",
+    "cnae": "63917",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "45964502000170",
+    "nome": "ALVO COMERCIAL LTDA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2961.0
+   },
+   {
+    "cnpj": "31891373000123",
+    "nome": "JANINE DOS S MATHIAS CANTORA E PRODUTORA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "50599090000157",
+    "nome": "PVH PETRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 207.2
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 36,
+   "total": 85438.0,
+   "por_tipo": {
+    "Despesas com pessoal": 77588.0,
+    "Serviços prestados por terceiros": 7850.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

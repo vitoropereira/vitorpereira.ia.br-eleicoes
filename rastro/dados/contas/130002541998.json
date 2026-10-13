@@ -1,0 +1,146 @@
+{
+ "sq": "130002541998",
+ "nome_urna": "SARGENTO MELLO-CASAL",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 498998.3,
+  "por_origem": {
+   "Recursos de partido político": 370000.0,
+   "Recursos de pessoas físicas": 128998.3
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 290000.0,
+   "FUNDO PARTIDARIO": 80000.0,
+   "OUTROS RECURSOS": 128998.3
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 290000.0
+   },
+   {
+    "cnpj": "08691904000112",
+    "nome": "Direção Estadual/Distrital - PL - MINAS GERAIS",
+    "total": 80000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 128998.3
+  }
+ },
+ "despesas": {
+  "total_contratado": 280407.48,
+  "total_pago": 280407.48,
+  "fornecedores_pj": [
+   {
+    "cnpj": "30610748000177",
+    "nome": "NILCEA FONSECA DA SILVA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 98290.0
+   },
+   {
+    "cnpj": "12111158000118",
+    "nome": "ECOPRINT SOLUCOES DIGITAIS LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 50409.38
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 21910.8
+   },
+   {
+    "cnpj": "06293888000184",
+    "nome": "MRB NEGOCIOS IMOBILIARIOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "42878660000110",
+    "nome": "FLASHOVER MODAS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "40695326000103",
+    "nome": "MAXIMO ACELERADORA DE PRODUTOS DIGITAIS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "12209210000173",
+    "nome": "12.209.210 WILLIAM DA SILVA SANTANA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1650.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "26632032000101",
+    "nome": "26.632.032 ONOFRE DE MATOS GUEDES",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 600.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 11,
+   "total": 51047.3,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 43000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 47.3,
+    "Serviços contábeis": 8000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

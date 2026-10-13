@@ -1,0 +1,166 @@
+{
+ "sq": "150002544010",
+ "nome_urna": "WELLINGTON ROBERTO",
+ "cargo": "depfed",
+ "uf": "PB",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1651000.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 1000.0,
+   "Recursos de partido político": 1650000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1650000.0,
+   "OUTROS RECURSOS": 1000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 1650000.0
+   },
+   {
+    "cnpj": "68491824000145",
+    "nome": "CICERO DE LUCENA FILHO",
+    "total": 1000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1608316.0,
+  "total_pago": 1468266.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "08540403000135",
+    "nome": "GRAFICA J B LTDA",
+    "cnae": "18130",
+    "n_despesas": 16,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 104000.0
+   },
+   {
+    "cnpj": "20503858000186",
+    "nome": "PASSERAT DE SILANS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "57972898000187",
+    "nome": "MULTI COLOR - TECNOLOGIA EM COMUNICACAO VISUAL E SERVICOS LTDA",
+    "cnae": "32990",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 58300.0
+   },
+   {
+    "cnpj": "58336443000138",
+    "nome": "DIGICOMMUNIC LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "47333134000198",
+    "nome": "OPINIAO PESQUISAS QUANTITATIVAS E MARKETING LTDA",
+    "cnae": "73203",
+    "n_despesas": 2,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 42000.0
+   },
+   {
+    "cnpj": "15747087000132",
+    "nome": "TALLES HERMINIO SANTOS",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "10619274000117",
+    "nome": "JME COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 16290.0
+   },
+   {
+    "cnpj": "48471347000149",
+    "nome": "CAMILLA VICTORIA NOBREGA E SILVA",
+    "cnae": "59120",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 9700.0
+   },
+   {
+    "cnpj": "67289168000130",
+    "nome": "IMAGINARI CENOGRAFIA E COMUNICACAO VISUAL LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4750.0
+   },
+   {
+    "cnpj": "25366583000108",
+    "nome": "LUCAS TRAJANO PEREIRA LIMA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 455,
+   "total": 1191276.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 1007570.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 206.0,
+    "Serviços prestados por terceiros": 183500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

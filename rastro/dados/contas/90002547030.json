@@ -1,0 +1,106 @@
+{
+ "sq": "90002547030",
+ "nome_urna": "TALLES BARRETO",
+ "cargo": "depest",
+ "uf": "GO",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 487000.0,
+  "por_origem": {
+   "Recursos de partido político": 350000.0,
+   "Recursos de pessoas físicas": 135000.0,
+   "Recursos próprios": 2000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 350000.0,
+   "OUTROS RECURSOS": 137000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 250000.0
+   },
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 8,
+   "total": 137000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 276460.0,
+  "total_pago": 0.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "47081119000108",
+    "nome": "SXH COMUNICACAO E MARKETING LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10100.0
+   },
+   {
+    "cnpj": "59825484000150",
+    "nome": "59.825.484 RAFAEL AGUIAR COSTA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "30654871000190",
+    "nome": "30.654.871 MARIA EDUARDA SENA E SILVA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "07254166000183",
+    "nome": "PLUG LOCACAO INFORMATICA AUDIOVISUAL LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 680.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 72,
+   "total": 206180.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 75200.0,
+    "Despesas com pessoal": 130000.0,
+    "Serviços contábeis": 980.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

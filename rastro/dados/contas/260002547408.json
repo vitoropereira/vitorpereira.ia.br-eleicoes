@@ -1,0 +1,413 @@
+{
+ "sq": "260002547408",
+ "nome_urna": "YANDRA MOURA",
+ "cargo": "depfed",
+ "uf": "SE",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3041783.33,
+  "por_origem": {
+   "Recursos de outros candidatos": 31783.33,
+   "Recursos de partido político": 2960000.0,
+   "Recursos de pessoas físicas": 30000.0,
+   "Recursos próprios": 20000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1031783.33,
+   "FUNDO PARTIDARIO": 1960000.0,
+   "OUTROS RECURSOS": 50000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 2960000.0
+   },
+   {
+    "cnpj": "68519534000162",
+    "nome": "ANDRE LUIS DANTAS FERREIRA",
+    "total": 31783.33
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 50000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2062170.75,
+  "total_pago": 990605.8,
+  "fornecedores_pj": [
+   {
+    "cnpj": "40009617000192",
+    "nome": "TRUKS INDUSTRIA E COMERCIO LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 91090.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 84000.0
+   },
+   {
+    "cnpj": "60743244000196",
+    "nome": "IPS PAPER ROTULOS E ETIQUETAS LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 84000.0
+   },
+   {
+    "cnpj": "68681420000114",
+    "nome": "68.681.420 MEL ALICE SANTOS LIMA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 78400.0
+   },
+   {
+    "cnpj": "61282951000195",
+    "nome": "VIAFLUX TRANSPORTE LTDA",
+    "cnae": "49248",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 67000.0
+   },
+   {
+    "cnpj": "03418239000174",
+    "nome": "VILA - NOVA, CARVALHO, SAMPAIO, CALUMBY E CONRADO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "32783591000107",
+    "nome": "RAFAEL RESENDE DE ANDRADE- SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "60606443000152",
+    "nome": "REAL TIME EMPREENDIMENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "25383194000182",
+    "nome": "GOIS AGUIAR SERVICOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 57000.0
+   },
+   {
+    "cnpj": "54921810000100",
+    "nome": "MULTSIGNS SERVICOS LTDA",
+    "cnae": "43291",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 56300.0
+   },
+   {
+    "cnpj": "62961157000130",
+    "nome": "62.961.157 MARCUS VINICIUS COSTA HORA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 48000.0
+   },
+   {
+    "cnpj": "51994736000163",
+    "nome": "DISTRIBUIDORA DE BEBIDAS E ALIMENTOS BANDEIRANTES LTDA",
+    "cnae": "56201",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 46305.0
+   },
+   {
+    "cnpj": "14014174000118",
+    "nome": "CASULO.CC LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 42500.0
+   },
+   {
+    "cnpj": "35856398000147",
+    "nome": "HUGO BATISTA BEZERRA FILHO",
+    "cnae": "74102",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 38250.0
+   },
+   {
+    "cnpj": "58589209000112",
+    "nome": "WP TRANSPORTES LOGISTICA E SERVICOS LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "09121239000194",
+    "nome": "PAM LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 28750.0
+   },
+   {
+    "cnpj": "27966490000131",
+    "nome": "S M S INDUSTRIA DE CAMISETAS LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "34852430000153",
+    "nome": "VIVIANE ARIMATEA LIMA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 25500.0
+   },
+   {
+    "cnpj": "54709341000160",
+    "nome": "PAM EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 23958.0
+   },
+   {
+    "cnpj": "14512338000137",
+    "nome": "WANDYCLER MARCOS SOUZA DA SILVA JUNIOR",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 21750.0
+   },
+   {
+    "cnpj": "17188717000101",
+    "nome": "EDIFIC PATRIMONIAL LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "49362276000109",
+    "nome": "49.362.276 MIRELLA DE OLIVEIRA VIEIRA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "31158100000174",
+    "nome": "JAQUE BARROSO LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 13600.0
+   },
+   {
+    "cnpj": "49047084000108",
+    "nome": "49.047.084 AMANDA DALVO SILVA DE ANDRADE",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "59843686000125",
+    "nome": "59.843.686 ANTONIO FLAVIO CALDAS",
+    "cnae": "47237",
+    "n_despesas": 2,
+    "tipos": [
+     "Água"
+    ],
+    "total": 10299.2
+   },
+   {
+    "cnpj": "14092882000177",
+    "nome": "KJM TELECOM LTDA",
+    "cnae": "47539",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "54944436000168",
+    "nome": "ROCHA ATACADO SUL LTDA",
+    "cnae": "46915",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 8769.6
+   },
+   {
+    "cnpj": "30887642000115",
+    "nome": "MOURAO IMPRESSAO DIGITAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "02620529000133",
+    "nome": "ADESIVOS TRIMAC LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5151.6
+   },
+   {
+    "cnpj": "32800062000174",
+    "nome": "INDUSTRIA DE CONFECCOES L A LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "56334202000124",
+    "nome": "MLB PLASTICOS E IMPRESSOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4200.0
+   },
+   {
+    "cnpj": "25188538000100",
+    "nome": "ESSENT INOVACAO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "48939934000110",
+    "nome": "KEN BONES E UNIFORMES PERSONALIZADOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "13007646000142",
+    "nome": "GRAFICA EDITORA J ANDRADE LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2130.0
+   },
+   {
+    "cnpj": "34701249000146",
+    "nome": "FIBRACOM SERVICOS DE COMUNICACAO LTDA",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 149.85
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 173,
+   "total": 909567.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 286410.5,
+    "Cessão ou locação de veículos": 97000.0,
+    "Despesas com pessoal": 254647.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 10.0,
+    "Publicidade por carros de som": 80000.0,
+    "Serviços prestados por terceiros": 191500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

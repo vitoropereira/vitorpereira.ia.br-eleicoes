@@ -1,0 +1,735 @@
+{
+ "sq": "220002541939",
+ "nome_urna": "MARCOS ROGÉRIO",
+ "cargo": "governador",
+ "uf": "RO",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 4735858.0,
+  "por_origem": {
+   "Recursos de partido político": 3726000.0,
+   "Recursos de pessoas físicas": 989858.0,
+   "Recursos próprios": 20000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3726000.0,
+   "OUTROS RECURSOS": 1009858.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3726000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 71,
+   "total": 1009858.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 6025459.66,
+  "total_pago": 3773021.45,
+  "fornecedores_pj": [
+   {
+    "cnpj": "55743698000127",
+    "nome": "PERSONA PUBLICA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 850000.0
+   },
+   {
+    "cnpj": "27856112000103",
+    "nome": "CAMARGO, MAGALHAES CANEDO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 650000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 9,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 450000.0
+   },
+   {
+    "cnpj": "26983273000197",
+    "nome": "VITORINO MENDONCA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 450000.0
+   },
+   {
+    "cnpj": "04778630000142",
+    "nome": "RIMA - RIO MADEIRA AVIACAO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "01060256000157",
+    "nome": "L.H.C COMERCIO E SERVICOS LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 76560.0
+   },
+   {
+    "cnpj": "38062537000159",
+    "nome": "L2A TRANSPORTES E COMUNICACAO VISUAL LTDA",
+    "cnae": "49213",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 72300.0
+   },
+   {
+    "cnpj": "55273308000100",
+    "nome": "METTA COMUNICACAO VISUAL LTDA",
+    "cnae": "47598",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 49115.0
+   },
+   {
+    "cnpj": "08293360000130",
+    "nome": "AUTO POSTO G10 LTDA",
+    "cnae": "47318",
+    "n_despesas": 8,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 40050.5
+   },
+   {
+    "cnpj": "68679731000149",
+    "nome": "SIMAO DE FREITAS CONFEITARIA LTDA",
+    "cnae": "10911",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "58976984000120",
+    "nome": "NORTE SOLUCOES E LOCACOES LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "07939258000105",
+    "nome": "AUTO POSTO SILVESTRE COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 32581.31
+   },
+   {
+    "cnpj": "41676221000161",
+    "nome": "IMPACT COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 30980.0
+   },
+   {
+    "cnpj": "50162134000187",
+    "nome": "CAPELASSO AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 27351.61
+   },
+   {
+    "cnpj": "02974225000174",
+    "nome": "DISTRIBUIDORA GONZAGA LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 26300.0
+   },
+   {
+    "cnpj": "45187147000170",
+    "nome": "R. C. COMERCIO E LOCACAO DE VEICULOS LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "63623797000101",
+    "nome": "J B DAS NEVES XIMENES",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "08394390000133",
+    "nome": "IMPERADOR TRANSPORTE E TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "12398013000140",
+    "nome": "VILHENA SERVICOS COMERCIO E TRANSPORTES LTDA",
+    "cnae": "49248",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "49457210000100",
+    "nome": "MASTER LOCK SERVICOS DE LOCACOES FACILITIES E MANUTECOES INDUSTRIAIS LTDA",
+    "cnae": "33147",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "31145107000151",
+    "nome": "JM. R. COMERCIO DE COMBUSTIVEIS LTDA.",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 14768.6
+   },
+   {
+    "cnpj": "21111297000132",
+    "nome": "J. W. COSTA VARAO",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 11907.88
+   },
+   {
+    "cnpj": "08632095000178",
+    "nome": "S. L. CESCONETTO",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "56952072000193",
+    "nome": "56.952.072 LETICIA CRISPIM AMARIO",
+    "cnae": "77217",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "11773245000178",
+    "nome": "MASSARI COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10200.0
+   },
+   {
+    "cnpj": "65714498000108",
+    "nome": "DMV DA SILVA COMERCIO LTDA",
+    "cnae": "47121",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 8410.13
+   },
+   {
+    "cnpj": "13299917000180",
+    "nome": "GRAFICA EPA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 7600.0
+   },
+   {
+    "cnpj": "23768026000180",
+    "nome": "VIZON HOTELARIA E LOCADORA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "10732661000165",
+    "nome": "POSTO DE COMBUSTIVEIS BEZERRA LUZ LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7378.0
+   },
+   {
+    "cnpj": "22131657000120",
+    "nome": "SUPERGRAFF INDUSTRIA E COMERCIO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6960.0
+   },
+   {
+    "cnpj": "05078112000189",
+    "nome": "AMARAL COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6517.5
+   },
+   {
+    "cnpj": "04380678000106",
+    "nome": "AUTO POSTO PIMENTA BUENO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6273.1
+   },
+   {
+    "cnpj": "03912956000158",
+    "nome": "COMERCIO DE COMBUSTIVEL OLIVEIRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5674.34
+   },
+   {
+    "cnpj": "05883425000100",
+    "nome": "EMERSON DOS SANTOS POSTO DE GASOLINA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5316.0
+   },
+   {
+    "cnpj": "10257926000110",
+    "nome": "R. O. DA SILVA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5033.0
+   },
+   {
+    "cnpj": "11055206000135",
+    "nome": "AUTO POSTO J J LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "64640413000113",
+    "nome": "AUTO POSTO PACAAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4812.0
+   },
+   {
+    "cnpj": "53424135000140",
+    "nome": "L C VEICULOS LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4600.0
+   },
+   {
+    "cnpj": "18291282000199",
+    "nome": "R. M. S. COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4339.21
+   },
+   {
+    "cnpj": "22565560000126",
+    "nome": "ABR S POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3725.0
+   },
+   {
+    "cnpj": "15227607000186",
+    "nome": "C E PASCHOALI COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3678.83
+   },
+   {
+    "cnpj": "38009258000121",
+    "nome": "AGUA ENVASADA OURO LEVE LTDA",
+    "cnae": "11216",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "09619564000181",
+    "nome": "V M COMERCIO VAREJISTA DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3245.0
+   },
+   {
+    "cnpj": "26317031000245",
+    "nome": "AUTO POSTO REBOUCAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3060.11
+   },
+   {
+    "cnpj": "46627222000130",
+    "nome": "46.627.222 JHONATAN CARLOS DE ABREU",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "14762737000156",
+    "nome": "JOSEMAR ANDRE GERLACH LANCHONETE",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2372.0
+   },
+   {
+    "cnpj": "58547254000104",
+    "nome": "58.547.254 VALERIA OLIVEIRA FERNANDES",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2255.0
+   },
+   {
+    "cnpj": "60111295000103",
+    "nome": "V M RESTAURANTE SOUZA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2225.0
+   },
+   {
+    "cnpj": "08678504000177",
+    "nome": "LUNARDI CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2220.0
+   },
+   {
+    "cnpj": "05598170000133",
+    "nome": "DR PUERARI AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1872.5
+   },
+   {
+    "cnpj": "56148079000157",
+    "nome": "H ALVES DE OLIVEIRA RESTAURANTE E LANCHONETE",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1808.0
+   },
+   {
+    "cnpj": "05893935000249",
+    "nome": "RT COMERCIO SERVICOS E TRANSPORTE DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "10491743000165",
+    "nome": "R. T. COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "49761237000184",
+    "nome": "AUTO POSTO RT IV COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "62990435000188",
+    "nome": "P H MOREIRA ALVES LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1576.0
+   },
+   {
+    "cnpj": "01648919000159",
+    "nome": "A. CUSTODIO CASARIN",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1470.0
+   },
+   {
+    "cnpj": "44100647000160",
+    "nome": "YAZY COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1454.0
+   },
+   {
+    "cnpj": "46209572000186",
+    "nome": "VOLT TELECOM SERVICOS DE COMUNICACAO E MULTIMIDIA LTDA",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1122.71
+   },
+   {
+    "cnpj": "41212022000100",
+    "nome": "HTC DE SOUZA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 739.0
+   },
+   {
+    "cnpj": "22787742000141",
+    "nome": "RONDOINFO DISTRIBUIDORA DE PRODUTOS DE INFORMATICA LTDA",
+    "cnae": "47512",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 731.66
+   },
+   {
+    "cnpj": "57543711000120",
+    "nome": "MERCADO MEGA ATACAREJO LTDA.",
+    "cnae": "46397",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 603.9
+   },
+   {
+    "cnpj": "24248187000105",
+    "nome": "S F VITAL",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "12895015000144",
+    "nome": "12.895.015 APARECIDA ALVES DE ABREU",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 565.0
+   },
+   {
+    "cnpj": "26838712000178",
+    "nome": "E A COSTA COMERCIO DE ALIMENTOS E BEBIDAS",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 547.0
+   },
+   {
+    "cnpj": "54513014000138",
+    "nome": "MUNIZ COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 511.0
+   },
+   {
+    "cnpj": "09097094000133",
+    "nome": "J J DOS REIS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 430.0
+   },
+   {
+    "cnpj": "18341574000199",
+    "nome": "MB MORAIS SUPERMERCADO E COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 357.0
+   },
+   {
+    "cnpj": "02964910000110",
+    "nome": "SERVICO AUTONOMO DE AGUA E ESGOTO",
+    "cnae": "36006",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 240.61
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1352,
+   "total": 2802122.16,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 1814080.77,
+    "Cessão ou locação de veículos": 392279.0,
+    "Despesas com pessoal": 502015.06,
+    "Locação/cessão de bens imóveis": 78747.33,
+    "Publicidade por carros de som": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

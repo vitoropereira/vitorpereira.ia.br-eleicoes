@@ -1,0 +1,283 @@
+{
+ "sq": "70002541286",
+ "nome_urna": "ROBÉRIO NEGREIROS",
+ "cargo": "distrital",
+ "uf": "DF",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1200700.0,
+  "por_origem": {
+   "Recursos de partido político": 8000.0,
+   "Recursos de pessoas físicas": 1067700.0,
+   "Recursos próprios": 125000.0
+  },
+  "por_fonte": {
+   "FUNDO PARTIDARIO": 8000.0,
+   "OUTROS RECURSOS": 1192700.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "20329974000120",
+    "nome": "Direção Estadual/Distrital - PODE - DISTRITO FEDERAL",
+    "total": 8000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 14,
+   "total": 1192700.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 930132.48,
+  "total_pago": 966937.11,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 284511.66
+   },
+   {
+    "cnpj": "36900391000148",
+    "nome": "REDE QUALITY COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "09241330000143",
+    "nome": "PAGANELLA ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços advocatícios",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "33977940000194",
+    "nome": "POSTO DE COMBUSTIVEL CEASA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "26556224000178",
+    "nome": "CITY BUS VEICULOS TRANSPORTES LTDA",
+    "cnae": "49248",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 26100.0
+   },
+   {
+    "cnpj": "54984458000151",
+    "nome": "RTA UNIFORMES E BORDADOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25500.0
+   },
+   {
+    "cnpj": "08220275000142",
+    "nome": "GRAFICA E EDITORA MOVIMENTO LTDA",
+    "cnae": "18113",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20522.45
+   },
+   {
+    "cnpj": "32096945000145",
+    "nome": "SILVIO RODRIGUES ALVES",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "41830820000198",
+    "nome": "VEGGAS COMERCIO DE BEBIDAS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "67979938000176",
+    "nome": "JOAO CARLOS MARTINS QUESSADA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "44013559000121",
+    "nome": "KAPO VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12388.62
+   },
+   {
+    "cnpj": "03357735000165",
+    "nome": "LIDER POSTO DE SERVICO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "45877695000122",
+    "nome": "SVS COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9900.0
+   },
+   {
+    "cnpj": "57731680000130",
+    "nome": "CLIMA LOG LOCACAO E ORGANIZACAO DE EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "16598599000147",
+    "nome": "BRASILIA CAPITAL PRODUTORA E EDITORA DE JORNAIS E REVISTAS LTDA",
+    "cnae": "58123",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "25188538000100",
+    "nome": "ESSENT INOVACAO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "07188297000100",
+    "nome": "TRANSFER LOGISTICA LTDA",
+    "cnae": "49248",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 5550.0
+   },
+   {
+    "cnpj": "23806443000170",
+    "nome": "JMVT CONSULTORIA EM PUBLICIDADE, MARKETING DIRETO E PUBLICACOES S/S LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2250.0
+   },
+   {
+    "cnpj": "28438360000199",
+    "nome": "INSTITUTO DE PROMOCAO DAS PESSOAS COM DEFICIENCIA VISUAL",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "60319776000109",
+    "nome": "60.319.776 THIAGO DAMACENA GUEDES",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "44825386000146",
+    "nome": "BRILHANTE COMUNICACAO E NEGOCIOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "40023457000136",
+    "nome": "40.023.457 HERIKA NAZIRA PORTELA LAMAR CARNEIRO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "41142123000144",
+    "nome": "41.142.123 RONALD CASTELO DE JESUS",
+    "cnae": "47521",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 182,
+   "total": 334309.75,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 314400.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1307.25,
+    "Locação/cessão de bens móveis (exceto veículos)": 3602.5,
+    "Serviços prestados por terceiros": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

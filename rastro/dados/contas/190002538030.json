@@ -1,0 +1,103 @@
+{
+ "sq": "190002538030",
+ "nome_urna": "GUILHERME SCHLEDER",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 338788.94,
+  "por_origem": {
+   "Recursos de partido político": 251788.94,
+   "Recursos de pessoas físicas": 87000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 240000.0,
+   "OUTROS RECURSOS": 98788.94
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 240000.0
+   },
+   {
+    "cnpj": "14705221000170",
+    "nome": "Direção Estadual/Distrital - PSD - RIO DE JANEIRO",
+    "total": 11788.94
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 87000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 155700.0,
+  "total_pago": 58400.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "19339433000102",
+    "nome": "LAURO RABHA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 29000.0
+   },
+   {
+    "cnpj": "58504067000143",
+    "nome": "TREZE LAB - LABORATORIO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10500.0
+   },
+   {
+    "cnpj": "26642855000100",
+    "nome": "CASTRO, VIEIRA E FERREIRA CONTA DO RES ELEITORAIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 8100.0
+   },
+   {
+    "cnpj": "03422594000389",
+    "nome": "BRASTURINVEST INVESTIMENTOS TURISTICOS S/A",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 6300.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 23,
+   "total": 86800.0,
+   "por_tipo": {
+    "Despesas com pessoal": 86800.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

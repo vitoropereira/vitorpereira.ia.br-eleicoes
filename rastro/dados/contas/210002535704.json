@@ -1,0 +1,467 @@
+{
+ "sq": "210002535704",
+ "nome_urna": "PAPARICO BACCHI",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 897007.43,
+  "por_origem": {
+   "Doações para Campanha": 0.03,
+   "Fundo Especial de Financiamento de Campanha": 6.91,
+   "Fundo Partidário": 0.49,
+   "Recursos de outros candidatos": 15000.0,
+   "Recursos de partido político": 790000.0,
+   "Recursos de pessoas físicas": 37000.0,
+   "Recursos próprios": 55000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 515000.0,
+   "FUNDO PARTIDARIO": 290000.0,
+   "OUTROS RECURSOS": 92007.43
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 790000.0
+   },
+   {
+    "cnpj": "68312571000103",
+    "nome": "OSMAR GASPARINI TERRA",
+    "total": 15000.0
+   },
+   {
+    "cnpj": "68345582000181",
+    "nome": "EDERILDO PAPARICO BACCHI",
+    "total": 7.43
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 92000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 827624.58,
+  "total_pago": 877007.42,
+  "fornecedores_pj": [
+   {
+    "cnpj": "02054848000129",
+    "nome": "LUIS GUSTAVO BERNICKER",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 227360.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 97000.0
+   },
+   {
+    "cnpj": "31135987000185",
+    "nome": "EDIVANDRO PAVAN GRAFICA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 84100.0
+   },
+   {
+    "cnpj": "27081412000150",
+    "nome": "IDEA ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "19543786000111",
+    "nome": "MAIRO INDUSTRIA TEXTIL LTDA",
+    "cnae": "13511",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23190.0
+   },
+   {
+    "cnpj": "92390525000107",
+    "nome": "GRAFICA E EDITORA BOTA AMARELA LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 22650.0
+   },
+   {
+    "cnpj": "11061205000101",
+    "nome": "RS ONIBUS TRANSPORTES LTDA",
+    "cnae": "49248",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 16500.0
+   },
+   {
+    "cnpj": "93630788000109",
+    "nome": "VGRAF IMPRESSOS E EMBALAGENS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13200.0
+   },
+   {
+    "cnpj": "57302037000191",
+    "nome": "57.302.037 JOSIELE SIQUEIRA DA SILVA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "11299003000194",
+    "nome": "KLAUS C. FISCHER SOM E EVENTOS",
+    "cnae": "47539",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "50318753000118",
+    "nome": "NOVA COMUNICACAO TREINAMENTO E MARKETING LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "65053713000169",
+    "nome": "65.053.713 DULCIMARA SALETE MUNARINI COLLA",
+    "cnae": "23303",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6575.0
+   },
+   {
+    "cnpj": "03119050000180",
+    "nome": "EMPRESAS JORNALISTICA FOLHA DE MARAU LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 5490.0
+   },
+   {
+    "cnpj": "17364448000197",
+    "nome": "COMERCIO DE COMBUSTIVEIS RIEDER LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4996.57
+   },
+   {
+    "cnpj": "17422231000196",
+    "nome": "MECANICA DIESEL TRES ARROIOS LTDA",
+    "cnae": "45200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4850.0
+   },
+   {
+    "cnpj": "90481722000106",
+    "nome": "NEPOMUCENO EMPRESA JORNALISTICA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 4200.0
+   },
+   {
+    "cnpj": "04066340000176",
+    "nome": "ECO REGIONAL EMPREENDIMENTOS JORNALISTICOS LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3920.0
+   },
+   {
+    "cnpj": "03228557000172",
+    "nome": "RODINEI AGOSTINI CIA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3850.0
+   },
+   {
+    "cnpj": "03514708000159",
+    "nome": "EMPRESA JORNALISTICA JORNAL ALTO URUGUAI LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3200.0
+   },
+   {
+    "cnpj": "25260684000191",
+    "nome": "ABASTECEDORA AZ ZANINI LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3012.9
+   },
+   {
+    "cnpj": "05677050000121",
+    "nome": "ANS IMPRESSOES GRAFICAS LTDA.",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2775.0
+   },
+   {
+    "cnpj": "10582703000129",
+    "nome": "DE MARCA JORNAL E EDITORA LTDA.",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2620.8
+   },
+   {
+    "cnpj": "34307228000140",
+    "nome": "COMERCIO DE COMBUSTIVEIS CARRA E DAMETTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2174.81
+   },
+   {
+    "cnpj": "30307407000127",
+    "nome": "MAICON DOUGLAS TRINDADE",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2120.0
+   },
+   {
+    "cnpj": "62555853000147",
+    "nome": "62.555.853 DOUGLAS WILLIAM CAMARGO",
+    "cnae": "23303",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "03263587000110",
+    "nome": "ROGERIO DARCY BRESOLIN",
+    "cnae": "23303",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "87905998000151",
+    "nome": "JORGE ELEMAR BRUXEL",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1280.0
+   },
+   {
+    "cnpj": "35441231000115",
+    "nome": "ROBSON FERNANDO MIOTO",
+    "cnae": "43304",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1270.0
+   },
+   {
+    "cnpj": "11490699000131",
+    "nome": "RAVIZONI FILHO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1210.0
+   },
+   {
+    "cnpj": "53349077000138",
+    "nome": "AVS COMUNICACOES LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "03228557000253",
+    "nome": "RODINEI AGOSTINI CIA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 790.0
+   },
+   {
+    "cnpj": "05976038000118",
+    "nome": "ARMANDO DUPONT IRMAO LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 735.0
+   },
+   {
+    "cnpj": "07405405000159",
+    "nome": "DILAMAR ALAERCIO ALVES CIA LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 650.0
+   },
+   {
+    "cnpj": "11642888000182",
+    "nome": "INSTALACOES ELETRICAS MARINI LTDA",
+    "cnae": "43215",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 650.0
+   },
+   {
+    "cnpj": "16750866000230",
+    "nome": "COMERCIO DE COMBUSTIVEIS MALLMANN LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 410.51
+   },
+   {
+    "cnpj": "10484017000115",
+    "nome": "REPARA INFORMATICA E SERVICOS LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 380.0
+   },
+   {
+    "cnpj": "08768465000107",
+    "nome": "POSTO DE COMBUSTIVEIS DICO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 256.51
+   },
+   {
+    "cnpj": "97476451000131",
+    "nome": "COMERCIO DE MATERIAIS DE ESCRITORIO MORETTO LTDA EM RECUPERACAO JUDICIAL",
+    "cnae": "47610",
+    "n_despesas": 3,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 167.48
+   },
+   {
+    "cnpj": "36530084000112",
+    "nome": "FELIPE CECHET LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 95.0
+   },
+   {
+    "cnpj": "05958990000199",
+    "nome": "TAILOR MAFFINI",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 45.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 42,
+   "total": 205200.0,
+   "por_tipo": {
+    "Despesas com pessoal": 175550.0,
+    "Locação/cessão de bens imóveis": 19650.0,
+    "Serviços contábeis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

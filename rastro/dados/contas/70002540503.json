@@ -1,0 +1,237 @@
+{
+ "sq": "70002540503",
+ "nome_urna": "CHICO VIGILANTE",
+ "cargo": "distrital",
+ "uf": "DF",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 688277.75,
+  "por_origem": {
+   "Recursos de outros candidatos": 868.75,
+   "Recursos de partido político": 265500.0,
+   "Recursos de pessoas físicas": 421909.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 266368.75,
+   "OUTROS RECURSOS": 421909.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265500.0
+   },
+   {
+    "cnpj": "68438111000118",
+    "nome": "ROBERTO POLICARPO FAGUNDES",
+    "total": 868.75
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 39,
+   "total": 421909.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 565974.71,
+  "total_pago": 553949.67,
+  "fornecedores_pj": [
+   {
+    "cnpj": "32605729000188",
+    "nome": "TOADA PRODUCAO CULTURAL E COMUNICACAO LTDA",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 110000.0
+   },
+   {
+    "cnpj": "60551257000163",
+    "nome": "60.551.257 MARIA JULIA BARBOSA DOS SANTOS",
+    "cnae": "82199",
+    "n_despesas": 5,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 22260.0
+   },
+   {
+    "cnpj": "54954430000171",
+    "nome": "TRANSPORTE MORORO LTDA",
+    "cnae": "49248",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "35020400000143",
+    "nome": "CLEDSON A PRATES RESTAURANTE E LANCHONETE",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 6875.0
+   },
+   {
+    "cnpj": "60349434000123",
+    "nome": "RAMMA LTDA",
+    "cnae": "56112",
+    "n_despesas": 7,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 6586.08
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "00440776000122",
+    "nome": "SPR EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4600.0
+   },
+   {
+    "cnpj": "37573617000106",
+    "nome": "GARFO E FACA RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "68561051000126",
+    "nome": "GRAFICA NOBRE PUBLICIDADE E CONFECCAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3950.0
+   },
+   {
+    "cnpj": "32109872000189",
+    "nome": "GESUILTON DE AQUINO ROCHA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2320.0
+   },
+   {
+    "cnpj": "68860498000104",
+    "nome": "68.860.498 ROBSON PEREIRA DE MOURA JUNIOR",
+    "cnae": "56201",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2265.0
+   },
+   {
+    "cnpj": "67878951000139",
+    "nome": "67.878.951 FRANCIMAR BARBOSA DINO",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2134.0
+   },
+   {
+    "cnpj": "00720771000153",
+    "nome": "SINDICATO DOS EMPREGADOS EM ESTAB BANCARIOS DE BRASILIA",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "40977529000184",
+    "nome": "ROUTE 34 DISTRIBUIDORA DE BEBIDAS LTDA",
+    "cnae": "47237",
+    "n_despesas": 5,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "00543363000173",
+    "nome": "SINDICATO DOS PROFESSORES NO DISTRITO FEDERAL",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "66930271000154",
+    "nome": "H PH RESTAURANTE E DISTRIBUIDORA PREMIUM LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 682.0
+   },
+   {
+    "cnpj": "27716565000126",
+    "nome": "SHIRLANDER TEIXEIRA GOMES",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "26660028000149",
+    "nome": "JJ BARBOSA RESTAURANTE LTDA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 384.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 140,
+   "total": 374018.63,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 15000.0,
+    "Despesas com pessoal": 321823.3,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 152.0,
+    "Locação/cessão de bens imóveis": 37043.33
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

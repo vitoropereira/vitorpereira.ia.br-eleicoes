@@ -1,0 +1,80 @@
+{
+ "sq": "40002537615",
+ "nome_urna": "EDUARDO ALFAIA",
+ "cargo": "depest",
+ "uf": "AM",
+ "partido": "AVANTE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 137748.64,
+  "por_origem": {
+   "Recursos de partido político": 100000.0,
+   "Recursos de pessoas físicas": 10621.0,
+   "Recursos próprios": 27127.64
+  },
+  "por_fonte": {
+   "FUNDO PARTIDARIO": 100000.0,
+   "OUTROS RECURSOS": 37748.64
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "59933952000100",
+    "nome": "Direção Nacional - AVANTE",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 37748.64
+  }
+ },
+ "despesas": {
+  "total_contratado": 20680.0,
+  "total_pago": 13000.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "62458170000171",
+    "nome": "WSA SERVICOS E COMERCIO DE INFORMATICA LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "03633502000148",
+    "nome": "GRAFISA - GRAFICA E EDITORA LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1680.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 6000.0,
+   "por_tipo": {
+    "Serviços advocatícios": 3000.0,
+    "Serviços contábeis": 3000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

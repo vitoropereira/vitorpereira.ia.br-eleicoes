@@ -1,0 +1,348 @@
+{
+ "sq": "250002533624",
+ "nome_urna": "JOÃO CURY",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2930099.82,
+  "por_origem": {
+   "Recursos de partido político": 2230000.0,
+   "Recursos de pessoas físicas": 665250.01,
+   "Recursos próprios": 34849.81
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2230000.0,
+   "OUTROS RECURSOS": 700099.82
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 2230000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 58,
+   "total": 700099.82
+  }
+ },
+ "despesas": {
+  "total_contratado": 2655676.21,
+  "total_pago": 2863524.32,
+  "fornecedores_pj": [
+   {
+    "cnpj": "60333853000258",
+    "nome": "LAR ANALIA FRANCO",
+    "cnae": "18130",
+    "n_despesas": 44,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 459316.84
+   },
+   {
+    "cnpj": "62505972000195",
+    "nome": "RR BRASIL UNIFORMES LTDA",
+    "cnae": "14126",
+    "n_despesas": 36,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 414060.0
+   },
+   {
+    "cnpj": "09204155000114",
+    "nome": "VITA PORTO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 85000.0
+   },
+   {
+    "cnpj": "21238607000184",
+    "nome": "GRAFICA EDITORA VALE DO FLAMBOYANT LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 64020.0
+   },
+   {
+    "cnpj": "51848995000186",
+    "nome": "CVS SOLUCOES EMPRESARIAIS LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "52915679000142",
+    "nome": "52.915.679 JOSE MILTON RODRIGUES PINCER",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "26797612000140",
+    "nome": "A C PARTICIPACOES E ADMINISTRADORA DE BENS LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 26200.0
+   },
+   {
+    "cnpj": "55274534000106",
+    "nome": "CINE VIDEO LOCADORA BOTUCATU LTDA",
+    "cnae": "53105",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 13601.5
+   },
+   {
+    "cnpj": "38539537000105",
+    "nome": "FERNANDO MORALES",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12150.0
+   },
+   {
+    "cnpj": "34225917000106",
+    "nome": "DAHRUJ LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10647.0
+   },
+   {
+    "cnpj": "29833547000150",
+    "nome": "29.833.547 RAFAEL ALVES BIAZON",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6800.0
+   },
+   {
+    "cnpj": "30246324000175",
+    "nome": "PRESS IMPRESSAO DIGITAL LTDA",
+    "cnae": "82199",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5098.0
+   },
+   {
+    "cnpj": "10681015000116",
+    "nome": "TAG COMUNICACAO VISUAL LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "07263666000181",
+    "nome": "BRASPOR GRAFICA E EDITORA LTDA.",
+    "cnae": "18113",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2717.0
+   },
+   {
+    "cnpj": "48620504000130",
+    "nome": "OLIVEIRA OLIVEIRA ARTES GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2690.0
+   },
+   {
+    "cnpj": "02957134000120",
+    "nome": "AUTO POSTO CIDADE ALTA DE BOTUCATU LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2640.01
+   },
+   {
+    "cnpj": "05894879000186",
+    "nome": "CENTRAL SAO-MANUELENSE DE COMUNICACAO LTDA",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "16885461000129",
+    "nome": "16.885.461 CELSO APARECIDO PAGNOSSA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "01287133000153",
+    "nome": "EMPRESA JORNALISTICA GUAICARA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1920.0
+   },
+   {
+    "cnpj": "49397857000186",
+    "nome": "PIGMENTO DIGITAL COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 879.5
+   },
+   {
+    "cnpj": "05502768000187",
+    "nome": "CONNECT 10 INTERNET LTDA",
+    "cnae": "61108",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 849.8
+   },
+   {
+    "cnpj": "04461134000160",
+    "nome": "IMPRESSOES ORIGINAL DE SOCORRO LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 820.0
+   },
+   {
+    "cnpj": "20747296000116",
+    "nome": "REPARALOG COMUNICACAO DESENVOLVIMENTO DE SOFTWARE E SOLUCOES INTELIGENTES LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 799.0
+   },
+   {
+    "cnpj": "19448673000137",
+    "nome": "GISELE RIBEIRO MOREIRA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "07557114000267",
+    "nome": "HOMERO PASCOAL DA SILVA FILHO EMBALAGENS LTDA",
+    "cnae": "47121",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 646.6
+   },
+   {
+    "cnpj": "07557114000186",
+    "nome": "HOMERO PASCOAL DA SILVA FILHO EMBALAGENS LTDA",
+    "cnae": "47121",
+    "n_despesas": 3,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 577.26
+   },
+   {
+    "cnpj": "41827269000123",
+    "nome": "ON-PRINT INDUSTRIA GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "42132215000106",
+    "nome": "DOUTOR CARIMBOS LTDA",
+    "cnae": "82997",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 156.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 744,
+   "total": 1355487.7,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 1310154.0,
+    "Despesas com pessoal": 6000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 333.7,
+    "Locação/cessão de bens imóveis": 2000.0,
+    "Publicidade por materiais impressos": 2000.0,
+    "Serviços contábeis": 35000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

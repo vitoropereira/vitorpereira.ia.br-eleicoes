@@ -1,0 +1,164 @@
+{
+ "sq": "90002546220",
+ "nome_urna": "PAULO CEZAR MARTINS",
+ "cargo": "depest",
+ "uf": "GO",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 279050.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 239050.0,
+   "Recursos próprios": 40000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 279050.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 21,
+   "total": 279050.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 251605.34,
+  "total_pago": 95175.34,
+  "fornecedores_pj": [
+   {
+    "cnpj": "00747303000172",
+    "nome": "GRAFOPEL GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 12,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 53280.0
+   },
+   {
+    "cnpj": "35109227000154",
+    "nome": "FLY BANNER IMPRESSAO DIGITAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 38613.0
+   },
+   {
+    "cnpj": "33037055000125",
+    "nome": "FEDERAL MIDIA E IMPRESSOES LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 23920.0
+   },
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "42986655000120",
+    "nome": "CONTACNET CONTABILIDADE SS LTDA",
+    "cnae": "69206",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros",
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 7879.34
+   },
+   {
+    "cnpj": "00557054000152",
+    "nome": "VITORIA REALIZACOES E EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4863.0
+   },
+   {
+    "cnpj": "28959626000149",
+    "nome": "28.959.626 THIAGO SIQUEIRA DE JESUS",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "62767131000156",
+    "nome": "62.767.131 BRENO DE OLIVEIRA SILVA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1700.0
+   },
+   {
+    "cnpj": "02364057000103",
+    "nome": "IGREJA DE CRISTO DE SAO MIGUEL DO ARAGUAIA",
+    "cnae": "94910",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "12245290000112",
+    "nome": "S G S SERVICOS DE PUBLICIDADES E PINTURAS LTDA",
+    "cnae": "96092",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "02922136000184",
+    "nome": "SINDICATO DOS TRABALHADORES DO MUNICIPIO DE GOIANIA",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "06209505000147",
+    "nome": "GASPER RECORTES ELETRONICOS LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 700.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 120,
+   "total": 104700.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 103300.0,
+    "Locação/cessão de bens imóveis": 1400.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

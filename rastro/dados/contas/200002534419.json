@@ -1,0 +1,164 @@
+{
+ "sq": "200002534419",
+ "nome_urna": "ADJUTO DIAS",
+ "cargo": "depest",
+ "uf": "RN",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 488080.0,
+  "por_origem": {
+   "Recursos de partido político": 350000.0,
+   "Recursos de pessoas físicas": 53080.0,
+   "Recursos próprios": 85000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 350000.0,
+   "OUTROS RECURSOS": 138080.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 350000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 138080.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 294227.18,
+  "total_pago": 251851.86,
+  "fornecedores_pj": [
+   {
+    "cnpj": "31321080000100",
+    "nome": "UNIGRAFICA INDUSTRIA GRAFICA LTDA",
+    "cnae": "17311",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 56470.0
+   },
+   {
+    "cnpj": "13831776000103",
+    "nome": "VALE LUCENA ASSESSORIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 47000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "26835540000189",
+    "nome": "I T DE MELO FILHO",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20600.0
+   },
+   {
+    "cnpj": "37458625000101",
+    "nome": "AUGUSTO DE FRANCA MAIA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "53483270000167",
+    "nome": "53.483.270 KLEIVYTON DE PAIVA OLIVEIRA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "37004139000113",
+    "nome": "SERGIO LIRA DA SILVA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2200.0
+   },
+   {
+    "cnpj": "07805649000129",
+    "nome": "LM SERVGRAFICA E COPIADORA LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 1470.0
+   },
+   {
+    "cnpj": "25957360000379",
+    "nome": "REDE DE POSTOS MALU LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1056.4
+   },
+   {
+    "cnpj": "08533200000111",
+    "nome": "AUTO POSTO IRMAOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 616.02
+   },
+   {
+    "cnpj": "02351877001043",
+    "nome": "LWSA S/A",
+    "cnae": "63119",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 383.76
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 20,
+   "total": 101431.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 44200.0,
+    "Cessão ou locação de veículos": 45500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 11.0,
+    "Serviços prestados por terceiros": 11720.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

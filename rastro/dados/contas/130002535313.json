@@ -1,0 +1,325 @@
+{
+ "sq": "130002535313",
+ "nome_urna": "LEONARDO MONTEIRO",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1885800.0,
+  "por_origem": {
+   "Recursos de partido político": 1815500.0,
+   "Recursos de pessoas físicas": 70300.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1815500.0,
+   "OUTROS RECURSOS": 70300.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1815500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 28,
+   "total": 70300.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1046893.37,
+  "total_pago": 1070684.57,
+  "fornecedores_pj": [
+   {
+    "cnpj": "66113249000111",
+    "nome": "GRAFICA E EDITORA MAIS QUALIDADE LTDA",
+    "cnae": "17419",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 207702.75
+   },
+   {
+    "cnpj": "65835786000102",
+    "nome": "CONSTRUTORA ISADORA LTDA",
+    "cnae": "43991",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 139000.0
+   },
+   {
+    "cnpj": "17981350000189",
+    "nome": "HERBAYNE CONFECCAO DO VESTUARIO LTDA",
+    "cnae": "14134",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "08345631000154",
+    "nome": "LIBRE COMUNICACAO E MARKETING LTDA",
+    "cnae": "63992",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "59900884000183",
+    "nome": "MR2 PRINT ARTES GRAFICAS LTDA",
+    "cnae": "18211",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 42840.0
+   },
+   {
+    "cnpj": "01951858000102",
+    "nome": "CONTROL CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "48641718000193",
+    "nome": "MARCIO DOS SANTOS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "65623772000125",
+    "nome": "COLORSET LTDA",
+    "cnae": "18229",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16350.0
+   },
+   {
+    "cnpj": "01706798000154",
+    "nome": "MAGALHAES E OLIVEIRA LTDA",
+    "cnae": "90019",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "14969100000135",
+    "nome": "14.969.100 MANOEL MENDES PESSOA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "10382277000180",
+    "nome": "BETEL YELLOW LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9730.0
+   },
+   {
+    "cnpj": "27567496000136",
+    "nome": "AUTO POSTO BRASIL GV LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9643.83
+   },
+   {
+    "cnpj": "17289953000114",
+    "nome": "ALAVANCA IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8050.0
+   },
+   {
+    "cnpj": "21061742000105",
+    "nome": "AUTO POSTO MIRANTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 22,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6295.07
+   },
+   {
+    "cnpj": "65655332000150",
+    "nome": "MULTI SOLUCOES MG LTDA",
+    "cnae": "47130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "50771570000153",
+    "nome": "50.771.570 MARIA APARECIDA DE ASSIS",
+    "cnae": "17311",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4530.0
+   },
+   {
+    "cnpj": "07768178000126",
+    "nome": "RETA AUTOMOVEIS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3460.0
+   },
+   {
+    "cnpj": "42907063000176",
+    "nome": "CARLOS AMARAL EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 2800.0
+   },
+   {
+    "cnpj": "28617960000114",
+    "nome": "ECE COPIADORA E SUPRIMENTOS LTDA",
+    "cnae": "47512",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2580.0
+   },
+   {
+    "cnpj": "64476872000103",
+    "nome": "MATIZ GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "09495600000142",
+    "nome": "EDITORA GRAFICA PAULA MOURA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "02096064000163",
+    "nome": "ROCHA EMPREENDIMENTOS, PARTICIPACOES E COMERCIO LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "21330477000105",
+    "nome": "ARTES GRAFICAS MODELO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "37495283000108",
+    "nome": "BIGFIBRA LTDA",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 526.6
+   },
+   {
+    "cnpj": "21027537001359",
+    "nome": "AP MAGALHAES CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 330.02
+   },
+   {
+    "cnpj": "46552787000103",
+    "nome": "ASSOCIACAO DOM CARLOTO EDICOES E IMPRESSOS",
+    "cnae": "58212",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 300.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 148,
+   "total": 336255.1,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 70334.0,
+    "Despesas com pessoal": 200593.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 28.1,
+    "Locação/cessão de bens imóveis": 19300.0,
+    "Publicidade por carros de som": 22000.0,
+    "Serviços prestados por terceiros": 24000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

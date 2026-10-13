@@ -1,0 +1,166 @@
+{
+ "sq": "250002535955",
+ "nome_urna": "JEFFERSON CAMPOS",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3004584.03,
+  "por_origem": {
+   "Recursos de partido político": 2990084.03,
+   "Recursos de pessoas físicas": 14500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1450000.0,
+   "FUNDO PARTIDARIO": 1540084.03,
+   "OUTROS RECURSOS": 14500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2900000.0
+   },
+   {
+    "cnpj": "08701595000114",
+    "nome": "Direção Estadual/Distrital - PL - SÃO PAULO",
+    "total": 90084.03
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 14500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 841677.95,
+  "total_pago": 370518.6,
+  "fornecedores_pj": [
+   {
+    "cnpj": "26764917000156",
+    "nome": "LIONS GO PLATAFORMA DE SERVICOS EMPRESARIAIS LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 112000.0
+   },
+   {
+    "cnpj": "17887151000106",
+    "nome": "ERICA MARIA SANCHES CAMARGO",
+    "cnae": "82997",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 67500.0
+   },
+   {
+    "cnpj": "40189245000123",
+    "nome": "RICARDO STELLA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "00192198000152",
+    "nome": "GRAFICA E EDITORA PARATODOS SOROCABA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 52164.0
+   },
+   {
+    "cnpj": "59609372000162",
+    "nome": "CASTELLUCCI GASTRONOMIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 12061.2
+   },
+   {
+    "cnpj": "33263572000112",
+    "nome": "E.M.DE CAMPOS SILVA CONTABILIDADE",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "48677911000184",
+    "nome": "WEBPRINT IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "04962485000155",
+    "nome": "ENEIDA VALERIA DA SILVA AITH LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 3995.0
+   },
+   {
+    "cnpj": "11131689000100",
+    "nome": "JANICE RAMOS DA SILVA MARZOLA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2170.0
+   },
+   {
+    "cnpj": "03075616000110",
+    "nome": "AUTO POSTO FERNANDO STECCA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 100.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 156,
+   "total": 508687.75,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 492921.08,
+    "Cessão ou locação de veículos": 11566.67,
+    "Locação/cessão de bens imóveis": 4200.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

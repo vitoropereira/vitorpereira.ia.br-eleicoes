@@ -1,0 +1,159 @@
+{
+ "sq": "200002534425",
+ "nome_urna": "TOMBA FARIAS",
+ "cargo": "depest",
+ "uf": "RN",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 494600.0,
+  "por_origem": {
+   "Recursos de partido político": 450000.0,
+   "Recursos de pessoas físicas": 7900.0,
+   "Recursos próprios": 36700.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 350000.0,
+   "FUNDO PARTIDARIO": 100000.0,
+   "OUTROS RECURSOS": 44600.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 350000.0
+   },
+   {
+    "cnpj": "08733402000107",
+    "nome": "Direção Estadual/Distrital - PL - RIO GRANDE DO NORTE",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 44600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 202053.2,
+  "total_pago": 220098.2,
+  "fornecedores_pj": [
+   {
+    "cnpj": "31098830000127",
+    "nome": "PAPEL VINIL SERVICOS DE IMPRESSAO DIGITAL LTDA",
+    "cnae": "82997",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 67000.0
+   },
+   {
+    "cnpj": "04352782000189",
+    "nome": "IMPRESSAO - GRAFICA E EDITORA LTDA.",
+    "cnae": "58298",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 51550.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "33011689000109",
+    "nome": "BENDEGO PROPAGANDA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "09113457000187",
+    "nome": "ARMACAO PROPAGANDA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "30670410000100",
+    "nome": "M F G S ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "20101345000149",
+    "nome": "AUGUSTO JOSE SILVEIRA PAIZINHO",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5975.0
+   },
+   {
+    "cnpj": "08349979000110",
+    "nome": "PLATTINUM HALL CENTRO DE EVENTOS LTDA",
+    "cnae": "56201",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens imóveis",
+     "Água"
+    ],
+    "total": 5120.0
+   },
+   {
+    "cnpj": "15003806000100",
+    "nome": "ANDERSON M A DE OLIVEIRA LTDA",
+    "cnae": "38114",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "36926990000130",
+    "nome": "BIGPRINTS COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 740.2
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 6,
+   "total": 8168.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 6.0,
+    "Locação/cessão de bens imóveis": 4920.0,
+    "Serviços prestados por terceiros": 1621.0,
+    "Serviços próprios prestados por terceiros": 1621.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

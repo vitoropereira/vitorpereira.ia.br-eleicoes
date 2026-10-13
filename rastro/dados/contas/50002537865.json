@@ -1,0 +1,195 @@
+{
+ "sq": "50002537865",
+ "nome_urna": "EUCLIDES FERNANDES",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 412315.5,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 50.0,
+   "Recursos de partido político": 276000.0,
+   "Recursos de pessoas físicas": 80915.5,
+   "Recursos próprios": 55350.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 276000.0,
+   "OUTROS RECURSOS": 136315.5
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 250000.0
+   },
+   {
+    "cnpj": "13477302000105",
+    "nome": "Direção Estadual/Distrital - PT - BAHIA",
+    "total": 26000.0
+   },
+   {
+    "cnpj": "34490640000149",
+    "nome": "GMT TECNOLOGIA LTDA",
+    "total": 50.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 18,
+   "total": 136265.5
+  }
+ },
+ "despesas": {
+  "total_contratado": 249901.65,
+  "total_pago": 385954.65,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 52000.0
+   },
+   {
+    "cnpj": "19213870000177",
+    "nome": "MATEUS DE OLIVEIRA SILVA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "56151453000173",
+    "nome": "GRAFICA AQUARELA LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68518267000109",
+    "nome": "2P COMUNICACAO, MIDIA E PRODUCAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12300.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "37099622000129",
+    "nome": "DIEGO SILVA LOPES LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8500.0
+   },
+   {
+    "cnpj": "60396501000160",
+    "nome": "60.396.501 RICARDO SOUZA MEIRA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "05965880000154",
+    "nome": "R A COMERCIO SERVICOS E DISTRIBUICAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2900.0
+   },
+   {
+    "cnpj": "55289778000154",
+    "nome": "55.289.778 EZEQUIEL MIRANDA SENA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2600.0
+   },
+   {
+    "cnpj": "57307765000196",
+    "nome": "57.307.765 MICAIL ROBERTO SOUZA MENDES",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "66501155000110",
+    "nome": "66.501.155 JEFFERSON RIBEIRO SOUZA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "68611846000100",
+    "nome": "68.611.846 THIAGO MOTA DA SILVA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "34490640000149",
+    "nome": "GMT TECNOLOGIA LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 1.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 52,
+   "total": 111000.65,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 10000.0,
+    "Despesas com pessoal": 76494.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 106.65,
+    "Locação/cessão de bens imóveis": 8400.0,
+    "Serviços advocatícios": 6000.0,
+    "Serviços contábeis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

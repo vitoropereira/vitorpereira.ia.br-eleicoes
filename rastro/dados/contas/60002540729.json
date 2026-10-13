@@ -1,0 +1,121 @@
+{
+ "sq": "60002540729",
+ "nome_urna": "MOISÉS BRAZ",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 304000.0,
+  "por_origem": {
+   "Recursos de partido político": 265000.0,
+   "Recursos próprios": 39000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 265000.0,
+   "OUTROS RECURSOS": 39000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 39000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 151356.56,
+  "total_pago": 63608.65,
+  "fornecedores_pj": [
+   {
+    "cnpj": "53314864000144",
+    "nome": "PHI FILMES E PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 62000.0
+   },
+   {
+    "cnpj": "04549133000172",
+    "nome": "SOLUTION ASSESSORIA, PLANEJAMENTO E SERVICOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "02824298000180",
+    "nome": "PRINTCOLOR GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21595.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "17343713000150",
+    "nome": "WILKER MACEDO LIMA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "04218374000139",
+    "nome": "PREDILETA - EMPREENDIMENTOS E PARTICIPACOES LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "67223359000107",
+    "nome": "PREMIUM MIDIA E VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 675.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 6086.56,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5,
+    "Locação/cessão de bens imóveis": 3654.56,
+    "Serviços prestados por terceiros": 2431.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

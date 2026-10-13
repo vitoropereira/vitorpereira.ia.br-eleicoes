@@ -1,0 +1,231 @@
+{
+ "sq": "100002537280",
+ "nome_urna": "ALUÍZIO SANTOS",
+ "cargo": "depest",
+ "uf": "MA",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 491157.5,
+  "por_origem": {
+   "Recursos de outros candidatos": 76557.5,
+   "Recursos de partido político": 300000.0,
+   "Recursos de pessoas físicas": 114600.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 376557.5,
+   "OUTROS RECURSOS": 114600.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 300000.0
+   },
+   {
+    "cnpj": "68403669000168",
+    "nome": "ALDIR CUNHA RODRIGUES JUNIOR",
+    "total": 76557.5
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 114600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 229931.41,
+  "total_pago": 375583.35,
+  "fornecedores_pj": [
+   {
+    "cnpj": "10390659000155",
+    "nome": "MONTELES COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 3,
+    "tipos": [
+     "Comícios",
+     "Produção de jingles, vinhetas e slogans",
+     "Publicidade por carros de som"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "10221721000185",
+    "nome": "ALDEBRAND COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 30250.0
+   },
+   {
+    "cnpj": "07602952000124",
+    "nome": "C. C. SOARES CIA. LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 27200.0
+   },
+   {
+    "cnpj": "23444709000181",
+    "nome": "SIEART GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18665.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "48045187000176",
+    "nome": "P B DA P COUTINHO",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "04650481000131",
+    "nome": "FRANCISCO C. MOURA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "40502303000127",
+    "nome": "TAIANDRE PAIXAO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "06272793000184",
+    "nome": "EQUATORIAL MARANHAO DISTRIBUIDORA DE ENERGIA S.A",
+    "cnae": "35140",
+    "n_despesas": 4,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 4159.41
+   },
+   {
+    "cnpj": "61548620000154",
+    "nome": "61.548.620 MARIA DO PERPETUO SOCORRO SANTOS SIMOES",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "31570380000123",
+    "nome": "RENY DA CUNHA SILVA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "25268708000159",
+    "nome": "D e A INDUSTRIA E COMERCIO LTDA",
+    "cnae": "11216",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2769.0
+   },
+   {
+    "cnpj": "45960790000195",
+    "nome": "W D COMUNICACAO VISUAL LTDA",
+    "cnae": "42928",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2227.0
+   },
+   {
+    "cnpj": "50890775000158",
+    "nome": "M S MALHARIA LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "35189000000166",
+    "nome": "RAIMUNDO NONATO MARTINS BRITO",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1350.0
+   },
+   {
+    "cnpj": "43445503000183",
+    "nome": "F L C R FERREIRA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "28534992000156",
+    "nome": "W T T ALMEIDA LTDA",
+    "cnae": "61906",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 270.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 19,
+   "total": 21041.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 4950.0,
+    "Cessão ou locação de veículos": 3000.0,
+    "Despesas com pessoal": 13000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 91.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,348 @@
+{
+ "sq": "160002536512",
+ "nome_urna": "CAROL DARTORA",
+ "cargo": "depfed",
+ "uf": "PR",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2983143.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 6123.0,
+   "Recursos de partido político": 2940500.0,
+   "Recursos de pessoas físicas": 36520.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2940500.0,
+   "OUTROS RECURSOS": 42643.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 2940500.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 6123.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 36520.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1708999.25,
+  "total_pago": 719503.99,
+  "fornecedores_pj": [
+   {
+    "cnpj": "60940833000164",
+    "nome": "MULTI IMPRESSOS COMERCIO E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 132078.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 101000.0
+   },
+   {
+    "cnpj": "03220857000105",
+    "nome": "CONTASUL CONTABILIDADE E CONSULTORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 76252.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 66800.0
+   },
+   {
+    "cnpj": "36704069000143",
+    "nome": "LARA LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 8,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 63084.0
+   },
+   {
+    "cnpj": "35071268000107",
+    "nome": "PECCININ ALESSI - SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "33426138000106",
+    "nome": "TROIKA MARKETING LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "36599993000107",
+    "nome": "HUGO RAFAEL TROMBINI DE SOUZA LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "45228570000171",
+    "nome": "ODARA VISION AUDIOVISUAL LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 19517.39
+   },
+   {
+    "cnpj": "38710209000111",
+    "nome": "38.710.209 TAYSMARA CARNEIRO EDOARDO",
+    "cnae": "58131",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "32834836000188",
+    "nome": "TONIOLO SERVICOS IMOBILIARIOS LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 15659.79
+   },
+   {
+    "cnpj": "61145634000127",
+    "nome": "61.145.634 JAINE LUANA DA SILVA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "07938701000115",
+    "nome": "ALUMNUS TREINAMENTOS E SERVICOS TECNOLOGICOS LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "29062737000110",
+    "nome": "EDITORA INTEGRANDO SOLUCOES LTDA",
+    "cnae": "53202",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3950.0
+   },
+   {
+    "cnpj": "57156865000169",
+    "nome": "VANESSA ALICE DE SOUZA MARQUES",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "95357117000133",
+    "nome": "AGENCIA DE CORREIOS FRANQUEADA ALTO DA GLORIA LTDA",
+    "cnae": "53105",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 3191.3
+   },
+   {
+    "cnpj": "30285701000185",
+    "nome": "30.285.701 JAINE FERREIRA DOS SANTOS",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2900.0
+   },
+   {
+    "cnpj": "06028932000129",
+    "nome": "KOLKE DO BRASIL IMPORTACAO E EXPORTACAO LTDA",
+    "cnae": "46516",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2600.0
+   },
+   {
+    "cnpj": "55881990000106",
+    "nome": "55.881.990 THIAGO DE ALMEIDA E ALVARENGA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2200.0
+   },
+   {
+    "cnpj": "24627897000146",
+    "nome": "LOARA GONCALVES",
+    "cnae": "85929",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "07701512000124",
+    "nome": "BS CARTUCHOS LTDA",
+    "cnae": "47610",
+    "n_despesas": 6,
+    "tipos": [
+     "Locação/cessão de bens imóveis",
+     "Materiais de expediente"
+    ],
+    "total": 1893.05
+   },
+   {
+    "cnpj": "28932172000112",
+    "nome": "NECTAR DIGITAL LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "41490443000195",
+    "nome": "41.490.443 LUCIMARA GONCALVES DA SILVA",
+    "cnae": "33295",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 1179.0
+   },
+   {
+    "cnpj": "05483616000184",
+    "nome": "AUTO POSTO PETRO IGUACU LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 950.0
+   },
+   {
+    "cnpj": "58984226000154",
+    "nome": "58.984.226 LEONARDO JACKSON DE LIMA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "31806277000130",
+    "nome": "POSTO 44 PARANAGUA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 540.0
+   },
+   {
+    "cnpj": "01579286000174",
+    "nome": "SAFEWEB SEGURANCA DA INFORMACAO LTDA.",
+    "cnae": "62040",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 185.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 166.51
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 39.99
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 313,
+   "total": 1076113.22,
+   "por_tipo": {
+    "Despesas com pessoal": 1044931.22,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 182.0,
+    "Serviços prestados por terceiros": 31000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

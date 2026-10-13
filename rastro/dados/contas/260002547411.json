@@ -1,0 +1,198 @@
+{
+ "sq": "260002547411",
+ "nome_urna": "GUSTINHO RIBEIRO",
+ "cargo": "depfed",
+ "uf": "SE",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2611634.2,
+  "por_origem": {
+   "Recursos de outros candidatos": 101634.2,
+   "Recursos de partido político": 2200000.0,
+   "Recursos de pessoas físicas": 310000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1271634.2,
+   "FUNDO PARTIDARIO": 1030000.0,
+   "OUTROS RECURSOS": 310000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 2200000.0
+   },
+   {
+    "cnpj": "68544863000163",
+    "nome": "HILDA ROLLEMBERG RIBEIRO",
+    "total": 101634.2
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 310000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1310151.96,
+  "total_pago": 812720.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "37281119000190",
+    "nome": "C D C SERVICOS E LOCACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 16,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 192000.0
+   },
+   {
+    "cnpj": "13007646000142",
+    "nome": "GRAFICA EDITORA J ANDRADE LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 119400.0
+   },
+   {
+    "cnpj": "33236648000110",
+    "nome": "RB COMUNICA, EDICAO, PUBLICIDADE, MARKETING E EVENTOS LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 115000.0
+   },
+   {
+    "cnpj": "31392455000123",
+    "nome": "PRADO CASTELLI VASCONCELOS SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "40908523000155",
+    "nome": "LUDWIG JUNIOR - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "54788330000112",
+    "nome": "CAMISA DEZ SUBLIMACAO SERIGRAFIA LTDA",
+    "cnae": "14142",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 92000.0
+   },
+   {
+    "cnpj": "11917599000149",
+    "nome": "ECONTABIL CONSULTORIA E ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 22870.0
+   },
+   {
+    "cnpj": "20936065000150",
+    "nome": "CONSTRUTORA VIEIRA LTDA.",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "50108056000132",
+    "nome": "LS GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "06173106000173",
+    "nome": "AUTO POSTO SAO JOAO LTDA.",
+    "cnae": "47318",
+    "n_despesas": 43,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 14879.96
+   },
+   {
+    "cnpj": "20021731000120",
+    "nome": "NORDESTE COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 7776.0
+   },
+   {
+    "cnpj": "13008340000100",
+    "nome": "GUGUZINHO LOCACOES E PRODUCOES ARTISTICAS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 6600.0
+   },
+   {
+    "cnpj": "53532960000169",
+    "nome": "53.532.960 ULISSES PEIXOTO DA SILVA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1245.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 99,
+   "total": 484381.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 183150.0,
+    "Cessão ou locação de veículos": 60000.0,
+    "Despesas com pessoal": 61231.0,
+    "Publicidade por carros de som": 180000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

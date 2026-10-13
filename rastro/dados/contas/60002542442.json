@@ -1,0 +1,350 @@
+{
+ "sq": "60002542442",
+ "nome_urna": "YURY DO PAREDÃO",
+ "cargo": "depfed",
+ "uf": "CE",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3037680.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 775.0,
+   "Recursos de partido político": 2850000.0,
+   "Recursos próprios": 186905.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2850775.0,
+   "OUTROS RECURSOS": 186905.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 2850000.0
+   },
+   {
+    "cnpj": "68468075000135",
+    "nome": "DAVID NEY GONCALVES DE MACEDO",
+    "total": 775.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 186905.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1190590.46,
+  "total_pago": 2902639.28,
+  "fornecedores_pj": [
+   {
+    "cnpj": "09521937000187",
+    "nome": "ECOPRINT SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 231781.18
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 170000.0
+   },
+   {
+    "cnpj": "01274847000127",
+    "nome": "TERRAL TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 113088.0
+   },
+   {
+    "cnpj": "10698461000133",
+    "nome": "PACHECO OLIVEIRA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "65324562000136",
+    "nome": "NORTSIGN GRAFICA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 90000.0
+   },
+   {
+    "cnpj": "02933302000148",
+    "nome": "QUALIGRAF - EDITORA E GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 16,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 77070.0
+   },
+   {
+    "cnpj": "06942056000141",
+    "nome": "CASA DO ELETRICISTA LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "23365148000125",
+    "nome": "ENAJEH EMPREENDIMENTOS E SERVICOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "60954323000146",
+    "nome": "FELIPE LEAL SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 33060.0
+   },
+   {
+    "cnpj": "63819209000100",
+    "nome": "MANO DO CEU AGENCIA DE MARKETING LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "07382021000168",
+    "nome": "UIRAPURU TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 20241.33
+   },
+   {
+    "cnpj": "58034632000156",
+    "nome": "CLB LOCACOES E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "05036551000129",
+    "nome": "JAYMES ALVES FERREIRA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "42077642000139",
+    "nome": "VETOR ENGENHARIA DO CARIRI LTDA",
+    "cnae": "71120",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "34503369000139",
+    "nome": "FABIO RUAN GOMES DE SOUZA",
+    "cnae": "49299",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "22747930000146",
+    "nome": "AVANTI PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7007.0
+   },
+   {
+    "cnpj": "04436076000115",
+    "nome": "GOMES COE COMERCIO DE COMBUSTIVEIS E REPRESENTACOES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "10560303000112",
+    "nome": "VISION CONSTRUCOES E SERVICOS LTDA",
+    "cnae": null,
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "12369179000138",
+    "nome": "JUBAIA COMERCIAL DE PRODUTOS ALIMENTICIOS LTDA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "45207278000172",
+    "nome": "JOSE OLINTO DE SOUZA JUNIOR",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "14837245000182",
+    "nome": "TARCISIO SILVA DO NASCIMENTO",
+    "cnae": "43215",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "01519852000829",
+    "nome": "MAGNA LOCACOES LTDA",
+    "cnae": "77322",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "65373719000113",
+    "nome": "CEARA REFRIGERACOES CLIMATIZACOES E LOCACOES LTDA",
+    "cnae": "43223",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "11291046000123",
+    "nome": "J GERALDO SOARES LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1650.0
+   },
+   {
+    "cnpj": "55757755000127",
+    "nome": "PBR SERVICOS DE TELECOMUNICACOES LTDA",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "63781845000181",
+    "nome": "63.781.845 IANE JESSICA TAVARES DA SILVA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "07047251000170",
+    "nome": "COMPANHIA ENERGETICA DO CEARA",
+    "cnae": "35140",
+    "n_despesas": 1,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 309.22
+   },
+   {
+    "cnpj": "07419763000110",
+    "nome": "ARAUJO SAT SERVICOS DE MULTIMIDIA LTDA",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "45898856000164",
+    "nome": "AMBIENTAL CRATO CONCESSIONARIA DE SANEAMENTO SPE S.A",
+    "cnae": null,
+    "n_despesas": 2,
+    "tipos": [
+     "Água"
+    ],
+    "total": 204.73
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 69,
+   "total": 147479.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 84500.0,
+    "Cessão ou locação de veículos": 10000.0,
+    "Despesas com pessoal": 12900.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 79.0,
+    "Locação/cessão de bens imóveis": 3000.0,
+    "Serviços contábeis": 35000.0,
+    "Serviços prestados por terceiros": 2000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

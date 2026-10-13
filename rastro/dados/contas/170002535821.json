@@ -1,0 +1,99 @@
+{
+ "sq": "170002535821",
+ "nome_urna": "EMERSON FREITAS",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 38634.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 1294.0,
+   "Recursos de pessoas físicas": 37340.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 38634.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 1294.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 16,
+   "total": 37340.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 24020.31,
+  "total_pago": 21446.87,
+  "fornecedores_pj": [
+   {
+    "cnpj": "49611455000132",
+    "nome": "49.611.455 STENIO PEREIRA ARAGAO DOS SANTOS",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14300.0
+   },
+   {
+    "cnpj": "03942231000293",
+    "nome": "JC CONGELADOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 159.02
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 28.21
+   },
+   {
+    "cnpj": "24150377000608",
+    "nome": "KARNE KEIJO - LOGISTICA INTEGRADA LTDA - EM RECUPERACAO JUDICIAL",
+    "cnae": "47296",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 10.99
+   },
+   {
+    "cnpj": "20300157006008",
+    "nome": "NOVO ATACADO COMERCIO DE ALIMENTOS SA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 6.69
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 12,
+   "total": 9515.4,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 7490.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 35.4,
+    "Serviços prestados por terceiros": 1990.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

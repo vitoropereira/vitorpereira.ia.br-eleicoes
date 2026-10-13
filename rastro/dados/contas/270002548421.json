@@ -1,0 +1,103 @@
+{
+ "sq": "270002548421",
+ "nome_urna": "PAULINHO DO BONIFÁCIO",
+ "cargo": "depest",
+ "uf": "TO",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 200138.67,
+  "por_origem": {
+   "Recursos de outros candidatos": 144361.12,
+   "Recursos de partido político": 21777.55,
+   "Recursos de pessoas físicas": 34000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 142790.0,
+   "FUNDO PARTIDARIO": 17752.17,
+   "OUTROS RECURSOS": 39596.5
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68526998000104",
+    "nome": "SANDOVAL LOBO CARDOSO",
+    "total": 141000.0
+   },
+   {
+    "cnpj": "02658200000161",
+    "nome": "Direção Estadual/Distrital - PODE - TOCANTINS",
+    "total": 17752.17
+   },
+   {
+    "cnpj": "08738595000199",
+    "nome": "Direção Estadual/Distrital - PL - TOCANTINS",
+    "total": 4025.38
+   },
+   {
+    "cnpj": "68504142000120",
+    "nome": "CARLOS EDUARDO TORRES GOMES",
+    "total": 1790.0
+   },
+   {
+    "cnpj": "68492195000178",
+    "nome": "MARIA AUXILIADORA SEABRA REZENDE",
+    "total": 1070.92
+   },
+   {
+    "cnpj": "68527002000177",
+    "nome": "FABIO PEREIRA VAZ",
+    "total": 500.2
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 34000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 114538.8,
+  "total_pago": 121997.27,
+  "fornecedores_pj": [
+   {
+    "cnpj": "35548455000120",
+    "nome": "TOCANTINS PRODUCOES EVENTOS LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 110100.0
+   },
+   {
+    "cnpj": "18475438000191",
+    "nome": "LEMES E ANTUNYS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3088.8
+   },
+   {
+    "cnpj": "25312636000108",
+    "nome": "HANNA H. DE C. SOUSA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1350.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 0,
+   "total": 0.0,
+   "por_tipo": {}
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

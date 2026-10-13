@@ -1,0 +1,283 @@
+{
+ "sq": "130002549954",
+ "nome_urna": "ENES CANDIDO",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1092324.33,
+  "por_origem": {
+   "Doações pela Internet": 10000.0,
+   "Recursos de outros candidatos": 4160.0,
+   "Recursos de partido político": 153164.33,
+   "Recursos de pessoas físicas": 798000.0,
+   "Recursos próprios": 127000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 1092324.33
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "14545907000140",
+    "nome": "Direção Estadual/Distrital - PSD - MINAS GERAIS",
+    "total": 153164.33
+   },
+   {
+    "cnpj": "68464929000105",
+    "nome": "ROSANGELA DE OLIVEIRA CAMPOS REIS",
+    "total": 4160.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 48,
+   "total": 935000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 920493.81,
+  "total_pago": 1085204.2,
+  "fornecedores_pj": [
+   {
+    "cnpj": "55823219000182",
+    "nome": "CANARO COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 4,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 124000.0
+   },
+   {
+    "cnpj": "48750465000196",
+    "nome": "BREGUEZ EVENTOS E ASSESSORIA LTDA",
+    "cnae": "82300",
+    "n_despesas": 3,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 85000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 33000.0
+   },
+   {
+    "cnpj": "07590999000115",
+    "nome": "LOCAVIP - LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "14298003000168",
+    "nome": "DIARIO DO RIO DOCE LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 13860.0
+   },
+   {
+    "cnpj": "33262515000119",
+    "nome": "MARCOS VINICIUS SILVA ANDRADE",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13600.0
+   },
+   {
+    "cnpj": "00531370000155",
+    "nome": "RESTAURANTE SAGRADO CORACAO DE JESUS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 10275.0
+   },
+   {
+    "cnpj": "31037686000119",
+    "nome": "31.037.686 MAX RODRIGUES DE MIRANDA",
+    "cnae": "96092",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "26825176000176",
+    "nome": "LIG LOKA LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8106.4
+   },
+   {
+    "cnpj": "08880497000191",
+    "nome": "BATUKI PRODUCOES LTDA",
+    "cnae": "47628",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "23479139000165",
+    "nome": "BRUNO ARGOLO RODRIGUES SILVA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "26751631000136",
+    "nome": "BIP SOLUCOES PROMOCIONAIS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3900.0
+   },
+   {
+    "cnpj": "25266057000168",
+    "nome": "EDILCE DE SOUZA CARVALHAIS RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "66980775000189",
+    "nome": "CAPITALIZA LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "22525472000109",
+    "nome": "INOVA COPIADORAS LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3050.0
+   },
+   {
+    "cnpj": "28043684000128",
+    "nome": "28.043.684 CLAUDINEY FERREIRA DOS SANTOS",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 2700.0
+   },
+   {
+    "cnpj": "49120030000120",
+    "nome": "49.120.030 DEIVID DOS SANTOS MATOS",
+    "cnae": "47563",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "61059792000164",
+    "nome": "FW COMERCIO E INTERMEDIACAO DE VEICULOS LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2280.0
+   },
+   {
+    "cnpj": "14563116000143",
+    "nome": "14.563.116 RAMALHO DIAS RAMALHO",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "05220727000106",
+    "nome": "MAIA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1772.13
+   },
+   {
+    "cnpj": "38191395000120",
+    "nome": "JP VERLI PRODUCOES DE EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "17592256000138",
+    "nome": "17.592.256 ROGERIO MARTINS",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 600.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 449,
+   "total": 561850.28,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 294165.33,
+    "Cessão ou locação de veículos": 70250.0,
+    "Despesas com pessoal": 53800.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 134.95,
+    "Eventos de promoção da candidatura": 15000.0,
+    "Locação/cessão de bens imóveis": 22500.0,
+    "Publicidade por carros de som": 81000.0,
+    "Serviços advocatícios": 10000.0,
+    "Serviços contábeis": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

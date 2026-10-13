@@ -1,0 +1,245 @@
+{
+ "sq": "180002532987",
+ "nome_urna": "RAFAEL FONTELES",
+ "cargo": "governador",
+ "uf": "PI",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 7116081.28,
+  "por_origem": {
+   "Recursos de outros candidatos": 680000.0,
+   "Recursos de partido político": 711552.25,
+   "Recursos de pessoas físicas": 5595396.03,
+   "Recursos próprios": 129133.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1391552.25,
+   "OUTROS RECURSOS": 5724529.03
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 711552.25
+   },
+   {
+    "cnpj": "68258316000111",
+    "nome": "FLORENTINO ALVES VERAS NETO",
+    "total": 500000.0
+   },
+   {
+    "cnpj": "68258298000178",
+    "nome": "MERLONG SOLANO NOGUEIRA",
+    "total": 180000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 448,
+   "total": 5724529.03
+  }
+ },
+ "despesas": {
+  "total_contratado": 3937443.72,
+  "total_pago": 4356787.98,
+  "fornecedores_pj": [
+   {
+    "cnpj": "06305943000109",
+    "nome": "CLOSE AUDIOVISUAL LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 800000.0
+   },
+   {
+    "cnpj": "11587614000138",
+    "nome": "ELETRICA LOCACOES E EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 600000.0
+   },
+   {
+    "cnpj": "03003930000197",
+    "nome": "CEARA TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 20,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos",
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 559996.5
+   },
+   {
+    "cnpj": "19752891000160",
+    "nome": "GREEN LTDA",
+    "cnae": "43991",
+    "n_despesas": 2,
+    "tipos": [
+     "Atividades de militância e mobilização de rua",
+     "Despesas com pessoal"
+    ],
+    "total": 502536.26
+   },
+   {
+    "cnpj": "34028316181574",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 421225.2
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "23444709000181",
+    "nome": "SIEART GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 233280.0
+   },
+   {
+    "cnpj": "50216247000118",
+    "nome": "VIEIRA DA COSTA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "28008410000106",
+    "nome": "BAMEX BENEFICIOS INSTITUICAO DE PAGAMENTO LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 85000.0
+   },
+   {
+    "cnpj": "04162704000111",
+    "nome": "STRADA MOB LTDA",
+    "cnae": "49299",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 72855.55
+   },
+   {
+    "cnpj": "07469034000179",
+    "nome": "E MATOS CIA LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 43333.33
+   },
+   {
+    "cnpj": "69617454000102",
+    "nome": "ATLANTIC CITY WORLD CLUB",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 37500.0
+   },
+   {
+    "cnpj": "19923146000137",
+    "nome": "BRASAO VIGILANCIA E SEGURANCA LTDA",
+    "cnae": "80111",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 23109.07
+   },
+   {
+    "cnpj": "10658826000104",
+    "nome": "AD CONTAS - ADMINISTRACAO E CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6200.0
+   },
+   {
+    "cnpj": "43559245000166",
+    "nome": "GENI V DE SOUSA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2550.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 707.86
+   },
+   {
+    "cnpj": "52850058000128",
+    "nome": "PETROLEO COMBUSTIVEL III LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 428.45
+   },
+   {
+    "cnpj": "11618238000100",
+    "nome": "NO MUNDO DO LIVRO LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Materiais de expediente"
+    ],
+    "total": 51.5
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 15,
+   "total": 148670.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 49.0,
+    "Locação/cessão de bens imóveis": 48621.0,
+    "Serviços contábeis": 100000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

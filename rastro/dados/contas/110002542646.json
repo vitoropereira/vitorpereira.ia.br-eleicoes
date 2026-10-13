@@ -1,0 +1,293 @@
+{
+ "sq": "110002542646",
+ "nome_urna": "ADELCINO LOPO",
+ "cargo": "depest",
+ "uf": "MT",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 661946.72,
+  "por_origem": {
+   "Recursos de partido político": 280000.0,
+   "Recursos de pessoas físicas": 284201.12,
+   "Recursos próprios": 97745.6
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 100000.0,
+   "OUTROS RECURSOS": 561946.72
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "30574060000189",
+    "nome": "Direção Estadual/Distrital - PODE - MATO GROSSO",
+    "total": 180000.0
+   },
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 14,
+   "total": 381946.72
+  }
+ },
+ "despesas": {
+  "total_contratado": 540988.04,
+  "total_pago": 646000.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "14931018000111",
+    "nome": "GRAFICA MULTICOR LTDA",
+    "cnae": "18130",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 65960.0
+   },
+   {
+    "cnpj": "50289894000150",
+    "nome": "W. S. BELEM",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "45607114000132",
+    "nome": "OK COMUNICACOES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "68799106000130",
+    "nome": "68.799.106 JOAQUIM PEREIRA DA CRUZ",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "25257776000112",
+    "nome": "25.257.776 JOHNATHA MOURA MARTINEL",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "10341221000187",
+    "nome": "V. DA CRUZ SILVA SERVICOS DE SONORIZACAO E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "44430913000113",
+    "nome": "44.430.913 HEBER MARTINS SENA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "64521772000151",
+    "nome": "64.521.772 HUGO RODRIGUES DE AGUIAR",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "54375018000105",
+    "nome": "BARRA AUTO POSTO COMERCIO DE COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 16,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4430.54
+   },
+   {
+    "cnpj": "17614544000146",
+    "nome": "UBAJARA SILVA VILARINHO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "15337028000196",
+    "nome": "MICHELINE SILVA SIA",
+    "cnae": "47121",
+    "n_despesas": 10,
+    "tipos": [
+     "Alimentação",
+     "Pré-instalação física de comitê de campanha",
+     "Água"
+    ],
+    "total": 2455.8
+   },
+   {
+    "cnpj": "39517938000119",
+    "nome": "39.517.938 WELBER CARLOS SOARES",
+    "cnae": "56201",
+    "n_despesas": 2,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "58975121000139",
+    "nome": "58.975.121 BARBARA SOUZA ALVES",
+    "cnae": "58191",
+    "n_despesas": 2,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 940.0
+   },
+   {
+    "cnpj": "18897781000124",
+    "nome": "G.I.S LOPO LTDA",
+    "cnae": "47211",
+    "n_despesas": 2,
+    "tipos": [
+     "Comícios",
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 320.0
+   },
+   {
+    "cnpj": "27744555000102",
+    "nome": "COMERCIAL 364 DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 313.08
+   },
+   {
+    "cnpj": "47584143000151",
+    "nome": "ARAFER E LOCACAO LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "19770285000178",
+    "nome": "DUME COMBUSTIVEIS XAVANTINA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 276.78
+   },
+   {
+    "cnpj": "52253478000127",
+    "nome": "52.253.478 SANDRA REGINA POLIDORIO",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 250.0
+   },
+   {
+    "cnpj": "05156937000174",
+    "nome": "CAIQUE COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 248.04
+   },
+   {
+    "cnpj": "27428590000961",
+    "nome": "EXPRESSO SATELITE AZUL LTDA",
+    "cnae": "49221",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 183.8
+   },
+   {
+    "cnpj": "04180371000153",
+    "nome": "ARAGAS COMERCIO DE GAS LTDA",
+    "cnae": "47849",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 130.0
+   },
+   {
+    "cnpj": "12079464000114",
+    "nome": "HELIANE GONCALVES DA CRUZ",
+    "cnae": "95291",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 100.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 230,
+   "total": 318080.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 273654.5,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 25.5,
+    "Produção de jingles, vinhetas e slogans": 5400.0,
+    "Serviços advocatícios": 8000.0,
+    "Serviços contábeis": 8000.0,
+    "Serviços próprios prestados por terceiros": 23000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

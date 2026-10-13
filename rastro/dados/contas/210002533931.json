@@ -1,0 +1,166 @@
+{
+ "sq": "210002533931",
+ "nome_urna": "KAREN SANTOS",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PSOL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 830290.69,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 2170.0,
+   "Recursos de partido político": 714270.74,
+   "Recursos de pessoas físicas": 110849.95,
+   "Recursos próprios": 3000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 710270.74,
+   "FUNDO PARTIDARIO": 4000.0,
+   "OUTROS RECURSOS": 116019.95
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "06954942000195",
+    "nome": "Direção Nacional - PSOL",
+    "total": 653847.11
+   },
+   {
+    "cnpj": "11664131000190",
+    "nome": "Direção Estadual/Distrital - PSOL - RIO GRANDE DO SUL",
+    "total": 60423.63
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 2170.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 23,
+   "total": 113849.95
+  }
+ },
+ "despesas": {
+  "total_contratado": 457202.03,
+  "total_pago": 341677.03,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 48000.0
+   },
+   {
+    "cnpj": "67030097000156",
+    "nome": "FERNANDES COSTA ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 32325.0
+   },
+   {
+    "cnpj": "50977656000137",
+    "nome": "CONTAS PARTIDARIAS CONSULTORIA E ASSESSORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 21200.0
+   },
+   {
+    "cnpj": "58895246000159",
+    "nome": "IMPACTA COMUNICACAO E MIDIAS DIGITAIS LTDA",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10800.0
+   },
+   {
+    "cnpj": "94350113000160",
+    "nome": "JOKA SUBLIMACAO DIGITAL LTDA",
+    "cnae": "13405",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9987.5
+   },
+   {
+    "cnpj": "64947407000103",
+    "nome": "P. LUCAS PORCELLIS BRANCO LTDA",
+    "cnae": "62040",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "68748772000140",
+    "nome": "MZ FERNANDES IMPRESSOS LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4100.0
+   },
+   {
+    "cnpj": "44691407000188",
+    "nome": "ALZIMERI O. FERNANDES ANTONIO CARLOS LIMA DE OLIVEIRA LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3485.0
+   },
+   {
+    "cnpj": "42902279000149",
+    "nome": "PONTTO DA IMPRESSAO COMERCIO E REPRESENTACAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1014.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 47.53
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 111,
+   "total": 320243.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 249215.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 48.0,
+    "Locação/cessão de bens imóveis": 7500.0,
+    "Serviços prestados por terceiros": 50480.0,
+    "Serviços próprios prestados por terceiros": 13000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

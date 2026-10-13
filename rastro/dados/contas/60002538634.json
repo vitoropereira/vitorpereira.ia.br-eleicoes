@@ -1,0 +1,257 @@
+{
+ "sq": "60002538634",
+ "nome_urna": "GABRIEL BIOLOGIA",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "PSOL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 690073.66,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 9908.0,
+   "Recursos de partido político": 665000.0,
+   "Recursos de pessoas físicas": 15165.66
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 665000.0,
+   "OUTROS RECURSOS": 25073.66
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "06954942000195",
+    "nome": "Direção Nacional - PSOL",
+    "total": 665000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 9908.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 125,
+   "total": 15165.66
+  }
+ },
+ "despesas": {
+  "total_contratado": 667018.88,
+  "total_pago": 675228.9,
+  "fornecedores_pj": [
+   {
+    "cnpj": "53088222000174",
+    "nome": "GAMBOA FILMES LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 275000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "14064951000139",
+    "nome": "IVO LOCADORA DE VEICULO LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 22200.0
+   },
+   {
+    "cnpj": "68430846000103",
+    "nome": "ANDRE DE OLIVEIRA COMARU",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "03977401000194",
+    "nome": "CASABLANCA RENT A CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 18385.0
+   },
+   {
+    "cnpj": "58500267000128",
+    "nome": "CAMILA SA DE CARVALHO MOTTA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "68430240000160",
+    "nome": "DAUYZIO ALVES DA SILVA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "47066786000103",
+    "nome": "HARMONY SERVICOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "50753066000120",
+    "nome": "50.753.066 DANIELE AMARAL LIMA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "19731449000158",
+    "nome": "19.731.449 MAURICIO RODRIGUES DO NASCIMENTO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3850.0
+   },
+   {
+    "cnpj": "16752699000186",
+    "nome": "PONTO SIGN COMUNICACAO VISUAL LTDA.",
+    "cnae": "43291",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3535.0
+   },
+   {
+    "cnpj": "00339611000169",
+    "nome": "P F NETO PETROLEO E COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3197.86
+   },
+   {
+    "cnpj": "07651003000134",
+    "nome": "GRAFICA E EDITORA RONDA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "01488905000115",
+    "nome": "GLORIMAR PETROLEO E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2048.94
+   },
+   {
+    "cnpj": "18888116000174",
+    "nome": "18.888.116 HAILTON PONTES DOS SANTOS",
+    "cnae": "93298",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "55554330000110",
+    "nome": "MBS COMERCIO E LOCACOES LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 933.4
+   },
+   {
+    "cnpj": "68430291000191",
+    "nome": "FRANCISCA NAYLA DA SILVA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "14908381000116",
+    "nome": "MOTO LIBRE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 375.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 217.48
+   },
+   {
+    "cnpj": "60138135000140",
+    "nome": "60.138.135 LUANA LUCIA FERREIRA DE OLIVEIRA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 30,
+   "total": 209376.2,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 39940.0,
+    "Despesas com pessoal": 134900.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 36.2,
+    "Locação/cessão de bens imóveis": 34500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,159 @@
+{
+ "sq": "130002534510",
+ "nome_urna": "ZÉ LAVIOLA",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "NOVO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 225378.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 170294.0,
+   "Recursos próprios": 55084.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 225378.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 225378.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 129018.0,
+  "total_pago": 225378.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "60311979000140",
+    "nome": "AW DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "34260068000121",
+    "nome": "MAXXMIDIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18408.0
+   },
+   {
+    "cnpj": "12305622000107",
+    "nome": "PONTUAL LOC CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15900.0
+   },
+   {
+    "cnpj": "41784471000115",
+    "nome": "LOPES CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "21656171000143",
+    "nome": "INDUSTRIA GRAFICA SANTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7840.0
+   },
+   {
+    "cnpj": "12058968000158",
+    "nome": "AGUIAR IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7100.0
+   },
+   {
+    "cnpj": "20918877000173",
+    "nome": "GRAFICA FACIL COMUNICACAO LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6750.0
+   },
+   {
+    "cnpj": "09596641000125",
+    "nome": "TAMARA DIGITAL LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "30053588000102",
+    "nome": "LIVRE COMUNICACAO E PROPAGANDA LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "03524638000110",
+    "nome": "GRAFICA BERNARDES ALEXANDRE LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 720.0
+   },
+   {
+    "cnpj": "28617960000114",
+    "nome": "ECE COPIADORA E SUPRIMENTOS LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 400.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 0,
+   "total": 0.0,
+   "por_tipo": {}
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,194 @@
+{
+ "sq": "140002548983",
+ "nome_urna": "MIRO SANOVA",
+ "cargo": "depest",
+ "uf": "PA",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 275524.98,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 44024.98,
+   "Recursos de partido político": 124000.0,
+   "Recursos de pessoas físicas": 107500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 124000.0,
+   "OUTROS RECURSOS": 151524.98
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 124000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 44024.98
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 14,
+   "total": 107500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 354467.04,
+  "total_pago": 250796.08,
+  "fornecedores_pj": [
+   {
+    "cnpj": "27621126000130",
+    "nome": "MACIEL COMERCIO SERVICOS DE CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "24104225000156",
+    "nome": "MARIN CORDERO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "51517016000107",
+    "nome": "THOMPSON SERVICOS GRAFICOS LTDA",
+    "cnae": "18211",
+    "n_despesas": 7,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21050.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "43969416000125",
+    "nome": "ANSERV COMERCIO E SERVICOS LTDA",
+    "cnae": "82113",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "45061294000108",
+    "nome": "RSLYNO RESTAURANTES EVENTOS LTDA",
+    "cnae": "93191",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "42292768000126",
+    "nome": "ROYAL COMERCIO E SERVICOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5410.0
+   },
+   {
+    "cnpj": "31598404000152",
+    "nome": "31.598.404 ARLETH DE JESUS FIEL GONCALVES",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "17940670000190",
+    "nome": "C. KZAN",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3090.0
+   },
+   {
+    "cnpj": "57502107000155",
+    "nome": "GXPRINT SERVICOS GRAFICOS LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 902.08
+   },
+   {
+    "cnpj": "23528778000173",
+    "nome": "AUTO POSTO CONSELHEIRO COMERCIO DE COMBUSTIVEL E SERVICOS LTDA.",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 450.0
+   },
+   {
+    "cnpj": "41391445000127",
+    "nome": "EXITO SOLUCOES DE SERVICOS E COMERCIO LTDA",
+    "cnae": "86607",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar",
+     "Materiais de expediente"
+    ],
+    "total": 246.96
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 96,
+   "total": 219318.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 135000.0,
+    "Cessão ou locação de veículos": 5000.0,
+    "Despesas com pessoal": 28000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 118.0,
+    "Produção de jingles, vinhetas e slogans": 3200.0,
+    "Publicidade por carros de som": 48000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

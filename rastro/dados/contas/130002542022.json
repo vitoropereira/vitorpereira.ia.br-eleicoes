@@ -1,0 +1,4537 @@
+{
+ "sq": "130002542022",
+ "nome_urna": "SUBTENETE GONZAGA",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 557486.3,
+  "por_origem": {
+   "Recursos de partido político": 339986.3,
+   "Recursos de pessoas físicas": 27000.0,
+   "Recursos próprios": 190500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 290000.0,
+   "OUTROS RECURSOS": 267486.3
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 339986.3
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 217500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 360772.38,
+  "total_pago": 404990.4,
+  "fornecedores_pj": [
+   {
+    "cnpj": "38252868000151",
+    "nome": "BELLA EDITORA E GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 71605.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "01118229000198",
+    "nome": "WS CORRETORA DE IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 13036.53
+   },
+   {
+    "cnpj": "34676331000168",
+    "nome": "OLIVEIRA GARCIA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 9500.0
+   },
+   {
+    "cnpj": "21652672000151",
+    "nome": "TARGET FROTAS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 5,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 2075.7
+   },
+   {
+    "cnpj": "25118662000191",
+    "nome": "LANCASTER PALACE HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1719.44
+   },
+   {
+    "cnpj": "16625764000102",
+    "nome": "HOTEL TROPICAL PARACATU LTDA",
+    "cnae": "55108",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1410.6
+   },
+   {
+    "cnpj": "34028316335202",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 1349.5
+   },
+   {
+    "cnpj": "07220161000130",
+    "nome": "HOTEL SERRAS DE MINAS LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 818.0
+   },
+   {
+    "cnpj": "21859871000135",
+    "nome": "ROMA COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 803.67
+   },
+   {
+    "cnpj": "43283811000150",
+    "nome": "KALUNGA SA",
+    "cnae": "47610",
+    "n_despesas": 5,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 803.0
+   },
+   {
+    "cnpj": "22194170000197",
+    "nome": "PEDRO DE BOUCHERVILLE RAMOS CARVALHO",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "45535238000150",
+    "nome": "HOTEL COMFORT STYLES LTDA",
+    "cnae": "55108",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 727.0
+   },
+   {
+    "cnpj": "17498163000734",
+    "nome": "DISTRIBUIDORA TRIANGULO LTDA",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 684.57
+   },
+   {
+    "cnpj": "04356635000187",
+    "nome": "HAVANA PALACE HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 670.0
+   },
+   {
+    "cnpj": "17845769000103",
+    "nome": "HOTEL FENICIA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "15244055000114",
+    "nome": "HOTEL APOLLO INN EXPRESS LTDA",
+    "cnae": "55108",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 567.0
+   },
+   {
+    "cnpj": "05330580000107",
+    "nome": "DIVINI S LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 538.0
+   },
+   {
+    "cnpj": "03514109000135",
+    "nome": "STALO HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com geradores de energia"
+    ],
+    "total": 510.0
+   },
+   {
+    "cnpj": "49159409000144",
+    "nome": "ARCOS PALACE HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 485.0
+   },
+   {
+    "cnpj": "23037661000197",
+    "nome": "CHAVES FERNANDES COMERCIO DE COMBUSTIVEIS LTDA.",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 480.6
+   },
+   {
+    "cnpj": "03653223000146",
+    "nome": "POUSADA DA SERESTA LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 480.0
+   },
+   {
+    "cnpj": "07823342000150",
+    "nome": "HOTEL MEDALHA MILAGROSA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 480.0
+   },
+   {
+    "cnpj": "54320238000123",
+    "nome": "MARIACHIS HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 480.0
+   },
+   {
+    "cnpj": "54898031000130",
+    "nome": "POSTO PORTAL DOS CAICARAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 476.38
+   },
+   {
+    "cnpj": "20899944000150",
+    "nome": "ASSOCIACAO BENEF E ASSISTENCIAL FRATERNIDADE UNIVERSAL",
+    "cnae": "55108",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação",
+     "Despesas com Hospedagem"
+    ],
+    "total": 473.0
+   },
+   {
+    "cnpj": "21662242000110",
+    "nome": "POSTO SANTA INES MINAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 472.2
+   },
+   {
+    "cnpj": "10792882000129",
+    "nome": "HOTEL GOIA NEGOCIOS E PARTICIPACOES LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 466.0
+   },
+   {
+    "cnpj": "23187779000100",
+    "nome": "VALDOMIRO SERGIO FARIA DORTA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 460.0
+   },
+   {
+    "cnpj": "06107173000190",
+    "nome": "VAZ RODRIGUES HOTELARIA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 459.3
+   },
+   {
+    "cnpj": "24741085000127",
+    "nome": "RESTAURANTE BENTO ROCHA LTDA",
+    "cnae": "56112",
+    "n_despesas": 4,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 441.3
+   },
+   {
+    "cnpj": "41722137000137",
+    "nome": "HB HOTEL JP LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 434.0
+   },
+   {
+    "cnpj": "62235055000138",
+    "nome": "HOTEL P L LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 420.0
+   },
+   {
+    "cnpj": "20978586000170",
+    "nome": "EUDIMAR ALVES PEREIRA",
+    "cnae": "55108",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 413.0
+   },
+   {
+    "cnpj": "55859761000195",
+    "nome": "HOSPEDAGENS CASTRO E DIAS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 403.0
+   },
+   {
+    "cnpj": "08474773000111",
+    "nome": "POSTOS PMG LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 402.05
+   },
+   {
+    "cnpj": "30739713000132",
+    "nome": "OURO DO CERRADO HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "31098385000103",
+    "nome": "LAYSA HOTEL E RESTAURANTE LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "65406707000148",
+    "nome": "JP FAST FOOD ALIMENTACAO LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 385.6
+   },
+   {
+    "cnpj": "33185583000121",
+    "nome": "LUCILENE SOARES DA SILVA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 380.0
+   },
+   {
+    "cnpj": "05506547000187",
+    "nome": "CECILIA BIZINOTO DE ALMEIDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 374.0
+   },
+   {
+    "cnpj": "32086697000151",
+    "nome": "HOTEL WILSON LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 373.0
+   },
+   {
+    "cnpj": "55444663000197",
+    "nome": "RESTAURANTE LANCHONETE PINGUINS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 369.6
+   },
+   {
+    "cnpj": "04038996000185",
+    "nome": "POSTO LESTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 366.8
+   },
+   {
+    "cnpj": "52191633000128",
+    "nome": "HOTEL MIRANDA ARAPONGA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 364.0
+   },
+   {
+    "cnpj": "04192534000118",
+    "nome": "DAN INN HOTEL TRIANGULO LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 363.83
+   },
+   {
+    "cnpj": "12621471000104",
+    "nome": "POUSADA VILA LARA LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem",
+     "Despesas com pessoal"
+    ],
+    "total": 360.0
+   },
+   {
+    "cnpj": "16740046000187",
+    "nome": "DD GLORIA HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 360.0
+   },
+   {
+    "cnpj": "21036949000111",
+    "nome": "HOTEL VALE DO CAFE LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 352.0
+   },
+   {
+    "cnpj": "15595975000187",
+    "nome": "GRAN NORTE HOTEL SALINAS LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 350.0
+   },
+   {
+    "cnpj": "27051087000182",
+    "nome": "BENEDITO RODRIGUES DE SOUZA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 350.0
+   },
+   {
+    "cnpj": "47587658000105",
+    "nome": "MORAIS QUEIROZ PALACE HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 350.0
+   },
+   {
+    "cnpj": "65372218000112",
+    "nome": "65.372.218 ALEXANDRE COELHO CERBINO",
+    "cnae": "55906",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 350.0
+   },
+   {
+    "cnpj": "27543740000201",
+    "nome": "ATALAIA COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 346.13
+   },
+   {
+    "cnpj": "61629631000169",
+    "nome": "MIRANDA SERVICOS DE HOTELARIA E RESTAURANTE LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 341.0
+   },
+   {
+    "cnpj": "48015783000103",
+    "nome": "POUSADA USINA PARAISO LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 338.0
+   },
+   {
+    "cnpj": "08401243000143",
+    "nome": "POSTO OCEANO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 322.24
+   },
+   {
+    "cnpj": "66275512000179",
+    "nome": "HOTEL MERI LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 318.0
+   },
+   {
+    "cnpj": "19848233000762",
+    "nome": "POSTO SANTA EDWIGES PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 317.86
+   },
+   {
+    "cnpj": "00659188000184",
+    "nome": "POSTO PETROLARA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 310.1
+   },
+   {
+    "cnpj": "38217045000195",
+    "nome": "AUTO POSTO 2000 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 308.82
+   },
+   {
+    "cnpj": "12588340000164",
+    "nome": "POUSADA SERTAO MINEIRO LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 305.0
+   },
+   {
+    "cnpj": "04315672000147",
+    "nome": "LANCHONETE E CHURRASCARIA TATI LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 304.29
+   },
+   {
+    "cnpj": "23153943002365",
+    "nome": "COOPERATIVA AGRO PECUARIA DO VALE DO PARACATU LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 303.22
+   },
+   {
+    "cnpj": "04211291000118",
+    "nome": "LUCCA E CASSANELLI LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 302.88
+   },
+   {
+    "cnpj": "01404373000190",
+    "nome": "AUTO POSTO GABY LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 300.03
+   },
+   {
+    "cnpj": "05360807000159",
+    "nome": "ORGANIZACAO BRASIL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "10214277000170",
+    "nome": "LOJA DE CONVENIENCIA E HOTEL GUIMARANIA LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "23903488000162",
+    "nome": "HOTEL M N LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "25223983000156",
+    "nome": "MUNICIPIO DE MONTEZUMA",
+    "cnae": "84116",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "34500250000102",
+    "nome": "PAULO ROBERTO MARCONDES SCP",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "50550878000179",
+    "nome": "HOTEL PILAR LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "62882078000134",
+    "nome": "62.882.078 CLAUDIA REGINA RESINENTE",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "14022801000162",
+    "nome": "G.P HOTEL TRIANGULO LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 298.94
+   },
+   {
+    "cnpj": "03495109000135",
+    "nome": "ANGELA MARIA GOMES DA SILVA FREITAS CIA LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 296.0
+   },
+   {
+    "cnpj": "11798409000111",
+    "nome": "POUSADA DAS AGUAS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 295.0
+   },
+   {
+    "cnpj": "11910953000103",
+    "nome": "SAO SEBASTIAO COMBUSTIVEIS E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 292.07
+   },
+   {
+    "cnpj": "07102689000295",
+    "nome": "COMERCIO E TRANSPORTE DE COMBUSTIVEIS, LUBRIFICANTES E ACESSORIOS CAMAPUA LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 291.81
+   },
+   {
+    "cnpj": "24013351000103",
+    "nome": "DELMUS HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 290.0
+   },
+   {
+    "cnpj": "39837926000171",
+    "nome": "NOBIK HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 290.0
+   },
+   {
+    "cnpj": "03068322000160",
+    "nome": "BELA VISTA PETRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 288.48
+   },
+   {
+    "cnpj": "21339633000107",
+    "nome": "KYT PALACE HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 288.0
+   },
+   {
+    "cnpj": "21373972000100",
+    "nome": "EMPRESA BOCAIUVENSE DE HOTELARIA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 283.0
+   },
+   {
+    "cnpj": "42984713000187",
+    "nome": "BEL POSTO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 280.02
+   },
+   {
+    "cnpj": "04997568000180",
+    "nome": "HOTEL SUPREMO LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 280.0
+   },
+   {
+    "cnpj": "09721714000163",
+    "nome": "LUCIANO GERALDO RODRIGUES DA SILVA CPF",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 280.0
+   },
+   {
+    "cnpj": "25940289000150",
+    "nome": "M.G.B. SOARES HOTEL VALE VERDE LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 280.0
+   },
+   {
+    "cnpj": "41773599000183",
+    "nome": "HOTEL ORIENTE ITAJUBA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 280.0
+   },
+   {
+    "cnpj": "42945536000120",
+    "nome": "POUSADA CANTO DAS AGUAS CIPO LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 280.0
+   },
+   {
+    "cnpj": "22199772000137",
+    "nome": "POSTO INHAUMA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 279.06
+   },
+   {
+    "cnpj": "03030492000156",
+    "nome": "POSTO SOARES BRAZ LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 278.36
+   },
+   {
+    "cnpj": "05336082000678",
+    "nome": "COMERCIAL LINS GUEDES LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 274.71
+   },
+   {
+    "cnpj": "00487839000104",
+    "nome": "AUTO POSTO R H M LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 274.68
+   },
+   {
+    "cnpj": "12680341000134",
+    "nome": "HOTEL E RESTAURANTE RECANTO DE MINAS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 274.0
+   },
+   {
+    "cnpj": "11014658000179",
+    "nome": "AUTO POSTO CINQUENTAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 271.92
+   },
+   {
+    "cnpj": "17794652000148",
+    "nome": "POSTO DIVISA NOVA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 270.07
+   },
+   {
+    "cnpj": "86423787000110",
+    "nome": "POSTO DE COMBUSTIVEIS E LUBRIFICANTES N.S. DA CONCEICAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 269.16
+   },
+   {
+    "cnpj": "20186854000111",
+    "nome": "AUTO POSTO PAMPLONA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 266.19
+   },
+   {
+    "cnpj": "01096207000174",
+    "nome": "POSTO DUDU LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 264.96
+   },
+   {
+    "cnpj": "19482441000103",
+    "nome": "POSTO BELVEDERE DE BARBACENA LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 262.18
+   },
+   {
+    "cnpj": "64660161000194",
+    "nome": "POSTO CAMPO FORMOSO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 261.62
+   },
+   {
+    "cnpj": "06370189000190",
+    "nome": "AUTO POSTO RODRIGUES E BERTOLDO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 258.3
+   },
+   {
+    "cnpj": "02535312000397",
+    "nome": "NEUZA APARECIDADE ASSIS ARAUJO SOUZA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 255.8
+   },
+   {
+    "cnpj": "28932124000124",
+    "nome": "POSTO SM LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 255.0
+   },
+   {
+    "cnpj": "19621637000123",
+    "nome": "POSTO COLARES XAVIER LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 254.41
+   },
+   {
+    "cnpj": "06111354000190",
+    "nome": "CHURRASCARIA BONANZA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 253.75
+   },
+   {
+    "cnpj": "03189731000115",
+    "nome": "AUTO POSTO SILVA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 252.61
+   },
+   {
+    "cnpj": "27139994000188",
+    "nome": "SANTA LUZIA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 251.04
+   },
+   {
+    "cnpj": "24349974000143",
+    "nome": "AUTO POSTO VERTENTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 251.03
+   },
+   {
+    "cnpj": "40328546000190",
+    "nome": "APM AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 250.03
+   },
+   {
+    "cnpj": "05686478000130",
+    "nome": "CHURRASCARIA WL LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 250.0
+   },
+   {
+    "cnpj": "14215227000169",
+    "nome": "DIAMANTE ROSA PALACE HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 250.0
+   },
+   {
+    "cnpj": "18247635000153",
+    "nome": "HOTEL CAXAMBU LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 250.0
+   },
+   {
+    "cnpj": "24162747000104",
+    "nome": "M DAS DORES S DE OLIVEIRA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 250.0
+   },
+   {
+    "cnpj": "26217124000117",
+    "nome": "HOTEL E CAFETERIA DA TORRE LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 250.0
+   },
+   {
+    "cnpj": "41367161000103",
+    "nome": "BRAVE TECNOLOGIA E SOLUCOES DIGITAIS LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 250.0
+   },
+   {
+    "cnpj": "13569064003760",
+    "nome": "REDE HG COMBUSTIVEIS LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 246.91
+   },
+   {
+    "cnpj": "09222181000175",
+    "nome": "COMERCIAL GUEDES FERREIRA LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 245.22
+   },
+   {
+    "cnpj": "18742536000148",
+    "nome": "POSTO WAP LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 245.16
+   },
+   {
+    "cnpj": "49852915000114",
+    "nome": "MANTIQUEIRA MASSAS ARTESANAIS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 244.2
+   },
+   {
+    "cnpj": "06300100000110",
+    "nome": "AUTO POSTO BIXU DE PE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 243.01
+   },
+   {
+    "cnpj": "22684549000185",
+    "nome": "HOTEL ESJ DA SILVA LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 243.0
+   },
+   {
+    "cnpj": "12383729000173",
+    "nome": "AUTO POSTO PORTAL DO NORTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 242.24
+   },
+   {
+    "cnpj": "10877296000187",
+    "nome": "AUTO CENTER ESTRADA REAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 242.06
+   },
+   {
+    "cnpj": "34516178000101",
+    "nome": "F. PEREIRA MERCEARIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 242.0
+   },
+   {
+    "cnpj": "07276156000149",
+    "nome": "AUTO POSTO BRASIL PETRO ALPINOPOLIS II LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 241.91
+   },
+   {
+    "cnpj": "05907822001901",
+    "nome": "AUTO POSTO REDE SOUZA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 241.77
+   },
+   {
+    "cnpj": "24163610000174",
+    "nome": "POSTO JACARANDA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 240.01
+   },
+   {
+    "cnpj": "19577832000101",
+    "nome": "HOTEL PALACE LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 240.0
+   },
+   {
+    "cnpj": "64407349000125",
+    "nome": "MILTON DE SOUZA FERREIRA - CPF",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 240.0
+   },
+   {
+    "cnpj": "05395552000160",
+    "nome": "POSTO DIOGO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 238.01
+   },
+   {
+    "cnpj": "41697822000150",
+    "nome": "ROBSDRI PIZZARIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 236.5
+   },
+   {
+    "cnpj": "06330268000178",
+    "nome": "HOTEL JACARANDA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 236.0
+   },
+   {
+    "cnpj": "65885555000103",
+    "nome": "AMERICA ROOTS HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 235.5
+   },
+   {
+    "cnpj": "24146333000191",
+    "nome": "LUIS GUSTAVO RODRIGUES DA COSTA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 233.04
+   },
+   {
+    "cnpj": "11862556000103",
+    "nome": "HOTEL MUTUM LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 232.0
+   },
+   {
+    "cnpj": "54772216000102",
+    "nome": "RESTAURANTE E HOTEL DO ZE MANOEL LTDA",
+    "cnae": "56112",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação",
+     "Despesas com Hospedagem"
+    ],
+    "total": 232.0
+   },
+   {
+    "cnpj": "28483227000154",
+    "nome": "GAS STATION DE ABAETE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 230.08
+   },
+   {
+    "cnpj": "42020157000129",
+    "nome": "POSTO P P LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 230.02
+   },
+   {
+    "cnpj": "17453549000134",
+    "nome": "SAO FRANCISCO PARTICIPACOES TRANSPORTES E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 229.99
+   },
+   {
+    "cnpj": "18764084000103",
+    "nome": "POSTO LILITO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 228.01
+   },
+   {
+    "cnpj": "07674934000158",
+    "nome": "LAGOA DOURADA COMERCIO TRANSPORTE DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 227.49
+   },
+   {
+    "cnpj": "46608289000127",
+    "nome": "MOREIRA E SILVA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 225.31
+   },
+   {
+    "cnpj": "01955852000103",
+    "nome": "SEBASTIAO SILVANO DE PAULA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 225.08
+   },
+   {
+    "cnpj": "26124273000131",
+    "nome": "VILMA ALVES RIBEIRO MARTINS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 225.08
+   },
+   {
+    "cnpj": "20415295000506",
+    "nome": "REDE DOM PEDRO DE POSTOS LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 225.05
+   },
+   {
+    "cnpj": "18935742000174",
+    "nome": "POSTO NOVO RIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 225.0
+   },
+   {
+    "cnpj": "42171523000140",
+    "nome": "POSTO NOSSA SENHORA DE FATIMALTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 222.67
+   },
+   {
+    "cnpj": "54809011000146",
+    "nome": "RESTAURANTE DO NEGO BR LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 221.17
+   },
+   {
+    "cnpj": "04927179000188",
+    "nome": "POUSADA PONTO QUATRO LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 220.0
+   },
+   {
+    "cnpj": "41922873000139",
+    "nome": "REDE MILHAO LTDA",
+    "cnae": "56112",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 218.34
+   },
+   {
+    "cnpj": "05009866000187",
+    "nome": "POSTO PALHA VERDE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 218.0
+   },
+   {
+    "cnpj": "47351378000101",
+    "nome": "REDE SANTANA COMBUSTIVEIS JANGADEIRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 217.02
+   },
+   {
+    "cnpj": "40142312000235",
+    "nome": "DUOFOOD INDUSTRIA E COMERCIO DE ALIMENTOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 216.59
+   },
+   {
+    "cnpj": "04716311000102",
+    "nome": "POSTO GARITAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 215.04
+   },
+   {
+    "cnpj": "06660777000169",
+    "nome": "COELHO BICHARA PETROLEO E DERIVADOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 215.04
+   },
+   {
+    "cnpj": "23589112000125",
+    "nome": "IRMAOS BRAZ CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 215.01
+   },
+   {
+    "cnpj": "62019298000139",
+    "nome": "AUTO POSTO BRAGA JP LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 215.01
+   },
+   {
+    "cnpj": "37978641000125",
+    "nome": "AUTO POSTO TUPY PETRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 213.2
+   },
+   {
+    "cnpj": "21804120000200",
+    "nome": "AUTO POSTO AGLE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 213.06
+   },
+   {
+    "cnpj": "25759283000261",
+    "nome": "COLETO ALDA E FILHOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 213.0
+   },
+   {
+    "cnpj": "13117591000123",
+    "nome": "ABC DISTRIBUICAO DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 212.69
+   },
+   {
+    "cnpj": "07439020000102",
+    "nome": "AUTO POSTO PERIQUITO FLOR E FILHOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 212.44
+   },
+   {
+    "cnpj": "17284472000116",
+    "nome": "AUTO POSTO MATOZINHOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 210.53
+   },
+   {
+    "cnpj": "03588462000160",
+    "nome": "POSTO URANO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 210.05
+   },
+   {
+    "cnpj": "05334635000149",
+    "nome": "BELAS ARTES HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 210.0
+   },
+   {
+    "cnpj": "51177674000105",
+    "nome": "MINARINI RESTAURANTE E HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 210.0
+   },
+   {
+    "cnpj": "39565567000140",
+    "nome": "BTT TELECOMUNICACOES S.A.",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 209.68
+   },
+   {
+    "cnpj": "26389122000105",
+    "nome": "RESTAURANTE PANORAMA DE ABAETE LTDA",
+    "cnae": "56112",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 209.4
+   },
+   {
+    "cnpj": "08817060000103",
+    "nome": "MARIA DE LOURDES MILAGRES DA SILVA ARAUJO",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 205.0
+   },
+   {
+    "cnpj": "18203190000100",
+    "nome": "POSTO DUAS PATRIAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 204.54
+   },
+   {
+    "cnpj": "29921786000161",
+    "nome": "PETROARCOS AUTOPOSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 204.2
+   },
+   {
+    "cnpj": "02234943000295",
+    "nome": "POSTOS ALPA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 203.99
+   },
+   {
+    "cnpj": "45382951000100",
+    "nome": "POSTO VILA FLORESTA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 203.61
+   },
+   {
+    "cnpj": "12381568000189",
+    "nome": "AUTO POSTO BRASIL PETRO IBIRACI LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 201.05
+   },
+   {
+    "cnpj": "10523358000152",
+    "nome": "POSTO SAO SEBASTIAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 201.03
+   },
+   {
+    "cnpj": "49035635000385",
+    "nome": "DONANCIO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 200.08
+   },
+   {
+    "cnpj": "21434626000186",
+    "nome": "POSTO ESTEVES LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 200.02
+   },
+   {
+    "cnpj": "25416090000127",
+    "nome": "PETROL COMBUSTIVEIS VIRGEM DA LAPA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 200.02
+   },
+   {
+    "cnpj": "01818692000142",
+    "nome": "HOTEL SAO LUCAS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "10833193000115",
+    "nome": "CLAUDIA MARIA GOMES DE OLIVEIRA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "12287577000105",
+    "nome": "KATO HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "13360725000132",
+    "nome": "POUSADA PALMEIRA IMPERIAL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "42597156000141",
+    "nome": "HOTEL VALE DAS PEDRAS PAINS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "54462318000113",
+    "nome": "54.462.318 SAMEKY LUCAS DE SOUZA ABREU",
+    "cnae": "55906",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "25354564000153",
+    "nome": "HOTEL JB LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 199.0
+   },
+   {
+    "cnpj": "10319375001306",
+    "nome": "MULTI FORMATO DISTRIBUIDORA SOCIEDADE ANONIMA",
+    "cnae": "46397",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 198.31
+   },
+   {
+    "cnpj": "25327867000187",
+    "nome": "BAR E RESTAURANTE CABACA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 198.0
+   },
+   {
+    "cnpj": "01670576000200",
+    "nome": "MANOEL ANTONIO M. MARTINS - COMBUSTIVEIS",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 197.02
+   },
+   {
+    "cnpj": "00816542000137",
+    "nome": "CENTRO CULTURAL FOGAO DE MINAS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 196.91
+   },
+   {
+    "cnpj": "35762725000100",
+    "nome": "PADDOCK NA BRASA PIZZARIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 196.86
+   },
+   {
+    "cnpj": "66342833000149",
+    "nome": "POSTO PARAGOMINAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 195.57
+   },
+   {
+    "cnpj": "20496985000103",
+    "nome": "AUTO POSTO JEQUITINHONHA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 195.0
+   },
+   {
+    "cnpj": "18029074000205",
+    "nome": "POSTO DOIS IRMAOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 193.35
+   },
+   {
+    "cnpj": "42420708000141",
+    "nome": "AUTO POSTO BRASIL PETRO NOVA RESENDE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 193.34
+   },
+   {
+    "cnpj": "05516937000138",
+    "nome": "3W AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 192.04
+   },
+   {
+    "cnpj": "53692763000107",
+    "nome": "REDE SANTANA COMBUSTIVEIS MEDINA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 191.7
+   },
+   {
+    "cnpj": "52944685000128",
+    "nome": "AUTO POSTO C A DE LARANJAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 191.62
+   },
+   {
+    "cnpj": "18141804000176",
+    "nome": "POSTO TRES MOUROES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 190.01
+   },
+   {
+    "cnpj": "14599222000187",
+    "nome": "RESTAURANTE KENOMA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 190.0
+   },
+   {
+    "cnpj": "51005036000107",
+    "nome": "POUSADA JARDIM DE MINAS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 190.0
+   },
+   {
+    "cnpj": "05138445000156",
+    "nome": "POSTO SALITRE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 189.0
+   },
+   {
+    "cnpj": "03478410000130",
+    "nome": "SOCIEDADE COMERCIAL NEVES E MIRANDA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 188.94
+   },
+   {
+    "cnpj": "17005646000164",
+    "nome": "POSTO VERANEIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 188.89
+   },
+   {
+    "cnpj": "16933970000180",
+    "nome": "POSTO DE COMBUSTIVEL J.SOARES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 187.12
+   },
+   {
+    "cnpj": "43237420000107",
+    "nome": "DAGMER LOPES TEODORO",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 186.0
+   },
+   {
+    "cnpj": "02015189000111",
+    "nome": "POSTO TRANSABRIL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 185.37
+   },
+   {
+    "cnpj": "20810584000178",
+    "nome": "POSTO PALHA SECA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 185.18
+   },
+   {
+    "cnpj": "13569064005038",
+    "nome": "REDE HG COMBUSTIVEIS LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 185.01
+   },
+   {
+    "cnpj": "37448606000102",
+    "nome": "JOSEFINA SCHIAVO COELHO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 185.01
+   },
+   {
+    "cnpj": "46366000000100",
+    "nome": "POSTO VILA DALLAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 184.99
+   },
+   {
+    "cnpj": "09384592000167",
+    "nome": "AUSSIE AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 182.63
+   },
+   {
+    "cnpj": "24593051000132",
+    "nome": "AUTO POSTO MONTRELLATO FORMOSO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 182.63
+   },
+   {
+    "cnpj": "41213704000120",
+    "nome": "SAO CRISTOVAO COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 182.14
+   },
+   {
+    "cnpj": "04274096000137",
+    "nome": "GAS BRAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 181.31
+   },
+   {
+    "cnpj": "18075181000180",
+    "nome": "ALESSANDRO LIMA MADUREIRA CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 180.04
+   },
+   {
+    "cnpj": "13380387000109",
+    "nome": "POUSADA BELA LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 180.0
+   },
+   {
+    "cnpj": "27122397000140",
+    "nome": "RENATO DA COSTA BITTENCOURT",
+    "cnae": "55906",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 180.0
+   },
+   {
+    "cnpj": "45279931000109",
+    "nome": "MARIA DAS GRACAS DE OLIVEIRA",
+    "cnae": "55906",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 180.0
+   },
+   {
+    "cnpj": "28997838000110",
+    "nome": "POSTO ALIANCA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 178.25
+   },
+   {
+    "cnpj": "29768204000159",
+    "nome": "RESTAURANTE E LANCHONETE JACARANDA LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 178.18
+   },
+   {
+    "cnpj": "12803245000136",
+    "nome": "AUTO POSTO SERTAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 178.04
+   },
+   {
+    "cnpj": "04309086000190",
+    "nome": "POSTO CHIMBA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 176.76
+   },
+   {
+    "cnpj": "13225821000178",
+    "nome": "PORTAO COMERCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 176.62
+   },
+   {
+    "cnpj": "01267880000120",
+    "nome": "RITA DE CASSIA VITAL DO VALLE",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 175.01
+   },
+   {
+    "cnpj": "49052599000104",
+    "nome": "REDE SANTANA COMBUSTIVEIS BH I LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 174.97
+   },
+   {
+    "cnpj": "19902337000112",
+    "nome": "POSTO BOM BOM LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 173.06
+   },
+   {
+    "cnpj": "39908833000190",
+    "nome": "GUIMARAES OLIVEIRA ALIMENTOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 172.8
+   },
+   {
+    "cnpj": "04406717000270",
+    "nome": "POSTO TIJUCAL II LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 172.64
+   },
+   {
+    "cnpj": "21027537000115",
+    "nome": "AP MAGALHAES CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 172.53
+   },
+   {
+    "cnpj": "17418377000249",
+    "nome": "POSTO DO PAPAI LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 172.03
+   },
+   {
+    "cnpj": "07237979000165",
+    "nome": "CHURRASCARIA E RESTAURANTE CERRADAO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 172.0
+   },
+   {
+    "cnpj": "17854951000120",
+    "nome": "POSTO CINCO ESTRELAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 170.97
+   },
+   {
+    "cnpj": "24739294000136",
+    "nome": "POSTO SAO SEBASTIAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 170.53
+   },
+   {
+    "cnpj": "05796259000104",
+    "nome": "POSTO 4 ABASTECIMENTO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 170.09
+   },
+   {
+    "cnpj": "29129050000155",
+    "nome": "DANIEL BATISTA DOS SANTOS",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 170.0
+   },
+   {
+    "cnpj": "51395368000137",
+    "nome": "CHURRASCARIA MOURA GRILL LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 169.27
+   },
+   {
+    "cnpj": "08139970000184",
+    "nome": "POSTO 13 ABASTECIMENTO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 168.02
+   },
+   {
+    "cnpj": "28624878000117",
+    "nome": "POSTO JR FAISAO IV LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 167.64
+   },
+   {
+    "cnpj": "64441868000100",
+    "nome": "GLEBSON JOSE LEITE",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 166.21
+   },
+   {
+    "cnpj": "11614481000141",
+    "nome": "GABRIEL COSTA COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 166.16
+   },
+   {
+    "cnpj": "29911142000192",
+    "nome": "MOURA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 165.83
+   },
+   {
+    "cnpj": "20891787000136",
+    "nome": "JOSIANE ALVES DOS SANTOS",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 165.0
+   },
+   {
+    "cnpj": "13300002000148",
+    "nome": "POSTO FELIPAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 164.99
+   },
+   {
+    "cnpj": "71171987000155",
+    "nome": "LUBRIFICANTES PIONEIRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 162.8
+   },
+   {
+    "cnpj": "56505448000111",
+    "nome": "POSTO DE COMBUSTIVEL ISIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 162.5
+   },
+   {
+    "cnpj": "39618521000142",
+    "nome": "POUSADA CHURRASCARIA E TRANSPORTE QUATRO FILHOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 162.0
+   },
+   {
+    "cnpj": "23819962000172",
+    "nome": "RG COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 161.41
+   },
+   {
+    "cnpj": "34520884000127",
+    "nome": "JESSICA FABIANE FERRAZ MIGUEL LTDA",
+    "cnae": "10911",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 161.0
+   },
+   {
+    "cnpj": "11808934000170",
+    "nome": "HOSPEDARIA FIRMINENSE LTDA",
+    "cnae": "55906",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 160.0
+   },
+   {
+    "cnpj": "20457972000117",
+    "nome": "PEDRO MARCOS PINHEIRO DOS SANTOS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 160.0
+   },
+   {
+    "cnpj": "31506418000107",
+    "nome": "TR CIPRIANI POUSADA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 160.0
+   },
+   {
+    "cnpj": "35799117000161",
+    "nome": "RONY SEBASTIAO GONCALVES",
+    "cnae": "55906",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 160.0
+   },
+   {
+    "cnpj": "51536760000159",
+    "nome": "51.536.760 MARLON FARIAS DE OLIVEIRA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 160.0
+   },
+   {
+    "cnpj": "59864188000169",
+    "nome": "HOTEL PINGUIM II LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 160.0
+   },
+   {
+    "cnpj": "43441766000114",
+    "nome": "CRISTIANO CESAR AGUIAR ARAUJO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 159.2
+   },
+   {
+    "cnpj": "17451576000178",
+    "nome": "RODO POSTO SILVIO S LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 150.59
+   },
+   {
+    "cnpj": "02994871000101",
+    "nome": "COMERCIO DE COMBUSTIVEIS COELHO E VALE LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 150.12
+   },
+   {
+    "cnpj": "02608774000125",
+    "nome": "AUTO POSTO NAZARAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 150.01
+   },
+   {
+    "cnpj": "20275664000170",
+    "nome": "MA HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 150.0
+   },
+   {
+    "cnpj": "66733334000182",
+    "nome": "MADALENAS BAR LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 150.0
+   },
+   {
+    "cnpj": "23231654000121",
+    "nome": "POSTO FONSECA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 149.88
+   },
+   {
+    "cnpj": "04759334000102",
+    "nome": "MISTER SALLUM FOOD LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 148.0
+   },
+   {
+    "cnpj": "13268488000184",
+    "nome": "RESTAURANTE E LANCHONETE PIVETTA LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 146.7
+   },
+   {
+    "cnpj": "59319225000158",
+    "nome": "REM 6 COMERCIO DE COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 146.06
+   },
+   {
+    "cnpj": "11210422000108",
+    "nome": "AUTO POSTO PERDIGUEIRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 145.26
+   },
+   {
+    "cnpj": "24649252000104",
+    "nome": "HOTEL FLOR DO CAMPO LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 145.0
+   },
+   {
+    "cnpj": "17443107000107",
+    "nome": "TUDIBAO RESTAURANTE, LANCHONETE, CHURRASCARIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 4,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 144.0
+   },
+   {
+    "cnpj": "25818550000143",
+    "nome": "MOSCONE E PEDRA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 143.0
+   },
+   {
+    "cnpj": "22043442000158",
+    "nome": "JOAO ZANETTI FILHA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 142.0
+   },
+   {
+    "cnpj": "26304204000290",
+    "nome": "MARIA DAS MERCES DE SA OLIVEIRA BATISTA DE ABREU LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 141.23
+   },
+   {
+    "cnpj": "17777187000218",
+    "nome": "RODRIGO SEBASTIAO DO COUTO",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 141.21
+   },
+   {
+    "cnpj": "01374174000187",
+    "nome": "POSTO SERRAS DE MINAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 140.77
+   },
+   {
+    "cnpj": "07876896000116",
+    "nome": "POSTO JENIPAPO DE SALINAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 140.1
+   },
+   {
+    "cnpj": "49324649000157",
+    "nome": "IMPACTO AUTO POSTO BOM REPOUSO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 140.05
+   },
+   {
+    "cnpj": "19331453000129",
+    "nome": "AUTO POSTO KASAG LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 140.01
+   },
+   {
+    "cnpj": "03980468000188",
+    "nome": "POUSADA TERRA DAS AGUAS LTDA",
+    "cnae": "55906",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 140.0
+   },
+   {
+    "cnpj": "86380607000160",
+    "nome": "ARLINDO ALVES VIEIRA FILHO",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 140.0
+   },
+   {
+    "cnpj": "49994575000166",
+    "nome": "RESTAURANTE CHARNECA PESCA LAZER",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 139.9
+   },
+   {
+    "cnpj": "62855162000169",
+    "nome": "REDE FALCAO VI DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 139.65
+   },
+   {
+    "cnpj": "18822841000140",
+    "nome": "POSTO TIGRE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 139.01
+   },
+   {
+    "cnpj": "33570218000130",
+    "nome": "RESTAURANTE TEMPERO DE MINAS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 138.97
+   },
+   {
+    "cnpj": "64639254000137",
+    "nome": "CHURRASCARIA FOGO MINEIRO LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 137.71
+   },
+   {
+    "cnpj": "36602763000150",
+    "nome": "L A NOGUEIRA RESTAURANTE LEITAO",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 136.0
+   },
+   {
+    "cnpj": "10740465000132",
+    "nome": "AUTO POSTO SERRA VERDE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 135.96
+   },
+   {
+    "cnpj": "08474773000383",
+    "nome": "POSTOS PMG LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 135.04
+   },
+   {
+    "cnpj": "17388414000132",
+    "nome": "POSTO DOURADINHO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 134.0
+   },
+   {
+    "cnpj": "09284037000163",
+    "nome": "EDUARDA MARA PEREIRA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 133.49
+   },
+   {
+    "cnpj": "34537345000109",
+    "nome": "JOSE AFONSO DOS SANTOS TEIXEIRA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 132.66
+   },
+   {
+    "cnpj": "43645490000196",
+    "nome": "COSTELA DO BRASA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 131.46
+   },
+   {
+    "cnpj": "59250267000180",
+    "nome": "SUPER FILTROS BRASIL LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 130.0
+   },
+   {
+    "cnpj": "12403923000173",
+    "nome": "LEONILDA APARECIDA DOS SANTOS-RESTAURANTE",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 129.8
+   },
+   {
+    "cnpj": "11125016000147",
+    "nome": "AUTO POSTO GILROMA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 129.6
+   },
+   {
+    "cnpj": "11300950000158",
+    "nome": "AUTO POSTO JF LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 128.01
+   },
+   {
+    "cnpj": "22265797000434",
+    "nome": "BARRIGAO COMERCIAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 128.01
+   },
+   {
+    "cnpj": "06074217000122",
+    "nome": "PAPELARIA SANTA EFIGENIA LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 127.5
+   },
+   {
+    "cnpj": "23706593000101",
+    "nome": "ILLA S BAR LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 127.1
+   },
+   {
+    "cnpj": "01311313000123",
+    "nome": "PIZZARIA COLI LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 127.0
+   },
+   {
+    "cnpj": "49474041000109",
+    "nome": "ROBERTA MARIA GOULART",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 127.0
+   },
+   {
+    "cnpj": "44771666000119",
+    "nome": "QUINTAO TRANSPORTES LTDA",
+    "cnae": "45307",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 126.0
+   },
+   {
+    "cnpj": "52312229000165",
+    "nome": "JG RESTAURANTE E LANCHONETE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 125.72
+   },
+   {
+    "cnpj": "28883131000183",
+    "nome": "LANCHONETE E RESTAURANTE PROSA MINEIRA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 125.63
+   },
+   {
+    "cnpj": "22722932000180",
+    "nome": "LANCHONETE MILHAO MG 050 LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 125.12
+   },
+   {
+    "cnpj": "06122878000186",
+    "nome": "MARIA LINEY COSTA FLEURY",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 125.0
+   },
+   {
+    "cnpj": "25290689000167",
+    "nome": "DANIELA FERREIRA DE OLIVEIRA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 123.9
+   },
+   {
+    "cnpj": "60329936000192",
+    "nome": "CHIC CHOPP IV LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 120.78
+   },
+   {
+    "cnpj": "36518083000152",
+    "nome": "DURAES LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 119.0
+   },
+   {
+    "cnpj": "28772469000168",
+    "nome": "PMG RESTAURANTES CORREGO DANTA LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 118.95
+   },
+   {
+    "cnpj": "66310772000138",
+    "nome": "BAR E LANCHONETE CUNHA RIBEIRO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 118.38
+   },
+   {
+    "cnpj": "45527398000157",
+    "nome": "DEL LOIPES SERVICOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 118.0
+   },
+   {
+    "cnpj": "29907775000127",
+    "nome": "MARIANA PINHEIRO MELO",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 117.95
+   },
+   {
+    "cnpj": "35801122000161",
+    "nome": "EVERTON JOSE ALVES",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 117.59
+   },
+   {
+    "cnpj": "41473523000132",
+    "nome": "FOGAO A LENHA MEDINA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 115.89
+   },
+   {
+    "cnpj": "26359699000174",
+    "nome": "RESTAURANTE TACA DE OURO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 115.75
+   },
+   {
+    "cnpj": "71410856000183",
+    "nome": "RESTAURANTE E LANCHONETE ROCAS NOVAS LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 115.2
+   },
+   {
+    "cnpj": "21911326000140",
+    "nome": "JOSE MARQUES DA LOMBA CPF",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 115.0
+   },
+   {
+    "cnpj": "33911772000134",
+    "nome": "NATAN PIZZARIA E LANCHONETE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 114.0
+   },
+   {
+    "cnpj": "23248416000129",
+    "nome": "LILIAN MARA LEAL FERREIRA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 113.0
+   },
+   {
+    "cnpj": "62463390000193",
+    "nome": "PRATA RESTAURANTE E CHURRASCARIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 113.0
+   },
+   {
+    "cnpj": "25384876000100",
+    "nome": "JOSE NAZARENO FARIA DUARTE CIA. LTDA.",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 112.0
+   },
+   {
+    "cnpj": "49980896000101",
+    "nome": "POSTO DAS PEDRAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 110.94
+   },
+   {
+    "cnpj": "52249583000192",
+    "nome": "RESTAURANTE BEBECO S GRILL LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 108.98
+   },
+   {
+    "cnpj": "28838922000191",
+    "nome": "POSTO AVENIDA CASTELO BRANCO II LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 108.01
+   },
+   {
+    "cnpj": "71260970000174",
+    "nome": "RESTAURANTE CARIJO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 108.0
+   },
+   {
+    "cnpj": "49343854000160",
+    "nome": "COZINHA INDUSTRIAL CHURRASCARIA E LANCHONETE BEIRA RIO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 107.8
+   },
+   {
+    "cnpj": "23147329000185",
+    "nome": "RESTAURANTE TREVO BARAO LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 107.6
+   },
+   {
+    "cnpj": "06252592000115",
+    "nome": "RESTAURANTE E POUSADA VARGEM LINDA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 107.34
+   },
+   {
+    "cnpj": "57220251000107",
+    "nome": "VALTAIR AP. DA SILVA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 107.0
+   },
+   {
+    "cnpj": "17769112000104",
+    "nome": "RESTAURANTE CASARAO GRILL LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 106.87
+   },
+   {
+    "cnpj": "31359700000109",
+    "nome": "DINA MARCIA VIEIRA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 106.36
+   },
+   {
+    "cnpj": "67725199000196",
+    "nome": "RESTAURANTE MINEIRISSIMO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 106.0
+   },
+   {
+    "cnpj": "11718183000100",
+    "nome": "MILANI GASPAROTO COMERCIO DE COMBUSTIVEIS E LOJA DE CONVENIENCIA LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 105.81
+   },
+   {
+    "cnpj": "14633471000141",
+    "nome": "ADEGA XANGRILA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 104.64
+   },
+   {
+    "cnpj": "63221024000190",
+    "nome": "EUSTAQUIO LIGORIO BICALHO - DIBISA GRILL",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 104.21
+   },
+   {
+    "cnpj": "61666678000100",
+    "nome": "61.666.678 CRISTIANO CARNEIRO COUTINHO",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 103.75
+   },
+   {
+    "cnpj": "58221443000192",
+    "nome": "RESTAURANTE LANCHONETE E POUSADA JANGADEIRO KHOURY LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 103.0
+   },
+   {
+    "cnpj": "58705889000192",
+    "nome": "WPLO COMERCIO E SERVICOS LTDA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 101.94
+   },
+   {
+    "cnpj": "08056667000118",
+    "nome": "RESTAURANTE LANCHONETE IBERIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 101.5
+   },
+   {
+    "cnpj": "34172798000170",
+    "nome": "RESTAURANTE E LANCHONETE CAVION LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 101.5
+   },
+   {
+    "cnpj": "14252138000192",
+    "nome": "ESTANCIA REAL LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 100.09
+   },
+   {
+    "cnpj": "21309034000132",
+    "nome": "POSTO TUCUNARE SL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 100.0
+   },
+   {
+    "cnpj": "33710295000149",
+    "nome": "RESTAURANTE AMARAL LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 98.69
+   },
+   {
+    "cnpj": "05549428000101",
+    "nome": "PEDRO HENRIQUE MARTINS SANTANA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 97.79
+   },
+   {
+    "cnpj": "28693417000104",
+    "nome": "MATOS E ALMEIDA CONVENIENCIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 96.95
+   },
+   {
+    "cnpj": "31146410000179",
+    "nome": "RUDYELLE URZEDO FARIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 96.8
+   },
+   {
+    "cnpj": "08102922000111",
+    "nome": "LEILA DE FATIMA FERNANDES DA SILVA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 96.2
+   },
+   {
+    "cnpj": "14313590000117",
+    "nome": "D MARCUS CESAR RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 95.94
+   },
+   {
+    "cnpj": "49932716000116",
+    "nome": "ERNANE JOSE DIAS LOIOLA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 95.78
+   },
+   {
+    "cnpj": "45485301000190",
+    "nome": "RESTAURANTE BAR E HOTEL JEQUITINHONHA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 93.72
+   },
+   {
+    "cnpj": "68175106000160",
+    "nome": "68.175.106 MARCIO CANDIDO DA SILVA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 90.38
+   },
+   {
+    "cnpj": "26736978000100",
+    "nome": "BRUNO FERNANDES MARTINS",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 90.0
+   },
+   {
+    "cnpj": "55893502000180",
+    "nome": "TOKA DO TATU RESTAURANTE E ESPETARIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 90.0
+   },
+   {
+    "cnpj": "65664408000103",
+    "nome": "65.664.408 LUIS HENRIQUE CAMPOS VIEIRA DUARTE",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 89.8
+   },
+   {
+    "cnpj": "12612844000172",
+    "nome": "ZILDA CAVALCANTI ALVES",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 87.63
+   },
+   {
+    "cnpj": "02077391000178",
+    "nome": "LAGES E ANDRADE LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 87.0
+   },
+   {
+    "cnpj": "00495189000130",
+    "nome": "GERACINA MARIA APARECIDA GOMES LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 85.63
+   },
+   {
+    "cnpj": "10734483000101",
+    "nome": "ANOUSKA REGINA BISSIATTI FERREIRA FERRAZ",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 85.0
+   },
+   {
+    "cnpj": "32938947000134",
+    "nome": "BETO LANCHES LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 85.0
+   },
+   {
+    "cnpj": "51355142000102",
+    "nome": "RESTAURANTE MOCAMBO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 85.0
+   },
+   {
+    "cnpj": "55049906000192",
+    "nome": "ALISON LEONARDO MEIRELLES NASCIMENTO",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 85.0
+   },
+   {
+    "cnpj": "55305101000162",
+    "nome": "VO DINA RESTAURANTE E PAMONHARIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 84.29
+   },
+   {
+    "cnpj": "04149637003030",
+    "nome": "ADICAO DISTRIBUICAO EXPRESS S/A",
+    "cnae": "46397",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 83.26
+   },
+   {
+    "cnpj": "12671266000145",
+    "nome": "WANESSA MATOS BARBOSA ALENCAR",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 83.24
+   },
+   {
+    "cnpj": "21000773000148",
+    "nome": "NUBIA VIEIRA VASCONCELOS",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 82.6
+   },
+   {
+    "cnpj": "04466053000153",
+    "nome": "CENTER LANCHES ADELINA TRINDADE ALVES",
+    "cnae": "47211",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 82.45
+   },
+   {
+    "cnpj": "08503647000148",
+    "nome": "RESTAURANTE DO BENGALA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 82.0
+   },
+   {
+    "cnpj": "21370543000170",
+    "nome": "YURI DUTRA E FONSECA - RESTAURANTE",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 82.0
+   },
+   {
+    "cnpj": "34393050000106",
+    "nome": "CHOPERIA PUB MANTIQUEIRA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 81.4
+   },
+   {
+    "cnpj": "26801301000108",
+    "nome": "RODRIGO M P ALVES PRODUTOS ALIMENTICIOS",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 80.9
+   },
+   {
+    "cnpj": "17553736000190",
+    "nome": "O GALETAO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 80.0
+   },
+   {
+    "cnpj": "16556150000116",
+    "nome": "DANIELA ROCHA E SILVA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 78.66
+   },
+   {
+    "cnpj": "60942089000137",
+    "nome": "RESTAURANTE E PIZZARIA DO LUCIO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 78.0
+   },
+   {
+    "cnpj": "32334611000162",
+    "nome": "RESTAURANTE E LANCHONETE 3W LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 77.89
+   },
+   {
+    "cnpj": "01801672000169",
+    "nome": "ROZIMEIRE NUNES BITTENCOURT",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 77.0
+   },
+   {
+    "cnpj": "59193901000190",
+    "nome": "BOULEVARD CHOPERIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 76.9
+   },
+   {
+    "cnpj": "43283811009297",
+    "nome": "KALUNGA SA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 76.3
+   },
+   {
+    "cnpj": "21571286000135",
+    "nome": "LUCIA HELENA GOMES",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 76.0
+   },
+   {
+    "cnpj": "28675052000187",
+    "nome": "AMERICAN BURGER COROMANDEL LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 76.0
+   },
+   {
+    "cnpj": "36787292000100",
+    "nome": "FABIOLA MEIRELES PEREIRA VILELA SOUZA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 76.0
+   },
+   {
+    "cnpj": "40261667000162",
+    "nome": "TEMPERIM RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 76.0
+   },
+   {
+    "cnpj": "62191934000105",
+    "nome": "RESTAURANTE EMILY T. NASCIMENTO",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 75.8
+   },
+   {
+    "cnpj": "05653170000199",
+    "nome": "BAR RUINHA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 75.0
+   },
+   {
+    "cnpj": "01325536000140",
+    "nome": "LANCHONETE SERRAS DE MINAS LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 71.0
+   },
+   {
+    "cnpj": "37518850000196",
+    "nome": "VIVA BR329 RESTAURANTE E LANCHONETE LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 69.98
+   },
+   {
+    "cnpj": "47812289000107",
+    "nome": "JAQUELINE APARECIDA MARQUES DA SILVA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 69.5
+   },
+   {
+    "cnpj": "57973552000101",
+    "nome": "PRIME ACAI SAO JOAO DEL REI LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 69.0
+   },
+   {
+    "cnpj": "47232417000143",
+    "nome": "RESTAURANTE E LANCHONETE SHOPPING LEOPOLDINA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 68.0
+   },
+   {
+    "cnpj": "08227216000104",
+    "nome": "ANDRE LUIZ DA SILVA COELHO CIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 67.92
+   },
+   {
+    "cnpj": "44172718000130",
+    "nome": "JULIO CESAR MACIEL DE SOUZA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 67.27
+   },
+   {
+    "cnpj": "05882221000154",
+    "nome": "CLEUZA MARIA DE LIMA SOUTO",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 66.62
+   },
+   {
+    "cnpj": "09209916000120",
+    "nome": "ROBINHO LANCHES LTDA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 66.0
+   },
+   {
+    "cnpj": "28283054000120",
+    "nome": "ANA S HAMBURGUERIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 66.0
+   },
+   {
+    "cnpj": "37375942000164",
+    "nome": "37.375.942 LARISSA MIRELLY LANDIM DOS SANTOS DE CASTRO",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 66.0
+   },
+   {
+    "cnpj": "41348469000101",
+    "nome": "RAFAELA LOISLANE SOUSA LEITAO",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 65.0
+   },
+   {
+    "cnpj": "16509402000156",
+    "nome": "RESTAURANTE E CHURRASCARIA BOM JESUS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 64.89
+   },
+   {
+    "cnpj": "45174192000190",
+    "nome": "RESTAURANTE PARADA OBRIGATORIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 63.5
+   },
+   {
+    "cnpj": "10674495000198",
+    "nome": "FAZENDINHA RESTAURANTE E PIZZARIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 62.81
+   },
+   {
+    "cnpj": "19471632000161",
+    "nome": "RESTAURANTE E LANCHONETE LOMBADA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 62.8
+   },
+   {
+    "cnpj": "12988728000152",
+    "nome": "DINHO S HOTEL E RESTAURANTE LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 60.88
+   },
+   {
+    "cnpj": "12627663000110",
+    "nome": "NATHAN AUGUSTO OLIVEIRA REIS BAR E RESTAURANTE",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 60.0
+   },
+   {
+    "cnpj": "27863057000170",
+    "nome": "FOGAO DE LENHA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 60.0
+   },
+   {
+    "cnpj": "09231538000181",
+    "nome": "LANCHONETE CONTORNO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 59.0
+   },
+   {
+    "cnpj": "10360496000168",
+    "nome": "ANTONIO EDUARDO DE ALMEIDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 57.54
+   },
+   {
+    "cnpj": "09381903000134",
+    "nome": "RODOSNACK OLIVEIRA LANCHONETE E RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 57.5
+   },
+   {
+    "cnpj": "53447072000148",
+    "nome": "NASHVILLE COMERCIAL E POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 56.6
+   },
+   {
+    "cnpj": "01224324000176",
+    "nome": "PRIMAVERA LANCHES LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 56.0
+   },
+   {
+    "cnpj": "17969752000168",
+    "nome": "MARIA ANDREIA RIBEIRO GUIMARAES",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 56.0
+   },
+   {
+    "cnpj": "45033194000160",
+    "nome": "JOAO ADILSON NOGUEIRA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 56.0
+   },
+   {
+    "cnpj": "47386942000113",
+    "nome": "CHURRASCARIA E PIZZARIA PONTO CERTO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 56.0
+   },
+   {
+    "cnpj": "11538038000139",
+    "nome": "FRIOS E FRIOS BR LTDA",
+    "cnae": "47211",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 55.5
+   },
+   {
+    "cnpj": "17619596000105",
+    "nome": "CONCEICAO MADALENA DA SILVA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 55.0
+   },
+   {
+    "cnpj": "46892849000118",
+    "nome": "WHP ALIMENTOS LTDA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 55.0
+   },
+   {
+    "cnpj": "40058313000115",
+    "nome": "LARA S EMPREENDIMENTOS ALIMENTICIOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 54.44
+   },
+   {
+    "cnpj": "11807632000188",
+    "nome": "MEC RONALD S CARANGOLA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 52.0
+   },
+   {
+    "cnpj": "47131796000185",
+    "nome": "ADRIELLY FERNANDA MARTINS B. LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 50.0
+   },
+   {
+    "cnpj": "09027042000190",
+    "nome": "PADARIA CONFEITARIA BETEL DE MIRAI LTDA",
+    "cnae": "10911",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 47.9
+   },
+   {
+    "cnpj": "02176838000166",
+    "nome": "PADARIA E CONFEITARIA CARNEIRO LTDA",
+    "cnae": "10911",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 46.5
+   },
+   {
+    "cnpj": "03481268000180",
+    "nome": "JOAO RODRIGUES DA SILVA - CPF",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 45.0
+   },
+   {
+    "cnpj": "16480019000112",
+    "nome": "RESTAURANTE SABOR DE MINAS MV LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 45.0
+   },
+   {
+    "cnpj": "23929045000140",
+    "nome": "PANIFICADORA KI-SABOR LTDA",
+    "cnae": "10911",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 44.1
+   },
+   {
+    "cnpj": "42993067000114",
+    "nome": "CHURRASCARIA ESPETO GRILL 2 LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 44.0
+   },
+   {
+    "cnpj": "13884641000360",
+    "nome": "COMERCIAL SUPER MAIS III UNAI LTDA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 43.0
+   },
+   {
+    "cnpj": "03051543000479",
+    "nome": "SUPERMERCADO TONEL LTDA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 42.71
+   },
+   {
+    "cnpj": "28858102000161",
+    "nome": "TMS RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 42.0
+   },
+   {
+    "cnpj": "45043835000167",
+    "nome": "RESTAURANTE E LANCHONETE SCHENA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 40.5
+   },
+   {
+    "cnpj": "03643398000172",
+    "nome": "POSTO LONDRINA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 40.0
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 40.0
+   },
+   {
+    "cnpj": "59423316000139",
+    "nome": "SERTAO GASTROBAR LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 38.9
+   },
+   {
+    "cnpj": "07779310000103",
+    "nome": "RESTAURANTE TREM DA ROCA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 38.0
+   },
+   {
+    "cnpj": "17894064000186",
+    "nome": "MUNICIPIO DE DELFINOPOLIS",
+    "cnae": "84116",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 35.0
+   },
+   {
+    "cnpj": "01264915000177",
+    "nome": "PADARIA E MERCEARIA ABS LTDA",
+    "cnae": "47211",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 34.71
+   },
+   {
+    "cnpj": "52623560000104",
+    "nome": "AMANDA RODRIGUES DE QUEIROZ",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 33.0
+   },
+   {
+    "cnpj": "53253697000179",
+    "nome": "GUSTAVO SANTANA MARQUES",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 31.0
+   },
+   {
+    "cnpj": "21194349000181",
+    "nome": "MEC MIR DE CAXAMBU LTDA.",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 30.0
+   },
+   {
+    "cnpj": "25439456000183",
+    "nome": "JNA RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 30.0
+   },
+   {
+    "cnpj": "11922547000241",
+    "nome": "KI-DELICIA LANCHES LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 29.6
+   },
+   {
+    "cnpj": "36620007000153",
+    "nome": "POINT BAR, RESTAURANTE E PIZZARIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 26.0
+   },
+   {
+    "cnpj": "09483720000120",
+    "nome": "PADARIA ALKMIM LTDA",
+    "cnae": "10911",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 25.49
+   },
+   {
+    "cnpj": "32024864000130",
+    "nome": "GISLEI REGINA GONCALVES CPF",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 25.0
+   },
+   {
+    "cnpj": "14697486000335",
+    "nome": "NAVEGACAO CONFIANCA LTDA",
+    "cnae": "50912",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 24.35
+   },
+   {
+    "cnpj": "18917740000152",
+    "nome": "MENDES, FIGUEIREDO E CIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 23.0
+   },
+   {
+    "cnpj": "35452560000161",
+    "nome": "SILVANE RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 22.4
+   },
+   {
+    "cnpj": "05271059000138",
+    "nome": "66 RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 21.9
+   },
+   {
+    "cnpj": "10857335000184",
+    "nome": "ELIANE SINDOU PINHEIRO CIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 21.0
+   },
+   {
+    "cnpj": "19961062000198",
+    "nome": "MERCEARIA BATALHA LTDA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 19.98
+   },
+   {
+    "cnpj": "13375790000131",
+    "nome": "PADARIA E LANCHONETE WKM LTDA",
+    "cnae": "47211",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 14.69
+   },
+   {
+    "cnpj": "23182283000135",
+    "nome": "CHURRASCARIA JENIPAPO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 12.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 72,
+   "total": 150613.77,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 96760.0,
+    "Despesas com pessoal": 44062.5,
+    "Impostos, contribuições e taxas": 4591.27,
+    "Pré-instalação física de comitê de campanha": 2700.0,
+    "Serviços contábeis": 2500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

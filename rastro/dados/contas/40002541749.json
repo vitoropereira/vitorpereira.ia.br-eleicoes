@@ -1,0 +1,109 @@
+{
+ "sq": "40002541749",
+ "nome_urna": "DR. GEORGE LINS",
+ "cargo": "depest",
+ "uf": "AM",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1232146.99,
+  "por_origem": {
+   "Recursos de partido político": 700000.0,
+   "Recursos de pessoas físicas": 422146.99,
+   "Recursos próprios": 110000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 700000.0,
+   "OUTROS RECURSOS": 532146.99
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 600000.0
+   },
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 25,
+   "total": 532146.99
+  }
+ },
+ "despesas": {
+  "total_contratado": 250906.84,
+  "total_pago": 86565.73,
+  "fornecedores_pj": [
+   {
+    "cnpj": "32817070000123",
+    "nome": "H T M MULTIMIDIA SERVICOS DE COMUNICACAO DIGITAL LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "10181964000137",
+    "nome": "OCA VIAGENS E TURISMO DA AMAZONIA LIMITADA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Passagem Aérea"
+    ],
+    "total": 11699.7
+   },
+   {
+    "cnpj": "09262747000192",
+    "nome": "A. C. B. LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6750.0
+   },
+   {
+    "cnpj": "45455387000109",
+    "nome": "A F L COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 101,
+   "total": 102457.14,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 77808.0,
+    "Cessão ou locação de veículos": 11000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.5,
+    "Serviços advocatícios": 6000.0,
+    "Serviços contábeis": 5000.0,
+    "Serviços próprios prestados por terceiros": 2647.64
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

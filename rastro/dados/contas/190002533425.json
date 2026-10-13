@@ -1,0 +1,145 @@
+{
+ "sq": "190002533425",
+ "nome_urna": "CHICO MACHADO",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 673677.27,
+  "por_origem": {
+   "Recursos de outros candidatos": 2727.27,
+   "Recursos de partido político": 600950.0,
+   "Recursos próprios": 70000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 603677.27,
+   "OUTROS RECURSOS": 70000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 600000.0
+   },
+   {
+    "cnpj": "68470280000135",
+    "nome": "DOUGLAS RUAS DOS SANTOS",
+    "total": 2727.27
+   },
+   {
+    "cnpj": "08703299000152",
+    "nome": "Direção Estadual/Distrital - PL - RIO DE JANEIRO",
+    "total": 950.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 70000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 236110.0,
+  "total_pago": 241710.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "40530570000108",
+    "nome": "40.530.570 LILIANE VIEIRA MASTROIANNI",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "04837646000189",
+    "nome": "QUALIFICADA MACAENSE COMUNICACAO VISUAL LTDA",
+    "cnae": "47610",
+    "n_despesas": 12,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26100.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 25500.0
+   },
+   {
+    "cnpj": "64001479000163",
+    "nome": "MARCELI DE ALMEIDA CARDIM",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "29693587000143",
+    "nome": "TENIS CLUBE DE MACAE",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "20251411000167",
+    "nome": "D. G. B. COELHO EVENTOS PRODUCOES",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "28953813000115",
+    "nome": "28.953.813 GUTEMBERG RODRIGUES PIRES",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "62893712000134",
+    "nome": "62.893.712 PAMELA RAMOS BARBOSA DE OLIVEIRA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 34,
+   "total": 80510.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 28600.0,
+    "Cessão ou locação de veículos": 17500.0,
+    "Despesas com pessoal": 2000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 10.0,
+    "Locação/cessão de bens imóveis": 2400.0,
+    "Serviços advocatícios": 15000.0,
+    "Serviços contábeis": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

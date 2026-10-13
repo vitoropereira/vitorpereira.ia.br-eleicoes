@@ -1,0 +1,271 @@
+{
+ "sq": "180002534819",
+ "nome_urna": "SIMONE PEREIRA",
+ "cargo": "depest",
+ "uf": "PI",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 599252.0,
+  "por_origem": {
+   "Recursos de partido político": 150000.0,
+   "Recursos de pessoas físicas": 334252.0,
+   "Recursos próprios": 115000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 150000.0,
+   "OUTROS RECURSOS": 449252.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 150000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 26,
+   "total": 449252.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 409686.36,
+  "total_pago": 413689.49,
+  "fornecedores_pj": [
+   {
+    "cnpj": "52545868000170",
+    "nome": "A M EMPREENDIMENTO LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "10175042000117",
+    "nome": "REI GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 63000.0
+   },
+   {
+    "cnpj": "16499045000192",
+    "nome": "CONTARE SERVICOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "08596605000107",
+    "nome": "POSTO HOMERO CASTELO BRANCO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "13290715000178",
+    "nome": "MENESES FERNANDES SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "13912374000125",
+    "nome": "R F C CARVALHO LTDA",
+    "cnae": "45200",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "43615405000147",
+    "nome": "V N MARTINS JUNIOR LOCACAO E TRANSPORTES",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "19074597000147",
+    "nome": "A.K.R. PRADO",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "26515836000112",
+    "nome": "D MAIS ENTRETENIMENTO LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "14671832000144",
+    "nome": "TENDA SUL LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "02189729000183",
+    "nome": "MARKA MIDIA EXTERIOR LTDA",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12140.0
+   },
+   {
+    "cnpj": "05700724000161",
+    "nome": "O DIA AGENCIA LTDA",
+    "cnae": "58221",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7100.0
+   },
+   {
+    "cnpj": "09116541000154",
+    "nome": "AUTO LESTE LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6500.0
+   },
+   {
+    "cnpj": "00557774000118",
+    "nome": "TEIXEIRA E LEITE LTDA",
+    "cnae": "46354",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 5400.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "63811219000190",
+    "nome": "RUFINO LUZ EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "07395108000250",
+    "nome": "ARTICO INDUSTRIA DE GELO LTDA",
+    "cnae": "10996",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "04237157000196",
+    "nome": "MINERACAO ARAUJO INDUSTRIA E COMERCIO LTDA",
+    "cnae": "11216",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 540.0
+   },
+   {
+    "cnpj": "07476781000134",
+    "nome": "LOJA MARGARIDA COMERCIO E DISTRIBUICAO LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 452.86
+   },
+   {
+    "cnpj": "43227994000196",
+    "nome": "JORGE L DE O MESQUITA JUNIOR",
+    "cnae": "37029",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 350.0
+   },
+   {
+    "cnpj": "50257006000117",
+    "nome": "PIAUI CRONO EVENTOS E CRONOMETRAGEM LTDA",
+    "cnae": "93191",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 300.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 1003.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.5,
+    "Locação/cessão de bens imóveis": 1000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

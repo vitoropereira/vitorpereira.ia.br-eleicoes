@@ -1,0 +1,202 @@
+{
+ "sq": "250002539299",
+ "nome_urna": "MARINA BRAGANTE",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 982945.33,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 51907.07,
+   "Recursos de outros candidatos": 16550.0,
+   "Recursos de partido político": 190860.0,
+   "Recursos de pessoas físicas": 723628.26
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 207410.0,
+   "OUTROS RECURSOS": 775535.33
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 190860.0
+   },
+   {
+    "cnpj": "08746641000100",
+    "nome": "APPCIVICO CONSULTORIA LTDA",
+    "total": 51907.07
+   },
+   {
+    "cnpj": "68437991000108",
+    "nome": "MARINA MEDEIROS HELOU",
+    "total": 16550.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 74,
+   "total": 723628.26
+  }
+ },
+ "despesas": {
+  "total_contratado": 874150.07,
+  "total_pago": 877112.92,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 10,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 350000.0
+   },
+   {
+    "cnpj": "68437991000108",
+    "nome": "MARINA MEDEIROS HELOU",
+    "cnae": "94928",
+    "n_despesas": 3,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "13813268000194",
+    "nome": "ARTISTA DESCONHECIDO ARTES LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 73140.0
+   },
+   {
+    "cnpj": "34861233000109",
+    "nome": "ALMEIDA PRADO ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "60579703000148",
+    "nome": "EMPRESA FOLHA DA MANHA S.A.",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 29896.0
+   },
+   {
+    "cnpj": "10865394000102",
+    "nome": "ANDREA RIBEIRO",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "50711456000138",
+    "nome": "CEDECOM SERVICOS TERCEIRIZADOS LTDA",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 13294.73
+   },
+   {
+    "cnpj": "30286200000113",
+    "nome": "DOTS GRAFICA LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6636.0
+   },
+   {
+    "cnpj": "05787805000140",
+    "nome": "GRUPO 1 DE JORNAIS EDICOES E PUBLICACOES LTDA",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "67025114000167",
+    "nome": "LP GRAFICA E EDITORA LTDA.",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3510.0
+   },
+   {
+    "cnpj": "08746641000100",
+    "nome": "APPCIVICO CONSULTORIA LTDA",
+    "cnae": "63119",
+    "n_despesas": 7,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 1631.34
+   },
+   {
+    "cnpj": "21087427000149",
+    "nome": "KOMBOSA SELETIVA LTDA",
+    "cnae": "38114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "35981012000129",
+    "nome": "ASSOCIACAO AGENCIA SOLANO TRINDADE",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 25,
+   "total": 190842.0,
+   "por_tipo": {
+    "Despesas com pessoal": 190760.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 82.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

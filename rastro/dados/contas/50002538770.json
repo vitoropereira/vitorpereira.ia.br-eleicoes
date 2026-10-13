@@ -1,0 +1,200 @@
+{
+ "sq": "50002538770",
+ "nome_urna": "AFONSO FLORENCE",
+ "cargo": "depfed",
+ "uf": "BA",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1838050.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 3550.0,
+   "Recursos de partido político": 1800000.0,
+   "Recursos de pessoas físicas": 34500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1800000.0,
+   "OUTROS RECURSOS": 38050.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1800000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 3550.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 20,
+   "total": 34500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 721233.21,
+  "total_pago": 839202.81,
+  "fornecedores_pj": [
+   {
+    "cnpj": "35003410000170",
+    "nome": "KATIA SARAIVA DE SOUSA LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 47500.0
+   },
+   {
+    "cnpj": "10652796000110",
+    "nome": "JMW CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "39287376000326",
+    "nome": "HCC HOTELS GESTAO HOTELEIRA S/A",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 8022.0
+   },
+   {
+    "cnpj": "62792117000102",
+    "nome": "ALGRAF COMERCIO E SERVICOS GRAFICOS EDITORA LTDA",
+    "cnae": "58191",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5355.0
+   },
+   {
+    "cnpj": "21631760000177",
+    "nome": "LUMEN COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2835.0
+   },
+   {
+    "cnpj": "24444751000165",
+    "nome": "CR SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1870.0
+   },
+   {
+    "cnpj": "14808042000168",
+    "nome": "SINDICATO DOS TRABALHADORES EM AGUA, ESGOTO E MEIO AMBIENTE NO ESTADO DA BAHIA",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "24759252000167",
+    "nome": "FEIRA ROTULOS E ETIQUETAS ADESIVAS LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 980.0
+   },
+   {
+    "cnpj": "03470235000135",
+    "nome": "ZOOM PUBLICIDADE EXTERIOR LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 850.0
+   },
+   {
+    "cnpj": "03912059000144",
+    "nome": "SINDICATO DOS TRAB.DO RAMO QUIMICO, PETROQUIMICO, PLASTICOS, FERTILIZANTES E TERMINAIS QUIMICOS DO ESTADO DA BAHIA-SINDIQUIMICA",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "52456558000180",
+    "nome": "RESTAURANTE HANGAR SALVADOR LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "07215309000148",
+    "nome": "GRAFICA SIAO LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 195.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 183.61
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 73,
+   "total": 608642.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 424000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 42.6,
+    "Locação/cessão de bens imóveis": 12600.0,
+    "Serviços advocatícios": 4000.0,
+    "Serviços prestados por terceiros": 29000.0,
+    "Serviços próprios prestados por terceiros": 139000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

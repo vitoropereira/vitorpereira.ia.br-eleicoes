@@ -1,0 +1,153 @@
+{
+ "sq": "20002553681",
+ "nome_urna": "GILVAN BARROS",
+ "cargo": "depfed",
+ "uf": "AL",
+ "partido": "PSDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 164857.14,
+  "por_origem": {
+   "Recursos de partido político": 146857.14,
+   "Recursos próprios": 18000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 142857.14,
+   "OUTROS RECURSOS": 22000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "03653474000120",
+    "nome": "Direção Nacional - PSDB",
+    "total": 142857.14
+   },
+   {
+    "cnpj": "69981769000134",
+    "nome": "Direção Estadual/Distrital - PSDB - ALAGOAS",
+    "total": 4000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 18000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 139264.0,
+  "total_pago": 10000.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "44885906000106",
+    "nome": "W C COSTA INSTITUTO APICE LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 57000.0
+   },
+   {
+    "cnpj": "47560707000116",
+    "nome": "47.560.707 MARIA RAFAELA BARBOSA NOBERTO MAGALHAES",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "34125673000190",
+    "nome": "AGENCIA LIBERO DIGITAL MARKETING E TREINAMENTO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "63541164000146",
+    "nome": "GUSTAVO FERREIRA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "18576524000190",
+    "nome": "EXITO ESTRATEGIA LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "11532434000159",
+    "nome": "DIGELSON SANTOS FILHO ARQUIPROJETO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "07246670000131",
+    "nome": "S. C. DO CARMO CONFECCOES",
+    "cnae": "14118",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "05352714000182",
+    "nome": "MARIA DAMASCENO DE FARIAS SERVICOS",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 580.0
+   },
+   {
+    "cnpj": "41480855000144",
+    "nome": "CARLOS A DOS S FARIAS GRAFICA E EDITORA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 384.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 20000.0,
+   "por_tipo": {
+    "Serviços contábeis": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

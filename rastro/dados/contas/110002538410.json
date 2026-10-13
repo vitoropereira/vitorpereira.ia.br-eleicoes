@@ -1,0 +1,398 @@
+{
+ "sq": "110002538410",
+ "nome_urna": "CORONEL ASSIS",
+ "cargo": "depfed",
+ "uf": "MT",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2755508.44,
+  "por_origem": {
+   "Recursos de partido político": 2345000.0,
+   "Recursos de pessoas físicas": 410508.44
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2100000.0,
+   "OUTROS RECURSOS": 655508.44
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2100000.0
+   },
+   {
+    "cnpj": "08767054000199",
+    "nome": "Direção Estadual/Distrital - PL - MATO GROSSO",
+    "total": 245000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 26,
+   "total": 410508.44
+  }
+ },
+ "despesas": {
+  "total_contratado": 2089071.54,
+  "total_pago": 31360.13,
+  "fornecedores_pj": [
+   {
+    "cnpj": "46268737000190",
+    "nome": "JJ K GRAFICA DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 259495.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "05683539000106",
+    "nome": "N. L. DE MATTOS",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 57000.0
+   },
+   {
+    "cnpj": "15279314000142",
+    "nome": "AVERO CONSULT LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 52500.0
+   },
+   {
+    "cnpj": "39332208000143",
+    "nome": "VRA ASSESSORIA E CONSULTORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "47414315000149",
+    "nome": "MAURICIO JOSE CAMARGO CASTILHO SOARES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "60231992000190",
+    "nome": "SANTO DOM FOTOGRAFIAS E FILMES LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "10666611000127",
+    "nome": "MARCELO TAVARES LEMOS",
+    "cnae": "90019",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "57060589000130",
+    "nome": "VELC INTELIGENCIA ESTRATEGICA LTDA",
+    "cnae": "46141",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "23929195000154",
+    "nome": "SERATA EDITORA GRAFICA E PUBLICIDADE LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18400.0
+   },
+   {
+    "cnpj": "27107920000160",
+    "nome": "UNICAR LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "50878648000133",
+    "nome": "W MAZZER MKT LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "55562937000142",
+    "nome": "G TUR TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 14875.5
+   },
+   {
+    "cnpj": "34682099000847",
+    "nome": "GAGLIARDI REIS TRANSPORTES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "31436887000199",
+    "nome": "RESENDE LOCADORA E TRANSPORTES LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "59047664000159",
+    "nome": "AMAG - ENTREGAS E COLETAS LTDA",
+    "cnae": "53202",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "60972832000100",
+    "nome": "VZ PRODUCOES DE EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 6900.0
+   },
+   {
+    "cnpj": "01143988000100",
+    "nome": "FLEXO MIDIA PERSONALIZADOS LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6706.0
+   },
+   {
+    "cnpj": "19581821000197",
+    "nome": "EUNICE LOUREIRO DE SOUZA ALMEIDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3300.48
+   },
+   {
+    "cnpj": "61834014000103",
+    "nome": "61.834.014 BERNARDO DE CASTRO ZOTESSO DO NASCIMENTO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3300.0
+   },
+   {
+    "cnpj": "22407533000125",
+    "nome": "ATACADO DE BEBIDAS BOM JESUS LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 3150.0
+   },
+   {
+    "cnpj": "20869116000179",
+    "nome": "20.869.116 ANDREYCK SOUZA SCHWARTZ",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "26792069000199",
+    "nome": "MARLUCE PINHEIRO LIMA",
+    "cnae": "47555",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2478.0
+   },
+   {
+    "cnpj": "02516532000101",
+    "nome": "FELIZ FESTA BUFFET E LOCADORA LTDA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2332.8
+   },
+   {
+    "cnpj": "11060598000120",
+    "nome": "ALE COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2250.0
+   },
+   {
+    "cnpj": "05698786000267",
+    "nome": "AGUA MINERAL FONTE DAS ARARAS LTDA",
+    "cnae": "46354",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1518.0
+   },
+   {
+    "cnpj": "36932978000139",
+    "nome": "STAMP DISTRIBUIDORA DE MALHAS LTDA",
+    "cnae": "14134",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 875.0
+   },
+   {
+    "cnpj": "36952227000184",
+    "nome": "VILSON EMILIO SOARES DOS SANTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "56036606000131",
+    "nome": "56.036.606 PAULO HENRIQUE PROENCA DE BARROS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "46601257000108",
+    "nome": "S. DA SILVA E CIA LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "03449844000102",
+    "nome": "GERACAO 2000 CALCADOS, CONFECCOES E MATERIAIS ESPORTIVOS LTDA",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 280.0
+   },
+   {
+    "cnpj": "32946225000121",
+    "nome": "EDER SPORTS LTDA",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 297,
+   "total": 1129410.76,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 804759.35,
+    "Despesas com pessoal": 297483.41,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 408.0,
+    "Eventos de promoção da candidatura": 3260.0,
+    "Locação/cessão de bens imóveis": 21000.0,
+    "Serviços prestados por terceiros": 2500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

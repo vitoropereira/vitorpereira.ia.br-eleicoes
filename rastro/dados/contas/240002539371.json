@@ -1,0 +1,188 @@
+{
+ "sq": "240002539371",
+ "nome_urna": "JAIR BOLSONARO",
+ "cargo": "depfed",
+ "uf": "SC",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3078049.44,
+  "por_origem": {
+   "Recursos de partido político": 3001328.89,
+   "Recursos de pessoas físicas": 76720.55
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1500000.0,
+   "FUNDO PARTIDARIO": 1500000.0,
+   "OUTROS RECURSOS": 78049.44
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3000000.0
+   },
+   {
+    "cnpj": "11976997000136",
+    "nome": "Direção Municipal/Comissão Provisória - PL - BALNEÁRIO CAMBORIÚ - SC",
+    "total": 1328.89
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 14,
+   "total": 76720.55
+  }
+ },
+ "despesas": {
+  "total_contratado": 1450485.21,
+  "total_pago": 1383826.66,
+  "fornecedores_pj": [
+   {
+    "cnpj": "67739702000162",
+    "nome": "R R SERVICOS ESPECIALIZADOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "43238569000100",
+    "nome": "ESCALE COMPANY LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 230000.0
+   },
+   {
+    "cnpj": "57467377000172",
+    "nome": "GABRIELA BRESSIANI SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "09239549000108",
+    "nome": "FONTANA E HISAMATSU LTDA",
+    "cnae": "18130",
+    "n_despesas": 13,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 110886.56
+   },
+   {
+    "cnpj": "68437293000102",
+    "nome": "CAMILO NAZARENO PAGANI MARTINS",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "54322253000100",
+    "nome": "PRECISA GESTAO LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "08165997000141",
+    "nome": "A. GONZAGA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "68437288000108",
+    "nome": "ANDRE BATISTI",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "04489202000108",
+    "nome": "HARMONIZE INDUSTRIA E COMERCIO TEXTIL LTDA",
+    "cnae": "14223",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23250.0
+   },
+   {
+    "cnpj": "24012424000134",
+    "nome": "D N P ADMINISTRACAO DE BENS S.A",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 9583.33
+   },
+   {
+    "cnpj": "16535442000172",
+    "nome": "PLOTCOLLOR COMUNICACAO VISUAL LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2700.0
+   },
+   {
+    "cnpj": "00171486000120",
+    "nome": "R C RECICLAGEM E EXTRACAO DE AREIA LTDA",
+    "cnae": "08100",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "81326258000184",
+    "nome": "POSTO GALO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 657.95
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 134,
+   "total": 426907.37,
+   "por_tipo": {
+    "Despesas com pessoal": 414799.87,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 107.5,
+    "Locação/cessão de bens imóveis": 7000.0,
+    "Serviços contábeis": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,296 @@
+{
+ "sq": "210002534588",
+ "nome_urna": "DAIANA SANTOS",
+ "cargo": "depfed",
+ "uf": "RS",
+ "partido": "PCDOB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2369104.01,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 1354.0,
+   "Recursos de partido político": 2262900.0,
+   "Recursos de pessoas físicas": 94850.01,
+   "Recursos próprios": 10000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2147900.0,
+   "FUNDO PARTIDARIO": 115000.0,
+   "OUTROS RECURSOS": 106204.01
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "54956495000156",
+    "nome": "Direção Nacional - PCDOB",
+    "total": 2247900.0
+   },
+   {
+    "cnpj": "71585624000166",
+    "nome": "Direção Estadual/Distrital - PCDOB - RIO GRANDE DO SUL",
+    "total": 15000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 1354.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 41,
+   "total": 104850.01
+  }
+ },
+ "despesas": {
+  "total_contratado": 824470.74,
+  "total_pago": 874679.73,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 81000.0
+   },
+   {
+    "cnpj": "56251071000111",
+    "nome": "DALCIN COMUNICACAO LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 72000.0
+   },
+   {
+    "cnpj": "19335150000184",
+    "nome": "ALEXANDRE DE CAMPOS VELHO BIRCK",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 56780.0
+   },
+   {
+    "cnpj": "50076774000174",
+    "nome": "VOLMAR ERNESTO GOMES",
+    "cnae": "18130",
+    "n_despesas": 11,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 46800.0
+   },
+   {
+    "cnpj": "88804513000104",
+    "nome": "KADU MALHAS COMERCIO DE ROUPAS LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 29700.0
+   },
+   {
+    "cnpj": "39282788000101",
+    "nome": "BARCELOS E CUNHA CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 23700.0
+   },
+   {
+    "cnpj": "05677050000121",
+    "nome": "ANS IMPRESSOES GRAFICAS LTDA.",
+    "cnae": "17419",
+    "n_despesas": 12,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20870.19
+   },
+   {
+    "cnpj": "94350113000160",
+    "nome": "JOKA SUBLIMACAO DIGITAL LTDA",
+    "cnae": "13405",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16290.0
+   },
+   {
+    "cnpj": "04483570000130",
+    "nome": "ANGELA BEATRIZ DA COSTA SALOMAO LTDA",
+    "cnae": "90019",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 14420.0
+   },
+   {
+    "cnpj": "15505790000134",
+    "nome": "FLT ASSESSORIA EM TURISMO LTDA",
+    "cnae": "79112",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9459.96
+   },
+   {
+    "cnpj": "56285147000120",
+    "nome": "56.285.147 PATRICIA SCHMITT",
+    "cnae": "18211",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesas com pessoal",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8444.0
+   },
+   {
+    "cnpj": "24514543000195",
+    "nome": "V. ANVERSA SOLUCOES ADMINISTRATIVAS",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "08608434000180",
+    "nome": "COPY MUNDI LTDA",
+    "cnae": "82199",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2300.0
+   },
+   {
+    "cnpj": "10202206000158",
+    "nome": "VETOR COMUNICACAO VISUAL E MATERIAL GRAFICO LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1780.0
+   },
+   {
+    "cnpj": "94849726000147",
+    "nome": "PEDRA E ARALDI INDUSTRIA DE UNIFORMES LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 1695.0
+   },
+   {
+    "cnpj": "91247379000275",
+    "nome": "R R COMERCIAL DE ACOS LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1321.0
+   },
+   {
+    "cnpj": "57265223000106",
+    "nome": "INSTANT LINE COMERCIO E INDUSTRIA DE TENDAS LTDA",
+    "cnae": "13545",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 520.0
+   },
+   {
+    "cnpj": "03661306000187",
+    "nome": "VENEZIANOS PUB CAFE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "07473735016347",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 190.76
+   },
+   {
+    "cnpj": "07473735019443",
+    "nome": "SIM REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 190.0
+   },
+   {
+    "cnpj": "97269740000160",
+    "nome": "AGENCIA DE CORREIOS FRANQUEADA ACORIANOS LTDA",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 84.08
+   },
+   {
+    "cnpj": "05563868003724",
+    "nome": "BELLER COMERCIO DE PAPEIS LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 53.96
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 33.89
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 138,
+   "total": 428337.9,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 320890.0,
+    "Cessão ou locação de veículos": 8500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 507.9,
+    "Serviços prestados por terceiros": 98440.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,133 @@
+{
+ "sq": "170002540368",
+ "nome_urna": "AGLAILSON VICTOR",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 375000.0,
+  "por_origem": {
+   "Recursos de partido político": 200000.0,
+   "Recursos de pessoas físicas": 125000.0,
+   "Recursos próprios": 50000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "OUTROS RECURSOS": 175000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 200000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 175000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 176909.0,
+  "total_pago": 175210.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "03654469000132",
+    "nome": "BUREAU DE IMAGENS LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 41029.0
+   },
+   {
+    "cnpj": "11038639000182",
+    "nome": "CONECTE SOLUCOES CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "38252370000199",
+    "nome": "RMS IMPRESSOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "43972902000100",
+    "nome": "43.972.902 ADYLLA KELLY DA SILVA PEREIRA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "05419871000168",
+    "nome": "ISMART INDUSTRIA E COMERCIO DE CONFECCAO LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8550.0
+   },
+   {
+    "cnpj": "27966490000131",
+    "nome": "S M S INDUSTRIA DE CAMISETAS LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3750.0
+   },
+   {
+    "cnpj": "12985508000175",
+    "nome": "LUCENILDO FELISBERTO BARBOSA DA SILVA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 11,
+   "total": 30580.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 14580.0,
+    "Serviços advocatícios": 10000.0,
+    "Serviços prestados por terceiros": 6000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

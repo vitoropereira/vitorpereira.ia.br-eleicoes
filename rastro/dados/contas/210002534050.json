@@ -1,0 +1,288 @@
+{
+ "sq": "210002534050",
+ "nome_urna": "JEFERSON FERNANDES",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 501300.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 4200.0,
+   "Recursos de outros candidatos": 82500.0,
+   "Recursos de partido político": 265500.0,
+   "Recursos de pessoas físicas": 111100.0,
+   "Recursos próprios": 38000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 348000.0,
+   "OUTROS RECURSOS": 153300.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265500.0
+   },
+   {
+    "cnpj": "68306572000137",
+    "nome": "ELVINO JOSE BOHN GASS",
+    "total": 82500.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 4200.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 69,
+   "total": 149100.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 359554.41,
+  "total_pago": 316348.48,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 12,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "23339084000198",
+    "nome": "FELIX, FLORIANO, RONDON E RIBEIRO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "49636141000194",
+    "nome": "NUMEM NEGOCIOS E SOLUCOES EMPRESARIAIS LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "03000720000145",
+    "nome": "LOCADORA DE VEICULOS SANTA CRUZ LTDA.",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4014.6
+   },
+   {
+    "cnpj": "32300836000106",
+    "nome": "BRUNO BECKER SCHNEIDER",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3400.0
+   },
+   {
+    "cnpj": "61135041000180",
+    "nome": "MOSS UNIFORMES E BRINDES PERSONALIZADOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "28542384000193",
+    "nome": "CHURRASQUITA RESTAURANTE E CHURRASCARIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2800.0
+   },
+   {
+    "cnpj": "19548376000163",
+    "nome": "NEIDA VERA M. P. MARTINS",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2640.0
+   },
+   {
+    "cnpj": "73752180000131",
+    "nome": "JB EMPRESA JORNALISTICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1080.0
+   },
+   {
+    "cnpj": "87657854000123",
+    "nome": "GRAFICA E EDITORA JORNALISTICA SENTINELA LTDA",
+    "cnae": "58221",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1080.0
+   },
+   {
+    "cnpj": "64560924000125",
+    "nome": "COMERCIO DE COMBUSTIVEIS D G LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "29055273000115",
+    "nome": "FIX PRODUTOS PARA COMUNICACAO VISUAL LTDA",
+    "cnae": "46931",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 968.0
+   },
+   {
+    "cnpj": "10454648000191",
+    "nome": "IMPRESSOS CORASUL LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 790.0
+   },
+   {
+    "cnpj": "30808765000113",
+    "nome": "PROVISAO COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 613.56
+   },
+   {
+    "cnpj": "90744509000131",
+    "nome": "COPY STAR FOTOCOPIAS E ENCADERNACOES LTDA",
+    "cnae": "82199",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 549.0
+   },
+   {
+    "cnpj": "13048709000109",
+    "nome": "POSTO GLORIA - COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 532.25
+   },
+   {
+    "cnpj": "91427203000114",
+    "nome": "AUTO POSTO SAO LUIZ LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 500.87
+   },
+   {
+    "cnpj": "88729629000118",
+    "nome": "GRAFICA JORNAL DAS MISSOES LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 423.0
+   },
+   {
+    "cnpj": "89701031000183",
+    "nome": "SINDICATO DOS EMP EM EST BANC DE SAO LUIZ GONZAGA",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Aquisição/Doação de bens móveis ou imóveis"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "87687703000118",
+    "nome": "EMPRESA JORNALISTICA NOROESTE LTDA",
+    "cnae": "60101",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 290.4
+   },
+   {
+    "cnpj": "05504654000257",
+    "nome": "POSTO DE COMBUSTIVEIS GLORIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 189.97
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 184.76
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 107,
+   "total": 259198.0,
+   "por_tipo": {
+    "Alimentação": 2400.0,
+    "Atividades de militância e mobilização de rua": 183858.0,
+    "Cessão ou locação de veículos": 9000.0,
+    "Despesas com pessoal": 52440.0,
+    "Locação/cessão de bens imóveis": 6500.0,
+    "Serviços prestados por terceiros": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

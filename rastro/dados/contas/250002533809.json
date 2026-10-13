@@ -1,0 +1,136 @@
+{
+ "sq": "250002533809",
+ "nome_urna": "DOUGLAS GARCIA",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 845405.89,
+  "por_origem": {
+   "Recursos de outros candidatos": 15675.0,
+   "Recursos de partido político": 829730.89
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 605648.3,
+   "FUNDO PARTIDARIO": 139757.59,
+   "OUTROS RECURSOS": 100000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "45878593000121",
+    "nome": "Direção Estadual/Distrital - UNIÃO - SÃO PAULO",
+    "total": 539757.59
+   },
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 189973.3
+   },
+   {
+    "cnpj": "46456905000171",
+    "nome": "Direção Municipal/Comissão Provisória - UNIÃO - SÃO PAULO - SP",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68237506000152",
+    "nome": "RUBENS ALBERTO GATTI NUNES",
+    "total": 15675.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 781433.01,
+  "total_pago": 606909.07,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 17,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 365000.0
+   },
+   {
+    "cnpj": "09204155000114",
+    "nome": "VITA PORTO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "53353636000183",
+    "nome": "VTMC SOLUCOES E GESTAO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "08142850000136",
+    "nome": "WBL GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21615.0
+   },
+   {
+    "cnpj": "07851866000155",
+    "nome": "KLASSGRAF LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18750.0
+   },
+   {
+    "cnpj": "51206262000148",
+    "nome": "LDS LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9800.0
+   },
+   {
+    "cnpj": "03113682000137",
+    "nome": "ROBERTO GOGOLLA INDUSTRIA E COMERCIO DE ARTIGOS ESPORTIVOS",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 72,
+   "total": 262768.01,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 250731.51,
+    "Despesas com pessoal": 12000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 36.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

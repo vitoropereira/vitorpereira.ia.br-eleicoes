@@ -1,0 +1,276 @@
+{
+ "sq": "50002532643",
+ "nome_urna": "ADOLFO VIANA",
+ "cargo": "depfed",
+ "uf": "BA",
+ "partido": "PSDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2340431.2,
+  "por_origem": {
+   "Recursos de partido político": 2180431.2,
+   "Recursos de pessoas físicas": 160000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2180000.0,
+   "FUNDO PARTIDARIO": 431.2,
+   "OUTROS RECURSOS": 160000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "03653474000120",
+    "nome": "Direção Nacional - PSDB",
+    "total": 2180000.0
+   },
+   {
+    "cnpj": "33794488000125",
+    "nome": "Direção Estadual/Distrital - PSDB - BAHIA",
+    "total": 431.2
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 160000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1259301.83,
+  "total_pago": 1341133.12,
+  "fornecedores_pj": [
+   {
+    "cnpj": "11326221000170",
+    "nome": "CHP MARKETING, CRIATIVIDADE E NEGOCIOS LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "14674451000119",
+    "nome": "ATA AEROTAXI ABAETE LTDA",
+    "cnae": "51129",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 181177.36
+   },
+   {
+    "cnpj": "68282980000104",
+    "nome": "LUCAS NEVES NASCIMENTO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "13730487000100",
+    "nome": "PARDAL LOCACOES DE VEICULOS E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 62000.0
+   },
+   {
+    "cnpj": "10477130000173",
+    "nome": "MAGALHAES NETO ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "00717513000118",
+    "nome": "AERO STAR TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 49550.0
+   },
+   {
+    "cnpj": "53060662000113",
+    "nome": "BB SERVICOS DE IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 40500.0
+   },
+   {
+    "cnpj": "18365785000161",
+    "nome": "MEGGA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 36356.0
+   },
+   {
+    "cnpj": "68283196000102",
+    "nome": "TIAGO BRANDAO CORREIA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "04821551000177",
+    "nome": "SPEED WAY - LOCADORA DE AUTOMOVEIS LTDA.",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 27083.28
+   },
+   {
+    "cnpj": "37115521000102",
+    "nome": "JOAO GILBERTO DE ARAUJO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21940.0
+   },
+   {
+    "cnpj": "43787475000182",
+    "nome": "DATACERTA PESQUISA LTDA",
+    "cnae": "73203",
+    "n_despesas": 2,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "09029247000105",
+    "nome": "GOL GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19588.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "16089567000116",
+    "nome": "PRESS COLOR GRAFICOS ESPECIALIZADOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9975.0
+   },
+   {
+    "cnpj": "16174641000100",
+    "nome": "JOSE ALBERTO IMOVEIS LTDA",
+    "cnae": "68226",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 7752.96
+   },
+   {
+    "cnpj": "05741713000120",
+    "nome": "TC COMERCIO E LOCACAO LTDA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7250.0
+   },
+   {
+    "cnpj": "13799101000116",
+    "nome": "J A SOBRAL CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "62489031000105",
+    "nome": "PIPA CRIATIVIDADE VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "42108472000102",
+    "nome": "INFOSOL SOLUCOES DE INFORMATICA LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2088.0
+   },
+   {
+    "cnpj": "66970229026395",
+    "nome": "CLARO NXT TELECOMUNICACOES S/A",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Telefone"
+    ],
+    "total": 1059.43
+   },
+   {
+    "cnpj": "06108130000129",
+    "nome": "DIGITAL 9 GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 33,
+   "total": 316581.8,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 381.8,
+    "Locação/cessão de bens imóveis": 5000.0,
+    "Serviços prestados por terceiros": 311200.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

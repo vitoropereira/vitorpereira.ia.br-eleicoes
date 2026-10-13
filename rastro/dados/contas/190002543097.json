@@ -1,0 +1,418 @@
+{
+ "sq": "190002543097",
+ "nome_urna": "ELIAS JABBOUR",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PCDOB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2045211.21,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 342341.21,
+   "Recursos de partido político": 1674650.0,
+   "Recursos de pessoas físicas": 28220.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1314914.25,
+   "FUNDO PARTIDARIO": 359735.75,
+   "OUTROS RECURSOS": 370561.21
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "54956495000156",
+    "nome": "Direção Nacional - PCDOB",
+    "total": 1650000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 342341.21
+   },
+   {
+    "cnpj": "03438115000150",
+    "nome": "Direção Municipal/Comissão Provisória - PCDOB - NITERÓI - RJ",
+    "total": 18000.0
+   },
+   {
+    "cnpj": "16520146000106",
+    "nome": "Direção Municipal/Comissão Provisória - PCDOB - PETRÓPOLIS - RJ",
+    "total": 6650.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 13,
+   "total": 28220.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1471011.38,
+  "total_pago": 1500885.82,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 491005.0
+   },
+   {
+    "cnpj": "37572044000104",
+    "nome": "GRAFICOR COMUNICACAO VISUAL LTDA",
+    "cnae": "46478",
+    "n_despesas": 12,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 41225.0
+   },
+   {
+    "cnpj": "14437788000102",
+    "nome": "FLEX MARKETING DIRETO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 38000.0
+   },
+   {
+    "cnpj": "55686336000141",
+    "nome": "VETOR ARROW INSTITUTO DE PESQUISA E OPINIAO LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "33500117000193",
+    "nome": "MAZ GODINHO RANGEL CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "68880626000173",
+    "nome": "GABRIEL BATISTA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "66127938000185",
+    "nome": "66.127.938 SHAMIRA ROSSI MACHADO",
+    "cnae": "58191",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "19216735000185",
+    "nome": "RBA COMERCIO DE BUFFET E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "19487975000114",
+    "nome": "ALX BRASIL SIGN LTDA",
+    "cnae": "46516",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "33501136000134",
+    "nome": "33.501.136 ALAN PERDOMO E SILVA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 13950.0
+   },
+   {
+    "cnpj": "03850983000143",
+    "nome": "GRAFICA VEIGA SOARES LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9900.0
+   },
+   {
+    "cnpj": "23341732000140",
+    "nome": "ESTUDIO VENENO PRODUTOS GRAFICOS LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 9500.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 7741.06
+   },
+   {
+    "cnpj": "31297365000153",
+    "nome": "JJBZ ARTES GRAFICAS MUSICA LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6750.0
+   },
+   {
+    "cnpj": "28069768000130",
+    "nome": "GUSTAVO SILVA MARTINS",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5375.0
+   },
+   {
+    "cnpj": "12594912000118",
+    "nome": "LIBEX SERVICOS E LOCACOES LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5250.0
+   },
+   {
+    "cnpj": "68623930000135",
+    "nome": "68.623.930 PEDRO FERNANDES BAHIA MIRANDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "30135446000194",
+    "nome": "CAMARA DE DIRIGENTES LOJISTAS DE NITEROI",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "04521796000189",
+    "nome": "AUTO POSTO INAJA LTDA",
+    "cnae": "47318",
+    "n_despesas": 11,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2939.52
+   },
+   {
+    "cnpj": "54882632000155",
+    "nome": "NEWART AGENCIA - ASSOCIACAO DE PRESTADORES DE SERVICOS ARTISTICOS, CULTURAIS E DIGITAIS",
+    "cnae": "94936",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "36068739000182",
+    "nome": "36.068.739 PABLO DOS SANTOS MICELI",
+    "cnae": "58191",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "68520555000106",
+    "nome": "68.520.555 SHADE SAMI SAID NIMER NASER",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2300.0
+   },
+   {
+    "cnpj": "28131716000147",
+    "nome": "28.131.716 NILTON SOUZA DOS SANTOS",
+    "cnae": "77390",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "42331363000150",
+    "nome": "POSTO DE GASOLINA DOM PEDRO II LTDA",
+    "cnae": "47318",
+    "n_despesas": 9,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1604.49
+   },
+   {
+    "cnpj": "22592310000185",
+    "nome": "RHYAN REDON DE SANT ANNA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 1540.0
+   },
+   {
+    "cnpj": "35171136000149",
+    "nome": "PAVUNAO DA LAPA COMERCIO E SERVICOS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "73522070000183",
+    "nome": "POSTO DE GASOLINA BRACARENSE LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 622.21
+   },
+   {
+    "cnpj": "40236820000100",
+    "nome": "POSTO DE GASOLINA RIAS BAIXAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 437.84
+   },
+   {
+    "cnpj": "33094269000133",
+    "nome": "SIND DOS EMPREG EM ESTAB BANCARIOS DO MUNICIPIO DO RJ",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 375.0
+   },
+   {
+    "cnpj": "61502775000150",
+    "nome": "61.502.775 THEREZA CARMELO XAVIER DA FRANCA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 374.0
+   },
+   {
+    "cnpj": "05257678000178",
+    "nome": "AUTO POSTO 500 TINGUI LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 248.84
+   },
+   {
+    "cnpj": "29893906000164",
+    "nome": "RODOPORTO OASIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 230.04
+   },
+   {
+    "cnpj": "29456787000182",
+    "nome": "CARBAT DIST E ASSES DO COM DE DERIV DE PET LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 177.14
+   },
+   {
+    "cnpj": "59879596000194",
+    "nome": "POSTO JOQUEI LAGOA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 168.04
+   },
+   {
+    "cnpj": "55098296000117",
+    "nome": "POSTO DE ABASTECIMENTO CASTELO BRANCO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 101.56
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 216,
+   "total": 684746.64,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 499996.64,
+    "Despesas com pessoal": 171250.0,
+    "Locação/cessão de bens imóveis": 13500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

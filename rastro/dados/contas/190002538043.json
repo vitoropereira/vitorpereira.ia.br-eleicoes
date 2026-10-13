@@ -1,0 +1,204 @@
+{
+ "sq": "190002538043",
+ "nome_urna": "ANDRÉ CORREA",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 578459.28,
+  "por_origem": {
+   "Recursos de partido político": 240959.28,
+   "Recursos de pessoas físicas": 337500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 240000.0,
+   "OUTROS RECURSOS": 338459.28
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 240000.0
+   },
+   {
+    "cnpj": "14705221000170",
+    "nome": "Direção Estadual/Distrital - PSD - RIO DE JANEIRO",
+    "total": 959.28
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 14,
+   "total": 337500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 384486.11,
+  "total_pago": 336545.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 39000.0
+   },
+   {
+    "cnpj": "12413915000108",
+    "nome": "CHAPELEIRO PRODUCOES CINEMATOGRAFICAS LTDA",
+    "cnae": "59111",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 37263.65
+   },
+   {
+    "cnpj": "27844047000198",
+    "nome": "N. FERREIRA DA SILVA LOCACOES E EVENTOS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "34028316066120",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 15572.05
+   },
+   {
+    "cnpj": "22415911000112",
+    "nome": "CONTABILIDADE JMR MORAES LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "27189095000190",
+    "nome": "DBX OFFICE MANAGEMENT LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 14800.0
+   },
+   {
+    "cnpj": "02495060000158",
+    "nome": "IMPRINT 2001 GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11945.9
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7142.01
+   },
+   {
+    "cnpj": "08142850000136",
+    "nome": "WBL GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5169.5
+   },
+   {
+    "cnpj": "32232027000104",
+    "nome": "GRAFICA P. C. DUBOC LTDA",
+    "cnae": "58298",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4660.0
+   },
+   {
+    "cnpj": "43674037000108",
+    "nome": "CELI NUNES DE OLIVEIRA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 4592.0
+   },
+   {
+    "cnpj": "33878430000160",
+    "nome": "ASSOCIACAO DOS SERVIDORES PUBLICOS - CLUB MUNICIPAL",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "32350928000192",
+    "nome": "CLUBE DOS COROADOS",
+    "cnae": "93298",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3200.0
+   },
+   {
+    "cnpj": "45766517000124",
+    "nome": "45.766.517 TAINA DO RIO SARTORIO",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2800.0
+   },
+   {
+    "cnpj": "11112293000115",
+    "nome": "VALE DO CAFE AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 9,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 515.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 82,
+   "total": 194826.0,
+   "por_tipo": {
+    "Despesas com pessoal": 194800.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 26.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

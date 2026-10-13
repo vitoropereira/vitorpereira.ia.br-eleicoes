@@ -1,0 +1,131 @@
+{
+ "sq": "190002540185",
+ "nome_urna": "MARCIO RIBEIRO",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 531320.7,
+  "por_origem": {
+   "Recursos de outros candidatos": 5402.0,
+   "Recursos de partido político": 513918.7,
+   "Recursos de pessoas físicas": 12000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 504505.0,
+   "OUTROS RECURSOS": 26815.7
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 500000.0
+   },
+   {
+    "cnpj": "14705221000170",
+    "nome": "Direção Estadual/Distrital - PSD - RIO DE JANEIRO",
+    "total": 13918.7
+   },
+   {
+    "cnpj": "68411155000154",
+    "nome": "CLAUDIO SOBRAL DE CAIADO CASTRO JUNIOR",
+    "total": 5402.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 12000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 313833.75,
+  "total_pago": 159233.85,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 37615.0
+   },
+   {
+    "cnpj": "26642855000100",
+    "nome": "CASTRO, VIEIRA E FERREIRA CONTA DO RES ELEITORAIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 16200.0
+   },
+   {
+    "cnpj": "54130213000167",
+    "nome": "ARTES GRAFICA S NOVA HIGHTECH LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "30727182000168",
+    "nome": "ALMAC COMERCIO DE UTILIDADES LTDA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3318.75
+   },
+   {
+    "cnpj": "64102774000106",
+    "nome": "MRC ESPORTES E EVENTOS LTDA",
+    "cnae": "93191",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 2700.0
+   },
+   {
+    "cnpj": "19038164000136",
+    "nome": "RAFAEL LEITE LEMOS PRATES",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "19164959000190",
+    "nome": "NOVITA EVENTOS E COMUNICACAO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 49,
+   "total": 247000.0,
+   "por_tipo": {
+    "Despesas com pessoal": 237000.0,
+    "Serviços advocatícios": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

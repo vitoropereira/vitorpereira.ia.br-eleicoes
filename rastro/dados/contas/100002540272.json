@@ -1,0 +1,182 @@
+{
+ "sq": "100002540272",
+ "nome_urna": "ARISTON",
+ "cargo": "depest",
+ "uf": "MA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 319100.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 4000.0,
+   "Recursos de pessoas físicas": 195100.0,
+   "Recursos próprios": 120000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 319100.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68553245000180",
+    "nome": "HILTON GONCALO DE SOUSA",
+    "total": 4000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 17,
+   "total": 315100.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 230834.23,
+  "total_pago": 222607.35,
+  "fornecedores_pj": [
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "09181344000119",
+    "nome": "DANIEL LEITE ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "05846703000159",
+    "nome": "ALVORADA MOTOCICLETAS LTDA",
+    "cnae": "45412",
+    "n_despesas": 4,
+    "tipos": [
+     "Cessão ou locação de veículos",
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 24200.0
+   },
+   {
+    "cnpj": "46949481000187",
+    "nome": "BRILHO MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "37367776000154",
+    "nome": "NAGRAFICA LTDA",
+    "cnae": "18229",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 8250.0
+   },
+   {
+    "cnpj": "64949147000105",
+    "nome": "POLARBOX LTDA",
+    "cnae": "74200",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 8100.0
+   },
+   {
+    "cnpj": "24973630000100",
+    "nome": "L. H. R. DE LUCENA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "66596827000118",
+    "nome": "66.596.827 KAMILLA ALESSANDRA SANTOS SILVA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5220.0
+   },
+   {
+    "cnpj": "65241909000187",
+    "nome": "65.241.909 THALISSA VIEIRA DA SILVA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4077.6
+   },
+   {
+    "cnpj": "35755451000113",
+    "nome": "BM STUDIO DIGITAL LTDA",
+    "cnae": "59120",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "52763057000146",
+    "nome": "AXIAL NEGOCIOS LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2200.0
+   },
+   {
+    "cnpj": "60228513000186",
+    "nome": "CRIATIVA SERVICOS CORPORATIVOS LTDA",
+    "cnae": "41204",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1450.0
+   },
+   {
+    "cnpj": "69425734000208",
+    "nome": "C. G. DE SOUSA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 334.63
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 7,
+   "total": 36002.0,
+   "por_tipo": {
+    "Despesas com pessoal": 11000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.0,
+    "Serviços contábeis": 25000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

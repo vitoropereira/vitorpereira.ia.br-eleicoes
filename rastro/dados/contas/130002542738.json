@@ -1,0 +1,333 @@
+{
+ "sq": "130002542738",
+ "nome_urna": "RAFAEL SIMÕES",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3117588.37,
+  "por_origem": {
+   "Recursos de partido político": 2903410.87,
+   "Recursos de pessoas físicas": 200000.0,
+   "Recursos próprios": 14177.5
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2899800.0,
+   "OUTROS RECURSOS": 217788.37
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 2899800.0
+   },
+   {
+    "cnpj": "14545907000140",
+    "nome": "Direção Estadual/Distrital - PSD - MINAS GERAIS",
+    "total": 3610.87
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 214177.5
+  }
+ },
+ "despesas": {
+  "total_contratado": 2564520.89,
+  "total_pago": 2942387.19,
+  "fornecedores_pj": [
+   {
+    "cnpj": "68468458000103",
+    "nome": "PAULO VALDIR FERREIRA",
+    "cnae": "94928",
+    "n_despesas": 6,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 655000.0
+   },
+   {
+    "cnpj": "68468219000153",
+    "nome": "RODRIGO APARECIDO LOPES",
+    "cnae": "94928",
+    "n_despesas": 3,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 410000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 199500.0
+   },
+   {
+    "cnpj": "68468142000111",
+    "nome": "ALBERTO PINTO COELHO NETO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 105000.0
+   },
+   {
+    "cnpj": "21414472000160",
+    "nome": "M M CALAFIORI PRODUCOES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "23412180000114",
+    "nome": "EXACT INDUSTRIA E SERVICOS DE EMBALAGENS E ROTULOS LTDA",
+    "cnae": "17311",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 82000.0
+   },
+   {
+    "cnpj": "68545746000114",
+    "nome": "NACIB DUARTE BECHIR",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "33227339000184",
+    "nome": "33.227.339 ANDRE FELIPE PINHEIRO PASSOS",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "60665981001432",
+    "nome": "UNIAO QUIMICA FARMACEUTICA NACIONAL S A",
+    "cnae": "17311",
+    "n_despesas": 4,
+    "tipos": [
+     "Correspondências e despesas postais",
+     "Publicidade por adesivos"
+    ],
+    "total": 40880.15
+   },
+   {
+    "cnpj": "24489783000187",
+    "nome": "TELLES TELLES LTDA",
+    "cnae": "58298",
+    "n_despesas": 12,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 38915.0
+   },
+   {
+    "cnpj": "20918877000173",
+    "nome": "GRAFICA FACIL COMUNICACAO LTDA",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 34050.0
+   },
+   {
+    "cnpj": "03359506000180",
+    "nome": "IMPACT BRASIL COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 11,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 33864.0
+   },
+   {
+    "cnpj": "28578069000116",
+    "nome": "JUNISSE DISTRIBUICAO ON LINE LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "40656954000171",
+    "nome": "PRINT DECORA COMUNICACAO VISUAL LIMITADA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9500.0
+   },
+   {
+    "cnpj": "12908108000166",
+    "nome": "LOCKMINAS LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8250.0
+   },
+   {
+    "cnpj": "17934365000196",
+    "nome": "AUTO POSTO DAS INDUSTRIAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 8142.38
+   },
+   {
+    "cnpj": "05840770000166",
+    "nome": "OK SOLUCOES EM T.I. LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "23280196000110",
+    "nome": "23.280.196 SERGIO BATISTA LOUREIRO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "23619967000151",
+    "nome": "23.619.967 VALDIR DUTRA PEREIRA JUNIOR",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "23021272000173",
+    "nome": "AUTO POSTO VALE DO MOGI LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1933.09
+   },
+   {
+    "cnpj": "02919628000110",
+    "nome": "EDILSON MACIEL CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1116.97
+   },
+   {
+    "cnpj": "02082454000184",
+    "nome": "AUTO POSTO VIOLA E FILHOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 782.16
+   },
+   {
+    "cnpj": "06252395000104",
+    "nome": "06.252.395 CAIRO HENRIQUE REZENDE GONCALVES",
+    "cnae": "82997",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 760.0
+   },
+   {
+    "cnpj": "70998893000191",
+    "nome": "SERVICOS POSTAIS AVENIDA LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 526.05
+   },
+   {
+    "cnpj": "21408950000120",
+    "nome": "GRAFICA CRUZEIRO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 298.0
+   },
+   {
+    "cnpj": "02919628000200",
+    "nome": "EDILSON MACIEL CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 246.39
+   },
+   {
+    "cnpj": "19831090000190",
+    "nome": "ILZA APARECIDA FERREIRA DOS REIS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 345,
+   "total": 695456.7,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 121500.0,
+    "Cessão ou locação de veículos": 6722.7,
+    "Despesas com pessoal": 408940.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 194.0,
+    "Locação/cessão de bens imóveis": 1800.0,
+    "Serviços contábeis": 50000.0,
+    "Serviços prestados por terceiros": 98300.0,
+    "Serviços próprios prestados por terceiros": 8000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

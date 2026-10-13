@@ -1,0 +1,151 @@
+{
+ "sq": "190002533707",
+ "nome_urna": "NELSINHO RUAS",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 840000.0,
+  "por_origem": {
+   "Recursos de partido político": 500000.0,
+   "Recursos de pessoas físicas": 250000.0,
+   "Recursos próprios": 90000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 500000.0,
+   "OUTROS RECURSOS": 340000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 500000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 15,
+   "total": 340000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 416646.0,
+  "total_pago": 87021.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "33287025000177",
+    "nome": "JK COMUNICACOES LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "11648887000145",
+    "nome": "4 HEADS EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 34000.0
+   },
+   {
+    "cnpj": "02147077000114",
+    "nome": "EDG EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 32500.0
+   },
+   {
+    "cnpj": "53336961000138",
+    "nome": "TH TRANSPORTE TURISMO E LOCACAO LTDA",
+    "cnae": "79112",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "23412180000114",
+    "nome": "EXACT INDUSTRIA E SERVICOS DE EMBALAGENS E ROTULOS LTDA",
+    "cnae": "17311",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 29000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "27765817000107",
+    "nome": "CLUBE ESPORTIVO MAUA",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "41892726000163",
+    "nome": "ASSAD SANTOS ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "55743683000169",
+    "nome": "MARCO ANTONIO MALTA GONCALVES AS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "57181488000118",
+    "nome": "RAFA GIULIE BORDADOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3125.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 41,
+   "total": 153021.0,
+   "por_tipo": {
+    "Despesas com pessoal": 153000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 21.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

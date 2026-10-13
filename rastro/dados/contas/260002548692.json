@@ -1,0 +1,176 @@
+{
+ "sq": "260002548692",
+ "nome_urna": "KAKÁ SANTOS",
+ "cargo": "depest",
+ "uf": "SE",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 607664.79,
+  "por_origem": {
+   "Recursos de outros candidatos": 1000.0,
+   "Recursos de partido político": 598064.79,
+   "Recursos de pessoas físicas": 8600.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 598064.79,
+   "OUTROS RECURSOS": 9600.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 598064.79
+   },
+   {
+    "cnpj": "68468415000128",
+    "nome": "FABIO CRUZ MITIDIERI",
+    "total": 1000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 8600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 472522.39,
+  "total_pago": 0.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "49152749000143",
+    "nome": "49.152.749 RAMON DA SILVA CONCEICAO",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 125000.0
+   },
+   {
+    "cnpj": "35692762000180",
+    "nome": "COSTA MARTINS ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "56090598000101",
+    "nome": "LS TEM DE TUDO LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 33400.0
+   },
+   {
+    "cnpj": "04184589000186",
+    "nome": "J. L. ASSESSORIA, CONSULTORIA E SERVICOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "32381223000132",
+    "nome": "32.381.223 JUVENAL ALVES DOS SANTOS",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 26250.0
+   },
+   {
+    "cnpj": "46256901000140",
+    "nome": "46.256.901 ANTONIO SERGIO OLIVEIRA DE SOUZA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "50108056000132",
+    "nome": "LS GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "50559008000160",
+    "nome": "DIH PRODUCAO MUSICAL LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "20352916000118",
+    "nome": "C. AUGUSTO OLIVEIRA SANTOS LTDA",
+    "cnae": "47211",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 617.5
+   },
+   {
+    "cnpj": "48955981000157",
+    "nome": "DR FARDAMENTOS LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "00339171000140",
+    "nome": "COMERCIAL DE CONSTRUCAO SOUZA LTDA",
+    "cnae": "47440",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 127.71
+   },
+   {
+    "cnpj": "33242698000100",
+    "nome": "PONTO CERTO COMERCIO DE PAPELARIA E BRINQUEDOS LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 39.6
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 69,
+   "total": 145687.58,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 25000.0,
+    "Despesas com pessoal": 90687.58,
+    "Locação/cessão de bens imóveis": 30000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,256 @@
+{
+ "sq": "60002536676",
+ "nome_urna": "SÉRGIO AGUIAR",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 621219.94,
+  "por_origem": {
+   "Recursos de partido político": 213714.94,
+   "Recursos de pessoas físicas": 358000.0,
+   "Recursos próprios": 49505.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 213714.94,
+   "OUTROS RECURSOS": 407505.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 213714.94
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 12,
+   "total": 407505.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 505544.73,
+  "total_pago": 565267.08,
+  "fornecedores_pj": [
+   {
+    "cnpj": "40003586000162",
+    "nome": "NOVA MULATO COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 5,
+    "tipos": [
+     "Atividades de militância e mobilização de rua",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 98640.0
+   },
+   {
+    "cnpj": "55954778000121",
+    "nome": "GUERRA CONSTRUCOES E SERVICOS LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "26795326000146",
+    "nome": "JN SERVICOS MARKETING E CONSULTORIA LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "53533302000191",
+    "nome": "ORION COMERCIAL E SERVICOS LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "00200508000133",
+    "nome": "SOGRAFICA SOBRAL GRAFICA LTDA",
+    "cnae": "18121",
+    "n_despesas": 14,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 31838.5
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "06534445000138",
+    "nome": "SJ ADMINISTRACAO DE IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 28000.0
+   },
+   {
+    "cnpj": "03884180000100",
+    "nome": "AARON INDUSTRIA DE ROTULOS E ETIQUETAS ADESIVAS LTDA",
+    "cnae": "17419",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 12571.0
+   },
+   {
+    "cnpj": "21678316000107",
+    "nome": "UNI.FARDAS VESTUARIO E ACESSORIOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11900.0
+   },
+   {
+    "cnpj": "63423298000162",
+    "nome": "AMPLA DUO CONSULTORIA E GESTAO PUBLICA LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "01149948000176",
+    "nome": "RAIMUNDO DA MATTA EVANGELISTA LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8625.0
+   },
+   {
+    "cnpj": "07047251000170",
+    "nome": "COMPANHIA ENERGETICA DO CEARA",
+    "cnae": "35140",
+    "n_despesas": 2,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 6102.41
+   },
+   {
+    "cnpj": "30318573000129",
+    "nome": "30.318.573 EDYWILSON DA SILVA GOMES",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "62569126000139",
+    "nome": "GLOBAL SOLUCOES GRAFICAS E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "58979198000187",
+    "nome": "AMA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2914.82
+   },
+   {
+    "cnpj": "63320667000191",
+    "nome": "AS SISTEMAS CONSULTORIA PUBLICA LTDA",
+    "cnae": "70204",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2334.0
+   },
+   {
+    "cnpj": "27545902000160",
+    "nome": "BEL CORPORATION LTDA",
+    "cnae": "27333",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "08267970000160",
+    "nome": "A. M. V. COMERCIO DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 873.65
+   },
+   {
+    "cnpj": "07095193000150",
+    "nome": "SERVICO AUTONOMO DE AGUA E ESGOTO DE CAMOCIM",
+    "cnae": "36006",
+    "n_despesas": 2,
+    "tipos": [
+     "Água"
+    ],
+    "total": 412.71
+   },
+   {
+    "cnpj": "07040108000157",
+    "nome": "COMPANHIA DE AGUA E ESGOTO DO CEARA CAGECE",
+    "cnae": "36006",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 342.84
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 6,
+   "total": 81989.8,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 542.0,
+    "Impostos, contribuições e taxas": 3447.8,
+    "Locação/cessão de bens imóveis": 3000.0,
+    "Publicidade por carros de som": 40000.0,
+    "Serviços advocatícios": 30000.0,
+    "Serviços contábeis": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

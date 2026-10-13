@@ -1,0 +1,372 @@
+{
+ "sq": "40002532767",
+ "nome_urna": "WILKER BARRETO",
+ "cargo": "depest",
+ "uf": "AM",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 864355.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 38860.0,
+   "Recursos de partido político": 570000.0,
+   "Recursos de pessoas físicas": 215495.0,
+   "Recursos próprios": 40000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 238860.0,
+   "OUTROS RECURSOS": 625495.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "14813848000144",
+    "nome": "Direção Estadual/Distrital - PSD - AMAZONAS",
+    "total": 370000.0
+   },
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "68237401000101",
+    "nome": "SIDNEY RICARDO DE OLIVEIRA LEITE",
+    "total": 30250.0
+   },
+   {
+    "cnpj": "68267015000154",
+    "nome": "OMAR JOSE ABDEL AZIZ",
+    "total": 8610.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 70,
+   "total": 255495.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 504732.24,
+  "total_pago": 476231.59,
+  "fornecedores_pj": [
+   {
+    "cnpj": "03633502000148",
+    "nome": "GRAFISA - GRAFICA E EDITORA LTDA",
+    "cnae": "18211",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 66000.0
+   },
+   {
+    "cnpj": "04984400000130",
+    "nome": "CTA - CLEITON TAXI AEREO LTDA",
+    "cnae": "51200",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 59375.0
+   },
+   {
+    "cnpj": "22467056000193",
+    "nome": "TAXI AEREO VALE DO MADEIRA LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "10441464000278",
+    "nome": "A. R. T. TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 31000.0
+   },
+   {
+    "cnpj": "41011777000139",
+    "nome": "WIND.PRO FABRICACAO DE PAINEIS E LETREIROS LTDA",
+    "cnae": "18229",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30469.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "30505467000154",
+    "nome": "A E ARAUJO DE ALMEIDA PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "39626415000100",
+    "nome": "M M VIAGENS LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Passagem Aérea"
+    ],
+    "total": 18939.99
+   },
+   {
+    "cnpj": "29799291000101",
+    "nome": "SILMARIA DE SOUSA PORTELA QUEIROZ",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "63657266000121",
+    "nome": "TRANS SILVESTRE TRANSPORTES ESPECIAIS E TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 17280.0
+   },
+   {
+    "cnpj": "51289461000167",
+    "nome": "DUARTE ESTAMPARIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13000.0
+   },
+   {
+    "cnpj": "02487846000123",
+    "nome": "MXPRINT MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11630.0
+   },
+   {
+    "cnpj": "04778630000142",
+    "nome": "RIMA - RIO MADEIRA AVIACAO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "03832676000130",
+    "nome": "A. N. CARVALHO LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9800.0
+   },
+   {
+    "cnpj": "29459169000196",
+    "nome": "M J L C SOBRINHO",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9800.0
+   },
+   {
+    "cnpj": "04259133000138",
+    "nome": "FORT COMERCIO DE BEBIDAS LTDA",
+    "cnae": "46354",
+    "n_despesas": 2,
+    "tipos": [
+     "Água"
+    ],
+    "total": 7745.0
+   },
+   {
+    "cnpj": "17783899000169",
+    "nome": "J W VIANA JUNIOR ENGENHARIA LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7350.0
+   },
+   {
+    "cnpj": "23275444000135",
+    "nome": "EWERTON ALMEIDA FERREIRA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "10799756000104",
+    "nome": "FREITAS E SANTIAGO LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4832.2
+   },
+   {
+    "cnpj": "03090756000167",
+    "nome": "AMAZONAVES TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 4400.0
+   },
+   {
+    "cnpj": "05475276000140",
+    "nome": "PERSONAL LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "22999999000167",
+    "nome": "AUTO POSTO REZENDE PARQUE DEZ LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3494.45
+   },
+   {
+    "cnpj": "20286083000134",
+    "nome": "N. L PREVENCAO E SEGURANCA LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Segurança e prevenção, repressão e combate à violência política"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "38065798000122",
+    "nome": "MATIAS A RODRIGUES",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "00686339000193",
+    "nome": "H M PINHEIRO PROMOCOES LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 1300.0
+   },
+   {
+    "cnpj": "04030231000107",
+    "nome": "SIMONE DE CASTRO DUARTE COELHO LTDA",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1050.0
+   },
+   {
+    "cnpj": "01482727000115",
+    "nome": "A B DE OLIVEIRA SERVICOS LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 540.0
+   },
+   {
+    "cnpj": "06024809000130",
+    "nome": "C C C BORGES - HOTEL",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 370.0
+   },
+   {
+    "cnpj": "03699397000140",
+    "nome": "R N ALBUQUERQUE BRASIL CIA LTDA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "50512464000155",
+    "nome": "S F DE ARAUJO COMERCIO",
+    "cnae": "47717",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 49.99
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 130,
+   "total": 89406.61,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 66000.0,
+    "Cessão ou locação de veículos": 3900.0,
+    "Despesas com pessoal": 17470.01,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 36.6,
+    "Serviços contábeis": 2000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,265 @@
+{
+ "sq": "210002534654",
+ "nome_urna": "MAURÍCIO MARCON",
+ "cargo": "depfed",
+ "uf": "RS",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 800000.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 20000.0,
+   "Recursos de partido político": 780000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 800000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 780000.0
+   },
+   {
+    "cnpj": "68345608000191",
+    "nome": "CLAUDIO MAXIMILIANO BRANCHIERI",
+    "total": 20000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 356694.44,
+  "total_pago": 361891.39,
+  "fornecedores_pj": [
+   {
+    "cnpj": "93532968000140",
+    "nome": "LORIGRAF GRAFICA E EDITORA LTDA",
+    "cnae": "58298",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 83795.0
+   },
+   {
+    "cnpj": "14976214000102",
+    "nome": "PKR TRANSPORTES LTDA",
+    "cnae": "49302",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 33726.55
+   },
+   {
+    "cnpj": "27807819000111",
+    "nome": "L PEREIRA CONSULTORIA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 29900.0
+   },
+   {
+    "cnpj": "14433778000107",
+    "nome": "INSTITUTO SL/ISPO PESQUISA E OPINIAO LTDA",
+    "cnae": "73203",
+    "n_despesas": 2,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 28875.0
+   },
+   {
+    "cnpj": "09168032000175",
+    "nome": "MI DIGITAL LTDA.",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 27860.0
+   },
+   {
+    "cnpj": "07447405000111",
+    "nome": "ELF LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 19223.0
+   },
+   {
+    "cnpj": "03991640000107",
+    "nome": "RCP ASSESSORIA CONTABIL E ADMINISTRATIVA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "49690899000100",
+    "nome": "MULTIFRAME PRODUCOES LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "45709598000120",
+    "nome": "ARA FILMES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "13844156000109",
+    "nome": "1000 IMPRESSOES NH LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6450.0
+   },
+   {
+    "cnpj": "87905998000151",
+    "nome": "JORGE ELEMAR BRUXEL",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3360.0
+   },
+   {
+    "cnpj": "73319469000242",
+    "nome": "SUSIVAL INDUSTRIA DE EMBALAGENS LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 2940.0
+   },
+   {
+    "cnpj": "01097706000186",
+    "nome": "ARTE CONTROLADA SOLUCOES TEXTEIS LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2050.0
+   },
+   {
+    "cnpj": "01132478001967",
+    "nome": "IRMAOS ANDREAZZA LTDA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 768.22
+   },
+   {
+    "cnpj": "64753324000183",
+    "nome": "RODEIO MAIS REDE DE POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 550.81
+   },
+   {
+    "cnpj": "00355815000193",
+    "nome": "SUPRISERRA SUPRIMENTOS LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 425.0
+   },
+   {
+    "cnpj": "65597729000132",
+    "nome": "GRAPER LTDA",
+    "cnae": "14134",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 328.0
+   },
+   {
+    "cnpj": "04921325000168",
+    "nome": "BAGGIO FESTAS - COMERCIO DE CHOCOLATES LTDA",
+    "cnae": "47211",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "09273885000177",
+    "nome": "VIA MAIS REDE DE POSTOS S.A.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 210.66
+   },
+   {
+    "cnpj": "47815827000117",
+    "nome": "CAMINHOS DA SERRA GAUCHA S.A.",
+    "cnae": "52214",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 94.2
+   },
+   {
+    "cnpj": "93721454000132",
+    "nome": "LICEIS SUPRIMENTOS LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 72.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 10,
+   "total": 72266.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 16.0,
+    "Locação/cessão de bens imóveis": 10500.0,
+    "Serviços prestados por terceiros": 61750.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

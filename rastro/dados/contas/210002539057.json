@@ -1,0 +1,207 @@
+{
+ "sq": "210002539057",
+ "nome_urna": "DELEGADO ZUCCO",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 837510.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 75.0,
+   "Recursos de outros candidatos": 284000.0,
+   "Recursos de partido político": 280000.0,
+   "Recursos de pessoas físicas": 210000.0,
+   "Recursos próprios": 63435.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 534000.0,
+   "FUNDO PARTIDARIO": 30000.0,
+   "OUTROS RECURSOS": 273510.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68379754000138",
+    "nome": "RONALDO NOGUEIRA DE OLIVEIRA",
+    "total": 274000.0
+   },
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 250000.0
+   },
+   {
+    "cnpj": "07919379000187",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - RIO GRANDE DO SUL",
+    "total": 30000.0
+   },
+   {
+    "cnpj": "68379731000123",
+    "nome": "FAISAL MOTHCI KARAM",
+    "total": 10000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 75.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 13,
+   "total": 273435.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 552260.18,
+  "total_pago": 649798.68,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 48,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 201882.5
+   },
+   {
+    "cnpj": "19539180000102",
+    "nome": "STUDIO PRINT GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 67420.0
+   },
+   {
+    "cnpj": "02603092000120",
+    "nome": "DANIEL PRIMO PICCINI",
+    "cnae": "13596",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 63000.0
+   },
+   {
+    "cnpj": "45041412000108",
+    "nome": "LUIS R DA ROSA RAMIRES",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 47500.0
+   },
+   {
+    "cnpj": "68699386000105",
+    "nome": "VANIR DE MATTOS SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "68379645000110",
+    "nome": "ROBISON REOLON",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 27500.0
+   },
+   {
+    "cnpj": "57194170000171",
+    "nome": "57.194.170 GILMAR DOS SANTOS PIRES",
+    "cnae": "43304",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "30203045000124",
+    "nome": "ELMAR TRANSPORTES LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 19300.0
+   },
+   {
+    "cnpj": "07078277000186",
+    "nome": "GETAC EMPREENDIMENTOS IMOBILIARIOS LTDA.",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "68379784000144",
+    "nome": "NILTON MENDES MACHADO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 8500.0
+   },
+   {
+    "cnpj": "68379843000184",
+    "nome": "EDER ANTONIO DE AZEREDO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "94560406000172",
+    "nome": "ANNAJU GRAFICA LTDA",
+    "cnae": "58239",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2650.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 2.18
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 5,
+   "total": 41005.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 4000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 5.5,
+    "Locação/cessão de bens imóveis": 7000.0,
+    "Serviços contábeis": 15000.0,
+    "Serviços prestados por terceiros": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

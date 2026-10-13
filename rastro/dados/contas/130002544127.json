@@ -1,0 +1,291 @@
+{
+ "sq": "130002544127",
+ "nome_urna": "CAROL CARAM",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "AVANTE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 898972.47,
+  "por_origem": {
+   "Recursos de partido político": 363767.6,
+   "Recursos de pessoas físicas": 459301.0,
+   "Recursos próprios": 75903.87
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 6015.0,
+   "FUNDO PARTIDARIO": 57752.6,
+   "OUTROS RECURSOS": 835204.87
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "59933952000100",
+    "nome": "Direção Nacional - AVANTE",
+    "total": 363767.6
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 89,
+   "total": 535204.87
+  }
+ },
+ "despesas": {
+  "total_contratado": 369318.27,
+  "total_pago": 466717.6,
+  "fornecedores_pj": [
+   {
+    "cnpj": "12412275000111",
+    "nome": "HELIC FLY TAXI E SERVICOS AEREOS ESPECIALIZADOS LTDA",
+    "cnae": "51129",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 71075.0
+   },
+   {
+    "cnpj": "07909954000160",
+    "nome": "PONTOCOM COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 49670.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 34755.0
+   },
+   {
+    "cnpj": "49606165000109",
+    "nome": "PRIME LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20400.0
+   },
+   {
+    "cnpj": "12841373000174",
+    "nome": "GRAFICA PAMPULHA LTDA.",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18890.0
+   },
+   {
+    "cnpj": "54827328000105",
+    "nome": "FORMO TECNOLOGIA E SERVICOS LTDA",
+    "cnae": "18229",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "06914474000125",
+    "nome": "REDE EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 10600.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "63590421000130",
+    "nome": "MISTER KAP IMPORT LTDA",
+    "cnae": "13529",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9525.0
+   },
+   {
+    "cnpj": "53263544000102",
+    "nome": "MR EMPREENDIMENTOS COMERCIO E TRANSPORTES LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8350.0
+   },
+   {
+    "cnpj": "38744819000136",
+    "nome": "RC NUNES EMPREENDIMENTOS S/A",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8007.0
+   },
+   {
+    "cnpj": "15254059000183",
+    "nome": "MEET PORCAO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 7960.0
+   },
+   {
+    "cnpj": "43706978000186",
+    "nome": "ATC COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7650.0
+   },
+   {
+    "cnpj": "03284796000140",
+    "nome": "ASTER GRAF LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "14601081000190",
+    "nome": "GERBASSI SERIGRAFIA LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "14076776000108",
+    "nome": "GHB MARKETING, PUBLICIDADE, COMUNICACAO E EVENTOS LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5200.0
+   },
+   {
+    "cnpj": "08202724000120",
+    "nome": "POP DROPS CRIACOES LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "35174988000190",
+    "nome": "MANUMKT SOLUCOES EM MARKETING SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "03105907000103",
+    "nome": "HS TRANSPORTES E SERVICOS LTDA",
+    "cnae": "49248",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 2943.0
+   },
+   {
+    "cnpj": "34028316477260",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 1595.55
+   },
+   {
+    "cnpj": "46704818000196",
+    "nome": "MR PRODUCOES E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "34028316133090",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 1276.44
+   },
+   {
+    "cnpj": "71155998000141",
+    "nome": "POSTO PHOENIX LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1201.28
+   },
+   {
+    "cnpj": "19439643000164",
+    "nome": "LAGOA FLAT HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 220.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 23,
+   "total": 57000.0,
+   "por_tipo": {
+    "Despesas com pessoal": 57000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,133 @@
+{
+ "sq": "190002543037",
+ "nome_urna": "TIA JU",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 266890.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 3890.0,
+   "Recursos de partido político": 160000.0,
+   "Recursos de pessoas físicas": 103000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 7862.04,
+   "FUNDO PARTIDARIO": 152137.96,
+   "OUTROS RECURSOS": 106890.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 157862.04
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 3890.0
+   },
+   {
+    "cnpj": "07959911000190",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - RIO DE JANEIRO",
+    "total": 2137.96
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 24,
+   "total": 103000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 94495.64,
+  "total_pago": 179.43,
+  "fornecedores_pj": [
+   {
+    "cnpj": "47329291000120",
+    "nome": "MF CONTABILIDADE ELEITORAL E PARTIDARIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 11944.5
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "33878430000160",
+    "nome": "ASSOCIACAO DOS SERVIDORES PUBLICOS - CLUB MUNICIPAL",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "66753982000109",
+    "nome": "PRIME DESCARTAVEIS DE SAO GONCALO LTDA",
+    "cnae": "47598",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3415.0
+   },
+   {
+    "cnpj": "45766517000124",
+    "nome": "45.766.517 TAINA DO RIO SARTORIO",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 850.0
+   },
+   {
+    "cnpj": "61192973000164",
+    "nome": "61.192.973 GUILHERME DE MEDEIROS DA SILVA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 100.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 79.43
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 15,
+   "total": 68606.71,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 33606.71,
+    "Despesas com transporte ou deslocamento": 15000.0,
+    "Locação/cessão de bens imóveis": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

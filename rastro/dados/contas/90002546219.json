@@ -1,0 +1,232 @@
+{
+ "sq": "90002546219",
+ "nome_urna": "ISSY QUINAN",
+ "cargo": "depest",
+ "uf": "GO",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 750879.14,
+  "por_origem": {
+   "Recursos de outros candidatos": 311374.16,
+   "Recursos de pessoas físicas": 394504.98,
+   "Recursos próprios": 45000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 295000.0,
+   "OUTROS RECURSOS": 455879.14
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68470342000109",
+    "nome": "CELIO ANTONIO DA SILVEIRA",
+    "total": 295000.0
+   },
+   {
+    "cnpj": "68526875000165",
+    "nome": "LEDA BORGES DE MOURA",
+    "total": 10587.5
+   },
+   {
+    "cnpj": "68470330000184",
+    "nome": "JOSE NELTO LAGARES DAS MERCEZ",
+    "total": 3645.0
+   },
+   {
+    "cnpj": "68470445000179",
+    "nome": "ADRIANO ANTONIO AVELAR",
+    "total": 2141.66
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 39,
+   "total": 439504.98
+  }
+ },
+ "despesas": {
+  "total_contratado": 497847.38,
+  "total_pago": 345211.08,
+  "fornecedores_pj": [
+   {
+    "cnpj": "01796505000177",
+    "nome": "TRAPY ZOMBA CONFECCOES BRINDES LTDA",
+    "cnae": "14126",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 163500.0
+   },
+   {
+    "cnpj": "17250255000105",
+    "nome": "CAP ASSESSORIA E CONSULTORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "17311348000100",
+    "nome": "MX LOAD LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "14707720000104",
+    "nome": "CONEXAO DIGITAL SOLUTION - COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 32625.0
+   },
+   {
+    "cnpj": "39994822000170",
+    "nome": "GYN LOGISTICA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 31499.65
+   },
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "24113180000186",
+    "nome": "GYN LOCADORA LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 14514.0
+   },
+   {
+    "cnpj": "02470060000101",
+    "nome": "LINCECAR AUTOCENTER LTDA",
+    "cnae": "45307",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4900.0
+   },
+   {
+    "cnpj": "64433090000197",
+    "nome": "GAB INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3991.65
+   },
+   {
+    "cnpj": "11588293000196",
+    "nome": "SUPERMERCADO 3 IRMAOS CACU LTDA E P P",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2198.13
+   },
+   {
+    "cnpj": "04806169000194",
+    "nome": "AUTO POSTO CHAFARIZ LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2102.73
+   },
+   {
+    "cnpj": "10276821000109",
+    "nome": "ZENILTON CALIXTO DE MACEDO E CIA. LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "01863511000108",
+    "nome": "SET SERVICOS ESPECIAIS EM TRANSPORTES LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "61425752000199",
+    "nome": "61.425.752 ROGERIO LEMES SALGADO",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "66474130000174",
+    "nome": "AEME LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 580.0
+   },
+   {
+    "cnpj": "58079066000107",
+    "nome": "ARCUS FERRAGISTA LTDA",
+    "cnae": "47440",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 41.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 101,
+   "total": 153095.22,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 64800.0,
+    "Cessão ou locação de veículos": 5000.0,
+    "Despesas com pessoal": 39145.22,
+    "Despesas com transporte ou deslocamento": 18900.0,
+    "Pré-instalação física de comitê de campanha": 20250.0,
+    "Serviços advocatícios": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

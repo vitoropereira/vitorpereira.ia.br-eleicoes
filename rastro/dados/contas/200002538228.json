@@ -1,0 +1,137 @@
+{
+ "sq": "200002538228",
+ "nome_urna": "CRISTIANE DANTAS",
+ "cargo": "depest",
+ "uf": "RN",
+ "partido": "PSDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 201930.6,
+  "por_origem": {
+   "Recursos de pessoas físicas": 75751.6,
+   "Recursos próprios": 126179.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 201930.6
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 201930.6
+  }
+ },
+ "despesas": {
+  "total_contratado": 114078.5,
+  "total_pago": 178678.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "08867678000188",
+    "nome": "A. L. DE SOUZA JUNIOR",
+    "cnae": "47555",
+    "n_despesas": 4,
+    "tipos": [
+     "Locação/cessão de bens imóveis",
+     "Locação/cessão de bens móveis (exceto veículos)",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15400.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "17340447000102",
+    "nome": "MARICLEYDSON COSTA DA SILVA LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10090.0
+   },
+   {
+    "cnpj": "33040826000133",
+    "nome": "W RODRIGUES DA SILVA ASSESSORIA DE COMUNICACAO E MARKETING",
+    "cnae": "63917",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 8500.0
+   },
+   {
+    "cnpj": "32304440000129",
+    "nome": "A DE O VIANA EDITORA E COMUNICACAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "51114801000119",
+    "nome": "ALONE COMUNICACAO E ASSESSORIA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "30639262000161",
+    "nome": "PULO DO GATO ESTUDIO CRIATIVO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6600.0
+   },
+   {
+    "cnpj": "10552820000140",
+    "nome": "AMARILDO E ROCHA CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 6000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 13,
+   "total": 26988.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 19980.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 8.5,
+    "Locação/cessão de bens imóveis": 5000.0,
+    "Serviços prestados por terceiros": 2000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,182 @@
+{
+ "sq": "70002550009",
+ "nome_urna": "ROOSEVELT VILELA",
+ "cargo": "distrital",
+ "uf": "DF",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1111000.0,
+  "por_origem": {
+   "Recursos de partido político": 1070000.0,
+   "Recursos de pessoas físicas": 34000.0,
+   "Recursos próprios": 7000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1070000.0,
+   "OUTROS RECURSOS": 41000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1070000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 41000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 440390.04,
+  "total_pago": 614244.52,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "38054847000121",
+    "nome": "SIA SERVICOS POSTAIS LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 59992.0
+   },
+   {
+    "cnpj": "52561467000104",
+    "nome": "GONTIJO E ROCHA SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "37992868000125",
+    "nome": "LUPA ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 17600.0
+   },
+   {
+    "cnpj": "68561051000126",
+    "nome": "GRAFICA NOBRE PUBLICIDADE E CONFECCAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11400.0
+   },
+   {
+    "cnpj": "08939820000155",
+    "nome": "CONECTTA EVENTOS E LOCACOES LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "17293463000191",
+    "nome": "DROP COMUNICACAO GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3700.0
+   },
+   {
+    "cnpj": "00306597000105",
+    "nome": "CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "37571001000104",
+    "nome": "I9 CONFECCAO DE BRINDES LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "00560276000124",
+    "nome": "C E A I CENTRO DE ENSINO ARCO IRIS LTDA",
+    "cnae": "85139",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "34174645000162",
+    "nome": "TREND SERVICOS E SOLUCOES DIGITAIS LTDA",
+    "cnae": "62031",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos",
+     "Diversas a especificar"
+    ],
+    "total": 1185.6
+   },
+   {
+    "cnpj": "35370064000240",
+    "nome": "PRECITO ATACADO IMPORTACAO E EXPORTACAO LTDA",
+    "cnae": "46354",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 582.0
+   },
+   {
+    "cnpj": "08220275000142",
+    "nome": "GRAFICA E EDITORA MOVIMENTO LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 259.44
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 156,
+   "total": 228071.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 223000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 71.0,
+    "Locação/cessão de bens imóveis": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

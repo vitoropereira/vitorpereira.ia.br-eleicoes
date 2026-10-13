@@ -1,0 +1,267 @@
+{
+ "sq": "210002540668",
+ "nome_urna": "MARCELO ARRUDA",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 488542.3,
+  "por_origem": {
+   "Recursos de outros candidatos": 70000.0,
+   "Recursos de partido político": 256921.3,
+   "Recursos de pessoas físicas": 41621.0,
+   "Recursos próprios": 120000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 320000.0,
+   "OUTROS RECURSOS": 168542.3
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 250000.0
+   },
+   {
+    "cnpj": "68430759000148",
+    "nome": "DANRLEI DE DEUS HINTERHOLZ",
+    "total": 70000.0
+   },
+   {
+    "cnpj": "87582714000133",
+    "nome": "Direção Estadual/Distrital - MDB - RIO GRANDE DO SUL",
+    "total": 4900.0
+   },
+   {
+    "cnpj": "14935252000117",
+    "nome": "Direção Estadual/Distrital - PSD - RIO GRANDE DO SUL",
+    "total": 2021.3
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 161621.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 215794.81,
+  "total_pago": 170787.61,
+  "fornecedores_pj": [
+   {
+    "cnpj": "58145834000175",
+    "nome": "P23 COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 39500.0
+   },
+   {
+    "cnpj": "55599049000102",
+    "nome": "55.599.049 DANIELE DELLAGOSTIN",
+    "cnae": "13511",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22625.0
+   },
+   {
+    "cnpj": "89420681000150",
+    "nome": "AUTOLANDIA ERECHIM S A COMERCIO E INDUSTRIA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "08415939000129",
+    "nome": "APPROPRIATO COMERCIO DE UTILIDADES LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17275.0
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 16849.25
+   },
+   {
+    "cnpj": "59447429000174",
+    "nome": "DUKA OLIVEIRA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11400.0
+   },
+   {
+    "cnpj": "02781274000190",
+    "nome": "GRAFICA TRACOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9980.0
+   },
+   {
+    "cnpj": "93630788000109",
+    "nome": "VGRAF IMPRESSOS E EMBALAGENS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8990.0
+   },
+   {
+    "cnpj": "05762657000100",
+    "nome": "JM ZANIN LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "20275520000114",
+    "nome": "COMAR LOGISTICA LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "88804513000104",
+    "nome": "KADU MALHAS COMERCIO DE ROUPAS LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5250.0
+   },
+   {
+    "cnpj": "34867510000182",
+    "nome": "SUBLIMAX COMUNICACAO VISUAL LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "49851417000157",
+    "nome": "ALUPRINT IMPRESSOS E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "88205125000107",
+    "nome": "GALPAO CAMPEIRO - CENTRO DE TRADICOES GAUCHAS",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "92285808000180",
+    "nome": "EDGAR JOSE ROSSET LTDA",
+    "cnae": "32302",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3640.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "03271370000151",
+    "nome": "IMPACT SERVICOS DE COMUNICACAO VISUAL LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "15626876000115",
+    "nome": "LH RENT A CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "86989548000121",
+    "nome": "Z. BRASIL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2750.0
+   },
+   {
+    "cnpj": "18518668000190",
+    "nome": "FARINA - COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1522.06
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 12,
+   "total": 19513.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 19494.5,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 19.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

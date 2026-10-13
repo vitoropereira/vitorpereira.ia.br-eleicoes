@@ -1,0 +1,131 @@
+{
+ "sq": "250002541857",
+ "nome_urna": "ELY SANTOS",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1095000.0,
+  "por_origem": {
+   "Recursos de partido político": 1095000.0
+  },
+  "por_fonte": {
+   "FUNDO PARTIDARIO": 1095000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07794600000118",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - SÃO PAULO",
+    "total": 1095000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 827492.52,
+  "total_pago": 0.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "10467128000113",
+    "nome": "TRANSJETT MDI - FRETAMENTO, TRANSPORTE E LOCADORA DE VEICULOS LTDA",
+    "cnae": "49248",
+    "n_despesas": 5,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 30780.0
+   },
+   {
+    "cnpj": "67558854000169",
+    "nome": "URIBAG MOBILIDADE CORPORATIVA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "54205746000160",
+    "nome": "NAC GRAFICA IMPRESSOES COPIAS PERSONALIZADOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24200.0
+   },
+   {
+    "cnpj": "22317550000171",
+    "nome": "M DESIGNER CITY LTDA",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19000.0
+   },
+   {
+    "cnpj": "00569187000149",
+    "nome": "STOP LOSS AAS ADMINISTRADORA E CORRETORA DE SEGUROS LTDA",
+    "cnae": "66223",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "41273975000170",
+    "nome": "MARAU COMERCIO E DISTRIBUIDORA DE PRODUTOS DE LIMPEZA E UTILIDADES EM GERAL LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 101.4
+   },
+   {
+    "cnpj": "13423588000138",
+    "nome": "M A DOMINGUES DO AMARAL - INFORMATICA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 17.8
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 238,
+   "total": 673393.32,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 406326.65,
+    "Cessão ou locação de veículos": 126766.67,
+    "Despesas com pessoal": 114300.0,
+    "Eventos de promoção da candidatura": 4250.0,
+    "Locação/cessão de bens imóveis": 21750.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

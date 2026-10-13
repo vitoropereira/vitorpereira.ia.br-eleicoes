@@ -1,0 +1,188 @@
+{
+ "sq": "250002541149",
+ "nome_urna": "SAULO PEDROSO",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2007407.41,
+  "por_origem": {
+   "Recursos de partido político": 2007407.41
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1275000.0,
+   "FUNDO PARTIDARIO": 625000.0,
+   "OUTROS RECURSOS": 107407.41
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 2000000.0
+   },
+   {
+    "cnpj": "14567904000108",
+    "nome": "Direção Estadual/Distrital - PSD - SÃO PAULO",
+    "total": 7407.41
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1614747.82,
+  "total_pago": 125700.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "18649169000132",
+    "nome": "CODAM INDUSTRIAL LTDA",
+    "cnae": "13596",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 136100.0
+   },
+   {
+    "cnpj": "26343364000168",
+    "nome": "LINCOLN P. XAVIER",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 65000.0
+   },
+   {
+    "cnpj": "08288957000197",
+    "nome": "ACM COMPANY LTDA",
+    "cnae": "43291",
+    "n_despesas": 15,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 60230.0
+   },
+   {
+    "cnpj": "09142287000169",
+    "nome": "JD LEGACY LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "35027869000104",
+    "nome": "LOCVANS BJP TURISMO E FRETAMENTO LTDA",
+    "cnae": "49299",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "04993281000181",
+    "nome": "METALMODULOS INDUSTRIA DE MODULOS METALICOS HABITACIONAIS LTDA",
+    "cnae": "25110",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "24347979000137",
+    "nome": "MACIEL ART DESIGNER GRAFICO - LTDA",
+    "cnae": "47636",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10800.0
+   },
+   {
+    "cnpj": "28859774000191",
+    "nome": "28.859.774 VINICIUS GOMES DE PAULA",
+    "cnae": "95126",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 5100.0
+   },
+   {
+    "cnpj": "07465112000167",
+    "nome": "TOP TEC EQUIPAMENTOS DE INFORMATICAS LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2200.0
+   },
+   {
+    "cnpj": "67534818000165",
+    "nome": "AUTO POSTO G.E.M.LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1615.0
+   },
+   {
+    "cnpj": "44849511000158",
+    "nome": "JORNAL O MUNICIPIO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1520.0
+   },
+   {
+    "cnpj": "34978862000105",
+    "nome": "V.A. DOS SANTOS RESTAURANTE E LANCHONETE",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1320.0
+   },
+   {
+    "cnpj": "12393483000110",
+    "nome": "DAVI EMBALAGENS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 179.82
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 229,
+   "total": 1254683.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 1200253.0,
+    "Cessão ou locação de veículos": 10000.0,
+    "Despesas com pessoal": 8430.0,
+    "Serviços advocatícios": 30000.0,
+    "Serviços contábeis": 6000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

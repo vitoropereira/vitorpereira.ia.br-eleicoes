@@ -1,0 +1,297 @@
+{
+ "sq": "130002532951",
+ "nome_urna": "ROBERTO ANDRADE",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PRD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 975831.29,
+  "por_origem": {
+   "Recursos de outros candidatos": 39300.92,
+   "Recursos de pessoas físicas": 936530.37
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 21615.0,
+   "OUTROS RECURSOS": 954216.29
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68464862000109",
+    "nome": "LAFAYETTE LUIZ DOORGAL DE ANDRADA",
+    "total": 20085.92
+   },
+   {
+    "cnpj": "68468488000110",
+    "nome": "RODRIGO BATISTA DE CASTRO",
+    "total": 19215.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 56,
+   "total": 936530.37
+  }
+ },
+ "despesas": {
+  "total_contratado": 353864.71,
+  "total_pago": 331063.4,
+  "fornecedores_pj": [
+   {
+    "cnpj": "68261724000122",
+    "nome": "Gráfica e Editora RS Ltda",
+    "cnae": "18113",
+    "n_despesas": 43,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por jornais e revistas",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 66311.8
+   },
+   {
+    "cnpj": "26198515000484",
+    "nome": "SEMPRE EDITORA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 53400.0
+   },
+   {
+    "cnpj": "07723260000134",
+    "nome": "Alicerce Editora Eireli - ME",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 44450.0
+   },
+   {
+    "cnpj": "07560718000181",
+    "nome": "LOCADORA DE VEICULOS FLORESTA LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10200.0
+   },
+   {
+    "cnpj": "08297810000163",
+    "nome": "RAMAIS TELEINFORMÁTICA COMÉRCIO EIRELI-ME",
+    "cnae": "47521",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 7182.0
+   },
+   {
+    "cnpj": "56150649000143",
+    "nome": "CONTALIZA BE CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "17765579000186",
+    "nome": "POSTO CANAA LTDA",
+    "cnae": "47318",
+    "n_despesas": 15,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4327.58
+   },
+   {
+    "cnpj": "06368606000160",
+    "nome": "JORNAL FOLHA DA MATA LTDA",
+    "cnae": "58123",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "30100675000173",
+    "nome": "FUSION EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "60158744000160",
+    "nome": "ANA SOARES DA CUNHA GUIMARÃES",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "71365167000102",
+    "nome": "PLANEJAR COMUNICACAO INTEGRADA LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1333.33
+   },
+   {
+    "cnpj": "01168626000174",
+    "nome": "AUTO POSTO JEQUERI LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 923.3
+   },
+   {
+    "cnpj": "49491809000152",
+    "nome": "IORRANA JULLYCE SILVA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "42888115000104",
+    "nome": "A EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 598.32
+   },
+   {
+    "cnpj": "20342995000186",
+    "nome": "POSTO LUPIAZZA- EIRELI- EPP",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 442.4
+   },
+   {
+    "cnpj": "45934846000137",
+    "nome": "ADX COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 422.78
+   },
+   {
+    "cnpj": "03141020000170",
+    "nome": "POSTO ALTO RIODOCENSE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 287.01
+   },
+   {
+    "cnpj": "01530043000141",
+    "nome": "REDE DAKOTA I LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 244.02
+   },
+   {
+    "cnpj": "07480928000160",
+    "nome": "AUTO POSTO GOMES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 228.06
+   },
+   {
+    "cnpj": "10243809000106",
+    "nome": "AUTO POSTO MIRANDA NETO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 188.01
+   },
+   {
+    "cnpj": "38499661000186",
+    "nome": "Comércio de Móveis Carvalho e Mascarenhas Ltda",
+    "cnae": "47547",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 170.0
+   },
+   {
+    "cnpj": "20198527000180",
+    "nome": "ALO CARIMBOS COMERCIAL LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 160.0
+   },
+   {
+    "cnpj": "42911008000150",
+    "nome": "Agência de Correios Franqueada Contorno",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 100.2
+   },
+   {
+    "cnpj": "18821506000127",
+    "nome": "VISAO BRINDES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5.9
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 78,
+   "total": 149490.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 137090.0,
+    "Cessão ou locação de veículos": 6800.0,
+    "Locação/cessão de bens imóveis": 5600.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

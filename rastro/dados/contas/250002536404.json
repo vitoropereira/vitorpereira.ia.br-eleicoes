@@ -1,0 +1,159 @@
+{
+ "sq": "250002536404",
+ "nome_urna": "LETICIA AGUIAR",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1267512.79,
+  "por_origem": {
+   "Recursos de partido político": 1212812.79,
+   "Recursos de pessoas físicas": 54000.0,
+   "Recursos próprios": 700.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1000000.0,
+   "FUNDO PARTIDARIO": 205579.06,
+   "OUTROS RECURSOS": 61933.73
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "08701595000114",
+    "nome": "Direção Estadual/Distrital - PL - SÃO PAULO",
+    "total": 212812.79
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 54700.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1000669.9,
+  "total_pago": 366245.63,
+  "fornecedores_pj": [
+   {
+    "cnpj": "68639316000161",
+    "nome": "68.639.316 MAYARA ROBERTA DA BOA VIAGEM",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 84800.0
+   },
+   {
+    "cnpj": "96484035000112",
+    "nome": "SATELITE POST SJC LTDA",
+    "cnae": "53105",
+    "n_despesas": 9,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 56966.51
+   },
+   {
+    "cnpj": "17771662000168",
+    "nome": "NCS COMUNICACAO VISUAL E SERVICOS DE IMPRESSOES LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 56175.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50700.0
+   },
+   {
+    "cnpj": "10386377000184",
+    "nome": "VITA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 42600.0
+   },
+   {
+    "cnpj": "54090979000165",
+    "nome": "54.090.979 KELLY CHRISTINA RODRIGUES DE OLIVEIRA CASAM",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "37905249000156",
+    "nome": "R A V SERVICOS ADMINISTRATIVOS E ELEITORAIS LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 31218.2
+   },
+   {
+    "cnpj": "63231654000146",
+    "nome": "TESGA ADMINISTRADORA DE BENS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 15510.0
+   },
+   {
+    "cnpj": "26022481000120",
+    "nome": "26.022.481 MARIA GORETTI TAVARES DA SILVA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "43630461000150",
+    "nome": "STUDIO INTERATIVO TECNOLOGIA DA INFORMACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5619.6
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 159,
+   "total": 616080.59,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 411535.59,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 45.0,
+    "Locação/cessão de bens imóveis": 1500.0,
+    "Serviços advocatícios": 200000.0,
+    "Serviços prestados por terceiros": 3000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,649 @@
+{
+ "sq": "160002540833",
+ "nome_urna": "SERGIO MORO",
+ "cargo": "governador",
+ "uf": "PR",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 12981929.2,
+  "por_origem": {
+   "Fundo Especial de Financiamento de Campanha": 319.2,
+   "Recursos de origens não identificadas": 7200.0,
+   "Recursos de partido político": 11670000.0,
+   "Recursos de pessoas físicas": 1304410.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 10800000.0,
+   "OUTROS RECURSOS": 2181929.2
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 11400000.0
+   },
+   {
+    "cnpj": "26398527000100",
+    "nome": "Direção Estadual/Distrital - NOVO - PARANÁ",
+    "total": 270000.0
+   },
+   {
+    "cnpj": "08730637000145",
+    "nome": "Direção Estadual/Distrital - PL - PARANÁ",
+    "total": 7200.0
+   },
+   {
+    "cnpj": "68456168000140",
+    "nome": "SERGIO FERNANDO MORO",
+    "total": 319.2
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 59,
+   "total": 1304410.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 7427272.21,
+  "total_pago": 4264023.07,
+  "fornecedores_pj": [
+   {
+    "cnpj": "21246199000102",
+    "nome": "LEANDRO ROSA ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 1700000.0
+   },
+   {
+    "cnpj": "82594847000106",
+    "nome": "YARI ESTRATEGIAS EM MARKETING LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 1380000.0
+   },
+   {
+    "cnpj": "59177907000173",
+    "nome": "APPC - ANALISE PESQUISA PLANEJAMENTO E CONSULTORIA LTDA",
+    "cnae": "73203",
+    "n_despesas": 2,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 705600.0
+   },
+   {
+    "cnpj": "10620923000108",
+    "nome": "LUCHINA LUCHINA LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 680000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 23,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 470018.0
+   },
+   {
+    "cnpj": "47248920000197",
+    "nome": "POLITICON CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "60931218000191",
+    "nome": "DK CREATIVE SOUND LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 295000.0
+   },
+   {
+    "cnpj": "02227595000148",
+    "nome": "FOX ORIGINAIS GRAFICOS LTDA",
+    "cnae": "58298",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 226535.97
+   },
+   {
+    "cnpj": "79448676000100",
+    "nome": "GRAFICA NOVA FATIMA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 149800.0
+   },
+   {
+    "cnpj": "26549404000122",
+    "nome": "VILA AMERICA SERVICOS DE APOIO ADMINISTRATIVO LTDA.",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 103000.0
+   },
+   {
+    "cnpj": "36582197000161",
+    "nome": "JVS DESENVOLVIMENTO E COMUNICACAO LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "55594310000173",
+    "nome": "LUIZ FREDERICO GALVAO FREIRE",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "17740388000160",
+    "nome": "J. OLIVEIRA TRANSPORTES LTDA",
+    "cnae": "49299",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos",
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 96852.0
+   },
+   {
+    "cnpj": "40384306000103",
+    "nome": "EMPRESA BRASILEIRA DE INT TEC E CIENCIA LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 85000.0
+   },
+   {
+    "cnpj": "09574253000143",
+    "nome": "JOAO CARLOS MARCON",
+    "cnae": "63992",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "50876769000146",
+    "nome": "EMET PROTECAO REPUTACIONAL LTDA",
+    "cnae": "63992",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "32586419000163",
+    "nome": "DANDI COMUNICACOES LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "57050475000100",
+    "nome": "57.050.475 MARCOS ANTONIO DUBAY MIRTES",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 65000.0
+   },
+   {
+    "cnpj": "03839251000152",
+    "nome": "JOSE DOMINGOS LINARES LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 61000.0
+   },
+   {
+    "cnpj": "54313613000108",
+    "nome": "WINN IMPRESSAO DIGITAL LTDA",
+    "cnae": "47130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 60600.0
+   },
+   {
+    "cnpj": "68706095000105",
+    "nome": "GLS STUDIO CRIATIVO PORTAIS DE CONTEUDO NA INTERNET LTDA",
+    "cnae": "62091",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "10420049000157",
+    "nome": "G ZILLI ZILLI LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "12292610000195",
+    "nome": "LEITEQUENTE SERVICOS DE EDICAO LTDA",
+    "cnae": "58212",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "66930065000144",
+    "nome": "SAM INTELIGENCIA ARTIFICIAL LTDA",
+    "cnae": "62031",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "10456683000140",
+    "nome": "COTAIT CIA. LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "58009369000145",
+    "nome": "58.009.369 ANDERSON BRUNO DE SOUZA BRAZ",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "68108443000134",
+    "nome": "68.108.443 THAMIRES DE SANTANA DA TRINDADE",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "74046731000104",
+    "nome": "TAXI AEREO HERCULES LTDA.",
+    "cnae": "51129",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 28853.33
+   },
+   {
+    "cnpj": "20664790000117",
+    "nome": "AMASV ZARPA TRANSMISSAO E ARMAZENAMENTO DE DADOS S.A.",
+    "cnae": "63119",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 24240.0
+   },
+   {
+    "cnpj": "82351727000188",
+    "nome": "CONSTRUTORA ADRIATICA S/A.",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "48747824000156",
+    "nome": "SUL PRINT IMPRESSOES DIGITAIS LTDA",
+    "cnae": "43291",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21600.0
+   },
+   {
+    "cnpj": "68264583000100",
+    "nome": "VERTEX EXPRESS TRANSPORTES LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 14247.0
+   },
+   {
+    "cnpj": "09546840000129",
+    "nome": "OBDI LOCACAO DE VEICULOS LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 13333.33
+   },
+   {
+    "cnpj": "06158377000150",
+    "nome": "CONDOMINIO CENTRO EMPRESARIAL ENGENHEIRO JOSE JOAQUIM",
+    "cnae": "81125",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 5985.12
+   },
+   {
+    "cnpj": "72048432000183",
+    "nome": "BRAVOS ADMINISTRADORA DE BENS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "00675804000190",
+    "nome": "AUTO SOM FRANZOI LTDA",
+    "cnae": "47423",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3300.0
+   },
+   {
+    "cnpj": "31937285000115",
+    "nome": "SABRINAS MASCOTES, COMUNICACAO VISUAL E EVENTOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3300.0
+   },
+   {
+    "cnpj": "84975515000105",
+    "nome": "REFORM-LINE COMERCIO DE MANUFATURADOS LTDA",
+    "cnae": "47547",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "22748778000116",
+    "nome": "ESSENZA COMERCIAL LTDA",
+    "cnae": "47423",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1416.66
+   },
+   {
+    "cnpj": "06268712000172",
+    "nome": "MISCHUR LOCACOES LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "78901915001641",
+    "nome": "POSTOS PELANDA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 745.32
+   },
+   {
+    "cnpj": "41638308000144",
+    "nome": "COLIVAS ADMINISTRADORA DE HOTEIS LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 735.0
+   },
+   {
+    "cnpj": "23716260000163",
+    "nome": "CATUAI MARINGA - COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 655.06
+   },
+   {
+    "cnpj": "07261635000191",
+    "nome": "AUTO POSTO CURITIBANO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 583.85
+   },
+   {
+    "cnpj": "02311845000123",
+    "nome": "GOLDEN INGA HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 556.2
+   },
+   {
+    "cnpj": "78113883000133",
+    "nome": "CENTRO DE TRADICOES GAUCHAS QUERENCIA DA FRONTEIRA",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "46803525000166",
+    "nome": "AUTO POSTO ZAKA CHAMPAGNAT LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 492.98
+   },
+   {
+    "cnpj": "07745113000165",
+    "nome": "CAMPEAO 38 POSTO DE SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 449.37
+   },
+   {
+    "cnpj": "43501695000106",
+    "nome": "AUTO POSTO E.D.I. LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 409.67
+   },
+   {
+    "cnpj": "07783446000189",
+    "nome": "MULTICOPIAS COMERCIO, LOCACAO E SERVICOS DE MAQUINAS LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "35028258000180",
+    "nome": "MENIN COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 362.0
+   },
+   {
+    "cnpj": "00118598000118",
+    "nome": "PANDA COMERCIO DE COMBUSTIVEIS E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 335.37
+   },
+   {
+    "cnpj": "03772122000194",
+    "nome": "POSTO ZAKA PINHAIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 323.46
+   },
+   {
+    "cnpj": "05371149000109",
+    "nome": "FRANCISCO BELTRAO PALACE HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 298.0
+   },
+   {
+    "cnpj": "05013136000150",
+    "nome": "HOTEL SAN PIETRO LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 294.0
+   },
+   {
+    "cnpj": "27272997000195",
+    "nome": "ALPHACORP TECNOLOGIA E PAGAMENTOS S A",
+    "cnae": "66193",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 237.21
+   },
+   {
+    "cnpj": "78148962000180",
+    "nome": "AUTO POSTO ROTTA 400 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 225.11
+   },
+   {
+    "cnpj": "68299055000188",
+    "nome": "LEIA REGINA LIMA DE PAULA SILVA PANIFICADORA LTDA",
+    "cnae": "47211",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 26.4
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 9,
+   "total": 130361.8,
+   "por_tipo": {
+    "Despesas com pessoal": 53000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 61.8,
+    "Serviços prestados por terceiros": 77300.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

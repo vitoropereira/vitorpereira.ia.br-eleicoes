@@ -1,0 +1,198 @@
+{
+ "sq": "250002535959",
+ "nome_urna": "MARIO FRIAS",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2720909.04,
+  "por_origem": {
+   "Recursos de partido político": 2712409.04,
+   "Recursos de pessoas físicas": 8500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1425000.0,
+   "FUNDO PARTIDARIO": 1279727.62,
+   "OUTROS RECURSOS": 16181.42
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2700000.0
+   },
+   {
+    "cnpj": "08701595000114",
+    "nome": "Direção Estadual/Distrital - PL - SÃO PAULO",
+    "total": 12409.04
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 8500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1190561.27,
+  "total_pago": 970972.62,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "46221027000105",
+    "nome": "AGENCIA KR DIGITAL LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "37619311000143",
+    "nome": "MARIA CLARA MONTAGNANA E. LIMA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "49181961000139",
+    "nome": "ESTRATEGIA COMUNICACOES LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "44405247000163",
+    "nome": "SACS ASSESSORIA CONTABIL E AUDITORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "08427246000156",
+    "nome": "TRANSMEGA TRANSPORTES LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 55000.0
+   },
+   {
+    "cnpj": "45843964000130",
+    "nome": "VC FILMES E EVENTOS LTDA",
+    "cnae": "74200",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 53000.0
+   },
+   {
+    "cnpj": "47482848000168",
+    "nome": "PULSA UNIFORMES E CAMISETAS PERSONALIZADAS LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com pessoal",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 41976.0
+   },
+   {
+    "cnpj": "58277207000198",
+    "nome": "MES3 SOLUCOES ADMINISTRATIVAS LTDA",
+    "cnae": "77322",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 18600.0
+   },
+   {
+    "cnpj": "08142850000136",
+    "nome": "WBL GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9919.97
+   },
+   {
+    "cnpj": "02800690000199",
+    "nome": "AUTO POSTO ALINGHI LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5515.1
+   },
+   {
+    "cnpj": "59514314000155",
+    "nome": "59.514.314 RODOLFO NUNES BERNARDO",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2508.8
+   },
+   {
+    "cnpj": "07802029000136",
+    "nome": "ANTONIO PRESTES NETO COMERCIO DE PAPEIS",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1480.0
+   },
+   {
+    "cnpj": "34028316304323",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 926.4
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 98,
+   "total": 366635.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 302000.0,
+    "Despesas com pessoal": 53635.0,
+    "Locação/cessão de bens imóveis": 11000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

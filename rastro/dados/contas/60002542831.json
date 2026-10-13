@@ -1,0 +1,493 @@
+{
+ "sq": "60002542831",
+ "nome_urna": "DRA MAYRA PINHEIRO",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1039070.0,
+  "por_origem": {
+   "Recursos de partido político": 1000000.0,
+   "Recursos de pessoas físicas": 39070.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1000000.0,
+   "OUTROS RECURSOS": 39070.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 26,
+   "total": 39070.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1003439.94,
+  "total_pago": 976845.38,
+  "fornecedores_pj": [
+   {
+    "cnpj": "58549063000181",
+    "nome": "FAYE DIGITAL LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 228000.0
+   },
+   {
+    "cnpj": "55172714000179",
+    "nome": "ACELERE AGENCIA DE MARKETING DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 160000.0
+   },
+   {
+    "cnpj": "32485439000148",
+    "nome": "MELO BASTOS ENGENHARIA E SERVICOS LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 83450.0
+   },
+   {
+    "cnpj": "02933302000148",
+    "nome": "QUALIGRAF - EDITORA E GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 11,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 69835.0
+   },
+   {
+    "cnpj": "41939902000175",
+    "nome": "GTG SEGURANCA E VIGILANCIA LTDA",
+    "cnae": "80111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "51443781000120",
+    "nome": "GT SERVICOS E MAO DE OBRA LTDA",
+    "cnae": "81117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 32500.0
+   },
+   {
+    "cnpj": "43179859000112",
+    "nome": "MILENIUM FRETAMENTO E TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "06534445000138",
+    "nome": "SJ ADMINISTRACAO DE IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 21355.13
+   },
+   {
+    "cnpj": "47066786000103",
+    "nome": "HARMONY SERVICOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "53984553000192",
+    "nome": "RAFAELA PINHEIRO BARBOSA PINTO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15140.0
+   },
+   {
+    "cnpj": "05664436000107",
+    "nome": "TREM DA FANTASIA PASSEIOS TURISTICOS LTDA",
+    "cnae": "93298",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 13520.0
+   },
+   {
+    "cnpj": "59384398000150",
+    "nome": "RK TENDAS VARIEDADES LTDA",
+    "cnae": "47555",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11740.0
+   },
+   {
+    "cnpj": "23616783000138",
+    "nome": "JANDER ALVES JUCA",
+    "cnae": "16293",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "67808111000108",
+    "nome": "GS UNIFORMES PROFISSIONAIS LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4420.0
+   },
+   {
+    "cnpj": "05216504000167",
+    "nome": "A J B CAVALCANTE",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2200.0
+   },
+   {
+    "cnpj": "26298748000106",
+    "nome": "HOTEL ENCOSTA DO HORTO LDTA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "61964671000167",
+    "nome": "61.964.671 NATAIULA DE ALENCAR MADEIRO",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 1170.0
+   },
+   {
+    "cnpj": "07943562000118",
+    "nome": "OLIVEIRA PACHECO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1129.26
+   },
+   {
+    "cnpj": "01139126000104",
+    "nome": "ARTBAN COMERCIO SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "61379654000162",
+    "nome": "61.379.654 RAYANE INACIO DA SILVA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1080.0
+   },
+   {
+    "cnpj": "09297899000120",
+    "nome": "O G DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 700.0
+   },
+   {
+    "cnpj": "08777875000106",
+    "nome": "ANDRE LUIS SPINOZA SANTIAGO",
+    "cnae": "47121",
+    "n_despesas": 4,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 663.0
+   },
+   {
+    "cnpj": "33041260147009",
+    "nome": "GRUPO CASAS BAHIA S.A.",
+    "cnae": "47539",
+    "n_despesas": 1,
+    "tipos": [
+     "Aquisição/Doação de bens móveis ou imóveis"
+    ],
+    "total": 659.0
+   },
+   {
+    "cnpj": "07516090000117",
+    "nome": "BERNARDINO COMERCIAL DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 600.04
+   },
+   {
+    "cnpj": "63374029000234",
+    "nome": "DERIVADOS DE PETROLEO NOSSA SENHORA SANTANA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 577.95
+   },
+   {
+    "cnpj": "29415827000148",
+    "nome": "H P N CHAVES COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 565.56
+   },
+   {
+    "cnpj": "36999206000114",
+    "nome": "LEAL IV COMERCIO DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 550.04
+   },
+   {
+    "cnpj": "44297566000100",
+    "nome": "SILKSIM COMERCIO DE TINTAS E EMBALAGENS SERIGRAFICOS LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 518.0
+   },
+   {
+    "cnpj": "10294187000137",
+    "nome": "HOTEL E RESTAURANTE MARIA BASTOS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 460.0
+   },
+   {
+    "cnpj": "07040108000157",
+    "nome": "COMPANHIA DE AGUA E ESGOTO DO CEARA CAGECE",
+    "cnae": "36006",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 360.44
+   },
+   {
+    "cnpj": "04207279000130",
+    "nome": "LUA PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 297.77
+   },
+   {
+    "cnpj": "52521764000126",
+    "nome": "52.521.764 JOSE RUFINO DA SILVA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 153.0
+   },
+   {
+    "cnpj": "30446228000170",
+    "nome": "MELACO RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 142.99
+   },
+   {
+    "cnpj": "25092715000142",
+    "nome": "PICANHA BAR E RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 139.9
+   },
+   {
+    "cnpj": "54946203000102",
+    "nome": "JC CAMERINO ALIMENTACAO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 41.7
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 40.0
+   },
+   {
+    "cnpj": "04193879000196",
+    "nome": "MULTIDISPLAY COMERCIO E SERVICOS TECNOLOGICOS LTDA.",
+    "cnae": "47521",
+    "n_despesas": 1,
+    "tipos": [
+     "Telefone"
+    ],
+    "total": 35.0
+   },
+   {
+    "cnpj": "12756372000121",
+    "nome": "EMPORIO MARCO POLO COMERCIO DE ALIMENTOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 27.11
+   },
+   {
+    "cnpj": "09614276000134",
+    "nome": "M4 PRODUTOS E SERVICOS LTDA.",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Telefone"
+    ],
+    "total": 25.0
+   },
+   {
+    "cnpj": "60030417000129",
+    "nome": "JRB RESTAURANTE E CHURRASCARIA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 17.9
+   },
+   {
+    "cnpj": "02558157173857",
+    "nome": "TELEFONICA BRASIL S.A.",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Telefone"
+    ],
+    "total": 13.0
+   },
+   {
+    "cnpj": "07033375000105",
+    "nome": "RESTAURANTE CENTRAL DA PICANHA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 13.0
+   },
+   {
+    "cnpj": "35088098000165",
+    "nome": "DU PORTO CERVEJARIA LTDA",
+    "cnae": "11135",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 11.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 35,
+   "total": 234389.15,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 40309.75,
+    "Cessão ou locação de veículos": 26000.0,
+    "Despesas com pessoal": 168015.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 64.4
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

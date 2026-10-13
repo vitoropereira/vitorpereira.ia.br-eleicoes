@@ -1,0 +1,130 @@
+{
+ "sq": "130002539715",
+ "nome_urna": "ANDRÉ JANONES",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "REDE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3024934.0,
+  "por_origem": {
+   "Recursos de partido político": 3000000.0,
+   "Recursos próprios": 24934.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3000000.0,
+   "OUTROS RECURSOS": 24934.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "17981188000107",
+    "nome": "Direção Nacional - REDE",
+    "total": 3000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 24934.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1634654.45,
+  "total_pago": 1689868.85,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 19,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 1314934.0
+   },
+   {
+    "cnpj": "66862693000130",
+    "nome": "MAESTRIA FILMES INTELIGENTES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "18054480000139",
+    "nome": "IA CREATIVE STUDIO TROPICO LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "45179414000168",
+    "nome": "ODJAIR NASCIMENTO BAENA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "21306927000124",
+    "nome": "LINO JR COMERCIO SERVICOS LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 4785.0
+   },
+   {
+    "cnpj": "06894519000147",
+    "nome": "IRMAOS BORBA PUBLICIDADE COMERCIO E SERVICOS LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1840.0
+   },
+   {
+    "cnpj": "09495600000142",
+    "nome": "EDITORA GRAFICA PAULA MOURA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 250.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 27,
+   "total": 119845.45,
+   "por_tipo": {
+    "Despesas com pessoal": 104806.45,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 39.0,
+    "Serviços contábeis": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

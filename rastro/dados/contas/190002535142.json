@@ -1,0 +1,211 @@
+{
+ "sq": "190002535142",
+ "nome_urna": "CARLOS PORTINHO",
+ "cargo": "senador",
+ "uf": "RJ",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 5484889.99,
+  "por_origem": {
+   "Doações pela Internet": 4950.0,
+   "Recursos de partido político": 5250000.0,
+   "Recursos de pessoas físicas": 229939.99
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 5250000.0,
+   "OUTROS RECURSOS": 234889.99
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 5250000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 27,
+   "total": 234889.99
+  }
+ },
+ "despesas": {
+  "total_contratado": 4449771.38,
+  "total_pago": 4318089.73,
+  "fornecedores_pj": [
+   {
+    "cnpj": "66183521000130",
+    "nome": "2026 COMUNICACAO SPE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1650000.0
+   },
+   {
+    "cnpj": "67565691000141",
+    "nome": "D26 COMUNICACAO SPE LTDA.",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1600000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 14,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 290000.0
+   },
+   {
+    "cnpj": "06340575000130",
+    "nome": "MAVIMIX ADESIVOS DECORATIVOS LTDA",
+    "cnae": "47890",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 124545.8
+   },
+   {
+    "cnpj": "37039876000151",
+    "nome": "JMR GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 118310.55
+   },
+   {
+    "cnpj": "11455311000161",
+    "nome": "RRM GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 81198.0
+   },
+   {
+    "cnpj": "53087852000124",
+    "nome": "VERISSIMO QUEIROZ SOLUCOES LTDA.",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "68269115000110",
+    "nome": "ALAN LOPES SANTANA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "03644369000125",
+    "nome": "LOUREIRO E CIA ADMINISTRADORA PATRIMONIAL LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "03515960000182",
+    "nome": "INDUSTRIA GRAFICA E EDITORA FENIX LTDA",
+    "cnae": "58115",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14830.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10045.95
+   },
+   {
+    "cnpj": "10418848000199",
+    "nome": "AUTO POSTO RUI BARBOSA LTDA",
+    "cnae": "47318",
+    "n_despesas": 29,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7133.28
+   },
+   {
+    "cnpj": "43510666000100",
+    "nome": "EG BARROS FRANCO PARTICIPACOES LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4510.0
+   },
+   {
+    "cnpj": "19028175000135",
+    "nome": "GRAFICA-EXPRESS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 454.0
+   },
+   {
+    "cnpj": "35269093000139",
+    "nome": "INOVA PRINT TRES RIOS COMERCIO E SERVICOS LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "49841977000120",
+    "nome": "ACM PAINEIS E LETREIROS LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 320,
+   "total": 388503.8,
+   "por_tipo": {
+    "Despesas com pessoal": 380400.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 303.8,
+    "Locação/cessão de bens imóveis": 7800.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

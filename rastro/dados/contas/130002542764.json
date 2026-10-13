@@ -1,0 +1,270 @@
+{
+ "sq": "130002542764",
+ "nome_urna": "VITÓRIO",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1044134.12,
+  "por_origem": {
+   "Recursos de outros candidatos": 9440.0,
+   "Recursos de partido político": 553594.12,
+   "Recursos de pessoas físicas": 454100.0,
+   "Recursos próprios": 27000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 409440.0,
+   "FUNDO PARTIDARIO": 149983.0,
+   "OUTROS RECURSOS": 484711.12
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 400000.0
+   },
+   {
+    "cnpj": "01327965000156",
+    "nome": "Direção Estadual/Distrital - PP - MINAS GERAIS",
+    "total": 149983.0
+   },
+   {
+    "cnpj": "68468154000146",
+    "nome": "MOACIR MARTINS DA COSTA JUNIOR",
+    "total": 9440.0
+   },
+   {
+    "cnpj": "14545907000140",
+    "nome": "Direção Estadual/Distrital - PSD - MINAS GERAIS",
+    "total": 3611.12
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 20,
+   "total": 481100.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 623741.01,
+  "total_pago": 426592.54,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 94000.0
+   },
+   {
+    "cnpj": "12419108000100",
+    "nome": "ARTES BH DIGITAL LTDA",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19700.0
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 17551.05
+   },
+   {
+    "cnpj": "71031637000193",
+    "nome": "PRATICA EDITORA GRAFICA LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12600.0
+   },
+   {
+    "cnpj": "10894246000108",
+    "nome": "PODIUM IMOVEIS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "19073724000193",
+    "nome": "S H TRANSPORTES LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6800.0
+   },
+   {
+    "cnpj": "05475252000190",
+    "nome": "TRANSPEREIRA TRANSPORTE DE PASSAGEIROS LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4200.0
+   },
+   {
+    "cnpj": "11159741000136",
+    "nome": "CORPORATION NEGOCIOS IMOBILIARIOS, LOCACOES E REPRESENTACOES LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "21324983000191",
+    "nome": "MIL CORES COMERCIAL LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 3984.66
+   },
+   {
+    "cnpj": "64204416000104",
+    "nome": "GMP PUBLICIDADE E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2800.0
+   },
+   {
+    "cnpj": "06141458000147",
+    "nome": "POSTO PODIUM COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 13,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2722.8
+   },
+   {
+    "cnpj": "17903026000142",
+    "nome": "NAVI GESTAO DE IMOVEIS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "05170229000198",
+    "nome": "CARVALHO SILVEIRA ALIMENTOS LTDA",
+    "cnae": "10911",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2020.0
+   },
+   {
+    "cnpj": "01317116000111",
+    "nome": "J.H. GRAFICA EDITORA LTDA",
+    "cnae": "58212",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1980.0
+   },
+   {
+    "cnpj": "26825176000176",
+    "nome": "LIG LOKA LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 1900.0
+   },
+   {
+    "cnpj": "05684180000191",
+    "nome": "COMPANHIA ITABIRANA DE TELECOMUNICACOES LTDA",
+    "cnae": "61906",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1072.0
+   },
+   {
+    "cnpj": "44198565000109",
+    "nome": "RJ POSTO DE COMBUSTIVEL RIBEIRAO DAS NEVES LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 978.31
+   },
+   {
+    "cnpj": "39565567000140",
+    "nome": "BTT TELECOMUNICACOES S.A.",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 499.0
+   },
+   {
+    "cnpj": "11230724000148",
+    "nome": "CHAVEIRO MAX LTDA",
+    "cnae": "95291",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 67.0
+   },
+   {
+    "cnpj": "23597253000190",
+    "nome": "COMPLETA SUPRIMENTOS E SERVICOS LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 19.8
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 335,
+   "total": 434346.39,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 273860.39,
+    "Cessão ou locação de veículos": 78000.0,
+    "Despesas com pessoal": 67686.0,
+    "Locação/cessão de bens imóveis": 4800.0,
+    "Serviços advocatícios": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

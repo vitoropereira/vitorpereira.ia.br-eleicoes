@@ -1,0 +1,101 @@
+{
+ "sq": "130002549952",
+ "nome_urna": "ELISMAR PRADO",
+ "cargo": "depest",
+ "uf": "MG",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1097138.09,
+  "por_origem": {
+   "Recursos de outros candidatos": 45120.0,
+   "Recursos de partido político": 1001818.09,
+   "Recursos de pessoas físicas": 50200.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1045120.0,
+   "OUTROS RECURSOS": 52018.09
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "68519854000112",
+    "nome": "WELITON FERNANDES PRADO",
+    "total": 45120.0
+   },
+   {
+    "cnpj": "14545907000140",
+    "nome": "Direção Estadual/Distrital - PSD - MINAS GERAIS",
+    "total": 1818.09
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 50200.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 192342.37,
+  "total_pago": 97474.99,
+  "fornecedores_pj": [
+   {
+    "cnpj": "63731951000150",
+    "nome": "TOMAZ LISBOA CONFECCAO LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 60160.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "14814282000175",
+    "nome": "RUD PRODUCAO MUSICAL LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "63668393000126",
+    "nome": "63.668.393 ANA CLAUDIA DOS SANTOS OLIVEIRA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 3414.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 45,
+   "total": 108268.37,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 15000.0,
+    "Despesas com pessoal": 91268.37,
+    "Serviços advocatícios": 2000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

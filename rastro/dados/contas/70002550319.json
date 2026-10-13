@@ -1,0 +1,351 @@
+{
+ "sq": "70002550319",
+ "nome_urna": "THIAGO MANZONI",
+ "cargo": "depfed",
+ "uf": "DF",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2483500.0,
+  "por_origem": {
+   "Recursos de partido político": 2250000.0,
+   "Recursos de pessoas físicas": 233500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2250000.0,
+   "OUTROS RECURSOS": 233500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2250000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 47,
+   "total": 233500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1798002.06,
+  "total_pago": 2404780.88,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 383500.0
+   },
+   {
+    "cnpj": "07088620000173",
+    "nome": "F2 MAIS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 140000.0
+   },
+   {
+    "cnpj": "64141498000195",
+    "nome": "QORUN DIGITAL LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 110000.0
+   },
+   {
+    "cnpj": "57487063000131",
+    "nome": "RAYANA MAYOLINO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "68553050000130",
+    "nome": "JOAO RENATO BORGES ABREU",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 58000.0
+   },
+   {
+    "cnpj": "68553240000157",
+    "nome": "RODRIGO AMARAL DANTAS PINHO",
+    "cnae": "94928",
+    "n_despesas": 3,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 56265.0
+   },
+   {
+    "cnpj": "68552982000168",
+    "nome": "VICTOR JANSEN FERREIRA",
+    "cnae": "94928",
+    "n_despesas": 3,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 55850.0
+   },
+   {
+    "cnpj": "67057655000177",
+    "nome": "HG M SERVICOS GRAFICOS LTDA",
+    "cnae": "18211",
+    "n_despesas": 11,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 52565.0
+   },
+   {
+    "cnpj": "68553325000135",
+    "nome": "MARCELO IZIDORO VIEIRA",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 49090.0
+   },
+   {
+    "cnpj": "68552869000182",
+    "nome": "CARLOS EDUARDO ANTUNES TORRES",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "68553333000181",
+    "nome": "ALESSANDRO FABRICIO CLEMENTE PAIVA",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "11145891000190",
+    "nome": "TRANSNISTA - TRANSPORTE DE CARGA PESADA LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 36000.0
+   },
+   {
+    "cnpj": "68552927000178",
+    "nome": "ANNA CARINA SEBBA JANNUZZI",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "68553356000196",
+    "nome": "FERNANDO MOREIRA OLIVIERE CAIXETA",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 29265.0
+   },
+   {
+    "cnpj": "57592455000160",
+    "nome": "DENUCCI DIGITAL MENTORIA E PRODUTOS DIGITAIS LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "68553202000102",
+    "nome": "ALEXANDRE AUGUSTO RODRIGUES ALVES",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "51277463000136",
+    "nome": "MB TECNOLOGIA E SERVICOS PUBLICITARIOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17640.0
+   },
+   {
+    "cnpj": "00306597000105",
+    "nome": "CASCOL COMBUSTIVEIS PARA VEICULOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "68552996000181",
+    "nome": "EVANDRO DE ARAUJO PAULA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "11090695000166",
+    "nome": "A L COMERCIO E REPRESENTACAO LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7884.8
+   },
+   {
+    "cnpj": "35416093000114",
+    "nome": "CONFECCOES CARVALHO LTDA",
+    "cnae": "14126",
+    "n_despesas": 4,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 7690.0
+   },
+   {
+    "cnpj": "68553255000115",
+    "nome": "JOAO ALEXANDRE DE LIMA OLIVEIRA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "23526834000130",
+    "nome": "PACK4YOU COMUNICACAO GRAFICA E EMBALAGENS LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3902.5
+   },
+   {
+    "cnpj": "63902606000132",
+    "nome": "GN INTELLIGENCE TECNOLOGY LTDA",
+    "cnae": "62023",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3900.0
+   },
+   {
+    "cnpj": "06227397000135",
+    "nome": "VERA FRANCILIA GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2670.0
+   },
+   {
+    "cnpj": "00912618000128",
+    "nome": "NOVACIA TELECOMUNICACOES LTDA",
+    "cnae": "61108",
+    "n_despesas": 4,
+    "tipos": [
+     "Telefone"
+    ],
+    "total": 1343.6
+   },
+   {
+    "cnpj": "58706986000108",
+    "nome": "58.706.986 DAVID VIEGAS NETO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "44085776000127",
+    "nome": "DIGIDOOR IMPRESSAO DIGITAL LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 865.0
+   },
+   {
+    "cnpj": "45797273000147",
+    "nome": "D. M. DE OLIVEIRA LTDA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 24.06
+   },
+   {
+    "cnpj": "32793482000170",
+    "nome": "SUPERMERCADO 26 DE SETEMBRO LTDA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 4.49
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 324,
+   "total": 521842.61,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 508780.0,
+    "Combustíveis e lubrificantes": 44.11,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 318.5,
+    "Serviços prestados por terceiros": 12700.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

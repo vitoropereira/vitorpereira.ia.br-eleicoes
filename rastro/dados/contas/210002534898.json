@@ -1,0 +1,183 @@
+{
+ "sq": "210002534898",
+ "nome_urna": "PERONDI",
+ "cargo": "depfed",
+ "uf": "RS",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1105000.0,
+  "por_origem": {
+   "Recursos de partido político": 1000000.0,
+   "Recursos de pessoas físicas": 98000.0,
+   "Recursos próprios": 7000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1000000.0,
+   "OUTROS RECURSOS": 105000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 105000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 336411.33,
+  "total_pago": 571785.95,
+  "fornecedores_pj": [
+   {
+    "cnpj": "88057187000100",
+    "nome": "GRAFICA LAJEADENSE LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 69570.0
+   },
+   {
+    "cnpj": "10338946000205",
+    "nome": "PANTHUS SPORT INDUSTRIA E COMERCIO DE VESTUARIO LTDA",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 31317.0
+   },
+   {
+    "cnpj": "53123924000141",
+    "nome": "53.123.924 JOAO INACIO PRIOR PRIETSCH",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "53851236000106",
+    "nome": "53.851.236 PATRICK DE QUADROS PINHEIRO",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "11445494000134",
+    "nome": "BERETTA PARTICIPACOES LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Aquisição/Doação de bens móveis ou imóveis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "33087367000143",
+    "nome": "33.087.367 MATEUS REYES DE CAMPOS",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "68462703000175",
+    "nome": "F WORK TEXTIL LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "05282433000877",
+    "nome": "ABASTECEDORA MANIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1939.03
+   },
+   {
+    "cnpj": "05282433000605",
+    "nome": "ABASTECEDORA MANIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 996.75
+   },
+   {
+    "cnpj": "08418051000140",
+    "nome": "HOSTCHE INTERATIVIDADE DIGITAL LTDA",
+    "cnae": "63119",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "39340564000290",
+    "nome": "BOQUEIRAO COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 429.23
+   },
+   {
+    "cnpj": "28877126000168",
+    "nome": "ELO COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 256.32
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 42,
+   "total": 142803.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 63500.0,
+    "Despesas com pessoal": 59788.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 15.0,
+    "Locação/cessão de bens imóveis": 4500.0,
+    "Serviços contábeis": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

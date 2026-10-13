@@ -1,0 +1,155 @@
+{
+ "sq": "230002549297",
+ "nome_urna": "ÍTALO OTÁVIO",
+ "cargo": "depfed",
+ "uf": "RR",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1252300.0,
+  "por_origem": {
+   "Recursos de partido político": 1252300.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1022995.66,
+   "FUNDO PARTIDARIO": 229304.34
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 1022995.66
+   },
+   {
+    "cnpj": "08026413000157",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - RORAIMA",
+    "total": 229304.34
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 853485.95,
+  "total_pago": 531765.96,
+  "fornecedores_pj": [
+   {
+    "cnpj": "32679585000104",
+    "nome": "R ANDRADE QUEIROZ LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 500000.0
+   },
+   {
+    "cnpj": "43681152000100",
+    "nome": "A P FREITAS SERVICOS",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "27359974000112",
+    "nome": "INSTITUTO PADRAO DE PESQUISA DE OPINIAO PUBLICA, CONSULTORIA E ASSESSORIA LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "29791180000159",
+    "nome": "MARCOS VELOSO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "12403018000113",
+    "nome": "JAIME DEAN O DE SOUZA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "13186427000178",
+    "nome": "CUNHA E CUNHA COMERCIO DE VEICULOS LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "42836695000196",
+    "nome": "R.M. CARDOSO DA SILVA LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11168.0
+   },
+   {
+    "cnpj": "84041011000100",
+    "nome": "INDUSTRIA E COMERCIO IORIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "36756367000187",
+    "nome": "POSTO CAMPO GRANDE COMERCIO VAREJISTA DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6860.95
+   },
+   {
+    "cnpj": "06983735000169",
+    "nome": "PARIMA LOCACAO BOA VISTA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3096.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 27,
+   "total": 83361.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 9360.0,
+    "Despesas com pessoal": 74000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

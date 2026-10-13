@@ -1,0 +1,116 @@
+{
+ "sq": "30002533718",
+ "nome_urna": "JOÃO PEDRO",
+ "cargo": "depest",
+ "uf": "AP",
+ "partido": "PDT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 424400.0,
+  "por_origem": {
+   "Recursos de partido político": 278400.0,
+   "Recursos de pessoas físicas": 146000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 60000.0,
+   "FUNDO PARTIDARIO": 218400.0,
+   "OUTROS RECURSOS": 146000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00719575000169",
+    "nome": "Direção Nacional - PDT",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "02669787000104",
+    "nome": "Direção Estadual/Distrital - PDT - AMAPÁ",
+    "total": 78400.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 15,
+   "total": 146000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 242416.4,
+  "total_pago": 0.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "64146101000158",
+    "nome": "RZ COMUNICACAO E MARKETING LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "07307290000160",
+    "nome": "J C M COMERCIO E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 33000.0
+   },
+   {
+    "cnpj": "48391087000100",
+    "nome": "MARCOS PIRES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "64999595000113",
+    "nome": "AUTO POSTO RV LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 12916.4
+   },
+   {
+    "cnpj": "10221328000191",
+    "nome": "PRINTGRAF EDITORA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "29276575000113",
+    "nome": "NEW PRINT MIDIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 37000.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 13000.0,
+    "Locação/cessão de bens imóveis": 6000.0,
+    "Serviços prestados por terceiros": 18000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

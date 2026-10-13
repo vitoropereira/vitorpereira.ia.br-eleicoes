@@ -1,0 +1,210 @@
+{
+ "sq": "250002538929",
+ "nome_urna": "MARIANA CONTI",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PSOL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 971565.25,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 38190.0,
+   "Recursos de outros candidatos": 76108.5,
+   "Recursos de partido político": 765616.75,
+   "Recursos de pessoas físicas": 61650.0,
+   "Recursos próprios": 30000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 827484.38,
+   "FUNDO PARTIDARIO": 14240.87,
+   "OUTROS RECURSOS": 129840.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "06954942000195",
+    "nome": "Direção Nacional - PSOL",
+    "total": 762400.42
+   },
+   {
+    "cnpj": "68438015000170",
+    "nome": "SAMIA DE SOUZA BOMFIM",
+    "total": 76108.5
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 38190.0
+   },
+   {
+    "cnpj": "08745772000164",
+    "nome": "Direção Estadual/Distrital - PSOL - SÃO PAULO",
+    "total": 3216.33
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 91650.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 621974.65,
+  "total_pago": 289174.6,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 69000.0
+   },
+   {
+    "cnpj": "15705697000173",
+    "nome": "EVAG COMUNICACAO E TECNOLOGIA LTDA.",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 58000.0
+   },
+   {
+    "cnpj": "05356798000122",
+    "nome": "VIVEIROS DE CASTRO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "28680448000112",
+    "nome": "PANFLETAGEM CAMPINAS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 21986.7
+   },
+   {
+    "cnpj": "32305324000124",
+    "nome": "TAINA PINHELLI",
+    "cnae": "43291",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19080.0
+   },
+   {
+    "cnpj": "37269663000116",
+    "nome": "RAZAO LINEAR ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "47874368000142",
+    "nome": "BONFIM MARKETING DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 12400.0
+   },
+   {
+    "cnpj": "11547561000121",
+    "nome": "M S PROMOCOES E DISTRIBUIDOR DE PANFLETOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "08767796000114",
+    "nome": "K L M JORNAIS REVISTAS LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "07179812000195",
+    "nome": "FERNANDO DE ARAUJO SILVA PUBLICIDADE",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "36505038000163",
+    "nome": "IGC EDITORA CAMPINAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1356.0
+   },
+   {
+    "cnpj": "07996319000168",
+    "nome": "R G P DE ABREU",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 876.99
+   },
+   {
+    "cnpj": "14717699000110",
+    "nome": "ARTES BRASIL COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 360.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 118,
+   "total": 383714.96,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 261278.1,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 44.0,
+    "Serviços prestados por terceiros": 122392.86
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

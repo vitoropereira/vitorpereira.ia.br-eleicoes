@@ -1,0 +1,172 @@
+{
+ "sq": "70002538796",
+ "nome_urna": "HERMETO",
+ "cargo": "distrital",
+ "uf": "DF",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 740426.96,
+  "por_origem": {
+   "Recursos de outros candidatos": 744.3,
+   "Recursos de partido político": 336382.66,
+   "Recursos de pessoas físicas": 343300.0,
+   "Recursos próprios": 60000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 300493.6,
+   "FUNDO PARTIDARIO": 616.66,
+   "OUTROS RECURSOS": 439316.7
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 300000.0
+   },
+   {
+    "cnpj": "02010551000161",
+    "nome": "Direção Estadual/Distrital - MDB - DISTRITO FEDERAL",
+    "total": 36382.66
+   },
+   {
+    "cnpj": "68608545000119",
+    "nome": "CELINA LEAO HIZIM FERREIRA",
+    "total": 744.3
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 87,
+   "total": 403300.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 370532.0,
+  "total_pago": 274207.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "29777237000165",
+    "nome": "AYDE FERREIRA DE ALMEIDA FILHO",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "43672346000149",
+    "nome": "CAPARRIZ RESTAURANTE E DELIVERY LTDA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "09241330000143",
+    "nome": "PAGANELLA ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "62939754000169",
+    "nome": "EPLACE COPIADORA E IMPRESSAO AGIL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11760.0
+   },
+   {
+    "cnpj": "05347458000135",
+    "nome": "PRIMEIRA IGREJA BATISTA NA CANDANGOLANDIA",
+    "cnae": "94910",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "66732433000140",
+    "nome": "R.C COMUNICACAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6100.0
+   },
+   {
+    "cnpj": "24894397000170",
+    "nome": "SUPREMA MOBILIDADE LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "63821845000168",
+    "nome": "CORDEL BUFFET LTDA",
+    "cnae": "74200",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "58938059000105",
+    "nome": "OPTIMIDIA ESTRATEGIAS DIGITAIS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "37153582000156",
+    "nome": "RAIMUNDO NONATO GOMES DE ARAUJO FILHO",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 1500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 129,
+   "total": 217672.0,
+   "por_tipo": {
+    "Despesas com pessoal": 217600.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 72.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

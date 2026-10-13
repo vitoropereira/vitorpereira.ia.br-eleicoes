@@ -1,0 +1,159 @@
+{
+ "sq": "50002532626",
+ "nome_urna": "ANTONIO BRITO",
+ "cargo": "depfed",
+ "uf": "BA",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2530000.0,
+  "por_origem": {
+   "Recursos de partido político": 2500000.0,
+   "Recursos de pessoas físicas": 30000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2500000.0,
+   "OUTROS RECURSOS": 30000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 2500000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 30000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1215588.34,
+  "total_pago": 874305.04,
+  "fornecedores_pj": [
+   {
+    "cnpj": "22312554000167",
+    "nome": "MEGAFONE LIVE MARKETING LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 850000.0
+   },
+   {
+    "cnpj": "11326221000170",
+    "nome": "CHP MARKETING, CRIATIVIDADE E NEGOCIOS LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 104000.0
+   },
+   {
+    "cnpj": "00395342000158",
+    "nome": "AUDIC CONTABILIDADE SOCIEDADE SIMPLES LIMITADA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "10572813000100",
+    "nome": "ABREU ROCHA ADVOGADOS ASSOCIADOS.",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "01208686000173",
+    "nome": "GRAFICA LURIPRESS LTDA",
+    "cnae": "18229",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27450.0
+   },
+   {
+    "cnpj": "12209884000178",
+    "nome": "PONTO 8 WEB COMUNICACAO LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 24390.24
+   },
+   {
+    "cnpj": "00188004000145",
+    "nome": "URANUS 2 COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "03019757000115",
+    "nome": "LOC TUDO LOCACAO E ASSISTENCIA TECNICA LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 10610.0
+   },
+   {
+    "cnpj": "13301412000103",
+    "nome": "SINAL IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 8820.0
+   },
+   {
+    "cnpj": "15191471000100",
+    "nome": "ASSOCIACAO ATLETICA DA BAHIA",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "54561473000197",
+    "nome": "ACIMA COMUNICACAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 800.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 4,
+   "total": 77518.1,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 18.1,
+    "Locação/cessão de bens imóveis": 77500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

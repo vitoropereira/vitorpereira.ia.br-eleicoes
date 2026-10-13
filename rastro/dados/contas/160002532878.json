@@ -1,0 +1,199 @@
+{
+ "sq": "160002532878",
+ "nome_urna": "DELEGADO MATHEUS LAIOLA",
+ "cargo": "depfed",
+ "uf": "PR",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2729898.5,
+  "por_origem": {
+   "Recursos de partido político": 2679898.5,
+   "Recursos de pessoas físicas": 50000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2660566.5,
+   "FUNDO PARTIDARIO": 19332.0,
+   "OUTROS RECURSOS": 50000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 2660566.5
+   },
+   {
+    "cnpj": "45801710000159",
+    "nome": "Direção Estadual/Distrital - UNIÃO - PARANÁ",
+    "total": 19332.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 50000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1413736.88,
+  "total_pago": 1356879.88,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 13,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 894200.0
+   },
+   {
+    "cnpj": "37056169000173",
+    "nome": "SAM PROMOCOES E SERVICOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 149894.8
+   },
+   {
+    "cnpj": "66787164000119",
+    "nome": "AKM METRICS LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 51000.0
+   },
+   {
+    "cnpj": "10416174000193",
+    "nome": "GRAFICA E EDITORA GRAFBELLO LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 50100.0
+   },
+   {
+    "cnpj": "24483965000140",
+    "nome": "LOJA DOCE PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 42000.0
+   },
+   {
+    "cnpj": "49758388000183",
+    "nome": "ESPACO PLAZA TARUMA LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 20970.0
+   },
+   {
+    "cnpj": "10515156000169",
+    "nome": "E. L. FELIPE FELIPE LTDA",
+    "cnae": "58298",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 20250.0
+   },
+   {
+    "cnpj": "10289458000166",
+    "nome": "IDEOPROMO LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 13923.58
+   },
+   {
+    "cnpj": "32720174000115",
+    "nome": "KW ESTAMPAS LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6250.0
+   },
+   {
+    "cnpj": "43134690000184",
+    "nome": "SGSB COMUNICACAO VISUAL LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "49765312000185",
+    "nome": "49.765.312 WANDERLEY WAGNER CAETANO DA LUZ",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "45963031000186",
+    "nome": "JOHNY MONDADORI",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 1317.0
+   },
+   {
+    "cnpj": "08047931000157",
+    "nome": "ESTUDIO AUDIO STAMP LTDA.",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1250.0
+   },
+   {
+    "cnpj": "10383410000112",
+    "nome": "CRIS BALOES EVENTOS E DECORACOES LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 550.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 70,
+   "total": 154931.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 115750.0,
+    "Despesas com pessoal": 23500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 31.5,
+    "Eventos de promoção da candidatura": 650.0,
+    "Serviços próprios prestados por terceiros": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

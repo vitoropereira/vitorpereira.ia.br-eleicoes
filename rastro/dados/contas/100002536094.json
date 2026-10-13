@@ -1,0 +1,122 @@
+{
+ "sq": "100002536094",
+ "nome_urna": "JUNIOR LOURENÇO",
+ "cargo": "depfed",
+ "uf": "MA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2864500.0,
+  "por_origem": {
+   "Recursos de partido político": 2850000.0,
+   "Recursos de pessoas físicas": 2000.0,
+   "Recursos próprios": 12500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2850000.0,
+   "OUTROS RECURSOS": 14500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 2850000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 14500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1638400.5,
+  "total_pago": 1212017.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "62196781000199",
+    "nome": "ALESSON H R FERREIRA PUBLICIDADE",
+    "cnae": "73114",
+    "n_despesas": 3,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 450000.0
+   },
+   {
+    "cnpj": "68456113000130",
+    "nome": "GUILHERME FONSECA PAZ",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 430000.0
+   },
+   {
+    "cnpj": "68456073000126",
+    "nome": "GLEYDSON RESENDE DA SILVA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 400000.0
+   },
+   {
+    "cnpj": "17668873000170",
+    "nome": "ERIC GUIMARAES ARAUJO",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 109400.0
+   },
+   {
+    "cnpj": "27549762000106",
+    "nome": "PLINIO OLIVEIRA CONTABILIDADE E ASSESSORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 90000.0
+   },
+   {
+    "cnpj": "09181344000119",
+    "nome": "DANIEL LEITE ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "35158716000104",
+    "nome": "CRISLENA INDUSTRIA E COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 60000.5,
+   "por_tipo": {
+    "Despesas com pessoal": 10000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5,
+    "Locação/cessão de bens imóveis": 50000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,347 @@
+{
+ "sq": "60002536977",
+ "nome_urna": "CARMELO NETO",
+ "cargo": "depfed",
+ "uf": "CE",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3175000.0,
+  "por_origem": {
+   "Recursos de partido político": 3000000.0,
+   "Recursos de pessoas físicas": 175000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1500000.0,
+   "FUNDO PARTIDARIO": 1500000.0,
+   "OUTROS RECURSOS": 175000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 175000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 687985.96,
+  "total_pago": 693998.86,
+  "fornecedores_pj": [
+   {
+    "cnpj": "56066899000108",
+    "nome": "BRAVURA COMUNICACAO E PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 142500.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "02933302000148",
+    "nome": "QUALIGRAF - EDITORA E GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 13,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 96175.0
+   },
+   {
+    "cnpj": "28806845000198",
+    "nome": "VR PARTICIPACOES E PATRIMONIO S.A.",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 56256.24
+   },
+   {
+    "cnpj": "47066786000103",
+    "nome": "HARMONY SERVICOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 27500.0
+   },
+   {
+    "cnpj": "26717584000104",
+    "nome": "TENORIO, MENEZES FREITAS ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "03977401000194",
+    "nome": "CASABLANCA RENT A CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 22750.0
+   },
+   {
+    "cnpj": "39414549000249",
+    "nome": "GUARDERIA SELFSTORAGE LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 17720.0
+   },
+   {
+    "cnpj": "50156346000151",
+    "nome": "MASTER TAG ROTULOS ETIQUETAS E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17500.0
+   },
+   {
+    "cnpj": "52199046000185",
+    "nome": "CITILOC SERVICOS E ESTRUTURAS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 16500.0
+   },
+   {
+    "cnpj": "34797260000151",
+    "nome": "FRANCISCO SAMUEL ALVES GRANGEIRO",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 16200.0
+   },
+   {
+    "cnpj": "34028316234791",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 5850.86
+   },
+   {
+    "cnpj": "11006687000199",
+    "nome": "VIA SUL COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4690.45
+   },
+   {
+    "cnpj": "40259658000137",
+    "nome": "NORDESTE EMPREENDIMENTOS IMPORTACAO E EXPORTACAO DE PRODUTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4400.0
+   },
+   {
+    "cnpj": "32996245000107",
+    "nome": "PAPAI TUR CONSULTORIA E VIAGENS LTDA",
+    "cnae": "79112",
+    "n_despesas": 3,
+    "tipos": [
+     "Passagem Aérea"
+    ],
+    "total": 3275.0
+   },
+   {
+    "cnpj": "48505604000116",
+    "nome": "CB SIGNS COMUNICACAO VISUAL E IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2955.8
+   },
+   {
+    "cnpj": "04963686000177",
+    "nome": "PROSERVICE COMERCIO E SERVICOS LTDA",
+    "cnae": "77331",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2925.0
+   },
+   {
+    "cnpj": "55258330000173",
+    "nome": "UNNO HITS LTDA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 2843.5
+   },
+   {
+    "cnpj": "10939906000120",
+    "nome": "RCI COMERCIO E SERVICOS LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2300.0
+   },
+   {
+    "cnpj": "14209446000135",
+    "nome": "LBM PLANEJAR MOVEIS PARA ESCRITORIO LTDA",
+    "cnae": "47547",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "08352947000173",
+    "nome": "MIL COMERCIO DE EMBALAGENS LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 2088.4
+   },
+   {
+    "cnpj": "41605313000150",
+    "nome": "RENATA LYGIA CAMARA COLARES",
+    "cnae": "37029",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "36768574000151",
+    "nome": "AMORIM PETROLEO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1203.88
+   },
+   {
+    "cnpj": "04634517000193",
+    "nome": "TIANGUA PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "08278878000103",
+    "nome": "MARCIO GOMES MELO LTDA",
+    "cnae": "17419",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 412.3
+   },
+   {
+    "cnpj": "72503568000136",
+    "nome": "SACO-PLAST COMERCIO E REPRESENTACOES DE EMBALAGENS LTDA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 405.0
+   },
+   {
+    "cnpj": "07652439000148",
+    "nome": "PROCOPY COMERCIO E SERVICOS DE COPIADORAS LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 270.0
+   },
+   {
+    "cnpj": "56040133000146",
+    "nome": "INDUSTRIA DE AGUAS REALEZA LTDA",
+    "cnae": "11216",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 180.0
+   },
+   {
+    "cnpj": "30570908000100",
+    "nome": "FORT UP DISTRIBUIDORA LTDA",
+    "cnae": "47610",
+    "n_despesas": 3,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 57.73
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 66,
+   "total": 111626.8,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 30640.0,
+    "Cessão ou locação de veículos": 1400.0,
+    "Despesas com pessoal": 46016.0,
+    "Despesas com transporte ou deslocamento": 29000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 115.8,
+    "Locação/cessão de bens móveis (exceto veículos)": 4455.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

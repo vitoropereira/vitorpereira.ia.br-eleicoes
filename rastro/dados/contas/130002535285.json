@@ -1,0 +1,259 @@
+{
+ "sq": "130002535285",
+ "nome_urna": "PEDRO ROUSSEFF",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1564352.51,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 669.0,
+   "Recursos de partido político": 1040480.0,
+   "Recursos de pessoas físicas": 445203.51,
+   "Recursos próprios": 78000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 990500.0,
+   "FUNDO PARTIDARIO": 49980.0,
+   "OUTROS RECURSOS": 523872.51
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1040480.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 669.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 27,
+   "total": 523203.51
+  }
+ },
+ "despesas": {
+  "total_contratado": 977874.89,
+  "total_pago": 1030973.89,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 675900.0
+   },
+   {
+    "cnpj": "24989958000115",
+    "nome": "DIAS ROCHA CIA LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 36662.5
+   },
+   {
+    "cnpj": "16840118000168",
+    "nome": "AMO IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "46816121000107",
+    "nome": "ARTE LIVRE LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19050.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos",
+     "Diversas a especificar"
+    ],
+    "total": 13798.67
+   },
+   {
+    "cnpj": "42420213000112",
+    "nome": "VERAZ CULTURA E COMERCIO LTDA",
+    "cnae": "90035",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "65120106000174",
+    "nome": "SUBLIMACAO EXPRESSA LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9385.0
+   },
+   {
+    "cnpj": "03284796000140",
+    "nome": "ASTER GRAF LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5445.0
+   },
+   {
+    "cnpj": "27114942000157",
+    "nome": "PATRICONT LEGALIZA - CONTABILIDADE E CORRETORA DE SEGUROS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "34028316363338",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 4943.2
+   },
+   {
+    "cnpj": "10863221000147",
+    "nome": "IMPRESS EDITORA E GRAFICA LTDA",
+    "cnae": "58115",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4574.0
+   },
+   {
+    "cnpj": "11288907000114",
+    "nome": "G.G LOCADORA DE VEICULOS E SERVICOS LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "05462748000120",
+    "nome": "POSTO VILA NOSSA SENHORA DE FATIMA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3026.2
+   },
+   {
+    "cnpj": "14360305000119",
+    "nome": "PAROS NEGOCIOS IMOBILIARIOS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "09264555000115",
+    "nome": "IMAGEM EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2987.0
+   },
+   {
+    "cnpj": "55616872000170",
+    "nome": "MULTI PRINT PROMOCIONAL PDV E BRINDES LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1725.0
+   },
+   {
+    "cnpj": "25527973000104",
+    "nome": "25.527.973 KARINA DIAS DA SILVA",
+    "cnae": "58131",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 850.0
+   },
+   {
+    "cnpj": "16517193000192",
+    "nome": "GTE LOCADORA TURISTICA LTDA",
+    "cnae": "49221",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "17595372000100",
+    "nome": "PASSARO VERDE EXPRESS LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 154.5
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 23.32
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 54,
+   "total": 157550.5,
+   "por_tipo": {
+    "Despesas com pessoal": 152519.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 31.5,
+    "Serviços advocatícios": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

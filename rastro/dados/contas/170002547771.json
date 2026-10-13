@@ -1,0 +1,380 @@
+{
+ "sq": "170002547771",
+ "nome_urna": "MARÍLIA ARRAES",
+ "cargo": "senador",
+ "uf": "PE",
+ "partido": "PDT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 4437000.0,
+  "por_origem": {
+   "Recursos de partido político": 4392000.0,
+   "Recursos de pessoas físicas": 5000.0,
+   "Recursos próprios": 40000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 4000000.0,
+   "FUNDO PARTIDARIO": 392000.0,
+   "OUTROS RECURSOS": 45000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00719575000169",
+    "nome": "Direção Nacional - PDT",
+    "total": 4380000.0
+   },
+   {
+    "cnpj": "08089690000109",
+    "nome": "Direção Estadual/Distrital - PDT - PERNAMBUCO",
+    "total": 12000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 45000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2461179.0,
+  "total_pago": 1877033.66,
+  "fornecedores_pj": [
+   {
+    "cnpj": "03227771000295",
+    "nome": "NAHSOM VIDEO PRODUCOES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 470000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 11,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 239986.0
+   },
+   {
+    "cnpj": "11849437000110",
+    "nome": "IPESPE INST DE PESQUISAS SOCIAIS POLITICAS E ECONOMICAS",
+    "cnae": "72207",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "27279467000179",
+    "nome": "ANGELICA C PEREIRA",
+    "cnae": "74200",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 150825.0
+   },
+   {
+    "cnpj": "36485306000122",
+    "nome": "ALEXANDRE JORDAO DE PAIVA LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 90000.0
+   },
+   {
+    "cnpj": "13933686000115",
+    "nome": "MARCELO T DOS REIS PIMENTEL CONSULTORIA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "58283279000148",
+    "nome": "58.283.279 JULIANA GOMES CARDOSO",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "11671739000141",
+    "nome": "RIVALDO VILA NOVA DE MIRANDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "13292885000191",
+    "nome": "VDL EMPREENDIMENTOS E SERVICOS LTDA",
+    "cnae": "70204",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 58050.0
+   },
+   {
+    "cnpj": "26057932000164",
+    "nome": "PRODUZ AUDIO SERVICOS LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 55000.0
+   },
+   {
+    "cnpj": "47774461000185",
+    "nome": "ALAVANTU SONS E IDEIAS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 55000.0
+   },
+   {
+    "cnpj": "63064269000151",
+    "nome": "MARCELO EMERSON DE SOUZA PINTO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 55000.0
+   },
+   {
+    "cnpj": "17657193000150",
+    "nome": "17.657.193 JAILSON SIQUEIRA DO NASCIMENTO",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "29029520000109",
+    "nome": "29.029.520 KALINA KELLI SANTOS SOUZA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68586278000126",
+    "nome": "LINDA CRISTINA MELENDEZ YANEZ LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 48000.0
+   },
+   {
+    "cnpj": "59632744000171",
+    "nome": "59.632.744 EDER DAIMLER AGUIAR DEO",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "29067856000166",
+    "nome": "DB LAB LTDA",
+    "cnae": "74102",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 41000.0
+   },
+   {
+    "cnpj": "30305232000119",
+    "nome": "KARINE O. DE MENEZES PRODUCOES CULTURAIS",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "33851337000161",
+    "nome": "A R A BEZERRA ASSESSORIA E CONSULTORIA CONTABIL E FINANCEIRA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "38535113000164",
+    "nome": "K2K FILMES LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "52036459000149",
+    "nome": "52.036.459 IGOR CARNEIRO VILACA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "60907240000104",
+    "nome": "60.907.240 DANIELLA BARROS SILVA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "64374982000164",
+    "nome": "IANA MERISSE DE MIRANDA HENRIQUES PRODUCOES",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "10976189000106",
+    "nome": "BEZERRA MEDEIROS SANTOS ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 31500.0
+   },
+   {
+    "cnpj": "60569192000183",
+    "nome": "60.569.192 THAIS BATISTA DE OLIVEIRA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "33642171000173",
+    "nome": "ANNELIESE PIRES FERREIRA DE OLIVEIRA",
+    "cnae": "96025",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "34141313000181",
+    "nome": "34.141.313 ANA LUIZA PEREIRA DE SANTANA DUARTE",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "04165330000198",
+    "nome": "CALDAS SERVICOS FOTOGRAFICOS LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "16445845000120",
+    "nome": "ALENCAR GRAFICA, EDITORA, COPIADORA E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15045.0
+   },
+   {
+    "cnpj": "60313850000171",
+    "nome": "60.313.850 CRYSLI LARISSA VIANA DE MELO",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "20664790000117",
+    "nome": "AMASV ZARPA TRANSMISSAO E ARMAZENAMENTO DE DADOS S.A.",
+    "cnae": "63119",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2640.0
+   },
+   {
+    "cnpj": "19840864000140",
+    "nome": "CAMPELO COMUNICACAO ARTE LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 745.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 228,
+   "total": 213388.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 123040.0,
+    "Cessão ou locação de veículos": 18500.0,
+    "Despesas com pessoal": 41580.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 268.0,
+    "Locação/cessão de bens imóveis": 30000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

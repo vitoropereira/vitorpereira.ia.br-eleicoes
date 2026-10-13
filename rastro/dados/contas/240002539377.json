@@ -1,0 +1,333 @@
+{
+ "sq": "240002539377",
+ "nome_urna": "RICARDO GUIDI",
+ "cargo": "depfed",
+ "uf": "SC",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3026100.0,
+  "por_origem": {
+   "Recursos de partido político": 3000000.0,
+   "Recursos de pessoas físicas": 26100.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3000000.0,
+   "OUTROS RECURSOS": 26100.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 26100.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2473004.79,
+  "total_pago": 1505678.2,
+  "fornecedores_pj": [
+   {
+    "cnpj": "88625181003965",
+    "nome": "ASSOCIACAO LITERARIA SAO BOAVENTURA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 95083.0
+   },
+   {
+    "cnpj": "22450881000185",
+    "nome": "REDBLUE ESTAMPARIA E ACABAMENTOS LTDA",
+    "cnae": "13405",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 94350.0
+   },
+   {
+    "cnpj": "03742263000164",
+    "nome": "GRAFICA E EDITORA COCAL LTDA",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 86011.7
+   },
+   {
+    "cnpj": "57457885000170",
+    "nome": "PONTO 48 LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "68438247000128",
+    "nome": "LEANDRO SORGATO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "50476038000103",
+    "nome": "FLEX IMPRESSOES LTDA",
+    "cnae": "73190",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 44652.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 36000.0
+   },
+   {
+    "cnpj": "75891291000154",
+    "nome": "OTOMAR GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24300.0
+   },
+   {
+    "cnpj": "22046974000149",
+    "nome": "FABIO JEREMIAS ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "65465087000118",
+    "nome": "PIERRE VANDERLINDE SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "65527578000146",
+    "nome": "65.527.578 LEONARDO HOMEM GONCALVES",
+    "cnae": "74200",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 22475.0
+   },
+   {
+    "cnpj": "97553850000159",
+    "nome": "VILLA CELIMONTANA INCORPORACOES LTDA.",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 18750.0
+   },
+   {
+    "cnpj": "28516065000103",
+    "nome": "OBJ MULTIMARCAS LTDA",
+    "cnae": "45111",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15003.0
+   },
+   {
+    "cnpj": "32579027000177",
+    "nome": "VCB CONTABILIDADE E GESTAO EMPRESARIAL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "03923774000182",
+    "nome": "PRINT PROPAGANDA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 14250.0
+   },
+   {
+    "cnpj": "51452040000105",
+    "nome": "VAM VEICULOS E SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 14167.0
+   },
+   {
+    "cnpj": "34930723000101",
+    "nome": "ZCA SERVICOS GRAFICOS LTDA",
+    "cnae": "58115",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 13680.0
+   },
+   {
+    "cnpj": "27742955000170",
+    "nome": "COMERCIO DE COMBUSTIVEIS SAO PEDRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 47,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 12172.29
+   },
+   {
+    "cnpj": "03508042000126",
+    "nome": "ILHA BRINDES COMERCIO DE BRINDES LTDA",
+    "cnae": "46893",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "47425067000131",
+    "nome": "MACHADO INDUSTRIA GRAFICA LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 9500.0
+   },
+   {
+    "cnpj": "44133187000177",
+    "nome": "44.133.187 VINICIUS MENDES DA PAZ",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "10468293000190",
+    "nome": "GRAFICA E EDITORA GUEDIN LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5471.6
+   },
+   {
+    "cnpj": "15479092000101",
+    "nome": "MURALHA FILMES LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 4800.0
+   },
+   {
+    "cnpj": "01307671000162",
+    "nome": "GRAFICA AMBROSIO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "29989286000161",
+    "nome": "AGENCIA LEIDOW LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 1435.2
+   },
+   {
+    "cnpj": "00369029000145",
+    "nome": "DISK CARIMBOS INDUSTRIA E COMERCIO LTDA",
+    "cnae": "22196",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 180.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 252,
+   "total": 1736924.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 1689800.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 124.0,
+    "Locação/cessão de bens imóveis": 8000.0,
+    "Serviços prestados por terceiros": 39000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

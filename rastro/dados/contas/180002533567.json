@@ -1,0 +1,252 @@
+{
+ "sq": "180002533567",
+ "nome_urna": "JANAINNA MARQUES",
+ "cargo": "depest",
+ "uf": "PI",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1151862.19,
+  "por_origem": {
+   "Recursos de partido político": 1019750.0,
+   "Recursos de pessoas físicas": 132112.19
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1000000.0,
+   "FUNDO PARTIDARIO": 19750.0,
+   "OUTROS RECURSOS": 132112.19
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "07473085000174",
+    "nome": "Direção Estadual/Distrital - PT - PIAUÍ",
+    "total": 19750.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 27,
+   "total": 132112.19
+  }
+ },
+ "despesas": {
+  "total_contratado": 445473.37,
+  "total_pago": 1071161.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "19752891000160",
+    "nome": "GREEN LTDA",
+    "cnae": "43991",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 66379.74
+   },
+   {
+    "cnpj": "17599628000158",
+    "nome": "A3 M1 LTDA",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 50250.0
+   },
+   {
+    "cnpj": "55872187000105",
+    "nome": "V S ROCHA LTDA",
+    "cnae": "82300",
+    "n_despesas": 3,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "06305943000109",
+    "nome": "CLOSE AUDIOVISUAL LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "10308997000103",
+    "nome": "HALLEY SA GRAFICA E EDITORA",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 31565.0
+   },
+   {
+    "cnpj": "20291747000153",
+    "nome": "WALLYSON SOARES DOS ANJOS SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "55669263000180",
+    "nome": "55.669.263 FRANCINILDA LOPES DE SOUSA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 12250.0
+   },
+   {
+    "cnpj": "03069763000420",
+    "nome": "POSTO HIDROLANDIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9999.96
+   },
+   {
+    "cnpj": "32917276000125",
+    "nome": "LESTE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9500.0
+   },
+   {
+    "cnpj": "43866707000198",
+    "nome": "MBX SOLUCOES INTEGRADAS LTDA",
+    "cnae": "77390",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 8700.0
+   },
+   {
+    "cnpj": "13912374000125",
+    "nome": "R F C CARVALHO LTDA",
+    "cnae": "45200",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "10175042000117",
+    "nome": "REI GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5600.0
+   },
+   {
+    "cnpj": "04216175000191",
+    "nome": "NACIONAL COMERCIO DE PETROLEO E DERIVADOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4397.4
+   },
+   {
+    "cnpj": "06157058000120",
+    "nome": "E. M. FILHO CIA. LTDA",
+    "cnae": "47849",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1703.1
+   },
+   {
+    "cnpj": "05510557000196",
+    "nome": "ASSOCIACAO ATLETICA DO BANCO DO BRASIL",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "29982901000108",
+    "nome": "SMNET INFORMATICA E TELECOMUNICACOES LTDA",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "86913951000177",
+    "nome": "R SILVA E SOUSA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 350.0
+   },
+   {
+    "cnpj": "11618238000100",
+    "nome": "NO MUNDO DO LIVRO LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Materiais de expediente"
+    ],
+    "total": 75.95
+   },
+   {
+    "cnpj": "31838128002287",
+    "nome": "DISTRIBUICAO DE ALIMENTOS VANGUARDA S/A",
+    "cnae": "47113",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 43.72
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 15,
+   "total": 118658.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 29500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 26.6,
+    "Locação/cessão de bens imóveis": 20000.0,
+    "Publicidade por carros de som": 4500.0,
+    "Serviços contábeis": 30000.0,
+    "Serviços próprios prestados por terceiros": 34631.9
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

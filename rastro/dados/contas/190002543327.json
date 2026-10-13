@@ -1,0 +1,148 @@
+{
+ "sq": "190002543327",
+ "nome_urna": "LEONEL DE ESQUERDA",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 483222.51,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 1195.0,
+   "Recursos de partido político": 145100.0,
+   "Recursos de pessoas físicas": 312477.51,
+   "Recursos próprios": 24450.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 145100.0,
+   "OUTROS RECURSOS": 338122.51
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 145100.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 1195.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 33,
+   "total": 336927.51
+  }
+ },
+ "despesas": {
+  "total_contratado": 196051.71,
+  "total_pago": 164139.21,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 15,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 126121.26
+   },
+   {
+    "cnpj": "07446384000110",
+    "nome": "FAGUNDES ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "00971215000150",
+    "nome": "3 GRAPH GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12390.0
+   },
+   {
+    "cnpj": "26642855000100",
+    "nome": "CASTRO, VIEIRA E FERREIRA CONTADORES ELEITORAIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 3442.5
+   },
+   {
+    "cnpj": "64459169000197",
+    "nome": "64.459.169 THIAGO DO CARMO PEREIRA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "34153197000110",
+    "nome": "SINDICATO DOS TRABALHADORES EM RADIO TELEVISAO E MULTIMIDIA DO RIO DE JANEIRO (SINDMIDIA RJ)",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "10827209000187",
+    "nome": "ONDS IND E COM DE ROUPAS E ACESSORIOS LTDA ME",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 880.0
+   },
+   {
+    "cnpj": "04267598000130",
+    "nome": "STUDIO GRAFICO E EDITORA GOOL DE PLACA LTDA",
+    "cnae": "18211",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 310.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 23.75
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 17,
+   "total": 34384.2,
+   "por_tipo": {
+    "Despesas com pessoal": 34350.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 34.2
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

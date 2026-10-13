@@ -1,0 +1,187 @@
+{
+ "sq": "20002553253",
+ "nome_urna": "LUCAS BARBOSA",
+ "cargo": "depest",
+ "uf": "AL",
+ "partido": "PSDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 466000.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 366000.0,
+   "Recursos próprios": 100000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 466000.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 19,
+   "total": 466000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 766226.83,
+  "total_pago": 8290.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "08207295000183",
+    "nome": "JACKSON LEITE DA SILVA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 160000.0
+   },
+   {
+    "cnpj": "07270919000144",
+    "nome": "GOMES PEREIRA ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "45751316000153",
+    "nome": "TERRA MIDIA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por carros de som"
+    ],
+    "total": 61450.0
+   },
+   {
+    "cnpj": "14876708000115",
+    "nome": "NOGUEIRA, ALBUQUERQUE E FREIRE ASSOCIADOS S/S",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "13137478000100",
+    "nome": "RAFAEL BARBOSA DE OLIVEIRA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 15300.0
+   },
+   {
+    "cnpj": "41480855000144",
+    "nome": "CARLOS A DOS S FARIAS GRAFICA E EDITORA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "08461170000185",
+    "nome": "POSTO ATLANTIC CONFIANCA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6913.49
+   },
+   {
+    "cnpj": "06991581000157",
+    "nome": "AMJ COMERCIO DISTRIBUIDORA LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 5997.24
+   },
+   {
+    "cnpj": "05352714000182",
+    "nome": "MARIA DAMASCENO DE FARIAS SERVICOS",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5850.0
+   },
+   {
+    "cnpj": "42730356000120",
+    "nome": "SUPER GRAFICA EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "35921340000130",
+    "nome": "WOULTHAMBERG RODRIGUES DOS SANTOS",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "33359490000176",
+    "nome": "F MARTINS DE OLIVEIRA PUBLICIDADE",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 585.0
+   },
+   {
+    "cnpj": "49514127000118",
+    "nome": "SOU IMAGEM IMPRESSAO DIGITAL COMUNICACAO VISUAL E OUTDOOR LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 507.0
+   },
+   {
+    "cnpj": "06125169000154",
+    "nome": "LIVRARIA E PAPELARIA CENTRAL LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 90.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 92,
+   "total": 320934.1,
+   "por_tipo": {
+    "Alimentação": 8209.0,
+    "Atividades de militância e mobilização de rua": 170830.0,
+    "Despesas com pessoal": 28140.0,
+    "Despesas com transporte ou deslocamento": 83755.1,
+    "Locação/cessão de bens imóveis": 10000.0,
+    "Publicidade por carros de som": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

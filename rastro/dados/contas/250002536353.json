@@ -1,0 +1,205 @@
+{
+ "sq": "250002536353",
+ "nome_urna": "THOMAZ HENRIQUE",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 626220.15,
+  "por_origem": {
+   "Recursos de outros candidatos": 82600.0,
+   "Recursos de partido político": 512409.05,
+   "Recursos de pessoas físicas": 29211.1,
+   "Recursos próprios": 2000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 582600.0,
+   "FUNDO PARTIDARIO": 4727.64,
+   "OUTROS RECURSOS": 38892.51
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 500000.0
+   },
+   {
+    "cnpj": "68353165000180",
+    "nome": "LUCAS PAVANATO DE OLIVEIRA",
+    "total": 82600.0
+   },
+   {
+    "cnpj": "08701595000114",
+    "nome": "Direção Estadual/Distrital - PL - SÃO PAULO",
+    "total": 12409.05
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 31211.1
+  }
+ },
+ "despesas": {
+  "total_contratado": 334017.03,
+  "total_pago": 90870.6,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 47775.0
+   },
+   {
+    "cnpj": "35344205000179",
+    "nome": "PROF LABS LTDA.",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "19026131000176",
+    "nome": "PUBLISOM SONORIZACAO E DISTRIBUICAO DE MATERIAL PUBLICITARIO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "10386377000184",
+    "nome": "VITA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 16,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9576.0
+   },
+   {
+    "cnpj": "38154000000119",
+    "nome": "AUT LOC LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5113.25
+   },
+   {
+    "cnpj": "64808134000116",
+    "nome": "64.808.134 NAIN SARKIS AFIF SOBRINHO",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3745.0
+   },
+   {
+    "cnpj": "61286413000179",
+    "nome": "61.286.413 LUCAS NASCIMENTO PEREIRA DA SILVA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "26022481000120",
+    "nome": "26.022.481 MARIA GORETTI TAVARES DA SILVA",
+    "cnae": "13405",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2480.0
+   },
+   {
+    "cnpj": "26264100000119",
+    "nome": "MIDIAS INTELIGENTES COMERCIAL LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "21068615000120",
+    "nome": "LIFE INFORMA LTDA",
+    "cnae": "58131",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1300.0
+   },
+   {
+    "cnpj": "43283811004902",
+    "nome": "KALUNGA SA",
+    "cnae": "47610",
+    "n_despesas": 3,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1184.8
+   },
+   {
+    "cnpj": "18133378000129",
+    "nome": "REVISTA URBANOVA LTDA",
+    "cnae": "58131",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 960.0
+   },
+   {
+    "cnpj": "02114905000118",
+    "nome": "AUTO POSTO CHAPARRAL SAO JOSE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 935.48
+   },
+   {
+    "cnpj": "08142850000136",
+    "nome": "WBL GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 320.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 87,
+   "total": 225827.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 197825.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.5,
+    "Locação/cessão de bens imóveis": 16000.0,
+    "Serviços advocatícios": 12000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

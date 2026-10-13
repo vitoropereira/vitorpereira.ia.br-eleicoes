@@ -1,0 +1,145 @@
+{
+ "sq": "150002548945",
+ "nome_urna": "TANILSON SOARES",
+ "cargo": "depest",
+ "uf": "PB",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 307224.49,
+  "por_origem": {
+   "Recursos de partido político": 101224.49,
+   "Recursos de pessoas físicas": 143000.0,
+   "Recursos próprios": 63000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 100000.0,
+   "FUNDO PARTIDARIO": 1224.49,
+   "OUTROS RECURSOS": 206000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "70118955000123",
+    "nome": "Direção Estadual/Distrital - PP - PARAÍBA",
+    "total": 1224.49
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 53,
+   "total": 206000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 84501.89,
+  "total_pago": 196951.89,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25215800000150",
+    "nome": "GEM PRINT COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 38340.0
+   },
+   {
+    "cnpj": "01420327000266",
+    "nome": "MOTOGAS INDUSTRIA DE COMPRESSAO E COMERCIO DE GAS NATURAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 13361.89
+   },
+   {
+    "cnpj": "53500845000102",
+    "nome": "53.500.845 RIAN SANTANA DOMINGOS DA SILVA",
+    "cnae": "59120",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "52826886000120",
+    "nome": "COSTA CARVALHO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "64254673000150",
+    "nome": "PRESTCONTA - CONTABILIDADE ELEITORAL E PARTIDARIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "68722344000148",
+    "nome": "68.722.344 DIOGENES PEREIRA DA SILVA FILHO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "01420327000185",
+    "nome": "MOTOGAS INDUSTRIA DE COMPRESSAO E COMERCIO DE GAS NATURAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "01420327000428",
+    "nome": "MOTOGAS INDUSTRIA DE COMPRESSAO E COMERCIO DE GAS NATURAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 200.0
+   },
+   {
+    "cnpj": "01420327000509",
+    "nome": "MOTOGAS INDUSTRIA DE COMPRESSAO E COMERCIO DE GAS NATURAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 0,
+   "total": 0.0,
+   "por_tipo": {}
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

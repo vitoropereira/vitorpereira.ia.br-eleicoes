@@ -1,0 +1,455 @@
+{
+ "sq": "160002547593",
+ "nome_urna": "RICARDO ARRUDA",
+ "cargo": "depfed",
+ "uf": "PR",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1160000.0,
+  "por_origem": {
+   "Recursos de partido político": 1100000.0,
+   "Recursos de pessoas físicas": 60000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 600000.0,
+   "FUNDO PARTIDARIO": 500000.0,
+   "OUTROS RECURSOS": 60000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 60000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 640912.14,
+  "total_pago": 691827.4,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 21,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 308000.0
+   },
+   {
+    "cnpj": "35071268000107",
+    "nome": "PECCININ ALESSI - SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "22059574000178",
+    "nome": "JUAREZ MIGUEL DA SILVA - CONTABILIDADE E CONSULTORIA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "54335014000195",
+    "nome": "G B PHOTOS LTDA",
+    "cnae": "74200",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros",
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "14595032000191",
+    "nome": "TEKKADAN GESTAO DE MIDIAS DIGITAIS LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "04370488000108",
+    "nome": "PLURAL MARKETING, NEGOCIOS, IMPORTACAO, EXPORTACAO E COMERCIO LTDA",
+    "cnae": "58298",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24002.0
+   },
+   {
+    "cnpj": "68518839000150",
+    "nome": "VANDERSOM VICENTE DUBINSKI",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "54313613000108",
+    "nome": "WINN IMPRESSAO DIGITAL LTDA",
+    "cnae": "47130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14175.0
+   },
+   {
+    "cnpj": "43800947000190",
+    "nome": "WILLIAN FRANCISCO DE OLIVEIRA",
+    "cnae": "43215",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 11500.0
+   },
+   {
+    "cnpj": "36861164000150",
+    "nome": "AMANDA SANTANNA RAMOS MANSUR",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 7790.0
+   },
+   {
+    "cnpj": "10680837000182",
+    "nome": "FRAUSTO E CIA. LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 6300.0
+   },
+   {
+    "cnpj": "26172081000109",
+    "nome": "N. R. RODRIGUES - GRAFICA",
+    "cnae": "58298",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4400.0
+   },
+   {
+    "cnpj": "35015925000190",
+    "nome": "2L LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4143.03
+   },
+   {
+    "cnpj": "82444050000122",
+    "nome": "FORTUNATO FORTUNATO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3540.0
+   },
+   {
+    "cnpj": "10992701000108",
+    "nome": "4 IDEIAS COMUNICACAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3476.0
+   },
+   {
+    "cnpj": "03404821000181",
+    "nome": "FULIA - COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3008.56
+   },
+   {
+    "cnpj": "68518967000101",
+    "nome": "ALLAX FABIANO PEREIRA SIQUEIRA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 2700.0
+   },
+   {
+    "cnpj": "81238347000179",
+    "nome": "A H A AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2685.88
+   },
+   {
+    "cnpj": "11253582000134",
+    "nome": "RICARDO RODRIGUES INKPRINT",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2345.0
+   },
+   {
+    "cnpj": "06045416000102",
+    "nome": "CALIFORNIA AUTOMOTIVOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2309.33
+   },
+   {
+    "cnpj": "37803366000109",
+    "nome": "AUTO POSTO KLHEN LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "77708576000132",
+    "nome": "COMERCIAL DE COMBUSTIVEIS ADECREOL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "44984560000101",
+    "nome": "LIDER AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 11,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1919.95
+   },
+   {
+    "cnpj": "81465395000108",
+    "nome": "SAO PAULO SUPRIMENTOS PARA INFORMATICA LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1862.0
+   },
+   {
+    "cnpj": "08623481000101",
+    "nome": "AUTO POSTO TUCUMANTEL TAMANDARE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1626.7
+   },
+   {
+    "cnpj": "81463432000130",
+    "nome": "CATEDRAL AUTO POSTO DE UMUARAMA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1513.2
+   },
+   {
+    "cnpj": "22438811000101",
+    "nome": "AUTO POSTO SAO FRANCISCO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "57251537000141",
+    "nome": "POSTO DE COMBUSTIVEIS PANDOLFI FRANCISCO BELTRAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1418.38
+   },
+   {
+    "cnpj": "75653337000105",
+    "nome": "ISA AUTO POSTO DE SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 985.11
+   },
+   {
+    "cnpj": "05614413000180",
+    "nome": "AUTO POSTO DO CARMO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 739.99
+   },
+   {
+    "cnpj": "47172535000103",
+    "nome": "SAMAH COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 550.5
+   },
+   {
+    "cnpj": "76137496000101",
+    "nome": "GRAFICA TIBAGI LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 550.0
+   },
+   {
+    "cnpj": "10495145000164",
+    "nome": "CRUZ CARDOSO COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 491.13
+   },
+   {
+    "cnpj": "01459144000173",
+    "nome": "COMERCIAL DE COMBUSTIVEIS F N S LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 468.96
+   },
+   {
+    "cnpj": "57917170000152",
+    "nome": "57.917.170 REGIANE DE ALMEIDA DO ROSARIO",
+    "cnae": "97005",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 364.0
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 186.3
+   },
+   {
+    "cnpj": "04052929000115",
+    "nome": "POSTO LUDERS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 100.0
+   },
+   {
+    "cnpj": "32903131000175",
+    "nome": "AD FLEX ETIQUETAS LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 100.0
+   },
+   {
+    "cnpj": "00417424000156",
+    "nome": "AGENCIA DE CORREIOS FRANQUEADA ANGELO SAMPAIO LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 37.2
+   },
+   {
+    "cnpj": "02566063000135",
+    "nome": "L. L. ZARDO LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 15.42
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 16,
+   "total": 76108.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 22100.0,
+    "Cessão ou locação de veículos": 28000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 8.5,
+    "Serviços prestados por terceiros": 26000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

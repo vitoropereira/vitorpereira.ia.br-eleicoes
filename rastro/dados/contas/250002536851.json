@@ -1,0 +1,313 @@
+{
+ "sq": "250002536851",
+ "nome_urna": "EDUARDO SUPLICY",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 393210.9,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 30.0,
+   "Recursos de outros candidatos": 20472.5,
+   "Recursos de partido político": 265500.0,
+   "Recursos de pessoas físicas": 105000.0,
+   "Recursos próprios": 2208.4
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 285972.5,
+   "OUTROS RECURSOS": 107238.4
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265500.0
+   },
+   {
+    "cnpj": "68553001000105",
+    "nome": "FERNANDO HADDAD",
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68373251000155",
+    "nome": "ARLINDO CHIGNALIA JUNIOR",
+    "total": 400.0
+   },
+   {
+    "cnpj": "68373118000107",
+    "nome": "PAULO BATISTA DOS REIS",
+    "total": 72.5
+   },
+   {
+    "cnpj": "28067410000179",
+    "nome": "ELEGIS GESTAO ESTRATEGICA",
+    "total": 30.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 20,
+   "total": 107208.4
+  }
+ },
+ "despesas": {
+  "total_contratado": 224323.7,
+  "total_pago": 261816.88,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 10,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 109135.31
+   },
+   {
+    "cnpj": "10865394000102",
+    "nome": "ANDREA RIBEIRO",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "26114403000155",
+    "nome": "TRANSBROTHERS TRANSPORTES E TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 25173.03
+   },
+   {
+    "cnpj": "38347632000107",
+    "nome": "DFMKT COMUNICACAO E TECNOLOGIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "24992302000151",
+    "nome": "FELIPE SPENCER NOBREGA CABRAL",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "44529074000195",
+    "nome": "LUCAS PORTO MARTINS",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "08142850000136",
+    "nome": "WBL GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3392.89
+   },
+   {
+    "cnpj": "22931931000146",
+    "nome": "COCAIA 10 POSTO DE SERVICOS E CONVENIENCIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1844.37
+   },
+   {
+    "cnpj": "12091650000179",
+    "nome": "CENTRO EMPRESARIAL SERVICOS AUTOMOTIVOS LTDA.",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 845.95
+   },
+   {
+    "cnpj": "03358742000181",
+    "nome": "POSTAL LESTE COMERCIO E SERVICOS POSTAIS LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 684.6
+   },
+   {
+    "cnpj": "60457025000140",
+    "nome": "RESTAURANTE O GATO QUE RI LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 683.2
+   },
+   {
+    "cnpj": "08690362000244",
+    "nome": "MECENAS BAR ARTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 608.39
+   },
+   {
+    "cnpj": "27751075000594",
+    "nome": "GDO PARTICIPACOES S/A",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 593.15
+   },
+   {
+    "cnpj": "11763966000105",
+    "nome": "RESTAURANTE E LANCHONETE ESTRELA DO SUL LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 373.9
+   },
+   {
+    "cnpj": "08360338000166",
+    "nome": "INDISCE INSTITUTO NACIONAL DE DESENVOLVIMENTO E INTEGRACAO SOCIAL CULTURAL E EDUCACIONAL",
+    "cnae": "94308",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 261.16
+   },
+   {
+    "cnpj": "43633545000148",
+    "nome": "NOVA RETIRO RESTAURANTE SOCIEDADE UNIPESSOAL LIMITADA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 241.9
+   },
+   {
+    "cnpj": "34413782000102",
+    "nome": "MASSARO AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 241.22
+   },
+   {
+    "cnpj": "32837156000118",
+    "nome": "BAR E RESTAURANTE J S LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 238.91
+   },
+   {
+    "cnpj": "02282404000140",
+    "nome": "POSTO K-9 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 232.01
+   },
+   {
+    "cnpj": "61150975000190",
+    "nome": "PANIFICADORA TUPINAMBA LTDA",
+    "cnae": "47211",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 175.7
+   },
+   {
+    "cnpj": "60049475000102",
+    "nome": "AUTO POSTO JP LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 175.05
+   },
+   {
+    "cnpj": "60728599000106",
+    "nome": "BAR E RESTAURANTE REBOUCAS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 74.0
+   },
+   {
+    "cnpj": "43283811008487",
+    "nome": "KALUNGA SA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 18.9
+   },
+   {
+    "cnpj": "28067410000179",
+    "nome": "ELEGIS GESTAO ESTRATEGICA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 1.36
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 6,
+   "total": 5328.7,
+   "por_tipo": {
+    "Despesas com pessoal": 5300.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 28.7
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

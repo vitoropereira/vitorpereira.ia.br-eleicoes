@@ -1,0 +1,624 @@
+{
+ "sq": "190002543096",
+ "nome_urna": "JANDIRA FEGHALI",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PCDOB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3089163.67,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 12943.0,
+   "Recursos de partido político": 3000000.0,
+   "Recursos de pessoas físicas": 76100.67,
+   "Recursos próprios": 120.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2750000.0,
+   "FUNDO PARTIDARIO": 250000.0,
+   "OUTROS RECURSOS": 89163.67
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "54956495000156",
+    "nome": "Direção Nacional - PCDOB",
+    "total": 2900000.0
+   },
+   {
+    "cnpj": "03438115000150",
+    "nome": "Direção Municipal/Comissão Provisória - PCDOB - NITERÓI - RJ",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 12943.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 461,
+   "total": 76220.67
+  }
+ },
+ "despesas": {
+  "total_contratado": 1936460.53,
+  "total_pago": 1820768.03,
+  "fornecedores_pj": [
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 240000.0
+   },
+   {
+    "cnpj": "18614348000134",
+    "nome": "AMANGOLIN COMUNICACAO E ESTRATEGIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 125000.0
+   },
+   {
+    "cnpj": "07446384000110",
+    "nome": "FAGUNDES ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 90000.0
+   },
+   {
+    "cnpj": "26172597000145",
+    "nome": "A S K SERVICOS CONTABEIS LTDA.",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "02495060000158",
+    "nome": "IMPRINT 2001 GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 54500.0
+   },
+   {
+    "cnpj": "34697155000140",
+    "nome": "ASSOCIACAO AS TEATRAIS",
+    "cnae": "90035",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 50500.0
+   },
+   {
+    "cnpj": "16832957000134",
+    "nome": "UM A MAIS SERVICOS DE TECNOLOGIA E CONSULTORIA LTDA",
+    "cnae": "62091",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "28884088000170",
+    "nome": "FRANCISCO EGITO APOIO ADMINISTRATIVO LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "48825229000191",
+    "nome": "FELIPE GOMES PINTO",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14250.0
+   },
+   {
+    "cnpj": "19025242000168",
+    "nome": "LEONARDO DA SILVA STADLER",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 13600.0
+   },
+   {
+    "cnpj": "31280586000119",
+    "nome": "31.280.586 LUCAS NOVELLO MORAES",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "46431120000144",
+    "nome": "ZNIT PRODUTORA AUDIOVISUAL LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 6500.0
+   },
+   {
+    "cnpj": "00965193000115",
+    "nome": "GRAFICA CALAIS LTDA",
+    "cnae": "58191",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6080.0
+   },
+   {
+    "cnpj": "12594912000118",
+    "nome": "LIBEX SERVICOS E LOCACOES LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5250.0
+   },
+   {
+    "cnpj": "19011889000130",
+    "nome": "19.011.889 ALISON DA SILVA PINHEIRO",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 4900.0
+   },
+   {
+    "cnpj": "26297667000191",
+    "nome": "JOSE AELSON ALVES DE SANTANA SILK.E ESTAMPARIA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "00971215000150",
+    "nome": "3 GRAPH GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3800.0
+   },
+   {
+    "cnpj": "19487975000114",
+    "nome": "ALX BRASIL SIGN LTDA",
+    "cnae": "46516",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "33409525000134",
+    "nome": "AUTO POSTO DE SERVICO AMA LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1027.96
+   },
+   {
+    "cnpj": "18416410000183",
+    "nome": "AUTO POSTO IMBASSAI RIO DO OURO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 959.46
+   },
+   {
+    "cnpj": "60740356000193",
+    "nome": "AUTO POSTO DE COMBUSTIVEIS HUMAITA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 866.7
+   },
+   {
+    "cnpj": "42357715000146",
+    "nome": "AUTO POSTO MAQUINE LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 798.16
+   },
+   {
+    "cnpj": "12795929000133",
+    "nome": "CONTRA REGRAS PRODUCAO E COMUNICACAO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "06341140000100",
+    "nome": "POSTO DE GAS NATURAL LAMACAES LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 479.45
+   },
+   {
+    "cnpj": "73522070000183",
+    "nome": "POSTO DE GASOLINA BRACARENSE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 459.66
+   },
+   {
+    "cnpj": "10403791000154",
+    "nome": "POSTO DE GASOLINA PRESSAO DE MESQUITA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 438.57
+   },
+   {
+    "cnpj": "07020369000105",
+    "nome": "AUTO POSTO ML SATURNINO DE BRITO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 430.26
+   },
+   {
+    "cnpj": "33633868000188",
+    "nome": "POSTO DE GASOLINA SANTO AFONSO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 411.17
+   },
+   {
+    "cnpj": "05117875000191",
+    "nome": "POSTO TULIPA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 402.52
+   },
+   {
+    "cnpj": "31678086000130",
+    "nome": "AUTO POSTO MARGUI II LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 332.9
+   },
+   {
+    "cnpj": "28954902000186",
+    "nome": "AUTO POSTO PETROLE1 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 310.08
+   },
+   {
+    "cnpj": "28706116000160",
+    "nome": "AUTO POSTO VISUAL DA BRASIL LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 303.97
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 280.61
+   },
+   {
+    "cnpj": "02098872000160",
+    "nome": "AUTO POSTO ARRASTAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 271.05
+   },
+   {
+    "cnpj": "07604073000131",
+    "nome": "AUTO POSTO E SERVICO M J M DE MARICA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 267.25
+   },
+   {
+    "cnpj": "14715136000192",
+    "nome": "POSTO DE GASOLINA CARDOSO DE CASTRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 262.71
+   },
+   {
+    "cnpj": "59868973000190",
+    "nome": "AUTO POSTO 3F LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 260.97
+   },
+   {
+    "cnpj": "01487893000104",
+    "nome": "CENTRO AUTOMOTIVO PACO DE SOUZA LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 248.19
+   },
+   {
+    "cnpj": "35794461000168",
+    "nome": "PONTA DA AREIA POSTO DE COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 247.1
+   },
+   {
+    "cnpj": "07035006000143",
+    "nome": "AUTO POSTO LUAR DA PENHA LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 240.32
+   },
+   {
+    "cnpj": "07187563000180",
+    "nome": "GALAPAGOS CENTRO AUTOMOTIVO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 228.19
+   },
+   {
+    "cnpj": "16950138000191",
+    "nome": "AUTO POSTO SHOW DO MILHAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 223.84
+   },
+   {
+    "cnpj": "03590204000118",
+    "nome": "ITA GAS DO BRASIL LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 223.58
+   },
+   {
+    "cnpj": "30757298000492",
+    "nome": "SONAP SOCIEDADE NACIONAL DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 221.58
+   },
+   {
+    "cnpj": "03457301000137",
+    "nome": "IPI CENTER LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 211.12
+   },
+   {
+    "cnpj": "30065650000186",
+    "nome": "DARIL POSTOS DE SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 209.6
+   },
+   {
+    "cnpj": "34381616000171",
+    "nome": "POSTO DE GASOLINA AMOR LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 197.59
+   },
+   {
+    "cnpj": "29651114000183",
+    "nome": "AUTO POSTO MARAMAR LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 187.83
+   },
+   {
+    "cnpj": "27838044000141",
+    "nome": "POSTO CATEDRAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 183.88
+   },
+   {
+    "cnpj": "33288671000159",
+    "nome": "GARAGEM MEIER LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 181.61
+   },
+   {
+    "cnpj": "03582702000119",
+    "nome": "NEW PAYOLO COMERCIAL E DISTRIBUIDORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 180.0
+   },
+   {
+    "cnpj": "10342877000114",
+    "nome": "POSTO DE GASOLINA PRAIA DA BARRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 175.01
+   },
+   {
+    "cnpj": "42276709000164",
+    "nome": "AUTO POSTO METRO LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 173.6
+   },
+   {
+    "cnpj": "02575190000109",
+    "nome": "AUTO POSTO SENNA LTDA",
+    "cnae": "45200",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 164.01
+   },
+   {
+    "cnpj": "68575349000195",
+    "nome": "AUTO POSTO GNOMO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 162.4
+   },
+   {
+    "cnpj": "05405414000114",
+    "nome": "POSTO DE SERVICOS GRANDE ALIANCA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 134.68
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 428,
+   "total": 1162722.95,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 1063146.0,
+    "Cessão ou locação de veículos": 35000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 326.95,
+    "Serviços prestados por terceiros": 64250.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

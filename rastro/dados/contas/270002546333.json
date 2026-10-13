@@ -1,0 +1,273 @@
+{
+ "sq": "270002546333",
+ "nome_urna": "EDUARDO GOMES",
+ "cargo": "senador",
+ "uf": "TO",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3491283.13,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 2560.0,
+   "Recursos de outros candidatos": 318.75,
+   "Recursos de partido político": 2947893.88,
+   "Recursos de pessoas físicas": 213510.5,
+   "Recursos próprios": 327000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2073848.0,
+   "FUNDO PARTIDARIO": 122983.21,
+   "OUTROS RECURSOS": 1294451.92
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2000000.0
+   },
+   {
+    "cnpj": "08738595000199",
+    "nome": "Direção Estadual/Distrital - PL - TOCANTINS",
+    "total": 947893.88
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 2560.0
+   },
+   {
+    "cnpj": "68552929000167",
+    "nome": "YHGOR LEONARDO CASTRO LEITE",
+    "total": 318.75
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 540510.5
+  }
+ },
+ "despesas": {
+  "total_contratado": 2761740.8,
+  "total_pago": 2953802.32,
+  "fornecedores_pj": [
+   {
+    "cnpj": "20174243000153",
+    "nome": "GUIA SERVICOS DE COMUNICACAO LTDA",
+    "cnae": "63992",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 750000.0
+   },
+   {
+    "cnpj": "42458806000178",
+    "nome": "NOVA PRODUCOES LOCACOES E SERVICOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 4,
+    "tipos": [
+     "Eventos de promoção da candidatura",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 448350.0
+   },
+   {
+    "cnpj": "20591738000188",
+    "nome": "MANZANO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 400000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 220000.0
+   },
+   {
+    "cnpj": "39549861000169",
+    "nome": "PAIVA E BIANGULO CONTADORES ASSOCIADOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "67648209000137",
+    "nome": "JAW STUDIOS LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "15720302000101",
+    "nome": "CORES EM PAPEL INDUSTRIA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 114697.0
+   },
+   {
+    "cnpj": "07727594000186",
+    "nome": "NATALYA BRINDES LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24300.0
+   },
+   {
+    "cnpj": "12353201000151",
+    "nome": "LOCAVIP LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 23683.33
+   },
+   {
+    "cnpj": "60846599000704",
+    "nome": "IBRAME INDUSTRIA BRASILEIRA DE METAIS S/A",
+    "cnae": "46893",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "13913408000104",
+    "nome": "XR GLOBAL BRASIL LTDA",
+    "cnae": "63119",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "09034525000112",
+    "nome": "POSTO GELO SUL LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 11399.59
+   },
+   {
+    "cnpj": "08378425000140",
+    "nome": "BIGAS BURGUERS LTDA",
+    "cnae": "56121",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 10894.0
+   },
+   {
+    "cnpj": "19327003000162",
+    "nome": "AEROPOSTO NACIONAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10721.7
+   },
+   {
+    "cnpj": "00798638000110",
+    "nome": "AGUA SANTA CLARA IND. E COM. DE BEBIDAS LTDA",
+    "cnae": "11216",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 5100.0
+   },
+   {
+    "cnpj": "27666318000162",
+    "nome": "M.G.L.A. LUCENA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "46541087000377",
+    "nome": "GUIPA S.A.",
+    "cnae": "77195",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2428.57
+   },
+   {
+    "cnpj": "09011104000176",
+    "nome": "M.M. GRAFICA EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "03672677000164",
+    "nome": "GESCACIO NOVAES PEREIRA",
+    "cnae": "47512",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 560.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 50.94
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 110,
+   "total": 303555.67,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 150456.51,
+    "Cessão ou locação de veículos": 43000.0,
+    "Despesas com pessoal": 100040.56,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 58.6,
+    "Locação/cessão de bens imóveis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

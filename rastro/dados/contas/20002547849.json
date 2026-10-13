@@ -1,0 +1,414 @@
+{
+ "sq": "20002547849",
+ "nome_urna": "DELEGADO FABIO COSTA",
+ "cargo": "depfed",
+ "uf": "AL",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3176300.0,
+  "por_origem": {
+   "Recursos de partido político": 3111800.0,
+   "Recursos de pessoas físicas": 64500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3100000.0,
+   "OUTROS RECURSOS": 76300.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 3100000.0
+   },
+   {
+    "cnpj": "04181135000151",
+    "nome": "Direção Estadual/Distrital - PP - ALAGOAS",
+    "total": 11800.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 64500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2639324.26,
+  "total_pago": 2807502.31,
+  "fornecedores_pj": [
+   {
+    "cnpj": "20738543000118",
+    "nome": "DUO-STG COMUNICACAO ESTRATEGICA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 512000.0
+   },
+   {
+    "cnpj": "47074912000171",
+    "nome": "GRAFICA MASCARENHAS DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 260645.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 140000.0
+   },
+   {
+    "cnpj": "04487560000173",
+    "nome": "GRAFICA E EDITORA MASCARENHAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 122500.0
+   },
+   {
+    "cnpj": "47535515000150",
+    "nome": "D C ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 95000.0
+   },
+   {
+    "cnpj": "13106801000188",
+    "nome": "ARTE NOVA GRAFICA E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 71923.0
+   },
+   {
+    "cnpj": "05072232000179",
+    "nome": "AUTO POSTO MILLENIUM LTDA",
+    "cnae": "47318",
+    "n_despesas": 286,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 70406.08
+   },
+   {
+    "cnpj": "23856827000105",
+    "nome": "PONTES, MARINHO E VASCONCELLOS ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "32788347000137",
+    "nome": "LUCIANO BRITO DE ARAUJO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 35500.0
+   },
+   {
+    "cnpj": "35722347000122",
+    "nome": "ALBUQUERQUE E VITAL LOCACAO DE VEICULOS LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 25667.0
+   },
+   {
+    "cnpj": "37840004000198",
+    "nome": "37.840.004 DOUGLAS TENORIO FERNANDES SABINO",
+    "cnae": "18130",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24783.5
+   },
+   {
+    "cnpj": "53179025000160",
+    "nome": "UV COBERTURAS E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 24500.0
+   },
+   {
+    "cnpj": "35958716000180",
+    "nome": "ANTONIO ARMANDO TORRES GARCIA MONTAGENS DE ESTRUTURAS",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "34625286000112",
+    "nome": "G M L DE ALBUQUERQUE LOCACOES LTDA",
+    "cnae": "49248",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 22200.0
+   },
+   {
+    "cnpj": "65903658000159",
+    "nome": "HMS SOLUCOES ESTRATEGICAS LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "07173027000125",
+    "nome": "OK LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 4,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15633.56
+   },
+   {
+    "cnpj": "56134777000101",
+    "nome": "56.134.777 CAIO VICTOR GOMES",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 15085.0
+   },
+   {
+    "cnpj": "04005009000146",
+    "nome": "PRATAGY BEBIDAS E ALIMENTOS LTDA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 5238.0
+   },
+   {
+    "cnpj": "24751061000159",
+    "nome": "T Z CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 5225.0
+   },
+   {
+    "cnpj": "49973524000158",
+    "nome": "FAST SIGN LTDA",
+    "cnae": "77390",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4200.0
+   },
+   {
+    "cnpj": "04667909000159",
+    "nome": "HOLANDA COMERCIO COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2531.32
+   },
+   {
+    "cnpj": "29540082000149",
+    "nome": "AB COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1984.58
+   },
+   {
+    "cnpj": "12436978000180",
+    "nome": "AUTO POSTO FREITAS MAIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1524.9
+   },
+   {
+    "cnpj": "06964197000165",
+    "nome": "POSTO HOLANDA TEIXEIRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1478.68
+   },
+   {
+    "cnpj": "08418303000130",
+    "nome": "IRMAOS JOTA PINTO CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 958.95
+   },
+   {
+    "cnpj": "14638806000114",
+    "nome": "AUTO POSTO BOM JESUS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 876.21
+   },
+   {
+    "cnpj": "50558829000182",
+    "nome": "GALETERIA ANDRADE RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 675.0
+   },
+   {
+    "cnpj": "05258092000128",
+    "nome": "E.L.F. DE OLIVEIRA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 660.0
+   },
+   {
+    "cnpj": "57922380000139",
+    "nome": "GILDETE DOS SANTOS SILVA LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação",
+     "Despesas com Hospedagem"
+    ],
+    "total": 617.0
+   },
+   {
+    "cnpj": "14860695000196",
+    "nome": "O SERTANEJO RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 450.0
+   },
+   {
+    "cnpj": "67690581000101",
+    "nome": "TEMPERO ALAGOANO LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 440.0
+   },
+   {
+    "cnpj": "48487150000106",
+    "nome": "L C PETRY",
+    "cnae": "56201",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 382.0
+   },
+   {
+    "cnpj": "29709059000135",
+    "nome": "POSTO SM LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 255.32
+   },
+   {
+    "cnpj": "48069188000150",
+    "nome": "L R P CRUZ LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 222.7
+   },
+   {
+    "cnpj": "32884343000152",
+    "nome": "EDNYS JOSE NEVES GERONIMO",
+    "cnae": "55906",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 172.86
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 217,
+   "total": 1083088.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 356190.0,
+    "Cessão ou locação de veículos": 306241.0,
+    "Despesas com pessoal": 211430.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 227.6,
+    "Locação/cessão de bens imóveis": 52000.0,
+    "Publicidade por carros de som": 157000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

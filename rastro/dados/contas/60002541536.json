@@ -1,0 +1,185 @@
+{
+ "sq": "60002541536",
+ "nome_urna": "DAVI BENEVIDES",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "PSDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 423000.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 350000.0,
+   "Recursos próprios": 73000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 423000.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 423000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 346548.95,
+  "total_pago": 132184.95,
+  "fornecedores_pj": [
+   {
+    "cnpj": "39912388000132",
+    "nome": "GLOBAL GESTAO, CONSULTORIA EM TECNOLOGIA E PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "04079583000149",
+    "nome": "ADVOCACIA ASSOCIADA - FERNANDES NETO",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "05633505000107",
+    "nome": "GESTAO CONTABIL ASSOCIADOS S/S LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "43639821000185",
+    "nome": "ADSN COMERCIO E SERVICO LTDA",
+    "cnae": "47296",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 18500.0
+   },
+   {
+    "cnpj": "00767716000119",
+    "nome": "LEANDRO PEDRO CANTON",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17250.0
+   },
+   {
+    "cnpj": "25063535000132",
+    "nome": "QUALITY CAR AUTOMOVEIS LTDA",
+    "cnae": "45111",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos",
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 16500.0
+   },
+   {
+    "cnpj": "73676140000409",
+    "nome": "ORGANIZACAO HELIO MEIRELES PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 25,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7747.9
+   },
+   {
+    "cnpj": "24760816000181",
+    "nome": "DANIELI MARIA DA SILVA DE HOLANDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7215.0
+   },
+   {
+    "cnpj": "07849277000132",
+    "nome": "TARGET BONES E SERIGRAFIA LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5750.0
+   },
+   {
+    "cnpj": "73676140000239",
+    "nome": "ORGANIZACAO HELIO MEIRELES PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5645.85
+   },
+   {
+    "cnpj": "07181234000121",
+    "nome": "GRAFICA E EDITORA ELEAL LTDA",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3966.1
+   },
+   {
+    "cnpj": "05305690000453",
+    "nome": "FRANCISCO WALDEMAR PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3163.6
+   },
+   {
+    "cnpj": "26594339000157",
+    "nome": "CONFECSCAN SERVICOS E EMPREENDIMENTOS LTDA",
+    "cnae": "47555",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1300.0
+   },
+   {
+    "cnpj": "25348331000148",
+    "nome": "CICERO MARCIO BRITO DE OLIVEIRA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 700.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 6,
+   "total": 33810.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 10.5,
+    "Locação/cessão de bens imóveis": 16000.0,
+    "Serviços prestados por terceiros": 17800.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

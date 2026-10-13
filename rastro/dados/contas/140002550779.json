@@ -1,0 +1,109 @@
+{
+ "sq": "140002550779",
+ "nome_urna": "HELDER",
+ "cargo": "senador",
+ "uf": "PA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 4052006.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 2006.0,
+   "Recursos de partido político": 4050000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 4000000.0,
+   "FUNDO PARTIDARIO": 50000.0,
+   "OUTROS RECURSOS": 2006.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 4000000.0
+   },
+   {
+    "cnpj": "83369082000173",
+    "nome": "Direção Estadual/Distrital - MDB - PARÁ",
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68455973000159",
+    "nome": "RENILCE CONCEICAO NICODEMOS DE ALBUQUERQUE",
+    "total": 2006.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 395117.16,
+  "total_pago": 395117.16,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 175000.0
+   },
+   {
+    "cnpj": "03330048000156",
+    "nome": "HELIMARTE TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 96416.66
+   },
+   {
+    "cnpj": "74046731000104",
+    "nome": "TAXI AEREO HERCULES LTDA.",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 63800.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "08949785000155",
+    "nome": "NORTE LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9900.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 0.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

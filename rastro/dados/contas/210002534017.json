@@ -1,0 +1,489 @@
+{
+ "sq": "210002534017",
+ "nome_urna": "ZÉ NUNES",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 556950.13,
+  "por_origem": {
+   "Recursos de outros candidatos": 95550.0,
+   "Recursos de partido político": 265500.0,
+   "Recursos de pessoas físicas": 162900.13,
+   "Recursos próprios": 33000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 361050.0,
+   "OUTROS RECURSOS": 195900.13
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265500.0
+   },
+   {
+    "cnpj": "68306572000137",
+    "nome": "ELVINO JOSE BOHN GASS",
+    "total": 60000.0
+   },
+   {
+    "cnpj": "68306680000100",
+    "nome": "ALEXANDRE DUARTE LINDENMEYER",
+    "total": 34050.0
+   },
+   {
+    "cnpj": "68306672000163",
+    "nome": "DIONILSO MATEUS MARCON",
+    "total": 1500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 39,
+   "total": 195900.13
+  }
+ },
+ "despesas": {
+  "total_contratado": 335259.21,
+  "total_pago": 474696.71,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 9,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 46000.0
+   },
+   {
+    "cnpj": "07086926000190",
+    "nome": "LIZIANE QUEVEDO",
+    "cnae": "77110",
+    "n_despesas": 16,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 35992.8
+   },
+   {
+    "cnpj": "02054848000129",
+    "nome": "LUIS GUSTAVO BERNICKER",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 29565.0
+   },
+   {
+    "cnpj": "01781826000106",
+    "nome": "MARITANIA DALLAGNOL SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "34028316896581",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 15930.2
+   },
+   {
+    "cnpj": "03860879000130",
+    "nome": "GRAFICA E EDITORA SOLIDUS LTDA",
+    "cnae": "17419",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15600.0
+   },
+   {
+    "cnpj": "90075078000168",
+    "nome": "CONTAFER CONTABILIDADE E ASSESSORIA",
+    "cnae": "69206",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10500.0
+   },
+   {
+    "cnpj": "39340564000290",
+    "nome": "BOQUEIRAO COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7258.1
+   },
+   {
+    "cnpj": "08362750000204",
+    "nome": "OLIVEIRA CARDOSO COMERCIAL DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 23,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5553.0
+   },
+   {
+    "cnpj": "03850404000162",
+    "nome": "OSCAR LUIS DE ALMEIDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 5040.0
+   },
+   {
+    "cnpj": "05110583000127",
+    "nome": "DECA LOCACAO DE AUTOMOVEIS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "92242726000159",
+    "nome": "ESPORTE CLUBE PELOTAS",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4286.46
+   },
+   {
+    "cnpj": "30902398000112",
+    "nome": "30.902.398 MARCOS ROBERTO BORK",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4162.5
+   },
+   {
+    "cnpj": "94092053000123",
+    "nome": "NILZA BIERHALS WESTPHAL",
+    "cnae": "46346",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3900.0
+   },
+   {
+    "cnpj": "13507524000204",
+    "nome": "D. C. VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "34028316440421",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 3191.1
+   },
+   {
+    "cnpj": "11940062000108",
+    "nome": "LUCIO MAURO BRASIL VASCONCELLOS",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "65509324000103",
+    "nome": "65.509.324 GABRIEL DA SILVA PEREIRA",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "25375413000181",
+    "nome": "RODRIGO LESSA SAMPAIO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2300.0
+   },
+   {
+    "cnpj": "34028316431350",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 2233.77
+   },
+   {
+    "cnpj": "59159859000190",
+    "nome": "H R LOCACOES DE VEICULOS LTDA.",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 1700.0
+   },
+   {
+    "cnpj": "18950448000131",
+    "nome": "RUBI TRANSPORTE E COMERCIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1660.89
+   },
+   {
+    "cnpj": "48635895000167",
+    "nome": "SD ESPORTES E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 957.33
+   },
+   {
+    "cnpj": "13739341000125",
+    "nome": "CYBER DIM SERVICOS GRAFICOS E BRINDES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 950.0
+   },
+   {
+    "cnpj": "95124608000134",
+    "nome": "AUTO POSTO JV COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 615.91
+   },
+   {
+    "cnpj": "12793325000158",
+    "nome": "CARLOS HENRIQUE S. PAJARES",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "93489243001864",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 550.04
+   },
+   {
+    "cnpj": "01315280000190",
+    "nome": "AGRO POSTO ARROIO DO PADRE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 519.86
+   },
+   {
+    "cnpj": "32999709000139",
+    "nome": "32.999.709 SANTIAGO RULLMANN PASSOS",
+    "cnae": "43304",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "26852063000160",
+    "nome": "26.852.063 VOLNEI JOSE KRAEMER",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 375.0
+   },
+   {
+    "cnpj": "04596456001008",
+    "nome": "ANDEBRAZ MEGA POSTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 279.97
+   },
+   {
+    "cnpj": "07207883000154",
+    "nome": "WILLIAN MALLMANN RIBAS",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 273.79
+   },
+   {
+    "cnpj": "91411256000147",
+    "nome": "SANDER COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 267.29
+   },
+   {
+    "cnpj": "87633046000126",
+    "nome": "AUTO POSTO SIMON LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 267.0
+   },
+   {
+    "cnpj": "95425369000152",
+    "nome": "COMERCIO DE COMBUSTIVEIS NEVOEIRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 266.95
+   },
+   {
+    "cnpj": "01991461001965",
+    "nome": "S S COMERCIO DE COMBUSTIVEIS SA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 261.03
+   },
+   {
+    "cnpj": "01991461001450",
+    "nome": "S S COMERCIO DE COMBUSTIVEIS SA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 250.0
+   },
+   {
+    "cnpj": "01991461000640",
+    "nome": "S S COMERCIO DE COMBUSTIVEIS SA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 241.27
+   },
+   {
+    "cnpj": "89425243000185",
+    "nome": "AUTO POSTO CLAGIL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 235.98
+   },
+   {
+    "cnpj": "88387758000175",
+    "nome": "SINDICATO DOS TRABALHADORES NAS INDUSTRIAS E COOPERATIVAS DA ALIMENTACAO DE PELOTAS",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 150.0
+   },
+   {
+    "cnpj": "89427488000141",
+    "nome": "IMOBILIARIA TONI NEUTZLING LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 50.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 37,
+   "total": 92773.97,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 52465.0,
+    "Combustíveis e lubrificantes": 268.97,
+    "Despesas com pessoal": 6600.0,
+    "Locação/cessão de bens imóveis": 31100.0,
+    "Serviços prestados por terceiros": 2340.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

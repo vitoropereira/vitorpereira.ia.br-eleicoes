@@ -1,0 +1,192 @@
+{
+ "sq": "60002540730",
+ "nome_urna": "CATANHO",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 445350.0,
+  "por_origem": {
+   "Recursos de partido político": 126400.0,
+   "Recursos de pessoas físicas": 318950.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 126400.0,
+   "OUTROS RECURSOS": 318950.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 126400.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 16,
+   "total": 318950.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 326377.77,
+  "total_pago": 142476.24,
+  "fornecedores_pj": [
+   {
+    "cnpj": "04549133000172",
+    "nome": "SOLUTION ASSESSORIA, PLANEJAMENTO E SERVICOS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "56281473000169",
+    "nome": "LUCIANO DANTAS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "62109971000121",
+    "nome": "BBX PRODUCOES E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "11939321000172",
+    "nome": "GUTEMBERG PAZ DE OLIVEIRA LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 8976.0
+   },
+   {
+    "cnpj": "65043400000120",
+    "nome": "AGS MOTOCAR E SERVICOS LTDA",
+    "cnae": "45111",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8086.0
+   },
+   {
+    "cnpj": "68438518000145",
+    "nome": "68.438.518 LUCAS FLAVIO MONTEIRO DE SOUZA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 5333.45
+   },
+   {
+    "cnpj": "10595602000192",
+    "nome": "G F MARTINS - COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3575.0
+   },
+   {
+    "cnpj": "02824298000180",
+    "nome": "PRINTCOLOR GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2840.0
+   },
+   {
+    "cnpj": "17235611000111",
+    "nome": "TIAGO ALMEIDA OLIVEIRA",
+    "cnae": "10996",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "18978268000168",
+    "nome": "EDSON LUIS ARAUJO DA COSTA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "09324577000123",
+    "nome": "JOCKEY COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1700.57
+   },
+   {
+    "cnpj": "55688751000134",
+    "nome": "IMPLAC COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 780.0
+   },
+   {
+    "cnpj": "02947220000152",
+    "nome": "POSTO ESTRUTURANTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 650.75
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 102,
+   "total": 225036.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 181985.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 51.0,
+    "Locação/cessão de bens imóveis": 17000.0,
+    "Publicidade por carros de som": 15000.0,
+    "Serviços prestados por terceiros": 11000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

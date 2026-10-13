@@ -1,0 +1,127 @@
+{
+ "sq": "250002536752",
+ "nome_urna": "THIAGO DOS REIS",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 376158.13,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 70658.13,
+   "Recursos de partido político": 305500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 305500.0,
+   "OUTROS RECURSOS": 70658.13
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 305500.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 70658.13
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 128478.04,
+  "total_pago": 109526.03,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 11,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 39000.0
+   },
+   {
+    "cnpj": "25264544000191",
+    "nome": "FLORA, MATHEUS E MANGABEIRA SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 28000.0
+   },
+   {
+    "cnpj": "25080454000140",
+    "nome": "SN CONSULTORIA E ASSESSORIA CONTABIL LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "08142850000136",
+    "nome": "WBL GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesas com transporte ou deslocamento",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4961.95
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 1526.59
+   },
+   {
+    "cnpj": "05401439000140",
+    "nome": "INVENTY STAMP LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "22281507000284",
+    "nome": "ITS - IMPORTACAO, TECNOLOGIA E SERVICOS LTDA",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 387.5
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 16,
+   "total": 29002.0,
+   "por_tipo": {
+    "Despesas com pessoal": 29000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

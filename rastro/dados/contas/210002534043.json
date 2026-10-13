@@ -1,0 +1,199 @@
+{
+ "sq": "210002534043",
+ "nome_urna": "LEONEL RADDE",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 306964.21,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 10861.01,
+   "Recursos de partido político": 250000.0,
+   "Recursos de pessoas físicas": 46103.2
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 250000.0,
+   "OUTROS RECURSOS": 56964.21
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 250000.0
+   },
+   {
+    "cnpj": "08746641000100",
+    "nome": "APPCIVICO CONSULTORIA LTDA",
+    "total": 10861.01
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 257,
+   "total": 46103.2
+  }
+ },
+ "despesas": {
+  "total_contratado": 161762.58,
+  "total_pago": 153849.62,
+  "fornecedores_pj": [
+   {
+    "cnpj": "93102663000106",
+    "nome": "ANTONIO CARLOS DE LIMA",
+    "cnae": "58191",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27545.0
+   },
+   {
+    "cnpj": "50981660000179",
+    "nome": "IBES ERON ALVES VAZ LTDA",
+    "cnae": "69206",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços contábeis",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20168.99
+   },
+   {
+    "cnpj": "23147452000104",
+    "nome": "OUTROS 500 LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3200.0
+   },
+   {
+    "cnpj": "48059766000178",
+    "nome": "FR PUBLICIDADE LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2310.0
+   },
+   {
+    "cnpj": "06847868000108",
+    "nome": "ROBERTO STRINGHINI",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2260.0
+   },
+   {
+    "cnpj": "92660760000143",
+    "nome": "VEPPO CIA LIMITADA",
+    "cnae": "79902",
+    "n_despesas": 13,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 761.3
+   },
+   {
+    "cnpj": "43648976000935",
+    "nome": "REDE DE POSTOS AUTO POSTO CENTER LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 592.77
+   },
+   {
+    "cnpj": "64015582000162",
+    "nome": "CAMALEOA STORE INDUSTRIA E COMERCIO DE TECIDOS LTDA",
+    "cnae": "13235",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 429.0
+   },
+   {
+    "cnpj": "07368646000175",
+    "nome": "GRAFICA GAUCHA LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 307.5
+   },
+   {
+    "cnpj": "63528929000108",
+    "nome": "AG COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 238.04
+   },
+   {
+    "cnpj": "59110926000182",
+    "nome": "POSTO DELTA TORRES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 236.24
+   },
+   {
+    "cnpj": "08746641000100",
+    "nome": "APPCIVICO CONSULTORIA LTDA",
+    "cnae": "63119",
+    "n_despesas": 3,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 227.44
+   },
+   {
+    "cnpj": "89371058000406",
+    "nome": "COMERCIAL DE COMBUSTIVEIS ROSUL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 203.0
+   },
+   {
+    "cnpj": "73446635000190",
+    "nome": "AGF LIMA E SILVA LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 40.7
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 38,
+   "total": 103242.6,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 73541.9,
+    "Cessão ou locação de veículos": 12000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.7,
+    "Serviços advocatícios": 8000.0,
+    "Serviços prestados por terceiros": 9700.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

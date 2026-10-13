@@ -1,0 +1,114 @@
+{
+ "sq": "10002544042",
+ "nome_urna": "EDVALDO MAGALHÃES",
+ "cargo": "depest",
+ "uf": "AC",
+ "partido": "PCDOB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 540440.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 56000.0,
+   "Recursos de partido político": 483440.0,
+   "Recursos de pessoas físicas": 1000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 500440.0,
+   "OUTROS RECURSOS": 40000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "54956495000156",
+    "nome": "Direção Nacional - PCDOB",
+    "total": 483440.0
+   },
+   {
+    "cnpj": "68415601000107",
+    "nome": "MARIA PERPETUA DE ALMEIDA",
+    "total": 56000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 1000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 74001.5,
+  "total_pago": 78001.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "20664526000183",
+    "nome": "CASTRO MELO ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "32581003000152",
+    "nome": "NORA ORGANIZACAO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "66688894000162",
+    "nome": "66.688.894 ALEX SANDRO DE ALMEIDA LIMA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "05961427000331",
+    "nome": "A T MELO JUNIOR LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "26607066000138",
+    "nome": "AUTO POSTO IMPERIAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 1.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

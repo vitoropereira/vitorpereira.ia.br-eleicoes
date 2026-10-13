@@ -1,0 +1,237 @@
+{
+ "sq": "150002544167",
+ "nome_urna": "RICARDO COUTINHO",
+ "cargo": "depfed",
+ "uf": "PB",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1110218.47,
+  "por_origem": {
+   "Recursos de partido político": 763500.0,
+   "Recursos de pessoas físicas": 243718.47,
+   "Recursos próprios": 103000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 748000.0,
+   "FUNDO PARTIDARIO": 15500.0,
+   "OUTROS RECURSOS": 346718.47
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 763500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 40,
+   "total": 346718.47
+  }
+ },
+ "despesas": {
+  "total_contratado": 952605.66,
+  "total_pago": 1093416.97,
+  "fornecedores_pj": [
+   {
+    "cnpj": "34028316515375",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 219133.6
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 13,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 173107.68
+   },
+   {
+    "cnpj": "11729784000100",
+    "nome": "JOSE HIRAM DONATO DE CASTRO",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "37885631000145",
+    "nome": "SUASSUNA DE VASCONCELOS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "08540403000135",
+    "nome": "GRAFICA J B LTDA",
+    "cnae": "18130",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 66810.0
+   },
+   {
+    "cnpj": "64063337000120",
+    "nome": "64.063.337 JOAO CEZAR MONTEIRO BARBOZA PEREIRA DE BRITO",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 28000.0
+   },
+   {
+    "cnpj": "18265456000149",
+    "nome": "M2 CONSULTORIA LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "04755239000122",
+    "nome": "DANIELLE CARDOSO DE FIGUEIREDO",
+    "cnae": "14134",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19500.0
+   },
+   {
+    "cnpj": "26127680000100",
+    "nome": "MEDIDA EXATA PATOS COMERCIO DE PRODUTOS FARMACEUTICOS LTDA",
+    "cnae": "47717",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "68491714000183",
+    "nome": "FLAVIO TAVARES BRASILEIRO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "32082394000160",
+    "nome": "ERLY AVELINO DOS SANTOS FILHO",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2180.0
+   },
+   {
+    "cnpj": "36603626000130",
+    "nome": "GRAZZIANE SCAPELLI CAVALCANTE BORGES",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1987.5
+   },
+   {
+    "cnpj": "12086233000138",
+    "nome": "ALDENIR SANTIAGO DA SILVA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "24491912000171",
+    "nome": "MARTINS OLIVEIRA RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 623.7
+   },
+   {
+    "cnpj": "58681937000150",
+    "nome": "58.681.937 JOBSON FRANCO COSTA DE SOUZA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 263.19
+   },
+   {
+    "cnpj": "09123654000187",
+    "nome": "COMPANHIA DE AGUA E ESGOTOS DA PARAIBA CAGEPA",
+    "cnae": "36006",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 54.82
+   },
+   {
+    "cnpj": "04376062000153",
+    "nome": "COPIADORA REAL LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 54.0
+   },
+   {
+    "cnpj": "09095183000140",
+    "nome": "ENERGISA PARAIBA - DISTRIBUIDORA DE ENERGIA S.A",
+    "cnae": "35140",
+    "n_despesas": 1,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 29.67
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 25,
+   "total": 218461.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 3000.0,
+    "Despesas com pessoal": 56342.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 19.5,
+    "Locação/cessão de bens imóveis": 15100.0,
+    "Publicidade por carros de som": 10000.0,
+    "Serviços prestados por terceiros": 134000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

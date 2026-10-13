@@ -1,0 +1,231 @@
+{
+ "sq": "170002540374",
+ "nome_urna": "JARBAS FILHO",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1089400.0,
+  "por_origem": {
+   "Recursos de partido político": 1000000.0,
+   "Recursos de pessoas físicas": 74400.0,
+   "Recursos próprios": 15000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1000000.0,
+   "OUTROS RECURSOS": 89400.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 1000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 8,
+   "total": 89400.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 170859.55,
+  "total_pago": 196545.71,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 34285.71
+   },
+   {
+    "cnpj": "13031905000170",
+    "nome": "GILBERTO SANTOS MARCELO CUMARU ADVOCACIA E CONSULTORIA INTEGRADA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "19946727000194",
+    "nome": "DORCAM LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 14850.0
+   },
+   {
+    "cnpj": "00226754000164",
+    "nome": "JCL INDUSTRIA E COMERCIO DO VESTUARIO LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6420.0
+   },
+   {
+    "cnpj": "08476802000184",
+    "nome": "CAIO AUGUSTO CAVALCANTI LIMA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "08916518000181",
+    "nome": "JFS SERVICOS DE CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 4800.0
+   },
+   {
+    "cnpj": "34880080000139",
+    "nome": "EXCLUSIVE SERVICOS E LOCACOES LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "70220413000167",
+    "nome": "UTILGRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2950.0
+   },
+   {
+    "cnpj": "69950178000108",
+    "nome": "H C LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2053.0
+   },
+   {
+    "cnpj": "29341839000175",
+    "nome": "JEAN P C R DA SILVA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "54381153000155",
+    "nome": "ADESIVO OURICURI LTDA",
+    "cnae": "18229",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1590.0
+   },
+   {
+    "cnpj": "07067176001262",
+    "nome": "MONTEPLAN ENGENHARIA LIMITADA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1270.0
+   },
+   {
+    "cnpj": "65273881000160",
+    "nome": "65.273.881 ANA CLAUDIA CARNEIRO LEAO DE AGUIAR LIRA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "41939095000190",
+    "nome": "RODRIGO CAVALCANTI ENDRISS",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 560.0
+   },
+   {
+    "cnpj": "34507307000103",
+    "nome": "ELO TEXTIL NE LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 350.0
+   },
+   {
+    "cnpj": "21280350000129",
+    "nome": "POSTO SAO FELIX ESPINHEIRO SOCIEDADE UNIPESSOAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 280.89
+   },
+   {
+    "cnpj": "56058087000102",
+    "nome": "SOM VIBE MUSIC BUSINESS LTDA",
+    "cnae": "63119",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 137.7
+   },
+   {
+    "cnpj": "69902682000124",
+    "nome": "SHOPPING DO PAPEL LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 12.25
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 26,
+   "total": 67700.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 6200.0,
+    "Despesas com pessoal": 38500.0,
+    "Locação/cessão de bens imóveis": 23000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

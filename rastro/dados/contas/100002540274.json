@@ -1,0 +1,120 @@
+{
+ "sq": "100002540274",
+ "nome_urna": "TULIO REZENDE",
+ "cargo": "depest",
+ "uf": "MA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 229300.0,
+  "por_origem": {
+   "Recursos de partido político": 60000.0,
+   "Recursos de pessoas físicas": 123000.0,
+   "Recursos próprios": 46300.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 60000.0,
+   "OUTROS RECURSOS": 169300.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 60000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 169300.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 95766.5,
+  "total_pago": 113826.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "12889017000120",
+    "nome": "A A PESTANA RIBEIRO",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 17600.0
+   },
+   {
+    "cnpj": "04555773000195",
+    "nome": "EXATU S CONSULTORIA E ASSESSORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "26092481000104",
+    "nome": "THIBERIO CORDEIRO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "53923548000170",
+    "nome": "GRAFICA FENIX LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "29401282000200",
+    "nome": "AEROISA COMERCIAL DE COMBUSTIVEIS E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5664.5
+   },
+   {
+    "cnpj": "37709265000173",
+    "nome": "M. ALMEIDA SOARES",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "03256334000119",
+    "nome": "LOKCENTER COMERCIO E SERVICOS LTDA",
+    "cnae": "77322",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 2000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 30002.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.0,
+    "Locação/cessão de bens imóveis": 30000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

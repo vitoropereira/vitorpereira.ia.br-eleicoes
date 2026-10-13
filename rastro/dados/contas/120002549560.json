@@ -1,0 +1,123 @@
+{
+ "sq": "120002549560",
+ "nome_urna": "LIDIO LOPES",
+ "cargo": "depest",
+ "uf": "MS",
+ "partido": "AVANTE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 266700.0,
+  "por_origem": {
+   "Recursos de partido político": 18900.0,
+   "Recursos de pessoas físicas": 199800.0,
+   "Recursos próprios": 48000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 18900.0,
+   "OUTROS RECURSOS": 247800.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "59933952000100",
+    "nome": "Direção Nacional - AVANTE",
+    "total": 18900.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 13,
+   "total": 247800.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 131951.5,
+  "total_pago": 44651.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "36279259000160",
+    "nome": "SALTI DESIGN LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "05394356000170",
+    "nome": "MEGA STANDS LTDA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "09238496000100",
+    "nome": "W.A. EQUIPAMENTOS E SERVICOS LTDA",
+    "cnae": "77331",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 8400.0
+   },
+   {
+    "cnpj": "11815600000124",
+    "nome": "CANTOO PRODUTOS E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "50442570000290",
+    "nome": "VIP CAR LTDA",
+    "cnae": "45200",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "03126158000109",
+    "nome": "TIPOGRAFIA PROGRESSO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 3000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 71,
+   "total": 73051.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 48550.0,
+    "Despesas com pessoal": 18500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.5,
+    "Serviços contábeis": 6000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

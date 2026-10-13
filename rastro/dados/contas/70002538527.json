@@ -1,0 +1,106 @@
+{
+ "sq": "70002538527",
+ "nome_urna": "JULIO CESAR",
+ "cargo": "depfed",
+ "uf": "DF",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1951082.01,
+  "por_origem": {
+   "Recursos de partido político": 1864994.01,
+   "Recursos de pessoas físicas": 51088.0,
+   "Recursos próprios": 35000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 961455.8,
+   "FUNDO PARTIDARIO": 803538.21,
+   "OUTROS RECURSOS": 186088.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 1161455.8
+   },
+   {
+    "cnpj": "08052906000161",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - DISTRITO FEDERAL",
+    "total": 703538.21
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 86088.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 729090.7,
+  "total_pago": 401090.7,
+  "fornecedores_pj": [
+   {
+    "cnpj": "63162900000155",
+    "nome": "NEXXA360 ASSESSORIA PRODUCAO E SERVICO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "63099151000240",
+    "nome": "A B SPORT LTDA",
+    "cnae": "14126",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18230.0
+   },
+   {
+    "cnpj": "50103905000165",
+    "nome": "MARIA S FERNANDES SOLUCOES INTELIGENTES LTDA",
+    "cnae": "43304",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "29773922000113",
+    "nome": "ASSINAR CERTIFICADO DIGITAL LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 88.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 337,
+   "total": 529772.7,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 529000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 772.7
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

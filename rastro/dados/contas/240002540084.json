@@ -1,0 +1,231 @@
+{
+ "sq": "240002540084",
+ "nome_urna": "FABIANO DA LUZ",
+ "cargo": "depest",
+ "uf": "SC",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 519663.0,
+  "por_origem": {
+   "Recursos de partido político": 265500.0,
+   "Recursos de pessoas físicas": 199163.0,
+   "Recursos próprios": 55000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 265500.0,
+   "OUTROS RECURSOS": 254163.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 39,
+   "total": 254163.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 353975.2,
+  "total_pago": 397117.4,
+  "fornecedores_pj": [
+   {
+    "cnpj": "01463241000130",
+    "nome": "KARMANN AFG LTDA",
+    "cnae": "47610",
+    "n_despesas": 11,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 43480.0
+   },
+   {
+    "cnpj": "09249668000141",
+    "nome": "INDUSTRIA GRAFICA ESCALA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 41519.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "68051693000185",
+    "nome": "HUB33 TECNOLOGIA, EVENTOS E NEGOCIOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "14481919000159",
+    "nome": "LIRA CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "14135444000149",
+    "nome": "PONTTUS INDUSTRIA E COMERCIO LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12150.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "68289680000149",
+    "nome": "IGOR MUNIZ MARAFIGO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "37146721000114",
+    "nome": "A A MAINARDES LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7364.0
+   },
+   {
+    "cnpj": "83312314000157",
+    "nome": "SCHAEFER IMPRESSOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3999.0
+   },
+   {
+    "cnpj": "02271529000175",
+    "nome": "TELE ARTES GRAFICA MARAVILHA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "60417584000127",
+    "nome": "SANDRO RAFAEL DE AMORIM EMBALAGENS",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "04243737000196",
+    "nome": "GRAFICA SAUDADES LTDA",
+    "cnae": "18121",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1750.0
+   },
+   {
+    "cnpj": "00443249000171",
+    "nome": "NOVA IMAGEM GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1508.0
+   },
+   {
+    "cnpj": "01890041000163",
+    "nome": "EMPRESA JORNALISTICA FORCA DO OESTE LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1224.0
+   },
+   {
+    "cnpj": "08657922000188",
+    "nome": "EMPRESA JORNALISTICA JORNAL EXPRESSAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "04484195000143",
+    "nome": "GRAPHEL GRAFICA E EDITORA LAGES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 450.0
+   },
+   {
+    "cnpj": "17716351000104",
+    "nome": "EUKALIPTUS GRAFICA E EDITORA LTDA.",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 445.1
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 61,
+   "total": 154586.1,
+   "por_tipo": {
+    "Despesas com pessoal": 129400.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 186.1,
+    "Serviços advocatícios": 25000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

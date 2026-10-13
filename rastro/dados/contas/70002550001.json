@@ -1,0 +1,119 @@
+{
+ "sq": "70002550001",
+ "nome_urna": "ANDRÉ KUBITSCHEK",
+ "cargo": "distrital",
+ "uf": "DF",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 824820.0,
+  "por_origem": {
+   "Recursos de partido político": 100000.0,
+   "Recursos de pessoas físicas": 724820.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 100000.0,
+   "OUTROS RECURSOS": 724820.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 724820.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 816094.5,
+  "total_pago": 670094.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "68303029000186",
+    "nome": "ZAP CARTOES E MARKETING LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 230000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 82280.0
+   },
+   {
+    "cnpj": "64297431000144",
+    "nome": "RWDF ENTRETENIMENTO LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 17720.0
+   },
+   {
+    "cnpj": "05996903000198",
+    "nome": "COURI ADVOGADOS ASSOCIADOS E CONSULTORIA S/S",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "29777237000165",
+    "nome": "AYDE FERREIRA DE ALMEIDA FILHO",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "37069853000351",
+    "nome": "PLAZA BRASILIA HOTEIS E TURISMO LTDA.",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 201,
+   "total": 444094.5,
+   "por_tipo": {
+    "Despesas com pessoal": 444000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 94.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

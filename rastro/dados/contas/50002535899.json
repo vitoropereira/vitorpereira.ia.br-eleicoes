@@ -1,0 +1,175 @@
+{
+ "sq": "50002535899",
+ "nome_urna": "KLEBER  ROSA",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "PSOL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 633119.88,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 1585.0,
+   "Recursos de partido político": 611443.38,
+   "Recursos de pessoas físicas": 20091.5
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 611443.38,
+   "OUTROS RECURSOS": 21676.5
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "06954942000195",
+    "nome": "Direção Nacional - PSOL",
+    "total": 611443.38
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 1585.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 20091.5
+  }
+ },
+ "despesas": {
+  "total_contratado": 470046.1,
+  "total_pago": 604671.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "40703163000155",
+    "nome": "J S ALMEIDA CONSULTORIA EM PUBLICIDADE",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 88000.0
+   },
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 65000.0
+   },
+   {
+    "cnpj": "14146637000103",
+    "nome": "AZI DOURADO EMPREENDIMENTOS E PARTICIPACOES LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 54000.0
+   },
+   {
+    "cnpj": "65603992000197",
+    "nome": "65.603.992 LUAN GUERRA DE SOUZA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "24444751000165",
+    "nome": "CR SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "00395342000158",
+    "nome": "AUDIC CONTABILIDADE SOCIEDADE SIMPLES LIMITADA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "30977036000190",
+    "nome": "TA3 COMUNICACAO, EVENTOS E PRODUCOES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "26623641000196",
+    "nome": "HAGE, ARAGAO E ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "22671616000127",
+    "nome": "ANTONIO FERNANDO D ALMEIDA COUTO FILHO",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "66621937000192",
+    "nome": "66.621.937 GABRIEL RANGEL DA SILVA E SILVA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "62566589000147",
+    "nome": "62.566.589 ADAILTON NERY DE SOUZA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 34.6
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 12,
+   "total": 136511.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 11.5,
+    "Serviços prestados por terceiros": 136500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

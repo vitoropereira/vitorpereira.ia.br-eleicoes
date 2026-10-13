@@ -1,0 +1,486 @@
+{
+ "sq": "240002535434",
+ "nome_urna": "GILSON MARQUES",
+ "cargo": "depfed",
+ "uf": "SC",
+ "partido": "NOVO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2554718.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 7168.0,
+   "Recursos de partido político": 2431050.0,
+   "Recursos de pessoas físicas": 115500.0,
+   "Recursos próprios": 1000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1030000.0,
+   "OUTROS RECURSOS": 1524718.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13405866000124",
+    "nome": "Direção Nacional - NOVO",
+    "total": 2417650.0
+   },
+   {
+    "cnpj": "28822118000114",
+    "nome": "Direção Estadual/Distrital - NOVO - SANTA CATARINA",
+    "total": 13400.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 7168.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 26,
+   "total": 116500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2067590.98,
+  "total_pago": 1860146.32,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13360444000180",
+    "nome": "CASSIO DA SILVA TOMAZ LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Atividades de militância e mobilização de rua",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 601920.0
+   },
+   {
+    "cnpj": "00806881000132",
+    "nome": "GRAFICA VOLPATO LTDA",
+    "cnae": "18130",
+    "n_despesas": 17,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 258553.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 253265.62
+   },
+   {
+    "cnpj": "51854816000113",
+    "nome": "51.854.816 FABIANA KIENEN",
+    "cnae": "47598",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 211480.0
+   },
+   {
+    "cnpj": "13635962000169",
+    "nome": "DSA PANFLETAGEM LTDA",
+    "cnae": "73190",
+    "n_despesas": 5,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 70550.0
+   },
+   {
+    "cnpj": "68329299000166",
+    "nome": "CRYSLAN JORJAN DE MORAES",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 49600.0
+   },
+   {
+    "cnpj": "68329290000155",
+    "nome": "LUCAS JEAN SLONCZEWSKI",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 48895.0
+   },
+   {
+    "cnpj": "68329310000198",
+    "nome": "ODAIR TRAMONTIN",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 45315.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 36753.3
+   },
+   {
+    "cnpj": "48251552000107",
+    "nome": "N. D. PRESTACAO DE SERVICOS LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "22584836000113",
+    "nome": "TALITA GRACIELLE DE MIRA INACIO",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 33837.0
+   },
+   {
+    "cnpj": "68329266000116",
+    "nome": "MICHELE MARQUES SILVA SCOTTI",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68329298000111",
+    "nome": "ISADORA ROMANATTO PIANA",
+    "cnae": "94928",
+    "n_despesas": 3,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "34028316206585",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 18223.27
+   },
+   {
+    "cnpj": "51161887000130",
+    "nome": "51.161.887 GUSTAVO BORB GOEDERT",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "23513892000120",
+    "nome": "BLUGRAF GRAFICA DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 13679.0
+   },
+   {
+    "cnpj": "73714446000151",
+    "nome": "AGF CORAL LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 11121.14
+   },
+   {
+    "cnpj": "81290090000102",
+    "nome": "EDITORA JORNAL DO MEDIO VALE LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 6345.0
+   },
+   {
+    "cnpj": "68329320000123",
+    "nome": "NORMA RODRIGUES DOS SANTOS",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "79227963000263",
+    "nome": "NC COMUNICACOES SA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 4199.96
+   },
+   {
+    "cnpj": "07134578000180",
+    "nome": "AUTO POSTO BLU LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 15,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3967.87
+   },
+   {
+    "cnpj": "68329262000138",
+    "nome": "MATHEUS ANDREIS CADORIN",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 3750.0
+   },
+   {
+    "cnpj": "15555787000125",
+    "nome": "TESTO EDITORA E EVENTOS LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3307.5
+   },
+   {
+    "cnpj": "11368778000174",
+    "nome": "DIA A DIA PRODUCOES E LOGISTICA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3300.0
+   },
+   {
+    "cnpj": "03148323000115",
+    "nome": "POSTO TESTO REGA LTDA.",
+    "cnae": "47318",
+    "n_despesas": 14,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3175.07
+   },
+   {
+    "cnpj": "27585760000164",
+    "nome": "LITORAL BANDEIRAS LTDA.",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2580.0
+   },
+   {
+    "cnpj": "46817922000197",
+    "nome": "JWA SOLUCOES EM VENDAS E MARKETING LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1850.0
+   },
+   {
+    "cnpj": "08639550000167",
+    "nome": "IMPRENSA DO POVO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1785.0
+   },
+   {
+    "cnpj": "03148398000104",
+    "nome": "JORNAL DE POMERODE EDITORA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1684.0
+   },
+   {
+    "cnpj": "04376684000262",
+    "nome": "CENTERPLAST EMBALAGENS PLASTICAS LTDA",
+    "cnae": "46869",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 406.8
+   },
+   {
+    "cnpj": "35973506000161",
+    "nome": "MENEGATTI BRUSQUE COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 302.98
+   },
+   {
+    "cnpj": "80979107000596",
+    "nome": "CESCA CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 297.44
+   },
+   {
+    "cnpj": "82654344000189",
+    "nome": "AUTO POSTO SALTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 292.23
+   },
+   {
+    "cnpj": "22159389000155",
+    "nome": "POSTO Z15 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 287.51
+   },
+   {
+    "cnpj": "83392050000199",
+    "nome": "POSTO Z12 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 281.52
+   },
+   {
+    "cnpj": "03323183000174",
+    "nome": "AUTO POSTO THIAGO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 272.37
+   },
+   {
+    "cnpj": "80979107000162",
+    "nome": "CESCA CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 258.71
+   },
+   {
+    "cnpj": "05598813000149",
+    "nome": "EZX COMBUSTIVEIS LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 198.34
+   },
+   {
+    "cnpj": "83488882007620",
+    "nome": "POSTO MIME S.A.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 196.49
+   },
+   {
+    "cnpj": "09164791000755",
+    "nome": "REDE DE POSTOS APOLO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 183.8
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 165.39
+   },
+   {
+    "cnpj": "29423653000165",
+    "nome": "AUTENTIQUE LTDA",
+    "cnae": "63119",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 99.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 87,
+   "total": 280211.67,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 92730.77,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 120.9,
+    "Produção de jingles, vinhetas e slogans": 3100.0,
+    "Serviços prestados por terceiros": 184260.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

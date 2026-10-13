@@ -1,0 +1,113 @@
+{
+ "sq": "270002550096",
+ "nome_urna": "CLEITON CARDOSO",
+ "cargo": "depest",
+ "uf": "TO",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 497025.59,
+  "por_origem": {
+   "Recursos de outros candidatos": 5222.5,
+   "Recursos de partido político": 448303.09,
+   "Recursos de pessoas físicas": 38500.0,
+   "Recursos próprios": 5000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 196460.0,
+   "FUNDO PARTIDARIO": 220202.61,
+   "OUTROS RECURSOS": 80362.98
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08917083000190",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - TOCANTINS",
+    "total": 221440.11
+   },
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 190000.0
+   },
+   {
+    "cnpj": "08738595000199",
+    "nome": "Direção Estadual/Distrital - PL - TOCANTINS",
+    "total": 32198.2
+   },
+   {
+    "cnpj": "68527002000177",
+    "nome": "FABIO PEREIRA VAZ",
+    "total": 5222.5
+   },
+   {
+    "cnpj": "45877002000100",
+    "nome": "Direção Estadual/Distrital - UNIÃO - TOCANTINS",
+    "total": 4664.78
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 43500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 62114.1,
+  "total_pago": 113549.6,
+  "fornecedores_pj": [
+   {
+    "cnpj": "06163271000144",
+    "nome": "MILHOMEM CARDOSO LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "09015122000126",
+    "nome": "GRAFICA E EDITORA SANTO EXPEDITO LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 9596.0
+   },
+   {
+    "cnpj": "52845244000179",
+    "nome": "52.845.244 FRANCISCO DE SOUSA PEREIRA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "04810093000170",
+    "nome": "AUTO POSTO BOA ESPERANCA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2516.4
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 32,
+   "total": 21001.7,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 12000.0,
+    "Despesas com pessoal": 9000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.7
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

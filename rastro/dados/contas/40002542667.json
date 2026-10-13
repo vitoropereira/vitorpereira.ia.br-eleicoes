@@ -1,0 +1,187 @@
+{
+ "sq": "40002542667",
+ "nome_urna": "MÁRIO CÉSAR FILHO",
+ "cargo": "depest",
+ "uf": "AM",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 891330.0,
+  "por_origem": {
+   "Recursos de partido político": 700000.0,
+   "Recursos de pessoas físicas": 191330.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 700000.0,
+   "OUTROS RECURSOS": 191330.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 600000.0
+   },
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 52,
+   "total": 191330.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 979548.85,
+  "total_pago": 645527.81,
+  "fornecedores_pj": [
+   {
+    "cnpj": "03090756000167",
+    "nome": "AMAZONAVES TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 10,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 255150.0
+   },
+   {
+    "cnpj": "04984400000130",
+    "nome": "CTA - CLEITON TAXI AEREO LTDA",
+    "cnae": "51200",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 188500.0
+   },
+   {
+    "cnpj": "26911020000108",
+    "nome": "LASMAR LASMAR ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "67636655000121",
+    "nome": "VITORINO CONSULTORIA E ASSESSORIA CONTABIL LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 76000.0
+   },
+   {
+    "cnpj": "05445663000133",
+    "nome": "GRAFICA E EDITORA SILVA LTDA",
+    "cnae": "17320",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "03633502000148",
+    "nome": "GRAFISA - GRAFICA E EDITORA LTDA",
+    "cnae": "18211",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25280.0
+   },
+   {
+    "cnpj": "20392814000126",
+    "nome": "CEZAR DOS SANTOS CAMPOS LTDA",
+    "cnae": "49213",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "07722709000140",
+    "nome": "RODRIGO VICTOR MEDEIROS BASTOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "32479604000159",
+    "nome": "TW PETROLEO COMERCIO DE COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4155.3
+   },
+   {
+    "cnpj": "39708063000132",
+    "nome": "LUCIVALDO COELHO DA CRUZ",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3300.0
+   },
+   {
+    "cnpj": "52618336000116",
+    "nome": "ATHENAS FARMA LTDA",
+    "cnae": "47717",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "48322508000132",
+    "nome": "CONCEICAO TRUSMAN BUFFET LTDA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 630.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 96,
+   "total": 212633.55,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 9482.0,
+    "Despesas com pessoal": 183474.35,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 177.2,
+    "Locação/cessão de bens imóveis": 19500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,79 @@
+{
+ "sq": "10002545655",
+ "nome_urna": "RAIMUNDO NENÉM",
+ "cargo": "depest",
+ "uf": "AC",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 174000.0,
+  "por_origem": {
+   "Recursos de partido político": 150000.0,
+   "Recursos de pessoas físicas": 24000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 150000.0,
+   "OUTROS RECURSOS": 24000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 150000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 12,
+   "total": 24000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 51608.85,
+  "total_pago": 112503.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "07941947000146",
+    "nome": "J A COMUNICACAO VISUAL LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "00529581000153",
+    "nome": "AUTO POSTO AMAPA LTDA",
+    "cnae": "47318",
+    "n_despesas": 10,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 14803.85
+   },
+   {
+    "cnpj": "24595309000130",
+    "nome": "RAMON DE QUADROS HENRICONI",
+    "cnae": "47563",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 800.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 6005.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 5.0,
+    "Serviços contábeis": 6000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

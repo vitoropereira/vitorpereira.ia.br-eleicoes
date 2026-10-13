@@ -1,0 +1,112 @@
+{
+ "sq": "170002533350",
+ "nome_urna": "PROFESSORA IVETE CAETANO",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 503666.29,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 3052.0,
+   "Recursos de partido político": 490614.29,
+   "Recursos de pessoas físicas": 10000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 390814.29,
+   "OUTROS RECURSOS": 112852.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 390814.29
+   },
+   {
+    "cnpj": "08089633000120",
+    "nome": "Direção Estadual/Distrital - PT - PERNAMBUCO",
+    "total": 99800.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 3052.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 10000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 121759.21,
+  "total_pago": 34874.68,
+  "fornecedores_pj": [
+   {
+    "cnpj": "59770077000193",
+    "nome": "59.770.077 MARILLYA GRASIELLY DA SILVA CAMPELO",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "25188538000100",
+    "nome": "ESSENT INOVACAO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 3063.03
+   },
+   {
+    "cnpj": "50342470000101",
+    "nome": "AR EMPREENDIMENTOS TURISTICOS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1550.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 62.68
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 35,
+   "total": 95583.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 84082.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.5,
+    "Locação/cessão de bens imóveis": 9000.0,
+    "Serviços prestados por terceiros": 2500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

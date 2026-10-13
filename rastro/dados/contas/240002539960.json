@@ -1,0 +1,239 @@
+{
+ "sq": "240002539960",
+ "nome_urna": "WILIAN TONEZI",
+ "cargo": "depest",
+ "uf": "SC",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 487334.25,
+  "por_origem": {
+   "Recursos de outros candidatos": 50000.0,
+   "Recursos de partido político": 150000.0,
+   "Recursos de pessoas físicas": 265831.25,
+   "Recursos próprios": 21503.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "OUTROS RECURSOS": 287334.25
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 150000.0
+   },
+   {
+    "cnpj": "68438341000187",
+    "nome": "CARLOS HENRIQUE DE LIMA",
+    "total": 50000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 32,
+   "total": 287334.25
+  }
+ },
+ "despesas": {
+  "total_contratado": 398149.16,
+  "total_pago": 484784.25,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 19,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 173560.85
+   },
+   {
+    "cnpj": "49479417000178",
+    "nome": "BERNARDI WANDERLINDE ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "47074528000179",
+    "nome": "GRAFITEM LTDA",
+    "cnae": "58298",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13050.0
+   },
+   {
+    "cnpj": "02102190000183",
+    "nome": "CHARLES ROTHERMEL CIA LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9800.0
+   },
+   {
+    "cnpj": "35360884000170",
+    "nome": "BEST MARKETING E COMUNICACAO DIGITAL LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "60321324000153",
+    "nome": "MCM SUPRIMENTOS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 8891.4
+   },
+   {
+    "cnpj": "29937484000181",
+    "nome": "TARGET GESTAO ESTRATEGICA E EVENTOS LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "19279227000146",
+    "nome": "FOLHA DE ARAQUARI EDITORA E PUBLICIDADE LTDA",
+    "cnae": "58123",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2604.0
+   },
+   {
+    "cnpj": "10661625000158",
+    "nome": "POSTO Z8 LTDA",
+    "cnae": "47318",
+    "n_despesas": 9,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2264.46
+   },
+   {
+    "cnpj": "66914822000196",
+    "nome": "BANDEIRAS E BANNERS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "83796284000100",
+    "nome": "HACASA ADMINISTRACAO E EMPREENDIMENTOS IMOBILIARIOS S/A",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Aquisição/Doação de bens móveis ou imóveis"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "14824857000130",
+    "nome": "LOCATAINER LOCACAO DE CONTAINER LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Aquisição/Doação de bens móveis ou imóveis"
+    ],
+    "total": 910.0
+   },
+   {
+    "cnpj": "86997236000160",
+    "nome": "AGUTI INDUSTRIA TEXTIL LTDA",
+    "cnae": "14223",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 747.0
+   },
+   {
+    "cnpj": "28574045000199",
+    "nome": "FAVRETTO JOINVILLE LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com geradores de energia"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "43785907000116",
+    "nome": "GUSTAVO KASSNER CARVALHO",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "09720868000130",
+    "nome": "JUMPER COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 232.0
+   },
+   {
+    "cnpj": "03102933000188",
+    "nome": "JULIANO JACINTO",
+    "cnae": "46419",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 43.0
+   },
+   {
+    "cnpj": "14330080000158",
+    "nome": "OW EMBALAGENS LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 19.95
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 50,
+   "total": 149326.5,
+   "por_tipo": {
+    "Aquisição/Doação de bens móveis ou imóveis": 2500.0,
+    "Atividades de militância e mobilização de rua": 134650.0,
+    "Despesas com pessoal": 12150.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 26.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

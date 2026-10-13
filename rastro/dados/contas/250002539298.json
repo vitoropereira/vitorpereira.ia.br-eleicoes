@@ -1,0 +1,339 @@
+{
+ "sq": "250002539298",
+ "nome_urna": "VALDOMIRO LOPES",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 970000.0,
+  "por_origem": {
+   "Recursos de partido político": 794000.0,
+   "Recursos de pessoas físicas": 159000.0,
+   "Recursos próprios": 17000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 420000.0,
+   "FUNDO PARTIDARIO": 44000.0,
+   "OUTROS RECURSOS": 506000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "56275696000113",
+    "nome": "Direção Estadual/Distrital - PSB - SÃO PAULO",
+    "total": 750000.0
+   },
+   {
+    "cnpj": "03848276000112",
+    "nome": "Direção Municipal/Comissão Provisória - PSB - SÃO JOSÉ DO RIO PRETO - SP",
+    "total": 44000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 176000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 827251.63,
+  "total_pago": 638565.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 16,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 104500.0
+   },
+   {
+    "cnpj": "62891620000115",
+    "nome": "LUX SERVICOS LTDA",
+    "cnae": "43291",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 86600.0
+   },
+   {
+    "cnpj": "61636687000140",
+    "nome": "CAVALE ADMINISTRADORA DE BENS LTDA",
+    "cnae": "68102",
+    "n_despesas": 6,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 71000.0
+   },
+   {
+    "cnpj": "55890086000167",
+    "nome": "NJR DISTRIBUIDORA , COMERCIO E GRAFICA LTDA",
+    "cnae": "46869",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 66587.63
+   },
+   {
+    "cnpj": "56689082000188",
+    "nome": "56.689.082 MARCIO PONTANI",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 28281.0
+   },
+   {
+    "cnpj": "67250756000160",
+    "nome": "SACS SOLUCOES COMERCIAIS LTDA",
+    "cnae": "47610",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21664.22
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15600.0
+   },
+   {
+    "cnpj": "15474571000135",
+    "nome": "ERICA MARCIA FABRINI",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 11121.0
+   },
+   {
+    "cnpj": "14464608000181",
+    "nome": "CAMARGO CAMPITELI FERRO ACO LTDA",
+    "cnae": "25993",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 9350.5
+   },
+   {
+    "cnpj": "11362265000156",
+    "nome": "POSTO PALESTRA COMBUSTIVEIS - RIO PRETO LTDA.",
+    "cnae": "47318",
+    "n_despesas": 54,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9226.89
+   },
+   {
+    "cnpj": "07657293000123",
+    "nome": "E.V.S. AGROPECUARIA E PARTICIPACAO S/A",
+    "cnae": "01512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "55973366002697",
+    "nome": "PASSALACQUA CIA LTDA",
+    "cnae": "46478",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5108.0
+   },
+   {
+    "cnpj": "34861233000109",
+    "nome": "ALMEIDA PRADO ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "23631762000191",
+    "nome": "PAULO ROBERTO CORREA MARTINS",
+    "cnae": "32302",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3900.0
+   },
+   {
+    "cnpj": "55247078000105",
+    "nome": "55.247.078 JURANDIR DA SILVA FERREIRA",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "67599837000170",
+    "nome": "POSTO SAO PEDRO RIO PRETO LTDA",
+    "cnae": "47318",
+    "n_despesas": 19,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3000.15
+   },
+   {
+    "cnpj": "48228660000150",
+    "nome": "48.228.660 MIRIAM TELLES",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 2800.0
+   },
+   {
+    "cnpj": "56241102000153",
+    "nome": "BUGASP INDUSTRIA E COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14142",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2730.0
+   },
+   {
+    "cnpj": "01077459000156",
+    "nome": "MARCOS AURELIO FRAZZATO",
+    "cnae": "45307",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "26248822000180",
+    "nome": "26.248.822 DOCILENE MEDIANEIRA AVILA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 2250.0
+   },
+   {
+    "cnpj": "56687953000124",
+    "nome": "56.687.953 PAULO DONIZETI FIORI",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "17742309000150",
+    "nome": "PRINTCORP SERVICOS DE IMPRESSAO LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1700.0
+   },
+   {
+    "cnpj": "59963488000103",
+    "nome": "EMPRESA DE PUBLICIDADE RIO PRETO S.A.",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1223.04
+   },
+   {
+    "cnpj": "64842434000111",
+    "nome": "64.842.434 ADALBERTO DA SILVA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "12361219000103",
+    "nome": "12.361.219 REGINALDO SERGIO BARRETO SANTOS",
+    "cnae": "58131",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "72077506000100",
+    "nome": "JORNAL O MUNICIPIO DE TANABI LTDA",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "72077738000168",
+    "nome": "INDUSTRIA DE MOVEIS BECHARA NASSAR LTDA",
+    "cnae": "31012",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "43283811004147",
+    "nome": "KALUNGA SA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 5.9
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 152,
+   "total": 359503.3,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 319590.0,
+    "Despesas com pessoal": 14900.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 13.3,
+    "Locação/cessão de bens imóveis": 10000.0,
+    "Publicidade por adesivos": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

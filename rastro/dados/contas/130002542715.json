@@ -1,0 +1,290 @@
+{
+ "sq": "130002542715",
+ "nome_urna": "RODRIGO DE CASTRO",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3094104.0,
+  "por_origem": {
+   "Recursos de partido político": 2977800.0,
+   "Recursos de pessoas físicas": 107000.0,
+   "Recursos próprios": 9304.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2899800.0,
+   "OUTROS RECURSOS": 194304.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 2899800.0
+   },
+   {
+    "cnpj": "45915411000145",
+    "nome": "Direção Estadual/Distrital - UNIÃO - MINAS GERAIS",
+    "total": 78000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 116304.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1459223.83,
+  "total_pago": 691840.63,
+  "fornecedores_pj": [
+   {
+    "cnpj": "03333174000164",
+    "nome": "CENTRAL PLOTAGENS LTDA",
+    "cnae": "82997",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 219000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 80500.0
+   },
+   {
+    "cnpj": "51735365000103",
+    "nome": "BIGRAFICA EMBALAGENS LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 65610.0
+   },
+   {
+    "cnpj": "04030180000105",
+    "nome": "BCR50 NEGOCIOS INTELIGENTES LTDA",
+    "cnae": "62040",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "32241072000117",
+    "nome": "MENDONCA E MENDONCA ADVOCACIA SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "02886194000108",
+    "nome": "MISTER SOM DIGITAL STUDIO LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "04454790000136",
+    "nome": "AIR BP BRASIL LTDA.",
+    "cnae": "46818",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 12442.94
+   },
+   {
+    "cnpj": "62846086000125",
+    "nome": "SHAIR PARTICIPACOES LTDA",
+    "cnae": "46141",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 11520.0
+   },
+   {
+    "cnpj": "40695326000103",
+    "nome": "MAXIMO ACELERADORA DE PRODUTOS DIGITAIS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "64679853000184",
+    "nome": "PLU COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6914.4
+   },
+   {
+    "cnpj": "65416954000125",
+    "nome": "BECCI ENTERPRISE LTDA",
+    "cnae": "52401",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6720.0
+   },
+   {
+    "cnpj": "07495604000286",
+    "nome": "CRUZEIRO DO SUL COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4089.0
+   },
+   {
+    "cnpj": "60051748000145",
+    "nome": "SAFIRA AVIATION LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3658.0
+   },
+   {
+    "cnpj": "54091166000190",
+    "nome": "ASHER CONSTRUTORA LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "37164909000195",
+    "nome": "POSTO VILA PARIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3020.83
+   },
+   {
+    "cnpj": "11777078000133",
+    "nome": "ORION EMPREENDIMENTOS IMOBILIARIOS LTDA.",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2304.0
+   },
+   {
+    "cnpj": "42233071000184",
+    "nome": "PRIME PROPRIETA HOLDING LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2304.0
+   },
+   {
+    "cnpj": "54114397000171",
+    "nome": "GESTAWORK DEVELOPMENT INC LTDA",
+    "cnae": "62023",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2289.8
+   },
+   {
+    "cnpj": "30100675000173",
+    "nome": "FUSION EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "02518146000159",
+    "nome": "RP SERVICOS GRAFICOS LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "05032857000107",
+    "nome": "PRO DISK DISTRIBUIDORA LTDA",
+    "cnae": "46478",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 374.06
+   },
+   {
+    "cnpj": "14370196000110",
+    "nome": "BUFFET TRIGOLEVE LTDA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "25223124000167",
+    "nome": "TOMBOS ESPORTIVO SOCIAL CLUBE",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 300.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 299,
+   "total": 906776.8,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 546439.0,
+    "Cessão ou locação de veículos": 25304.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 37.8,
+    "Locação/cessão de bens imóveis": 25100.0,
+    "Serviços contábeis": 50000.0,
+    "Serviços prestados por terceiros": 259896.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

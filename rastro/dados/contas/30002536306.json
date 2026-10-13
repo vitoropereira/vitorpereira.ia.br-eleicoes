@@ -1,0 +1,175 @@
+{
+ "sq": "30002536306",
+ "nome_urna": "FELIPE SHOW",
+ "cargo": "depfed",
+ "uf": "AP",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2500000.0,
+  "por_origem": {
+   "Recursos de partido político": 2500000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1312420.48,
+   "FUNDO PARTIDARIO": 1187579.52
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 1312420.48
+   },
+   {
+    "cnpj": "45857088000109",
+    "nome": "Direção Estadual/Distrital - UNIÃO - AMAPÁ",
+    "total": 1187579.52
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 746183.9,
+  "total_pago": 676054.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "59964878000190",
+    "nome": "DARC FILMES LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 253700.0
+   },
+   {
+    "cnpj": "43305354000157",
+    "nome": "MELEM SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 130000.0
+   },
+   {
+    "cnpj": "16958603000130",
+    "nome": "L E SERVICOS E ASSESSORIA EMPRESARIAL LTDA",
+    "cnae": "71120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 55000.0
+   },
+   {
+    "cnpj": "10990394000126",
+    "nome": "TALENTO DIGITAL LTDA",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 29650.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "40002106000149",
+    "nome": "SOLARIUM NEGOCIOS IMOBILIARIOS LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 13500.0
+   },
+   {
+    "cnpj": "42861413000100",
+    "nome": "J MATEUS DE M ALENCAR LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "47633249000106",
+    "nome": "HELDER DA SILVA PINHEIRO",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5200.0
+   },
+   {
+    "cnpj": "35815527000159",
+    "nome": "A PALMERIM ROCHA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "57248211000165",
+    "nome": "R. S. DE SOUZA COSTA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "75315333015998",
+    "nome": "ATACADAO S.A.",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 995.4
+   },
+   {
+    "cnpj": "53495617000191",
+    "nome": "AMARAL AMARAL COMERCIO E SERVICOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 699.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 16,
+   "total": 216439.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 47640.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 4.5,
+    "Serviços advocatícios": 40000.0,
+    "Serviços prestados por terceiros": 128795.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

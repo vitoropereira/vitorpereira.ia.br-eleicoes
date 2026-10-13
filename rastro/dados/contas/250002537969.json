@@ -1,0 +1,597 @@
+{
+ "sq": "250002537969",
+ "nome_urna": "CELSO RUSSOMANNO",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2045918.17,
+  "por_origem": {
+   "Recursos de partido político": 1898918.17,
+   "Recursos de pessoas físicas": 4000.0,
+   "Recursos próprios": 143000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1130000.0,
+   "FUNDO PARTIDARIO": 768918.17,
+   "OUTROS RECURSOS": 147000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 1130000.0
+   },
+   {
+    "cnpj": "07794600000118",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - SÃO PAULO",
+    "total": 768918.17
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 147000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 923627.31,
+  "total_pago": 318849.12,
+  "fornecedores_pj": [
+   {
+    "cnpj": "35659497000139",
+    "nome": "GRAFICA NMC LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "63988937000137",
+    "nome": "MF VARDASCA GESTAO PATRIMONIAL LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 45764.68
+   },
+   {
+    "cnpj": "21314559000166",
+    "nome": "MOVIDA PARTICIPACOES S.A.",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 34472.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "62773031000132",
+    "nome": "HAWAII GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "18649169000132",
+    "nome": "CODAM INDUSTRIAL LTDA",
+    "cnae": "13596",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26100.0
+   },
+   {
+    "cnpj": "29666863000184",
+    "nome": "CARVAN LOCACOES E FRETAMENTO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "32943358000144",
+    "nome": "32.943.358 DANIELA PINHEIRO DE MORAIS DA SILVA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "67899278000113",
+    "nome": "GIBIN MICHELIN LTDA",
+    "cnae": "17320",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12150.0
+   },
+   {
+    "cnpj": "02684458000132",
+    "nome": "RECIO IDO PUBLICIDADE S/S LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "26412329000153",
+    "nome": "SUPREMA RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 8281.68
+   },
+   {
+    "cnpj": "02145263000114",
+    "nome": "AFINKO TECNOLOGIA E SERVICOS LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 4803.64
+   },
+   {
+    "cnpj": "17957871000109",
+    "nome": "LANCHONETE PORTAL DA BARRA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 4544.0
+   },
+   {
+    "cnpj": "59825102000199",
+    "nome": "GENESIS ESTAMPARIA E CONFECCOES LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2479.19
+   },
+   {
+    "cnpj": "37828146000130",
+    "nome": "LIV HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 2265.0
+   },
+   {
+    "cnpj": "43283811001202",
+    "nome": "KALUNGA SA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 2210.54
+   },
+   {
+    "cnpj": "47320540000116",
+    "nome": "IVAN BUSIC NETO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2200.0
+   },
+   {
+    "cnpj": "67370775000120",
+    "nome": "ALEVAR COMERCIAL LTDA",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 2130.1
+   },
+   {
+    "cnpj": "09339941000129",
+    "nome": "MIX - UP CONFECCOES LTDA",
+    "cnae": "46427",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "06141809000110",
+    "nome": "ABC REPORTER EMPRESA JORNALISTICA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1700.0
+   },
+   {
+    "cnpj": "68075873000105",
+    "nome": "ALAMEDA DO CHOPP LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1274.24
+   },
+   {
+    "cnpj": "32084822000194",
+    "nome": "BARRIL DO CHOPPAO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1254.0
+   },
+   {
+    "cnpj": "16563284000164",
+    "nome": "CLARICE M. P. DE LIMA RESTAURANTE",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1245.56
+   },
+   {
+    "cnpj": "12951953000114",
+    "nome": "OSHER COMERCIO DE AGUA MINERAL LTDA",
+    "cnae": "47237",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação",
+     "Materiais de expediente"
+    ],
+    "total": 947.0
+   },
+   {
+    "cnpj": "43203322000140",
+    "nome": "WINDSOR HOTEL LTDA",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 927.15
+   },
+   {
+    "cnpj": "02964380000100",
+    "nome": "JOHN RICHARD LOCACAO DE MOVEIS LTDA.",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 926.13
+   },
+   {
+    "cnpj": "44427588000130",
+    "nome": "URBAN PRINT ESTAMPARIA LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 898.0
+   },
+   {
+    "cnpj": "04393743000120",
+    "nome": "RESTAURANTE MADURODAM LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 896.19
+   },
+   {
+    "cnpj": "62340054000153",
+    "nome": "POSTO SANTA RITA DE PIRASSUNUNGA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 825.12
+   },
+   {
+    "cnpj": "20060129000100",
+    "nome": "P.W HOSPEDARIA LTDA",
+    "cnae": "55108",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 810.0
+   },
+   {
+    "cnpj": "68346451000119",
+    "nome": "L. F. DESTEFANO HOTEL",
+    "cnae": "55108",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 666.0
+   },
+   {
+    "cnpj": "07806996000176",
+    "nome": "FAVOS - PAES, DOCES E CONVENIENCIAS LTDA",
+    "cnae": "47211",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 595.0
+   },
+   {
+    "cnpj": "48238285000120",
+    "nome": "REDEPOSTO REGENTE FEIJO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 481.94
+   },
+   {
+    "cnpj": "48845713000182",
+    "nome": "VA VER COMERCIO DE COMBUSTIVEL LTDA.",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 432.56
+   },
+   {
+    "cnpj": "36398413000113",
+    "nome": "TIMBO MANIVA BAR SLU LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 417.0
+   },
+   {
+    "cnpj": "43283811001040",
+    "nome": "KALUNGA SA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 394.93
+   },
+   {
+    "cnpj": "32138108000131",
+    "nome": "IBERICA AGENCIA DE RESERVAS LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 390.0
+   },
+   {
+    "cnpj": "54844998000130",
+    "nome": "RODOPOSTO CORAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 373.75
+   },
+   {
+    "cnpj": "68107879000109",
+    "nome": "POSTO ARCO IRIS DE APARECIDA LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 286.04
+   },
+   {
+    "cnpj": "62901950000144",
+    "nome": "JPENA JOAQUIM MENDES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 257.6
+   },
+   {
+    "cnpj": "06342765000196",
+    "nome": "COMERCIO DERIVADOS DE PETROLEO PETROUNIVERSITARIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 256.01
+   },
+   {
+    "cnpj": "02502845000534",
+    "nome": "GLOBAL MIX INDUSTRIA E COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 240.56
+   },
+   {
+    "cnpj": "05026743000154",
+    "nome": "HOSPEDARIA NEW POINT LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 178.0
+   },
+   {
+    "cnpj": "05668014000100",
+    "nome": "D.A.N. HOTEL SP LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 174.22
+   },
+   {
+    "cnpj": "43283811000745",
+    "nome": "KALUNGA SA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 151.7
+   },
+   {
+    "cnpj": "04600890000123",
+    "nome": "AUTO POSTO ESTRADAO DE ITARARE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 146.7
+   },
+   {
+    "cnpj": "29720982000178",
+    "nome": "AUTO POSTO CASULO TAQUARAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 145.57
+   },
+   {
+    "cnpj": "10945193000298",
+    "nome": "NACOES COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 145.53
+   },
+   {
+    "cnpj": "01221451000111",
+    "nome": "AUTO POSTO MICHELE AGUAI LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 140.0
+   },
+   {
+    "cnpj": "29667236000168",
+    "nome": "HOTEL VINTAGE LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 140.0
+   },
+   {
+    "cnpj": "01478103000124",
+    "nome": "AUTO POSTO BIG HOUSE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 136.5
+   },
+   {
+    "cnpj": "43064217000178",
+    "nome": "YOSHIOKA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 131.02
+   },
+   {
+    "cnpj": "12241376000177",
+    "nome": "JORGE ASENSIO ASENSIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 110.0
+   },
+   {
+    "cnpj": "37782063000157",
+    "nome": "REDEPOSTO QUINTANA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 95.56
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 149,
+   "total": 563036.9,
+   "por_tipo": {
+    "Despesas com pessoal": 562912.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 124.9
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

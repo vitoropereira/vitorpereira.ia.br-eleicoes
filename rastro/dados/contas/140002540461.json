@@ -1,0 +1,152 @@
+{
+ "sq": "140002540461",
+ "nome_urna": "CASSIO ANDRADE",
+ "cargo": "depfed",
+ "uf": "PA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1862484.0,
+  "por_origem": {
+   "Recursos de partido político": 1750000.0,
+   "Recursos de pessoas físicas": 112484.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1750000.0,
+   "OUTROS RECURSOS": 112484.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 1750000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 13,
+   "total": 112484.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 326445.65,
+  "total_pago": 589210.95,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 12,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "06964144000144",
+    "nome": "HEISS TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 62000.0
+   },
+   {
+    "cnpj": "51866938000120",
+    "nome": "MAVERICK COMUNICACAO MARKETING LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "43099933000190",
+    "nome": "ACD GRAFICA LTDA",
+    "cnae": "58115",
+    "n_despesas": 28,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27109.8
+   },
+   {
+    "cnpj": "16525583000104",
+    "nome": "PINHEIRO PENAFORT ADVOGADOS ASSOCIADOS S/S",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "39406717000173",
+    "nome": "BRISA DANDARA DA SILVA OLIVEIRA",
+    "cnae": "47555",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "27764970000110",
+    "nome": "LINEA3 AUDIOVISUAL E COMUNICACAO LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "02686801000188",
+    "nome": "AS VIAGENS E TURISMO LTDA",
+    "cnae": "79112",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesas com transporte ou deslocamento",
+     "Passagem Aérea"
+    ],
+    "total": 13254.15
+   },
+   {
+    "cnpj": "55696174000122",
+    "nome": "V. DO NASCIMENTO LEAO LTDA",
+    "cnae": "30113",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 4020.0
+   },
+   {
+    "cnpj": "83349563000117",
+    "nome": "PORTUGAL COMERCIO DE PRODUTOS DESCARTAVEIS LTDA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 77.7
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 12984.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 16.0,
+    "Serviços contábeis": 12968.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

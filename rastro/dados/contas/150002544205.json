@@ -1,0 +1,188 @@
+{
+ "sq": "150002544205",
+ "nome_urna": "HUGO",
+ "cargo": "depfed",
+ "uf": "PB",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2097000.0,
+  "por_origem": {
+   "Recursos de partido político": 2047000.0,
+   "Recursos de pessoas físicas": 50000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1600000.0,
+   "FUNDO PARTIDARIO": 447000.0,
+   "OUTROS RECURSOS": 50000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 1600000.0
+   },
+   {
+    "cnpj": "07644852000160",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - PARAÍBA",
+    "total": 447000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 50000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 917754.38,
+  "total_pago": 843758.72,
+  "fornecedores_pj": [
+   {
+    "cnpj": "48563071000129",
+    "nome": "SP AVIACAO TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 420000.0
+   },
+   {
+    "cnpj": "34787198000117",
+    "nome": "APOENNA DE OLIVEIRA D SALDANHA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 114000.0
+   },
+   {
+    "cnpj": "26479153000157",
+    "nome": "AEROSPEED TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "08540403000135",
+    "nome": "GRAFICA J B LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "10596370000197",
+    "nome": "ASTEC GROUP CONTADORES ASSOCIADOS S/S LTDA.",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "12425984000131",
+    "nome": "NOBEL VITA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "32612090000168",
+    "nome": "32.612.090 RAFAEL DE FREITAS CHAVES",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "35175937000182",
+    "nome": "35.175.937 JOSE PAULO PEREIRA DO NASCIMENTO",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "26625056000125",
+    "nome": "D F PACK EMBALAGENS FLEXIVEIS LTDA",
+    "cnae": "22226",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "30470472000179",
+    "nome": "ROBERTO PAULINO PINTO DE LACERDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 13000.0
+   },
+   {
+    "cnpj": "57972898000187",
+    "nome": "MULTI COLOR - TECNOLOGIA EM COMUNICACAO VISUAL E SERVICOS LTDA",
+    "cnae": "32990",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5200.0
+   },
+   {
+    "cnpj": "04116842000164",
+    "nome": "AUTOPOSTO CALIFORNIA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1289.38
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 10,
+   "total": 70265.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 24000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 95.0,
+    "Impostos, contribuições e taxas": 1170.0,
+    "Publicidade por carros de som": 45000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

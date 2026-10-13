@@ -1,0 +1,210 @@
+{
+ "sq": "250002536367",
+ "nome_urna": "ALEX MADUREIRA",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1263446.67,
+  "por_origem": {
+   "Recursos de partido político": 965246.67,
+   "Recursos de pessoas físicas": 285200.0,
+   "Recursos próprios": 13000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 950000.0,
+   "FUNDO PARTIDARIO": 11813.89,
+   "OUTROS RECURSOS": 301632.78
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 950000.0
+   },
+   {
+    "cnpj": "08701595000114",
+    "nome": "Direção Estadual/Distrital - PL - SÃO PAULO",
+    "total": 15246.67
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 21,
+   "total": 298200.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 609044.63,
+  "total_pago": 213163.57,
+  "fornecedores_pj": [
+   {
+    "cnpj": "09204155000114",
+    "nome": "VITA PORTO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "08142850000136",
+    "nome": "WBL GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 13,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 60170.89
+   },
+   {
+    "cnpj": "44405247000163",
+    "nome": "SACS ASSESSORIA CONTABIL E AUDITORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25500.0
+   },
+   {
+    "cnpj": "13922524000181",
+    "nome": "FOCO GESTAO DE BENS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 16330.0
+   },
+   {
+    "cnpj": "04328768000140",
+    "nome": "ROSELY OLIVEIRA DE QUEIROZ",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "27615928000137",
+    "nome": "GAMAN HOLDING EMPREENDIMENTOS E PARTICIPACOES LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "03067942000185",
+    "nome": "NOGUEIRA E NOGUEIRA JUNIOR LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6585.48
+   },
+   {
+    "cnpj": "10884885000192",
+    "nome": "M. B. MARCONI CIA. LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 5281.05
+   },
+   {
+    "cnpj": "29640116000177",
+    "nome": "29.640.116 RAPHAEL CAPOZZI MACIEL",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "64142533000190",
+    "nome": "64.142.533 ISIS LARA SOAVE",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1380.0
+   },
+   {
+    "cnpj": "05970030000144",
+    "nome": "AVG COMERCIAL, LOCACAO E SERVICOS LTDA",
+    "cnae": "47547",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento",
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 909.16
+   },
+   {
+    "cnpj": "01390047000171",
+    "nome": "AUTO POSTO VITORIA PIRACICABA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 655.05
+   },
+   {
+    "cnpj": "02351877000152",
+    "nome": "LWSA S/A",
+    "cnae": "63119",
+    "n_despesas": 2,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 96.95
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 178,
+   "total": 341136.05,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 256032.0,
+    "Despesas com pessoal": 84863.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 241.05
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

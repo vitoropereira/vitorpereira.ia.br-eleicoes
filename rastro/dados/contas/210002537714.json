@@ -1,0 +1,339 @@
+{
+ "sq": "210002537714",
+ "nome_urna": "ANY ORTIZ",
+ "cargo": "depfed",
+ "uf": "RS",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2932530.65,
+  "por_origem": {
+   "Recursos de partido político": 2905030.65,
+   "Recursos de pessoas físicas": 27500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2770030.65,
+   "FUNDO PARTIDARIO": 120000.0,
+   "OUTROS RECURSOS": 42500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 2890030.65
+   },
+   {
+    "cnpj": "74703034000189",
+    "nome": "Direção Estadual/Distrital - PP - RIO GRANDE DO SUL",
+    "total": 15000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 10,
+   "total": 27500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1559470.17,
+  "total_pago": 677138.61,
+  "fornecedores_pj": [
+   {
+    "cnpj": "94350113000160",
+    "nome": "JOKA SUBLIMACAO DIGITAL LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 350750.0
+   },
+   {
+    "cnpj": "05677050000121",
+    "nome": "ANS IMPRESSOES GRAFICAS LTDA.",
+    "cnae": "17419",
+    "n_despesas": 21,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 324857.36
+   },
+   {
+    "cnpj": "14938065000197",
+    "nome": "CRITERIO COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 85000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "25053197000158",
+    "nome": "CENTENO MENDES ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 29215.31
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 21569.42
+   },
+   {
+    "cnpj": "26749118000100",
+    "nome": "26.749.118 FABIANO BRAGA DA SILVA",
+    "cnae": "45200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "09146749000116",
+    "nome": "AUTOLOCADORA LINCK MELLO LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9180.0
+   },
+   {
+    "cnpj": "92610815000100",
+    "nome": "AUTO LOCADORA CANOENSE LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8489.0
+   },
+   {
+    "cnpj": "59806515000126",
+    "nome": "59.806.515 PATRICK AVILA GOMES",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "03000720000145",
+    "nome": "LOCADORA DE VEICULOS SANTA CRUZ LTDA.",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4950.0
+   },
+   {
+    "cnpj": "60156810000163",
+    "nome": "60.156.810 CAROLINE SALDANHA JABBOUR",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 4300.0
+   },
+   {
+    "cnpj": "03776601000189",
+    "nome": "GOLD SERVICE SISTEMAS DE SERVICOS LTDA.",
+    "cnae": "81214",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2307.79
+   },
+   {
+    "cnpj": "30708896000129",
+    "nome": "CUBO COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2065.23
+   },
+   {
+    "cnpj": "17062599000190",
+    "nome": "BOTCHA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1441.01
+   },
+   {
+    "cnpj": "18518668000190",
+    "nome": "FARINA - COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 794.37
+   },
+   {
+    "cnpj": "28150570000187",
+    "nome": "POSTO AVENIDA BRASIL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 321.31
+   },
+   {
+    "cnpj": "00290450000166",
+    "nome": "POSTO CENTER LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 317.96
+   },
+   {
+    "cnpj": "21921645000722",
+    "nome": "HOERLLE ASSUMPCAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 293.28
+   },
+   {
+    "cnpj": "23448964005838",
+    "nome": "MP POSTOS E LOGISTICA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 293.05
+   },
+   {
+    "cnpj": "08178768000161",
+    "nome": "AUTO POSTO CGP LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 284.55
+   },
+   {
+    "cnpj": "93489243007471",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 284.14
+   },
+   {
+    "cnpj": "48476903000170",
+    "nome": "COMERCIO DE COMBUSTIVEIS RS 239 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 275.65
+   },
+   {
+    "cnpj": "40418237000101",
+    "nome": "LV COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 270.0
+   },
+   {
+    "cnpj": "02596985000195",
+    "nome": "POSTO DE COMBUSTIVEIS ABS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 250.0
+   },
+   {
+    "cnpj": "04642623000119",
+    "nome": "COMERCIO DE COMBUSTIVEIS DO CENTRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 231.35
+   },
+   {
+    "cnpj": "92869650001320",
+    "nome": "IMPRESUL SERVICO GRAFICO E EDITORA LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 147.0
+   },
+   {
+    "cnpj": "36530084000112",
+    "nome": "FELIPE CECHET LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 100.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 166,
+   "total": 628482.39,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 369850.0,
+    "Despesas com pessoal": 215450.0,
+    "Locação/cessão de bens imóveis": 40932.39,
+    "Serviços prestados por terceiros": 2250.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,164 @@
+{
+ "sq": "210002534313",
+ "nome_urna": "RONALDO SANTINI",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 711029.02,
+  "por_origem": {
+   "Recursos de outros candidatos": 45000.0,
+   "Recursos de partido político": 571960.64,
+   "Recursos de pessoas físicas": 68000.0,
+   "Recursos próprios": 26068.38
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 616734.35,
+   "FUNDO PARTIDARIO": 93.51,
+   "OUTROS RECURSOS": 94201.16
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 496740.0
+   },
+   {
+    "cnpj": "11036509000100",
+    "nome": "Direção Estadual/Distrital - PODE - RIO GRANDE DO SUL",
+    "total": 75220.64
+   },
+   {
+    "cnpj": "68293694000136",
+    "nome": "SERGIO PEDRO ZAMBIASI",
+    "total": 45000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 94068.38
+  }
+ },
+ "despesas": {
+  "total_contratado": 332463.91,
+  "total_pago": 361023.46,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 74500.0
+   },
+   {
+    "cnpj": "37297922000112",
+    "nome": "37.297.922 CLAUDIO VINICIUS BANDEIRA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 24500.0
+   },
+   {
+    "cnpj": "93489243000116",
+    "nome": "COMERCIAL BUFFON COMBUSTIVEIS E TRANSPORTES LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 15500.0
+   },
+   {
+    "cnpj": "05476664000145",
+    "nome": "CROMO GRAFICA E EDITORA LTDA",
+    "cnae": "17419",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10480.0
+   },
+   {
+    "cnpj": "54415016000194",
+    "nome": "54.415.016 SUSETE CAMPANHOLO DA SILVA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "07528530000156",
+    "nome": "GRAFICA E EDITORA SAGRADA FAMILIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7481.0
+   },
+   {
+    "cnpj": "88622444000100",
+    "nome": "WON COMUNICACAO TOTAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6258.41
+   },
+   {
+    "cnpj": "64721155000108",
+    "nome": "64.721.155 FELIPE TAROUCO DA SILVA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "07910717000110",
+    "nome": "NG MARKETING E COMUNICACAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 950.0
+   },
+   {
+    "cnpj": "13844156000109",
+    "nome": "1000 IMPRESSOES NH LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 350.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 78,
+   "total": 181444.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 175907.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 37.5,
+    "Locação/cessão de bens imóveis": 5500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

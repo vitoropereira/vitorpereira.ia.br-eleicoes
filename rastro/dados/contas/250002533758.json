@@ -1,0 +1,176 @@
+{
+ "sq": "250002533758",
+ "nome_urna": "RAFAEL SARAIVA",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 774761.71,
+  "por_origem": {
+   "Recursos de partido político": 763761.71,
+   "Recursos de pessoas físicas": 7000.0,
+   "Recursos próprios": 4000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 487466.62,
+   "FUNDO PARTIDARIO": 276295.09,
+   "OUTROS RECURSOS": 11000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "45878593000121",
+    "nome": "Direção Estadual/Distrital - UNIÃO - SÃO PAULO",
+    "total": 526295.09
+   },
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 237466.62
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 11000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 634394.26,
+  "total_pago": 644867.62,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "68237505000108",
+    "nome": "MARINA DE SIQUEIRA PASSADORE",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 94667.55
+   },
+   {
+    "cnpj": "00011835000147",
+    "nome": "TUTOIA EXPRESS SERVICOS POSTAIS LTDA",
+    "cnae": "53105",
+    "n_despesas": 4,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 74210.25
+   },
+   {
+    "cnpj": "51977864000107",
+    "nome": "BEST VISION COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "43700005000130",
+    "nome": "BIANIC AGENCIA DE PUBLICIDADE E PROPAGANDA LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "09204155000114",
+    "nome": "VITA PORTO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "53353636000183",
+    "nome": "VTMC SOLUCOES E GESTAO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "03858331000155",
+    "nome": "PLURAL INDUSTRIA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21622.07
+   },
+   {
+    "cnpj": "08142850000136",
+    "nome": "WBL GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 2900.97
+   },
+   {
+    "cnpj": "55824606000133",
+    "nome": "MADRE TERESA IMPRESSAO E COMERCIO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "00257906000196",
+    "nome": "CORUM COMUNICACAO VISUAL LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1444.76
+   },
+   {
+    "cnpj": "07679089000103",
+    "nome": "AUTO POSTO INDEPENDENCIA DO CAMBUCI LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 519.96
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 1528.7,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 28.7,
+    "Locação/cessão de bens imóveis": 1500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,672 @@
+{
+ "sq": "210002537717",
+ "nome_urna": "PEDRO WESTPHALEN",
+ "cargo": "depfed",
+ "uf": "RS",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2915525.2,
+  "por_origem": {
+   "Recursos de partido político": 2616555.2,
+   "Recursos de pessoas físicas": 298970.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2436555.2,
+   "FUNDO PARTIDARIO": 180000.0,
+   "OUTROS RECURSOS": 298970.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 2616555.2
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 19,
+   "total": 298970.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1323955.16,
+  "total_pago": 1155475.15,
+  "fornecedores_pj": [
+   {
+    "cnpj": "68662534000117",
+    "nome": "68.662.534 SILVIE GRAZIELE GOMES FRITZ",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 80500.0
+   },
+   {
+    "cnpj": "89840797000149",
+    "nome": "GRAFICA E EDITORA COMUNICACAO IMPRESSA LTDA",
+    "cnae": "58298",
+    "n_despesas": 16,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 68053.41
+   },
+   {
+    "cnpj": "07239059000186",
+    "nome": "BARROSO MACHADO LTDA",
+    "cnae": "77110",
+    "n_despesas": 9,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 66314.6
+   },
+   {
+    "cnpj": "08043362000171",
+    "nome": "ALEX SANDRO SCHMALZ RODRIGUES",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "53877511000152",
+    "nome": "KATYVA EMBALAGENS E SERVICOS DE IMPRESSAO LTDA",
+    "cnae": "47555",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22500.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 18700.0
+   },
+   {
+    "cnpj": "68462703000175",
+    "nome": "F WORK TEXTIL LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14500.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 13744.4
+   },
+   {
+    "cnpj": "45041412000108",
+    "nome": "LUIS R DA ROSA RAMIRES",
+    "cnae": "18229",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 10600.0
+   },
+   {
+    "cnpj": "61501950000194",
+    "nome": "61.501.950 GISELE SOUZA E SILVA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "34028316092989",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 9845.43
+   },
+   {
+    "cnpj": "19539180000102",
+    "nome": "STUDIO PRINT GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5670.0
+   },
+   {
+    "cnpj": "68765049000179",
+    "nome": "CITYCAR ALUGUEL DE VEICULOS S.A.",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5550.3
+   },
+   {
+    "cnpj": "07086926000190",
+    "nome": "LIZIANE QUEVEDO",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4985.48
+   },
+   {
+    "cnpj": "91370452000110",
+    "nome": "CHERVO MANUTENCAO E VENDAS DE PRODUTOS DE INFORMATICA LTDA",
+    "cnae": "95118",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 4560.0
+   },
+   {
+    "cnpj": "57032733000125",
+    "nome": "DSR IMPRESSOES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3450.0
+   },
+   {
+    "cnpj": "36741864000101",
+    "nome": "DESTAQUE AUTO POSTO COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 11,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2466.92
+   },
+   {
+    "cnpj": "00133913000186",
+    "nome": "ABASTECEDORA DE COMBUSTIVEIS FRIZZO LTDA",
+    "cnae": "47318",
+    "n_despesas": 9,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1980.48
+   },
+   {
+    "cnpj": "87687489000108",
+    "nome": "POSTO DE COMBUSTIVEIS VACCARI LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1420.7
+   },
+   {
+    "cnpj": "01541262000126",
+    "nome": "EDITORIAL EXPRESSAO LTDA",
+    "cnae": "58221",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1416.0
+   },
+   {
+    "cnpj": "05444847000189",
+    "nome": "POSTO SAARA LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1405.06
+   },
+   {
+    "cnpj": "21921645000480",
+    "nome": "HOERLLE ASSUMPCAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1355.81
+   },
+   {
+    "cnpj": "91010082000453",
+    "nome": "H.LANG FILHO COMERCIO,REPRESENTACOES E TRANSPORTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1276.76
+   },
+   {
+    "cnpj": "25024874000100",
+    "nome": "NOSSO POSTO - COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1253.1
+   },
+   {
+    "cnpj": "61702409000144",
+    "nome": "CENTER COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "04513951000115",
+    "nome": "POSTO 74 DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1192.29
+   },
+   {
+    "cnpj": "73253999000154",
+    "nome": "GRAFICA E EDITORA SANTA ROSA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1180.0
+   },
+   {
+    "cnpj": "61999929000160",
+    "nome": "PLURAL COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1114.43
+   },
+   {
+    "cnpj": "88509989000104",
+    "nome": "ANTONIO DOLCI CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1028.14
+   },
+   {
+    "cnpj": "32249473000113",
+    "nome": "J A AIRES COMERCIAL DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 980.55
+   },
+   {
+    "cnpj": "92178227000140",
+    "nome": "COMBUSTIVEIS IBIRAPUITA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 962.86
+   },
+   {
+    "cnpj": "98042294000119",
+    "nome": "POSTO DE SERVICOS FRITSCH LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 949.48
+   },
+   {
+    "cnpj": "87723417000160",
+    "nome": "POSTO SANTA TEREZINHA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 922.81
+   },
+   {
+    "cnpj": "96206941000236",
+    "nome": "UGGERI SA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 913.91
+   },
+   {
+    "cnpj": "04642623000119",
+    "nome": "COMERCIO DE COMBUSTIVEIS DO CENTRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 844.49
+   },
+   {
+    "cnpj": "11298737000159",
+    "nome": "A.G.M. COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 837.5
+   },
+   {
+    "cnpj": "07920782000126",
+    "nome": "JUCERLI ANTONIO CORSINI FRESCURA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 835.34
+   },
+   {
+    "cnpj": "00133913000267",
+    "nome": "ABASTECEDORA DE COMBUSTIVEIS FRIZZO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 808.44
+   },
+   {
+    "cnpj": "21921645000137",
+    "nome": "HOERLLE ASSUMPCAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 784.29
+   },
+   {
+    "cnpj": "08545193000259",
+    "nome": "SUPERMERCADO RAFANA LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 778.29
+   },
+   {
+    "cnpj": "94956240000108",
+    "nome": "COMERCIAL DE COMBUSTIVEIS MATO QUEIMADO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 776.27
+   },
+   {
+    "cnpj": "31373058000104",
+    "nome": "COMERCIO DE COMBUSTIVEIS CODORNA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 725.74
+   },
+   {
+    "cnpj": "04106586000124",
+    "nome": "POSTO DE COMBUSTIVEIS ANDRIOLLI LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 695.79
+   },
+   {
+    "cnpj": "00624595000580",
+    "nome": "POSTO DE COMBUSTIVEIS FUZER LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 693.06
+   },
+   {
+    "cnpj": "07839890000179",
+    "nome": "JOECIR M. CIRTOLI CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 657.72
+   },
+   {
+    "cnpj": "08294765000193",
+    "nome": "LUIS CARLOS D. PILLON CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 639.16
+   },
+   {
+    "cnpj": "03358858000200",
+    "nome": "ABASTECEDORA DE COMBUSTIVEIS RIOXEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 602.92
+   },
+   {
+    "cnpj": "00804430000166",
+    "nome": "COMERCIAL DE COMBUSTIVEIS LOVATO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 499.83
+   },
+   {
+    "cnpj": "92660760000143",
+    "nome": "VEPPO CIA LIMITADA",
+    "cnae": "79902",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 461.3
+   },
+   {
+    "cnpj": "92366855000159",
+    "nome": "CENTRAL COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 432.53
+   },
+   {
+    "cnpj": "01595146000190",
+    "nome": "ABASTECEDORA AGNOLIN LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 429.54
+   },
+   {
+    "cnpj": "13844156000109",
+    "nome": "1000 IMPRESSOES NH LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 330.0
+   },
+   {
+    "cnpj": "21921645001109",
+    "nome": "HOERLLE ASSUMPCAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 317.84
+   },
+   {
+    "cnpj": "12942903000170",
+    "nome": "AUTO POSTO DELLA PACE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 315.02
+   },
+   {
+    "cnpj": "14131443000207",
+    "nome": "ABREU FLORES PEREIRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 269.6
+   },
+   {
+    "cnpj": "12799547000340",
+    "nome": "MJ VENDRUSCOLO CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 266.23
+   },
+   {
+    "cnpj": "74108226000147",
+    "nome": "PILLON COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 236.95
+   },
+   {
+    "cnpj": "01595146000270",
+    "nome": "ABASTECEDORA AGNOLIN LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 230.19
+   },
+   {
+    "cnpj": "51498865000160",
+    "nome": "J K COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 220.44
+   },
+   {
+    "cnpj": "08786193000160",
+    "nome": "COMBUSTIVEIS PEGASUS IPIRANGA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 152.14
+   },
+   {
+    "cnpj": "04845316000135",
+    "nome": "ALBACORA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 113.25
+   },
+   {
+    "cnpj": "31373058000295",
+    "nome": "COMERCIO DE COMBUSTIVEIS CODORNA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 108.37
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 346,
+   "total": 887900.0,
+   "por_tipo": {
+    "Despesas com pessoal": 808400.0,
+    "Locação/cessão de bens imóveis": 29500.0,
+    "Serviços advocatícios": 20000.0,
+    "Serviços contábeis": 30000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

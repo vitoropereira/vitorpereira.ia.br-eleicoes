@@ -1,0 +1,232 @@
+{
+ "sq": "250002536722",
+ "nome_urna": "KIKO CELEGUIM",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2228330.0,
+  "por_origem": {
+   "Recursos de partido político": 2038830.0,
+   "Recursos de pessoas físicas": 189500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1815500.0,
+   "OUTROS RECURSOS": 412830.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 2038830.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 189500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 765373.96,
+  "total_pago": 565341.82,
+  "fornecedores_pj": [
+   {
+    "cnpj": "68373201000178",
+    "nome": "LUIZ FERNANDO TEIXEIRA FERREIRA",
+    "cnae": "94928",
+    "n_despesas": 3,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "10547439000192",
+    "nome": "INTEGRACAO SOLUCOES CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "68373172000144",
+    "nome": "PAULO ROBERTO FIORILO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68373365000103",
+    "nome": "JOAO PAULO RILLO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68373442000117",
+    "nome": "RODRIGO FRANCISCO SILVA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "04701533000151",
+    "nome": "R V A - EMPREENDIMENTOS IMOBILIARIOS LTDA.",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Aquisição/Doação de bens móveis ou imóveis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "34861233000109",
+    "nome": "ALMEIDA PRADO ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "23376406000179",
+    "nome": "B. AP. DE MORAES",
+    "cnae": "42138",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 28424.0
+   },
+   {
+    "cnpj": "00625423000105",
+    "nome": "NR REPRESENTACOES SERVICOS E COMERCIO LIMITADA",
+    "cnae": "49302",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "46331052000141",
+    "nome": "IMPERIO MULTISERVICOS LTDA",
+    "cnae": "49302",
+    "n_despesas": 2,
+    "tipos": [
+     "Aquisição/Doação de bens móveis ou imóveis",
+     "Materiais de expediente"
+    ],
+    "total": 15771.34
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "73137838000103",
+    "nome": "LAUDA EDITORA CONSULTORIAS E COMUNICACOES LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "29170738000189",
+    "nome": "POLIDO POLIDO - ADMINISTRACAO DE BENS PROPRIOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "65807320000101",
+    "nome": "COLETIVO CONTENT BRASIL LTDA",
+    "cnae": "79121",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "27182656000129",
+    "nome": "FRANCONETFIBRA LTDA",
+    "cnae": "61108",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros",
+     "Telefone"
+    ],
+    "total": 581.6
+   },
+   {
+    "cnpj": "43776517000180",
+    "nome": "COMPANHIA DE SANEAMENTO BASICO DO ESTADO DE SAO PAULO - SABESP",
+    "cnae": "36006",
+    "n_despesas": 2,
+    "tipos": [
+     "Água"
+    ],
+    "total": 302.32
+   },
+   {
+    "cnpj": "01554285000175",
+    "nome": "CERTISIGN CERTIFICADORA DIGITAL S.A",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 274.9
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 81,
+   "total": 202519.8,
+   "por_tipo": {
+    "Despesas com pessoal": 193006.8,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 13.0,
+    "Locação/cessão de bens imóveis": 9500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

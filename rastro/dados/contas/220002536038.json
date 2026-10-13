@@ -1,0 +1,387 @@
+{
+ "sq": "220002536038",
+ "nome_urna": "CRISTIANE LOPES",
+ "cargo": "depfed",
+ "uf": "RO",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2311000.0,
+  "por_origem": {
+   "Recursos de partido político": 2300000.0,
+   "Recursos de pessoas físicas": 1000.0,
+   "Recursos próprios": 10000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2100000.0,
+   "FUNDO PARTIDARIO": 200000.0,
+   "OUTROS RECURSOS": 11000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 2300000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 11000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1808008.62,
+  "total_pago": 933176.39,
+  "fornecedores_pj": [
+   {
+    "cnpj": "37470137000110",
+    "nome": "CLAUDIO BATISTA DA COSTA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 436192.67
+   },
+   {
+    "cnpj": "63068732000133",
+    "nome": "BARROZO ELHAGE SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "43033424000165",
+    "nome": "A M PUBLICIDADE E PROPAGANDA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 10,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 66750.0
+   },
+   {
+    "cnpj": "04320901000111",
+    "nome": "MONTEIRO RENT A CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 4,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 60221.0
+   },
+   {
+    "cnpj": "45589745000176",
+    "nome": "PLENITUDE ASSESSORIA EM CONTABILIDADE LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "23863487000131",
+    "nome": "D R VALENTE COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 57,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 36785.67
+   },
+   {
+    "cnpj": "66937278000106",
+    "nome": "PMP TRANSPORTE E TURISMO LTDA",
+    "cnae": "49213",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68464909000134",
+    "nome": "MARILENE NOLETO PAIVA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "14754880000104",
+    "nome": "ANDERSON ROBERTO DA SILVA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "44941716000169",
+    "nome": "G P DISTRIBUIDORA LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 10800.0
+   },
+   {
+    "cnpj": "30633334000163",
+    "nome": "JOSE ROBERTO GOMES ARROIO",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68464995000185",
+    "nome": "IRIS GABRIELA NETO REBOUCAS",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "10657520000125",
+    "nome": "IMOBILIARIA ZOGHBI LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Aquisição/Doação de bens móveis ou imóveis"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "84722420000171",
+    "nome": "EMPRESA RONDONIA DE REFRIGERANTES LTDA",
+    "cnae": "11216",
+    "n_despesas": 3,
+    "tipos": [
+     "Água"
+    ],
+    "total": 6800.0
+   },
+   {
+    "cnpj": "02974225000174",
+    "nome": "DISTRIBUIDORA GONZAGA LTDA",
+    "cnae": "47237",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)",
+     "Água"
+    ],
+    "total": 4992.0
+   },
+   {
+    "cnpj": "13727626000146",
+    "nome": "AUTO POSTO MINUANO LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2784.7
+   },
+   {
+    "cnpj": "18291282000199",
+    "nome": "R. M. S. COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1592.87
+   },
+   {
+    "cnpj": "04707821000202",
+    "nome": "SOJA - COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1576.0
+   },
+   {
+    "cnpj": "03946493000145",
+    "nome": "MARECHAL AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1398.55
+   },
+   {
+    "cnpj": "17660075000100",
+    "nome": "COMERCIO DE DERIVADOS DE PETROLEO SAVANA 2 LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1214.59
+   },
+   {
+    "cnpj": "31559712000179",
+    "nome": "COMERCIO DE DERIVADOS DE PETROLEO OURO BRANCO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 953.44
+   },
+   {
+    "cnpj": "04918124000101",
+    "nome": "POSTO FORTE VENEZA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 926.06
+   },
+   {
+    "cnpj": "05886460000182",
+    "nome": "WJJ COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 770.59
+   },
+   {
+    "cnpj": "06228348000117",
+    "nome": "AUTO POSTO ROLIM DE MOURA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 488.0
+   },
+   {
+    "cnpj": "26317031000164",
+    "nome": "AUTO POSTO REBOUCAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 473.4
+   },
+   {
+    "cnpj": "26123742000106",
+    "nome": "M C DE ALMEIDA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 457.03
+   },
+   {
+    "cnpj": "17860860000106",
+    "nome": "AUTO POSTO BRASDIESEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 416.58
+   },
+   {
+    "cnpj": "10490228000160",
+    "nome": "AUTO POSTO PS COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 403.23
+   },
+   {
+    "cnpj": "09018816000206",
+    "nome": "PERNAMBUCO - COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 398.43
+   },
+   {
+    "cnpj": "21970164000111",
+    "nome": "CARNEIRO COSTA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 389.04
+   },
+   {
+    "cnpj": "08949056000107",
+    "nome": "COMERCIO DE COMBUSTIVEIS ESPIGAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 388.19
+   },
+   {
+    "cnpj": "04333596000100",
+    "nome": "T. R. DOURADO RODRIGUES",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 370.47
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 193,
+   "total": 639466.11,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 394835.0,
+    "Cessão ou locação de veículos": 185405.11,
+    "Despesas com pessoal": 16000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 26.0,
+    "Locação/cessão de bens móveis (exceto veículos)": 30000.0,
+    "Produção de jingles, vinhetas e slogans": 13200.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

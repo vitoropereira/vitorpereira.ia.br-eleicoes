@@ -1,0 +1,327 @@
+{
+ "sq": "150002544178",
+ "nome_urna": "GERVÁSIO MAIA",
+ "cargo": "depfed",
+ "uf": "PB",
+ "partido": "PCDOB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2650000.0,
+  "por_origem": {
+   "Recursos de partido político": 2640000.0,
+   "Recursos próprios": 10000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2640000.0,
+   "OUTROS RECURSOS": 10000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "54956495000156",
+    "nome": "Direção Nacional - PCDOB",
+    "total": 2640000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 10000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2107199.35,
+  "total_pago": 1735716.22,
+  "fornecedores_pj": [
+   {
+    "cnpj": "08540403000135",
+    "nome": "GRAFICA J B LTDA",
+    "cnae": "18130",
+    "n_despesas": 11,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 180225.0
+   },
+   {
+    "cnpj": "37589804000188",
+    "nome": "NILDO NUNES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "68492345000143",
+    "nome": "ROMUALDO ANTONIO QUIRINO DE SOUSA",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 125000.0
+   },
+   {
+    "cnpj": "09183206000179",
+    "nome": "BENTO DE FARIAS CONTABILIDADE, GESTAO E CONSULTORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "15689756000167",
+    "nome": "JR SOLUCOES VISUAIS LTDA",
+    "cnae": "32990",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 47200.0
+   },
+   {
+    "cnpj": "38089078000105",
+    "nome": "M V BARBOSA DE OLIVEIRA LTDA",
+    "cnae": "14126",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 37500.0
+   },
+   {
+    "cnpj": "47333134000198",
+    "nome": "OPINIAO PESQUISAS QUANTITATIVAS E MARKETING LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "48050163000105",
+    "nome": "CARLOS ALBERTO DE ARAUJO SOUTO",
+    "cnae": "47636",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 17500.0
+   },
+   {
+    "cnpj": "19367885000190",
+    "nome": "CRIATIVA INDUSTRIA DE COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "02401445000109",
+    "nome": "O L LOCACAO E INCORPORACAO LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "04755239000122",
+    "nome": "DANIELLE CARDOSO DE FIGUEIREDO",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "61287118000137",
+    "nome": "61.287.118 MARIA ANDREZA MARTINS PEREIRA",
+    "cnae": "58191",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3900.0
+   },
+   {
+    "cnpj": "65556388000157",
+    "nome": "65.556.388 JOANDERSON PEREIRA EVANGELISTA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "10904784000136",
+    "nome": "AL COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1429.8
+   },
+   {
+    "cnpj": "01420327000428",
+    "nome": "MOTOGAS INDUSTRIA DE COMPRESSAO E COMERCIO DE GAS NATURAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1193.34
+   },
+   {
+    "cnpj": "01420327000266",
+    "nome": "MOTOGAS INDUSTRIA DE COMPRESSAO E COMERCIO DE GAS NATURAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1158.19
+   },
+   {
+    "cnpj": "42192899000131",
+    "nome": "POSTO DE COMBUSTIVEIS SANTOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1000.11
+   },
+   {
+    "cnpj": "22427423000125",
+    "nome": "MILLS ESTUDIOS CINEMATOGRAFICOS E SERVICOS AUDIOVISUAIS, COMUNICACAO E PUBLICIDADE LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "30552545000171",
+    "nome": "30.552.545 CARLOS HENRIQUE DOS SANTOS SALINO",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 650.0
+   },
+   {
+    "cnpj": "13792985000187",
+    "nome": "MERCADINHO BARBOSA LTDA",
+    "cnae": "47121",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 450.0
+   },
+   {
+    "cnpj": "01420327000509",
+    "nome": "MOTOGAS INDUSTRIA DE COMPRESSAO E COMERCIO DE GAS NATURAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 440.32
+   },
+   {
+    "cnpj": "06052003000155",
+    "nome": "LUZIA MARQUES DA SILVA CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 410.04
+   },
+   {
+    "cnpj": "01664503000124",
+    "nome": "POSTO DE GASOLINA SANTA RITA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 405.66
+   },
+   {
+    "cnpj": "11117785000608",
+    "nome": "ALBUQUERQUE PNEUS LTDA EM RECUPERACAO JUDICIAL",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 315.32
+   },
+   {
+    "cnpj": "15728203000257",
+    "nome": "J FERNANDES BATISTA GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 300.07
+   },
+   {
+    "cnpj": "40675244000199",
+    "nome": "40.675.244 PRISCILLA PONTES ALEXANDRE",
+    "cnae": "85929",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 312,
+   "total": 1376121.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 488589.0,
+    "Cessão ou locação de veículos": 112000.0,
+    "Despesas com pessoal": 699000.0,
+    "Diversas a especificar": 8000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 532.5,
+    "Locação/cessão de bens imóveis": 8000.0,
+    "Serviços advocatícios": 60000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

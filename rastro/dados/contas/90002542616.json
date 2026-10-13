@@ -1,0 +1,210 @@
+{
+ "sq": "90002542616",
+ "nome_urna": "FÁBIO SOUSA",
+ "cargo": "depfed",
+ "uf": "GO",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1314161.08,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 10491.08,
+   "Recursos de partido político": 630000.0,
+   "Recursos de pessoas físicas": 409200.0,
+   "Recursos próprios": 264470.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 330000.0,
+   "FUNDO PARTIDARIO": 300000.0,
+   "OUTROS RECURSOS": 684161.08
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 630000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 10491.08
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 120,
+   "total": 673670.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 790384.76,
+  "total_pago": 540084.76,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 10,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 160290.0
+   },
+   {
+    "cnpj": "45964690000137",
+    "nome": "SANTA FE ADMINISTRACAO LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 58000.0
+   },
+   {
+    "cnpj": "40076021000105",
+    "nome": "VIRA CLICK LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "59476742000130",
+    "nome": "ACE INDUSTRIA E COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13800.0
+   },
+   {
+    "cnpj": "25188538000100",
+    "nome": "ESSENT INOVACAO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços contábeis",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 11125.0
+   },
+   {
+    "cnpj": "42398929000160",
+    "nome": "XPETRO T 63 COMERCIO E DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 8000.95
+   },
+   {
+    "cnpj": "47714881000176",
+    "nome": "47.714.881 WESLEY DE SOUZA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5472.0
+   },
+   {
+    "cnpj": "05585327000196",
+    "nome": "CVAL ALUGUEL DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5330.0
+   },
+   {
+    "cnpj": "66170280000194",
+    "nome": "LOULYCAIXE EMBALAGENS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "20747906000181",
+    "nome": "RM CONSULTORIA SERVICOS E VENDAS LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 2625.0
+   },
+   {
+    "cnpj": "67620613000100",
+    "nome": "UNICA SERVICOS E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1750.0
+   },
+   {
+    "cnpj": "33867095000102",
+    "nome": "BR BANDEIRAS E COMUNICACAO VISUAL LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "02690817000164",
+    "nome": "1000TOONS COMUNICACAO VISUAL LTDA",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 226.71
+   },
+   {
+    "cnpj": "41367161000103",
+    "nome": "BRAVE TECNOLOGIA E SOLUCOES DIGITAIS LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 166,
+   "total": 489665.1,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 457100.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 565.1,
+    "Locação/cessão de bens imóveis": 26000.0,
+    "Serviços advocatícios": 6000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

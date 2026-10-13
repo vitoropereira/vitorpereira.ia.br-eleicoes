@@ -1,0 +1,167 @@
+{
+ "sq": "250002535982",
+ "nome_urna": "PAULO FREIRE",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3027409.05,
+  "por_origem": {
+   "Recursos de partido político": 2912409.05,
+   "Recursos de pessoas físicas": 110000.0,
+   "Recursos próprios": 5000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1450000.0,
+   "FUNDO PARTIDARIO": 1454727.63,
+   "OUTROS RECURSOS": 122681.42
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2900000.0
+   },
+   {
+    "cnpj": "08701595000114",
+    "nome": "Direção Estadual/Distrital - PL - SÃO PAULO",
+    "total": 12409.05
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 115000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1492207.49,
+  "total_pago": 995953.48,
+  "fornecedores_pj": [
+   {
+    "cnpj": "57793106000107",
+    "nome": "GD PUBLICIDADE COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "09204155000114",
+    "nome": "VITA PORTO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "44405247000163",
+    "nome": "SACS ASSESSORIA CONTABIL E AUDITORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 79000.0
+   },
+   {
+    "cnpj": "62424816000108",
+    "nome": "62.424.816 MARTA PONTES DO PRADO",
+    "cnae": "32990",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24075.0
+   },
+   {
+    "cnpj": "03639008000433",
+    "nome": "VITORIA HOTEIS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "09022066000157",
+    "nome": "THOMAZ DE S GOUVEIA SONORIZACOES LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7670.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5691.51
+   },
+   {
+    "cnpj": "49549214000100",
+    "nome": "P G PRINT LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2900.0
+   },
+   {
+    "cnpj": "64942857000103",
+    "nome": "POSTO DO SERGIO CAPAO BONITO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 700.15
+   },
+   {
+    "cnpj": "07017009000154",
+    "nome": "POSTO GARCIA DE CAMPINAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 630.83
+   },
+   {
+    "cnpj": "62373758000122",
+    "nome": "PAPELARIA FULCONI LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 17.5
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 600,
+   "total": 1006522.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 1006415.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 107.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,210 @@
+{
+ "sq": "100002535659",
+ "nome_urna": "JOÃO IGOR CARVALHO",
+ "cargo": "depest",
+ "uf": "MA",
+ "partido": "PDT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 483300.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 4800.0,
+   "Recursos de partido político": 200000.0,
+   "Recursos de pessoas físicas": 158500.0,
+   "Recursos próprios": 120000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 204800.0,
+   "OUTROS RECURSOS": 278500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00719575000169",
+    "nome": "Direção Nacional - PDT",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "68344905000112",
+    "nome": "ARNALDO SAMUEL AMORIM ARAGAO",
+    "total": 4800.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 64,
+   "total": 278500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 356919.65,
+  "total_pago": 402631.47,
+  "fornecedores_pj": [
+   {
+    "cnpj": "17686492000113",
+    "nome": "GAMA PINHEIRO PRODUCOES LTDA",
+    "cnae": "59111",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans",
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 90300.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 52000.0
+   },
+   {
+    "cnpj": "09181344000119",
+    "nome": "DANIEL LEITE ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "50299385000108",
+    "nome": "PESSOA BARBOSA LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "17668873000170",
+    "nome": "ERIC GUIMARAES ARAUJO",
+    "cnae": "18130",
+    "n_despesas": 14,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21269.0
+   },
+   {
+    "cnpj": "01672167000161",
+    "nome": "AMERICANO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 19740.0
+   },
+   {
+    "cnpj": "40482427000198",
+    "nome": "BENNO CALDAS SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "17190953000162",
+    "nome": "LITORAL EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 2,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "64026889000169",
+    "nome": "REI ARTHUR MUNDO MAGICO LTDA",
+    "cnae": "77217",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10200.0
+   },
+   {
+    "cnpj": "69419745000196",
+    "nome": "T P RODRIGUES LTDA",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2678.21
+   },
+   {
+    "cnpj": "10547657000127",
+    "nome": "MASTER SERVICOS E EMPREENDIMENTOS LTDA",
+    "cnae": "41204",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2444.0
+   },
+   {
+    "cnpj": "53485068000174",
+    "nome": "A. R.M COMERCIO LTDA",
+    "cnae": "47296",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1550.0
+   },
+   {
+    "cnpj": "20520418000137",
+    "nome": "T ZAVARIZE CUPERTINO COMERCIO LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1380.0
+   },
+   {
+    "cnpj": "04186679000106",
+    "nome": "BERNARDO DE ALBUQUERQUE",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1279.71
+   },
+   {
+    "cnpj": "17036547000140",
+    "nome": "17.036.547 BENEDITO SOUSA XAVIER NETO",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 650.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 7,
+   "total": 34428.73,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 2800.0,
+    "Despesas com pessoal": 15000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.4,
+    "Locação/cessão de bens imóveis": 16625.33
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

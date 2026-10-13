@@ -1,0 +1,169 @@
+{
+ "sq": "160002533488",
+ "nome_urna": "PAULO MAC DONALD",
+ "cargo": "depest",
+ "uf": "PR",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 457850.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 186850.0,
+   "Recursos de partido político": 256000.0,
+   "Recursos de pessoas físicas": 15000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 442850.0,
+   "OUTROS RECURSOS": 15000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 256000.0
+   },
+   {
+    "cnpj": "68237145000144",
+    "nome": "THIAGO YOSHIO FINGSTAG KODAMA",
+    "total": 186850.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 15000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 262667.36,
+  "total_pago": 144987.4,
+  "fornecedores_pj": [
+   {
+    "cnpj": "18223585000174",
+    "nome": "FOZ PUBLICIDADE E PROPAGANDA LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 82979.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "39899781000133",
+    "nome": "39.899.781 EDENILSON ALVES DE QUEIROZ JUNIOR",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "59224495000185",
+    "nome": "LEUK CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 13000.0
+   },
+   {
+    "cnpj": "28727946000173",
+    "nome": "GDIA JORNAIS E INFORMACAO LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 4550.0
+   },
+   {
+    "cnpj": "30550072000173",
+    "nome": "JOYNET INFORMATICA E INTERNET LTDA",
+    "cnae": "61108",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "37189127000100",
+    "nome": "E ALLIANA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "27382029000131",
+    "nome": "27.382.029 JESSIANE CUBILLA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "82444050000122",
+    "nome": "FORTUNATO FORTUNATO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "77088474000161",
+    "nome": "POSTO DE SERVICOS AZTECA LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1330.36
+   },
+   {
+    "cnpj": "20145250000127",
+    "nome": "CHRISTIAN GASTON RIZZI",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 1300.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 6,
+   "total": 73508.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 5000.0,
+    "Despesas com pessoal": 10000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 8.0,
+    "Produção de programas de rádio, televisão ou vídeo": 3500.0,
+    "Serviços advocatícios": 40000.0,
+    "Serviços prestados por terceiros": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,194 @@
+{
+ "sq": "200002533863",
+ "nome_urna": "DIVANEIDE BASÍLIO",
+ "cargo": "depest",
+ "uf": "RN",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1025300.0,
+  "por_origem": {
+   "Recursos de partido político": 1015500.0,
+   "Recursos de pessoas físicas": 7400.0,
+   "Recursos próprios": 2400.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1015500.0,
+   "OUTROS RECURSOS": 9800.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1015500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 9800.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 496853.14,
+  "total_pago": 411265.14,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 155000.0
+   },
+   {
+    "cnpj": "08714391000118",
+    "nome": "CENTER FILMES AUDIOVISUAL LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "17340447000102",
+    "nome": "MARICLEYDSON COSTA DA SILVA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 65019.0
+   },
+   {
+    "cnpj": "42191685000140",
+    "nome": "EVOLUTION MEDIA LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "51186073000150",
+    "nome": "FABRICIO BRUNO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "54440225000198",
+    "nome": "R R GESTAO ASSESSORIA E CONSULTORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "55890591000101",
+    "nome": "A S DE LIMA LOCADORA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "17104197000101",
+    "nome": "J V FERREIRA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9800.0
+   },
+   {
+    "cnpj": "10902172000104",
+    "nome": "PORTAL IMOBILIARIA LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "24206617000800",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3583.86
+   },
+   {
+    "cnpj": "13587119000154",
+    "nome": "R4 - INDUSTRIA E COMERCIO LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "24206617001955",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 853.62
+   },
+   {
+    "cnpj": "24206617003303",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 638.47
+   },
+   {
+    "cnpj": "24206617001289",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 348.22
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 23,
+   "total": 79109.97,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 14557.5,
+    "Cessão ou locação de veículos": 6320.0,
+    "Criação e inclusão de páginas na internet": 1800.0,
+    "Despesas com pessoal": 9000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 43.7,
+    "Serviços prestados por terceiros": 47388.77
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

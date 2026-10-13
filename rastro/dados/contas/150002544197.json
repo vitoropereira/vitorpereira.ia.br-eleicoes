@@ -1,0 +1,153 @@
+{
+ "sq": "150002544197",
+ "nome_urna": "DANIELLE DO VALE",
+ "cargo": "depest",
+ "uf": "PB",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 886200.0,
+  "por_origem": {
+   "Recursos de partido político": 802000.0,
+   "Recursos de pessoas físicas": 62200.0,
+   "Recursos próprios": 22000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 552000.0,
+   "FUNDO PARTIDARIO": 250000.0,
+   "OUTROS RECURSOS": 84200.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 552000.0
+   },
+   {
+    "cnpj": "07644852000160",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - PARAÍBA",
+    "total": 250000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 84200.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 438676.23,
+  "total_pago": 25000.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13510794000185",
+    "nome": "CENTRAL PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 3,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans",
+     "Produção de programas de rádio, televisão ou vídeo",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "45443633000102",
+    "nome": "JD IMPRESSOS PERSONALIZADOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 32450.0
+   },
+   {
+    "cnpj": "10596370000197",
+    "nome": "ASTEC GROUP CONTADORES ASSOCIADOS S/S LTDA.",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "07796243000127",
+    "nome": "PLASTFORT- INDUSTRIA E COMERCIO DE PLASTICOS LTDA",
+    "cnae": "22226",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 18230.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "57286401000177",
+    "nome": "TOP PRINT DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "57930721000118",
+    "nome": "SPINELLIS PRODUCOES LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 5460.0
+   },
+   {
+    "cnpj": "35842933000100",
+    "nome": "35.842.933 ADRIANO DE ALMEIDA ALVES",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5258.8
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 3,
+   "total": 24277.43,
+   "por_tipo": {
+    "Impostos, contribuições e taxas": 1777.43,
+    "Publicidade por carros de som": 2500.0,
+    "Serviços advocatícios": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

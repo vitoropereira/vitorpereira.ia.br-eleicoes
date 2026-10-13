@@ -1,0 +1,186 @@
+{
+ "sq": "190002536132",
+ "nome_urna": "YURI MOURA",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PSOL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1112603.89,
+  "por_origem": {
+   "Recursos de partido político": 1101213.76,
+   "Recursos de pessoas físicas": 11390.13
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1097163.15,
+   "OUTROS RECURSOS": 15440.74
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "06954942000195",
+    "nome": "Direção Nacional - PSOL",
+    "total": 1094500.0
+   },
+   {
+    "cnpj": "08049726000120",
+    "nome": "Direção Estadual/Distrital - PSOL - RIO DE JANEIRO",
+    "total": 6713.76
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 11390.13
+  }
+ },
+ "despesas": {
+  "total_contratado": 1182773.33,
+  "total_pago": 951917.56,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 9,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 90000.13
+   },
+   {
+    "cnpj": "25264544000191",
+    "nome": "FLORA, MATHEUS E MANGABEIRA SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 61000.0
+   },
+   {
+    "cnpj": "27229968000140",
+    "nome": "ROGERIO ANTONIO CARRILHO ANDRADE",
+    "cnae": "82997",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 49499.0
+   },
+   {
+    "cnpj": "14437788000102",
+    "nome": "FLEX MARKETING DIRETO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "26642855000100",
+    "nome": "CASTRO, VIEIRA E FERREIRA CONTADORES ELEITORAIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 23110.0
+   },
+   {
+    "cnpj": "47920147000163",
+    "nome": "47.920.147 PEDRO LUIS FERNANDES DOS SANTOS",
+    "cnae": "58191",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "27821313000167",
+    "nome": "COLOR SET INDUSTRIA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12795.0
+   },
+   {
+    "cnpj": "04017890000103",
+    "nome": "ARTEG BUREAU DE ARTES, GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4250.0
+   },
+   {
+    "cnpj": "31080070000120",
+    "nome": "CLUBE SOCIAL DE PARAIBA DO SUL",
+    "cnae": "93298",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "16721306000177",
+    "nome": "NATHY RIO MALHAS LTDA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 2845.0
+   },
+   {
+    "cnpj": "08737891000175",
+    "nome": "PORTO FABRICA DE BANDEIRAS E SERVICOS LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2200.0
+   },
+   {
+    "cnpj": "68020103000157",
+    "nome": "68.020.103 PRISCILA APARECIDA DE MELLO LISBOA MACHADO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "64151059000163",
+    "nome": "64.151.059 ADRIANA DE SOUZA MACETA",
+    "cnae": "63992",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 189.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 336,
+   "total": 869785.2,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 133847.0,
+    "Despesas com pessoal": 685662.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 572.2,
+    "Locação/cessão de bens imóveis": 49704.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,290 @@
+{
+ "sq": "130002542016",
+ "nome_urna": "MARCELO ÁLVARO ANTÔNIO",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2711449.66,
+  "por_origem": {
+   "Recursos de partido político": 2640649.66,
+   "Recursos de pessoas físicas": 30800.0,
+   "Recursos próprios": 40000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2590000.0,
+   "FUNDO PARTIDARIO": 666.66,
+   "OUTROS RECURSOS": 120783.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2590000.0
+   },
+   {
+    "cnpj": "08691904000112",
+    "nome": "Direção Estadual/Distrital - PL - MINAS GERAIS",
+    "total": 50649.66
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 70800.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1071454.69,
+  "total_pago": 1408410.79,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 85000.0
+   },
+   {
+    "cnpj": "27845926000134",
+    "nome": "27.845.926 ALEXANDRE REZENDE DA MATA",
+    "cnae": "45200",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 37500.0
+   },
+   {
+    "cnpj": "62017756000109",
+    "nome": "SAM MARC COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24022.5
+   },
+   {
+    "cnpj": "68464789000175",
+    "nome": "AMANDA CAROLINE TEIXEIRA DIAS",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 19150.0
+   },
+   {
+    "cnpj": "64428337000187",
+    "nome": "GRAFICA E EDITORA EXPRESSA LTDA",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16230.0
+   },
+   {
+    "cnpj": "48332420000100",
+    "nome": "SM EMPREENDIMENTOS E PARTICIPACOES LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "30047561000107",
+    "nome": "WILSON DA SILVA MENDES HORBELT",
+    "cnae": "82997",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12471.4
+   },
+   {
+    "cnpj": "01134475000133",
+    "nome": "REQUINTE EMBALAGENS COMERCIAIS LTDA",
+    "cnae": "46869",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 8910.0
+   },
+   {
+    "cnpj": "38499661000186",
+    "nome": "COMERCIO DE MOVEIS CARVALHO E MASCARENHAS LTDA",
+    "cnae": "47547",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 7845.0
+   },
+   {
+    "cnpj": "57035862000177",
+    "nome": "LOCARUBER LOCACAO LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6750.0
+   },
+   {
+    "cnpj": "26571189000166",
+    "nome": "ROSSO MENDES LOCACAO LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5248.88
+   },
+   {
+    "cnpj": "42769240000103",
+    "nome": "ACF RAJA LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 5060.37
+   },
+   {
+    "cnpj": "06049272000162",
+    "nome": "POSTO 4I LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3397.96
+   },
+   {
+    "cnpj": "01052390000106",
+    "nome": "AUTO POSTO BARREIRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3100.0
+   },
+   {
+    "cnpj": "03754139000119",
+    "nome": "RIO GRANDE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3100.0
+   },
+   {
+    "cnpj": "03763808000380",
+    "nome": "MCOURA COMBUSTIVEIS DE AVIACAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3070.46
+   },
+   {
+    "cnpj": "09507127000176",
+    "nome": "COMBUSTIVEIS CEU AZUL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1842.4
+   },
+   {
+    "cnpj": "09415157000152",
+    "nome": "ECOLOGIC PRINT COMERCIO E SERVICOS EM INFORMATICA LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "02837238000100",
+    "nome": "COMERCIAL PRATTI LTDA.",
+    "cnae": "46419",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1188.4
+   },
+   {
+    "cnpj": "28251100000100",
+    "nome": "ARTPLACAS COMUNICACAO VISUAL E GRAFICA LTDA",
+    "cnae": "32990",
+    "n_despesas": 3,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 780.0
+   },
+   {
+    "cnpj": "36194218000171",
+    "nome": "ALESSANDRO DIAS ELEUTERIO",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "05020360000179",
+    "nome": "POSTO PIO XII LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 314.5
+   },
+   {
+    "cnpj": "21324983000191",
+    "nome": "MIL CORES COMERCIAL LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 233.82
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 261,
+   "total": 810439.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 95365.0,
+    "Despesas com Hospedagem": 1500.0,
+    "Despesas com pessoal": 685760.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 114.0,
+    "Locação/cessão de bens imóveis": 27700.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

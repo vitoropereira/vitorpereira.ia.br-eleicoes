@@ -1,0 +1,151 @@
+{
+ "sq": "140002546711",
+ "nome_urna": "ROGERIO BARRA",
+ "cargo": "depfed",
+ "uf": "PA",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3176500.0,
+  "por_origem": {
+   "Recursos de partido político": 3158000.0,
+   "Recursos próprios": 18500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2300000.0,
+   "FUNDO PARTIDARIO": 858000.0,
+   "OUTROS RECURSOS": 18500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3158000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 18500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1366873.84,
+  "total_pago": 1237889.3,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 1000000.0
+   },
+   {
+    "cnpj": "27327288000160",
+    "nome": "TRANSBELCAR TRANSPORTE DE VEICULOS LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 38250.0
+   },
+   {
+    "cnpj": "15287739000101",
+    "nome": "AL ESCRITORIO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "41100591000156",
+    "nome": "MOREIRA FILHO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "58938059000105",
+    "nome": "OPTIMIDIA ESTRATEGIAS DIGITAIS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "52917565000131",
+    "nome": "CARIMBO COMERCIO DE COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 8013.54
+   },
+   {
+    "cnpj": "64090989000154",
+    "nome": "C B RIBEIRO COMERCIO E SERVICO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7140.0
+   },
+   {
+    "cnpj": "64965655000187",
+    "nome": "64.965.655 FABRICIO DA SILVA MARTINS",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "66378172000101",
+    "nome": "K F PROJETOS E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "20979922000108",
+    "nome": "GRAFICA SEXTO SENTIDO LTDA",
+    "cnae": "58131",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2450.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 201,
+   "total": 249520.3,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 249471.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 49.3
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

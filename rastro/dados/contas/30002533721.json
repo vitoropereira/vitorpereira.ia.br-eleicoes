@@ -1,0 +1,54 @@
+{
+ "sq": "30002533721",
+ "nome_urna": "ALDILENE SOUZA",
+ "cargo": "depest",
+ "uf": "AP",
+ "partido": "PDT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 60000.0,
+  "por_origem": {
+   "Recursos de partido político": 60000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 60000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00719575000169",
+    "nome": "Direção Nacional - PDT",
+    "total": 60000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2500.0,
+  "total_pago": 40900.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "12238090000132",
+    "nome": "M.D. PRESTADORA DE SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2500.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 0,
+   "total": 0.0,
+   "por_tipo": {}
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

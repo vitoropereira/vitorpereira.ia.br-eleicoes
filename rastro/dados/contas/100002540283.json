@@ -1,0 +1,202 @@
+{
+ "sq": "100002540283",
+ "nome_urna": "ANTONIO PEREIRA",
+ "cargo": "depest",
+ "uf": "MA",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 358080.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 109600.0,
+   "Recursos de pessoas físicas": 248480.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 100000.0,
+   "OUTROS RECURSOS": 258080.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68353204000140",
+    "nome": "LARISSA DA SILVA TORRES COSTA",
+    "total": 109600.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 13,
+   "total": 248480.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 561390.27,
+  "total_pago": 102559.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "32048608000182",
+    "nome": "L DE M DE AZEVEDO LTDA",
+    "cnae": "74102",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 123500.0
+   },
+   {
+    "cnpj": "20488337000105",
+    "nome": "L M D L COMERCIO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 97950.0
+   },
+   {
+    "cnpj": "09181344000119",
+    "nome": "DANIEL LEITE ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "50299385000108",
+    "nome": "PESSOA BARBOSA LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 13000.0
+   },
+   {
+    "cnpj": "12218395000182",
+    "nome": "POSTO DE COMBUSTIVEIS J. A. LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 12135.77
+   },
+   {
+    "cnpj": "61657969000124",
+    "nome": "EMPREENDIMENTOS RK LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "57921600000100",
+    "nome": "RAFAEL ABREU MARKETING E TECNOLOGIA LTDA.",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5997.0
+   },
+   {
+    "cnpj": "52732581000150",
+    "nome": "52.732.581 GABRIEL INOCENCIO DA SILVA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "32136638000140",
+    "nome": "LF SILVA GRAFICA E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2300.0
+   },
+   {
+    "cnpj": "33536273000104",
+    "nome": "GRAWFF GRAFICA E COMERCIO LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "38203366000130",
+    "nome": "TREVO COMERCIO E SERVICOS LTDA",
+    "cnae": "46494",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "29129687000141",
+    "nome": "SAKADA INDUSTRIA COMUNICACAO E EVENTOS LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 940.0
+   },
+   {
+    "cnpj": "11365521000169",
+    "nome": ".COM EMPREENDIMENTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 450.0
+   },
+   {
+    "cnpj": "17668873000170",
+    "nome": "ERIC GUIMARAES ARAUJO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 125.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 137,
+   "total": 196992.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 127000.0,
+    "Cessão ou locação de veículos": 23930.0,
+    "Despesas com pessoal": 26000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 62.5,
+    "Locação/cessão de bens imóveis": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,141 @@
+{
+ "sq": "40002540480",
+ "nome_urna": "SARGENTO SALAZAR",
+ "cargo": "depfed",
+ "uf": "AM",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3000000.0,
+  "por_origem": {
+   "Recursos de partido político": 3000000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3000000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1779673.88,
+  "total_pago": 1057465.55,
+  "fornecedores_pj": [
+   {
+    "cnpj": "53558903000159",
+    "nome": "ALBERLANE SERVICOS GRAFICOS LIMITADA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 372957.5
+   },
+   {
+    "cnpj": "40672760000160",
+    "nome": "LEVACAR PROMOCOES E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 250620.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 65000.0
+   },
+   {
+    "cnpj": "36508748000147",
+    "nome": "SERGIO ROBERTO BULCAO BRINGEL JUNIOR SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "11801150000110",
+    "nome": "RT TRANSPORTES E TURISMO LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "41057020000186",
+    "nome": "ROTAM SERVICO DE TRANSPORTE DE PASSAGEIROS LTDA",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "39449826000178",
+    "nome": "39.449.826 RODRIGO GOMES CORDEIRO",
+    "cnae": "18211",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "26756456000170",
+    "nome": "NASCIMENTO COMERCIO DE COMBUSTIVEIS E DERIVADOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4870.07
+   },
+   {
+    "cnpj": "08038545000441",
+    "nome": "NATUREZA COMERCIO DE DESCARTAVEIS LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1154.81
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 348,
+   "total": 980071.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 868902.0,
+    "Cessão ou locação de veículos": 73500.0,
+    "Despesas com pessoal": 12500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 169.5,
+    "Serviços contábeis": 25000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

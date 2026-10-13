@@ -1,0 +1,192 @@
+{
+ "sq": "160002536522",
+ "nome_urna": "RENATO FREITAS",
+ "cargo": "depfed",
+ "uf": "PR",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 858663.33,
+  "por_origem": {
+   "Recursos de partido político": 856500.0,
+   "Recursos de pessoas físicas": 2163.33
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 856500.0,
+   "OUTROS RECURSOS": 2163.33
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 856500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 2163.33
+  }
+ },
+ "despesas": {
+  "total_contratado": 595947.53,
+  "total_pago": 355357.22,
+  "fornecedores_pj": [
+   {
+    "cnpj": "24665742000102",
+    "nome": "VAO AUDIOVISUAL PRODUCOES ARTISTICAS LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "35813418000100",
+    "nome": "QUEIROZ ASSI SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "01069543000128",
+    "nome": "GRAFICA E EDITORA MASSONI LTDA",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 47420.0
+   },
+   {
+    "cnpj": "03220857000105",
+    "nome": "CONTASUL CONTABILIDADE E CONSULTORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "60940833000164",
+    "nome": "MULTI IMPRESSOS COMERCIO E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17880.0
+   },
+   {
+    "cnpj": "36704069000143",
+    "nome": "LARA LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7699.0
+   },
+   {
+    "cnpj": "68464580000101",
+    "nome": "ANDREIA SOARES DE LIMA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "79702650000139",
+    "nome": "AUTO POSTO D B LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 325.97
+   },
+   {
+    "cnpj": "82580697000181",
+    "nome": "AUTO POSTO FERLIN LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 237.77
+   },
+   {
+    "cnpj": "09160226002259",
+    "nome": "STOPETROLEO S.A. COMERCIO DE DERVIDADOS DE PETROLEO - EM RECUPERACAO JUDICIAL",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 230.33
+   },
+   {
+    "cnpj": "29404899000270",
+    "nome": "AUTO POSTO BCA PEABIRU LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 195.69
+   },
+   {
+    "cnpj": "82332735000420",
+    "nome": "DUNAPETROL COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 187.87
+   },
+   {
+    "cnpj": "46924102000102",
+    "nome": "POSTO PR 445 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 162.7
+   },
+   {
+    "cnpj": "97476113000108",
+    "nome": "GRACIOSA TRANSPORTE E TURISMO LTDA",
+    "cnae": "49221",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 80.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 116,
+   "total": 399028.2,
+   "por_tipo": {
+    "Despesas com pessoal": 306680.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 148.2,
+    "Locação/cessão de bens imóveis": 16000.0,
+    "Serviços prestados por terceiros": 76200.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

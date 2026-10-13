@@ -1,0 +1,359 @@
+{
+ "sq": "250002536377",
+ "nome_urna": "FRANCO SARDELLI",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1284909.04,
+  "por_origem": {
+   "Recursos de partido político": 682409.04,
+   "Recursos de pessoas físicas": 602500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 670000.0,
+   "FUNDO PARTIDARIO": 4727.62,
+   "OUTROS RECURSOS": 610181.42
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 670000.0
+   },
+   {
+    "cnpj": "08701595000114",
+    "nome": "Direção Estadual/Distrital - PL - SÃO PAULO",
+    "total": 12409.04
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 57,
+   "total": 602500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 727748.72,
+  "total_pago": 58481.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "46755435000147",
+    "nome": "ELBERGRAFICA ARTES GRAFICAS LTDA",
+    "cnae": "18113",
+    "n_despesas": 40,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 92250.0
+   },
+   {
+    "cnpj": "46180248000182",
+    "nome": "EXATAMENTE ISSO DECORACAO E SOLUCOES VISUAIS LTDA",
+    "cnae": "32990",
+    "n_despesas": 42,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 45623.56
+   },
+   {
+    "cnpj": "09022066000157",
+    "nome": "THOMAZ DE S GOUVEIA SONORIZACOES LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "14009370000102",
+    "nome": "GERMANICA LOCADORA DE VEICULOS LIMITADA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 29000.0
+   },
+   {
+    "cnpj": "55356943000143",
+    "nome": "CLUBE DOS CAVALEIROS DE AMERICANA",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "43266345000102",
+    "nome": "LAR ESCOLA VO ANTONIETA",
+    "cnae": "85112",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 24600.0
+   },
+   {
+    "cnpj": "08838343000131",
+    "nome": "ARMELIN ARTES GRAFICAS LTDA",
+    "cnae": "17419",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21292.0
+   },
+   {
+    "cnpj": "34225917000106",
+    "nome": "DAHRUJ LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 6,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "61636908000180",
+    "nome": "EMPRESA EDITORA - JORNAL DA CIDADE LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "42243161000156",
+    "nome": "TRAVIZAM CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "59776463000192",
+    "nome": "TROLY, BOTTESINI SCURO ROSALEN SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "51362138000171",
+    "nome": "SILVAN TRANSPORTES E FRETAMENTO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "49276242000100",
+    "nome": "TZG MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "61458758000162",
+    "nome": "BIANCO GIULIANI COMUNICACAO E EVENTOS LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 11900.0
+   },
+   {
+    "cnpj": "20413392000128",
+    "nome": "LEANDRO MARQUES LEAL",
+    "cnae": "74200",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10700.0
+   },
+   {
+    "cnpj": "43256429000157",
+    "nome": "EMPRESA EDITORA O LIBERAL LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 8839.55
+   },
+   {
+    "cnpj": "43690312000187",
+    "nome": "JORNAL CORREIO DE CAPIVARI LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 5250.0
+   },
+   {
+    "cnpj": "09125268000124",
+    "nome": "DARCAM EDITORA LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 4200.0
+   },
+   {
+    "cnpj": "04328768000140",
+    "nome": "ROSELY OLIVEIRA DE QUEIROZ",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2970.0
+   },
+   {
+    "cnpj": "01722512000124",
+    "nome": "EMPRESA JORNALISTICA E EDITORA O COMERCIO DA ZONA LESTE",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "59153464000180",
+    "nome": "59.153.464 RODINEI TAVOLONI",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1400.0
+   },
+   {
+    "cnpj": "08365226000106",
+    "nome": "B.MAIS DISTRIBUIDORA DE BEBIDAS LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 1300.0
+   },
+   {
+    "cnpj": "35071229000100",
+    "nome": "G C ROLAND AMBULANCIAS LTDA",
+    "cnae": "86224",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1280.0
+   },
+   {
+    "cnpj": "24577979000123",
+    "nome": "EVANDRO TUCHAPSKI",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "08403934000186",
+    "nome": "POSTO DE SERVICO NOVA EUROPA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "43191034000113",
+    "nome": "CENTRO DE ABASTECIMENTO DE COMBUSTIVEIS 9 DE JULHO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 215.42
+   },
+   {
+    "cnpj": "50063205000194",
+    "nome": "F.J. ALMEIDA CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 167.19
+   },
+   {
+    "cnpj": "25449435000149",
+    "nome": "CARDS SERVICOS DIGITAL E ADMINISTRATIVO LTDA",
+    "cnae": "62091",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 160.0
+   },
+   {
+    "cnpj": "02738933000106",
+    "nome": "CASA DA ESFIHA AMERICANA LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 150.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 109,
+   "total": 264801.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 3000.0,
+    "Despesas com pessoal": 249300.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.0,
+    "Locação/cessão de bens imóveis": 12500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

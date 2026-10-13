@@ -1,0 +1,251 @@
+{
+ "sq": "270002544482",
+ "nome_urna": "MARCUS MARCELO",
+ "cargo": "depest",
+ "uf": "TO",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 656680.18,
+  "por_origem": {
+   "Recursos de outros candidatos": 3495.0,
+   "Recursos de partido político": 503785.18,
+   "Recursos de pessoas físicas": 127400.0,
+   "Recursos próprios": 22000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 501620.0,
+   "FUNDO PARTIDARIO": 2185.18,
+   "OUTROS RECURSOS": 152875.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 500000.0
+   },
+   {
+    "cnpj": "08738595000199",
+    "nome": "Direção Estadual/Distrital - PL - TOCANTINS",
+    "total": 3785.18
+   },
+   {
+    "cnpj": "68527002000177",
+    "nome": "FABIO PEREIRA VAZ",
+    "total": 1875.0
+   },
+   {
+    "cnpj": "68504142000120",
+    "nome": "CARLOS EDUARDO TORRES GOMES",
+    "total": 1620.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 17,
+   "total": 149400.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 364498.56,
+  "total_pago": 184615.84,
+  "fornecedores_pj": [
+   {
+    "cnpj": "14831403000197",
+    "nome": "APLAUSOS - LOCACAO E PROMOCAO DE EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "46778480000117",
+    "nome": "LIDIANY CASTRO TORRES - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "04519962000102",
+    "nome": "THAWAN COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 33000.0
+   },
+   {
+    "cnpj": "04877439000158",
+    "nome": "PREMIUM ASSESSORIA E CONSULTORIA EM GESTAO PUBLICA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "30347555000175",
+    "nome": "E L MARTINS LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "55981808000199",
+    "nome": "VERSATIL COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14240.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "44652735000175",
+    "nome": "D DOS SANTOS SANTANA DIAS CIA LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6370.0
+   },
+   {
+    "cnpj": "10416657000198",
+    "nome": "O P MENDES FILHO CIA LTDA",
+    "cnae": "47539",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 5300.0
+   },
+   {
+    "cnpj": "13851079000106",
+    "nome": "C F C IDEAL LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5226.67
+   },
+   {
+    "cnpj": "46337475000179",
+    "nome": "J R DISTRIBUIDORA DE BEBIDAS LTDA",
+    "cnae": "46354",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 3300.0
+   },
+   {
+    "cnpj": "14271361000187",
+    "nome": "CENTRAL BORDADOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 2250.0
+   },
+   {
+    "cnpj": "14617712000169",
+    "nome": "MIRA SEGURANCA ELETRONICA LTDA",
+    "cnae": "80200",
+    "n_despesas": 1,
+    "tipos": [
+     "Segurança e prevenção, repressão e combate à violência política"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "31919649000134",
+    "nome": "31.919.649 ROSANA RIBEIRO LOPES",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 960.0
+   },
+   {
+    "cnpj": "19225503000193",
+    "nome": "JG EMPREENDIMENTOS LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 897.0
+   },
+   {
+    "cnpj": "10361622000107",
+    "nome": "MEGA PRINTER LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "36122151000160",
+    "nome": "MUSICAL STORE COMERCIO DE INSTRUMENTOS MUSICAIS LTDA",
+    "cnae": "47563",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 60.0
+   },
+   {
+    "cnpj": "34573762000107",
+    "nome": "DISTRIBUIDORA SOUSA DE PRODUTOS ALIMENTICIOS LTDA",
+    "cnae": "46915",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 38.7
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 25,
+   "total": 62456.19,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 17400.0,
+    "Cessão ou locação de veículos": 5933.34,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.5,
+    "Locação/cessão de bens imóveis": 31619.35,
+    "Serviços próprios prestados por terceiros": 7500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

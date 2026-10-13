@@ -1,0 +1,340 @@
+{
+ "sq": "130002535319",
+ "nome_urna": "LOHANNA",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "PV",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2061493.0,
+  "por_origem": {
+   "Recursos de partido político": 2010000.0,
+   "Recursos de pessoas físicas": 42493.0,
+   "Recursos próprios": 9000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2000000.0,
+   "OUTROS RECURSOS": 61493.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "31886963000168",
+    "nome": "Direção Nacional - PV",
+    "total": 2000000.0
+   },
+   {
+    "cnpj": "25467358000150",
+    "nome": "Direção Estadual/Distrital - PV - MINAS GERAIS",
+    "total": 10000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 10,
+   "total": 51493.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1018217.99,
+  "total_pago": 855890.87,
+  "fornecedores_pj": [
+   {
+    "cnpj": "65511327000173",
+    "nome": "BRASIL ELEGE - ESTRATEGIA E POSICIONAMENTO LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "19270206000160",
+    "nome": "RONA EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 69172.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "34125673000190",
+    "nome": "AGENCIA LIBERO DIGITAL MARKETING E TREINAMENTO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "63590421000130",
+    "nome": "MISTER KAP IMPORT LTDA",
+    "cnae": "13529",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 40500.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 3,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 37075.2
+   },
+   {
+    "cnpj": "61790849000109",
+    "nome": "AS - PESQUISA E INTELIGENCIA LTDA",
+    "cnae": "72207",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "20158440000189",
+    "nome": "SERCONTA SERVICOS CONTABEIS LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "42754268000169",
+    "nome": "HISTORIA EM REDE LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "62964391000111",
+    "nome": "GALVAO COMUNICA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "67290128000108",
+    "nome": "67.290.128 DANIELA RODRIGUES TORRES",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 19800.0
+   },
+   {
+    "cnpj": "37571107000108",
+    "nome": "JOAO PAULO NUNES BORGES",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "42830865000125",
+    "nome": "42.830.865 CRISTIANO LOPES DA FONSECA JUNIOR",
+    "cnae": "18130",
+    "n_despesas": 19,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16550.0
+   },
+   {
+    "cnpj": "86641438000174",
+    "nome": "AGENCIA COSTA E RIBEIRO LTDA",
+    "cnae": "53105",
+    "n_despesas": 12,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 13725.66
+   },
+   {
+    "cnpj": "20741196000182",
+    "nome": "OLIVEIRA AMARAL EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 13000.0
+   },
+   {
+    "cnpj": "28782664000179",
+    "nome": "ENGENHARIA FILMES COMUNICACAO AUDIOVISUAL LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 9880.0
+   },
+   {
+    "cnpj": "61277389000101",
+    "nome": "JOAO PAULO SANTOS CORREA LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 8670.0
+   },
+   {
+    "cnpj": "11486013000139",
+    "nome": "PONTO FORTE LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6161.25
+   },
+   {
+    "cnpj": "60735763000102",
+    "nome": "DIOGO ANDRADE VIEIRA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "13334884000162",
+    "nome": "GRAFICA PHS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "03284796000140",
+    "nome": "ASTER GRAF LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3533.33
+   },
+   {
+    "cnpj": "23260072000173",
+    "nome": "RUAN MATTOS FARIA DINIZ",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "97541971000180",
+    "nome": "TOP GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2313.0
+   },
+   {
+    "cnpj": "58948492000121",
+    "nome": "58.948.492 PEDRO LUCAS BARBOSA DA SILVA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1900.0
+   },
+   {
+    "cnpj": "22056515000146",
+    "nome": "INFORGRAF LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1612.8
+   },
+   {
+    "cnpj": "02391574000163",
+    "nome": "AUTO POSTO SC LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 891.12
+   },
+   {
+    "cnpj": "14286932000157",
+    "nome": "LACRES GOLD LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "39718935000143",
+    "nome": "ZERO7 GRAFICA EDITORA E DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 450.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 130,
+   "total": 436383.63,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 28500.0,
+    "Despesas com pessoal": 367213.83,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 23.8,
+    "Locação/cessão de bens imóveis": 29646.0,
+    "Locação/cessão de bens móveis (exceto veículos)": 6000.0,
+    "Serviços prestados por terceiros": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

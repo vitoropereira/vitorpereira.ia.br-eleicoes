@@ -1,0 +1,242 @@
+{
+ "sq": "110002540128",
+ "nome_urna": "CORONEL ROVERI",
+ "cargo": "depfed",
+ "uf": "MT",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 878944.34,
+  "por_origem": {
+   "Recursos de partido político": 583636.36,
+   "Recursos de pessoas físicas": 295307.98
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 400000.0,
+   "OUTROS RECURSOS": 478944.34
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 400000.0
+   },
+   {
+    "cnpj": "45943051000195",
+    "nome": "Direção Estadual/Distrital - UNIÃO - MATO GROSSO",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "30574060000189",
+    "nome": "Direção Estadual/Distrital - PODE - MATO GROSSO",
+    "total": 83636.36
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 25,
+   "total": 295307.98
+  }
+ },
+ "despesas": {
+  "total_contratado": 340022.58,
+  "total_pago": 304850.38,
+  "fornecedores_pj": [
+   {
+    "cnpj": "00320967000150",
+    "nome": "WDA TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 70460.0
+   },
+   {
+    "cnpj": "58414540000100",
+    "nome": "J. C. CANDEIA COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 48175.0
+   },
+   {
+    "cnpj": "31109205000133",
+    "nome": "POLITICONTA ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "68591963000140",
+    "nome": "R. FERNANDO DE SOUZA CRISPIM",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 37400.0
+   },
+   {
+    "cnpj": "06969998000113",
+    "nome": "LOCADORA DE VEICULOS ATLANTA LTDA",
+    "cnae": "77110",
+    "n_despesas": 4,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20397.0
+   },
+   {
+    "cnpj": "51579462000146",
+    "nome": "F3 EMPREENDIMENTOS E PARTICIPACOES LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "37658635000190",
+    "nome": "GRAFICA BRASILEIRA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 7350.0
+   },
+   {
+    "cnpj": "11624357000167",
+    "nome": "PLACARTE COMERCIO E SERVICOS DE IMPRESSAO DIGITAL LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3750.0
+   },
+   {
+    "cnpj": "53385239000193",
+    "nome": "53.385.239 CHARLES LENNON RIBEIRO LIMA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2625.0
+   },
+   {
+    "cnpj": "21222879000196",
+    "nome": "MEU AUDIO PRODUCOES LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "37612443000143",
+    "nome": "DAVANTI PUBLICIDADE E MIDIA LTDA",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 975.0
+   },
+   {
+    "cnpj": "59869474000117",
+    "nome": "PLACARTE MT COMERCIO E SERVICOS DE IMPRESSAO LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 440.0
+   },
+   {
+    "cnpj": "60863355000136",
+    "nome": "RJC COMERCIO DE ARTIGOS PARA BRINDES E CUTELARIA LTDA",
+    "cnae": "47636",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 380.0
+   },
+   {
+    "cnpj": "17898939000118",
+    "nome": "QUALLI COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 338.5
+   },
+   {
+    "cnpj": "33925138000150",
+    "nome": "POSTO UNIVERSITARIO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 186.48
+   },
+   {
+    "cnpj": "02351877000152",
+    "nome": "LWSA S/A",
+    "cnae": "63119",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 76.2
+   },
+   {
+    "cnpj": "05506560000136",
+    "nome": "NUCLEO DE INFORMACAO E COORDENACAO DO PONTO BR - NIC .BR",
+    "cnae": "94995",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 40.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 73,
+   "total": 81429.4,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 76550.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 58.4,
+    "Serviços próprios prestados por terceiros": 4821.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,516 @@
+{
+ "sq": "240002539376",
+ "nome_urna": "DANIEL FREITAS",
+ "cargo": "depfed",
+ "uf": "SC",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3191265.0,
+  "por_origem": {
+   "Recursos de partido político": 3000000.0,
+   "Recursos de pessoas físicas": 191265.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1500000.0,
+   "FUNDO PARTIDARIO": 1500000.0,
+   "OUTROS RECURSOS": 191265.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3000000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 191265.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2462398.3,
+  "total_pago": 2682615.31,
+  "fornecedores_pj": [
+   {
+    "cnpj": "88625181003965",
+    "nome": "ASSOCIACAO LITERARIA SAO BOAVENTURA",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 262775.0
+   },
+   {
+    "cnpj": "66738800000112",
+    "nome": "66.738.800 LIDIANE RODRIGUES FERREIRA",
+    "cnae": "82300",
+    "n_despesas": 6,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 228930.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "68438194000145",
+    "nome": "MARIO HILDEBRANDT",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "22450881000185",
+    "nome": "REDBLUE ESTAMPARIA E ACABAMENTOS LTDA",
+    "cnae": "13405",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 162650.0
+   },
+   {
+    "cnpj": "68437444000122",
+    "nome": "JESSE DE FARIA LOPES",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 130000.0
+   },
+   {
+    "cnpj": "34028316209681",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 122857.35
+   },
+   {
+    "cnpj": "68437481000130",
+    "nome": "BRUNO ANDRE DE SOUZA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68438170000196",
+    "nome": "ALEXANDER BRASIL ALVES PEREIRA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "07448688000116",
+    "nome": "GRAFICA E EDITORA CAPPELER LTDA",
+    "cnae": "18130",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 90320.0
+   },
+   {
+    "cnpj": "57745468000122",
+    "nome": "VIRTU INTELIGENCIA LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "25288716000167",
+    "nome": "VISUALIZE ESTAMPARIA DIGITAL LTDA",
+    "cnae": "13405",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 65875.0
+   },
+   {
+    "cnpj": "59691021000143",
+    "nome": "59.691.021 JAQUELINE DA SILVA",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 51745.0
+   },
+   {
+    "cnpj": "48933104000185",
+    "nome": "JAINE POKOMAIER MOROKOWSKI",
+    "cnae": "47547",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 43500.0
+   },
+   {
+    "cnpj": "50476038000103",
+    "nome": "FLEX IMPRESSOES LTDA",
+    "cnae": "73190",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 37580.0
+   },
+   {
+    "cnpj": "29417101000144",
+    "nome": "JAISSON PEPES MARKETING",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "22046974000149",
+    "nome": "FABIO JEREMIAS ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "28500952000193",
+    "nome": "GABRIEL DAGOSTIN GALDINO",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "65291259000184",
+    "nome": "AUTOBLESS TRANSPORTE E TURISMO LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "65465087000118",
+    "nome": "PIERRE VANDERLINDE SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 28900.0
+   },
+   {
+    "cnpj": "48036150000181",
+    "nome": "NOVA BASE COMUNICACAO VISUAL LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 24273.0
+   },
+   {
+    "cnpj": "65599096000100",
+    "nome": "PRO WIND ARTES LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23500.0
+   },
+   {
+    "cnpj": "26328981000194",
+    "nome": "CENTRAL ADMINISTRADORA DE IMOVEIS PROPRIOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "10468293000190",
+    "nome": "GRAFICA E EDITORA GUEDIN LTDA",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 14024.44
+   },
+   {
+    "cnpj": "17430961000139",
+    "nome": "BOUTIQUE DOS CARIMBOS INDUSTRIA, COMERCIO, VAREJISTA E SERVICOS DE ARTIGOS PARA ESCRITORIO LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 13860.0
+   },
+   {
+    "cnpj": "10336531000103",
+    "nome": "NOVA ENERGIA CONTABILIDADE E ASSESSORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "63675775000187",
+    "nome": "63.675.775 JONAS ALEXANDRE ESTACIO DE SOUZA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "07858880000180",
+    "nome": "TIKKI THAIO PARTICIPACOES SOCIETARIAS S/A",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 9800.0
+   },
+   {
+    "cnpj": "12087576000117",
+    "nome": "CIZESKI LOCADORA LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9219.8
+   },
+   {
+    "cnpj": "47074528000179",
+    "nome": "GRAFITEM LTDA",
+    "cnae": "58298",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8880.0
+   },
+   {
+    "cnpj": "61680552000182",
+    "nome": "61.680.552 BIANCA PERUCHI DE SOUZA",
+    "cnae": "77292",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 8665.0
+   },
+   {
+    "cnpj": "29558888000164",
+    "nome": "IMPERIO HITS COMPOSICOES E EDICOES MUSICAIS LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 8300.0
+   },
+   {
+    "cnpj": "37146721000114",
+    "nome": "A A MAINARDES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4780.0
+   },
+   {
+    "cnpj": "19783005000166",
+    "nome": "FABIO SILVA DE SOUZA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 3300.0
+   },
+   {
+    "cnpj": "00565521000196",
+    "nome": "AMAURI COMERCIO DE AUTOMOVEIS LTDA",
+    "cnae": "45129",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "49702407000150",
+    "nome": "B. OFFICE ESCRITORIO COMPARTILHADO LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "40046890000197",
+    "nome": "NOVAPRINT LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2800.0
+   },
+   {
+    "cnpj": "05748155000124",
+    "nome": "DELTA EDITORA E SERVICOS GRAFICOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "82549809000131",
+    "nome": "AUTO POSTO PINHEIRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 11,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2487.33
+   },
+   {
+    "cnpj": "07320741000107",
+    "nome": "FERRO VELHO MAKITO LTDA",
+    "cnae": "45307",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "65668748000102",
+    "nome": "65.668.748 NAZARENO RODRIGUES MOREIRA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1300.0
+   },
+   {
+    "cnpj": "23945719000109",
+    "nome": "VIEIRA E MELLO AGENCIA DE PUBLICIDADE E SOLUCOES GRAFICAS LTDA.",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1050.0
+   },
+   {
+    "cnpj": "35476071000140",
+    "nome": "35.476.071 SONIA MARIA PEREIRA DE SOUSA",
+    "cnae": "95118",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "04514052000137",
+    "nome": "URUGRAF - GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 790.0
+   },
+   {
+    "cnpj": "95791133000130",
+    "nome": "MIDIA SIGNS COMUNICACAO VISUAL LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 753.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 156,
+   "total": 216983.38,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 177320.0,
+    "Despesas com pessoal": 3700.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 160.3,
+    "Locação/cessão de bens imóveis": 33303.08,
+    "Serviços prestados por terceiros": 2500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

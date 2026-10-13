@@ -1,0 +1,136 @@
+{
+ "sq": "250002536841",
+ "nome_urna": "LEONARDO GRANDINI",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 346323.13,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 2813.13,
+   "Recursos de outros candidatos": 10000.0,
+   "Recursos de partido político": 230500.0,
+   "Recursos de pessoas físicas": 103010.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200500.0,
+   "OUTROS RECURSOS": 145823.13
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 190500.0
+   },
+   {
+    "cnpj": "51827566000122",
+    "nome": "Direção Municipal/Comissão Provisória - PT - ARARAQUARA - SP",
+    "total": 40000.0
+   },
+   {
+    "cnpj": "68373251000155",
+    "nome": "ARLINDO CHIGNALIA JUNIOR",
+    "total": 10000.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 2813.13
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 32,
+   "total": 103010.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 324217.27,
+  "total_pago": 330823.13,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 19,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 263057.32
+   },
+   {
+    "cnpj": "33696197000102",
+    "nome": "PASSUS PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "51492064000198",
+    "nome": "ROSEGRAFICA IMPRESSOS EM GERAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15267.25
+   },
+   {
+    "cnpj": "35002114000155",
+    "nome": "RODRIGUES E ARRUDA SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "42621762000155",
+    "nome": "MM2B SERVICOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10500.0
+   },
+   {
+    "cnpj": "61997755000105",
+    "nome": "VALLILO GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 91.2
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 1.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

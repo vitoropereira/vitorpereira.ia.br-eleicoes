@@ -1,0 +1,181 @@
+{
+ "sq": "130002548795",
+ "nome_urna": "NELY AQUINO",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "PODE",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2378950.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 298000.0,
+   "Recursos de partido político": 2070000.0,
+   "Recursos de pessoas físicas": 10950.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2328000.0,
+   "FUNDO PARTIDARIO": 40000.0,
+   "OUTROS RECURSOS": 10950.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01248362000169",
+    "nome": "Direção Nacional - PODE",
+    "total": 2030000.0
+   },
+   {
+    "cnpj": "68545864000122",
+    "nome": "CIRES BREIDE DE MELO MARTINS",
+    "total": 298000.0
+   },
+   {
+    "cnpj": "01263305000159",
+    "nome": "Direção Estadual/Distrital - PODE - MINAS GERAIS",
+    "total": 40000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 10950.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1629393.97,
+  "total_pago": 249993.82,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 37000.0
+   },
+   {
+    "cnpj": "26335999000113",
+    "nome": "JFL EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "28029662000103",
+    "nome": "MEP EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "05314713000143",
+    "nome": "SANTOS RODRIGUES ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "13456094000150",
+    "nome": "ALEX MAURICIO FAGUNDES",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "57741176000111",
+    "nome": "DLSPORTS COMERCIO E ESTAMPARIA LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16800.0
+   },
+   {
+    "cnpj": "02256882000186",
+    "nome": "JH COMPUTADORES LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 6980.0
+   },
+   {
+    "cnpj": "45765362000101",
+    "nome": "45.765.362 FELIPE AUGUSTO SANTOS DOLABELLA",
+    "cnae": "63992",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 6900.0
+   },
+   {
+    "cnpj": "14293669000123",
+    "nome": "ESTRELA LOCACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4998.97
+   },
+   {
+    "cnpj": "09433461000122",
+    "nome": "MAVERI COMUNICACAO E PUBLICIDADE LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 1680.0
+   },
+   {
+    "cnpj": "47646081000165",
+    "nome": "MANOEL MESSIAS LEITE DE CARVALHO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 1300.0
+   },
+   {
+    "cnpj": "49308418000150",
+    "nome": "AUTO POSTO TOPGET LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1250.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 688,
+   "total": 1447485.0,
+   "por_tipo": {
+    "Despesas com pessoal": 1447476.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 9.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

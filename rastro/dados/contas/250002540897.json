@@ -1,0 +1,263 @@
+{
+ "sq": "250002540897",
+ "nome_urna": "RAFAEL SILVA JR",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1239238.0,
+  "por_origem": {
+   "Recursos de partido político": 680000.0,
+   "Recursos de pessoas físicas": 534238.0,
+   "Recursos próprios": 25000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 680000.0,
+   "OUTROS RECURSOS": 559238.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 680000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 22,
+   "total": 559238.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 897898.28,
+  "total_pago": 631130.42,
+  "fornecedores_pj": [
+   {
+    "cnpj": "51847516000107",
+    "nome": "VOLARE IMPRESSAO TEXTIL LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 212000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 13,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 171000.0
+   },
+   {
+    "cnpj": "43468815000102",
+    "nome": "HARMONIKA MEDIAWORKS LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "22728576000102",
+    "nome": "PAULINO LOPES SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "03703471000154",
+    "nome": "FLASH - PANFLETAGEM LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 23569.0
+   },
+   {
+    "cnpj": "11704619000101",
+    "nome": "I9 CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "09539760000146",
+    "nome": "GONCALVES REZENDE TRANSPORTES LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "63967756000124",
+    "nome": "MIC EDITORIAL LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 8800.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 5922.0
+   },
+   {
+    "cnpj": "03605072000150",
+    "nome": "TEMPO SOLUCOES GRAFICAS LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5600.0
+   },
+   {
+    "cnpj": "03251567000129",
+    "nome": "SF DIGITAL GRAFICA LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3870.0
+   },
+   {
+    "cnpj": "06064795000188",
+    "nome": "CONFECAMI CONFECCOES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2333.4
+   },
+   {
+    "cnpj": "08937848000153",
+    "nome": "GERENCIAL SOLUCOES CONTABEIS E ADMINISTRATIVAS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "47351324000138",
+    "nome": "JGR COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1890.0
+   },
+   {
+    "cnpj": "00961822000139",
+    "nome": "POSTO MOSTEIRO DE RIBEIRAO PRETO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1017.47
+   },
+   {
+    "cnpj": "17949224000147",
+    "nome": "DOUGLAS CRUZ RODRIGUES",
+    "cnae": "43304",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 940.0
+   },
+   {
+    "cnpj": "18701597000167",
+    "nome": "ADRIANO PEREIRA MOTTA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 940.0
+   },
+   {
+    "cnpj": "50623675000165",
+    "nome": "MTX SUPRIMENTOS LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 440.0
+   },
+   {
+    "cnpj": "64844863000128",
+    "nome": "JOSE ANTONIO RODRIGUES-RIBEIRAO PRETO",
+    "cnae": "10911",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 331.5
+   },
+   {
+    "cnpj": "50489095000127",
+    "nome": "PADARIA E MERCEARIA IRMAOS ARAUJO LTDA",
+    "cnae": "10911",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 172.41
+   },
+   {
+    "cnpj": "13563006000119",
+    "nome": "RESTAURANTE EXCELENCIA EM SABOR LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 168.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 73,
+   "total": 276904.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 211190.5,
+    "Cessão ou locação de veículos": 13585.0,
+    "Despesas com pessoal": 8016.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 113.0,
+    "Locação/cessão de bens imóveis": 44000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

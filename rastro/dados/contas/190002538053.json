@@ -1,0 +1,135 @@
+{
+ "sq": "190002538053",
+ "nome_urna": "ANA PAULA MENDES",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 447561.57,
+  "por_origem": {
+   "Recursos de partido político": 401561.57,
+   "Recursos de pessoas físicas": 46000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 400000.0,
+   "OUTROS RECURSOS": 47561.57
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 400000.0
+   },
+   {
+    "cnpj": "14705221000170",
+    "nome": "Direção Estadual/Distrital - PSD - RIO DE JANEIRO",
+    "total": 1561.57
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 46000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 234559.84,
+  "total_pago": 114271.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "29229703000178",
+    "nome": "29.229.703 CLEITON SCHUINDT COSTA",
+    "cnae": "79112",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 63800.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 18900.0
+   },
+   {
+    "cnpj": "52127563000149",
+    "nome": "AMKCF PRODUCAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8680.0
+   },
+   {
+    "cnpj": "48131450000140",
+    "nome": "WOLF MAKERS LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "65650748000185",
+    "nome": "ZEST COMERCIO E SERVICOS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 855.0
+   },
+   {
+    "cnpj": "14481601000178",
+    "nome": "SUMMER UNIFORMES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 828.0
+   },
+   {
+    "cnpj": "26734660000190",
+    "nome": "JRP GRAFICA E EDITORA LTDA",
+    "cnae": "58298",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 323.84
+   },
+   {
+    "cnpj": "55936681000196",
+    "nome": "R S BARBOSA SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 67,
+   "total": 136973.0,
+   "por_tipo": {
+    "Despesas com pessoal": 134460.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 13.0,
+    "Serviços contábeis": 2500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

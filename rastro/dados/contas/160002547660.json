@@ -1,0 +1,292 @@
+{
+ "sq": "160002547660",
+ "nome_urna": "FILIPE BARROS",
+ "cargo": "senador",
+ "uf": "PR",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 4151960.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 65.0,
+   "Recursos de partido político": 4094140.0,
+   "Recursos de pessoas físicas": 57755.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 4094140.0,
+   "OUTROS RECURSOS": 57820.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3800000.0
+   },
+   {
+    "cnpj": "08730637000145",
+    "nome": "Direção Estadual/Distrital - PL - PARANÁ",
+    "total": 294140.0
+   },
+   {
+    "cnpj": "68455188000104",
+    "nome": "PEDRO DEBONI LUPION MELLO",
+    "total": 65.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 10,
+   "total": 57755.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1395460.91,
+  "total_pago": 1082382.29,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 660000.0
+   },
+   {
+    "cnpj": "74046731000104",
+    "nome": "TAXI AEREO HERCULES LTDA.",
+    "cnae": "51129",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 252050.0
+   },
+   {
+    "cnpj": "00350242000105",
+    "nome": "BENVENHO CIA LTDA",
+    "cnae": "58298",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 53993.0
+   },
+   {
+    "cnpj": "55947908000107",
+    "nome": "LJA IMPRESSOES DIGITAIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 49000.0
+   },
+   {
+    "cnpj": "49385559000176",
+    "nome": "M. S. FRANCO E FILHOS AGROPECUARIA E PARTICIPACOES LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 16500.0
+   },
+   {
+    "cnpj": "40380178000120",
+    "nome": "NONO LOCADORA DE VEICULOS E ASSESSORIA LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "13812475000124",
+    "nome": "LOCALIXTO VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "17572589000103",
+    "nome": "PINI RABONE MATERIAIS PUBLICITARIOS LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3780.0
+   },
+   {
+    "cnpj": "12667593000123",
+    "nome": "JRKT B2B LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "48332205000109",
+    "nome": "48.332.205 MARCOS ROBERTO BARBOSA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "66393775000182",
+    "nome": "66.393.775 ROSEMARY FERNANDES DA CONCEICAO BARBOSA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "10992701000108",
+    "nome": "4 IDEIAS COMUNICACAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1738.0
+   },
+   {
+    "cnpj": "76631613000199",
+    "nome": "GRAFICA LIZOTTI LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1240.0
+   },
+   {
+    "cnpj": "02046286000171",
+    "nome": "EDITORA CAMARGO LTDA",
+    "cnae": "58221",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "07465989000158",
+    "nome": "EDITORA JCSN MARKETING LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "07045047000110",
+    "nome": "JOSE ANTONIO DE ALMEIDA EMBALAGENS LTDA",
+    "cnae": "17338",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 570.18
+   },
+   {
+    "cnpj": "01551729000119",
+    "nome": "SERV BANC COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 257.23
+   },
+   {
+    "cnpj": "52697007000108",
+    "nome": "UNIFORMES LDNA LTDA",
+    "cnae": "47555",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 220.0
+   },
+   {
+    "cnpj": "58251399000163",
+    "nome": "GOLDMEN SELECT HOTEL CIANORTE LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 203.7
+   },
+   {
+    "cnpj": "80183783000125",
+    "nome": "ELDER GOEDERT DA COSTA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 180.0
+   },
+   {
+    "cnpj": "02680706000177",
+    "nome": "PERZZA COMERCIO DE PRODUTOS DE EMBALAGENS DESCARTAVEIS E LIMPEZA LTDA",
+    "cnae": "46494",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 172.0
+   },
+   {
+    "cnpj": "18949851000140",
+    "nome": "CARIMBOS COMETA LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 140.0
+   },
+   {
+    "cnpj": "84858307000207",
+    "nome": "F J P SUPRIMENTOS PARA INFORMATICA LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 13.5
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 123,
+   "total": 331103.3,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 289223.8,
+    "Despesas com pessoal": 41870.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 9.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

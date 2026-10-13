@@ -1,0 +1,76 @@
+{
+ "sq": "50002534977",
+ "nome_urna": "DITINHO AVIVIP",
+ "cargo": "depfed",
+ "uf": "BA",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2320415.18,
+  "por_origem": {
+   "Recursos de partido político": 2209743.37,
+   "Recursos próprios": 110671.81
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2206574.37,
+   "FUNDO PARTIDARIO": 3169.0,
+   "OUTROS RECURSOS": 110671.81
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 2206574.37
+   },
+   {
+    "cnpj": "45928648000160",
+    "nome": "Direção Estadual/Distrital - UNIÃO - BAHIA",
+    "total": 3169.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 110671.81
+  }
+ },
+ "despesas": {
+  "total_contratado": 138454.0,
+  "total_pago": 138454.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "64579939000135",
+    "nome": "CRIEATIVA COMUNICACAO E DESIGN DE SAJ LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 119985.0
+   },
+   {
+    "cnpj": "05770290000176",
+    "nome": "GENSA - GRAFICA E EDITORA NOSSA SENHORA APARECIDA LTDA",
+    "cnae": "18229",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 86,
+   "total": 10469.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 8400.0,
+    "Despesas com pessoal": 2000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 69.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

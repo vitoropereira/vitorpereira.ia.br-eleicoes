@@ -1,0 +1,321 @@
+{
+ "sq": "170002540316",
+ "nome_urna": "FERNANDO MONTEIRO",
+ "cargo": "depfed",
+ "uf": "PE",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2405000.0,
+  "por_origem": {
+   "Recursos de partido político": 2300000.0,
+   "Recursos de pessoas físicas": 105000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2300000.0,
+   "OUTROS RECURSOS": 105000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 2300000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 105000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1595577.0,
+  "total_pago": 2301679.52,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 11,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "11914140000191",
+    "nome": "SOTAN SOCIEDADE DE TAXI AEREO DO NORDESTE LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "09113457000187",
+    "nome": "ARMACAO PROPAGANDA LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 160000.0
+   },
+   {
+    "cnpj": "11473934000167",
+    "nome": "ALMEIDA PAULA ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "66022613000138",
+    "nome": "ESOLLUTION SERVICOS PRIME LTDA",
+    "cnae": "82113",
+    "n_despesas": 2,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "30764892000168",
+    "nome": "PRISMA EVENTOS, ASSESSORIA E INTERMEDIACAO DE NEGOCIOS LTDA",
+    "cnae": "93191",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 101861.5
+   },
+   {
+    "cnpj": "11038639000182",
+    "nome": "CONECTE SOLUCOES CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "44619551000103",
+    "nome": "CHAILLINE AZEVEDO ALVES",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 41260.0
+   },
+   {
+    "cnpj": "30675360000154",
+    "nome": "G S SERVICOS E LOCACOES LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "34620964000154",
+    "nome": "TRUCKCAR SERVICOS E LOCACOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 36113.0
+   },
+   {
+    "cnpj": "26793712000107",
+    "nome": "VIDEOFARM PRODUCOES AUDIOVISUAIS LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "08959047000199",
+    "nome": "W D T GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27500.0
+   },
+   {
+    "cnpj": "48193716000189",
+    "nome": "48.193.716 JESSICA JOCEANE DA SILVA",
+    "cnae": "14126",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23760.0
+   },
+   {
+    "cnpj": "26937552000114",
+    "nome": "DAVI C DA SILVA LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19104.0
+   },
+   {
+    "cnpj": "46929106000175",
+    "nome": "MATILDA PRODUCOES ARTISTICAS LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18500.0
+   },
+   {
+    "cnpj": "24347979000137",
+    "nome": "MACIEL ART DESIGNER GRAFICO - LTDA",
+    "cnae": "47636",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17400.0
+   },
+   {
+    "cnpj": "69113501000180",
+    "nome": "69.113.501 ITALA DE CASSIA BARROS LIMA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "57309930000149",
+    "nome": "GRAFICA ART EQUIPE LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12200.0
+   },
+   {
+    "cnpj": "11299468000145",
+    "nome": "A PONTUAL IMPRESSOS RAPIDOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11800.0
+   },
+   {
+    "cnpj": "31522163000168",
+    "nome": "SEVERINO GALVAO FILHO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "05784481000197",
+    "nome": "ROGERIO DE FARIAS CARLOS",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 8700.0
+   },
+   {
+    "cnpj": "14737047000147",
+    "nome": "FORMULA 1 VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6360.0
+   },
+   {
+    "cnpj": "11145398000170",
+    "nome": "IMOBILIARIA MONTREAL LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4700.0
+   },
+   {
+    "cnpj": "53270528000147",
+    "nome": "RED DISTRIBUIDORA DE TECIDOS LTDA",
+    "cnae": "46419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4200.0
+   },
+   {
+    "cnpj": "47732841000157",
+    "nome": "47.732.841 LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3800.0
+   },
+   {
+    "cnpj": "04937174000136",
+    "nome": "GUIMARAES SERVICOS GRAFICOS LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2800.0
+   },
+   {
+    "cnpj": "18474962000148",
+    "nome": "BANDEIRANTE GRAFICA COMUNICACAO VISUAL LTDA.",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1330.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 7,
+   "total": 94188.5,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 18.5,
+    "Locação/cessão de bens imóveis": 10300.0,
+    "Serviços prestados por terceiros": 83870.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

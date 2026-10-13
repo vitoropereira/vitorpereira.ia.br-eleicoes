@@ -1,0 +1,111 @@
+{
+ "sq": "10002532422",
+ "nome_urna": "PEDRO LONGO",
+ "cargo": "depfed",
+ "uf": "AC",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1849000.0,
+  "por_origem": {
+   "Recursos de partido político": 1800000.0,
+   "Recursos de pessoas físicas": 22000.0,
+   "Recursos próprios": 27000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1800000.0,
+   "OUTROS RECURSOS": 49000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 1800000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 8,
+   "total": 49000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 425281.0,
+  "total_pago": 732706.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "10678911000126",
+    "nome": "DERZE SILVA ASSESSORIA E SERVICOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "22834232000188",
+    "nome": "A SANTANA SOUZA JUNIOR LTDA",
+    "cnae": "46192",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "02787053000120",
+    "nome": "ACRE PUBLICIDADE LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "09466162000194",
+    "nome": "SANFER CONSULTORIA LTDA",
+    "cnae": "46192",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2700.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 115,
+   "total": 248981.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 111981.0,
+    "Cessão ou locação de veículos": 77000.0,
+    "Despesas com pessoal": 60000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

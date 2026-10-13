@@ -1,0 +1,392 @@
+{
+ "sq": "190002536145",
+ "nome_urna": "PASTOR HENRIQUE VIEIRA",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PSOL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2341199.49,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 19573.97,
+   "Recursos de partido político": 2132763.52,
+   "Recursos de pessoas físicas": 188862.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2132763.52,
+   "OUTROS RECURSOS": 208435.97
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "06954942000195",
+    "nome": "Direção Nacional - PSOL",
+    "total": 2122966.14
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 19573.97
+   },
+   {
+    "cnpj": "08049726000120",
+    "nome": "Direção Estadual/Distrital - PSOL - RIO DE JANEIRO",
+    "total": 9797.38
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 23,
+   "total": 188862.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2635044.19,
+  "total_pago": 1907606.04,
+  "fornecedores_pj": [
+   {
+    "cnpj": "14437788000102",
+    "nome": "FLEX MARKETING DIRETO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 235000.0
+   },
+   {
+    "cnpj": "27821313000167",
+    "nome": "COLOR SET INDUSTRIA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 187530.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 158000.0
+   },
+   {
+    "cnpj": "25264544000191",
+    "nome": "FLORA, MATHEUS E MANGABEIRA SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 110000.0
+   },
+   {
+    "cnpj": "30532296000152",
+    "nome": "CAFUNE NA LAJE LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 91280.78
+   },
+   {
+    "cnpj": "48260363000192",
+    "nome": "CARLOS MARCELINO DIRECAO E PRODUCAO LTDA",
+    "cnae": "90019",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "37269663000116",
+    "nome": "RAZAO LINEAR ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "26122128000111",
+    "nome": "WHIZZ- COMUNICACAO CRIATIVA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "31973611000140",
+    "nome": "AUTO K AUTOMOVEIS LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 36000.0
+   },
+   {
+    "cnpj": "36043877000107",
+    "nome": "LMD TUR TURISMO LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 31552.0
+   },
+   {
+    "cnpj": "18325264000180",
+    "nome": "SERVCAR SOLUCOES AUTOMOTIVAS LTDA",
+    "cnae": "79112",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "02147077000114",
+    "nome": "EDG EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 18750.0
+   },
+   {
+    "cnpj": "19216735000185",
+    "nome": "RBA COMERCIO DE BUFFET E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "04348222000150",
+    "nome": "ACHADO NEGOCIOS IMOBILIARIOS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 12500.0
+   },
+   {
+    "cnpj": "29825570000100",
+    "nome": "AA ASSESSORIA E LOCACAO LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "51914064000139",
+    "nome": "51.914.064 GUSTAVO SALES DA SILVA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4300.0
+   },
+   {
+    "cnpj": "32219330000169",
+    "nome": "IMPRESOUL ARTES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3404.17
+   },
+   {
+    "cnpj": "00971215000150",
+    "nome": "3 GRAPH GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2250.0
+   },
+   {
+    "cnpj": "23919697000102",
+    "nome": "J. M. LOCADORA E AGENCIA DE TURISMO LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "23890673000160",
+    "nome": "MHZ RIO TRANSPORTADORA TURISTICA LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1100.0
+   },
+   {
+    "cnpj": "33770751000146",
+    "nome": "POSTO ALVARO DA COSTA MELLO LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1003.65
+   },
+   {
+    "cnpj": "11643233000129",
+    "nome": "PRONTO IMPRESSORAS COMERCIO E LOCACAO DE EQUIPAMENTOS LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 752.8
+   },
+   {
+    "cnpj": "08744060000120",
+    "nome": "AMETISTA POSTO DE ABASTECIMENTO A GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 509.69
+   },
+   {
+    "cnpj": "34063982000182",
+    "nome": "POSTO DE GASOLINA CANARIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 485.73
+   },
+   {
+    "cnpj": "04904416000195",
+    "nome": "AUTO SERVICO PRIMEIRO DO BRASIL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 463.72
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 458.85
+   },
+   {
+    "cnpj": "46502984000100",
+    "nome": "AUTO POSTO FORMULA V1 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 454.75
+   },
+   {
+    "cnpj": "42276709000164",
+    "nome": "AUTO POSTO METRO LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 351.04
+   },
+   {
+    "cnpj": "10306195000156",
+    "nome": "AUTO POSTO LUAR DO SANTO CRISTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 300.5
+   },
+   {
+    "cnpj": "05117875000191",
+    "nome": "POSTO TULIPA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 247.71
+   },
+   {
+    "cnpj": "04802584000170",
+    "nome": "POSTO E GARAGEM DOM HELDER CAMARA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 168.32
+   },
+   {
+    "cnpj": "73522070000183",
+    "nome": "POSTO DE GASOLINA BRACARENSE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 51.45
+   },
+   {
+    "cnpj": "34103648000105",
+    "nome": "LUBRIFICACAO BARRO VERMELHO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 29.03
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 481,
+   "total": 1539000.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 1367000.0,
+    "Despesas com pessoal": 148000.0,
+    "Locação/cessão de bens imóveis": 24000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

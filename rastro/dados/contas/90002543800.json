@@ -1,0 +1,158 @@
+{
+ "sq": "90002543800",
+ "nome_urna": "AMAURI RIBEIRO",
+ "cargo": "depest",
+ "uf": "GO",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 308954.3,
+  "por_origem": {
+   "Recursos de outros candidatos": 100000.0,
+   "Recursos de partido político": 116000.0,
+   "Recursos de pessoas físicas": 92954.3
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 216000.0,
+   "OUTROS RECURSOS": 92954.3
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 116000.0
+   },
+   {
+    "cnpj": "68594538000105",
+    "nome": "WILDER PEDRO DE MORAIS",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 92954.3
+  }
+ },
+ "despesas": {
+  "total_contratado": 249805.41,
+  "total_pago": 244718.95,
+  "fornecedores_pj": [
+   {
+    "cnpj": "17896654000148",
+    "nome": "EVOLUCAO CONSULTORIA E ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "49328371000196",
+    "nome": "VICTOR HUGO DOS SANTOS PEREIRA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "30256575000130",
+    "nome": "RESERVA GRAFICA E EDITORA LTDA",
+    "cnae": "18229",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15375.0
+   },
+   {
+    "cnpj": "51552005000168",
+    "nome": "NOVO HORIZONTE COMERCIO E SERVICOS LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "37518806000186",
+    "nome": "PONTO COM MALHAS E TECIDOS LTDA",
+    "cnae": "46419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "52613723000160",
+    "nome": "YELOW COMUNICACAO VISUAL LTDA",
+    "cnae": "20916",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3750.0
+   },
+   {
+    "cnpj": "09434766000159",
+    "nome": "ART MANHA COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 680.0
+   },
+   {
+    "cnpj": "02889438000106",
+    "nome": "FAGUE REPRESENTACOES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 650.0
+   },
+   {
+    "cnpj": "40314645000113",
+    "nome": "HOLDING IGOR SOUZA MARTINS VERDU LTDA",
+    "cnae": "64620",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 333.3
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 55,
+   "total": 89517.11,
+   "por_tipo": {
+    "Despesas com pessoal": 76001.01,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 16.1,
+    "Locação/cessão de bens imóveis": 3500.0,
+    "Serviços prestados por terceiros": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

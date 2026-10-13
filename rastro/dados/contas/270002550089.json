@@ -1,0 +1,246 @@
+{
+ "sq": "270002550089",
+ "nome_urna": "EDUARDO FORTES",
+ "cargo": "depest",
+ "uf": "TO",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 599935.32,
+  "por_origem": {
+   "Recursos de partido político": 338935.32,
+   "Recursos de pessoas físicas": 134000.0,
+   "Recursos próprios": 127000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 110000.0,
+   "FUNDO PARTIDARIO": 205135.32,
+   "OUTROS RECURSOS": 284800.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08917083000190",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - TOCANTINS",
+    "total": 205135.32
+   },
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 110000.0
+   },
+   {
+    "cnpj": "08738595000199",
+    "nome": "Direção Estadual/Distrital - PL - TOCANTINS",
+    "total": 23800.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 10,
+   "total": 261000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 253908.31,
+  "total_pago": 126453.15,
+  "fornecedores_pj": [
+   {
+    "cnpj": "12156848000193",
+    "nome": "LOCA + EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "35238340000130",
+    "nome": "CONSTRUGRAFICA LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 37000.0
+   },
+   {
+    "cnpj": "29745962000151",
+    "nome": "SEMENTE DIGITAL LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "13508075000120",
+    "nome": "ACP AMORIM CONTABILIDADE PUBLICA S/S LTDA.",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "38154000000119",
+    "nome": "AUT LOC LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "11663980000129",
+    "nome": "SERGIO DO VALE ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "39893932000146",
+    "nome": "MASSARU OKADA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "07727594000186",
+    "nome": "NATALYA BRINDES LTDA",
+    "cnae": "14126",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7009.5
+   },
+   {
+    "cnpj": "05087673000144",
+    "nome": "M. J. LIMA DE ASSIS",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4320.37
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "58652486000122",
+    "nome": "58.652.486 JOAO ELZO AMORIM DE SOUSA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "13602880000118",
+    "nome": "A. NUNES DA SILVA",
+    "cnae": "47849",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1140.0
+   },
+   {
+    "cnpj": "04808450000166",
+    "nome": "DATA SYSTEM INFORMATICA LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "22707440000116",
+    "nome": "JP DE SOUZA CARVALHO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "26753608000180",
+    "nome": "CONSELHO REGIONAL DE ENGENHARIA E AGRONOMIA DO ESTADO DO TOCANTINS",
+    "cnae": "94120",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 216.78
+   },
+   {
+    "cnpj": "37344397000149",
+    "nome": "MUNICIPIO DE CARIRI DO TOCANTINS",
+    "cnae": "84116",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 153.0
+   },
+   {
+    "cnpj": "02850873000119",
+    "nome": "COMETA-PAPEIS EDITORA E GRAFICA LTDA",
+    "cnae": "46478",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 55.0
+   },
+   {
+    "cnpj": "29831800000136",
+    "nome": "M N B LOGISTICA DE ALIMENTOS LTDA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 23.16
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 65,
+   "total": 82240.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 58100.0,
+    "Cessão ou locação de veículos": 5583.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 7.5,
+    "Locação/cessão de bens imóveis": 1450.0,
+    "Produção de jingles, vinhetas e slogans": 1300.0,
+    "Publicidade por carros de som": 6000.0,
+    "Serviços prestados por terceiros": 9800.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

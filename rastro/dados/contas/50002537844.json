@@ -1,0 +1,276 @@
+{
+ "sq": "50002537844",
+ "nome_urna": "BOBÔ",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "PCDOB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 792400.0,
+  "por_origem": {
+   "Recursos de partido político": 770000.0,
+   "Recursos de pessoas físicas": 21000.0,
+   "Recursos próprios": 1400.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 730000.0,
+   "FUNDO PARTIDARIO": 40000.0,
+   "OUTROS RECURSOS": 22400.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "54956495000156",
+    "nome": "Direção Nacional - PCDOB",
+    "total": 730000.0
+   },
+   {
+    "cnpj": "13758016000100",
+    "nome": "Direção Estadual/Distrital - PCDOB - BAHIA",
+    "total": 40000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 22400.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 480877.67,
+  "total_pago": 465874.34,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25291827000122",
+    "nome": "SOMA IMPRESSOES LTDA",
+    "cnae": "43291",
+    "n_despesas": 11,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos"
+    ],
+    "total": 93150.0
+   },
+   {
+    "cnpj": "03153811000110",
+    "nome": "MULTIFORMUS GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 4,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 51100.0
+   },
+   {
+    "cnpj": "54401558000108",
+    "nome": "54.401.558 JONATAN SOUZA PINTO",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "12233356000154",
+    "nome": "POSTO C3 COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 15290.94
+   },
+   {
+    "cnpj": "10507726000179",
+    "nome": "CPJ BRASIL CONTABILIDADE E CONSULTORIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "49345265000110",
+    "nome": "SPNDIGITAL COMERCIO E SERVICO LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 9400.0
+   },
+   {
+    "cnpj": "04241959000170",
+    "nome": "MULTIPLICAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6300.0
+   },
+   {
+    "cnpj": "09034217000197",
+    "nome": "CONEX4 MULTIMIDIA LIMITADA",
+    "cnae": "77331",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2100.0
+   },
+   {
+    "cnpj": "67860651000122",
+    "nome": "67.860.651 MARY FRANCIS TOURINHO LAPA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "12703367000150",
+    "nome": "ARI ARTES E SERVIÇOS GRAFICOS LTDA",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1300.0
+   },
+   {
+    "cnpj": "22274097000163",
+    "nome": "JORGE LUIS DOS SANTOS",
+    "cnae": "49230",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "00254564000150",
+    "nome": "CONSUPORTE LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 1020.0
+   },
+   {
+    "cnpj": "35268823000187",
+    "nome": "VEIB COMERCIO E SERVICOS LTDA",
+    "cnae": "18211",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 850.0
+   },
+   {
+    "cnpj": "15178668000109",
+    "nome": "KASA ANDRADE LTDA",
+    "cnae": "14118",
+    "n_despesas": 3,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 647.4
+   },
+   {
+    "cnpj": "63824001000170",
+    "nome": "LOJAO DAS VARIEDADES BAIXA DO SAPATEIRO LTDA",
+    "cnae": "47610",
+    "n_despesas": 5,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 481.84
+   },
+   {
+    "cnpj": "31535983000194",
+    "nome": "BAHIA TECH NOTEBOOKS LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "35937985000160",
+    "nome": "DERAILSON O G DE JESUS",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 380.0
+   },
+   {
+    "cnpj": "55986560000159",
+    "nome": "EN COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 214.7
+   },
+   {
+    "cnpj": "06057223047054",
+    "nome": "SENDAS DISTRIBUIDORA S/A LJ243",
+    "cnae": "47113",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação",
+     "Materiais de expediente"
+    ],
+    "total": 171.17
+   },
+   {
+    "cnpj": "07014198000969",
+    "nome": "ATACADAO DO PAPEL LTDA",
+    "cnae": "47610",
+    "n_despesas": 4,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 45.34
+   },
+   {
+    "cnpj": "32312379000161",
+    "nome": "C M E COMERCIAL DE EMBALAGENS LTDA",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 27.7
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 122,
+   "total": 259798.58,
+   "por_tipo": {
+    "Alimentação": 49125.0,
+    "Atividades de militância e mobilização de rua": 70485.74,
+    "Cessão ou locação de veículos": 11000.0,
+    "Despesas com pessoal": 94913.0,
+    "Despesas com transporte ou deslocamento": 9473.84,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 276.0,
+    "Locação/cessão de bens imóveis": 24000.0,
+    "Água": 525.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,100 @@
+{
+ "sq": "130002543714",
+ "nome_urna": "DUARTE JÚNIOR",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 804500.0,
+  "por_origem": {
+   "Recursos de partido político": 800000.0,
+   "Recursos de pessoas físicas": 4500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 800000.0,
+   "OUTROS RECURSOS": 4500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 800000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 4500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 104386.75,
+  "total_pago": 144.8,
+  "fornecedores_pj": [
+   {
+    "cnpj": "47442833000176",
+    "nome": "ALVARENGA TAVARES ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 29000.0
+   },
+   {
+    "cnpj": "56019930000141",
+    "nome": "INOVE INTELIGENCIA EM TECNOLOGIA DESENVOLVIMENTO DE SISTEMA E MARKETING LTDA",
+    "cnae": "18130",
+    "n_despesas": 12,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20713.75
+   },
+   {
+    "cnpj": "59574752000109",
+    "nome": "PRAIA COMUNICACAO E NOTICIAS LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "24735151000156",
+    "nome": "ASSOCIACAO COMERCIAL E INDUSTRIAL DE SAO JOAO DEL REI",
+    "cnae": "94111",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "34028316351089",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 52.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 4,
+   "total": 34621.0,
+   "por_tipo": {
+    "Despesas com pessoal": 11621.0,
+    "Locação/cessão de bens imóveis": 3000.0,
+    "Serviços contábeis": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

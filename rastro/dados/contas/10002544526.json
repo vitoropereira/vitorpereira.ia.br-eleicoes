@@ -1,0 +1,132 @@
+{
+ "sq": "10002544526",
+ "nome_urna": "TIO PABLO BREGENSE",
+ "cargo": "depest",
+ "uf": "AC",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1102631.0,
+  "por_origem": {
+   "Recursos de partido político": 1000431.0,
+   "Recursos de pessoas físicas": 102200.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1000431.0,
+   "OUTROS RECURSOS": 102200.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 1000431.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 31,
+   "total": 102200.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 605575.66,
+  "total_pago": 693183.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "44602520000140",
+    "nome": "E.R.D. CX MARKETING DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "68338915000145",
+    "nome": "IANCA TAMARA ALVES DA FONSECA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "22082344000120",
+    "nome": "E. C. CONTABILIDADE SOCIEDADE UNIPESSOAL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "07941947000146",
+    "nome": "J A COMUNICACAO VISUAL LTDA",
+    "cnae": "18229",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 47000.0
+   },
+   {
+    "cnpj": "17319183000105",
+    "nome": "W. V. RAMOS LTDA",
+    "cnae": "47512",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 46450.0
+   },
+   {
+    "cnpj": "34705087000114",
+    "nome": "JN COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 14840.76
+   },
+   {
+    "cnpj": "07466381000148",
+    "nome": "JOAFRA - AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 14148.9
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 12000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 108,
+   "total": 161136.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 137000.0,
+    "Cessão ou locação de veículos": 24133.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

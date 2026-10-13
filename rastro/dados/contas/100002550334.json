@@ -1,0 +1,59 @@
+{
+ "sq": "100002550334",
+ "nome_urna": "DOUGLAS PINTO",
+ "cargo": "depest",
+ "uf": "MA",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 77600.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 55600.0,
+   "Recursos próprios": 22000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 77600.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 8,
+   "total": 77600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 12000.0,
+  "total_pago": 0.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "08989489000188",
+    "nome": "BARROS, FERNANDES BORGNETH ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "17209972000193",
+    "nome": "FERREIRA ASSESSORIA E CONSULTORIA CONTABIL LTDA ME",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 6000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 0,
+   "total": 0.0,
+   "por_tipo": {}
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

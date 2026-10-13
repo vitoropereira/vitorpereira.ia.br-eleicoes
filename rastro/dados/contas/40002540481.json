@@ -1,0 +1,168 @@
+{
+ "sq": "40002540481",
+ "nome_urna": "ALFREDO NASCIMENTO",
+ "cargo": "depfed",
+ "uf": "AM",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3044795.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 995.0,
+   "Recursos de partido político": 3010000.0,
+   "Recursos de pessoas físicas": 13800.0,
+   "Recursos próprios": 20000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3000995.0,
+   "FUNDO PARTIDARIO": 10000.0,
+   "OUTROS RECURSOS": 33800.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3000000.0
+   },
+   {
+    "cnpj": "34562603000107",
+    "nome": "Direção Estadual/Distrital - PL - AMAZONAS",
+    "total": 10000.0
+   },
+   {
+    "cnpj": "68468419000106",
+    "nome": "ALBERTO BARROS CAVALCANTE NETO",
+    "total": 995.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 6,
+   "total": 33800.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1637251.22,
+  "total_pago": 575977.88,
+  "fornecedores_pj": [
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 255000.0
+   },
+   {
+    "cnpj": "15455153000109",
+    "nome": "MARDEM CORIOLANO DE SOUZA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "29179838000176",
+    "nome": "DG SERVICOS DE ORGANIZACAO DE FEIRAS, CONGRESSOS, EXPOSICOES E FESTAS LTDA",
+    "cnae": "90019",
+    "n_despesas": 2,
+    "tipos": [
+     "Eventos de promoção da candidatura",
+     "Publicidade por carros de som"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "22467056000193",
+    "nome": "TAXI AEREO VALE DO MADEIRA LTDA",
+    "cnae": "51129",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 48000.0
+   },
+   {
+    "cnpj": "84458413000104",
+    "nome": "MANAUS POSTO V8 LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "07439885000179",
+    "nome": "V E INDUSTRIA COMERCIO E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "03633502000148",
+    "nome": "GRAFISA - GRAFICA E EDITORA LTDA",
+    "cnae": "18211",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "41011777000139",
+    "nome": "WIND.PRO FABRICACAO DE PAINEIS E LETREIROS LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7800.0
+   },
+   {
+    "cnpj": "46706474000154",
+    "nome": "LINKING MIDIA MARKETING LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 650.0
+   },
+   {
+    "cnpj": "33967103000184",
+    "nome": "DEMERGE BRASIL PRESTADORA DE SERVICOS DE ATIVOS VIRTUAIS E PAGAMENTOS LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 95.88
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 605,
+   "total": 1171705.34,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 597068.34,
+    "Cessão ou locação de veículos": 135009.0,
+    "Despesas com pessoal": 369621.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 7.0,
+    "Locação/cessão de bens imóveis": 30000.0,
+    "Serviços advocatícios": 40000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

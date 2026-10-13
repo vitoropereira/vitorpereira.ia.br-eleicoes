@@ -1,0 +1,192 @@
+{
+ "sq": "190002543065",
+ "nome_urna": "FABIANO HORTA",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 953700.0,
+  "por_origem": {
+   "Recursos de partido político": 929500.0,
+   "Recursos de pessoas físicas": 24200.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 929500.0,
+   "OUTROS RECURSOS": 24200.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 929500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 24200.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 584505.86,
+  "total_pago": 306591.18,
+  "fornecedores_pj": [
+   {
+    "cnpj": "23412180000114",
+    "nome": "EXACT INDUSTRIA E SERVIÇOS DE EMBALAGENS E ROTULOS LTDA",
+    "cnae": "17311",
+    "n_despesas": 38,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 97625.0
+   },
+   {
+    "cnpj": "66830262000191",
+    "nome": "EITAN SOLUCOES ESTRATEGICAS LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "07446384000110",
+    "nome": "FAGUNDES ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "46172077000140",
+    "nome": "AAPL SERVICOS CONTABEIS LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 23000.0
+   },
+   {
+    "cnpj": "74141995000147",
+    "nome": "RENATO IMOVEIS EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "02768792000174",
+    "nome": "AC PROMOCOES E GRAFICA LTDA",
+    "cnae": "58191",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 14597.0
+   },
+   {
+    "cnpj": "43487423000190",
+    "nome": "ANGELA BARROCO IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "18325264000180",
+    "nome": "SERVCAR SOLUCOES AUTOMOTIVAS LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 6700.0
+   },
+   {
+    "cnpj": "40656954000171",
+    "nome": "PRINT DECORA COMUNICACAO VISUAL LIMITADA",
+    "cnae": "43291",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6698.8
+   },
+   {
+    "cnpj": "29833431000110",
+    "nome": "IRMAOS MATARUNA LTDA",
+    "cnae": "47318",
+    "n_despesas": 19,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3895.92
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "12990384000116",
+    "nome": "ISAIAS SOUND - SONORIZACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "46004650000106",
+    "nome": "F P PUBLICIDADE E EVENTOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "58652576000113",
+    "nome": "58.652.576 CLEITON WILSON RODRIGUES DA SILVA BARBOSA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 130,
+   "total": 318889.14,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 10000.0,
+    "Despesas com pessoal": 306889.14,
+    "Locação/cessão de bens imóveis": 2000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

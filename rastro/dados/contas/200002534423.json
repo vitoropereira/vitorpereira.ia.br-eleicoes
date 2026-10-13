@@ -1,0 +1,276 @@
+{
+ "sq": "200002534423",
+ "nome_urna": "GUSTAVO CARVALHO",
+ "cargo": "depest",
+ "uf": "RN",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 735837.2,
+  "por_origem": {
+   "Recursos de partido político": 450000.0,
+   "Recursos de pessoas físicas": 213987.2,
+   "Recursos próprios": 71850.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 350000.0,
+   "FUNDO PARTIDARIO": 100000.0,
+   "OUTROS RECURSOS": 285837.2
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 350000.0
+   },
+   {
+    "cnpj": "08733402000107",
+    "nome": "Direção Estadual/Distrital - PL - RIO GRANDE DO NORTE",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 12,
+   "total": 285837.2
+  }
+ },
+ "despesas": {
+  "total_contratado": 485960.06,
+  "total_pago": 323632.32,
+  "fornecedores_pj": [
+   {
+    "cnpj": "08621154000102",
+    "nome": "PAULO S DA C VILELA LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos",
+     "Publicidade por carros de som"
+    ],
+    "total": 50175.0
+   },
+   {
+    "cnpj": "05346251000146",
+    "nome": "EXECUTIVA PROMOCOES E MARKETING LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "43737211000114",
+    "nome": "VOX AUDIO E MIDIAS LTDA.",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "10517014000130",
+    "nome": "FIGUEIREDO - CONSULTORIA CONTABIL E EMPRESARIAL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "06915826000167",
+    "nome": "V FERNANDES BARBOSA",
+    "cnae": "47814",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17800.0
+   },
+   {
+    "cnpj": "21597589000127",
+    "nome": "J H N DE MELO LTDA",
+    "cnae": "78205",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 11000.0
+   },
+   {
+    "cnpj": "20334869000180",
+    "nome": "F F SERVICOS DE FOTOCOPIAS LTDA",
+    "cnae": "82199",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 10080.0
+   },
+   {
+    "cnpj": "06948614000186",
+    "nome": "GRAFICA SUL EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 7780.0
+   },
+   {
+    "cnpj": "37004139000113",
+    "nome": "SERGIO LIRA DA SILVA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "11621320000185",
+    "nome": "M2 PLACAS E REVESTIMENTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6450.0
+   },
+   {
+    "cnpj": "22162427000129",
+    "nome": "PRAIA COR COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5670.0
+   },
+   {
+    "cnpj": "11786705000100",
+    "nome": "CAIS COMERCIO VAREJISTA DE COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5601.3
+   },
+   {
+    "cnpj": "27341251000196",
+    "nome": "OFICINA DAS FARDAS CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3840.0
+   },
+   {
+    "cnpj": "10940322000174",
+    "nome": "BETHOVEN E JUBILEU LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "59545077000190",
+    "nome": "CB COMERCIO DE COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2924.47
+   },
+   {
+    "cnpj": "13475478000110",
+    "nome": "ARENA DAS DUNAS CONCESSAO E EVENTOS S/A",
+    "cnae": "93115",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "49931388000133",
+    "nome": "CHIPPER COMERCIO DE VESTUARIO LTDA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1072.5
+   },
+   {
+    "cnpj": "08324196000181",
+    "nome": "COMPANHIA ENERGETICA DO RIO GRANDE DO NORTE COSERN",
+    "cnae": "35140",
+    "n_despesas": 1,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 809.98
+   },
+   {
+    "cnpj": "13062817000136",
+    "nome": "IRLANDI BATISTA",
+    "cnae": "42928",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "09647252000181",
+    "nome": "N GEORGE L DE FARIAS LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 9.25
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 41,
+   "total": 225147.56,
+   "por_tipo": {
+    "Alimentação": 7578.9,
+    "Atividades de militância e mobilização de rua": 53621.1,
+    "Cessão ou locação de veículos": 47000.0,
+    "Despesas com pessoal": 81000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 125.8,
+    "Impostos, contribuições e taxas": 1845.24,
+    "Locação/cessão de bens imóveis": 16740.03,
+    "Locação/cessão de bens móveis (exceto veículos)": 2876.52,
+    "Produção de jingles, vinhetas e slogans": 2500.0,
+    "Pré-instalação física de comitê de campanha": 1859.97,
+    "Publicidade por carros de som": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

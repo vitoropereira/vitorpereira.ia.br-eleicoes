@@ -1,0 +1,108 @@
+{
+ "sq": "50002535119",
+ "nome_urna": "SAMUEL JÚNIOR",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1270000.0,
+  "por_origem": {
+   "Recursos de partido político": 1270000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1000000.0,
+   "OUTROS RECURSOS": 270000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1270000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 845012.0,
+  "total_pago": 389812.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13261483000120",
+    "nome": "PASSARELLA COMUNICACAO E EDITORA LTDA",
+    "cnae": "58115",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "34598438000135",
+    "nome": "EMGRAF FLEXO E GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 75000.0
+   },
+   {
+    "cnpj": "12463935000193",
+    "nome": "ALFA E OMEGA SERVICOS E CONSULTORIA LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "46531960000189",
+    "nome": "JOAO PAULLO FALCAO FERRAZ SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "48568222000131",
+    "nome": "VM PRODUCOES LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "04118621000125",
+    "nome": "IMAGE NATION - DESIGNERS GRAFICOS LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2999.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 177,
+   "total": 618013.0,
+   "por_tipo": {
+    "Despesas com pessoal": 618000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 13.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

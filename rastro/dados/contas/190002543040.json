@@ -1,0 +1,149 @@
+{
+ "sq": "190002543040",
+ "nome_urna": "LEANDRO",
+ "cargo": "depest",
+ "uf": "RJ",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 786759.4,
+  "por_origem": {
+   "Recursos de outros candidatos": 768007.11,
+   "Recursos de partido político": 7752.29,
+   "Recursos de pessoas físicas": 11000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 737438.13,
+   "FUNDO PARTIDARIO": 38321.27,
+   "OUTROS RECURSOS": 11000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68557087000136",
+    "nome": "WAGNER DOS SANTOS CARNEIRO",
+    "total": 551701.72
+   },
+   {
+    "cnpj": "68470204000120",
+    "nome": "DANIELA MOTE DE SOUZA CARNEIRO",
+    "total": 216305.39
+   },
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 3931.02
+   },
+   {
+    "cnpj": "07959911000190",
+    "nome": "Direção Estadual/Distrital - REPUBLICANOS - RIO DE JANEIRO",
+    "total": 3821.27
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 11000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 314607.25,
+  "total_pago": 326167.26,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 9,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 187000.0
+   },
+   {
+    "cnpj": "37039876000151",
+    "nome": "JMR GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 51515.0
+   },
+   {
+    "cnpj": "42153649000192",
+    "nome": "RLAMELA CONSULTORIA E COMERCIO DE AUTOMOVEIS LTDA",
+    "cnae": "45111",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "03582702000119",
+    "nome": "NEW PAYOLO COMERCIAL E DISTRIBUIDORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "23283100000178",
+    "nome": "M M ORNELLAS CONTABILIDADE",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "03633250000157",
+    "nome": "POSTO DE GASOLINA DINNEI LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1945.25
+   },
+   {
+    "cnpj": "06340575000130",
+    "nome": "MAVIMIX ADESIVOS DECORATIVOS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "33115828000144",
+    "nome": "REALIZE MIDIA IMPRESSA LTDA",
+    "cnae": "18229",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 640.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 20,
+   "total": 54507.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 18000.0,
+    "Despesas com pessoal": 7500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 7.0,
+    "Serviços advocatícios": 26000.0,
+    "Serviços contábeis": 3000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

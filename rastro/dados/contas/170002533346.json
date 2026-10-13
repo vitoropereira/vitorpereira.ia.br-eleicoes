@@ -1,0 +1,227 @@
+{
+ "sq": "170002533346",
+ "nome_urna": "JOAQUIM LIRA",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PV",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 366708.0,
+  "por_origem": {
+   "Recursos de pessoas físicas": 246708.0,
+   "Recursos próprios": 120000.0
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 366708.0
+  },
+  "doadores_pj": [],
+  "doadores_pf": {
+   "qtd": 14,
+   "total": 366708.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 376476.7,
+  "total_pago": 343767.1,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 8,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 64500.0
+   },
+   {
+    "cnpj": "24065384000199",
+    "nome": "LINS E CARNEIRO PRODUCAO DE EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 51000.0
+   },
+   {
+    "cnpj": "58349125000101",
+    "nome": "58.349.125 LUCILA DE ANDRADE ALMEIDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 44000.0
+   },
+   {
+    "cnpj": "03892344000140",
+    "nome": "MALHARIA ATLANTICO LTDA",
+    "cnae": "14126",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27974.7
+   },
+   {
+    "cnpj": "44060315000108",
+    "nome": "JOSE D F SILVA FABRICACAO",
+    "cnae": "14126",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 21600.0
+   },
+   {
+    "cnpj": "11038639000182",
+    "nome": "CONECTE SOLUCOES CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "30248426000120",
+    "nome": "NUNES SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 17700.0
+   },
+   {
+    "cnpj": "03654469000132",
+    "nome": "BUREAU DE IMAGENS LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15885.0
+   },
+   {
+    "cnpj": "19613426000149",
+    "nome": "J M NUNES DOS SANTOS",
+    "cnae": "90019",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)",
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "66931182000122",
+    "nome": "VX COMERCIO E IMPORTACAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11250.0
+   },
+   {
+    "cnpj": "58894054000128",
+    "nome": "INFINITY TRANSPORTES LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 10500.0
+   },
+   {
+    "cnpj": "28628981000135",
+    "nome": "FERREIRA COLOR COMERCIO LTDA",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6315.0
+   },
+   {
+    "cnpj": "55052101000106",
+    "nome": "M G COMERCIO E SERVICOS LTDA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 6095.0
+   },
+   {
+    "cnpj": "05636762000100",
+    "nome": "TOP GRAFICA IMPRESSOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2750.0
+   },
+   {
+    "cnpj": "45988273000124",
+    "nome": "45.988.273 LEONARDO DE SANTANA SILVA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com geradores de energia"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "11512324000125",
+    "nome": "CLUBE DOS MOTORISTAS DA VITORIA DE SANTO ANTAO",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "00758606000190",
+    "nome": "MXM GRAFICA E EMBALAGENS LTDA",
+    "cnae": "17311",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1800.0
+   },
+   {
+    "cnpj": "32336823000189",
+    "nome": "32.336.823 CARLOS AUGUSTO AFFONSO MOREIRA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 595.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 8,
+   "total": 54012.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 16000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 12.0,
+    "Serviços advocatícios": 20000.0,
+    "Serviços prestados por terceiros": 18000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

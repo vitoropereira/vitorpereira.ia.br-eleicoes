@@ -1,0 +1,141 @@
+{
+ "sq": "150002540246",
+ "nome_urna": "FÁBIO RAMALHO",
+ "cargo": "depest",
+ "uf": "PB",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 370600.0,
+  "por_origem": {
+   "Recursos de partido político": 200000.0,
+   "Recursos de pessoas físicas": 70600.0,
+   "Recursos próprios": 100000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "OUTROS RECURSOS": 170600.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 200000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 8,
+   "total": 170600.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 234385.8,
+  "total_pago": 368135.3,
+  "fornecedores_pj": [
+   {
+    "cnpj": "47333134000198",
+    "nome": "OPINIAO PESQUISAS QUANTITATIVAS E MARKETING LTDA",
+    "cnae": "73203",
+    "n_despesas": 3,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 52000.0
+   },
+   {
+    "cnpj": "60295098000183",
+    "nome": "CONSULTORIA VOTO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "46109297000129",
+    "nome": "SERVICOS GRAFICOS DE IMPRESSAO PERSONALIZADA LTDA",
+    "cnae": "18229",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 34700.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "38292809000107",
+    "nome": "KATYANE LUCENA DE SENA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "23343245000117",
+    "nome": "PLAY BRASIL COMUNICACAO E SERVICOS LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "41136953000169",
+    "nome": "LENILSON COSTA DE MACEDO",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "09368621000105",
+    "nome": "MULTIMIDIA INDUSTRIA E COMERCIO DE MATERIAL PUBLICITARIO LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "60930902000159",
+    "nome": "60.930.902 KALLINE KELLY FERREIRA AGOSTINHO",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1030.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 17,
+   "total": 28155.8,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 20105.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 50.8,
+    "Locação/cessão de bens imóveis": 8000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

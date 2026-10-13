@@ -1,0 +1,135 @@
+{
+ "sq": "50002535032",
+ "nome_urna": "PENALVA",
+ "cargo": "depest",
+ "uf": "BA",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 600000.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 50000.0,
+   "Recursos de partido político": 550000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 150000.0,
+   "FUNDO PARTIDARIO": 250000.0,
+   "OUTROS RECURSOS": 200000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 550000.0
+   },
+   {
+    "cnpj": "68319373000163",
+    "nome": "PAULO VELLOSO DANTAS AZI",
+    "total": 50000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 655287.5,
+  "total_pago": 588731.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "66014987000101",
+    "nome": "LUDENS MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "00878183000142",
+    "nome": "QUALIGRAF SERVICOS GRAFICOS E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 180192.5
+   },
+   {
+    "cnpj": "05685877000187",
+    "nome": "CINEMA EM CASA NEGOCIOS AUDIOVISUAIS LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 120000.0
+   },
+   {
+    "cnpj": "53721430000169",
+    "nome": "LP CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "49891454000199",
+    "nome": "JC FONTES CONSULTORIA E VENDAS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 39835.0
+   },
+   {
+    "cnpj": "03288100000153",
+    "nome": "SOARES REIS E ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "62299273000136",
+    "nome": "NADAL COMUNICACAO E PROPAGANDA LTDA",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "20064220000196",
+    "nome": "20.064.220 GILVANA TELES PINHEIRO",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 5256.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 2,
+   "total": 15004.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 4.0,
+    "Locação/cessão de bens imóveis": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

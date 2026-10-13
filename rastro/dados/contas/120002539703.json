@@ -1,0 +1,248 @@
+{
+ "sq": "120002539703",
+ "nome_urna": "GERSON CLARO",
+ "cargo": "depest",
+ "uf": "MS",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 724100.0,
+  "por_origem": {
+   "Recursos de partido político": 350000.0,
+   "Recursos de pessoas físicas": 274100.0,
+   "Recursos próprios": 100000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 250000.0,
+   "OUTROS RECURSOS": 474100.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 250000.0
+   },
+   {
+    "cnpj": "03280737000101",
+    "nome": "Direção Estadual/Distrital - PP - MATO GROSSO DO SUL",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 60,
+   "total": 374100.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 542780.14,
+  "total_pago": 577807.92,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "04990440000194",
+    "nome": "ANCELMO PAULINO LTDA",
+    "cnae": "47318",
+    "n_despesas": 98,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 61229.1
+   },
+   {
+    "cnpj": "04379683000190",
+    "nome": "MENDONCA CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "36161312000124",
+    "nome": "MV IMPRESSOES LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 29640.0
+   },
+   {
+    "cnpj": "29376294000132",
+    "nome": "GRAFICA RAPIDA E OFF-SET ARTMIX LTDA",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "10530100000183",
+    "nome": "RAIO X NOTICIAS E INFORMACAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "00205278000103",
+    "nome": "FEITOSA CIA LTDA",
+    "cnae": "58123",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 13999.98
+   },
+   {
+    "cnpj": "12593551000195",
+    "nome": "DRCOSTA S JORNALISMO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 12150.0
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 4786.65
+   },
+   {
+    "cnpj": "44981598000112",
+    "nome": "JORNAL DIARIO O ESTADO DE MATO GROSSO DO SUL LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "50117292000115",
+    "nome": "MERCURI SERVICOS E COMUNICACOES LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "14409065000108",
+    "nome": "SIRLEY FERREIRA DE LIMA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3800.0
+   },
+   {
+    "cnpj": "04657997000108",
+    "nome": "JF COMERCIAL POR DO SOL LTDA",
+    "cnae": "11216",
+    "n_despesas": 2,
+    "tipos": [
+     "Água"
+    ],
+    "total": 3640.0
+   },
+   {
+    "cnpj": "15413826000150",
+    "nome": "ENERGISA MATO GROSSO DO SUL - DISTRIBUIDORA DE ENERGIA S.A.",
+    "cnae": "35140",
+    "n_despesas": 1,
+    "tipos": [
+     "Energia elétrica"
+    ],
+    "total": 2892.62
+   },
+   {
+    "cnpj": "43306474000179",
+    "nome": "SIDNEI DOS S. VILLASSANTI LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2512.81
+   },
+   {
+    "cnpj": "08726196000108",
+    "nome": "RPR CRIACOES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 862.5
+   },
+   {
+    "cnpj": "04089570000150",
+    "nome": "AGUAS GUARIROBA SA",
+    "cnae": "36006",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 604.34
+   },
+   {
+    "cnpj": "49731590000111",
+    "nome": "TBM TRANSPORTES E EVENTOS LTDA",
+    "cnae": "49302",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 276.64
+   },
+   {
+    "cnpj": "57825921000100",
+    "nome": "TRATTO COMUNICACAO E SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 275.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 86,
+   "total": 249110.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 148650.0,
+    "Despesas com pessoal": 42600.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 100.5,
+    "Locação/cessão de bens imóveis": 37760.0,
+    "Serviços advocatícios": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

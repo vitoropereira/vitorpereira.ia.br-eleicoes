@@ -1,0 +1,234 @@
+{
+ "sq": "30002530069",
+ "nome_urna": "LUCAS BARRETO",
+ "cargo": "senador",
+ "uf": "AP",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2191333.32,
+  "por_origem": {
+   "Recursos de outros candidatos": 33333.32,
+   "Recursos de partido político": 2150000.0,
+   "Recursos de pessoas físicas": 8000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2183333.32,
+   "OUTROS RECURSOS": 8000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 2150000.0
+   },
+   {
+    "cnpj": "68165671000146",
+    "nome": "RAYSSA CADENA FURLAN",
+    "total": 22222.22
+   },
+   {
+    "cnpj": "68139621000194",
+    "nome": "ANTONIO PAULO DE OLIVEIRA FURLAN",
+    "total": 11111.1
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 8000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1701463.5,
+  "total_pago": 1738538.27,
+  "fornecedores_pj": [
+   {
+    "cnpj": "26804515000138",
+    "nome": "AGENCIA BEX LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 590000.0
+   },
+   {
+    "cnpj": "37687121000163",
+    "nome": "MESQUITA WILLIAM ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 310000.0
+   },
+   {
+    "cnpj": "09489958000162",
+    "nome": "CP3 LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "56145208000153",
+    "nome": "J ARAUJO MARKETING E COMUNICACAO LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 150000.0
+   },
+   {
+    "cnpj": "68236125000159",
+    "nome": "GIODILSON PINHEIRO BORGES",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68235819000171",
+    "nome": "FERNANDA DOS SANTOS COSTA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68235988000101",
+    "nome": "MARIA DO SOCORRO PEREIRA FONSECA",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68236180000149",
+    "nome": "RELSON DE ALMEIDA CARDOSO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "21496223000161",
+    "nome": "AMAZZON CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 29764.0
+   },
+   {
+    "cnpj": "07995919000101",
+    "nome": "UBIRAJARA ASSIS EMPREENDIMENTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 25500.0
+   },
+   {
+    "cnpj": "10990394000126",
+    "nome": "TALENTO DIGITAL LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 20800.0
+   },
+   {
+    "cnpj": "08607983000130",
+    "nome": "K J S FURTADO",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "02743288000209",
+    "nome": "LOCAMIL SERVICOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 13980.0
+   },
+   {
+    "cnpj": "09405430000168",
+    "nome": "REAL PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9800.0
+   },
+   {
+    "cnpj": "14311143000390",
+    "nome": "TCAR LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4800.0
+   },
+   {
+    "cnpj": "29118884000831",
+    "nome": "NOSSA FROTA LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 4800.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 36,
+   "total": 122019.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 32400.0,
+    "Despesas com pessoal": 40000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 19.5,
+    "Locação/cessão de bens imóveis": 12000.0,
+    "Publicidade por carros de som": 30000.0,
+    "Serviços prestados por terceiros": 7600.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

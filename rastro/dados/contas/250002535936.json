@@ -1,0 +1,207 @@
+{
+ "sq": "250002535936",
+ "nome_urna": "GIL DINIZ",
+ "cargo": "depfed",
+ "uf": "SP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2423132.07,
+  "por_origem": {
+   "Recursos de partido político": 2422732.07,
+   "Recursos próprios": 400.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1200000.0,
+   "FUNDO PARTIDARIO": 1208462.05,
+   "OUTROS RECURSOS": 14670.02
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2400000.0
+   },
+   {
+    "cnpj": "08701595000114",
+    "nome": "Direção Estadual/Distrital - PL - SÃO PAULO",
+    "total": 22732.07
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 400.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1043397.89,
+  "total_pago": 938197.64,
+  "fornecedores_pj": [
+   {
+    "cnpj": "26359744000190",
+    "nome": "MURIEL E POLICICIO SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 170000.0
+   },
+   {
+    "cnpj": "58454450000134",
+    "nome": "ANALYTICA PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "66010926000176",
+    "nome": "PAJ TECNOLOGIA INOVACAO LTDA",
+    "cnae": "85996",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68353142000176",
+    "nome": "RENAN LEANDRO PAES",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68353166000125",
+    "nome": "LUCAS RANIELLE DE FRANCA AMARAL",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "61279078000181",
+    "nome": "61.279.078 PITER MARTINS DE OLIVEIRA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "27842183000149",
+    "nome": "INGRESSO AGIL INDUSTRIA GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 38400.0
+   },
+   {
+    "cnpj": "31226791000104",
+    "nome": "EXCLUSIVA LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 28000.0
+   },
+   {
+    "cnpj": "15021897000107",
+    "nome": "CLONAX EMPREENDIMENTOS E PARTICIPACOES LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "55312533000109",
+    "nome": "GIRAFFA PUBLICIDADE E PROPAGANDA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "66475160000103",
+    "nome": "COMEGE CONSULTORIA TRIBUTARIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "08653788000147",
+    "nome": "PAGI GRAFICA LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3979.64
+   },
+   {
+    "cnpj": "10876448000127",
+    "nome": "RC SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2400.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 92,
+   "total": 411618.25,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 7500.0,
+    "Despesas com pessoal": 374000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 118.25,
+    "Locação/cessão de bens imóveis": 30000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,168 @@
+{
+ "sq": "210002534003",
+ "nome_urna": "NATASHA",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 387843.29,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 5680.0,
+   "Recursos de partido político": 370414.29,
+   "Recursos de pessoas físicas": 6800.0,
+   "Recursos próprios": 4949.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 370414.29,
+   "OUTROS RECURSOS": 17429.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 370414.29
+   },
+   {
+    "cnpj": "20986786000175",
+    "nome": "APOIA.SE",
+    "total": 5680.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 11749.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 213287.86,
+  "total_pago": 259460.85,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 90000.0
+   },
+   {
+    "cnpj": "23339084000198",
+    "nome": "FELIX, FLORIANO, RONDON E RIBEIRO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "13739341000125",
+    "nome": "CYBER DIM SERVICOS GRAFICOS E BRINDES LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17044.6
+   },
+   {
+    "cnpj": "11836230000101",
+    "nome": "A GOMES BAR E RESTAURANTE LTDA",
+    "cnae": "93298",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "49636141000194",
+    "nome": "NUMEM NEGOCIOS E SOLUCOES EMPRESARIAIS LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "58402463000160",
+    "nome": "58.402.463 VICTORIA SILVEIRA PAZ",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "45876852000185",
+    "nome": "PRINTER INDUSTRIA E COMERCIO LTDA",
+    "cnae": "13596",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5510.0
+   },
+   {
+    "cnpj": "92691336000166",
+    "nome": "CREDITO REAL IMOVEIS E CONDOMINIOS S A",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Aquisição/Doação de bens móveis ou imóveis"
+    ],
+    "total": 5000.48
+   },
+   {
+    "cnpj": "15036686000148",
+    "nome": "ANC VIDEO LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1770.0
+   },
+   {
+    "cnpj": "12856326000102",
+    "nome": "ALX BUREAU PRINT LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1377.0
+   },
+   {
+    "cnpj": "20986786000175",
+    "nome": "APOIA.SE",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 150.28
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 24,
+   "total": 50435.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 41413.0,
+    "Despesas com pessoal": 9000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 22.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

@@ -1,0 +1,485 @@
+{
+ "sq": "240002548535",
+ "nome_urna": "JULIO GARCIA",
+ "cargo": "depfed",
+ "uf": "SC",
+ "partido": "PSD",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1763366.04,
+  "por_origem": {
+   "Recursos de outros candidatos": 71500.0,
+   "Recursos de partido político": 1500000.0,
+   "Recursos de pessoas físicas": 191866.04
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1571500.0,
+   "OUTROS RECURSOS": 191866.04
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "13629827000100",
+    "nome": "Direção Nacional - PSD",
+    "total": 1500000.0
+   },
+   {
+    "cnpj": "68578113000102",
+    "nome": "ROBERTO KUERTEN MARCELINO",
+    "total": 70000.0
+   },
+   {
+    "cnpj": "68578284000131",
+    "nome": "JOAO RODRIGUES",
+    "total": 1500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 12,
+   "total": 191866.04
+  }
+ },
+ "despesas": {
+  "total_contratado": 1663853.64,
+  "total_pago": 1681783.64,
+  "fornecedores_pj": [
+   {
+    "cnpj": "05748155000124",
+    "nome": "DELTA EDITORA E SERVICOS GRAFICOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 9,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 303325.0
+   },
+   {
+    "cnpj": "68578420000193",
+    "nome": "CLESIO SALVARO",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "68578113000102",
+    "nome": "ROBERTO KUERTEN MARCELINO",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 140000.0
+   },
+   {
+    "cnpj": "51622721000174",
+    "nome": "BETTA DIGITAL IMPRESSOES DIGITAIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por materiais impressos",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 117160.0
+   },
+   {
+    "cnpj": "09325578000192",
+    "nome": "MARCA GRAFICA EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 24,
+    "tipos": [
+     "Publicidade por materiais impressos",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 95410.0
+   },
+   {
+    "cnpj": "37146721000114",
+    "nome": "A A MAINARDES LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 74625.0
+   },
+   {
+    "cnpj": "22450881000185",
+    "nome": "REDBLUE ESTAMPARIA E ACABAMENTOS LTDA",
+    "cnae": "13405",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 73850.0
+   },
+   {
+    "cnpj": "05911386000107",
+    "nome": "V.W. EDITOR GRAFICO LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 58195.0
+   },
+   {
+    "cnpj": "68526762000160",
+    "nome": "WILSON TREVISAN",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68578446000131",
+    "nome": "MARLENE FENGLER",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "01463241000130",
+    "nome": "KARMANN AFG LTDA",
+    "cnae": "47610",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 33700.0
+   },
+   {
+    "cnpj": "34172435000135",
+    "nome": "IDEAL OPPOSITE SOLUCOES TECNOLOGICAS LTDA",
+    "cnae": "62031",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 30100.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "04403372000110",
+    "nome": "META DIGITAL LED LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 27020.0
+   },
+   {
+    "cnpj": "04649441000170",
+    "nome": "LOCA AUTO LOCADORA DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 26910.0
+   },
+   {
+    "cnpj": "07034850000150",
+    "nome": "MERCUR EMBALAGENS E ETIQUETAS LTDA",
+    "cnae": "17311",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26400.0
+   },
+   {
+    "cnpj": "19910112000108",
+    "nome": "NORTE CONSULT CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "56175602000134",
+    "nome": "ALAN JUNG CROCETTA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "79003984000114",
+    "nome": "PLASTKOLOR LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "34028316197810",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 16593.72
+   },
+   {
+    "cnpj": "62650573000118",
+    "nome": "LARGO BC SPE LTDA",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "34028316000103",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 2,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 13402.62
+   },
+   {
+    "cnpj": "54564304000100",
+    "nome": "A12 EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 7676.9
+   },
+   {
+    "cnpj": "10257801000190",
+    "nome": "CENTRO DE EVENTOS GERMANO RIGO LTDA.",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 7400.0
+   },
+   {
+    "cnpj": "02314908000286",
+    "nome": "VILA RICA COM DE COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 23,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6367.76
+   },
+   {
+    "cnpj": "65599096000100",
+    "nome": "PRO WIND ARTES LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "06286545000192",
+    "nome": "GALATAS MIDIAS E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3450.0
+   },
+   {
+    "cnpj": "85332328000168",
+    "nome": "GRAFICA EDITORA TURVENSE LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3400.0
+   },
+   {
+    "cnpj": "10650396000176",
+    "nome": "GRAFICA CASA DO CARIMBO LTDA",
+    "cnae": "18121",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "57784437000180",
+    "nome": "CONTATO FAZENDA PARQUE LTDA",
+    "cnae": "93298",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2400.0
+   },
+   {
+    "cnpj": "05494613000146",
+    "nome": "ELBERT EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "79295465000177",
+    "nome": "MARE ALTA LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 1860.0
+   },
+   {
+    "cnpj": "18292901000160",
+    "nome": "ZANINI IMAGENS AEREAS LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1650.0
+   },
+   {
+    "cnpj": "38635849000104",
+    "nome": "DESIGNATIVA TECNOLOGIA LTDA",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "10438708000182",
+    "nome": "CENTROSIGNS COMUNICACAO VISUAL LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1350.0
+   },
+   {
+    "cnpj": "52129355000189",
+    "nome": "COMERCIO DE COMBUSTIVEIS CHAP LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 338.2
+   },
+   {
+    "cnpj": "83421552000109",
+    "nome": "POSTO DE ABASTECIMENTO SAMUARA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 325.02
+   },
+   {
+    "cnpj": "00127046000176",
+    "nome": "RODOSERRA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 312.69
+   },
+   {
+    "cnpj": "80451289000951",
+    "nome": "REDE RUSSI LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 289.73
+   },
+   {
+    "cnpj": "43702140000114",
+    "nome": "AMANDA DUARTE EVENTOS E IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 280.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 4,
+   "total": 76562.0,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 35.0,
+    "Serviços prestados por terceiros": 76527.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

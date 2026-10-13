@@ -1,0 +1,477 @@
+{
+ "sq": "130002535303",
+ "nome_urna": "PADRE JOÃO",
+ "cargo": "depfed",
+ "uf": "MG",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2171518.98,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 2201.79,
+   "Recursos de outros candidatos": 1125.0,
+   "Recursos de partido político": 1865486.4,
+   "Recursos de pessoas físicas": 243005.79,
+   "Recursos próprios": 59700.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1801125.0,
+   "FUNDO PARTIDARIO": 15500.0,
+   "OUTROS RECURSOS": 354893.98
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 1815500.0
+   },
+   {
+    "cnpj": "16847535000132",
+    "nome": "Direção Estadual/Distrital - PT - MINAS GERAIS",
+    "total": 49986.4
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 2201.79
+   },
+   {
+    "cnpj": "68557144000187",
+    "nome": "PATRUS ANANIAS DE SOUZA",
+    "total": 1125.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 32,
+   "total": 302705.79
+  }
+ },
+ "despesas": {
+  "total_contratado": 1791112.35,
+  "total_pago": 2111843.95,
+  "fornecedores_pj": [
+   {
+    "cnpj": "17190604000140",
+    "nome": "EGL-EDITORES GRAFICOS LTDA.",
+    "cnae": "18113",
+    "n_despesas": 27,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 448664.5
+   },
+   {
+    "cnpj": "17577230000110",
+    "nome": "OCEANO IMOVEIS LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "01638944000151",
+    "nome": "PENTAGONO CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 26000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 24250.0
+   },
+   {
+    "cnpj": "12305622000107",
+    "nome": "PONTUAL LOC CAR LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 23106.44
+   },
+   {
+    "cnpj": "20655104000141",
+    "nome": "THIAGO SILK SUBLIMACAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Materiais de expediente",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16775.0
+   },
+   {
+    "cnpj": "17900032000146",
+    "nome": "KSL EMPREENDIMENTOS COMERCIAIS LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 13300.0
+   },
+   {
+    "cnpj": "48442998000100",
+    "nome": "SO PICK-UPS 4X4 LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 13200.0
+   },
+   {
+    "cnpj": "68516244000165",
+    "nome": "ALPM - SERVICOS FRANQUEADOS LTDA",
+    "cnae": "53105",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 12108.8
+   },
+   {
+    "cnpj": "26073890000155",
+    "nome": "MAG - MINAS ARTES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10845.0
+   },
+   {
+    "cnpj": "30912156000100",
+    "nome": "IONE APARECIDA DE SOUSA BESSA IMPRESSAO DIGITAL",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "01530043000141",
+    "nome": "REDE DAKOTA I LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6589.28
+   },
+   {
+    "cnpj": "22336528000179",
+    "nome": "22.336.528 WALDINEY VIENE DO NASCIMENTO PENA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans",
+     "Publicidade por carros de som"
+    ],
+    "total": 3500.0
+   },
+   {
+    "cnpj": "48776960000174",
+    "nome": "CEU - CARGAS URGENTES LTDA",
+    "cnae": "49302",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 544.87
+   },
+   {
+    "cnpj": "05755911000304",
+    "nome": "POSTO PATATIVA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 520.0
+   },
+   {
+    "cnpj": "05089418000211",
+    "nome": "ELIAS GUIMARAES COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 511.55
+   },
+   {
+    "cnpj": "01630173000156",
+    "nome": "NOVO POSTO DIAMANTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 511.3
+   },
+   {
+    "cnpj": "42938761000643",
+    "nome": "PIRES COMBUSTIVEIS E SERVICOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 506.95
+   },
+   {
+    "cnpj": "19966647000109",
+    "nome": "SAMUEL RODRIGUES GOMES",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 505.26
+   },
+   {
+    "cnpj": "49086429000132",
+    "nome": "AUTO POSTO ALMENARA MINAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 500.03
+   },
+   {
+    "cnpj": "03543109000163",
+    "nome": "AUTO POSTO DAS LAJES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 488.21
+   },
+   {
+    "cnpj": "01277085001518",
+    "nome": "SID SIGNS SUPRIMENTOS PARA COMUNICACAO VISUAL LTDA.",
+    "cnae": "46931",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 480.0
+   },
+   {
+    "cnpj": "25357111000180",
+    "nome": "AUTO POSTO FILADELFIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 479.71
+   },
+   {
+    "cnpj": "08580785000120",
+    "nome": "COMERCIAL SOUZA RIBEIRO DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 477.02
+   },
+   {
+    "cnpj": "03141020000170",
+    "nome": "POSTO ALTO RIODOCENSE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 464.04
+   },
+   {
+    "cnpj": "37222547000141",
+    "nome": "TULA AUTO POSTO LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 461.41
+   },
+   {
+    "cnpj": "10288658000102",
+    "nome": "POSTO MOCAO DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 451.17
+   },
+   {
+    "cnpj": "04836872000145",
+    "nome": "FUTURE SERVICES LTDA",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 450.0
+   },
+   {
+    "cnpj": "13587169000212",
+    "nome": "ZILENE ALVES DE SOUZA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 440.02
+   },
+   {
+    "cnpj": "10777244000139",
+    "nome": "POSTO SOUZA CHAVES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 427.59
+   },
+   {
+    "cnpj": "18935742000174",
+    "nome": "POSTO NOVO RIO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 422.08
+   },
+   {
+    "cnpj": "66970229002100",
+    "nome": "CLARO NXT TELECOMUNICACOES S/A",
+    "cnae": "61108",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros",
+     "Serviços próprios prestados por terceiros"
+    ],
+    "total": 416.13
+   },
+   {
+    "cnpj": "09043438000121",
+    "nome": "EMPREENDIMENTOS PREMIUM BM LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 415.0
+   },
+   {
+    "cnpj": "30057296000148",
+    "nome": "AUTO POSTO AGUA LIMPA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 388.01
+   },
+   {
+    "cnpj": "02056229000173",
+    "nome": "POSTO FRANKLIN REZENDE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 379.29
+   },
+   {
+    "cnpj": "01321096000152",
+    "nome": "POSTO PETROMAC LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 378.1
+   },
+   {
+    "cnpj": "04213721000130",
+    "nome": "POSTO DE COMBUSTIVEL RIO MANSO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 298.72
+   },
+   {
+    "cnpj": "24783329000134",
+    "nome": "QUALITYCERT CERTIFICACAO LTDA",
+    "cnae": "62091",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 185.0
+   },
+   {
+    "cnpj": "49558177000105",
+    "nome": "49.558.177 WELLINGTON FREDERICO DA SILVA",
+    "cnae": "95291",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 142.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 43.87
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 629,
+   "total": 1143986.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 433983.0,
+    "Despesas com pessoal": 660887.5,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 15.5,
+    "Locação/cessão de bens imóveis": 19100.0,
+    "Serviços advocatícios": 30000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

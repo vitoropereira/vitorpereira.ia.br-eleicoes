@@ -1,0 +1,166 @@
+{
+ "sq": "60002540708",
+ "nome_urna": "JADE ROMERO",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 536130.71,
+  "por_origem": {
+   "Recursos de outros candidatos": 22145.0,
+   "Recursos de partido político": 268985.71,
+   "Recursos de pessoas físicas": 125000.0,
+   "Recursos próprios": 120000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 268985.71,
+   "OUTROS RECURSOS": 267145.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 268985.71
+   },
+   {
+    "cnpj": "68594584000104",
+    "nome": "FRANCISCO WELLINGTON SABOIA VITORINO",
+    "total": 22145.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 5,
+   "total": 245000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 246383.7,
+  "total_pago": 212675.2,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "36780505000163",
+    "nome": "EUROCOLOR GRAFICA DIGITAL E OFFSET LTDA",
+    "cnae": "17311",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 67500.0
+   },
+   {
+    "cnpj": "61232239000181",
+    "nome": "SYNKO SOLUCOES LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos",
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "51741491000162",
+    "nome": "RENARA SANTOS PRODUCOES ARTISTICAS LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 21700.0
+   },
+   {
+    "cnpj": "49109821000150",
+    "nome": "REALIZE - CONSULTORIA CONTABIL E ASSESSORIIA ADMINSTRATIVA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "04011639000123",
+    "nome": "PRINT SOLUCOES GRAFICAS E EVENTOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 11500.0
+   },
+   {
+    "cnpj": "29160006000108",
+    "nome": "ROUPAS DE MAINHA INDUSTRIA E COMERCIO LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10650.0
+   },
+   {
+    "cnpj": "28851120000111",
+    "nome": "YURY GAGARY - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "07614092000149",
+    "nome": "COMPANHIA DIAS DE SOUZA COMERCIO INDUSTRIA",
+    "cnae": "41107",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4738.5
+   },
+   {
+    "cnpj": "01139126000104",
+    "nome": "ARTBAN COMERCIO SERVICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "35378285000183",
+    "nome": "ESTEVAO LIMA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 700.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 1,
+   "total": 95.2,
+   "por_tipo": {
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 95.2
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

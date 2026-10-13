@@ -1,0 +1,134 @@
+{
+ "sq": "210002535683",
+ "nome_urna": "JUNIOR FOX",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 281825.0,
+  "por_origem": {
+   "Recursos de partido político": 200000.0,
+   "Recursos de pessoas físicas": 81825.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 200000.0,
+   "OUTROS RECURSOS": 81825.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 200000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 81825.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 169034.01,
+  "total_pago": 151681.37,
+  "fornecedores_pj": [
+   {
+    "cnpj": "88057187000100",
+    "nome": "GRAFICA LAJEADENSE LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26460.0
+   },
+   {
+    "cnpj": "10338946000205",
+    "nome": "PANTHUS SPORT INDUSTRIA E COMERCIO DE VESTUARIO LTDA",
+    "cnae": "47636",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23215.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "93301976000185",
+    "nome": "ADMINISTRADORA RAPHAEL LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "37147798000109",
+    "nome": "SF COMERCIO DE ALIMENTOS LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2782.5
+   },
+   {
+    "cnpj": "05282433000605",
+    "nome": "ABASTECEDORA MANIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 8,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2619.51
+   },
+   {
+    "cnpj": "68462703000175",
+    "nome": "F WORK TEXTIL LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 290.0
+   },
+   {
+    "cnpj": "18392629000190",
+    "nome": "JOSUE RODRIGUES PINHEIRO",
+    "cnae": "47512",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 54.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 58,
+   "total": 93613.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 13000.0,
+    "Criação e inclusão de páginas na internet": 13000.0,
+    "Despesas com pessoal": 42613.0,
+    "Produção de programas de rádio, televisão ou vídeo": 5000.0,
+    "Serviços advocatícios": 10000.0,
+    "Serviços contábeis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

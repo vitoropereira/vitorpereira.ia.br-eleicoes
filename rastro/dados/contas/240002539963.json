@@ -1,0 +1,262 @@
+{
+ "sq": "240002539963",
+ "nome_urna": "MARCIUS MACHADO",
+ "cargo": "depest",
+ "uf": "SC",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 388712.34,
+  "por_origem": {
+   "Recursos de partido político": 250000.0,
+   "Recursos de pessoas físicas": 3500.0,
+   "Recursos próprios": 135212.34
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 250000.0,
+   "OUTROS RECURSOS": 138712.34
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 250000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 138712.34
+  }
+ },
+ "despesas": {
+  "total_contratado": 266093.49,
+  "total_pago": 376061.29,
+  "fornecedores_pj": [
+   {
+    "cnpj": "04484195000143",
+    "nome": "GRAPHEL GRAFICA E EDITORA LAGES LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 73124.0
+   },
+   {
+    "cnpj": "12424988000103",
+    "nome": "IGC - INDUSTRIA GRAFICA CATARINENSE LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 22110.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 19500.0
+   },
+   {
+    "cnpj": "34028316202326",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 8935.08
+   },
+   {
+    "cnpj": "16670085054832",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7696.4
+   },
+   {
+    "cnpj": "08857884000107",
+    "nome": "RPS CHICO PUBLICIDADE VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7040.0
+   },
+   {
+    "cnpj": "48089280000182",
+    "nome": "PROPENZA MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "57913344000109",
+    "nome": "HOSPEDARIA CATTONI LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "15512574000116",
+    "nome": "BRUGNAGO CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 5500.0
+   },
+   {
+    "cnpj": "47720544000191",
+    "nome": "DJENIFER PATRICIA SIEBERT RIBEIRO",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "37872265000190",
+    "nome": "LUANA CARBONERA LIMA MULLER",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3240.0
+   },
+   {
+    "cnpj": "33429401000110",
+    "nome": "ABRAAO SALMORIA AGOSTINI",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2600.0
+   },
+   {
+    "cnpj": "37146721000114",
+    "nome": "A A MAINARDES LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1449.0
+   },
+   {
+    "cnpj": "85145423000152",
+    "nome": "PAULO MARCIO CISLAGHI",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 1000.0
+   },
+   {
+    "cnpj": "04587701000120",
+    "nome": "PEREIRA PUBLICIDADE VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 650.0
+   },
+   {
+    "cnpj": "36684887000121",
+    "nome": "SBR COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 329.9
+   },
+   {
+    "cnpj": "63592199000104",
+    "nome": "AUTO POSTO CAMPESINO II LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 279.21
+   },
+   {
+    "cnpj": "32069097000185",
+    "nome": "ESTACAO MIX ARTIGOS PARA FESTAS LTDA",
+    "cnae": "46371",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 270.0
+   },
+   {
+    "cnpj": "83488882001690",
+    "nome": "POSTO MIME S.A.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 214.4
+   },
+   {
+    "cnpj": "02732687000185",
+    "nome": "SENS COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 150.0
+   },
+   {
+    "cnpj": "95826335000170",
+    "nome": "CENTROSERRA CONVENTION CENTER LTDA",
+    "cnae": "90035",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 100.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 55,
+   "total": 93905.5,
+   "por_tipo": {
+    "Despesas com pessoal": 82350.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 55.5,
+    "Locação/cessão de bens imóveis": 6500.0,
+    "Serviços advocatícios": 5000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

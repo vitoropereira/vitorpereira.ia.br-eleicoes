@@ -1,0 +1,147 @@
+{
+ "sq": "60002536692",
+ "nome_urna": "PALOMA NUNES",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 461143.9,
+  "por_origem": {
+   "Recursos de partido político": 387563.9,
+   "Recursos de pessoas físicas": 11000.0,
+   "Recursos próprios": 62580.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 387563.9,
+   "OUTROS RECURSOS": 73580.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 387563.9
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 73580.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 257047.88,
+  "total_pago": 132049.38,
+  "fornecedores_pj": [
+   {
+    "cnpj": "49980595000188",
+    "nome": "AP SERVICOS DE ASSESSORIA, CONSULTORIA E LOCACOES",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 93000.0
+   },
+   {
+    "cnpj": "15339371000170",
+    "nome": "ANTONIO MARCELO SILVA MELO",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 73000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 17000.0
+   },
+   {
+    "cnpj": "66050439000137",
+    "nome": "MESSIAS SANTIAGO SHOW LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "42631102000155",
+    "nome": "UPPE! PRODUTORA E SOLUCOES LTDA",
+    "cnae": "41204",
+    "n_despesas": 1,
+    "tipos": [
+     "Comícios"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "38662785000130",
+    "nome": "GONCALVES SANTOS SOCIEDADE DE ADVOGADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "00212872000113",
+    "nome": "ASA SUL INDUSTRIA E COMERCIO DE MALHAS LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4640.0
+   },
+   {
+    "cnpj": "07012214000127",
+    "nome": "GRAFICA E EDITORA POUCHAIN RAMOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2726.5
+   },
+   {
+    "cnpj": "33967103000184",
+    "nome": "DEMERGE BRASIL PRESTADORA DE SERVICOS DE ATIVOS VIRTUAIS E PAGAMENTOS LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 179.88
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 7,
+   "total": 30501.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 8000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.5,
+    "Locação/cessão de bens imóveis": 5500.0,
+    "Produção de programas de rádio, televisão ou vídeo": 5000.0,
+    "Serviços contábeis": 10000.0,
+    "Serviços prestados por terceiros": 2000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

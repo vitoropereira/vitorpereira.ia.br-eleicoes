@@ -1,0 +1,170 @@
+{
+ "sq": "220002537562",
+ "nome_urna": "ALAN QUEIROZ",
+ "cargo": "depest",
+ "uf": "RO",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 627400.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 20750.0,
+   "Recursos de partido político": 200000.0,
+   "Recursos de pessoas físicas": 306650.0,
+   "Recursos próprios": 100000.0
+  },
+  "por_fonte": {
+   "FUNDO PARTIDARIO": 100000.0,
+   "OUTROS RECURSOS": 527400.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08963082000181",
+    "nome": "Direção Estadual/Distrital - PL - RONDÔNIA",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "68438235000101",
+    "nome": "BRUNO SCHEID",
+    "total": 20750.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 63,
+   "total": 406650.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 399920.93,
+  "total_pago": 175784.93,
+  "fornecedores_pj": [
+   {
+    "cnpj": "12250594000178",
+    "nome": "AEREO ESPECIAL TUR LTDA",
+    "cnae": "79112",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 32000.0
+   },
+   {
+    "cnpj": "33906644000100",
+    "nome": "HABIB, VIDAL E SANTANA ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "05155992000140",
+    "nome": "RONDOFORMS EDITORA E GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 25300.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "31593632000130",
+    "nome": "AUTO POSTO BOM SAMARITANO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 14580.0
+   },
+   {
+    "cnpj": "53146693000191",
+    "nome": "CELLO VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "04645599000171",
+    "nome": "D PRESS EDITORA E GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9700.0
+   },
+   {
+    "cnpj": "45289698000145",
+    "nome": "LJ PRINT COMERCIO E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4950.0
+   },
+   {
+    "cnpj": "34028316087713",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 4148.43
+   },
+   {
+    "cnpj": "41015260000118",
+    "nome": "OPS MIDIA LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1260.0
+   },
+   {
+    "cnpj": "41361265000100",
+    "nome": "SENA COMERCIO E SERVICOS LTDA",
+    "cnae": "74102",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 330.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 198,
+   "total": 252652.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 216000.0,
+    "Despesa com Impulsionamento de Conteúdos": 7000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.5,
+    "Locação/cessão de bens imóveis": 13650.0,
+    "Publicidade por carros de som": 6000.0,
+    "Serviços contábeis": 10000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

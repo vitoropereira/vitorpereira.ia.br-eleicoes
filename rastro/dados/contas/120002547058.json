@@ -1,0 +1,146 @@
+{
+ "sq": "120002547058",
+ "nome_urna": "ZECA DO PT",
+ "cargo": "depest",
+ "uf": "MS",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 569382.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 104800.0,
+   "Recursos de partido político": 265500.0,
+   "Recursos de pessoas físicas": 161030.0,
+   "Recursos próprios": 38052.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 354800.0,
+   "FUNDO PARTIDARIO": 15500.0,
+   "OUTROS RECURSOS": 199082.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 265500.0
+   },
+   {
+    "cnpj": "68519293000151",
+    "nome": "VANDER LUIZ DOS SANTOS LOUBET",
+    "total": 100000.0
+   },
+   {
+    "cnpj": "68403837000115",
+    "nome": "SANDRO OMAR DE OLIVEIRA SANTOS",
+    "total": 4800.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 9,
+   "total": 199082.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 167124.03,
+  "total_pago": 112481.03,
+  "fornecedores_pj": [
+   {
+    "cnpj": "08568249000100",
+    "nome": "ASCONT CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "37537353000135",
+    "nome": "MESPER SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19500.0
+   },
+   {
+    "cnpj": "23788744000118",
+    "nome": "HVA CASTRO",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 11500.0
+   },
+   {
+    "cnpj": "12542545000109",
+    "nome": "POSTO CARANDA LOCATELLI LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2239.24
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "37282334000105",
+    "nome": "37.282.334 URIAS FONSECA ROCHA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "18614843000143",
+    "nome": "POSTO DE SERVICOS GUIA LOPES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 282.29
+   },
+   {
+    "cnpj": "24661962000150",
+    "nome": "LMP TOUR LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 100.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 53,
+   "total": 103002.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 51000.0,
+    "Despesas com pessoal": 24000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.5,
+    "Locação/cessão de bens imóveis": 3000.0,
+    "Serviços prestados por terceiros": 25000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

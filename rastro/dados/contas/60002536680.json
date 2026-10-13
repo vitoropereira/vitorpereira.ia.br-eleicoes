@@ -1,0 +1,319 @@
+{
+ "sq": "60002536680",
+ "nome_urna": "MANU PIMENTA",
+ "cargo": "depest",
+ "uf": "CE",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 789563.9,
+  "por_origem": {
+   "Recursos de outros candidatos": 302000.0,
+   "Recursos de partido político": 387563.9,
+   "Recursos próprios": 100000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 387563.9,
+   "OUTROS RECURSOS": 402000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 387563.9
+   },
+   {
+    "cnpj": "68468285000123",
+    "nome": "CID FERREIRA GOMES",
+    "total": 300000.0
+   },
+   {
+    "cnpj": "68403598000101",
+    "nome": "DOMINGOS GOMES DE AGUIAR NETO",
+    "total": 2000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 1,
+   "total": 100000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 723801.36,
+  "total_pago": 118875.86,
+  "fornecedores_pj": [
+   {
+    "cnpj": "18703393000165",
+    "nome": "LUMMINNUS ASSESSORIA E CONSULTORIA EM MARKETING LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "06275626000197",
+    "nome": "FRANCISCO DARIO GOMES LOBO",
+    "cnae": "58298",
+    "n_despesas": 2,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 51630.0
+   },
+   {
+    "cnpj": "53418581000142",
+    "nome": "NS EMPREENDIMENTOS PRODUCOES LTDA",
+    "cnae": "77390",
+    "n_despesas": 7,
+    "tipos": [
+     "Alimentação",
+     "Locação/cessão de bens móveis (exceto veículos)",
+     "Pré-instalação física de comitê de campanha",
+     "Serviços prestados por terceiros"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "07012214000127",
+    "nome": "GRAFICA E EDITORA POUCHAIN RAMOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 27500.0
+   },
+   {
+    "cnpj": "47208104000150",
+    "nome": "S C P DA SILVA SERVICOS",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "34005139000140",
+    "nome": "START LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "26688536000135",
+    "nome": "JANDY MOREIRA - SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "59384398000150",
+    "nome": "RK TENDAS VARIEDADES LTDA",
+    "cnae": "47555",
+    "n_despesas": 1,
+    "tipos": [
+     "Aquisição/Doação de bens móveis ou imóveis"
+    ],
+    "total": 12400.0
+   },
+   {
+    "cnpj": "05288202000102",
+    "nome": "L. C. GRAFICA E EDITORA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 10990.0
+   },
+   {
+    "cnpj": "42801123000252",
+    "nome": "BEJOTA SERVICOS COMERCIO PROJETOS E CONSTRUCOES",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "04129023000151",
+    "nome": "Z SOLUCOES AUDIOVISUAIS PROMOCOES DE EVENTOS LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "59676659000105",
+    "nome": "59.676.659 KAIQUE ANDRADE FONTES",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "05785581000219",
+    "nome": "FACIL COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6950.0
+   },
+   {
+    "cnpj": "00499647000100",
+    "nome": "BOUGANVILLE BUFFET LTDA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "00563915000105",
+    "nome": "FABIANO PEREIRA DE OLIVEIRA LTDA",
+    "cnae": "37029",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "25348331000148",
+    "nome": "CICERO MARCIO BRITO DE OLIVEIRA",
+    "cnae": "47814",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4250.0
+   },
+   {
+    "cnpj": "27849028000154",
+    "nome": "ART SERVICOS E SOLUCOES LTDA",
+    "cnae": "82113",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 3750.0
+   },
+   {
+    "cnpj": "04963686000177",
+    "nome": "PROSERVICE COMERCIO E SERVICOS LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "11544421000108",
+    "nome": "LOCSUL ENGENHARIA DE INSTALACOES PROVISORIAS LTDA",
+    "cnae": "77322",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 3600.0
+   },
+   {
+    "cnpj": "53646726000162",
+    "nome": "JOEL VASCONCELOS LIMA LTDA",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2200.0
+   },
+   {
+    "cnpj": "20608549000170",
+    "nome": "CHRISTIANI MELO QUEIROZ",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1050.0
+   },
+   {
+    "cnpj": "58702780000100",
+    "nome": "INSPIRARTE GRAFICA PERSONALIZADOS LTDA",
+    "cnae": "17311",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 1040.0
+   },
+   {
+    "cnpj": "46221251000105",
+    "nome": "VISUMIX COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 908.36
+   },
+   {
+    "cnpj": "45193416000101",
+    "nome": "JOSE XAVIER LIRA NETO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Pré-instalação física de comitê de campanha"
+    ],
+    "total": 680.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 120,
+   "total": 376253.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 230940.0,
+    "Cessão ou locação de veículos": 43350.0,
+    "Despesas com pessoal": 58955.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 8.0,
+    "Locação/cessão de bens imóveis": 23000.0,
+    "Serviços advocatícios": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

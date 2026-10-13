@@ -1,0 +1,138 @@
+{
+ "sq": "190002532810",
+ "nome_urna": "ALTINEU CORTES",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 3232348.7,
+  "por_origem": {
+   "Recursos de outros candidatos": 5744.02,
+   "Recursos de partido político": 3006604.68,
+   "Recursos de pessoas físicas": 220000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 3003016.75,
+   "FUNDO PARTIDARIO": 3004.68,
+   "OUTROS RECURSOS": 226327.27
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 3000000.0
+   },
+   {
+    "cnpj": "08703299000152",
+    "nome": "Direção Estadual/Distrital - PL - RIO DE JANEIRO",
+    "total": 6604.68
+   },
+   {
+    "cnpj": "68269163000108",
+    "nome": "GABRIELA MARIA GONCALVES AZEVEDO",
+    "total": 3016.75
+   },
+   {
+    "cnpj": "68470280000135",
+    "nome": "DOUGLAS RUAS DOS SANTOS",
+    "total": 2727.27
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 220000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1706839.9,
+  "total_pago": 1016746.5,
+  "fornecedores_pj": [
+   {
+    "cnpj": "33287025000177",
+    "nome": "JK COMUNICACOES LTDA",
+    "cnae": "63194",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "22144107000146",
+    "nome": "DAMIAN SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "26642855000100",
+    "nome": "CASTRO, VIEIRA E FERREIRA CONTA DO RES ELEITORAIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 42000.0
+   },
+   {
+    "cnpj": "23412180000114",
+    "nome": "EXACT INDUSTRIA E SERVIÇOS DE EMBALAGENS E ROTULOS LTDA",
+    "cnae": "17311",
+    "n_despesas": 26,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 38393.0
+   },
+   {
+    "cnpj": "01433251000122",
+    "nome": "ARTE GRAFICA ELIZIO LTDA",
+    "cnae": "18229",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 27000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "61144095000101",
+    "nome": "SUDESTE GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 411.4
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 793,
+   "total": 1429035.5,
+   "por_tipo": {
+    "Despesas com pessoal": 1427400.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 35.5,
+    "Locação/cessão de bens imóveis": 1600.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

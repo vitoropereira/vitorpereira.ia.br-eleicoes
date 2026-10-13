@@ -1,0 +1,316 @@
+{
+ "sq": "250002536245",
+ "nome_urna": "ANA PERUGINI",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 864092.1,
+  "por_origem": {
+   "Recursos de outros candidatos": 72690.0,
+   "Recursos de partido político": 625500.0,
+   "Recursos de pessoas físicas": 161902.1,
+   "Recursos próprios": 4000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 698190.0,
+   "OUTROS RECURSOS": 165902.1
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 625500.0
+   },
+   {
+    "cnpj": "68373686000108",
+    "nome": "MARCIA APARECIDA OVEJANEDA LIA",
+    "total": 40800.0
+   },
+   {
+    "cnpj": "68373177000177",
+    "nome": "NILTO IGNACIO TATTO",
+    "total": 30000.0
+   },
+   {
+    "cnpj": "68373176000122",
+    "nome": "JOSE DIRCEU DE OLIVEIRA E SILVA",
+    "total": 1650.0
+   },
+   {
+    "cnpj": "68373251000155",
+    "nome": "ARLINDO CHIGNALIA JUNIOR",
+    "total": 240.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 22,
+   "total": 165902.1
+  }
+ },
+ "despesas": {
+  "total_contratado": 674992.13,
+  "total_pago": 714588.4,
+  "fornecedores_pj": [
+   {
+    "cnpj": "14717699000110",
+    "nome": "ARTES BRASIL COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 215030.0
+   },
+   {
+    "cnpj": "23555044000183",
+    "nome": "ALEXSANDRO ISRAEL AMARO",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 80000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 7,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 78500.0
+   },
+   {
+    "cnpj": "10569262000125",
+    "nome": "ABREU ASSESSORIA EMPRESARIAL E IMOBILIARIA LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "46435685000108",
+    "nome": "ANTONIO C. R. DE ABREU SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "16661638000103",
+    "nome": "H S EDITORA E GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 6,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 23025.0
+   },
+   {
+    "cnpj": "46655435000175",
+    "nome": "CAE COMUNICACAO E PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "62698165000136",
+    "nome": "VIANA COMERCIO DE ALIMENTOS E BEBIDAS LTDA",
+    "cnae": "56112",
+    "n_despesas": 4,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 10800.0
+   },
+   {
+    "cnpj": "35373188000106",
+    "nome": "A. V. P. ROSOLEN",
+    "cnae": "46796",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "10928875000101",
+    "nome": "COMERCIO DE COMBUSTIVEIS PARQUE GABRIEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4583.51
+   },
+   {
+    "cnpj": "28656870000132",
+    "nome": "28.656.870 ANDERSON JOSE ALVES DE SOUZA",
+    "cnae": "90019",
+    "n_despesas": 4,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)",
+     "Publicidade por carros de som"
+    ],
+    "total": 4200.0
+   },
+   {
+    "cnpj": "15705697000173",
+    "nome": "EVAG COMUNICACAO E TECNOLOGIA LTDA.",
+    "cnae": "62015",
+    "n_despesas": 1,
+    "tipos": [
+     "Criação e inclusão de páginas na internet"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "68912054000167",
+    "nome": "ROSOLEN TRANSPORTES E TURISMO LTDA",
+    "cnae": "49213",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "06133523000192",
+    "nome": "NO ALVO GRAFICA RAPIDA LTDA",
+    "cnae": "18211",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2370.5
+   },
+   {
+    "cnpj": "13962171000143",
+    "nome": "RV7 FORMATURAS ORGANIZACAO DE FESTAS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 2250.0
+   },
+   {
+    "cnpj": "00029304000181",
+    "nome": "EMPRESA JORNALISTICA COMARCA DE PALMITAL LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "09044598000195",
+    "nome": "ANDREZA LENHARO BASTOS PEREIRA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1390.0
+   },
+   {
+    "cnpj": "21721703000189",
+    "nome": "CONSTRALTO COMERCIO DE MATERIAIS PARA CONSTRUCAO LTDA",
+    "cnae": "47440",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1196.0
+   },
+   {
+    "cnpj": "05036709000160",
+    "nome": "PANIFICADORA CONFEITARIA ROSOLEN LTDA",
+    "cnae": "47211",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 1157.1
+   },
+   {
+    "cnpj": "02304110000172",
+    "nome": "CRISTAL - EMBALAGENS, DESCARTAVEIS E FESTAS LTDA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 609.0
+   },
+   {
+    "cnpj": "67330092000149",
+    "nome": "VANTEC COMERCIO DE COPIADORAS LTDA",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "52454722000110",
+    "nome": "CRISTAL AGUA LTDA",
+    "cnae": "47237",
+    "n_despesas": 2,
+    "tipos": [
+     "Água"
+    ],
+    "total": 187.0
+   },
+   {
+    "cnpj": "29147074000137",
+    "nome": "BEM BARATO FERRAMENTAS LTDA",
+    "cnae": "47423",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 162.8
+   },
+   {
+    "cnpj": "67800995000146",
+    "nome": "JOAO EDUARDO FABIANO",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 41.9
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 51,
+   "total": 99189.32,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 14100.0,
+    "Despesas com pessoal": 76023.02,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 66.3,
+    "Locação/cessão de bens imóveis": 9000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

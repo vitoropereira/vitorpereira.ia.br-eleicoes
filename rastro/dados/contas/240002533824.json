@@ -1,0 +1,538 @@
+{
+ "sq": "240002533824",
+ "nome_urna": "ANA PAULA LIMA",
+ "cargo": "depfed",
+ "uf": "SC",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2987118.0,
+  "por_origem": {
+   "Recursos de Financiamento Coletivo": 6338.0,
+   "Recursos de partido político": 2830500.0,
+   "Recursos de pessoas físicas": 140280.0,
+   "Recursos próprios": 10000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2830500.0,
+   "OUTROS RECURSOS": 156618.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 2830500.0
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "total": 6338.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 43,
+   "total": 150280.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 2552680.17,
+  "total_pago": 2293485.42,
+  "fornecedores_pj": [
+   {
+    "cnpj": "22271531000151",
+    "nome": "JANINE KAMERS SERPA",
+    "cnae": "14126",
+    "n_despesas": 37,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 341300.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 11,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "05494613000146",
+    "nome": "ELBERT EDITORA GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 37,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 150665.5
+   },
+   {
+    "cnpj": "68438238000137",
+    "nome": "LUCIANE MARIA CARMINATTI",
+    "cnae": "94928",
+    "n_despesas": 4,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 126500.0
+   },
+   {
+    "cnpj": "53639018000102",
+    "nome": "MRG CONSULTORIA EM COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 44000.0
+   },
+   {
+    "cnpj": "68438213000133",
+    "nome": "MARISA ZANONI FERNANDES",
+    "cnae": "94928",
+    "n_despesas": 3,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 38100.0
+   },
+   {
+    "cnpj": "14481919000159",
+    "nome": "LIRA CONTABILIDADE LTDA",
+    "cnae": "69206",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 37000.0
+   },
+   {
+    "cnpj": "35401719000119",
+    "nome": "SMART PRINT MATERIAL PUBLICITARIO LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 29895.0
+   },
+   {
+    "cnpj": "22669178000162",
+    "nome": "SETE PRODUCOES E EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 26250.0
+   },
+   {
+    "cnpj": "36066848000160",
+    "nome": "NILSON ANTONIO GONCALVES DE SOUZA LTDA",
+    "cnae": "58123",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 25973.1
+   },
+   {
+    "cnpj": "34960846000195",
+    "nome": "LUIS CARLOS CORREIA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "68438096000108",
+    "nome": "CLAUDIA LUCIA BRATTI",
+    "cnae": "94928",
+    "n_despesas": 3,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 21350.0
+   },
+   {
+    "cnpj": "51626979000149",
+    "nome": "ARTUR ANTUNES SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "45415801000156",
+    "nome": "JA EVENTOS E SONORIZACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 16000.0
+   },
+   {
+    "cnpj": "40903279000138",
+    "nome": "AMAZONAS COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 57,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 11800.82
+   },
+   {
+    "cnpj": "68438268000143",
+    "nome": "MARISTELA DA SILVA FRANCISCO",
+    "cnae": "94928",
+    "n_despesas": 2,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 10900.0
+   },
+   {
+    "cnpj": "43770295000198",
+    "nome": "RODRIGO O DOS SANTOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "40003710000190",
+    "nome": "MA MIDIAS LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 9835.0
+   },
+   {
+    "cnpj": "83871780000172",
+    "nome": "ADMINISTRADORA DE BENS SCHWANKE LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "83483123000158",
+    "nome": "CASARAO EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8950.0
+   },
+   {
+    "cnpj": "40561457000190",
+    "nome": "CRICIUMA JARDINAGEM LTDA",
+    "cnae": "47130",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "76312263000106",
+    "nome": "CHALE ARTE IMOVEIS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "82879453000102",
+    "nome": "82.879.453 JOACIR TORRES ATHAYDE",
+    "cnae": "47890",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "21260772000132",
+    "nome": "ARTEFATOS DE CIMENTO SILVEIRA LTDA",
+    "cnae": "23303",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 5100.0
+   },
+   {
+    "cnpj": "34340736000120",
+    "nome": "IMOBILIARIA AVENIDA LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 4167.0
+   },
+   {
+    "cnpj": "22450881000185",
+    "nome": "REDBLUE ESTAMPARIA E ACABAMENTOS LTDA",
+    "cnae": "13405",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3200.0
+   },
+   {
+    "cnpj": "11368778000174",
+    "nome": "DIA A DIA PRODUCOES E LOGISTICA LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 2900.0
+   },
+   {
+    "cnpj": "00831721000143",
+    "nome": "ROTA IMPRESSOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2250.0
+   },
+   {
+    "cnpj": "45719318000165",
+    "nome": "REIPACK DISTRIBUIDORA LTDA",
+    "cnae": "46869",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 2107.5
+   },
+   {
+    "cnpj": "26547580000125",
+    "nome": "AE COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 9,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2100.31
+   },
+   {
+    "cnpj": "04539543000132",
+    "nome": "FRAILY BRINDES LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2088.0
+   },
+   {
+    "cnpj": "81352882000156",
+    "nome": "POSTO CIDADE LTDA",
+    "cnae": "47318",
+    "n_despesas": 9,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2033.51
+   },
+   {
+    "cnpj": "00070369000170",
+    "nome": "ARTEFATOS DE CIMENTOS NACOES LTDA",
+    "cnae": "23303",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1980.0
+   },
+   {
+    "cnpj": "07134578000180",
+    "nome": "AUTO POSTO BLU LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 20,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1639.78
+   },
+   {
+    "cnpj": "13206221000162",
+    "nome": "MIRA COMUNICACAO LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1590.0
+   },
+   {
+    "cnpj": "54400623000180",
+    "nome": "JBM COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "77857324000175",
+    "nome": "S B A ABASTECEDORA E FRETES RODOVIARIOS LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1267.35
+   },
+   {
+    "cnpj": "00806884000176",
+    "nome": "JONES TOMAZ DA SILVA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "04348476000179",
+    "nome": "EDITORA BELOS MONTES LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 950.0
+   },
+   {
+    "cnpj": "67919805000104",
+    "nome": "67.919.805 ANDREA PAULA PEREIRA GOMES",
+    "cnae": "82199",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "83931451000170",
+    "nome": "FED TRABALHADORES INDUSTRIAS EST STA CATARINA",
+    "cnae": "94201",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 800.0
+   },
+   {
+    "cnpj": "04484195000143",
+    "nome": "GRAPHEL GRAFICA E EDITORA LAGES LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 760.0
+   },
+   {
+    "cnpj": "14230105000141",
+    "nome": "ANTONIO MARCOS DOS S. DORNELES",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 500.0
+   },
+   {
+    "cnpj": "54752941000100",
+    "nome": "LETRAO COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 400.0
+   },
+   {
+    "cnpj": "46740402000123",
+    "nome": "SUHRE GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 320.0
+   },
+   {
+    "cnpj": "66970229003930",
+    "nome": "CLARO NXT TELECOMUNICACOES S/A",
+    "cnae": "61205",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 309.86
+   },
+   {
+    "cnpj": "86551660001310",
+    "nome": "COOPERATIVA AGROPECUARIA VIDEIRENSE",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 184.13
+   },
+   {
+    "cnpj": "39586155000197",
+    "nome": "QueroApoiar.com.br",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Taxa de Administração de Financiamento Coletivo"
+    ],
+    "total": 138.07
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 443,
+   "total": 1230775.24,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 21222.0,
+    "Despesas com pessoal": 1188928.24,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 5.0,
+    "Locação/cessão de bens imóveis": 20620.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

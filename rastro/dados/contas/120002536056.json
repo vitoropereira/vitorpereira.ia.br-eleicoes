@@ -1,0 +1,238 @@
+{
+ "sq": "120002536056",
+ "nome_urna": "PAULO CORRÊA",
+ "cargo": "depest",
+ "uf": "MS",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1243000.65,
+  "por_origem": {
+   "Recursos de outros candidatos": 22242.5,
+   "Recursos de partido político": 1100620.0,
+   "Recursos de pessoas físicas": 51386.15,
+   "Recursos próprios": 68752.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1100000.0,
+   "OUTROS RECURSOS": 143000.65
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1100000.0
+   },
+   {
+    "cnpj": "68430074000100",
+    "nome": "DAGOBERTO NOGUEIRA FILHO",
+    "total": 17000.0
+   },
+   {
+    "cnpj": "68345299000150",
+    "nome": "REINALDO AZAMBUJA SILVA",
+    "total": 2662.5
+   },
+   {
+    "cnpj": "68345534000193",
+    "nome": "MARA ELISA NAVACCHI CASEIRO",
+    "total": 1880.0
+   },
+   {
+    "cnpj": "68430405000101",
+    "nome": "APARECIDO CARLOS BERNARDO",
+    "total": 700.0
+   },
+   {
+    "cnpj": "09002846000135",
+    "nome": "Direção Estadual/Distrital - PL - MATO GROSSO DO SUL",
+    "total": 620.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 17,
+   "total": 120138.15
+  }
+ },
+ "despesas": {
+  "total_contratado": 187402.22,
+  "total_pago": 120092.37,
+  "fornecedores_pj": [
+   {
+    "cnpj": "07355935000130",
+    "nome": "AF GONCALVES EMPREENDIMENTOS CONTABEIS LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 21000.0
+   },
+   {
+    "cnpj": "01236234000103",
+    "nome": "G L INDUSTRIA E COMERCIO LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "25188538000100",
+    "nome": "ESSENT INOVACAO CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "61943625000181",
+    "nome": "61.943.625 RENATO FONSECA DE OLIVEIRA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 9000.0
+   },
+   {
+    "cnpj": "50117292000115",
+    "nome": "MERCURI SERVICOS E COMUNICACOES LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 7000.0
+   },
+   {
+    "cnpj": "26831495000194",
+    "nome": "ORIENTE GRAFICA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "46631696000155",
+    "nome": "PHM FILMES LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "40508508000110",
+    "nome": "UMA HORA E MEIA PRODUCOES LTDA",
+    "cnae": "59201",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "29605567000173",
+    "nome": "L G S GARCIA LEAL",
+    "cnae": "43291",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2180.0
+   },
+   {
+    "cnpj": "59868725000149",
+    "nome": "R-PRINTCG IMPRESSAO DIGITAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 900.0
+   },
+   {
+    "cnpj": "15153128000162",
+    "nome": "VISUAL SOLUCOES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 360.0
+   },
+   {
+    "cnpj": "05766870000190",
+    "nome": "J. R. DA MOTTA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 280.0
+   },
+   {
+    "cnpj": "35748841000166",
+    "nome": "AUTO POSTO BELO HORIZONTE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 279.68
+   },
+   {
+    "cnpj": "15590921000129",
+    "nome": "SEMPRE AUTORIDADE CERTIFICADORA LTDA",
+    "cnae": "62091",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 189.0
+   },
+   {
+    "cnpj": "03232675000154",
+    "nome": "VIACAO CRUZEIRO DO SUL LTDA",
+    "cnae": "49221",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 3.04
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 18,
+   "total": 116210.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 7600.0,
+    "Despesas com pessoal": 96600.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 10.5,
+    "Serviços advocatícios": 12000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

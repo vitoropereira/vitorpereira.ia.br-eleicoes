@@ -1,0 +1,177 @@
+{
+ "sq": "180002536221",
+ "nome_urna": "ANA PAULA",
+ "cargo": "depest",
+ "uf": "PI",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 993500.0,
+  "por_origem": {
+   "Recursos de partido político": 942500.0,
+   "Recursos de pessoas físicas": 51000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 930000.0,
+   "FUNDO PARTIDARIO": 12500.0,
+   "OUTROS RECURSOS": 51000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676213000138",
+    "nome": "Direção Nacional - MDB",
+    "total": 930000.0
+   },
+   {
+    "cnpj": "07441918000115",
+    "nome": "Direção Estadual/Distrital - MDB - PIAUÍ",
+    "total": 12500.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 8,
+   "total": 51000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 608255.99,
+  "total_pago": 852341.68,
+  "fornecedores_pj": [
+   {
+    "cnpj": "47455620000189",
+    "nome": "J DE ARAUJO S E SILVA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 300000.0
+   },
+   {
+    "cnpj": "46764677000105",
+    "nome": "MARISTER DE SOUSA RAMOS",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "52336957000107",
+    "nome": "JM INDUSTRIA DE EMBALAGENS E ROTULOS LTDA",
+    "cnae": "17419",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 42200.0
+   },
+   {
+    "cnpj": "57267185000112",
+    "nome": "FALCAO FALCAO ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "07093190000188",
+    "nome": "OMEGA JEANS LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26250.0
+   },
+   {
+    "cnpj": "15827503000102",
+    "nome": "GUMERCINDO GOMES DE ARAUJO NETO LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Atividades de militância e mobilização de rua"
+    ],
+    "total": 25000.0
+   },
+   {
+    "cnpj": "69617454000102",
+    "nome": "ATLANTIC CITY WORLD CLUB",
+    "cnae": "93123",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 18000.0
+   },
+   {
+    "cnpj": "07562537000194",
+    "nome": "JEO ESTAMPARIA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "08596605000107",
+    "nome": "POSTO HOMERO CASTELO BRANCO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 615.67
+   },
+   {
+    "cnpj": "58685582000177",
+    "nome": "EMPORIO GRANJA LTDA",
+    "cnae": "47121",
+    "n_despesas": 4,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 114.1
+   },
+   {
+    "cnpj": "66970229013730",
+    "nome": "CLARO NXT TELECOMUNICACOES S/A",
+    "cnae": "61205",
+    "n_despesas": 1,
+    "tipos": [
+     "Telefone"
+    ],
+    "total": 73.22
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 8,
+   "total": 86003.0,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 40500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.0,
+    "Serviços contábeis": 30000.0,
+    "Serviços prestados por terceiros": 15500.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

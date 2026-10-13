@@ -1,0 +1,186 @@
+{
+ "sq": "250002539934",
+ "nome_urna": "LUIZA ERUNDINA",
+ "cargo": "depest",
+ "uf": "SP",
+ "partido": "PSOL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1283588.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 5988.0,
+   "Recursos de partido político": 1227500.0,
+   "Recursos de pessoas físicas": 50100.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1227950.0,
+   "OUTROS RECURSOS": 55638.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "06954942000195",
+    "nome": "Direção Nacional - PSOL",
+    "total": 1227500.0
+   },
+   {
+    "cnpj": "68437291000113",
+    "nome": "JULIANO MEDEIROS",
+    "total": 5988.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 50100.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 617947.32,
+  "total_pago": 522904.88,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 180000.0
+   },
+   {
+    "cnpj": "41013131000190",
+    "nome": "ALEXANDRE SEGALINA DE CARVALHO AGENCIA DE PUBLICIDADE LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 68000.0
+   },
+   {
+    "cnpj": "56385884000102",
+    "nome": "VITOR MEDEIROS DE LUCENA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "31135868000122",
+    "nome": "PERSEVERANCA GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 33060.0
+   },
+   {
+    "cnpj": "30437447000193",
+    "nome": "30.437.447 REJANE SOARES DE LIMA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 31350.0
+   },
+   {
+    "cnpj": "14437788000102",
+    "nome": "FLEX MARKETING DIRETO LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 31000.0
+   },
+   {
+    "cnpj": "65282102000192",
+    "nome": "PRIVATTI CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "68787008000183",
+    "nome": "68.787.008 FIORELLA FATIO DE ANDRADE",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "50406648000130",
+    "nome": "50.406.648 PRISCILA RAMOS BRAGA",
+    "cnae": "59120",
+    "n_despesas": 4,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "16670085000155",
+    "nome": "LOCALIZA RENT A CAR SA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7786.05
+   },
+   {
+    "cnpj": "02912920000101",
+    "nome": "AUTO POSTO OBJETIVO LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1433.99
+   },
+   {
+    "cnpj": "73147084000164",
+    "nome": "SISTEMAS CONVEX LOCACOES DE PRODUTOS DE INFORMATICA LTDA",
+    "cnae": "77331",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1077.68
+   },
+   {
+    "cnpj": "30842345000153",
+    "nome": "VONO TECNOLOGIA LTDA",
+    "cnae": "61906",
+    "n_despesas": 1,
+    "tipos": [
+     "Telefone"
+    ],
+    "total": 41.1
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 46,
+   "total": 152198.5,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 148120.0,
+    "Despesas com pessoal": 4000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 78.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

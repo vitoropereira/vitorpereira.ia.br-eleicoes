@@ -1,0 +1,313 @@
+{
+ "sq": "220002537549",
+ "nome_urna": "DELEGADO LUCAS TORRES",
+ "cargo": "depest",
+ "uf": "RO",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 765842.0,
+  "por_origem": {
+   "Recursos de partido político": 600000.0,
+   "Recursos de pessoas físicas": 155842.0,
+   "Recursos próprios": 10000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 600000.0,
+   "OUTROS RECURSOS": 165842.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 600000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 27,
+   "total": 165842.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 542780.02,
+  "total_pago": 345503.27,
+  "fornecedores_pj": [
+   {
+    "cnpj": "64010686000184",
+    "nome": "SUPERAVIT ASSESSORIA E SERVICOS LTDA",
+    "cnae": "70204",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 103388.4
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 5,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "49457210000100",
+    "nome": "MASTER LOCK SERVICOS DE LOCACOES FACILITIES E MANUTECOES INDUSTRIAIS LTDA",
+    "cnae": "33147",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 24000.0
+   },
+   {
+    "cnpj": "49653497000136",
+    "nome": "BORGES IA OFICIAL LTDA",
+    "cnae": "74200",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "59616370000109",
+    "nome": "AGENCIA BURITIS AGORA PRODUTORA MARKETING E EVENTOS LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "84713262000193",
+    "nome": "APP COMERCIO DE COMBUSTIVEIS E DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 7,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 15438.16
+   },
+   {
+    "cnpj": "11736884000163",
+    "nome": "A. R. BATISTA FILHO",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5400.0
+   },
+   {
+    "cnpj": "08588437000108",
+    "nome": "BRUNORO BRUNORO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3610.0
+   },
+   {
+    "cnpj": "63494972000108",
+    "nome": "63.494.972 LUIZ RENAN NEPUMOCENO",
+    "cnae": "45412",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "05078112000189",
+    "nome": "AMARAL COMERCIO DE COMBUSTIVEIS E LUBRIFICANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2205.0
+   },
+   {
+    "cnpj": "40116669000168",
+    "nome": "W A N DISTRIBUIDORA E COMERCIO DE BEBIDAS LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 2084.51
+   },
+   {
+    "cnpj": "46470853000198",
+    "nome": "G QUEIROZ DIAS",
+    "cnae": "47211",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 1937.56
+   },
+   {
+    "cnpj": "05593306000112",
+    "nome": "AUTO POSTO JOWAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1498.0
+   },
+   {
+    "cnpj": "22565560000126",
+    "nome": "ABR S POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1117.5
+   },
+   {
+    "cnpj": "25089675000180",
+    "nome": "PLANALTO COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1098.0
+   },
+   {
+    "cnpj": "30179146000107",
+    "nome": "J. D ALVES GRAFICA INFINITY LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1020.0
+   },
+   {
+    "cnpj": "35774820000115",
+    "nome": "A. ANTONIO DA SILVA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 750.0
+   },
+   {
+    "cnpj": "09141020000157",
+    "nome": "C S DE ALMEIDA LTDA",
+    "cnae": "47849",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 728.0
+   },
+   {
+    "cnpj": "33693304000130",
+    "nome": "AUTO POSTO SURUBIM COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 435.82
+   },
+   {
+    "cnpj": "18341574000199",
+    "nome": "MB MORAIS SUPERMERCADO E COMERCIO DE PRODUTOS ALIMENTICIOS LTDA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 357.0
+   },
+   {
+    "cnpj": "03147414000136",
+    "nome": "SCHONS SCHONS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 342.87
+   },
+   {
+    "cnpj": "64640413000113",
+    "nome": "AUTO POSTO PACAAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 302.8
+   },
+   {
+    "cnpj": "65080377000143",
+    "nome": "M D DISTRIBUIDORA E CONVENIENCIA LTDA",
+    "cnae": "47237",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 232.0
+   },
+   {
+    "cnpj": "07353072000161",
+    "nome": "PRIME FABRICACAO DE PAINEIS LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 231.4
+   },
+   {
+    "cnpj": "05679642000344",
+    "nome": "AGUA MINERAL LIND AGUA LTDA",
+    "cnae": "46354",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 198.0
+   },
+   {
+    "cnpj": "14534825000109",
+    "nome": "D SOARES MARTINS BELLO LTDA",
+    "cnae": "25420",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 100.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 152,
+   "total": 309305.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 157069.0,
+    "Cessão ou locação de veículos": 56200.0,
+    "Despesas com pessoal": 80936.0,
+    "Locação/cessão de bens imóveis": 15100.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

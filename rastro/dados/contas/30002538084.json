@@ -1,0 +1,108 @@
+{
+ "sq": "30002538084",
+ "nome_urna": "VINICIUS GURGEL",
+ "cargo": "depfed",
+ "uf": "AP",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1300000.0,
+  "por_origem": {
+   "Recursos de partido político": 1300000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1300000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 1300000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 451028.2,
+  "total_pago": 376028.2,
+  "fornecedores_pj": [
+   {
+    "cnpj": "47576490000132",
+    "nome": "F. DOS SANTOS PAIXAO LTDA",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 200000.0
+   },
+   {
+    "cnpj": "26804515000138",
+    "nome": "AGENCIA BEX LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "44748246000111",
+    "nome": "D B IMOVEIS LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 55000.0
+   },
+   {
+    "cnpj": "10580056000116",
+    "nome": "D R G DE ASSIS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "39561786000151",
+    "nome": "MARINA VIEIRA VIANA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 10000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 4,
+   "total": 46028.2,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 16000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 28.2,
+    "Locação/cessão de bens imóveis": 30000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

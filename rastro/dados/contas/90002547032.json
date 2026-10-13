@@ -1,0 +1,184 @@
+{
+ "sq": "90002547032",
+ "nome_urna": "WILDE CAMBÃO",
+ "cargo": "depest",
+ "uf": "GO",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 569400.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 100000.0,
+   "Recursos de partido político": 400000.0,
+   "Recursos de pessoas físicas": 69400.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 500000.0,
+   "OUTROS RECURSOS": 69400.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "45739858000100",
+    "nome": "Direção Estadual/Distrital - UNIÃO - GOIÁS",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "68470036000172",
+    "nome": "LUANA DO PRADO ROCHA MELO",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 7,
+   "total": 69400.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 250041.94,
+  "total_pago": 183067.75,
+  "fornecedores_pj": [
+   {
+    "cnpj": "06280536000194",
+    "nome": "MEDIA VIEW PRODUTORA LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "37992868000125",
+    "nome": "LUPA ASSESSORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "60850693000133",
+    "nome": "SOLUCAO PAPER TECH LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 21120.0
+   },
+   {
+    "cnpj": "07275016000156",
+    "nome": "TARCISIO DE ARAUJO COELHO CIA LTDA",
+    "cnae": "49248",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "06301679000135",
+    "nome": "REPARAUTO RECUPERADORA DE VEICULOS LUZIANIA LTDA.",
+    "cnae": "45200",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 7500.0
+   },
+   {
+    "cnpj": "31741940000165",
+    "nome": "POSTO INDEPENDENCIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 14,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7249.63
+   },
+   {
+    "cnpj": "41354878000102",
+    "nome": "ESPACO DE FESTAS SISTERS PLAY LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "30439279000175",
+    "nome": "LIDER PROPAGANDA VOLANTE LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 1280.0
+   },
+   {
+    "cnpj": "38756034000183",
+    "nome": "PIRES OLIVEIRA CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1200.0
+   },
+   {
+    "cnpj": "47819508000180",
+    "nome": "TOPMAX COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 550.0
+   },
+   {
+    "cnpj": "01064836000112",
+    "nome": "LIVRARIA PAPELARIA FUTURA LTDA",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 510.0
+   },
+   {
+    "cnpj": "36313584000100",
+    "nome": "GN COMUNICACAO VISUAL LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 300.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 91,
+   "total": 108332.31,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 71284.0,
+    "Cessão ou locação de veículos": 7500.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 48.31,
+    "Locação/cessão de bens imóveis": 10500.0,
+    "Locação/cessão de bens móveis (exceto veículos)": 4000.0,
+    "Publicidade por carros de som": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

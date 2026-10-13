@@ -1,0 +1,221 @@
+{
+ "sq": "170002542424",
+ "nome_urna": "CAYO ALBINO",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 474000.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 200000.0,
+   "Recursos de partido político": 100000.0,
+   "Recursos de pessoas físicas": 124000.0,
+   "Recursos próprios": 50000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 197908.72,
+   "FUNDO PARTIDARIO": 40000.0,
+   "OUTROS RECURSOS": 236091.28
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "68456170000119",
+    "nome": "FELIPE AUGUSTO LYRA CARRERAS",
+    "total": 200000.0
+   },
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 100000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 8,
+   "total": 174000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 491648.45,
+  "total_pago": 97657.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "11078715000183",
+    "nome": "JT LOCACOES LTDA",
+    "cnae": "14134",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 45000.0
+   },
+   {
+    "cnpj": "10503123000107",
+    "nome": "ALVORADA COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 22112.1
+   },
+   {
+    "cnpj": "13691289000265",
+    "nome": "ADELSON CARNES FRIOS LTDA",
+    "cnae": "47229",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 16500.0
+   },
+   {
+    "cnpj": "41001216000159",
+    "nome": "DMC LOCACOES E SERVICOS LTDA",
+    "cnae": "36006",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 15900.0
+   },
+   {
+    "cnpj": "62074522000195",
+    "nome": "BISMACK SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "10657452000102",
+    "nome": "VALDEMIR LIMA PIMENTEL JUNIOR LOCACAO DE VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "26736303000160",
+    "nome": "ROSIMERIA DE ALBUQUERQUE",
+    "cnae": "73114",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 10800.0
+   },
+   {
+    "cnpj": "52023309000109",
+    "nome": "FAST ASSESSORIA ADMINISTRATIVA E SERVICOS LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8500.0
+   },
+   {
+    "cnpj": "03892344000140",
+    "nome": "MALHARIA ATLANTICO LTDA",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 8390.0
+   },
+   {
+    "cnpj": "08604460000130",
+    "nome": "TARCIANO DE ASSIS TEIXEIRA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "35714880000142",
+    "nome": "TIAGO ERIVALDO DOS SANTOS",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 7950.0
+   },
+   {
+    "cnpj": "51539798000185",
+    "nome": "CHALE EVENTOS LTDA",
+    "cnae": "56201",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5600.0
+   },
+   {
+    "cnpj": "14976605000127",
+    "nome": "R2 ENTRETENIMENTOS PRODUCOES E EVENTOS LTDA",
+    "cnae": "90019",
+    "n_despesas": 2,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "04883291000164",
+    "nome": "M V FILHOS EDITORA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1600.0
+   },
+   {
+    "cnpj": "52796312000157",
+    "nome": "OITO7 SOLUCOES GRAFICAS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1200.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 128,
+   "total": 305096.35,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 249363.38,
+    "Cessão ou locação de veículos": 25000.0,
+    "Despesas com pessoal": 18732.97,
+    "Publicidade por carros de som": 5000.0,
+    "Serviços contábeis": 5000.0,
+    "Serviços prestados por terceiros": 2000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

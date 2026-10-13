@@ -1,0 +1,282 @@
+{
+ "sq": "10002532489",
+ "nome_urna": "ROBERTO DUARTE",
+ "cargo": "depfed",
+ "uf": "AC",
+ "partido": "REPUBLICANOS",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 1547500.0,
+  "por_origem": {
+   "Recursos de partido político": 1500000.0,
+   "Recursos de pessoas físicas": 6000.0,
+   "Recursos próprios": 41500.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 1500000.0,
+   "OUTROS RECURSOS": 47500.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "07665132000181",
+    "nome": "Direção Nacional - REPUBLICANOS",
+    "total": 1500000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 3,
+   "total": 47500.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 1295611.6,
+  "total_pago": 0.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "06916063000179",
+    "nome": "JAQUELINE C. DE OLIVEIRA LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 118270.0
+   },
+   {
+    "cnpj": "52144744000183",
+    "nome": "BRAZIL 61 COMUNICACAO, EVENTOS E INTERMEDIACOES LTDA",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "01805545000138",
+    "nome": "CIPRIANI IMPORTACAO E EXPORTACAO LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 98143.2
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "48498781000112",
+    "nome": "CRIART BRASIL LTDA",
+    "cnae": "73114",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 26124.5
+   },
+   {
+    "cnpj": "35232061000169",
+    "nome": "JOSE M S DE QUEIROZ LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 15065.0
+   },
+   {
+    "cnpj": "09309458000100",
+    "nome": "J C R DO NASCIMENTO",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "06057934000227",
+    "nome": "FARHAT PINHEIRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 11215.0
+   },
+   {
+    "cnpj": "63604631000130",
+    "nome": "POSTO RI LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9780.0
+   },
+   {
+    "cnpj": "57611065000190",
+    "nome": "AUTO POSTO BOSQUE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9327.39
+   },
+   {
+    "cnpj": "14295802000180",
+    "nome": "J S IMPORTACAO E EXPORTACAO LTDA",
+    "cnae": "47121",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação",
+     "Água"
+    ],
+    "total": 7855.69
+   },
+   {
+    "cnpj": "03864861000106",
+    "nome": "PETROSENA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7844.0
+   },
+   {
+    "cnpj": "33746960000154",
+    "nome": "AUTO POSTO DANTAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 7732.5
+   },
+   {
+    "cnpj": "18912249000139",
+    "nome": "AUTO POSTO RIBEIRAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 6277.0
+   },
+   {
+    "cnpj": "84326669000168",
+    "nome": "I. DE LIMA SOUSA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5920.0
+   },
+   {
+    "cnpj": "06886384000178",
+    "nome": "ALTO PURUS COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 5563.0
+   },
+   {
+    "cnpj": "08769822000143",
+    "nome": "AUTO POSTO SANTA ROSA COMERCIO DE DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4800.0
+   },
+   {
+    "cnpj": "32705508000181",
+    "nome": "DENISE A. CASTRO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4440.0
+   },
+   {
+    "cnpj": "41194696000111",
+    "nome": "M.C.C.FERREIRA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 4095.0
+   },
+   {
+    "cnpj": "01575860000116",
+    "nome": "AUTO POSTO ACRELANDIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3745.0
+   },
+   {
+    "cnpj": "10209732000140",
+    "nome": "AUTO POSTO QUINARI LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3495.0
+   },
+   {
+    "cnpj": "31557591000126",
+    "nome": "VETOR AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2548.44
+   },
+   {
+    "cnpj": "07466381000148",
+    "nome": "JOAFRA - AUTO POSTO LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1467.38
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 419,
+   "total": 796903.5,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 297948.0,
+    "Despesas com pessoal": 469955.5,
+    "Locação/cessão de bens imóveis": 29000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

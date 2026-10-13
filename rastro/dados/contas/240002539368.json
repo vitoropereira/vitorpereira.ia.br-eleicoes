@@ -1,0 +1,224 @@
+{
+ "sq": "240002539368",
+ "nome_urna": "SARGENTO LIMA",
+ "cargo": "depfed",
+ "uf": "SC",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 838743.0,
+  "por_origem": {
+   "Recursos de partido político": 500000.0,
+   "Recursos de pessoas físicas": 58743.0,
+   "Recursos próprios": 280000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 500000.0,
+   "OUTROS RECURSOS": 338743.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 500000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 11,
+   "total": 338743.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 730774.48,
+  "total_pago": 811501.7,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 20,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 242851.39
+   },
+   {
+    "cnpj": "47074528000179",
+    "nome": "GRAFITEM LTDA",
+    "cnae": "58298",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 64284.2
+   },
+   {
+    "cnpj": "68437450000180",
+    "nome": "WILIAN MARTINI TONEZI",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68437967000179",
+    "nome": "MAURICIO FERNANDO PEIXER",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "68438162000140",
+    "nome": "IVAN NAATZ",
+    "cnae": "94928",
+    "n_despesas": 1,
+    "tipos": [
+     "Doações financeiras a outros candidatos/partidos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "10615415000123",
+    "nome": "AIRTON CEVEY JUNIOR",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 38000.0
+   },
+   {
+    "cnpj": "28664939000170",
+    "nome": "POLITEIA LTDA",
+    "cnae": "70204",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 36000.0
+   },
+   {
+    "cnpj": "54576010000107",
+    "nome": "SYDNEI OLIVEIRA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "56089254000182",
+    "nome": "FLORES CONSULTORIA E ASSESSORIA CONTABIL ELEITORAL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "76608660000111",
+    "nome": "POSTO GRACIOSA LTDA",
+    "cnae": "47318",
+    "n_despesas": 41,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9547.27
+   },
+   {
+    "cnpj": "66914822000196",
+    "nome": "BANDEIRAS E BANNERS LTDA",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1920.0
+   },
+   {
+    "cnpj": "60321324000153",
+    "nome": "MCM SUPRIMENTOS LTDA",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1619.0
+   },
+   {
+    "cnpj": "22566598000113",
+    "nome": "DRIELE CAVICHON",
+    "cnae": "82997",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 850.0
+   },
+   {
+    "cnpj": "02251633000106",
+    "nome": "MERCADINHO IRMAOS SCHMITT LTDA",
+    "cnae": "47121",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesas com pessoal",
+     "Materiais de expediente"
+    ],
+    "total": 388.11
+   },
+   {
+    "cnpj": "37435735002525",
+    "nome": "MPS COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 247.13
+   },
+   {
+    "cnpj": "09720868000130",
+    "nome": "JUMPER COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 175.0
+   },
+   {
+    "cnpj": "03123845001134",
+    "nome": "SUPERMERCADO ALIANDES LTDA",
+    "cnae": "47113",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com pessoal"
+    ],
+    "total": 16.68
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 29,
+   "total": 149875.7,
+   "por_tipo": {
+    "Cessão ou locação de veículos": 30000.0,
+    "Despesas com pessoal": 104840.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 35.7,
+    "Locação/cessão de bens imóveis": 15000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

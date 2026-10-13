@@ -1,0 +1,181 @@
+{
+ "sq": "60002540744",
+ "nome_urna": "FERNANDO SANTANA",
+ "cargo": "depfed",
+ "uf": "CE",
+ "partido": "PT",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 881790.0,
+  "por_origem": {
+   "Recursos de outros candidatos": 5890.0,
+   "Recursos de partido político": 828500.0,
+   "Recursos de pessoas físicas": 47400.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 813000.0,
+   "FUNDO PARTIDARIO": 15500.0,
+   "OUTROS RECURSOS": 53290.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00676262000170",
+    "nome": "Direção Nacional - PT",
+    "total": 828500.0
+   },
+   {
+    "cnpj": "68455760000127",
+    "nome": "JOSEFA MEDEIROS FARIAS",
+    "total": 5890.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 4,
+   "total": 47400.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 581935.82,
+  "total_pago": 776970.66,
+  "fornecedores_pj": [
+   {
+    "cnpj": "02933302000148",
+    "nome": "QUALIGRAF - EDITORA E GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 10,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 140175.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 11,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 66000.0
+   },
+   {
+    "cnpj": "55082312000183",
+    "nome": "INOVE AGENCIA DE MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 60000.0
+   },
+   {
+    "cnpj": "17343713000150",
+    "nome": "WILKER MACEDO LIMA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "38084085000106",
+    "nome": "RAMOM SILVEIRA FREIRE",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 28750.0
+   },
+   {
+    "cnpj": "19527446000105",
+    "nome": "ATAMAI DA SILVA MACEDO",
+    "cnae": "47539",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "01806823000171",
+    "nome": "NORTH STAR TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 19000.0
+   },
+   {
+    "cnpj": "22747930000146",
+    "nome": "AVANTI PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 6,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 18936.75
+   },
+   {
+    "cnpj": "26434410000134",
+    "nome": "MAG COMERCIO E SERVICOS LTDA",
+    "cnae": "18229",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 18700.0
+   },
+   {
+    "cnpj": "01252870000110",
+    "nome": "JEMANO S IMOBILIARIA LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 18666.66
+   },
+   {
+    "cnpj": "40259658000137",
+    "nome": "NORDESTE EMPREENDIMENTOS IMPORTACAO E EXPORTACAO DE PRODUTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 8500.0
+   },
+   {
+    "cnpj": "07040108000157",
+    "nome": "COMPANHIA DE AGUA E ESGOTO DO CEARA CAGECE",
+    "cnae": "36006",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 268.41
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 78,
+   "total": 132939.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 44400.0,
+    "Cessão ou locação de veículos": 48000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 39.0,
+    "Locação/cessão de bens imóveis": 17500.0,
+    "Publicidade por carros de som": 3000.0,
+    "Serviços contábeis": 20000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

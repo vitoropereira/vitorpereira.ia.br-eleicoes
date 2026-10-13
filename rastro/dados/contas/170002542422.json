@@ -1,0 +1,74 @@
+{
+ "sq": "170002542422",
+ "nome_urna": "FRANCISMAR",
+ "cargo": "depest",
+ "uf": "PE",
+ "partido": "PSB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 136000.0,
+  "por_origem": {
+   "Recursos de partido político": 56000.0,
+   "Recursos de pessoas físicas": 20000.0,
+   "Recursos próprios": 60000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 56000.0,
+   "OUTROS RECURSOS": 80000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "01421697000137",
+    "nome": "Direção Nacional - PSB",
+    "total": 40000.0
+   },
+   {
+    "cnpj": "10669331000172",
+    "nome": "Direção Estadual/Distrital - PSB - PERNAMBUCO",
+    "total": 16000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 2,
+   "total": 80000.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 71470.0,
+  "total_pago": 23000.0,
+  "fornecedores_pj": [
+   {
+    "cnpj": "16994727000171",
+    "nome": "PBF GRAFICA E TEXTIL LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 30000.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 23000.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 44,
+   "total": 18470.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 18470.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

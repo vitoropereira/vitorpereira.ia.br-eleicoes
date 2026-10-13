@@ -1,0 +1,431 @@
+{
+ "sq": "220002542944",
+ "nome_urna": "THIAGO FLORES",
+ "cargo": "depfed",
+ "uf": "RO",
+ "partido": "UNIÃO",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2710000.0,
+  "por_origem": {
+   "Recursos de partido político": 2710000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2710000.0
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "44551496000167",
+    "nome": "Direção Nacional - UNIÃO",
+    "total": 2710000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 0,
+   "total": 0.0
+  }
+ },
+ "despesas": {
+  "total_contratado": 708644.4,
+  "total_pago": 871948.62,
+  "fornecedores_pj": [
+   {
+    "cnpj": "45436054000132",
+    "nome": "ESPINDOLA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "67941016000170",
+    "nome": "EMILIA PRODUCOES LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 70000.0
+   },
+   {
+    "cnpj": "24080493000185",
+    "nome": "EBANX PAGAMENTOS LTDA",
+    "cnae": "66134",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 50000.0
+   },
+   {
+    "cnpj": "34456848000141",
+    "nome": "C R B GRAFICA LTDA",
+    "cnae": "18130",
+    "n_despesas": 7,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 41800.0
+   },
+   {
+    "cnpj": "11914281000104",
+    "nome": "PORTELAUTO VEICULOS LTDA",
+    "cnae": "77110",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 36000.0
+   },
+   {
+    "cnpj": "07193395000135",
+    "nome": "AUTO POSTO OURO VERDE LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10346.0
+   },
+   {
+    "cnpj": "11736884000163",
+    "nome": "A. R. BATISTA FILHO",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4000.0
+   },
+   {
+    "cnpj": "13452074000100",
+    "nome": "AUTO POSTO VAREA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2805.57
+   },
+   {
+    "cnpj": "01648919000159",
+    "nome": "A. CUSTODIO CASARIN",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2635.2
+   },
+   {
+    "cnpj": "10732661000165",
+    "nome": "POSTO DE COMBUSTIVEIS BEZERRA LUZ LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2072.0
+   },
+   {
+    "cnpj": "14929156000166",
+    "nome": "AUTO POSTO DIAS BIANCHINI LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2000.0
+   },
+   {
+    "cnpj": "05194165000165",
+    "nome": "AUTO POSTO DOURADAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1844.25
+   },
+   {
+    "cnpj": "23036550000328",
+    "nome": "DOMINGUES NETO COMERCIO VAREJISTA DE COMBUSTIVEL LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1698.8
+   },
+   {
+    "cnpj": "05780184000173",
+    "nome": "AUTO POSTO AVENIDA OURO PRETO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1689.44
+   },
+   {
+    "cnpj": "10174642000160",
+    "nome": "AUTO POSTO RESPLENDOR LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1510.0
+   },
+   {
+    "cnpj": "05883425000100",
+    "nome": "EMERSON DOS SANTOS POSTO DE GASOLINA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "68382840000108",
+    "nome": "M R DO NASCIMENTO LTDA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "04903852000220",
+    "nome": "AUTO POSTO PATRAO CACOAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1346.83
+   },
+   {
+    "cnpj": "04687124000148",
+    "nome": "PATRAO BURITIS COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1226.76
+   },
+   {
+    "cnpj": "15065185000190",
+    "nome": "HOTEL PORTAL DO NORTE LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 1114.0
+   },
+   {
+    "cnpj": "28365102000120",
+    "nome": "SOLANGE T. DE OLIVEIRA COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1050.0
+   },
+   {
+    "cnpj": "39395343000138",
+    "nome": "HOTEL BR429 LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 769.0
+   },
+   {
+    "cnpj": "04079883000128",
+    "nome": "COMERCIO DE COMBUSTIVEIS 2000 LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 730.0
+   },
+   {
+    "cnpj": "63764856000153",
+    "nome": "HOTEL TREVO SERVICO DE HOTELARIA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 639.0
+   },
+   {
+    "cnpj": "07928956000105",
+    "nome": "AUTO POSTO PATRAO ARIQUEMES LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 567.58
+   },
+   {
+    "cnpj": "34760710000131",
+    "nome": "ELAINE BOM DOS SANTOS LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 480.0
+   },
+   {
+    "cnpj": "23889352000145",
+    "nome": "AUTO POSTO PATRAO COMERCIO DE COMBUSTIVEIS LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 465.51
+   },
+   {
+    "cnpj": "51041948000126",
+    "nome": "M C L RIBEIRO",
+    "cnae": "46354",
+    "n_despesas": 1,
+    "tipos": [
+     "Água"
+    ],
+    "total": 429.0
+   },
+   {
+    "cnpj": "14459666000117",
+    "nome": "FAUSTO RICARDO BEN ZENEWICH LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 410.64
+   },
+   {
+    "cnpj": "04903852000140",
+    "nome": "AUTO POSTO PATRAO CACOAL LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 337.84
+   },
+   {
+    "cnpj": "23889352000307",
+    "nome": "AUTO POSTO PATRAO COMERCIO DE COMBUSTIVEIS LTDA.",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 262.4
+   },
+   {
+    "cnpj": "17572521000116",
+    "nome": "HOTEL PEROLA LTDA",
+    "cnae": "55108",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com Hospedagem"
+    ],
+    "total": 220.0
+   },
+   {
+    "cnpj": "04010107000171",
+    "nome": "OLIVEIRA GOSTO BRASILEIRO LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 208.0
+   },
+   {
+    "cnpj": "09124798000158",
+    "nome": "LAMEADO COSTA RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 178.87
+   },
+   {
+    "cnpj": "08258676000191",
+    "nome": "DIOGO JOSE MATIOLI LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 151.0
+   },
+   {
+    "cnpj": "22468447000122",
+    "nome": "PIZZARIA RESTAURANTE ESPETU S LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 145.0
+   },
+   {
+    "cnpj": "27937487000270",
+    "nome": "TREVO RESTAURANTE LTDA",
+    "cnae": "56112",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 90.17
+   },
+   {
+    "cnpj": "09570944000179",
+    "nome": "YOKOYAMA CIA LTDA",
+    "cnae": "47296",
+    "n_despesas": 1,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 58.64
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 46,
+   "total": 366362.9,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 15000.0,
+    "Despesas com pessoal": 300000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 62.9,
+    "Locação/cessão de bens imóveis": 21000.0,
+    "Serviços contábeis": 30000.0,
+    "Serviços prestados por terceiros": 300.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

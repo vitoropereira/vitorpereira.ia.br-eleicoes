@@ -1,0 +1,135 @@
+{
+ "sq": "190002532809",
+ "nome_urna": "POUBEL",
+ "cargo": "depfed",
+ "uf": "RJ",
+ "partido": "PL",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 2615420.98,
+  "por_origem": {
+   "Recursos de outros candidatos": 160000.0,
+   "Recursos de partido político": 2008904.66,
+   "Recursos de pessoas físicas": 446516.32
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 2165400.0,
+   "FUNDO PARTIDARIO": 3504.66,
+   "OUTROS RECURSOS": 446516.32
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "08517423000195",
+    "nome": "Direção Nacional - PL",
+    "total": 2000000.0
+   },
+   {
+    "cnpj": "68269171000154",
+    "nome": "KAUAN DE ABREU MEDEIROS POUBEL",
+    "total": 160000.0
+   },
+   {
+    "cnpj": "08703299000152",
+    "nome": "Direção Estadual/Distrital - PL - RIO DE JANEIRO",
+    "total": 8904.66
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 28,
+   "total": 446516.32
+  }
+ },
+ "despesas": {
+  "total_contratado": 2490594.36,
+  "total_pago": 1922186.49,
+  "fornecedores_pj": [
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 40,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 500000.0
+   },
+   {
+    "cnpj": "37039876000151",
+    "nome": "JMR GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 82144.0
+   },
+   {
+    "cnpj": "74141995000147",
+    "nome": "RENATO IMOVEIS EMPREENDIMENTOS IMOBILIARIOS LTDA",
+    "cnae": "68218",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "14253960000178",
+    "nome": "AMPLIAR CONTROLE E INTEGRACAO DE IMOVEIS LTDA",
+    "cnae": "68226",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "68431870000159",
+    "nome": "BARBOSAPRINT SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 7945.0
+   },
+   {
+    "cnpj": "66753982000109",
+    "nome": "PRIME DESCARTAVEIS DE SAO GONCALO LTDA",
+    "cnae": "47598",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2250.0
+   },
+   {
+    "cnpj": "06343681000177",
+    "nome": "MAXIMA PROPAGANDA LTDA",
+    "cnae": "32990",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 697.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 657,
+   "total": 1869558.36,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 1636581.58,
+    "Cessão ou locação de veículos": 7222.8,
+    "Despesas com pessoal": 181653.98,
+    "Locação/cessão de bens imóveis": 44100.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

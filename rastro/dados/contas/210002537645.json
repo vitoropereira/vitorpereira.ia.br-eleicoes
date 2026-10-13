@@ -1,0 +1,285 @@
+{
+ "sq": "210002537645",
+ "nome_urna": "LUÍS FERNANDO PIRES",
+ "cargo": "depest",
+ "uf": "RS",
+ "partido": "PP",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 576751.76,
+  "por_origem": {
+   "Recursos de partido político": 300000.0,
+   "Recursos de pessoas físicas": 265751.76,
+   "Recursos próprios": 11000.0
+  },
+  "por_fonte": {
+   "FUNDO ESPECIAL": 250000.0,
+   "FUNDO PARTIDARIO": 50000.0,
+   "OUTROS RECURSOS": 276751.76
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "00887169000105",
+    "nome": "Direção Nacional - PP",
+    "total": 300000.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 37,
+   "total": 276751.76
+  }
+ },
+ "despesas": {
+  "total_contratado": 362507.08,
+  "total_pago": 386883.58,
+  "fornecedores_pj": [
+   {
+    "cnpj": "14938065000197",
+    "nome": "CRITERIO COMUNICACAO LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 100000.0
+   },
+   {
+    "cnpj": "17783076000133",
+    "nome": "SILVIO ROBERTO WEBER DE VARGAS",
+    "cnae": "18113",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 20436.0
+   },
+   {
+    "cnpj": "10188616000191",
+    "nome": "PROMUS IMPRESSAO DIGITAL E BRINDES LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 16073.0
+   },
+   {
+    "cnpj": "65869804000177",
+    "nome": "65.869.804 ISADORA LIMA RIBEIRO",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 12522.0
+   },
+   {
+    "cnpj": "65928501000188",
+    "nome": "RENATA AGUZZOLLI PROENCA SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 12000.0
+   },
+   {
+    "cnpj": "01512358000166",
+    "nome": "AUDITEC ASSESSORIA E CONSULTORIA CONTABIL LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "73253999000154",
+    "nome": "GRAFICA E EDITORA SANTA ROSA LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 9710.0
+   },
+   {
+    "cnpj": "03000720000145",
+    "nome": "LOCADORA DE VEICULOS SANTA CRUZ LTDA.",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 8395.5
+   },
+   {
+    "cnpj": "05677050000121",
+    "nome": "ANS IMPRESSOES GRAFICAS LTDA.",
+    "cnae": "17419",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6740.0
+   },
+   {
+    "cnpj": "13347016000117",
+    "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
+    "cnae": "73122",
+    "n_despesas": 3,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 6000.0
+   },
+   {
+    "cnpj": "07982466000189",
+    "nome": "GRUPO SEPE TIARAJU DE COMUNICACOES LTDA",
+    "cnae": "60101",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 4718.75
+   },
+   {
+    "cnpj": "10630666000187",
+    "nome": "CLECI LOURDES GABERT",
+    "cnae": "14126",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 4500.0
+   },
+   {
+    "cnpj": "97078463005509",
+    "nome": "COOPERATIVA TRITICOLA REGIONAL SAOLUIZENSE LTDA",
+    "cnae": "47318",
+    "n_despesas": 17,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3384.39
+   },
+   {
+    "cnpj": "51254602000106",
+    "nome": "51.254.602 CHARLES JUNIOR VIEIRA PAZ",
+    "cnae": "25390",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 3000.0
+   },
+   {
+    "cnpj": "00185858000178",
+    "nome": "AUTO POSTO NAVEGANTES LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2991.91
+   },
+   {
+    "cnpj": "48890408000102",
+    "nome": "POSTO MINUSSI LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1404.84
+   },
+   {
+    "cnpj": "02667133000141",
+    "nome": "NOVA DESIGN COMUNICACAO VISUAL LTDA.",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 1175.0
+   },
+   {
+    "cnpj": "18863315000128",
+    "nome": "GRAFICA E JORNAL GAZETA INTEGRACAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 1147.5
+   },
+   {
+    "cnpj": "04265280000110",
+    "nome": "AUTO POSTO EXPEDICIONARIO LTDA EM RECUPERACAO JUDICIAL",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1017.19
+   },
+   {
+    "cnpj": "10418021000185",
+    "nome": "EMPRESA JORNALISTICA GRUPO EDITORIAL ARMANJE LTDA",
+    "cnae": "58123",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por jornais e revistas"
+    ],
+    "total": 384.0
+   },
+   {
+    "cnpj": "01892399000125",
+    "nome": "POSTO 44 IJUI COMERCIO DE COMBUSTIVEIS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "28774989000100",
+    "nome": "LUIZ ANTONIO MEIRELES LUNARDI",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 225.0
+   },
+   {
+    "cnpj": "20790493000118",
+    "nome": "L M RECORTES E SINALIZACAO LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 120.0
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 56,
+   "total": 136262.0,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 109580.0,
+    "Despesas com pessoal": 22600.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 82.0,
+    "Locação/cessão de bens imóveis": 4000.0
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}

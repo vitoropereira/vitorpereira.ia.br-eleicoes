@@ -1,0 +1,358 @@
+{
+ "sq": "110002550850",
+ "nome_urna": "DR. JOÃO",
+ "cargo": "depest",
+ "uf": "MT",
+ "partido": "MDB",
+ "prestacao_parcial": true,
+ "receitas": {
+  "total": 765487.88,
+  "por_origem": {
+   "Recursos de outros candidatos": 9984.25,
+   "Recursos de partido político": 384936.0,
+   "Recursos de pessoas físicas": 370567.63
+  },
+  "por_fonte": {
+   "OUTROS RECURSOS": 765487.88
+  },
+  "doadores_pj": [
+   {
+    "cnpj": "15081755000135",
+    "nome": "Direção Estadual/Distrital - MDB - MATO GROSSO",
+    "total": 384936.0
+   },
+   {
+    "cnpj": "68578109000144",
+    "nome": "CARLOS EDUARDO SILVA SANCHEZ ROMAN",
+    "total": 9895.25
+   },
+   {
+    "cnpj": "68455824000190",
+    "nome": "NERI GELLER",
+    "total": 89.0
+   }
+  ],
+  "doadores_pf": {
+   "qtd": 22,
+   "total": 370567.63
+  }
+ },
+ "despesas": {
+  "total_contratado": 995268.87,
+  "total_pago": 668639.23,
+  "fornecedores_pj": [
+   {
+    "cnpj": "37832654000191",
+    "nome": "A C V VIEIRA LTDA",
+    "cnae": "59111",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de programas de rádio, televisão ou vídeo"
+    ],
+    "total": 250000.0
+   },
+   {
+    "cnpj": "00320967000150",
+    "nome": "WDA TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 4,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 132020.75
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 6,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 90000.0
+   },
+   {
+    "cnpj": "36899912000194",
+    "nome": "GRAFICA E EDITORA SANCHES LTDA",
+    "cnae": "58298",
+    "n_despesas": 20,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 46895.0
+   },
+   {
+    "cnpj": "11398032000103",
+    "nome": "CONTABIL UNIAO LTDA",
+    "cnae": "69206",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços contábeis"
+    ],
+    "total": 40000.0
+   },
+   {
+    "cnpj": "21944357000106",
+    "nome": "VASCONCELOS DE MORAES ADVOGADOS ASSOCIADOS",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "28073171000160",
+    "nome": "28.073.171 HENRIQUE COUTO CANDATTEN",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 35000.0
+   },
+   {
+    "cnpj": "53721323000130",
+    "nome": "R5 EVENTOS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 22000.0
+   },
+   {
+    "cnpj": "23867381000106",
+    "nome": "TR VEICULOS E LOGISTICA LTDA",
+    "cnae": "77110",
+    "n_despesas": 9,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 21584.94
+   },
+   {
+    "cnpj": "09138497000183",
+    "nome": "JABORANDI EMPREENDIMENTOS LTDA",
+    "cnae": "68102",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens imóveis"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "14751962000197",
+    "nome": "PINHEIRO TRANSPORTES LTDA",
+    "cnae": "49248",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 20000.0
+   },
+   {
+    "cnpj": "40991205000109",
+    "nome": "J. M. PATRICIO DE MESQUITA",
+    "cnae": "47598",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 19145.0
+   },
+   {
+    "cnpj": "11106404000180",
+    "nome": "AUTO POSTO HB LTDA",
+    "cnae": "47318",
+    "n_despesas": 52,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 19114.08
+   },
+   {
+    "cnpj": "40452309000137",
+    "nome": "ULTRA IMPRESSAO E COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 12680.0
+   },
+   {
+    "cnpj": "50251102000158",
+    "nome": "F. V. VASCONCELOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 12480.0
+   },
+   {
+    "cnpj": "60766661000154",
+    "nome": "GORDO BRINDES COMERCIO DE BRINDES E PRODUTOS PERSONALIZADOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12270.0
+   },
+   {
+    "cnpj": "19630608000128",
+    "nome": "VIBEMANIA COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 5,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 9890.0
+   },
+   {
+    "cnpj": "32953905000172",
+    "nome": "TUBARAO INDUSTRIA COMERCIO DE CONFECCOES LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 8195.0
+   },
+   {
+    "cnpj": "56995057000122",
+    "nome": "E B M INDUSTRIA E COMERCIO LTDA",
+    "cnae": "18130",
+    "n_despesas": 4,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4440.0
+   },
+   {
+    "cnpj": "17271763000170",
+    "nome": "GALLEGO GALLEGO LTDA",
+    "cnae": "14134",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4200.0
+   },
+   {
+    "cnpj": "11662375000133",
+    "nome": "R5 COMUNICACAO VISUAL LTDA",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2353.68
+   },
+   {
+    "cnpj": "34501058000130",
+    "nome": "A. S. SANTANA SABARA CIA LTDA",
+    "cnae": "47211",
+    "n_despesas": 39,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 2308.3
+   },
+   {
+    "cnpj": "05269458000164",
+    "nome": "COMERCIAL DE BEBIDAS TANCERVA LTDA",
+    "cnae": "47237",
+    "n_despesas": 6,
+    "tipos": [
+     "Alimentação",
+     "Diversas a especificar",
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 2093.0
+   },
+   {
+    "cnpj": "49174573000120",
+    "nome": "G SPORTS LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1725.0
+   },
+   {
+    "cnpj": "05931411000548",
+    "nome": "COMPACTA COMERCIAL LTDA",
+    "cnae": "47113",
+    "n_despesas": 10,
+    "tipos": [
+     "Alimentação",
+     "Diversas a especificar"
+    ],
+    "total": 1400.21
+   },
+   {
+    "cnpj": "52715540000155",
+    "nome": "OLIVEIRA COMERCIO DE PECAS E ACESSORIOS LTDA",
+    "cnae": "46729",
+    "n_despesas": 3,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1269.24
+   },
+   {
+    "cnpj": "45719811000185",
+    "nome": "45.719.811 DEBORA SARANA ORTOLAN ARANTES",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 600.0
+   },
+   {
+    "cnpj": "04837150000105",
+    "nome": "V. C. L. DO NASCIMENTO CIA LTDA",
+    "cnae": "47717",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 388.5
+   },
+   {
+    "cnpj": "26035362000101",
+    "nome": "SHAMA DISTRIBUIDORA E COMERCIO DE ARTIGOS DE ESCRITORIO E PAPELARIA LTDA",
+    "cnae": "46478",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 7.97
+   }
+  ],
+  "fornecedores_pf": {
+   "qtd": 93,
+   "total": 168208.2,
+   "por_tipo": {
+    "Atividades de militância e mobilização de rua": 165578.52,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 197.18,
+    "Serviços prestados por terceiros": 2432.5
+   }
+  }
+ },
+ "fonte": [
+  "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
+ ],
+ "data_base": "2026-10-11",
+ "gerado_em": "2026-10-13T00:36:28+00:00"
+}
