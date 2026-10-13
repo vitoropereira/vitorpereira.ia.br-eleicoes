@@ -118,7 +118,7 @@ def ler_zip(caminho):
 def _zips(dir_zips, prefixo):
     achados = sorted(Path(dir_zips).glob(f"{prefixo}*.zip"))
     if not achados:
-        log.warning("nenhum %s*.zip em %s", prefixo, dir_zips)
+        raise FileNotFoundError(f"nenhum {prefixo}*.zip em {dir_zips}: gravar assim marcaria todos os CNPJs como ausentes")
     return achados
 
 
@@ -139,28 +139,28 @@ def gerar(dir_zips, dir_contas, saida, mes=MES_PADRAO):
                               "endereco_chave": endereco_chave(_col(l, 13), _col(l, 14), _col(l, 15), _col(l, 18)),
                               "socios": []}
     achados = set(forn)
-    basicos = {c[:8] for c in achados}
+    por_basico = {}
+    for c in sorted(achados):
+        por_basico.setdefault(c[:8], []).append(c)
     for z in _zips(dir_zips, "Empresas"):
         for l in ler_zip(z):
-            if _col(l, 0) in basicos:
-                for c in achados:
-                    if c[:8] == l[0]:
-                        forn[c]["razao"] = limpar_texto(_col(l, 1)) or None
+            if _col(l, 0) in por_basico:
+                razao = limpar_texto(_col(l, 1)) or None
+                for c in por_basico[l[0]]:
+                    forn[c]["razao"] = razao
     for z in _zips(dir_zips, "Socios"):
         for l in ler_zip(z):
-            if _col(l, 0) in basicos:
+            if _col(l, 0) in por_basico:
                 socio = {"nome": limpar_texto(_col(l, 2)) or None, "cpf_mascarado": cpf_mascarado(_col(l, 1), _col(l, 3))}
-                for c in sorted(achados):
-                    if c[:8] == l[0]:
-                        forn[c]["socios"].append(socio)
+                for c in por_basico[l[0]]:
+                    forn[c]["socios"].append(socio)
     for z in _zips(dir_zips, "Simples"):
         for l in ler_zip(z):
-            if _col(l, 0) in basicos:
+            if _col(l, 0) in por_basico:
                 optante = _col(l, 1).strip() == "S" and not data_iso(_col(l, 3))
                 mei = _col(l, 4).strip() == "S" and not data_iso(_col(l, 6))
-                for c in achados:
-                    if c[:8] == l[0]:
-                        forn[c]["simples"], forn[c]["mei"] = optante or mei, mei
+                for c in por_basico[l[0]]:
+                    forn[c]["simples"], forn[c]["mei"] = optante or mei, mei
     for cnpj in sorted(alvo - achados):
         log.warning("CNPJ %s não está na base da Receita", cnpj)
         forn[cnpj] = {"razao": None, "abertura": None, "situacao": None, "cnae": None, "mei": False,
@@ -179,6 +179,8 @@ def main(argv=None, opener=urllib.request.urlopen, hoje=None):
     mes = ap.parse_args(argv).mes
     if not re.fullmatch(r"\d{4}-(0[1-9]|1[0-2])", mes):
         raise SystemExit(f"--mes inválido: {mes!r} (use AAAA-MM)")
+    if not cnpjs_alvo(SAIDA_CONTAS):
+        raise SystemExit(f"nenhum CNPJ-alvo em {SAIDA_CONTAS}: rode rastro/contas.py antes")
     pasta = baixar.OUT / "cnpj" / mes
     for nome in nomes_zip():
         print(f"{nome}: {baixar.baixar(url_zip(mes, nome), pasta / nome, opener=opener, hoje=hoje)}")
