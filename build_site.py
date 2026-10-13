@@ -569,6 +569,27 @@ h1{{font:600 60px/1.05 "JetBrains Mono",monospace;margin:14px 0 0;letter-spacing
 <div class="f"><span>{html.escape(rodape_txt)}</span><b>vitor pereira<i></i></b></div></div></body></html>"""
 
 
+def rastro_publicar(dest, publicado, modificado, moldura=True):
+    """Rastro do dinheiro: metodologia e uma página por sq de rastro/publicados.json, em dest/rastro/. HTML estático e sem JS,
+    por isso sem pré-render; só a moldura do site e a medição. Devolve as entradas do sitemap."""
+    from rastro import paginas as rp
+    lj = lambda p: json.loads(p.read_text(encoding="utf-8")) if p.exists() else None
+    dados = R / "rastro" / "dados"
+
+    def envolver(p):
+        ld =[{"@context": "https://schema.org", "@type": "WebPage", "name": p["titulo"], "description": p["desc"], "url": BASE + p["path"],
+               "inLanguage": "pt-BR", "author": PESSOA, "dateModified": modificado},
+              {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+                  {"@type": "ListItem", "position": i, "name": n, "item": BASE + (h or p["path"])}
+                  for i, (n, h) in enumerate([("Início", "/")] + p["crumbs"], 1)]}]
+        return com_medicao(montar_pagina(p["html"], p["titulo"], p["desc"], p["path"], "/og/index.png", ld, publicado, modificado, "/rastro/", moldura=moldura))
+
+    pags = rp.gerar(dest, lj(R / "rastro" / "publicados.json") or [], lj(dados / "eleitos.json") or {"eleitos": []}, dados / "contas",
+                    lj(dados / "indicadores.json"), lj(dados / "fornecedores.json"),
+                    json.loads((R / "rastro" / "config.json").read_text(encoding="utf-8")), envolver)
+    return [(p["path"], modificado, "0.5" if p["path"].endswith("/metodologia/") else "0.4") for p in pags]
+
+
 def main():
     if BUILD.exists(): shutil.rmtree(BUILD)
     if OUT.exists(): shutil.rmtree(OUT)
@@ -711,6 +732,9 @@ def main():
             dom = dom[:m.start(1)] + json.dumps(d, ensure_ascii=False) + dom[m.end(1):]
         dest = OUT / p; dest.parent.mkdir(parents=True, exist_ok=True); dest.write_text(com_medicao(dom))
     (OUT / "404.html").write_text((OUT / "404.html").read_text().replace('<meta name="robots" content="index,follow', '<meta name="robots" content="noindex,follow', 1))
+
+    # ---- Rastro do dinheiro (/rastro/): estático, vai direto para site/
+    paginas += rastro_publicar(OUT, publicado, modificado)
 
     # ---- imagens OG
     (BUILD / "og").mkdir(exist_ok=True); (OUT / "og").mkdir(exist_ok=True)

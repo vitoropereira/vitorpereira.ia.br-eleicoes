@@ -1,0 +1,20 @@
+{
+ "sq": "2001", "nome_urna": "ALUISIO MENDES", "cargo": "depfed", "uf": "MA", "partido": "PSD", "cnpj_prestador": "12345678000195",
+ "prestacao_parcial": true, "data_base": "2026-10-12",
+ "receitas": {
+  "total": 500000.0,
+  "por_origem": {"Fundo Especial de Financiamento de Campanha (FEFC)": 400000.0, "Recursos de pessoas físicas": 80000.5, "Recursos de partido político": 19999.5},
+  "por_fonte": {}, "doadores_pj": [], "doadores_pf": {"qtd": 12, "total": 80000.5}
+ },
+ "despesas": {
+  "total_contratado": 480000.0, "total_pago": 350000.0,
+  "fornecedores_pj": [
+   {"cnpj": "33333333000191", "nome": "EMPRESA GRANDE LTDA", "cnae": "47440", "n_despesas": 3, "tipos": ["Serviços prestados por terceiros"], "total": 300000.0},
+   {"cnpj": "11111111000191", "nome": "NOME DO MEI DONO", "cnae": "47440", "n_despesas": 1, "tipos": ["Serviços prestados por terceiros"], "total": 90000.0},
+   {"cnpj": "99999999000191", "nome": "SEM CADASTRO LTDA", "cnae": "47440", "n_despesas": 1, "tipos": ["Publicidade por materiais impressos"], "total": 30000.0}
+  ],
+  "fornecedores_pf": {"qtd": 24, "total": 60000.0, "por_tipo": {"Despesas com pessoal": 60000.0}, "valores": [2500.0]},
+  "por_tipo": {"Serviços prestados por terceiros": 390000.0, "Publicidade por materiais impressos": 30000.0},
+  "pago_por_dia": null
+ }
+}
