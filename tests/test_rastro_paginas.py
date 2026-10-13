@@ -142,6 +142,65 @@ class TestFornecedor(unittest.TestCase):
         self.assertIn("não localizado", h)
 
 
+ANT = {"fonte": [], "data_base": "2025-01-10", "gerado_em": "2026-10-13T00:00:00+00:00", "anos": [2022, 2024],
+       "por_cnpj": {"33333333000191": {"2022": {"n_campanhas": 4, "total_contratado": 12345.5},
+                                       "2024": {"n_campanhas": 2, "total_contratado": 800.0}},
+                    "11111111000191": {"2022": {"n_campanhas": 1, "total_contratado": 50.0}}}}
+
+
+def pagina_ant(cnpj, mei, ant=ANT):
+    return pg.html_fornecedor(pg.id_fornecedor(cnpj, mei, SAL), FORN["fornecedores"].get(cnpj), agregado(cnpj), [], CFG, BASES, anteriores=ant)
+
+
+class TestFornecedorAnteriores(unittest.TestCase):
+    def test_sem_anteriores_html_identico(self):
+        h = pagina_forn("33333333000191", False)
+        self.assertNotIn("eleições anteriores", h)
+        self.assertEqual(h, pagina_ant("33333333000191", False, None))
+
+    def test_secao_com_linha_por_ano_e_fonte(self):
+        h = pagina_ant("33333333000191", False)
+        t = texto(h)
+        self.assertIn("Em eleições anteriores", t)
+        self.assertIn("4 campanha(s) " + ind.brl(12345.5), t)
+        self.assertIn("2 campanha(s) " + ind.brl(800), t)
+        for ano in (2022, 2024):
+            self.assertIn(f'href="https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_{ano}.zip"', h)
+        self.assertIn("contratado por campanhas em 2022, 2024 e 2026", t.lower())
+        self.assertIn("mesmo CNPJ não garante", t)
+
+    def test_parcial_diz_o_ano_sem_registro(self):
+        t = texto(pagina_ant("11111111000191", True))
+        self.assertNotIn("contratado por campanhas em", t.lower())
+        self.assertIn("Sem registro nas eleições de 2024 da base do TSE", t)
+
+    def test_sem_dado_nenhum(self):
+        t = texto(pagina_ant("33333333000191", False, {**ANT, "por_cnpj": {}}))
+        self.assertIn("Sem registro nas eleições de 2022 e 2024 da base do TSE", t)
+
+    def test_mei_mascarado_e_varredura(self):
+        h = pagina_ant("11111111000191", True)
+        self.assertNotIn("11111111000191", h)
+        self.assertIn(ind.mascarar_cnpj("11111111000191"), h)
+        pg.varrer("mei", h)
+        pg.varrer("pj", pagina_ant("33333333000191", False))
+        for p in PROIBIDOS:
+            self.assertNotIn(p, h.lower())
+
+    def test_ano_nao_lido_nao_vira_sem_registro(self):
+        t = texto(pagina_ant("33333333000191", False, {**ANT, "anos": [2022]}))
+        self.assertNotIn("2024", t.replace("2024.zip", ""))
+
+    def test_gerar_repassa(self):
+        with tempfile.TemporaryDirectory() as d:
+            gerar(d, anteriores=ANT)
+            arqs = [p.read_text(encoding="utf-8") for p in Path(d).rglob("index.html") if "fornecedor" in str(p)]
+            self.assertTrue(any("Em eleições anteriores" in a for a in arqs))
+        with tempfile.TemporaryDirectory() as d:
+            gerar(d)
+            self.assertFalse(any("Em eleições anteriores" in p.read_text(encoding="utf-8") for p in Path(d).rglob("index.html")))
+
+
 class TestGerarFornecedores(unittest.TestCase):
     def test_so_quem_aparece_em_publicado(self):
         with tempfile.TemporaryDirectory() as d:

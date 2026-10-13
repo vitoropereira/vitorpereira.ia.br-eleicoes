@@ -590,7 +590,7 @@ def rastro_publicar(dest, publicado, modificado, moldura=True):
     pags = rp.gerar(dest, publicados, lj(dados / "eleitos.json") or {"eleitos": []}, dados / "contas",
                     lj(dados / "indicadores.json"), forn,
                     json.loads((R / "rastro" / "config.json").read_text(encoding="utf-8")), envolver,
-                    correcoes=lj(R / "rastro" / "correcoes.json"), sal=sal)
+                    correcoes=lj(R / "rastro" / "correcoes.json"), sal=sal, anteriores=lj(dados / "anteriores.json"))
 
     def prioridade(path):
         if path == "/rastro/":

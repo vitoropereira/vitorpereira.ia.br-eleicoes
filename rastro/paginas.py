@@ -19,7 +19,7 @@ from pathlib import Path
 
 import brand
 from rastro import indicadores as ind
-from rastro.baixar import URL_CAND
+from rastro.baixar import URL_CAND, url_contas
 from rastro.contas import SAL, URL_CONTAS, cpf_valido
 
 AVISO = "Indicador não é prova de irregularidade."
@@ -288,10 +288,41 @@ def _rotulo_cargo(e):
     return f'{CARGOS.get(e["cargo"], e["cargo"])} · {e["uf"]} · {e["partido"]}'
 
 
-def html_fornecedor(id_, rec, campanhas, itens, cfg, bases):
+def _lista_anos(anos):
+    anos = [str(a) for a in anos]
+    return anos[0] if len(anos) == 1 else ", ".join(anos[:-1]) + " e " + anos[-1]
+
+
+def secao_anteriores(cnpj, anteriores, cfg):
+    """'Em eleições anteriores': por ano, campanhas que o contrataram e total contratado (rastro/dados/anteriores.json).
+    Só números e links do pacote do TSE; o mesmo CNPJ não garante a mesma atividade ou o mesmo dono."""
+    lidos = [a for a in cfg.get("anteriores_anos") or [] if a in (anteriores.get("anos") or [])]
+    if not lidos:
+        return ""
+    por_ano = (anteriores.get("por_cnpj") or {}).get(ind.digitos(cnpj)) or {}
+    com = [a for a in lidos if str(a) in por_ano]
+    sem = [a for a in lidos if a not in com]
+    linhas = "".join(
+        f'<tr><td>{a} <a href="{url_contas(a)}" rel="noopener">fonte</a></td><td class="v">{por_ano[str(a)]["n_campanhas"]} campanha(s)</td>'
+        f'<td class="v">{ind.brl(por_ano[str(a)]["total_contratado"])}</td></tr>' for a in com)
+    out = ["<h2>Em eleições anteriores</h2>"]
+    if com:
+        out.append('<table class="rs-tab"><thead><tr><th>Eleição</th><th class="v">Campanhas</th><th class="v">Contratado</th></tr></thead>'
+                   f"<tbody>{linhas}</tbody></table>")
+    if len(com) == len(cfg["anteriores_anos"]):
+        out.append(f'<p class="rs-total">Contratado por campanhas em {_lista_anos(list(com) + [2026])}.</p>')
+    if sem:
+        out.append(f'<p class="rs-vazio">Sem registro nas eleições de {_lista_anos(sem)} da base do TSE.</p>')
+    out.append('<p class="rs-base">Valores contratados (não necessariamente pagos), de despesas com CNPJ de fornecedor. O mesmo CNPJ '
+               'não garante a mesma atividade nem o mesmo dono: a empresa pode ter mudado de mãos.</p>')
+    return "".join(out)
+
+
+def html_fornecedor(id_, rec, campanhas, itens, cfg, bases, anteriores=None):
     """Página de um fornecedor PJ. campanhas: [{eleito, caminho, cnpj, nome, total, tipos}] das campanhas publicadas que o
     pagaram; itens: [{eleito, caminho, **indicador}] em que ele é a contraparte. MEI (ou sem cadastro): só o CNPJ mascarado,
-    sem razão social, sem sócios. `endereco_chave` e `cpf_mascarado` nunca saem."""
+    sem razão social, sem sócios. `anteriores` (envelope de rastro/dados/anteriores.json, opcional) acrescenta a seção de
+    eleições anteriores; sem ele a página não muda. `endereco_chave` e `cpf_mascarado` nunca saem."""
     mei = eh_mei(rec)
     mascara = ind.mascarar_cnpj(campanhas[0]["cnpj"])
     nome = f"MEI · CNPJ {mascara}" if mei else (rec.get("razao") or campanhas[0].get("nome") or mascara)
@@ -317,6 +348,7 @@ def html_fornecedor(id_, rec, campanhas, itens, cfg, bases):
     total = sum(c.get("total") or 0 for c in camp)
     camp_h = (f'<h2>Campanhas publicadas que o contrataram</h2><p class="rs-total">{len(camp)} campanha(s) · contratado: {ind.brl(total)}</p>'
               f'<table class="rs-tab"><thead><tr><th>Eleito(a)</th><th class="v">Contratado</th></tr></thead><tbody>{linhas_c}</tbody></table>')
+    ant_h = secao_anteriores(campanhas[0]["cnpj"], anteriores, cfg) if anteriores else ""
     if mei:
         itens = [i for i in itens if i["nome"] not in HOMONIMO]  # casamento por nome com sócio: sócio de MEI fica fora
     if itens:
@@ -334,7 +366,7 @@ def html_fornecedor(id_, rec, campanhas, itens, cfg, bases):
     corpo = (trilha(("Início", "/"), ("Rastro do dinheiro", "/rastro/"), ("Fornecedor", None))
              + f'<p class="rs-kicker">Rastro do dinheiro · fornecedor</p><h1>{esc(nome)}</h1>'
              f'<p class="rs-meta">CNPJ {esc(mascara)}</p><p class="rs-base">Base de dados: {esc(base)}.</p>'
-             + aviso_bloco() + f"<h2>Cadastro na Receita</h2>{cad}{socios}{camp_h}{ind_h}"
+             + aviso_bloco() + f"<h2>Cadastro na Receita</h2>{cad}{socios}{camp_h}{ant_h}{ind_h}"
              + bloco_contestar(cfg, f"Contestar dado: fornecedor {id_[:8]}"))
     return pagina(f"{nome} · Rastro do dinheiro", corpo)
 
@@ -437,11 +469,11 @@ def _itens_do_fornecedor(f, rec, mei, pj_campanha, itens):
     return [i for i in itens if i.get("contraparte") in chaves]
 
 
-def gerar(dest, publicados, eleitos, dir_contas, indicadores, fornecedores, cfg, envolver=None, correcoes=None, sal=None):
+def gerar(dest, publicados, eleitos, dir_contas, indicadores, fornecedores, cfg, envolver=None, correcoes=None, sal=None, anteriores=None):
     """Grava dest/rastro/index.html (home), metodologia, uma página por sq de `publicados` e uma por fornecedor PJ pago por eles.
     Devolve a lista de páginas ({path, titulo, desc, html, crumbs}). `envolver(página) -> html` acrescenta a moldura do site (opcional).
     indicadores/fornecedores são os envelopes de rastro/dados/*.json; sem eles (e com publicados) falha. `correcoes` é o envelope de
-    rastro/correcoes.json; `sal` só é exigido quando há MEI. Todas as páginas passam por `varrer` antes de qualquer gravação."""
+    rastro/correcoes.json; `sal` só é exigido quando há MEI. `anteriores`: envelope de rastro/dados/anteriores.json (opcional). Todas as páginas passam por `varrer` antes de qualquer gravação."""
     publicados = list(dict.fromkeys(str(s) for s in publicados))
     if publicados and fornecedores is None:
         raise ValueError("sem fornecedores.json: não dá para saber quem é MEI; nada publicado")
@@ -499,7 +531,7 @@ def gerar(dest, publicados, eleitos, dir_contas, indicadores, fornecedores, cfg,
                              f"Receitas por origem, despesas por fornecedor e indicadores de {e['nome_urna']} ({CARGOS.get(e['cargo'], e['cargo'])}, {e['uf']}), "
                              f"com a fonte de cada dado. {AVISO}", en["html"], [(e["nome_urna"], None)]))
     for a in sorted(agg.values(), key=lambda a: a["id"]):
-        corpo = html_fornecedor(a["id"], a["rec"], a["campanhas"], a["itens"], cfg, bases_g)
+        corpo = html_fornecedor(a["id"], a["rec"], a["campanhas"], a["itens"], cfg, bases_g, anteriores)
         quem = f"MEI, CNPJ {ind.mascarar_cnpj(a['cnpj'])}" if a["mei"] else a["rotulo"]
         paginas.append(_meta(f"rastro/fornecedor/{a['id']}/", f"{'MEI ' + ind.mascarar_cnpj(a['cnpj']) if a['mei'] else a['rotulo']}: fornecedor de campanha | Rastro do dinheiro",
                              f"Campanhas de 2026 que contrataram {quem}, situação cadastral e indicadores em que aparece. {AVISO}", corpo,
