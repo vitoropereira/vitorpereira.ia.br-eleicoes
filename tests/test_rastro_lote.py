@@ -141,7 +141,33 @@ class TestLote(unittest.TestCase):
         self.pub.write_text(json.dumps(["2001", "2002", "2003", "2004"]), encoding="utf-8")
         ex = Falso()
         self.assertEqual(lote.main(hoje=date(2026, 10, 14), raiz=self.raiz, executar=ex), 0)
-        self.assertEqual(ex.cmds, [])
+        self.assertFalse(any(c[0] == "python3" or c[:2] in (["git", "push"], ["gh", "pr"]) and c[2] == "create" for c in ex.cmds))
+        self.assertIn(["git", "branch", "-D", "rastro/lote-2026-10-14"], ex.cmds)
+
+    def test_pr_de_lote_aberto_bloqueia(self):
+        class ComPrAberto(Falso):
+            def __call__(self, cmd, **kw):
+                r = super().__call__(cmd, **kw)
+                if cmd[:3] == ["gh", "pr", "list"]:
+                    r.stdout = "1\n"
+                return r
+
+        ex = ComPrAberto()
+        self.assertEqual(lote.main(hoje=date(2026, 10, 14), raiz=self.raiz, executar=ex), 1)
+        self.assertFalse(any(c[:2] == ["git", "checkout"] for c in ex.cmds))
+
+    def test_falha_no_push_desfaz_a_branch(self):
+        class FalhaPush(Falso):
+            def __call__(self, cmd, **kw):
+                r = super().__call__(cmd, **kw)
+                if cmd[:2] == ["git", "push"]:
+                    r.returncode = 1
+                return r
+
+        ex = FalhaPush()
+        self.assertEqual(lote.main(hoje=date(2026, 10, 14), raiz=self.raiz, executar=ex), 1)
+        self.assertIn(["git", "branch", "-D", "rastro/lote-2026-10-14"], ex.cmds)
+        self.assertFalse(any(c[:3] == ["gh", "pr", "create"] for c in ex.cmds))
 
 
 if __name__ == "__main__":
