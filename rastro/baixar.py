@@ -27,18 +27,21 @@ def baixar(url, dest, opener=urllib.request.urlopen, hoje=None):
     dest = Path(dest)
     marca = dest.with_name(dest.name + ".lastmod")
     cab = {"User-Agent": UA}
+    tmp = dest.with_name(dest.name + ".tmp")
     if dest.exists() and marca.exists():
         cab["If-Modified-Since"] = marca.read_text(encoding="utf-8").strip()
     try:
         with contextlib.closing(opener(urllib.request.Request(url, headers=cab), timeout=120)) as r:
             novo = r.headers.get("Last-Modified")
             dest.parent.mkdir(parents=True, exist_ok=True)
-            tmp = dest.with_name(dest.name + ".tmp")
             with open(tmp, "wb") as f:
                 shutil.copyfileobj(r, f)
     except urllib.error.HTTPError as e:
         if e.code == 304:
             return "em cache"
+        raise
+    except BaseException:
+        tmp.unlink(missing_ok=True)  # download interrompido não deixa .tmp parcial para trás
         raise
     tmp.replace(dest)
     if novo:
