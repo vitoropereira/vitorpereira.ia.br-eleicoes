@@ -99,19 +99,21 @@ def main(argv=None, opener=urllib.request.urlopen, hoje=None):
         if (hoje or date.today()) == bx.DIA_APURACAO:  # o HEAD do checar_disco também bate no TSE
             raise SystemExit("25/10: não baixar nada do TSE no dia da apuração (mesmo IP de saída do agregador)")
         for a in anos:  # um ano por vez: o disco só precisa de um pacote
-            checar_disco(bx.url_contas(a), BRUTOS, opener)
             try:
+                checar_disco(bx.url_contas(a), BRUTOS, opener)
                 print(f"{zips[a].name}: {bx.baixar(bx.url_contas(a), zips[a], opener, hoje)}")
-            except Exception as e:  # 404 etc.: o ano fica fora, os outros seguem
+            except Exception as e:  # 404 etc. (inclusive no HEAD): o ano fica fora, os outros seguem
                 log.warning("%s: não baixado (%s)", a, e)
-    inv = gerar(anos, zips, SAIDA_AGREGADOS, SAIDA)
+    try:
+        inv = gerar(anos, zips, SAIDA_AGREGADOS, SAIDA)
+    finally:
+        if args.baixar:
+            for z in zips.values():
+                z.unlink(missing_ok=True)
+                z.with_name(z.name + ".lastmod").unlink(missing_ok=True)
     print(f"gravado em {SAIDA}")
     for a in anos:
         print(f"linhas inválidas em {a}: {inv[a]}")
-    if args.baixar:
-        for z in zips.values():
-            z.unlink(missing_ok=True)
-            z.with_name(z.name + ".lastmod").unlink(missing_ok=True)
 
 
 if __name__ == "__main__":
