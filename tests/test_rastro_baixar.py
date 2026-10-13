@@ -101,6 +101,19 @@ class TestBaixar(unittest.TestCase):
         for u in baixar.ARQUIVOS:
             self.assertTrue(u.startswith("https://cdn.tse.jus.br/estatistica/sead/odsele/"))
 
+    def test_url_contas_por_ano(self):
+        for ano in (2022, 2024):
+            self.assertEqual(baixar.url_contas(ano), f"https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_{ano}.zip")
+        self.assertEqual(baixar.ARQUIVOS_ANTERIORES, [baixar.url_contas(2022), baixar.url_contas(2024)])
+        self.assertTrue(set(baixar.ARQUIVOS_ANTERIORES).isdisjoint(baixar.ARQUIVOS))  # o padrão continua só 2026
+
+    def test_anos_anteriores_respeitam_o_dia_da_apuracao(self):
+        with tempfile.TemporaryDirectory() as td:
+            op = Opener()
+            with self.assertRaises(SystemExit):
+                baixar.baixar_todos(baixar.ARQUIVOS_ANTERIORES, td, op, date(2026, 10, 25))
+            self.assertEqual(op.reqs, [])
+
 
 if __name__ == "__main__":
     unittest.main()

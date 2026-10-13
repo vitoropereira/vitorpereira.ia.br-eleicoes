@@ -132,3 +132,28 @@ Nunca toda a base: fornecedor de eleito não publicado não gera página.
 - **Lote 1** (`lote1.py`, uso único): lê `dados/eleitos.json` e `dados/indicadores.json`, ordena por cargo, votos (desc.) e nº de
   indicadores (desc.), e grava os `lote_tamanho` (20) primeiros em `publicados.json`. Sem `dados/fornecedores.json` ou
   `dados/indicadores.json` ele não grava nada. A fila e os lotes diários (Issue 9b) podem substituí-lo.
+
+## Eleições anteriores (`anteriores.py`)
+
+Cruza os fornecedores PJ de 2026 (`dados/base/agregados.json`) com as despesas **contratadas** das campanhas de 2022 (geral) e
+2024 (municipal), do mesmo pacote de prestação de contas do TSE de cada ano (`baixar.url_contas(ano)`). Os anos ficam em
+`config.json` (`anteriores_anos`). Grava `dados/anteriores.json`: `fonte`, `data_base`, `gerado_em`, `anos` e, por CNPJ e ano,
+`n_campanhas` (SQ_CANDIDATO distintos) e `total_contratado`.
+
+```
+python3 -m rastro.anteriores --baixar   # baixa um ano por vez, processa e apaga o ZIP
+python3 -m rastro.anteriores            # com os ZIPs já em rastro/brutos/
+```
+
+- **Tamanho**: os ZIPs são grandes (o municipal de 2024 deve ter alguns GB; não verificado). `--baixar` faz um `HEAD`, exige 2x o
+  tamanho livre em disco e apaga o ZIP depois do ano processado. Padrão de `baixar.py` sem `--anteriores` continua só 2026.
+- **Trava de data**: em 25/10 o `--baixar` aborta antes de qualquer requisição (mesmo IP de saída do agregador).
+- **Valores**: vazio, `#NULO` e lixo nunca viram 0; a linha é contada como inválida e vai para o log. Despesa repetida
+  (mesmo `SQ_DESPESA` na mesma campanha) conta uma vez. ZIP ausente vira aviso e o ano fica fora de `anos`.
+- **LGPD**: só entram CNPJs de 14 dígitos que são fornecedores de 2026; fornecedor PF é descartado e nenhum nome é gravado.
+  MEI continua só com o CNPJ mascarado na página.
+- **Na página** do fornecedor: seção "Em eleições anteriores" (campanhas e contratado por ano, com link do pacote). Se o
+  fornecedor aparece em todos os anos configurados, a página registra "contratado por campanhas em 2022, 2024 e 2026". O arquivo é
+  opcional: sem ele, a seção não aparece.
+- **Ressalva**: o mesmo CNPJ não garante a mesma atividade nem o mesmo dono; a empresa pode ter mudado de mãos.
+- O arquivo real é gerado à mão na VPS depois do merge, nunca em 25/10.

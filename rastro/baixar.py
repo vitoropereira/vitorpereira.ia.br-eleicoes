@@ -2,6 +2,7 @@
 """Baixa do CDN do TSE os ZIPs de prestação de contas 2026 para rastro/brutos/ (nunca commitado).
 Cache por Last-Modified: só baixa de novo se o TSE publicou versão mais nova. Nunca roda em 25/10.
 Uso: python3 rastro/baixar.py"""
+import argparse
 import contextlib
 import logging
 import shutil
@@ -21,6 +22,11 @@ URL_CAND = f"{BASE}/consulta_cand/consulta_cand_2026.zip"
 ARQUIVOS = [URL_CONTAS, URL_DESPESA_DOC, URL_EXTRATO, URL_CAND]
 UA = "eleicoes-2026-painel/1.0 (dados abertos; github.com/vitoropereira/vitorpereira.ia.br-eleicoes)"
 DIA_APURACAO = date(2026, 10, 25)
+
+
+def url_contas(ano):
+    """URL do pacote de prestação de contas de um ano (2022 geral, 2024 municipal: GBs; baixar só com --anteriores)."""
+    return f"{BASE}/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_{ano}.zip"
 
 
 def baixar(url, dest, opener=urllib.request.urlopen, hoje=None):
@@ -55,6 +61,9 @@ def baixar(url, dest, opener=urllib.request.urlopen, hoje=None):
     return "baixado"
 
 
+ARQUIVOS_ANTERIORES = [url_contas(2022), url_contas(2024)]
+
+
 def baixar_todos(urls=ARQUIVOS, out=OUT, opener=urllib.request.urlopen, hoje=None):
     """Baixa cada url em out/. 404 vira aviso ('não encontrado') e não derruba os outros; {nome: situação}."""
     res = {}
@@ -70,9 +79,12 @@ def baixar_todos(urls=ARQUIVOS, out=OUT, opener=urllib.request.urlopen, hoje=Non
     return res
 
 
-def main():
+def main(argv=None):
     logging.basicConfig(level=logging.WARNING, format="%(message)s")
-    for nome, situacao in baixar_todos().items():
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--anteriores", action="store_true", help="baixa também os pacotes de 2022 e 2024 (GBs)")
+    args = ap.parse_args(argv)
+    for nome, situacao in baixar_todos(ARQUIVOS + (ARQUIVOS_ANTERIORES if args.anteriores else [])).items():
         print(f"{nome}: {situacao}")
 
 
