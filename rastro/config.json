@@ -4,5 +4,19 @@
  "mei_teto_url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm",
  "campanha_inicio": "2026-08-16",
  "campanha_inicio_fonte": "Calendário eleitoral 2026 (Res. TSE): início da propaganda e da campanha em 16/08",
- "recem_aberta_dias": 365
+ "recem_aberta_dias": 365,
+ "nomeacoes_mes": "2026-09",
+ "nomeacoes_funcoes": {
+  "DAS": "Direção e Assessoramento Superiores (Lei 8.460/1992 e correlatas): cargo em comissão",
+  "FCPE": "Função Comissionada do Poder Executivo (Lei 14.204/2021)",
+  "CCE": "Cargo Comissionado Executivo (Lei 14.204/2021)",
+  "FCE": "Função Comissionada Executiva (Lei 14.204/2021)",
+  "NES": "Natureza Especial: ministro de Estado e equivalentes"
+ },
+ "nomeacoes_funcoes_fonte": "Prefixos de SIGLA_FUNCAO do cadastro SIAPE do Portal da Transparência; revisar contra as siglas reais da base na VPS",
+ "nomeacoes_fontes": {
+  "siape": "https://portaldatransparencia.gov.br/download-de-dados/servidores/{mes}",
+  "camara": null,
+  "senado": null
+ }
 }
