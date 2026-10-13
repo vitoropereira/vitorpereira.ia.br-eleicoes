@@ -25,6 +25,8 @@ NOMEADOS = lj("nomeados.json")
 IDX_NOM = ind.indice_nomeados(NOMEADOS)
 C1001 = lj("contas/1001.json")
 C1002 = lj("contas/1002.json")
+PF = lj("pf_por_campanha.json")
+SAQUES = lj("extrato_saques.json")
 
 
 def so(contas, cnpjs):
@@ -49,6 +51,11 @@ class TestConfig(unittest.TestCase):
         cfg = json.loads((RAIZ / "rastro" / "config.json").read_text(encoding="utf-8"))
         for k in ("mei_teto_anual", "mei_teto_fonte", "campanha_inicio", "recem_aberta_dias"):
             self.assertIn(k, cfg)
+        for k in ("dia_eleicao", "tardio_dias", "tardio_pct_ultimos_dias", "pf_qtd_min", "pf_repetido_min_campanhas",
+                  "pf_valor_alto", "pf_redondo_multiplo", "pf_redondo_alto_min_qtd", "saque_termos"):
+            self.assertIn(k, cfg)
+        self.assertEqual(cfg["dia_eleicao"], "2026-10-04")
+        self.assertTrue(cfg["saque_termos"])
         self.assertTrue(cfg["mei_teto_fonte"].strip())
         self.assertTrue(cfg["mei_teto_url"].startswith("https://"))
         self.assertEqual(cfg["mei_teto_anual"], 81000)
@@ -212,6 +219,147 @@ class TestSocioDoador(unittest.TestCase):
         self.assertNotIn("aaaa", txt)
 
 
+def com_pf(**kw):
+    """Cópia de C1001 com fornecedores_pf alterado."""
+    c = copy.deepcopy(C1001)
+    c["despesas"]["fornecedores_pf"].update(kw)
+    return c
+
+
+def com_dias(dias):
+    c = copy.deepcopy(C1001)
+    c["despesas"]["pago_por_dia"] = dias
+    return c
+
+
+class TestPessoalPf(unittest.TestCase):
+    def rodar(self, contas=C1001, pf=PF, **cfg):
+        return ind.pessoal_pf("1001", contas, pf, {**CFG, **cfg})
+
+    def por_fato(self, itens, trecho):
+        return [i for i in itens if trecho in i["fato"]]
+
+    def test_tres_gatilhos(self):
+        r = self.rodar()
+        self.assertEqual([i["nome"] for i in r], ["pessoal_pf"] * 3)
+        self.assertTrue(all("contraparte" not in i and i["fonte_url"] == ind.URL_CONTAS for i in r))
+        cont, rep, red = r
+        self.assertIn("5 pessoas físicas", cont["fato"])
+        self.assertEqual(cont["valor"], 20800.75)
+        self.assertIn("2 pessoas pagas também receberam de outras campanhas", rep["fato"])  # h1 (3) e h2 (2)
+        self.assertIn("2 pessoas físicas receberam valores redondos", red["fato"])
+        self.assertEqual(red["valor"], 17000.0)
+
+    def test_contagem_abaixo_do_limiar_cala(self):
+        self.assertFalse(self.por_fato(self.rodar(pf_qtd_min=6), "pagou 5 pessoas"))
+        self.assertTrue(self.por_fato(self.rodar(pf_qtd_min=5), "pagou 5 pessoas"))
+
+    def test_repetidos_abaixo_do_limiar_cala(self):
+        self.assertFalse(self.por_fato(self.rodar(pf_repetido_min_campanhas=4), "outras campanhas"))
+        r = self.por_fato(self.rodar(pf_repetido_min_campanhas=3), "outras campanhas")
+        self.assertIn("1 pessoa paga também recebeu", r[0]["fato"])  # só h1 tem 3 campanhas
+
+    def test_repetidos_sem_arquivo_ou_sem_a_campanha_cala(self):
+        self.assertFalse(self.por_fato(self.rodar(pf=None), "outras campanhas"))
+        self.assertFalse(self.por_fato(self.rodar(pf={"1001": ["x1", "x2"]}), "outras campanhas"))
+
+    def test_redondos_altos_abaixo_do_limiar_cala(self):
+        self.assertFalse(self.por_fato(self.rodar(pf_redondo_alto_min_qtd=3), "redondos"))
+        self.assertFalse(self.por_fato(self.rodar(pf_valor_alto=12001), "redondos"))  # nenhum valor chega lá
+        self.assertFalse(self.por_fato(self.rodar(pf_redondo_multiplo=7000), "redondos"))
+
+    def test_redondos_fronteira_do_valor_alto(self):
+        c = com_pf(valores=[5000.0, 4999.0, 5000.0, 6000.0])
+        self.assertEqual(len(self.por_fato(self.rodar(c), "3 pessoas físicas receberam valores redondos")), 1)
+
+    def test_sem_despesas_ou_sem_pf_cala(self):
+        sem = copy.deepcopy(C1001)
+        sem["despesas"] = None
+        self.assertEqual(self.rodar(sem), [])  # mesmo com hashes da campanha no arquivo
+        self.assertEqual(self.rodar(C1002, pf={}), [])
+
+    def test_lgpd_sem_nome_nem_cpf(self):
+        hash_pf = {"1001": ["h1", "h2"], "1002": ["h1", "h2"]}
+        contas = com_pf(valores=[5000.0, 12000.0])
+        contas["despesas"]["fornecedores_pf"]["nome"] = "MARIA PF"  # não deve vazar mesmo se vier por engano
+        txt = json.dumps(self.rodar(contas, pf=hash_pf), ensure_ascii=False)
+        self.assertEqual(cpfs_validos(txt), [])
+        for proibido in ("MARIA", "98765432100", "11144477735", "BELTRANO", "h1", "h2"):
+            self.assertNotIn(proibido, txt)
+        for h in HASH:
+            self.assertNotIn(h, txt)
+        for d in HASH.values():
+            self.assertNotIn(d["nome"], txt)
+
+
+class TestSaqueEspecie(unittest.TestCase):
+    def test_casa_pelo_cnpj_da_campanha(self):
+        r = ind.saque_especie("1001", C1001, SAQUES, CFG)
+        self.assertEqual(len(r), 1)
+        self.assertEqual(r[0]["nome"], "saque_especie")
+        self.assertEqual(r[0]["valor"], 2300.0)
+        self.assertEqual(r[0]["fonte_url"], ind.URL_EXTRATO)
+        self.assertIn("2 lançamentos", r[0]["fato"])
+        self.assertIn("R$ 2.300,00", r[0]["fato"])
+        self.assertIn("20/09/2026, 05/10/2026", r[0]["fato"])
+        self.assertNotIn("contraparte", r[0])
+
+    def test_extrato_de_outra_campanha_nao_casa(self):
+        c = copy.deepcopy(C1001)
+        c["cnpj_prestador"] = "11111111000191"
+        self.assertEqual(ind.saque_especie("1001", c, SAQUES, CFG), [])
+
+    def test_campanha_sem_cnpj_cala(self):
+        c = copy.deepcopy(C1001)
+        for v in (None, "", "123"):
+            c["cnpj_prestador"] = v
+            self.assertEqual(ind.saque_especie("1001", c, SAQUES, CFG), [])
+        del c["cnpj_prestador"]
+        self.assertEqual(ind.saque_especie("1001", c, SAQUES, CFG), [])
+
+    def test_lgpd(self):
+        self.assertEqual(cpfs_validos(json.dumps(ind.saque_especie("1001", C1001, SAQUES, CFG))), [])
+
+
+class TestPagamentoTardio(unittest.TestCase):
+    def rodar(self, dias, **cfg):
+        return ind.pagamento_tardio("1001", com_dias(dias), {**CFG, **cfg})
+
+    def test_dois_gatilhos_no_fixture(self):
+        r = ind.pagamento_tardio("1001", C1001, CFG)
+        self.assertEqual([i["nome"] for i in r], ["pagamento_tardio"] * 2)
+        self.assertEqual(r[0]["valor"], 1500.0)
+        self.assertIn("depois do dia da eleição (04/10/2026)", r[0]["fato"])
+        self.assertEqual(r[1]["valor"], 3500.0)  # 28/09 + 04/10
+        self.assertIn("58%", r[1]["fato"])
+        self.assertIn("27/09/2026 e 04/10/2026", r[1]["fato"])
+
+    def test_dia_da_eleicao_nao_e_depois(self):
+        r = self.rodar({"2026-10-04": 1000.0})
+        self.assertEqual([i for i in r if "depois" in i["fato"]], [])
+
+    def test_dia_seguinte_e_depois(self):
+        r = self.rodar({"2026-10-05": 1000.0, "2026-08-20": 9000.0})
+        self.assertEqual([i["valor"] for i in r], [1000.0])
+
+    def test_fronteira_27_09_dentro_da_janela_e_26_fora(self):
+        self.assertEqual(len(self.rodar({"2026-09-27": 600.0, "2026-08-01": 400.0})), 1)
+        self.assertEqual(self.rodar({"2026-09-26": 600.0, "2026-08-01": 400.0}), [])
+
+    def test_fracao_exatamente_no_limiar_cala(self):
+        self.assertEqual(self.rodar({"2026-09-30": 500.0, "2026-08-01": 500.0}), [])
+
+    def test_sem_despesas_ou_sem_datas_cala_sem_dividir_por_zero(self):
+        c = copy.deepcopy(C1001)
+        c["despesas"] = None
+        self.assertEqual(ind.pagamento_tardio("1001", c, CFG), [])
+        self.assertEqual(self.rodar(None), [])
+        self.assertEqual(self.rodar({}), [])
+
+    def test_total_pago_zero_cala(self):
+        self.assertEqual(self.rodar({"2026-10-05": 0.0, "2026-09-30": 0.0}), [])
+
+
 class TestSocioNomeado(unittest.TestCase):
     def rodar(self, forn=FORN, idx=IDX_NOM, cnpj="99999999000191"):
         return ind.socio_nomeado("1001", so(C1001, {cnpj}), forn, idx, CFG)
@@ -268,11 +416,12 @@ class TestSocioNomeado(unittest.TestCase):
 
 
 class TestGerar(unittest.TestCase):
-    def gerar(self, hash_path=FIX / "doadores_hash.json", nomeados_path=FIX / "nomeados.json"):
+    def gerar(self, hash_path=FIX / "doadores_hash.json", pf_path=FIX / "pf_por_campanha.json",
+              saques_path=FIX / "extrato_saques.json", nomeados_path=FIX / "nomeados.json"):
         tmp = tempfile.mkdtemp()
         saida = Path(tmp) / "indicadores.json"
         ind.gerar(FIX / "contas", FIX / "fornecedores.json", FIX / "agregados.json", hash_path, CFG, saida,
-                  cnae_x_tipo=TABELA, nomeados_path=nomeados_path)
+                  cnae_x_tipo=TABELA, pf_path=pf_path, saques_path=saques_path, nomeados_path=nomeados_path)
         return saida.read_text(encoding="utf-8"), json.loads(saida.read_text(encoding="utf-8"))
 
     def test_forma_envelope_e_ordem(self):
@@ -284,7 +433,9 @@ class TestGerar(unittest.TestCase):
         self.assertEqual(list(d["indicadores"]), ["1001"])
         nomes = [i["nome"] for i in d["indicadores"]["1001"]]
         self.assertEqual(nomes, ["mei_acima_teto", "empresa_recem_aberta", "atividade_incompativel", "socio_doador",
-                                 "socio_ligado"])
+                                 "socio_ligado", "pessoal_pf", "pessoal_pf", "pessoal_pf", "saque_especie",
+                                 "pagamento_tardio", "pagamento_tardio"])
+        self.assertIn(ind.URL_EXTRATO, d["fonte"])
         self.assertIn("https://exemplo.invalid/portal/202609", d["fonte"])
         for itens in d["indicadores"].values():
             for i in itens:
@@ -301,12 +452,27 @@ class TestGerar(unittest.TestCase):
         self.assertNotIn("11111111000191", txt)
         for meio in ("123456", "654321", "999999"):
             self.assertNotIn(meio, txt)
+        pessoal = [i for itens in json.loads(txt)["indicadores"].values() for i in itens if i["nome"] == "pessoal_pf"]
+        self.assertEqual(len(pessoal), 3)
+        for proibido in ("MARIA", "98765432100", "11144477735", "h1", "h2", "BELTRANO", "DA SILVA"):
+            self.assertNotIn(proibido, json.dumps(pessoal, ensure_ascii=False))
+
+    def test_sem_extrato_e_sem_pf_pulam_com_aviso(self):
+        with self.assertLogs("rastro.indicadores", level="WARNING") as cm:
+            _, d = self.gerar(pf_path=FIX / "nao_existe.json", saques_path=None)
+        self.assertTrue(any("saque_especie pulado" in m for m in cm.output))
+        self.assertTrue(any("pessoal_pf pulado" in m for m in cm.output))
+        nomes = [i["nome"] for i in d["indicadores"]["1001"]]
+        self.assertNotIn("saque_especie", nomes)
+        self.assertEqual(nomes.count("pessoal_pf"), 2)  # sobram contagem e redondos; repetidos precisa do arquivo
+        self.assertNotIn(ind.URL_EXTRATO, d["fonte"])
 
     def test_sem_hash_pula_socio_doador_com_aviso(self):
         with self.assertLogs("rastro.indicadores", level="WARNING"):
             _, d = self.gerar(FIX / "nao_existe.json")
         nomes = {i["nome"] for itens in d["indicadores"].values() for i in itens}
-        self.assertEqual(nomes, {"mei_acima_teto", "empresa_recem_aberta", "atividade_incompativel", "socio_ligado"})
+        self.assertEqual(nomes, {"mei_acima_teto", "empresa_recem_aberta", "atividade_incompativel", "socio_ligado",
+                                 "pessoal_pf", "saque_especie", "pagamento_tardio"})
 
     def test_sem_nomeados_pula_socio_ligado_com_aviso(self):
         with self.assertLogs("rastro.indicadores", level="WARNING") as lg:
