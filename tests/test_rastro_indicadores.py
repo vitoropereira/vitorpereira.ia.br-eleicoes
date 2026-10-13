@@ -402,6 +402,13 @@ class TestEndereco(unittest.TestCase):
     def test_um_so_fornecedor_nao_dispara(self):
         self.assertEqual(self.rodar(contas=so(C1003, {"10101010000191", "30303030000191"})), [])
 
+    def test_matriz_e_filial_nao_contam_como_dois(self):
+        forn = copy.deepcopy(FORN)
+        forn["10101010000272"] = {**forn["10101010000191"]}
+        contas = copy.deepcopy(so(C1003, {"10101010000191"}))
+        contas["despesas"]["fornecedores_pj"].append({**contas["despesas"]["fornecedores_pj"][0], "cnpj": "10101010000272"})
+        self.assertEqual(self.rodar(forn, contas), [])
+
     def test_minimo_vem_do_config(self):
         self.assertEqual(self.rodar(cfg={**CFG, "endereco_min_fornecedores": 3}), [])
 

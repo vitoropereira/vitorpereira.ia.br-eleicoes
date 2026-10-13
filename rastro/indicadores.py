@@ -4,6 +4,7 @@ socio_ligado, multicampanha, situacao_irregular, concentracao, endereco_comparti
 Funções puras, sem limiar fixo no código (tudo vem de rastro/config.json). Cada item segue o contrato
 {nome, fato, valor, fonte_url, contraparte?}. Nenhum CPF, nem trecho, vai para a saída; CNPJ de MEI sai mascarado.
 """
+import functools
 import json
 import logging
 import re
@@ -164,9 +165,18 @@ def socio_doador(sq, contas, fornecedores, doadores_hash, idx=None):
     return out
 
 
+@functools.lru_cache(maxsize=4)
+def _ignorar_chave(particulas, comuns):
+    return frozenset(_norm(x) for x in particulas + comuns)
+
+
+def _ignorar(cfg):
+    return _ignorar_chave(tuple(cfg["sobrenome_particulas"]), tuple(cfg["sobrenomes_comuns"]))
+
+
 def sobrenomes(nome, cfg):
     """Sobrenomes de um nome civil: tokens depois do prenome, sem partículas nem sobrenomes comuns (normalizados)."""
-    ignorar = {_norm(x) for x in cfg["sobrenome_particulas"]} | {_norm(x) for x in cfg["sobrenomes_comuns"]}
+    ignorar = _ignorar(cfg)
     return {t for t in _norm(nome).split()[1:] if t not in ignorar}
 
 
@@ -284,7 +294,7 @@ def endereco_compartilhado(sq, contas, fornecedores, cfg):
             grupos.setdefault(chave, []).append((cnpj, f))
     out = []
     for membros in grupos.values():
-        if len(membros) < cfg["endereco_min_fornecedores"]:
+        if len({c[:8] for c, _ in membros}) < cfg["endereco_min_fornecedores"]:  # matriz e filial são a mesma empresa
             continue
         for cnpj, f in membros:
             rec = fornecedores.get(cnpj) or {}
@@ -328,6 +338,8 @@ def gerar(dir_contas, fornecedores_path, agregados_path, hash_path, cfg, saida, 
         log.warning("sem %s: socio_doador pulado", hash_path)
     if Path(candidatos_path).exists():
         candidatos = ler_json(candidatos_path)
+        if not any(c.get("cpf_meio") for c in candidatos.values()):
+            log.warning("%s sem nenhum cpf_meio: o ramo candidato do socio_ligado não vai casar", candidatos_path)
     else:
         candidatos = None
         log.warning("sem %s: socio_ligado pulado", candidatos_path)

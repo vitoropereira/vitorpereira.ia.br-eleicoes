@@ -30,6 +30,8 @@ def candidatos(zip_path):
 
 def gerar(zip_path, saida):
     res = candidatos(zip_path)
+    if res and not any(c["cpf_meio"] for c in res.values()):
+        log.warning("nenhum candidato com CPF válido em %s: o ramo candidato do socio_ligado não vai casar", zip_path)
     gravar(saida, res)
     return res
 
