@@ -3,7 +3,7 @@
 SEO (meta, Open Graph, JSON-LD, sitemap, robots) e GEO (llms.txt, FAQ visível, texto pré-renderizado).
 Pré-renderiza cada página com Chrome headless (--dump-dom) para que o texto já esteja no HTML.
 Uso: python3 relatorio/montar.py && python3 build_site.py"""
-import json, re, shutil, subprocess, threading, functools, html, http.server, socketserver, time
+import json, os, re, shutil, sys, subprocess, threading, functools, html, http.server, socketserver, time
 from datetime import datetime
 from pathlib import Path
 import brand
@@ -14,9 +14,28 @@ AUTOR = dict(nome="Vitor Onofre Pereira", url="https://vitorpereira.ia.br")
 AUTOR_PERFIS = ["https://vitorpereira.ia.br", "https://www.linkedin.com/in/vitor-onofre-pereira/", "https://github.com/vitoropereira",
                 "https://x.com/VITORONOFRE", "https://www.instagram.com/vitorpereirasaas/", "https://www.tabnews.com.br/vitorpereirasaas",
                 "https://www.youtube.com/@vitoropereira"]
-# medições: GA4 e Clarity, as mesmas do vitorpereira.ia.br, só depois do consentimento de cookies
-GA_ID = "G-N6J962GXT3"
-CLARITY_ID = "tp8n6kanob"
+R = Path(__file__).parent
+
+
+def config(chave, env_file=None):
+    """valor de configuração do build: os.environ primeiro, depois CHAVE=valor no .env da raiz; "" se não houver"""
+    if os.environ.get(chave):
+        return os.environ[chave].strip()
+    arq = env_file or R / ".env"
+    if arq.exists():
+        for linha in arq.read_text().splitlines():
+            linha = linha.strip()
+            if linha and not linha.startswith("#") and "=" in linha:
+                k, v = linha.split("=", 1)
+                if k.strip() == chave:
+                    return v.strip().strip("\"'")
+    return ""
+
+
+# medições: GA4 e Clarity, só depois do consentimento de cookies. Os IDs são públicos, mas ficam fora do código:
+# vêm da env/.env (GA_ID, CLARITY_ID) e só vão parar em site/medicao.js
+GA_ID = config("GA_ID")
+CLARITY_ID = config("CLARITY_ID")
 PRIVACIDADE = "https://vitorpereira.ia.br/privacidade"
 NOME_EXIBICAO = {"Flavio Bolsonaro": "Flávio Bolsonaro"}  # o TSE publica sem acento
 CHROME = next((c for c in ("/Applications/Google Chrome.app/Contents/MacOS/Google Chrome", "/usr/bin/google-chrome") if Path(c).exists()), "google-chrome")
@@ -26,7 +45,6 @@ CHROME = next((c for c in ("/Applications/Google Chrome.app/Contents/MacOS/Googl
 SUPABASE_URL = "https://qzczyicspbizosjogmlq.supabase.co"
 SUPABASE_PUBLISHABLE_KEY = "sb_publishable_OBOstHIYUXpk_NvJFtYrVQ_NcOz4XUI"
 HUD_PRESENCE = {"url": SUPABASE_URL, "key": SUPABASE_PUBLISHABLE_KEY, "canal": "eleicoes-hud"}
-R = Path(__file__).parent
 OUT = R / "site"
 BUILD = R / ".build"
 ISO = lambda dt: dt.strftime("%Y-%m-%dT%H:%M:00-03:00")
@@ -113,7 +131,7 @@ a:focus-visible,summary:focus-visible{outline:2px solid var(--brand);outline-off
 
 # ---------------- medições (entram depois do pré-render, para o banner não ficar congelado no HTML)
 # Vercel Web Analytics/Speed Insights ficam de fora: não estão ativados no projeto, e os scripts dariam 404.
-MEDICAO_BODY = """<style id="consent-css">
+MEDICAO_CSS = """<style id="consent-css">
 .consent{position:fixed;inset:auto 0 0 0;z-index:60;background:var(--card);color:var(--ink);border-top:1px solid var(--line);box-shadow:0 -6px 24px rgba(0,0,0,.12)}
 .consent .in{max-width:1160px;margin:0 auto;padding:14px 16px;display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap}
 .consent p{margin:0;font-size:14px;color:var(--ink2);flex:1 1 320px}
@@ -124,17 +142,14 @@ MEDICAO_BODY = """<style id="consent-css">
 .consent button:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
 @media (max-width:520px){.consent .bt{width:100%}.consent button{flex:1}}
 </style>
-<script id="consent-js">
-(function(){
-  var GA="__GA__",CL="__CLARITY__",C="consent";
+"""
+MEDICAO_JS = """(function(){
+  var C="consent";
   function ler(){var m=document.cookie.match(/(?:^|;\\s*)consent=(accepted|rejected)/);return m?m[1]:null}
   function gravar(v){document.cookie=C+"="+v+"; path=/; max-age=31536000; SameSite=Lax"}
   function carregar(){
     if(window.__medindo)return;window.__medindo=true;
-    var g=document.createElement("script");g.async=true;g.src="https://www.googletagmanager.com/gtag/js?id="+GA;document.head.appendChild(g);
-    window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};gtag("js",new Date());gtag("config",GA,{anonymize_ip:true});
-    window.clarity=window.clarity||function(){(window.clarity.q=window.clarity.q||[]).push(arguments)};
-    var c=document.createElement("script");c.async=true;c.src="https://www.clarity.ms/tag/"+CL;document.head.appendChild(c);
+__CARREGAR__
   }
   var v=ler();
   if(v==="accepted")carregar();
@@ -151,13 +166,35 @@ MEDICAO_BODY = """<style id="consent-css">
   if(ev){var ok=b.querySelector("button.ok");if(ok)ok.focus({preventScroll:true})}
   }
 })();
-</script>
-""".replace("__GA__", GA_ID).replace("__CLARITY__", CLARITY_ID).replace("__PRIV__", PRIVACIDADE)
+"""
+MEDICAO_GA = """    var GA=__GA__;
+    var g=document.createElement("script");g.async=true;g.src="https://www.googletagmanager.com/gtag/js?id="+GA;document.head.appendChild(g);
+    window.dataLayer=window.dataLayer||[];window.gtag=function(){dataLayer.push(arguments)};gtag("js",new Date());gtag("config",GA,{anonymize_ip:true});"""
+MEDICAO_CLARITY = """    var CL=__CL__;
+    window.clarity=window.clarity||function(){(window.clarity.q=window.clarity.q||[]).push(arguments)};
+    var c=document.createElement("script");c.async=true;c.src="https://www.clarity.ms/tag/"+CL;document.head.appendChild(c);"""
+
+
+def medicao(ga, clarity):
+    """(trecho_html, js): o trecho entra em toda página e só aponta para /medicao.js; o js (None sem nenhum ID) tem os IDs.
+    Sem ID não há o que consentir: sem banner, sem script."""
+    if not (ga or clarity):
+        return "", None
+    partes = []
+    if ga:
+        partes.append(MEDICAO_GA.replace("__GA__", json.dumps(ga)))
+    if clarity:
+        partes.append(MEDICAO_CLARITY.replace("__CL__", json.dumps(clarity)))
+    js = MEDICAO_JS.replace("__CARREGAR__", "\n".join(partes)).replace("__PRIV__", PRIVACIDADE)
+    return MEDICAO_CSS + '<script src="/medicao.js" defer></script>\n', js
+
+
+MEDICAO_HTML, MEDICAO_JS_SAIDA = medicao(GA_ID, CLARITY_ID)
 
 
 def com_medicao(dom):
-    assert "consent-js" not in dom, "medição já presente no HTML pré-renderizado"
-    return dom.replace("</body>", MEDICAO_BODY + "</body>", 1)
+    assert "/medicao.js" not in dom, "medição já presente no HTML pré-renderizado"
+    return dom.replace("</body>", MEDICAO_HTML + "</body>", 1) if MEDICAO_HTML else dom
 
 
 def sitebar(atual):
@@ -600,6 +637,9 @@ def rastro_publicar(dest, publicado, modificado, moldura=True):
 
 
 def main():
+    for nome, valor in (("GA_ID", GA_ID), ("CLARITY_ID", CLARITY_ID)):
+        if not valor:
+            print(f"aviso: {nome} não definido (env ou .env): o site sai sem essa medição", file=sys.stderr)
     if BUILD.exists(): shutil.rmtree(BUILD)
     if OUT.exists(): shutil.rmtree(OUT)
     BUILD.mkdir(); OUT.mkdir()
@@ -744,6 +784,10 @@ def main():
 
     # ---- Rastro do dinheiro (/rastro/): estático, vai direto para site/
     paginas += rastro_publicar(OUT, publicado, modificado)
+
+    # ---- medição: um único arquivo com os IDs (sem ID não há medicao.js)
+    if MEDICAO_JS_SAIDA:
+        (OUT / "medicao.js").write_text(MEDICAO_JS_SAIDA)
 
     # ---- imagens OG
     (BUILD / "og").mkdir(exist_ok=True); (OUT / "og").mkdir(exist_ok=True)

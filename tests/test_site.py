@@ -11,7 +11,7 @@ PALETA_ANTIGA = ["#f7f6f3", "#1b1c1e", "#1a1a19", "#232322", "#2563c9", "#5b8def
 
 class Moldura(unittest.TestCase):
     def test_sem_paleta_antiga_na_moldura(self):
-        moldura = B.SITE_CSS + B.MEDICAO_BODY + B.FAVICON + B.og_card("t", "s", 47.0, 45.2, "r") + B.head("t", "d", "/", "/og/x.png", [], "a", "b")
+        moldura = B.SITE_CSS + B.MEDICAO_CSS + B.MEDICAO_JS + B.FAVICON + B.og_card("t", "s", 47.0, 45.2, "r") + B.head("t", "d", "/", "/og/x.png", [], "a", "b")
         for cor in PALETA_ANTIGA:
             self.assertNotIn(cor, moldura.lower(), cor)
 
@@ -26,7 +26,7 @@ class Moldura(unittest.TestCase):
         self.assertIn('<a href="/rastro/">Rastro do dinheiro</a>', B.sitebar("/"))
 
     def test_foco_usa_brand(self):
-        self.assertNotIn("var(--flavio)", B.SITE_CSS + B.MEDICAO_BODY)
+        self.assertNotIn("var(--flavio)", B.SITE_CSS + B.MEDICAO_CSS + B.MEDICAO_JS)
 
 
 class Saida(unittest.TestCase):

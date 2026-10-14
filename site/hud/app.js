@@ -158,7 +158,7 @@ function Busca({ aberto, fechar, meta, geo, onEscolha }) {
   }, [q, indice]);
   const escolher = (it) => { fechar(); onEscolha(it); };
   return html`<dialog class="modal busca-dlg" ref=${ref} onClose=${fechar} aria-label="Buscar município, estado ou candidato">
-    <div class="busca-in">${Ic.busca}<input ref=${inp} type="search" placeholder="Município, estado ou candidato" value=${q}
+    <div class="busca-in">${Ic.busca}<input ref=${inp} type="search" data-clarity-mask="true" placeholder="Município, estado ou candidato" value=${q}
       aria-label="Buscar" aria-controls="busca-res" aria-activedescendant=${res[sel] ? "br-" + sel : null}
       onInput=${(e) => { setQ(e.currentTarget.value); setSel(0); }}
       onKeyDown=${(e) => {
