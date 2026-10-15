@@ -607,9 +607,11 @@ h1{{font:600 60px/1.05 "JetBrains Mono",monospace;margin:14px 0 0;letter-spacing
 
 
 def rastro_publicar(dest, publicado, modificado, moldura=True):
-    """Rastro do dinheiro: metodologia e uma página por sq de rastro/publicados.json, em dest/rastro/. HTML estático e sem JS,
-    por isso sem pré-render; só a moldura do site e a medição. Devolve as entradas do sitemap."""
+    """Rastro do dinheiro: metodologia e uma página por sq de rastro/publicados.json, em dest/rastro/. HTML estático (o único JS,
+    rastro.js, é o filtro opcional da tabela), por isso sem pré-render; só a moldura do site e a medição. Devolve as entradas do sitemap."""
     from rastro import paginas as rp
+    (Path(dest) / "rastro").mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(R / "rastro" / "rastro.js", Path(dest) / "rastro" / "rastro.js")
     lj = lambda p: json.loads(p.read_text(encoding="utf-8")) if p.exists() else None
     dados = R / "rastro" / "dados"
 

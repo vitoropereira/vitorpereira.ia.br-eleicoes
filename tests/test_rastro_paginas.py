@@ -9,6 +9,7 @@ from pathlib import Path
 
 from rastro import indicadores as ind
 from rastro import paginas as pg
+from rastro.rotulos import rotulo
 from tests.test_rastro_indicadores import cpfs_validos
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -438,7 +439,7 @@ class TestHome(unittest.TestCase):
         self.assertIn(ind.brl(480000), t)  # depfed (2001)
         self.assertIn(ind.brl(50000), t)  # depest (2002)
         self.assertIn("Maiores fornecedores", t)
-        self.assertIn("Indicadores mais frequentes", t)
+        self.assertIn("Indícios mais frequentes entre os publicados", t)
         # O não publicado só aparece na tabela "ainda sem página", sem link e sem os fornecedores dele.
         self.assertNotIn("NAO PUBLICADO", t.split("Eleitos ainda sem página")[0])
         self.assertNotIn("SO DO NAO PUBLICADO LTDA", t)
@@ -455,7 +456,7 @@ class TestHome(unittest.TestCase):
         for pub in PUBL:
             self.assertNotIn(E[pub]["nome_urna"], sec)
         self.assertEqual(cpfs_validos(h), [])
-        self.assertIsNone(pg.PROIBIDOS.search(h))
+        self.assertIsNone(pg.termo_proibido(h))
 
     def test_sem_pendentes_sem_tabela(self):
         h = self.home(publicados=[e["sq"] for e in ELEITOS["eleitos"]])
@@ -593,7 +594,7 @@ class TestEleito(unittest.TestCase):
         self.assertIn("Contestar este dado", h)
         self.assertIn(f'href="mailto:{CFG["contato_email"]}?', h)
         for i in INDS["indicadores"]["2001"]:
-            self.assertIn(f'{i["nome"]}: {i["fato"]}', t)
+            self.assertIn(f'{rotulo(i["nome"])}: {i["fato"]}', t)
             self.assertIn(f'<a href="{i["fonte_url"]}"', h)
         self.assertIn("Receitas por origem", h)
         self.assertIn("Despesas por fornecedor", h)
@@ -610,11 +611,11 @@ class TestEleito(unittest.TestCase):
     def test_homonimo(self):
         itens = [{"nome": n, "fato": "algo", "valor": 1, "fonte_url": "https://x.invalid/"}
                  for n in ("socio_doador", "socio_ligado", "socio_nomeado", "concentracao", "mei_acima_teto")]
-        h = pagina_2001(itens=itens)
-        com = [m for m in re.findall(r"<li>.*?</li>", h, re.S) if "pode ser homônimo" in m]
+        h = pagina_2001(itens=itens).split('id="indicadores"')[1]  # lista completa (os cartões repetem a nota)
+        com =[m for m in re.findall(r"<li>.*?</li>", h, re.S) if "pode ser homônimo" in m]
         self.assertEqual(len(com), 3)
         for nome in ("socio_doador", "socio_ligado", "socio_nomeado"):
-            self.assertTrue(any(f"<code>{nome}</code>" in m for m in com), nome)
+            self.assertTrue(any(f'<b class="rs-rot">{rotulo(nome)}</b>' in m for m in com), nome)
 
     def test_sem_indicadores(self):
         self.assertIn("Nenhum indicador disparado", texto(pagina_2001(itens=[])))
@@ -659,8 +660,8 @@ class TestEleitoEnxuto(unittest.TestCase):
     def test_ancora_com_id_de_fornecedor(self):
         with tempfile.TemporaryDirectory() as d:
             h = {p["path"]: p["html"] for p in gerar(d)}["/" + pg.caminho(E["2001"])]
-        self.assertIn(f'<tr id="f-{ID_PJ}">', h)
-        self.assertIn(f'<tr id="f-{ID_MEI}">', h)
+        self.assertRegex(h, f'<tr id="f-{ID_PJ}"[ >]')
+        self.assertRegex(h, f'<tr id="f-{ID_MEI}"[ >]')
         self.assertIn(f'<a href="#f-{ID_PJ}">', h)
 
     def test_correcao_entra_antes_do_rodape(self):
@@ -863,6 +864,173 @@ class TestPublicados(unittest.TestCase):
 
     def test_config_tem_contato(self):
         self.assertRegex(CFG["contato_email"], r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
+
+
+def _it(nome, valor=1000.0, contraparte=None, fato="fato público", **kw):
+    i = {"nome": nome, "fato": fato, "valor": valor, "fonte_url": "https://x.invalid/"}
+    if contraparte:
+        i["contraparte"] = contraparte
+    i.update(kw)
+    return i
+
+
+def _contas(*forns):
+    return {"despesas": {"fornecedores_pj": [{"cnpj": c, "nome": n, "total": t, "tipos": []} for c, n, t in forns]}}
+
+
+PJ_REC = {"mei": False, "razao": None}
+FORN_D = {"10000000000191": dict(PJ_REC, razao="ALFA LTDA"), "20000000000191": dict(PJ_REC, razao="BETA LTDA"),
+          "30000000000191": dict(PJ_REC, razao="GAMA LTDA")}
+CONTAS_D = _contas(("10000000000191", "ALFA LTDA", 1000.0), ("20000000000191", "BETA LTDA", 500000.0),
+                   ("30000000000191", "GAMA LTDA", 900000.0))
+
+
+class TestDestaques(unittest.TestCase):
+    def d(self, itens, contas=CONTAS_D, ids=None):
+        return pg.destaques(itens, contas, FORN_D, CFG, ids)
+
+    def test_peso_antes_do_valor(self):
+        c = self.d([_it("preco_fora_da_curva", 1_000_000.0), _it("situacao_irregular", contraparte="ALFA LTDA")])
+        self.assertEqual([x["itens"][0]["nome"] for x in c], ["situacao_irregular", "preco_fora_da_curva"])
+
+    def test_mesmo_peso_maior_valor_primeiro(self):
+        c = self.d([_it("empresa_recem_aberta", contraparte="BETA LTDA"), _it("empresa_recem_aberta", contraparte="GAMA LTDA")])
+        self.assertEqual([x["titulo"] for x in c], ["GAMA LTDA", "BETA LTDA"])
+        self.assertEqual(c[0]["valor"], 900000.0)  # total do fornecedor, não o valor do item
+
+    def test_empate_por_nome(self):
+        contas = _contas(("10000000000191", "ALFA LTDA", 5.0), ("20000000000191", "BETA LTDA", 5.0))
+        c = self.d([_it("socio_doador", contraparte="BETA LTDA"), _it("socio_doador", contraparte="ALFA LTDA")], contas)
+        self.assertEqual([x["titulo"] for x in c], ["ALFA LTDA", "BETA LTDA"])
+
+    def test_multicampanha_nunca_vira_cartao(self):
+        self.assertEqual(self.d([_it("multicampanha", 7, contraparte="ALFA LTDA")]), [])
+        c = self.d([_it("multicampanha", 7, contraparte="ALFA LTDA"), _it("concentracao", 60, contraparte="ALFA LTDA")])
+        self.assertEqual([i["nome"] for i in c[0]["itens"]], ["concentracao"])
+
+    def test_agrupa_por_fornecedor(self):
+        c = self.d([_it("concentracao", 60, contraparte="GAMA LTDA"), _it("atividade_incompativel", contraparte="GAMA LTDA")])
+        self.assertEqual(len(c), 1)
+        h = pg.bloco_destaques(c, "12/10/2026", CFG)
+        self.assertEqual(h.count('class="rs-tag"'), 2)
+        self.assertIn(rotulo("concentracao"), h)
+        self.assertIn(rotulo("atividade_incompativel"), h)
+
+    def test_no_maximo_cinco(self):
+        itens = [_it("pagamento_tardio", float(v)) for v in range(1, 9)]
+        self.assertEqual(len(self.d(itens)), pg.MAX_DESTAQUES)
+
+    def test_homonimo_mantem_nota(self):
+        h = pg.bloco_destaques(self.d([_it("socio_doador", contraparte="ALFA LTDA")]), "12/10/2026", CFG)
+        self.assertIn("pode ser homônimo", h)
+
+    def test_pessoal_pf_so_contagem_e_total(self):
+        c = self.d([_it("pessoal_pf", 30000.0, fato="Pagou 25 pessoas físicas, num total de R$ 30.000,00")])
+        self.assertEqual(c[0]["titulo"], rotulo("pessoal_pf"))
+        h = pg.bloco_destaques(c, "12/10/2026", CFG)
+        self.assertIn("25 pessoas físicas", h)
+        self.assertEqual(cpfs_validos(h), [])
+
+    def test_gasto_por_voto_sem_reais(self):
+        c = self.d([_it("gasto_por_voto", 12.5), _it("pagamento_tardio", 1.0)])
+        self.assertEqual(c[0]["itens"][0]["nome"], "pagamento_tardio")  # peso médio antes do baixo
+        self.assertIsNone(next(x for x in c if x["itens"][0]["nome"] == "gasto_por_voto")["valor"])
+
+    def test_valores_identicos_um_cartao_do_grupo(self):
+        vi = _it("valores_identicos", 3000.0, contraparte="ALFA LTDA", contrapartes=["ALFA LTDA", "BETA LTDA"])
+        c = self.d([vi])
+        self.assertEqual(c[0]["titulo"], "ALFA LTDA; BETA LTDA")
+        self.assertEqual(c[0]["valor"], 501000.0)
+
+    def test_link_ver_fornecedor(self):
+        c = self.d([_it("situacao_irregular", contraparte="BETA LTDA")])
+        self.assertEqual(c[0]["href"], "#f-n1")
+        c = self.d([_it("situacao_irregular", contraparte="BETA LTDA")], ids={"20000000000191": "20000000000191"})
+        self.assertEqual(c[0]["href"], "/rastro/fornecedor/20000000000191/")
+
+    def test_vazio(self):
+        for itens in ([], [_it("multicampanha", 7, contraparte="ALFA LTDA")]):
+            h = pg.bloco_destaques(self.d(itens), "12/10/2026", CFG)
+            self.assertIn("Nenhum indicador disparado nesta base (12/10/2026)", texto(h))
+
+    def test_bloco_no_topo_da_pagina(self):
+        h = pagina_2001()
+        self.assertLess(h.index("rs-aviso-curto"), h.index('id="destaques"'))
+        self.assertLess(h.index('id="destaques"'), h.index("<svg"))
+
+
+class TestSeloEFiltro(unittest.TestCase):
+    def test_selo_e_filtro(self):
+        h = pagina_2001()
+        self.assertIn('<label hidden class="rs-filtro"><input type="checkbox"> Só com indício</label>', h)
+        self.assertIn('<script defer src="/rastro/rastro.js"></script>', h)
+        self.assertRegex(h, r'<tr id="f-n0" data-indicio="\d+"><td>[^\n]*?<span class="rs-selo" title="[^"]+">\d+</span>')
+
+    def test_multicampanha_conta_no_selo(self):
+        linha = pg._linha_fornecedor({"cnpj": "10000000000191", "nome": "ALFA LTDA", "total": 1.0}, FORN_D, None, 0,
+                                     [_it("multicampanha", 7, contraparte="ALFA LTDA")])
+        self.assertIn('data-indicio="1"', linha)
+        self.assertIn(f'title="{rotulo("multicampanha")}"', linha)
+
+    def test_sem_indicio_sem_selo(self):
+        linha = pg._linha_fornecedor({"cnpj": "10000000000191", "nome": "ALFA LTDA", "total": 1.0}, FORN_D, None, 0, [])
+        self.assertNotIn("data-indicio", linha)
+        self.assertNotIn("rs-selo", linha)
+
+    def test_script_so_na_pagina_do_eleito(self):
+        with tempfile.TemporaryDirectory() as d:
+            for p in gerar(d):
+                eleito = not (p["path"] in ("/rastro/", "/rastro/metodologia/") or p["path"].startswith("/rastro/fornecedor/"))
+                if not eleito:
+                    self.assertNotIn("rastro.js", p["html"], p["path"])
+
+    def test_contrapartes_casam_fornecedor(self):
+        vi = _it("valores_identicos", contraparte="ALFA LTDA", contrapartes=["ALFA LTDA", "BETA LTDA"])
+        f = {"cnpj": "20000000000191", "nome": "BETA LTDA"}
+        self.assertEqual(pg._itens_do_fornecedor(f, FORN_D["20000000000191"], False, [f], [vi]), [vi])
+
+
+class TestRotulosNasPaginas(unittest.TestCase):
+    def test_sem_code_com_nome_tecnico(self):
+        nomes = [n for n, _ in pg.descricoes(CFG)] + ["socio_nomeado"]
+        with tempfile.TemporaryDirectory() as d:
+            for p in gerar(d):
+                if p["path"] == "/rastro/metodologia/":
+                    continue
+                for n in nomes:
+                    self.assertNotIn(f"<code>{n}</code>", p["html"], p["path"])
+
+    def test_metodologia_rotulo_e_ancora(self):
+        h = pg.html_metodologia(CFG)
+        self.assertIn(f'{rotulo("valores_identicos")} <code id="ind-valores_identicos">valores_identicos</code>', h)
+        self.assertIn(ind.brl(CFG["valores_identicos_min"]), h)
+        self.assertIn("nunca aparece como número", h)
+        pg.varrer("metodologia", h)
+
+    def test_home_sem_multicampanha(self):
+        itens = {"2001": [_it("multicampanha", 7, contraparte="X"), _it("concentracao", 60, contraparte="X")]}
+        with tempfile.TemporaryDirectory() as d:
+            h = gerar(d, indicadores=dict(INDS, indicadores=dict(INDS["indicadores"], **itens)))[0]["html"]
+        sec = h.split("Indícios mais frequentes entre os publicados")[1]
+        self.assertNotIn(rotulo("multicampanha"), sec.split("</ul>")[0])
+        self.assertIn(rotulo("concentracao"), sec)
+
+
+class TestRedacaoNova(unittest.TestCase):
+    def test_termos_novos_barrados(self):
+        for termo in ("suspeito", "suspeita", "desvio", "esquema", "irregular"):
+            with self.assertRaises(ValueError, msg=termo):
+                pg.varrer("x", f"<li>Fornecedor {termo}</li>")
+
+    def test_fato_suspeito_derruba_a_pagina(self):
+        itens = [_it("concentracao", 60, contraparte="EMPRESA GRANDE LTDA", fato="pagamento suspeito")]
+        with tempfile.TemporaryDirectory() as d, self.assertRaises(ValueError):
+            gerar(d, indicadores=dict(INDS, indicadores=dict(INDS["indicadores"], **{"2001": itens})))
+
+    def test_excecoes_permitidas(self):
+        pg.varrer("x", pg.AVISO + " Não afirmamos que houve irregularidade. <code>situacao_irregular</code>")
+        with self.assertRaises(ValueError):
+            pg.varrer("x", "houve irregularidade grave")
 
 
 if __name__ == "__main__":

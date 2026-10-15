@@ -15,7 +15,8 @@ ELEITOS = json.loads((RAIZ / "rastro" / "dados" / "eleitos.json").read_text(enco
 RE_HREF_ELEITO = re.compile(r'href="/(rastro/(?!fornecedor/|metodologia/)[^"]+/)"')
 RE_HREF_FORN = re.compile(r'href="/rastro/fornecedor/([^"/]+)/"')
 RE_SCRIPT_SRC = re.compile(r'<script[^>]*\ssrc="([^"]+)"', re.I)
-SCRIPTS_PERMITIDOS = {"/medicao.js"}  # moldura de medição do site (consentimento antes de GA4/Clarity)
+SCRIPTS_PERMITIDOS = {"/medicao.js",  # moldura de medição do site (consentimento antes de GA4/Clarity)
+                      "/rastro/rastro.js"}  # filtro "Só com indício" da tabela de fornecedores
 
 
 def cpfs(texto):
@@ -25,7 +26,7 @@ def cpfs(texto):
 def problemas(texto):
     """CPF válido ou termo proibido: o que derruba o lote."""
     out = [f"CPF {c[:3]}…" for c in cpfs(texto)]
-    m = pg.PROIBIDOS.search(texto)
+    m = pg.termo_proibido(texto)
     return out + ([f"termo {m.group()!r}"] if m else [])
 
 
