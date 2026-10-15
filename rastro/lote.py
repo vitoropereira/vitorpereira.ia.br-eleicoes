@@ -3,8 +3,9 @@
 Fluxo: trava de data (config.json: trava_inicio..trava_fim, inclusive) -> árvore limpa e branch do dia inexistente ->
 branch rastro/lote-AAAA-MM-DD a partir de origin/main -> regenera fila.json -> move os próximos `lote_diario_tamanho` sq
 (que não estão em publicados.json) para publicados.json -> build_site.py -> commit só de publicados.json, fila.json e
-site/ (o build também muda sitemap.xml e llms.txt) -> push -> gh pr create. Nunca faz merge nem deploy: o merge do PR pelo Vitor é a publicação.
-Sem rede além de `git push` e `gh`. `--dry-run` imprime o lote e os comandos sem gravar nada.
+site/ (o build também muda sitemap.xml e llms.txt) -> python3 -m pytest -q (sobre o conteúdo exato do lote) -> push ->
+gh pr create -> gh pr merge --squash se o pytest passou, ou label `bloqueado` (sem merge) se falhou. O merge é a publicação:
+é automático, mas só com os testes (LGPD, redação, isolamento) verdes. Sem rede além de `git`, `gh` e do build. `--dry-run` imprime o lote e os comandos sem gravar nada.
 
 Uso: python3 rastro/lote.py [--dry-run]
 """
@@ -23,6 +24,8 @@ from rastro import fila as fila_mod  # noqa: E402
 # O build reescreve fora de site/rastro/ (sitemap.xml, llms.txt, og/...): tudo em site/ entra no lote,
 # senão o PR sai sem as páginas novas no sitemap e a árvore fica suja no dia seguinte.
 CAMINHOS_GIT = ["rastro/publicados.json", "rastro/fila.json", "site/"]
+TESTES = ["python3", "-m", "pytest", "-q"]
+ROTULO_BLOQUEADO = "bloqueado"
 
 
 def travado(hoje, cfg=None):
@@ -44,7 +47,9 @@ def aplicar(publicados, novos):
 def corpo_pr(novos, eleitos, dia):
     lista = eleitos["eleitos"] if isinstance(eleitos, dict) else eleitos
     por_sq = {str(e["sq"]): e for e in lista}
-    linhas = [f"Lote diário do Rastro de {dia}: {len(novos)} eleitos. O merge deste PR é a publicação.", ""]
+    linhas = [f"Lote diário do Rastro de {dia}: {len(novos)} eleitos.",
+              "A publicação é automática, condicionada aos testes: o merge só acontece se `python3 -m pytest -q` passar; "
+              "se falhar, o PR fica aberto com o label `bloqueado` e nada é publicado.", ""]
     for sq in novos:
         e = por_sq.get(sq, {})
         linhas.append(f"- {sq}: {e.get('nome_urna', '?')} ({e.get('cargo', '?')}, {e.get('uf', '?')})")
@@ -84,9 +89,11 @@ def main(hoje=None, raiz=AQUI.parent, executar=subprocess.run, dry_run=False):
         if rodar(["git", "rev-parse", "--verify", "--quiet", f"refs/heads/{branch}"]).returncode == 0:
             print(f"lote: a branch {branch} já existe; nada feito.")
             return 1
-        aberto = rodar(["gh", "pr", "list", "--state", "open", "--search", "Rastro: lote in:title", "--json", "number", "--jq", "length"])
+        # Lote reprovado (label bloqueado) pede conserto humano: não empilha nem duplica PR.
+        aberto = rodar(["gh", "pr", "list", "--state", "open", "--label", ROTULO_BLOQUEADO, "--search", "Rastro: lote in:title",
+                        "--json", "number", "--jq", "length"])
         if aberto.returncode != 0 or (aberto.stdout or "").strip() not in ("", "0"):
-            print("lote: há PR de lote aberto (ou o gh falhou); mergeie ou feche antes do próximo. Nada feito.")
+            print(f"lote: há PR de lote aberto com o label {ROTULO_BLOQUEADO} (ou o gh falhou); conserte ou feche antes. Nada feito.")
             return 1
         # A base é o origin/main atualizado, e o lote é calculado sobre ela.
         for c in (["git", "fetch", "origin", "main"], ["git", "checkout", "-b", branch, "origin/main"]):
@@ -116,15 +123,20 @@ def main(hoje=None, raiz=AQUI.parent, executar=subprocess.run, dry_run=False):
         ["python3", "build_site.py"],
         ["git", "add", *CAMINHOS_GIT],
         ["git", "commit", "-m", titulo],
+    ]
+    publicar = [
         ["git", "push", "-u", "origin", branch],
         ["gh", "pr", "create", "--base", "main", "--head", branch, "--title", titulo, "--body", corpo],
     ]
+    merge = ["gh", "pr", "merge", branch, "--squash", "--delete-branch"]
+    bloquear = ["gh", "pr", "edit", branch, "--add-label", ROTULO_BLOQUEADO]
     if dry_run:
         print(f"lote (dry-run): {len(novos)} sq: {', '.join(novos)}")
         print(f"  $ git fetch origin main && git checkout -b {branch} origin/main")
-        for c in depois[:-1]:
+        for c in depois + [TESTES, publicar[0]]:
             print("  $ " + " ".join(c))
         print(f"  $ gh pr create --title '{titulo}'")
+        print(f"  $ {' '.join(merge)}  # só se o pytest passar; senão: {' '.join(bloquear)}")
         return 0
 
     if fila_mod.main(dados, fila_arq) != 0:
@@ -138,7 +150,24 @@ def main(hoje=None, raiz=AQUI.parent, executar=subprocess.run, dry_run=False):
             print(f"lote: falhou: {' '.join(c[:4])}\n{(r.stderr or '').strip()}")
             desfazer()
             return 1
-    print(f"lote: PR aberto ({titulo}). Merge fica com o Vitor.")
+    testes = rodar(TESTES)
+    aprovado = testes.returncode == 0
+    if not aprovado:
+        print(f"lote: testes falharam; o PR sai com o label {ROTULO_BLOQUEADO}, sem merge.\n{(testes.stdout or '')[-2000:]}")
+    for c in publicar:
+        r = rodar(c)
+        if r.returncode != 0:
+            print(f"lote: falhou: {' '.join(c[:4])}\n{(r.stderr or '').strip()}")
+            desfazer()
+            return 1
+    final = merge if aprovado else bloquear
+    r = rodar(final)
+    if r.returncode != 0:
+        print(f"lote: falhou: {' '.join(final[:4])}\n{(r.stderr or '').strip()}")
+        return 1
+    if not aprovado:
+        return 1
+    print(f"lote: {titulo} publicado (testes verdes, merge automático).")
     return 0
 
 

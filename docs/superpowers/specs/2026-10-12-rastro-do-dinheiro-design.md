@@ -6,6 +6,9 @@ O desenho original pegava bem a empresa nova e esquisita, mas quase não via a e
 nem os pagamentos a pessoa física.
 Revisão 2 (2026-10-12): entram mais 3 indicadores (sobras, nota fiscal, endereço), o bloco de contestação, a publicação em
 lotes diários e a etapa 12 (eleições anteriores).
+Revisão 3 (2026-10-14): os lotes diários saem por um workflow agendado do GitHub Actions, sem gate humano. O merge é automático
+e condicionado aos testes (LGPD, redação, isolamento sobre as páginas reais); se algum falhar, o PR fica aberto com o label
+`bloqueado` e nada é publicado.
 
 ## Objetivo
 
@@ -122,9 +125,9 @@ O CPF de pessoa física é usado **só dentro do processamento**, para contar e 
 - **Prioridade:** cargo (governador > senador > deputado federal > deputado estadual/distrital), depois votos e depois o número de indicadores disparados. A ordem fica em `rastro/fila.json`.
 - **Lote 1:** os 20 primeiros da fila. Ele serve para calibrar limiares e redação antes de escalar.
 - **Lotes seguintes:**
-  - um cron diário gera as páginas dos próximos N da fila, com N em `rastro/config.json` e padrão de 10 a 15;
-  - cada lote abre **um PR**, e o merge do Vitor é a publicação;
-  - os crons param entre 23 e 26/10.
+  - um workflow diário do GitHub Actions (`.github/workflows/rastro-lote.yml`) gera as páginas dos próximos N da fila, com N em `rastro/config.json` e padrão de 10 a 15;
+  - cada lote abre **um PR** e roda `python3 -m pytest -q` sobre o conteúdo exato do lote: com os testes verdes o merge é automático e é a publicação; com algum vermelho o PR fica aberto com o label `bloqueado`, sem merge, e os lotes seguintes esperam o conserto (Revisão 3);
+  - os lotes param entre 23 e 26/10 (trava no `rastro/lote.py`).
 - **Eleito sem lote publicado:** aparece na home só como linha da tabela (nome, cargo, gasto total, número de indicadores), sem página.
 
 ## Etapas (uma issue cada, com label `agente`)

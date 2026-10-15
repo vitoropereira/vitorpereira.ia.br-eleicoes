@@ -163,14 +163,23 @@ python3 -m rastro.anteriores            # com os ZIPs já em rastro/brutos/
 - `rastro/fila.py` grava `rastro/fila.json`: lista JSON de `sq` na ordem cargo, votos (desc), nº de indicadores (desc), a mesma do
   lote 1. Inclui os já publicados; quem filtra é `publicados.json`. Sai com 1 se faltarem `eleitos.json` ou `indicadores.json`.
 - `rastro/lote.py` (`--dry-run` só imprime): move os próximos `lote_diario_tamanho` (15) `sq` ainda não publicados para
-  `publicados.json`, roda `build_site.py`, cria a branch `rastro/lote-AAAA-MM-DD` a partir de `origin/main`, commita só
-  `publicados.json`, `fila.json` e `site/` (o build também muda `sitemap.xml` e `llms.txt`; assim a árvore termina limpa), dá push e abre o PR "Rastro: lote AAAA-MM-DD". Nunca faz merge nem deploy:
-  o merge do PR é a publicação. Recusa árvore suja e branch do dia já existente. Precisa de `gh` logado com permissão de push.
+  `publicados.json`, cria a branch `rastro/lote-AAAA-MM-DD` a partir de `origin/main`, roda `build_site.py`, commita só
+  `publicados.json`, `fila.json` e `site/` (o build também muda `sitemap.xml` e `llms.txt`; assim a árvore termina limpa), roda
+  `python3 -m pytest -q` sobre o conteúdo exato do lote, dá push e abre o PR "Rastro: lote AAAA-MM-DD".
+- **Merge automático, condicionado aos testes**: com o pytest verde, o próprio `lote.py` faz `gh pr merge --squash --delete-branch`
+  (o merge no `main` é a publicação: a Vercel publica a cada push). Com o pytest vermelho (LGPD, redação, isolamento em
+  `tests/test_rastro_publicado.py` e o resto), o PR fica aberto com o label **`bloqueado`**, sem merge, e o lote sai com 1.
+  Enquanto houver PR de lote aberto com `bloqueado`, os lotes seguintes não rodam: o lote reprovado pede conserto humano e não é
+  empilhado nem duplicado. Recusa também árvore suja e branch do dia já existente.
 - **Trava**: de `trava_inicio` a `trava_fim` (23 a 26/10/2026, inclusive, em `config.json`) o `lote.py` sai com código 2 antes de
-  qualquer comando. A trava está no Python, então vale também para quem rodar à mão.
-- `rastro/cron_lote.sh` faz `git pull --ff-only` no `main` e roda o lote, com log em `rastro/brutos/lote.log`. Não está
-  instalado; linha de crontab sugerida na VPS (instalar fica para o Vitor):
-
-```
-0 9 * * * sh /caminho/do/repo/rastro/cron_lote.sh
-```
+  qualquer comando. A trava está no Python, então vale também para quem rodar à mão e para o workflow.
+- **Workflow** `.github/workflows/rastro-lote.yml` (substitui o antigo `cron_lote.sh`): todo dia às 12:00 UTC (09:00 BRT) e por
+  `workflow_dispatch` (input `dry_run`, que roda `lote.py --dry-run`). Nenhum passo do YAML faz merge: o merge só existe no
+  `lote.py`, depois do pytest. Pré-requisitos, feitos uma vez pelo Vitor:
+  - secret `RASTRO_SAL` com o conteúdo de `rastro/.sal` (da máquina que gerou os ids publicados): `gh secret set RASTRO_SAL < rastro/.sal`.
+    Sem ele o workflow falha antes de tudo (sem o sal os ids de MEI mudariam);
+  - vars `GA_ID` e `CLARITY_ID` (Settings → Secrets and variables → Actions → Variables), senão o build sai sem medição;
+  - label `bloqueado` no repo (`gh label create bloqueado`);
+  - Settings → Actions → General → "Allow GitHub Actions to create and approve pull requests" ligado.
+- Os indicadores que não puderam ser calculados (fonte fora do ar, arquivo de `brutos/` ausente) ficam em `avisos` no
+  `dados/indicadores.json` e aparecem numa nota da metodologia.

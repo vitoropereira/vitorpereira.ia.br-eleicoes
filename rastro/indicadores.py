@@ -553,11 +553,13 @@ def calcular(sq, contas, fornecedores, agregados, doadores_hash, cfg, cnae_x_tip
     return itens + pagamento_tardio(sq, contas, cfg)
 
 
-def ler_opcional(caminho, o_que):
-    """JSON de um arquivo opcional de brutos/; ausente (ou caminho None) vira None e um aviso."""
+def ler_opcional(caminho, o_que, avisos=None):
+    """JSON de um arquivo opcional de brutos/; ausente (ou caminho None) vira None e um aviso (no log e em `avisos`)."""
     if caminho is not None and Path(caminho).exists():
         return ler_json(caminho)
     log.warning("sem %s: %s pulado", caminho, o_que)
+    if avisos is not None:
+        avisos.append(f"{o_que}: pulado (fonte indisponível)")
     return None
 
 
@@ -568,11 +570,8 @@ def gerar(dir_contas, fornecedores_path, agregados_path, hash_path, cfg, saida, 
     env = ler_json(fornecedores_path)
     fornecedores = env["fornecedores"]
     agregados = ler_json(agregados_path)
-    if Path(hash_path).exists():
-        doadores_hash = ler_json(hash_path)
-    else:
-        doadores_hash = None
-        log.warning("sem %s: socio_doador pulado", hash_path)
+    avisos = []  # vão para indicadores.json["avisos"] e para a metodologia: o que não foi calculado nesta base
+    doadores_hash = ler_opcional(hash_path, "socio_doador", avisos)
     if Path(candidatos_path).exists():
         candidatos = ler_json(candidatos_path)
         if not any(c.get("cpf_meio") for c in candidatos.values()):
@@ -580,6 +579,7 @@ def gerar(dir_contas, fornecedores_path, agregados_path, hash_path, cfg, saida, 
     else:
         candidatos = None
         log.warning("sem %s: socio_ligado pulado", candidatos_path)
+        avisos.append("socio_ligado (candidatos): pulado (fonte indisponível)")
     idx = indice_doadores(doadores_hash) if doadores_hash is not None else None  # uma vez, não por eleito
     idx_cand = indice_candidatos(candidatos) if candidatos is not None else None
     if Path(eleitos_path).exists():
@@ -587,9 +587,10 @@ def gerar(dir_contas, fornecedores_path, agregados_path, hash_path, cfg, saida, 
     else:
         eleitos = {}
         log.warning("sem %s: preco_fora_da_curva e gasto_por_voto pulados", eleitos_path)
-    pf_hash = ler_opcional(pf_path, "repetidos do pessoal_pf")
+        avisos.append("preco_fora_da_curva e gasto_por_voto: pulados (fonte indisponível)")
+    pf_hash = ler_opcional(pf_path, "repetidos do pessoal_pf", avisos)
     idx_pf = indice_pf(pf_hash) if pf_hash is not None else None
-    saques = ler_opcional(saques_path, "saque_especie")
+    saques = ler_opcional(saques_path, "saque_especie", avisos)
     idx_nomeados = None
     if nomeados_path is not None and Path(nomeados_path).exists():
         env_nom = ler_json(nomeados_path)
@@ -599,6 +600,7 @@ def gerar(dir_contas, fornecedores_path, agregados_path, hash_path, cfg, saida, 
         idx_nomeados = indice_nomeados(env_nom)
     else:
         log.warning("sem %s: socio_ligado (nomeações) pulado", nomeados_path)
+        avisos.append("socio_ligado (nomeações): pulado (fonte indisponível)")
     res = {}
     for arq in sorted(Path(dir_contas).glob("*.json")):
         contas = ler_json(arq)
@@ -618,7 +620,7 @@ def gerar(dir_contas, fornecedores_path, agregados_path, hash_path, cfg, saida, 
                 fonte.append(u)
     gravar(saida, {"fonte": fonte, "data_base": env.get("data_base"),
                    "gerado_em": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-                   "indicadores": res})
+                   "avisos": avisos, "indicadores": res})
     return res
 
 

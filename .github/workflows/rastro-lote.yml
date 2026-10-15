@@ -1,0 +1,68 @@
+# Lote diário do Rastro do dinheiro. O merge só acontece dentro de rastro/lote.py, e só se `python3 -m pytest -q` passar
+# sobre o conteúdo exato do lote; se falhar, o PR fica aberto com o label `bloqueado`. A trava de 23 a 26/10 está no lote.py.
+# Pré-requisitos (README do rastro): secret RASTRO_SAL, vars GA_ID e CLARITY_ID, label `bloqueado` e
+# "Allow GitHub Actions to create and approve pull requests" ligado.
+name: rastro-lote
+
+on:
+  schedule:
+    - cron: "0 12 * * *"  # 09:00 BRT
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Só imprime o lote e os comandos, sem gravar nada"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: rastro-lote
+  cancel-in-progress: false
+
+jobs:
+  lote:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Git user
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Dependências de teste
+        run: pip install pytest
+
+      - name: Sal do MEI
+        env:
+          RASTRO_SAL: ${{ secrets.RASTRO_SAL }}
+        run: |
+          # Sem o sal os ids de MEI publicados mudariam: falha antes de qualquer outra coisa.
+          if [ -z "$RASTRO_SAL" ]; then
+            echo "secret RASTRO_SAL vazio ou ausente; nada publicado." >&2
+            exit 1
+          fi
+          printf '%s' "$RASTRO_SAL" > rastro/.sal
+
+      - name: Lote
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GA_ID: ${{ vars.GA_ID }}
+          CLARITY_ID: ${{ vars.CLARITY_ID }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}
+        run: |
+          if [ "$DRY_RUN" = "true" ]; then
+            python3 rastro/lote.py --dry-run
+          else
+            python3 rastro/lote.py
+          fi

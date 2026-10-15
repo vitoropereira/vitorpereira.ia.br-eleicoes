@@ -255,7 +255,16 @@ def descricoes(cfg):
     ]
 
 
-def html_metodologia(cfg):
+def secao_avisos(avisos):
+    """Indicadores pulados na geração (fonte fora do ar ou arquivo ausente), lidos de indicadores.json["avisos"]."""
+    if not avisos:
+        return ""
+    lis = "".join(f"<li>{esc(a)}</li>" for a in avisos)
+    return ("<h2>Indicadores não calculados nesta base</h2><p>Alguma fonte estava indisponível quando os indicadores foram gerados. "
+            f"Estes ficaram de fora e não aparecem em nenhuma página:</p><ul>{lis}</ul>")
+
+
+def html_metodologia(cfg, avisos=None):
     dl = "".join(f"<dt>{n}</dt><dd>{t}</dd>" for n, t in descricoes(cfg))
     nom = (cfg.get("nomeacoes_fontes") or {}).get("siape") or ""
     nom = nom.format(mes=cfg["nomeacoes_mes"].replace("-", "")) if nom else ""
@@ -278,6 +287,7 @@ def html_metodologia(cfg):
                "<li>O casamento por nome (sócio com doador, candidato ou servidor) pode errar com homônimos; por isso o texto avisa “pode ser homônimo”.</li>"
                "<li>A prestação de contas é parcial e muda até a prestação final; a data da base está em cada página.</li>"
                "<li>Pessoas físicas pagas aparecem só como contagem e total; MEI aparece só pelo CNPJ mascarado. Nenhum CPF é publicado.</li></ul>"
+             + secao_avisos(avisos)
              + "<h2>Correções</h2><p>Quando um dado publicado é corrigido, a página afetada ganha uma seção “Correções” com a data e o que mudou, "
                "e o registro fica no arquivo <code>rastro/correcoes.json</code> do repositório. Correção não apaga o histórico: ela aparece na própria página.</p>"
              + bloco_contestar(cfg, "Contestar dado do Rastro"))
@@ -371,8 +381,34 @@ def html_fornecedor(id_, rec, campanhas, itens, cfg, bases, anteriores=None):
     return pagina(f"{nome} · Rastro do dinheiro", corpo)
 
 
-def html_home(entradas, fornecedores, cfg, bases):
+def _parcial(contas):
+    return bool(contas) and contas.get("prestacao_parcial") is not False and bool(contas.get("despesas"))
+
+
+def _ordem_eleitos(entradas):
+    ordem = list(CARGOS)
+    return sorted(entradas, key=lambda e: (ordem.index(e["eleito"]["cargo"]) if e["eleito"]["cargo"] in ordem else 99,
+                                           -(e["eleito"].get("votos") or 0), e["eleito"]["nome_urna"]))
+
+
+def tabela_pendentes(pendentes):
+    """Eleitos fora de publicados.json: nome, cargo, gasto e nº de indicadores, sem link (a página ainda não existe)."""
+    if not pendentes:
+        return ""
+    linhas = []
+    for e in _ordem_eleitos(pendentes):
+        el = e["eleito"]
+        gasto = ind.brl(e["contas"]["despesas"].get("total_contratado") or 0) if _parcial(e["contas"]) else "sem prestação parcial publicada"
+        linhas.append(f'<tr><td>{esc(el["nome_urna"])}<small>{esc(_rotulo_cargo(el))}</small></td><td class="v">{esc(gasto)}</td>'
+                      f'<td class="v">{len(e["itens"])}</td></tr>')
+    return (f'<h2>Eleitos ainda sem página</h2><p>{len(pendentes)} eleitos entram nos próximos lotes. Os indicadores contados aqui ainda '
+            'não foram revisados numa página própria.</p><table class="rs-tab"><thead><tr><th>Eleito(a)</th><th class="v">Contratado</th>'
+            f'<th class="v">Indicadores</th></tr></thead><tbody>{"".join(linhas)}</tbody></table>')
+
+
+def html_home(entradas, fornecedores, cfg, bases, pendentes=None):
     """entradas: [{eleito, caminho, contas, itens}] dos publicados; fornecedores: [{id, rotulo, mei, total, n}] já agregados.
+    pendentes: [{eleito, contas, itens}] dos eleitos ainda sem página (tabela sem link).
     Só entra nas somas quem tem prestação parcial publicada; eleito sem contas aparece sem 'R$ 0'."""
     base = (f'contas do TSE até {data_br(bases["contas"])}' if bases.get("contas") else "data das contas não informada") + (
         f' · cadastro de empresas da Receita de {data_br(bases["receita"])}' if bases.get("receita") else "")
@@ -381,13 +417,13 @@ def html_home(entradas, fornecedores, cfg, bases):
            "<p class=\"rs-meta\">Para onde foi o dinheiro de campanha dos eleitos de 2026, cruzando as contas do TSE com o cadastro de empresas da Receita.</p>"
            f'<p class="rs-base">Base de dados: {esc(base)}.</p>' + aviso_bloco())
     fim = bloco_contestar(cfg, "Contestar dado do Rastro")
+    pend_h = tabela_pendentes(pendentes)
     if not entradas:
         return pagina("Rastro do dinheiro · Eleições 2026",
-                      f'{cab}<p class="rs-vazio">Nenhuma página publicada ainda. Os primeiros eleitos entram aqui em lotes.</p>{fim}')
+                      f'{cab}<p class="rs-vazio">Nenhuma página publicada ainda. Os primeiros eleitos entram aqui em lotes.</p>{pend_h}{fim}')
 
     def parcial(e):
-        c = e["contas"]
-        return bool(c) and c.get("prestacao_parcial") is not False and bool(c.get("despesas"))
+        return _parcial(e["contas"])
 
     por_cargo = {}
     for e in entradas:
@@ -405,8 +441,7 @@ def html_home(entradas, fornecedores, cfg, bases):
     forn_h = ("<h2>Maiores fornecedores entre os publicados</h2>" + (f'<table class="rs-tab"><thead><tr><th>Fornecedor</th><th class="v">Contratado</th></tr></thead><tbody>{linhas_f}</tbody></table>'
               if linhas_f else '<p class="rs-vazio">Nenhum fornecedor pessoa jurídica nas páginas publicadas.</p>'))
     linhas_e = []
-    for e in sorted(entradas, key=lambda e: (ordem.index(e["eleito"]["cargo"]) if e["eleito"]["cargo"] in ordem else 99,
-                                              -(e["eleito"].get("votos") or 0), e["eleito"]["nome_urna"])):
+    for e in _ordem_eleitos(entradas):
         el = e["eleito"]
         gasto = (ind.brl(e["contas"]["despesas"].get("total_contratado") or 0) if parcial(e) else "sem prestação parcial publicada")
         votos = f'{el["votos"]:,}'.replace(",", ".") + " votos" if el.get("votos") else ""
@@ -418,7 +453,7 @@ def html_home(entradas, fornecedores, cfg, bases):
     lis = "".join(f'<li><code>{esc(nome)}</code>: {q} ocorrência(s)</li>' for nome, q in sorted(cont.items(), key=lambda kv: (-kv[1], kv[0])))
     ind_h = ("<h2>Indicadores mais frequentes</h2>" + (f'<ul class="rs-ind">{lis}</ul><p>O que cada indicador mede: <a href="/rastro/metodologia/">metodologia</a>.</p>'
              if lis else '<p class="rs-vazio">Nenhum indicador disparado nas páginas publicadas.</p>'))
-    return pagina("Rastro do dinheiro · Eleições 2026", cab + cargo_h + forn_h + eleitos_h + ind_h + fim)
+    return pagina("Rastro do dinheiro · Eleições 2026", cab + cargo_h + forn_h + eleitos_h + ind_h + pend_h + fim)
 
 
 def aplicar_correcoes(paginas, correcoes):
@@ -510,6 +545,13 @@ def gerar(dest, publicados, eleitos, dir_contas, indicadores, fornecedores, cfg,
     for a in agg.values():
         a["id"] = id_fornecedor(a["cnpj"], a["mei"], sal)
     ids = {c: a["id"] for c, a in agg.items()}
+    pendentes = []
+    for sq, e in por_sq.items():
+        if sq in publicados:
+            continue
+        arq = Path(dir_contas) / f"{sq}.json"
+        pendentes.append({"eleito": e, "contas": json.loads(arq.read_text(encoding="utf-8")) if arq.exists() else None,
+                          "itens": por_ind.get(sq) or []})
     bases_g = {"contas": (indicadores or {}).get("data_base") or receita, "receita": receita}
     for en in entradas:
         en["html"] = html_eleito(en["eleito"], en["contas"], en["itens"], forn, cfg,
@@ -520,10 +562,10 @@ def gerar(dest, publicados, eleitos, dir_contas, indicadores, fornecedores, cfg,
         resumo.append({"id": a["id"], "rotulo": a["rotulo"], "mei": a["mei"], "n": len(a["campanhas"]), "total": sum(c["total"] for c in a["campanhas"])})
     paginas = [_meta("rastro/", "Rastro do dinheiro | Eleições 2026",
                      "Para onde foi o dinheiro de campanha dos eleitos de 2026: total por cargo, maiores fornecedores e indicadores, com a fonte de cada dado. " + AVISO,
-                     html_home(entradas, resumo, cfg, bases_g), []),
+                     html_home(entradas, resumo, cfg, bases_g, pendentes), []),
                _meta("rastro/metodologia/", "Metodologia do Rastro do dinheiro | Eleições 2026",
                      "Como o Rastro do dinheiro cruza as contas de campanha com o cadastro da Receita, quais indicadores usa, os limiares e o que eles não dizem.",
-                     html_metodologia(cfg), [("Metodologia", None)])]
+                     html_metodologia(cfg, (indicadores or {}).get("avisos")), [("Metodologia", None)])]
     for en in entradas:
         e = en["eleito"]
         nome = f"{e['nome_urna']} ({e['partido']}-{e['uf']})"
