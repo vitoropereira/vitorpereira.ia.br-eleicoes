@@ -62,6 +62,41 @@ DEP_PENDENTES = sorted(set(rel["depfed"].get("ufs_pendentes", []) + rel["depest"
 apertado = min((u for u in rel["pres_uf"] if u["uf"] != "ZZ"), key=lambda u: abs(u["saldo"]))
 LEITURA = datetime.strptime(f'{N["dg"]} {N["ht"]}', "%d/%m/%Y %H:%M:%S")
 
+
+# partido junto do nome (sigla do TSE, de relatorio.json): "Flávio Bolsonaro (PL)" e "Flávio (PL)"
+def rotulo(c):
+    return f'{NOME_EXIBICAO.get(c["nome"], c["nome"])} ({c["sg"]})'
+
+
+def curto(c):
+    return f'{NOME_EXIBICAO.get(c["nome"], c["nome"]).split()[0]} ({c["sg"]})'
+
+
+def textos_principal():
+    """(h1, título, descrição) da página principal"""
+    c1, c2 = sorted(N["cand"], key=lambda c: -c["p"])[:2]
+    h1 = f"Eleições 2026: {rotulo(c1)} e {rotulo(c2)} vão ao 2º turno" if c1["p"] < 50 else f"Eleições 2026: {rotulo(c1)} é eleito no 1º turno"
+    titulo = f"Eleições 2026: {curto(cF)} {fmt(cF['p'], 1)}% × {curto(cL)} {fmt(cL['p'], 1)}% no 1º turno"
+    desc = (f"{rotulo(cF)} e {rotulo(cL)} vão ao 2º turno em 25/10. Mapa por estado, governadores, Senado, Câmara e Assembleias "
+            f"com {fmt(N['pst'], 2)}% das urnas apuradas pelo TSE.")
+    return h1, titulo, desc
+
+
+def textos_leitura(d):
+    """(h1, título, descrição) da página de uma leitura parcial"""
+    pst = fmt(d["pst"], 1)
+    return (f"Apuração com {pst}% das urnas: {curto(cF)} {fmt(d['f'], 2)}% × {curto(cL)} {fmt(d['l'], 2)}%",
+            f"Apuração {pst}%: {curto(cF)} × {curto(cL)} | Eleições 2026",
+            f"Leitura parcial do TSE às {d['ht'][:5]} de 04/10/2026: {curto(cF)} {fmt(d['f'], 2)}%, {curto(cL)} {fmt(d['l'], 2)}%. "
+            f"Projeção do resultado final e chance de cada cenário naquele momento.")
+
+
+def html_leitura(tpl, d):
+    """template.html + dados da leitura; D.sg = siglas de Flávio e Lula, D.sgn = sigla de cada candidato pelo nome"""
+    dados = {**d, "sg": {"f": cF["sg"], "l": cL["sg"]}, "sgn": {c["nome"]: c["sg"] for c in N["cand"]}}
+    raw = brand.aplicar(tpl.replace("/*__DATA__*/null", json.dumps(dados, ensure_ascii=False)))
+    return raw.replace("<h1>Presidente 2026 · 1º turno — apuração e projeções</h1>", f"<h1>{html.escape(textos_leitura(d)[0])}</h1>", 1)
+
 # ---------------- rodadas da apuração (dados de cada snapshot, renderizados com o template atual)
 def dados_snapshot(path):
     if path.startswith("git:"):
@@ -392,11 +427,11 @@ def faq():
     pst = fmt(N["pst"], 2)
     qa = [
         ("Quem vai para o 2º turno da eleição presidencial de 2026?",
-         f"Flávio Bolsonaro (PL) e Lula (PT). Com {pst}% das seções apuradas pelo TSE, Flávio teve {fmt(cF['p'], 2)}% dos votos válidos e Lula, {fmt(cL['p'], 2)}%. Nenhum candidato passou de 50%."),
+         f"{rotulo(cF)} e {rotulo(cL)}. Com {pst}% das seções apuradas pelo TSE, Flávio teve {fmt(cF['p'], 2)}% dos votos válidos e Lula, {fmt(cL['p'], 2)}%. Nenhum candidato passou de 50%."),
         ("Quando é o 2º turno das eleições de 2026?",
          "Domingo, 25 de outubro de 2026, o último domingo de outubro, como define a Constituição. Haverá 2º turno para presidente e para governador nos estados em que ninguém passou de 50% dos votos válidos."),
-        ("Em quais estados Flávio Bolsonaro e Lula venceram?",
-         f"Flávio venceu em {len(ufF)} unidades da federação ({', '.join(u['uf'] for u in sorted(ufF, key=lambda u: u['uf']))}). Lula venceu em {len(ufL)} ({', '.join(u['uf'] for u in sorted(ufL, key=lambda u: u['uf']))}). A disputa mais apertada foi no {apertado['uf']}, decidida por {fmt(abs(apertado['saldo']), 0)} votos."),
+        (f"Em quais estados {rotulo(cF)} e {rotulo(cL)} venceram?",
+         f"{curto(cF)} venceu em {len(ufF)} unidades da federação ({', '.join(u['uf'] for u in sorted(ufF, key=lambda u: u['uf']))}). {curto(cL)} venceu em {len(ufL)} ({', '.join(u['uf'] for u in sorted(ufL, key=lambda u: u['uf']))}). A disputa mais apertada foi no {apertado['uf']}, decidida por {fmt(abs(apertado['saldo']), 0)} votos."),
         ("Quais estados terão 2º turno para governador?",
          f"{', '.join(g['uf'] for g in gov2)}" + (f". No {', '.join(g['uf'] for g in govIn)}, o resultado depende do julgamento de uma candidatura sub judice" if govIn else "") +
          f". Os outros {len(govEl)} estados elegeram o governador no 1º turno" + (" (situação oficial do TSE)." if GOV_OFICIAL else " (cálculo pelas regras eleitorais, antes da proclamação oficial).")),
@@ -407,7 +442,7 @@ def faq():
         ("Qual foi a abstenção no 1º turno de 2026?",
          f"{fmt(N['pa'], 2)}% dos eleitores, cerca de {fmt(N['abstencao'] / 1e6, 1)} milhões de pessoas. Em 2022, a abstenção no 1º turno foi de 20,95%."),
         ("As pesquisas acertaram o 1º turno?",
-         f"Para Lula, sim. Para Flávio, a maioria errou: Datafolha, Quaest, PoderData, MDA e AtlasIntel indicavam entre 42,1% e 44,1% dos válidos na véspera, e ele fez {fmt(cF['p'], 1)}%."),
+         f"Para {curto(cL)}, sim. Para {curto(cF)}, a maioria errou: Datafolha, Quaest, PoderData, MDA e AtlasIntel indicavam entre 42,1% e 44,1% dos válidos na véspera, e ele fez {fmt(cF['p'], 1)}%."),
     ]
     vis = '<section id="perguntas" class="faq"><h2>Perguntas frequentes</h2><p class="lead">Respostas curtas, com os números da apuração.</p>' + \
           "".join(f"<details{' open' if i < 2 else ''}><summary>{html.escape(q)}</summary><p>{html.escape(a)}</p></details>" for i, (q, a) in enumerate(qa)) + "</section>"
@@ -602,8 +637,8 @@ h1{{font:600 60px/1.05 "JetBrains Mono",monospace;margin:14px 0 0;letter-spacing
 .f{{margin-top:26px;font-size:22px;color:#8593AB;display:flex;justify-content:space-between}}
 .f b{{color:#E9EEF7;font:600 22px "JetBrains Mono",monospace}}.f b i{{display:inline-block;width:11px;height:24px;background:#24C8FF;vertical-align:-4px;margin-left:3px}}</style></head><body><div class="w">
 <div class="k">{html.escape(sub)}</div><h1>{html.escape(titulo)}</h1>
-<div class="row"><div class="c" style="--c:#5B7FE8"><div class="n">Flávio Bolsonaro · PL</div><div class="p">{fmt(f, 2)}%</div></div>
-<div class="c" style="--c:#E35A4F"><div class="n">Lula · PT</div><div class="p">{fmt(l, 2)}%</div></div></div>
+<div class="row"><div class="c" style="--c:#5B7FE8"><div class="n">Flávio Bolsonaro · {html.escape(cF["sg"])}</div><div class="p">{fmt(f, 2)}%</div></div>
+<div class="c" style="--c:#E35A4F"><div class="n">Lula · {html.escape(cL["sg"])}</div><div class="p">{fmt(l, 2)}%</div></div></div>
 <div class="f"><span>{html.escape(rodape_txt)}</span><b>vitor pereira<i></i></b></div></div></body></html>"""
 
 
@@ -641,6 +676,30 @@ def rastro_publicar(dest, publicado, modificado, moldura=True):
     return [(p["path"], modificado, prioridade(p["path"])) for p in pags]
 
 
+IDX_CSS = """<style>
+.rd{display:grid;grid-template-columns:70px 120px 1fr 260px;gap:16px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:0 0 10px;color:var(--ink);text-decoration:none}
+.rd:hover{border-color:var(--muted)}.rd .t{color:var(--ink2);font-variant-numeric:tabular-nums}.rd .p{font-size:24px;font-weight:700;font-variant-numeric:tabular-nums}
+.rd small{display:block;font-size:12px;font-weight:400;color:var(--muted)}.rd .bar{height:12px;border-radius:4px;background:var(--line);display:flex;gap:2px;overflow:hidden}.rd .bar i{display:block;height:100%}
+.rd .v{font-size:14px;font-variant-numeric:tabular-nums}.final{border-left:4px solid var(--ink)}
+@media (max-width:760px){.rd{grid-template-columns:60px 1fr}.rd .bar,.rd .v{grid-column:1/-1}}</style>"""
+
+
+def pagina_apuracao(style):
+    """/apuracao/: índice das leituras (HTML estático, sem JS); `style` = CSS do relatório"""
+    linhas = "".join(
+        f'<a class="rd" href="{r["url"]}"><span class="t">{r["d"]["ht"][:5]}</span><span class="p">{fmt(r["d"]["pst"], 1)}%<small>apurado</small></span>'
+        f'<span class="bar"><i style="width:{r["d"]["f"]}%;background:var(--flavio)"></i><i style="width:{r["d"]["l"]}%;background:var(--lula)"></i></span>'
+        f'<span class="v">{curto(cF)} {fmt(r["d"]["f"], 2)}% × {curto(cL)} {fmt(r["d"]["l"], 2)}%<small>projeção final: {fmt(r["d"]["traj"]["mc50"][-1]["f"] if "traj" in r["d"] else r["d"]["scen"][0]["f"], 1)} × {fmt(r["d"]["traj"]["mc50"][-1]["l"] if "traj" in r["d"] else r["d"]["scen"][0]["l"], 1)}</small></span></a>'
+        for r in rodadas)
+    rows_final = (f'<a class="rd final" href="/"><span class="t">{N["ht"][:5]}</span><span class="p">{fmt(N["pst"], 2)}%<small>resultado</small></span>'
+                  f'<span class="bar"><i style="width:{cF["p"]}%;background:var(--flavio)"></i><i style="width:{cL["p"]}%;background:var(--lula)"></i></span>'
+                  f'<span class="v"><b>{curto(cF)} {fmt(cF["p"], 2)}% × {curto(cL)} {fmt(cL["p"], 2)}%</b><small>relatório final completo →</small></span></a>')
+    return f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>x</title>{style}{IDX_CSS}</head><body><main>
+<header><h1>A apuração do 1º turno, leitura a leitura</h1><p>{curto(cF)} começou a noite com mais de 50% porque o Sul e o Centro-Oeste foram apurados mais rápido. Conforme o Nordeste entrou, {curto(cL)} reduziu a diferença, mas não passou. Cada página abaixo é o painel exatamente como estava naquele momento.</p></header>
+<section style="margin-top:22px">{rows_final}{linhas}</section>
+<p class="note">As leituras de 24,5% (18:19) e 27,9% (18:23) não têm painel salvo; os números delas aparecem na trajetória de cada página.</p></main></body></html>"""
+
+
 def main():
     for nome, valor in (("GA_ID", GA_ID), ("CLARITY_ID", CLARITY_ID)):
         if not valor:
@@ -662,15 +721,10 @@ def main():
     raw = raw.replace('<section id="metodo">', faq_vis + '\n<section id="metodo">', 1)
     raw = raw.replace('<a href="#metodo">Método e fontes</a>', '<a href="#perguntas">Perguntas</a><a href="#metodo">Método e fontes</a>', 1)
     # H1 com a resposta (AEO); o título antigo vira subtítulo
-    c1, c2 = sorted(N["cand"], key=lambda c: -c["p"])[:2]
-    nome = lambda c: NOME_EXIBICAO.get(c["nome"], c["nome"])
-    h1 = (f"Eleições 2026: {nome(c1)} e {nome(c2)} vão ao 2º turno" if c1["p"] < 50 else f"Eleições 2026: {nome(c1)} é eleito no 1º turno")
+    h1, titulo, desc = textos_principal()
     antigo = "<h1>Eleições 2026 · Relatório final do 1º turno</h1>"
     assert antigo in raw, "H1 do relatório mudou: ajuste build_site.py"
     raw = raw.replace(antigo, f'<p class="kicker">Relatório final do 1º turno</p>\n  <h1>{html.escape(h1)}</h1>', 1)
-    titulo = f"Eleições 2026: Flávio {fmt(cF['p'], 1)}% × Lula {fmt(cL['p'], 1)}% no 1º turno"
-    desc = (f"Flávio Bolsonaro e Lula vão ao 2º turno em 25/10. Mapa por estado, governadores, Senado, Câmara e Assembleias "
-            f"com {fmt(N['pst'], 2)}% das urnas apuradas pelo TSE.")
     ld = [{"@context": "https://schema.org", "@type": "WebSite", "name": SITE_NAME, "url": BASE + "/", "inLanguage": "pt-BR", "publisher": PESSOA},
           {"@context": "https://schema.org", "@type": "NewsArticle", "headline": titulo[:110], "description": desc, "inLanguage": "pt-BR",
            "datePublished": publicado, "dateModified": modificado, "author": PESSOA, "publisher": PESSOA,
@@ -692,12 +746,8 @@ def main():
     tpl = (R / "template.html").read_text()
     for i, r in enumerate(rodadas):
         d = r["d"]; pst = fmt(d["pst"], 1); hora = d["ht"][:5]
-        raw = brand.aplicar(tpl.replace("/*__DATA__*/null", json.dumps(d, ensure_ascii=False)))
-        raw = raw.replace("<h1>Presidente 2026 · 1º turno — apuração e projeções</h1>", f"<h1>Apuração com {pst}% das urnas: Flávio {fmt(d['f'], 2)}% × Lula {fmt(d['l'], 2)}%</h1>", 1)
-        titulo = f"Apuração {pst}%: Flávio × Lula | Eleições 2026"
-        mc = d["mc"]
-        desc = (f"Leitura parcial do TSE às {hora} de 04/10/2026: Flávio {fmt(d['f'], 2)}%, Lula {fmt(d['l'], 2)}%. "
-                f"Projeção do resultado final e chance de cada cenário naquele momento.")
+        raw = html_leitura(tpl, d)
+        _, titulo, desc = textos_leitura(d)
         nav = "".join(f'<a href="{x["url"]}"{" aria-current=page" if x is r else ""}>{fmt(x["d"]["pst"], 1)}%</a>' for x in rodadas)
         top = (f'<nav class="crumbs" aria-label="Trilha"><a href="/">Início</a> › <a href="/apuracao/">Apuração</a> › {pst}%</nav>'
                f'<div class="banner"><div>Esta é uma <b>leitura parcial</b>: o retrato da apuração às {hora}, com {pst}% das urnas. '
@@ -715,28 +765,11 @@ def main():
         paginas.append((path, ISO(datetime.strptime("04/10/2026 " + d["ht"], "%d/%m/%Y %H:%M:%S")), "0.6"))
 
     # ---- índice da apuração (HTML estático, sem JS)
-    linhas = "".join(
-        f'<a class="rd" href="{r["url"]}"><span class="t">{r["d"]["ht"][:5]}</span><span class="p">{fmt(r["d"]["pst"], 1)}%<small>apurado</small></span>'
-        f'<span class="bar"><i style="width:{r["d"]["f"]}%;background:var(--flavio)"></i><i style="width:{r["d"]["l"]}%;background:var(--lula)"></i></span>'
-        f'<span class="v">Flávio {fmt(r["d"]["f"], 2)}% × Lula {fmt(r["d"]["l"], 2)}%<small>projeção final: {fmt(r["d"]["traj"]["mc50"][-1]["f"] if "traj" in r["d"] else r["d"]["scen"][0]["f"], 1)} × {fmt(r["d"]["traj"]["mc50"][-1]["l"] if "traj" in r["d"] else r["d"]["scen"][0]["l"], 1)}</small></span></a>'
-        for r in rodadas)
-    idx_css = """<style>
-.rd{display:grid;grid-template-columns:70px 120px 1fr 260px;gap:16px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:0 0 10px;color:var(--ink);text-decoration:none}
-.rd:hover{border-color:var(--muted)}.rd .t{color:var(--ink2);font-variant-numeric:tabular-nums}.rd .p{font-size:24px;font-weight:700;font-variant-numeric:tabular-nums}
-.rd small{display:block;font-size:12px;font-weight:400;color:var(--muted)}.rd .bar{height:12px;border-radius:4px;background:var(--line);display:flex;gap:2px;overflow:hidden}.rd .bar i{display:block;height:100%}
-.rd .v{font-size:14px;font-variant-numeric:tabular-nums}.final{border-left:4px solid var(--ink)}
-@media (max-width:760px){.rd{grid-template-columns:60px 1fr}.rd .bar,.rd .v{grid-column:1/-1}}</style>"""
-    rows_final = (f'<a class="rd final" href="/"><span class="t">{N["ht"][:5]}</span><span class="p">{fmt(N["pst"], 2)}%<small>resultado</small></span>'
-                  f'<span class="bar"><i style="width:{cF["p"]}%;background:var(--flavio)"></i><i style="width:{cL["p"]}%;background:var(--lula)"></i></span>'
-                  f'<span class="v"><b>Flávio {fmt(cF["p"], 2)}% × Lula {fmt(cL["p"], 2)}%</b><small>relatório final completo →</small></span></a>')
     base_tpl = (R / "relatorio" / "relatorio_final.html").read_text()
     style = re.search(r"<style>.*?</style>", base_tpl, re.S).group(0)
     titulo = "Apuração do 1º turno de 2026, leitura a leitura"
     desc = "Como a apuração de 04/10/2026 evoluiu: cada leitura do TSE com o % de urnas, os votos de Flávio e Lula e a projeção do resultado naquele momento."
-    pagina = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>x</title>{style}{idx_css}</head><body><main>
-<header><h1>A apuração do 1º turno, leitura a leitura</h1><p>Flávio começou a noite com mais de 50% porque o Sul e o Centro-Oeste foram apurados mais rápido. Conforme o Nordeste entrou, Lula reduziu a diferença, mas não passou. Cada página abaixo é o painel exatamente como estava naquele momento.</p></header>
-<section style="margin-top:22px">{rows_final}{linhas}</section>
-<p class="note">As leituras de 24,5% (18:19) e 27,9% (18:23) não têm painel salvo; os números delas aparecem na trajetória de cada página.</p></main></body></html>"""
+    pagina = pagina_apuracao(style)
     ld = [{"@context": "https://schema.org", "@type": "CollectionPage", "name": titulo, "description": desc, "url": BASE + "/apuracao/", "inLanguage": "pt-BR", "author": PESSOA,
            "hasPart": [{"@type": "NewsArticle", "url": BASE + r["url"], "headline": f"Apuração com {fmt(r['d']['pst'], 1)}% das urnas"} for r in rodadas]},
           {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [

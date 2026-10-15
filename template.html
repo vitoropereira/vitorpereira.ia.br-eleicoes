@@ -53,27 +53,27 @@ details summary{cursor:pointer;color:var(--ink2);font-size:13.5px}
   <div class="card">
     <h2>Trajetória da apuração até 100%</h2>
     <p class="cap">Linha cheia = apurado (TSE, um ponto por atualização). Tracejada = projeção mediana até o fim; faixa = 80% das simulações. Pontilhada fina = projeção base (restante igual ao % atual de cada UF).</p>
-    <div class="legend"><span><span class="sw" style="background:var(--flavio)"></span>Flávio</span><span><span class="sw" style="background:var(--lula)"></span>Lula</span><span>── apurado</span><span>- - projeção</span><span>▒ faixa 80%</span></div>
+    <div class="legend"><span><span class="sw" style="background:var(--flavio)"></span>Flávio (<span data-sg="f"></span>)</span><span><span class="sw" style="background:var(--lula)"></span>Lula (<span data-sg="l"></span>)</span><span>── apurado</span><span>- - projeção</span><span>▒ faixa 80%</span></div>
     <div class="ch" style="height:380px"><canvas id="cTraj"></canvas></div>
   </div>
 
   <div class="card">
     <h2>Probabilidades — simulação Monte Carlo (20 mil rodadas)</h2>
-    <p class="cap">Premissa: o voto que falta em cada UF segue o % já apurado da UF, com viés nacional ~N(+1 pt Lula, 3 pt) e ruído por estado ~N(0, 2 pt). É modelo, não pesquisa.</p>
+    <p class="cap">Premissa: o voto que falta em cada UF segue o % já apurado da UF, com viés nacional ~N(+1 pt Lula (<span data-sg="l"></span>), 3 pt) e ruído por estado ~N(0, 2 pt). É modelo, não pesquisa.</p>
     <div class="prob" id="prob"></div>
     <p class="cap" id="mcrange" style="margin:12px 0 0"></p>
   </div>
 
   <div class="card">
     <h2>Cenários de fechamento</h2>
-    <p class="cap">Eixo X: quantos pontos o voto <b>ainda não apurado</b> vira para Lula em relação ao que já foi contado em cada UF. 0 = o restante se comporta igual ao já apurado.</p>
+    <p class="cap">Eixo X: quantos pontos o voto <b>ainda não apurado</b> vira para Lula (<span data-sg="l"></span>) em relação ao que já foi contado em cada UF. 0 = o restante se comporta igual ao já apurado.</p>
     <div class="ch"><canvas id="cScen"></canvas></div>
   </div>
 
   <div class="grid">
     <div class="card">
       <h2>Pesquisas da véspera × projeção</h2>
-      <p class="cap">Vantagem de Flávio sobre Lula em pontos de votos válidos (negativo = Lula à frente).</p>
+      <p class="cap">Vantagem de Flávio (<span data-sg="f"></span>) sobre Lula (<span data-sg="l"></span>) em pontos de votos válidos (negativo = Lula à frente).</p>
       <div class="ch"><canvas id="cPolls"></canvas></div>
     </div>
     <div class="card">
@@ -85,8 +85,8 @@ details summary{cursor:pointer;color:var(--ink2);font-size:13.5px}
 
   <div class="card">
     <h2>Saldo por estado: já apurado × o que ainda vem</h2>
-    <p class="cap">Mil votos de vantagem (Flávio − Lula). "Ainda vem" = estimativa do saldo no voto restante, mantendo o % atual da UF.</p>
-    <div class="legend"><span><span class="sw" style="background:var(--ink2)"></span>Já apurado</span><span><span class="sw" style="background:var(--neutral)"></span>Ainda vem (projetado)</span><span>Lado direito = Flávio · esquerdo = Lula</span></div>
+    <p class="cap">Mil votos de vantagem de Flávio (<span data-sg="f"></span>) sobre Lula (<span data-sg="l"></span>). "Ainda vem" = estimativa do saldo no voto restante, mantendo o % atual da UF.</p>
+    <div class="legend"><span><span class="sw" style="background:var(--ink2)"></span>Já apurado</span><span><span class="sw" style="background:var(--neutral)"></span>Ainda vem (projetado)</span><span>Lado direito = Flávio (<span data-sg="f"></span>) · esquerdo = Lula (<span data-sg="l"></span>)</span></div>
     <div class="ch tall"><canvas id="cStates"></canvas></div>
   </div>
 
@@ -107,6 +107,8 @@ details summary{cursor:pointer;color:var(--ink2);font-size:13.5px}
 </main>
 <script>
 const D=/*__DATA__*/null;
+const SG=D.sg||{f:'',l:''},sgn=n=>D.sgn&&D.sgn[n]?` (${D.sgn[n]})`:'';  // siglas do TSE, injetadas pelo build_site.py
+document.querySelectorAll('[data-sg]').forEach(e=>e.textContent=SG[e.dataset.sg]);
 const css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
 const C={f:css('--flavio'),l:css('--lula'),o:css('--outros'),ink:css('--ink'),ink2:css('--ink2'),mut:css('--muted'),line:css('--line'),neu:css('--neutral'),card:css('--card')};
 const fmt=(x,d=1)=>x.toLocaleString('pt-BR',{minimumFractionDigits:d,maximumFractionDigits:d});
@@ -119,21 +121,21 @@ const base=D.scen[0];
 document.getElementById('sub').textContent=`TSE · ${fmt(D.pst,2)}% das seções apuradas · dados de ${D.ht} · painel gerado ${D.gerado}`;
 document.getElementById('tiles').innerHTML=[
  ['Seções apuradas',fmt(D.pst,2)+'%','Brasil'],
- [`<span class="sw" style="background:${C.f}"></span>Flávio agora`,fmt(D.f,2)+'%',fmtI(D.fv)+' votos'],
- [`<span class="sw" style="background:${C.l}"></span>Lula agora`,fmt(D.l,2)+'%',fmtI(D.lv)+' votos'],
- ['Projeção Flávio',fmt(base.f,1)+'%','restante = % atual de cada UF'],
- ['Projeção Lula',fmt(base.l,1)+'%','restante = % atual de cada UF'],
+ [`<span class="sw" style="background:${C.f}"></span>Flávio (${SG.f}) agora`,fmt(D.f,2)+'%',fmtI(D.fv)+' votos'],
+ [`<span class="sw" style="background:${C.l}"></span>Lula (${SG.l}) agora`,fmt(D.l,2)+'%',fmtI(D.lv)+' votos'],
+ [`Projeção Flávio (${SG.f})`,fmt(base.f,1)+'%','restante = % atual de cada UF'],
+ [`Projeção Lula (${SG.l})`,fmt(base.l,1)+'%','restante = % atual de cada UF'],
 ].map(([k,v,d])=>`<div class="tile"><div class="k">${k}</div><div class="v">${v}</div><div class="d">${d}</div></div>`).join('');
 
 const oth=100-D.f-D.l;
 document.getElementById('nowbar').innerHTML=`<div style="width:${D.f}%;background:${C.f}"></div><div style="width:${D.l}%;background:${C.l}"></div><div style="width:${oth}%;background:${C.o}"></div>`;
-document.getElementById('nowleg').innerHTML=`<span><span class="sw" style="background:${C.f}"></span>Flávio ${fmt(D.f,2)}%</span><span><span class="sw" style="background:${C.l}"></span>Lula ${fmt(D.l,2)}%</span><span><span class="sw" style="background:${C.o}"></span>Outros ${fmt(oth,2)}% (${D.outros.map(o=>o.n+' '+fmt(o.p,2)).join(' · ')})</span>`;
+document.getElementById('nowleg').innerHTML=`<span><span class="sw" style="background:${C.f}"></span>Flávio (${SG.f}) ${fmt(D.f,2)}%</span><span><span class="sw" style="background:${C.l}"></span>Lula (${SG.l}) ${fmt(D.l,2)}%</span><span><span class="sw" style="background:${C.o}"></span>Outros ${fmt(oth,2)}% (${D.outros.map(o=>o.n+sgn(o.n)+' '+fmt(o.p,2)).join(' · ')})</span>`;
 
 const mc=D.mc;
 document.getElementById('prob').innerHTML=[
- ['Flávio vence no 1º turno',mc.p_win1,C.f],['2º turno, Flávio na frente',+(mc.p_lead-mc.p_win1).toFixed(1),C.f],['2º turno, Lula na frente',mc.p_lula,C.l]
+ [`Flávio (${SG.f}) vence no 1º turno`,mc.p_win1,C.f],[`2º turno, Flávio (${SG.f}) na frente`,+(mc.p_lead-mc.p_win1).toFixed(1),C.f],[`2º turno, Lula (${SG.l}) na frente`,mc.p_lula,C.l]
 ].map(([k,v,c])=>`<div class="tile"><div class="k"><span class="sw" style="background:${c}"></span>${k}</div><div class="v">${fmt(v,0)}%</div></div>`).join('');
-document.getElementById('mcrange').textContent=`Vantagem final de Flávio sobre Lula: mediana ${fmt(mc.p50)} pt · intervalo 80% de ${fmt(mc.p10)} a ${fmt(mc.p90)} pt.`;
+document.getElementById('mcrange').textContent=`Vantagem final de Flávio (${SG.f}) sobre Lula (${SG.l}): mediana ${fmt(mc.p50)} pt · intervalo 80% de ${fmt(mc.p10)} a ${fmt(mc.p90)} pt.`;
 
 // trajetória (snapshots antigos não têm hist/traj)
 if(!(D.traj&&D.hist))cTraj.closest('.card').style.display='none';
@@ -144,8 +146,8 @@ const band=(k,c)=>[{label:'_lo'+k,data:xy(T.lo,k),borderWidth:0,pointRadius:0,fi
 const last=D.hist[D.hist.length-1];
 new Chart(cTraj,{type:'line',data:{datasets:[
  ...band('f',C.f),...band('l',C.l),
- {label:'Flávio (apurado)',data:xy(D.hist,'f'),borderColor:C.f,backgroundColor:C.f,borderWidth:2.5,pointRadius:4,pointBorderColor:C.card,pointBorderWidth:2},
- {label:'Lula (apurado)',data:xy(D.hist,'l'),borderColor:C.l,backgroundColor:C.l,borderWidth:2.5,pointRadius:4,pointBorderColor:C.card,pointBorderWidth:2},
+ {label:`Flávio (${SG.f}) apurado`,data:xy(D.hist,'f'),borderColor:C.f,backgroundColor:C.f,borderWidth:2.5,pointRadius:4,pointBorderColor:C.card,pointBorderWidth:2},
+ {label:`Lula (${SG.l}) apurado`,data:xy(D.hist,'l'),borderColor:C.l,backgroundColor:C.l,borderWidth:2.5,pointRadius:4,pointBorderColor:C.card,pointBorderWidth:2},
  {label:'Flávio (projeção mediana)',data:xy(T.mc50,'f'),borderColor:C.f,borderDash:[6,4],borderWidth:2,pointRadius:0,pointHoverRadius:4},
  {label:'Lula (projeção mediana)',data:xy(T.mc50,'l'),borderColor:C.l,borderDash:[6,4],borderWidth:2,pointRadius:0,pointHoverRadius:4},
  {label:'Flávio (projeção base)',data:xy(T.base,'f'),borderColor:C.f,borderDash:[1,3],borderWidth:1.5,pointRadius:0},
@@ -163,8 +165,8 @@ new Chart(cTraj,{type:'line',data:{datasets:[
 
 // cenários
 new Chart(cScen,{type:'line',data:{labels:D.scen.map(s=>'+'+fmt(s.shift,1)),datasets:[
- {label:'Flávio',data:D.scen.map(s=>s.f),borderColor:C.f,backgroundColor:C.f,borderWidth:2,pointRadius:0,pointHoverRadius:5},
- {label:'Lula',data:D.scen.map(s=>s.l),borderColor:C.l,backgroundColor:C.l,borderWidth:2,pointRadius:0,pointHoverRadius:5},
+ {label:`Flávio (${SG.f})`,data:D.scen.map(s=>s.f),borderColor:C.f,backgroundColor:C.f,borderWidth:2,pointRadius:0,pointHoverRadius:5},
+ {label:`Lula (${SG.l})`,data:D.scen.map(s=>s.l),borderColor:C.l,backgroundColor:C.l,borderWidth:2,pointRadius:0,pointHoverRadius:5},
  {label:'50% (vitória no 1º turno)',data:D.scen.map(()=>50),borderColor:C.mut,borderDash:[5,4],borderWidth:1.5,pointRadius:0}]},
  options:{maintainAspectRatio:false,interaction:{mode:'index',intersect:false},
   scales:{x:{title:{display:true,text:'pontos a mais para Lula no voto restante'},grid:{display:false}},y:{suggestedMin:38,suggestedMax:52,ticks:{callback:v=>v+'%'}}},
@@ -184,7 +186,7 @@ const bs=D.states.filter(s=>s.uf!=='ZZ');
 const infl=D.f-base.f;
 const falta=bs.filter(s=>s.te>=2e6&&s.pst<99).sort((a,b)=>a.pst-b.pst).slice(0,3);
 biasT.textContent=infl>=1?'Por que o número de agora está inflado':infl>=0.3?'O número de agora ainda está levemente inflado':'A distorção da ordem de apuração acabou';
-biasC.textContent=`Cada bolha é uma UF (tamanho = eleitorado). Flávio tem ${fmt(D.f,2)}% agora e ${fmt(base.f,1)}% projetado: o número de agora está ${fmt(Math.abs(infl))} pt ${infl>=0?'acima':'abaixo'} do final esperado.`+
+biasC.textContent=`Cada bolha é uma UF (tamanho = eleitorado). Flávio (${SG.f}) tem ${fmt(D.f,2)}% agora e ${fmt(base.f,1)}% projetado: o número de agora está ${fmt(Math.abs(infl))} pt ${infl>=0?'acima':'abaixo'} do final esperado.`+
  (falta.length?` Grandes UFs que mais faltam: ${falta.map(s=>`${s.uf} (${fmt(s.pst,0)}%)`).join(', ')}.`:'');
 const bxMin=Math.max(0,Math.floor((Math.min(...bs.map(s=>s.pst))-4)/10)*10);
 new Chart(cBias,{type:'bubble',data:{datasets:[{data:bs.map(s=>({x:s.pst,y:s.f,r:Math.max(3.5,Math.sqrt(s.te/1e6)*4.2),uf:s.uf})),
@@ -215,7 +217,7 @@ new Chart(cStates,{type:'bar',data:{labels:st.map(s=>s.uf==='ZZ'?'Exterior':s.uf
   scales:{x:{stacked:true,ticks:{callback:v=>(v>0?'+':'')+fmtI(v)+' mil'}},y:{stacked:true,grid:{display:false}}}}});
 
 // tabela
-const cols=[['uf','UF'],['pst','% apurado'],['te','Eleitores (mi)'],['f','Flávio %'],['l','Lula %'],['marg','Saldo apurado (mil)'],['rem_net','Saldo a vir (mil)']];
+const cols=[['uf','UF'],['pst','% apurado'],['te','Eleitores (mi)'],['f',`Flávio (${SG.f}) %`],['l',`Lula (${SG.l}) %`],['marg','Saldo apurado (mil)'],['rem_net','Saldo a vir (mil)']];
 let sk='te',sd=-1;
 function rt(){const r=[...D.states].sort((a,b)=>(a[sk]>b[sk]?1:-1)*sd);
  tbl.innerHTML='<tr>'+cols.map(([k,t])=>`<th data-k="${k}">${t}${k===sk?(sd<0?' ↓':' ↑'):''}</th>`).join('')+'</tr>'+

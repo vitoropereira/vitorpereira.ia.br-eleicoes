@@ -92,8 +92,8 @@ svg.parl circle{stroke:none}
       <div class="ramp" id="rampPres"></div>
     </div>
     <div class="stack">
-      <div class="card"><h3>Por região</h3><p class="cap">% dos votos válidos e saldo de votos (Flávio − Lula).</p><div class="bars" id="reg"></div></div>
-      <div class="card"><h3>Comparação com 2022</h3><p class="cap">1º turno, % dos votos válidos. Em 2022: Lula × Jair Bolsonaro.</p><div id="cmp22"></div></div>
+      <div class="card"><h3>Por região</h3><p class="cap">% dos votos válidos e saldo de votos de Flávio (<span data-sg="f"></span>) sobre Lula (<span data-sg="l"></span>).</p><div class="bars" id="reg"></div></div>
+      <div class="card"><h3>Comparação com 2022</h3><p class="cap">1º turno, % dos votos válidos. Em 2022: Lula (<span data-sg="l"></span>) × Jair Bolsonaro (<span data-sg="j"></span>).</p><div id="cmp22"></div></div>
       <div class="card"><h3>Demais candidatos</h3><div class="bars" id="outros"></div></div>
     </div>
   </div>
@@ -147,12 +147,12 @@ svg.parl circle{stroke:none}
 </section>
 
 <section id="apuracao">
-  <h2>A noite da apuração</h2><p class="lead">Flávio largou na frente porque o Sul e o Centro-Oeste foram apurados mais rápido. Conforme o Nordeste entrou, Lula reduziu a diferença, mas não passou.</p>
+  <h2>A noite da apuração</h2><p class="lead">Flávio (<span data-sg="f"></span>) largou na frente porque o Sul e o Centro-Oeste foram apurados mais rápido. Conforme o Nordeste entrou, Lula (<span data-sg="l"></span>) reduziu a diferença, mas não passou.</p>
   <div class="g2">
-    <div class="card"><h3>Flávio × Lula conforme a apuração avançou</h3><p class="cap">% dos votos válidos no momento de cada leitura do TSE.</p><svg id="traj" role="img" aria-label="Evolução de Flávio Bolsonaro e Lula conforme a apuração avançou" viewBox="0 0 560 260" style="width:100%;display:block"></svg>
-      <div class="legend"><span><span class="sw" style="background:var(--flavio)"></span>Flávio</span><span><span class="sw" style="background:var(--lula)"></span>Lula</span></div></div>
+    <div class="card"><h3>Flávio (<span data-sg="f"></span>) × Lula (<span data-sg="l"></span>) conforme a apuração avançou</h3><p class="cap">% dos votos válidos no momento de cada leitura do TSE.</p><svg id="traj" role="img" aria-label="Evolução de Flávio Bolsonaro e Lula conforme a apuração avançou" data-sg-aria="Evolução de Flávio Bolsonaro ({f}) e Lula ({l}) conforme a apuração avançou" viewBox="0 0 560 260" style="width:100%;display:block"></svg>
+      <div class="legend"><span><span class="sw" style="background:var(--flavio)"></span>Flávio (<span data-sg="f"></span>)</span><span><span class="sw" style="background:var(--lula)"></span>Lula (<span data-sg="l"></span>)</span></div></div>
     <div class="stack">
-      <div class="card"><h3>Pesquisas da véspera × resultado</h3><p class="cap">Votos válidos. A maioria subestimou Flávio em 3 a 5 pontos.</p><div class="tw"><table id="tPolls"></table></div></div>
+      <div class="card"><h3>Pesquisas da véspera × resultado</h3><p class="cap">Votos válidos. A maioria subestimou Flávio (<span data-sg="f"></span>) em 3 a 5 pontos.</p><div class="tw"><table id="tPolls"></table></div></div>
       <div class="card"><h3>Nossas projeções durante a noite</h3><p class="cap">Mediana da simulação para o resultado final.</p><div class="tw"><table id="tProj"></table></div></div>
     </div>
   </div>
@@ -172,6 +172,9 @@ const mi=x=>fmt(x/1e6,1)+' mi';
 const $=id=>document.getElementById(id);
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const N=D.nac, cF=N.cand.find(c=>c.nome.startsWith('Flavio')), cL=N.cand.find(c=>c.nome==='Lula');
+const SG={f:cF.sg,l:cL.sg,j:(D.sg22||{})['Jair Bolsonaro']||''};  // siglas do TSE (2022: municipios/geo/t2022/meta.json, só no HTML)
+document.querySelectorAll('[data-sg]').forEach(e=>e.textContent=SG[e.dataset.sg]);
+document.querySelectorAll('[data-sg-aria]').forEach(e=>e.setAttribute('aria-label',e.dataset.sgAria.replace(/\{(\w)\}/g,(_,k)=>SG[k])));
 const COAL=new Set(D.nac.coalizao_lula);  // partidos da coligação de Lula (TSE)
 const partyColor=s=>s==='PL'?'var(--flavio)':s.split('/').map(x=>x.trim()).some(x=>COAL.has(x))?'var(--lula)':'var(--neutral)';
 const tip=$('tip');
@@ -193,26 +196,26 @@ const marg=cF.p-cL.p;
 
 // ---------- destaques
 const HL=[
- [`<b>2º turno em 25/10: Flávio Bolsonaro × Lula.</b> Flávio terminou na frente com <b>${fmt(cF.p,2)}%</b> contra <b>${fmt(cL.p,2)}%</b>, uma vantagem de ${fmt(marg)} pontos, cerca de ${mi(cF.votos-cL.votos)} de votos.`,'var(--flavio)'],
- [`<b>A direção inverteu desde 2022.</b> Naquele 1º turno, Lula liderou com 48,43% contra 43,20% de Jair Bolsonaro. Agora Lula tem ${fmt(48.43-cL.p)} pt a menos, e o candidato do PL tem ${fmt(cF.p-43.20)} pt a mais.`,'var(--lula)'],
- [`<b>O mapa se dividiu em ${ufF.length} × ${ufL.length}.</b> Flávio venceu em ${ufF.length} das 27 unidades da federação; Lula, em ${ufL.length}. O Nordeste deu a Lula ${mi(-D.regioes.find(r=>r.regiao==='Nordeste').saldo)} de votos de saldo, que não compensaram o Sul, o Sudeste e o Centro-Oeste.`,'var(--neutral)'],
+ [`<b>2º turno em 25/10: Flávio Bolsonaro (${cF.sg}) × Lula (${cL.sg}).</b> Flávio terminou na frente com <b>${fmt(cF.p,2)}%</b> contra <b>${fmt(cL.p,2)}%</b>, uma vantagem de ${fmt(marg)} pontos, cerca de ${mi(cF.votos-cL.votos)} de votos.`,'var(--flavio)'],
+ [`<b>A direção inverteu desde 2022.</b> Naquele 1º turno, Lula (${cL.sg}) liderou com 48,43% contra 43,20% de Jair Bolsonaro (${SG.j}). Agora Lula tem ${fmt(48.43-cL.p)} pt a menos, e o candidato do ${cF.sg} tem ${fmt(cF.p-43.20)} pt a mais.`,'var(--lula)'],
+ [`<b>O mapa se dividiu em ${ufF.length} × ${ufL.length}.</b> Flávio (${cF.sg}) venceu em ${ufF.length} das 27 unidades da federação; Lula (${cL.sg}), em ${ufL.length}. O Nordeste deu a Lula ${mi(-D.regioes.find(r=>r.regiao==='Nordeste').saldo)} de votos de saldo, que não compensaram o Sul, o Sudeste e o Centro-Oeste.`,'var(--neutral)'],
  (()=>{const c=[...D.pres_uf].filter(u=>u.uf!=='ZZ').sort((a,b)=>Math.abs(a.saldo)-Math.abs(b.saldo))[0];
-   return [`<b>${c.uf} decidido por ${fi(Math.abs(c.saldo))} votos.</b> ${c.saldo<0?'Lula':'Flávio'} venceu com ${fmt(Math.max(c.f,c.l),2)}% contra ${fmt(Math.min(c.f,c.l),2)}%, a disputa mais apertada entre os estados. ${ufL.filter(u=>['AM','PA','AP'].includes(u.uf)).length>1?'No Norte, Lula também levou AM e PA.':''}`,'var(--lula)']})(),
- [`<b>PL faz a maior bancada da Câmara: ${plFed} deputados</b> (eram 99 em 2022). Os partidos da coligação de Lula somam ${coalFed} das 513 cadeiras.`,'var(--flavio)'],
+   return [`<b>${c.uf} decidido por ${fi(Math.abs(c.saldo))} votos.</b> ${c.saldo<0?`Lula (${cL.sg})`:`Flávio (${cF.sg})`} venceu com ${fmt(Math.max(c.f,c.l),2)}% contra ${fmt(Math.min(c.f,c.l),2)}%, a disputa mais apertada entre os estados. ${ufL.filter(u=>['AM','PA','AP'].includes(u.uf)).length>1?`No Norte, ${c.saldo<0?'Lula':`Lula (${cL.sg})`} também levou AM e PA.`:''}`,'var(--lula)']})(),
+ [`<b>PL faz a maior bancada da Câmara: ${plFed} deputados</b> (eram 99 em 2022). Os partidos da coligação de Lula (${cL.sg}) somam ${coalFed} das 513 cadeiras.`,'var(--flavio)'],
  [`<b>${govEl.length} governadores definidos no 1º turno</b>, ${gov2.length} estados vão ao 2º turno (${gov2.map(g=>g.uf).join(', ')})${govIn.length?` e o ${govIn.map(g=>g.uf).join(', ')} está indefinido`:''}.`,'var(--amber)'],
- ...D.gov.filter(g=>g.status==='2turno'&&g.subjudice&&g.a.p_sem_sj>50).map(g=>[`<b>${g.uf} vai ao 2º turno por causa de votos sub judice.</b> ${esc(g.a.nome)} (${g.a.sg}) teria ${fmt(g.a.p_sem_sj,2)}% sem os votos de ${esc(g.subjudice.nome)}, candidato com registro anulado sub judice. O TSE conta esses votos no total, e ${esc(g.a.nome)} fica com ${fmt(g.a.p,2)}%. Disputa com ${esc(g.b.nome)} (${g.b.sg}) em 25/10.`,'var(--amber)']),
- ...govIn.map(g=>[`<b>${g.uf} depende da Justiça Eleitoral.</b> ${esc(g.a.nome)} (${g.a.sg}) tem ${fmt(g.a.p,2)}% dos válidos. Se os votos de ${esc(g.subjudice.nome)}, candidato com registro anulado sub judice, forem validados, a fatia de ${esc(g.a.nome)} cai para ${fmt(g.a.p_tse,2)}% e o estado vai ao 2º turno.`,'var(--amber)']),
+ ...D.gov.filter(g=>g.status==='2turno'&&g.subjudice&&g.a.p_sem_sj>50).map(g=>[`<b>${g.uf} vai ao 2º turno por causa de votos sub judice.</b> ${esc(g.a.nome)} (${g.a.sg}) teria ${fmt(g.a.p_sem_sj,2)}% sem os votos de ${esc(g.subjudice.nome)} (${g.subjudice.sg}), candidato com registro anulado sub judice. O TSE conta esses votos no total, e ${esc(g.a.nome)} fica com ${fmt(g.a.p,2)}%. Disputa com ${esc(g.b.nome)} (${g.b.sg}) em 25/10.`,'var(--amber)']),
+ ...govIn.map(g=>[`<b>${g.uf} depende da Justiça Eleitoral.</b> ${esc(g.a.nome)} (${g.a.sg}) tem ${fmt(g.a.p,2)}% dos válidos. Se os votos de ${esc(g.subjudice.nome)} (${g.subjudice.sg}), candidato com registro anulado sub judice, forem validados, a fatia de ${esc(g.a.nome)} cai para ${fmt(g.a.p_tse,2)}% e o estado vai ao 2º turno.`,'var(--amber)']),
  ...D.gov.filter(g=>g.status==='2turno'&&g.falta_50>0&&g.falta_50<5000).map(g=>[`<b>${g.uf} por um fio.</b> ${esc(g.a.nome)} (${g.a.sg}) ficou a <b>${fi(g.falta_50)} votos</b> de vencer no 1º turno (${fmt(g.a.p,2)}%).`,'var(--amber)']),
  [`<b>PL leva ${plSen} das ${sen54} vagas do Senado.</b> O partido teve o candidato mais votado ao Senado em ${D.sen.filter(s=>s.eleitos[0].sg==='PL').length} estados.`,'var(--flavio)'],
  [`<b>Os mais votados para deputado:</b> ${esc(fed.top[0].nome)} (${fed.top[0].sg}-${fed.top[0].uf}) teve ${mi(fed.top[0].votos)} de votos para federal; para estadual, ${esc(est.top[0].nome)} (${est.top[0].sg}-${est.top[0].uf}) teve ${mi(est.top[0].votos)}.`,'var(--neutral)'],
  [`<b>Abstenção de ${fmt(N.pa,2)}%</b> (${mi(N.abstencao)} de eleitores), ante 20,95% em 2022. Brancos e nulos somaram ${fmt(N.pb+N.pn,2)}% dos votos.`,'var(--neutral)'],
- [`<b>As pesquisas subestimaram Flávio.</b> Datafolha, Quaest, PoderData, MDA e AtlasIntel indicavam Flávio entre 42,1% e 44,1% dos válidos na véspera; ele fez ${fmt(cF.p,1)}%.`,'var(--neutral)'],
+ [`<b>As pesquisas subestimaram Flávio (${cF.sg}).</b> Datafolha, Quaest, PoderData, MDA e AtlasIntel indicavam Flávio entre 42,1% e 44,1% dos válidos na véspera; ele fez ${fmt(cF.p,1)}%.`,'var(--neutral)'],
 ];
 $('hl').innerHTML=HL.map(([t,c])=>`<li style="--hc:${c}">${t}</li>`).join('');
 
 // ---------- presidente
-$('presLead').textContent=`Nenhum candidato passou de 50% dos votos válidos. Flávio Bolsonaro (PL) e Lula (PT) disputam o 2º turno em 25 de outubro.`;
-$('hero').innerHTML=[[cF,'var(--flavio)','Flávio Bolsonaro · PL'],[cL,'var(--lula)','Lula · PT']].map(([c,col,n])=>
+$('presLead').textContent=`Nenhum candidato passou de 50% dos votos válidos. Flávio Bolsonaro (${cF.sg}) e Lula (${cL.sg}) disputam o 2º turno em 25 de outubro.`;
+$('hero').innerHTML=[[cF,'var(--flavio)',`Flávio Bolsonaro · ${cF.sg}`],[cL,'var(--lula)',`Lula · ${cL.sg}`]].map(([c,col,n])=>
  `<div class="cand" style="--c:${col}"><div class="nm">${n}</div><div class="pc">${fmt(c.p,2)}%</div><div class="vt">${fi(c.votos)} votos</div></div>`).join('');
 $('turnout').innerHTML=[['Eleitores',mi(N.eleitores),'aptos a votar'],['Comparecimento',fmt(N.pc,2)+'%',mi(N.comparecimento)],['Abstenção',fmt(N.pa,2)+'%',mi(N.abstencao)+' · 2022: 20,95%'],['Brancos',fmt(N.pb,2)+'%',fi(N.brancos)+' votos'],['Nulos',fmt(N.pn,2)+'%',fi(N.nulos)+' votos']]
  .map(([k,v,d])=>`<div class="tile"><div class="k">${k}</div><div class="v">${v}</div><div class="d">${d}</div></div>`).join('');
@@ -237,18 +240,18 @@ function drawMap(svg,fill,tipf,labelInk){
  svg.innerHTML=h;
  svg.querySelectorAll('path').forEach(p=>{p.addEventListener('mousemove',e=>showTip(e,tipf(p.dataset.uf)));p.addEventListener('mouseleave',hideTip)});
 }
-drawMap($('mapPres'),k=>presFill(pres[k]),k=>{const u=pres[k];return `<b>${k}</b> · ${fmt(u.pst,1)}% apurado<br><span class="sw" style="background:var(--flavio)"></span>Flávio ${fmt(u.f)}%<br><span class="sw" style="background:var(--lula)"></span>Lula ${fmt(u.l)}%<br>Saldo: ${u.saldo>=0?'Flávio':'Lula'} +${fi(Math.abs(u.saldo))} votos`},
+drawMap($('mapPres'),k=>presFill(pres[k]),k=>{const u=pres[k];return `<b>${k}</b> · ${fmt(u.pst,1)}% apurado<br><span class="sw" style="background:var(--flavio)"></span>Flávio (${cF.sg}) ${fmt(u.f)}%<br><span class="sw" style="background:var(--lula)"></span>Lula (${cL.sg}) ${fmt(u.l)}%<br>Saldo: ${u.saldo>=0?'Flávio':'Lula'} +${fi(Math.abs(u.saldo))} votos`},
  k=>step(pres[k].f-pres[k].l)>=3?'#fff':'var(--ink)');
-$('rampPres').innerHTML=`<span>Lula</span>${[4,3,2,1].map(i=>`<i style="background:var(--r${i})"></i>`).join('')}${[1,2,3,4].map(i=>`<i style="background:var(--b${i})"></i>`).join('')}<span>Flávio</span><span style="margin-left:8px">vantagem: &lt;5 · 5–15 · 15–30 · 30+ pt</span>`;
+$('rampPres').innerHTML=`<span>Lula (${cL.sg})</span>${[4,3,2,1].map(i=>`<i style="background:var(--r${i})"></i>`).join('')}${[1,2,3,4].map(i=>`<i style="background:var(--b${i})"></i>`).join('')}<span>Flávio (${cF.sg})</span><span style="margin-left:8px">vantagem: &lt;5 · 5–15 · 15–30 · 30+ pt</span>`;
 
 // regiões
 const regs=D.regioes.filter(r=>r.regiao!=='Exterior').sort((a,b)=>b.vv-a.vv);
 $('reg').innerHTML=regs.map(r=>`<span class="lb">${r.regiao}</span><span class="tr"><i style="width:${r.f}%;background:var(--flavio)"></i><i style="width:${r.l}%;background:var(--lula)"></i></span><span class="vl">${fmt(r.f,0)} × ${fmt(r.l,0)} · ${r.saldo>=0?'F':'L'} +${mi(Math.abs(r.saldo))}</span>`).join('');
-$('cmp22').innerHTML=[['2022',43.20,48.43,'Bolsonaro'],['2026',cF.p,cL.p,'Flávio']].map(([a,f,l,n])=>
- `<div style="display:flex;justify-content:space-between;font-size:13px;margin-top:6px"><span><b>${a}</b> · ${n} ${fmt(f,2)}%</span><span>Lula ${fmt(l,2)}%</span></div><div class="split"><i style="width:${f}%;background:var(--flavio)"></i><i style="flex:1;background:var(--soft)"></i><i style="width:${l}%;background:var(--lula)"></i></div>`).join('');
+$('cmp22').innerHTML=[['2022',43.20,48.43,`Jair Bolsonaro (${SG.j})`],['2026',cF.p,cL.p,`Flávio (${cF.sg})`]].map(([a,f,l,n])=>
+ `<div style="display:flex;justify-content:space-between;font-size:13px;margin-top:6px"><span><b>${a}</b> · ${n} ${fmt(f,2)}%</span><span>Lula (${cL.sg}) ${fmt(l,2)}%</span></div><div class="split"><i style="width:${f}%;background:var(--flavio)"></i><i style="flex:1;background:var(--soft)"></i><i style="width:${l}%;background:var(--lula)"></i></div>`).join('');
 $('outros').innerHTML=N.cand.filter(c=>c!==cF&&c!==cL&&c.p>=0.05).map(c=>`<span class="lb">${esc(c.nome)} <span class="note">${c.sg}</span></span><span class="tr"><i style="width:${c.p/3*100}%;background:var(--neutral)"></i></span><span class="vl">${fmt(c.p,2)}%</span>`).join('');
-$('tPres').innerHTML='<tr><th>UF</th><th class="n">Eleitores</th><th class="n">Comparec.</th><th class="n">Flávio</th><th class="n">Lula</th><th class="n">Saldo (votos)</th></tr>'+
- [...D.pres_uf].sort((a,b)=>b.eleitores-a.eleitores).map(u=>`<tr><td>${u.uf==='ZZ'?'Exterior':u.uf}</td><td class="n">${fi(u.eleitores)}</td><td class="n">${fmt(u.pc)}%</td><td class="n">${fmt(u.f)}%</td><td class="n">${fmt(u.l)}%</td><td class="n">${u.saldo>=0?'Flávio':'Lula'} +${fi(Math.abs(u.saldo))}</td></tr>`).join('');
+$('tPres').innerHTML=`<tr><th>UF</th><th class="n">Eleitores</th><th class="n">Comparec.</th><th class="n">Flávio · ${cF.sg}</th><th class="n">Lula · ${cL.sg}</th><th class="n">Saldo (votos)</th></tr>`+
+ [...D.pres_uf].sort((a,b)=>b.eleitores-a.eleitores).map(u=>`<tr><td>${u.uf==='ZZ'?'Exterior':u.uf}</td><td class="n">${fi(u.eleitores)}</td><td class="n">${fmt(u.pc)}%</td><td class="n">${fmt(u.f)}%</td><td class="n">${fmt(u.l)}%</td><td class="n">${u.saldo>=0?`Flávio · ${cF.sg}`:`Lula · ${cL.sg}`} +${fi(Math.abs(u.saldo))}</td></tr>`).join('');
 
 // ---------- governadores
 const gmap=Object.fromEntries(D.gov.map(g=>[g.uf,g]));
@@ -270,7 +273,7 @@ $('tGov').innerHTML='<tr><th>UF</th><th>Situação</th><th>Mais votado</th><th c
 
 // ---------- senado
 $('senLead').textContent=`Em 2026 foram renovados dois terços do Senado: ${sen54} vagas, duas por estado. Venceram os dois mais votados em cada UF.`;
-$('senCap').textContent=`${sen54} vagas. Azul = PL (partido de Flávio); vermelho = partidos da coligação de Lula.`;
+$('senCap').textContent=`${sen54} vagas. Azul = PL (partido de Flávio); vermelho = partidos da coligação de Lula (${cL.sg}).`;
 const sp0=D.sen_part[0][1];
 $('senPart').innerHTML=D.sen_part.map(([s,n])=>`<span class="lb">${s}</span><span class="tr"><i style="width:${n/sp0*100}%;background:${partyColor(s)}"></i></span><span class="vl">${n}</span>`).join('');
 $('tSenClose').innerHTML='<tr><th>UF</th><th>Último eleito</th><th>Ficou de fora</th><th class="n">Diferença</th></tr>'+[...D.sen].sort((a,b)=>a.dif_corte-b.dif_corte).slice(0,6).map(s=>{const e=s.eleitos[s.eleitos.length-1];
@@ -278,7 +281,7 @@ $('tSenClose').innerHTML='<tr><th>UF</th><th>Último eleito</th><th>Ficou de for
 $('tSen').innerHTML='<tr><th>UF</th><th>Eleitos</th><th>Próximo colocado</th></tr>'+D.sen.map(s=>`<tr><td>${s.uf}</td><td>${s.eleitos.map(e=>`${esc(e.nome)} <span class="note">${e.sg} · ${fmt(e.p)}%</span>`).join('<br>')}</td><td>${esc(s.proximo.nome)} <span class="note">${s.proximo.sg} · ${fmt(s.proximo.p)}%</span></td></tr>`).join('');
 
 // ---------- câmara: parlamento em semicírculo
-$('camLead').textContent=`O TSE já distribuiu as 513 cadeiras entre partidos e federações. O PL fez ${plFed} deputados; os partidos da coligação de Lula, ${coalFed}.`;
+$('camLead').textContent=`O TSE já distribuiu as 513 cadeiras entre partidos e federações. O PL fez ${plFed} deputados; os partidos da coligação de Lula (${cL.sg}), ${coalFed}.`;
 (function parl(){
  const order=[...fed.por_partido].sort((a,b)=>{const g=s=>s==='PL'?2:COAL.has(s)?0:1;return g(a[0])-g(b[0])||b[1]-a[1]});
  const seq=[];order.forEach(([s,n])=>{for(let i=0;i<n;i++)seq.push(s)});
@@ -302,7 +305,7 @@ topT(fed.top,'tTopFed');
 
 // ---------- assembleias
 const plEst=seats(est.por_partido,s=>s==='PL'), coalEst=seats(est.por_partido,s=>COAL.has(s));
-$('aleLead').textContent=`Foram eleitos ${est.total} deputados estaduais e distritais. O PL fez a maior bancada somada (${plEst}); os partidos da coligação de Lula somam ${coalEst}.`;
+$('aleLead').textContent=`Foram eleitos ${est.total} deputados estaduais e distritais. O PL fez a maior bancada somada (${plEst}); os partidos da coligação de Lula (${cL.sg}) somam ${coalEst}.`;
 const ep0=est.por_partido[0][1];
 $('alePart').innerHTML=est.por_partido.filter(([,n])=>n>=5).map(([s,n])=>`<span class="lb">${s}</span><span class="tr"><i style="width:${n/ep0*100}%;background:${partyColor(s)}"></i></span><span class="vl">${n}</span>`).join('')+`<span class="lb note">outros</span><span></span><span class="vl">${est.por_partido.filter(([,n])=>n<5).reduce((a,[,n])=>a+n,0)}</span>`;
 topT(est.top,'tTopEst');
@@ -318,9 +321,9 @@ topT(est.top,'tTopEst');
  $('traj').innerHTML=s;
 })();
 const POLLS=[['Datafolha',43.0,45.2],['Quaest',43.7,46.0],['AtlasIntel',44.1,47.0],['PoderData',43.6,44.7],['MDA',42.1,47.7],['Futura',43.6,41.6],['Vox Brasil',45.9,45.0],['Palver',47.0,43.0]];
-$('tPolls').innerHTML='<tr><th>Instituto</th><th class="n">Flávio</th><th class="n">Lula</th><th class="n">Erro Flávio</th></tr>'+POLLS.map(([n,f,l])=>`<tr><td>${n}</td><td class="n">${fmt(f)}</td><td class="n">${fmt(l)}</td><td class="n">${fmt(f-cF.p)}</td></tr>`).join('')+`<tr><td><b>Resultado</b></td><td class="n"><b>${fmt(cF.p)}</b></td><td class="n"><b>${fmt(cL.p)}</b></td><td></td></tr>`;
+$('tPolls').innerHTML=`<tr><th>Instituto</th><th class="n">Flávio · ${cF.sg}</th><th class="n">Lula · ${cL.sg}</th><th class="n">Erro Flávio</th></tr>`+POLLS.map(([n,f,l])=>`<tr><td>${n}</td><td class="n">${fmt(f)}</td><td class="n">${fmt(l)}</td><td class="n">${fmt(f-cF.p)}</td></tr>`).join('')+`<tr><td><b>Resultado</b></td><td class="n"><b>${fmt(cF.p)}</b></td><td class="n"><b>${fmt(cL.p)}</b></td><td></td></tr>`;
 const PROJ=[[36.6,47.83,44.17],[64.8,47.51,44.53],[84.9,47.37,44.72],[93.2,47.25,44.88]];
-$('tProj').innerHTML='<tr><th class="n">Com</th><th class="n">Projeção Flávio</th><th class="n">Projeção Lula</th><th class="n">Erro na margem</th></tr>'+PROJ.map(([p,f,l])=>`<tr><td class="n">${fmt(p)}% apurado</td><td class="n">${fmt(f)}</td><td class="n">${fmt(l)}</td><td class="n">${fmt((f-l)-(cF.p-cL.p))} pt</td></tr>`).join('');
+$('tProj').innerHTML=`<tr><th class="n">Com</th><th class="n">Projeção Flávio · ${cF.sg}</th><th class="n">Projeção Lula · ${cL.sg}</th><th class="n">Erro na margem</th></tr>`+PROJ.map(([p,f,l])=>`<tr><td class="n">${fmt(p)}% apurado</td><td class="n">${fmt(f)}</td><td class="n">${fmt(l)}</td><td class="n">${fmt((f-l)-(cF.p-cL.p))} pt</td></tr>`).join('');
 
 // ---------- método
 $('foot').innerHTML=[
@@ -328,7 +331,7 @@ $('foot').innerHTML=[
  OF.gov&&OF.sen?`Governadores e Senado: situação oficial do TSE (eleito, 2º turno), com os percentuais calculados como o TSE calcula, incluindo os votos de candidatos sub judice no total. Presidente: 2º turno entre os dois mais votados.`:`Os eleitos <b>ainda não foram proclamados</b> pelo TSE. Governador: eleito quem tem mais de 50% dos votos válidos. Quando há candidato com registro anulado sub judice, mostramos as duas contas (com e sem os votos dele). Senado: os 2 mais votados em cada UF.`,
  `Câmara e Assembleias: nas UFs já totalizadas, contamos os eleitos marcados pelo TSE (por quociente partidário e por média). ${OF.fed.length||OF.est.length?`Nas UFs ainda em totalização (${[...new Set([...OF.fed,...OF.est])].join(', ')}), usamos as vagas por partido/federação publicadas pelo TSE e dividimos as das federações entre os candidatos mais votados (estimativa).`:''}`,
  `Cores: azul = PL (partido de Flávio Bolsonaro); vermelho = partidos da coligação de Lula registrada no TSE (${D.nac.coalizao_lula.join(', ')}); cinza = demais. A cor indica a relação com a disputa presidencial e não classifica ideologia.`,
- `2022: <a href="https://agenciabrasil.ebc.com.br/politica/noticia/2022-10/tse-conclui-apuracao-dos-votos-do-primeiro-turno-para-presidente">Agência Brasil/TSE</a> (Lula 48,43%, Bolsonaro 43,20%, abstenção 20,95%) e <a href="https://www.camara.leg.br/noticias/911504-pl-sai-na-frente-na-eleicao-da-camara-seguido-pela-federacao-liderada-pelo-pt/">Agência Câmara</a> (bancadas). 2º turno em 25/10: <a href="https://www.tre-sp.jus.br/comunicacao/noticias/2026/Maio/eleicoes-2026-outubro-tem-datas-do-1o-e-do-2o-turnos-definidas-pela-constituicao">TRE-SP</a>.`,
+ `2022: <a href="https://agenciabrasil.ebc.com.br/politica/noticia/2022-10/tse-conclui-apuracao-dos-votos-do-primeiro-turno-para-presidente">Agência Brasil/TSE</a> (Lula (${cL.sg}) 48,43%, Jair Bolsonaro (${SG.j}) 43,20%; abstenção 20,95%) e <a href="https://www.camara.leg.br/noticias/911504-pl-sai-na-frente-na-eleicao-da-camara-seguido-pela-federacao-liderada-pelo-pt/">Agência Câmara</a> (bancadas). 2º turno em 25/10: <a href="https://www.tre-sp.jus.br/comunicacao/noticias/2026/Maio/eleicoes-2026-outubro-tem-datas-do-1o-e-do-2o-turnos-definidas-pela-constituicao">TRE-SP</a>.`,
  `Pesquisas: tabela agregada da <a href="https://en.wikipedia.org/wiki/Opinion_polling_for_the_2026_Brazilian_presidential_election">Wikipedia</a>, convertida para votos válidos; os números não foram conferidos um a um nos institutos. Mapa: contornos estaduais de click_that_hood (Code for Germany), simplificados.`,
 ].map(t=>`<li>${t}</li>`).join('');
 </script>
