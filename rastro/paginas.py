@@ -134,7 +134,12 @@ details summary{cursor:pointer;color:var(--ink2);margin:8px 0}
 .rs-rodape{margin:40px 0 0;padding-top:12px;border-top:1px solid var(--line);font-size:13px;color:var(--ink2)}
 .rs-rodape p{margin:4px 0}
 tr:target{background:var(--soft)}
-@media (max-width:600px){.rs-sankey svg{min-width:680px}}
+.rs-faixa{background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:8px 12px;margin:10px 0;font-size:14px}
+.rs-cruz{list-style:none;margin:0;padding:0}
+.rs-cruz li{border-bottom:1px solid var(--line);padding:8px 0;overflow-wrap:anywhere}
+.rs-cruz small{display:block;color:var(--ink2);font-size:13px}
+.rs-so-cel{display:none}
+@media (max-width:600px){.rs-sankey svg{min-width:680px}.rs-rede{display:none}.rs-so-cel{display:block}}
 @media (max-width:560px){.rs-tab{font-size:14px}.rs-tab th,.rs-tab td{padding:7px 4px}}
 </style>"""
 
@@ -245,8 +250,29 @@ def lista_indicadores(itens, base):
     return f'<ul class="rs-ind">{"".join(lis)}</ul>'
 
 
-def html_eleito(eleito, contas, itens, fornecedores, cfg, bases, ids=None):
-    """bases: {'contas': iso, 'receita': iso|None}. contas None (ou prestacao_parcial False): sem valores, sem 'R$ 0'."""
+MAX_CRUZ = 10
+
+
+def secao_cruzada(cruz):
+    """'Fornecedores que também atendem outros eleitos'. cruz: [{id, rotulo, outros: [{nome_urna, caminho}]}], rotulo já
+    mascarado no MEI. Sem cruzamento, nada."""
+    if not cruz:
+        return ""
+    lis = []
+    for c in cruz:
+        outros = sorted(c["outros"], key=lambda o: o["nome_urna"])
+        links = ", ".join(f'<a href="/{o["caminho"]}">{esc(o["nome_urna"])}</a>' for o in outros[:MAX_CRUZ])
+        if len(outros) > MAX_CRUZ:
+            links += f" e mais {len(outros) - MAX_CRUZ}"
+        lis.append(f'<li><a href="/rastro/fornecedor/{c["id"]}/">{esc(c["rotulo"])}</a><small>Também contratado por: {links}</small></li>')
+    return ('<section id="rede"><h2>Fornecedores que também atendem outros eleitos</h2><p class="rs-nota">Eleitos publicados que pagaram '
+            'o mesmo fornecedor. Contratar o mesmo fornecedor é comum e não indica relação entre as campanhas. Plataformas de pagamento '
+            f'e anúncio ficam de fora (<a href="/rastro/metodologia/#rede">metodologia</a>).</p><ul class="rs-cruz">{"".join(lis)}</ul></section>')
+
+
+def html_eleito(eleito, contas, itens, fornecedores, cfg, bases, ids=None, cruz=None):
+    """bases: {'contas': iso, 'receita': iso|None}. contas None (ou prestacao_parcial False): sem valores, sem 'R$ 0'.
+    cruz: fornecedores deste eleito que outros eleitos publicados também pagaram (ver `secao_cruzada`)."""
     nome = eleito["nome_urna"]
     partes = [f'{esc(CARGOS.get(eleito["cargo"], eleito["cargo"]))} · {esc(eleito["uf"])} · {esc(eleito["partido"])}']
     base = (f'contas do TSE até {data_br(bases["contas"])}' if bases.get("contas") else "data das contas não informada") + (f' · cadastro de empresas da Receita de {data_br(bases["receita"])}' if bases.get("receita") else "")
@@ -276,7 +302,7 @@ def html_eleito(eleito, contas, itens, fornecedores, cfg, bases, ids=None):
     corpo = (trilha(("Início", "/"), ("Rastro do dinheiro", "/rastro/"), (nome, None))
              + f'<p class="rs-kicker">Rastro do dinheiro · eleito(a) 2026</p><h1>{esc(nome)}</h1>'
              f'<p class="rs-meta">{partes[0]}</p>{resumo}' + aviso_curto() + fin + diag + ind_h + tabs
-             + rodape(cfg, base, f"Contestar dado: {nome} ({eleito['uf']})"))
+             + (secao_cruzada(cruz) if parcial else "") + rodape(cfg, base, f"Contestar dado: {nome} ({eleito['uf']})"))
     return pagina(f"{nome} · Rastro do dinheiro", corpo)
 
 
@@ -318,6 +344,23 @@ def secao_avisos(avisos):
             f"Estes ficaram de fora e não aparecem em nenhuma página:</p><ul>{lis}</ul>")
 
 
+def raizes_excluidas(cfg):
+    return {ind.digitos(p["raiz"])[:8] for p in cfg.get("rede_excluir_cnpj_raiz") or []}
+
+
+def secao_rede_metodologia(cfg):
+    plats = cfg.get("rede_excluir_cnpj_raiz") or []
+    lis = "".join(f'<li>{esc(p["nome"])} (raiz do CNPJ {esc(p["raiz"])})</li>' for p in plats)
+    return ('<h2 id="rede">Rede de fornecedores</h2><p>“Atende N eleitos” é uma contagem: quantos eleitos publicados declararam '
+            'pagar o mesmo CNPJ. É um fato contábil, não um ranking de risco, e não indica relação entre as campanhas. Entram na '
+            'lista da home as empresas com 2 eleitos ou mais, ordenadas pelo número de eleitos e depois pelo total contratado por eles.</p>'
+            '<p>Na página do fornecedor, o diagrama mostra as campanhas que o contrataram. Eleitos aparecem com nome (com link quando '
+            'a página já existe); campanhas não eleitas entram somadas num único nó, sem nome, com o valor que falta para o total '
+            'recebido pelo fornecedor na base. Partidos e estados contam só os eleitos.</p>'
+            + (f"<p>Ficam fora da rede (ranking, diagrama da home e lista da página do eleito) as plataformas de pagamento e anúncio, "
+               f"que atendem quase todas as campanhas:</p><ul>{lis}</ul>" if lis else ""))
+
+
 def html_metodologia(cfg, avisos=None):
     dl = "".join(f"<dt>{n}</dt><dd>{t}</dd>" for n, t in descricoes(cfg))
     nom = (cfg.get("nomeacoes_fontes") or {}).get("siape") or ""
@@ -335,6 +378,7 @@ def html_metodologia(cfg, avisos=None):
                "Não afirmamos que houve irregularidade: apontamos onde vale conferir.</p>"
              + f"<h2>Fontes</h2>{fontes}"
              + f"<h2>Indicadores e limiares</h2><p>Os limiares abaixo são os do arquivo de configuração do projeto, os mesmos usados para gerar as páginas.</p><dl>{dl}</dl>"
+             + secao_rede_metodologia(cfg)
              + "<h2>Limites</h2><ul>"
                "<li>Parentesco não consta em nenhuma base pública. Não inferimos parentesco.</li>"
                "<li>“Mesmo sobrenome” é um fato textual: duas pessoas com o mesmo sobrenome não são, por isso, parentes.</li>"
@@ -372,7 +416,7 @@ def secao_anteriores(cnpj, anteriores, cfg):
     linhas = "".join(
         f'<tr><td>{a} <a href="{url_contas(a)}" rel="noopener">fonte</a></td><td class="v">{por_ano[str(a)]["n_campanhas"]} campanha(s)</td>'
         f'<td class="v">{ind.brl(por_ano[str(a)]["total_contratado"])}</td></tr>' for a in com)
-    out = ["<h2>Em eleições anteriores</h2>"]
+    out = ['<h2 id="anteriores">Em eleições anteriores</h2>']
     if com:
         out.append('<table class="rs-tab"><thead><tr><th>Eleição</th><th class="v">Campanhas</th><th class="v">Contratado</th></tr></thead>'
                    f"<tbody>{linhas}</tbody></table>")
@@ -385,11 +429,28 @@ def secao_anteriores(cnpj, anteriores, cfg):
     return "".join(out)
 
 
-def html_fornecedor(id_, rec, campanhas, itens, cfg, bases, anteriores=None):
+def faixa_anteriores(cnpj, anteriores, cfg):
+    """Uma linha no topo do caminho do dinheiro: 'Também recebeu em 2022 (N campanhas) e 2024 (N campanhas)'."""
+    lidos = [a for a in cfg.get("anteriores_anos") or [] if a in ((anteriores or {}).get("anos") or [])]
+    por_ano = ((anteriores or {}).get("por_cnpj") or {}).get(ind.digitos(cnpj)) or {}
+    com = [f'{a} ({por_ano[str(a)]["n_campanhas"]} campanha{"s" if por_ano[str(a)]["n_campanhas"] != 1 else ""})' for a in lidos if str(a) in por_ano]
+    if not com:
+        return ""
+    return f'<p class="rs-faixa">Também recebeu em {_lista_anos(com)}. <a href="#anteriores">Ver eleições anteriores</a></p>'
+
+
+def _campanha_diagrama(eleito, total, href):
+    return {"sq": str(eleito["sq"]), "nome_urna": eleito["nome_urna"], "cargo": eleito["cargo"], "uf": eleito["uf"],
+            "partido": eleito["partido"], "total": total, "href": href}
+
+
+def html_fornecedor(id_, rec, campanhas, itens, cfg, bases, anteriores=None, pendentes=None, outras=None):
     """Página de um fornecedor PJ. campanhas: [{eleito, caminho, cnpj, nome, total, tipos}] das campanhas publicadas que o
     pagaram; itens: [{eleito, caminho, **indicador}] em que ele é a contraparte. MEI (ou sem cadastro): só o CNPJ mascarado,
     sem razão social, sem sócios. `anteriores` (envelope de rastro/dados/anteriores.json, opcional) acrescenta a seção de
-    eleições anteriores; sem ele a página não muda. `endereco_chave` e `cpf_mascarado` nunca saem."""
+    eleições anteriores; sem ele a página não muda. `endereco_chave` e `cpf_mascarado` nunca saem.
+    Diagrama "Caminho do dinheiro": as publicadas (com link), `pendentes` ([{eleito, total}] de eleitos ainda sem página, sem
+    link) e `outras` ({n, valor} das campanhas não eleitas, só agregado)."""
     mei = eh_mei(rec)
     mascara = ind.mascarar_cnpj(campanhas[0]["cnpj"])
     nome = f"MEI · CNPJ {mascara}" if mei else (rec.get("razao") or campanhas[0].get("nome") or mascara)
@@ -416,6 +477,13 @@ def html_fornecedor(id_, rec, campanhas, itens, cfg, bases, anteriores=None):
     camp_h = (f'<h2>Campanhas publicadas que o contrataram</h2><p class="rs-total">{len(camp)} campanha(s) · contratado: {ind.brl(total)}</p>'
               f'<table class="rs-tab"><thead><tr><th>Eleito(a)</th><th class="v">Contratado</th></tr></thead><tbody>{linhas_c}</tbody></table>')
     ant_h = secao_anteriores(campanhas[0]["cnpj"], anteriores, cfg) if anteriores else ""
+    camp_d = ([_campanha_diagrama(c["eleito"], c.get("total") or 0, "/" + c["caminho"]) for c in camp]
+              + [_campanha_diagrama(p["eleito"], p.get("total") or 0, None) for p in pendentes or []])
+    diag_h = ('<section class="rs-diagrama"><h2>Caminho do dinheiro</h2>'
+              + diagramas.diagrama_fornecedor(campanhas[0]["cnpj"], nome, camp_d, outras, int(cfg.get("rede_max_campanhas") or 12), mei)
+              + (faixa_anteriores(campanhas[0]["cnpj"], anteriores, cfg) if anteriores else "")
+              + '<p class="rs-nota">Valores contratados, da prestação de contas parcial. Campanhas não eleitas entram somadas, sem nome. '
+                'Eleitos ainda sem página aparecem sem link.</p></section>')
     if mei:
         itens = [i for i in itens if i["nome"] not in HOMONIMO]  # casamento por nome com sócio: sócio de MEI fica fora
     if itens:
@@ -433,7 +501,7 @@ def html_fornecedor(id_, rec, campanhas, itens, cfg, bases, anteriores=None):
     corpo = (trilha(("Início", "/"), ("Rastro do dinheiro", "/rastro/"), ("Fornecedor", None))
              + f'<p class="rs-kicker">Rastro do dinheiro · fornecedor</p><h1>{esc(nome)}</h1>'
              f'<p class="rs-meta">CNPJ {esc(mascara)}</p><p class="rs-base">Base de dados: {esc(base)}.</p>'
-             + aviso_bloco() + f"<h2>Cadastro na Receita</h2>{cad}{socios}{camp_h}{ant_h}{ind_h}"
+             + aviso_bloco() + f"<h2>Cadastro na Receita</h2>{cad}{socios}{diag_h}{camp_h}{ant_h}{ind_h}"
              + bloco_contestar(cfg, f"Contestar dado: fornecedor {id_[:8]}"))
     return pagina(f"{nome} · Rastro do dinheiro", corpo)
 
@@ -463,9 +531,24 @@ def tabela_pendentes(pendentes):
             f'<th class="v">Indicadores</th></tr></thead><tbody>{"".join(linhas)}</tbody></table>')
 
 
-def html_home(entradas, fornecedores, cfg, bases, pendentes=None):
+def secao_rede(rede):
+    """'Empresas que atendem mais eleitos': rede = {ranking: [{id, rotulo, mei, n_eleitos, n_partidos, total}], diagrama: html}."""
+    if rede is None:
+        return ""
+    linhas = "".join(
+        f'<tr><td><a href="/rastro/fornecedor/{r["id"]}/">{esc(r["rotulo"])}</a><small>{r["n_partidos"]} partido(s){" · MEI" if r["mei"] else ""}</small></td>'
+        f'<td class="v">{r["n_eleitos"]}</td><td class="v">{ind.brl(r["total"])}</td></tr>' for r in rede["ranking"])
+    tab = (f'<table class="rs-tab"><thead><tr><th>Empresa</th><th class="v">Eleitos</th><th class="v">Contratado pelos eleitos</th></tr></thead>'
+           f'<tbody>{linhas}</tbody></table>' if linhas else '<p class="rs-vazio">Nenhuma empresa atende 2 ou mais eleitos publicados.</p>')
+    return ('<section id="rede"><h2>Empresas que atendem mais eleitos</h2><p class="rs-nota">Número de eleitos publicados que declararam '
+            'pagar a empresa: uma contagem, um fato contábil, e não um ranking de risco. Contratar o mesmo fornecedor é comum.</p>'
+            + tab + '<p class="rs-nota">Não listadas: plataformas de pagamento e anúncio (lista na <a href="/rastro/metodologia/#rede">metodologia</a>).</p>'
+            + (rede.get("diagrama") or "") + "</section>")
+
+
+def html_home(entradas, fornecedores, cfg, bases, pendentes=None, rede=None):
     """entradas: [{eleito, caminho, contas, itens}] dos publicados; fornecedores: [{id, rotulo, mei, total, n}] já agregados.
-    pendentes: [{eleito, contas, itens}] dos eleitos ainda sem página (tabela sem link).
+    pendentes: [{eleito, contas, itens}] dos eleitos ainda sem página (tabela sem link). rede: ver `secao_rede`.
     Só entra nas somas quem tem prestação parcial publicada; eleito sem contas aparece sem 'R$ 0'."""
     base = (f'contas do TSE até {data_br(bases["contas"])}' if bases.get("contas") else "data das contas não informada") + (
         f' · cadastro de empresas da Receita de {data_br(bases["receita"])}' if bases.get("receita") else "")
@@ -510,7 +593,7 @@ def html_home(entradas, fornecedores, cfg, bases, pendentes=None):
     lis = "".join(f'<li><code>{esc(nome)}</code>: {q} ocorrência(s)</li>' for nome, q in sorted(cont.items(), key=lambda kv: (-kv[1], kv[0])))
     ind_h = ("<h2>Indicadores mais frequentes</h2>" + (f'<ul class="rs-ind">{lis}</ul><p>O que cada indicador mede: <a href="/rastro/metodologia/">metodologia</a>.</p>'
              if lis else '<p class="rs-vazio">Nenhum indicador disparado nas páginas publicadas.</p>'))
-    return pagina("Rastro do dinheiro · Eleições 2026", cab + cargo_h + forn_h + eleitos_h + ind_h + pend_h + fim)
+    return pagina("Rastro do dinheiro · Eleições 2026", cab + cargo_h + forn_h + secao_rede(rede) + eleitos_h + ind_h + pend_h + fim)
 
 
 def aplicar_correcoes(paginas, correcoes):
@@ -562,11 +645,67 @@ def _itens_do_fornecedor(f, rec, mei, pj_campanha, itens):
     return [i for i in itens if i.get("contraparte") in chaves]
 
 
-def gerar(dest, publicados, eleitos, dir_contas, indicadores, fornecedores, cfg, envolver=None, correcoes=None, sal=None, anteriores=None):
+def rede_fornecedores(agg, entradas, pendentes, por_sq, cfg, agregados=None):
+    """Rede de fornecedores entre campanhas. Preenche, em cada a de `agg`, `pendentes` ([{eleito, total}] dos eleitos ainda sem
+    página) e `outras` ({n, valor} das campanhas não eleitas de agregados.json, valor = total_recebido − soma conhecida, piso 0).
+    Devolve (rede da home, {sq: lista cruzada da página do eleito}). Plataformas de `rede_excluir_cnpj_raiz` ficam fora da rede
+    (ranking, diagrama e lista cruzada), mas a página delas tem o diagrama normal."""
+    por_cnpj_agr = (agregados or {}).get("por_cnpj") or {}
+    for a in agg.values():
+        a["pendentes"], a["outras"] = [], None
+    for p in pendentes:
+        if not p["contas"] or p["contas"].get("prestacao_parcial") is False:
+            continue
+        for f in (p["contas"].get("despesas") or {}).get("fornecedores_pj") or []:
+            a = agg.get(ind.digitos(f.get("cnpj")))
+            if a:
+                a["pendentes"].append({"eleito": p["eleito"], "total": f.get("total") or 0})
+    for cnpj, a in agg.items():
+        g = por_cnpj_agr.get(cnpj)
+        if not g:
+            continue
+        nao_eleitos = {str(s) for s in g.get("campanhas") or []} - set(por_sq)
+        conhecido = sum(c["total"] for c in a["campanhas"]) + sum(p["total"] for p in a["pendentes"])
+        if nao_eleitos:
+            a["outras"] = {"n": len(nao_eleitos), "valor": max(float(g.get("total_recebido") or 0) - conhecido, 0)}
+    fora = raizes_excluidas(cfg)
+    na_rede = {c: a for c, a in agg.items() if c[:8] not in fora}
+    eleitos_de = {}
+    for c, a in na_rede.items():
+        vistos = {}
+        for camp in a["campanhas"]:
+            el = camp["eleito"]
+            v = vistos.setdefault(str(el["sq"]), {"sq": str(el["sq"]), "nome_urna": el["nome_urna"], "uf": el["uf"], "partido": el["partido"],
+                                                  "total": 0, "href": "/" + camp["caminho"], "caminho": camp["caminho"]})
+            v["total"] += camp["total"]
+        eleitos_de[c] = list(vistos.values())
+    ranking = [{"cnpj": c, "id": na_rede[c]["id"], "rotulo": na_rede[c]["rotulo"], "mei": na_rede[c]["mei"], "n_eleitos": len(els),
+                "n_partidos": len({e["partido"] for e in els}), "total": sum(e["total"] for e in els)}
+               for c, els in eleitos_de.items() if len(els) >= 2]
+    ranking.sort(key=lambda r: (-r["n_eleitos"], -r["total"], r["rotulo"]))
+    ranking = ranking[:int(cfg.get("rede_top_n") or 15)]
+    top = [{"cnpj": r["cnpj"], "rotulo": r["rotulo"], "href": f'/rastro/fornecedor/{r["id"]}/'} for r in ranking[:int(cfg.get("rede_diagrama_n") or 5)]]
+    rede = {"ranking": ranking, "diagrama": diagramas.diagrama_rede(top, eleitos_de)}
+    cruz = {}
+    for c, els in eleitos_de.items():
+        if len(els) < 2:
+            continue
+        for e in els:
+            cruz.setdefault(e["sq"], []).append({"id": na_rede[c]["id"], "rotulo": na_rede[c]["rotulo"],
+                                                 "outros": [o for o in els if o["sq"] != e["sq"]]})
+    for lista in cruz.values():
+        lista.sort(key=lambda x: (-len(x["outros"]), x["rotulo"]))
+    return rede, cruz
+
+
+def gerar(dest, publicados, eleitos, dir_contas, indicadores, fornecedores, cfg, envolver=None, correcoes=None, sal=None, anteriores=None,
+          agregados=None):
     """Grava dest/rastro/index.html (home), metodologia, uma página por sq de `publicados` e uma por fornecedor PJ pago por eles.
     Devolve a lista de páginas ({path, titulo, desc, html, crumbs}). `envolver(página) -> html` acrescenta a moldura do site (opcional).
     indicadores/fornecedores são os envelopes de rastro/dados/*.json; sem eles (e com publicados) falha. `correcoes` é o envelope de
-    rastro/correcoes.json; `sal` só é exigido quando há MEI. `anteriores`: envelope de rastro/dados/anteriores.json (opcional). Todas as páginas passam por `varrer` antes de qualquer gravação."""
+    rastro/correcoes.json; `sal` só é exigido quando há MEI. `anteriores`: envelope de rastro/dados/anteriores.json (opcional).
+    `agregados`: rastro/dados/base/agregados.json (opcional), para somar as campanhas não eleitas no diagrama do fornecedor.
+    Todas as páginas passam por `varrer` antes de qualquer gravação."""
     publicados = list(dict.fromkeys(str(s) for s in publicados))
     if publicados and fornecedores is None:
         raise ValueError("sem fornecedores.json: não dá para saber quem é MEI; nada publicado")
@@ -611,16 +750,19 @@ def gerar(dest, publicados, eleitos, dir_contas, indicadores, fornecedores, cfg,
         pendentes.append({"eleito": e, "contas": json.loads(arq.read_text(encoding="utf-8")) if arq.exists() else None,
                           "itens": por_ind.get(sq) or []})
     bases_g = {"contas": (indicadores or {}).get("data_base") or receita, "receita": receita}
-    for en in entradas:
-        en["html"] = html_eleito(en["eleito"], en["contas"], en["itens"], forn, cfg,
-                                 {"contas": (en["contas"] or {}).get("data_base") or bases_g["contas"], "receita": receita}, ids)
-    resumo = []
     for a in agg.values():
         a["rotulo"] = ind.mascarar_cnpj(a["cnpj"]) if a["mei"] else (a["rec"].get("razao") or a["campanhas"][0].get("nome") or ind.mascarar_cnpj(a["cnpj"]))
+    rede, cruz = rede_fornecedores(agg, entradas, pendentes, por_sq, cfg, agregados)
+    for en in entradas:
+        en["html"] = html_eleito(en["eleito"], en["contas"], en["itens"], forn, cfg,
+                                 {"contas": (en["contas"] or {}).get("data_base") or bases_g["contas"], "receita": receita}, ids,
+                                 cruz.get(str(en["eleito"]["sq"])))
+    resumo = []
+    for a in agg.values():
         resumo.append({"id": a["id"], "rotulo": a["rotulo"], "mei": a["mei"], "n": len(a["campanhas"]), "total": sum(c["total"] for c in a["campanhas"])})
     paginas = [_meta("rastro/", "Rastro do dinheiro | Eleições 2026",
                      "Para onde foi o dinheiro de campanha dos eleitos de 2026: total por cargo, maiores fornecedores e indicadores, com a fonte de cada dado. " + AVISO,
-                     html_home(entradas, resumo, cfg, bases_g, pendentes), []),
+                     html_home(entradas, resumo, cfg, bases_g, pendentes, rede), []),
                _meta("rastro/metodologia/", "Metodologia do Rastro do dinheiro | Eleições 2026",
                      "Como o Rastro do dinheiro cruza as contas de campanha com o cadastro da Receita, quais indicadores usa, os limiares e o que eles não dizem.",
                      html_metodologia(cfg, (indicadores or {}).get("avisos")), [("Metodologia", None)])]
@@ -631,7 +773,7 @@ def gerar(dest, publicados, eleitos, dir_contas, indicadores, fornecedores, cfg,
                              f"Receitas por origem, despesas por fornecedor e indicadores de {e['nome_urna']} ({CARGOS.get(e['cargo'], e['cargo'])}, {e['uf']}), "
                              f"com a fonte de cada dado. {AVISO}", en["html"], [(e["nome_urna"], None)]))
     for a in sorted(agg.values(), key=lambda a: a["id"]):
-        corpo = html_fornecedor(a["id"], a["rec"], a["campanhas"], a["itens"], cfg, bases_g, anteriores)
+        corpo = html_fornecedor(a["id"], a["rec"], a["campanhas"], a["itens"], cfg, bases_g, anteriores, a["pendentes"], a["outras"])
         quem = f"MEI, CNPJ {ind.mascarar_cnpj(a['cnpj'])}" if a["mei"] else a["rotulo"]
         paginas.append(_meta(f"rastro/fornecedor/{a['id']}/", f"{'MEI ' + ind.mascarar_cnpj(a['cnpj']) if a['mei'] else a['rotulo']}: fornecedor de campanha | Rastro do dinheiro",
                              f"Campanhas de 2026 que contrataram {quem}, situação cadastral e indicadores em que aparece. {AVISO}", corpo,

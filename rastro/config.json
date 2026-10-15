@@ -47,6 +47,14 @@
  "trava_inicio": "2026-10-23",
  "trava_fim": "2026-10-26",
  "home_top_n": 10,
+ "rede_excluir_cnpj_raiz": [
+  {"raiz": "25021356", "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A."},
+  {"raiz": "13347016", "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA."},
+  {"raiz": "06990590", "nome": "GOOGLE BRASIL INTERNET LTDA."}
+ ],
+ "rede_top_n": 15,
+ "rede_diagrama_n": 5,
+ "rede_max_campanhas": 12,
  "anteriores_anos": [2022, 2024],
  "contato_email": "contato@vitorpereira.ia.br"
 }

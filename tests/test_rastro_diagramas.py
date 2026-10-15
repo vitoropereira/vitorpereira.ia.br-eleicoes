@@ -185,6 +185,99 @@ class TestSvg(unittest.TestCase):
         pg.varrer("svg5", svg_de(dg.fluxos_campanha(C5, FORN5, [], None)))
 
 
+SNAP_2001 = "99ffad68ebf5b0633b24e0c418de0d7fb626ab038d5f29828e632a3a30954da4"  # SVG da issue A, antes da opção rotulo_acima
+
+
+def camp(i, href=True, total=1000.0, partido="PX", uf="SP"):
+    return {"nome_urna": f"ELEITO {i:02d}", "cargo": "depfed", "uf": uf, "partido": partido, "total": total,
+            "href": f"/rastro/depfed/sp/e{i}/" if href else None}
+
+
+class TestSankeyDuasColunas(unittest.TestCase):
+    def test_quatro_colunas_identico(self):
+        import hashlib
+        s = svg_de(dg.fluxos_campanha(contas("2001"), FORN, INDS["2001"], None))
+        self.assertEqual(hashlib.sha256(s.encode()).hexdigest(), SNAP_2001)
+
+    def test_rotulo_ao_lado(self):
+        cols = [[{"id": "a", "rotulo": "A"}], [{"id": "b", "rotulo": "EMPRESA B"}]]
+        s = dg.sankey(cols, [{"de": "a", "para": "b", "valor": 10.0}], {"titulo": "t", "resumo": "r", "xs": dg.XS2, "rotulo_acima": None})
+        self.assertNotIn("text-anchor:middle", s)
+        x = float(re.search(r'<text x="([\d.]+)"[^>]*>EMPRESA B', s).group(1))
+        self.assertEqual(x, dg.XS2[1] + dg.NO_W + 6)
+
+
+class TestFluxosFornecedor(unittest.TestCase):
+    def test_tres_campanhas(self):
+        cs = [camp(1), camp(2, total=500.0), camp(3, href=False, total=250.0)]
+        d = dg.fluxos_fornecedor("33333333000191", "EMPRESA", cs)
+        self.assertEqual(len(d["fluxos"]), 3)
+        self.assertAlmostEqual(sum(f["valor"] for f in d["fluxos"]), 1750, delta=0.01)
+        self.assertEqual(d["total"], 1750)
+        hrefs = [n.get("href") for n in d["colunas"][0]]
+        self.assertEqual(hrefs, ["/rastro/depfed/sp/e1/", "/rastro/depfed/sp/e2/", None])
+        self.assertEqual(d["colunas"][0][0]["rotulo"], "ELEITO 01 · Deputado(a) federal · SP")
+
+    def test_limite_de_campanhas(self):
+        cs = [camp(i, total=1000.0 - i) for i in range(14)]
+        d = dg.fluxos_fornecedor("33333333000191", "EMPRESA", cs, max_campanhas=12)
+        self.assertEqual(len(d["colunas"][0]), 13)
+        self.assertEqual(d["colunas"][0][-1]["rotulo"], "Mais 2 campanhas")
+        self.assertAlmostEqual(sum(f["valor"] for f in d["fluxos"]), sum(c["total"] for c in cs), delta=0.01)
+
+    def test_outras_nao_eleitas(self):
+        d = dg.fluxos_fornecedor("33333333000191", "EMPRESA", [camp(1), camp(2, partido="PY", uf="RJ")], outras={"n": 4, "valor": 300.0})
+        o = d["colunas"][0][-1]
+        self.assertEqual(o["rotulo"], "Outras 4 campanhas (não eleitas)")
+        self.assertEqual(o["tom"], "muted")
+        self.assertNotIn("href", o)
+        self.assertEqual(d["resumo"], f"Recebeu {ind.brl(2300)} de 6 campanhas: 2 de eleitos, de 2 partidos em 2 estados, e 4 não eleitas.")
+
+    def test_sem_outras_resumo(self):
+        d = dg.fluxos_fornecedor("33333333000191", "EMPRESA", [camp(1), camp(2)])
+        self.assertEqual(d["resumo"], f"Recebeu {ind.brl(2000)} de 2 campanhas de 1 partido em 1 estado.")
+
+    def test_mei_mascarado(self):
+        d = dg.fluxos_fornecedor("11111111000191", "NOME DO MEI DONO", [camp(1)], mei=True)
+        self.assertEqual(d["colunas"][1][0]["rotulo"], ind.mascarar_cnpj("11111111000191"))
+        h = dg.diagrama_fornecedor("11111111000191", "NOME DO MEI DONO", [camp(1)], mei=True)
+        self.assertNotIn("NOME DO MEI DONO", h)
+        self.assertNotIn("11111111000191", h)
+
+    def test_vazio(self):
+        self.assertIsNone(dg.fluxos_fornecedor("33333333000191", "E", []))
+        self.assertNotIn("<svg", dg.diagrama_fornecedor("33333333000191", "E", []))
+
+
+class TestRede(unittest.TestCase):
+    EMP = [{"cnpj": "A", "rotulo": "EMPRESA A", "href": "/rastro/fornecedor/a/"}, {"cnpj": "B", "rotulo": "EMPRESA B", "href": "/rastro/fornecedor/b/"}]
+
+    def el(self, sq, total):
+        return {"sq": sq, "nome_urna": f"ELEITO {sq}", "uf": "SP", "partido": "PX", "total": total, "href": f"/rastro/depfed/sp/{sq}/"}
+
+    def test_eleito_em_duas_empresas_um_no(self):
+        d = dg.fluxos_rede(self.EMP, {"A": [self.el("1", 100.0), self.el("2", 50.0)], "B": [self.el("1", 30.0), self.el("3", 10.0)]})
+        ids = [n["id"] for n in d["colunas"][0]]
+        self.assertEqual(ids.count("e1"), 1)
+        self.assertEqual(len([f for f in d["fluxos"] if f["de"] == "e1"]), 2)
+        self.assertEqual([n.get("href") for n in d["colunas"][1]], ["/rastro/fornecedor/a/", "/rastro/fornecedor/b/"])
+
+    def test_mais_n_eleitos(self):
+        els = {"A": [self.el(str(i), 100.0 - i) for i in range(25)], "B": [self.el("0", 1.0)]}
+        d = dg.fluxos_rede(self.EMP, els, max_eleitos=20)
+        rot = [n["rotulo"] for n in d["colunas"][0]]
+        self.assertIn("Mais 5 eleitos", rot)
+        self.assertEqual(len([r for r in rot if r.startswith("ELEITO")]), 20)
+        entra, _ = somas(d["fluxos"])
+        self.assertAlmostEqual(entra["p0"], sum(e["total"] for e in els["A"]), delta=0.01)
+
+    def test_svg_sem_cor_literal(self):
+        h = dg.diagrama_rede(self.EMP, {"A": [self.el("1", 100.0)], "B": [self.el("1", 30.0)]})
+        self.assertIsNone(RE_COR.search(h))
+        self.assertIn('class="rs-sankey rs-rede"', h)
+        self.assertEqual(dg.diagrama_rede(self.EMP, {}), "")
+
+
 class TestResistencia(unittest.TestCase):
     def test_pf_com_nome_nao_aparece(self):
         c = contas("2001")

@@ -203,3 +203,17 @@ Os 5 itens da issue A:
 
 Em 390px só o bloco do diagrama rola na horizontal; a página não. As páginas de fornecedor, a home e a metodologia
 continuam com o aviso e a contestação completos.
+
+Issue D (rede de fornecedores), com o mesmo `rastro/diagramas.py`:
+
+1. **Página do fornecedor:** Sankey de 2 colunas (campanhas → empresa) acima da tabela, que continua como fonte acessível.
+   Eleitos publicados com link; eleitos ainda sem página com nome, sem link. Campanhas **não eleitas** entram só agregadas,
+   num nó cinza "Outras N campanhas (não eleitas)", sem nome e sem link, com o valor `total_recebido` de `agregados.json`
+   menos a soma conhecida (piso 0): a base publicada não tem o valor por campanha não eleita. Linha-resumo "Recebeu R$ X
+   de N campanhas", com partidos e estados contados só nos eleitos, e a faixa "Também recebeu em 2022/2024".
+2. **Home:** "Empresas que atendem mais eleitos" (2 eleitos ou mais; ordem por nº de eleitos e depois por total; top
+   `rede_top_n`), com legenda de que é contagem, não ranking de risco, e mini Sankey eleitos → as `rede_diagrama_n`
+   primeiras, escondido no celular (a tabela faz o papel dele).
+3. **Página do eleito:** "Fornecedores que também atendem outros eleitos", depois das tabelas, até 10 eleitos por fornecedor.
+4. Plataformas de pagamento e anúncio (`rede_excluir_cnpj_raiz`, por raiz do CNPJ) ficam fora da rede e são listadas
+   na metodologia. MEI só com o CNPJ mascarado e o id em hash; nenhum score.

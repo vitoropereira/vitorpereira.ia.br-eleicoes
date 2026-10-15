@@ -114,8 +114,9 @@ def sankey(colunas, fluxos, opcoes):
     largura = opcoes.get("largura", LARGURA)
     xs = opcoes.get("xs", XS)
     corte = opcoes.get("corte", (34, 34, 27, 33))  # caracteres por rótulo (nome + valor) que cabem no espaço da coluna
+    acima = opcoes.get("rotulo_acima", 1)  # coluna com o rótulo de duas linhas acima do nó (None: todas ao lado)
     n_max = max((len(c) for c in colunas), default=1)
-    topo = 40  # espaço para o rótulo de duas linhas da campanha, acima do nó
+    topo = 40 if acima is not None else 8  # espaço para o rótulo de duas linhas da campanha, acima do nó
     altura = max(260, n_max * (GAP + 10))
     lay = layout_sankey(colunas, fluxos, altura, largura, xs=xs, topo=topo)
     total_h = lay["altura"] + 12
@@ -144,8 +145,8 @@ def sankey(colunas, fluxos, opcoes):
                     f'<title>{esc(nome)}: {esc(ind.brl(g["valor"]))}</title></rect>')
             cy = g["y"] + g["h"] / 2
             val = brl_curto(g["valor"])
-            rot = cortar(n["rotulo"], corte[min(c, len(corte) - 1)] - (0 if c == 1 else len(val) + 1 + 2 * bool(n.get("alerta"))))
-            if c == 1:  # campanha: nome e linha extra acima do nó
+            rot = cortar(n["rotulo"], corte[min(c, len(corte) - 1)] - (0 if c == acima else len(val) + 1 + 2 * bool(n.get("alerta"))))
+            if c == acima:  # campanha: nome e linha extra acima do nó
                 cx = g["x"] + NO_W / 2
                 txt = (f'<text x="{_f(cx)}" y="{_f(g["y"] - 22)}" style="text-anchor:middle;fill:var(--ink);font-weight:600;{halo}">{esc(rot)}</text>'
                        + (f'<text x="{_f(cx)}" y="{_f(g["y"] - 7)}" style="text-anchor:middle;fill:var(--ink2);{halo}">{esc(n["linha2"])}</text>' if n.get("linha2") else ""))
@@ -305,3 +306,116 @@ def diagrama_campanha(contas, fornecedores, indicadores, ids=None, nome=None):
     svg = sankey(d["colunas"], d["fluxos"], {"titulo": f"Caminho do dinheiro da campanha de {d['campanha']}", "resumo": d["resumo"]})
     return (f'<div class="rs-sankey">{svg}</div><p class="rs-nota">{esc(d["resumo"])}</p>'
             f'<p class="rs-nota">{LIMITACAO} {NOTA_TIPO}</p>')
+
+
+# ---------- rede de fornecedores (2 colunas) ----------
+
+XS2 = (380, 600)
+CORTE2 = (62, 46)
+MAX_REDE_ELEITOS = 20
+SEM_REDE = "Nenhuma campanha na base para o diagrama."
+
+
+def _plural(n, um, varios):
+    return f"{n} {um if n == 1 else varios}"
+
+
+def _rotulo_campanha(c):
+    from rastro import paginas as pg  # tardio: paginas importa este módulo
+
+    return f'{c["nome_urna"]} · {pg.CARGOS.get(c["cargo"], c["cargo"])} · {c["uf"]}'
+
+
+def fluxos_fornecedor(cnpj, rotulo, campanhas, outras=None, max_campanhas=12, mei=False):
+    """Campanhas → empresa. campanhas: [{nome_urna, cargo, uf, partido, total, href|None}] dos eleitos (href só nos
+    publicados); `outras`: {n, valor} das campanhas não eleitas, que entram num nó cinza só agregado (nunca com nome nem
+    link). Além de `max_campanhas`, as menores viram "Mais N campanhas". MEI (ou rotulo vazio): só o CNPJ mascarado.
+    Devolve {colunas, fluxos, resumo, total} ou None sem valor nenhum."""
+    rot_emp = ind.mascarar_cnpj(cnpj) if mei or not rotulo else rotulo
+    camp = sorted((c for c in campanhas if (c.get("total") or 0) > 0), key=lambda c: (-c["total"], c["nome_urna"]))
+    v_outras = float((outras or {}).get("valor") or 0)
+    n_outras = int((outras or {}).get("n") or 0)
+    total = sum(c["total"] for c in camp) + (v_outras if n_outras and v_outras > TOL else 0)
+    if total <= 0:
+        return None
+    col0, fluxos = [], []
+    for i, c in enumerate(camp[:max_campanhas]):
+        r = _rotulo_campanha(c)
+        col0.append({"id": f"c{i}", "rotulo": r, "titulo": f'{r} · {c["partido"]}', **({"href": c["href"]} if c.get("href") else {})})
+        fluxos.append({"de": f"c{i}", "para": "emp", "valor": c["total"]})
+    resto = camp[max_campanhas:]
+    if resto:
+        col0.append({"id": "c-mais", "rotulo": f"Mais {_plural(len(resto), 'campanha', 'campanhas')}"})
+        fluxos.append({"de": "c-mais", "para": "emp", "valor": sum(c["total"] for c in resto)})
+    if n_outras and v_outras > TOL:
+        col0.append({"id": "c-outras", "rotulo": "Outra campanha (não eleita)" if n_outras == 1 else f"Outras {n_outras} campanhas (não eleitas)", "tom": "muted"})
+        fluxos.append({"de": "c-outras", "para": "emp", "valor": v_outras})
+    partidos = {c["partido"] for c in camp}
+    ufs = {c["uf"] for c in camp}
+    n_outras = n_outras if v_outras > TOL else 0
+    onde = f"de {_plural(len(partidos), 'partido', 'partidos')} em {_plural(len(ufs), 'estado', 'estados')}"
+    resumo = f"Recebeu {ind.brl(total)} de {_plural(len(camp) + n_outras, 'campanha', 'campanhas')}"
+    if not n_outras:
+        resumo += f" {onde}."
+    elif not camp:
+        resumo += " não eleitas." if n_outras > 1 else " não eleita."
+    else:
+        resumo += f": {len(camp)} de eleitos, {onde}, e {_plural(n_outras, 'não eleita', 'não eleitas')}."
+    return {"colunas": [col0, [{"id": "emp", "rotulo": rot_emp}]], "fluxos": fluxos, "resumo": resumo, "total": total}
+
+
+def diagrama_fornecedor(cnpj, rotulo, campanhas, outras=None, max_campanhas=12, mei=False):
+    """HTML do bloco: SVG + linha-resumo, ou a frase de base vazia (sem <svg>)."""
+    d = fluxos_fornecedor(cnpj, rotulo, campanhas, outras, max_campanhas, mei)
+    if not d:
+        return f'<p class="rs-vazio">{SEM_REDE}</p>'
+    emp = d["colunas"][1][0]["rotulo"]
+    svg = sankey(d["colunas"], d["fluxos"], {"id": "skf", "titulo": f"Campanhas que pagaram {emp}", "resumo": d["resumo"],
+                                             "xs": XS2, "corte": CORTE2, "rotulo_acima": None})
+    return f'<p class="rs-resumo">{esc(d["resumo"])}</p><div class="rs-sankey">{svg}</div>'
+
+
+def fluxos_rede(empresas, eleitos_por_cnpj, max_eleitos=MAX_REDE_ELEITOS):
+    """Eleitos → empresas. empresas: [{cnpj, rotulo, href}] (já mascaradas quando MEI); eleitos_por_cnpj: {cnpj: [{sq,
+    nome_urna, uf, partido, total, href}]}. Cada eleito é um nó só, com uma faixa por empresa; além dos `max_eleitos` de
+    maior valor, os demais viram "Mais N eleitos" por empresa."""
+    soma = {}
+    info = {}
+    for e in empresas:
+        for el in eleitos_por_cnpj.get(e["cnpj"]) or []:
+            if (el.get("total") or 0) > 0:
+                soma[el["sq"]] = soma.get(el["sq"], 0) + el["total"]
+                info[el["sq"]] = el
+    if not soma:
+        return None
+    ordem = sorted(soma, key=lambda s: (-soma[s], info[s]["nome_urna"], s))
+    dentro = set(ordem[:max_eleitos])
+    col0 = [{"id": f"e{s}", "rotulo": f'{info[s]["nome_urna"]} · {info[s]["uf"]}', "titulo": f'{info[s]["nome_urna"]} · {info[s]["uf"]} · {info[s]["partido"]}',
+             **({"href": info[s]["href"]} if info[s].get("href") else {})} for s in ordem[:max_eleitos]]
+    col1, fluxos, mais = [], [], []
+    for j, e in enumerate(empresas):
+        col1.append({"id": f"p{j}", "rotulo": e["rotulo"], **({"href": e["href"]} if e.get("href") else {})})
+        fora = []
+        for el in eleitos_por_cnpj.get(e["cnpj"]) or []:
+            if (el.get("total") or 0) <= 0:
+                continue
+            if el["sq"] in dentro:
+                fluxos.append({"de": f"e{el['sq']}", "para": f"p{j}", "valor": el["total"]})
+            else:
+                fora.append(el)
+        if fora:
+            mais.append({"id": f"m{j}", "rotulo": f"Mais {_plural(len(fora), 'eleito', 'eleitos')}", "titulo": f"Mais {_plural(len(fora), 'eleito', 'eleitos')} ({e['rotulo']})"})
+            fluxos.append({"de": f"m{j}", "para": f"p{j}", "valor": sum(el["total"] for el in fora)})
+    resumo = (f"{_plural(len(soma), 'eleito publicado pagou', 'eleitos publicados pagaram')} as "
+              f"{_plural(len(empresas), 'empresa', 'empresas')} que atendem mais eleitos: {ind.brl(sum(soma.values()))}.")
+    return {"colunas": [col0 + mais, col1], "fluxos": fluxos, "resumo": resumo}
+
+
+def diagrama_rede(empresas, eleitos_por_cnpj, max_eleitos=MAX_REDE_ELEITOS):
+    d = fluxos_rede(empresas, eleitos_por_cnpj, max_eleitos)
+    if not d:
+        return ""
+    svg = sankey(d["colunas"], d["fluxos"], {"id": "skr", "titulo": "Eleitos publicados e as empresas que atendem mais eleitos",
+                                             "resumo": d["resumo"], "xs": XS2, "corte": CORTE2, "rotulo_acima": None})
+    return (f'<div class="rs-sankey rs-rede">{svg}</div><p class="rs-nota rs-rede">{esc(d["resumo"])}</p>'
+            '<p class="rs-nota rs-so-cel">O diagrama da rede aparece em telas maiores; no celular, veja a tabela acima.</p>')
