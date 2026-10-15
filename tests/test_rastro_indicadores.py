@@ -756,6 +756,65 @@ class TestEndereco(unittest.TestCase):
         self.assertEqual(self.rodar(contas=so(C1003, {"20202020000191"})), [])
 
 
+class TestValoresIdenticos(unittest.TestCase):
+    CFG_VI = dict(CFG, valores_identicos_min=5000, valores_identicos_ignorar_multiplo=10000)
+    FORN_VI = {"22584613000156": {"mei": False, "razao": "FROTA10 LOCACAO DE VEICULOS LTDA"},
+               "45587474000110": {"mei": False, "razao": "FROTA VIP LOCACAO DE VEICULOS LTDA"},
+               "62159285000165": {"mei": False, "razao": "FV LOCADORA LTDA"},
+               "11111111000191": {"mei": True, "razao": "NOME DA PESSOA"}}
+
+    def vi(self, *forns, forn=None):
+        contas = {"despesas": {"fornecedores_pj": [{"cnpj": c, "nome": "x", "total": t} for c, t in forns]}}
+        return ind.valores_identicos("1", contas, forn or self.FORN_VI, self.CFG_VI)
+
+    def test_tres_locadoras(self):
+        out = self.vi(("62159285000165", 32585.0), ("22584613000156", 32585.0), ("45587474000110", 32585.0), ("10000000000191", 999.0))
+        self.assertEqual(len(out), 1)
+        i = out[0]
+        self.assertEqual(i["nome"], "valores_identicos")
+        self.assertEqual(i["contrapartes"], ["FROTA VIP LOCACAO DE VEICULOS LTDA", "FROTA10 LOCACAO DE VEICULOS LTDA", "FV LOCADORA LTDA"])
+        self.assertEqual(i["contraparte"], i["contrapartes"][0])
+        self.assertEqual(i["valor"], 3 * 32585.0)
+        self.assertEqual(i["fonte_url"], rcontas.URL_CONTAS)
+        self.assertIn("R$ 32.585,00 cada", i["fato"])
+
+    def test_matriz_e_filial_nao_disparam(self):
+        self.assertEqual(self.vi(("22584613000156", 32585.0), ("22584613000237", 32585.0)), [])
+
+    def test_abaixo_do_minimo(self):
+        self.assertEqual(self.vi(("22584613000156", 4999.0), ("45587474000110", 4999.0)), [])
+
+    def test_multiplo_redondo_ignorado(self):
+        self.assertEqual(self.vi(("22584613000156", 30000.0), ("45587474000110", 30000.0)), [])
+
+    def test_mei_so_mascarado(self):
+        out = self.vi(("11111111000191", 7777.0), ("22584613000156", 7777.0))
+        self.assertIn("**.***.***/0001-**", out[0]["contrapartes"])
+        self.assertNotIn("NOME DA PESSOA", json.dumps(out, ensure_ascii=False))
+
+    def test_sem_cadastro_na_receita_so_mascarado(self):  # pode ser MEI: o nome do TSE pode ser o da pessoa
+        contas = {"despesas": {"fornecedores_pj": [{"cnpj": "33333333000191", "nome": "FULANA DE TAL", "total": 7777.0},
+                                                   {"cnpj": "22584613000156", "nome": "x", "total": 7777.0}]}}
+        out = ind.valores_identicos("1", contas, self.FORN_VI, self.CFG_VI)
+        self.assertNotIn("FULANA", json.dumps(out, ensure_ascii=False))
+        self.assertIn("**.***.***/0001-**", out[0]["contrapartes"])
+
+    def test_lista_um_nome_por_fornecedor(self):  # dois MEIs com a mesma máscara: a lista bate com a contagem
+        forn = dict(self.FORN_VI, **{"44444444000191": {"mei": True}})
+        out = self.vi(("11111111000191", 7777.0), ("44444444000191", 7777.0), ("22584613000156", 7777.0), forn=forn)
+        self.assertEqual(len(out[0]["contrapartes"]), 3)
+        self.assertTrue(out[0]["fato"].startswith("3 fornecedores"))
+
+    def test_config_sem_regra_nao_calcula(self):
+        contas = {"despesas": {"fornecedores_pj": [{"cnpj": "22584613000156", "total": 7777.0}, {"cnpj": "45587474000110", "total": 7777.0}]}}
+        self.assertEqual(ind.valores_identicos("1", contas, self.FORN_VI, CFG), [])
+
+    def test_config_real(self):
+        cfg = json.loads((RAIZ / "rastro" / "config.json").read_text(encoding="utf-8"))
+        self.assertEqual(cfg["valores_identicos_min"], 5000)
+        self.assertEqual(cfg["valores_identicos_ignorar_multiplo"], 10000)
+
+
 class TestGerar(unittest.TestCase):
     def gerar(self, hash_path=FIX / "doadores_hash.json", pf_path=FIX / "pf_por_campanha.json",
               saques_path=FIX / "extrato_saques.json", nomeados_path=FIX / "nomeados.json",

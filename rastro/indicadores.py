@@ -524,6 +524,37 @@ def endereco_compartilhado(sq, contas, fornecedores, cfg):
     return out
 
 
+def valores_identicos(sq, contas, fornecedores, cfg):
+    """Fornecedores de empresas diferentes (CNPJ raiz distinto) da mesma campanha com o mesmo total contratado. Ignora
+    valores abaixo de `valores_identicos_min` e múltiplos de `valores_identicos_ignorar_multiplo` (preço redondo é comum).
+    Um item por grupo: `contraparte` é o primeiro nome e `contrapartes` traz todos, em ordem alfabética."""
+    minimo = cfg.get("valores_identicos_min")
+    if minimo is None:  # config sem a regra: não calcula
+        return []
+    mult = cfg.get("valores_identicos_ignorar_multiplo")
+    grupos = {}
+    for cnpj, f in _fornecedores_pj(contas):
+        v = round(float(f.get("total") or 0), 2)
+        if v < minimo or (mult and round(v % mult, 2) == 0):
+            continue
+        grupos.setdefault(v, []).append((cnpj, f))
+    out = []
+    for v, membros in sorted(grupos.items()):
+        if len({c[:8] for c, _ in membros}) < 2:  # matriz e filial são a mesma empresa
+            continue
+        # sem cadastro na Receita pode ser MEI (nome da pessoa): só a máscara, como nas páginas
+        nomes = sorted(_contraparte(c, f, fornecedores[c]) if fornecedores.get(c) else mascarar_cnpj(c) for c, f in membros)
+        out.append({
+            "nome": "valores_identicos",
+            "fato": f"{len(membros)} fornecedores de empresas diferentes contratados pelo mesmo valor, {brl(v)} cada: {'; '.join(nomes)}",
+            "valor": round(v * len(membros), 2),
+            "fonte_url": URL_CONTAS,
+            "contraparte": nomes[0],
+            "contrapartes": nomes,
+        })
+    return out
+
+
 def calcular(sq, contas, fornecedores, agregados, doadores_hash, cfg, cnae_x_tipo, idx=None,
              pf_hash=None, saques=None, idx_pf=None, idx_nomeados=None, eleito=None,
              candidatos=None, idx_cand=None, data_base=None):
@@ -542,7 +573,8 @@ def calcular(sq, contas, fornecedores, agregados, doadores_hash, cfg, cnae_x_tip
     itens += (multicampanha(sq, contas, fornecedores, agregados, cfg)
               + situacao_irregular(sq, contas, fornecedores, cfg, data_base)
               + concentracao(sq, contas, fornecedores, cfg)
-              + endereco_compartilhado(sq, contas, fornecedores, cfg))
+              + endereco_compartilhado(sq, contas, fornecedores, cfg)
+              + valores_identicos(sq, contas, fornecedores, cfg))
     if eleito is not None:
         itens += preco_fora_da_curva(sq, contas, eleito, agregados, cfg)
         itens += gasto_por_voto(sq, contas, eleito, agregados, cfg)

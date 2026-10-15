@@ -21,6 +21,7 @@ import brand
 from rastro import busca
 from rastro import diagramas
 from rastro import indicadores as ind
+from rastro.rotulos import peso, rotulo
 from rastro.baixar import URL_CAND, url_contas
 from rastro.contas import SAL, URL_CONTAS, cpf_valido
 
@@ -28,7 +29,9 @@ AVISO = "Indicador não é prova de irregularidade."
 HOMONIMO = {"socio_doador", "socio_ligado", "socio_nomeado"}  # casados por nome: podem ser outra pessoa
 CARGOS = {"governador": "Governador(a)", "senador": "Senador(a)", "depfed": "Deputado(a) federal",
           "depest": "Deputado(a) estadual", "distrital": "Deputado(a) distrital"}
-PROIBIDOS = re.compile(r"fraude|laranja|fict[ií]cia", re.I)
+PROIBIDOS = re.compile(r"fraude|laranja|fict[ií]cia|desvio|suspeit[oa]|esquema|irregular", re.I)
+# Únicos usos permitidos de "irregular": o aviso, a frase da metodologia e o nome técnico do indicador (âncora da metodologia)
+PERMITIDOS = ("prova de irregularidade", "que houve irregularidade", "situacao_irregular")
 RE_CPF_CANDIDATO = re.compile(r"(?<![\d.\-])\d{3}[.\s]?\d{3}[.\s]?\d{3}[\-\s]?\d{2}(?![\d])")
 BUSCA_JS = Path(__file__).resolve().parent / "busca.js"
 SEM_PRESTACAO = "Esta candidatura está sem prestação parcial publicada até a data da base."
@@ -89,12 +92,19 @@ def eh_mei(rec):
     return rec is None or rec.get("mei") is not False
 
 
+def termo_proibido(texto):
+    """Primeiro termo proibido do texto (match) ou None; as frases de PERMITIDOS não contam."""
+    for p in PERMITIDOS:
+        texto = re.sub(re.escape(p), " ", texto, flags=re.I)
+    return PROIBIDOS.search(texto)
+
+
 def varrer(nome, texto):
     """Levanta ValueError se o HTML tiver CPF válido ou termo proibido."""
     for m in RE_CPF_CANDIDATO.finditer(texto):
         if cpf_valido(re.sub(r"\D", "", m.group())):
             raise ValueError(f"{nome}: CPF válido no HTML ({m.group()[:3]}…); página não publicada")
-    m = PROIBIDOS.search(texto)
+    m = termo_proibido(texto)
     if m:
         raise ValueError(f"{nome}: termo proibido {m.group()!r}; página não publicada")
 
@@ -141,6 +151,19 @@ tr:target{background:var(--soft)}
 .rs-cruz li{border-bottom:1px solid var(--line);padding:8px 0;overflow-wrap:anywhere}
 .rs-cruz small{display:block;color:var(--ink2);font-size:13px}
 .rs-so-cel{display:none}
+.rs-rot{font:600 13px var(--font-mono);color:var(--ink)}
+.rs-cards{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.rs-card{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--amber);border-radius:10px;padding:12px 14px;overflow-wrap:anywhere}
+.rs-card-t{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 12px;margin:0 0 6px}
+.rs-card-t span{font:600 14px var(--font-mono);font-variant-numeric:tabular-nums}
+.rs-tags{margin:0 0 6px}.rs-tag{display:inline-block;font:600 12px var(--font-mono);border:1px solid var(--amber);border-radius:999px;padding:1px 8px;margin:0 4px 4px 0}
+.rs-card ul{margin:0;padding-left:18px;font-size:14px;color:var(--ink2)}
+.rs-card .rs-hom{display:block;font-size:13px;color:var(--amber)}
+.rs-card details{font-size:14px;color:var(--ink2)}.rs-card details summary{margin:6px 0 0}
+.rs-card-l{font-size:14px;margin:6px 0 0}
+.rs-selo{display:inline-block;min-width:18px;text-align:center;font:600 12px var(--font-mono);color:var(--bg);background:var(--amber);border-radius:999px;padding:0 6px;margin-left:6px;cursor:help}
+.rs-filtro{display:inline-flex;gap:6px;align-items:center;font-size:14px;margin:4px 0 8px;cursor:pointer}
+.rs-filtro[hidden]{display:none}
 .rs-topo{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px;margin:0 0 14px}
 .rs-topo .rs-crumbs{margin:0}
 .rs-busca{position:relative;max-width:100%}
@@ -164,10 +187,13 @@ tr:target{background:var(--soft)}
 </style>"""
 
 
-def pagina(titulo, corpo):
+SCRIPT = '<script defer src="/rastro/rastro.js"></script>'
+
+
+def pagina(titulo, corpo, script=False):
     return (f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">'
             f'<meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(titulo)}</title>'
-            f'<style>{brand.CSS}</style>{CSS}<script src="/rastro/busca.js" defer></script></head><body><main id="conteudo" class="rs">{corpo}</main></body></html>')
+            f'<style>{brand.CSS}</style>{CSS}<script src="/rastro/busca.js" defer></script>{SCRIPT if script else ""}</head><body><main id="conteudo" class="rs">{corpo}</main></body></html>')
 
 
 PLACEHOLDER_BUSCA = "Busque um eleito, uma empresa, um CNPJ ou um sócio"
@@ -242,26 +268,37 @@ def ancora_fornecedor(i, cnpj, ids=None):
     return (ids or {}).get(ind.digitos(cnpj)) or f"n{i}"
 
 
-def _linha_fornecedor(f, forn, ids=None, i=0):
+def _linha_fornecedor(f, forn, ids=None, i=0, itens=None):
+    """itens: indicadores em que `f` é a contraparte (multicampanha conta); com algum, a linha ganha selo e `data-indicio`."""
     cnpj = ind.digitos(f.get("cnpj"))
     rec = (forn or {}).get(cnpj)
     nome = esc(nome_fornecedor(f, forn))
     if ids and cnpj in ids:
         nome = f'<a href="/rastro/fornecedor/{ids[cnpj]}/">{nome}</a>'
+    selo = attr = ""
+    if itens:
+        rots = "; ".join(dict.fromkeys(rotulo(x["nome"]) for x in itens))
+        selo = f'<span class="rs-selo" title="{html.escape(rots, quote=True)}">{len(itens)}</span>'
+        attr = f' data-indicio="{len(itens)}"'
     if eh_mei(rec):
         nome += f'<small>{"MEI" if rec else "cadastro da Receita não localizado"}</small>'
     tipos = "; ".join(f.get("tipos") or [])
-    return (f'<tr id="f-{ancora_fornecedor(i, cnpj, ids)}"><td>{nome}{f"<small>{esc(tipos)}</small>" if tipos else ""}</td>'
+    return (f'<tr id="f-{ancora_fornecedor(i, cnpj, ids)}"{attr}><td>{nome}{selo}{f"<small>{esc(tipos)}</small>" if tipos else ""}</td>'
             f'<td class="v">{ind.brl(f.get("total") or 0)}</td></tr>')
 
 
-def tabela_despesas(desp, forn, ids=None):
+FILTRO = '<label hidden class="rs-filtro"><input type="checkbox"> Só com indício</label>'
+
+
+def tabela_despesas(desp, forn, ids=None, itens=None):
     pj = desp.get("fornecedores_pj") or []
     cab = '<table class="rs-tab"><thead><tr><th>Fornecedor (pessoa jurídica)</th><th class="v">Contratado</th></tr></thead><tbody>'
-    linhas = [_linha_fornecedor(f, forn, ids, i) for i, f in enumerate(pj)]
+    recs = [(forn or {}).get(ind.digitos(f.get("cnpj"))) for f in pj]
+    por_linha = [_itens_do_fornecedor(f, r, eh_mei(r), pj, itens or []) if itens else [] for f, r in zip(pj, recs)]
+    linhas = [_linha_fornecedor(f, forn, ids, i, por_linha[i]) for i, f in enumerate(pj)]
     out = [f'<p class="rs-total">Contratado: {ind.brl(desp.get("total_contratado") or 0)} · pago: {ind.brl(desp.get("total_pago") or 0)}</p>']
     if pj:
-        out.append(cab + "".join(linhas[:20]) + "</tbody></table>")
+        out.append((FILTRO if any(por_linha) else "") + cab + "".join(linhas[:20]) + "</tbody></table>")
         if len(linhas) > 20:
             out.append(f'<details><summary>Mais {len(linhas) - 20} fornecedores</summary>{cab}{"".join(linhas[20:])}</tbody></table></details>')
     pf = desp.get("fornecedores_pf") or {}
@@ -272,16 +309,116 @@ def tabela_despesas(desp, forn, ids=None):
     return "".join(out)
 
 
+def _hom(i):
+    return ('<span class="rs-hom">Casado por nome: pode ser homônimo.</span>'
+            if i["nome"] in HOMONIMO and "homônimo" not in i["fato"] else "")
+
+
+def _fonte(i):
+    return f'<a href="{html.escape(i["fonte_url"], quote=True)}" rel="noopener">fonte</a>'
+
+
 def lista_indicadores(itens, base):
     if not itens:
         return f'<p class="rs-vazio">Nenhum indicador disparado para esta candidatura na base de {esc(base)}.</p>'
     lis = []
     for i in itens:
-        extra = f'<span class="rs-ctp">Fornecedor: {esc(i["contraparte"])}</span>' if i.get("contraparte") else ""
-        hom = ('<span class="rs-hom">Casado por nome: pode ser homônimo.</span>'
-               if i["nome"] in HOMONIMO and "homônimo" not in i["fato"] else "")
-        lis.append(f'<li><code>{esc(i["nome"])}</code>: {esc(i["fato"])} <a href="{html.escape(i["fonte_url"], quote=True)}" rel="noopener">fonte</a>{extra}{hom}</li>')
+        quem = "Fornecedores" if i.get("contrapartes") else "Fornecedor"
+        extra = f'<span class="rs-ctp">{quem}: {esc("; ".join(i.get("contrapartes") or [i["contraparte"]]))}</span>' if i.get("contraparte") else ""
+        lis.append(f'<li><b class="rs-rot">{esc(rotulo(i["nome"]))}</b>: {esc(i["fato"])} {_fonte(i)}{extra}{_hom(i)}</li>')
     return f'<ul class="rs-ind">{"".join(lis)}</ul>'
+
+
+MAX_DESTAQUES = 5
+VALOR_NAO_REAIS = {"gasto_por_voto", "concentracao", "multicampanha"}  # `valor` é custo por voto, % ou contagem, não reais envolvidos
+
+
+def destaques(itens, contas, forn, cfg, ids=None):
+    """Cartões de "O que chama atenção": indicadores agrupados por fornecedor (multicampanha fica de fora), no máximo
+    MAX_DESTAQUES, ordenados por (peso de destaque, reais envolvidos, nome). Reais envolvidos: o total contratado do fornecedor
+    (o `valor` de concentracao é % e o de multicampanha, contagem); sem fornecedor, o `valor` do item. O peso nunca sai na página.
+    Um fornecedor fica num cartão só: se ele está num grupo de `valores_identicos` e tem outro indicador, tudo vai para o
+    cartão do grupo. Cartão: {titulo, itens, peso, valor (None quando não é em reais), links: [(nome, href)]}."""
+    pj = ((contas or {}).get("despesas") or {}).get("fornecedores_pj") or []
+    por_chave, ambiguas = {}, set()
+    for n, f in enumerate(pj):
+        cnpj = ind.digitos(f.get("cnpj"))
+        rec = (forn or {}).get(cnpj)
+        for k in _chave_contraparte(f, rec, eh_mei(rec)):
+            if k in por_chave and por_chave[k][2] != cnpj:
+                ambiguas.add(k)  # ex.: dois MEIs com a mesma máscara: não dá para saber qual é
+            por_chave.setdefault(k, (n, f, cnpj))
+    for k in ambiguas:
+        del por_chave[k]
+
+    def ident(c):  # o mesmo fornecedor pode vir pelo nome ou pela razão social: a identidade é o CNPJ
+        if c in ambiguas:
+            return object()  # identidade desconhecida: não junta com outro cartão
+        return por_chave[c][2] if c in por_chave else c
+
+    grupos = []  # {"ids": identidades dos fornecedores, "nomes": como os indicadores os chamam, "itens"}
+    for i in itens or []:
+        if i["nome"] == "multicampanha":
+            continue
+        nomes = list(dict.fromkeys(i.get("contrapartes") or ([i["contraparte"]] if i.get("contraparte") else [])))
+        ids_i = {ident(c) for c in nomes}
+        juntos = [g for g in grupos if g["ids"] & ids_i]
+        if not juntos:
+            grupos.append({"ids": ids_i, "nomes": nomes, "itens": [i]})
+            continue
+        alvo = juntos[0]
+        for g in juntos[1:]:
+            alvo["ids"] |= g["ids"]
+            alvo["nomes"] += g["nomes"]
+            alvo["itens"] += g["itens"]
+            grupos.remove(g)
+        alvo["ids"] |= ids_i
+        alvo["itens"].append(i)
+        vistos = {ident(c) for c in alvo["nomes"]}
+        alvo["nomes"] += [c for c in nomes if c not in alvo["nomes"] and ident(c) not in vistos]
+    cartoes = []
+    for g in grupos:
+        its, links = g["itens"], []
+        valor_item = None if its[0]["nome"] in VALOR_NAO_REAIS else float(its[0].get("valor") or 0)
+        if not g["nomes"]:
+            titulo = rotulo(its[0]["nome"])
+            valor = valor_item
+        else:
+            titulo = "; ".join(g["nomes"])
+            achados = {por_chave[c][2]: por_chave[c] for c in g["nomes"] if c in por_chave}
+            for pos, _, cnpj in achados.values():
+                links.append((nome_fornecedor(pj[pos], forn),
+                              f"/rastro/fornecedor/{ids[cnpj]}/" if ids and cnpj in ids else f"#f-{ancora_fornecedor(pos, cnpj, ids)}"))
+            valor = sum(float(f.get("total") or 0) for _, f, _ in achados.values()) if achados else valor_item
+        cartoes.append({"titulo": titulo, "itens": its, "peso": max(peso(i["nome"], cfg) for i in its), "valor": valor, "links": links})
+    cartoes.sort(key=lambda c: (-c["peso"], -(c["valor"] or 0), c["titulo"]))
+    return cartoes[:MAX_DESTAQUES]
+
+
+def bloco_destaques(cartoes, base, cfg):
+    """Seção 'O que chama atenção', no topo da página do eleito. Sem cartão, uma linha."""
+    cab = '<section id="destaques"><h2>O que chama atenção</h2>'
+    if not cartoes:
+        return f'{cab}<p class="rs-vazio">Nenhum indicador disparado nesta base ({esc(base)}).</p></section>'
+    desc = dict(descricoes(cfg))
+    lis = []
+    for c in cartoes:
+        nomes = list(dict.fromkeys(i["nome"] for i in c["itens"]))
+        tags = "".join(f'<span class="rs-tag">{esc(rotulo(n))}</span>' for n in nomes)
+        fatos = "".join(f"<li>{esc(i['fato'])} {_fonte(i)}{_hom(i)}</li>" for i in c["itens"])
+        valor = f"<span>{ind.brl(c['valor'])}</span>" if c["valor"] is not None else ""
+        if len(c["links"]) == 1:
+            link = f'<p class="rs-card-l"><a href="{c["links"][0][1]}">ver fornecedor</a></p>'
+        elif c["links"]:
+            link = ('<p class="rs-card-l">ver fornecedores: '
+                    + " · ".join(f'<a href="{h}">{esc(n)}</a>' for n, h in c["links"]) + "</p>")
+        else:
+            link = ""
+        expl = "".join(f'<details><summary>O que é “{esc(rotulo(n))}”</summary>{desc[n]}</details>' for n in nomes if n in desc)
+        lis.append(f'<li class="rs-card"><p class="rs-card-t"><b>{esc(c["titulo"])}</b>{valor}</p><p class="rs-tags">{tags}</p>'
+                   f"<ul>{fatos}</ul>{link}{expl}</li>")
+    return (f'{cab}<p class="rs-nota">Até {MAX_DESTAQUES} fornecedores ou fatos, os de indicador mais forte primeiro. '
+            f'A lista completa está em <a href="#indicadores">Indicadores</a>.</p><ul class="rs-cards">{"".join(lis)}</ul></section>')
 
 
 MAX_CRUZ = 10
@@ -328,16 +465,18 @@ def html_eleito(eleito, contas, itens, fornecedores, cfg, bases, ids=None, cruz=
         rec_h = (f'<details class="rs-det"><summary><b>Receitas por origem</b> · total {ind.brl(rec.get("total") or 0)} · {n_orig} origem(ns)</summary>{tabela_receitas(rec)}</details>'
                  if rec else '<details class="rs-det"><summary><b>Receitas por origem</b></summary><p class="rs-vazio">Receitas ainda não declaradas na base.</p></details>')
         desp_h = (f'<details class="rs-det"><summary><b>Despesas por fornecedor</b> · contratado {ind.brl(desp.get("total_contratado") or 0)} · {len(pj)} fornecedor(es)</summary>'
-                  f'{tabela_despesas(desp, fornecedores, ids)}</details>'
+                  f'{tabela_despesas(desp, fornecedores, ids, itens)}</details>'
                   if desp else '<details class="rs-det"><summary><b>Despesas por fornecedor</b></summary><p class="rs-vazio">Despesas ainda não declaradas na base.</p></details>')
         fin = ""
-    ind_h = f'<h2>Indicadores</h2>{lista_indicadores(itens, data_br(bases["contas"]) or "data não informada")}' if parcial else ""
+    data_ind = data_br(bases["contas"]) or "data não informada"
+    ind_h = f'<h2 id="indicadores">Indicadores</h2>{lista_indicadores(itens, data_ind)}' if parcial else ""
+    dest_h = bloco_destaques(destaques(itens, contas, fornecedores, cfg, ids), data_ind, cfg) if parcial else ""
     tabs = f'<h2>Tabelas</h2>{rec_h}{desp_h}' if parcial else ""
     corpo = (trilha(("Início", "/"), ("Rastro do dinheiro", "/rastro/"), (nome, None))
              + f'<p class="rs-kicker">Rastro do dinheiro · eleito(a) 2026</p><h1>{esc(nome)}</h1>'
-             f'<p class="rs-meta">{partes[0]}</p>{resumo}' + aviso_curto() + fin + diag + ind_h + tabs
+             f'<p class="rs-meta">{partes[0]}</p>{resumo}' + aviso_curto() + fin + dest_h + diag + ind_h + tabs
              + (secao_cruzada(cruz) if parcial else "") + rodape(cfg, base, f"Contestar dado: {nome} ({eleito['uf']})"))
-    return pagina(f"{nome} · Rastro do dinheiro", corpo)
+    return pagina(f"{nome} · Rastro do dinheiro", corpo, script=parcial)
 
 
 def _pct(v):
@@ -360,6 +499,7 @@ def descricoes(cfg):
         ("situacao_irregular", f"Situação cadastral do fornecedor na Receita entre: {', '.join(c['situacoes_irregulares'])}."),
         ("concentracao", f"Um único fornecedor concentra mais de {c['concentracao_pct']}% do total contratado pela campanha."),
         ("endereco_compartilhado", f"Ao menos {c['endereco_min_fornecedores']} fornecedores da mesma campanha, de empresas diferentes, com o mesmo endereço na Receita. O endereço não é publicado."),
+        ("valores_identicos", f"Ao menos 2 fornecedores da mesma campanha, de empresas diferentes (matriz e filial contam como uma), com exatamente o mesmo total contratado. Só valores a partir de {ind.brl(c.get('valores_identicos_min', 5000))} e que não sejam múltiplos de {ind.brl(c.get('valores_identicos_ignorar_multiplo', 10000))}, porque preço redondo é comum. A base publicada traz o total por fornecedor, não cada despesa."),
         ("preco_fora_da_curva", f"Gasto num tipo de despesa acima do percentil {c['percentil_comparacao']} das campanhas do mesmo cargo e UF (comparação só em grupos com {c['min_campanhas_grupo']} campanhas ou mais)."),
         ("gasto_por_voto", f"Custo por voto (contratado dividido pelos votos) acima do percentil {c['percentil_comparacao']} das campanhas do mesmo cargo e UF (grupos com {c['min_campanhas_grupo']} campanhas ou mais)."),
         ("transferencia_candidato", f"Repasse a outro candidato que usou fornecedores em comum. Destacado quando o recebedor teve votação ínfima, menos de {_pct(c['votacao_infima_fracao_eleitorado'])} do eleitorado da UF."),
@@ -396,7 +536,17 @@ def secao_rede_metodologia(cfg):
 
 
 def html_metodologia(cfg, avisos=None):
-    dl = "".join(f"<dt>{n}</dt><dd>{t}</dd>" for n, t in descricoes(cfg))
+    dl = "".join(f'<dt>{esc(rotulo(n))} <code id="ind-{n}">{n}</code></dt><dd>{t}</dd>' for n, t in descricoes(cfg))
+    niveis = {3: "alto", 2: "médio", 1: "baixo"}
+    por_nivel = {}
+    for n, _ in descricoes(cfg):
+        por_nivel.setdefault(peso(n, cfg), []).append(rotulo(n))
+    pesos = "".join(f"<li>Peso {niveis.get(p, p)} ({p}): {esc(', '.join(por_nivel[p]))}.</li>" for p in sorted(por_nivel, reverse=True))
+    destaque_h = ('<h2 id="destaques">O que chama atenção</h2><p>No topo da página do eleito, até '
+                  f'{MAX_DESTAQUES} cartões juntam os indicadores de um mesmo fornecedor. A ordem segue um peso por indicador '
+                  'e, no empate, o valor em reais envolvido e o nome. O peso só ordena os cartões dentro da página: nunca aparece '
+                  'como número e não compara candidatos. “Atende muitas campanhas” não vira cartão, porque contratar fornecedor '
+                  f'grande é comum; ele continua na lista completa e no selo da tabela.</p><ul>{pesos}</ul>')
     nom = (cfg.get("nomeacoes_fontes") or {}).get("siape") or ""
     nom = nom.format(mes=cfg["nomeacoes_mes"].replace("-", "")) if nom else ""
     fontes = (f'<ul><li>Prestação de contas parcial das campanhas, candidatos e eleitos: <a href="{URL_CONTAS}" rel="noopener">TSE, dados abertos</a> '
@@ -412,7 +562,7 @@ def html_metodologia(cfg, avisos=None):
                "Não afirmamos que houve irregularidade: apontamos onde vale conferir.</p>"
              + f"<h2>Fontes</h2>{fontes}"
              + f"<h2>Indicadores e limiares</h2><p>Os limiares abaixo são os do arquivo de configuração do projeto, os mesmos usados para gerar as páginas.</p><dl>{dl}</dl>"
-             + secao_rede_metodologia(cfg)
+             + destaque_h + secao_rede_metodologia(cfg)
              + "<h2>Limites</h2><ul>"
                "<li>Parentesco não consta em nenhuma base pública. Não inferimos parentesco.</li>"
                "<li>“Mesmo sobrenome” é um fato textual: duas pessoas com o mesmo sobrenome não são, por isso, parentes.</li>"
@@ -521,13 +671,14 @@ def html_fornecedor(id_, rec, campanhas, itens, cfg, bases, anteriores=None, pen
     if mei:
         itens = [i for i in itens if i["nome"] not in HOMONIMO]  # casamento por nome com sócio: sócio de MEI fica fora
     if itens:
-        lis = []
+        por_camp = {}
         for i in itens:
-            hom = ('<span class="rs-hom">Casado por nome: pode ser homônimo.</span>'
-                   if i["nome"] in HOMONIMO and "homônimo" not in i["fato"] else "")
-            lis.append(f'<li><code>{esc(i["nome"])}</code>: {esc(i["fato"])} <a href="{html.escape(i["fonte_url"], quote=True)}" rel="noopener">fonte</a>'
-                       f'<span class="rs-ctp">Campanha de <a href="/{i["caminho"]}">{esc(i["eleito"]["nome_urna"])}</a></span>{hom}</li>')
-        ind_h = f'<h2>Indicadores em que é a contraparte</h2><ul class="rs-ind">{"".join(lis)}</ul>'
+            por_camp.setdefault(i["caminho"], []).append(i)
+        blocos = []
+        for cam_, its in por_camp.items():
+            lis = "".join(f'<li><b class="rs-rot">{esc(rotulo(i["nome"]))}</b>: {esc(i["fato"])} {_fonte(i)}{_hom(i)}</li>' for i in its)
+            blocos.append(f'<h3>Campanha de <a href="/{cam_}">{esc(its[0]["eleito"]["nome_urna"])}</a></h3><ul class="rs-ind">{lis}</ul>')
+        ind_h = f'<h2>Indicadores em que é a contraparte</h2>{"".join(blocos)}'
     else:
         ind_h = '<h2>Indicadores em que é a contraparte</h2><p class="rs-vazio">Nenhum indicador disparado para este fornecedor.</p>'
     base = (f'contas do TSE até {data_br(bases["contas"])}' if bases.get("contas") else "data das contas não informada") + (
@@ -628,9 +779,10 @@ def html_home(entradas, fornecedores, cfg, bases, pendentes=None, rede=None):
                         f'{" · " + votos if votos else ""}</small></td><td class="v">{esc(gasto)}</td></tr>')
     eleitos_h = ('<h2 id="eleitos">Eleitos publicados</h2><table class="rs-tab"><thead><tr><th>Eleito(a)</th><th class="v">Contratado</th></tr></thead>'
                  f'<tbody>{"".join(linhas_e)}</tbody></table>')
-    cont = Counter(i["nome"] for e in entradas if parcial(e) for i in e["itens"])  # só o que a página do eleito mostra
-    lis = "".join(f'<li><code>{esc(nome)}</code>: {q} ocorrência(s)</li>' for nome, q in sorted(cont.items(), key=lambda kv: (-kv[1], kv[0])))
-    ind_h = ("<h2>Indicadores mais frequentes</h2>" + (f'<ul class="rs-ind">{lis}</ul><p>O que cada indicador mede: <a href="/rastro/metodologia/">metodologia</a>.</p>'
+    cont = Counter(rotulo(i["nome"]) for e in entradas if parcial(e) for i in e["itens"]  # só o que a página do eleito mostra
+                   if i["nome"] != "multicampanha")
+    lis = "".join(f'<li><b class="rs-rot">{esc(nome)}</b>: {q} ocorrência(s)</li>' for nome, q in sorted(cont.items(), key=lambda kv: (-kv[1], kv[0])))
+    ind_h = ("<h2>Indícios mais frequentes entre os publicados</h2>" + (f'<ul class="rs-ind">{lis}</ul><p>O que cada indicador mede: <a href="/rastro/metodologia/">metodologia</a>.</p>'
              if lis else '<p class="rs-vazio">Nenhum indicador disparado nas páginas publicadas.</p>'))
     return pagina("Rastro do dinheiro · Eleições 2026", cab + cargo_h + forn_h + secao_rede(rede) + eleitos_h + ind_h + pend_h + fim)
 
@@ -681,7 +833,7 @@ def _itens_do_fornecedor(f, rec, mei, pj_campanha, itens):
     for g in pj_campanha:
         if ind.digitos(g.get("cnpj")) != ind.digitos(f["cnpj"]) and chaves & _chave_contraparte(g, None, eh_mei(None) if mei else False):
             return []
-    return [i for i in itens if i.get("contraparte") in chaves]
+    return [i for i in itens if i.get("contraparte") in chaves or chaves & set(i.get("contrapartes") or [])]
 
 
 def rede_fornecedores(agg, entradas, pendentes, por_sq, cfg, agregados=None):
