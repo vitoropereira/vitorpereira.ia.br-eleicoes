@@ -201,6 +201,195 @@ class TestFornecedorAnteriores(unittest.TestCase):
             self.assertFalse(any("Em eleições anteriores" in p.read_text(encoding="utf-8") for p in Path(d).rglob("index.html")))
 
 
+AGR = {"por_cnpj": {"33333333000191": {"total_recebido": 400000.0, "n_campanhas": 3, "campanhas": ["2001", "2002", "9001"]},
+                    "11111111000191": {"total_recebido": 110000.0, "n_campanhas": 2, "campanhas": ["2001", "2002"]}}}
+
+
+def diagrama(h):
+    return h.split('<section class="rs-diagrama">')[1].split("</section>")[0]
+
+
+def faixas(svg):
+    """valores (R$) das faixas do Sankey, lidos do <title> de cada <path>."""
+    return [float(v.replace(".", "").replace(",", ".")) for v in re.findall(r"<path [^>]*><title>[^<]*: R\$ ([\d.,]+)</title></path>", svg)]
+
+
+class TestRedeFornecedor(unittest.TestCase):
+    def paginas(self, **kw):
+        with tempfile.TemporaryDirectory() as d:
+            return {p["path"]: p["html"] for p in gerar(d, **kw)}
+
+    def test_duas_publicadas_e_uma_nao_eleita(self):
+        pags = self.paginas(agregados=AGR)
+        svg = diagrama(pags[f"/rastro/fornecedor/{ID_PJ}/"])
+        fx = faixas(svg)
+        self.assertEqual(len(fx), 3)
+        self.assertAlmostEqual(sum(fx), 400000, delta=0.01)
+        links = re.findall(r'<a href="(/rastro/[^"]+)">', svg)
+        self.assertEqual(sorted(links), sorted("/" + pg.caminho(E[sq]) for sq in ("2001", "2002")))
+        self.assertIn("Outra campanha (não eleita)", svg)
+        for a in re.findall(r"<a .*?</a>", svg):
+            self.assertNotIn("não eleita", a)
+        self.assertIn(f"Recebeu {ind.brl(400000)} de 3 campanhas: 2 de eleitos, de 2 partidos em 1 estado, e 1 não eleita.", texto(svg))
+        self.assertFalse(any("9001" in p for p in pags))
+        self.assertNotIn("9001", "".join(pags.values()))
+
+    def test_sem_agregados_so_eleitos(self):
+        fx = faixas(diagrama(self.paginas()[f"/rastro/fornecedor/{ID_PJ}/"]))
+        self.assertEqual(len(fx), 2)
+        self.assertAlmostEqual(sum(fx), 330000, delta=0.01)
+
+    def test_diagrama_acima_da_tabela(self):
+        h = self.paginas()[f"/rastro/fornecedor/{ID_PJ}/"]
+        self.assertLess(h.index("Caminho do dinheiro"), h.index("Campanhas publicadas que o contrataram"))
+
+    def test_pendente_sem_link(self):
+        pend = [{"eleito": E["2004"], "total": 5000.0}]
+        h = pg.html_fornecedor(ID_PJ, FORN["fornecedores"]["33333333000191"], agregado("33333333000191"), [], CFG, BASES, pendentes=pend)
+        svg = diagrama(h)
+        self.assertIn("NAO PUBLICADO", svg)
+        self.assertEqual(len(re.findall(r"<a ", svg)), 2)
+        self.assertNotIn("/rastro/depfed/ma/nao-publicado/", h)
+
+    def test_mei_mascarado_no_svg(self):
+        h = self.paginas(agregados=AGR)[f"/rastro/fornecedor/{ID_MEI}/"]
+        svg = diagrama(h)
+        self.assertIn(ind.mascarar_cnpj("11111111000191"), svg)
+        self.assertNotIn("NOME DO MEI DONO", h)
+        self.assertNotIn("11111111000191", h)
+
+    def test_faixa_anteriores(self):
+        com = diagrama(self.paginas(anteriores=ANT)[f"/rastro/fornecedor/{ID_PJ}/"])
+        self.assertIn("Também recebeu em 2022 (4 campanhas) e 2024 (2 campanhas)", texto(com))
+        self.assertIn('href="#anteriores"', com)
+        self.assertNotIn("Também recebeu", self.paginas()[f"/rastro/fornecedor/{ID_PJ}/"])
+
+
+class TestRedeHome(unittest.TestCase):
+    def home(self, **kw):
+        with tempfile.TemporaryDirectory() as d:
+            h = {p["path"]: p["html"] for p in gerar(d, **kw)}["/rastro/"]
+        return h.split('<section id="rede">')[1].split("</section>")[0]
+
+    def linhas(self, sec):
+        tab = sec.split("<tbody>")[1].split("</tbody>")[0] if "<tbody>" in sec else ""
+        return re.findall(r'<tr><td><a href="/rastro/fornecedor/([^/]+)/">', tab)
+
+    def test_ordem_por_eleitos_e_total(self):
+        sec = self.home()
+        self.assertEqual(self.linhas(sec), [ID_PJ, ID_MEI])  # os dois atendem 2 eleitos; o PJ tem mais valor
+        self.assertNotIn(ID_SEM, self.linhas(sec))  # 1 eleito só: fora
+        self.assertIn("não um ranking de risco", texto(sec))
+        self.assertIn("2 partido(s)", texto(sec))
+
+    def test_desempate_e_top_n(self):
+        cfg = copy.deepcopy(CFG)
+        cfg["rede_top_n"] = 1
+        self.assertEqual(self.linhas(self.home(cfg=cfg)), [ID_PJ])
+
+    def test_exclui_plataforma(self):
+        cfg = copy.deepcopy(CFG)
+        cfg["rede_excluir_cnpj_raiz"] = [{"raiz": "33333333", "nome": "PLATAFORMA X"}]
+        sec = self.home(cfg=cfg)
+        self.assertEqual(self.linhas(sec), [ID_MEI])
+        self.assertNotIn("EMPRESA GRANDE", sec)
+        self.assertIn('Não listadas: plataformas de pagamento e anúncio (lista na <a href="/rastro/metodologia/#rede">metodologia</a>)', sec)
+
+    def test_mei_mascarado(self):
+        sec = self.home()
+        self.assertIn(ind.mascarar_cnpj("11111111000191"), sec)
+        self.assertNotIn("11111111000191", sec)
+        self.assertNotIn("NOME DO MEI DONO", sec)
+
+    def test_mini_diagrama(self):
+        sec = self.home()
+        self.assertIn('<div class="rs-sankey rs-rede">', sec)
+        self.assertIn("veja a tabela acima", sec)
+        self.assertIn(".rs-rede{display:none}", pg.CSS)
+
+    def test_maiores_fornecedores_continua(self):
+        with tempfile.TemporaryDirectory() as d:
+            h = {p["path"]: p["html"] for p in gerar(d)}["/rastro/"]
+        self.assertLess(h.index("Maiores fornecedores"), h.index("Empresas que atendem mais eleitos"))
+
+
+class TestRedeEleito(unittest.TestCase):
+    def paginas(self, **kw):
+        with tempfile.TemporaryDirectory() as d:
+            return {p["path"]: p["html"] for p in gerar(d, **kw)}
+
+    def secao(self, h):
+        return h.split('<section id="rede">')[1].split("</section>")[0] if '<section id="rede">' in h else ""
+
+    def test_a_lista_b_e_b_lista_a(self):
+        pags = self.paginas()
+        a, b = (self.secao(pags["/" + pg.caminho(E[sq])]) for sq in ("2001", "2002"))
+        self.assertIn(f'href="/{pg.caminho(E["2002"])}"', a)
+        self.assertIn(f'href="/{pg.caminho(E["2001"])}"', b)
+        self.assertNotIn(f'href="/{pg.caminho(E["2001"])}"', a)
+        self.assertIn(f'href="/rastro/fornecedor/{ID_PJ}/"', a)
+        self.assertNotIn(ID_SEM, a)  # só a 2001 pagou: sem cruzamento
+        self.assertLess(pags["/" + pg.caminho(E["2001"])].index("<h2>Tabelas</h2>"), pags["/" + pg.caminho(E["2001"])].index('<section id="rede">'))
+
+    def test_mei_mascarado_e_sem_cnpj(self):
+        a = self.secao(self.paginas()["/" + pg.caminho(E["2001"])])
+        self.assertIn(f'<a href="/rastro/fornecedor/{ID_MEI}/">{ind.mascarar_cnpj("11111111000191")}</a>', a)
+        self.assertNotIn("11111111000191", a)
+        self.assertNotIn("NOME DO MEI DONO", a)
+
+    def test_plataforma_fora(self):
+        cfg = copy.deepcopy(CFG)
+        cfg["rede_excluir_cnpj_raiz"] = [{"raiz": "33333333", "nome": "PLATAFORMA X"}]
+        a = self.secao(self.paginas(cfg=cfg)["/" + pg.caminho(E["2001"])])
+        self.assertNotIn(ID_PJ, a)
+        self.assertIn(ID_MEI, a)
+
+    def test_sem_cruzamento_sem_secao(self):
+        h = self.paginas(publicados=["2001"])["/" + pg.caminho(E["2001"])]
+        self.assertNotIn("Fornecedores que também atendem outros eleitos", h)
+
+    def test_limite_de_dez(self):
+        outros = [{"nome_urna": f"ELEITO {i:02d}", "caminho": f"rastro/depfed/sp/e{i}/"} for i in range(13)]
+        t = texto(pg.secao_cruzada([{"id": "x", "rotulo": "EMPRESA", "outros": outros}]))
+        self.assertIn("ELEITO 09 e mais 3", t)
+        self.assertNotIn("ELEITO 10", t)
+
+
+class TestRedeMetodologia(unittest.TestCase):
+    def test_plataformas_e_contagem(self):
+        h = pg.html_metodologia(CFG)
+        t = texto(h)
+        self.assertIn('<h2 id="rede">Rede de fornecedores</h2>', h)
+        self.assertIn("não um ranking de risco", t)
+        for p in CFG["rede_excluir_cnpj_raiz"]:
+            self.assertIn(p["nome"], t)
+            self.assertIn(p["raiz"], t)
+
+    def test_config_raizes(self):
+        forn = RAIZ / "rastro" / "dados" / "fornecedores.json"
+        cnpjs = set(json.loads(forn.read_text(encoding="utf-8"))["fornecedores"]) if forn.exists() else set()
+        self.assertTrue(CFG["rede_excluir_cnpj_raiz"])
+        for p in CFG["rede_excluir_cnpj_raiz"]:
+            self.assertRegex(p["raiz"], r"^\d{8}$")
+            if cnpjs:
+                self.assertTrue(any(c.startswith(p["raiz"]) for c in cnpjs), p)
+
+
+class TestRedeResistencia(unittest.TestCase):
+    def test_varredura_e_lgpd_com_agregados(self):
+        with tempfile.TemporaryDirectory() as d:
+            pags = gerar(d, agregados=AGR, anteriores=ANT)
+            tudo = "".join(p["html"] for p in pags)
+            self.assertEqual(TestRedacao.varrer(self, d), 8)
+        for p in pags:
+            pg.varrer(p["path"], p["html"])
+        self.assertEqual(cpfs_validos(tudo), [])
+        for proibido in ("11111111000191", "NOME DO MEI DONO", "SOCIO DO MEI", "99999999000191", "SEM CADASTRO LTDA", "RUA SECRETA"):
+            self.assertNotIn(proibido, tudo)
+        for termo in ("esquema", "suspeit"):
+            self.assertNotIn(termo, tudo.lower())
+
+
 class TestGerarFornecedores(unittest.TestCase):
     def test_so_quem_aparece_em_publicado(self):
         with tempfile.TemporaryDirectory() as d:
@@ -287,7 +476,7 @@ class TestHome(unittest.TestCase):
     def test_top_n_vem_do_config(self):
         cfg = copy.deepcopy(CFG)
         cfg["home_top_n"] = 1
-        h = self.home(cfg=cfg)
+        h = self.home(cfg=cfg).split("Maiores fornecedores")[1].split('<section id="rede">')[0]
         self.assertEqual(h.count('href="/rastro/fornecedor/'), 1)
         self.assertIn(f'href="/rastro/fornecedor/{ID_PJ}/"', h)  # o de maior valor
 
