@@ -164,6 +164,8 @@ def main(hoje=None, raiz=AQUI.parent, executar=subprocess.run, dry_run=False):
     r = rodar(final)
     if r.returncode != 0:
         print(f"lote: falhou: {' '.join(final[:4])}\n{(r.stderr or '').strip()}")
+        if aprovado:  # merge falhou: marca o PR para a trava do próximo dia não reabrir o mesmo lote
+            rodar(bloquear)
         return 1
     if not aprovado:
         return 1
