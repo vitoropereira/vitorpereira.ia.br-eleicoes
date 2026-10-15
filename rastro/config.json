@@ -12,10 +12,11 @@
  "valores_identicos_ignorar_multiplo": 10000,
  "destaque_pesos": {
   "situacao_irregular": 3, "mei_acima_teto": 3, "empresa_recem_aberta": 3, "socio_doador": 3, "socio_ligado": 3,
-  "socio_nomeado": 3, "valores_identicos": 3,
-  "endereco_compartilhado": 2, "atividade_incompativel": 2, "concentracao": 2, "transferencia_candidato": 2,
+  "socio_nomeado": 3, "valores_identicos": 3, "endereco_compartilhado": 3, "atividade_incompativel": 3,
+  "concentracao": 3,
+  "preco_fora_da_curva": 2, "gasto_por_voto": 2, "pessoal_pf": 2, "transferencia_candidato": 2,
   "saque_especie": 2, "pagamento_tardio": 2,
-  "preco_fora_da_curva": 1, "gasto_por_voto": 1, "pessoal_pf": 1, "multicampanha": 1
+  "multicampanha": 1
  },
  "situacoes_irregulares":["BAIXADA", "INAPTA", "SUSPENSA", "NULA"],
  "sobrenome_particulas": ["DA", "DE", "DO", "DAS", "DOS", "E", "DI", "DU", "VAN", "VON"],

@@ -303,7 +303,8 @@ def destaques(itens, contas, forn, cfg, ids=None):
     """Cartões de "O que chama atenção": indicadores agrupados por fornecedor (multicampanha fica de fora), no máximo
     MAX_DESTAQUES, ordenados por (peso de destaque, reais envolvidos, nome). Reais envolvidos: o total contratado do fornecedor
     (o `valor` de concentracao é % e o de multicampanha, contagem); sem fornecedor, o `valor` do item. O peso nunca sai na página.
-    Cartão: {titulo, itens, peso, valor (None quando não é em reais), href}."""
+    Um fornecedor fica num cartão só: se ele está num grupo de `valores_identicos` e tem outro indicador, tudo vai para o
+    cartão do grupo. Cartão: {titulo, itens, peso, valor (None quando não é em reais), links: [(nome, href)]}."""
     pj = ((contas or {}).get("despesas") or {}).get("fornecedores_pj") or []
     por_chave = {}
     for n, f in enumerate(pj):
@@ -311,32 +312,45 @@ def destaques(itens, contas, forn, cfg, ids=None):
         rec = (forn or {}).get(cnpj)
         for k in _chave_contraparte(f, rec, eh_mei(rec)):
             por_chave.setdefault(k, (n, f, cnpj))
-    grupos = {}
-    for n, i in enumerate(itens or []):
+
+    def ident(c):  # o mesmo fornecedor pode vir pelo nome ou pela razão social: a identidade é o CNPJ
+        return por_chave[c][2] if c in por_chave else c
+
+    grupos = []  # {"ids": identidades dos fornecedores, "nomes": como os indicadores os chamam, "itens"}
+    for i in itens or []:
         if i["nome"] == "multicampanha":
             continue
-        chave = tuple(i["contrapartes"]) if i.get("contrapartes") else i.get("contraparte") or ("item", n)
-        grupos.setdefault(chave, []).append(i)
+        nomes = list(dict.fromkeys(i.get("contrapartes") or ([i["contraparte"]] if i.get("contraparte") else [])))
+        ids_i = {ident(c) for c in nomes}
+        juntos = [g for g in grupos if g["ids"] & ids_i]
+        if not juntos:
+            grupos.append({"ids": ids_i, "nomes": nomes, "itens": [i]})
+            continue
+        alvo = juntos[0]
+        for g in juntos[1:]:
+            alvo["ids"] |= g["ids"]
+            alvo["nomes"] += g["nomes"]
+            alvo["itens"] += g["itens"]
+            grupos.remove(g)
+        alvo["ids"] |= ids_i
+        alvo["itens"].append(i)
+        vistos = {ident(c) for c in alvo["nomes"]}
+        alvo["nomes"] += [c for c in nomes if ident(c) not in vistos]
     cartoes = []
-    for chave, its in grupos.items():
-        href = None
-        if isinstance(chave, str):
-            titulo = chave
-            achado = por_chave.get(chave)
-            if achado:
-                pos, f, cnpj = achado
-                valor = float(f.get("total") or 0)
-                href = f"/rastro/fornecedor/{ids[cnpj]}/" if ids and cnpj in ids else f"#f-{ancora_fornecedor(pos, cnpj, ids)}"
-            else:
-                valor = float(its[0].get("valor") or 0)
-        elif chave[0] == "item" and len(chave) == 2 and isinstance(chave[1], int):
+    for g in grupos:
+        its, links = g["itens"], []
+        if not g["nomes"]:
             titulo = rotulo(its[0]["nome"])
             valor = None if its[0]["nome"] in SEM_FORNECEDOR_VALOR_ZERO else float(its[0].get("valor") or 0)
         else:
-            titulo = "; ".join(chave)
-            achados = [por_chave[c] for c in chave if c in por_chave]
-            valor = sum(float(f.get("total") or 0) for _, f, _ in achados) if achados else float(its[0].get("valor") or 0)
-        cartoes.append({"titulo": titulo, "itens": its, "peso": max(peso(i["nome"], cfg) for i in its), "valor": valor, "href": href})
+            titulo = "; ".join(g["nomes"])
+            achados = {por_chave[c][2]: por_chave[c] for c in g["nomes"] if c in por_chave}
+            for pos, _, cnpj in achados.values():
+                links.append((nome_fornecedor(pj[pos], forn),
+                              f"/rastro/fornecedor/{ids[cnpj]}/" if ids and cnpj in ids else f"#f-{ancora_fornecedor(pos, cnpj, ids)}"))
+            valor = (sum(float(f.get("total") or 0) for _, f, _ in achados.values()) if achados
+                     else float(its[0].get("valor") or 0))
+        cartoes.append({"titulo": titulo, "itens": its, "peso": max(peso(i["nome"], cfg) for i in its), "valor": valor, "links": links})
     cartoes.sort(key=lambda c: (-c["peso"], -(c["valor"] or 0), c["titulo"]))
     return cartoes[:MAX_DESTAQUES]
 
@@ -353,7 +367,13 @@ def bloco_destaques(cartoes, base, cfg):
         tags = "".join(f'<span class="rs-tag">{esc(rotulo(n))}</span>' for n in nomes)
         fatos = "".join(f"<li>{esc(i['fato'])} {_fonte(i)}{_hom(i)}</li>" for i in c["itens"])
         valor = f"<span>{ind.brl(c['valor'])}</span>" if c["valor"] is not None else ""
-        link = f'<p class="rs-card-l"><a href="{c["href"]}">ver fornecedor</a></p>' if c["href"] else ""
+        if len(c["links"]) == 1:
+            link = f'<p class="rs-card-l"><a href="{c["links"][0][1]}">ver fornecedor</a></p>'
+        elif c["links"]:
+            link = ('<p class="rs-card-l">ver fornecedores: '
+                    + " · ".join(f'<a href="{h}">{esc(n)}</a>' for n, h in c["links"]) + "</p>")
+        else:
+            link = ""
         expl = "".join(f'<details><summary>O que é “{esc(rotulo(n))}”</summary>{desc[n]}</details>' for n in nomes if n in desc)
         lis.append(f'<li class="rs-card"><p class="rs-card-t"><b>{esc(c["titulo"])}</b>{valor}</p><p class="rs-tags">{tags}</p>'
                    f"<ul>{fatos}</ul>{link}{expl}</li>")

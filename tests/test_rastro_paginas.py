@@ -933,7 +933,7 @@ class TestDestaques(unittest.TestCase):
 
     def test_gasto_por_voto_sem_reais(self):
         c = self.d([_it("gasto_por_voto", 12.5), _it("pagamento_tardio", 1.0)])
-        self.assertEqual(c[0]["itens"][0]["nome"], "pagamento_tardio")  # peso médio antes do baixo
+        self.assertEqual(c[0]["itens"][0]["nome"], "pagamento_tardio")  # mesmo peso: custo por voto entra com R$ 0
         self.assertIsNone(next(x for x in c if x["itens"][0]["nome"] == "gasto_por_voto")["valor"])
 
     def test_valores_identicos_um_cartao_do_grupo(self):
@@ -941,12 +941,25 @@ class TestDestaques(unittest.TestCase):
         c = self.d([vi])
         self.assertEqual(c[0]["titulo"], "ALFA LTDA; BETA LTDA")
         self.assertEqual(c[0]["valor"], 501000.0)
+        self.assertEqual(c[0]["links"], [("ALFA LTDA", "#f-n0"), ("BETA LTDA", "#f-n1")])
+        h = pg.bloco_destaques(c, "12/10/2026", CFG)
+        self.assertIn('ver fornecedores: <a href="#f-n0">ALFA LTDA</a> · <a href="#f-n1">BETA LTDA</a>', h)
+
+    def test_fornecedor_do_grupo_com_outro_indicador_fica_num_cartao_so(self):
+        vi = _it("valores_identicos", 3000.0, contraparte="ALFA LTDA", contrapartes=["ALFA LTDA", "BETA LTDA"])
+        for itens in ([vi, _it("socio_doador", contraparte="BETA LTDA")], [_it("socio_doador", contraparte="BETA LTDA"), vi]):
+            c = self.d(itens)
+            self.assertEqual(len(c), 1)
+            self.assertEqual(sorted(i["nome"] for i in c[0]["itens"]), ["socio_doador", "valores_identicos"])
+            self.assertEqual(c[0]["valor"], 501000.0)
+            self.assertEqual(len(c[0]["links"]), 2)
 
     def test_link_ver_fornecedor(self):
         c = self.d([_it("situacao_irregular", contraparte="BETA LTDA")])
-        self.assertEqual(c[0]["href"], "#f-n1")
+        self.assertEqual(c[0]["links"], [("BETA LTDA", "#f-n1")])
+        self.assertIn('<a href="#f-n1">ver fornecedor</a>', pg.bloco_destaques(c, "12/10/2026", CFG))
         c = self.d([_it("situacao_irregular", contraparte="BETA LTDA")], ids={"20000000000191": "20000000000191"})
-        self.assertEqual(c[0]["href"], "/rastro/fornecedor/20000000000191/")
+        self.assertEqual(c[0]["links"], [("BETA LTDA", "/rastro/fornecedor/20000000000191/")])
 
     def test_vazio(self):
         for itens in ([], [_it("multicampanha", 7, contraparte="ALFA LTDA")]):
