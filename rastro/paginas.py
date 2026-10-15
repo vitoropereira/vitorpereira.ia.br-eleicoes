@@ -18,6 +18,7 @@ from datetime import date
 from pathlib import Path
 
 import brand
+from rastro import diagramas
 from rastro import indicadores as ind
 from rastro.baixar import URL_CAND, url_contas
 from rastro.contas import SAL, URL_CONTAS, cpf_valido
@@ -121,6 +122,19 @@ main.rs{max-width:880px;margin:0 auto;padding:24px 18px 56px}
 .rs-contestar{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
 .rs dl{margin:0}.rs dt{font:600 14px var(--font-mono);margin:18px 0 4px}.rs dd{margin:0;color:var(--ink2)}
 details summary{cursor:pointer;color:var(--ink2);margin:8px 0}
+.rs-resumo{font:600 15px var(--font-mono);color:var(--ink);margin:10px 0 0;overflow-wrap:anywhere}
+.rs-aviso-curto{padding:8px 12px;margin:14px 0}
+.rs-sankey{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:8px 0}
+.rs-sankey svg{width:100%;height:auto}
+.rs-sankey a:focus-visible rect{outline:2px solid var(--amber)}
+.rs-nota{font-size:13px;color:var(--ink2);margin:6px 0 0}
+.rs-det{border:1px solid var(--line);border-radius:10px;padding:2px 14px;margin:0 0 10px;background:var(--card)}
+.rs-det[open]{padding-bottom:12px}
+.rs-det summary{color:var(--ink)}
+.rs-rodape{margin:40px 0 0;padding-top:12px;border-top:1px solid var(--line);font-size:13px;color:var(--ink2)}
+.rs-rodape p{margin:4px 0}
+tr:target{background:var(--soft)}
+@media (max-width:600px){.rs-sankey svg{min-width:680px}}
 @media (max-width:560px){.rs-tab{font-size:14px}.rs-tab th,.rs-tab td{padding:7px 4px}}
 </style>"""
 
@@ -150,6 +164,22 @@ def aviso_bloco():
             f'Como lemos, e o que cada indicador não diz: <a href="/rastro/metodologia/">metodologia</a>.</p>')
 
 
+def aviso_curto():
+    """Uma linha, para a página do eleito; o texto completo fica na metodologia."""
+    return f'<p class="rs-aviso rs-aviso-curto"><b>{esc(AVISO)}</b> <a href="/rastro/metodologia/">Como ler esta página</a></p>'
+
+
+def rodape(cfg, base, assunto):
+    """Rodapé único da página do eleito: base, fontes e 'Contestar este dado' compacto."""
+    mail = html.escape(cfg["contato_email"], quote=True)
+    return (f'<footer class="rs-rodape"><p class="rs-base">Base de dados: {esc(base)}.</p>'
+            f'<p>Fontes: <a href="{URL_CONTAS}" rel="noopener">TSE, prestação de contas</a> · '
+            f'<a href="{ind.FONTE_RECEITA}" rel="noopener">Receita Federal, cadastro de empresas</a>.</p>'
+            f'<section id="contestar"><p><b>Contestar este dado</b>: viu um erro ou uma ligação que não procede? Escreva para '
+            f'<a href="mailto:{mail}?subject={html.escape(quote(assunto), quote=True)}">{esc(cfg["contato_email"])}</a> '
+            f'com o endereço desta página e a fonte que corrige o dado.</p></section></footer>')
+
+
 def tabela_receitas(rec):
     linhas = "".join(f'<tr><td>{esc(o)}</td><td class="v">{ind.brl(v)}</td></tr>'
                      for o, v in sorted((rec.get("por_origem") or {}).items(), key=lambda kv: (-kv[1], kv[0])))
@@ -157,26 +187,39 @@ def tabela_receitas(rec):
             f'<table class="rs-tab"><thead><tr><th>Origem</th><th class="v">Valor</th></tr></thead><tbody>{linhas}</tbody></table>')
 
 
-def _linha_fornecedor(f, forn, ids=None):
+def nome_fornecedor(f, forn):
+    """Nome exibido (sem escape): PJ com cadastro, o nome ou a razão social; MEI ou sem cadastro para saber, só o CNPJ
+    mascarado (o nome pode ser o da pessoa). Usado na tabela e no diagrama."""
     cnpj = ind.digitos(f.get("cnpj"))
     rec = (forn or {}).get(cnpj)
     if not eh_mei(rec):
-        nome = esc(f.get("nome") or rec.get("razao") or ind.mascarar_cnpj(cnpj))
-    else:  # MEI, ou sem cadastro para saber: só o CNPJ mascarado (o nome pode ser o da pessoa)
-        nome = ind.mascarar_cnpj(cnpj)
+        return f.get("nome") or rec.get("razao") or ind.mascarar_cnpj(cnpj)
+    return ind.mascarar_cnpj(cnpj)
+
+
+def ancora_fornecedor(i, cnpj, ids=None):
+    """Âncora da linha do fornecedor na página do eleito ('f-<âncora>'): o id da página dele ou a posição na lista
+    (nunca o CNPJ, que no MEI não pode aparecer)."""
+    return (ids or {}).get(ind.digitos(cnpj)) or f"n{i}"
+
+
+def _linha_fornecedor(f, forn, ids=None, i=0):
+    cnpj = ind.digitos(f.get("cnpj"))
+    rec = (forn or {}).get(cnpj)
+    nome = esc(nome_fornecedor(f, forn))
     if ids and cnpj in ids:
         nome = f'<a href="/rastro/fornecedor/{ids[cnpj]}/">{nome}</a>'
     if eh_mei(rec):
         nome += f'<small>{"MEI" if rec else "cadastro da Receita não localizado"}</small>'
     tipos = "; ".join(f.get("tipos") or [])
-    return (f'<tr><td>{nome}{f"<small>{esc(tipos)}</small>" if tipos else ""}</td>'
+    return (f'<tr id="f-{ancora_fornecedor(i, cnpj, ids)}"><td>{nome}{f"<small>{esc(tipos)}</small>" if tipos else ""}</td>'
             f'<td class="v">{ind.brl(f.get("total") or 0)}</td></tr>')
 
 
 def tabela_despesas(desp, forn, ids=None):
     pj = desp.get("fornecedores_pj") or []
     cab = '<table class="rs-tab"><thead><tr><th>Fornecedor (pessoa jurídica)</th><th class="v">Contratado</th></tr></thead><tbody>'
-    linhas = [_linha_fornecedor(f, forn, ids) for f in pj]
+    linhas = [_linha_fornecedor(f, forn, ids, i) for i, f in enumerate(pj)]
     out = [f'<p class="rs-total">Contratado: {ind.brl(desp.get("total_contratado") or 0)} · pago: {ind.brl(desp.get("total_pago") or 0)}</p>']
     if pj:
         out.append(cab + "".join(linhas[:20]) + "</tbody></table>")
@@ -208,21 +251,32 @@ def html_eleito(eleito, contas, itens, fornecedores, cfg, bases, ids=None):
     partes = [f'{esc(CARGOS.get(eleito["cargo"], eleito["cargo"]))} · {esc(eleito["uf"])} · {esc(eleito["partido"])}']
     base = (f'contas do TSE até {data_br(bases["contas"])}' if bases.get("contas") else "data das contas não informada") + (f' · cadastro de empresas da Receita de {data_br(bases["receita"])}' if bases.get("receita") else "")
     parcial = bool(contas) and contas.get("prestacao_parcial") is not False
+    resumo = diag = ""
     if not parcial:
         fin = f'<p class="rs-vazio">{SEM_PRESTACAO}</p>'
         rec_h = desp_h = ""
     else:
         rec = contas.get("receitas")
         desp = contas.get("despesas")
-        rec_h = f'<h2>Receitas por origem</h2>{tabela_receitas(rec) if rec else "<p class=rs-vazio>Receitas ainda não declaradas na base.</p>"}'
-        desp_h = f'<h2>Despesas por fornecedor</h2>{tabela_despesas(desp, fornecedores, ids) if desp else "<p class=rs-vazio>Despesas ainda não declaradas na base.</p>"}'
+        pj = (desp or {}).get("fornecedores_pj") or []
+        partes_r = [f"Recebeu {ind.brl(rec.get('total') or 0)}" if rec else "Receitas não declaradas",
+                    f"Contratou {ind.brl(desp.get('total_contratado') or 0)}" if desp else "Despesas não declaradas",
+                    f"{len(pj)} fornecedor{'es' if len(pj) != 1 else ''}", f"{len(itens)} indicador{'es' if len(itens) != 1 else ''}"]
+        resumo = f'<p class="rs-resumo">{" · ".join(partes_r)}</p>'
+        diag = f'<section class="rs-diagrama"><h2>Caminho do dinheiro</h2>{diagramas.diagrama_campanha(contas, fornecedores, itens, ids, nome)}</section>'
+        n_orig = len((rec or {}).get("por_origem") or {})
+        rec_h = (f'<details class="rs-det"><summary><b>Receitas por origem</b> · total {ind.brl(rec.get("total") or 0)} · {n_orig} origem(ns)</summary>{tabela_receitas(rec)}</details>'
+                 if rec else '<details class="rs-det"><summary><b>Receitas por origem</b></summary><p class="rs-vazio">Receitas ainda não declaradas na base.</p></details>')
+        desp_h = (f'<details class="rs-det"><summary><b>Despesas por fornecedor</b> · contratado {ind.brl(desp.get("total_contratado") or 0)} · {len(pj)} fornecedor(es)</summary>'
+                  f'{tabela_despesas(desp, fornecedores, ids)}</details>'
+                  if desp else '<details class="rs-det"><summary><b>Despesas por fornecedor</b></summary><p class="rs-vazio">Despesas ainda não declaradas na base.</p></details>')
         fin = ""
     ind_h = f'<h2>Indicadores</h2>{lista_indicadores(itens, data_br(bases["contas"]) or "data não informada")}' if parcial else ""
+    tabs = f'<h2>Tabelas</h2>{rec_h}{desp_h}' if parcial else ""
     corpo = (trilha(("Início", "/"), ("Rastro do dinheiro", "/rastro/"), (nome, None))
              + f'<p class="rs-kicker">Rastro do dinheiro · eleito(a) 2026</p><h1>{esc(nome)}</h1>'
-             f'<p class="rs-meta">{partes[0]}</p><p class="rs-base">Base de dados: {esc(base)}.</p>'
-             + aviso_bloco() + fin + rec_h + desp_h + ind_h
-             + bloco_contestar(cfg, f"Contestar dado: {nome} ({eleito['uf']})"))
+             f'<p class="rs-meta">{partes[0]}</p>{resumo}' + aviso_curto() + fin + diag + ind_h + tabs
+             + rodape(cfg, base, f"Contestar dado: {nome} ({eleito['uf']})"))
     return pagina(f"{nome} · Rastro do dinheiro", corpo)
 
 
@@ -286,6 +340,9 @@ def html_metodologia(cfg, avisos=None):
                "<li>“Mesmo sobrenome” é um fato textual: duas pessoas com o mesmo sobrenome não são, por isso, parentes.</li>"
                "<li>O casamento por nome (sócio com doador, candidato ou servidor) pode errar com homônimos; por isso o texto avisa “pode ser homônimo”.</li>"
                "<li>A prestação de contas é parcial e muda até a prestação final; a data da base está em cada página.</li>"
+               f"<li>Diagrama do caminho do dinheiro: {diagramas.LIMITACAO} {diagramas.NOTA_TIPO} "
+               "Doador pessoa jurídica com menos de 2% das receitas entra em “Outros doadores”; além dos 10 maiores fornecedores, os demais "
+               "aparecem somados por tipo.</li>"
                "<li>Pessoas físicas pagas aparecem só como contagem e total; MEI aparece só pelo CNPJ mascarado. Nenhum CPF é publicado.</li></ul>"
              + secao_avisos(avisos)
              + "<h2>Correções</h2><p>Quando um dado publicado é corrigido, a página afetada ganha uma seção “Correções” com a data e o que mudou, "
@@ -482,7 +539,8 @@ def aplicar_correcoes(paginas, correcoes):
         sec = f'<section id="correcoes"><h2>Correções</h2><ul>{"".join(lis)}</ul></section>'
         if '<section id="contestar">' not in p["html"]:
             raise ValueError(f"página sem bloco de contestação: {path}")
-        p["html"] = p["html"].replace('<section id="contestar">', sec + '<section id="contestar">', 1)
+        marca = '<footer class="rs-rodape">' if '<footer class="rs-rodape">' in p["html"] else '<section id="contestar">'
+        p["html"] = p["html"].replace(marca, sec + marca, 1)
     return paginas
 
 

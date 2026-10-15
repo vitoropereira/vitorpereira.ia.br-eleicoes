@@ -1,0 +1,216 @@
+import copy
+import json
+import re
+import unittest
+from pathlib import Path
+
+from rastro import diagramas as dg
+from rastro import indicadores as ind
+from rastro import paginas as pg
+
+RAIZ = Path(__file__).resolve().parent.parent
+FIX = RAIZ / "tests" / "fixtures" / "rastro" / "paginas"
+FORN = json.loads((FIX / "fornecedores.json").read_text(encoding="utf-8"))["fornecedores"]
+INDS = json.loads((FIX / "indicadores.json").read_text(encoding="utf-8"))["indicadores"]
+RE_COR = re.compile(r"#[0-9a-f]{3,6}|rgb\(", re.I)
+
+
+def contas(sq):
+    return json.loads((FIX / "contas" / f"{sq}.json").read_text(encoding="utf-8"))
+
+
+C5 = contas("2005")
+FORN5 = {ind.digitos(f["cnpj"]): {"razao": f["nome"], "mei": False} for f in C5["despesas"]["fornecedores_pj"]}
+
+
+def somas(fluxos):
+    entra, sai = {}, {}
+    for f in fluxos:
+        sai[f["de"]] = sai.get(f["de"], 0) + f["valor"]
+        entra[f["para"]] = entra.get(f["para"], 0) + f["valor"]
+    return entra, sai
+
+
+def svg_de(d):
+    return dg.sankey(d["colunas"], d["fluxos"], {"titulo": "Caminho do dinheiro", "resumo": d["resumo"]})
+
+
+def nos(d, col):
+    return {n["id"]: n for n in d["colunas"][col]}
+
+
+class TestLayout(unittest.TestCase):
+    COLS = [[{"id": "a", "rotulo": "A"}, {"id": "b", "rotulo": "B"}], [{"id": "m", "rotulo": "M"}],
+            [{"id": "x", "rotulo": "X"}, {"id": "y", "rotulo": "Y"}, {"id": "z", "rotulo": "Z"}]]
+    FLUX = [{"de": "a", "para": "m", "valor": 1000.0}, {"de": "b", "para": "m", "valor": 0.5},
+            {"de": "m", "para": "x", "valor": 900.0}, {"de": "m", "para": "y", "valor": 100.0}, {"de": "m", "para": "z", "valor": 0.5}]
+
+    def lay(self):
+        return dg.layout_sankey(self.COLS, self.FLUX, 300, 900)
+
+    def test_fecha_no_intermediario(self):
+        lay = self.lay()
+        entra = sum(f["valor"] for f in lay["faixas"] if f["para"] == "m")
+        sai = sum(f["valor"] for f in lay["faixas"] if f["de"] == "m")
+        self.assertAlmostEqual(entra, sai, delta=0.01)
+        self.assertAlmostEqual(lay["nos"]["m"]["valor"], 1000.5, delta=0.01)
+
+    def test_faixa_positiva_tem_espessura(self):
+        for f in self.lay()["faixas"]:
+            self.assertGreater(f["espessura"], 0)
+        for n in self.lay()["nos"].values():
+            self.assertGreater(n["h"], 0)
+
+    def test_proporcao_no_valor(self):
+        fx = {(f["de"], f["para"]): f for f in self.lay()["faixas"]}
+        self.assertAlmostEqual(fx["m", "x"]["espessura"] / fx["m", "y"]["espessura"], 9, places=6)
+
+    def test_sem_sobreposicao_na_coluna(self):
+        lay = self.lay()
+        for col in self.COLS:
+            gs = sorted((lay["nos"][n["id"]] for n in col), key=lambda g: g["y"])
+            for a, b in zip(gs, gs[1:]):
+                self.assertLessEqual(a["y"] + a["h"], b["y"])
+
+    def test_tudo_zero_nao_divide_por_zero(self):
+        lay = dg.layout_sankey([[{"id": "a", "rotulo": "A"}], [{"id": "b", "rotulo": "B"}]], [{"de": "a", "para": "b", "valor": 0}], 100, 400)
+        self.assertEqual(lay["faixas"], [])
+
+
+class TestFluxos(unittest.TestCase):
+    def test_2001_alerta_e_lgpd(self):
+        d = dg.fluxos_campanha(contas("2001"), FORN, INDS["2001"], None)
+        forn = nos(d, 3)
+        grande = [n for n in forn.values() if n["rotulo"] == "EMPRESA GRANDE LTDA"]
+        self.assertEqual(len(grande), 1)
+        self.assertTrue(grande[0]["alerta"])
+        self.assertEqual(grande[0]["href"], "#f-n0")
+        mascarados = [n for n in forn.values() if n["rotulo"] == ind.mascarar_cnpj("99999999000191")]
+        self.assertTrue(mascarados)
+        self.assertFalse(any(n["alerta"] for n in mascarados))  # máscara ambígua na campanha: sem marcador
+        s = svg_de(d)
+        for proibido in ("NOME DO MEI DONO", "11111111000191", "SEM CADASTRO LTDA", "99999999000191"):
+            self.assertNotIn(proibido, s)
+
+    def test_fecha_em_cada_no(self):
+        for c, forn, itens in ((contas("2001"), FORN, INDS["2001"]), (C5, FORN5, [])):
+            d = dg.fluxos_campanha(c, forn, itens, None)
+            entra, sai = somas(d["fluxos"])
+            self.assertAlmostEqual(entra["camp"], sai["camp"], delta=0.01)
+            self.assertAlmostEqual(entra["camp"], c["receitas"]["total"], delta=0.01)
+            for t in nos(d, 2):
+                if t in sai:  # tipos de gasto; sumidouros (PF, não gasto) não têm saída
+                    self.assertAlmostEqual(entra[t], sai[t], delta=0.01, msg=t)
+            self.assertLessEqual(len(d["colunas"][0]), 6)
+
+    def test_limites_outros_doadores_e_mais_fornecedores(self):
+        d = dg.fluxos_campanha(C5, FORN5, [], None)
+        orig = [n["rotulo"] for n in d["colunas"][0]]
+        self.assertEqual(orig, ["Direção Nacional - PX", "Direção Estadual - PX - SP", "Outros doadores", "Pessoas físicas", "Recursos próprios", "Outros"])
+        entra, sai = somas(d["fluxos"])
+        self.assertAlmostEqual(sai["o-resto"], 10000, delta=0.01)
+        rot = [n["rotulo"] for n in d["colunas"][3]]
+        self.assertIn("Mais 2 fornecedores", rot)
+        self.assertIn("Mais 1 fornecedor", rot)
+        self.assertEqual(len([r for r in rot if r.startswith("FORNECEDOR")]), 10)
+        tipos = [n["rotulo"] for n in d["colunas"][2]]
+        self.assertIn("Pessoas físicas (3 pagas)", tipos)
+        self.assertIn("Ainda não gasto / não declarado", tipos)
+        self.assertEqual(nos(d, 2)["t-nao"]["tom"], "muted")
+        self.assertAlmostEqual(entra["t-nao"], 100000, delta=0.01)
+        self.assertIn("50% do partido", d["resumo"])
+        self.assertIn("os 3 maiores destinos foram FORNECEDOR 01 LTDA", d["resumo"])
+
+    def test_tipo_principal_inteiro(self):
+        d = dg.fluxos_campanha(C5, FORN5, [], None)
+        entra, _ = somas(d["fluxos"])
+        serv = [n["id"] for n in d["colunas"][2] if n["rotulo"] == "Serviços prestados por terceiros"][0]
+        self.assertAlmostEqual(entra[serv], 738000, delta=0.01)  # inclui o FORNECEDOR 13, com dois tipos
+
+    def test_contratado_maior_que_recebido(self):
+        c = copy.deepcopy(C5)
+        c["receitas"]["total"] = 500000.0
+        c["receitas"]["por_origem"] = {"Recursos de partido político": 500000.0}
+        c["receitas"]["doadores_pj"] = []
+        d = dg.fluxos_campanha(c, FORN5, [], None)
+        entra, sai = somas(d["fluxos"])
+        self.assertAlmostEqual(sai["o-excesso"], 400000, delta=0.01)
+        self.assertAlmostEqual(entra["camp"], sai["camp"], delta=0.01)
+        self.assertNotIn("t-nao", entra)
+
+
+class TestSvg(unittest.TestCase):
+    def setUp(self):
+        self.d = dg.fluxos_campanha(contas("2001"), FORN, INDS["2001"], {"33333333000191": "33333333000191"})
+        self.s = svg_de(self.d)
+
+    def test_acessivel(self):
+        s = self.s
+        self.assertIn('role="img"', s)
+        self.assertIn('aria-labelledby="sk-t sk-d"', s)
+        self.assertIn('<title id="sk-t">Caminho do dinheiro</title>', s)
+        self.assertRegex(s, r'<desc id="sk-d">R\$ 500\.000,00 entraram \(84% do partido\); os 3 maiores destinos foram EMPRESA GRANDE LTDA')
+
+    def test_title_em_cada_faixa(self):
+        paths = re.findall(r"<path [^>]*>(.*?)</path>", self.s)
+        self.assertEqual(len(paths), len([f for f in self.d["fluxos"] if f["valor"] > 0]))
+        for p in paths:
+            self.assertRegex(p, r"<title>.+: R\$ [\d.]+,\d{2}</title>")
+
+    def test_sem_cor_literal_e_sem_tamanho_fixo(self):
+        svg = re.search(r"<svg.*</svg>", self.s, re.S).group()
+        self.assertIsNone(RE_COR.search(svg))
+        self.assertIn("var(--", svg)
+        tag = re.match(r"<svg[^>]*>", svg).group()
+        self.assertIn("viewBox=", tag)
+        self.assertNotRegex(tag, r"\s(width|height)=")
+
+    def test_rotulo_longo_cortado(self):
+        c = contas("2001")
+        nome = "EMPRESA DE NOME MUITO MAIS LONGO QUE O ESPAÇO DO RÓTULO LTDA"
+        c["despesas"]["fornecedores_pj"][0]["nome"] = nome
+        s = svg_de(dg.fluxos_campanha(c, FORN, [], None))
+        self.assertIn("…", s)
+        self.assertIn(f"<title>{nome}</title>", s)
+        self.assertNotIn(f">{nome} <tspan", s)
+
+    def test_alerta_com_ancora_ambar(self):
+        self.assertIn('<a href="#f-33333333000191">', self.s)
+        bloco = self.s.split('<a href="#f-33333333000191">')[1].split("</a>")[0]
+        self.assertIn("stroke:var(--amber)", bloco)
+        self.assertNotIn("/rastro/fornecedor/", self.s)
+
+    def test_varredura(self):
+        pg.varrer("svg", self.s)
+        pg.varrer("svg5", svg_de(dg.fluxos_campanha(C5, FORN5, [], None)))
+
+
+class TestResistencia(unittest.TestCase):
+    def test_pf_com_nome_nao_aparece(self):
+        c = contas("2001")
+        c["despesas"]["fornecedores_pf"]["nome"] = "FULANA PAGA"
+        c["despesas"]["fornecedores_pf"]["nomes"] = ["FULANA PAGA"]
+        h = dg.diagrama_campanha(c, FORN, INDS["2001"], None)
+        self.assertIn("<svg", h)
+        self.assertNotIn("FULANA", h)
+
+    def test_sem_prestacao_vira_frase(self):
+        base = contas("2001")
+        casos = [None, {}, {**base, "receitas": None}, {**base, "despesas": None}, {**base, "receitas": None, "despesas": None},
+                 {**base, "receitas": {"total": 0, "por_origem": {}}, "despesas": {"total_contratado": 0, "total_pago": 0}}]
+        for c in casos:
+            h = dg.diagrama_campanha(c, FORN, [], None)
+            self.assertIn(dg.SEM_DIAGRAMA, h)
+            self.assertNotIn("<svg", h)
+
+    def test_zeros_e_faltas_nao_quebram(self):
+        c = {"receitas": {"total": 0, "por_origem": {"Recursos de pessoas físicas": 0}, "doadores_pj": [{"nome": "X", "total": 0}]},
+             "despesas": {"total_contratado": 100.0, "total_pago": 0, "fornecedores_pj": [{"cnpj": "33333333000191", "total": 0}],
+                          "fornecedores_pf": {"qtd": 0, "total": 0}}}
+        h = dg.diagrama_campanha(c, FORN, [], None)
+        self.assertIn("<svg", h)
+        self.assertIn("Contratado além do recebido na base", h)
+
+
+if __name__ == "__main__":
+    unittest.main()
