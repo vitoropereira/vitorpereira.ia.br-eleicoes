@@ -78,6 +78,7 @@
       return Promise.all(d.partes.map(ler)).then(function (ps) { return [].concat.apply([], ps.map(function (p) { return p.itens; })); });
     }).then(function (v) { itens = v; mostrar(); }, function () {
       carregando = null;
+      if (chave(input.value).length < 2) return;
       lista.innerHTML = '<li class="rs-busca-vazio">Busca indisponível agora. <a href="/rastro/#eleitos">Ver a lista completa de eleitos</a></li>';
       abrir(true);
     });
