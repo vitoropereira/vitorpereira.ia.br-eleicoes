@@ -18,6 +18,7 @@ from datetime import date
 from pathlib import Path
 
 import brand
+from rastro import busca
 from rastro import diagramas
 from rastro import indicadores as ind
 from rastro.baixar import URL_CAND, url_contas
@@ -29,6 +30,7 @@ CARGOS = {"governador": "Governador(a)", "senador": "Senador(a)", "depfed": "Dep
           "depest": "Deputado(a) estadual", "distrital": "Deputado(a) distrital"}
 PROIBIDOS = re.compile(r"fraude|laranja|fict[ií]cia", re.I)
 RE_CPF_CANDIDATO = re.compile(r"(?<![\d.\-])\d{3}[.\s]?\d{3}[.\s]?\d{3}[\-\s]?\d{2}(?![\d])")
+BUSCA_JS = Path(__file__).resolve().parent / "busca.js"
 SEM_PRESTACAO = "Esta candidatura está sem prestação parcial publicada até a data da base."
 
 
@@ -139,6 +141,24 @@ tr:target{background:var(--soft)}
 .rs-cruz li{border-bottom:1px solid var(--line);padding:8px 0;overflow-wrap:anywhere}
 .rs-cruz small{display:block;color:var(--ink2);font-size:13px}
 .rs-so-cel{display:none}
+.rs-topo{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px;margin:0 0 14px}
+.rs-topo .rs-crumbs{margin:0}
+.rs-busca{position:relative;max-width:100%}
+.rs-topo .rs-busca{flex:0 1 320px;min-width:0}
+.rs-busca-g{margin:14px 0 6px}
+.rs-busca-sem{font-size:14px}
+.rs-busca input{box-sizing:border-box;width:100%;font:inherit;font-size:15px;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 12px}
+.rs-busca-g input{font-size:17px;padding:12px 14px}
+.rs-busca input::placeholder{color:var(--muted)}
+.rs-busca input:focus{outline:2px solid var(--brand);outline-offset:1px}
+.rs-busca ul{position:absolute;z-index:20;left:0;right:0;box-sizing:border-box;max-width:100%;max-height:min(420px,70vh);overflow-y:auto;list-style:none;margin:4px 0 0;padding:4px;background:var(--card);border:1px solid var(--line);border-radius:10px}
+.rs-busca li a{display:block;padding:8px 10px;border-radius:8px;text-decoration:none;color:var(--ink);overflow-wrap:anywhere}
+.rs-busca li[aria-selected=true] a,.rs-busca li a:hover{background:var(--soft)}
+.rs-busca li small{display:block;color:var(--muted);font-size:12px}
+.rs-busca-t{display:block;font:600 11px var(--font-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.rs-busca-vazio{padding:8px 10px;color:var(--ink2)}
+.rs-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+@media (max-width:600px){.rs-topo .rs-busca{flex-basis:100%}}
 @media (max-width:600px){.rs-sankey svg{min-width:680px}.rs-rede{display:none}.rs-so-cel{display:block}}
 @media (max-width:560px){.rs-tab{font-size:14px}.rs-tab th,.rs-tab td{padding:7px 4px}}
 </style>"""
@@ -147,13 +167,27 @@ tr:target{background:var(--soft)}
 def pagina(titulo, corpo):
     return (f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">'
             f'<meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(titulo)}</title>'
-            f'<style>{brand.CSS}</style>{CSS}</head><body><main id="conteudo" class="rs">{corpo}</main></body></html>')
+            f'<style>{brand.CSS}</style>{CSS}<script src="/rastro/busca.js" defer></script></head><body><main id="conteudo" class="rs">{corpo}</main></body></html>')
 
 
-def trilha(*passos):
-    """passos: (rótulo, href|None); o último, sem link."""
-    return '<nav class="rs-crumbs" aria-label="Trilha">' + " › ".join(
+PLACEHOLDER_BUSCA = "Busque um eleito, uma empresa, um CNPJ ou um sócio"
+
+
+def caixa_busca(grande=False):
+    """Caixa de busca (rastro/busca.js). Sem JS, fica só o link para a lista de eleitos; o JS mostra o campo e esconde o link."""
+    return (f'<div class="rs-busca{" rs-busca-g" if grande else ""}" role="search" data-rs-busca>'
+            '<a class="rs-busca-sem" href="/rastro/#eleitos">Ver a lista completa de eleitos</a>'
+            '<div class="rs-busca-cx" hidden><label class="rs-sr" for="rs-busca-q">Buscar no Rastro do dinheiro</label>'
+            '<input id="rs-busca-q" type="search" role="combobox" aria-controls="rs-busca-l" aria-expanded="false" aria-autocomplete="list" '
+            f'autocomplete="off" spellcheck="false" placeholder="{PLACEHOLDER_BUSCA}">'
+            '<ul id="rs-busca-l" role="listbox" aria-label="Resultados da busca" hidden></ul></div></div>')
+
+
+def trilha(*passos, busca=True):
+    """passos: (rótulo, href|None); o último, sem link. busca=True põe a caixa compacta ao lado (a home tem a grande)."""
+    nav = '<nav class="rs-crumbs" aria-label="Trilha">' + " › ".join(
         f'<a href="{h}">{esc(r)}</a>' if h else esc(r) for r, h in passos) + "</nav>"
+    return f'<div class="rs-topo">{nav}{caixa_busca()}</div>' if busca else nav
 
 
 def bloco_contestar(cfg, assunto):
@@ -506,6 +540,11 @@ def html_fornecedor(id_, rec, campanhas, itens, cfg, bases, anteriores=None, pen
     return pagina(f"{nome} · Rastro do dinheiro", corpo)
 
 
+def _parcial_eleito(contas):
+    """O que a página do eleito usa para mostrar indicadores: prestação parcial publicada."""
+    return bool(contas) and contas.get("prestacao_parcial") is not False
+
+
 def _parcial(contas):
     return bool(contas) and contas.get("prestacao_parcial") is not False and bool(contas.get("despesas"))
 
@@ -524,9 +563,9 @@ def tabela_pendentes(pendentes):
     for e in _ordem_eleitos(pendentes):
         el = e["eleito"]
         gasto = ind.brl(e["contas"]["despesas"].get("total_contratado") or 0) if _parcial(e["contas"]) else "sem prestação parcial publicada"
-        linhas.append(f'<tr><td>{esc(el["nome_urna"])}<small>{esc(_rotulo_cargo(el))}</small></td><td class="v">{esc(gasto)}</td>'
+        linhas.append(f'<tr id="{busca.ancora_eleito(el["sq"])}"><td>{esc(el["nome_urna"])}<small>{esc(_rotulo_cargo(el))}</small></td><td class="v">{esc(gasto)}</td>'
                       f'<td class="v">{len(e["itens"])}</td></tr>')
-    return (f'<h2>Eleitos ainda sem página</h2><p>{len(pendentes)} eleitos entram nos próximos lotes. Os indicadores contados aqui ainda '
+    return (f'<h2 id="pendentes">Eleitos ainda sem página</h2><p>{len(pendentes)} eleitos entram nos próximos lotes. Os indicadores contados aqui ainda '
             'não foram revisados numa página própria.</p><table class="rs-tab"><thead><tr><th>Eleito(a)</th><th class="v">Contratado</th>'
             f'<th class="v">Indicadores</th></tr></thead><tbody>{"".join(linhas)}</tbody></table>')
 
@@ -552,15 +591,15 @@ def html_home(entradas, fornecedores, cfg, bases, pendentes=None, rede=None):
     Só entra nas somas quem tem prestação parcial publicada; eleito sem contas aparece sem 'R$ 0'."""
     base = (f'contas do TSE até {data_br(bases["contas"])}' if bases.get("contas") else "data das contas não informada") + (
         f' · cadastro de empresas da Receita de {data_br(bases["receita"])}' if bases.get("receita") else "")
-    cab = (trilha(("Início", "/"), ("Rastro do dinheiro", None)) + '<p class="rs-kicker">Rastro do dinheiro · eleições 2026</p>'
-           "<h1>Rastro do dinheiro</h1>"
+    cab = (trilha(("Início", "/"), ("Rastro do dinheiro", None), busca=False) + '<p class="rs-kicker">Rastro do dinheiro · eleições 2026</p>'
+           "<h1>Rastro do dinheiro</h1>" + caixa_busca(grande=True) +
            "<p class=\"rs-meta\">Para onde foi o dinheiro de campanha dos eleitos de 2026, cruzando as contas do TSE com o cadastro de empresas da Receita.</p>"
            f'<p class="rs-base">Base de dados: {esc(base)}.</p>' + aviso_bloco())
     fim = bloco_contestar(cfg, "Contestar dado do Rastro")
     pend_h = tabela_pendentes(pendentes)
     if not entradas:
         return pagina("Rastro do dinheiro · Eleições 2026",
-                      f'{cab}<p class="rs-vazio">Nenhuma página publicada ainda. Os primeiros eleitos entram aqui em lotes.</p>{pend_h}{fim}')
+                      f'{cab}<p class="rs-vazio" id="eleitos">Nenhuma página publicada ainda. Os primeiros eleitos entram aqui em lotes.</p>{pend_h}{fim}')
 
     def parcial(e):
         return _parcial(e["contas"])
@@ -585,9 +624,9 @@ def html_home(entradas, fornecedores, cfg, bases, pendentes=None, rede=None):
         el = e["eleito"]
         gasto = (ind.brl(e["contas"]["despesas"].get("total_contratado") or 0) if parcial(e) else "sem prestação parcial publicada")
         votos = f'{el["votos"]:,}'.replace(",", ".") + " votos" if el.get("votos") else ""
-        linhas_e.append(f'<tr><td><a href="/{e["caminho"]}">{esc(el["nome_urna"])}</a><small>{esc(_rotulo_cargo(el))}'
+        linhas_e.append(f'<tr id="{busca.ancora_eleito(el["sq"])}"><td><a href="/{e["caminho"]}">{esc(el["nome_urna"])}</a><small>{esc(_rotulo_cargo(el))}'
                         f'{" · " + votos if votos else ""}</small></td><td class="v">{esc(gasto)}</td></tr>')
-    eleitos_h = ('<h2>Eleitos publicados</h2><table class="rs-tab"><thead><tr><th>Eleito(a)</th><th class="v">Contratado</th></tr></thead>'
+    eleitos_h = ('<h2 id="eleitos">Eleitos publicados</h2><table class="rs-tab"><thead><tr><th>Eleito(a)</th><th class="v">Contratado</th></tr></thead>'
                  f'<tbody>{"".join(linhas_e)}</tbody></table>')
     cont = Counter(i["nome"] for e in entradas if parcial(e) for i in e["itens"])  # só o que a página do eleito mostra
     lis = "".join(f'<li><code>{esc(nome)}</code>: {q} ocorrência(s)</li>' for nome, q in sorted(cont.items(), key=lambda kv: (-kv[1], kv[0])))
@@ -782,9 +821,15 @@ def gerar(dest, publicados, eleitos, dir_contas, indicadores, fornecedores, cfg,
         aplicar_correcoes(paginas, correcoes)
     for p in paginas:
         varrer(p["path"], p["html"])  # antes de gravar qualquer coisa
+    indice = busca.serializar(busca.indice(entradas, pendentes, agg, _rotulo_cargo, _parcial_eleito))
+    for nome, texto in indice.items():
+        varrer(nome, texto)
     dest = Path(dest)
     for p in paginas:
         saida = dest / p["path"].strip("/") / "index.html"
         saida.parent.mkdir(parents=True, exist_ok=True)
         saida.write_text(envolver(p) if envolver else p["html"], encoding="utf-8")
+    for nome, texto in indice.items():
+        (dest / "rastro" / nome).write_text(texto, encoding="utf-8")
+    (dest / "rastro" / "busca.js").write_text(BUSCA_JS.read_text(encoding="utf-8"), encoding="utf-8")
     return paginas

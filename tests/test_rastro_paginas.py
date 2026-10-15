@@ -380,7 +380,7 @@ class TestRedeResistencia(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             pags = gerar(d, agregados=AGR, anteriores=ANT)
             tudo = "".join(p["html"] for p in pags)
-            self.assertEqual(TestRedacao.varrer(self, d), 8)
+            self.assertEqual(TestRedacao.varrer(self, d), 10)
         for p in pags:
             pg.varrer(p["path"], p["html"])
         self.assertEqual(cpfs_validos(tudo), [])
@@ -741,7 +741,7 @@ class TestRedacao(unittest.TestCase):
     def test_gerado(self):
         with tempfile.TemporaryDirectory() as d:
             gerar(d)
-            self.assertEqual(self.varrer(d), 8)
+            self.assertEqual(self.varrer(d), 10)  # 8 páginas, busca.json e busca.js
 
     def test_termo_proibido_levanta(self):
         contas = json.loads((FIX / "contas" / "2001.json").read_text(encoding="utf-8"))
@@ -830,7 +830,7 @@ class TestIsolamento(unittest.TestCase):
         self.assertEqual(self.snapshot(), antes)
         self.assertEqual(gravados, {
             "rastro/index.html", f"rastro/fornecedor/{ID_PJ}/index.html", f"rastro/fornecedor/{ID_MEI}/index.html", f"rastro/fornecedor/{ID_SEM}/index.html",
-            "rastro/metodologia/index.html",
+            "rastro/metodologia/index.html", "rastro/busca.json", "rastro/busca.js",
             "rastro/depfed/ma/aluisio-mendes/index.html",
             "rastro/depest/ma/jose-davila/index.html",
             "rastro/senador/pi/maria-sem-contas/index.html"})

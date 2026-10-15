@@ -15,7 +15,7 @@ ELEITOS = json.loads((RAIZ / "rastro" / "dados" / "eleitos.json").read_text(enco
 RE_HREF_ELEITO = re.compile(r'href="/(rastro/(?!fornecedor/|metodologia/)[^"]+/)"')
 RE_HREF_FORN = re.compile(r'href="/rastro/fornecedor/([^"/]+)/"')
 RE_SCRIPT_SRC = re.compile(r'<script[^>]*\ssrc="([^"]+)"', re.I)
-SCRIPTS_PERMITIDOS = {"/medicao.js"}  # moldura de medição do site (consentimento antes de GA4/Clarity)
+SCRIPTS_PERMITIDOS = {"/medicao.js", "/rastro/busca.js"}  # medição do site (consentimento antes de GA4/Clarity) e busca do Rastro
 
 
 def cpfs(texto):
@@ -79,6 +79,46 @@ class TestPaginasPublicadas(unittest.TestCase):
         for p, h in self.paginas.items():
             fora = set(RE_SCRIPT_SRC.findall(h)) - SCRIPTS_PERMITIDOS
             self.assertEqual(fora, set(), p.relative_to(RAIZ))
+
+
+def cnpjs_mei():
+    forn = json.loads((RAIZ / "rastro" / "dados" / "fornecedores.json").read_text(encoding="utf-8"))["fornecedores"]
+    return {c for c, r in forn.items() if pg.eh_mei(r)}
+
+
+def problemas_indice(texto, meis):
+    """problemas() mais o que só o índice da busca pode vazar: CNPJ de MEI, máscara ou cpf_mascarado."""
+    out = problemas(texto)
+    out += [f"MEI {c[:4]}…" for c in meis if c in texto]
+    return out + (["cpf_mascarado/máscara"] if "cpf_mascarado" in texto or "***" in texto else [])
+
+
+class TestBuscaPublicada(unittest.TestCase):
+    def setUp(self):
+        self.indices = {p: p.read_text(encoding="utf-8") for p in sorted((SITE / "rastro").glob("busca*.json"))}
+        self.assertIn(SITE / "rastro" / "busca.json", self.indices, "site/rastro/busca.json não existe: rode build_site.py")
+        self.meis = cnpjs_mei()
+
+    def test_indice_sem_dado_pessoal(self):
+        for p, t in self.indices.items():
+            self.assertEqual(problemas_indice(t, self.meis), [], p.relative_to(RAIZ))
+
+    def test_detector_pega_cpf_injetado(self):
+        t = self.indices[SITE / "rastro" / "busca.json"]
+        self.assertTrue(problemas_indice(t.replace('"n":"', '"n":"529.982.247-25 ', 1), self.meis))
+        self.assertTrue(problemas_indice(t + next(iter(self.meis)), self.meis))
+
+    def test_js_publicado_e_o_do_repo(self):
+        self.assertEqual((SITE / "rastro" / "busca.js").read_text(encoding="utf-8"),
+                         (RAIZ / "rastro" / "busca.js").read_text(encoding="utf-8"))
+
+    def test_todo_eleito_esta_no_indice(self):
+        dados = json.loads(self.indices[SITE / "rastro" / "busca.json"])
+        itens = dados.get("itens") or [i for parte in dados["partes"]
+                                         for i in json.loads((SITE / parte.lstrip("/")).read_text(encoding="utf-8"))["itens"]]
+        eleitos = {i["u"] for i in itens if i["t"] == "e" and i["p"] == 1}
+        self.assertEqual(eleitos, {"/" + c for c in caminhos_publicados().values()})
+        self.assertEqual(sum(1 for i in itens if i["t"] == "e"), len(ELEITOS["eleitos"]))
 
 
 if __name__ == "__main__":

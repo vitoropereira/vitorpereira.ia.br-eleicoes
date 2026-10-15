@@ -316,6 +316,7 @@ VERCEL = {
                 {"source": "/geo/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=3600"}]},
                 # módulos ES sem hash no nome: sempre revalidar, senão um deploy mistura versões
                 {"source": "/hud/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}]},
+                {"source": "/rastro/busca(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}]},
                 {"source": "/analise/js/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}]},
                 {"source": "/analise/codigo/(.*)\\.(py|json|md)", "headers": [{"key": "Content-Type", "value": "text/plain; charset=utf-8"}]},
                 {"source": "/analise/dados/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}]},
@@ -607,8 +608,8 @@ h1{{font:600 60px/1.05 "JetBrains Mono",monospace;margin:14px 0 0;letter-spacing
 
 
 def rastro_publicar(dest, publicado, modificado, moldura=True):
-    """Rastro do dinheiro: metodologia e uma página por sq de rastro/publicados.json, em dest/rastro/. HTML estático e sem JS,
-    por isso sem pré-render; só a moldura do site e a medição. Devolve as entradas do sitemap."""
+    """Rastro do dinheiro: metodologia e uma página por sq de rastro/publicados.json, em dest/rastro/. HTML estático, sem
+    pré-render; só a moldura do site, a medição e a busca (busca.js e busca.json, opcionais). Devolve as entradas do sitemap."""
     from rastro import paginas as rp
     lj = lambda p: json.loads(p.read_text(encoding="utf-8")) if p.exists() else None
     dados = R / "rastro" / "dados"
