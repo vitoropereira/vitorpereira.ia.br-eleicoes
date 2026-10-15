@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "SE",
  "partido": "PSD",
+ "cnpj_prestador": "68468389000138",
  "prestacao_parcial": true,
  "receitas": {
   "total": 2004745.0,
@@ -38,7 +39,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 957814.17,
+  "total_contratado": 968814.17,
   "total_pago": 908976.28,
   "fornecedores_pj": [
    {
@@ -162,6 +163,17 @@
     "total": 20000.0
    },
    {
+    "cnpj": "33763254000110",
+    "nome": "XICLIN PRODUCOES E EVENTOS LTDA",
+    "cnae": "77390",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Publicidade por carros de som"
+    ],
+    "total": 15800.0
+   },
+   {
     "cnpj": "12281538000109",
     "nome": "CONCEICAO LOCADORA E OTICA LTDA",
     "cnae": "77110",
@@ -210,17 +222,6 @@
      "Produção de jingles, vinhetas e slogans"
     ],
     "total": 9000.0
-   },
-   {
-    "cnpj": "33763254000110",
-    "nome": "XICLIN PRODUCOES E EVENTOS LTDA",
-    "cnae": "77390",
-    "n_despesas": 2,
-    "tipos": [
-     "Diversas a especificar",
-     "Publicidade por carros de som"
-    ],
-    "total": 4800.0
    },
    {
     "cnpj": "41828881000110",
@@ -273,12 +274,119 @@
     "Locação/cessão de bens imóveis": 8000.0,
     "Publicidade por carros de som": 60000.0,
     "Serviços prestados por terceiros": 40000.0
-   }
+   },
+   "valores": [
+    162.09,
+    162.09,
+    162.09,
+    162.09,
+    162.09,
+    216.12,
+    378.21,
+    1500.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    2000.0,
+    3000.0,
+    3000.0,
+    5000.0,
+    8000.0,
+    10000.0,
+    15000.0,
+    40000.0,
+    60000.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 101906.78,
+   "Cessão ou locação de veículos": 88900.0,
+   "Combustíveis e lubrificantes": 12985.59,
+   "Despesa com Impulsionamento de Conteúdos": 20000.0,
+   "Despesas com pessoal": 13000.0,
+   "Diversas a especificar": 202600.0,
+   "Locação/cessão de bens imóveis": 8000.0,
+   "Locação/cessão de bens móveis (exceto veículos)": 3676.8,
+   "Produção de jingles, vinhetas e slogans": 34000.0,
+   "Produção de programas de rádio, televisão ou vídeo": 40205.0,
+   "Publicidade por adesivos": 17260.0,
+   "Publicidade por carros de som": 62800.0,
+   "Publicidade por materiais impressos": 235280.0,
+   "Serviços advocatícios": 60000.0,
+   "Serviços contábeis": 24000.0,
+   "Serviços prestados por terceiros": 44200.0
+  },
+  "pago_por_dia": {
+   "2026-08-28": 265837.0,
+   "2026-08-31": 279289.68,
+   "2026-09-01": 217952.0,
+   "2026-09-04": 44000.0,
+   "2026-09-09": 87317.6,
+   "2026-09-11": 14580.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

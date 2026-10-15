@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "SP",
  "partido": "PT",
+ "cnpj_prestador": "68373251000155",
  "prestacao_parcial": true,
  "receitas": {
   "total": 2850491.92,
@@ -46,7 +47,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 1823608.29,
+  "total_contratado": 1820810.79,
   "total_pago": 1625925.47,
   "fornecedores_pj": [
    {
@@ -58,7 +59,7 @@
      "Publicidade por adesivos",
      "Publicidade por materiais impressos"
     ],
-    "total": 184748.59
+    "total": 181951.09
    },
    {
     "cnpj": "68373248000131",
@@ -388,12 +389,99 @@
     "Cessão ou locação de veículos": 2000.0,
     "Despesas com pessoal": 155021.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 31.0
-   }
+   },
+   "valores": [
+    31.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1621.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    4000.0,
+    4400.0,
+    4800.0,
+    4800.0,
+    4800.0,
+    4800.0,
+    4800.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    8000.0,
+    8000.0,
+    8000.0,
+    8000.0,
+    8000.0,
+    8000.0,
+    8000.0,
+    8000.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 2000.0,
+   "Combustíveis e lubrificantes": 10.99,
+   "Despesas com pessoal": 155021.0,
+   "Diversas a especificar": 20.0,
+   "Doações financeiras a outros candidatos/partidos": 1177970.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 31.0,
+   "Eventos de promoção da candidatura": 1000.0,
+   "Locação/cessão de bens imóveis": 6560.0,
+   "Locação/cessão de bens móveis (exceto veículos)": 8875.97,
+   "Materiais de expediente": 266.4,
+   "Publicidade por adesivos": 124660.0,
+   "Publicidade por materiais impressos": 169301.09,
+   "Serviços advocatícios": 50000.0,
+   "Serviços contábeis": 50000.0,
+   "Serviços prestados por terceiros": 75000.0,
+   "Taxa de Administração de Financiamento Coletivo": 20.16,
+   "Telefone": 74.18
+  },
+  "pago_por_dia": {
+   "2026-08-27": 319441.5,
+   "2026-08-28": 150000.0,
+   "2026-08-31": 91800.5,
+   "2026-09-02": 70026.8,
+   "2026-09-04": 8972.5,
+   "2026-09-09": 34001.0,
+   "2026-09-10": 18000.0,
+   "2026-09-11": 3280.5,
+   "2026-09-15": 36900.18,
+   "2026-09-16": 21173.5,
+   "2026-09-17": 650.0,
+   "2026-09-18": 90240.03,
+   "2026-09-21": 2.0,
+   "2026-09-22": 245918.5,
+   "2026-09-23": 215297.8,
+   "2026-09-24": 69000.0,
+   "2026-09-25": 15020.66,
+   "2026-09-28": 87200.0,
+   "2026-09-29": 149000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

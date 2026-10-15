@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "AP",
  "partido": "UNIÃO",
+ "cnpj_prestador": "68430847000140",
  "prestacao_parcial": true,
  "receitas": {
   "total": 681205.22,
@@ -28,7 +29,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 188053.17,
+  "total_contratado": 176353.17,
   "total_pago": 98955.17,
   "fornecedores_pj": [
    {
@@ -72,16 +73,6 @@
     "total": 15000.0
    },
    {
-    "cnpj": "23103822000101",
-    "nome": "ALPHA GMCV LTDA",
-    "cnae": "14126",
-    "n_despesas": 1,
-    "tipos": [
-     "Publicidade por materiais impressos"
-    ],
-    "total": 14700.0
-   },
-   {
     "cnpj": "09405430000168",
     "nome": "REAL PETROLEO LTDA",
     "cnae": "47318",
@@ -90,6 +81,16 @@
      "Combustíveis e lubrificantes"
     ],
     "total": 3037.5
+   },
+   {
+    "cnpj": "23103822000101",
+    "nome": "ALPHA GMCV LTDA",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 3000.0
    }
   ],
   "fornecedores_pf": {
@@ -101,12 +102,50 @@
     "Locação/cessão de bens imóveis": 6666.67,
     "Publicidade por carros de som": 4000.0,
     "Serviços próprios prestados por terceiros": 24598.0
-   }
+   },
+   "valores": [
+    1.0,
+    1806.0,
+    1860.0,
+    2000.0,
+    2354.0,
+    2354.0,
+    2354.0,
+    2354.0,
+    2354.0,
+    2354.0,
+    2354.0,
+    2454.0,
+    3500.0,
+    4000.0,
+    4000.0,
+    4500.0,
+    4500.0,
+    6666.67
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 16500.0,
+   "Combustíveis e lubrificantes": 3037.5,
+   "Despesa com Impulsionamento de Conteúdos": 16750.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.0,
+   "Locação/cessão de bens imóveis": 6666.67,
+   "Publicidade por carros de som": 4000.0,
+   "Publicidade por materiais impressos": 3000.0,
+   "Serviços advocatícios": 50000.0,
+   "Serviços contábeis": 15000.0,
+   "Serviços prestados por terceiros": 36800.0,
+   "Serviços próprios prestados por terceiros": 24598.0
+  },
+  "pago_por_dia": {
+   "2026-08-26": 3000.0,
+   "2026-09-09": 88455.17,
+   "2026-09-10": 7500.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

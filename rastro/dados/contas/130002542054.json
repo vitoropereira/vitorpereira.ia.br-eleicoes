@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "MG",
  "partido": "PL",
+ "cnpj_prestador": "68464770000129",
  "prestacao_parcial": true,
  "receitas": {
   "total": 762832.63,
@@ -28,7 +29,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 241889.55,
+  "total_contratado": 241608.75,
   "total_pago": 287998.32,
   "fornecedores_pj": [
    {
@@ -162,17 +163,6 @@
     "total": 747.9
    },
    {
-    "cnpj": "04737552001100",
-    "nome": "MART MINAS DISTRIBUICAO LTDA",
-    "cnae": "47113",
-    "n_despesas": 6,
-    "tipos": [
-     "Alimentação",
-     "Materiais de expediente"
-    ],
-    "total": 614.52
-   },
-   {
     "cnpj": "19283605000165",
     "nome": "AGENOR POSTO DE COMBUSTIVEIS LTDA.",
     "cnae": "47318",
@@ -221,6 +211,17 @@
      "Combustíveis e lubrificantes"
     ],
     "total": 350.0
+   },
+   {
+    "cnpj": "04737552001100",
+    "nome": "MART MINAS DISTRIBUICAO LTDA",
+    "cnae": "47113",
+    "n_despesas": 6,
+    "tipos": [
+     "Alimentação",
+     "Materiais de expediente"
+    ],
+    "total": 333.72
    },
    {
     "cnpj": "02553038000117",
@@ -304,12 +305,72 @@
     "Locação/cessão de bens imóveis": 9042.0,
     "Produção de jingles, vinhetas e slogans": 2000.0,
     "Serviços contábeis": 14900.0
-   }
+   },
+   "valores": [
+    19.5,
+    800.0,
+    1500.0,
+    2000.0,
+    2500.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3242.0,
+    4000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5800.0,
+    6000.0,
+    7000.0,
+    8000.0,
+    10000.0,
+    12000.0,
+    13000.0,
+    14900.0
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 1040.75,
+   "Atividades de militância e mobilização de rua": 93800.0,
+   "Cessão ou locação de veículos": 9662.0,
+   "Combustíveis e lubrificantes": 2778.86,
+   "Correspondências e despesas postais": 133.6,
+   "Despesa com Impulsionamento de Conteúdos": 32100.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.0,
+   "Impostos, contribuições e taxas": 17.5,
+   "Locação/cessão de bens imóveis": 27042.0,
+   "Locação/cessão de bens móveis (exceto veículos)": 3100.0,
+   "Materiais de expediente": 821.04,
+   "Produção de jingles, vinhetas e slogans": 2000.0,
+   "Publicidade por materiais impressos": 9211.0,
+   "Serviços advocatícios": 45000.0,
+   "Serviços contábeis": 14900.0
+  },
+  "pago_por_dia": {
+   "2026-08-24": 2101.0,
+   "2026-08-25": 8916.02,
+   "2026-08-26": 863.0,
+   "2026-08-27": 51559.4,
+   "2026-08-28": 9221.17,
+   "2026-08-30": 350.0,
+   "2026-08-31": 34795.52,
+   "2026-09-01": 31680.17,
+   "2026-09-02": 25669.49,
+   "2026-09-03": 7229.5,
+   "2026-09-04": 29244.2,
+   "2026-09-05": 15000.0,
+   "2026-09-08": 2741.04,
+   "2026-09-09": 32646.2,
+   "2026-09-10": 34900.0,
+   "2026-09-11": 1081.11,
+   "2026-09-26": 0.5
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

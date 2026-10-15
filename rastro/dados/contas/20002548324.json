@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "AL",
  "partido": "UNIÃO",
+ "cnpj_prestador": "68526776000183",
  "prestacao_parcial": true,
  "receitas": {
   "total": 1000000.0,
@@ -92,12 +93,27 @@
    "por_tipo": {
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 27.2,
     "Serviços contábeis": 50000.0
-   }
+   },
+   "valores": [
+    27.2,
+    50000.0
+   ]
+  },
+  "por_tipo": {
+   "Diversas a especificar": 460000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 27.2,
+   "Produção de programas de rádio, televisão ou vídeo": 200000.0,
+   "Publicidade por materiais impressos": 47037.5,
+   "Serviços advocatícios": 25000.0,
+   "Serviços contábeis": 50000.0
+  },
+  "pago_por_dia": {
+   "2026-09-10": 660027.2
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

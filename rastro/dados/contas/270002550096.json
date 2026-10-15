@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "TO",
  "partido": "REPUBLICANOS",
+ "cnpj_prestador": "68553259000101",
  "prestacao_parcial": true,
  "receitas": {
   "total": 497025.59,
@@ -102,12 +103,59 @@
     "Atividades de militância e mobilização de rua": 12000.0,
     "Despesas com pessoal": 9000.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.7
-   }
+   },
+   "valores": [
+    1.7,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    300.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    3000.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 12000.0,
+   "Cessão ou locação de veículos": 26000.0,
+   "Combustíveis e lubrificantes": 2516.4,
+   "Despesas com pessoal": 9000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.7,
+   "Produção de jingles, vinhetas e slogans": 3000.0,
+   "Publicidade por adesivos": 9596.0
+  },
+  "pago_por_dia": {
+   "2026-08-28": 111033.2,
+   "2026-09-03": 2516.4
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "SC",
  "partido": "PODE",
+ "cnpj_prestador": "68437671000158",
  "prestacao_parcial": true,
  "receitas": {
   "total": 196000.0,
@@ -174,12 +175,74 @@
    "por_tipo": {
     "Atividades de militância e mobilização de rua": 38080.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 39.5
-   }
+   },
+   "valores": [
+    39.5,
+    100.0,
+    200.0,
+    300.0,
+    420.0,
+    420.0,
+    500.0,
+    500.0,
+    800.0,
+    850.0,
+    850.0,
+    900.0,
+    900.0,
+    900.0,
+    1100.0,
+    1300.0,
+    1400.0,
+    1400.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    2420.0,
+    2420.0,
+    3000.0,
+    3000.0,
+    4200.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 38080.0,
+   "Criação e inclusão de páginas na internet": 40.0,
+   "Despesa com Impulsionamento de Conteúdos": 32405.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 39.5,
+   "Locação/cessão de bens imóveis": 40000.0,
+   "Produção de jingles, vinhetas e slogans": 3500.0,
+   "Publicidade por jornais e revistas": 26254.8,
+   "Publicidade por materiais impressos": 24190.0,
+   "Serviços prestados por terceiros": 36000.0
+  },
+  "pago_por_dia": {
+   "2026-08-27": 40000.0,
+   "2026-08-28": 3468.5,
+   "2026-08-29": 1740.0,
+   "2026-08-31": 1.5,
+   "2026-09-05": 4840.0,
+   "2026-09-07": 420.0,
+   "2026-09-08": 10.0,
+   "2026-09-12": 8800.0,
+   "2026-09-14": 12635.5,
+   "2026-09-15": 1.5,
+   "2026-09-16": 3500.5,
+   "2026-09-19": 11600.0,
+   "2026-09-21": 7.0,
+   "2026-09-26": 500.0,
+   "2026-09-29": 18000.0,
+   "2026-10-01": 200.0,
+   "2026-10-02": 3803.0,
+   "2026-10-03": 24900.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

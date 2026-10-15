@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "PI",
  "partido": "PP",
+ "cnpj_prestador": "68430799000190",
  "prestacao_parcial": true,
  "receitas": {
   "total": 3276443.21,
@@ -35,7 +36,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 2244347.14,
+  "total_contratado": 2250347.14,
   "total_pago": 3086050.09,
   "fornecedores_pj": [
    {
@@ -77,7 +78,7 @@
      "Publicidade por adesivos",
      "Publicidade por materiais impressos"
     ],
-    "total": 229570.0
+    "total": 235570.0
    },
    {
     "cnpj": "34153725000131",
@@ -269,12 +270,101 @@
     "Despesas com pessoal": 78142.53,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 54.0,
     "Serviços prestados por terceiros": 7548.39
-   }
+   },
+   "valores": [
+    54.0,
+    718.12,
+    966.0,
+    1454.14,
+    1474.03,
+    1535.7,
+    1762.47,
+    2029.03,
+    2126.88,
+    2412.9,
+    2685.48,
+    2767.74,
+    2804.84,
+    2804.84,
+    2804.84,
+    2804.84,
+    2804.84,
+    2940.0,
+    3122.58,
+    3161.29,
+    3193.55,
+    3193.55,
+    3193.55,
+    3295.48,
+    3295.48,
+    3335.48,
+    3335.48,
+    3335.48,
+    3438.71,
+    3477.42,
+    3477.42,
+    3477.42,
+    3688.6,
+    3951.61,
+    4109.68,
+    5058.06,
+    5058.06,
+    5058.06,
+    11500.0
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 22036.0,
+   "Atividades de militância e mobilização de rua": 197002.73,
+   "Cessão ou locação de veículos": 131296.67,
+   "Combustíveis e lubrificantes": 19342.9,
+   "Despesa com Impulsionamento de Conteúdos": 55000.0,
+   "Despesas com pessoal": 78142.53,
+   "Diversas a especificar": 2829.26,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 54.0,
+   "Eventos de promoção da candidatura": 413875.0,
+   "Locação/cessão de bens imóveis": 28750.0,
+   "Materiais de expediente": 734.06,
+   "Pesquisas ou testes eleitorais": 30000.0,
+   "Produção de jingles, vinhetas e slogans": 18165.6,
+   "Produção de programas de rádio, televisão ou vídeo": 500000.0,
+   "Publicidade por adesivos": 126800.0,
+   "Publicidade por materiais impressos": 108770.0,
+   "Serviços advocatícios": 150000.0,
+   "Serviços contábeis": 60000.0,
+   "Serviços prestados por terceiros": 307548.39
+  },
+  "pago_por_dia": {
+   "2026-08-25": 193.63,
+   "2026-08-31": 28750.5,
+   "2026-09-01": 39326.6,
+   "2026-09-02": 400588.23,
+   "2026-09-03": 456718.0,
+   "2026-09-04": 12887.22,
+   "2026-09-08": 233202.79,
+   "2026-09-09": 17002.08,
+   "2026-09-10": 419044.8,
+   "2026-09-11": 1385.0,
+   "2026-09-14": 80010.0,
+   "2026-09-15": 536.28,
+   "2026-09-16": 8398.71,
+   "2026-09-18": 25000.0,
+   "2026-09-21": 17040.0,
+   "2026-09-22": 400000.5,
+   "2026-09-24": 2034.19,
+   "2026-09-25": 408670.38,
+   "2026-09-26": 23400.0,
+   "2026-09-28": 113881.0,
+   "2026-09-29": 62330.33,
+   "2026-09-30": 60405.23,
+   "2026-10-01": 254121.77,
+   "2026-10-02": 19812.54,
+   "2026-10-03": 1310.31
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

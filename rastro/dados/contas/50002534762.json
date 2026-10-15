@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "BA",
  "partido": "AVANTE",
+ "cnpj_prestador": "68306664000117",
  "prestacao_parcial": true,
  "receitas": {
   "total": 662752.49,
@@ -29,7 +30,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 262733.65,
+  "total_contratado": 284208.65,
   "total_pago": 468217.75,
   "fornecedores_pj": [
    {
@@ -51,6 +52,16 @@
      "Publicidade por materiais impressos"
     ],
     "total": 64385.0
+   },
+   {
+    "cnpj": "09029247000105",
+    "nome": "GOL GRAFICA E EDITORA LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 28975.0
    },
    {
     "cnpj": "46439622000111",
@@ -104,16 +115,6 @@
     "total": 8430.0
    },
    {
-    "cnpj": "09029247000105",
-    "nome": "GOL GRAFICA E EDITORA LTDA",
-    "cnae": "18113",
-    "n_despesas": 1,
-    "tipos": [
-     "Publicidade por materiais impressos"
-    ],
-    "total": 7500.0
-   },
-   {
     "cnpj": "59878183000195",
     "nome": "59.878.183 SIDINALDO DE JESUS MACEDO",
     "cnae": "82300",
@@ -142,12 +143,80 @@
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 34.0,
     "Locação/cessão de bens imóveis": 17500.0,
     "Produção de jingles, vinhetas e slogans": 1200.0
-   }
+   },
+   "valores": [
+    34.0,
+    588.66,
+    693.33,
+    800.0,
+    800.0,
+    1200.0,
+    1333.33,
+    1493.33,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    7500.0,
+    10000.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 53108.65,
+   "Correspondências e despesas postais": 73395.0,
+   "Despesa com Impulsionamento de Conteúdos": 10000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 34.0,
+   "Locação/cessão de bens imóveis": 17500.0,
+   "Produção de jingles, vinhetas e slogans": 1200.0,
+   "Publicidade por adesivos": 7851.0,
+   "Publicidade por materiais impressos": 121120.0
+  },
+  "pago_por_dia": {
+   "2026-08-26": 14565.0,
+   "2026-08-28": 67189.1,
+   "2026-08-29": 10000.0,
+   "2026-08-31": 0.5,
+   "2026-09-01": 9186.0,
+   "2026-09-02": 6330.5,
+   "2026-09-03": 89038.0,
+   "2026-09-04": 1601.0,
+   "2026-09-05": 20319.99,
+   "2026-09-06": 588.66,
+   "2026-09-08": 13.0,
+   "2026-09-09": 13401.0,
+   "2026-09-10": 78001.0,
+   "2026-09-11": 94395.5,
+   "2026-09-12": 35708.0,
+   "2026-09-14": 0.5,
+   "2026-09-16": 1266.5,
+   "2026-09-19": 21400.0,
+   "2026-09-20": 200.0,
+   "2026-09-21": 5.0,
+   "2026-09-25": 5008.5
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

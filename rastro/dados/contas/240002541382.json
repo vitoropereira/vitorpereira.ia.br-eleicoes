@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "SC",
  "partido": "MDB",
+ "cnpj_prestador": "68461626000139",
  "prestacao_parcial": true,
  "receitas": {
   "total": 645000.0,
@@ -221,12 +222,43 @@
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 9.5,
     "Serviços advocatícios": 4000.0,
     "Serviços contábeis": 8000.0
-   }
+   },
+   "valores": [
+    9.5,
+    4000.0,
+    8000.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 8855.9,
+   "Combustíveis e lubrificantes": 1606.59,
+   "Despesa com Impulsionamento de Conteúdos": 3000.0,
+   "Diversas a especificar": 23400.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 9.5,
+   "Eventos de promoção da candidatura": 5000.0,
+   "Materiais de expediente": 413.95,
+   "Produção de programas de rádio, televisão ou vídeo": 800.0,
+   "Publicidade por adesivos": 9150.0,
+   "Publicidade por jornais e revistas": 1000.0,
+   "Publicidade por materiais impressos": 36815.76,
+   "Serviços advocatícios": 4000.0,
+   "Serviços contábeis": 8000.0
+  },
+  "pago_por_dia": {
+   "2026-08-21": 9300.5,
+   "2026-08-26": 11200.5,
+   "2026-09-04": 25000.5,
+   "2026-09-05": 12000.0,
+   "2026-09-08": 9162.66,
+   "2026-09-09": 22701.0,
+   "2026-09-10": 22378.95,
+   "2026-09-11": 19001.0,
+   "2026-09-14": 13000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

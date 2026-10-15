@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "MG",
  "partido": "PT",
+ "cnpj_prestador": "68345346000165",
  "prestacao_parcial": true,
  "receitas": {
   "total": 492830.0,
@@ -40,7 +41,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 219106.1,
+  "total_contratado": 216226.1,
   "total_pago": 154100.0,
   "fornecedores_pj": [
    {
@@ -64,16 +65,6 @@
     "total": 10440.0
    },
    {
-    "cnpj": "01955898000114",
-    "nome": "SC EDITORA GRAFICA LTDA",
-    "cnae": "18211",
-    "n_despesas": 3,
-    "tipos": [
-     "Publicidade por materiais impressos"
-    ],
-    "total": 9460.0
-   },
-   {
     "cnpj": "08651402000168",
     "nome": "MKT SERVICOS GRAFICOS LTDA",
     "cnae": "18130",
@@ -82,6 +73,16 @@
      "Publicidade por materiais impressos"
     ],
     "total": 7970.0
+   },
+   {
+    "cnpj": "01955898000114",
+    "nome": "SC EDITORA GRAFICA LTDA",
+    "cnae": "18211",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6580.0
    },
    {
     "cnpj": "52782662000164",
@@ -194,12 +195,106 @@
     "Locação/cessão de bens imóveis": 14600.0,
     "Serviços advocatícios": 5000.0,
     "Serviços contábeis": 10000.0
-   }
+   },
+   "valores": [
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    810.5,
+    810.5,
+    810.5,
+    810.5,
+    810.5,
+    810.5,
+    810.5,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1800.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    3000.0,
+    3000.0,
+    3200.0,
+    3600.0,
+    4220.0,
+    5000.0,
+    5000.0,
+    6000.0,
+    6000.0,
+    7000.0,
+    7400.0,
+    8000.0,
+    10000.0
+   ]
+  },
+  "por_tipo": {
+   "Criação e inclusão de páginas na internet": 3600.0,
+   "Despesa com Impulsionamento de Conteúdos": 1500.0,
+   "Despesas com pessoal": 103987.5,
+   "Diversas a especificar": 900.0,
+   "Locação/cessão de bens imóveis": 20200.0,
+   "Produção de jingles, vinhetas e slogans": 1500.0,
+   "Publicidade por adesivos": 10890.0,
+   "Publicidade por carros de som": 3000.0,
+   "Publicidade por jornais e revistas": 1300.0,
+   "Publicidade por materiais impressos": 22280.0,
+   "Serviços advocatícios": 36000.0,
+   "Serviços contábeis": 10000.0,
+   "Serviços prestados por terceiros": 1068.6
+  },
+  "pago_por_dia": {
+   "2026-08-17": 1500.0,
+   "2026-08-18": 13070.0,
+   "2026-08-19": 10440.0,
+   "2026-08-24": 1300.0,
+   "2026-08-25": 5770.0,
+   "2026-08-27": 72240.0,
+   "2026-08-28": 5400.0,
+   "2026-09-02": 15400.0,
+   "2026-09-03": 7280.0,
+   "2026-09-04": 11600.0,
+   "2026-09-08": 6500.0,
+   "2026-09-10": 3600.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

@@ -257,8 +257,14 @@ def varrer_cpf(*caminhos, ignorar=frozenset()):
 
 def sqs_conhecidos(agregados, eleitos):
     sqs = {e["sq"] for e in json.loads(Path(eleitos).read_text(encoding="utf-8"))["eleitos"]}
-    for a in json.loads(Path(agregados).read_text(encoding="utf-8"))["por_cnpj"].values():
+    agr = json.loads(Path(agregados).read_text(encoding="utf-8"))
+    for a in agr["por_cnpj"].values():
         sqs.update(a["campanhas"])
+    # SQ_CANDIDATO (id do TSE, não CPF) também é chave de `candidatos` e de `repasses` (origem -> destino)
+    sqs.update(agr.get("candidatos") or {})
+    for origem, destinos in (agr.get("repasses") or {}).items():
+        sqs.add(origem)
+        sqs.update(destinos)
     return sqs
 
 

@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "AC",
  "partido": "PSDB",
+ "cnpj_prestador": "68492334000163",
  "prestacao_parcial": true,
  "receitas": {
   "total": 168000.0,
@@ -84,12 +85,28 @@
    "total": 0.5,
    "por_tipo": {
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5
-   }
+   },
+   "valores": [
+    0.5
+   ]
+  },
+  "por_tipo": {
+   "Despesa com Impulsionamento de Conteúdos": 6550.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5,
+   "Publicidade por materiais impressos": 34900.0,
+   "Serviços advocatícios": 30000.0
+  },
+  "pago_por_dia": {
+   "2026-09-01": 2000.0,
+   "2026-09-02": 3400.5,
+   "2026-09-17": 2000.0,
+   "2026-09-22": 30000.0,
+   "2026-09-25": 52650.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

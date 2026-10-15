@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "SE",
  "partido": "PSD",
+ "cnpj_prestador": "68519960000104",
  "prestacao_parcial": true,
  "receitas": {
   "total": 904979.92,
@@ -202,12 +203,71 @@
     "Cessão ou locação de veículos": 39636.4,
     "Despesas com pessoal": 8787.3,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 6.5
-   }
+   },
+   "valores": [
+    6.5,
+    216.14,
+    1891.16,
+    2000.0,
+    2000.0,
+    2161.34,
+    2161.34,
+    2161.34,
+    2161.34,
+    2161.34,
+    2215.37,
+    2215.37,
+    2323.44,
+    2323.44,
+    2323.44,
+    2323.44,
+    2323.44,
+    2323.44,
+    2323.44,
+    2323.44,
+    2323.44,
+    2323.44,
+    2323.44,
+    2323.44,
+    2377.5,
+    2377.5,
+    2377.5,
+    2377.5,
+    2377.5,
+    2377.5,
+    2377.5,
+    2593.6,
+    2636.4,
+    4680.0,
+    6000.0,
+    29000.0
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 19712.0,
+   "Atividades de militância e mobilização de rua": 62354.82,
+   "Cessão ou locação de veículos": 84500.04,
+   "Combustíveis e lubrificantes": 1766.28,
+   "Despesas com pessoal": 8787.3,
+   "Diversas a especificar": 1083.48,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 6.5,
+   "Publicidade por adesivos": 18860.0,
+   "Publicidade por materiais impressos": 7780.0,
+   "Serviços advocatícios": 30000.0,
+   "Serviços contábeis": 20000.0,
+   "Serviços prestados por terceiros": 150000.0
+  },
+  "pago_por_dia": {
+   "2026-08-31": 3281.97,
+   "2026-09-01": 23055.0,
+   "2026-09-02": 45069.4,
+   "2026-09-03": 626.12,
+   "2026-09-04": 25438.32
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

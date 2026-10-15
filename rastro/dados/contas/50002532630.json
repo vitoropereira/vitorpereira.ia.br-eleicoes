@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "BA",
  "partido": "PSD",
+ "cnpj_prestador": "68237350000100",
  "prestacao_parcial": true,
  "receitas": {
   "total": 2233700.0,
@@ -29,7 +30,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 1335107.27,
+  "total_contratado": 1428707.27,
   "total_pago": 2154812.42,
   "fornecedores_pj": [
    {
@@ -41,6 +42,17 @@
      "Diversas a especificar"
     ],
     "total": 300000.0
+   },
+   {
+    "cnpj": "07556546000172",
+    "nome": "PRESSGRAF IMPORTACAO TECNOLOGIA E SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 275500.0
    },
    {
     "cnpj": "00188004000145",
@@ -62,17 +74,6 @@
      "Diversas a especificar"
     ],
     "total": 219400.0
-   },
-   {
-    "cnpj": "07556546000172",
-    "nome": "PRESSGRAF IMPORTACAO TECNOLOGIA E SERVICOS GRAFICOS LTDA",
-    "cnae": "18130",
-    "n_despesas": 8,
-    "tipos": [
-     "Publicidade por adesivos",
-     "Publicidade por materiais impressos"
-    ],
-    "total": 181900.0
    },
    {
     "cnpj": "66743508000198",
@@ -180,12 +181,45 @@
    "total": 114.3,
    "por_tipo": {
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 114.3
-   }
+   },
+   "valores": [
+    114.3
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 25000.32,
+   "Combustíveis e lubrificantes": 27232.41,
+   "Despesa com Impulsionamento de Conteúdos": 90000.0,
+   "Diversas a especificar": 519400.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 114.3,
+   "Locação/cessão de bens imóveis": 40000.0,
+   "Produção de programas de rádio, televisão ou vídeo": 124390.24,
+   "Publicidade por adesivos": 7870.0,
+   "Publicidade por materiais impressos": 536700.0,
+   "Serviços advocatícios": 30000.0,
+   "Serviços contábeis": 28000.0
+  },
+  "pago_por_dia": {
+   "2026-08-31": 24248.5,
+   "2026-09-01": 100000.5,
+   "2026-09-02": 455531.04,
+   "2026-09-03": 574327.2,
+   "2026-09-08": 185017.34,
+   "2026-09-09": 175014.42,
+   "2026-09-11": 8329.5,
+   "2026-09-14": 12385.0,
+   "2026-09-15": 0.5,
+   "2026-09-17": 70000.0,
+   "2026-09-18": 58000.0,
+   "2026-09-21": 152013.6,
+   "2026-09-22": 91065.5,
+   "2026-09-23": 7879.32,
+   "2026-09-30": 241000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "MA",
  "partido": "MDB",
+ "cnpj_prestador": "68353151000167",
  "prestacao_parcial": true,
  "receitas": {
   "total": 1757474.99,
@@ -121,12 +122,50 @@
     "Locação/cessão de bens imóveis": 14000.0,
     "Serviços advocatícios": 80000.0,
     "Serviços prestados por terceiros": 21000.0
-   }
+   },
+   "valores": [
+    12.5,
+    2500.0,
+    2500.0,
+    3000.0,
+    3000.0,
+    10000.0,
+    14000.0,
+    80000.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 20000.0,
+   "Combustíveis e lubrificantes": 4728.21,
+   "Despesa com Impulsionamento de Conteúdos": 85000.0,
+   "Despesas com transporte ou deslocamento": 608000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 12.5,
+   "Locação/cessão de bens imóveis": 14000.0,
+   "Publicidade por materiais impressos": 50230.26,
+   "Serviços advocatícios": 80000.0,
+   "Serviços contábeis": 50000.0,
+   "Serviços prestados por terceiros": 451000.0
+  },
+  "pago_por_dia": {
+   "2026-08-17": 10000.0,
+   "2026-08-20": 15000.0,
+   "2026-08-24": 15000.0,
+   "2026-08-26": 15000.0,
+   "2026-09-01": 30000.0,
+   "2026-09-08": 30000.0,
+   "2026-09-10": 39231.19,
+   "2026-09-11": 18180.5,
+   "2026-09-14": 524210.0,
+   "2026-09-16": 200000.5,
+   "2026-09-17": 608000.0,
+   "2026-09-21": 40000.0,
+   "2026-09-28": 2595.24,
+   "2026-10-02": 6916.08
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "AL",
  "partido": "MDB",
+ "cnpj_prestador": "68526478000193",
  "prestacao_parcial": true,
  "receitas": {
   "total": 255900.0,
@@ -123,12 +124,40 @@
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.0,
     "Locação/cessão de bens imóveis": 1000.0,
     "Serviços prestados por terceiros": 8600.0
-   }
+   },
+   "valores": [
+    3.0,
+    1000.0,
+    2000.0,
+    2300.0,
+    2300.0,
+    3000.0,
+    3000.0,
+    4000.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 16666.0,
+   "Combustíveis e lubrificantes": 2298.95,
+   "Despesas com pessoal": 6000.0,
+   "Diversas a especificar": 360.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.0,
+   "Locação/cessão de bens imóveis": 1000.0,
+   "Produção de jingles, vinhetas e slogans": 2600.0,
+   "Publicidade por materiais impressos": 1650.0,
+   "Serviços advocatícios": 22000.0,
+   "Serviços contábeis": 40000.0,
+   "Serviços prestados por terceiros": 8600.0
+  },
+  "pago_por_dia": {
+   "2026-09-09": 9559.45,
+   "2026-09-10": 5001.5,
+   "2026-09-11": 21001.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

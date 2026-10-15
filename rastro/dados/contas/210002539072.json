@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "RS",
  "partido": "REPUBLICANOS",
+ "cnpj_prestador": "68430129000173",
  "prestacao_parcial": true,
  "receitas": {
   "total": 493782.0,
@@ -120,12 +121,49 @@
    "por_tipo": {
     "Atividades de militância e mobilização de rua": 4600.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 26.5
-   }
+   },
+   "valores": [
+    26.5,
+    480.0,
+    720.0,
+    880.0,
+    1200.0,
+    1320.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 4600.0,
+   "Despesa com Impulsionamento de Conteúdos": 280357.42,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 26.5,
+   "Publicidade por adesivos": 550.0,
+   "Publicidade por jornais e revistas": 1000.0,
+   "Publicidade por materiais impressos": 39655.0,
+   "Taxa de Administração de Financiamento Coletivo": 18.55
+  },
+  "pago_por_dia": {
+   "2026-08-17": 10000.0,
+   "2026-08-24": 10000.0,
+   "2026-08-29": 20000.0,
+   "2026-08-31": 10790.0,
+   "2026-09-01": 30000.0,
+   "2026-09-04": 102674.5,
+   "2026-09-08": 43180.5,
+   "2026-09-11": 26530.5,
+   "2026-09-14": 135340.0,
+   "2026-09-15": 0.5,
+   "2026-09-21": 4017.5,
+   "2026-09-22": 20808.0,
+   "2026-09-23": 1001.0,
+   "2026-09-25": 4.5,
+   "2026-09-28": 20002.5,
+   "2026-09-30": 10000.0,
+   "2026-10-05": 2168.42,
+   "2026-10-07": 2098.55
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

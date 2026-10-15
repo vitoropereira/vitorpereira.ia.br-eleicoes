@@ -4,6 +4,7 @@
  "cargo": "senador",
  "uf": "PA",
  "partido": "MDB",
+ "cnpj_prestador": "68571746000199",
  "prestacao_parcial": true,
  "receitas": {
   "total": 4052006.0,
@@ -98,12 +99,31 @@
    "total": 0.5,
    "por_tipo": {
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5
-   }
+   },
+   "valores": [
+    0.5
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 9900.0,
+   "Despesa com Impulsionamento de Conteúdos": 225000.0,
+   "Despesas com transporte ou deslocamento": 160216.66,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5
+  },
+  "pago_por_dia": {
+   "2026-08-21": 25000.0,
+   "2026-08-25": 25000.0,
+   "2026-09-02": 34900.0,
+   "2026-09-03": 0.5,
+   "2026-09-08": 25000.0,
+   "2026-09-09": 25000.0,
+   "2026-09-10": 63800.0,
+   "2026-09-11": 196416.66
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

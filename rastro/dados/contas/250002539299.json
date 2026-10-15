@@ -4,24 +4,25 @@
  "cargo": "depest",
  "uf": "SP",
  "partido": "PSB",
+ "cnpj_prestador": "68437790000100",
  "prestacao_parcial": true,
  "receitas": {
-  "total": 982945.33,
+  "total": 988143.33,
   "por_origem": {
    "Recursos de Financiamento Coletivo": 51907.07,
    "Recursos de outros candidatos": 16550.0,
-   "Recursos de partido político": 190860.0,
+   "Recursos de partido político": 196058.0,
    "Recursos de pessoas físicas": 723628.26
   },
   "por_fonte": {
-   "FUNDO ESPECIAL": 207410.0,
-   "OUTROS RECURSOS": 775535.33
+   "FUNDO ESPECIAL": 207230.0,
+   "OUTROS RECURSOS": 780913.33
   },
   "doadores_pj": [
    {
     "cnpj": "01421697000137",
     "nome": "Direção Nacional - PSB",
-    "total": 190860.0
+    "total": 190680.0
    },
    {
     "cnpj": "08746641000100",
@@ -32,6 +33,11 @@
     "cnpj": "68437991000108",
     "nome": "MARINA MEDEIROS HELOU",
     "total": 16550.0
+   },
+   {
+    "cnpj": "56275696000113",
+    "nome": "Direção Estadual/Distrital - PSB - SÃO PAULO",
+    "total": 5378.0
    }
   ],
   "doadores_pf": {
@@ -40,8 +46,8 @@
   }
  },
  "despesas": {
-  "total_contratado": 874150.07,
-  "total_pago": 877112.92,
+  "total_contratado": 874151.07,
+  "total_pago": 877113.92,
   "fornecedores_pj": [
    {
     "cnpj": "13347016000117",
@@ -127,7 +133,7 @@
     "cnpj": "30286200000113",
     "nome": "DOTS GRAFICA LTDA",
     "cnae": "47610",
-    "n_despesas": 2,
+    "n_despesas": 3,
     "tipos": [
      "Publicidade por adesivos",
      "Publicidade por materiais impressos"
@@ -187,16 +193,87 @@
   ],
   "fornecedores_pf": {
    "qtd": 25,
-   "total": 190842.0,
+   "total": 190843.0,
    "por_tipo": {
     "Despesas com pessoal": 190760.0,
-    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 82.0
-   }
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 83.0
+   },
+   "valores": [
+    83.0,
+    4000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5400.0,
+    5460.0,
+    6000.0,
+    6000.0,
+    6000.0,
+    6000.0,
+    7500.0,
+    7500.0,
+    10000.0,
+    10000.0,
+    10000.0,
+    10000.0,
+    10000.0,
+    10000.0,
+    10000.0,
+    10900.0,
+    15000.0,
+    16000.0
+   ]
+  },
+  "por_tipo": {
+   "Correspondências e despesas postais": 13294.73,
+   "Despesa com Impulsionamento de Conteúdos": 350000.0,
+   "Despesas com pessoal": 190760.0,
+   "Doações financeiras a outros candidatos/partidos": 100000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 83.0,
+   "Eventos de promoção da candidatura": 200.0,
+   "Publicidade por adesivos": 1116.0,
+   "Publicidade por jornais e revistas": 33896.0,
+   "Publicidade por materiais impressos": 5520.0,
+   "Serviços advocatícios": 50000.0,
+   "Serviços contábeis": 25000.0,
+   "Serviços prestados por terceiros": 102650.0,
+   "Taxa de Administração de Financiamento Coletivo": 1631.34
+  },
+  "pago_por_dia": {
+   "2026-08-18": 20000.0,
+   "2026-08-20": 906.61,
+   "2026-08-24": 100000.0,
+   "2026-08-26": 16000.0,
+   "2026-08-27": 69.65,
+   "2026-08-31": 80000.0,
+   "2026-09-02": 9000.0,
+   "2026-09-03": 25058.84,
+   "2026-09-04": 8601.0,
+   "2026-09-08": 154013.6,
+   "2026-09-10": 98432.92,
+   "2026-09-11": 25000.0,
+   "2026-09-14": 50000.0,
+   "2026-09-15": 2036.5,
+   "2026-09-18": 19885.05,
+   "2026-09-19": 10000.0,
+   "2026-09-21": 10001.0,
+   "2026-09-22": 34000.5,
+   "2026-09-24": 116.58,
+   "2026-09-25": 18932.0,
+   "2026-09-28": 45896.0,
+   "2026-09-30": 25000.5,
+   "2026-10-01": 46229.47,
+   "2026-10-02": 49032.7,
+   "2026-10-03": 18000.0,
+   "2026-10-04": 10900.0,
+   "2026-10-05": 1.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

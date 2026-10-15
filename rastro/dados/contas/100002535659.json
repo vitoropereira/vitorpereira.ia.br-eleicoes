@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "MA",
  "partido": "PDT",
+ "cnpj_prestador": "68327114000184",
  "prestacao_parcial": true,
  "receitas": {
   "total": 483300.0,
@@ -199,12 +200,53 @@
     "Despesas com pessoal": 15000.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.4,
     "Locação/cessão de bens imóveis": 16625.33
-   }
+   },
+   "valores": [
+    3.4,
+    1400.0,
+    1400.0,
+    1621.0,
+    1621.0,
+    13383.33,
+    15000.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 2800.0,
+   "Combustíveis e lubrificantes": 21019.71,
+   "Comícios": 14000.0,
+   "Despesa com Impulsionamento de Conteúdos": 42000.0,
+   "Despesas com pessoal": 15000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.4,
+   "Locação/cessão de bens imóveis": 16625.33,
+   "Produção de jingles, vinhetas e slogans": 20300.0,
+   "Produção de programas de rádio, televisão ou vídeo": 70000.0,
+   "Publicidade por materiais impressos": 39971.21,
+   "Serviços advocatícios": 65000.0,
+   "Serviços contábeis": 40000.0,
+   "Serviços prestados por terceiros": 10200.0
+  },
+  "pago_por_dia": {
+   "2026-08-28": 22104.0,
+   "2026-09-03": 38383.33,
+   "2026-09-04": 61789.33,
+   "2026-09-08": 17802.4,
+   "2026-09-09": 19501.7,
+   "2026-09-10": 20000.0,
+   "2026-09-11": 70000.0,
+   "2026-09-23": 16801.0,
+   "2026-09-24": 10200.0,
+   "2026-09-28": 20000.0,
+   "2026-09-29": 22740.0,
+   "2026-10-01": 1279.71,
+   "2026-10-02": 1621.0,
+   "2026-10-03": 59609.0,
+   "2026-10-06": 20800.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "RN",
  "partido": "PP",
+ "cnpj_prestador": "68344714000150",
  "prestacao_parcial": true,
  "receitas": {
   "total": 1170077.56,
@@ -285,12 +286,73 @@
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 25.0,
     "Publicidade por carros de som": 26100.0,
     "Serviços prestados por terceiros": 2500.0
-   }
+   },
+   "valores": [
+    25.0,
+    1985.93,
+    2500.0,
+    3000.0,
+    4390.0,
+    4390.0,
+    4390.0,
+    4890.0,
+    9600.0,
+    13500.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 76899.66,
+   "Combustíveis e lubrificantes": 8658.55,
+   "Comícios": 12600.0,
+   "Criação e inclusão de páginas na internet": 40.0,
+   "Despesa com Impulsionamento de Conteúdos": 57664.5,
+   "Despesas com pessoal": 20045.93,
+   "Diversas a especificar": 1125.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 25.0,
+   "Publicidade por adesivos": 14372.0,
+   "Publicidade por carros de som": 26100.0,
+   "Publicidade por materiais impressos": 44144.0,
+   "Serviços advocatícios": 35000.0,
+   "Serviços contábeis": 30000.0,
+   "Serviços prestados por terceiros": 364600.0
+  },
+  "pago_por_dia": {
+   "2026-08-16": 3000.0,
+   "2026-08-19": 3000.0,
+   "2026-08-21": 40.0,
+   "2026-08-24": 6741.64,
+   "2026-08-25": 5001.5,
+   "2026-08-27": 5070.5,
+   "2026-08-28": 55700.5,
+   "2026-08-31": 105543.14,
+   "2026-09-01": 17001.0,
+   "2026-09-02": 7790.0,
+   "2026-09-03": 100005.0,
+   "2026-09-04": 68188.73,
+   "2026-09-08": 5909.09,
+   "2026-09-09": 3220.67,
+   "2026-09-11": 959.5,
+   "2026-09-13": 3840.0,
+   "2026-09-14": 3009.98,
+   "2026-09-15": 1.0,
+   "2026-09-16": 23035.33,
+   "2026-09-17": 96988.72,
+   "2026-09-18": 43498.42,
+   "2026-09-21": 11185.98,
+   "2026-09-22": 189299.55,
+   "2026-09-24": 20760.0,
+   "2026-09-25": 2105.4,
+   "2026-09-28": 3010.98,
+   "2026-09-29": 96842.5,
+   "2026-09-30": 18003.91,
+   "2026-10-01": 98200.0,
+   "2026-10-02": 45088.79,
+   "2026-10-09": 65000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

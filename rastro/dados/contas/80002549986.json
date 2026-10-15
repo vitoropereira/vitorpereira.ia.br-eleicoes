@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "ES",
  "partido": "REPUBLICANOS",
+ "cnpj_prestador": "68553134000173",
  "prestacao_parcial": true,
  "receitas": {
   "total": 406144.33,
@@ -183,12 +184,75 @@
     "Cessão ou locação de veículos": 9232.55,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 17.5,
     "Locação/cessão de bens imóveis": 27000.0
-   }
+   },
+   "valores": [
+    17.5,
+    294.72,
+    447.65,
+    732.55,
+    959.25,
+    1500.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    2000.0,
+    2700.0,
+    2700.0,
+    2750.0,
+    2750.0,
+    2750.0,
+    2750.0,
+    2750.0,
+    2750.0,
+    2750.0,
+    2750.0,
+    2750.0,
+    2750.0,
+    3000.0,
+    4500.0,
+    5000.0,
+    6000.0,
+    7000.0,
+    27000.0
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 7074.0,
+   "Atividades de militância e mobilização de rua": 61585.62,
+   "Cessão ou locação de veículos": 9232.55,
+   "Combustíveis e lubrificantes": 4405.8,
+   "Despesa com Impulsionamento de Conteúdos": 6000.0,
+   "Despesas com transporte ou deslocamento": 12000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 17.5,
+   "Locação/cessão de bens imóveis": 28000.0,
+   "Produção de jingles, vinhetas e slogans": 3000.0,
+   "Publicidade por adesivos": 4500.0,
+   "Publicidade por carros de som": 50000.0,
+   "Publicidade por materiais impressos": 25590.0
+  },
+  "pago_por_dia": {
+   "2026-08-25": 2000.0,
+   "2026-08-26": 0.5,
+   "2026-08-27": 1000.5,
+   "2026-08-28": 20000.0,
+   "2026-09-01": 1000.0,
+   "2026-09-03": 11073.94,
+   "2026-09-04": 1565.9,
+   "2026-09-08": 8369.72,
+   "2026-09-09": 2202.52,
+   "2026-09-10": 24621.27,
+   "2026-09-11": 18395.55,
+   "2026-09-15": 24909.8,
+   "2026-09-16": 4245.0,
+   "2026-09-22": 5306.69,
+   "2026-09-23": 1850.5,
+   "2026-10-01": 1000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

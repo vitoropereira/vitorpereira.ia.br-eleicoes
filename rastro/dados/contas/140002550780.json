@@ -4,6 +4,7 @@
  "cargo": "senador",
  "uf": "PA",
  "partido": "UNIÃO",
+ "cnpj_prestador": "68571521000132",
  "prestacao_parcial": true,
  "receitas": {
   "total": 2418039.52,
@@ -34,7 +35,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 832766.19,
+  "total_contratado": 822016.19,
   "total_pago": 623066.19,
   "fornecedores_pj": [
    {
@@ -98,16 +99,6 @@
     "total": 21000.0
    },
    {
-    "cnpj": "03330048000156",
-    "nome": "HELIMARTE TAXI AEREO LTDA",
-    "cnae": "51129",
-    "n_despesas": 1,
-    "tipos": [
-     "Despesas com transporte ou deslocamento"
-    ],
-    "total": 14500.0
-   },
-   {
     "cnpj": "26304844000110",
     "nome": "B SANTOS DE CARVALHO",
     "cnae": "90019",
@@ -128,6 +119,16 @@
     "total": 7000.0
    },
    {
+    "cnpj": "03330048000156",
+    "nome": "HELIMARTE TAXI AEREO LTDA",
+    "cnae": "51129",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesas com transporte ou deslocamento"
+    ],
+    "total": 3750.0
+   },
+   {
     "cnpj": "15754475000140",
     "nome": "HOSTGATOR BRASIL LTDA.",
     "cnae": "63119",
@@ -143,12 +144,36 @@
    "total": 41.8,
    "por_tipo": {
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 41.8
-   }
+   },
+   "valores": [
+    41.8
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 7000.0,
+   "Criação e inclusão de páginas na internet": 224.39,
+   "Despesa com Impulsionamento de Conteúdos": 120000.0,
+   "Despesas com transporte ou deslocamento": 24750.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 41.8,
+   "Produção de jingles, vinhetas e slogans": 10000.0,
+   "Serviços advocatícios": 80000.0,
+   "Serviços contábeis": 120000.0,
+   "Serviços prestados por terceiros": 460000.0
+  },
+  "pago_por_dia": {
+   "2026-08-24": 20000.0,
+   "2026-08-28": 140.41,
+   "2026-08-31": 75000.5,
+   "2026-09-02": 40000.0,
+   "2026-09-03": 190111.18,
+   "2026-09-08": 200000.5,
+   "2026-09-09": 34013.6,
+   "2026-09-10": 63800.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

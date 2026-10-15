@@ -4,18 +4,19 @@
  "cargo": "depest",
  "uf": "PR",
  "partido": "PL",
+ "cnpj_prestador": "68519019000182",
  "prestacao_parcial": true,
  "receitas": {
-  "total": 320958.18,
+  "total": 321118.18,
   "por_origem": {
    "Recursos de outros candidatos": 71000.0,
    "Recursos de partido político": 195287.96,
-   "Recursos de pessoas físicas": 54670.22
+   "Recursos de pessoas físicas": 54830.22
   },
   "por_fonte": {
    "FUNDO ESPECIAL": 90000.0,
    "FUNDO PARTIDARIO": 105287.96,
-   "OUTROS RECURSOS": 125670.22
+   "OUTROS RECURSOS": 125830.22
   },
   "doadores_pj": [
    {
@@ -35,33 +36,43 @@
    }
   ],
   "doadores_pf": {
-   "qtd": 23,
-   "total": 54670.22
+   "qtd": 24,
+   "total": 54830.22
   }
  },
  "despesas": {
-  "total_contratado": 108759.59,
-  "total_pago": 96328.51,
+  "total_contratado": 304543.27,
+  "total_pago": 291779.09,
   "fornecedores_pj": [
    {
     "cnpj": "13347016000117",
     "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
     "cnae": "73122",
-    "n_despesas": 8,
+    "n_despesas": 16,
     "tipos": [
      "Despesa com Impulsionamento de Conteúdos"
     ],
-    "total": 43000.0
+    "total": 184500.0
    },
    {
-    "cnpj": "22507365000140",
-    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnpj": "50365492000197",
+    "nome": "E M. MATOS D. CONSULTORIA E COMUNICACAO ESTRATEGICA LTDA",
     "cnae": "73190",
     "n_despesas": 1,
     "tipos": [
      "Serviços prestados por terceiros"
     ],
-    "total": 13475.81
+    "total": 35000.0
+   },
+   {
+    "cnpj": "22507365000140",
+    "nome": "LETSROCKET COMUNICACAO DIGITAL LTDA",
+    "cnae": "73190",
+    "n_despesas": 2,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 26475.81
    },
    {
     "cnpj": "03839251000152",
@@ -87,12 +98,32 @@
     "cnpj": "54313613000108",
     "nome": "WINN IMPRESSAO DIGITAL LTDA",
     "cnae": "47130",
-    "n_despesas": 5,
+    "n_despesas": 7,
     "tipos": [
      "Publicidade por adesivos",
      "Publicidade por materiais impressos"
     ],
-    "total": 2475.0
+    "total": 3315.0
+   },
+   {
+    "cnpj": "78586674000107",
+    "nome": "VIACAO GARCIA LTDA",
+    "cnae": "49221",
+    "n_despesas": 12,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1565.87
+   },
+   {
+    "cnpj": "85499408000102",
+    "nome": "AGENCIA DE CORREIO FRANQUEADA CARLOS DE CARVALHO LTDA",
+    "cnae": "53105",
+    "n_despesas": 3,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 1106.6
    },
    {
     "cnpj": "58976977000129",
@@ -105,24 +136,24 @@
     "total": 1000.0
    },
    {
-    "cnpj": "85499408000102",
-    "nome": "AGENCIA DE CORREIO FRANQUEADA CARLOS DE CARVALHO LTDA",
-    "cnae": "53105",
-    "n_despesas": 1,
-    "tipos": [
-     "Correspondências e despesas postais"
-    ],
-    "total": 543.8
-   },
-   {
     "cnpj": "80227796000159",
     "nome": "EXPRESSO PRINCESA DOS CAMPOS SA",
     "cnae": "49221",
-    "n_despesas": 1,
+    "n_despesas": 4,
     "tipos": [
      "Diversas a especificar"
     ],
-    "total": 288.08
+    "total": 765.73
+   },
+   {
+    "cnpj": "22092207000176",
+    "nome": "PICTORIAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 367.66
    },
    {
     "cnpj": "56418887000197",
@@ -143,21 +174,108 @@
      "Materiais de expediente"
     ],
     "total": 48.4
+   },
+   {
+    "cnpj": "79065181001670",
+    "nome": "DISTRIBUIDORA CURITIBA DE PAPEIS E LIVROS S/A",
+    "cnae": "47610",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 36.3
    }
   ],
   "fornecedores_pf": {
-   "qtd": 17,
-   "total": 35905.6,
+   "qtd": 24,
+   "total": 38339.0,
    "por_tipo": {
-    "Atividades de militância e mobilização de rua": 27885.0,
-    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 20.6,
+    "Atividades de militância e mobilização de rua": 30235.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 104.0,
     "Locação/cessão de bens imóveis": 8000.0
-   }
+   },
+   "valores": [
+    60.0,
+    75.0,
+    75.0,
+    75.0,
+    104.0,
+    200.0,
+    400.0,
+    400.0,
+    400.0,
+    800.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    2000.0,
+    2250.0,
+    2250.0,
+    2250.0,
+    2250.0,
+    2250.0,
+    3000.0,
+    3500.0,
+    4000.0,
+    8000.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 30235.0,
+   "Correspondências e despesas postais": 1106.6,
+   "Despesa com Impulsionamento de Conteúdos": 184500.0,
+   "Diversas a especificar": 2331.6,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 104.0,
+   "Locação/cessão de bens imóveis": 8000.0,
+   "Materiais de expediente": 157.6,
+   "Produção de programas de rádio, televisão ou vídeo": 1000.0,
+   "Publicidade por adesivos": 1577.0,
+   "Publicidade por materiais impressos": 9055.66,
+   "Serviços advocatícios": 5000.0,
+   "Serviços prestados por terceiros": 61475.81
+  },
+  "pago_por_dia": {
+   "2026-08-20": 3000.0,
+   "2026-08-21": 3014.6,
+   "2026-08-24": 2000.5,
+   "2026-08-25": 5508.9,
+   "2026-08-26": 72.9,
+   "2026-08-27": 544.3,
+   "2026-08-28": 1000.5,
+   "2026-08-29": 19000.0,
+   "2026-08-31": 4626.5,
+   "2026-09-01": 2936.5,
+   "2026-09-02": 750.5,
+   "2026-09-03": 15726.31,
+   "2026-09-05": 4000.0,
+   "2026-09-06": 5000.0,
+   "2026-09-08": 12397.0,
+   "2026-09-10": 457.4,
+   "2026-09-11": 382.6,
+   "2026-09-12": 4000.0,
+   "2026-09-14": 13000.0,
+   "2026-09-15": 27.2,
+   "2026-09-17": 3000.0,
+   "2026-09-18": 367.66,
+   "2026-09-20": 2000.0,
+   "2026-09-21": 123.34,
+   "2026-09-22": 15291.81,
+   "2026-09-23": 9790.2,
+   "2026-09-24": 322.97,
+   "2026-09-25": 667.07,
+   "2026-09-26": 25840.0,
+   "2026-09-28": 34506.0,
+   "2026-09-29": 65001.0,
+   "2026-09-30": 71.33,
+   "2026-10-01": 2000.0,
+   "2026-10-02": 202.0,
+   "2026-10-03": 35150.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

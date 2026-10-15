@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "PI",
  "partido": "MDB",
+ "cnpj_prestador": "68373720000136",
  "prestacao_parcial": true,
  "receitas": {
   "total": 1021500.0,
@@ -278,12 +279,59 @@
    "por_tipo": {
     "Despesas com pessoal": 42350.0,
     "Locação/cessão de bens imóveis": 6000.0
-   }
+   },
+   "valores": [
+    2200.0,
+    2200.0,
+    2200.0,
+    2200.0,
+    2200.0,
+    2500.0,
+    2500.0,
+    2500.0,
+    3300.0,
+    3300.0,
+    3300.0,
+    3300.0,
+    3300.0,
+    3675.0,
+    3675.0,
+    6000.0
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 4520.0,
+   "Cessão ou locação de veículos": 12900.0,
+   "Combustíveis e lubrificantes": 5137.65,
+   "Despesa com Impulsionamento de Conteúdos": 5000.0,
+   "Despesas com pessoal": 42350.0,
+   "Eventos de promoção da candidatura": 17400.0,
+   "Locação/cessão de bens imóveis": 11653.65,
+   "Materiais de expediente": 11.4,
+   "Produção de jingles, vinhetas e slogans": 3300.0,
+   "Produção de programas de rádio, televisão ou vídeo": 12500.0,
+   "Publicidade por adesivos": 6208.0,
+   "Publicidade por materiais impressos": 12125.0,
+   "Serviços advocatícios": 30000.0,
+   "Serviços contábeis": 25000.0,
+   "Serviços prestados por terceiros": 215520.0,
+   "Água": 2095.26
+  },
+  "pago_por_dia": {
+   "2026-08-22": 998.85,
+   "2026-08-27": 800.0,
+   "2026-09-03": 6000.0,
+   "2026-09-04": 41213.59,
+   "2026-09-05": 16198.0,
+   "2026-09-08": 39547.65,
+   "2026-09-09": 61008.0,
+   "2026-09-10": 15008.48,
+   "2026-09-11": 49220.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

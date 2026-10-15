@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "PA",
  "partido": "PDT",
+ "cnpj_prestador": "68503944000115",
  "prestacao_parcial": true,
  "receitas": {
   "total": 239983.32,
@@ -28,7 +29,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 59608.32,
+  "total_contratado": 58958.32,
   "total_pago": 87153.32,
   "fornecedores_pj": [
    {
@@ -92,17 +93,6 @@
     "total": 2488.32
    },
    {
-    "cnpj": "01242194000102",
-    "nome": "GRAFICA NASCIMENTO LTDA",
-    "cnae": "18130",
-    "n_despesas": 2,
-    "tipos": [
-     "Publicidade por adesivos",
-     "Publicidade por materiais impressos"
-    ],
-    "total": 2120.0
-   },
-   {
     "cnpj": "60616905000112",
     "nome": "D SOARES DA SILVA LTDA",
     "cnae": "45412",
@@ -111,6 +101,17 @@
      "Publicidade por materiais impressos"
     ],
     "total": 1500.0
+   },
+   {
+    "cnpj": "01242194000102",
+    "nome": "GRAFICA NASCIMENTO LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1470.0
    }
   ],
   "fornecedores_pf": {
@@ -119,12 +120,48 @@
    "por_tipo": {
     "Atividades de militância e mobilização de rua": 6500.0,
     "Locação/cessão de bens imóveis": 500.0
-   }
+   },
+   "valores": [
+    250.0,
+    250.0,
+    500.0,
+    500.0,
+    500.0,
+    500.0,
+    500.0,
+    500.0,
+    500.0,
+    500.0,
+    500.0,
+    500.0,
+    500.0,
+    500.0,
+    500.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 6500.0,
+   "Eventos de promoção da candidatura": 11500.0,
+   "Locação/cessão de bens imóveis": 500.0,
+   "Produção de jingles, vinhetas e slogans": 5000.0,
+   "Publicidade por adesivos": 550.0,
+   "Publicidade por materiais impressos": 2420.0,
+   "Serviços advocatícios": 15000.0,
+   "Serviços contábeis": 15000.0,
+   "Água": 2488.32
+  },
+  "pago_por_dia": {
+   "2026-08-21": 11500.0,
+   "2026-08-24": 2488.32,
+   "2026-08-25": 54790.0,
+   "2026-08-28": 10455.0,
+   "2026-09-02": 500.0,
+   "2026-09-04": 7420.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

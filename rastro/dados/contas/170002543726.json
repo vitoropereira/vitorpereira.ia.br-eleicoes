@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "PE",
  "partido": "PP",
+ "cnpj_prestador": "68474064000168",
  "prestacao_parcial": true,
  "receitas": {
   "total": 300000.0,
@@ -26,19 +27,9 @@
   }
  },
  "despesas": {
-  "total_contratado": 136361.0,
+  "total_contratado": 127361.0,
   "total_pago": 284300.0,
   "fornecedores_pj": [
-   {
-    "cnpj": "36057946000131",
-    "nome": "I E DE LIMA JUNIOR SERVICOS GRAFICOS LTDA",
-    "cnae": "18130",
-    "n_despesas": 2,
-    "tipos": [
-     "Publicidade por materiais impressos"
-    ],
-    "total": 43000.0
-   },
    {
     "cnpj": "44619551000103",
     "nome": "CHAILLINE AZEVEDO ALVES",
@@ -48,6 +39,16 @@
      "Publicidade por materiais impressos"
     ],
     "total": 35950.0
+   },
+   {
+    "cnpj": "36057946000131",
+    "nome": "I E DE LIMA JUNIOR SERVICOS GRAFICOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 34000.0
    },
    {
     "cnpj": "39147868000154",
@@ -126,12 +127,32 @@
    "total": 1621.0,
    "por_tipo": {
     "Serviços prestados por terceiros": 1621.0
-   }
+   },
+   "valores": [
+    1621.0
+   ]
+  },
+  "por_tipo": {
+   "Despesa com Impulsionamento de Conteúdos": 3000.0,
+   "Publicidade por adesivos": 480.0,
+   "Publicidade por materiais impressos": 85800.0,
+   "Serviços advocatícios": 15000.0,
+   "Serviços contábeis": 15000.0,
+   "Serviços prestados por terceiros": 8081.0
+  },
+  "pago_por_dia": {
+   "2026-09-01": 4000.0,
+   "2026-09-16": 97000.0,
+   "2026-09-17": 45000.0,
+   "2026-09-18": 15450.0,
+   "2026-09-21": 87450.0,
+   "2026-09-22": 20400.0,
+   "2026-09-28": 15000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

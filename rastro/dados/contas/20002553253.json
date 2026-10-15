@@ -4,25 +4,26 @@
  "cargo": "depest",
  "uf": "AL",
  "partido": "PSDB",
+ "cnpj_prestador": "68610167000108",
  "prestacao_parcial": true,
  "receitas": {
-  "total": 466000.0,
+  "total": 736100.0,
   "por_origem": {
-   "Recursos de pessoas físicas": 366000.0,
+   "Recursos de pessoas físicas": 636100.0,
    "Recursos próprios": 100000.0
   },
   "por_fonte": {
-   "OUTROS RECURSOS": 466000.0
+   "OUTROS RECURSOS": 736100.0
   },
   "doadores_pj": [],
   "doadores_pf": {
-   "qtd": 19,
-   "total": 466000.0
+   "qtd": 24,
+   "total": 736100.0
   }
  },
  "despesas": {
-  "total_contratado": 766226.83,
-  "total_pago": 8290.0,
+  "total_contratado": 850306.74,
+  "total_pago": 488889.96,
   "fornecedores_pj": [
    {
     "cnpj": "08207295000183",
@@ -66,6 +67,26 @@
     "total": 50000.0
    },
    {
+    "cnpj": "08461170000185",
+    "nome": "POSTO ATLANTIC CONFIANCA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 30303.14
+   },
+   {
+    "cnpj": "20711203000101",
+    "nome": "L P L BARBOSA",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 20000.0
+   },
+   {
     "cnpj": "13137478000100",
     "nome": "RAFAEL BARBOSA DE OLIVEIRA LTDA",
     "cnae": "56112",
@@ -74,6 +95,16 @@
      "Alimentação"
     ],
     "total": 15300.0
+   },
+   {
+    "cnpj": "06991581000157",
+    "nome": "AMJ COMERCIO DISTRIBUIDORA LTDA",
+    "cnae": "47237",
+    "n_despesas": 2,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 13844.54
    },
    {
     "cnpj": "41480855000144",
@@ -86,24 +117,34 @@
     "total": 12000.0
    },
    {
-    "cnpj": "08461170000185",
-    "nome": "POSTO ATLANTIC CONFIANCA LTDA",
-    "cnae": "47318",
-    "n_despesas": 1,
+    "cnpj": "27966490000131",
+    "nome": "S M S INDUSTRIA DE CAMISETAS LTDA",
+    "cnae": "13405",
+    "n_despesas": 2,
     "tipos": [
-     "Combustíveis e lubrificantes"
+     "Diversas a especificar"
     ],
-    "total": 6913.49
+    "total": 11400.0
    },
    {
-    "cnpj": "06991581000157",
-    "nome": "AMJ COMERCIO DISTRIBUIDORA LTDA",
-    "cnae": "47237",
+    "cnpj": "34028316151233",
+    "nome": "EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS",
+    "cnae": "53105",
     "n_despesas": 1,
     "tipos": [
-     "Alimentação"
+     "Correspondências e despesas postais"
     ],
-    "total": 5997.24
+    "total": 11168.85
+   },
+   {
+    "cnpj": "58494646000152",
+    "nome": "JORGE LUIZ EVANGELISTA JUNIOR",
+    "cnae": "90019",
+    "n_despesas": 1,
+    "tipos": [
+     "Produção de jingles, vinhetas e slogans"
+    ],
+    "total": 8000.0
    },
    {
     "cnpj": "05352714000182",
@@ -116,6 +157,26 @@
     "total": 5850.0
    },
    {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 5000.0
+   },
+   {
+    "cnpj": "13533360000109",
+    "nome": "A5VC LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 3900.0
+   },
+   {
     "cnpj": "42730356000120",
     "nome": "SUPER GRAFICA EDITORA LTDA",
     "cnae": "18130",
@@ -124,6 +185,16 @@
      "Publicidade por materiais impressos"
     ],
     "total": 3600.0
+   },
+   {
+    "cnpj": "01242690000310",
+    "nome": "IBN PINTO E SILVA CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3599.11
    },
    {
     "cnpj": "35921340000130",
@@ -167,21 +238,146 @@
    }
   ],
   "fornecedores_pf": {
-   "qtd": 92,
-   "total": 320934.1,
+   "qtd": 94,
+   "total": 310709.1,
    "por_tipo": {
     "Alimentação": 8209.0,
-    "Atividades de militância e mobilização de rua": 170830.0,
+    "Atividades de militância e mobilização de rua": 160605.0,
     "Despesas com pessoal": 28140.0,
     "Despesas com transporte ou deslocamento": 83755.1,
     "Locação/cessão de bens imóveis": 10000.0,
     "Publicidade por carros de som": 20000.0
-   }
+   },
+   "valores": [
+    55.0,
+    990.0,
+    1045.0,
+    1045.0,
+    1045.0,
+    1045.0,
+    1045.0,
+    1100.0,
+    1100.0,
+    1155.0,
+    1625.0,
+    1625.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2310.0,
+    2530.0,
+    2530.0,
+    2530.0,
+    2530.0,
+    2530.0,
+    2530.0,
+    2530.0,
+    2530.0,
+    2530.0,
+    2530.0,
+    2530.0,
+    2730.0,
+    2730.0,
+    2730.0,
+    2730.0,
+    2730.0,
+    2990.0,
+    2990.0,
+    2990.0,
+    2990.0,
+    5877.55,
+    5877.55,
+    8209.0,
+    10000.0,
+    18000.0,
+    18000.0,
+    18000.0,
+    18000.0,
+    20000.0
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 37353.54,
+   "Atividades de militância e mobilização de rua": 160605.0,
+   "Combustíveis e lubrificantes": 33902.25,
+   "Correspondências e despesas postais": 11168.85,
+   "Despesa com Impulsionamento de Conteúdos": 5000.0,
+   "Despesas com pessoal": 28140.0,
+   "Despesas com transporte ou deslocamento": 83755.1,
+   "Diversas a especificar": 31400.0,
+   "Locação/cessão de bens imóveis": 10000.0,
+   "Materiais de expediente": 90.0,
+   "Produção de jingles, vinhetas e slogans": 8000.0,
+   "Produção de programas de rádio, televisão ou vídeo": 160000.0,
+   "Publicidade por adesivos": 32292.0,
+   "Publicidade por carros de som": 60000.0,
+   "Publicidade por materiais impressos": 15600.0,
+   "Serviços advocatícios": 120000.0,
+   "Serviços contábeis": 50000.0,
+   "Serviços prestados por terceiros": 3000.0
+  },
+  "pago_por_dia": {
+   "2026-09-17": 7575.0,
+   "2026-09-18": 20518.85,
+   "2026-09-30": 26097.24,
+   "2026-10-02": 360581.47,
+   "2026-10-03": 49117.4,
+   "2026-10-06": 20000.0,
+   "2026-10-18": 5000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "ES",
  "partido": "PP",
+ "cnpj_prestador": "68545496000112",
  "prestacao_parcial": true,
  "receitas": {
   "total": 375000.0,
@@ -110,12 +111,39 @@
     "Cessão ou locação de veículos": 24000.0,
     "Locação/cessão de bens imóveis": 28000.0,
     "Serviços prestados por terceiros": 4052.5
-   }
+   },
+   "valores": [
+    1621.0,
+    2431.5,
+    3000.0,
+    4000.0,
+    20000.0,
+    25000.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 24000.0,
+   "Combustíveis e lubrificantes": 794.25,
+   "Despesa com Impulsionamento de Conteúdos": 4113.41,
+   "Locação/cessão de bens imóveis": 28000.0,
+   "Locação/cessão de bens móveis (exceto veículos)": 17107.2,
+   "Publicidade por materiais impressos": 6550.0,
+   "Serviços prestados por terceiros": 29052.5
+  },
+  "pago_por_dia": {
+   "2026-08-19": 2000.0,
+   "2026-08-25": 307.27,
+   "2026-08-30": 4000.0,
+   "2026-08-31": 10000.0,
+   "2026-09-01": 486.98,
+   "2026-09-03": 60896.67,
+   "2026-09-04": 1500.0,
+   "2026-09-06": 16530.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "PB",
  "partido": "REPUBLICANOS",
+ "cnpj_prestador": "68491572000154",
  "prestacao_parcial": true,
  "receitas": {
   "total": 886200.0,
@@ -142,12 +143,35 @@
     "Impostos, contribuições e taxas": 1777.43,
     "Publicidade por carros de som": 2500.0,
     "Serviços advocatícios": 20000.0
-   }
+   },
+   "valores": [
+    1777.43,
+    2500.0,
+    20000.0
+   ]
+  },
+  "por_tipo": {
+   "Despesa com Impulsionamento de Conteúdos": 25000.0,
+   "Diversas a especificar": 24620.0,
+   "Impostos, contribuições e taxas": 1777.43,
+   "Locação/cessão de bens móveis (exceto veículos)": 5460.0,
+   "Produção de jingles, vinhetas e slogans": 40000.0,
+   "Produção de programas de rádio, televisão ou vídeo": 60000.0,
+   "Publicidade por adesivos": 7818.8,
+   "Publicidade por carros de som": 2500.0,
+   "Publicidade por materiais impressos": 31500.0,
+   "Serviços advocatícios": 20000.0,
+   "Serviços contábeis": 20000.0,
+   "Serviços prestados por terceiros": 200000.0
+  },
+  "pago_por_dia": {
+   "2026-08-17": 10000.0,
+   "2026-09-03": 15000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

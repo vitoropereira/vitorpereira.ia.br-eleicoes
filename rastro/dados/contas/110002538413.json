@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "MT",
  "partido": "PL",
+ "cnpj_prestador": "68430512000121",
  "prestacao_parcial": true,
  "receitas": {
   "total": 993146.0,
@@ -217,12 +218,51 @@
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 82.19,
     "Serviços prestados por terceiros": 70250.0,
     "Serviços próprios prestados por terceiros": 7500.0
-   }
+   },
+   "valores": [
+    82.19,
+    7500.0,
+    7500.0,
+    7500.0,
+    10000.0,
+    12750.0,
+    15000.0,
+    25000.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 7500.0,
+   "Correspondências e despesas postais": 2447.27,
+   "Despesa com Impulsionamento de Conteúdos": 84000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 82.19,
+   "Materiais de expediente": 25.74,
+   "Publicidade por materiais impressos": 18383.67,
+   "Serviços advocatícios": 50000.0,
+   "Serviços contábeis": 40000.0,
+   "Serviços prestados por terceiros": 275250.0,
+   "Serviços próprios prestados por terceiros": 7500.0,
+   "Taxa de Administração de Financiamento Coletivo": 215.14
+  },
+  "pago_por_dia": {
+   "2026-08-17": 202.18,
+   "2026-08-19": 4431.85,
+   "2026-08-20": 228.69,
+   "2026-08-24": 10000.0,
+   "2026-08-25": 10000.0,
+   "2026-08-27": 10937.24,
+   "2026-08-28": 5000.0,
+   "2026-08-31": 4041.0,
+   "2026-09-01": 20393.35,
+   "2026-09-02": 50403.0,
+   "2026-09-03": 310.77,
+   "2026-09-04": 11138.93,
+   "2026-09-08": 36315.17,
+   "2026-09-28": 12.96
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

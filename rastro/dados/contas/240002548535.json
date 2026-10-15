@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "SC",
  "partido": "PSD",
+ "cnpj_prestador": "68526553000116",
  "prestacao_parcial": true,
  "receitas": {
   "total": 1763366.04,
@@ -474,12 +475,50 @@
    "por_tipo": {
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 35.0,
     "Serviços prestados por terceiros": 76527.0
-   }
+   },
+   "valores": [
+    35.0,
+    2527.0,
+    4000.0,
+    70000.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 26910.0,
+   "Combustíveis e lubrificantes": 7633.4,
+   "Correspondências e despesas postais": 29996.34,
+   "Despesa com Impulsionamento de Conteúdos": 50000.0,
+   "Doações financeiras a outros candidatos/partidos": 490000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 35.0,
+   "Eventos de promoção da candidatura": 7676.9,
+   "Locação/cessão de bens imóveis": 27660.0,
+   "Publicidade por adesivos": 40320.0,
+   "Publicidade por materiais impressos": 758185.0,
+   "Serviços advocatícios": 25000.0,
+   "Serviços contábeis": 25000.0,
+   "Serviços prestados por terceiros": 175437.0
+  },
+  "pago_por_dia": {
+   "2026-09-03": 22349.62,
+   "2026-09-04": 36382.2,
+   "2026-09-08": 106123.0,
+   "2026-09-09": 108287.3,
+   "2026-09-10": 464935.42,
+   "2026-09-11": 325.52,
+   "2026-09-14": 22139.44,
+   "2026-09-15": 344372.5,
+   "2026-09-16": 176669.81,
+   "2026-09-18": 24136.42,
+   "2026-09-21": 23254.68,
+   "2026-09-22": 5.0,
+   "2026-09-23": 55481.5,
+   "2026-09-24": 297030.0,
+   "2026-09-25": 291.23
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

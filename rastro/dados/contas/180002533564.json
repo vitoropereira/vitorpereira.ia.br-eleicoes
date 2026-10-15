@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "PI",
  "partido": "PV",
+ "cnpj_prestador": "68282993000175",
  "prestacao_parcial": true,
  "receitas": {
   "total": 94923.25,
@@ -138,12 +139,34 @@
    "total": 10500.0,
    "por_tipo": {
     "Locação/cessão de bens imóveis": 10500.0
-   }
+   },
+   "valores": [
+    10500.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 47414.1,
+   "Despesa com Impulsionamento de Conteúdos": 13000.0,
+   "Eventos de promoção da candidatura": 40000.0,
+   "Locação/cessão de bens imóveis": 10500.0,
+   "Materiais de expediente": 547.43,
+   "Produção de jingles, vinhetas e slogans": 4000.0,
+   "Publicidade por adesivos": 726.0,
+   "Publicidade por materiais impressos": 25000.0,
+   "Serviços advocatícios": 30000.0,
+   "Serviços contábeis": 30000.0,
+   "Serviços prestados por terceiros": 100000.0
+  },
+  "pago_por_dia": {
+   "2026-08-27": 10000.0,
+   "2026-09-07": 1000.0,
+   "2026-09-10": 2000.0,
+   "2026-09-12": 547.43
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "MA",
  "partido": "PT",
+ "cnpj_prestador": "68503998000180",
  "prestacao_parcial": true,
  "receitas": {
   "total": 559685.15,
@@ -103,12 +104,35 @@
    "por_tipo": {
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.0,
     "Locação/cessão de bens imóveis": 20000.0
-   }
+   },
+   "valores": [
+    2.0,
+    20000.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 31500.0,
+   "Despesa com Impulsionamento de Conteúdos": 6000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.0,
+   "Locação/cessão de bens imóveis": 20000.0,
+   "Serviços advocatícios": 15000.0,
+   "Serviços contábeis": 10000.0,
+   "Taxa de Administração de Financiamento Coletivo": 318.35
+  },
+  "pago_por_dia": {
+   "2026-08-17": 192.32,
+   "2026-08-19": 6000.0,
+   "2026-08-26": 0.5,
+   "2026-08-31": 35001.0,
+   "2026-09-01": 21500.5,
+   "2026-09-14": 38.11,
+   "2026-09-29": 72.94,
+   "2026-10-02": 14.98
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

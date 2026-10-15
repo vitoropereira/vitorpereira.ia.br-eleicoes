@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "AM",
  "partido": "UNIÃO",
+ "cnpj_prestador": "68468526000134",
  "prestacao_parcial": true,
  "receitas": {
   "total": 700000.0,
@@ -62,12 +63,30 @@
     "Cessão ou locação de veículos": 15000.0,
     "Despesas com pessoal": 7500.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.5
-   }
+   },
+   "valores": [
+    1.5,
+    2500.0,
+    2500.0,
+    2500.0,
+    15000.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 15000.0,
+   "Despesas com pessoal": 7500.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.5,
+   "Publicidade por materiais impressos": 20000.0,
+   "Serviços advocatícios": 35000.0
+  },
+  "pago_por_dia": {
+   "2026-08-28": 50001.0,
+   "2026-09-03": 55000.5
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

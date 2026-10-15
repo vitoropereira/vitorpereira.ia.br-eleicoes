@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "MA",
  "partido": "PSB",
+ "cnpj_prestador": "68526414000192",
  "prestacao_parcial": true,
  "receitas": {
   "total": 113755.0,
@@ -132,12 +133,42 @@
    "por_tipo": {
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.5,
     "Locação/cessão de bens imóveis": 12000.0
-   }
+   },
+   "valores": [
+    1.5,
+    3000.0,
+    9000.0
+   ]
+  },
+  "por_tipo": {
+   "Correspondências e despesas postais": 6254.6,
+   "Criação e inclusão de páginas na internet": 1350.0,
+   "Despesa com Impulsionamento de Conteúdos": 6000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.5,
+   "Locação/cessão de bens imóveis": 12000.0,
+   "Publicidade por adesivos": 8587.5,
+   "Publicidade por materiais impressos": 15070.0,
+   "Serviços advocatícios": 5000.0,
+   "Serviços contábeis": 10000.0
+  },
+  "pago_por_dia": {
+   "2026-08-31": 960.0,
+   "2026-09-01": 8000.5,
+   "2026-09-02": 17000.5,
+   "2026-09-03": 6060.5,
+   "2026-09-04": 960.0,
+   "2026-09-08": 1290.5,
+   "2026-09-09": 15060.5,
+   "2026-09-14": 5000.0,
+   "2026-09-17": 9254.6,
+   "2026-09-18": 10090.0,
+   "2026-09-23": 10054.5,
+   "2026-09-24": 10000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

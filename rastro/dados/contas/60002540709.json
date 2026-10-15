@@ -4,17 +4,18 @@
  "cargo": "depest",
  "uf": "CE",
  "partido": "PT",
+ "cnpj_prestador": "68456195000112",
  "prestacao_parcial": true,
  "receitas": {
-  "total": 344500.0,
+  "total": 365500.0,
   "por_origem": {
    "Recursos de partido político": 265500.0,
-   "Recursos de pessoas físicas": 79000.0
+   "Recursos de pessoas físicas": 100000.0
   },
   "por_fonte": {
    "FUNDO ESPECIAL": 250000.0,
    "FUNDO PARTIDARIO": 15500.0,
-   "OUTROS RECURSOS": 79000.0
+   "OUTROS RECURSOS": 100000.0
   },
   "doadores_pj": [
    {
@@ -24,13 +25,13 @@
    }
   ],
   "doadores_pf": {
-   "qtd": 13,
-   "total": 79000.0
+   "qtd": 17,
+   "total": 100000.0
   }
  },
  "despesas": {
-  "total_contratado": 225531.69,
-  "total_pago": 34237.0,
+  "total_contratado": 233739.69,
+  "total_pago": 102391.0,
   "fornecedores_pj": [
    {
     "cnpj": "03977401000194",
@@ -41,6 +42,16 @@
      "Cessão ou locação de veículos"
     ],
     "total": 32968.32
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 22000.0
    },
    {
     "cnpj": "36301942000157",
@@ -61,16 +72,6 @@
      "Serviços advocatícios"
     ],
     "total": 20000.0
-   },
-   {
-    "cnpj": "25021356000132",
-    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
-    "cnae": "74901",
-    "n_despesas": 1,
-    "tipos": [
-     "Despesa com Impulsionamento de Conteúdos"
-    ],
-    "total": 15000.0
    },
    {
     "cnpj": "13813371000134",
@@ -124,18 +125,111 @@
    }
   ],
   "fornecedores_pf": {
-   "qtd": 64,
-   "total": 107957.0,
+   "qtd": 65,
+   "total": 109165.0,
    "por_tipo": {
-    "Atividades de militância e mobilização de rua": 105940.0,
-    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 17.0,
+    "Atividades de militância e mobilização de rua": 107100.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 65.0,
     "Locação/cessão de bens imóveis": 2000.0
-   }
+   },
+   "valores": [
+    65.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    1700.0,
+    2000.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 107100.0,
+   "Cessão ou locação de veículos": 42968.32,
+   "Combustíveis e lubrificantes": 3281.37,
+   "Despesa com Impulsionamento de Conteúdos": 22000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 65.0,
+   "Locação/cessão de bens imóveis": 11005.0,
+   "Publicidade por materiais impressos": 7320.0,
+   "Serviços advocatícios": 20000.0,
+   "Serviços contábeis": 20000.0
+  },
+  "pago_por_dia": {
+   "2026-08-27": 15000.0,
+   "2026-09-01": 320.0,
+   "2026-09-03": 18915.5,
+   "2026-09-04": 1.5,
+   "2026-09-09": 3243.5,
+   "2026-09-10": 30861.5,
+   "2026-09-18": 11340.0,
+   "2026-09-21": 7631.5,
+   "2026-09-23": 4325.0,
+   "2026-09-24": 3240.0,
+   "2026-09-25": 6490.5,
+   "2026-09-27": 482.0,
+   "2026-10-09": 540.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

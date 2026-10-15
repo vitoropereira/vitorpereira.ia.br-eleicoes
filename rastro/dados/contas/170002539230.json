@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "PE",
  "partido": "PL",
+ "cnpj_prestador": "68437484000174",
  "prestacao_parcial": true,
  "receitas": {
   "total": 520000.0,
@@ -84,12 +85,64 @@
     "Despesas com pessoal": 10416.0,
     "Eventos de promoção da candidatura": 38000.0,
     "Locação/cessão de bens imóveis": 10000.0
-   }
+   },
+   "valores": [
+    1320.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    2250.0,
+    2250.0,
+    2250.0,
+    2250.0,
+    2250.0,
+    2250.0,
+    2250.0,
+    2250.0,
+    2250.0,
+    2250.0,
+    2250.0,
+    2250.0,
+    2250.0,
+    2250.0,
+    3750.0,
+    6666.0,
+    10000.0,
+    38000.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 56220.0,
+   "Despesas com pessoal": 10416.0,
+   "Eventos de promoção da candidatura": 38000.0,
+   "Locação/cessão de bens imóveis": 10000.0,
+   "Publicidade por adesivos": 119440.0,
+   "Publicidade por materiais impressos": 98100.0,
+   "Serviços advocatícios": 40000.0,
+   "Serviços contábeis": 37000.0
+  },
+  "pago_por_dia": {
+   "2026-08-16": 2250.0,
+   "2026-08-27": 119440.0,
+   "2026-08-31": 60786.0,
+   "2026-09-01": 3600.0,
+   "2026-09-02": 77000.0,
+   "2026-09-03": 48000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

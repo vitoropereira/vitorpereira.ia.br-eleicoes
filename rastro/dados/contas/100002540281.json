@@ -4,25 +4,26 @@
  "cargo": "depest",
  "uf": "MA",
  "partido": "MDB",
+ "cnpj_prestador": "68455011000108",
  "prestacao_parcial": true,
  "receitas": {
-  "total": 368553.5,
+  "total": 368656.0,
   "por_origem": {
    "Recursos de pessoas físicas": 237520.25,
-   "Recursos próprios": 131033.25
+   "Recursos próprios": 131135.75
   },
   "por_fonte": {
-   "OUTROS RECURSOS": 368553.5
+   "OUTROS RECURSOS": 368656.0
   },
   "doadores_pj": [],
   "doadores_pf": {
    "qtd": 49,
-   "total": 368553.5
+   "total": 368656.0
   }
  },
  "despesas": {
-  "total_contratado": 261459.84,
-  "total_pago": 335552.5,
+  "total_contratado": 261607.14,
+  "total_pago": 335656.0,
   "fornecedores_pj": [
    {
     "cnpj": "13347016000117",
@@ -52,7 +53,7 @@
     "tipos": [
      "Publicidade por materiais impressos"
     ],
-    "total": 31713.6
+    "total": 31908.6
    },
    {
     "cnpj": "25031966000117",
@@ -94,7 +95,7 @@
      "Publicidade por adesivos",
      "Publicidade por materiais impressos"
     ],
-    "total": 7797.7
+    "total": 7646.5
    },
    {
     "cnpj": "04398811000143",
@@ -175,21 +176,79 @@
      "Publicidade por adesivos"
     ],
     "total": 800.0
+   },
+   {
+    "cnpj": "17668873000170",
+    "nome": "ERIC GUIMARAES ARAUJO",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 102.5
    }
   ],
   "fornecedores_pf": {
    "qtd": 7,
-   "total": 30955.2,
+   "total": 30956.2,
    "por_tipo": {
     "Despesas com pessoal": 16000.0,
-    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 55.2,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 56.2,
     "Serviços prestados por terceiros": 14900.0
-   }
+   },
+   "valores": [
+    56.2,
+    2000.0,
+    2000.0,
+    2000.0,
+    6900.0,
+    8000.0,
+    10000.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 3000.0,
+   "Combustíveis e lubrificantes": 1681.74,
+   "Correspondências e despesas postais": 47993.6,
+   "Despesa com Impulsionamento de Conteúdos": 92500.0,
+   "Despesas com pessoal": 16000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 56.2,
+   "Locação/cessão de bens imóveis": 5500.0,
+   "Publicidade por adesivos": 11555.7,
+   "Publicidade por materiais impressos": 46919.9,
+   "Serviços advocatícios": 10000.0,
+   "Serviços contábeis": 10000.0,
+   "Serviços prestados por terceiros": 16400.0
+  },
+  "pago_por_dia": {
+   "2026-08-26": 5000.0,
+   "2026-09-02": 5000.0,
+   "2026-09-08": 17500.0,
+   "2026-09-09": 15695.25,
+   "2026-09-10": 6178.6,
+   "2026-09-11": 19273.5,
+   "2026-09-12": 17358.0,
+   "2026-09-14": 17501.0,
+   "2026-09-17": 8000.0,
+   "2026-09-18": 17727.2,
+   "2026-09-21": 27501.0,
+   "2026-09-22": 50598.8,
+   "2026-09-24": 16357.0,
+   "2026-09-25": 22401.5,
+   "2026-09-28": 35100.5,
+   "2026-09-29": 14252.15,
+   "2026-09-30": 840.0,
+   "2026-10-01": 0.5,
+   "2026-10-02": 1500.5,
+   "2026-10-05": 21166.5,
+   "2026-10-07": 2600.5,
+   "2026-10-08": 14001.0,
+   "2026-10-13": 102.5
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

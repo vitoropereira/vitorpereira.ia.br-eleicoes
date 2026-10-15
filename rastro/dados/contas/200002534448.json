@@ -4,6 +4,7 @@
  "cargo": "senador",
  "uf": "RN",
  "partido": "PODE",
+ "cnpj_prestador": "68306270000169",
  "prestacao_parcial": true,
  "receitas": {
   "total": 3832287.03,
@@ -28,7 +29,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 1712445.22,
+  "total_contratado": 1727445.22,
   "total_pago": 2370175.6,
   "fornecedores_pj": [
    {
@@ -119,7 +120,7 @@
     "tipos": [
      "Publicidade por materiais impressos"
     ],
-    "total": 34500.0
+    "total": 49500.0
    },
    {
     "cnpj": "59288515000181",
@@ -227,12 +228,42 @@
    "total": 6.0,
    "por_tipo": {
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 6.0
-   }
+   },
+   "valores": [
+    6.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 61275.0,
+   "Cessão ou locação de veículos": 10965.0,
+   "Combustíveis e lubrificantes": 2899.22,
+   "Despesa com Impulsionamento de Conteúdos": 77000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 6.0,
+   "Eventos de promoção da candidatura": 5800.0,
+   "Pesquisas ou testes eleitorais": 70000.0,
+   "Produção de jingles, vinhetas e slogans": 10000.0,
+   "Produção de programas de rádio, televisão ou vídeo": 380000.0,
+   "Publicidade por materiais impressos": 49500.0,
+   "Serviços advocatícios": 200000.0,
+   "Serviços contábeis": 110000.0,
+   "Serviços prestados por terceiros": 750000.0
+  },
+  "pago_por_dia": {
+   "2026-08-27": 2252.6,
+   "2026-08-31": 675414.5,
+   "2026-09-01": 24072.5,
+   "2026-09-02": 64994.03,
+   "2026-09-03": 1800.0,
+   "2026-09-04": 2500.5,
+   "2026-09-08": 210001.0,
+   "2026-09-09": 1140001.5,
+   "2026-09-10": 179138.97,
+   "2026-09-11": 70000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

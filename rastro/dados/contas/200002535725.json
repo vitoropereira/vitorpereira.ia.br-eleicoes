@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "RN",
  "partido": "PP",
+ "cnpj_prestador": "68344810000107",
  "prestacao_parcial": true,
  "receitas": {
   "total": 728020.4,
@@ -348,12 +349,79 @@
     "Produção de jingles, vinhetas e slogans": 16000.0,
     "Produção de programas de rádio, televisão ou vídeo": 1000.0,
     "Publicidade por carros de som": 7000.0
-   }
+   },
+   "valores": [
+    7.5,
+    250.0,
+    1000.0,
+    1500.0,
+    1620.0,
+    1620.0,
+    1620.0,
+    1620.0,
+    1620.0,
+    1620.0,
+    2000.0,
+    2400.0,
+    7000.0,
+    8000.0,
+    10300.0,
+    16000.0
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 3500.0,
+   "Atividades de militância e mobilização de rua": 12120.0,
+   "Combustíveis e lubrificantes": 9359.37,
+   "Despesa com Impulsionamento de Conteúdos": 8000.0,
+   "Despesas com Hospedagem": 690.0,
+   "Despesas com pessoal": 2000.0,
+   "Despesas com transporte ou deslocamento": 18300.0,
+   "Diversas a especificar": 875.6,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 7.5,
+   "Eventos de promoção da candidatura": 73995.0,
+   "Locação/cessão de bens imóveis": 1500.0,
+   "Produção de jingles, vinhetas e slogans": 52400.0,
+   "Produção de programas de rádio, televisão ou vídeo": 6000.0,
+   "Publicidade por adesivos": 71062.0,
+   "Publicidade por carros de som": 49000.0,
+   "Publicidade por materiais impressos": 32944.0,
+   "Serviços advocatícios": 80000.0,
+   "Serviços contábeis": 24315.0,
+   "Serviços prestados por terceiros": 180000.0,
+   "Serviços próprios prestados por terceiros": 8000.0
+  },
+  "pago_por_dia": {
+   "2026-08-27": 8000.0,
+   "2026-08-28": 24001.0,
+   "2026-08-31": 6000.5,
+   "2026-09-01": 1390.5,
+   "2026-09-02": 144922.5,
+   "2026-09-03": 74092.92,
+   "2026-09-06": 300.0,
+   "2026-09-08": 78799.33,
+   "2026-09-09": 67191.46,
+   "2026-09-10": 190.05,
+   "2026-09-11": 10300.5,
+   "2026-09-12": 460.04,
+   "2026-09-13": 500.03,
+   "2026-09-14": 263.08,
+   "2026-09-15": 14728.93,
+   "2026-09-16": 6150.0,
+   "2026-09-17": 66588.5,
+   "2026-09-18": 360.08,
+   "2026-09-20": 583.23,
+   "2026-09-21": 6350.0,
+   "2026-09-22": 17492.03,
+   "2026-09-23": 135.03,
+   "2026-09-25": 330.01,
+   "2026-09-28": 882.66,
+   "2026-10-01": 7349.82
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

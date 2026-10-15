@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "PR",
  "partido": "PT",
+ "cnpj_prestador": "68464900000123",
  "prestacao_parcial": true,
  "receitas": {
   "total": 237000.01,
@@ -40,7 +41,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 191667.77,
+  "total_contratado": 192426.06,
   "total_pago": 150912.32,
   "fornecedores_pj": [
    {
@@ -104,6 +105,16 @@
     "total": 4543.5
    },
    {
+    "cnpj": "12328254000112",
+    "nome": "POSTO DUBAI LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2906.64
+   },
+   {
     "cnpj": "59271137000123",
     "nome": "59.271.137 ANDY CATARINE SILVA",
     "cnae": "32990",
@@ -113,16 +124,6 @@
      "Publicidade por materiais impressos"
     ],
     "total": 2811.92
-   },
-   {
-    "cnpj": "12328254000112",
-    "nome": "POSTO DUBAI LTDA",
-    "cnae": "47318",
-    "n_despesas": 2,
-    "tipos": [
-     "Combustíveis e lubrificantes"
-    ],
-    "total": 2148.35
    },
    {
     "cnpj": "26747811000144",
@@ -212,12 +213,67 @@
     "Cessão ou locação de veículos": 30000.0,
     "Despesas com pessoal": 29000.0,
     "Publicidade por carros de som": 9000.0
-   }
+   },
+   "valores": [
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    9000.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 30000.0,
+   "Combustíveis e lubrificantes": 2906.64,
+   "Despesa com Impulsionamento de Conteúdos": 42500.0,
+   "Despesas com pessoal": 29000.0,
+   "Locação/cessão de bens imóveis": 2150.0,
+   "Publicidade por adesivos": 1572.0,
+   "Publicidade por carros de som": 9000.0,
+   "Publicidade por materiais impressos": 42697.42,
+   "Serviços advocatícios": 15000.0,
+   "Serviços contábeis": 15000.0,
+   "Serviços prestados por terceiros": 2600.0
+  },
+  "pago_por_dia": {
+   "2026-08-18": 500.0,
+   "2026-08-21": 4000.0,
+   "2026-08-25": 5000.0,
+   "2026-08-31": 41490.1,
+   "2026-09-01": 20150.0,
+   "2026-09-04": 2100.0,
+   "2026-09-10": 418.4,
+   "2026-09-14": 13760.0,
+   "2026-09-15": 9555.25,
+   "2026-09-17": 4500.0,
+   "2026-09-18": 26750.0,
+   "2026-09-21": 2693.92,
+   "2026-09-22": 7894.65,
+   "2026-09-24": 12100.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

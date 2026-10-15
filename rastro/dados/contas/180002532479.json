@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "PI",
  "partido": "PT",
+ "cnpj_prestador": "68258351000130",
  "prestacao_parcial": true,
  "receitas": {
   "total": 1930087.0,
@@ -40,7 +41,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 948556.96,
+  "total_contratado": 948614.08,
   "total_pago": 1545832.42,
   "fornecedores_pj": [
    {
@@ -62,7 +63,7 @@
      "Publicidade por adesivos",
      "Publicidade por materiais impressos"
     ],
-    "total": 71871.5
+    "total": 71714.5
    },
    {
     "cnpj": "21500360000122",
@@ -318,7 +319,17 @@
     "tipos": [
      "Combustíveis e lubrificantes"
     ],
-    "total": 1183.72
+    "total": 1199.32
+   },
+   {
+    "cnpj": "93209765040682",
+    "nome": "WMS SUPERMERCADOS DO BRASIL LTDA.",
+    "cnae": "47113",
+    "n_despesas": 4,
+    "tipos": [
+     "Diversas a especificar"
+    ],
+    "total": 1186.59
    },
    {
     "cnpj": "34966838000156",
@@ -339,16 +350,6 @@
      "Locação/cessão de bens móveis (exceto veículos)"
     ],
     "total": 1000.0
-   },
-   {
-    "cnpj": "93209765040682",
-    "nome": "WMS SUPERMERCADOS DO BRASIL LTDA.",
-    "cnae": "47113",
-    "n_despesas": 4,
-    "tipos": [
-     "Diversas a especificar"
-    ],
-    "total": 988.07
    },
    {
     "cnpj": "42054180000134",
@@ -410,12 +411,84 @@
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 112.4,
     "Locação/cessão de bens imóveis": 7500.0,
     "Serviços prestados por terceiros": 21553.0
-   }
+   },
+   "valores": [
+    112.4,
+    1621.0,
+    1621.0,
+    2035.0,
+    2174.0,
+    2250.0,
+    2420.0,
+    2435.0,
+    2500.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3182.0,
+    7000.0,
+    7500.0,
+    10000.0,
+    10000.0,
+    20000.0,
+    24000.0,
+    31000.0
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 10000.0,
+   "Atividades de militância e mobilização de rua": 250000.0,
+   "Cessão ou locação de veículos": 167540.0,
+   "Combustíveis e lubrificantes": 7529.12,
+   "Comícios": 4000.0,
+   "Correspondências e despesas postais": 16593.72,
+   "Despesa com Impulsionamento de Conteúdos": 33000.0,
+   "Despesas com pessoal": 7685.0,
+   "Diversas a especificar": 40186.59,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 112.4,
+   "Locação/cessão de bens imóveis": 21000.0,
+   "Locação/cessão de bens móveis (exceto veículos)": 28500.0,
+   "Materiais de expediente": 228.0,
+   "Produção de jingles, vinhetas e slogans": 13500.0,
+   "Publicidade por adesivos": 74786.75,
+   "Publicidade por materiais impressos": 111155.0,
+   "Segurança e prevenção, repressão e combate à violência política": 27312.5,
+   "Serviços advocatícios": 70000.0,
+   "Serviços contábeis": 40000.0,
+   "Serviços prestados por terceiros": 21723.0,
+   "Água": 3762.0
+  },
+  "pago_por_dia": {
+   "2026-08-17": 10000.0,
+   "2026-08-18": 6750.5,
+   "2026-08-20": 1130.5,
+   "2026-08-22": 2083.61,
+   "2026-08-26": 112586.7,
+   "2026-08-27": 35314.5,
+   "2026-08-28": 155053.0,
+   "2026-08-31": 95769.11,
+   "2026-09-02": 50601.7,
+   "2026-09-03": 159543.7,
+   "2026-09-04": 34158.23,
+   "2026-09-05": 1250.0,
+   "2026-09-08": 8350.8,
+   "2026-09-09": 3692.3,
+   "2026-09-10": 108838.06,
+   "2026-09-11": 370202.5,
+   "2026-09-14": 27581.7,
+   "2026-09-15": 259959.92,
+   "2026-09-17": 18751.7,
+   "2026-09-18": 1626.0,
+   "2026-09-21": 43351.13,
+   "2026-09-22": 11945.61,
+   "2026-09-23": 12690.15,
+   "2026-09-25": 14600.5,
+   "2026-09-26": 0.5
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

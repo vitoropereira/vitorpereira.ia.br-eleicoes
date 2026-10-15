@@ -4,6 +4,7 @@
  "cargo": "senador",
  "uf": "SC",
  "partido": "PL",
+ "cnpj_prestador": "68461700000117",
  "prestacao_parcial": true,
  "receitas": {
   "total": 4729290.0,
@@ -219,12 +220,58 @@
    "por_tipo": {
     "Despesas com pessoal": 25900.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 9.0
-   }
+   },
+   "valores": [
+    9.0,
+    2400.0,
+    3500.0,
+    10000.0,
+    10000.0
+   ]
+  },
+  "por_tipo": {
+   "Despesa com Impulsionamento de Conteúdos": 1647000.0,
+   "Despesas com pessoal": 25900.0,
+   "Despesas com transporte ou deslocamento": 110086.67,
+   "Doações financeiras a outros candidatos/partidos": 100000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 9.0,
+   "Locação/cessão de bens imóveis": 2500.0,
+   "Pesquisas ou testes eleitorais": 230000.0,
+   "Publicidade por adesivos": 44131.0,
+   "Publicidade por jornais e revistas": 6079.8,
+   "Publicidade por materiais impressos": 234120.0,
+   "Serviços advocatícios": 280000.0,
+   "Serviços prestados por terceiros": 1632800.0
+  },
+  "pago_por_dia": {
+   "2026-08-25": 99000.0,
+   "2026-08-26": 500000.0,
+   "2026-08-27": 644000.0,
+   "2026-08-31": 50000.0,
+   "2026-09-02": 104200.0,
+   "2026-09-03": 206251.0,
+   "2026-09-04": 165000.0,
+   "2026-09-08": 320185.34,
+   "2026-09-09": 110300.0,
+   "2026-09-10": 21000.5,
+   "2026-09-11": 526251.5,
+   "2026-09-12": 50000.0,
+   "2026-09-14": 97970.0,
+   "2026-09-15": 0.5,
+   "2026-09-16": 216354.33,
+   "2026-09-18": 229779.8,
+   "2026-09-21": 110003.0,
+   "2026-09-22": 64180.5,
+   "2026-09-23": 205250.0,
+   "2026-09-24": 150000.0,
+   "2026-09-25": 100000.0,
+   "2026-09-28": 250000.0,
+   "2026-09-29": 100000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

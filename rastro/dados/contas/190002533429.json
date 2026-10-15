@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "RJ",
  "partido": "PL",
+ "cnpj_prestador": "68269112000186",
  "prestacao_parcial": true,
  "receitas": {
   "total": 313831.82,
@@ -141,12 +142,43 @@
    "por_tipo": {
     "Despesas com pessoal": 33000.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 5.6
-   }
+   },
+   "valores": [
+    5.6,
+    2400.0,
+    3000.0,
+    13800.0,
+    13800.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 32000.0,
+   "Combustíveis e lubrificantes": 2943.64,
+   "Despesa com Impulsionamento de Conteúdos": 91500.0,
+   "Despesas com pessoal": 33000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 5.6,
+   "Serviços advocatícios": 60000.0,
+   "Serviços contábeis": 15000.0,
+   "Serviços prestados por terceiros": 379.98
+  },
+  "pago_por_dia": {
+   "2026-08-18": 1500.0,
+   "2026-08-24": 3003.1,
+   "2026-08-25": 10000.0,
+   "2026-08-26": 79.98,
+   "2026-08-27": 7100.0,
+   "2026-08-31": 20200.0,
+   "2026-09-02": 25000.5,
+   "2026-09-03": 43626.95,
+   "2026-09-04": 50000.0,
+   "2026-09-11": 16000.0,
+   "2026-09-14": 15000.0,
+   "2026-09-16": 5400.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

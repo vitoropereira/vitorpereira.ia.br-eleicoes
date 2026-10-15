@@ -4,18 +4,19 @@
  "cargo": "depest",
  "uf": "GO",
  "partido": "REPUBLICANOS",
+ "cnpj_prestador": "68527086000149",
  "prestacao_parcial": true,
  "receitas": {
-  "total": 311500.0,
+  "total": 341400.5,
   "por_origem": {
    "Recursos de outros candidatos": 4500.0,
    "Recursos de partido político": 300000.0,
-   "Recursos de pessoas físicas": 7000.0
+   "Recursos de pessoas físicas": 36900.5
   },
   "por_fonte": {
    "FUNDO ESPECIAL": 224500.0,
    "FUNDO PARTIDARIO": 80000.0,
-   "OUTROS RECURSOS": 7000.0
+   "OUTROS RECURSOS": 36900.5
   },
   "doadores_pj": [
    {
@@ -35,13 +36,13 @@
    }
   ],
   "doadores_pf": {
-   "qtd": 2,
-   "total": 7000.0
+   "qtd": 22,
+   "total": 36900.5
   }
  },
  "despesas": {
-  "total_contratado": 171789.12,
-  "total_pago": 155987.54,
+  "total_contratado": 215930.42,
+  "total_pago": 301250.61,
   "fornecedores_pj": [
    {
     "cnpj": "35109227000154",
@@ -64,6 +65,26 @@
     "total": 29900.0
    },
    {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
+    "n_despesas": 2,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 8000.0
+   },
+   {
+    "cnpj": "64271090000138",
+    "nome": "64.271.090 LUCAS NAZARIO DA SILVA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 5200.0
+   },
+   {
     "cnpj": "01826104000112",
     "nome": "LANDI MARTINS LTDA",
     "cnae": "56112",
@@ -74,6 +95,36 @@
     "total": 2161.62
    },
    {
+    "cnpj": "07438607000105",
+    "nome": "COMERCIAL DE COMBUSTIVEIS VILA RICA LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1640.0
+   },
+   {
+    "cnpj": "19674533000187",
+    "nome": "CONEXAO PROPAGANDA E EDITORA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1500.0
+   },
+   {
+    "cnpj": "33461122000134",
+    "nome": "LOBAO PUBLICIDADES E EVENTOS LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por carros de som"
+    ],
+    "total": 1100.0
+   },
+   {
     "cnpj": "41804798000101",
     "nome": "TIAGO OLIVEIRA VASCO CARVALHO",
     "cnae": "85929",
@@ -82,32 +133,179 @@
      "Produção de jingles, vinhetas e slogans"
     ],
     "total": 1000.0
-   },
-   {
-    "cnpj": "07438607000105",
-    "nome": "COMERCIAL DE COMBUSTIVEIS VILA RICA LTDA",
-    "cnae": "47318",
-    "n_despesas": 1,
-    "tipos": [
-     "Combustíveis e lubrificantes"
-    ],
-    "total": 200.0
    }
   ],
   "fornecedores_pf": {
-   "qtd": 101,
-   "total": 106052.5,
+   "qtd": 126,
+   "total": 132953.8,
    "por_tipo": {
-    "Cessão ou locação de veículos": 13500.0,
-    "Despesas com pessoal": 89800.0,
-    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.5,
+    "Cessão ou locação de veículos": 18500.0,
+    "Despesas com pessoal": 111600.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 103.8,
     "Locação/cessão de bens imóveis": 2750.0
-   }
+   },
+   "valores": [
+    103.8,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1600.0,
+    1600.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2500.0,
+    2500.0,
+    2750.0,
+    3500.0,
+    5000.0,
+    10000.0
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 2161.62,
+   "Cessão ou locação de veículos": 18500.0,
+   "Combustíveis e lubrificantes": 1640.0,
+   "Despesa com Impulsionamento de Conteúdos": 8000.0,
+   "Despesas com pessoal": 111600.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 103.8,
+   "Locação/cessão de bens imóveis": 2750.0,
+   "Produção de jingles, vinhetas e slogans": 1000.0,
+   "Publicidade por carros de som": 1100.0,
+   "Publicidade por materiais impressos": 63875.0,
+   "Serviços prestados por terceiros": 5200.0
+  },
+  "pago_por_dia": {
+   "2026-09-05": 139735.04,
+   "2026-09-08": 1.0,
+   "2026-09-10": 16251.5,
+   "2026-09-14": 3161.62,
+   "2026-09-15": 0.5,
+   "2026-09-19": 1500.0,
+   "2026-09-21": 5000.5,
+   "2026-09-23": 1000.0,
+   "2026-09-25": 13701.15,
+   "2026-09-30": 24400.0,
+   "2026-10-01": 40227.6,
+   "2026-10-02": 34354.1,
+   "2026-10-03": 11700.0,
+   "2026-10-05": 10217.6
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

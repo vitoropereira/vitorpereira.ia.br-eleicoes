@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "PI",
  "partido": "PSD",
+ "cnpj_prestador": "68289674000191",
  "prestacao_parcial": true,
  "receitas": {
   "total": 1519266.0,
@@ -322,12 +323,63 @@
    "por_tipo": {
     "Despesas com pessoal": 28152.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 11.0
-   }
+   },
+   "valores": [
+    11.0,
+    1750.0,
+    4201.0,
+    4201.0,
+    4500.0,
+    4500.0,
+    4500.0,
+    4500.0
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 1950.0,
+   "Cessão ou locação de veículos": 9000.0,
+   "Combustíveis e lubrificantes": 7751.15,
+   "Despesa com Impulsionamento de Conteúdos": 30000.0,
+   "Despesas com Hospedagem": 748.65,
+   "Despesas com pessoal": 28152.0,
+   "Diversas a especificar": 524.35,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 11.0,
+   "Eventos de promoção da candidatura": 34981.0,
+   "Materiais de expediente": 13.02,
+   "Produção de programas de rádio, televisão ou vídeo": 18000.0,
+   "Publicidade por adesivos": 2460.0,
+   "Publicidade por materiais impressos": 80189.0,
+   "Serviços advocatícios": 90000.0,
+   "Serviços contábeis": 60000.0,
+   "Serviços prestados por terceiros": 3450.0,
+   "Serviços próprios prestados por terceiros": 86040.0
+  },
+  "pago_por_dia": {
+   "2026-08-27": 10749.15,
+   "2026-09-03": 30000.5,
+   "2026-09-04": 19700.0,
+   "2026-09-05": 524.35,
+   "2026-09-07": 2777.59,
+   "2026-09-08": 56486.64,
+   "2026-09-11": 395418.02,
+   "2026-09-15": 204963.3,
+   "2026-09-16": 5160.5,
+   "2026-09-17": 31018.78,
+   "2026-09-18": 19000.5,
+   "2026-09-19": 255.35,
+   "2026-09-21": 333.73,
+   "2026-09-22": 156103.4,
+   "2026-09-23": 5501.5,
+   "2026-09-24": 12504.03,
+   "2026-09-25": 533.55,
+   "2026-09-28": 14875.0,
+   "2026-09-29": 15054.5,
+   "2026-09-30": 237607.25
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

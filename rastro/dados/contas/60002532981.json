@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "CE",
  "partido": "PRD",
+ "cnpj_prestador": "68236952000142",
  "prestacao_parcial": true,
  "receitas": {
   "total": 3005850.0,
@@ -28,7 +29,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 1143862.05,
+  "total_contratado": 1142962.05,
   "total_pago": 505247.9,
   "fornecedores_pj": [
    {
@@ -70,7 +71,7 @@
      "Publicidade por adesivos",
      "Publicidade por materiais impressos"
     ],
-    "total": 137248.25
+    "total": 136348.25
    },
    {
     "cnpj": "18118693000187",
@@ -222,12 +223,49 @@
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 35.2,
     "Locação/cessão de bens imóveis": 7500.0,
     "Produção de jingles, vinhetas e slogans": 8000.0
-   }
+   },
+   "valores": [
+    35.2,
+    1000.0,
+    1000.0,
+    2500.0,
+    3000.0,
+    8000.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 253848.6,
+   "Despesa com Impulsionamento de Conteúdos": 15000.0,
+   "Despesas com transporte ou deslocamento": 13200.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 35.2,
+   "Eventos de promoção da candidatura": 1500.0,
+   "Locação/cessão de bens imóveis": 20500.0,
+   "Locação/cessão de bens móveis (exceto veículos)": 40000.0,
+   "Produção de jingles, vinhetas e slogans": 8000.0,
+   "Pré-instalação física de comitê de campanha": 40200.0,
+   "Publicidade por adesivos": 165981.25,
+   "Publicidade por materiais impressos": 204197.0,
+   "Serviços advocatícios": 40000.0,
+   "Serviços contábeis": 35000.0,
+   "Serviços prestados por terceiros": 305500.0
+  },
+  "pago_por_dia": {
+   "2026-08-27": 1500.0,
+   "2026-08-28": 92100.5,
+   "2026-08-31": 9800.5,
+   "2026-09-01": 22101.5,
+   "2026-09-02": 116900.5,
+   "2026-09-03": 30000.0,
+   "2026-09-04": 40814.7,
+   "2026-09-08": 10000.5,
+   "2026-09-10": 20000.5,
+   "2026-09-11": 62029.2,
+   "2026-09-14": 100000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

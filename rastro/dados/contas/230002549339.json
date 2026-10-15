@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "RR",
  "partido": "UNIÃO",
+ "cnpj_prestador": "68545684000140",
  "prestacao_parcial": true,
  "receitas": {
   "total": 185243.92,
@@ -90,12 +91,44 @@
    "por_tipo": {
     "Impostos, contribuições e taxas": 1.0,
     "Serviços prestados por terceiros": 14589.0
-   }
+   },
+   "valores": [
+    1.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0
+   ]
+  },
+  "por_tipo": {
+   "Combustíveis e lubrificantes": 16010.55,
+   "Despesa com Impulsionamento de Conteúdos": 12000.0,
+   "Impostos, contribuições e taxas": 1.0,
+   "Locação/cessão de bens imóveis": 8000.0,
+   "Publicidade por jornais e revistas": 750.0,
+   "Serviços advocatícios": 8000.0,
+   "Serviços contábeis": 8000.0,
+   "Serviços prestados por terceiros": 14589.0
+  },
+  "pago_por_dia": {
+   "2026-08-27": 2000.0,
+   "2026-08-31": 750.0,
+   "2026-09-03": 10000.0,
+   "2026-09-08": 7494.8,
+   "2026-09-14": 8516.25,
+   "2026-09-15": 0.5,
+   "2026-09-17": 8000.0,
+   "2026-09-18": 8000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

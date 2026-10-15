@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "AL",
  "partido": "MDB",
+ "cnpj_prestador": "68504279000184",
  "prestacao_parcial": true,
  "receitas": {
   "total": 2560500.0,
@@ -28,7 +29,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 649228.78,
+  "total_contratado": 654708.78,
   "total_pago": 1149792.78,
   "fornecedores_pj": [
    {
@@ -103,6 +104,16 @@
     "total": 27000.0
    },
    {
+    "cnpj": "11355874000188",
+    "nome": "INFINNI SERVICOS E COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 14000.0
+   },
+   {
     "cnpj": "34625286000112",
     "nome": "G M L DE ALBUQUERQUE LOCACOES LTDA",
     "cnae": "49248",
@@ -133,16 +144,6 @@
     "total": 9000.0
    },
    {
-    "cnpj": "11355874000188",
-    "nome": "INFINNI SERVICOS E COMUNICACAO VISUAL LTDA",
-    "cnae": "18130",
-    "n_despesas": 2,
-    "tipos": [
-     "Publicidade por adesivos"
-    ],
-    "total": 8520.0
-   },
-   {
     "cnpj": "05072232000179",
     "nome": "AUTO POSTO MILLENIUM LTDA",
     "cnae": "47318",
@@ -156,12 +157,30 @@
   "fornecedores_pf": {
    "qtd": 0,
    "total": 0.0,
-   "por_tipo": {}
+   "por_tipo": {},
+   "valores": []
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 57000.0,
+   "Combustíveis e lubrificantes": 5914.78,
+   "Diversas a especificar": 32000.0,
+   "Publicidade por adesivos": 38400.0,
+   "Publicidade por materiais impressos": 49218.0,
+   "Serviços advocatícios": 120000.0,
+   "Serviços contábeis": 70000.0,
+   "Serviços prestados por terceiros": 282176.0
+  },
+  "pago_por_dia": {
+   "2026-08-29": 564.03,
+   "2026-09-08": 5400.75,
+   "2026-09-09": 23000.0,
+   "2026-09-10": 197100.0,
+   "2026-09-11": 923728.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }
