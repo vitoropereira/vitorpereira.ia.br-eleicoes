@@ -217,3 +217,18 @@ Issue D (rede de fornecedores), com o mesmo `rastro/diagramas.py`:
 3. **Página do eleito:** "Fornecedores que também atendem outros eleitos", depois das tabelas, até 10 eleitos por fornecedor.
 4. Plataformas de pagamento e anúncio (`rede_excluir_cnpj_raiz`, por raiz do CNPJ) ficam fora da rede e são listadas
    na metodologia. MEI só com o CNPJ mascarado e o id em hash; nenhum score.
+
+Issue B (destaques de indício, nomes humanos e `valores_identicos`):
+
+1. **"O que chama atenção"**, entre o aviso curto e o diagrama: até 5 cartões, indicadores agrupados por fornecedor
+   (`valores_identicos` vira um cartão do grupo), ordem por (peso, R$ envolvido, nome). `destaque_pesos` (config: 3 alto,
+   2 médio, 1 baixo) só ordena dentro da página e nunca aparece como número. `multicampanha` não vira cartão.
+2. **Nomes humanos** (`rastro/rotulos.py`) em todas as páginas; o nome técnico só aparece na metodologia, como âncora
+   `#ind-<nome>`. A página do fornecedor agrupa os indícios por campanha.
+3. **Tabela de fornecedores:** selo com a contagem de indicadores (multicampanha conta) e filtro "Só com indício"
+   (`rastro/rastro.js`, vanilla; sem JS o filtro fica escondido e a tabela, inteira).
+4. **`valores_identicos`:** fornecedores de CNPJ raiz diferente na mesma campanha com o mesmo total contratado, a partir
+   de `valores_identicos_min` e fora dos múltiplos de `valores_identicos_ignorar_multiplo`. A base só tem o total por
+   fornecedor, não cada despesa.
+5. **Redação:** `PROIBIDOS` passa a barrar desvio, suspeito(a), esquema e irregular (exceções explícitas: o aviso, a frase
+   da metodologia e o nome técnico `situacao_irregular`).
