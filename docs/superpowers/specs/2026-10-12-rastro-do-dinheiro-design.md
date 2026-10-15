@@ -9,6 +9,8 @@ lotes diários e a etapa 12 (eleições anteriores).
 Revisão 3 (2026-10-14): os lotes diários saem por um workflow agendado do GitHub Actions, sem gate humano. O merge é automático
 e condicionado aos testes (LGPD, redação, isolamento sobre as páginas reais); se algum falhar, o PR fica aberto com o label
 `bloqueado` e nada é publicado.
+Revisão 4 (2026-10-15): a página do eleito ganha o caminho do dinheiro em diagrama e fica mais enxuta. Detalhes na seção
+"Revisão 4 (2026-10-15)", no fim.
 
 ## Objetivo
 
@@ -168,3 +170,36 @@ O CPF de pessoa física é usado **só dentro do processamento**, para contar e 
 - Score ou ranking de "suspeição".
 - Acusação ou conclusão editorial.
 - Verificar automaticamente se o serviço foi prestado (fotos, contratos). Fica para a contestação e a apuração manual.
+
+## Revisão 4 (2026-10-15)
+
+**Feedback do Vitor:** a página do eleito é uma parede de tabelas. Falta ver de relance de onde veio o dinheiro e para onde
+foi, e o aviso e a contestação ocupam mais espaço que os dados.
+
+A revisão sai em quatro issues:
+
+- **A (esta):** o caminho do dinheiro em diagrama e a página enxuta.
+- **B:** destaques de indício no topo da página.
+- **C:** busca de eleito e de fornecedor.
+- **D:** rede de fornecedores entre campanhas (reaproveita `rastro/diagramas.py`).
+
+Os 5 itens da issue A:
+
+1. **Diagrama Sankey** em SVG estático, gerado no build em Python puro (`rastro/diagramas.py`), na ordem
+   origem → campanha → tipo de gasto → fornecedor.
+   - Origem: doador PJ com 2% ou mais das receitas tem nó próprio; o resto vira "Outros doadores"; pessoas físicas, recursos
+     próprios e "Outros" vêm de `por_origem`; no máximo 6 nós.
+   - Tipo de gasto: o fornecedor entra inteiro no seu tipo principal (o de maior valor em `por_tipo`), porque a base não
+     divide o total do fornecedor por tipo. "Pessoas físicas (N pagas)" é só agregado, sem nome. O que entrou e não foi
+     contratado vira "Ainda não gasto / não declarado", em cinza; o contratado além do recebido vira um nó cinza na origem.
+   - Fornecedor: os 10 maiores e, por tipo, "Mais N fornecedores". MEI e fornecedor sem cadastro saem só com o CNPJ mascarado.
+     Fornecedor com indicador tem marcador `var(--amber)` e link para a linha dele na tabela.
+   - O fluxo fecha em cada nó (tolerância de R$ 0,01). O SVG tem `role="img"`, `<title>`, frase-resumo em `<desc>` e
+     nenhuma cor literal. Abaixo dele, a limitação: a base não liga cada receita a cada despesa.
+2. **Topo com uma linha de resumo:** "Recebeu R$ X · Contratou R$ Y · N fornecedores · K indicadores".
+3. **Aviso curto** numa linha, com link para a metodologia, onde fica o texto completo.
+4. **Rodapé único** com a base de dados, as fontes e "Contestar este dado" compacto.
+5. **Tabelas dentro de `<details>`**, fechadas, com o total no `<summary>`.
+
+Em 390px só o bloco do diagrama rola na horizontal; a página não. As páginas de fornecedor, a home e a metodologia
+continuam com o aviso e a contestação completos.

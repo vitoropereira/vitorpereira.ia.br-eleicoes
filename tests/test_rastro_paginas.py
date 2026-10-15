@@ -431,6 +431,67 @@ class TestEleito(unittest.TestCase):
         self.assertIn("Nenhum indicador disparado", texto(pagina_2001(itens=[])))
 
 
+class TestEleitoEnxuto(unittest.TestCase):
+    def test_diagrama_entre_h1_e_tabelas(self):
+        h = pagina_2001()
+        self.assertLess(h.index("<h1>"), h.index("<svg"))
+        self.assertLess(h.index("<svg"), h.index("<table"))
+
+    def test_linha_de_resumo(self):
+        t = texto(pagina_2001())
+        self.assertIn(f"Recebeu {ind.brl(500000)} · Contratou {ind.brl(480000)} · 3 fornecedores · 4 indicadores", t)
+
+    def test_aviso_curto_e_rodape_unico(self):
+        h = pagina_2001()
+        self.assertRegex(h, r'<p class="rs-aviso rs-aviso-curto"><b>' + re.escape(pg.AVISO) + r'</b> <a href="/rastro/metodologia/">')
+        self.assertEqual(h.count("<footer"), 1)
+        rod = h.split('<footer class="rs-rodape">')[1].split("</footer>")[0]
+        self.assertIn("Base de dados: contas do TSE até 12/10/2026", texto(rod))
+        self.assertIn("Fontes:", rod)
+        self.assertIn("Contestar este dado", rod)
+        self.assertIn(f'href="mailto:{CFG["contato_email"]}?', rod)
+        self.assertEqual(h.count("Contestar este dado"), 1)
+
+    def test_tabelas_em_details(self):
+        h = pagina_2001()
+        for titulo in ("Receitas por origem", "Despesas por fornecedor"):
+            self.assertRegex(h, r'<details class="rs-det"><summary><b>' + titulo + r"</b> · [^<]*R\$")
+        for tab in re.finditer(r"<table", h):
+            antes = h[:tab.start()]
+            self.assertGreater(antes.count("<details"), antes.count("</details>"))
+
+    def test_limitacao_e_ancoras(self):
+        h = pagina_2001()
+        self.assertIn("A base não liga cada receita a cada despesa; o diagrama não mostra que fonte pagou qual fornecedor.", h)
+        self.assertGreater(h.index("A base não liga"), h.index("</svg>"))
+        self.assertEqual(re.findall(r'<tr id="(f-[^"]+)"', h), ["f-n0", "f-n1", "f-n2"])
+        self.assertIn('<a href="#f-n0">', h)  # EMPRESA GRANDE, alertada
+
+    def test_ancora_com_id_de_fornecedor(self):
+        with tempfile.TemporaryDirectory() as d:
+            h = {p["path"]: p["html"] for p in gerar(d)}["/" + pg.caminho(E["2001"])]
+        self.assertIn(f'<tr id="f-{ID_PJ}">', h)
+        self.assertIn(f'<tr id="f-{ID_MEI}">', h)
+        self.assertIn(f'<a href="#f-{ID_PJ}">', h)
+
+    def test_correcao_entra_antes_do_rodape(self):
+        with tempfile.TemporaryDirectory() as d:
+            h = {p["path"]: p["html"] for p in gerar(d, correcoes=CORR)}["/" + pg.caminho(E["2001"])]
+        self.assertLess(h.index('<section id="correcoes">'), h.index('<footer class="rs-rodape">'))
+
+    def test_prestacao_vazia_frase_no_lugar_do_diagrama(self):
+        c = json.loads((FIX / "contas" / "2001.json").read_text(encoding="utf-8"))
+        c["receitas"] = c["despesas"] = None
+        h = pagina_2001(contas=c)
+        self.assertIn("Sem prestação na base para o diagrama.", h)
+        self.assertNotIn("<svg", h)
+
+    def test_metodologia_mantem_aviso_completo(self):
+        h = pg.html_metodologia(CFG)
+        self.assertIn("Cada item abaixo é um fato público", h)
+        self.assertIn("A base não liga cada receita a cada despesa", h)
+
+
 class TestLgpd(unittest.TestCase):
     def test_mei_mascarado(self):
         h = pagina_2001()
