@@ -542,7 +542,8 @@ def valores_identicos(sq, contas, fornecedores, cfg):
     for v, membros in sorted(grupos.items()):
         if len({c[:8] for c, _ in membros}) < 2:  # matriz e filial são a mesma empresa
             continue
-        nomes = sorted({_contraparte(c, f, fornecedores.get(c) or {}) for c, f in membros})
+        # sem cadastro na Receita pode ser MEI (nome da pessoa): só a máscara, como nas páginas
+        nomes = sorted(_contraparte(c, f, fornecedores[c]) if fornecedores.get(c) else mascarar_cnpj(c) for c, f in membros)
         out.append({
             "nome": "valores_identicos",
             "fato": f"{len(membros)} fornecedores de empresas diferentes contratados pelo mesmo valor, {brl(v)} cada: {'; '.join(nomes)}",

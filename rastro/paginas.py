@@ -259,8 +259,8 @@ FILTRO = '<label hidden class="rs-filtro"><input type="checkbox"> Só com indíc
 def tabela_despesas(desp, forn, ids=None, itens=None):
     pj = desp.get("fornecedores_pj") or []
     cab = '<table class="rs-tab"><thead><tr><th>Fornecedor (pessoa jurídica)</th><th class="v">Contratado</th></tr></thead><tbody>'
-    por_linha = [_itens_do_fornecedor(f, (forn or {}).get(ind.digitos(f.get("cnpj"))), eh_mei((forn or {}).get(ind.digitos(f.get("cnpj")))), pj, itens or [])
-                 for f in pj]
+    recs = [(forn or {}).get(ind.digitos(f.get("cnpj"))) for f in pj]
+    por_linha = [_itens_do_fornecedor(f, r, eh_mei(r), pj, itens or []) if itens else [] for f, r in zip(pj, recs)]
     linhas = [_linha_fornecedor(f, forn, ids, i, por_linha[i]) for i, f in enumerate(pj)]
     out = [f'<p class="rs-total">Contratado: {ind.brl(desp.get("total_contratado") or 0)} · pago: {ind.brl(desp.get("total_pago") or 0)}</p>']
     if pj:
@@ -296,7 +296,7 @@ def lista_indicadores(itens, base):
 
 
 MAX_DESTAQUES = 5
-SEM_FORNECEDOR_VALOR_ZERO = {"gasto_por_voto"}  # o valor é custo por voto, não reais envolvidos
+VALOR_NAO_REAIS = {"gasto_por_voto", "concentracao", "multicampanha"}  # `valor` é custo por voto, % ou contagem, não reais envolvidos
 
 
 def destaques(itens, contas, forn, cfg, ids=None):
@@ -306,14 +306,20 @@ def destaques(itens, contas, forn, cfg, ids=None):
     Um fornecedor fica num cartão só: se ele está num grupo de `valores_identicos` e tem outro indicador, tudo vai para o
     cartão do grupo. Cartão: {titulo, itens, peso, valor (None quando não é em reais), links: [(nome, href)]}."""
     pj = ((contas or {}).get("despesas") or {}).get("fornecedores_pj") or []
-    por_chave = {}
+    por_chave, ambiguas = {}, set()
     for n, f in enumerate(pj):
         cnpj = ind.digitos(f.get("cnpj"))
         rec = (forn or {}).get(cnpj)
         for k in _chave_contraparte(f, rec, eh_mei(rec)):
+            if k in por_chave and por_chave[k][2] != cnpj:
+                ambiguas.add(k)  # ex.: dois MEIs com a mesma máscara: não dá para saber qual é
             por_chave.setdefault(k, (n, f, cnpj))
+    for k in ambiguas:
+        del por_chave[k]
 
     def ident(c):  # o mesmo fornecedor pode vir pelo nome ou pela razão social: a identidade é o CNPJ
+        if c in ambiguas:
+            return object()  # identidade desconhecida: não junta com outro cartão
         return por_chave[c][2] if c in por_chave else c
 
     grupos = []  # {"ids": identidades dos fornecedores, "nomes": como os indicadores os chamam, "itens"}
@@ -335,21 +341,21 @@ def destaques(itens, contas, forn, cfg, ids=None):
         alvo["ids"] |= ids_i
         alvo["itens"].append(i)
         vistos = {ident(c) for c in alvo["nomes"]}
-        alvo["nomes"] += [c for c in nomes if ident(c) not in vistos]
+        alvo["nomes"] += [c for c in nomes if c not in alvo["nomes"] and ident(c) not in vistos]
     cartoes = []
     for g in grupos:
         its, links = g["itens"], []
+        valor_item = None if its[0]["nome"] in VALOR_NAO_REAIS else float(its[0].get("valor") or 0)
         if not g["nomes"]:
             titulo = rotulo(its[0]["nome"])
-            valor = None if its[0]["nome"] in SEM_FORNECEDOR_VALOR_ZERO else float(its[0].get("valor") or 0)
+            valor = valor_item
         else:
             titulo = "; ".join(g["nomes"])
             achados = {por_chave[c][2]: por_chave[c] for c in g["nomes"] if c in por_chave}
             for pos, _, cnpj in achados.values():
                 links.append((nome_fornecedor(pj[pos], forn),
                               f"/rastro/fornecedor/{ids[cnpj]}/" if ids and cnpj in ids else f"#f-{ancora_fornecedor(pos, cnpj, ids)}"))
-            valor = (sum(float(f.get("total") or 0) for _, f, _ in achados.values()) if achados
-                     else float(its[0].get("valor") or 0))
+            valor = sum(float(f.get("total") or 0) for _, f, _ in achados.values()) if achados else valor_item
         cartoes.append({"titulo": titulo, "itens": its, "peso": max(peso(i["nome"], cfg) for i in its), "valor": valor, "links": links})
     cartoes.sort(key=lambda c: (-c["peso"], -(c["valor"] or 0), c["titulo"]))
     return cartoes[:MAX_DESTAQUES]

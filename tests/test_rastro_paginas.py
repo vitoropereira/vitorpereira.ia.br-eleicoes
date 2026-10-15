@@ -908,6 +908,18 @@ class TestDestaques(unittest.TestCase):
         c = self.d([_it("multicampanha", 7, contraparte="ALFA LTDA"), _it("concentracao", 60, contraparte="ALFA LTDA")])
         self.assertEqual([i["nome"] for i in c[0]["itens"]], ["concentracao"])
 
+    def test_meis_com_a_mesma_mascara_nao_se_juntam(self):
+        contas = _contas(("40000000000191", "M1", 1000.0), ("50000000000191", "M2", 2000.0))  # sem cadastro: tratados como MEI
+        m = "**.***.***/0001-**"
+        c = self.d([_it("empresa_recem_aberta", 300.0, contraparte=m), _it("situacao_irregular", 400.0, contraparte=m)], contas)
+        self.assertEqual(len(c), 2)
+        self.assertEqual([x["links"] for x in c], [[], []])  # não dá para saber qual MEI: sem link
+        self.assertEqual(sorted(x["valor"] for x in c), [300.0, 400.0])
+
+    def test_concentracao_sem_fornecedor_achado_nao_vira_reais(self):
+        c = self.d([_it("concentracao", 62.5, contraparte="DESCONHECIDA LTDA")])
+        self.assertIsNone(c[0]["valor"])
+
     def test_agrupa_por_fornecedor(self):
         c = self.d([_it("concentracao", 60, contraparte="GAMA LTDA"), _it("atividade_incompativel", contraparte="GAMA LTDA")])
         self.assertEqual(len(c), 1)

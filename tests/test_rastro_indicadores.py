@@ -792,6 +792,19 @@ class TestValoresIdenticos(unittest.TestCase):
         self.assertIn("**.***.***/0001-**", out[0]["contrapartes"])
         self.assertNotIn("NOME DA PESSOA", json.dumps(out, ensure_ascii=False))
 
+    def test_sem_cadastro_na_receita_so_mascarado(self):  # pode ser MEI: o nome do TSE pode ser o da pessoa
+        contas = {"despesas": {"fornecedores_pj": [{"cnpj": "33333333000191", "nome": "FULANA DE TAL", "total": 7777.0},
+                                                   {"cnpj": "22584613000156", "nome": "x", "total": 7777.0}]}}
+        out = ind.valores_identicos("1", contas, self.FORN_VI, self.CFG_VI)
+        self.assertNotIn("FULANA", json.dumps(out, ensure_ascii=False))
+        self.assertIn("**.***.***/0001-**", out[0]["contrapartes"])
+
+    def test_lista_um_nome_por_fornecedor(self):  # dois MEIs com a mesma máscara: a lista bate com a contagem
+        forn = dict(self.FORN_VI, **{"44444444000191": {"mei": True}})
+        out = self.vi(("11111111000191", 7777.0), ("44444444000191", 7777.0), ("22584613000156", 7777.0), forn=forn)
+        self.assertEqual(len(out[0]["contrapartes"]), 3)
+        self.assertTrue(out[0]["fato"].startswith("3 fornecedores"))
+
     def test_config_sem_regra_nao_calcula(self):
         contas = {"despesas": {"fornecedores_pj": [{"cnpj": "22584613000156", "total": 7777.0}, {"cnpj": "45587474000110", "total": 7777.0}]}}
         self.assertEqual(ind.valores_identicos("1", contas, self.FORN_VI, CFG), [])
