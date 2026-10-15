@@ -218,6 +218,23 @@ Issue D (rede de fornecedores), com o mesmo `rastro/diagramas.py`:
 4. Plataformas de pagamento e anúncio (`rede_excluir_cnpj_raiz`, por raiz do CNPJ) ficam fora da rede e são listadas
    na metodologia. MEI só com o CNPJ mascarado e o id em hash; nenhum score.
 
+Issue C (busca por eleito, empresa, CNPJ e sócio):
+
+1. **Índice estático** `site/rastro/busca.json`, gerado no build por `rastro/busca.py` a partir das mesmas estruturas de
+   `gerar`. Chaves curtas: `t` (e/f/s), `n`, `c` (contexto), `u`, `k` (texto normalizado) e `p` (eleito publicado ou não).
+   - Eleito publicado: link para a página. Ainda sem página: âncora na tabela "Eleitos ainda sem página" da home
+     (`#e-<sq em hexadecimal>`; o sq cru às vezes passa no dígito verificador de CPF).
+   - Empresa: só PJ não MEI com página; o `k` leva os 14 dígitos do CNPJ, para achar com e sem pontuação.
+   - Sócio: só o nome, ligado à empresa (PJ não MEI com página).
+   - Normalização igual em Python e JS: NFD, sem `̀-ͯ`, minúsculas, espaços juntos.
+   - Acima de 1,5 MB, o índice vira partes `busca-N.json` com um manifesto em `busca.json`.
+2. **LGPD do índice:** MEI e fornecedor sem cadastro ficam fora (o nome pode ser o da pessoa e o CNPJ não pode aparecer;
+   a máscara não serve para busca), assim como sócio de MEI, `cpf_mascarado`, pessoa física paga e doador PF. O índice passa
+   por `varrer` antes de qualquer gravação; `tests/test_rastro_publicado.py` varre o índice real e os CNPJs de MEI.
+3. **Caixa:** grande abaixo do `<h1>` da home e compacta ao lado da trilha nas outras páginas do Rastro. `rastro/busca.js`
+   (sem dependência, copiado para `site/rastro/`) só baixa o índice no primeiro foco; atalho `/`, ↑ ↓ Enter e Esc; tudo
+   escapado antes de virar HTML. Sem JS, a caixa é o link "Ver a lista completa de eleitos" (`/rastro/#eleitos`).
+
 Issue B (destaques de indício, nomes humanos e `valores_identicos`):
 
 1. **"O que chama atenção"**, entre o aviso curto e o diagrama: até 5 cartões, indicadores agrupados por fornecedor
