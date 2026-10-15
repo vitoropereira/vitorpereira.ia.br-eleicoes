@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "PR",
  "partido": "PSD",
+ "cnpj_prestador": "68518823000147",
  "prestacao_parcial": true,
  "receitas": {
   "total": 570862.24,
@@ -44,7 +45,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 365798.89,
+  "total_contratado": 365895.14,
   "total_pago": 527796.49,
   "fornecedores_pj": [
    {
@@ -66,7 +67,7 @@
      "Publicidade por adesivos",
      "Publicidade por materiais impressos"
     ],
-    "total": 58413.6
+    "total": 58509.85
    },
    {
     "cnpj": "13347016000117",
@@ -267,12 +268,80 @@
     "Cessão ou locação de veículos": 25000.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 33.0,
     "Locação/cessão de bens imóveis": 2500.0
-   }
+   },
+   "valores": [
+    33.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    2500.0,
+    10000.0,
+    15000.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 42283.0,
+   "Cessão ou locação de veículos": 32500.0,
+   "Combustíveis e lubrificantes": 1954.29,
+   "Despesa com Impulsionamento de Conteúdos": 30000.0,
+   "Diversas a especificar": 7900.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 33.0,
+   "Locação/cessão de bens imóveis": 3500.0,
+   "Publicidade por adesivos": 25205.0,
+   "Publicidade por jornais e revistas": 2000.0,
+   "Publicidade por materiais impressos": 192319.85,
+   "Serviços advocatícios": 20000.0,
+   "Serviços contábeis": 5000.0,
+   "Serviços prestados por terceiros": 3200.0
+  },
+  "pago_por_dia": {
+   "2026-09-04": 5500.5,
+   "2026-09-14": 23624.5,
+   "2026-09-15": 58154.0,
+   "2026-09-16": 17602.0,
+   "2026-09-20": 18765.0,
+   "2026-09-21": 6002.0,
+   "2026-09-22": 58140.61,
+   "2026-09-23": 15003.0,
+   "2026-09-25": 821.5,
+   "2026-09-26": 10000.0,
+   "2026-09-29": 16778.6,
+   "2026-09-30": 70613.13,
+   "2026-10-01": 74093.73,
+   "2026-10-02": 47408.92,
+   "2026-10-05": 78289.0,
+   "2026-10-08": 25000.0,
+   "2026-10-09": 2000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

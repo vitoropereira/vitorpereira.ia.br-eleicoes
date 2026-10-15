@@ -4,16 +4,17 @@
  "cargo": "depest",
  "uf": "CE",
  "partido": "PSD",
+ "cnpj_prestador": "68403803000120",
  "prestacao_parcial": true,
  "receitas": {
-  "total": 270250.0,
+  "total": 272040.0,
   "por_origem": {
    "Recursos de partido político": 250000.0,
-   "Recursos de pessoas físicas": 20250.0
+   "Recursos de pessoas físicas": 22040.0
   },
   "por_fonte": {
    "FUNDO ESPECIAL": 250000.0,
-   "OUTROS RECURSOS": 20250.0
+   "OUTROS RECURSOS": 22040.0
   },
   "doadores_pj": [
    {
@@ -23,13 +24,13 @@
    }
   ],
   "doadores_pf": {
-   "qtd": 1,
-   "total": 20250.0
+   "qtd": 2,
+   "total": 22040.0
   }
  },
  "despesas": {
-  "total_contratado": 172991.51,
-  "total_pago": 159705.4,
+  "total_contratado": 217915.22,
+  "total_pago": 229558.72,
   "fornecedores_pj": [
    {
     "cnpj": "10698461000133",
@@ -82,6 +83,26 @@
     "total": 15000.0
    },
    {
+    "cnpj": "41607573000165",
+    "nome": "J. B. HOLANDA MARTINS",
+    "cnae": "14126",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10050.0
+   },
+   {
+    "cnpj": "04011639000123",
+    "nome": "PRINT SOLUCOES GRAFICAS E EVENTOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 10000.0
+   },
+   {
     "cnpj": "31573676000106",
     "nome": "MULCHI CONSULTORIA E MARKETING LTDA",
     "cnae": "70204",
@@ -92,34 +113,54 @@
     "total": 10000.0
    },
    {
+    "cnpj": "34473225000187",
+    "nome": "W I ESTRUTURAS LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Locação/cessão de bens móveis (exceto veículos)"
+    ],
+    "total": 10000.0
+   },
+   {
+    "cnpj": "60107671000188",
+    "nome": "60.107.671 MARIA APARECIDA DE CASTRO",
+    "cnae": "59120",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 10000.0
+   },
+   {
     "cnpj": "49235834000175",
     "nome": "49.235.834 RAI MAX CAXILE FARIAS",
     "cnae": "43291",
-    "n_despesas": 2,
+    "n_despesas": 3,
     "tipos": [
      "Publicidade por materiais impressos"
     ],
-    "total": 6566.4
+    "total": 8336.4
    },
    {
-    "cnpj": "04011639000123",
-    "nome": "PRINT SOLUCOES GRAFICAS E EVENTOS LTDA",
-    "cnae": "18113",
-    "n_despesas": 1,
+    "cnpj": "07865173000200",
+    "nome": "JOAQUIM DE SOUSA BASTOS E CIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
     "tipos": [
-     "Publicidade por adesivos"
+     "Combustíveis e lubrificantes"
     ],
-    "total": 4200.0
+    "total": 6107.21
    },
    {
     "cnpj": "02824298000180",
     "nome": "PRINTCOLOR GRAFICA E EDITORA LTDA",
     "cnae": "18130",
-    "n_despesas": 1,
+    "n_despesas": 2,
     "tipos": [
      "Publicidade por materiais impressos"
     ],
-    "total": 2950.0
+    "total": 3640.0
    },
    {
     "cnpj": "41388729000164",
@@ -140,24 +181,87 @@
      "Publicidade por adesivos"
     ],
     "total": 1170.0
+   },
+   {
+    "cnpj": "02359521000165",
+    "nome": "PEDRO GONCALVES SIQUEIRA",
+    "cnae": "47555",
+    "n_despesas": 1,
+    "tipos": [
+     "Materiais de expediente"
+    ],
+    "total": 300.0
+   },
+   {
+    "cnpj": "09319547000129",
+    "nome": "L. M. DA SILVA ROLIM",
+    "cnae": "18121",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 200.0
    }
   ],
   "fornecedores_pf": {
    "qtd": 12,
-   "total": 37755.11,
+   "total": 37761.61,
    "por_tipo": {
     "Atividades de militância e mobilização de rua": 14264.76,
     "Cessão ou locação de veículos": 6000.0,
-    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 60.4,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 66.9,
     "Produção de jingles, vinhetas e slogans": 4998.95,
     "Serviços advocatícios": 5000.0,
     "Serviços prestados por terceiros": 7431.0
-   }
+   },
+   "valores": [
+    66.9,
+    2377.46,
+    2377.46,
+    2377.46,
+    2377.46,
+    2377.46,
+    2377.46,
+    2431.0,
+    4998.95,
+    5000.0,
+    5000.0,
+    6000.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 14264.76,
+   "Cessão ou locação de veículos": 43750.0,
+   "Combustíveis e lubrificantes": 6107.21,
+   "Despesa com Impulsionamento de Conteúdos": 15000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 66.9,
+   "Locação/cessão de bens móveis (exceto veículos)": 10000.0,
+   "Materiais de expediente": 300.0,
+   "Produção de jingles, vinhetas e slogans": 4998.95,
+   "Publicidade por adesivos": 11370.0,
+   "Publicidade por materiais impressos": 24626.4,
+   "Serviços advocatícios": 35000.0,
+   "Serviços contábeis": 25000.0,
+   "Serviços prestados por terceiros": 27431.0
+  },
+  "pago_por_dia": {
+   "2026-08-28": 5000.0,
+   "2026-09-02": 19043.6,
+   "2026-09-10": 6844.28,
+   "2026-09-15": 22000.5,
+   "2026-09-22": 35074.02,
+   "2026-09-23": 21493.0,
+   "2026-09-24": 50250.0,
+   "2026-09-25": 0.5,
+   "2026-09-30": 19881.18,
+   "2026-10-01": 16694.0,
+   "2026-10-02": 1087.0,
+   "2026-10-06": 32190.64
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

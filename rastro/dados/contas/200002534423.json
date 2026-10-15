@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "RN",
  "partido": "PL",
+ "cnpj_prestador": "68306624000175",
  "prestacao_parcial": true,
  "receitas": {
   "total": 735837.2,
@@ -35,7 +36,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 485960.06,
+  "total_contratado": 485730.06,
   "total_pago": 323632.32,
   "fornecedores_pj": [
    {
@@ -150,16 +151,6 @@
     "total": 6450.0
    },
    {
-    "cnpj": "22162427000129",
-    "nome": "PRAIA COR COMUNICACAO VISUAL LTDA",
-    "cnae": "18130",
-    "n_despesas": 1,
-    "tipos": [
-     "Publicidade por adesivos"
-    ],
-    "total": 5670.0
-   },
-   {
     "cnpj": "11786705000100",
     "nome": "CAIS COMERCIO VAREJISTA DE COMBUSTIVEL LTDA",
     "cnae": "47318",
@@ -168,6 +159,16 @@
      "Combustíveis e lubrificantes"
     ],
     "total": 5601.3
+   },
+   {
+    "cnpj": "22162427000129",
+    "nome": "PRAIA COR COMUNICACAO VISUAL LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 5440.0
    },
    {
     "cnpj": "27341251000196",
@@ -265,12 +266,91 @@
     "Produção de jingles, vinhetas e slogans": 2500.0,
     "Pré-instalação física de comitê de campanha": 1859.97,
     "Publicidade por carros de som": 10000.0
-   }
+   },
+   "valores": [
+    1800.0,
+    1900.0,
+    1900.0,
+    1971.04,
+    2500.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3500.0,
+    3500.0,
+    3800.0,
+    3800.0,
+    3800.0,
+    3800.0,
+    3800.0,
+    3800.0,
+    3800.0,
+    3800.0,
+    3800.0,
+    3800.0,
+    4300.0,
+    4300.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    6000.0,
+    8000.0,
+    10000.0,
+    11000.0,
+    17000.0,
+    19000.0,
+    21476.52
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 7578.9,
+   "Atividades de militância e mobilização de rua": 53621.1,
+   "Cessão ou locação de veículos": 68600.0,
+   "Combustíveis e lubrificantes": 8525.77,
+   "Despesa com Impulsionamento de Conteúdos": 7780.0,
+   "Despesas com pessoal": 81000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 125.8,
+   "Energia elétrica": 809.98,
+   "Impostos, contribuições e taxas": 1845.24,
+   "Locação/cessão de bens imóveis": 18740.03,
+   "Locação/cessão de bens móveis (exceto veículos)": 3476.52,
+   "Materiais de expediente": 9.25,
+   "Produção de jingles, vinhetas e slogans": 6000.0,
+   "Produção de programas de rádio, televisão ou vídeo": 40000.0,
+   "Pré-instalação física de comitê de campanha": 1859.97,
+   "Publicidade por adesivos": 15520.0,
+   "Publicidade por carros de som": 49575.0,
+   "Publicidade por materiais impressos": 45662.5,
+   "Serviços contábeis": 35000.0,
+   "Serviços prestados por terceiros": 40000.0
+  },
+  "pago_por_dia": {
+   "2026-08-20": 809.98,
+   "2026-08-21": 11500.5,
+   "2026-08-25": 16131.0,
+   "2026-08-26": 18441.6,
+   "2026-08-27": 61681.0,
+   "2026-08-28": 77213.1,
+   "2026-08-31": 21280.0,
+   "2026-09-01": 23605.5,
+   "2026-09-02": 61766.7,
+   "2026-09-03": 7500.5,
+   "2026-09-08": 23702.38,
+   "2026-09-10": 0.06
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

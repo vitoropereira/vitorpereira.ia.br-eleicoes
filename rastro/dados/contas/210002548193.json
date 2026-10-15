@@ -4,25 +4,26 @@
  "cargo": "depest",
  "uf": "RS",
  "partido": "MDB",
+ "cnpj_prestador": "68518648000198",
  "prestacao_parcial": true,
  "receitas": {
-  "total": 601255.0,
+  "total": 669611.26,
   "por_origem": {
    "Recursos de Financiamento Coletivo": 7700.0,
    "Recursos de outros candidatos": 30000.0,
-   "Recursos de partido político": 320000.0,
+   "Recursos de partido político": 388356.26,
    "Recursos de pessoas físicas": 193555.0,
    "Recursos próprios": 50000.0
   },
   "por_fonte": {
    "FUNDO ESPECIAL": 220000.0,
-   "OUTROS RECURSOS": 381255.0
+   "OUTROS RECURSOS": 449611.26
   },
   "doadores_pj": [
    {
     "cnpj": "00676213000138",
     "nome": "Direção Nacional - MDB",
-    "total": 320000.0
+    "total": 388356.26
    },
    {
     "cnpj": "68475867000137",
@@ -41,7 +42,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 302121.82,
+  "total_contratado": 300787.82,
   "total_pago": 187895.87,
   "fornecedores_pj": [
    {
@@ -62,7 +63,7 @@
     "tipos": [
      "Publicidade por materiais impressos"
     ],
-    "total": 54000.5
+    "total": 52666.5
    },
    {
     "cnpj": "15625977000171",
@@ -183,12 +184,48 @@
     "Despesas com pessoal": 55000.0,
     "Locação/cessão de bens imóveis": 2000.0,
     "Serviços prestados por terceiros": 700.0
-   }
+   },
+   "valores": [
+    700.0,
+    2000.0,
+    2000.0,
+    5000.0,
+    10000.0,
+    10000.0,
+    15000.0,
+    15000.0
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 9954.95,
+   "Atividades de militância e mobilização de rua": 2000.0,
+   "Despesa com Impulsionamento de Conteúdos": 80000.0,
+   "Despesas com pessoal": 55000.0,
+   "Locação/cessão de bens imóveis": 18163.86,
+   "Publicidade por carros de som": 20000.0,
+   "Publicidade por jornais e revistas": 1500.0,
+   "Publicidade por materiais impressos": 83060.5,
+   "Serviços prestados por terceiros": 30946.45,
+   "Taxa de Administração de Financiamento Coletivo": 162.06
+  },
+  "pago_por_dia": {
+   "2026-08-18": 30000.0,
+   "2026-08-20": 162.06,
+   "2026-08-21": 16163.86,
+   "2026-08-26": 18915.0,
+   "2026-08-28": 15000.0,
+   "2026-08-29": 10000.0,
+   "2026-08-31": 25000.0,
+   "2026-09-02": 700.0,
+   "2026-09-04": 4954.95,
+   "2026-09-09": 50000.0,
+   "2026-09-10": 2000.0,
+   "2026-09-11": 15000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

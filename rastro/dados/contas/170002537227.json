@@ -4,6 +4,7 @@
  "cargo": "governador",
  "uf": "PE",
  "partido": "PSD",
+ "cnpj_prestador": "68403597000159",
  "prestacao_parcial": true,
  "receitas": {
   "total": 12087029.7,
@@ -34,7 +35,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 7078884.12,
+  "total_contratado": 7065484.12,
   "total_pago": 3685959.9,
   "fornecedores_pj": [
    {
@@ -209,17 +210,6 @@
     "total": 30000.0
    },
    {
-    "cnpj": "56098891000115",
-    "nome": "ME SOLUCOES GRAFICAS LTDA",
-    "cnae": "18229",
-    "n_despesas": 2,
-    "tipos": [
-     "Publicidade por adesivos",
-     "Publicidade por materiais impressos"
-    ],
-    "total": 25745.0
-   },
-   {
     "cnpj": "44619551000103",
     "nome": "CHAILLINE AZEVEDO ALVES",
     "cnae": "14126",
@@ -248,6 +238,17 @@
      "Locação/cessão de bens imóveis"
     ],
     "total": 15000.0
+   },
+   {
+    "cnpj": "56098891000115",
+    "nome": "ME SOLUCOES GRAFICAS LTDA",
+    "cnae": "18229",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 12345.0
    },
    {
     "cnpj": "40225615000130",
@@ -317,12 +318,40 @@
    "por_tipo": {
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 59.9,
     "Locação/cessão de bens imóveis": 20000.0
-   }
+   },
+   "valores": [
+    59.9,
+    20000.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 80000.0,
+   "Despesa com Impulsionamento de Conteúdos": 293778.22,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 59.9,
+   "Locação/cessão de bens imóveis": 89000.0,
+   "Locação/cessão de bens móveis (exceto veículos)": 4600.0,
+   "Produção de programas de rádio, televisão ou vídeo": 100000.0,
+   "Pré-instalação física de comitê de campanha": 39300.0,
+   "Publicidade por adesivos": 172065.0,
+   "Publicidade por materiais impressos": 146350.0,
+   "Serviços advocatícios": 340000.0,
+   "Serviços contábeis": 250000.0,
+   "Serviços prestados por terceiros": 5550331.0
+  },
+  "pago_por_dia": {
+   "2026-08-25": 10000.0,
+   "2026-08-26": 180.0,
+   "2026-08-31": 75000.0,
+   "2026-09-02": 39300.5,
+   "2026-09-03": 2131597.6,
+   "2026-09-04": 202881.8,
+   "2026-09-07": 1000000.0,
+   "2026-09-08": 227000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

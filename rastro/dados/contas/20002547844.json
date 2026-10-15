@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "AL",
  "partido": "UNIÃO",
+ "cnpj_prestador": "68526424000128",
  "prestacao_parcial": true,
  "receitas": {
   "total": 3100000.0,
@@ -112,12 +113,47 @@
    "por_tipo": {
     "Despesas com pessoal": 72500.0,
     "Serviços contábeis": 120000.0
-   }
+   },
+   "valores": [
+    2500.0,
+    2500.0,
+    2500.0,
+    2500.0,
+    2500.0,
+    2500.0,
+    2500.0,
+    2500.0,
+    2500.0,
+    2500.0,
+    2500.0,
+    2500.0,
+    2500.0,
+    2500.0,
+    2500.0,
+    2500.0,
+    2500.0,
+    30000.0,
+    120000.0
+   ]
+  },
+  "por_tipo": {
+   "Criação e inclusão de páginas na internet": 150500.0,
+   "Despesa com Impulsionamento de Conteúdos": 120000.0,
+   "Despesas com pessoal": 72500.0,
+   "Produção de programas de rádio, televisão ou vídeo": 600000.0,
+   "Publicidade por adesivos": 272880.0,
+   "Serviços contábeis": 120000.0
+  },
+  "pago_por_dia": {
+   "2026-08-26": 243130.0,
+   "2026-08-28": 395551.0,
+   "2026-09-10": 694632.5,
+   "2026-09-15": 750000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

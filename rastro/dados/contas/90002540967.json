@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "GO",
  "partido": "NOVO",
+ "cnpj_prestador": "68461555000174",
  "prestacao_parcial": true,
  "receitas": {
   "total": 315183.34,
@@ -111,12 +112,37 @@
     "Cessão ou locação de veículos": 10000.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 44.27,
     "Serviços prestados por terceiros": 15000.0
-   }
+   },
+   "valores": [
+    44.27,
+    5000.0,
+    5000.0,
+    15000.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 13900.0,
+   "Combustíveis e lubrificantes": 2000.0,
+   "Despesa com Impulsionamento de Conteúdos": 25000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 44.27,
+   "Publicidade por adesivos": 8400.0,
+   "Publicidade por materiais impressos": 5300.0,
+   "Serviços prestados por terceiros": 115000.0
+  },
+  "pago_por_dia": {
+   "2026-08-31": 21750.0,
+   "2026-09-01": 5920.0,
+   "2026-09-02": 14.87,
+   "2026-09-03": 30009.8,
+   "2026-09-04": 12000.0,
+   "2026-09-08": 19.6,
+   "2026-09-09": 3900.0,
+   "2026-09-28": 10000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

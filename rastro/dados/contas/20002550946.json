@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "AL",
  "partido": "PL",
+ "cnpj_prestador": "68571346000183",
  "prestacao_parcial": true,
  "receitas": {
   "total": 1282100.0,
@@ -150,12 +151,39 @@
    "por_tipo": {
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.5,
     "Locação/cessão de bens imóveis": 15000.0
-   }
+   },
+   "valores": [
+    3.5,
+    15000.0
+   ]
+  },
+  "por_tipo": {
+   "Despesa com Impulsionamento de Conteúdos": 4000.0,
+   "Diversas a especificar": 21725.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.5,
+   "Locação/cessão de bens imóveis": 15000.0,
+   "Produção de jingles, vinhetas e slogans": 1600.0,
+   "Pré-instalação física de comitê de campanha": 22500.0,
+   "Publicidade por adesivos": 2250.0,
+   "Publicidade por materiais impressos": 7860.0,
+   "Serviços advocatícios": 20000.0,
+   "Serviços contábeis": 35000.0,
+   "Serviços prestados por terceiros": 36100.0
+  },
+  "pago_por_dia": {
+   "2026-08-26": 1000.5,
+   "2026-08-27": 9810.5,
+   "2026-08-28": 38501.0,
+   "2026-08-29": 23535.0,
+   "2026-08-31": 5251.5,
+   "2026-09-01": 22500.0,
+   "2026-09-04": 4000.0,
+   "2026-09-05": 5250.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

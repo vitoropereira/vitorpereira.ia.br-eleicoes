@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "TO",
  "partido": "PL",
+ "cnpj_prestador": "68492549000184",
  "prestacao_parcial": true,
  "receitas": {
   "total": 613119.65,
@@ -178,12 +179,53 @@
     "Despesas com pessoal": 39000.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 72.7,
     "Locação/cessão de bens imóveis": 10000.0
-   }
+   },
+   "valores": [
+    72.7,
+    2000.0,
+    2000.0,
+    10000.0,
+    10000.0,
+    10000.0,
+    15000.0,
+    17000.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 17000.0,
+   "Combustíveis e lubrificantes": 1800.0,
+   "Criação e inclusão de páginas na internet": 40.0,
+   "Despesa com Impulsionamento de Conteúdos": 8010.0,
+   "Despesas com pessoal": 39000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 72.7,
+   "Eventos de promoção da candidatura": 2480.0,
+   "Locação/cessão de bens imóveis": 10000.0,
+   "Produção de jingles, vinhetas e slogans": 2000.0,
+   "Produção de programas de rádio, televisão ou vídeo": 125000.0,
+   "Publicidade por adesivos": 1395.0,
+   "Publicidade por materiais impressos": 51600.0,
+   "Serviços contábeis": 50000.0
+  },
+  "pago_por_dia": {
+   "2026-08-17": 62.4,
+   "2026-08-27": 22.4,
+   "2026-08-31": 62500.5,
+   "2026-09-01": 155758.5,
+   "2026-09-02": 43889.0,
+   "2026-09-03": 56001.5,
+   "2026-09-08": 6450.5,
+   "2026-09-09": 2000.0,
+   "2026-09-11": 50010.5,
+   "2026-09-14": 3980.5,
+   "2026-09-15": 1500.0,
+   "2026-09-21": 10001.0,
+   "2026-09-23": 5000.0,
+   "2026-09-25": 24800.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

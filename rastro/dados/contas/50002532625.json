@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "BA",
  "partido": "PSD",
+ "cnpj_prestador": "68237732000133",
  "prestacao_parcial": true,
  "receitas": {
   "total": 2432000.0,
@@ -226,12 +227,65 @@
     "Atividades de militância e mobilização de rua": 5600.0,
     "Despesas com pessoal": 188910.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 13.0
-   }
+   },
+   "valores": [
+    13.0,
+    1100.0,
+    1500.0,
+    3000.0,
+    3960.0,
+    4050.0,
+    4500.0,
+    6000.0,
+    6000.0,
+    6000.0,
+    9900.0,
+    9900.0,
+    9900.0,
+    9900.0,
+    9900.0,
+    9900.0,
+    9900.0,
+    9900.0,
+    9900.0,
+    9900.0,
+    9900.0,
+    9900.0,
+    9900.0,
+    9900.0,
+    9900.0,
+    9900.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 5600.0,
+   "Despesas com pessoal": 188910.0,
+   "Diversas a especificar": 106839.35,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 13.0,
+   "Locação/cessão de bens móveis (exceto veículos)": 108000.0,
+   "Produção de programas de rádio, televisão ou vídeo": 24390.24,
+   "Publicidade por adesivos": 370717.88,
+   "Publicidade por materiais impressos": 278840.0,
+   "Serviços advocatícios": 50000.0,
+   "Serviços contábeis": 50000.0,
+   "Serviços prestados por terceiros": 160000.0
+  },
+  "pago_por_dia": {
+   "2026-08-12": 199.75,
+   "2026-08-24": 29941.6,
+   "2026-08-25": 29701.5,
+   "2026-08-31": 195466.0,
+   "2026-09-01": 486921.0,
+   "2026-09-02": 95800.5,
+   "2026-09-03": 24301.0,
+   "2026-09-04": 111292.74,
+   "2026-09-05": 139579.49,
+   "2026-09-08": 10000.04
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

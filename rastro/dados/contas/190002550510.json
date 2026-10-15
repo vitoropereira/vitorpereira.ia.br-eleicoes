@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "RJ",
  "partido": "PSDB",
+ "cnpj_prestador": "68553112000103",
  "prestacao_parcial": true,
  "receitas": {
   "total": 795000.0,
@@ -119,12 +120,35 @@
    "total": 2.0,
    "por_tipo": {
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.0
-   }
+   },
+   "valores": [
+    2.0
+   ]
+  },
+  "por_tipo": {
+   "Despesa com Impulsionamento de Conteúdos": 99000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.0,
+   "Publicidade por adesivos": 70540.0,
+   "Publicidade por materiais impressos": 82950.0,
+   "Serviços advocatícios": 75000.0,
+   "Serviços prestados por terceiros": 5000.0
+  },
+  "pago_por_dia": {
+   "2026-08-31": 79700.0,
+   "2026-09-02": 250121.5,
+   "2026-09-04": 9000.0,
+   "2026-09-08": 56760.0,
+   "2026-09-12": 30000.0,
+   "2026-09-14": 82180.5,
+   "2026-09-18": 50000.0,
+   "2026-09-26": 5000.0,
+   "2026-09-28": 20000.0,
+   "2026-10-02": 27300.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

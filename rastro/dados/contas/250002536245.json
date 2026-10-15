@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "SP",
  "partido": "PT",
+ "cnpj_prestador": "68373268000102",
  "prestacao_parcial": true,
  "receitas": {
   "total": 864092.1,
@@ -50,7 +51,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 674992.13,
+  "total_contratado": 676992.13,
   "total_pago": 714588.4,
   "fornecedores_pj": [
    {
@@ -113,7 +114,7 @@
      "Publicidade por adesivos",
      "Publicidade por materiais impressos"
     ],
-    "total": 23025.0
+    "total": 25025.0
    },
    {
     "cnpj": "46655435000175",
@@ -305,12 +306,111 @@
     "Despesas com pessoal": 76023.02,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 66.3,
     "Locação/cessão de bens imóveis": 9000.0
-   }
+   },
+   "valores": [
+    66.3,
+    500.0,
+    500.0,
+    500.0,
+    500.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1200.0,
+    1200.0,
+    1200.0,
+    1200.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1800.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2061.51,
+    2061.51,
+    2800.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3500.0,
+    4000.0,
+    4700.0,
+    4800.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    9000.0
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 10800.0,
+   "Cessão ou locação de veículos": 21100.0,
+   "Combustíveis e lubrificantes": 4583.51,
+   "Criação e inclusão de páginas na internet": 3000.0,
+   "Despesa com Impulsionamento de Conteúdos": 78500.0,
+   "Despesas com pessoal": 76023.02,
+   "Despesas com transporte ou deslocamento": 3000.0,
+   "Diversas a especificar": 1400.7,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 66.3,
+   "Locação/cessão de bens imóveis": 11250.0,
+   "Locação/cessão de bens móveis (exceto veículos)": 83700.0,
+   "Publicidade por adesivos": 24730.0,
+   "Publicidade por carros de som": 800.0,
+   "Publicidade por jornais e revistas": 2000.0,
+   "Publicidade por materiais impressos": 219085.5,
+   "Serviços advocatícios": 60000.0,
+   "Serviços contábeis": 60000.0,
+   "Serviços prestados por terceiros": 15000.0,
+   "Água": 1953.1
+  },
+  "pago_por_dia": {
+   "2026-08-25": 10000.0,
+   "2026-08-27": 2250.5,
+   "2026-09-02": 12500.0,
+   "2026-09-05": 33890.5,
+   "2026-09-06": 13810.0,
+   "2026-09-08": 6403.45,
+   "2026-09-09": 900.5,
+   "2026-09-10": 13733.5,
+   "2026-09-11": 192523.5,
+   "2026-09-12": 136464.81,
+   "2026-09-14": 61006.29,
+   "2026-09-15": 70605.25,
+   "2026-09-17": 5843.12,
+   "2026-09-18": 23569.5,
+   "2026-09-21": 21023.1,
+   "2026-09-22": 1.5,
+   "2026-09-24": 10416.47,
+   "2026-09-25": 19001.5,
+   "2026-09-29": 15001.5,
+   "2026-10-02": 36143.4,
+   "2026-10-03": 18600.01,
+   "2026-10-04": 10600.0,
+   "2026-10-05": 300.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

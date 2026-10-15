@@ -4,18 +4,19 @@
  "cargo": "depest",
  "uf": "SC",
  "partido": "REPUBLICANOS",
+ "cnpj_prestador": "68403610000170",
  "prestacao_parcial": true,
  "receitas": {
-  "total": 435000.0,
+  "total": 465674.6,
   "por_origem": {
    "Recursos de partido político": 295000.0,
-   "Recursos de pessoas físicas": 130000.0,
+   "Recursos de pessoas físicas": 160674.6,
    "Recursos próprios": 10000.0
   },
   "por_fonte": {
    "FUNDO ESPECIAL": 100000.0,
    "FUNDO PARTIDARIO": 195000.0,
-   "OUTROS RECURSOS": 140000.0
+   "OUTROS RECURSOS": 170674.6
   },
   "doadores_pj": [
    {
@@ -30,8 +31,8 @@
    }
   ],
   "doadores_pf": {
-   "qtd": 11,
-   "total": 140000.0
+   "qtd": 13,
+   "total": 170674.6
   }
  },
  "despesas": {
@@ -225,12 +226,84 @@
    "por_tipo": {
     "Atividades de militância e mobilização de rua": 199530.0,
     "Locação/cessão de bens imóveis": 3600.0
-   }
+   },
+   "valores": [
+    1400.0,
+    1700.0,
+    2200.0,
+    3000.0,
+    3000.0,
+    3400.0,
+    3400.0,
+    3400.0,
+    4250.0,
+    4250.0,
+    4250.0,
+    4250.0,
+    4250.0,
+    4250.0,
+    4250.0,
+    5000.0,
+    5100.0,
+    5100.0,
+    5100.0,
+    5100.0,
+    5100.0,
+    5100.0,
+    5100.0,
+    5100.0,
+    5100.0,
+    5100.0,
+    5100.0,
+    5100.0,
+    5100.0,
+    5100.0,
+    5100.0,
+    5100.0,
+    5100.0,
+    5100.0,
+    5100.0,
+    7350.0,
+    7350.0,
+    8820.0,
+    8820.0,
+    8820.0,
+    8820.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 199530.0,
+   "Despesa com Impulsionamento de Conteúdos": 50000.0,
+   "Eventos de promoção da candidatura": 5500.0,
+   "Locação/cessão de bens imóveis": 12100.0,
+   "Publicidade por adesivos": 4540.0,
+   "Publicidade por jornais e revistas": 19674.0,
+   "Publicidade por materiais impressos": 59859.5,
+   "Serviços prestados por terceiros": 7980.0
+  },
+  "pago_por_dia": {
+   "2026-08-21": 1800.0,
+   "2026-08-24": 5000.0,
+   "2026-08-26": 500.0,
+   "2026-08-30": 1500.0,
+   "2026-08-31": 20000.0,
+   "2026-09-01": 24460.0,
+   "2026-09-05": 34120.0,
+   "2026-09-09": 5000.0,
+   "2026-09-10": 8133.0,
+   "2026-09-11": 19674.0,
+   "2026-09-12": 34120.0,
+   "2026-09-13": 1700.0,
+   "2026-09-14": 24490.0,
+   "2026-09-18": 13896.0,
+   "2026-09-19": 14950.0,
+   "2026-09-26": 15000.0,
+   "2026-09-29": 1797.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

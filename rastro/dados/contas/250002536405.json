@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "SP",
  "partido": "PL",
+ "cnpj_prestador": "68353046000128",
  "prestacao_parcial": true,
  "receitas": {
   "total": 1135409.05,
@@ -35,7 +36,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 968344.4,
+  "total_contratado": 972305.4,
   "total_pago": 737961.82,
   "fornecedores_pj": [
    {
@@ -108,7 +109,7 @@
      "Publicidade por adesivos",
      "Publicidade por materiais impressos"
     ],
-    "total": 23848.0
+    "total": 23809.0
    },
    {
     "cnpj": "28299027000146",
@@ -171,6 +172,16 @@
     "total": 11600.0
    },
    {
+    "cnpj": "52181893000112",
+    "nome": "GRYPHE COMUNICACAO INTEGRADA LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 10600.0
+   },
+   {
     "cnpj": "04386913000149",
     "nome": "ELOS ESTUDIO E SERVICOS LTDA",
     "cnae": "59201",
@@ -199,16 +210,6 @@
      "Água"
     ],
     "total": 7525.0
-   },
-   {
-    "cnpj": "52181893000112",
-    "nome": "GRYPHE COMUNICACAO INTEGRADA LTDA",
-    "cnae": "18130",
-    "n_despesas": 1,
-    "tipos": [
-     "Cessão ou locação de veículos"
-    ],
-    "total": 6600.0
    },
    {
     "cnpj": "08417805000147",
@@ -319,12 +320,130 @@
     "Despesas com pessoal": 147113.6,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 971.01,
     "Serviços advocatícios": 30000.0
-   }
+   },
+   "valores": [
+    75.6,
+    75.6,
+    75.6,
+    75.6,
+    151.2,
+    151.2,
+    226.8,
+    226.8,
+    226.8,
+    302.4,
+    302.4,
+    302.4,
+    529.2,
+    680.4,
+    680.4,
+    680.4,
+    971.01,
+    1134.0,
+    1134.0,
+    2192.4,
+    2268.0,
+    2419.2,
+    2419.2,
+    2797.2,
+    2797.2,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    2872.8,
+    3024.0,
+    3455.8,
+    3455.8,
+    3549.2,
+    3549.2,
+    3549.2,
+    3549.2,
+    3549.2,
+    3549.2,
+    3549.2,
+    3549.2,
+    3549.2,
+    17050.0,
+    30000.0
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 18165.53,
+   "Cessão ou locação de veículos": 27650.0,
+   "Combustíveis e lubrificantes": 18262.68,
+   "Correspondências e despesas postais": 3515.25,
+   "Despesa com Impulsionamento de Conteúdos": 420000.0,
+   "Despesas com pessoal": 147113.6,
+   "Diversas a especificar": 65481.74,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 971.01,
+   "Locação/cessão de bens imóveis": 32666.67,
+   "Produção de jingles, vinhetas e slogans": 10000.0,
+   "Publicidade por adesivos": 1265.0,
+   "Publicidade por jornais e revistas": 31600.0,
+   "Publicidade por materiais impressos": 66088.92,
+   "Serviços advocatícios": 110000.0,
+   "Serviços contábeis": 12000.0,
+   "Água": 7525.0
+  },
+  "pago_por_dia": {
+   "2026-08-24": 10000.0,
+   "2026-08-25": 5475.0,
+   "2026-08-26": 2800.0,
+   "2026-08-27": 709.79,
+   "2026-08-28": 9.8,
+   "2026-08-31": 23109.8,
+   "2026-09-01": 32070.08,
+   "2026-09-02": 29.4,
+   "2026-09-03": 70009.8,
+   "2026-09-04": 33457.54,
+   "2026-09-05": 20000.0,
+   "2026-09-08": 3185.0,
+   "2026-09-09": 140.04,
+   "2026-09-10": 728.89,
+   "2026-09-11": 9298.8,
+   "2026-09-14": 124400.36,
+   "2026-09-15": 1232.88,
+   "2026-09-16": 159679.8,
+   "2026-09-17": 4000.0,
+   "2026-09-18": 15125.05,
+   "2026-09-21": 70009.8,
+   "2026-09-22": 29.4,
+   "2026-09-23": 265.3,
+   "2026-09-25": 15483.84,
+   "2026-09-28": 14200.0,
+   "2026-09-29": 1248.8,
+   "2026-09-30": 101252.85,
+   "2026-10-01": 20009.8
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

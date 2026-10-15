@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "PI",
  "partido": "PT",
+ "cnpj_prestador": "68283055000190",
  "prestacao_parcial": true,
  "receitas": {
   "total": 705980.52,
@@ -360,12 +361,67 @@
     "Locação/cessão de bens imóveis": 6000.0,
     "Serviços contábeis": 30000.0,
     "Serviços próprios prestados por terceiros": 6731.46
-   }
+   },
+   "valores": [
+    118.6,
+    3365.73,
+    3365.73,
+    6000.0,
+    8000.0,
+    12000.0,
+    12000.0,
+    30000.0,
+    42000.0
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 2400.0,
+   "Atividades de militância e mobilização de rua": 142242.3,
+   "Cessão ou locação de veículos": 94000.0,
+   "Combustíveis e lubrificantes": 32190.0,
+   "Despesa com Impulsionamento de Conteúdos": 25000.0,
+   "Diversas a especificar": 2317.84,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 118.6,
+   "Eventos de promoção da candidatura": 4800.0,
+   "Locação/cessão de bens imóveis": 17000.0,
+   "Locação/cessão de bens móveis (exceto veículos)": 400.0,
+   "Materiais de expediente": 1659.5,
+   "Produção de jingles, vinhetas e slogans": 3000.0,
+   "Publicidade por adesivos": 7300.0,
+   "Publicidade por materiais impressos": 41972.0,
+   "Serviços advocatícios": 30000.0,
+   "Serviços contábeis": 30000.0,
+   "Serviços prestados por terceiros": 255831.72,
+   "Serviços próprios prestados por terceiros": 6731.46
+  },
+  "pago_por_dia": {
+   "2026-08-25": 1000.0,
+   "2026-08-26": 5013.6,
+   "2026-08-27": 6866.27,
+   "2026-08-28": 447.5,
+   "2026-08-31": 4513.6,
+   "2026-09-02": 6558.6,
+   "2026-09-03": 8372.85,
+   "2026-09-08": 15000.0,
+   "2026-09-10": 30000.0,
+   "2026-09-17": 47414.1,
+   "2026-09-18": 10000.0,
+   "2026-09-21": 32735.92,
+   "2026-09-22": 100100.1,
+   "2026-09-24": 54901.7,
+   "2026-09-25": 43733.4,
+   "2026-09-28": 8675.0,
+   "2026-09-29": 4087.2,
+   "2026-10-01": 94828.2,
+   "2026-10-02": 56634.4,
+   "2026-10-06": 45727.35,
+   "2026-10-07": 17967.58,
+   "2026-10-08": 23560.6
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

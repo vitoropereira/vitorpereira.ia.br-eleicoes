@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "RN",
  "partido": "PP",
+ "cnpj_prestador": "68345886000149",
  "prestacao_parcial": true,
  "receitas": {
   "total": 670000.0,
@@ -225,12 +226,70 @@
     "Locação/cessão de bens imóveis": 10000.0,
     "Serviços prestados por terceiros": 4000.0,
     "Serviços próprios prestados por terceiros": 31259.0
-   }
+   },
+   "valores": [
+    43.1,
+    167.47,
+    2000.0,
+    2000.0,
+    2189.4,
+    2319.94,
+    2962.0,
+    3000.0,
+    3267.0,
+    3267.0,
+    3539.88,
+    3539.88,
+    3639.88,
+    3639.88,
+    3639.88,
+    3639.88,
+    3639.88,
+    3710.0,
+    3710.0,
+    3710.0,
+    5000.0,
+    5000.0,
+    6200.0,
+    6615.0,
+    10000.0,
+    20180.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 28817.97,
+   "Cessão ou locação de veículos": 26860.0,
+   "Combustíveis e lubrificantes": 10269.87,
+   "Comícios": 20868.17,
+   "Despesa com Impulsionamento de Conteúdos": 5000.0,
+   "Despesas com pessoal": 10300.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 43.1,
+   "Locação/cessão de bens imóveis": 10000.0,
+   "Publicidade por adesivos": 12900.0,
+   "Publicidade por carros de som": 160000.0,
+   "Publicidade por materiais impressos": 47966.83,
+   "Serviços advocatícios": 35000.0,
+   "Serviços contábeis": 35000.0,
+   "Serviços prestados por terceiros": 192500.0,
+   "Serviços próprios prestados por terceiros": 31259.0
+  },
+  "pago_por_dia": {
+   "2026-08-20": 32900.5,
+   "2026-08-28": 2106.0,
+   "2026-08-31": 38574.83,
+   "2026-09-01": 4205.5,
+   "2026-09-02": 117952.5,
+   "2026-09-03": 3244.23,
+   "2026-09-04": 34577.67,
+   "2026-09-08": 5211.0,
+   "2026-09-09": 60050.0,
+   "2026-09-11": 15521.52,
+   "2026-09-24": 5000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

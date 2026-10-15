@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "MA",
  "partido": "PL",
+ "cnpj_prestador": "68403529000190",
  "prestacao_parcial": true,
  "receitas": {
   "total": 2178200.0,
@@ -198,12 +199,35 @@
    "por_tipo": {
     "Serviços advocatícios": 10000.0,
     "Serviços contábeis": 10000.0
-   }
+   },
+   "valores": [
+    10000.0,
+    10000.0
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 100441.0,
+   "Atividades de militância e mobilização de rua": 211000.0,
+   "Cessão ou locação de veículos": 6500.0,
+   "Comícios": 77373.0,
+   "Despesa com Impulsionamento de Conteúdos": 130000.0,
+   "Eventos de promoção da candidatura": 201900.0,
+   "Publicidade por adesivos": 72950.0,
+   "Publicidade por materiais impressos": 99274.0,
+   "Serviços advocatícios": 10000.0,
+   "Serviços contábeis": 10000.0,
+   "Serviços prestados por terceiros": 91000.0
+  },
+  "pago_por_dia": {
+   "2026-08-27": 50000.0,
+   "2026-08-28": 9900.0,
+   "2026-09-03": 80000.0,
+   "2026-09-11": 105221.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

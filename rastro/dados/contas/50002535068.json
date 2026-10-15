@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "BA",
  "partido": "UNIÃO",
+ "cnpj_prestador": "68319509000135",
  "prestacao_parcial": true,
  "receitas": {
   "total": 286845.1,
@@ -183,12 +184,33 @@
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.0,
     "Locação/cessão de bens imóveis": 11000.0,
     "Serviços prestados por terceiros": 10200.0
-   }
+   },
+   "valores": [
+    3.0,
+    4200.0,
+    6000.0,
+    11000.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 4620.0,
+   "Despesa com Impulsionamento de Conteúdos": 3000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.0,
+   "Locação/cessão de bens imóveis": 17000.0,
+   "Publicidade por materiais impressos": 26388.85,
+   "Serviços advocatícios": 15000.0,
+   "Serviços contábeis": 15000.0,
+   "Serviços prestados por terceiros": 30200.0
+  },
+  "pago_por_dia": {
+   "2026-08-28": 3000.0,
+   "2026-09-02": 59102.0,
+   "2026-09-10": 1468.63
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

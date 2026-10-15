@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "MT",
  "partido": "PT",
+ "cnpj_prestador": "68470485000110",
  "prestacao_parcial": true,
  "receitas": {
   "total": 491082.05,
@@ -41,7 +42,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 309758.44,
+  "total_contratado": 310258.44,
   "total_pago": 149419.62,
   "fornecedores_pj": [
    {
@@ -165,6 +166,16 @@
     "total": 1628.04
    },
    {
+    "cnpj": "13383353000160",
+    "nome": "ALISSON PEDRO DE MELLO",
+    "cnae": "47890",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 1230.0
+   },
+   {
     "cnpj": "33364021000226",
     "nome": "ELOG EXPRESS ENCOMENDAS LTDA EM RECUPERACAO JUDICIAL",
     "cnae": "49302",
@@ -183,16 +194,6 @@
      "Locação/cessão de bens móveis (exceto veículos)"
     ],
     "total": 900.0
-   },
-   {
-    "cnpj": "13383353000160",
-    "nome": "ALISSON PEDRO DE MELLO",
-    "cnae": "47890",
-    "n_despesas": 2,
-    "tipos": [
-     "Publicidade por materiais impressos"
-    ],
-    "total": 730.0
    },
    {
     "cnpj": "18336208000141",
@@ -236,12 +237,136 @@
     "Locação/cessão de bens imóveis": 7350.0,
     "Locação/cessão de bens móveis (exceto veículos)": 3000.0,
     "Serviços prestados por terceiros": 22000.0
-   }
+   },
+   "valores": [
+    249.6,
+    400.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    1200.0,
+    1200.0,
+    1200.0,
+    1200.0,
+    1200.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    1600.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    2400.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    7350.0,
+    10000.0,
+    10000.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 157400.0,
+   "Cessão ou locação de veículos": 46333.32,
+   "Combustíveis e lubrificantes": 1628.04,
+   "Correspondências e despesas postais": 1190.0,
+   "Despesa com Impulsionamento de Conteúdos": 13000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 249.6,
+   "Eventos de promoção da candidatura": 21397.48,
+   "Locação/cessão de bens imóveis": 7350.0,
+   "Locação/cessão de bens móveis (exceto veículos)": 3990.0,
+   "Materiais de expediente": 6.0,
+   "Produção de jingles, vinhetas e slogans": 2500.0,
+   "Publicidade por materiais impressos": 6864.0,
+   "Serviços advocatícios": 5000.0,
+   "Serviços contábeis": 21000.0,
+   "Serviços prestados por terceiros": 22350.0
+  },
+  "pago_por_dia": {
+   "2026-08-17": 709.19,
+   "2026-08-19": 2500.5,
+   "2026-08-21": 17745.0,
+   "2026-08-22": 3000.0,
+   "2026-08-24": 17381.5,
+   "2026-08-26": 428.52,
+   "2026-08-27": 3240.5,
+   "2026-08-31": 42130.06,
+   "2026-09-01": 19304.83,
+   "2026-09-02": 16250.52,
+   "2026-09-03": 1190.0,
+   "2026-09-04": 8500.5,
+   "2026-09-08": 15088.5,
+   "2026-09-09": 1600.0,
+   "2026-09-24": 350.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "AL",
  "partido": "MDB",
+ "cnpj_prestador": "68526314000166",
  "prestacao_parcial": true,
  "receitas": {
   "total": 939787.5,
@@ -139,12 +140,35 @@
    "total": 11000.0,
    "por_tipo": {
     "Despesas com pessoal": 11000.0
-   }
+   },
+   "valores": [
+    2500.0,
+    2500.0,
+    6000.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 26950.0,
+   "Combustíveis e lubrificantes": 620.0,
+   "Despesa com Impulsionamento de Conteúdos": 45000.0,
+   "Despesas com pessoal": 11000.0,
+   "Produção de programas de rádio, televisão ou vídeo": 205000.0,
+   "Publicidade por adesivos": 47750.0,
+   "Publicidade por materiais impressos": 9100.0,
+   "Serviços advocatícios": 20000.0,
+   "Serviços contábeis": 20000.0
+  },
+  "pago_por_dia": {
+   "2026-09-09": 205000.0,
+   "2026-09-15": 144300.0,
+   "2026-09-22": 38017.22,
+   "2026-09-25": 224800.0,
+   "2026-09-29": 40000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

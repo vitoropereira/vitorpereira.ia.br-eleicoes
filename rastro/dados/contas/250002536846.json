@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "SP",
  "partido": "PT",
+ "cnpj_prestador": "68373267000168",
  "prestacao_parcial": true,
  "receitas": {
   "total": 845554.7,
@@ -253,12 +254,49 @@
    "por_tipo": {
     "Despesas com pessoal": 2500.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 8.0
-   }
+   },
+   "valores": [
+    8.0,
+    2500.0
+   ]
+  },
+  "por_tipo": {
+   "Despesa com Impulsionamento de Conteúdos": 550000.0,
+   "Despesas com pessoal": 2500.0,
+   "Doações financeiras a outros candidatos/partidos": 60000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 8.0,
+   "Eventos de promoção da candidatura": 1000.0,
+   "Locação/cessão de bens móveis (exceto veículos)": 465.0,
+   "Publicidade por adesivos": 9279.0,
+   "Publicidade por materiais impressos": 108480.0,
+   "Serviços advocatícios": 10000.0,
+   "Serviços contábeis": 20000.0,
+   "Serviços prestados por terceiros": 59200.0,
+   "Taxa de Administração de Financiamento Coletivo": 222.7
+  },
+  "pago_por_dia": {
+   "2026-08-21": 30000.0,
+   "2026-08-25": 70000.0,
+   "2026-08-28": 10000.0,
+   "2026-09-10": 18000.5,
+   "2026-09-11": 25000.5,
+   "2026-09-14": 150000.0,
+   "2026-09-15": 8271.0,
+   "2026-09-18": 76000.0,
+   "2026-09-21": 224000.5,
+   "2026-09-25": 73137.5,
+   "2026-09-28": 66222.7,
+   "2026-09-29": 1.0,
+   "2026-10-02": 8139.0,
+   "2026-10-06": 11181.5,
+   "2026-10-07": 0.5,
+   "2026-10-08": 51000.0,
+   "2026-10-09": 200.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

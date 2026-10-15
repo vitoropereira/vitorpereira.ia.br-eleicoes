@@ -4,17 +4,18 @@
  "cargo": "depest",
  "uf": "RS",
  "partido": "PSD",
+ "cnpj_prestador": "68456251000119",
  "prestacao_parcial": true,
  "receitas": {
-  "total": 543500.0,
+  "total": 569081.14,
   "por_origem": {
    "Recursos de outros candidatos": 80000.0,
-   "Recursos de partido político": 373200.0,
+   "Recursos de partido político": 398781.14,
    "Recursos de pessoas físicas": 90300.0
   },
   "por_fonte": {
    "FUNDO ESPECIAL": 440000.0,
-   "OUTROS RECURSOS": 103500.0
+   "OUTROS RECURSOS": 129081.14
   },
   "doadores_pj": [
    {
@@ -31,6 +32,11 @@
     "cnpj": "68475890000121",
     "nome": "FREDERICO CANTORI ANTUNES",
     "total": 30000.0
+   },
+   {
+    "cnpj": "14935252000117",
+    "nome": "Direção Estadual/Distrital - PSD - RIO GRANDE DO SUL",
+    "total": 25581.14
    },
    {
     "cnpj": "87582714000133",
@@ -190,12 +196,43 @@
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 5.0,
     "Produção de jingles, vinhetas e slogans": 2500.0,
     "Serviços prestados por terceiros": 5000.0
-   }
+   },
+   "valores": [
+    5.0,
+    2500.0,
+    5000.0
+   ]
+  },
+  "por_tipo": {
+   "Criação e inclusão de páginas na internet": 640.0,
+   "Despesa com Impulsionamento de Conteúdos": 75000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 5.0,
+   "Locação/cessão de bens imóveis": 10140.12,
+   "Locação/cessão de bens móveis (exceto veículos)": 830.0,
+   "Produção de jingles, vinhetas e slogans": 2500.0,
+   "Publicidade por carros de som": 24000.0,
+   "Publicidade por materiais impressos": 70564.0,
+   "Serviços advocatícios": 15000.0,
+   "Serviços prestados por terceiros": 52000.0
+  },
+  "pago_por_dia": {
+   "2026-08-19": 1500.0,
+   "2026-08-20": 3000.0,
+   "2026-08-21": 830.5,
+   "2026-08-23": 3000.0,
+   "2026-08-25": 640.0,
+   "2026-08-26": 24384.5,
+   "2026-08-27": 43010.5,
+   "2026-08-31": 20000.0,
+   "2026-09-03": 3400.5,
+   "2026-09-04": 16202.0,
+   "2026-09-05": 80260.0,
+   "2026-09-08": 45280.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

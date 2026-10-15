@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "RJ",
  "partido": "PT",
+ "cnpj_prestador": "68472131000105",
  "prestacao_parcial": true,
  "receitas": {
   "total": 1251003.0,
@@ -116,12 +117,70 @@
     "Despesas com pessoal": 62000.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 13.0,
     "Produção de jingles, vinhetas e slogans": 6000.0
-   }
+   },
+   "valores": [
+    13.0,
+    1680.0,
+    2000.0,
+    2520.0,
+    2520.0,
+    2520.0,
+    2520.0,
+    2520.0,
+    2520.0,
+    2520.0,
+    2520.0,
+    2520.0,
+    2520.0,
+    2520.0,
+    2520.0,
+    2520.0,
+    2520.0,
+    2520.0,
+    2520.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    6000.0
+   ]
+  },
+  "por_tipo": {
+   "Despesa com Impulsionamento de Conteúdos": 120000.0,
+   "Despesas com pessoal": 62000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 13.0,
+   "Produção de jingles, vinhetas e slogans": 6000.0,
+   "Publicidade por adesivos": 10650.0,
+   "Publicidade por materiais impressos": 46220.0,
+   "Serviços advocatícios": 50000.0,
+   "Serviços contábeis": 11475.0,
+   "Serviços prestados por terceiros": 25600.0,
+   "Taxa de Administração de Financiamento Coletivo": 202.88
+  },
+  "pago_por_dia": {
+   "2026-08-17": 8000.0,
+   "2026-08-18": 120.38,
+   "2026-08-19": 25000.0,
+   "2026-08-20": 40000.0,
+   "2026-08-21": 37.4,
+   "2026-08-24": 10000.0,
+   "2026-08-28": 179061.0,
+   "2026-08-31": 7600.5,
+   "2026-09-01": 17017.87,
+   "2026-09-02": 3.96,
+   "2026-09-03": 27169.72,
+   "2026-09-04": 21664.86,
+   "2026-09-08": 24886.48,
+   "2026-09-09": 11400.0,
+   "2026-09-10": 3.71,
+   "2026-09-16": 11475.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

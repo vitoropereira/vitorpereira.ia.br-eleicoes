@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "RS",
  "partido": "REPUBLICANOS",
+ "cnpj_prestador": "68379715000130",
  "prestacao_parcial": true,
  "receitas": {
   "total": 1617754.97,
@@ -34,8 +35,8 @@
   }
  },
  "despesas": {
-  "total_contratado": 1399570.76,
-  "total_pago": 1612539.66,
+  "total_contratado": 1407570.76,
+  "total_pago": 1617539.66,
   "fornecedores_pj": [
    {
     "cnpj": "13347016000117",
@@ -230,18 +231,98 @@
   ],
   "fornecedores_pf": {
    "qtd": 41,
-   "total": 279636.0,
+   "total": 287636.0,
    "por_tipo": {
-    "Atividades de militância e mobilização de rua": 59000.0,
+    "Atividades de militância e mobilização de rua": 67000.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 36.0,
     "Locação/cessão de bens imóveis": 3600.0,
     "Serviços prestados por terceiros": 217000.0
-   }
+   },
+   "valores": [
+    36.0,
+    1000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3600.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    10000.0,
+    10000.0,
+    10000.0,
+    10000.0,
+    10000.0,
+    10000.0,
+    10000.0,
+    10000.0,
+    15000.0,
+    20000.0,
+    20000.0,
+    20000.0,
+    20000.0,
+    20000.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 67000.0,
+   "Despesa com Impulsionamento de Conteúdos": 451623.0,
+   "Doações financeiras a outros candidatos/partidos": 30000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 36.0,
+   "Eventos de promoção da candidatura": 5000.0,
+   "Locação/cessão de bens imóveis": 3600.0,
+   "Publicidade por adesivos": 5100.0,
+   "Publicidade por jornais e revistas": 54440.0,
+   "Publicidade por materiais impressos": 194475.32,
+   "Serviços advocatícios": 40000.0,
+   "Serviços contábeis": 15000.0,
+   "Serviços prestados por terceiros": 541242.0,
+   "Taxa de Administração de Financiamento Coletivo": 54.44
+  },
+  "pago_por_dia": {
+   "2026-08-20": 3600.5,
+   "2026-08-27": 10600.5,
+   "2026-08-28": 219504.5,
+   "2026-08-31": 71248.65,
+   "2026-09-09": 50001.0,
+   "2026-09-10": 0.5,
+   "2026-09-11": 76488.86,
+   "2026-09-14": 9900.0,
+   "2026-09-15": 125659.0,
+   "2026-09-16": 29151.5,
+   "2026-09-17": 5586.71,
+   "2026-09-18": 24150.5,
+   "2026-09-22": 109400.0,
+   "2026-09-23": 77488.0,
+   "2026-09-25": 67552.5,
+   "2026-09-28": 134712.0,
+   "2026-09-29": 53864.0,
+   "2026-09-30": 131932.0,
+   "2026-10-01": 292696.44,
+   "2026-10-02": 124002.5
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

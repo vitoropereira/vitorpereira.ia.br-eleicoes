@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "MS",
  "partido": "PSDB",
+ "cnpj_prestador": "68345210000155",
  "prestacao_parcial": true,
  "receitas": {
   "total": 598133.0,
@@ -107,12 +108,81 @@
     "Locação/cessão de bens imóveis": 3000.0,
     "Serviços advocatícios": 20000.0,
     "Serviços contábeis": 17000.0
-   }
+   },
+   "valores": [
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    1200.0,
+    1200.0,
+    1200.0,
+    1500.0,
+    2000.0,
+    3000.0,
+    5000.0,
+    17000.0,
+    20000.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 19000.0,
+   "Despesa com Impulsionamento de Conteúdos": 46000.0,
+   "Despesas com pessoal": 12100.0,
+   "Locação/cessão de bens imóveis": 3000.0,
+   "Produção de programas de rádio, televisão ou vídeo": 3000.0,
+   "Publicidade por adesivos": 7175.0,
+   "Publicidade por materiais impressos": 17800.0,
+   "Serviços advocatícios": 20000.0,
+   "Serviços contábeis": 17000.0,
+   "Taxa de Administração de Financiamento Coletivo": 60.95
+  },
+  "pago_por_dia": {
+   "2026-08-17": 2000.0,
+   "2026-08-18": 60.95,
+   "2026-08-20": 2000.0,
+   "2026-08-21": 1000.0,
+   "2026-08-22": 2000.0,
+   "2026-08-24": 2000.0,
+   "2026-08-25": 2000.0,
+   "2026-08-26": 5000.0,
+   "2026-08-29": 5000.0,
+   "2026-08-31": 5000.0,
+   "2026-09-03": 5000.0,
+   "2026-09-07": 5000.0,
+   "2026-09-08": 18785.0,
+   "2026-09-11": 8000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

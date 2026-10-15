@@ -4,16 +4,17 @@
  "cargo": "senador",
  "uf": "GO",
  "partido": "UNIÃO",
+ "cnpj_prestador": "68461976000103",
  "prestacao_parcial": true,
  "receitas": {
-  "total": 4391966.94,
+  "total": 4392966.94,
   "por_origem": {
    "Recursos de partido político": 3851966.94,
-   "Recursos de pessoas físicas": 540000.0
+   "Recursos de pessoas físicas": 541000.0
   },
   "por_fonte": {
    "FUNDO ESPECIAL": 3851966.94,
-   "OUTROS RECURSOS": 540000.0
+   "OUTROS RECURSOS": 541000.0
   },
   "doadores_pj": [
    {
@@ -28,13 +29,13 @@
    }
   ],
   "doadores_pf": {
-   "qtd": 5,
-   "total": 540000.0
+   "qtd": 6,
+   "total": 541000.0
   }
  },
  "despesas": {
-  "total_contratado": 3219974.1,
-  "total_pago": 3524584.91,
+  "total_contratado": 3400061.09,
+  "total_pago": 4155164.67,
   "fornecedores_pj": [
    {
     "cnpj": "25021356000132",
@@ -70,12 +71,12 @@
     "cnpj": "64433090000197",
     "nome": "GAB INDUSTRIA GRAFICA LTDA",
     "cnae": "18130",
-    "n_despesas": 11,
+    "n_despesas": 14,
     "tipos": [
      "Publicidade por adesivos",
      "Publicidade por materiais impressos"
     ],
-    "total": 151080.07
+    "total": 151206.79
    },
    {
     "cnpj": "39659721000143",
@@ -178,6 +179,16 @@
     "total": 80000.0
    },
    {
+    "cnpj": "13377622000185",
+    "nome": "WS SERVICOS DE LOCACAO LTDA",
+    "cnae": "77110",
+    "n_despesas": 7,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 61346.45
+   },
+   {
     "cnpj": "29629500000179",
     "nome": "29.629.500 TOMIO MARCELINO MASSUDA",
     "cnae": "59120",
@@ -188,16 +199,6 @@
     "total": 60000.0
    },
    {
-    "cnpj": "13377622000185",
-    "nome": "WS SERVICOS DE LOCACAO LTDA",
-    "cnae": "77110",
-    "n_despesas": 6,
-    "tipos": [
-     "Cessão ou locação de veículos"
-    ],
-    "total": 56933.32
-   },
-   {
     "cnpj": "39319095000146",
     "nome": "MRMS PUBLICIDADE E PROPAGANDA LTDA",
     "cnae": "73190",
@@ -206,6 +207,16 @@
      "Produção de programas de rádio, televisão ou vídeo"
     ],
     "total": 50000.0
+   },
+   {
+    "cnpj": "34267445000154",
+    "nome": "CHURRASCARIA NATIVA BUFFET E EVENTOS LTDA",
+    "cnae": "56201",
+    "n_despesas": 3,
+    "tipos": [
+     "Alimentação"
+    ],
+    "total": 45034.0
    },
    {
     "cnpj": "20376444000133",
@@ -248,14 +259,14 @@
     "total": 30000.0
    },
    {
-    "cnpj": "34267445000154",
-    "nome": "CHURRASCARIA NATIVA BUFFET E EVENTOS LTDA",
-    "cnae": "56201",
-    "n_despesas": 2,
+    "cnpj": "56044998000180",
+    "nome": "HSM LOGISTICA E SOLUCOES EMPRESARIAIS LTDA",
+    "cnae": "49299",
+    "n_despesas": 1,
     "tipos": [
-     "Alimentação"
+     "Cessão ou locação de veículos"
     ],
-    "total": 28776.0
+    "total": 22000.0
    },
    {
     "cnpj": "32692153000133",
@@ -288,16 +299,6 @@
     "total": 16453.6
    },
    {
-    "cnpj": "62419982000108",
-    "nome": "POSTO SAO MATEUS MOREIRA LTDA",
-    "cnae": "47318",
-    "n_despesas": 4,
-    "tipos": [
-     "Combustíveis e lubrificantes"
-    ],
-    "total": 15241.7
-   },
-   {
     "cnpj": "07599206000129",
     "nome": "COOPERATIVA DE CREDITO DE LIVRE ADMISSAO DA REGIAO METROPOLITANA DE GOIANIA LTDA.",
     "cnae": "64247",
@@ -308,14 +309,44 @@
     "total": 15000.0
    },
    {
+    "cnpj": "29294366000100",
+    "nome": "PRESENCE LOCADORA LTDA",
+    "cnae": "77110",
+    "n_despesas": 2,
+    "tipos": [
+     "Cessão ou locação de veículos"
+    ],
+    "total": 14000.0
+   },
+   {
+    "cnpj": "04454790002422",
+    "nome": "AIR BP BRASIL LTDA.",
+    "cnae": "46818",
+    "n_despesas": 5,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 13966.1
+   },
+   {
     "cnpj": "20664790000117",
     "nome": "AMASV ZARPA TRANSMISSAO E ARMAZENAMENTO DE DADOS S.A.",
     "cnae": "63119",
-    "n_despesas": 5,
+    "n_despesas": 6,
     "tipos": [
      "Serviços prestados por terceiros"
     ],
-    "total": 10440.0
+    "total": 10560.0
+   },
+   {
+    "cnpj": "62419982000108",
+    "nome": "POSTO SAO MATEUS MOREIRA LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 9649.54
    },
    {
     "cnpj": "44973256000150",
@@ -326,16 +357,6 @@
      "Publicidade por materiais impressos"
     ],
     "total": 7319.02
-   },
-   {
-    "cnpj": "04454790002422",
-    "nome": "AIR BP BRASIL LTDA.",
-    "cnae": "46818",
-    "n_despesas": 3,
-    "tipos": [
-     "Combustíveis e lubrificantes"
-    ],
-    "total": 6555.6
    },
    {
     "cnpj": "00073031000172",
@@ -358,6 +379,16 @@
     "total": 4950.0
    },
    {
+    "cnpj": "08821778000505",
+    "nome": "REDE DE AUTO POSTO EXPRESS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3224.0
+   },
+   {
     "cnpj": "48305233000129",
     "nome": "PLACAR CAMISETAS LTDA",
     "cnae": "14126",
@@ -366,6 +397,16 @@
      "Atividades de militância e mobilização de rua"
     ],
     "total": 3000.0
+   },
+   {
+    "cnpj": "16000572000100",
+    "nome": "GOIAS ABASTECIMENTO DE AERONAVE LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 1,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 2592.5
    },
    {
     "cnpj": "02103836000147",
@@ -396,16 +437,6 @@
      "Combustíveis e lubrificantes"
     ],
     "total": 1575.83
-   },
-   {
-    "cnpj": "08821778000505",
-    "nome": "REDE DE AUTO POSTO EXPRESS LTDA",
-    "cnae": "47318",
-    "n_despesas": 1,
-    "tipos": [
-     "Combustíveis e lubrificantes"
-    ],
-    "total": 1424.0
    },
    {
     "cnpj": "19850532000146",
@@ -439,22 +470,303 @@
    }
   ],
   "fornecedores_pf": {
-   "qtd": 84,
-   "total": 655209.06,
+   "qtd": 230,
+   "total": 772167.36,
    "por_tipo": {
+    "Atividades de militância e mobilização de rua": 116800.0,
     "Cessão ou locação de veículos": 50500.0,
     "Despesas com pessoal": 236873.72,
     "Despesas com transporte ou deslocamento": 195000.0,
-    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 52.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 210.3,
     "Publicidade por carros de som": 140933.34,
     "Serviços prestados por terceiros": 3850.0,
     "Serviços próprios prestados por terceiros": 28000.0
-   }
+   },
+   "valores": [
+    210.3,
+    446.81,
+    446.81,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    1530.61,
+    1621.0,
+    1922.0,
+    1922.0,
+    1922.0,
+    3020.83,
+    3020.83,
+    3020.83,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3850.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    6500.0,
+    7000.0,
+    7000.0,
+    7000.0,
+    7000.0,
+    30000.0,
+    30000.0,
+    30000.0,
+    35000.0,
+    35000.0,
+    35000.0,
+    35933.34,
+    44000.0,
+    105000.0
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 49984.0,
+   "Atividades de militância e mobilização de rua": 119800.0,
+   "Cessão ou locação de veículos": 357115.8,
+   "Combustíveis e lubrificantes": 67550.12,
+   "Correspondências e despesas postais": 88074.0,
+   "Despesa com Impulsionamento de Conteúdos": 390000.0,
+   "Despesas com pessoal": 236873.72,
+   "Despesas com transporte ou deslocamento": 535000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 210.3,
+   "Locação/cessão de bens imóveis": 15000.0,
+   "Locação/cessão de bens móveis (exceto veículos)": 21149.0,
+   "Produção de programas de rádio, televisão ou vídeo": 900000.0,
+   "Publicidade por adesivos": 657.84,
+   "Publicidade por carros de som": 140933.34,
+   "Publicidade por materiais impressos": 162867.97,
+   "Serviços advocatícios": 160000.0,
+   "Serviços contábeis": 80000.0,
+   "Serviços prestados por terceiros": 46845.0,
+   "Serviços próprios prestados por terceiros": 28000.0
+  },
+  "pago_por_dia": {
+   "2026-08-24": 60750.0,
+   "2026-08-25": 16.5,
+   "2026-08-28": 43153.62,
+   "2026-09-01": 31707.57,
+   "2026-09-02": 112934.82,
+   "2026-09-03": 613323.5,
+   "2026-09-04": 20225.25,
+   "2026-09-08": 629808.22,
+   "2026-09-09": 301323.5,
+   "2026-09-10": 17990.5,
+   "2026-09-11": 588575.87,
+   "2026-09-16": 104645.03,
+   "2026-09-17": 17966.67,
+   "2026-09-18": 33462.37,
+   "2026-09-21": 100000.5,
+   "2026-09-22": 3419.61,
+   "2026-09-23": 42951.8,
+   "2026-09-24": 120000.0,
+   "2026-09-25": 188074.0,
+   "2026-09-29": 440393.5,
+   "2026-09-30": 69768.32,
+   "2026-10-01": 89341.56,
+   "2026-10-02": 82771.5,
+   "2026-10-05": 425160.46,
+   "2026-10-06": 17400.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

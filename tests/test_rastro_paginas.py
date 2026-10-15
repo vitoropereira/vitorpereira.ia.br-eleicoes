@@ -250,8 +250,33 @@ class TestHome(unittest.TestCase):
         self.assertIn(ind.brl(50000), t)  # depest (2002)
         self.assertIn("Maiores fornecedores", t)
         self.assertIn("Indicadores mais frequentes", t)
-        self.assertNotIn("NAO PUBLICADO", t)
+        # O não publicado só aparece na tabela "ainda sem página", sem link e sem os fornecedores dele.
+        self.assertNotIn("NAO PUBLICADO", t.split("Eleitos ainda sem página")[0])
+        self.assertNotIn("SO DO NAO PUBLICADO LTDA", t)
         self.assertNotIn("NOME DO MEI DONO", t)
+
+    def test_eleitos_ainda_sem_pagina(self):
+        h = self.home()
+        t = texto(h)
+        self.assertIn("Eleitos ainda sem página", t)
+        sec = h.split("Eleitos ainda sem página")[1].split('<section id="contestar">')[0]
+        self.assertIn("NAO PUBLICADO", sec)
+        self.assertIn(pg.CARGOS[E["2004"]["cargo"]], texto(sec))
+        self.assertNotIn("<a ", sec)
+        for pub in PUBL:
+            self.assertNotIn(E[pub]["nome_urna"], sec)
+        self.assertEqual(cpfs_validos(h), [])
+        self.assertIsNone(pg.PROIBIDOS.search(h))
+
+    def test_sem_pendentes_sem_tabela(self):
+        h = self.home(publicados=[e["sq"] for e in ELEITOS["eleitos"]])
+        self.assertNotIn("Eleitos ainda sem página", h)
+
+    def test_vazia_lista_pendentes(self):
+        with tempfile.TemporaryDirectory() as d:
+            h = gerar(d, publicados=[], indicadores=None, fornecedores=None)[0]["html"]
+        self.assertIn("Eleitos ainda sem página", h)
+        self.assertNotIn('href="/rastro/depfed/', h)
 
     def test_eleito_sem_contas_sem_r0(self):
         t = texto(self.home())
@@ -502,6 +527,16 @@ class TestMetodologia(unittest.TestCase):
         self.assertIn("TSE", t)
         self.assertIn("Receita", t)
         self.assertIn("Contestar este dado", t)
+
+    def test_avisos_de_indicador_pulado(self):
+        self.assertNotIn("não calculados", texto(pg.html_metodologia(CFG)))
+        t = texto(pg.html_metodologia(CFG, ["socio_doador: pulado (fonte indisponível)"]))
+        self.assertIn("Indicadores não calculados nesta base", t)
+        self.assertIn("socio_doador: pulado", t)
+        with tempfile.TemporaryDirectory() as d:
+            inds = dict(INDS, avisos=["saque_especie: pulado (fonte indisponível)"])
+            met = {p["path"]: p["html"] for p in gerar(d, indicadores=inds)}["/rastro/metodologia/"]
+        self.assertIn("saque_especie: pulado", texto(met))
 
     def test_valores_vem_do_config(self):
         antes = texto(pg.html_metodologia(CFG))

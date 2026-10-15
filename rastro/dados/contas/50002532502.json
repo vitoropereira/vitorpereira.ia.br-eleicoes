@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "BA",
  "partido": "REPUBLICANOS",
+ "cnpj_prestador": "68237880000158",
  "prestacao_parcial": true,
  "receitas": {
   "total": 2000000.0,
@@ -167,12 +168,66 @@
     "Despesas com pessoal": 420000.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 31.2,
     "Serviços contábeis": 40000.0
-   }
+   },
+   "valores": [
+    31.2,
+    10000.0,
+    10000.0,
+    10000.0,
+    15000.0,
+    15000.0,
+    20000.0,
+    20000.0,
+    20000.0,
+    20000.0,
+    20000.0,
+    20000.0,
+    20000.0,
+    20000.0,
+    20000.0,
+    20000.0,
+    20000.0,
+    20000.0,
+    20000.0,
+    20000.0,
+    20000.0,
+    20000.0,
+    20000.0,
+    20000.0,
+    40000.0
+   ]
+  },
+  "por_tipo": {
+   "Despesa com Impulsionamento de Conteúdos": 50000.0,
+   "Despesas com pessoal": 420000.0,
+   "Despesas com transporte ou deslocamento": 94633.33,
+   "Diversas a especificar": 46800.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 31.2,
+   "Publicidade por adesivos": 6517.6,
+   "Publicidade por materiais impressos": 256306.0,
+   "Serviços advocatícios": 50000.0,
+   "Serviços contábeis": 40000.0
+  },
+  "pago_por_dia": {
+   "2026-08-31": 362037.84,
+   "2026-09-01": 395800.0,
+   "2026-09-02": 15000.0,
+   "2026-09-04": 230900.0,
+   "2026-09-09": 80001.5,
+   "2026-09-14": 11805.0,
+   "2026-09-15": 20000.5,
+   "2026-09-17": 49153.6,
+   "2026-09-18": 20000.5,
+   "2026-09-21": 25014.1,
+   "2026-09-22": 25000.0,
+   "2026-09-23": 244801.0,
+   "2026-09-24": 280000.0,
+   "2026-09-25": 80000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

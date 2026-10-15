@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "RS",
  "partido": "MDB",
+ "cnpj_prestador": "68475867000137",
  "prestacao_parcial": true,
  "receitas": {
   "total": 3052500.0,
@@ -448,12 +449,49 @@
    "total": 6000.0,
    "por_tipo": {
     "Locação/cessão de bens imóveis": 6000.0
-   }
+   },
+   "valores": [
+    6000.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 21830.0,
+   "Combustíveis e lubrificantes": 2572.8,
+   "Despesa com Impulsionamento de Conteúdos": 452000.0,
+   "Doações financeiras a outros candidatos/partidos": 116661.19,
+   "Energia elétrica": 64.23,
+   "Locação/cessão de bens imóveis": 10000.0,
+   "Locação/cessão de bens móveis (exceto veículos)": 3650.0,
+   "Produção de jingles, vinhetas e slogans": 26000.0,
+   "Publicidade por adesivos": 26380.0,
+   "Publicidade por jornais e revistas": 9924.45,
+   "Publicidade por materiais impressos": 175982.5,
+   "Serviços advocatícios": 52431.5,
+   "Serviços contábeis": 37568.5
+  },
+  "pago_por_dia": {
+   "2026-08-17": 15000.0,
+   "2026-08-27": 15000.0,
+   "2026-09-03": 269969.0,
+   "2026-09-04": 300258.0,
+   "2026-09-08": 151405.0,
+   "2026-09-09": 88800.14,
+   "2026-09-14": 50000.0,
+   "2026-09-15": 67565.0,
+   "2026-09-18": 50000.0,
+   "2026-09-22": 55000.0,
+   "2026-09-23": 111175.0,
+   "2026-09-24": 4320.0,
+   "2026-09-28": 30875.25,
+   "2026-09-30": 31260.0,
+   "2026-10-01": 1994.2,
+   "2026-10-02": 75243.8,
+   "2026-10-03": 41000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

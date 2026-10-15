@@ -4,24 +4,25 @@
  "cargo": "depest",
  "uf": "RO",
  "partido": "AVANTE",
+ "cnpj_prestador": "68411456000188",
  "prestacao_parcial": true,
  "receitas": {
-  "total": 507000.0,
+  "total": 508000.0,
   "por_origem": {
-   "Recursos de pessoas físicas": 483000.0,
+   "Recursos de pessoas físicas": 484000.0,
    "Recursos próprios": 24000.0
   },
   "por_fonte": {
-   "OUTROS RECURSOS": 507000.0
+   "OUTROS RECURSOS": 508000.0
   },
   "doadores_pj": [],
   "doadores_pf": {
-   "qtd": 9,
-   "total": 507000.0
+   "qtd": 10,
+   "total": 508000.0
   }
  },
  "despesas": {
-  "total_contratado": 85104.91,
+  "total_contratado": 86474.91,
   "total_pago": 127715.56,
   "fornecedores_pj": [
    {
@@ -62,7 +63,7 @@
     "tipos": [
      "Publicidade por adesivos"
     ],
-    "total": 7625.0
+    "total": 8995.0
    },
    {
     "cnpj": "13347016000117",
@@ -111,12 +112,32 @@
    "por_tipo": {
     "Despesas com pessoal": 4390.0,
     "Serviços advocatícios": 10000.0
-   }
+   },
+   "valores": [
+    4390.0,
+    10000.0
+   ]
+  },
+  "por_tipo": {
+   "Combustíveis e lubrificantes": 2919.85,
+   "Despesa com Impulsionamento de Conteúdos": 3726.56,
+   "Despesas com pessoal": 4390.0,
+   "Eventos de promoção da candidatura": 463.5,
+   "Locação/cessão de bens móveis (exceto veículos)": 12000.0,
+   "Produção de programas de rádio, televisão ou vídeo": 30000.0,
+   "Publicidade por adesivos": 22975.0,
+   "Serviços advocatícios": 10000.0
+  },
+  "pago_por_dia": {
+   "2026-08-21": 3726.56,
+   "2026-09-04": 36494.0,
+   "2026-09-05": 57495.0,
+   "2026-09-07": 30000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

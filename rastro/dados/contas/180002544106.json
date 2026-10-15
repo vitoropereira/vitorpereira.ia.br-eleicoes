@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "PI",
  "partido": "REPUBLICANOS",
+ "cnpj_prestador": "68492349000121",
  "prestacao_parcial": true,
  "receitas": {
   "total": 1542679.72,
@@ -35,7 +36,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 1274093.64,
+  "total_contratado": 1190813.43,
   "total_pago": 1336485.23,
   "fornecedores_pj": [
    {
@@ -57,16 +58,6 @@
      "Despesas com transporte ou deslocamento"
     ],
     "total": 225000.0
-   },
-   {
-    "cnpj": "52336957000107",
-    "nome": "JM INDUSTRIA DE EMBALAGENS E ROTULOS LTDA",
-    "cnae": "17419",
-    "n_despesas": 1,
-    "tipos": [
-     "Publicidade por materiais impressos"
-    ],
-    "total": 135600.0
    },
    {
     "cnpj": "13347016000117",
@@ -117,6 +108,16 @@
      "Despesa com Impulsionamento de Conteúdos"
     ],
     "total": 55000.0
+   },
+   {
+    "cnpj": "52336957000107",
+    "nome": "JM INDUSTRIA DE EMBALAGENS E ROTULOS LTDA",
+    "cnae": "17419",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 51937.5
    },
    {
     "cnpj": "05821798000156",
@@ -196,7 +197,7 @@
     "tipos": [
      "Combustíveis e lubrificantes"
     ],
-    "total": 2131.89
+    "total": 2514.18
    },
    {
     "cnpj": "51404422000163",
@@ -378,12 +379,65 @@
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 5.0,
     "Locação/cessão de bens imóveis": 8000.0,
     "Serviços prestados por terceiros": 7000.0
-   }
+   },
+   "valores": [
+    5.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    3000.0,
+    8000.0
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 5750.0,
+   "Atividades de militância e mobilização de rua": 27985.12,
+   "Combustíveis e lubrificantes": 21939.99,
+   "Despesa com Impulsionamento de Conteúdos": 190000.0,
+   "Despesas com pessoal": 4000.0,
+   "Despesas com transporte ou deslocamento": 225000.0,
+   "Diversas a especificar": 260.54,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 5.0,
+   "Eventos de promoção da candidatura": 252618.0,
+   "Locação/cessão de bens imóveis": 14000.0,
+   "Materiais de expediente": 317.28,
+   "Produção de programas de rádio, televisão ou vídeo": 330000.0,
+   "Publicidade por materiais impressos": 51937.5,
+   "Serviços contábeis": 60000.0,
+   "Serviços prestados por terceiros": 7000.0
+  },
+  "pago_por_dia": {
+   "2026-08-26": 25000.0,
+   "2026-08-27": 230000.0,
+   "2026-08-28": 360001.0,
+   "2026-08-29": 161032.32,
+   "2026-09-01": 330000.0,
+   "2026-09-03": 63330.63,
+   "2026-09-06": 500.0,
+   "2026-09-07": 345.35,
+   "2026-09-08": 1025.1,
+   "2026-09-09": 533.56,
+   "2026-09-10": 3906.22,
+   "2026-09-13": 1094.14,
+   "2026-09-14": 0.5,
+   "2026-09-17": 5963.55,
+   "2026-09-18": 3750.0,
+   "2026-09-19": 2531.14,
+   "2026-09-20": 1359.0,
+   "2026-09-21": 2.0,
+   "2026-09-22": 10000.99,
+   "2026-09-24": 754.29,
+   "2026-09-25": 25750.01,
+   "2026-09-26": 1376.04,
+   "2026-09-27": 685.37,
+   "2026-10-01": 107000.0,
+   "2026-10-02": 544.02
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

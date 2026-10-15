@@ -4,6 +4,7 @@
  "cargo": "governador",
  "uf": "SP",
  "partido": "REPUBLICANOS",
+ "cnpj_prestador": "68461922000130",
  "prestacao_parcial": true,
  "receitas": {
   "total": 30501925.39,
@@ -500,12 +501,85 @@
    "por_tipo": {
     "Despesas com pessoal": 237835.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 125.1
-   }
+   },
+   "valores": [
+    125.1,
+    3334.0,
+    3500.0,
+    6000.0,
+    6000.0,
+    6000.0,
+    6000.0,
+    10000.0,
+    10000.0,
+    10000.0,
+    10000.0,
+    10667.0,
+    11334.0,
+    20000.0,
+    20000.0,
+    25000.0,
+    25000.0,
+    25000.0,
+    30000.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 137818.67,
+   "Combustíveis e lubrificantes": 13305.58,
+   "Despesa com Impulsionamento de Conteúdos": 3500000.0,
+   "Despesas com Hospedagem": 2803.0,
+   "Despesas com pessoal": 237835.0,
+   "Despesas com transporte ou deslocamento": 1126379.6,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 125.1,
+   "Eventos de promoção da candidatura": 83478.8,
+   "Materiais de expediente": 5000.0,
+   "Pesquisas ou testes eleitorais": 319000.0,
+   "Produção de programas de rádio, televisão ou vídeo": 3968600.0,
+   "Publicidade por adesivos": 491000.0,
+   "Publicidade por jornais e revistas": 2450.0,
+   "Publicidade por materiais impressos": 916350.0,
+   "Serviços advocatícios": 3700000.0,
+   "Serviços contábeis": 400000.0,
+   "Serviços prestados por terceiros": 10366084.4
+  },
+  "pago_por_dia": {
+   "2026-08-18": 150000.0,
+   "2026-08-19": 29001.41,
+   "2026-08-21": 591791.5,
+   "2026-08-24": 150000.0,
+   "2026-08-25": 100000.0,
+   "2026-08-26": 500000.0,
+   "2026-08-28": 61367.8,
+   "2026-08-31": 510480.0,
+   "2026-09-01": 2975028.7,
+   "2026-09-02": 1502226.99,
+   "2026-09-04": 1132950.1,
+   "2026-09-08": 639473.5,
+   "2026-09-09": 14500.5,
+   "2026-09-10": 836290.5,
+   "2026-09-11": 2627601.0,
+   "2026-09-14": 642527.5,
+   "2026-09-15": 281804.5,
+   "2026-09-16": 99201.0,
+   "2026-09-17": 548264.6,
+   "2026-09-18": 0.5,
+   "2026-09-21": 4065034.0,
+   "2026-09-22": 329881.5,
+   "2026-09-23": 2.5,
+   "2026-09-24": 122200.0,
+   "2026-09-25": 922519.6,
+   "2026-09-28": 317103.0,
+   "2026-09-29": 4218206.5,
+   "2026-09-30": 202591.04,
+   "2026-10-01": 260668.5,
+   "2026-10-02": 389181.8,
+   "2026-10-05": 9478.8
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

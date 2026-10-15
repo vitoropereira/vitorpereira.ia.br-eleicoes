@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "PR",
  "partido": "PL",
+ "cnpj_prestador": "68519036000110",
  "prestacao_parcial": true,
  "receitas": {
   "total": 907968.0,
@@ -142,12 +143,43 @@
    "por_tipo": {
     "Atividades de militância e mobilização de rua": 10000.0,
     "Despesas com pessoal": 25000.0
-   }
+   },
+   "valores": [
+    2500.0,
+    2500.0,
+    2500.0,
+    2500.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 66000.0,
+   "Despesa com Impulsionamento de Conteúdos": 65000.0,
+   "Despesas com pessoal": 25000.0,
+   "Locação/cessão de bens imóveis": 46000.0,
+   "Locação/cessão de bens móveis (exceto veículos)": 300.0,
+   "Publicidade por adesivos": 16320.0,
+   "Publicidade por jornais e revistas": 1738.0,
+   "Publicidade por materiais impressos": 30400.0,
+   "Serviços prestados por terceiros": 70000.0
+  },
+  "pago_por_dia": {
+   "2026-08-28": 50000.0,
+   "2026-09-01": 84973.0,
+   "2026-09-03": 85400.0,
+   "2026-09-04": 22000.0,
+   "2026-09-05": 20000.0,
+   "2026-09-07": 10000.0,
+   "2026-09-08": 50000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

@@ -769,7 +769,8 @@ class TestGerar(unittest.TestCase):
 
     def test_forma_envelope_e_ordem(self):
         txt, d = self.gerar()
-        self.assertEqual(set(d), {"fonte", "data_base", "gerado_em", "indicadores"})
+        self.assertEqual(set(d), {"fonte", "data_base", "gerado_em", "avisos", "indicadores"})
+        self.assertEqual(d["avisos"], [])  # todas as fontes presentes: nada pulado
         self.assertEqual(d["data_base"], "2026-09-01")
         self.assertIn("https://exemplo.invalid/receita", d["fonte"])
         self.assertIn("https://exemplo.invalid/tse", d["fonte"])
@@ -816,6 +817,9 @@ class TestGerar(unittest.TestCase):
             _, d = self.gerar(pf_path=FIX / "nao_existe.json", saques_path=None)
         self.assertTrue(any("saque_especie pulado" in m for m in cm.output))
         self.assertTrue(any("pessoal_pf pulado" in m for m in cm.output))
+        # O que foi pulado fica no envelope, para a metodologia dizer.
+        self.assertTrue(any(a.startswith("saque_especie") for a in d["avisos"]))
+        self.assertTrue(any(a.startswith("repetidos do pessoal_pf") for a in d["avisos"]))
         nomes = [i["nome"] for i in d["indicadores"]["1001"]]
         self.assertNotIn("saque_especie", nomes)
         self.assertEqual(nomes.count("pessoal_pf"), 2)  # sobram contagem e redondos; repetidos precisa do arquivo

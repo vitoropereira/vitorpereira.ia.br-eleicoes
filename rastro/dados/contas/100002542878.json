@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "MA",
  "partido": "UNIÃO",
+ "cnpj_prestador": "68470578000145",
  "prestacao_parcial": true,
  "receitas": {
   "total": 2836820.5,
@@ -221,12 +222,41 @@
    "total": 146.7,
    "por_tipo": {
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 146.7
-   }
+   },
+   "valores": [
+    146.7
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 59300.0,
+   "Combustíveis e lubrificantes": 65302.5,
+   "Despesa com Impulsionamento de Conteúdos": 68000.0,
+   "Doações financeiras a outros candidatos/partidos": 250000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 146.7,
+   "Produção de jingles, vinhetas e slogans": 65000.0,
+   "Publicidade por adesivos": 120250.0,
+   "Publicidade por materiais impressos": 193837.5,
+   "Serviços advocatícios": 500000.0,
+   "Serviços contábeis": 100000.0,
+   "Serviços prestados por terceiros": 150000.0
+  },
+  "pago_por_dia": {
+   "2026-08-20": 3000.0,
+   "2026-08-25": 5000.0,
+   "2026-08-28": 231210.1,
+   "2026-08-31": 172706.8,
+   "2026-09-01": 182516.1,
+   "2026-09-02": 248003.4,
+   "2026-09-03": 500003.4,
+   "2026-09-04": 105415.3,
+   "2026-09-08": 20000.0,
+   "2026-09-10": 20.9,
+   "2026-09-11": 78.2
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

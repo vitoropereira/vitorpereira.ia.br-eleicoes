@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "MG",
  "partido": "REDE",
+ "cnpj_prestador": "68437561000196",
  "prestacao_parcial": true,
  "receitas": {
   "total": 3024934.0,
@@ -119,12 +120,68 @@
     "Despesas com pessoal": 104806.45,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 39.0,
     "Serviços contábeis": 15000.0
-   }
+   },
+   "valores": [
+    39.0,
+    870.97,
+    1935.48,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    6000.0,
+    7000.0,
+    15000.0,
+    15000.0
+   ]
+  },
+  "por_tipo": {
+   "Despesa com Impulsionamento de Conteúdos": 1374934.0,
+   "Despesas com pessoal": 104806.45,
+   "Diversas a especificar": 4785.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 39.0,
+   "Produção de jingles, vinhetas e slogans": 100000.0,
+   "Produção de programas de rádio, televisão ou vídeo": 33000.0,
+   "Publicidade por materiais impressos": 2090.0,
+   "Serviços contábeis": 15000.0
+  },
+  "pago_por_dia": {
+   "2026-08-19": 9934.0,
+   "2026-08-20": 5000.0,
+   "2026-08-21": 10000.0,
+   "2026-08-25": 60000.0,
+   "2026-08-26": 340000.0,
+   "2026-09-03": 125000.0,
+   "2026-09-04": 200026.0,
+   "2026-09-08": 8000.0,
+   "2026-09-10": 4785.0,
+   "2026-09-11": 357304.4,
+   "2026-09-15": 151883.97,
+   "2026-09-21": 300000.0,
+   "2026-09-23": 7500.0,
+   "2026-09-30": 50000.0,
+   "2026-10-02": 60435.48
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

@@ -4,23 +4,24 @@
  "cargo": "depfed",
  "uf": "SP",
  "partido": "PT",
+ "cnpj_prestador": "68373194000104",
  "prestacao_parcial": true,
  "receitas": {
-  "total": 2127743.16,
+  "total": 2177743.16,
   "por_origem": {
    "Recursos de outros candidatos": 4483.16,
-   "Recursos de partido político": 2018460.0,
+   "Recursos de partido político": 2068460.0,
    "Recursos de pessoas físicas": 104800.0
   },
   "por_fonte": {
    "FUNDO ESPECIAL": 1819983.16,
-   "OUTROS RECURSOS": 307760.0
+   "OUTROS RECURSOS": 357760.0
   },
   "doadores_pj": [
    {
     "cnpj": "00676262000170",
     "nome": "Direção Nacional - PT",
-    "total": 2018460.0
+    "total": 2068460.0
    },
    {
     "cnpj": "68373104000185",
@@ -34,7 +35,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 1378436.8,
+  "total_contratado": 1394878.2,
   "total_pago": 1971737.81,
   "fornecedores_pj": [
    {
@@ -66,7 +67,7 @@
      "Publicidade por adesivos",
      "Publicidade por materiais impressos"
     ],
-    "total": 175270.5
+    "total": 169294.5
    },
    {
     "cnpj": "68373172000144",
@@ -132,12 +133,12 @@
     "cnpj": "34912328000104",
     "nome": "DEILDE FERREIRA DAS NEVES",
     "cnae": "58298",
-    "n_despesas": 19,
+    "n_despesas": 21,
     "tipos": [
      "Publicidade por adesivos",
      "Publicidade por materiais impressos"
     ],
-    "total": 42370.0
+    "total": 43610.0
    },
    {
     "cnpj": "10865394000102",
@@ -148,6 +149,17 @@
      "Serviços contábeis"
     ],
     "total": 35000.0
+   },
+   {
+    "cnpj": "51735365000103",
+    "nome": "BIGRAFICA EMBALAGENS LTDA",
+    "cnae": "18113",
+    "n_despesas": 8,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 33361.4
    },
    {
     "cnpj": "68373465000121",
@@ -168,17 +180,6 @@
      "Serviços advocatícios"
     ],
     "total": 15000.0
-   },
-   {
-    "cnpj": "51735365000103",
-    "nome": "BIGRAFICA EMBALAGENS LTDA",
-    "cnae": "18113",
-    "n_despesas": 8,
-    "tipos": [
-     "Publicidade por adesivos",
-     "Publicidade por materiais impressos"
-    ],
-    "total": 12184.0
    },
    {
     "cnpj": "03188474000105",
@@ -249,12 +250,59 @@
    "por_tipo": {
     "Despesas com pessoal": 14500.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 253.0
-   }
+   },
+   "valores": [
+    253.0,
+    3000.0,
+    4500.0,
+    7000.0
+   ]
+  },
+  "por_tipo": {
+   "Despesa com Impulsionamento de Conteúdos": 225000.0,
+   "Despesas com pessoal": 14500.0,
+   "Doações financeiras a outros candidatos/partidos": 740000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 253.0,
+   "Eventos de promoção da candidatura": 400.0,
+   "Publicidade por adesivos": 24326.8,
+   "Publicidade por jornais e revistas": 5800.0,
+   "Publicidade por materiais impressos": 274598.4,
+   "Serviços advocatícios": 15000.0,
+   "Serviços contábeis": 35000.0,
+   "Serviços prestados por terceiros": 60000.0
+  },
+  "pago_por_dia": {
+   "2026-08-26": 150000.0,
+   "2026-08-28": 75000.0,
+   "2026-08-30": 26273.35,
+   "2026-08-31": 3.0,
+   "2026-09-01": 548469.2,
+   "2026-09-03": 17500.0,
+   "2026-09-04": 160013.6,
+   "2026-09-05": 1500.0,
+   "2026-09-06": 240000.0,
+   "2026-09-08": 0.5,
+   "2026-09-10": 105934.6,
+   "2026-09-11": 149297.7,
+   "2026-09-15": 68.0,
+   "2026-09-16": 87000.0,
+   "2026-09-18": 30000.0,
+   "2026-09-21": 81703.5,
+   "2026-09-22": 7436.0,
+   "2026-09-23": 4459.0,
+   "2026-09-25": 17900.5,
+   "2026-09-29": 48908.76,
+   "2026-09-30": 840.0,
+   "2026-10-01": 150002.0,
+   "2026-10-02": 9033.5,
+   "2026-10-03": 57800.0,
+   "2026-10-05": 2019.6,
+   "2026-10-06": 575.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

@@ -4,6 +4,7 @@
  "cargo": "senador",
  "uf": "PR",
  "partido": "NOVO",
+ "cnpj_prestador": "68518787000111",
  "prestacao_parcial": true,
  "receitas": {
   "total": 4058102.0,
@@ -41,7 +42,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 3275904.57,
+  "total_contratado": 3287779.58,
   "total_pago": 2204114.07,
   "fornecedores_pj": [
    {
@@ -226,6 +227,16 @@
     "total": 15000.0
    },
    {
+    "cnpj": "52927367000159",
+    "nome": "52.927.367 IVANILDO FRANCISCO DOS SANTOS TERCEIRO",
+    "cnae": "58131",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços prestados por terceiros"
+    ],
+    "total": 14583.34
+   },
+   {
     "cnpj": "30107367000170",
     "nome": "FDUBA DESIGN LTDA",
     "cnae": "74102",
@@ -335,16 +346,6 @@
      "Serviços prestados por terceiros"
     ],
     "total": 2916.66
-   },
-   {
-    "cnpj": "52927367000159",
-    "nome": "52.927.367 IVANILDO FRANCISCO DOS SANTOS TERCEIRO",
-    "cnae": "58131",
-    "n_despesas": 1,
-    "tipos": [
-     "Serviços prestados por terceiros"
-    ],
-    "total": 2708.33
    },
    {
     "cnpj": "10289458000166",
@@ -734,12 +735,77 @@
     "Atividades de militância e mobilização de rua": 8100.0,
     "Despesas com pessoal": 96471.8,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 38.46
-   }
+   },
+   "valores": [
+    38.46,
+    2000.0,
+    4000.0,
+    4883.72,
+    8100.0,
+    8100.0,
+    8750.0,
+    11000.0,
+    14583.33,
+    14583.33,
+    28571.42
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 1048.86,
+   "Atividades de militância e mobilização de rua": 22425.0,
+   "Cessão ou locação de veículos": 12055.75,
+   "Combustíveis e lubrificantes": 3117.94,
+   "Correspondências e despesas postais": 2618.0,
+   "Despesa com Impulsionamento de Conteúdos": 490000.0,
+   "Despesas com Hospedagem": 312.51,
+   "Despesas com pessoal": 121690.44,
+   "Despesas com transporte ou deslocamento": 44613.33,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 38.46,
+   "Eventos de promoção da candidatura": 1928.74,
+   "Locação/cessão de bens imóveis": 20079.8,
+   "Locação/cessão de bens móveis (exceto veículos)": 660.0,
+   "Materiais de expediente": 1431.68,
+   "Produção de programas de rádio, televisão ou vídeo": 503999.0,
+   "Publicidade por adesivos": 17077.94,
+   "Publicidade por materiais impressos": 22625.0,
+   "Serviços advocatícios": 1100000.0,
+   "Serviços contábeis": 50000.0,
+   "Serviços prestados por terceiros": 869611.34,
+   "Taxa de Administração de Financiamento Coletivo": 2445.79
+  },
+  "pago_por_dia": {
+   "2026-08-17": 22170.9,
+   "2026-08-18": 8074.29,
+   "2026-08-19": 23197.4,
+   "2026-08-20": 42651.74,
+   "2026-08-21": 18339.08,
+   "2026-08-24": 73152.9,
+   "2026-08-25": 17439.5,
+   "2026-08-26": 4957.5,
+   "2026-08-27": 275661.98,
+   "2026-08-28": 184069.9,
+   "2026-08-31": 241319.04,
+   "2026-09-01": 10001.0,
+   "2026-09-02": 32392.37,
+   "2026-09-03": 118662.0,
+   "2026-09-04": 254425.9,
+   "2026-09-07": 10215.52,
+   "2026-09-08": 130045.5,
+   "2026-09-09": 67229.77,
+   "2026-09-10": 10893.62,
+   "2026-09-11": 16925.0,
+   "2026-09-15": 223890.0,
+   "2026-09-16": 3500.0,
+   "2026-09-18": 6877.55,
+   "2026-09-28": 264855.25,
+   "2026-09-29": 86662.98,
+   "2026-09-30": 44841.67,
+   "2026-10-01": 11661.71
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

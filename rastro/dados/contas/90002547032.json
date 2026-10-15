@@ -4,16 +4,18 @@
  "cargo": "depest",
  "uf": "GO",
  "partido": "UNIÃO",
+ "cnpj_prestador": "68519390000144",
  "prestacao_parcial": true,
  "receitas": {
-  "total": 569400.0,
+  "total": 669398.5,
   "por_origem": {
-   "Recursos de outros candidatos": 100000.0,
+   "Recursos de outros candidatos": 199998.5,
    "Recursos de partido político": 400000.0,
    "Recursos de pessoas físicas": 69400.0
   },
   "por_fonte": {
    "FUNDO ESPECIAL": 500000.0,
+   "FUNDO PARTIDARIO": 99998.5,
    "OUTROS RECURSOS": 69400.0
   },
   "doadores_pj": [
@@ -30,7 +32,7 @@
    {
     "cnpj": "68470036000172",
     "nome": "LUANA DO PRADO ROCHA MELO",
-    "total": 100000.0
+    "total": 199998.5
    }
   ],
   "doadores_pf": {
@@ -39,8 +41,8 @@
   }
  },
  "despesas": {
-  "total_contratado": 250041.94,
-  "total_pago": 183067.75,
+  "total_contratado": 252923.54,
+  "total_pago": 186168.34,
   "fornecedores_pj": [
    {
     "cnpj": "06280536000194",
@@ -83,6 +85,16 @@
     "total": 20000.0
    },
    {
+    "cnpj": "31741940000165",
+    "nome": "POSTO INDEPENDENCIA LTDA",
+    "cnae": "47318",
+    "n_despesas": 22,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 10131.23
+   },
+   {
     "cnpj": "06301679000135",
     "nome": "REPARAUTO RECUPERADORA DE VEICULOS LUZIANIA LTDA.",
     "cnae": "45200",
@@ -91,16 +103,6 @@
      "Cessão ou locação de veículos"
     ],
     "total": 7500.0
-   },
-   {
-    "cnpj": "31741940000165",
-    "nome": "POSTO INDEPENDENCIA LTDA",
-    "cnae": "47318",
-    "n_despesas": 14,
-    "tipos": [
-     "Combustíveis e lubrificantes"
-    ],
-    "total": 7249.63
    },
    {
     "cnpj": "41354878000102",
@@ -173,12 +175,137 @@
     "Locação/cessão de bens imóveis": 10500.0,
     "Locação/cessão de bens móveis (exceto veículos)": 4000.0,
     "Publicidade por carros de som": 15000.0
-   }
+   },
+   "valores": [
+    48.31,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    2500.0,
+    4000.0,
+    7500.0,
+    8000.0,
+    15000.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 71284.0,
+   "Cessão ou locação de veículos": 35000.0,
+   "Combustíveis e lubrificantes": 10131.23,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 48.31,
+   "Eventos de promoção da candidatura": 2000.0,
+   "Locação/cessão de bens imóveis": 10500.0,
+   "Locação/cessão de bens móveis (exceto veículos)": 4000.0,
+   "Materiais de expediente": 510.0,
+   "Produção de programas de rádio, televisão ou vídeo": 50000.0,
+   "Publicidade por adesivos": 21670.0,
+   "Publicidade por carros de som": 16280.0,
+   "Publicidade por materiais impressos": 1500.0,
+   "Serviços contábeis": 30000.0
+  },
+  "pago_por_dia": {
+   "2026-08-27": 3.99,
+   "2026-08-28": 50009.0,
+   "2026-09-01": 14.13,
+   "2026-09-04": 137.09,
+   "2026-09-08": 60198.0,
+   "2026-09-10": 1.9,
+   "2026-09-17": 22089.42,
+   "2026-09-19": 1280.0,
+   "2026-09-25": 2543.82,
+   "2026-09-30": 4000.0,
+   "2026-10-01": 12000.0,
+   "2026-10-02": 1720.23,
+   "2026-10-03": 29570.0,
+   "2026-10-07": 2270.77,
+   "2026-10-09": 329.99
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "SP",
  "partido": "PL",
+ "cnpj_prestador": "68353058000152",
  "prestacao_parcial": true,
  "receitas": {
   "total": 1058032.07,
@@ -110,12 +111,30 @@
    "total": 9.8,
    "por_tipo": {
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 9.8
-   }
+   },
+   "valores": [
+    9.8
+   ]
+  },
+  "por_tipo": {
+   "Despesa com Impulsionamento de Conteúdos": 500000.0,
+   "Diversas a especificar": 720.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 9.8,
+   "Locação/cessão de bens imóveis": 2000.0,
+   "Publicidade por adesivos": 1450.0,
+   "Serviços advocatícios": 30000.0,
+   "Serviços contábeis": 3000.0
+  },
+  "pago_por_dia": {
+   "2026-08-17": 50000.0,
+   "2026-08-27": 450000.0,
+   "2026-08-28": 2300.0,
+   "2026-09-01": 9.8
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

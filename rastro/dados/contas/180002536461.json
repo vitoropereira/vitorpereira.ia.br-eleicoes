@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "PI",
  "partido": "MDB",
+ "cnpj_prestador": "68373516000115",
  "prestacao_parcial": true,
  "receitas": {
   "total": 2585465.75,
@@ -29,7 +30,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 1674432.58,
+  "total_contratado": 1687932.58,
   "total_pago": 2301711.46,
   "fornecedores_pj": [
    {
@@ -54,16 +55,6 @@
     "total": 350000.0
    },
    {
-    "cnpj": "00288475000125",
-    "nome": "R DE MACEDO NUNES",
-    "cnae": "77390",
-    "n_despesas": 1,
-    "tipos": [
-     "Eventos de promoção da candidatura"
-    ],
-    "total": 150000.0
-   },
-   {
     "cnpj": "50673804000120",
     "nome": "SMARTPRINT LTDA",
     "cnae": "18130",
@@ -72,7 +63,17 @@
      "Publicidade por adesivos",
      "Publicidade por materiais impressos"
     ],
-    "total": 138500.0
+    "total": 152000.0
+   },
+   {
+    "cnpj": "00288475000125",
+    "nome": "R DE MACEDO NUNES",
+    "cnae": "77390",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 150000.0
    },
    {
     "cnpj": "56343268000180",
@@ -272,12 +273,74 @@
     "Cessão ou locação de veículos": 146000.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 150.2,
     "Publicidade por carros de som": 1550.0
-   }
+   },
+   "valores": [
+    150.2,
+    750.0,
+    800.0,
+    5000.0,
+    6250.0,
+    6750.0,
+    6750.0,
+    6750.0,
+    6750.0,
+    6750.0,
+    8000.0,
+    8500.0,
+    8500.0,
+    9000.0,
+    10000.0,
+    15000.0,
+    15000.0,
+    27000.0
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 41780.0,
+   "Atividades de militância e mobilização de rua": 357574.0,
+   "Cessão ou locação de veículos": 146000.0,
+   "Combustíveis e lubrificantes": 58389.16,
+   "Criação e inclusão de páginas na internet": 455.76,
+   "Despesa com Impulsionamento de Conteúdos": 43300.0,
+   "Despesas com pessoal": 42023.74,
+   "Despesas com transporte ou deslocamento": 5170.0,
+   "Diversas a especificar": 5000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 150.2,
+   "Eventos de promoção da candidatura": 200000.0,
+   "Locação/cessão de bens imóveis": 18000.0,
+   "Materiais de expediente": 1309.72,
+   "Produção de programas de rádio, televisão ou vídeo": 362500.0,
+   "Publicidade por adesivos": 47780.0,
+   "Publicidade por carros de som": 1550.0,
+   "Publicidade por materiais impressos": 196950.0,
+   "Serviços advocatícios": 100000.0,
+   "Serviços contábeis": 60000.0
+  },
+  "pago_por_dia": {
+   "2026-08-19": 3000.0,
+   "2026-08-25": 300.0,
+   "2026-09-01": 520051.3,
+   "2026-09-02": 549875.48,
+   "2026-09-03": 47850.0,
+   "2026-09-04": 96390.6,
+   "2026-09-08": 492611.04,
+   "2026-09-09": 46254.4,
+   "2026-09-10": 14158.94,
+   "2026-09-13": 455.76,
+   "2026-09-15": 124413.15,
+   "2026-09-16": 40053.6,
+   "2026-09-21": 3499.88,
+   "2026-09-22": 18861.08,
+   "2026-09-23": 0.5,
+   "2026-09-24": 83400.0,
+   "2026-09-25": 239265.74,
+   "2026-09-28": 17226.86,
+   "2026-09-29": 4043.13
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "SC",
  "partido": "PT",
+ "cnpj_prestador": "68437626000101",
  "prestacao_parcial": true,
  "receitas": {
   "total": 225850.8,
@@ -225,12 +226,69 @@
    "por_tipo": {
     "Despesas com pessoal": 29500.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 24.5
-   }
+   },
+   "valores": [
+    24.5,
+    500.0,
+    500.0,
+    500.0,
+    500.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    2000.0,
+    2000.0,
+    4000.0,
+    4000.0,
+    4000.0
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 350.0,
+   "Despesa com Impulsionamento de Conteúdos": 35280.3,
+   "Despesas com pessoal": 29500.0,
+   "Diversas a especificar": 7025.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 24.5,
+   "Locação/cessão de bens imóveis": 9950.33,
+   "Produção de jingles, vinhetas e slogans": 400.0,
+   "Publicidade por jornais e revistas": 1490.0,
+   "Publicidade por materiais impressos": 57336.0,
+   "Serviços prestados por terceiros": 27455.0,
+   "Taxa de Administração de Financiamento Coletivo": 167.52
+  },
+  "pago_por_dia": {
+   "2026-08-15": 133.7,
+   "2026-08-24": 1300.5,
+   "2026-08-28": 34980.3,
+   "2026-08-29": 10500.0,
+   "2026-08-31": 30094.83,
+   "2026-09-03": 17992.2,
+   "2026-09-08": 4860.5,
+   "2026-09-09": 6501.5,
+   "2026-09-14": 12140.0,
+   "2026-09-15": 402.5,
+   "2026-09-17": 13450.0,
+   "2026-09-18": 1502.0,
+   "2026-09-21": 4992.0,
+   "2026-09-22": 95.5,
+   "2026-09-23": 2002.0,
+   "2026-09-24": 2520.83,
+   "2026-09-25": 13412.5,
+   "2026-09-28": 6251.5,
+   "2026-09-29": 4103.5,
+   "2026-09-30": 250.0,
+   "2026-10-03": 12.99
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

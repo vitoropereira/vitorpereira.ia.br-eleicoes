@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "CE",
  "partido": "REPUBLICANOS",
+ "cnpj_prestador": "68492499000135",
  "prestacao_parcial": true,
  "receitas": {
   "total": 2836853.67,
@@ -220,12 +221,53 @@
     "Produção de jingles, vinhetas e slogans": 12000.0,
     "Publicidade por carros de som": 13000.0,
     "Serviços advocatícios": 10000.0
-   }
+   },
+   "valores": [
+    43.6,
+    5000.0,
+    5000.0,
+    12000.0,
+    13000.0,
+    22000.0
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 21608.8,
+   "Atividades de militância e mobilização de rua": 145370.0,
+   "Cessão ou locação de veículos": 4288.0,
+   "Combustíveis e lubrificantes": 1171.99,
+   "Despesa com Impulsionamento de Conteúdos": 172000.0,
+   "Despesas com transporte ou deslocamento": 44000.0,
+   "Diversas a especificar": 1500.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 43.6,
+   "Produção de jingles, vinhetas e slogans": 12000.0,
+   "Publicidade por adesivos": 185950.0,
+   "Publicidade por carros de som": 13000.0,
+   "Publicidade por materiais impressos": 837151.5,
+   "Serviços advocatícios": 10000.0,
+   "Serviços contábeis": 65000.0,
+   "Serviços prestados por terceiros": 120000.0
+  },
+  "pago_por_dia": {
+   "2026-08-31": 12000.0,
+   "2026-09-01": 60000.0,
+   "2026-09-04": 24400.5,
+   "2026-09-08": 74400.5,
+   "2026-09-09": 67139.6,
+   "2026-09-10": 332626.0,
+   "2026-09-11": 290001.0,
+   "2026-09-16": 138450.5,
+   "2026-09-17": 122000.0,
+   "2026-09-18": 190156.8,
+   "2026-09-21": 629950.4,
+   "2026-09-23": 67200.0,
+   "2026-09-25": 60000.0,
+   "2026-10-10": 235700.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

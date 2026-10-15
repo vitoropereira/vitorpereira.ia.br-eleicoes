@@ -4,33 +4,34 @@
  "cargo": "depfed",
  "uf": "RN",
  "partido": "UNIÃO",
+ "cnpj_prestador": "68345416000185",
  "prestacao_parcial": true,
  "receitas": {
-  "total": 2974440.29,
+  "total": 2982607.44,
   "por_origem": {
-   "Recursos de partido político": 2899800.0,
-   "Recursos de pessoas físicas": 59640.29,
+   "Recursos de partido político": 2907077.57,
+   "Recursos de pessoas físicas": 60529.87,
    "Recursos próprios": 15000.0
   },
   "por_fonte": {
-   "FUNDO ESPECIAL": 2899800.0,
-   "OUTROS RECURSOS": 74640.29
+   "FUNDO ESPECIAL": 2907077.57,
+   "OUTROS RECURSOS": 75529.87
   },
   "doadores_pj": [
    {
     "cnpj": "44551496000167",
     "nome": "Direção Nacional - UNIÃO",
-    "total": 2899800.0
+    "total": 2907077.57
    }
   ],
   "doadores_pf": {
-   "qtd": 12,
-   "total": 74640.29
+   "qtd": 13,
+   "total": 75529.87
   }
  },
  "despesas": {
-  "total_contratado": 2697973.01,
-  "total_pago": 953897.28,
+  "total_contratado": 2760548.13,
+  "total_pago": 2816513.9,
   "fornecedores_pj": [
    {
     "cnpj": "23895214000179",
@@ -138,16 +139,26 @@
     "cnpj": "27997819000121",
     "nome": "GRID COMUNICACAO VISUAL, SINALIZACAO E EVENTOS LTDA",
     "cnae": "18130",
-    "n_despesas": 2,
+    "n_despesas": 4,
     "tipos": [
      "Publicidade por materiais impressos"
     ],
-    "total": 16000.0
+    "total": 21150.0
    },
    {
     "cnpj": "13347016000117",
     "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
     "cnae": "73122",
+    "n_despesas": 1,
+    "tipos": [
+     "Despesa com Impulsionamento de Conteúdos"
+    ],
+    "total": 15000.0
+   },
+   {
+    "cnpj": "25021356000132",
+    "nome": "DLOCAL BRASIL INSTITUICAO DE PAGAMENTO S.A.",
+    "cnae": "74901",
     "n_despesas": 1,
     "tipos": [
      "Despesa com Impulsionamento de Conteúdos"
@@ -165,14 +176,24 @@
     "total": 12500.0
    },
    {
-    "cnpj": "03637347000138",
-    "nome": "L S COMERCIO E SERVICOS LTDA",
-    "cnae": "18113",
-    "n_despesas": 2,
+    "cnpj": "42930940000120",
+    "nome": "TL COMUNICACAO E MARKETING LTDA",
+    "cnae": "73190",
+    "n_despesas": 1,
     "tipos": [
-     "Publicidade por materiais impressos"
+     "Publicidade por jornais e revistas"
     ],
-    "total": 12210.0
+    "total": 12500.0
+   },
+   {
+    "cnpj": "43941908000102",
+    "nome": "DATAVERO PESQUISA E CONSULTORIA LTDA",
+    "cnae": "73203",
+    "n_despesas": 1,
+    "tipos": [
+     "Pesquisas ou testes eleitorais"
+    ],
+    "total": 11000.0
    },
    {
     "cnpj": "13205348000167",
@@ -183,6 +204,26 @@
      "Produção de jingles, vinhetas e slogans"
     ],
     "total": 10000.0
+   },
+   {
+    "cnpj": "08547432000633",
+    "nome": "POSTO FREI DAMIAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 8586.56
+   },
+   {
+    "cnpj": "03637347000138",
+    "nome": "L S COMERCIO E SERVICOS LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 6450.0
    },
    {
     "cnpj": "31346019000118",
@@ -235,15 +276,16 @@
     "total": 3800.0
    },
    {
-    "cnpj": "17340447000102",
-    "nome": "MARICLEYDSON COSTA DA SILVA LTDA",
-    "cnae": "18130",
-    "n_despesas": 2,
+    "cnpj": "10975626000177",
+    "nome": "10.975.626 JAMERSON ROQUE DA COSTA",
+    "cnae": "77292",
+    "n_despesas": 4,
     "tipos": [
-     "Publicidade por adesivos",
-     "Publicidade por materiais impressos"
+     "Comícios",
+     "Diversas a especificar",
+     "Locação/cessão de bens móveis (exceto veículos)"
     ],
-    "total": 3000.0
+    "total": 3100.0
    },
    {
     "cnpj": "14936977000120",
@@ -256,14 +298,35 @@
     "total": 2500.0
    },
    {
-    "cnpj": "08345698000199",
-    "nome": "M. B. COM. E DERIVADOS DE PETROLEO LTDA",
+    "cnpj": "17340447000102",
+    "nome": "MARICLEYDSON COSTA DA SILVA LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 2500.0
+   },
+   {
+    "cnpj": "08383127000149",
+    "nome": "G.BEZERRA DE QUEIROZ CIA",
     "cnae": "47318",
-    "n_despesas": 1,
+    "n_despesas": 3,
     "tipos": [
      "Combustíveis e lubrificantes"
     ],
-    "total": 1518.14
+    "total": 1968.69
+   },
+   {
+    "cnpj": "08345698000199",
+    "nome": "M. B. COM. E DERIVADOS DE PETROLEO LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1802.71
    },
    {
     "cnpj": "18511647000143",
@@ -276,25 +339,44 @@
     "total": 1500.0
    },
    {
-    "cnpj": "10975626000177",
-    "nome": "10.975.626 JAMERSON ROQUE DA COSTA",
-    "cnae": "77292",
-    "n_despesas": 3,
-    "tipos": [
-     "Diversas a especificar",
-     "Locação/cessão de bens móveis (exceto veículos)"
-    ],
-    "total": 960.0
-   },
-   {
     "cnpj": "24206617000550",
     "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 1120.22
+   },
+   {
+    "cnpj": "08547432000552",
+    "nome": "POSTO FREI DAMIAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 4,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 991.22
+   },
+   {
+    "cnpj": "08547432001010",
+    "nome": "POSTO FREI DAMIAO LTDA",
     "cnae": "47318",
     "n_despesas": 2,
     "tipos": [
      "Combustíveis e lubrificantes"
     ],
-    "total": 833.63
+    "total": 968.78
+   },
+   {
+    "cnpj": "08547432000390",
+    "nome": "POSTO FREI DAMIAO LTDA",
+    "cnae": "47318",
+    "n_despesas": 3,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 937.15
    },
    {
     "cnpj": "55044175000192",
@@ -307,6 +389,26 @@
     "total": 800.0
    },
    {
+    "cnpj": "48245105000137",
+    "nome": "E L DE Q FILGUEIRA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por adesivos"
+    ],
+    "total": 725.0
+   },
+   {
+    "cnpj": "24206617002846",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 625.49
+   },
+   {
     "cnpj": "03201304000105",
     "nome": "J. EDIELSON DO REGO",
     "cnae": "47121",
@@ -317,6 +419,16 @@
     "total": 600.0
    },
    {
+    "cnpj": "24206617001106",
+    "nome": "PARELHAS GAS LTDA",
+    "cnae": "47318",
+    "n_despesas": 2,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 596.4
+   },
+   {
     "cnpj": "24206617001793",
     "nome": "PARELHAS GAS LTDA",
     "cnae": "47318",
@@ -325,16 +437,6 @@
      "Combustíveis e lubrificantes"
     ],
     "total": 569.89
-   },
-   {
-    "cnpj": "08383127000149",
-    "nome": "G.BEZERRA DE QUEIROZ CIA",
-    "cnae": "47318",
-    "n_despesas": 1,
-    "tipos": [
-     "Combustíveis e lubrificantes"
-    ],
-    "total": 567.81
    },
    {
     "cnpj": "08547432000129",
@@ -367,44 +469,14 @@
     "total": 344.75
    },
    {
-    "cnpj": "08547432000552",
-    "nome": "POSTO FREI DAMIAO LTDA",
+    "cnpj": "59992055000178",
+    "nome": "COMERCIO DE COMBUSTIVEL LAJES LTDA",
     "cnae": "47318",
     "n_despesas": 1,
     "tipos": [
      "Combustíveis e lubrificantes"
     ],
-    "total": 330.02
-   },
-   {
-    "cnpj": "08547432000390",
-    "nome": "POSTO FREI DAMIAO LTDA",
-    "cnae": "47318",
-    "n_despesas": 1,
-    "tipos": [
-     "Combustíveis e lubrificantes"
-    ],
-    "total": 219.19
-   },
-   {
-    "cnpj": "08547432001010",
-    "nome": "POSTO FREI DAMIAO LTDA",
-    "cnae": "47318",
-    "n_despesas": 1,
-    "tipos": [
-     "Combustíveis e lubrificantes"
-    ],
-    "total": 198.62
-   },
-   {
-    "cnpj": "24206617002846",
-    "nome": "PARELHAS GAS LTDA",
-    "cnae": "47318",
-    "n_despesas": 1,
-    "tipos": [
-     "Combustíveis e lubrificantes"
-    ],
-    "total": 197.95
+    "total": 322.81
    },
    {
     "cnpj": "24206617000398",
@@ -427,16 +499,6 @@
     "total": 180.02
    },
    {
-    "cnpj": "24206617001106",
-    "nome": "PARELHAS GAS LTDA",
-    "cnae": "47318",
-    "n_despesas": 1,
-    "tipos": [
-     "Combustíveis e lubrificantes"
-    ],
-    "total": 180.01
-   },
-   {
     "cnpj": "08713513000151",
     "nome": "CASA NORTE LTDA",
     "cnae": "46419",
@@ -444,25 +506,226 @@
     "tipos": [
      "Materiais de expediente"
     ],
-    "total": 17.92
+    "total": 57.38
    }
   ],
   "fornecedores_pf": {
-   "qtd": 149,
-   "total": 1602226.72,
+   "qtd": 153,
+   "total": 1610632.72,
    "por_tipo": {
     "Cessão ou locação de veículos": 11500.0,
-    "Despesas com pessoal": 1555574.72,
-    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.0,
+    "Despesas com pessoal": 1557324.72,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 108.0,
     "Locação/cessão de bens imóveis": 150.0,
-    "Publicidade por carros de som": 15000.0,
+    "Publicidade por carros de som": 21550.0,
     "Serviços prestados por terceiros": 20000.0
-   }
+   },
+   "valores": [
+    108.0,
+    150.0,
+    810.5,
+    810.5,
+    810.5,
+    810.5,
+    810.5,
+    810.5,
+    810.5,
+    810.5,
+    810.5,
+    810.5,
+    810.5,
+    810.5,
+    1050.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1750.0,
+    2323.72,
+    2750.0,
+    2750.0,
+    3000.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    4000.0,
+    4000.0,
+    4500.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    15000.0,
+    20000.0
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 8800.0,
+   "Cessão ou locação de veículos": 116000.0,
+   "Combustíveis e lubrificantes": 19952.92,
+   "Comícios": 1300.0,
+   "Despesa com Impulsionamento de Conteúdos": 30000.0,
+   "Despesas com pessoal": 1557324.72,
+   "Diversas a especificar": 2100.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 108.0,
+   "Eventos de promoção da candidatura": 4000.0,
+   "Locação/cessão de bens imóveis": 32150.0,
+   "Locação/cessão de bens móveis (exceto veículos)": 300.0,
+   "Materiais de expediente": 57.38,
+   "Pesquisas ou testes eleitorais": 11000.0,
+   "Produção de jingles, vinhetas e slogans": 16800.0,
+   "Publicidade por adesivos": 69525.0,
+   "Publicidade por carros de som": 32550.0,
+   "Publicidade por jornais e revistas": 25000.0,
+   "Publicidade por materiais impressos": 56190.11,
+   "Serviços advocatícios": 300000.0,
+   "Serviços contábeis": 200000.0,
+   "Serviços prestados por terceiros": 277390.0
+  },
+  "pago_por_dia": {
+   "2026-08-27": 83740.56,
+   "2026-08-28": 50501.0,
+   "2026-09-01": 29833.34,
+   "2026-09-02": 9965.1,
+   "2026-09-04": 59478.75,
+   "2026-09-05": 16000.0,
+   "2026-09-08": 28204.17,
+   "2026-09-09": 737450.0,
+   "2026-09-10": 56503.0,
+   "2026-09-11": 93428.0,
+   "2026-09-15": 46903.14,
+   "2026-09-16": 285.07,
+   "2026-09-18": 139491.5,
+   "2026-09-21": 274200.0,
+   "2026-09-23": 136897.82,
+   "2026-09-24": 5500.5,
+   "2026-09-25": 858928.5,
+   "2026-09-27": 32771.36,
+   "2026-09-28": 2026.59,
+   "2026-10-02": 28751.5,
+   "2026-10-06": 125654.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

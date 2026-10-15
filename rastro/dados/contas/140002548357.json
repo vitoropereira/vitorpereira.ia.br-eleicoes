@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "PA",
  "partido": "PT",
+ "cnpj_prestador": "68526815000142",
  "prestacao_parcial": true,
  "receitas": {
   "total": 2980500.0,
@@ -26,7 +27,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 759136.5,
+  "total_contratado": 740416.5,
   "total_pago": 987291.5,
   "fornecedores_pj": [
    {
@@ -80,17 +81,6 @@
     "total": 59994.0
    },
    {
-    "cnpj": "27774178000146",
-    "nome": "DIOMERIO COELHO SERRAO JUNIOR LTDA",
-    "cnae": "18130",
-    "n_despesas": 2,
-    "tipos": [
-     "Publicidade por materiais impressos",
-     "Reembolsos de gastos realizados por eleitores"
-    ],
-    "total": 35700.0
-   },
-   {
     "cnpj": "48285429000107",
     "nome": "QUALITY SERVICOS E NEGOCIOS LTDA",
     "cnae": "18130",
@@ -119,6 +109,17 @@
      "Publicidade por materiais impressos"
     ],
     "total": 25500.0
+   },
+   {
+    "cnpj": "27774178000146",
+    "nome": "DIOMERIO COELHO SERRAO JUNIOR LTDA",
+    "cnae": "18130",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos",
+     "Reembolsos de gastos realizados por eleitores"
+    ],
+    "total": 16980.0
    },
    {
     "cnpj": "13347016000117",
@@ -168,12 +169,42 @@
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 10.5,
     "Locação/cessão de bens imóveis": 15000.0,
     "Serviços contábeis": 57000.0
-   }
+   },
+   "valores": [
+    10.5,
+    15000.0,
+    57000.0
+   ]
+  },
+  "por_tipo": {
+   "Despesa com Impulsionamento de Conteúdos": 13000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 10.5,
+   "Locação/cessão de bens imóveis": 15000.0,
+   "Publicidade por materiais impressos": 346706.0,
+   "Reembolsos de gastos realizados por eleitores": 14700.0,
+   "Serviços advocatícios": 80000.0,
+   "Serviços contábeis": 57000.0,
+   "Serviços prestados por terceiros": 214000.0
+  },
+  "pago_por_dia": {
+   "2026-08-28": 3000.0,
+   "2026-08-31": 5500.5,
+   "2026-09-01": 100314.0,
+   "2026-09-02": 193091.0,
+   "2026-09-03": 18585.5,
+   "2026-09-04": 187951.0,
+   "2026-09-05": 83450.0,
+   "2026-09-07": 57000.0,
+   "2026-09-08": 120000.5,
+   "2026-09-09": 16890.0,
+   "2026-09-10": 42250.0,
+   "2026-09-11": 51200.0,
+   "2026-09-12": 108059.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

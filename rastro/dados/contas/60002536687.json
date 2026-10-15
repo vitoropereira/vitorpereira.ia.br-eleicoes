@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "CE",
  "partido": "PSB",
+ "cnpj_prestador": "68373088000120",
  "prestacao_parcial": true,
  "receitas": {
   "total": 313714.94,
@@ -33,7 +34,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 266986.95,
+  "total_contratado": 268981.95,
   "total_pago": 170754.7,
   "fornecedores_pj": [
    {
@@ -88,6 +89,16 @@
     "total": 11000.0
    },
    {
+    "cnpj": "20381910000179",
+    "nome": "KLAP FARDAMENTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 1,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 10500.0
+   },
+   {
     "cnpj": "31397452000182",
     "nome": "ALEXSIMONE PEREIRA ALVES",
     "cnae": "82300",
@@ -96,16 +107,6 @@
      "Eventos de promoção da candidatura"
     ],
     "total": 10500.0
-   },
-   {
-    "cnpj": "20381910000179",
-    "nome": "KLAP FARDAMENTOS LTDA",
-    "cnae": "18130",
-    "n_despesas": 1,
-    "tipos": [
-     "Publicidade por materiais impressos"
-    ],
-    "total": 8505.0
    },
    {
     "cnpj": "64197851000159",
@@ -157,12 +158,73 @@
     "Serviços advocatícios": 15000.0,
     "Serviços contábeis": 15000.0,
     "Serviços prestados por terceiros": 73783.0
-   }
+   },
+   "valores": [
+    33.8,
+    700.0,
+    1000.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    2500.0,
+    3500.0,
+    4000.0,
+    6484.0,
+    10000.0,
+    15000.0,
+    15000.0,
+    20000.0
+   ]
+  },
+  "por_tipo": {
+   "Criação e inclusão de páginas na internet": 119.9,
+   "Despesa com Impulsionamento de Conteúdos": 11000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 33.8,
+   "Eventos de promoção da candidatura": 42000.0,
+   "Locação/cessão de bens imóveis": 11684.0,
+   "Publicidade por adesivos": 20905.0,
+   "Publicidade por materiais impressos": 59456.25,
+   "Serviços advocatícios": 15000.0,
+   "Serviços contábeis": 15000.0,
+   "Serviços prestados por terceiros": 93783.0
+  },
+  "pago_por_dia": {
+   "2026-08-27": 34781.35,
+   "2026-08-28": 19018.6,
+   "2026-09-02": 8413.6,
+   "2026-09-03": 119.9,
+   "2026-09-04": 25744.75,
+   "2026-09-21": 3000.0,
+   "2026-09-22": 1621.0,
+   "2026-09-23": 38010.0,
+   "2026-09-24": 21819.5,
+   "2026-09-25": 13226.0,
+   "2026-09-26": 5000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

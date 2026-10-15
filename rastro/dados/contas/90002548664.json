@@ -4,16 +4,17 @@
  "cargo": "depest",
  "uf": "GO",
  "partido": "PRD",
+ "cnpj_prestador": "68546040000177",
  "prestacao_parcial": true,
  "receitas": {
-  "total": 156125.0,
+  "total": 252125.0,
   "por_origem": {
    "Recursos de outros candidatos": 10425.0,
    "Recursos de pessoas físicas": 80000.0,
-   "Recursos próprios": 65700.0
+   "Recursos próprios": 161700.0
   },
   "por_fonte": {
-   "OUTROS RECURSOS": 156125.0
+   "OUTROS RECURSOS": 252125.0
   },
   "doadores_pj": [
    {
@@ -24,23 +25,23 @@
   ],
   "doadores_pf": {
    "qtd": 4,
-   "total": 145700.0
+   "total": 241700.0
   }
  },
  "despesas": {
-  "total_contratado": 122887.27,
-  "total_pago": 73576.27,
+  "total_contratado": 150832.27,
+  "total_pago": 80776.27,
   "fornecedores_pj": [
    {
     "cnpj": "01796505000177",
     "nome": "TRAPY ZOMBA CONFECCOES BRINDES LTDA",
     "cnae": "14126",
-    "n_despesas": 3,
+    "n_despesas": 4,
     "tipos": [
      "Publicidade por adesivos",
      "Publicidade por materiais impressos"
     ],
-    "total": 27400.0
+    "total": 40400.0
    },
    {
     "cnpj": "07804514000149",
@@ -76,22 +77,22 @@
     "cnpj": "14707720000104",
     "nome": "CONEXAO DIGITAL SOLUTION - COMUNICACAO VISUAL LTDA",
     "cnae": "18130",
-    "n_despesas": 3,
+    "n_despesas": 4,
     "tipos": [
      "Publicidade por adesivos",
      "Publicidade por materiais impressos"
     ],
-    "total": 4230.0
+    "total": 8730.0
    },
    {
     "cnpj": "10229779000175",
     "nome": "JUVANI BATISTA SOBRINHO CIA LTDA",
     "cnae": "58298",
-    "n_despesas": 1,
+    "n_despesas": 2,
     "tipos": [
      "Publicidade por adesivos"
     ],
-    "total": 3245.0
+    "total": 6490.0
    },
    {
     "cnpj": "56781731000176",
@@ -155,17 +156,61 @@
    }
   ],
   "fornecedores_pf": {
-   "qtd": 7,
-   "total": 15367.5,
+   "qtd": 16,
+   "total": 22567.5,
    "por_tipo": {
+    "Despesas com pessoal": 7200.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 4.5,
     "Locação/cessão de bens imóveis": 15363.0
-   }
+   },
+   "valores": [
+    4.5,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    2000.0,
+    2500.0,
+    6000.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 20000.0,
+   "Despesa com Impulsionamento de Conteúdos": 4000.0,
+   "Despesas com pessoal": 7200.0,
+   "Despesas com transporte ou deslocamento": 1404.77,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 4.5,
+   "Locação/cessão de bens imóveis": 15363.0,
+   "Publicidade por adesivos": 8120.0,
+   "Publicidade por materiais impressos": 49740.0,
+   "Serviços advocatícios": 20000.0,
+   "Serviços contábeis": 25000.0
+  },
+  "pago_por_dia": {
+   "2026-09-03": 20000.0,
+   "2026-09-04": 2501.0,
+   "2026-09-09": 1621.5,
+   "2026-09-14": 350.0,
+   "2026-09-15": 2176.0,
+   "2026-09-16": 1405.27,
+   "2026-09-18": 23131.0,
+   "2026-09-21": 18001.0,
+   "2026-09-23": 4390.5,
+   "2026-10-01": 5600.0,
+   "2026-10-02": 1600.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

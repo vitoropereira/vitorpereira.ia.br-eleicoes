@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "PB",
  "partido": "REPUBLICANOS",
+ "cnpj_prestador": "68491595000169",
  "prestacao_parcial": true,
  "receitas": {
   "total": 2097000.0,
@@ -177,12 +178,56 @@
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 95.0,
     "Impostos, contribuições e taxas": 1170.0,
     "Publicidade por carros de som": 45000.0
-   }
+   },
+   "valores": [
+    1265.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    45000.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 24000.0,
+   "Cessão ou locação de veículos": 13000.0,
+   "Combustíveis e lubrificantes": 1289.38,
+   "Despesa com Impulsionamento de Conteúdos": 50000.0,
+   "Despesas com transporte ou deslocamento": 480000.0,
+   "Diversas a especificar": 24000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 95.0,
+   "Impostos, contribuições e taxas": 1170.0,
+   "Publicidade por adesivos": 41200.0,
+   "Publicidade por carros de som": 45000.0,
+   "Publicidade por materiais impressos": 4000.0,
+   "Serviços advocatícios": 30000.0,
+   "Serviços contábeis": 40000.0,
+   "Serviços prestados por terceiros": 164000.0
+  },
+  "pago_por_dia": {
+   "2026-08-28": 62000.0,
+   "2026-08-31": 50000.0,
+   "2026-09-01": 52013.6,
+   "2026-09-11": 57225.5,
+   "2026-09-14": 222054.4,
+   "2026-09-15": 26403.28,
+   "2026-09-16": 70005.6,
+   "2026-09-17": 19200.0,
+   "2026-09-18": 0.5,
+   "2026-09-21": 1.7,
+   "2026-09-23": 70003.4,
+   "2026-09-24": 1236.14,
+   "2026-09-28": 3600.0,
+   "2026-09-29": 210014.6
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "RO",
  "partido": "PRD",
+ "cnpj_prestador": "68519819000101",
  "prestacao_parcial": true,
  "receitas": {
   "total": 85605.2,
@@ -161,12 +162,47 @@
     "Atividades de militância e mobilização de rua": 24536.08,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.0,
     "Serviços contábeis": 12000.0
-   }
+   },
+   "valores": [
+    3.0,
+    1989.41,
+    1989.41,
+    1989.41,
+    2652.55,
+    2652.55,
+    2652.55,
+    2652.55,
+    2652.55,
+    2652.55,
+    2652.55,
+    12000.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 24536.08,
+   "Cessão ou locação de veículos": 44900.44,
+   "Combustíveis e lubrificantes": 3036.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.0,
+   "Produção de jingles, vinhetas e slogans": 6000.0,
+   "Publicidade por adesivos": 4984.0,
+   "Publicidade por materiais impressos": 21900.0,
+   "Serviços advocatícios": 36000.0,
+   "Serviços contábeis": 12000.0,
+   "Serviços prestados por terceiros": 10000.0,
+   "Água": 650.0
+  },
+  "pago_por_dia": {
+   "2026-09-08": 650.5,
+   "2026-09-14": 14544.55,
+   "2026-09-15": 1991.41,
+   "2026-09-16": 20416.44,
+   "2026-09-18": 9947.56,
+   "2026-09-21": 1989.41
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

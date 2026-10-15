@@ -4,18 +4,19 @@
  "cargo": "depest",
  "uf": "SP",
  "partido": "PT",
+ "cnpj_prestador": "68373172000144",
  "prestacao_parcial": true,
  "receitas": {
-  "total": 1005434.99,
+  "total": 1006964.99,
   "por_origem": {
    "Recursos de Financiamento Coletivo": 125154.99,
    "Recursos de outros candidatos": 350000.0,
    "Recursos de partido político": 315500.0,
-   "Recursos de pessoas físicas": 214780.0
+   "Recursos de pessoas físicas": 216310.0
   },
   "por_fonte": {
    "FUNDO ESPECIAL": 615500.0,
-   "OUTROS RECURSOS": 389934.99
+   "OUTROS RECURSOS": 391464.99
   },
   "doadores_pj": [
    {
@@ -61,7 +62,7 @@
   ],
   "doadores_pf": {
    "qtd": 29,
-   "total": 214780.0
+   "total": 216310.0
   }
  },
  "despesas": {
@@ -216,12 +217,53 @@
     "Despesas com pessoal": 22500.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.0,
     "Locação/cessão de bens imóveis": 4500.0
-   }
+   },
+   "valores": [
+    3.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    4500.0
+   ]
+  },
+  "por_tipo": {
+   "Despesa com Impulsionamento de Conteúdos": 40000.0,
+   "Despesas com pessoal": 22500.0,
+   "Despesas com transporte ou deslocamento": 5250.0,
+   "Doações financeiras a outros candidatos/partidos": 20000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 3.0,
+   "Locação/cessão de bens imóveis": 12500.0,
+   "Locação/cessão de bens móveis (exceto veículos)": 23743.0,
+   "Produção de jingles, vinhetas e slogans": 1800.0,
+   "Publicidade por materiais impressos": 63086.98,
+   "Serviços advocatícios": 15000.0,
+   "Serviços contábeis": 20000.0,
+   "Serviços prestados por terceiros": 1259.9,
+   "Taxa de Administração de Financiamento Coletivo": 1961.17
+  },
+  "pago_por_dia": {
+   "2026-08-12": 1961.17,
+   "2026-08-18": 22600.0,
+   "2026-08-19": 17434.0,
+   "2026-08-28": 33579.05,
+   "2026-09-02": 20000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

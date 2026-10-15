@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "MA",
  "partido": "REPUBLICANOS",
+ "cnpj_prestador": "68345790000180",
  "prestacao_parcial": true,
  "receitas": {
   "total": 190650.0,
@@ -175,12 +176,43 @@
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.0,
     "Serviços contábeis": 4000.0,
     "Serviços prestados por terceiros": 3150.0
-   }
+   },
+   "valores": [
+    2.0,
+    2500.0,
+    2500.0,
+    3000.0,
+    3000.0,
+    3150.0,
+    4000.0,
+    7000.0
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 3000.0,
+   "Aquisição/Doação de bens móveis ou imóveis": 10000.0,
+   "Combustíveis e lubrificantes": 650.34,
+   "Despesa com Impulsionamento de Conteúdos": 1500.0,
+   "Diversas a especificar": 8639.05,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.0,
+   "Eventos de promoção da candidatura": 13800.0,
+   "Produção de jingles, vinhetas e slogans": 1800.0,
+   "Publicidade por adesivos": 3150.0,
+   "Publicidade por materiais impressos": 12556.5,
+   "Serviços advocatícios": 8000.0,
+   "Serviços contábeis": 4000.0,
+   "Serviços prestados por terceiros": 3150.0,
+   "Água": 1400.0
+  },
+  "pago_por_dia": {
+   "2026-09-01": 1500.0,
+   "2026-09-02": 10001.0,
+   "2026-09-08": 1258.82
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

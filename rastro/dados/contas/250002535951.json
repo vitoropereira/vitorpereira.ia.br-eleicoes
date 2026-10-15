@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "SP",
  "partido": "PL",
+ "cnpj_prestador": "68352993000102",
  "prestacao_parcial": true,
  "receitas": {
   "total": 2912409.05,
@@ -94,12 +95,57 @@
     "Atividades de militância e mobilização de rua": 40315.0,
     "Despesas com pessoal": 84000.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.5
-   }
+   },
+   "valores": [
+    2.5,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    6000.0,
+    6000.0,
+    10000.0,
+    10000.0,
+    10000.0,
+    10000.0,
+    12000.0,
+    12000.0,
+    12000.0,
+    12000.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 40315.0,
+   "Despesa com Impulsionamento de Conteúdos": 62000.0,
+   "Despesas com pessoal": 84000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.5,
+   "Publicidade por adesivos": 9000.0,
+   "Publicidade por materiais impressos": 4050.0,
+   "Serviços advocatícios": 100000.0,
+   "Serviços contábeis": 35000.0
+  },
+  "pago_por_dia": {
+   "2026-08-26": 35000.0,
+   "2026-08-28": 540087.5,
+   "2026-09-04": 2000.0,
+   "2026-09-07": 47000.0,
+   "2026-09-08": 25000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "RS",
  "partido": "PL",
+ "cnpj_prestador": "68378226000164",
  "prestacao_parcial": true,
  "receitas": {
   "total": 316900.0,
@@ -118,12 +119,28 @@
    "total": 4.0,
    "por_tipo": {
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 4.0
-   }
+   },
+   "valores": [
+    4.0
+   ]
+  },
+  "por_tipo": {
+   "Despesa com Impulsionamento de Conteúdos": 10000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 4.0,
+   "Publicidade por adesivos": 450.0,
+   "Publicidade por materiais impressos": 11180.0,
+   "Serviços contábeis": 3500.0,
+   "Serviços prestados por terceiros": 4880.0
+  },
+  "pago_por_dia": {
+   "2026-09-01": 3583.5,
+   "2026-09-04": 17308.5,
+   "2026-09-09": 10000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

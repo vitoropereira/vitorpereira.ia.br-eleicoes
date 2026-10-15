@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "RS",
  "partido": "PODE",
+ "cnpj_prestador": "68293694000136",
  "prestacao_parcial": true,
  "receitas": {
   "total": 1075851.64,
@@ -144,12 +145,44 @@
    "por_tipo": {
     "Atividades de militância e mobilização de rua": 4800.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 23.6
-   }
+   },
+   "valores": [
+    23.6,
+    4800.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 4800.0,
+   "Combustíveis e lubrificantes": 920.98,
+   "Correspondências e despesas postais": 80741.64,
+   "Despesa com Impulsionamento de Conteúdos": 131600.0,
+   "Despesas com transporte ou deslocamento": 1850.0,
+   "Doações financeiras a outros candidatos/partidos": 20000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 23.6,
+   "Materiais de expediente": 510.17,
+   "Publicidade por jornais e revistas": 98445.6,
+   "Serviços prestados por terceiros": 49000.0
+  },
+  "pago_por_dia": {
+   "2026-08-19": 800.0,
+   "2026-08-24": 600.0,
+   "2026-08-28": 1200.0,
+   "2026-09-03": 1000.0,
+   "2026-09-04": 15000.0,
+   "2026-09-08": 16850.22,
+   "2026-09-12": 12475.19,
+   "2026-09-14": 73733.29,
+   "2026-09-15": 90735.0,
+   "2026-09-16": 400.0,
+   "2026-09-17": 73976.23,
+   "2026-09-18": 20401.0,
+   "2026-09-19": 12000.0,
+   "2026-09-21": 56357.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

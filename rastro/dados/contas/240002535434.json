@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "SC",
  "partido": "NOVO",
+ "cnpj_prestador": "68329263000182",
  "prestacao_parcial": true,
  "receitas": {
   "total": 2554718.0,
@@ -40,7 +41,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 2067590.98,
+  "total_contratado": 2070515.15,
   "total_pago": 1860146.32,
   "fornecedores_pj": [
    {
@@ -63,7 +64,7 @@
      "Publicidade por adesivos",
      "Publicidade por materiais impressos"
     ],
-    "total": 258553.0
+    "total": 261803.0
    },
    {
     "cnpj": "13347016000117",
@@ -247,16 +248,6 @@
     "total": 4199.96
    },
    {
-    "cnpj": "07134578000180",
-    "nome": "AUTO POSTO BLU LIMITADA",
-    "cnae": "47318",
-    "n_despesas": 15,
-    "tipos": [
-     "Combustíveis e lubrificantes"
-    ],
-    "total": 3967.87
-   },
-   {
     "cnpj": "68329262000138",
     "nome": "MATHEUS ANDREIS CADORIN",
     "cnae": "94928",
@@ -265,6 +256,16 @@
      "Doações financeiras a outros candidatos/partidos"
     ],
     "total": 3750.0
+   },
+   {
+    "cnpj": "07134578000180",
+    "nome": "AUTO POSTO BLU LIMITADA",
+    "cnae": "47318",
+    "n_despesas": 15,
+    "tipos": [
+     "Combustíveis e lubrificantes"
+    ],
+    "total": 3642.04
    },
    {
     "cnpj": "15555787000125",
@@ -475,12 +476,149 @@
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 120.9,
     "Produção de jingles, vinhetas e slogans": 3100.0,
     "Serviços prestados por terceiros": 184260.0
-   }
+   },
+   "valores": [
+    120.9,
+    230.77,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3100.0,
+    3500.0,
+    3500.0,
+    3500.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4500.0,
+    4500.0,
+    4500.0,
+    4500.0,
+    4500.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5400.0,
+    5400.0,
+    5750.0,
+    6500.0,
+    7000.0,
+    7500.0,
+    7500.0,
+    8510.0,
+    9500.0,
+    10000.0,
+    10000.0,
+    10200.0,
+    11000.0,
+    12500.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 533910.77,
+   "Cessão ou locação de veículos": 36753.3,
+   "Combustíveis e lubrificantes": 9388.5,
+   "Correspondências e despesas postais": 29344.41,
+   "Criação e inclusão de páginas na internet": 99.0,
+   "Despesa com Impulsionamento de Conteúdos": 253265.62,
+   "Doações financeiras a outros candidatos/partidos": 192560.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 120.9,
+   "Materiais de expediente": 406.8,
+   "Produção de jingles, vinhetas e slogans": 4950.0,
+   "Publicidade por adesivos": 48281.0,
+   "Publicidade por jornais e revistas": 20621.46,
+   "Publicidade por materiais impressos": 475098.0,
+   "Serviços prestados por terceiros": 465550.0,
+   "Taxa de Administração de Financiamento Coletivo": 165.39
+  },
+  "pago_por_dia": {
+   "2026-08-17": 31665.48,
+   "2026-08-18": 152580.8,
+   "2026-08-19": 18454.6,
+   "2026-08-20": 37052.53,
+   "2026-08-21": 28058.33,
+   "2026-08-24": 424783.37,
+   "2026-08-25": 54801.0,
+   "2026-08-26": 146455.95,
+   "2026-08-27": 1506.85,
+   "2026-08-28": 32053.0,
+   "2026-08-31": 99398.28,
+   "2026-09-02": 3035.0,
+   "2026-09-04": 120912.34,
+   "2026-09-08": 72255.0,
+   "2026-09-09": 29833.31,
+   "2026-09-10": 100191.0,
+   "2026-09-11": 74754.6,
+   "2026-09-14": 110527.81,
+   "2026-09-15": 15985.09,
+   "2026-09-16": 7143.0,
+   "2026-09-17": 1000.0,
+   "2026-09-18": 53502.0,
+   "2026-09-21": 181392.5,
+   "2026-09-22": 24958.3,
+   "2026-09-23": 14050.5,
+   "2026-09-24": 4000.0,
+   "2026-09-25": 17730.77,
+   "2026-09-28": 2000.0,
+   "2026-09-29": 64.91
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

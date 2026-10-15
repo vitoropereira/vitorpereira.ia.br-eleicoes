@@ -4,16 +4,17 @@
  "cargo": "depest",
  "uf": "AM",
  "partido": "MDB",
+ "cnpj_prestador": "68237475000130",
  "prestacao_parcial": true,
  "receitas": {
-  "total": 743751.32,
+  "total": 769751.32,
   "por_origem": {
    "Recursos de partido político": 200000.0,
-   "Recursos de pessoas físicas": 543751.32
+   "Recursos de pessoas físicas": 569751.32
   },
   "por_fonte": {
    "FUNDO ESPECIAL": 200000.0,
-   "OUTROS RECURSOS": 543751.32
+   "OUTROS RECURSOS": 569751.32
   },
   "doadores_pj": [
    {
@@ -23,12 +24,12 @@
    }
   ],
   "doadores_pf": {
-   "qtd": 47,
-   "total": 543751.32
+   "qtd": 48,
+   "total": 569751.32
   }
  },
  "despesas": {
-  "total_contratado": 152387.5,
+  "total_contratado": 150062.5,
   "total_pago": 37041.5,
   "fornecedores_pj": [
    {
@@ -52,17 +53,6 @@
     "total": 10000.0
    },
    {
-    "cnpj": "10193016000111",
-    "nome": "S R A DOS SANTOS COMERCIAL",
-    "cnae": "47440",
-    "n_despesas": 2,
-    "tipos": [
-     "Publicidade por adesivos",
-     "Publicidade por materiais impressos"
-    ],
-    "total": 7800.0
-   },
-   {
     "cnpj": "13347016000117",
     "nome": "FACEBOOK SERVICOS ONLINE DO BRASIL LTDA.",
     "cnae": "73122",
@@ -81,6 +71,17 @@
      "Produção de jingles, vinhetas e slogans"
     ],
     "total": 6000.0
+   },
+   {
+    "cnpj": "10193016000111",
+    "nome": "S R A DOS SANTOS COMERCIAL",
+    "cnae": "47440",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 5475.0
    },
    {
     "cnpj": "26238181000182",
@@ -132,12 +133,143 @@
     "Despesas com pessoal": 6121.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.5,
     "Locação/cessão de bens imóveis": 2800.0
-   }
+   },
+   "valores": [
+    1.5,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    810.0,
+    1621.0,
+    2000.0,
+    2500.0,
+    2800.0,
+    3000.0,
+    3000.0,
+    4000.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 90190.0,
+   "Cessão ou locação de veículos": 3145.0,
+   "Combustíveis e lubrificantes": 10000.0,
+   "Criação e inclusão de páginas na internet": 40.0,
+   "Despesa com Impulsionamento de Conteúdos": 16000.0,
+   "Despesas com pessoal": 6121.0,
+   "Diversas a especificar": 3610.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.5,
+   "Locação/cessão de bens imóveis": 2800.0,
+   "Produção de jingles, vinhetas e slogans": 11000.0,
+   "Publicidade por adesivos": 475.0,
+   "Publicidade por materiais impressos": 5000.0,
+   "Água": 1680.0
+  },
+  "pago_por_dia": {
+   "2026-08-19": 40.0,
+   "2026-08-24": 11001.0,
+   "2026-08-27": 6000.0,
+   "2026-09-03": 10000.0,
+   "2026-09-09": 10000.5
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

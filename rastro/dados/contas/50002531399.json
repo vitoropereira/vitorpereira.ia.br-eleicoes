@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "BA",
  "partido": "PDT",
+ "cnpj_prestador": "68237402000148",
  "prestacao_parcial": true,
  "receitas": {
   "total": 3000000.0,
@@ -191,12 +192,45 @@
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 44.8,
     "Serviços prestados por terceiros": 136000.0,
     "Serviços próprios prestados por terceiros": 2000.0
-   }
+   },
+   "valores": [
+    44.8,
+    2000.0,
+    6000.0,
+    20000.0,
+    20000.0,
+    30000.0,
+    30000.0,
+    30000.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 9515.0,
+   "Despesa com Impulsionamento de Conteúdos": 27800.0,
+   "Despesas com pessoal": 7200.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 44.8,
+   "Publicidade por adesivos": 180000.0,
+   "Publicidade por materiais impressos": 306112.0,
+   "Serviços prestados por terceiros": 905550.0,
+   "Serviços próprios prestados por terceiros": 2000.0
+  },
+  "pago_por_dia": {
+   "2026-09-01": 35000.0,
+   "2026-09-02": 787667.8,
+   "2026-09-03": 512227.2,
+   "2026-09-08": 3000.5,
+   "2026-09-09": 229001.0,
+   "2026-09-14": 163000.0,
+   "2026-09-15": 207001.0,
+   "2026-09-16": 257761.5,
+   "2026-09-17": 232650.0,
+   "2026-09-18": 361416.92,
+   "2026-09-21": 46015.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

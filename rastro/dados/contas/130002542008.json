@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "MG",
  "partido": "PL",
+ "cnpj_prestador": "68464727000163",
  "prestacao_parcial": true,
  "receitas": {
   "total": 1879998.3,
@@ -34,7 +35,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 571886.63,
+  "total_contratado": 573925.51,
   "total_pago": 761829.55,
   "fornecedores_pj": [
    {
@@ -169,6 +170,16 @@
     "total": 5241.6
    },
    {
+    "cnpj": "38252868000151",
+    "nome": "BELLA EDITORA E GRAFICA LTDA",
+    "cnae": "18113",
+    "n_despesas": 2,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 4850.0
+   },
+   {
     "cnpj": "07307312000191",
     "nome": "J.M.E INFORMATICA LTDA",
     "cnae": "95118",
@@ -198,16 +209,6 @@
      "Publicidade por materiais impressos"
     ],
     "total": 3099.4
-   },
-   {
-    "cnpj": "38252868000151",
-    "nome": "BELLA EDITORA E GRAFICA LTDA",
-    "cnae": "18113",
-    "n_despesas": 2,
-    "tipos": [
-     "Publicidade por materiais impressos"
-    ],
-    "total": 2828.0
    },
    {
     "cnpj": "40138765000107",
@@ -732,16 +733,6 @@
     "total": 80.0
    },
    {
-    "cnpj": "38511887000155",
-    "nome": "A C F AGUA BRANCA LTDA",
-    "cnae": "53105",
-    "n_despesas": 1,
-    "tipos": [
-     "Correspondências e despesas postais"
-    ],
-    "total": 34.0
-   },
-   {
     "cnpj": "04737552001614",
     "nome": "MART MINAS DISTRIBUICAO LTDA",
     "cnae": "47113",
@@ -750,7 +741,17 @@
      "Alimentação",
      "Materiais de expediente"
     ],
-    "total": 27.92
+    "total": 44.8
+   },
+   {
+    "cnpj": "38511887000155",
+    "nome": "A C F AGUA BRANCA LTDA",
+    "cnae": "53105",
+    "n_despesas": 1,
+    "tipos": [
+     "Correspondências e despesas postais"
+    ],
+    "total": 34.0
    },
    {
     "cnpj": "86440674000556",
@@ -784,12 +785,132 @@
     "Produção de jingles, vinhetas e slogans": 1600.0,
     "Serviços contábeis": 16900.0,
     "Serviços prestados por terceiros": 7700.0
-   }
+   },
+   "valores": [
+    1.0,
+    120.4,
+    400.0,
+    600.0,
+    700.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1100.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1600.0,
+    1700.0,
+    1950.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2300.0,
+    2500.0,
+    2500.0,
+    2600.0,
+    2800.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3400.0,
+    3400.0,
+    3500.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5000.0,
+    5500.0,
+    5700.0,
+    6000.0,
+    6000.0,
+    6000.0,
+    7700.0,
+    7800.0,
+    12500.0,
+    14000.0,
+    15600.0,
+    16900.0,
+    26050.0
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 16611.47,
+   "Atividades de militância e mobilização de rua": 194501.0,
+   "Cessão ou locação de veículos": 43920.0,
+   "Combustíveis e lubrificantes": 32668.42,
+   "Correspondências e despesas postais": 2849.6,
+   "Despesa com Impulsionamento de Conteúdos": 100000.0,
+   "Despesas com Hospedagem": 2342.58,
+   "Despesas com pessoal": 5000.0,
+   "Impostos, contribuições e taxas": 120.4,
+   "Locação/cessão de bens imóveis": 37100.0,
+   "Locação/cessão de bens móveis (exceto veículos)": 7329.9,
+   "Materiais de expediente": 3120.57,
+   "Produção de jingles, vinhetas e slogans": 1600.0,
+   "Publicidade por materiais impressos": 54446.7,
+   "Serviços advocatícios": 45000.0,
+   "Serviços contábeis": 16900.0,
+   "Serviços prestados por terceiros": 8704.87,
+   "Serviços próprios prestados por terceiros": 1710.0
+  },
+  "pago_por_dia": {
+   "2026-08-19": 3000.0,
+   "2026-08-20": 2500.0,
+   "2026-08-21": 78000.0,
+   "2026-08-22": 295.36,
+   "2026-08-23": 1169.62,
+   "2026-08-24": 8350.71,
+   "2026-08-25": 25525.58,
+   "2026-08-26": 90820.31,
+   "2026-08-27": 9739.93,
+   "2026-08-28": 25937.0,
+   "2026-08-31": 13980.78,
+   "2026-09-01": 28501.57,
+   "2026-09-02": 24430.87,
+   "2026-09-03": 9551.4,
+   "2026-09-04": 13846.63,
+   "2026-09-05": 16606.77,
+   "2026-09-06": 200.0,
+   "2026-09-07": 250.0,
+   "2026-09-08": 33062.31,
+   "2026-09-09": 102579.47,
+   "2026-09-10": 40630.22,
+   "2026-09-11": 36276.94,
+   "2026-09-12": 5016.41,
+   "2026-09-13": 359.95,
+   "2026-09-14": 159721.16,
+   "2026-09-15": 971.66,
+   "2026-09-16": 2298.86,
+   "2026-09-17": 15120.92,
+   "2026-09-18": 11291.05,
+   "2026-09-19": 961.75,
+   "2026-09-20": 832.32
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

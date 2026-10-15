@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "RJ",
  "partido": "PL",
+ "cnpj_prestador": "68269111000131",
  "prestacao_parcial": true,
  "receitas": {
   "total": 552684.66,
@@ -79,12 +80,74 @@
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 19.5,
     "Serviços advocatícios": 15000.0,
     "Serviços contábeis": 15000.0
-   }
+   },
+   "valores": [
+    19.5,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    2000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    4000.0,
+    6000.0,
+    6000.0,
+    6000.0,
+    8500.0,
+    8500.0,
+    8500.0,
+    8500.0,
+    8500.0,
+    8500.0,
+    8500.0,
+    8500.0,
+    8500.0,
+    9500.0,
+    15000.0,
+    15000.0
+   ]
+  },
+  "por_tipo": {
+   "Despesas com pessoal": 159000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 19.5,
+   "Eventos de promoção da candidatura": 5300.0,
+   "Publicidade por jornais e revistas": 27743.0,
+   "Publicidade por materiais impressos": 33436.5,
+   "Serviços advocatícios": 15000.0,
+   "Serviços contábeis": 15000.0
+  },
+  "pago_por_dia": {
+   "2026-08-31": 20006.0,
+   "2026-09-01": 7301.5,
+   "2026-09-02": 9583.2,
+   "2026-09-04": 102500.5,
+   "2026-09-08": 92010.5,
+   "2026-09-09": 27743.5
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

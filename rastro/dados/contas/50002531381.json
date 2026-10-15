@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "BA",
  "partido": "PDT",
+ "cnpj_prestador": "68237503000119",
  "prestacao_parcial": true,
  "receitas": {
   "total": 584975.0,
@@ -127,12 +128,60 @@
     "Locação/cessão de bens imóveis": 2400.0,
     "Produção de jingles, vinhetas e slogans": 7500.0,
     "Publicidade por carros de som": 12800.0
-   }
+   },
+   "valores": [
+    46.5,
+    2400.0,
+    3500.0,
+    4000.0,
+    5850.0,
+    6050.0,
+    6050.0,
+    7200.0,
+    12800.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 25150.0,
+   "Combustíveis e lubrificantes": 14073.14,
+   "Despesas com transporte ou deslocamento": 2500.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 46.5,
+   "Locação/cessão de bens imóveis": 2400.0,
+   "Produção de jingles, vinhetas e slogans": 7500.0,
+   "Publicidade por carros de som": 12800.0,
+   "Publicidade por materiais impressos": 106500.0,
+   "Serviços advocatícios": 20000.0,
+   "Serviços contábeis": 20000.0,
+   "Serviços prestados por terceiros": 358263.0
+  },
+  "pago_por_dia": {
+   "2026-08-24": 150.5,
+   "2026-09-02": 39600.0,
+   "2026-09-04": 24895.95,
+   "2026-09-08": 607.1,
+   "2026-09-10": 12104.0,
+   "2026-09-11": 13939.07,
+   "2026-09-14": 6649.89,
+   "2026-09-15": 103.0,
+   "2026-09-16": 97901.5,
+   "2026-09-17": 81400.0,
+   "2026-09-18": 3894.89,
+   "2026-09-21": 4185.0,
+   "2026-09-22": 142.19,
+   "2026-09-23": 502.0,
+   "2026-09-25": 1898.04,
+   "2026-09-28": 4370.9,
+   "2026-09-29": 32639.0,
+   "2026-09-30": 4390.44,
+   "2026-10-01": 1.5,
+   "2026-10-02": 16217.11,
+   "2026-10-05": 174075.56,
+   "2026-10-06": 36875.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "PI",
  "partido": "PSD",
+ "cnpj_prestador": "68289770000130",
  "prestacao_parcial": true,
  "receitas": {
   "total": 1453713.4,
@@ -242,12 +243,43 @@
     "Cessão ou locação de veículos": 5500.0,
     "Despesas com pessoal": 12000.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.0
-   }
+   },
+   "valores": [
+    1.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    3000.0,
+    5500.0
+   ]
+  },
+  "por_tipo": {
+   "Alimentação": 45000.0,
+   "Atividades de militância e mobilização de rua": 185000.0,
+   "Cessão ou locação de veículos": 41250.0,
+   "Combustíveis e lubrificantes": 140734.38,
+   "Despesas com pessoal": 12000.0,
+   "Despesas com transporte ou deslocamento": 142240.0,
+   "Diversas a especificar": 3980.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 1.0,
+   "Eventos de promoção da candidatura": 30000.0,
+   "Locação/cessão de bens imóveis": 4500.0,
+   "Materiais de expediente": 1287.51,
+   "Produção de programas de rádio, televisão ou vídeo": 272000.0,
+   "Publicidade por adesivos": 30300.0,
+   "Publicidade por materiais impressos": 37820.0,
+   "Serviços advocatícios": 25000.0,
+   "Serviços contábeis": 60000.0
+  },
+  "pago_por_dia": {
+   "2026-09-04": 25000.0,
+   "2026-09-08": 73850.12,
+   "2026-09-09": 654.01
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "SP",
  "partido": "PT",
+ "cnpj_prestador": "68373159000195",
  "prestacao_parcial": true,
  "receitas": {
   "total": 374500.0,
@@ -158,12 +159,56 @@
     "Publicidade por carros de som": 9000.0,
     "Serviços advocatícios": 10000.0,
     "Serviços contábeis": 10000.0
-   }
+   },
+   "valores": [
+    0.5,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    3000.0,
+    9000.0,
+    10000.0,
+    10000.0,
+    10000.0,
+    21526.67
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 16000.0,
+   "Combustíveis e lubrificantes": 145.07,
+   "Despesa com Impulsionamento de Conteúdos": 839.66,
+   "Despesas com pessoal": 26000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 0.5,
+   "Locação/cessão de bens imóveis": 24045.13,
+   "Publicidade por carros de som": 27000.0,
+   "Publicidade por materiais impressos": 103299.45,
+   "Serviços advocatícios": 10000.0,
+   "Serviços contábeis": 10000.0
+  },
+  "pago_por_dia": {
+   "2026-08-31": 4550.5,
+   "2026-09-01": 839.5,
+   "2026-09-03": 839.66,
+   "2026-09-04": 699.55,
+   "2026-09-05": 9476.8,
+   "2026-09-07": 10939.5,
+   "2026-09-08": 98982.4,
+   "2026-09-18": 3069.58
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

@@ -4,6 +4,7 @@
  "cargo": "senador",
  "uf": "PB",
  "partido": "PSB",
+ "cnpj_prestador": "68571449000143",
  "prestacao_parcial": true,
  "receitas": {
   "total": 3035540.4,
@@ -546,12 +547,72 @@
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 25.5,
     "Impostos, contribuições e taxas": 7616.21,
     "Serviços prestados por terceiros": 7500.0
-   }
+   },
+   "valores": [
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    600.0,
+    6000.0,
+    7500.0,
+    7641.71
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 6600.0,
+   "Cessão ou locação de veículos": 49666.5,
+   "Combustíveis e lubrificantes": 518.15,
+   "Criação e inclusão de páginas na internet": 40.0,
+   "Despesa com Impulsionamento de Conteúdos": 500000.0,
+   "Despesas com transporte ou deslocamento": 60000.0,
+   "Diversas a especificar": 165083.0,
+   "Doações financeiras a outros candidatos/partidos": 270000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 25.5,
+   "Impostos, contribuições e taxas": 7616.21,
+   "Locação/cessão de bens imóveis": 40000.0,
+   "Locação/cessão de bens móveis (exceto veículos)": 80000.0,
+   "Produção de jingles, vinhetas e slogans": 100000.0,
+   "Produção de programas de rádio, televisão ou vídeo": 730000.0,
+   "Publicidade por adesivos": 231788.0,
+   "Publicidade por materiais impressos": 96590.0,
+   "Serviços advocatícios": 100000.0,
+   "Serviços contábeis": 70000.0,
+   "Serviços prestados por terceiros": 377500.0
+  },
+  "pago_por_dia": {
+   "2026-08-25": 70040.0,
+   "2026-08-26": 24001.0,
+   "2026-08-27": 136221.5,
+   "2026-08-28": 58716.75,
+   "2026-09-03": 72000.0,
+   "2026-09-08": 700003.5,
+   "2026-09-11": 30000.5,
+   "2026-09-14": 70000.0,
+   "2026-09-17": 188300.0,
+   "2026-09-18": 0.5,
+   "2026-09-21": 150000.0,
+   "2026-09-22": 41681.46,
+   "2026-09-23": 771434.0,
+   "2026-09-25": 318000.0,
+   "2026-09-26": 20000.0,
+   "2026-09-28": 90000.0,
+   "2026-09-29": 1.0,
+   "2026-09-30": 6600.0,
+   "2026-10-01": 141303.5,
+   "2026-10-02": 68503.5,
+   "2026-10-03": 4200.4
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

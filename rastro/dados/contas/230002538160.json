@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "RR",
  "partido": "PODE",
+ "cnpj_prestador": "68411426000171",
  "prestacao_parcial": true,
  "receitas": {
   "total": 252300.0,
@@ -29,8 +30,8 @@
   }
  },
  "despesas": {
-  "total_contratado": 161401.6,
-  "total_pago": 219454.6,
+  "total_contratado": 170353.28,
+  "total_pago": 228406.28,
   "fornecedores_pj": [
    {
     "cnpj": "15369957000187",
@@ -43,6 +44,16 @@
     "total": 19200.0
    },
    {
+    "cnpj": "54841634000104",
+    "nome": "ILLO AUGUSTO SOCIEDADE INDIVIDUAL DE ADVOCACIA",
+    "cnae": "69117",
+    "n_despesas": 1,
+    "tipos": [
+     "Serviços advocatícios"
+    ],
+    "total": 10000.0
+   },
+   {
     "cnpj": "68278284000116",
     "nome": "VETORIZE SERVICOS E COMERCIO LTDA",
     "cnae": "47890",
@@ -53,6 +64,17 @@
     "total": 3800.0
    },
    {
+    "cnpj": "32780176000108",
+    "nome": "R W DE ALBUQUERQUE LTDA",
+    "cnae": "46516",
+    "n_despesas": 2,
+    "tipos": [
+     "Diversas a especificar",
+     "Água"
+    ],
+    "total": 1789.18
+   },
+   {
     "cnpj": "28011627000167",
     "nome": "28.011.627 JESSICA DE SOUZA LIMA",
     "cnae": "14126",
@@ -61,36 +83,83 @@
      "Publicidade por materiais impressos"
     ],
     "total": 1750.0
-   },
-   {
-    "cnpj": "32780176000108",
-    "nome": "R W DE ALBUQUERQUE LTDA",
-    "cnae": "46516",
-    "n_despesas": 1,
-    "tipos": [
-     "Diversas a especificar"
-    ],
-    "total": 340.0
    }
   ],
   "fornecedores_pf": {
-   "qtd": 31,
-   "total": 136311.6,
+   "qtd": 35,
+   "total": 133814.1,
    "por_tipo": {
-    "Aquisição/Doação de bens móveis ou imóveis": 24000.0,
-    "Atividades de militância e mobilização de rua": 27000.0,
+    "Atividades de militância e mobilização de rua": 34500.0,
     "Cessão ou locação de veículos": 22300.0,
     "Despesas com pessoal": 28000.0,
     "Diversas a especificar": 10000.0,
-    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 11.6,
-    "Serviços advocatícios": 10000.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 14.1,
+    "Locação/cessão de bens imóveis": 24000.0,
     "Serviços contábeis": 15000.0
-   }
+   },
+   "valores": [
+    14.1,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    2500.0,
+    2500.0,
+    2500.0,
+    2500.0,
+    3000.0,
+    5000.0,
+    7000.0,
+    10000.0,
+    10000.0,
+    15000.0,
+    39300.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 34500.0,
+   "Cessão ou locação de veículos": 22300.0,
+   "Combustíveis e lubrificantes": 19200.0,
+   "Despesas com pessoal": 28000.0,
+   "Diversas a especificar": 10340.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 14.1,
+   "Locação/cessão de bens imóveis": 24000.0,
+   "Publicidade por materiais impressos": 5550.0,
+   "Serviços advocatícios": 10000.0,
+   "Serviços contábeis": 15000.0,
+   "Água": 1449.18
+  },
+  "pago_por_dia": {
+   "2026-09-28": 99308.1,
+   "2026-09-29": 88806.5,
+   "2026-10-01": 4840.0,
+   "2026-10-02": 26500.5,
+   "2026-10-03": 8949.18,
+   "2026-10-05": 2.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

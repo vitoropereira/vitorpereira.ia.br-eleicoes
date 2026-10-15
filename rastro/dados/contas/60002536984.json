@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "CE",
  "partido": "PL",
+ "cnpj_prestador": "68403539000125",
  "prestacao_parcial": true,
  "receitas": {
   "total": 3100000.0,
@@ -27,7 +28,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 220248.59,
+  "total_contratado": 209748.59,
   "total_pago": 745070.59,
   "fornecedores_pj": [
    {
@@ -58,7 +59,7 @@
     "tipos": [
      "Publicidade por adesivos"
     ],
-    "total": 17500.0
+    "total": 7000.0
    },
    {
     "cnpj": "46937061000180",
@@ -106,12 +107,33 @@
    "total": 16.6,
    "por_tipo": {
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 16.6
-   }
+   },
+   "valores": [
+    16.6
+   ]
+  },
+  "por_tipo": {
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 16.6,
+   "Eventos de promoção da candidatura": 4040.0,
+   "Publicidade por adesivos": 7000.0,
+   "Publicidade por materiais impressos": 158650.0,
+   "Serviços contábeis": 35000.0,
+   "Serviços prestados por terceiros": 5041.99
+  },
+  "pago_por_dia": {
+   "2026-08-31": 50014.1,
+   "2026-09-01": 300000.5,
+   "2026-09-02": 23360.5,
+   "2026-09-03": 299650.5,
+   "2026-09-04": 59892.5,
+   "2026-09-08": 7110.0,
+   "2026-09-10": 5000.5,
+   "2026-09-11": 41.99
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

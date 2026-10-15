@@ -4,6 +4,7 @@
  "cargo": "governador",
  "uf": "PI",
  "partido": "PT",
+ "cnpj_prestador": "68238024000117",
  "prestacao_parcial": true,
  "receitas": {
   "total": 7116081.28,
@@ -234,12 +235,71 @@
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 49.0,
     "Locação/cessão de bens imóveis": 48621.0,
     "Serviços contábeis": 100000.0
-   }
+   },
+   "valores": [
+    49.0,
+    1000.0,
+    1200.0,
+    1500.0,
+    1600.0,
+    1621.0,
+    2000.0,
+    2200.0,
+    2500.0,
+    2500.0,
+    5000.0,
+    5500.0,
+    10000.0,
+    12000.0,
+    100000.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 458336.3,
+   "Cessão ou locação de veículos": 72855.55,
+   "Combustíveis e lubrificantes": 85428.45,
+   "Correspondências e despesas postais": 421225.2,
+   "Criação e inclusão de páginas na internet": 707.86,
+   "Despesa com Impulsionamento de Conteúdos": 268468.0,
+   "Despesas com pessoal": 67309.03,
+   "Despesas com transporte ou deslocamento": 541528.5,
+   "Diversas a especificar": 38.75,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 49.0,
+   "Eventos de promoção da candidatura": 637500.0,
+   "Locação/cessão de bens imóveis": 98154.33,
+   "Materiais de expediente": 12.75,
+   "Publicidade por materiais impressos": 235830.0,
+   "Serviços advocatícios": 150000.0,
+   "Serviços contábeis": 100000.0,
+   "Serviços prestados por terceiros": 800000.0
+  },
+  "pago_por_dia": {
+   "2026-08-25": 10707.86,
+   "2026-08-26": 95733.0,
+   "2026-09-02": 30000.0,
+   "2026-09-03": 40000.0,
+   "2026-09-05": 15500.0,
+   "2026-09-08": 52409.3,
+   "2026-09-09": 64500.5,
+   "2026-09-10": 407409.3,
+   "2026-09-11": 17201.0,
+   "2026-09-14": 45000.0,
+   "2026-09-15": 167513.79,
+   "2026-09-16": 325492.2,
+   "2026-09-22": 9.5,
+   "2026-09-23": 18333.33,
+   "2026-09-24": 3.4,
+   "2026-09-25": 890423.4,
+   "2026-09-28": 1175021.29,
+   "2026-09-29": 75001.0,
+   "2026-09-30": 12.9,
+   "2026-10-01": 182110.17,
+   "2026-10-02": 744406.04
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

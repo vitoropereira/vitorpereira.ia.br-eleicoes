@@ -74,8 +74,8 @@ class TestProximos(unittest.TestCase):
 
 
 class Falso:
-    def __init__(self, branch_existe=False, suja=False):
-        self.cmds, self.branch_existe, self.suja = [], branch_existe, suja
+    def __init__(self, branch_existe=False, suja=False, pytest_rc=0):
+        self.cmds, self.branch_existe, self.suja, self.pytest_rc = [], branch_existe, suja, pytest_rc
 
     def __call__(self, cmd, **kw):
         self.cmds.append(list(cmd))
@@ -85,6 +85,8 @@ class Falso:
             saida = " M x\n" if self.suja else ""
         if cmd[:2] == ["git", "rev-parse"]:
             rc = 0 if self.branch_existe else 1
+        if cmd[:4] == ["python3", "-m", "pytest", "-q"]:
+            rc = self.pytest_rc
         return SimpleNamespace(returncode=rc, stdout=saida, stderr="")
 
 
@@ -117,7 +119,6 @@ class TestLote(unittest.TestCase):
         add = next(c for c in cmds if c[:2] == ["git", "add"])
         self.assertIn("site/", add)
         self.assertLess(cmds.index(["python3", "build_site.py"]), cmds.index(add))
-        self.assertFalse(any(c[:2] == ["gh", "pr"] and "merge" in c for c in cmds))
         pr = next(c for c in cmds if c[:3] == ["gh", "pr", "create"])
         self.assertEqual(pr[pr.index("--title") + 1], "Rastro: lote 2026-10-14")
         corpo = pr[pr.index("--body") + 1]
@@ -125,6 +126,49 @@ class TestLote(unittest.TestCase):
         self.assertNotIn("2003", corpo)
         self.assertEqual(cpfs(corpo), [])
         self.assertEqual(cpfs((self.raiz / "rastro" / "fila.json").read_text(encoding="utf-8")), [])
+
+    def test_funciona_testes_passam_e_mergeia(self):
+        ex = Falso()
+        self.assertEqual(lote.main(hoje=date(2026, 10, 14), raiz=self.raiz, executar=ex), 0)
+        cmds = ex.cmds
+        teste = ["python3", "-m", "pytest", "-q"]
+        commit = next(c for c in cmds if c[:2] == ["git", "commit"])
+        push = next(c for c in cmds if c[:2] == ["git", "push"])
+        # O pytest roda sobre o conteúdo exato do lote: depois do commit, antes do push.
+        self.assertLess(cmds.index(commit), cmds.index(teste))
+        self.assertLess(cmds.index(teste), cmds.index(push))
+        self.assertEqual(cmds[-1], ["gh", "pr", "merge", "rastro/lote-2026-10-14", "--squash", "--delete-branch"])
+        self.assertFalse(any("--add-label" in c for c in cmds))
+        pr = next(c for c in cmds if c[:3] == ["gh", "pr", "create"])
+        corpo = pr[pr.index("--body") + 1]
+        self.assertNotIn("merge do Vitor", corpo)
+        self.assertIn("automática", corpo)
+        self.assertIn("testes", corpo)
+
+    def test_resiste_teste_de_lgpd_falha_e_nao_mergeia(self):
+        ex = Falso(pytest_rc=1)
+        rc = lote.main(hoje=date(2026, 10, 14), raiz=self.raiz, executar=ex)
+        self.assertNotEqual(rc, 0)
+        self.assertFalse(any(c[:3] == ["gh", "pr", "merge"] or "merge" in c[:3] for c in ex.cmds))
+        self.assertIn(["gh", "pr", "edit", "rastro/lote-2026-10-14", "--add-label", "bloqueado"], ex.cmds)
+
+    def test_nunca_mergeia_na_trava_no_dry_run_ou_sem_sal(self):
+        ex = Falso()
+        lote.main(hoje=date(2026, 10, 25), raiz=self.raiz, executar=ex)
+        lote.main(hoje=date(2026, 10, 14), raiz=self.raiz, executar=ex, dry_run=True)
+        self.assertEqual(ex.cmds, [])
+
+        class FalhaBuild(Falso):  # sem rastro/.sal e com MEI publicado, o build falha
+            def __call__(self, cmd, **kw):
+                r = super().__call__(cmd, **kw)
+                if cmd == ["python3", "build_site.py"]:
+                    r.returncode = 1
+                return r
+
+        ex = FalhaBuild()
+        self.assertEqual(lote.main(hoje=date(2026, 10, 14), raiz=self.raiz, executar=ex), 1)
+        self.assertFalse(any(c[:3] == ["gh", "pr", "merge"] for c in ex.cmds))
+        self.assertFalse(any(c[:2] == ["git", "push"] for c in ex.cmds))
 
     def test_dry_run_nao_altera(self):
         antes = self.pub.read_text(encoding="utf-8")
@@ -148,7 +192,7 @@ class TestLote(unittest.TestCase):
         self.assertFalse(any(c[0] == "python3" or c[:2] in (["git", "push"], ["gh", "pr"]) and c[2] == "create" for c in ex.cmds))
         self.assertIn(["git", "branch", "-D", "rastro/lote-2026-10-14"], ex.cmds)
 
-    def test_pr_de_lote_aberto_bloqueia(self):
+    def test_pr_de_lote_bloqueado_aberto_bloqueia(self):
         class ComPrAberto(Falso):
             def __call__(self, cmd, **kw):
                 r = super().__call__(cmd, **kw)
@@ -159,6 +203,8 @@ class TestLote(unittest.TestCase):
         ex = ComPrAberto()
         self.assertEqual(lote.main(hoje=date(2026, 10, 14), raiz=self.raiz, executar=ex), 1)
         self.assertFalse(any(c[:2] == ["git", "checkout"] for c in ex.cmds))
+        lista = next(c for c in ex.cmds if c[:3] == ["gh", "pr", "list"])
+        self.assertIn("bloqueado", lista[lista.index("--label") + 1])
 
     def test_falha_no_push_desfaz_a_branch(self):
         class FalhaPush(Falso):

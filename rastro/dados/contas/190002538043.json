@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "RJ",
  "partido": "PSD",
+ "cnpj_prestador": "68411402000112",
  "prestacao_parcial": true,
  "receitas": {
   "total": 578459.28,
@@ -33,7 +34,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 384486.11,
+  "total_contratado": 384557.61,
   "total_pago": 336545.0,
   "fornecedores_pj": [
    {
@@ -104,7 +105,7 @@
     "tipos": [
      "Publicidade por materiais impressos"
     ],
-    "total": 11945.9
+    "total": 12020.4
    },
    {
     "cnpj": "16670085000155",
@@ -184,7 +185,7 @@
     "tipos": [
      "Combustíveis e lubrificantes"
     ],
-    "total": 515.0
+    "total": 512.0
    }
   ],
   "fornecedores_pf": {
@@ -193,12 +194,126 @@
    "por_tipo": {
     "Despesas com pessoal": 194800.0,
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 26.0
-   }
+   },
+   "valores": [
+    26.0,
+    500.0,
+    500.0,
+    500.0,
+    500.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    2000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4000.0,
+    4800.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 7142.01,
+   "Combustíveis e lubrificantes": 512.0,
+   "Correspondências e despesas postais": 15572.05,
+   "Despesa com Impulsionamento de Conteúdos": 39000.0,
+   "Despesas com pessoal": 194800.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 26.0,
+   "Eventos de promoção da candidatura": 47263.65,
+   "Locação/cessão de bens móveis (exceto veículos)": 4592.0,
+   "Pesquisas ou testes eleitorais": 14800.0,
+   "Publicidade por carros de som": 24000.0,
+   "Publicidade por materiais impressos": 21849.9,
+   "Serviços contábeis": 15000.0
+  },
+  "pago_por_dia": {
+   "2026-08-14": 4000.0,
+   "2026-08-20": 10000.0,
+   "2026-09-01": 15000.0,
+   "2026-09-04": 25439.3,
+   "2026-09-09": 14800.0,
+   "2026-09-14": 10000.0,
+   "2026-09-17": 42738.05,
+   "2026-09-18": 99660.5,
+   "2026-09-19": 28421.5,
+   "2026-09-22": 1800.0,
+   "2026-09-23": 64463.65,
+   "2026-09-24": 830.0,
+   "2026-09-29": 4592.0,
+   "2026-09-30": 14800.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

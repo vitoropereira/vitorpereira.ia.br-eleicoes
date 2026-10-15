@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "GO",
  "partido": "MDB",
+ "cnpj_prestador": "68499778000120",
  "prestacao_parcial": true,
  "receitas": {
   "total": 437750.0,
@@ -21,7 +22,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 260148.98,
+  "total_contratado": 264248.98,
   "total_pago": 334673.48,
   "fornecedores_pj": [
    {
@@ -55,6 +56,16 @@
     "total": 15000.0
    },
    {
+    "cnpj": "11816646000168",
+    "nome": "ERI BANDEIRA PRODUCOES E EVENTOS LTDA",
+    "cnae": "18130",
+    "n_despesas": 3,
+    "tipos": [
+     "Publicidade por materiais impressos"
+    ],
+    "total": 11300.0
+   },
+   {
     "cnpj": "64433090000197",
     "nome": "GAB INDUSTRIA GRAFICA LTDA",
     "cnae": "18130",
@@ -74,16 +85,6 @@
      "Locação/cessão de bens móveis (exceto veículos)"
     ],
     "total": 8000.0
-   },
-   {
-    "cnpj": "11816646000168",
-    "nome": "ERI BANDEIRA PRODUCOES E EVENTOS LTDA",
-    "cnae": "18130",
-    "n_despesas": 3,
-    "tipos": [
-     "Publicidade por materiais impressos"
-    ],
-    "total": 7200.0
    },
    {
     "cnpj": "34069727000147",
@@ -206,12 +207,132 @@
     "Serviços contábeis": 10000.0,
     "Serviços prestados por terceiros": 4900.0,
     "Serviços próprios prestados por terceiros": 69884.0
-   }
+   },
+   "valores": [
+    500.0,
+    500.0,
+    500.0,
+    500.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    800.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1000.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1500.0,
+    1500.0,
+    1500.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    1621.0,
+    2000.0,
+    2500.0,
+    5000.0,
+    5000.0,
+    10000.0,
+    10000.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 9000.0,
+   "Combustíveis e lubrificantes": 1358.48,
+   "Despesa com Impulsionamento de Conteúdos": 15000.0,
+   "Diversas a especificar": 2210.0,
+   "Eventos de promoção da candidatura": 1500.0,
+   "Locação/cessão de bens imóveis": 20500.0,
+   "Locação/cessão de bens móveis (exceto veículos)": 8790.0,
+   "Publicidade por adesivos": 3218.5,
+   "Publicidade por materiais impressos": 37888.0,
+   "Serviços advocatícios": 10000.0,
+   "Serviços contábeis": 10000.0,
+   "Serviços prestados por terceiros": 74900.0,
+   "Serviços próprios prestados por terceiros": 69884.0
+  },
+  "pago_por_dia": {
+   "2026-08-17": 5000.0,
+   "2026-09-09": 5000.0,
+   "2026-09-14": 15000.0,
+   "2026-09-15": 21280.0,
+   "2026-09-16": 73900.0,
+   "2026-09-17": 260.22,
+   "2026-09-24": 10814.0,
+   "2026-09-25": 5000.0,
+   "2026-09-28": 9354.97,
+   "2026-09-29": 20790.0,
+   "2026-09-30": 5495.17,
+   "2026-10-01": 48473.12,
+   "2026-10-02": 50981.0,
+   "2026-10-03": 62525.0,
+   "2026-11-01": 800.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

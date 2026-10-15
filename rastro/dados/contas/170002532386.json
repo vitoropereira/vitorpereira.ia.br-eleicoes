@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "PE",
  "partido": "REPUBLICANOS",
+ "cnpj_prestador": "68237063000108",
  "prestacao_parcial": true,
  "receitas": {
   "total": 310000.0,
@@ -41,12 +42,19 @@
    "total": 0.0,
    "por_tipo": {
     "Não informada": 0.0
-   }
-  }
+   },
+   "valores": [
+    0.0
+   ]
+  },
+  "por_tipo": {
+   "Não informada": 0.0
+  },
+  "pago_por_dia": null
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

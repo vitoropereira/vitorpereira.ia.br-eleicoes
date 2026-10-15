@@ -4,6 +4,7 @@
  "cargo": "depest",
  "uf": "CE",
  "partido": "PSDB",
+ "cnpj_prestador": "68461614000104",
  "prestacao_parcial": true,
  "receitas": {
   "total": 423000.0,
@@ -21,7 +22,7 @@
   }
  },
  "despesas": {
-  "total_contratado": 346548.95,
+  "total_contratado": 346796.45,
   "total_pago": 132184.95,
   "fornecedores_pj": [
    {
@@ -134,7 +135,7 @@
      "Publicidade por adesivos",
      "Publicidade por materiais impressos"
     ],
-    "total": 3966.1
+    "total": 4213.6
    },
    {
     "cnpj": "05305690000453",
@@ -174,12 +175,40 @@
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 10.5,
     "Locação/cessão de bens imóveis": 16000.0,
     "Serviços prestados por terceiros": 17800.0
-   }
+   },
+   "valores": [
+    10.5,
+    2800.0,
+    4000.0,
+    7500.0,
+    7500.0,
+    12000.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 7500.0,
+   "Combustíveis e lubrificantes": 16557.35,
+   "Despesas com transporte ou deslocamento": 9000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 10.5,
+   "Locação/cessão de bens imóveis": 16000.0,
+   "Locação/cessão de bens móveis (exceto veículos)": 18500.0,
+   "Publicidade por adesivos": 798.0,
+   "Publicidade por materiais impressos": 35630.6,
+   "Serviços advocatícios": 50000.0,
+   "Serviços contábeis": 25000.0,
+   "Serviços prestados por terceiros": 167800.0
+  },
+  "pago_por_dia": {
+   "2026-09-15": 50303.0,
+   "2026-09-22": 31874.45,
+   "2026-10-01": 50000.5,
+   "2026-10-02": 6.5,
+   "2026-10-05": 0.5
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

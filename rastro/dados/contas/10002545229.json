@@ -4,6 +4,7 @@
  "cargo": "depfed",
  "uf": "AC",
  "partido": "PP",
+ "cnpj_prestador": "68499773000106",
  "prestacao_parcial": true,
  "receitas": {
   "total": 2000000.0,
@@ -176,12 +177,31 @@
    "total": 2.5,
    "por_tipo": {
     "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.5
-   }
+   },
+   "valores": [
+    2.5
+   ]
+  },
+  "por_tipo": {
+   "Combustíveis e lubrificantes": 135748.0,
+   "Criação e inclusão de páginas na internet": 100000.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 2.5,
+   "Produção de jingles, vinhetas e slogans": 100000.0,
+   "Publicidade por adesivos": 87095.0,
+   "Publicidade por materiais impressos": 219150.0,
+   "Serviços advocatícios": 170000.0
+  },
+  "pago_por_dia": {
+   "2026-09-05": 100000.0,
+   "2026-09-06": 70000.0,
+   "2026-09-08": 187095.0,
+   "2026-09-09": 319151.0,
+   "2026-09-10": 227540.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

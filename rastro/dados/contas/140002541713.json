@@ -4,17 +4,18 @@
  "cargo": "depest",
  "uf": "PA",
  "partido": "MDB",
+ "cnpj_prestador": "68468507000108",
  "prestacao_parcial": true,
  "receitas": {
-  "total": 376000.0,
+  "total": 476000.0,
   "por_origem": {
    "Recursos de partido político": 175000.0,
-   "Recursos de pessoas físicas": 76000.0,
+   "Recursos de pessoas físicas": 176000.0,
    "Recursos próprios": 125000.0
   },
   "por_fonte": {
    "FUNDO ESPECIAL": 175000.0,
-   "OUTROS RECURSOS": 201000.0
+   "OUTROS RECURSOS": 301000.0
   },
   "doadores_pj": [
    {
@@ -24,13 +25,13 @@
    }
   ],
   "doadores_pf": {
-   "qtd": 5,
-   "total": 201000.0
+   "qtd": 11,
+   "total": 301000.0
   }
  },
  "despesas": {
-  "total_contratado": 486357.05,
-  "total_pago": 267772.22,
+  "total_contratado": 494883.55,
+  "total_pago": 286782.72,
   "fornecedores_pj": [
    {
     "cnpj": "03496913000139",
@@ -82,7 +83,7 @@
      "Publicidade por materiais impressos",
      "Serviços prestados por terceiros"
     ],
-    "total": 29850.0
+    "total": 25250.0
    },
    {
     "cnpj": "47696176000193",
@@ -96,17 +97,6 @@
     "total": 24600.0
    },
    {
-    "cnpj": "05994832000194",
-    "nome": "NOVA GRAFICA SOLUCOES LTDA",
-    "cnae": "18113",
-    "n_despesas": 26,
-    "tipos": [
-     "Publicidade por adesivos",
-     "Publicidade por materiais impressos"
-    ],
-    "total": 20464.0
-   },
-   {
     "cnpj": "83357046000190",
     "nome": "BRAN CAR VEICULOS LTDA",
     "cnae": "45111",
@@ -115,6 +105,17 @@
      "Cessão ou locação de veículos"
     ],
     "total": 18000.0
+   },
+   {
+    "cnpj": "05994832000194",
+    "nome": "NOVA GRAFICA SOLUCOES LTDA",
+    "cnae": "18113",
+    "n_despesas": 26,
+    "tipos": [
+     "Publicidade por adesivos",
+     "Publicidade por materiais impressos"
+    ],
+    "total": 17190.0
    },
    {
     "cnpj": "31833470000160",
@@ -126,6 +127,16 @@
      "Publicidade por materiais impressos"
     ],
     "total": 15515.0
+   },
+   {
+    "cnpj": "12507345000115",
+    "nome": "VR3 LTDA",
+    "cnae": "82300",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 15000.0
    },
    {
     "cnpj": "13766237000120",
@@ -160,6 +171,16 @@
     "total": 5400.0
    },
    {
+    "cnpj": "24376627000100",
+    "nome": "FREDSON GONCALVES",
+    "cnae": "32990",
+    "n_despesas": 1,
+    "tipos": [
+     "Eventos de promoção da candidatura"
+    ],
+    "total": 2800.0
+   },
+   {
     "cnpj": "47858418000106",
     "nome": "BG ALMIRANTE COMERCIO DE COMBUSTIVEIS LTDA",
     "cnae": "47318",
@@ -179,16 +200,6 @@
      "Serviços prestados por terceiros"
     ],
     "total": 1820.0
-   },
-   {
-    "cnpj": "24376627000100",
-    "nome": "FREDSON GONCALVES",
-    "cnae": "32990",
-    "n_despesas": 1,
-    "tipos": [
-     "Eventos de promoção da candidatura"
-    ],
-    "total": 1400.0
    },
    {
     "cnpj": "26653503000150",
@@ -223,18 +234,167 @@
   ],
   "fornecedores_pf": {
    "qtd": 109,
-   "total": 34727.0,
+   "total": 34727.5,
    "por_tipo": {
     "Atividades de militância e mobilização de rua": 27000.0,
     "Despesas com pessoal": 2800.0,
-    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 64.0,
+    "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 64.5,
     "Serviços prestados por terceiros": 4863.0
-   }
+   },
+   "valores": [
+    64.5,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    250.0,
+    500.0,
+    500.0,
+    2800.0,
+    4863.0
+   ]
+  },
+  "por_tipo": {
+   "Atividades de militância e mobilização de rua": 27000.0,
+   "Cessão ou locação de veículos": 18000.0,
+   "Combustíveis e lubrificantes": 2620.83,
+   "Criação e inclusão de páginas na internet": 144.14,
+   "Despesa com Impulsionamento de Conteúdos": 64196.08,
+   "Despesas com pessoal": 2800.0,
+   "Encargos financeiros, taxas bancárias e/ou op. cartão de crédito": 64.5,
+   "Eventos de promoção da candidatura": 17800.0,
+   "Publicidade por adesivos": 38560.0,
+   "Publicidade por materiais impressos": 38165.0,
+   "Serviços advocatícios": 10000.0,
+   "Serviços contábeis": 40000.0,
+   "Serviços prestados por terceiros": 235533.0
+  },
+  "pago_por_dia": {
+   "2026-08-28": 1000.0,
+   "2026-08-29": 98.15,
+   "2026-08-31": 1945.99,
+   "2026-09-01": 1900.0,
+   "2026-09-03": 1900.0,
+   "2026-09-04": 1900.0,
+   "2026-09-07": 2000.0,
+   "2026-09-08": 2000.0,
+   "2026-09-09": 2000.0,
+   "2026-09-10": 10000.0,
+   "2026-09-16": 10000.0,
+   "2026-09-21": 33000.0,
+   "2026-09-22": 52694.08,
+   "2026-09-23": 42478.5,
+   "2026-09-29": 24164.5,
+   "2026-10-01": 33052.0,
+   "2026-10-02": 6764.0,
+   "2026-10-05": 20295.0,
+   "2026-10-06": 2800.0,
+   "2026-10-07": 0.5,
+   "2026-10-09": 36790.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }

@@ -4,25 +4,26 @@
  "cargo": "depest",
  "uf": "MA",
  "partido": "REPUBLICANOS",
+ "cnpj_prestador": "68345378000160",
  "prestacao_parcial": true,
  "receitas": {
-  "total": 209095.08,
+  "total": 209099.58,
   "por_origem": {
-   "Recursos de pessoas físicas": 84095.08,
+   "Recursos de pessoas físicas": 84099.58,
    "Recursos próprios": 125000.0
   },
   "por_fonte": {
-   "OUTROS RECURSOS": 209095.08
+   "OUTROS RECURSOS": 209099.58
   },
   "doadores_pj": [],
   "doadores_pf": {
    "qtd": 9,
-   "total": 209095.08
+   "total": 209099.58
   }
  },
  "despesas": {
-  "total_contratado": 123415.08,
-  "total_pago": 204095.08,
+  "total_contratado": 126095.08,
+  "total_pago": 209095.08,
   "fornecedores_pj": [
    {
     "cnpj": "68798421000143",
@@ -62,7 +63,7 @@
     "tipos": [
      "Publicidade por materiais impressos"
     ],
-    "total": 4320.0
+    "total": 7000.0
    },
    {
     "cnpj": "57123389000180",
@@ -103,12 +104,36 @@
     "Locação/cessão de bens imóveis": 3000.0,
     "Serviços advocatícios": 20000.0,
     "Serviços contábeis": 8000.0
-   }
+   },
+   "valores": [
+    3000.0,
+    8000.0,
+    12000.0,
+    20000.0
+   ]
+  },
+  "por_tipo": {
+   "Cessão ou locação de veículos": 12000.0,
+   "Combustíveis e lubrificantes": 1095.08,
+   "Locação/cessão de bens imóveis": 3000.0,
+   "Publicidade por materiais impressos": 17000.0,
+   "Serviços advocatícios": 20000.0,
+   "Serviços contábeis": 8000.0,
+   "Serviços prestados por terceiros": 65000.0
+  },
+  "pago_por_dia": {
+   "2026-10-01": 90000.0,
+   "2026-10-04": 25000.0,
+   "2026-10-06": 25000.0,
+   "2026-10-07": 25000.0,
+   "2026-10-08": 22095.08,
+   "2026-10-09": 17000.0,
+   "2026-10-11": 5000.0
   }
  },
  "fonte": [
   "https://cdn.tse.jus.br/estatistica/sead/odsele/prestacao_contas/prestacao_de_contas_eleitorais_candidatos_2026.zip"
  ],
- "data_base": "2026-10-11",
- "gerado_em": "2026-10-13T00:36:28+00:00"
+ "data_base": "2026-10-14",
+ "gerado_em": "2026-10-15T00:38:54+00:00"
 }
