@@ -6,7 +6,7 @@ import json, math, collections
 from datetime import datetime
 from pathlib import Path
 import sys; sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-import brand
+import pagina
 
 H = Path(__file__).parent
 D = H / "dados"
@@ -174,8 +174,8 @@ sem = lambda d: json.dumps({k: v for k, v in d.items() if k not in ("mapa", "ger
 if ant and sem(ant) == sem(data): data["gerado"] = ant["gerado"]  # dados iguais: mantém o carimbo da leitura
 (H / "relatorio.json").write_text(json.dumps({k: v for k, v in data.items() if k != "mapa"}, ensure_ascii=False, indent=1))
 tpl = (H / "template_relatorio.html").read_text() if (H / "template_relatorio.html").exists() else None
-if tpl:
-    (H / "relatorio_final.html").write_text(brand.aplicar(tpl.replace("/*__DATA__*/null", json.dumps(data, ensure_ascii=False))))
+if tpl:  # siglas de 2022 (TSE) só no HTML, fora do relatorio.json
+    (H / "relatorio_final.html").write_text(pagina.html_relatorio(tpl, data, pagina.siglas_2022()))
 print("ok", nac["pst"], nac["ht"], "| gov:", collections.Counter(g["status"] for g in gov),
       "| dep fed", depfed["total"], "| dep est", depest["total"], "| mapa", len(mapa), "UFs",
       f"{len(json.dumps(mapa)) // 1024} KB")

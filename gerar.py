@@ -25,8 +25,9 @@ POLLS = [
 def get(u):
     d = json.load(urllib.request.urlopen(B.format(e=ELE, u=u) + f"?t={int(time.time())}", timeout=25))
     c = {k["nmu"]: int(k["vap"]) for a in d["carg"][0]["agr"] for p in a["par"] for k in p["cand"]}
+    sg = {k["nmu"]: p["sg"] for a in d["carg"][0]["agr"] for p in a["par"] for k in p["cand"]}
     return dict(uf=u.upper(), ht=d["ht"], pst=num(d["s"]["pst"]), ts=int(d["s"]["ts"]), st=int(d["s"]["st"]), te=int(d["e"]["te"]),
-                vv=int(d["v"]["vv"]), cand=c)
+                vv=int(d["v"]["vv"]), cand=c, sg=sg)
 
 
 def main():
@@ -103,12 +104,15 @@ def main():
     traj = dict(base=path(scen[0]["f"], scen[0]["l"]),
                 mc50=path(q(ff, .5), q(ll, .5)),
                 lo=path(q(ff, .1), q(ll, .1)), hi=path(q(ff, .9), q(ll, .9)))
+    sgs = {k: v for s in ufs for k, v in s["sg"].items()}
     others = sorted(((k, v) for k, v in nat["cand"].items() if k not in (F, L)), key=lambda x: -x[1])
     data = dict(
         gerado=datetime.now().strftime("%d/%m/%Y %H:%M"), ht=nat["ht"], pst=nat["pst"],
         f=round(100 * nat["cand"][F] / nv, 2), l=round(100 * nat["cand"][L] / nv, 2),
         fv=nat["cand"][F], lv=nat["cand"][L],
         outros=[dict(n=k.title(), p=round(100 * v / nv, 2)) for k, v in others[:4]],
+        # siglas do TSE para o template.html (D.sg, D.sgn): partido junto do nome
+        sg={"f": sgs.get(F, ""), "l": sgs.get(L, "")}, sgn={k.title(): sgs[k] for k, _ in others[:4] if k in sgs},
         scen=scen, mc=mc, states=states, hist=hist, traj=traj,
         polls=[dict(n=n, d=d, l=round(100 * l / (100 - b), 1), f=round(100 * f / (100 - b), 1))
                for n, d, l, f, b in POLLS],
