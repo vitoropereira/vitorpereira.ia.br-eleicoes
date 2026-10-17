@@ -316,12 +316,17 @@ class TestTransferencia(unittest.TestCase):
     def test_dispara_com_fornecedor_em_comum_e_destaca_infima_primeiro(self):
         with self.assertLogs("rastro.indicadores", level="WARNING"):
             r = self.rodar(forn=FORN)
-        self.assertEqual([i["contraparte"] for i in r], ["CANDIDATO INFIMO", "CANDIDATO VOTADO"])
+        # NOME · UF · SIGLA; sem a sigla no dado, sai sem partido (não inventa)
+        self.assertEqual([i["contraparte"] for i in r], ["CANDIDATO INFIMO · AC · PZ", "CANDIDATO VOTADO · AC"])
+        self.assertIn("a CANDIDATO INFIMO · AC · PZ, que usou", r[0]["fato"])
         self.assertEqual([i["valor"] for i in r], [3000.0, 1000.0])
         self.assertIn("teve 20 votos (votação ínfima)", r[0]["fato"])
         self.assertNotIn("ínfima", r[1]["fato"])
         self.assertIn("EMPRESA GRANDE LTDA", r[1]["fato"])
         self.assertTrue(all(i["nome"] == "transferencia_candidato" and i["fonte_url"] == ind.URL_CONTAS for i in r))
+
+    def test_recebedor_sem_nome_fica_outro_candidato(self):
+        self.assertEqual(ind.rotulo_recebedor({"nome": None, "uf": "AC", "partido": "PZ"}), "outro candidato")
 
     def test_mei_em_comum_sai_mascarado(self):
         with self.assertLogs("rastro.indicadores", level="WARNING"):

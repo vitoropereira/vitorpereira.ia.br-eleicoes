@@ -43,9 +43,18 @@ def brl_curto(v):
     return f"R$ {v:.0f}"
 
 
-def cortar(t, n):
+def cortar(t, n, fixo=""):
+    """corta `t` em `n` caracteres; o sufixo `fixo` (a sigla do partido, " · PT") nunca sai: encurta o que vem antes"""
     t = str(t)
-    return t if len(t) <= n else t[:n - 1].rstrip() + "…"
+    if len(t) <= n:
+        return t
+    if fixo and t.endswith(fixo) and n > len(fixo) + 1:
+        return t[:n - len(fixo) - 1].rstrip() + "…" + fixo
+    return t[:n - 1].rstrip() + "…"
+
+
+def sufixo_partido(partido):
+    return f" · {partido}" if partido else ""
 
 
 # ---------- layout ----------
@@ -145,7 +154,8 @@ def sankey(colunas, fluxos, opcoes):
                     f'<title>{esc(nome)}: {esc(ind.brl(g["valor"]))}</title></rect>')
             cy = g["y"] + g["h"] / 2
             val = brl_curto(g["valor"])
-            rot = cortar(n["rotulo"], corte[min(c, len(corte) - 1)] - (0 if c == acima else len(val) + 1 + 2 * bool(n.get("alerta"))))
+            rot = cortar(n["rotulo"], corte[min(c, len(corte) - 1)] - (0 if c == acima else len(val) + 1 + 2 * bool(n.get("alerta"))),
+                         n.get("fixo", ""))
             if c == acima:  # campanha: nome e linha extra acima do nó
                 cx = g["x"] + NO_W / 2
                 txt = (f'<text x="{_f(cx)}" y="{_f(g["y"] - 22)}" style="text-anchor:middle;fill:var(--ink);font-weight:600;{halo}">{esc(rot)}</text>'
@@ -174,8 +184,9 @@ def _tipo_principal(f, por_tipo):
     return sorted(tipos, key=lambda t: (-(por_tipo.get(t) or 0), t))[0]
 
 
-def fluxos_campanha(contas, fornecedores, indicadores, ids=None, nome=None):
+def fluxos_campanha(contas, fornecedores, indicadores, ids=None, nome=None, partido=None):
     """contas/<sq>.json -> {colunas, fluxos, resumo, campanha} ou None quando não há prestação para desenhar.
+    `nome` é o rótulo do nó central (NOME · UF); `partido` entra no fim e o corte do rótulo nunca o tira.
     `fornecedores`: {cnpj: cadastro} (fornecedores.json); `indicadores`: itens da campanha (indicadores[sq]);
     `ids`: {cnpj: id da página do fornecedor} (só para a âncora da linha da tabela, nunca link para fora)."""
     from rastro import paginas as pg  # tardio: paginas importa este módulo
@@ -194,7 +205,8 @@ def fluxos_campanha(contas, fornecedores, indicadores, ids=None, nome=None):
     D = max(C, S)
     if max(R, D) <= 0:
         return None
-    campanha = nome or contas.get("nome_urna") or "Campanha"
+    fixo = sufixo_partido(partido)
+    campanha = (nome or contas.get("nome_urna") or "Campanha") + fixo
     fluxos, colunas = [], [[], [], [], []]
 
     # coluna 1: origens
@@ -224,7 +236,7 @@ def fluxos_campanha(contas, fornecedores, indicadores, ids=None, nome=None):
     entrada = sum(f["valor"] for f in fluxos)
 
     # coluna 2: campanha
-    colunas[1].append({"id": "camp", "rotulo": campanha, "linha2": f"Contratado {brl_curto(C)} · pago {brl_curto(pago)}",
+    colunas[1].append({"id": "camp", "rotulo": campanha, "fixo": fixo, "linha2": f"Contratado {brl_curto(C)} · pago {brl_curto(pago)}",
                        "titulo": f"{campanha}: contratado {ind.brl(C)}, pago {ind.brl(pago)}"})
 
     # coluna 3: tipos de gasto (fornecedores PJ inteiros no tipo principal) e sumidouros
@@ -298,9 +310,9 @@ def fluxos_campanha(contas, fornecedores, indicadores, ids=None, nome=None):
     return {"colunas": colunas, "fluxos": fluxos, "resumo": resumo, "campanha": campanha}
 
 
-def diagrama_campanha(contas, fornecedores, indicadores, ids=None, nome=None):
+def diagrama_campanha(contas, fornecedores, indicadores, ids=None, nome=None, partido=None):
     """HTML do bloco do diagrama: SVG + linha de limitação, ou a frase de prestação vazia (sem <svg>)."""
-    d = fluxos_campanha(contas, fornecedores, indicadores, ids, nome)
+    d = fluxos_campanha(contas, fornecedores, indicadores, ids, nome, partido)
     if not d:
         return f'<p class="rs-vazio">{SEM_DIAGRAMA}</p>'
     svg = sankey(d["colunas"], d["fluxos"], {"titulo": f"Caminho do dinheiro da campanha de {d['campanha']}", "resumo": d["resumo"]})
@@ -323,7 +335,7 @@ def _plural(n, um, varios):
 def _rotulo_campanha(c):
     from rastro import paginas as pg  # tardio: paginas importa este módulo
 
-    return f'{c["nome_urna"]} · {pg.CARGOS.get(c["cargo"], c["cargo"])} · {c["uf"]}'
+    return f'{c["nome_urna"]} · {pg.CARGOS.get(c["cargo"], c["cargo"])} · {c["uf"]}{sufixo_partido(c.get("partido"))}'
 
 
 def fluxos_fornecedor(cnpj, rotulo, campanhas, outras=None, max_campanhas=12, mei=False):
@@ -341,7 +353,7 @@ def fluxos_fornecedor(cnpj, rotulo, campanhas, outras=None, max_campanhas=12, me
     col0, fluxos = [], []
     for i, c in enumerate(camp[:max_campanhas]):
         r = _rotulo_campanha(c)
-        col0.append({"id": f"c{i}", "rotulo": r, "titulo": f'{r} · {c["partido"]}', **({"href": c["href"]} if c.get("href") else {})})
+        col0.append({"id": f"c{i}", "rotulo": r, "fixo": sufixo_partido(c.get("partido")), **({"href": c["href"]} if c.get("href") else {})})
         fluxos.append({"de": f"c{i}", "para": "emp", "valor": c["total"]})
     resto = camp[max_campanhas:]
     if resto:
@@ -390,7 +402,8 @@ def fluxos_rede(empresas, eleitos_por_cnpj, max_eleitos=MAX_REDE_ELEITOS):
         return None
     ordem = sorted(soma, key=lambda s: (-soma[s], info[s]["nome_urna"], s))
     dentro = set(ordem[:max_eleitos])
-    col0 = [{"id": f"e{s}", "rotulo": f'{info[s]["nome_urna"]} · {info[s]["uf"]}', "titulo": f'{info[s]["nome_urna"]} · {info[s]["uf"]} · {info[s]["partido"]}',
+    col0 = [{"id": f"e{s}", "rotulo": f'{info[s]["nome_urna"]} · {info[s]["uf"]}{sufixo_partido(info[s].get("partido"))}',
+             "fixo": sufixo_partido(info[s].get("partido")),
              **({"href": info[s]["href"]} if info[s].get("href") else {})} for s in ordem[:max_eleitos]]
     col1, fluxos, mais = [], [], []
     for j, e in enumerate(empresas):

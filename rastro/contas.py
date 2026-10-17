@@ -111,7 +111,7 @@ def data_iso(dt):
 
 
 def novo_cand(linha):
-    return {"uf": linha.get("SG_UF"), "ds_cargo": linha.get("DS_CARGO"),
+    return {"uf": linha.get("SG_UF"), "ds_cargo": linha.get("DS_CARGO"), "partido": texto(linha, "SG_PARTIDO"),
             "rec": False, "rec_total": Decimal(0), "por_origem": defaultdict(Decimal),
             "por_fonte": defaultdict(Decimal), "doa_pj": {}, "doa_pf": defaultdict(Decimal),
             "desp": False, "contratado": Decimal(0), "pago": Decimal(0), "ids": set(), "ids_pago": set(),
@@ -273,7 +273,7 @@ def agregados_json(cands, votos, eleitorado, meta):
         for doador, v in c["recebido_de"].items():
             repasses[doador][sq] = num(v)
         if c["recebido_de"]:
-            candidatos[sq] = {"nome": c["nome"], "cargo": cargo_v or cargo, "uf": uf_v or c["uf"],
+            candidatos[sq] = {"nome": c["nome"], "cargo": cargo_v or cargo, "uf": uf_v or c["uf"], "partido": c["partido"],
                               "votos": n_votos if sq in votos else None}
         if cargo_v and n_votos > 0 and c["ids"]:
             custo[f"{cargo_v}|{uf_v}"].append(round(float(c["contratado"]) / n_votos, 2))
