@@ -206,7 +206,7 @@ class TestGerar(unittest.TestCase):
 
     def test_repasses_entre_candidatos(self):
         self.assertEqual(self.a["repasses"], {"1021": {"1022": 400.0}})
-        self.assertEqual(self.a["candidatos"], {"1022": {"nome": "FED NAO ELEITO", "cargo": "depfed", "uf": "AC",
+        self.assertEqual(self.a["candidatos"], {"1022": {"nome": "FED NAO ELEITO", "cargo": "depfed", "uf": "AC", "partido": "PZ",
                                                          "votos": self.a["candidatos"]["1022"]["votos"]}})
         self.assertGreater(self.a["candidatos"]["1022"]["votos"], 0)
 

@@ -424,6 +424,11 @@ def bloco_destaques(cartoes, base, cfg):
 MAX_CRUZ = 10
 
 
+def rotulo_eleito(e):
+    """NOME · UF · SIGLA: o partido vai junto de todo eleito citado no Rastro (issue #74); sem o dado, fica de fora"""
+    return " · ".join(str(x) for x in (e["nome_urna"], e.get("uf"), e.get("partido")) if x)
+
+
 def secao_cruzada(cruz):
     """'Fornecedores que também atendem outros eleitos'. cruz: [{id, rotulo, outros: [{nome_urna, caminho}]}], rotulo já
     mascarado no MEI. Sem cruzamento, nada."""
@@ -432,7 +437,7 @@ def secao_cruzada(cruz):
     lis = []
     for c in cruz:
         outros = sorted(c["outros"], key=lambda o: o["nome_urna"])
-        links = ", ".join(f'<a href="/{o["caminho"]}">{esc(o["nome_urna"])}</a>' for o in outros[:MAX_CRUZ])
+        links = ", ".join(f'<a href="/{o["caminho"]}">{esc(rotulo_eleito(o))}</a>' for o in outros[:MAX_CRUZ])
         if len(outros) > MAX_CRUZ:
             links += f" e mais {len(outros) - MAX_CRUZ}"
         lis.append(f'<li><a href="/rastro/fornecedor/{c["id"]}/">{esc(c["rotulo"])}</a><small>Também contratado por: {links}</small></li>')
@@ -460,7 +465,8 @@ def html_eleito(eleito, contas, itens, fornecedores, cfg, bases, ids=None, cruz=
                     f"Contratou {ind.brl(desp.get('total_contratado') or 0)}" if desp else "Despesas não declaradas",
                     f"{len(pj)} fornecedor{'es' if len(pj) != 1 else ''}", f"{len(itens)} indicador{'es' if len(itens) != 1 else ''}"]
         resumo = f'<p class="rs-resumo">{" · ".join(partes_r)}</p>'
-        diag = f'<section class="rs-diagrama"><h2>Caminho do dinheiro</h2>{diagramas.diagrama_campanha(contas, fornecedores, itens, ids, nome)}</section>'
+        nome_uf = f"{nome} · {eleito['uf']}"
+        diag = f'<section class="rs-diagrama"><h2>Caminho do dinheiro</h2>{diagramas.diagrama_campanha(contas, fornecedores, itens, ids, nome_uf, eleito.get("partido"))}</section>'
         n_orig = len((rec or {}).get("por_origem") or {})
         rec_h = (f'<details class="rs-det"><summary><b>Receitas por origem</b> · total {ind.brl(rec.get("total") or 0)} · {n_orig} origem(ns)</summary>{tabela_receitas(rec)}</details>'
                  if rec else '<details class="rs-det"><summary><b>Receitas por origem</b></summary><p class="rs-vazio">Receitas ainda não declaradas na base.</p></details>')
@@ -472,10 +478,11 @@ def html_eleito(eleito, contas, itens, fornecedores, cfg, bases, ids=None, cruz=
     ind_h = f'<h2 id="indicadores">Indicadores</h2>{lista_indicadores(itens, data_ind)}' if parcial else ""
     dest_h = bloco_destaques(destaques(itens, contas, fornecedores, cfg, ids), data_ind, cfg) if parcial else ""
     tabs = f'<h2>Tabelas</h2>{rec_h}{desp_h}' if parcial else ""
-    corpo = (trilha(("Início", "/"), ("Rastro do dinheiro", "/rastro/"), (nome, None))
-             + f'<p class="rs-kicker">Rastro do dinheiro · eleito(a) 2026</p><h1>{esc(nome)}</h1>'
+    com_sg = f'{nome} · {eleito["partido"]}' if eleito.get("partido") else nome
+    corpo = (trilha(("Início", "/"), ("Rastro do dinheiro", "/rastro/"), (com_sg, None))
+             + f'<p class="rs-kicker">Rastro do dinheiro · eleito(a) 2026</p><h1>{esc(com_sg)}</h1>'
              f'<p class="rs-meta">{partes[0]}</p>{resumo}' + aviso_curto() + fin + dest_h + diag + ind_h + tabs
-             + (secao_cruzada(cruz) if parcial else "") + rodape(cfg, base, f"Contestar dado: {nome} ({eleito['uf']})"))
+             + (secao_cruzada(cruz) if parcial else "") + rodape(cfg, base, f"Contestar dado: {rotulo_eleito(eleito)}"))
     return pagina(f"{nome} · Rastro do dinheiro", corpo, script=parcial)
 
 
@@ -677,7 +684,7 @@ def html_fornecedor(id_, rec, campanhas, itens, cfg, bases, anteriores=None, pen
         blocos = []
         for cam_, its in por_camp.items():
             lis = "".join(f'<li><b class="rs-rot">{esc(rotulo(i["nome"]))}</b>: {esc(i["fato"])} {_fonte(i)}{_hom(i)}</li>' for i in its)
-            blocos.append(f'<h3>Campanha de <a href="/{cam_}">{esc(its[0]["eleito"]["nome_urna"])}</a></h3><ul class="rs-ind">{lis}</ul>')
+            blocos.append(f'<h3>Campanha de <a href="/{cam_}">{esc(rotulo_eleito(its[0]["eleito"]))}</a></h3><ul class="rs-ind">{lis}</ul>')
         ind_h = f'<h2>Indicadores em que é a contraparte</h2>{"".join(blocos)}'
     else:
         ind_h = '<h2>Indicadores em que é a contraparte</h2><p class="rs-vazio">Nenhum indicador disparado para este fornecedor.</p>'

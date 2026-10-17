@@ -1,7 +1,7 @@
 // Cartões de compartilhamento da Análise, desenhados pelo Chrome no build (build_site.py tira o print):
 // /analise/og.html?s=<id>&f=og (1200×630) ou f=social (1080×1350). Sempre Brasil, tema escuro.
 import { html, render } from "/vendor/preact-htm.module.js";
-import { recorte, SECOES, LADOS, LADO_NOME, LADO_MIN, LADO_CURTO, LADO_COR, CARGO_NOME, pct, int, num, mi, ladoDe } from "./calc.js";
+import { recorte, SECOES, LADOS, CAND, LADO_NOME, LADO_MIN, LADO_CURTO, LADO_COR, CARGO_NOME, pct, int, num, mi, ladoDe } from "./calc.js";
 import { Empilhadas, Barras, Halteres, Pequenos, LegendaLados } from "./graficos.js";
 import { carregar } from "./dados.js";
 
@@ -16,11 +16,11 @@ function grafico(D, R) {
   const s = R[SECAO_DO_ID[id]];
   switch (id) {
     case "campos": return html`<${LegendaLados} itens=${LADOS.map((k) => [cor(k), LADO_NOME[k]])} /><${Empilhadas} titulo="" rotW=${S ? 210 : 170} bh=${S ? 44 : 26} linhas=${s.linhas.map((l) => ({ rotulo: l.nome, partes: LADOS.map((k) => ({ k, p: l.p[k], cor: cor(k), nome: k })) }))} />`;
-    case "voto-dividido": return html`<${Barras} bh=${S ? 40 : 22} max=${1} rotW=${RW(230)} eixo=${false} titulo="" itens=${s.grupos[0].itens.map((it) => ({ rotulo: `Lula → ${LADO_MIN[it.dst]}`, v: it.p, int: it.int, cor: cor(it.dst) }))} />`;
+    case "voto-dividido": return html`<${Barras} bh=${S ? 40 : 22} max=${1} rotW=${RW(230)} eixo=${false} titulo="" itens=${s.grupos[0].itens.map((it) => ({ rotulo: `${CAND.L} → ${LADO_MIN[it.dst]}`, v: it.p, int: it.int, cor: cor(it.dst) }))} />`;
     case "votos-cadeiras": return html`<${Halteres} rotA="% dos votos" rotB="% das cadeiras" titulo="" linhas=${s.casas.filter((c) => c.casa === "depfed").flatMap((c) => LADOS.map((l) => ({ rotulo: `Câmara · ${LADO_CURTO[l]}`, a: c.votos[l], b: c.pc[l], cor: cor(l) })))} />`;
     case "divergencias": return html`<${Barras} bh=${S ? 40 : 22} rotW=${RW(60)} eixo=${false} titulo="" itens=${[...s.porUF].sort((a, b) => b.p - a.p).slice(0, formato === "social" ? 10 : 6).map((x) => ({ rotulo: x.uf, v: x.p, cor: "var(--ink2)" }))} />`;
     case "comparacao-2022": return s.leg ? html`<${Halteres} rotA="2022" rotB="2026" titulo="" linhas=${s.leg.map((x) => ({ rotulo: `Dep. federal · ${LADO_CURTO[x.lado]}`, a: x.a, b: x.b, cor: cor(x.lado) }))} />` : null;
-    case "cenarios-2-turno": return html`<${Barras} bh=${S ? 40 : 22} max=${1} rotW=${RW(160)} eixo=${false} titulo="" itens=${[{ rotulo: "Lula precisa", v: s.pl, cor: cor("L") }, { rotulo: "Flávio precisa", v: s.pf, cor: cor("F") }]} />`;
+    case "cenarios-2-turno": return html`<${Barras} bh=${S ? 40 : 22} max=${1} rotW=${RW(160)} eixo=${false} titulo="" itens=${[{ rotulo: `${CAND.L} precisa`, v: s.pl, cor: cor("L") }, { rotulo: `${CAND.F} precisa`, v: s.pf, cor: cor("F") }]} />`;
     case "brancos-nulos": return html`<${Pequenos} titulo="" itens=${s.itens.map((i) => ({ titulo: i.nome, valor: pct(i.p), partes: [{ v: i.pb, cor: "var(--outros)" }, { v: i.pn, cor: "var(--neutral)" }] }))} />`;
     case "fragmentacao": return html`<${Halteres} rotA="centro: % dos votos" rotB="centro: % das cadeiras" titulo="" linhas=${s.casas.map((c) => ({ rotulo: c.nome, a: c.centro_pct_votos, b: c.centro_pct_cadeiras, cor: cor("C") }))} />`;
     case "legenda": return html`<${Barras} bh=${S ? 40 : 22} rotW=${RW(200)} eixo=${false} titulo="" itens=${s.casas.slice(0, 1).flatMap((c) => LADOS.map((l) => ({ rotulo: `${c.nome} · ${LADO_CURTO[l]}`, v: c[l], cor: cor(l) })))} />`;

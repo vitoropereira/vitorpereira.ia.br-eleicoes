@@ -246,7 +246,7 @@ class TestBaseDaDispersao(unittest.TestCase):
         js = (AN / "js" / "app.js").read_text(encoding="utf-8")
         self.assertIn("x[i] = m.pres26_validos_lula", js)
         self.assertNotIn("x[i] = m.pres26_pct_lula", js)
-        self.assertIn("% de Lula nos votos válidos (presidente)", js)
+        self.assertIn("% de ${CAND.L} nos votos válidos (presidente)", js)
 
 
 class TestDivergencias(unittest.TestCase):
@@ -343,7 +343,7 @@ class TestTextosNeutros(unittest.TestCase):
         txt = json.dumps([dado("faq"), dado("destaques"), dado("comparacao2022")["BR"]["pl_depfed"]], ensure_ascii=False)
         self.assertNotIn("sobras de 2024", txt)
         self.assertIn("recálculo das sobras determinado pelo STF", txt)
-        q = next(x for x in dado("faq") if x["q"].startswith("Por que Lula tem tantos votos"))
+        q = next(x for x in dado("faq") if x["q"].startswith("Por que Lula (PT) tem tantos votos"))
         self.assertTrue(q["a"].startswith("Pela estimativa, "), q["a"])
 
 

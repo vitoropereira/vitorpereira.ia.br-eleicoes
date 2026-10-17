@@ -462,8 +462,8 @@ SECOES_ANALISE = [
 ANALISE_DADOS = R / "analise" / "dados"
 # a Análise foi gerada em 08/10/2026 (posição dos lados e analise/calcular.py); não herda as datas do 1º turno
 ANALISE_GERADA = ISO(datetime(2026, 10, 8, 12, 0))
-ANALISE_TITULO = "Voto dividido em 2026: Lula, Flávio e o Congresso | Análise"
-ANALISE_DESC = ("Por que Lula tem tantos votos e o campo de Lula elege poucos deputados? Voto dividido estimado, votos × cadeiras, "
+ANALISE_TITULO = "Voto dividido em 2026: Lula (PT), Flávio (PL) e o Congresso | Análise"
+ANALISE_DESC = ("Por que Lula (PT) tem tantos votos e o campo dele elege poucos deputados? Voto dividido estimado, votos × cadeiras, "
                 "divergências por município e 2022 × 2026, com dados do TSE.")
 
 
@@ -879,7 +879,7 @@ def main():
 ## Páginas
 - [Resultado final completo]({BASE}/): mapa por estado, governadores, Senado, Câmara, Assembleias, perguntas frequentes
 - [Mapa da apuração por município]({BASE}/ao-vivo/): presidente, governadores, Senado e deputados nos 5.570 municípios; 2º turno ao vivo em 25/10
-- [Análise: voto dividido, votos × cadeiras, divergências e 2022 × 2026]({BASE}/analise/): por que Lula tem tantos votos e o campo de Lula elege poucos deputados; estimativas marcadas, por estado
+- [Análise: voto dividido, votos × cadeiras, divergências e 2022 × 2026]({BASE}/analise/): por que Lula (PT) tem tantos votos e o campo dele elege poucos deputados; estimativas marcadas, por estado
 - [Apuração leitura a leitura]({BASE}/apuracao/)
 """ + "".join(f"- [Apuração com {fmt(r['d']['pst'], 1)}% das urnas]({BASE}{r['url']})\n" for r in rodadas) +
 f"- [Dados consolidados em JSON]({BASE}/dados/relatorio.json)\n", encoding="utf-8")

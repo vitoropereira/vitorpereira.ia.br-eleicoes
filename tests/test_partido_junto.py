@@ -1,6 +1,7 @@
-"""Partido junto do nome: todo bloco do site que cita um candidato traz a sigla dele no mesmo bloco (issue #69).
-O helper blocos_sem_sigla roda sobre o HTML pré-renderizado; os testes de página dependem do Chrome headless."""
-import html.parser, json, re, shutil, sys, tempfile, unittest
+"""Partido junto do nome: todo bloco do site que cita um candidato traz a sigla dele no mesmo bloco (issues #69 e #74).
+O helper blocos_sem_sigla roda sobre o HTML pré-renderizado; rotulos_canvas pega o que o Chart.js desenha no canvas
+(que não vira HTML); os testes de página dependem do Chrome headless."""
+import html, html.parser, json, re, shutil, sys, tempfile, unittest
 from pathlib import Path
 
 R = Path(__file__).resolve().parent.parent
@@ -12,11 +13,13 @@ FIX = Path(__file__).parent / "fixtures" / "partido"
 TEM_CHROME = bool(shutil.which(B.CHROME) or Path(B.CHROME).exists())
 BLOCOS = {"li", "tr", "p", "h1", "h2", "h3", "title", "summary", "text", "g"}
 CLASSES = {"legend", "ramp", "nm"}
+# título de matéria citado como prova (<cite>) é da fonte, não é rótulo nosso: fica fora, como script e style
+MUDOS = {"script", "style", "cite"}
 VAZIOS = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source", "track", "wbr"}
 
 
 class _Blocos(html.parser.HTMLParser):
-    """(tag, texto) de cada bloco; o texto inclui o dos filhos. Ignora script e style."""
+    """(tag, texto) de cada bloco; o texto inclui o dos filhos. Ignora script, style e cite."""
 
     def __init__(self):
         super().__init__(convert_charrefs=True)
@@ -25,7 +28,7 @@ class _Blocos(html.parser.HTMLParser):
     def handle_starttag(self, tag, attrs):
         if tag in VAZIOS:
             return
-        if tag in ("script", "style"):
+        if tag in MUDOS:
             self.mudo += 1
         classes = set((dict(attrs).get("class") or "").split())
         self.handle_data(" ")  # célula colada na outra ("PT36,16") não vira uma palavra só
@@ -33,7 +36,7 @@ class _Blocos(html.parser.HTMLParser):
 
     def handle_endtag(self, tag):
         self.handle_data(" ")
-        if tag in ("script", "style"):
+        if tag in MUDOS:
             self.mudo = max(0, self.mudo - 1)
         for i in range(len(self.pilha) - 1, -1, -1):  # fecha até a tag correspondente (HTML mal fechado)
             if self.pilha[i][0] == tag:
@@ -53,7 +56,7 @@ def _re(palavra):
     return re.compile(rf"(?<!\w){re.escape(palavra)}(?!\w)")
 
 
-def blocos_sem_sigla(doc, candidatos):
+def blocos_sem_sigla(doc, candidatos, corte=160):
     """[(bloco, nome)] dos blocos que citam um nome de `candidatos` ({sigla: [nomes e apelidos]}) sem a sigla no bloco.
     Nomes mais longos casam primeiro e saem do texto: "Cadu de Lula" não conta como menção a Lula."""
     p = _Blocos(); p.feed(doc); p.close()
@@ -61,12 +64,33 @@ def blocos_sem_sigla(doc, candidatos):
     achados = []
     for _, texto in p.blocos:
         resto, citados = texto, {}
-        for n, sg in nomes:
+        for n, sg in (x for x in nomes if x[0] in texto):  # filtro barato: a varredura do site/ usa ~1.700 nomes
             if _re(n).search(resto):
                 citados.setdefault(sg, n)
                 resto = _re(n).sub("\0", resto)
-        achados += [(texto[:160], n) for sg, n in citados.items() if not _re(sg).search(texto)]
+        achados += [(texto[:corte], n) for sg, n in citados.items() if not _re(sg).search(texto)]
     return achados
+
+
+LITERAL = re.compile(r"`(?:[^`\\]|\\.)*`|'(?:[^'\\\n]|\\.)*'|\"(?:[^\"\\\n]|\\.)*\"")
+SCRIPT = re.compile(r"<script>(.*?)</script>", re.S)
+
+
+def rotulos_canvas(js, siglas):
+    """literais de string e template do JS (label dos datasets, title.text dos eixos, fillText, tooltips), com
+    ${SG.f}/${SG.l} trocados pela sigla de `siglas` ({"f": "PL", "l": "PT"}). O que vai para o canvas não vira HTML:
+    cada literal é um bloco para blocos_sem_sigla (ver blocos_canvas)."""
+    out = []
+    for m in LITERAL.finditer(js):
+        t = m.group(0)[1:-1]
+        for k, v in siglas.items():
+            t = t.replace("${SG.%s}" % k, v)
+        out.append(t)
+    return out
+
+
+def blocos_canvas(js, siglas):
+    return "".join(f"<p>{html.escape(t)}</p>" for t in rotulos_canvas(js, siglas))
 
 
 def candidatos(rel, meta22=None):
@@ -114,8 +138,24 @@ class Helper(unittest.TestCase):
         doc = "<p>Lulalândia</p><script>const x='<p>Lula</p>'</script><p>Flávio · PL</p>"
         self.assertEqual(blocos_sem_sigla(doc, self.CAND), [])
 
+    def test_cite_de_fonte_fica_fora(self):
+        self.assertEqual(blocos_sem_sigla("<tr><td><cite>Lula x Flávio</cite></td></tr>", self.CAND), [])
+        self.assertEqual(len(blocos_sem_sigla("<tr><td><cite>fonte</cite> Lula</td></tr>", self.CAND)), 1)
+
     def test_sigla_tem_que_ser_palavra_inteira(self):
         self.assertEqual(len(blocos_sem_sigla("<li>Flávio no PLANALTO</li>", self.CAND)), 1)
+
+    def test_svg_sem_sigla_no_no_falha(self):
+        """caso negativo da #74: o nó do Sankey sem a sigla dá achado mesmo com a sigla no <title> do SVG"""
+        cand = {"PT": ["RUI COSTA"]}
+        self.assertEqual(blocos_sem_sigla((FIX / "com_sigla.svg").read_text(), cand), [])
+        self.assertEqual([n for _, n in blocos_sem_sigla((FIX / "sem_sigla.svg").read_text(), cand)], ["RUI COSTA", "RUI COSTA"])
+
+    def test_canvas_sem_sigla_falha(self):
+        sg = {"f": "PL", "l": "PT"}
+        self.assertEqual(blocos_sem_sigla(blocos_canvas((FIX / "com_sigla_canvas.js").read_text(), sg), self.CAND), [])
+        achados = blocos_sem_sigla(blocos_canvas((FIX / "sem_sigla_canvas.js").read_text(), sg), self.CAND)
+        self.assertEqual(achados, [("Lula (projeção mediana)", "Lula")])
 
     def test_candidatos_tira_siglas_do_dado(self):
         c = candidatos(_rel(), _meta22())
@@ -146,6 +186,26 @@ class Textos(unittest.TestCase):
         doc = B.pagina_apuracao("").replace('<a class="rd', '<li><a class="rd').replace("</a>", "</a></li>")
         self.assertEqual(blocos_sem_sigla(doc, cand), [])
 
+
+    def test_canvas_do_resultado_final(self):
+        """o que o template.html desenha no canvas (séries, rótulo de fim de linha, eixos e tooltips) traz a sigla"""
+        js = "".join(SCRIPT.findall((R / "template.html").read_text()))
+        sg = {"f": B.cF["sg"], "l": B.cL["sg"]}
+        self.assertIn(f"Lula ({B.cL['sg']}) projeção mediana", rotulos_canvas(js, sg))
+        self.assertEqual(blocos_sem_sigla(blocos_canvas(js, sg), candidatos(_rel())), [])
+
+    def test_sigla_da_analise_vem_do_dado(self):
+        """analise/js/calc.js fixa a sigla de Lula e de Flávio (SIGLA): tem que bater com relatorio.json"""
+        js = (R / "analise" / "js" / "calc.js").read_text(encoding="utf-8")
+        m = re.search(r'export const SIGLA = \{ L: "(\w+)", F: "(\w+)" \}', js)
+        self.assertEqual(m.groups(), (B.cL["sg"], B.cF["sg"]))
+
+    def test_og_da_analise(self):
+        """os cartões OG da Análise viram PNG: o texto deles não passa pelo pré-render, só pelo JS"""
+        js = (R / "analise" / "js" / "og.js").read_text(encoding="utf-8")
+        self.assertIn("`${CAND.L} precisa`", js)
+        self.assertEqual(blocos_sem_sigla(blocos_canvas(js, {}), candidatos(_rel(), _meta22())), [])
+        self.assertNotEqual(blocos_sem_sigla(blocos_canvas(js.replace("`${CAND.L} precisa`", '"Lula precisa"'), {}), candidatos(_rel())), [])
 
     def test_resumo_hud(self):
         self.assertEqual(blocos_sem_sigla(B.resumo_hud(), candidatos(_rel(), _meta22())), [])
@@ -192,6 +252,88 @@ class AoVivoPublicado(unittest.TestCase):
         self.assertIn('<style id="consent-css">', html_)
 
 
+def candidatos_site():
+    """candidatos(rel, meta22) mais os eleitos do Rastro pelo nome de urna completo, de duas palavras ou mais (nome com
+    mais de um partido fica de fora)"""
+    out = candidatos(_rel(), _meta22())
+    ja = {n for ns in out.values() for n in ns}
+    por_nome = {}
+    for e in json.loads((R / "rastro" / "dados" / "eleitos.json").read_text())["eleitos"]:
+        por_nome.setdefault(e["nome_urna"], set()).add(e["partido"])
+    for n, sgs in sorted(por_nome.items()):
+        if len(sgs) == 1 and n not in ja and " " in n:  # nome de uma palavra (LEANDRO, BECK) casa dentro de razão social
+            out.setdefault(next(iter(sgs)), []).append(n)
+    return out
+
+
+MAIUSC = "A-ZÀ-Ý"
+
+
+def achados_rastro(doc, cand):
+    """blocos_sem_sigla, sem o caso que não é rótulo nosso: o nome de urna dentro de um nome maior (JOSE DIAS DE CASTRO
+    NETO não é CASTRO NETO; a razão social "ELEICAO 2026 FULANO DEPUTADO" é do fornecedor)"""
+    out = []
+    for b, n in blocos_sem_sigla(doc, cand, corte=None):
+        if re.search(rf"[{MAIUSC}0-9]{{2,}}\.? {re.escape(n)}(?!\w)|(?<!\w){re.escape(n)} [{MAIUSC}]{{2,}}", b):
+            continue
+        out.append((b, n))
+    return out
+
+
+class SiteGerado(unittest.TestCase):
+    """varredura do Rastro inteiro, gerado agora com o dado de rastro/dados (o site/ commitado só muda com o build, que
+    exige o sal do MEI): nenhum bloco de nenhuma página cita eleito sem a sigla (issue #74). O sal aqui é de teste: só
+    muda o id do fornecedor MEI, não os rótulos."""
+
+    @classmethod
+    def setUpClass(cls):
+        from rastro import paginas as rp
+        cls.cand = candidatos_site()
+        cls.tmp = tempfile.TemporaryDirectory()
+        d = Path(cls.tmp.name)
+        sal = d / "sal"; sal.write_text("sal-de-teste")
+        antes, ler = rp.SAL, rp.ler_sal
+        rp.SAL, rp.ler_sal = sal, lambda caminho=sal: ler(caminho)
+        try:
+            B.rastro_publicar(d / "site", "2026-10-17", "2026-10-17")
+        finally:
+            rp.SAL, rp.ler_sal = antes, ler
+        cls.paginas = {str(a.relative_to(d / "site")): a.read_text(encoding="utf-8") for a in sorted((d / "site").rglob("*.html"))}
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.tmp.cleanup()
+
+    def test_nenhum_rotulo_sem_sigla(self):
+        self.maxDiff = None
+        self.assertGreater(len(self.paginas), 10)
+        achados = {k: a[:3] for k, doc in self.paginas.items() if (a := achados_rastro(doc, self.cand))}
+        self.assertEqual(achados, {})
+
+    def test_no_sem_sigla_falha(self):
+        """caso negativo: tirar a sigla do nó da campanha num HTML do Rastro dá achado"""
+        no = re.compile(r'(<text [^>]*font-weight:600[^>]*>[^<]+?) · ([A-Z]+)(</text>)')
+        doc = next((d for d in self.paginas.values() if no.search(d)), None)
+        if doc is None:
+            self.skipTest("nenhuma página de eleito com diagrama")
+        self.assertEqual(achados_rastro(doc, self.cand), [])
+        self.assertNotEqual(achados_rastro(no.sub(r"\1\3", doc, count=1), self.cand), [])
+
+
+@unittest.skipUnless((R / "site" / "index.html").exists(), "site/ não construído (python3 build_site.py)")
+class SitePublicado(unittest.TestCase):
+    """o site/ commitado é o que a Vercel publica: nenhuma página dele (Resultado final, apuração, Análise, Rastro e
+    o resto) cita candidato ou eleito sem a sigla. Pega o site/ que ficou para trás do código (build não rodado)."""
+
+    def test_nenhum_rotulo_sem_sigla(self):
+        self.maxDiff = None
+        cand = candidatos_site()
+        paginas = sorted((R / "site").rglob("*.html"))
+        self.assertGreater(len(paginas), 1000)
+        achados = {str(a.relative_to(R / "site")): x[:3] for a in paginas if (x := achados_rastro(a.read_text(encoding="utf-8"), cand))}
+        self.assertEqual(achados, {})
+
+
 @unittest.skipUnless(TEM_CHROME, "Chrome headless indisponível")
 class Paginas(unittest.TestCase):
     """pré-renderiza as páginas montadas a partir dos templates e procura blocos sem sigla"""
@@ -217,6 +359,22 @@ class Paginas(unittest.TestCase):
         finally:
             srv.shutdown(); srv.server_close()
         self.assertIn('class="manchete', doc)  # o app montou
+        self.assertEqual(blocos_sem_sigla(doc, candidatos(_rel(), _meta22())), [])
+
+    def test_analise(self):
+        """a Análise montada agora (analise/js e analise/dados do código, não do site/) rodando no Chrome"""
+        with tempfile.TemporaryDirectory() as d:
+            d = Path(d)
+            for x in ("vendor", "hud", "geo"):
+                (d / x).symlink_to(R / "site" / x)
+            B.copiar_analise(d)
+            (d / "analise" / "index.html").write_text(B.html_analise(B.analise_dados(), B.ANALISE_GERADA, B.ANALISE_GERADA))
+            srv = B.serve(d, port=8796)
+            try:
+                doc = B.prerender("http://127.0.0.1:8796/analise/")
+            finally:
+                srv.shutdown(); srv.server_close()
+        self.assertIn('id="metodo"', doc)  # o app montou até a última seção
         self.assertEqual(blocos_sem_sigla(doc, candidatos(_rel(), _meta22())), [])
 
     def test_leitura(self):

@@ -2,9 +2,13 @@
 // Lados: L = campo de Lula, F = campo de Flávio, C = centro/sem lado. Contrato: analise/dados/*.json.
 
 export const LADOS = ["L", "C", "F"]; // ordem visual: esquerda → direita
-export const LADO_NOME = { L: "Campo de Lula", C: "Centro/sem lado", F: "Campo de Flávio" };
-export const LADO_MIN = { L: "campo de Lula", C: "centro", F: "campo de Flávio" }; // no meio da frase
-export const LADO_CURTO = { L: "Lula", C: "Centro", F: "Flávio" };
+// partido de Lula e de Flávio: o nome do candidato sempre sai com a sigla (issue #74; tests/test_partido_junto.py
+// confere com relatorio/relatorio.json)
+export const SIGLA = { L: "PT", F: "PL" };
+export const CAND = { L: `Lula (${SIGLA.L})`, F: `Flávio (${SIGLA.F})` };
+export const LADO_NOME = { L: `Campo de ${CAND.L}`, C: "Centro/sem lado", F: `Campo de ${CAND.F}` };
+export const LADO_MIN = { L: `campo de ${CAND.L}`, C: "centro", F: `campo de ${CAND.F}` }; // no meio da frase
+export const LADO_CURTO = { L: CAND.L, C: "Centro", F: CAND.F };
 // cor de dado = só tokens de campo da brand (o ciano fica na moldura)
 export const LADO_TOKEN = { L: "--lula", C: "--outros", F: "--flavio" };
 export const LADO_COR = { L: "var(--lula)", C: "var(--outros)", F: "var(--flavio)" };
@@ -139,10 +143,10 @@ export function secCampos(D, uf) {
   return {
     ok: linhas.length > 0, uf, linhas, dif,
     titulo: pres && dep
-      ? `Campo de Lula: ${pct(pres.p.L)} dos votos para presidente e ${pct(dep.p.L)} para deputado federal ${noRecorte(uf)}`
+      ? `${LADO_NOME.L}: ${pct(pres.p.L)} dos votos para presidente e ${pct(dep.p.L)} para deputado federal ${noRecorte(uf)}`
       : `Votos por campo e cargo ${noRecorte(uf)}`,
     numero: dif != null ? pp(-dif) : "–",
-    rotulo: "do voto em presidente para o voto em deputado federal, no campo de Lula",
+    rotulo: `do voto em presidente para o voto em deputado federal, no ${LADO_MIN.L}`,
   };
 }
 
@@ -160,7 +164,7 @@ export function secDividido(D, uf, cargo = "depfed") {
     };
   }
   const grupos = ["lula", "flavio"].map((q) => ({
-    quem: q, nome: q === "lula" ? "Eleitores de Lula" : "Eleitores de Flávio",
+    quem: q, nome: q === "lula" ? `Eleitores de ${CAND.L}` : `Eleitores de ${CAND.F}`,
     itens: DESTINOS[q].map((dst) => {
       const it = d[`${q}_para_${dst}`];
       return it ? { dst, v: it.v, p: it.pct, int: intervaloPct(it), intV: intervaloV(it) } : null;
@@ -170,9 +174,9 @@ export function secDividido(D, uf, cargo = "depfed") {
   const outro = grupos[0].itens.filter((x) => x.dst !== "L").reduce((s, x) => s + (x.p || 0), 0);
   return {
     ok: !!lf, uf, cargo, grupos, est: true, metodo: D.dividido?.metodo || "",
-    titulo: lf ? `Estimativa: ${num(outro * 10, 0)} em cada 10 eleitores de Lula votaram em ${CARGO_LONGO[cargo]} fora do campo dele ${noRecorte(uf)}` : "",
+    titulo: lf ? `Estimativa: ${num(outro * 10, 0)} em cada 10 eleitores de ${CAND.L} votaram em ${CARGO_LONGO[cargo]} fora do campo dele ${noRecorte(uf)}` : "",
     numero: lf ? mi(lf.v) : "–",
-    rotulo: lf ? `eleitores de Lula votaram em ${CARGO_LONGO[cargo]} do campo de Flávio${lf.intV ? ` (faixa de ${mi(lf.intV[0])} a ${mi(lf.intV[1])})` : ""}` : "",
+    rotulo: lf ? `eleitores de ${CAND.L} votaram em ${CARGO_LONGO[cargo]} do ${LADO_MIN.F}${lf.intV ? ` (faixa de ${mi(lf.intV[0])} a ${mi(lf.intV[1])})` : ""}` : "",
   };
 }
 
@@ -187,9 +191,9 @@ export function secCadeiras(D, uf) {
   const cam = casas.find((x) => x.casa === "depfed") || casas[0];
   return {
     ok: !!cam, uf, casas,
-    titulo: cam ? `Campo de Lula: ${pct(cam.votos.L)} dos votos e ${pct(cam.pc.L)} das cadeiras ${cam.casa === "depfed" ? (uf === "BR" ? "da Câmara" : `da bancada ${uf === "DF" ? "do DF" : "de " + uf} na Câmara`) : "em " + cam.nome}` : "",
+    titulo: cam ? `${LADO_NOME.L}: ${pct(cam.votos.L)} dos votos e ${pct(cam.pc.L)} das cadeiras ${cam.casa === "depfed" ? (uf === "BR" ? "da Câmara" : `da bancada ${uf === "DF" ? "do DF" : "de " + uf} na Câmara`) : "em " + cam.nome}` : "",
     numero: cam ? `${int(cam.cadeiras.L)} de ${int(cam.total)}` : "–",
-    rotulo: cam ? `cadeiras ${cam.casa === "depfed" ? "de deputado federal" : "em " + cam.nome} para o campo de Lula` : "",
+    rotulo: cam ? `cadeiras ${cam.casa === "depfed" ? "de deputado federal" : "em " + cam.nome} para o ${LADO_MIN.L}` : "",
   };
 }
 
@@ -235,9 +239,9 @@ export function secComparacao(D, uf) {
   const rk = lista(c.ranking).filter((x) => uf === "BR" || x.uf === uf || ufDoCodigo(x.cd) === uf);
   return {
     ok: n > 0 || !!agg, uf, lf, bl, n, leg, pres, ranking: rk,
-    titulo: `${int(lf)} ${lf === 1 ? "município votou" : "municípios votaram"} em Lula em 2022 e em Flávio em 2026${uf === "BR" ? "" : " " + noRecorte(uf)}; ${int(bl)} fizeram o caminho inverso`,
+    titulo: `${int(lf)} ${lf === 1 ? "município votou" : "municípios votaram"} em ${CAND.L} em 2022 e em ${CAND.F} em 2026${uf === "BR" ? "" : " " + noRecorte(uf)}; ${int(bl)} fizeram o caminho inverso`,
     numero: int(lf),
-    rotulo: "municípios trocaram Lula (2022) por Flávio (2026)",
+    rotulo: `municípios trocaram Lula (2022) por Flávio (2026), de ${SIGLA.L} para ${SIGLA.F}`,
   };
 }
 
@@ -255,9 +259,9 @@ export function secCenarios(D) {
   const total = elim.reduce((s, e) => s + (e.votos || 0), 0);
   return {
     ok: true, uf: "BR", est: true, pl, pf, eliminados: elim, totalElim: total, pesquisas: ordenaPesquisas(c.pesquisas), cenarios: c.cenarios || [],
-    titulo: Number.isFinite(pl) ? `Cenário: Lula precisa de ${pct(pl, 0)} dos votos dos eliminados para virar; Flávio, de ${pct(pf, 0)} para manter a frente` : "Cenários do 2º turno",
+    titulo: Number.isFinite(pl) ? `Cenário: ${CAND.L} precisa de ${pct(pl, 0)} dos votos dos eliminados para virar; ${CAND.F}, de ${pct(pf, 0)} para manter a frente` : "Cenários do 2º turno",
     numero: Number.isFinite(pl) ? pct(pl, 0) : "–",
-    rotulo: `dos votos dos candidatos eliminados (${mi(total)}) é o que Lula precisa para virar, se os eleitores dos dois repetirem o voto`,
+    rotulo: `dos votos dos candidatos eliminados (${mi(total)}) é o que ${CAND.L} precisa para virar, se os eleitores dos dois repetirem o voto`,
   };
 }
 
@@ -315,7 +319,7 @@ export function secPuxadores(D, uf, cargo = "depfed") {
     ok: true, uf, cargo, itens, vazioUF: !itens.length,
     titulo: top ? `${top.nome} (${top.partido}-${top.uf}) teve ${votosTxt(top.votos)}, ${num(top.votos / (top.quociente || 1), 1)} vezes o quociente eleitoral` : `Nenhum dos 30 mais votados para ${CARGO_LONGO[cargo]} é ${deRecorte(uf)}`,
     numero: top ? `${int(top.puxados_estimados)}` : "–",
-    rotulo: top ? `colegas de partido eleitos com a sobra de votos de ${top.nome} (estimativa)` : "",
+    rotulo: top ? `colegas de partido eleitos com a sobra de votos de ${top.nome} (${top.partido}) (estimativa)` : "",
     est: true,
   };
 }

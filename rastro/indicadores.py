@@ -222,6 +222,13 @@ def gasto_por_voto(sq, contas, eleito, agregados, cfg):
     }]
 
 
+def rotulo_recebedor(info):
+    """NOME · UF · SIGLA do recebedor do repasse; sem nome, "outro candidato" (sem inventar partido)"""
+    if not info.get("nome"):
+        return "outro candidato"
+    return " · ".join(x for x in (info["nome"], info.get("uf"), info.get("partido")) if x)
+
+
 def transferencia_candidato(sq, contas, agregados, eleitorado, cfg, fornecedores=None):
     """Sem `fornecedores` (dados da Receita), todo fornecedor sai só pelo CNPJ mascarado."""
     repasses = (agregados.get("repasses") or {}).get(sq) or {}
@@ -243,13 +250,14 @@ def transferencia_candidato(sq, contas, agregados, eleitorado, cfg, fornecedores
         total_uf = (eleitorado or {}).get(info.get("uf"))
         infima = votos is not None and bool(total_uf) and votos / total_uf < cfg["votacao_infima_fracao_eleitorado"]
         destaque = f"; o recebedor teve {votos} votos (votação ínfima)" if infima else ""
+        quem = rotulo_recebedor(info)
         out.append((infima, {
             "nome": "transferencia_candidato",
-            "fato": (f"Repassou {brl(valor)} a {info.get('nome') or 'outro candidato'}, que usou "
+            "fato": (f"Repassou {brl(valor)} a {quem}, que usou "
                      f"{len(comuns)} fornecedor{'es' if len(comuns) != 1 else ''} PJ em comum ({nomes}){destaque}"),
             "valor": valor,
             "fonte_url": URL_CONTAS,
-            "contraparte": info.get("nome") or "outro candidato",
+            "contraparte": quem,
         }))
     out.sort(key=lambda t: not t[0])
     return [i for _, i in out]

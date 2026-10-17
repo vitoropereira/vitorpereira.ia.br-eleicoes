@@ -148,17 +148,17 @@ new Chart(cTraj,{type:'line',data:{datasets:[
  ...band('f',C.f),...band('l',C.l),
  {label:`Flávio (${SG.f}) apurado`,data:xy(D.hist,'f'),borderColor:C.f,backgroundColor:C.f,borderWidth:2.5,pointRadius:4,pointBorderColor:C.card,pointBorderWidth:2},
  {label:`Lula (${SG.l}) apurado`,data:xy(D.hist,'l'),borderColor:C.l,backgroundColor:C.l,borderWidth:2.5,pointRadius:4,pointBorderColor:C.card,pointBorderWidth:2},
- {label:'Flávio (projeção mediana)',data:xy(T.mc50,'f'),borderColor:C.f,borderDash:[6,4],borderWidth:2,pointRadius:0,pointHoverRadius:4},
- {label:'Lula (projeção mediana)',data:xy(T.mc50,'l'),borderColor:C.l,borderDash:[6,4],borderWidth:2,pointRadius:0,pointHoverRadius:4},
- {label:'Flávio (projeção base)',data:xy(T.base,'f'),borderColor:C.f,borderDash:[1,3],borderWidth:1.5,pointRadius:0},
- {label:'Lula (projeção base)',data:xy(T.base,'l'),borderColor:C.l,borderDash:[1,3],borderWidth:1.5,pointRadius:0},
+ {label:`Flávio (${SG.f}) projeção mediana`,data:xy(T.mc50,'f'),borderColor:C.f,borderDash:[6,4],borderWidth:2,pointRadius:0,pointHoverRadius:4},
+ {label:`Lula (${SG.l}) projeção mediana`,data:xy(T.mc50,'l'),borderColor:C.l,borderDash:[6,4],borderWidth:2,pointRadius:0,pointHoverRadius:4},
+ {label:`Flávio (${SG.f}) projeção base`,data:xy(T.base,'f'),borderColor:C.f,borderDash:[1,3],borderWidth:1.5,pointRadius:0},
+ {label:`Lula (${SG.l}) projeção base`,data:xy(T.base,'l'),borderColor:C.l,borderDash:[1,3],borderWidth:1.5,pointRadius:0},
  {label:'50%',data:[{x:0,y:50},{x:100,y:50}],borderColor:C.mut,borderDash:[5,4],borderWidth:1,pointRadius:0}]},
  options:{maintainAspectRatio:false,parsing:true,interaction:{mode:'nearest',axis:'x',intersect:false},
   scales:{x:{type:'linear',min:Math.max(0,Math.floor((D.hist[0].pst-5)/5)*5),max:100,title:{display:true,text:'% das seções apuradas'},ticks:{callback:v=>v+'%'}},
    y:{suggestedMin:38,suggestedMax:54,ticks:{callback:v=>v+'%'}}},
   plugins:{legend:{display:false},tooltip:{filter:i=>!i.dataset.label.startsWith('_'),callbacks:{title:i=>`${fmt(i[0].parsed.x)}% apurado`,label:c=>`${c.dataset.label}: ${fmt(c.parsed.y,2)}%`}}}},
  plugins:[{id:'endlbl',afterDatasetsDraw(ch){const ctx=ch.ctx,xs=ch.scales.x,ys=ch.scales.y;ctx.save();ctx.font='600 12px sans-serif';ctx.textAlign='right';
-  const e=T.mc50[T.mc50.length-1];[[e.f,C.f,'Flávio'],[e.l,C.l,'Lula']].forEach(([v,c,n])=>{ctx.fillStyle=C.ink;ctx.fillText(`${n} ${fmt(v)}%`,xs.getPixelForValue(100)-4,ys.getPixelForValue(v)-8)});
+  const e=T.mc50[T.mc50.length-1];[[e.f,C.f,`Flávio (${SG.f})`],[e.l,C.l,`Lula (${SG.l})`]].forEach(([v,c,n])=>{ctx.fillStyle=C.ink;ctx.fillText(`${n} ${fmt(v)}%`,xs.getPixelForValue(100)-4,ys.getPixelForValue(v)-8)});
   ctx.fillStyle=C.ink2;ctx.font='11px sans-serif';const nr=last.pst>92;ctx.textAlign=nr?'right':'left';ctx.fillText('agora',xs.getPixelForValue(last.pst)+(nr?-6:6),ch.chartArea.top+12);ctx.restore();
   ctx.save();ctx.strokeStyle=C.mut;ctx.setLineDash([2,3]);ctx.beginPath();ctx.moveTo(xs.getPixelForValue(last.pst),ch.chartArea.top);ctx.lineTo(xs.getPixelForValue(last.pst),ch.chartArea.bottom);ctx.stroke();ctx.restore();}}]});
 }
@@ -169,8 +169,8 @@ new Chart(cScen,{type:'line',data:{labels:D.scen.map(s=>'+'+fmt(s.shift,1)),data
  {label:`Lula (${SG.l})`,data:D.scen.map(s=>s.l),borderColor:C.l,backgroundColor:C.l,borderWidth:2,pointRadius:0,pointHoverRadius:5},
  {label:'50% (vitória no 1º turno)',data:D.scen.map(()=>50),borderColor:C.mut,borderDash:[5,4],borderWidth:1.5,pointRadius:0}]},
  options:{maintainAspectRatio:false,interaction:{mode:'index',intersect:false},
-  scales:{x:{title:{display:true,text:'pontos a mais para Lula no voto restante'},grid:{display:false}},y:{suggestedMin:38,suggestedMax:52,ticks:{callback:v=>v+'%'}}},
-  plugins:{tooltip:{callbacks:{title:i=>`Restante ${i[0].label} pt p/ Lula`,label:c=>`${c.dataset.label}: ${fmt(c.parsed.y,2)}%`}}}}});
+  scales:{x:{title:{display:true,text:`pontos a mais para Lula (${SG.l}) no voto restante`},grid:{display:false}},y:{suggestedMin:38,suggestedMax:52,ticks:{callback:v=>v+'%'}}},
+  plugins:{tooltip:{callbacks:{title:i=>`Restante ${i[0].label} pt p/ Lula (${SG.l})`,label:c=>`${c.dataset.label}: ${fmt(c.parsed.y,2)}%`}}}}});
 
 // pesquisas
 const pr=[...D.polls.map(p=>({n:`${p.n} (${p.d})`,m:+(p.f-p.l).toFixed(1),k:'p'})),
@@ -178,7 +178,7 @@ const pr=[...D.polls.map(p=>({n:`${p.n} (${p.d})`,m:+(p.f-p.l).toFixed(1),k:'p'}
 new Chart(cPolls,{type:'bar',data:{labels:pr.map(p=>p.n),datasets:[{data:pr.map(p=>p.m),
  backgroundColor:pr.map(p=>p.m>=0?C.f:C.l),borderRadius:4,borderSkipped:false,
  borderWidth:pr.map(p=>p.k==='p'?0:2),borderColor:C.ink}]},
- options:{indexAxis:'y',maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>(c.parsed.x>=0?'Flávio +':'Lula +')+fmt(Math.abs(c.parsed.x))+' pt'}}},
+ options:{indexAxis:'y',maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>(c.parsed.x>=0?`Flávio (${SG.f}) +`:`Lula (${SG.l}) +`)+fmt(Math.abs(c.parsed.x))+' pt'}}},
   scales:{x:{ticks:{callback:v=>(v>0?'+':'')+v}},y:{grid:{display:false},ticks:{color:ctx=>pr[ctx.index]?.k==='p'?C.ink2:C.ink,font:ctx=>({weight:pr[ctx.index]?.k==='p'?'normal':'bold'})}}}}});
 
 // viés: % apurado × % Flávio — título, legenda e eixo calculados a partir da rodada
@@ -191,8 +191,8 @@ biasC.textContent=`Cada bolha é uma UF (tamanho = eleitorado). Flávio (${SG.f}
 const bxMin=Math.max(0,Math.floor((Math.min(...bs.map(s=>s.pst))-4)/10)*10);
 new Chart(cBias,{type:'bubble',data:{datasets:[{data:bs.map(s=>({x:s.pst,y:s.f,r:Math.max(3.5,Math.sqrt(s.te/1e6)*4.2),uf:s.uf})),
  backgroundColor:bs.map(s=>(s.f>=s.l?C.f:C.l)+'a6'),borderColor:C.card,borderWidth:1.5,clip:false}]},
- options:{maintainAspectRatio:false,layout:{padding:{right:14,top:6}},plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>{const r=c.raw;const s=D.states.find(x=>x.uf===r.uf);return `${r.uf}: ${fmt(r.x)}% apurado · Flávio ${fmt(s.f)}% × Lula ${fmt(s.l)}% · ${fmt(s.te/1e6,1)} mi eleitores`}}}},
-  scales:{x:{title:{display:true,text:'% das seções apuradas'},min:bxMin,max:100,ticks:{callback:v=>v+'%'}},y:{title:{display:true,text:'% Flávio (válidos)'},min:20,max:75,ticks:{callback:v=>v+'%'}}}},
+ options:{maintainAspectRatio:false,layout:{padding:{right:14,top:6}},plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>{const r=c.raw;const s=D.states.find(x=>x.uf===r.uf);return `${r.uf}: ${fmt(r.x)}% apurado · Flávio (${SG.f}) ${fmt(s.f)}% × Lula (${SG.l}) ${fmt(s.l)}% · ${fmt(s.te/1e6,1)} mi eleitores`}}}},
+  scales:{x:{title:{display:true,text:'% das seções apuradas'},min:bxMin,max:100,ticks:{callback:v=>v+'%'}},y:{title:{display:true,text:`% Flávio (${SG.f}) (válidos)`},min:20,max:75,ticks:{callback:v=>v+'%'}}}},
  plugins:[{id:'lbl',afterDatasetsDraw(ch){const ctx=ch.ctx,xs=ch.scales.x,ys=ch.scales.y,a=ch.chartArea;ctx.save();
   // linha de referência: Flávio projetado no Brasil
   const yb=ys.getPixelForValue(base.f);ctx.strokeStyle=C.mut;ctx.setLineDash([5,4]);ctx.beginPath();ctx.moveTo(a.left,yb);ctx.lineTo(a.right,yb);ctx.stroke();ctx.setLineDash([]);
@@ -212,8 +212,8 @@ new Chart(cStates,{type:'bar',data:{labels:st.map(s=>s.uf==='ZZ'?'Exterior':s.uf
  {label:'Já apurado',data:st.map(s=>s.marg),backgroundColor:st.map(s=>s.marg>=0?C.f:C.l),borderRadius:4,borderSkipped:false,stack:'s'},
  {label:'Ainda vem (projetado)',data:st.map(s=>s.rem_net),backgroundColor:st.map(s=>(s.rem_net>=0?C.f:C.l)+'55'),borderColor:st.map(s=>s.rem_net>=0?C.f:C.l),borderWidth:1,borderRadius:4,borderSkipped:false,stack:'s'}]},
  options:{indexAxis:'y',maintainAspectRatio:false,interaction:{mode:'index',intersect:false},
-  plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>`${c.dataset.label}: ${c.parsed.x>=0?'Flávio +':'Lula +'}${fmtI(Math.abs(c.parsed.x))} mil`,
-   afterBody:i=>{const s=st[i[0].dataIndex];return `Apurado: ${fmt(s.pst)}% · Flávio ${fmt(s.f)}% × Lula ${fmt(s.l)}%`}}}},
+  plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>`${c.dataset.label}: ${c.parsed.x>=0?`Flávio (${SG.f}) +`:`Lula (${SG.l}) +`}${fmtI(Math.abs(c.parsed.x))} mil`,
+   afterBody:i=>{const s=st[i[0].dataIndex];return `Apurado: ${fmt(s.pst)}% · Flávio (${SG.f}) ${fmt(s.f)}% × Lula (${SG.l}) ${fmt(s.l)}%`}}}},
   scales:{x:{stacked:true,ticks:{callback:v=>(v>0?'+':'')+fmtI(v)+' mil'}},y:{stacked:true,grid:{display:false}}}}});
 
 // tabela

@@ -216,7 +216,7 @@ class TestFluxosFornecedor(unittest.TestCase):
         self.assertEqual(d["total"], 1750)
         hrefs = [n.get("href") for n in d["colunas"][0]]
         self.assertEqual(hrefs, ["/rastro/depfed/sp/e1/", "/rastro/depfed/sp/e2/", None])
-        self.assertEqual(d["colunas"][0][0]["rotulo"], "ELEITO 01 · Deputado(a) federal · SP")
+        self.assertEqual(d["colunas"][0][0]["rotulo"], "ELEITO 01 · Deputado(a) federal · SP · PX")
 
     def test_limite_de_campanhas(self):
         cs = [camp(i, total=1000.0 - i) for i in range(14)]
@@ -303,6 +303,33 @@ class TestResistencia(unittest.TestCase):
         h = dg.diagrama_campanha(c, FORN, [], None)
         self.assertIn("<svg", h)
         self.assertIn("Contratado além do recebido na base", h)
+
+
+
+class TestPartidoNosNos(unittest.TestCase):
+    """issue #74: todo nó de eleito no Sankey termina com · SIGLA, e o corte do rótulo nunca tira a sigla"""
+
+    def test_fornecedor(self):
+        d = dg.fluxos_fornecedor("33333333000191", "EMPRESA", [camp(1, partido="PT"), camp(2, partido="PL")])
+        self.assertEqual([n["rotulo"].rsplit(" · ", 1)[1] for n in d["colunas"][0]], ["PT", "PL"])
+
+    def test_rede(self):
+        el = lambda sq, sg: {"sq": sq, "nome_urna": f"ELEITO {sq}", "uf": "BA", "partido": sg, "total": 10.0, "href": None}
+        d = dg.fluxos_rede([{"cnpj": "A", "rotulo": "EMP A"}], {"A": [el("1", "PT"), el("2", "PSD")]})
+        self.assertEqual([n["rotulo"] for n in d["colunas"][0]], ["ELEITO 1 · BA · PT", "ELEITO 2 · BA · PSD"])
+
+    def test_campanha(self):
+        d = dg.fluxos_campanha(contas("2001"), FORN, INDS["2001"], None, "RUI COSTA · BA", "PT")
+        self.assertEqual(d["colunas"][1][0]["rotulo"], "RUI COSTA · BA · PT")
+        self.assertIn(">RUI COSTA · BA · PT</text>", svg_de(d))
+
+    def test_nome_longo_preserva_sigla(self):
+        self.assertEqual(dg.cortar("FULANO DE TAL DA SILVA SAURO · SP · REPUBLICANOS", 30, " · REPUBLICANOS"),
+                         "FULANO DE TAL… · REPUBLICANOS")
+        d = dg.fluxos_fornecedor("33333333000191", "EMPRESA", [{**camp(1, partido="REPUBLICANOS"), "nome_urna": "X" * 80}])
+        svg = dg.diagrama_fornecedor("33333333000191", "EMPRESA", [{**camp(1, partido="REPUBLICANOS"), "nome_urna": "X" * 80}])
+        self.assertTrue(d["colunas"][0][0]["rotulo"].endswith(" · REPUBLICANOS"))
+        self.assertIn("… · REPUBLICANOS <tspan", svg)
 
 
 if __name__ == "__main__":

@@ -307,7 +307,7 @@ def dividido(b, n_boot, n_proc):
         detalhe[cargo] = {"B0": B0}
     meta = {
         "metodo": ("O voto é secreto: ninguém sabe em quem cada eleitor votou. Estimamos por inferência ecológica: "
-                   "comparamos, nos municípios de cada estado, a votação de Lula e Flávio com a de cada lado no "
+                   "comparamos, nos municípios de cada estado, a votação de Lula (PT) e Flávio (PL) com a de cada lado no "
                    "outro cargo. Se onde Lula vai melhor o lado de Flávio também cresce, parte dos eleitores de Lula "
                    "votou nesse lado. Um ajuste com taxas entre 0 e 1 dá a taxa do estado; depois cada município é "
                    f"acertado aos votos oficiais. A faixa de 90% vem de {n_boot} reamostragens e mede só o erro "
@@ -730,7 +730,7 @@ def cenarios(b):
     apoio_f = sum(e["votos"] for e in eliminados if e["apoio_candidato"] == "F")
     rest = elim - apoio_f
     l, fv = res(rest / 2, apoio_f + rest / 2)
-    cen.append({"id": "lado_declarado", "nome": "Apoios declarados: quem apoiou Flávio leva seus eleitores",
+    cen.append({"id": "lado_declarado", "nome": "Apoios declarados: quem apoiou Flávio (PL) leva seus eleitores",
                 "lula": l, "flavio": fv, "flavio_pct_eliminados": round((apoio_f + rest / 2) / elim, 4),
                 "votos_apoiadores_flavio": apoio_f})
     if media["n"]:
@@ -775,7 +775,7 @@ def destaques(D):
 
     dv = ["dividido.json", ["BR", "depfed"]]
     num = t.n(dv[0], dv[1] + ["lula_para_F", "v"], "mi")
-    item("dividido-br", "Estimativa: eleitor de Lula, deputado do lado de Flávio", num,
+    item("dividido-br", "Estimativa: eleitor de Lula (PT), deputado do lado de Flávio (PL)", num,
          f"Estimativa: {t.n(dv[0], dv[1] + ['lula_para_F', 'pct'], 'pct')} dos eleitores de Lula votaram em deputado "
          f"federal de partido que apoia Flávio (faixa estatística de {t.n('dividido.json', ['intervalo'], 'pct0')}: {t.n(dv[0], dv[1] + ['lula_para_F', 'int', 0], 'pct')} a "
          f"{t.n(dv[0], dv[1] + ['lula_para_F', 'int', 1], 'pct')}; o mínimo e o máximo possíveis, pelos limites de "
@@ -785,21 +785,21 @@ def destaques(D):
          f"{t.n(dv[0], dv[1] + ['flavio_para_L', 'pct'], 'pct')}.", True, "#voto-dividido")
     cd = ["cadeiras.json", ["BR", "depfed"]]
     num = t.n(cd[0], cd[1] + ["cadeiras", "L"], "int")
-    item("cadeiras-depfed", "Câmara: votos e cadeiras do lado de Lula", num,
+    item("cadeiras-depfed", "Câmara: votos e cadeiras do lado de Lula (PT)", num,
          f"Lula teve {t.n('campos.json', ['BR', 'presidente', 'L'], 'mi')} de votos. Os partidos do seu lado fizeram "
          f"{t.n(cd[0], cd[1] + ['votos', 'L'], 'pct')} dos votos para deputado federal e elegeram "
          f"{t.n(cd[0], cd[1] + ['cadeiras', 'L'], 'int')} das {t.n(cd[0], cd[1] + ['total'], 'int')} cadeiras. "
-         f"O lado de Flávio elegeu {t.n(cd[0], cd[1] + ['cadeiras', 'F'], 'int')}.", False, "#votos-cadeiras")
+         f"O lado de Flávio (PL) elegeu {t.n(cd[0], cd[1] + ['cadeiras', 'F'], 'int')}.", False, "#votos-cadeiras")
     num = t.n("campos.json", ["BR", "depfed", "L"], "mi")
-    item("campos-depfed", "Do voto em Lula ao voto em deputado", num,
+    item("campos-depfed", "Do voto em Lula (PT) ao voto em deputado", num,
          f"Lula: {t.n('campos.json', ['BR', 'presidente', 'L'], 'mi')} de votos. Deputados federais dos partidos do "
-         f"lado de Lula: {t.n('campos.json', ['BR', 'depfed', 'L'], 'mi')}. Do lado de Flávio: "
+         f"lado de Lula: {t.n('campos.json', ['BR', 'depfed', 'L'], 'mi')}. Do lado de Flávio (PL): "
          f"{t.n('campos.json', ['BR', 'depfed', 'F'], 'mi')}; do centro: {t.n('campos.json', ['BR', 'depfed', 'C'], 'mi')}.",
          False, "#campos")
     dg = ["divergencias.json", ["uf", "BR", "depfed"]]
     num = t.n(dg[0], dg[1] + ["lula_e_F"], "int")
-    item("divergencia-mun", "Lula na frente, deputado do outro lado", num,
-         f"Em {t.n(dg[0], dg[1] + ['lula_e_F'], 'int')} municípios Lula teve mais votos que Flávio, mas o lado de "
+    item("divergencia-mun", "Lula (PT) na frente, deputado do outro lado", num,
+         f"Em {t.n(dg[0], dg[1] + ['lula_e_F'], 'int')} municípios Lula teve mais votos que Flávio (PL), mas o lado de "
          f"Flávio somou mais votos para deputado federal. O inverso aconteceu em "
          f"{t.n(dg[0], dg[1] + ['flavio_e_L'], 'int')}.", False, "#divergencias")
     px = ["puxadores.json", ["depfed", 0]]
@@ -811,13 +811,13 @@ def destaques(D):
     vr = ["comparacao2022.json", ["viradas"]]
     item("viradas", "Viradas desde 2022", t.n(vr[0], vr[1] + ["lula_para_flavio"], "int"),
          f"No 1º turno de 2022 × 1º turno de 2026: {t.n(vr[0], vr[1] + ['lula_para_flavio'], 'int')} municípios deram "
-         f"mais votos a Lula que a Bolsonaro em 2022 e agora deram mais votos a Flávio que a Lula. No sentido "
+         f"mais votos a Lula (PT) que a Bolsonaro (PL) em 2022 e agora deram mais votos a Flávio que a Lula. No sentido "
          f"contrário (Bolsonaro em 2022, Lula em 2026): {t.n(vr[0], vr[1] + ['bolsonaro_para_lula'], 'int')}.",
          False, "#comparacao-2022")
     ce = ["cenarios.json", ["precisa"]]
     item("precisa", "Quanto cada um precisa dos eliminados", t.n(ce[0], ce[1] + ["flavio_pct_dos_eliminados"], "pct2"),
-         f"Para vencer, Flávio precisa de {t.n(ce[0], ce[1] + ['flavio_pct_dos_eliminados'], 'pct2')} dos "
-         f"{t.n(ce[0], ce[1] + ['eliminados_votos'], 'mi')} de votos dos candidatos eliminados; Lula, de "
+         f"Para vencer, Flávio (PL) precisa de {t.n(ce[0], ce[1] + ['flavio_pct_dos_eliminados'], 'pct2')} dos "
+         f"{t.n(ce[0], ce[1] + ['eliminados_votos'], 'mi')} de votos dos candidatos eliminados; Lula (PT), de "
          f"{t.n(ce[0], ce[1] + ['lula_pct_dos_eliminados'], 'pct2')}. Conta sobre votos válidos, sem prever abstenção.",
          False, "#cenarios-2-turno")
     fr = ["fragmentacao.json", ["BR", "depfed"]]
@@ -836,21 +836,21 @@ def faq(D):
     def qa(q, a): out.append({"q": q, "a": a, "refs": t.fecha()})
 
     c = "campos.json"
-    qa("Quantos votos Lula e Flávio tiveram no 1º turno de 2026?",
-       f"Flávio Bolsonaro teve {t.n(c, ['BR', 'presidente', 'F'], 'int')} votos e Lula, "
+    qa("Quantos votos Lula (PT) e Flávio (PL) tiveram no 1º turno de 2026?",
+       f"Flávio Bolsonaro (PL) teve {t.n(c, ['BR', 'presidente', 'F'], 'int')} votos e Lula (PT), "
        f"{t.n(c, ['BR', 'presidente', 'L'], 'int')}, de {t.n(c, ['BR', 'presidente', 'validos'], 'int')} votos válidos "
        f"(TSE, apuração do 1º turno).")
     ce = ["cenarios.json", ["precisa"]]
-    qa("Quantos votos Flávio e Lula precisam para vencer o 2º turno?",
+    qa("Quantos votos Flávio (PL) e Lula (PT) precisam para vencer o 2º turno?",
        f"Mantido o total de {t.n(ce[0], ce[1] + ['votos_validos'], 'int')} votos válidos, vence quem passar de "
-       f"{t.n(ce[0], ce[1] + ['minimo_para_vencer'], 'int')}. Flávio precisa de mais "
+       f"{t.n(ce[0], ce[1] + ['minimo_para_vencer'], 'int')}. Flávio (PL) precisa de mais "
        f"{t.n(ce[0], ce[1] + ['flavio_precisa_votos'], 'int')} ({t.n(ce[0], ce[1] + ['flavio_pct_dos_eliminados'], 'pct2')} "
-       f"dos votos dos eliminados) e Lula, de mais {t.n(ce[0], ce[1] + ['lula_precisa_votos'], 'int')} "
+       f"dos votos dos eliminados) e Lula (PT), de mais {t.n(ce[0], ce[1] + ['lula_precisa_votos'], 'int')} "
        f"({t.n(ce[0], ce[1] + ['lula_pct_dos_eliminados'], 'pct2')}). É aritmética, não previsão.")
     cd = ["cadeiras.json", ["BR", "depfed"]]
-    qa("Por que Lula tem tantos votos e a esquerda elegeu poucos deputados?",
-       f"Pela estimativa, {t.n('dividido.json', ['BR', 'depfed', 'lula_para_F', 'pct'], 'pct')} dos eleitores de Lula "
-       f"escolheram deputado de partido que apoia Flávio e "
+    qa("Por que Lula (PT) tem tantos votos e a esquerda elegeu poucos deputados?",
+       f"Pela estimativa, {t.n('dividido.json', ['BR', 'depfed', 'lula_para_F', 'pct'], 'pct')} dos eleitores de Lula (PT) "
+       f"escolheram deputado de partido que apoia Flávio (PL) e "
        f"{t.n('dividido.json', ['BR', 'depfed', 'lula_para_C', 'pct'], 'pct')}, de partido sem lado. Os partidos do "
        f"campo de Lula fizeram {t.n(cd[0], cd[1] + ['votos', 'L'], 'pct')} dos votos para deputado federal e ficaram "
        f"com {t.n(cd[0], cd[1] + ['cadeiras', 'L'], 'int')} cadeiras. É estimativa (faixa estatística de "
@@ -858,7 +858,7 @@ def faq(D):
        f"{t.n('dividido.json', ['BR', 'depfed', 'lula_para_F', 'int', 1], 'pct')} para o primeiro número; limites de "
        f"Duncan-Davis de {t.n('dividido.json', ['BR', 'depfed', 'limites', 'lula_para_F', 0], 'pct')} a "
        f"{t.n('dividido.json', ['BR', 'depfed', 'limites', 'lula_para_F', 1], 'pct')}).")
-    qa("Como dá para saber em quem o eleitor de Lula votou para deputado se o voto é secreto?",
+    qa("Como dá para saber em quem o eleitor de Lula (PT) votou para deputado se o voto é secreto?",
        f"Não dá para saber de cada eleitor. A estimativa usa inferência ecológica: compara a votação de "
        f"{t.n('dividido.json', ['BR', 'depfed', 'n_mun'], 'int')} municípios e calcula a taxa mais compatível com "
        f"todos eles. A faixa estatística de {t.n('dividido.json', ['intervalo'], 'pct0')} mede só o erro estatístico; "
@@ -884,19 +884,19 @@ def faq(D):
        f"Em 2026 cada estado elegeu dois senadores e cada eleitor teve {t.n(s[0], s[1] + ['votos_por_eleitor'], 'int')} "
        f"votos. Por isso os "
        f"{t.n(s[0], s[1] + ['validos'], 'mi')} de votos válidos para o Senado são votos, não eleitores. Os partidos "
-       f"do lado de Flávio fizeram {t.n(s[0], s[1] + ['F'], 'mi')} e os do lado de Lula, "
+       f"do lado de Flávio (PL) fizeram {t.n(s[0], s[1] + ['F'], 'mi')} e os do lado de Lula (PT), "
        f"{t.n(s[0], s[1] + ['L'], 'mi')}.")
     lg = ["legenda.json", ["BR", "depfed"]]
     qa("O que é voto de legenda e quanto ele pesou?",
        f"É o voto só no número do partido, sem escolher candidato. Para deputado federal, foi "
-       f"{t.n(lg[0], lg[1] + ['total'], 'pct')} dos votos válidos: {t.n(lg[0], lg[1] + ['L'], 'pct')} no lado de Lula e "
-       f"{t.n(lg[0], lg[1] + ['F'], 'pct')} no lado de Flávio.")
+       f"{t.n(lg[0], lg[1] + ['total'], 'pct')} dos votos válidos: {t.n(lg[0], lg[1] + ['L'], 'pct')} no lado de Lula (PT) e "
+       f"{t.n(lg[0], lg[1] + ['F'], 'pct')} no lado de Flávio (PL).")
     vr = ["comparacao2022.json", ["viradas"]]
-    qa("Em quantas cidades Lula perdeu a liderança desde 2022?",
+    qa("Em quantas cidades Lula (PT) perdeu a liderança desde 2022?",
        f"Comparando o 1º turno de 2022 com o 1º turno de 2026: em {t.n(vr[0], vr[1] + ['lula_para_flavio'], 'int')} "
-       f"municípios Lula teve mais votos que Bolsonaro em 2022 e ficou atrás de Flávio em 2026. Em "
+       f"municípios Lula (PT) teve mais votos que Bolsonaro (PL) em 2022 e ficou atrás de Flávio (PL) em 2026. Em "
        f"{t.n(vr[0], vr[1] + ['bolsonaro_para_lula'], 'int')} aconteceu o contrário.")
-    qa("Quem apoia Lula e quem apoia Flávio no 2º turno?",
+    qa("Quem apoia Lula (PT) e quem apoia Flávio (PL) no 2º turno?",
        "A classificação usa só prova pública: nota do partido, coligação registrada ou declaração do dirigente. "
        "Sem prova, o partido fica no centro. Diretórios estaduais podem ter posição própria. A lista completa, com "
        "links, está na página.")

@@ -349,6 +349,15 @@ class TestRedeEleito(unittest.TestCase):
         h = self.paginas(publicados=["2001"])["/" + pg.caminho(E["2001"])]
         self.assertNotIn("Fornecedores que também atendem outros eleitos", h)
 
+    def test_outros_com_partido(self):
+        outros = [{"nome_urna": "RUI COSTA", "uf": "BA", "partido": "PT", "caminho": "rastro/sen/ba/rui/"}]
+        self.assertIn("RUI COSTA · BA · PT", texto(pg.secao_cruzada([{"id": "x", "rotulo": "EMPRESA", "outros": outros}])))
+
+    def test_caminho_do_dinheiro_com_partido(self):
+        h = pagina_2001()
+        e = E["2001"]
+        self.assertIn(f'>{e["nome_urna"]} · {e["uf"]} · {e["partido"]}</text>', h)
+
     def test_limite_de_dez(self):
         outros = [{"nome_urna": f"ELEITO {i:02d}", "caminho": f"rastro/depfed/sp/e{i}/"} for i in range(13)]
         t = texto(pg.secao_cruzada([{"id": "x", "rotulo": "EMPRESA", "outros": outros}]))
