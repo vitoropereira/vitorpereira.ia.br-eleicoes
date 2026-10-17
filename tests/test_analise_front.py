@@ -127,15 +127,15 @@ class Textos(unittest.TestCase):
         h1 = re.search(r"<h1>(.*?)</h1>", app).group(1)
         for t in (h1, B.ANALISE_TITULO, B.ANALISE_DESC):
             self.assertNotIn("esquerda", t)
-        self.assertIn("campo de Lula", h1)
-        self.assertIn("campo de Lula", B.ANALISE_DESC)
+        self.assertIn("campo dele", h1)
+        self.assertIn("campo dele", B.ANALISE_DESC)
 
     def test_sem_opiniao_sem_dado(self):
         tx = (JS / "textos.js").read_text()
         for f in ("costuma ter peso decisivo", "eleitorado mais fiel à sigla", "5.570", "sobras de 2024"):
             self.assertNotIn(f, tx)
         for f in ("5.571 municípios", "não cobre as limitações do método", "têm mais dificuldade de conseguir vaga",
-                  "1º turno × 1º turno", "quem teve mais votos entre Lula e o adversário"):
+                  "1º turno × 1º turno", "quem teve mais votos entre Lula (PT) e o adversário"):
             self.assertIn(f, tx)
 
     def test_compartilhar_tem_imagem_social(self):

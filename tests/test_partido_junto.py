@@ -13,11 +13,13 @@ FIX = Path(__file__).parent / "fixtures" / "partido"
 TEM_CHROME = bool(shutil.which(B.CHROME) or Path(B.CHROME).exists())
 BLOCOS = {"li", "tr", "p", "h1", "h2", "h3", "title", "summary", "text", "g"}
 CLASSES = {"legend", "ramp", "nm"}
+# título de matéria citado como prova (<cite>) é da fonte, não é rótulo nosso: fica fora, como script e style
+MUDOS = {"script", "style", "cite"}
 VAZIOS = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source", "track", "wbr"}
 
 
 class _Blocos(html.parser.HTMLParser):
-    """(tag, texto) de cada bloco; o texto inclui o dos filhos. Ignora script e style."""
+    """(tag, texto) de cada bloco; o texto inclui o dos filhos. Ignora script, style e cite."""
 
     def __init__(self):
         super().__init__(convert_charrefs=True)
@@ -26,7 +28,7 @@ class _Blocos(html.parser.HTMLParser):
     def handle_starttag(self, tag, attrs):
         if tag in VAZIOS:
             return
-        if tag in ("script", "style"):
+        if tag in MUDOS:
             self.mudo += 1
         classes = set((dict(attrs).get("class") or "").split())
         self.handle_data(" ")  # célula colada na outra ("PT36,16") não vira uma palavra só
@@ -34,7 +36,7 @@ class _Blocos(html.parser.HTMLParser):
 
     def handle_endtag(self, tag):
         self.handle_data(" ")
-        if tag in ("script", "style"):
+        if tag in MUDOS:
             self.mudo = max(0, self.mudo - 1)
         for i in range(len(self.pilha) - 1, -1, -1):  # fecha até a tag correspondente (HTML mal fechado)
             if self.pilha[i][0] == tag:
@@ -136,6 +138,10 @@ class Helper(unittest.TestCase):
         doc = "<p>Lulalândia</p><script>const x='<p>Lula</p>'</script><p>Flávio · PL</p>"
         self.assertEqual(blocos_sem_sigla(doc, self.CAND), [])
 
+    def test_cite_de_fonte_fica_fora(self):
+        self.assertEqual(blocos_sem_sigla("<tr><td><cite>Lula x Flávio</cite></td></tr>", self.CAND), [])
+        self.assertEqual(len(blocos_sem_sigla("<tr><td><cite>fonte</cite> Lula</td></tr>", self.CAND)), 1)
+
     def test_sigla_tem_que_ser_palavra_inteira(self):
         self.assertEqual(len(blocos_sem_sigla("<li>Flávio no PLANALTO</li>", self.CAND)), 1)
 
@@ -187,6 +193,19 @@ class Textos(unittest.TestCase):
         sg = {"f": B.cF["sg"], "l": B.cL["sg"]}
         self.assertIn(f"Lula ({B.cL['sg']}) projeção mediana", rotulos_canvas(js, sg))
         self.assertEqual(blocos_sem_sigla(blocos_canvas(js, sg), candidatos(_rel())), [])
+
+    def test_sigla_da_analise_vem_do_dado(self):
+        """analise/js/calc.js fixa a sigla de Lula e de Flávio (SIGLA): tem que bater com relatorio.json"""
+        js = (R / "analise" / "js" / "calc.js").read_text(encoding="utf-8")
+        m = re.search(r'export const SIGLA = \{ L: "(\w+)", F: "(\w+)" \}', js)
+        self.assertEqual(m.groups(), (B.cL["sg"], B.cF["sg"]))
+
+    def test_og_da_analise(self):
+        """os cartões OG da Análise viram PNG: o texto deles não passa pelo pré-render, só pelo JS"""
+        js = (R / "analise" / "js" / "og.js").read_text(encoding="utf-8")
+        self.assertIn("`${CAND.L} precisa`", js)
+        self.assertEqual(blocos_sem_sigla(blocos_canvas(js, {}), candidatos(_rel(), _meta22())), [])
+        self.assertNotEqual(blocos_sem_sigla(blocos_canvas(js.replace("`${CAND.L} precisa`", '"Lula precisa"'), {}), candidatos(_rel())), [])
 
     def test_resumo_hud(self):
         self.assertEqual(blocos_sem_sigla(B.resumo_hud(), candidatos(_rel(), _meta22())), [])
@@ -248,17 +267,13 @@ def candidatos_site():
 
 
 MAIUSC = "A-ZÀ-Ý"
-# o fato do repasse já gravado em rastro/dados/indicadores.json só ganha a sigla quando o lote reprocessa a campanha
-DADO_GRAVADO = ("Repassou ", "Repasse a outro candidato")
 
 
 def achados_rastro(doc, cand):
-    """blocos_sem_sigla, sem dois casos que não são rótulo nosso: o nome de urna dentro de um nome maior (JOSE DIAS DE
-    CASTRO NETO não é CASTRO NETO; a razão social "ELEICAO 2026 FULANO DEPUTADO" é do fornecedor) e o fato de repasse gravado antes da #74"""
+    """blocos_sem_sigla, sem o caso que não é rótulo nosso: o nome de urna dentro de um nome maior (JOSE DIAS DE CASTRO
+    NETO não é CASTRO NETO; a razão social "ELEICAO 2026 FULANO DEPUTADO" é do fornecedor)"""
     out = []
     for b, n in blocos_sem_sigla(doc, cand, corte=None):
-        if any(t in b for t in DADO_GRAVADO):
-            continue
         if re.search(rf"[{MAIUSC}0-9]{{2,}}\.? {re.escape(n)}(?!\w)|(?<!\w){re.escape(n)} [{MAIUSC}]{{2,}}", b):
             continue
         out.append((b, n))
@@ -305,6 +320,20 @@ class SiteGerado(unittest.TestCase):
         self.assertNotEqual(achados_rastro(no.sub(r"\1\3", doc, count=1), self.cand), [])
 
 
+@unittest.skipUnless((R / "site" / "index.html").exists(), "site/ não construído (python3 build_site.py)")
+class SitePublicado(unittest.TestCase):
+    """o site/ commitado é o que a Vercel publica: nenhuma página dele (Resultado final, apuração, Análise, Rastro e
+    o resto) cita candidato ou eleito sem a sigla. Pega o site/ que ficou para trás do código (build não rodado)."""
+
+    def test_nenhum_rotulo_sem_sigla(self):
+        self.maxDiff = None
+        cand = candidatos_site()
+        paginas = sorted((R / "site").rglob("*.html"))
+        self.assertGreater(len(paginas), 1000)
+        achados = {str(a.relative_to(R / "site")): x[:3] for a in paginas if (x := achados_rastro(a.read_text(encoding="utf-8"), cand))}
+        self.assertEqual(achados, {})
+
+
 @unittest.skipUnless(TEM_CHROME, "Chrome headless indisponível")
 class Paginas(unittest.TestCase):
     """pré-renderiza as páginas montadas a partir dos templates e procura blocos sem sigla"""
@@ -330,6 +359,22 @@ class Paginas(unittest.TestCase):
         finally:
             srv.shutdown(); srv.server_close()
         self.assertIn('class="manchete', doc)  # o app montou
+        self.assertEqual(blocos_sem_sigla(doc, candidatos(_rel(), _meta22())), [])
+
+    def test_analise(self):
+        """a Análise montada agora (analise/js e analise/dados do código, não do site/) rodando no Chrome"""
+        with tempfile.TemporaryDirectory() as d:
+            d = Path(d)
+            for x in ("vendor", "hud", "geo"):
+                (d / x).symlink_to(R / "site" / x)
+            B.copiar_analise(d)
+            (d / "analise" / "index.html").write_text(B.html_analise(B.analise_dados(), B.ANALISE_GERADA, B.ANALISE_GERADA))
+            srv = B.serve(d, port=8796)
+            try:
+                doc = B.prerender("http://127.0.0.1:8796/analise/")
+            finally:
+                srv.shutdown(); srv.server_close()
+        self.assertIn('id="metodo"', doc)  # o app montou até a última seção
         self.assertEqual(blocos_sem_sigla(doc, candidatos(_rel(), _meta22())), [])
 
     def test_leitura(self):
