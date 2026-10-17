@@ -34,6 +34,14 @@ N_BOOT = 200
 SEMENTE = "analise-2026"
 LIMITE = int(2.5 * 1024 * 1024)
 MIN_ELEITORES_RANK22 = 10000
+# partido de Lula e de Flávio (Jair Bolsonaro em 2022, mesmo partido): todo texto cita o candidato com a sigla junto
+# (issues #74 e #78). Bate com relatorio.json e com SIGLA de analise/js/calc.js (tests/test_partido_junto.py).
+SIGLA = {"L": "PT", "F": "PL"}
+
+
+def rot(k, nome=None):
+    """"Lula (PT)", "Flávio (PL)"; com `nome`, outro nome do mesmo lado ("Jair Bolsonaro (PL)")."""
+    return f"{nome or {'L': 'Lula', 'F': 'Flávio'}[k]} ({SIGLA[k]})"
 
 
 def ld(p):
@@ -115,8 +123,8 @@ class Base:
         self.l26 = ld(A / "lados-2026.json")
         self.l22 = ld(A / "lados-2022.json")
         cp = self.meta["cand"]["presidente"]
-        self.i_lula = next(i for i, c in enumerate(cp) if c["sg"] == "PT")
-        self.i_flavio = next(i for i, c in enumerate(cp) if c["sg"] == "PL")
+        self.i_lula = next(i for i, c in enumerate(cp) if c["sg"] == SIGLA["L"])
+        self.i_flavio = next(i for i, c in enumerate(cp) if c["sg"] == SIGLA["F"])
         self.mun = self.meta["mun"]  # cd -> [nome, UF]
         # 2022
         self.m22 = ld(T22 / "meta.json")
@@ -313,9 +321,9 @@ def dividido(b, n_boot, n_proc):
                    f"acertado aos votos oficiais. A faixa de 90% vem de {n_boot} reamostragens e mede só o erro "
                    "estatístico; os limites dão o mínimo e o máximo possíveis. No Senado (2 votos por eleitor), cada "
                    "voto vale meio eleitor. Brasil = soma dos estados, sem o exterior."),
-        "linhas": {"lula": "eleitores de Lula", "flavio": "eleitores de Flávio",
+        "linhas": {"lula": f"eleitores de {rot('L')}", "flavio": f"eleitores de {rot('F')}",
                    "outros": "demais candidatos, brancos e nulos para presidente"},
-        "colunas": {"L": "lado Lula", "F": "lado Flávio", "C": "centro/sem lado", "BN": "brancos e nulos"},
+        "colunas": {"L": f"lado {rot('L')}", "F": f"lado {rot('F')}", "C": "centro/sem lado", "BN": "brancos e nulos"},
         "intervalo": 0.9, "boot": n_boot, "semente": SEMENTE,
     }
     return {**meta, **out}, detalhe
@@ -390,10 +398,10 @@ def divergencias(b):
             ufs[g][c] = div
     return {"mu": mu, "ranking": ranking, "uf": ufs,
             "criterio": ("Lado do município num cargo = lado com mais votos válidos (empate: C). Presidente: quem teve "
-                         "mais votos entre Lula e Flávio (empate: C, fica fora da contagem). Divergente = presidente "
-                         "com Lula ou Flávio e o cargo com outro lado, inclusive o centro (4 direções: lula_e_F, "
-                         "lula_e_C, flavio_e_L, flavio_e_C). centro = municípios em que o centro venceu no cargo. "
-                         "Ranking: só Lula x Flávio (sem centro), maiores municípios por eleitores, 100 por direção."),
+                         f"mais votos entre {rot('L')} e {rot('F')} (empate: C, fica fora da contagem). Divergente = "
+                         "presidente com Lula ou Flávio e o cargo com outro lado, inclusive o centro (4 direções: "
+                         "lula_e_F, lula_e_C, flavio_e_L, flavio_e_C). centro = municípios em que o centro venceu no "
+                         "cargo. Ranking: só Lula x Flávio (sem centro), maiores municípios por eleitores, 100 por direção."),
             "gap_depfed": "% do vencedor para presidente menos % do mesmo lado para deputado federal (proporções)."}
 
 
@@ -584,7 +592,7 @@ def comparacao2022(b, cam, cad):
     grandes = [x for x in base if x["eleitores"] >= MIN_ELEITORES_RANK22]
     ranking = sorted(grandes, key=lambda x: (-abs(x["delta"]), x["cd"]))[:100]
     ranking_criterio = (f"100 maiores variações (em módulo) entre municípios com {MIN_ELEITORES_RANK22} eleitores ou "
-                        "mais: fatia de Lula entre Lula e o adversário, 1º turno de 2022 x 1º turno de 2026.")
+                        f"mais: fatia de {rot('L')} entre Lula e o adversário, 1º turno de 2022 x 1º turno de 2026.")
 
     def forma_mu(l22t1, l22t2, l26, d22, d26):
         """Mesmo formato de uma entrada de mu, agregado (d22/d26 = {L,F,C} em proporção do depfed)."""
@@ -649,8 +657,8 @@ def comparacao2022(b, cam, cad):
                         "nota": "99 eleitos em 2022 (98 após o recálculo das sobras determinado pelo STF). Dados de 2022 = TSE atual."}
     assert pl22 == 98, pl22
     return {"mu": mu, "viradas": vir, "viradas_vs_2t_2022": vir2, "ranking": ranking, "ranking_criterio": ranking_criterio, "BR": gbr, **geos,
-            "nota": ("Em 2022 o lado F (ou B) significa Jair Bolsonaro. Presidente, comparação principal: 1º turno de "
-                     "2022 x 1º turno de 2026 (fatia de Lula entre Lula e o adversário principal). Secundário, só como "
+            "nota": (f"Em 2022 o lado F (ou B) significa {rot('F', 'Jair Bolsonaro')}. Presidente, comparação principal: "
+                     f"1º turno de 2022 x 1º turno de 2026 (fatia de {rot('L')} entre Lula e o adversário principal). Secundário, só como "
                      "referência: pres22_2t, pres22_2t_pct_lula e viradas_vs_2t_2022 (2º turno de 2022 x 1º turno de "
                      "2026, comparação desigual). Empate entre Lula e o adversário = E, fora das contagens de viradas. "
                      "Legislativo: lados pelo apoio no 2º turno de cada ano.")}
@@ -776,8 +784,8 @@ def destaques(D):
     dv = ["dividido.json", ["BR", "depfed"]]
     num = t.n(dv[0], dv[1] + ["lula_para_F", "v"], "mi")
     item("dividido-br", "Estimativa: eleitor de Lula (PT), deputado do lado de Flávio (PL)", num,
-         f"Estimativa: {t.n(dv[0], dv[1] + ['lula_para_F', 'pct'], 'pct')} dos eleitores de Lula votaram em deputado "
-         f"federal de partido que apoia Flávio (faixa estatística de {t.n('dividido.json', ['intervalo'], 'pct0')}: {t.n(dv[0], dv[1] + ['lula_para_F', 'int', 0], 'pct')} a "
+         f"Estimativa: {t.n(dv[0], dv[1] + ['lula_para_F', 'pct'], 'pct')} dos eleitores de {rot('L')} votaram em deputado "
+         f"federal de partido que apoia {rot('F')} (faixa estatística de {t.n('dividido.json', ['intervalo'], 'pct0')}: {t.n(dv[0], dv[1] + ['lula_para_F', 'int', 0], 'pct')} a "
          f"{t.n(dv[0], dv[1] + ['lula_para_F', 'int', 1], 'pct')}; o mínimo e o máximo possíveis, pelos limites de "
          f"Duncan-Davis, vão de {t.n(dv[0], dv[1] + ['limites', 'lula_para_F', 0], 'pct')} a "
          f"{t.n(dv[0], dv[1] + ['limites', 'lula_para_F', 1], 'pct')}; o método tem limitações explicadas abaixo). "
@@ -786,20 +794,20 @@ def destaques(D):
     cd = ["cadeiras.json", ["BR", "depfed"]]
     num = t.n(cd[0], cd[1] + ["cadeiras", "L"], "int")
     item("cadeiras-depfed", "Câmara: votos e cadeiras do lado de Lula (PT)", num,
-         f"Lula teve {t.n('campos.json', ['BR', 'presidente', 'L'], 'mi')} de votos. Os partidos do seu lado fizeram "
+         f"{rot('L')} teve {t.n('campos.json', ['BR', 'presidente', 'L'], 'mi')} de votos. Os partidos do seu lado fizeram "
          f"{t.n(cd[0], cd[1] + ['votos', 'L'], 'pct')} dos votos para deputado federal e elegeram "
          f"{t.n(cd[0], cd[1] + ['cadeiras', 'L'], 'int')} das {t.n(cd[0], cd[1] + ['total'], 'int')} cadeiras. "
          f"O lado de Flávio (PL) elegeu {t.n(cd[0], cd[1] + ['cadeiras', 'F'], 'int')}.", False, "#votos-cadeiras")
     num = t.n("campos.json", ["BR", "depfed", "L"], "mi")
     item("campos-depfed", "Do voto em Lula (PT) ao voto em deputado", num,
-         f"Lula: {t.n('campos.json', ['BR', 'presidente', 'L'], 'mi')} de votos. Deputados federais dos partidos do "
+         f"{rot('L')}: {t.n('campos.json', ['BR', 'presidente', 'L'], 'mi')} de votos. Deputados federais dos partidos do "
          f"lado de Lula: {t.n('campos.json', ['BR', 'depfed', 'L'], 'mi')}. Do lado de Flávio (PL): "
          f"{t.n('campos.json', ['BR', 'depfed', 'F'], 'mi')}; do centro: {t.n('campos.json', ['BR', 'depfed', 'C'], 'mi')}.",
          False, "#campos")
     dg = ["divergencias.json", ["uf", "BR", "depfed"]]
     num = t.n(dg[0], dg[1] + ["lula_e_F"], "int")
     item("divergencia-mun", "Lula (PT) na frente, deputado do outro lado", num,
-         f"Em {t.n(dg[0], dg[1] + ['lula_e_F'], 'int')} municípios Lula teve mais votos que Flávio (PL), mas o lado de "
+         f"Em {t.n(dg[0], dg[1] + ['lula_e_F'], 'int')} municípios {rot('L')} teve mais votos que {rot('F')}, mas o lado de "
          f"Flávio somou mais votos para deputado federal. O inverso aconteceu em "
          f"{t.n(dg[0], dg[1] + ['flavio_e_L'], 'int')}.", False, "#divergencias")
     px = ["puxadores.json", ["depfed", 0]]

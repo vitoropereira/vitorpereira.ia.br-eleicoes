@@ -325,6 +325,22 @@ class TestTransferencia(unittest.TestCase):
         self.assertIn("EMPRESA GRANDE LTDA", r[1]["fato"])
         self.assertTrue(all(i["nome"] == "transferencia_candidato" and i["fonte_url"] == ind.URL_CONTAS for i in r))
 
+    def test_recebedor_sem_partido_completa_pelo_tse_baixado(self):
+        """agregados.json antigo, sem `partido` em candidatos: a sigla vem de relatorio/dados (issue #78); a que já veio
+        no agregados não é trocada"""
+        partidos = ind.ler_partidos(FIX / "relatorio_dados")
+        self.assertEqual(partidos, {"2002": ("AC", "PQ"), "2001": ("AC", "PW")})
+        agr = ind.completar_recebedores(copy.deepcopy(AGR), partidos)
+        with self.assertLogs("rastro.indicadores", level="WARNING"):
+            r = self.rodar(agr=agr, forn=FORN)
+        self.assertEqual([i["contraparte"] for i in r], ["CANDIDATO INFIMO · AC · PZ", "CANDIDATO VOTADO · AC · PQ"])
+        self.assertIn("a CANDIDATO VOTADO · AC · PQ, que usou", r[1]["fato"])
+
+    def test_recebedor_sem_uf_completa_pelo_tse_baixado(self):
+        agr = ind.completar_recebedores({"candidatos": {"2002": {"nome": "X"}}}, {"2002": ("AC", "PQ")})
+        self.assertEqual(ind.rotulo_recebedor(agr["candidatos"]["2002"]), "X · AC · PQ")
+        self.assertEqual(ind.completar_recebedores({"candidatos": {"9": {"nome": "Y"}}}, {})["candidatos"]["9"], {"nome": "Y"})
+
     def test_recebedor_sem_nome_fica_outro_candidato(self):
         self.assertEqual(ind.rotulo_recebedor({"nome": None, "uf": "AC", "partido": "PZ"}), "outro candidato")
 
@@ -828,8 +844,14 @@ class TestGerar(unittest.TestCase):
         saida = Path(tmp) / "indicadores.json"
         ind.gerar(FIX / "contas", FIX / "fornecedores.json", FIX / "agregados.json", hash_path, CFG, saida,
                   cnae_x_tipo=TABELA, pf_path=pf_path, saques_path=saques_path, nomeados_path=nomeados_path,
-                  eleitos_path=eleitos_path, candidatos_path=cand_path)
+                  eleitos_path=eleitos_path, candidatos_path=cand_path, relatorio_dados=FIX / "relatorio_dados")
         return saida.read_text(encoding="utf-8"), json.loads(saida.read_text(encoding="utf-8"))
+
+    def test_repasse_gravado_com_sigla_do_tse_baixado(self):
+        """o agregados.json da fixture não tem `partido` do 2002: o reprocessamento grava a sigla de relatorio/dados"""
+        _, d = self.gerar()
+        rep = [i for i in d["indicadores"]["1001"] if i["nome"] == "transferencia_candidato"]
+        self.assertEqual([i["contraparte"] for i in rep], ["CANDIDATO INFIMO · AC · PZ", "CANDIDATO VOTADO · AC · PQ"])
 
     def test_forma_envelope_e_ordem(self):
         txt, d = self.gerar()

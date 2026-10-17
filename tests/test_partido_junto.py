@@ -93,6 +93,22 @@ def blocos_canvas(js, siglas):
     return "".join(f"<p>{html.escape(t)}</p>" for t in rotulos_canvas(js, siglas))
 
 
+CALC_ANALISE = R / "analise" / "js" / "calc.js"
+LADO_JS = re.compile(r"\$\{(?:CAND|SIGLA|LADO_NOME|LADO_MIN|LADO_CURTO)\.([LCF])\}")
+
+
+def analise_js(js):
+    """JS da Análise com ${CAND.L}, ${SIGLA.F}, ${LADO_NOME.L}… trocados pelo texto que o calc.js monta (a sigla vem
+    de SIGLA, conferida com relatorio.json em test_sigla_da_analise_vem_do_dado)"""
+    calc = CALC_ANALISE.read_text(encoding="utf-8")
+    sg = dict(zip("LF", re.search(r'export const SIGLA = \{ L: "(\w+)", F: "(\w+)" \}', calc).groups()))
+    cand = {"L": f"Lula ({sg['L']})", "F": f"Flávio ({sg['F']})"}
+    tab = {"CAND": cand, "SIGLA": sg, "LADO_CURTO": {**cand, "C": "Centro"},
+           "LADO_NOME": {"L": f"Campo de {cand['L']}", "F": f"Campo de {cand['F']}", "C": "Centro/sem lado"},
+           "LADO_MIN": {"L": f"campo de {cand['L']}", "F": f"campo de {cand['F']}", "C": "centro"}}
+    return LADO_JS.sub(lambda m: tab[m.group(0)[2:].split(".")[0]][m.group(1)], js)
+
+
 def candidatos(rel, meta22=None):
     """{sigla: [nomes]} de quem aparece nas páginas: presidente (com apelidos), governadores, Senado e deputados mais votados.
     `meta22` (municipios/geo/t2022/meta.json) traz Jair Bolsonaro, citado na comparação com 2022."""
@@ -207,8 +223,75 @@ class Textos(unittest.TestCase):
         self.assertEqual(blocos_sem_sigla(blocos_canvas(js, {}), candidatos(_rel(), _meta22())), [])
         self.assertNotEqual(blocos_sem_sigla(blocos_canvas(js.replace("`${CAND.L} precisa`", '"Lula precisa"'), {}), candidatos(_rel())), [])
 
+    def test_rotulos_js_da_analise(self):
+        """o que app.js, calc.js, textos.js e graficos.js escrevem (canvas, título, tabela, dica) traz a sigla, com
+        ${CAND.L}, ${SIGLA.F}, ${LADO_NOME.L}… resolvidos pelo calc.js (issue #78)"""
+        cand = candidatos(_rel(), _meta22())
+        for nome in ("app.js", "calc.js", "textos.js", "graficos.js", "og.js"):
+            js = analise_js((R / "analise" / "js" / nome).read_text(encoding="utf-8"))
+            self.assertEqual(blocos_sem_sigla(blocos_canvas(js, {}), cand), [], nome)
+        app = (R / "analise" / "js" / "app.js").read_text(encoding="utf-8")
+        self.assertIn("`${CAND.L} precisa`", app)
+        self.assertNotEqual(blocos_sem_sigla(blocos_canvas(analise_js(app.replace("`${CAND.L} precisa`", "`Lula precisa`")), {}), cand), [])
+        self.assertNotEqual(blocos_sem_sigla(blocos_canvas(analise_js(app.replace("Bolsonaro (${SIGLA.F})", "Bolsonaro")), {}), cand), [])
+
     def test_resumo_hud(self):
         self.assertEqual(blocos_sem_sigla(B.resumo_hud(), candidatos(_rel(), _meta22())), [])
+
+
+def _textos(x, chaves=None):
+    """strings de `x` (todas, ou só as que ficam sob uma chave de `chaves`); "refs" (de onde vem cada número) fica fora"""
+    if isinstance(x, str):
+        if chaves is None:
+            yield x
+    elif isinstance(x, dict):
+        for k, v in x.items():
+            if k != "refs":
+                yield from _textos(v, None if chaves is None or k in chaves else chaves)
+    elif isinstance(x, list):
+        for v in x:
+            yield from _textos(v, chaves)
+
+
+class AnaliseTextos(unittest.TestCase):
+    """os textos que analise/calcular.py grava em analise/dados/ (destaques, FAQ, títulos, notas e rótulos de linha e
+    coluna) citam Lula, Flávio e Jair Bolsonaro com a sigla no mesmo texto (issue #78). Fica fora o que é dado de fonte:
+    nome de candidato com `partido` ao lado (eliminados, puxadores) e a cópia de lados-*.json e fontes/cenarios.json
+    (título de matéria e fato checado), que a página não mostra como rótulo nosso."""
+
+    TEXTO = {"titulo", "texto", "nota", "metodo", "criterio", "ranking_criterio", "linhas", "colunas", "gap_depfed", "rotulo"}
+    DADOS = R / "analise" / "dados"
+
+    def doc(self, arq, troca=None):
+        d = json.loads((self.DADOS / arq).read_text(encoding="utf-8"))
+        if arq in ("destaques.json", "faq.json"):
+            textos = list(_textos(d))
+        else:
+            textos = list(_textos({k: v for k, v in d.items() if k != "fontes_2022"}, self.TEXTO))
+            textos += [c["nome"] for c in d.get("cenarios", []) if isinstance(c, dict)]
+        if troca:
+            textos = [t.replace(*troca) for t in textos]
+        return "".join(f"<p>{html.escape(t)}</p>" for t in textos)
+
+    def test_sigla_do_calcular_vem_do_dado(self):
+        sys.path.insert(0, str(R / "analise"))
+        import calcular as C
+        self.assertEqual(C.SIGLA, {"L": B.cL["sg"], "F": B.cF["sg"]})
+        self.assertEqual(C.rot("F", "Jair Bolsonaro"), f"Jair Bolsonaro ({B.cF['sg']})")
+
+    def test_nenhum_texto_sem_sigla(self):
+        self.maxDiff = None
+        cand = candidatos(_rel(), _meta22())
+        arqs = sorted(a.name for a in self.DADOS.glob("*.json") if a.name != "lados.json")
+        self.assertIn("destaques.json", arqs)
+        self.assertEqual({a: x[:3] for a in arqs if (x := blocos_sem_sigla(self.doc(a), cand))}, {})
+
+    def test_texto_sem_sigla_falha(self):
+        """caso negativo: tirar a sigla de Lula de um destaque e dos rótulos do voto dividido dá achado"""
+        cand = candidatos(_rel(), _meta22())
+        self.assertNotEqual(blocos_sem_sigla(self.doc("destaques.json", ("Lula (PT)", "Lula")), cand), [])
+        self.assertNotEqual(blocos_sem_sigla(self.doc("dividido.json", ("Lula (PT)", "Lula")), cand), [])
+        self.assertNotEqual(blocos_sem_sigla(self.doc("comparacao2022.json", ("Bolsonaro (PL)", "Bolsonaro")), cand), [])
 
 
 class HudFontes(unittest.TestCase):
@@ -280,6 +363,10 @@ def achados_rastro(doc, cand):
     return out
 
 
+REPASSE = re.compile(r"Repassou R\$ [\d.,]+ a ([^,<]+?), que usou")
+TIRA_SIGLA = re.compile(r"(Repassou R\$ [\d.,]+ a [^,<]+? · [A-Z]{2}) · [^,<]+,")
+
+
 class SiteGerado(unittest.TestCase):
     """varredura do Rastro inteiro, gerado agora com o dado de rastro/dados (o site/ commitado só muda com o build, que
     exige o sal do MEI): nenhum bloco de nenhuma página cita eleito sem a sigla (issue #74). O sal aqui é de teste: só
@@ -318,6 +405,17 @@ class SiteGerado(unittest.TestCase):
             self.skipTest("nenhuma página de eleito com diagrama")
         self.assertEqual(achados_rastro(doc, self.cand), [])
         self.assertNotEqual(achados_rastro(no.sub(r"\1\3", doc, count=1), self.cand), [])
+
+    def test_repasse_com_sigla_do_recebedor(self):
+        """issue #78: todo repasse publicado sai "a NOME · UF · SIGLA" (quem recebeu, eleito ou não)"""
+        sem = sorted({q for d in self.paginas.values() for q in REPASSE.findall(d) if q.count(" · ") < 2})
+        self.assertEqual(sem, [])
+        self.assertGreater(sum(len(REPASSE.findall(d)) for d in self.paginas.values()), 100)
+
+    def test_repasse_sem_sigla_falha(self):
+        """caso negativo: tirar a sigla do recebedor de um repasse dá achado"""
+        doc = next(d for d in self.paginas.values() if TIRA_SIGLA.search(d))
+        self.assertNotEqual([q for q in REPASSE.findall(TIRA_SIGLA.sub(r"\1,", doc, count=1)) if q.count(" · ") < 2], [])
 
 
 @unittest.skipUnless((R / "site" / "index.html").exists(), "site/ não construído (python3 build_site.py)")

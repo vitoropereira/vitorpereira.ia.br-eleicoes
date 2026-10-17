@@ -35,6 +35,7 @@ CNAE_X_TIPO = AQUI / "cnae_x_tipo.json"
 FORNECEDORES = AQUI / "dados" / "fornecedores.json"
 SAIDA = AQUI / "dados" / "indicadores.json"
 CANDIDATOS = AQUI / "brutos" / "candidatos.json"
+RELATORIO_DADOS = AQUI.parent / "relatorio" / "dados"
 FONTE_RECEITA = BASE_CNPJ.rsplit("/download", 1)[0]
 RE_MEIO = re.compile(r"\*{3}(\d{6})\*{2}")
 PAPEIS_DOADOR = ("doador", "ambos")
@@ -227,6 +228,31 @@ def rotulo_recebedor(info):
     if not info.get("nome"):
         return "outro candidato"
     return " · ".join(x for x in (info["nome"], info.get("uf"), info.get("partido")) if x)
+
+
+def ler_partidos(dados_dir=RELATORIO_DADOS):
+    """{sq: (UF, sigla)} de todo candidato de relatorio/dados/{uf}-c{cd}.json (dado do TSE já baixado, sem rede)"""
+    out = {}
+    for arq in sorted(Path(dados_dir).glob("*-c*.json")):
+        uf = arq.name.split("-", 1)[0].upper()
+        for carg in ler_json(arq).get("carg") or []:
+            for agr in carg.get("agr") or []:
+                for par in agr.get("par") or []:
+                    for cand in par.get("cand") or []:
+                        out[str(cand["sqcand"])] = (uf, par.get("sg"))
+    return out
+
+
+def completar_recebedores(agregados, partidos):
+    """agregados.json gravado antes de `partido` entrar em `candidatos` (contas.agregados_json): completa UF e sigla do
+    recebedor de repasse por `partidos` (ler_partidos), sem trocar o que já veio"""
+    for rec, info in (agregados.get("candidatos") or {}).items():
+        uf, sg = partidos.get(rec, (None, None))
+        if not info.get("uf") and uf:
+            info["uf"] = uf
+        if not info.get("partido") and sg:
+            info["partido"] = sg
+    return agregados
 
 
 def transferencia_candidato(sq, contas, agregados, eleitorado, cfg, fornecedores=None):
@@ -605,11 +631,11 @@ def ler_opcional(caminho, o_que, avisos=None):
 
 def gerar(dir_contas, fornecedores_path, agregados_path, hash_path, cfg, saida, cnae_x_tipo=None,
           pf_path=None, saques_path=None, nomeados_path=NOMEADOS,
-          eleitos_path=ELEITOS, candidatos_path=CANDIDATOS):
+          eleitos_path=ELEITOS, candidatos_path=CANDIDATOS, relatorio_dados=RELATORIO_DADOS):
     cnae_x_tipo = cnae_x_tipo if cnae_x_tipo is not None else ler_json(CNAE_X_TIPO)
     env = ler_json(fornecedores_path)
     fornecedores = env["fornecedores"]
-    agregados = ler_json(agregados_path)
+    agregados = completar_recebedores(ler_json(agregados_path), ler_partidos(relatorio_dados))
     avisos = []  # vão para indicadores.json["avisos"] e para a metodologia: o que não foi calculado nesta base
     doadores_hash = ler_opcional(hash_path, "socio_doador", avisos)
     if Path(candidatos_path).exists():
