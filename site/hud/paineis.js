@@ -1,10 +1,10 @@
 // Painéis do HUD (Preact + htm): esquerdo (manchete, placar, totais, gráfico) e direito (regiões, feed).
 import { html, useState } from "/vendor/preact-htm.module.js";
-import { pct, int, linha, somar, oficial, duelo, senadoEleitos, REGIOES, UF_NOME, UFS, cor, ehDep, primeiroNome, CARGO_NOME } from "./calc.js";
+import { pct, int, linha, somar, oficial, duelo, senadoEleitos, REGIOES, UF_NOME, UFS, cor, ehDep, comSigla, cartao, textoComSigla, CARGO_NOME } from "./calc.js";
 
 const CORES_MARCA = new Set(["PL", "PT"]);
 /** nome com a cor do partido: PL/PT usam o token (contraste testado); os demais, sublinhado na cor */
-export const Nome = ({ c, curto }) => html`<span class=${CORES_MARCA.has(c.sg) ? "nm-c" : "nm-u"} style=${{ "--c": cor(c.sg) }}>${curto ? primeiroNome(c.nome) : c.nome}</span>`;
+export const Nome = ({ c, curto }) => html`<span class=${CORES_MARCA.has(c.sg) ? "nm-c" : "nm-u"} style=${{ "--c": cor(c.sg) }}>${comSigla(c, curto)}</span>`;
 export const Sw = ({ sg }) => html`<i class="sw" style=${{ "--c": cor(sg) }} aria-hidden="true"></i>`;
 
 function manchete(cargo, r, onde, turno, pst, parcial, of, eleito) {
@@ -82,12 +82,13 @@ export function Placar({ cargo, r, kicker, selo, onVoltar, ponto, serie, idx, tu
         <div><dt>Comparecimento</dt><dd>${pct(r.pc * 100, 1)}%</dd></div>
         <div><dt>Brancos e nulos</dt><dd>${pct(r.pbn * 100, 1)}%</dd></div>
       </dl>`}
-    ${serie && serie.length > 1 && html`<${GraficoNoite} serie=${serie} idx=${idx} />`}
+    ${serie && serie.length > 1 && html`<${GraficoNoite} serie=${serie} idx=${idx} cands=${r.cands} />`}
   `;
 }
 
 // ---------------- gráfico "Ao longo da apuração" (SVG, sem biblioteca)
-export function GraficoNoite({ serie, idx }) {
+export function GraficoNoite({ serie, idx, cands }) {
+  const { F: cF, L: cL } = duelo(cands), nF = comSigla(cF, true), nL = comSigla(cL, true);
   const W = 300, H = 132, L = 30, R = 6, T = 8, B = 20;
   const vals = serie.flatMap((s) => [s.f, s.l]);
   const lo = Math.floor(Math.min(...vals) - 1), hi = Math.ceil(Math.max(...vals) + 1);
@@ -101,15 +102,15 @@ export function GraficoNoite({ serie, idx }) {
   return html`
     <figure class="grafico">
       <figcaption><span class="kicker">Ao longo da apuração</span>
-        <span class="leg"><i style=${{ "--c": cor("PL") }}></i>Flávio <i style=${{ "--c": cor("PT") }}></i>Lula</span></figcaption>
-      <svg viewBox=${`0 0 ${W} ${H}`} role="img" aria-label=${`Trajetória da apuração: Flávio começou com ${pct(serie[0].f, 1)}% e terminou com ${pct(F.f, 1)}%; Lula foi de ${pct(serie[0].l, 1)}% a ${pct(F.l, 1)}%.`}>
+        <span class="leg"><i style=${{ "--c": cor(cF.sg) }}></i>${cartao(cF)} <i style=${{ "--c": cor(cL.sg) }}></i>${cartao(cL)}</span></figcaption>
+      <svg viewBox=${`0 0 ${W} ${H}`} role="img" aria-label=${`Trajetória da apuração: ${nF} começou com ${pct(serie[0].f, 1)}% e terminou com ${pct(F.f, 1)}%; ${nL} foi de ${pct(serie[0].l, 1)}% a ${pct(F.l, 1)}%.`}>
         ${ticks.map((v) => html`<line class="gr" x1=${L} x2=${W - R} y1=${y(v)} y2=${y(v)} /><text class="ax" x=${L - 5} y=${y(v) + 3} text-anchor="end">${v}%</text>`)}
         ${[0, 50, 100].map((p) => html`<text class="ax" x=${x(p)} y=${H - 5} text-anchor=${p === 0 ? "start" : p === 100 ? "end" : "middle"}>${p}%${p === 0 ? " das seções" : ""}</text>`)}
         <line class="ref50" x1=${L} x2=${W - R} y1=${y(50)} y2=${y(50)} />
         <path d=${linhaD("f")} class="ln" style=${{ "--c": cor("PL") }} />
         <path d=${linhaD("l")} class="ln" style=${{ "--c": cor("PT") }} />
         <line class="cursor-t" x1=${x(atual.pst)} x2=${x(atual.pst)} y1=${T} y2=${H - B} />
-        ${serie.map((p) => html`<circle class="pt" cx=${x(p.pst)} cy=${y(p.f)} r="2"><title>${quando(p)} · ${pct(p.pst, 1)}% das seções: Flávio ${pct(p.f, 2)}%, Lula ${pct(p.l, 2)}%</title></circle>`)}
+        ${serie.map((p) => html`<circle class="pt" cx=${x(p.pst)} cy=${y(p.f)} r="2"><title>${quando(p)} · ${pct(p.pst, 1)}% das seções: ${nF} ${pct(p.f, 2)}%, ${nL} ${pct(p.l, 2)}%</title></circle>`)}
         <circle cx=${x(atual.pst)} cy=${y(atual.f)} r="3.2" style=${{ fill: cor("PL") }} />
         <circle cx=${x(atual.pst)} cy=${y(atual.l)} r="3.2" style=${{ fill: cor("PT") }} />
       </svg>
@@ -145,7 +146,7 @@ export function ResumoUFs({ cargo, res, meta, onUF, status, pst }) {
     <p class="kicker sub">Por estado <small>· toque para ver</small></p>
     <ul class="ufs">
       ${linhas.map(({ uf, r, of }) => html`<li><button type="button" onClick=${() => onUF(uf)}>
-        <b>${uf}</b><${Sw} sg=${r.lider.sg} /><span class="nm">${cargo === "senador" ? senadores({ r, of }).map((c) => primeiroNome(c.nome)).join(" e ") : primeiroNome(r.lider.nome)}</span>
+        <b>${uf}</b><${Sw} sg=${r.lider.sg} /><span class="nm">${cargo === "senador" ? senadores({ r, of }).map(cartao).join(" e ") : cartao(r.lider)}</span>
         <span class="p">${cargo === "senador" ? r.lider.sg : pct(r.p1 * 100, 1) + "%"}</span>
         ${cargo === "governador" && of?.status && html`<span class=${"st " + (of.status === "eleito" ? "ok" : "t2")}>${of.status === "eleito" ? "eleito" : of.status === "2turno" ? "2º t." : "indef."}</span>`}
       </button></li>`)}
@@ -181,7 +182,7 @@ export function ResumoDep({ cargo, res, uf, onUF, onVoltar, geo }) {
     <p class="kicker sub">Municípios com o partido na frente</p>
     <ul class="barras">${rk.slice(0, 8).map(([sg, n]) => html`<li><span class="sg">${sg}</span><span class="tr"><i style=${{ width: (n / max) * 100 + "%", "--c": cor(sg) }}></i></span><b>${int(n)}</b></li>`)}</ul>
     <p class="kicker sub">Mais votado por estado <small>· toque para ver</small></p>
-    <ul class="ufs">${ufs.map(({ uf: u, r }) => html`<li><button type="button" onClick=${() => onUF(u)}><b>${u}</b><${Sw} sg=${r.sg} /><span class="nm">${r.cands[0] ? primeiroNome(r.cands[0].nome) : r.sg}</span><span class="p">${r.sg}</span></button></li>`)}</ul>`;
+    <ul class="ufs">${ufs.map(({ uf: u, r }) => html`<li><button type="button" onClick=${() => onUF(u)}><b>${u}</b><${Sw} sg=${r.sg} /><span class="nm">${r.cands[0] ? cartao(r.cands[0]) : r.sg}</span><span class="p">${r.sg}</span></button></li>`)}</ul>`;
 }
 
 // ---------------- painel direito
@@ -225,13 +226,13 @@ export function PorRegiao({ cargo, res, meta, lista, ponto, geo, turno, msg }) {
     <span class="duelo mini" aria-hidden="true"><i style=${{ width: (tot ? (n / tot) * 100 : 0) + "%", "--c": cor(sg) }}></i></span></li>`)}</ul>`;
 }
 
-export function Feed({ itens, onUF }) {
+export function Feed({ itens, onUF, lista }) {
   const [n, setN] = useState(10);
   if (!itens?.length) return html`<p class="vazio-txt">Sem atualizações por enquanto.</p>`;
   return html`<ol class="feed">${itens.slice(0, n).map((it) => html`<li class=${"t-" + it.t}>
     <time title=${it.d ? `${it.d}${it.h ? " " + it.h : ""}` : null}>${it.h || ""}</time><i aria-hidden="true"></i>
     <div>${!it.h && html`<small class="rf">${it.d ? it.d + " · " : ""}resultado final</small>`}
-    ${it.uf ? html`<button type="button" class="link" onClick=${() => onUF(it.uf)}>${it.txt}</button>` : html`<span>${it.txt}</span>`}</div>
+    ${it.uf ? html`<button type="button" class="link" onClick=${() => onUF(it.uf)}>${textoComSigla(it.txt, lista)}</button>` : html`<span>${textoComSigla(it.txt, lista)}</span>`}</div>
   </li>`)}</ol>
   ${itens.length > n && html`<button type="button" class="link" onClick=${() => setN(n + 20)}>Mostrar mais ${Math.min(20, itens.length - n)} atualizações</button>`}`;
 }

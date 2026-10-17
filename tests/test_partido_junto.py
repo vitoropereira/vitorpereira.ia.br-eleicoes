@@ -147,6 +147,42 @@ class Textos(unittest.TestCase):
         self.assertEqual(blocos_sem_sigla(doc, cand), [])
 
 
+    def test_resumo_hud(self):
+        self.assertEqual(blocos_sem_sigla(B.resumo_hud(), candidatos(_rel(), _meta22())), [])
+
+
+class HudFontes(unittest.TestCase):
+    """o HUD (hud/*.js) desenha no navegador; aqui a varredura estática: rótulo de candidato sem sigla no mesmo template"""
+
+    TEMPLATE = re.compile(r"`(?:[^`\\]|\\.)*`")
+    NOME = re.compile(r"\$\{\s*(?:primeiroNome\(\s*)?[\w.?\[\]]*\.nome\b")
+    SWATCH = re.compile(r"<\$\{Sw\}[^>]*>")
+    COM_SIGLA = re.compile(r"\bsg\b|comSigla|cartao|<\$\{Nome\}")
+
+    @classmethod
+    def sem_sigla(cls, js):
+        """interpolações de `x.nome` em template literal sem sigla (sg, comSigla, cartao ou <Nome/>) no mesmo template"""
+        achados = []
+        for t in cls.TEMPLATE.findall(js):
+            texto = cls.SWATCH.sub("", t)  # a amostra de cor <Sw sg=…/> usa a sigla, mas não a mostra
+            if cls.NOME.search(texto) and not cls.COM_SIGLA.search(texto):
+                achados.append(t[:120])
+        return achados
+
+    def test_detecta_rotulo_sem_sigla(self):
+        self.assertEqual(len(self.sem_sigla("html`<span>${c.nome}</span>`")), 1)
+        self.assertEqual(len(self.sem_sigla("html`<span>${primeiroNome(c.nome)}</span>`")), 1)
+        self.assertEqual(len(self.sem_sigla("html`<li><${Sw} sg=${c.sg} /><span>${c.nome}</span></li>`")), 1)  # a amostra de cor não vale
+        self.assertEqual(self.sem_sigla("html`<span>${c.nome} <small>${c.sg}</small></span>`"), [])
+        self.assertEqual(self.sem_sigla("html`<span>${comSigla(c)}</span> ${cartao(c)} <${Nome} c=${c} />`"), [])
+
+    def test_hud_sem_rotulo_sem_sigla(self):
+        for arq in sorted((R / "hud").glob("*.js")):
+            if arq.name.endswith("_test.js"):
+                continue
+            self.assertEqual(self.sem_sigla(arq.read_text(encoding="utf-8")), [], arq.name)
+
+
 @unittest.skipUnless(TEM_CHROME, "Chrome headless indisponível")
 class Paginas(unittest.TestCase):
     """pré-renderiza as páginas montadas a partir dos templates e procura blocos sem sigla"""
@@ -162,6 +198,17 @@ class Paginas(unittest.TestCase):
         doc = self.render(P.html_relatorio((R / "relatorio" / "template_relatorio.html").read_text(), rel, P.siglas_2022()))
         self.assertIn('id="hl"><li', doc)  # o script rodou
         self.assertEqual(blocos_sem_sigla(doc, candidatos(rel, _meta22())), [])
+
+    @unittest.skipUnless((R / "site" / "ao-vivo" / "index.html").exists(), "site/ não construído (python3 build_site.py)")
+    def test_ao_vivo(self):
+        """o HUD rodando no Chrome com o dado do 1º turno: manchete, placar e listas com a sigla junto do nome"""
+        srv = B.serve(R / "site", port=8797)
+        try:
+            doc = B.prerender("http://127.0.0.1:8797/ao-vivo/")
+        finally:
+            srv.shutdown(); srv.server_close()
+        self.assertIn('class="manchete', doc)  # o app montou
+        self.assertEqual(blocos_sem_sigla(doc, candidatos(_rel(), _meta22())), [])
 
     def test_leitura(self):
         r = next(x for x in B.rodadas if x["slug"] == "84-9")

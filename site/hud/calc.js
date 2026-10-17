@@ -25,7 +25,7 @@ export const MODOS = [["municipios", "Municípios"], ["estados", "Estados"], ["v
 // ---------- modo Divergência (dados da Análise: /analise/dados/divergencias.json)
 // Lados: L = campo de Lula, F = campo de Flávio, C = centro/sem lado. Cor só por token de campo.
 export const LADO_TOKEN = { L: "--lula", F: "--flavio", C: "--outros" };
-export const LADO_NOME = { L: "campo de Lula", F: "campo de Flávio", C: "centro" };
+export const LADO_NOME = { L: "campo de Lula (PT)", F: "campo de Flávio (PL)", C: "centro" };
 /** cargo legislativo comparado com presidente: o do recorte, ou deputado federal quando o recorte é presidente */
 export const cargoDivergencia = (cargo) => (cargo === "presidente" ? "depfed" : cargo);
 /** {pres, leg, diverge} de um município (m = divergencias.mu[cod]); null sem dado ou com empate para presidente
@@ -62,6 +62,21 @@ export const primeiroNome = (n) => {
   const p = String(n).split(" ");
   return p.length > 2 ? p.slice(0, 2).join(" ") : n;
 };
+
+const comPartido = (c) => Boolean(c.sg) && c.sg !== c.nome;
+/** partido junto do nome, em texto corrido: "Flávio Bolsonaro (PL)"; `curto` usa só o 1º nome. Sem duplicar quando o nome já é a sigla. */
+export const comSigla = (c, curto) => {
+  const n = curto ? String(c.nome).split(" ")[0] : c.nome;
+  return comPartido(c) ? `${n} (${c.sg})` : n;
+};
+/** texto pronto de outra fonte (títulos de /analise/dados/destaques.json): "Lula" vira "Lula (PT)" e "Flávio" vira "Flávio (PL)",
+ *  com a sigla do dado (`lista`). Quem já vem com a sigla ou com o sobrenome fica como está; os dados publicados não mudam. */
+export function textoComSigla(txt, lista) {
+  const { F, L } = duelo(lista), sg = { Flávio: F.sg, Lula: L.sg };
+  return String(txt ?? "").replace(/(?<![\p{L}\d])(Flávio|Lula)(?![\p{L}\d]| \p{Lu}| da Silva| \()/gu, (_, n) => `${n} (${sg[n]})`);
+}
+/** partido junto do nome, em cartão, legenda e dica: "Flávio · PL" */
+export const cartao = (c) => (comPartido(c) ? `${String(c.nome).split(" ")[0]} · ${c.sg}` : c.nome);
 
 const CURTA = { REPUBLICANOS: "REPUB", SOLIDARIEDADE: "SD", CIDADANIA: "CID", DEMOCRATA: "DEM", MOBILIZA: "MOB" };
 /** sigla curta para rótulos no mapa */
@@ -200,18 +215,20 @@ export function resumoLeitor({ turno, temVivo, fonte, meta, cargo, ponto, pontoU
   const onde = ufSel ? ` em ${UF_NOME[ufSel]}` : "";
   if (ponto) {
     const d = ponto.d ? ponto.d + " " : "";
-    if (!ufSel) return `Presidente em ${d}${ponto.ht}, ${pct(ponto.pst, 1)}% das seções: Flávio ${pct(ponto.f, 2)}%, Lula ${pct(ponto.l, 2)}%.`;
+    const { F, L } = duelo(lista), fl = comSigla(F, true), lu = comSigla(L, true);
+    if (!ufSel) return `Presidente em ${d}${ponto.ht}, ${pct(ponto.pst, 1)}% das seções: ${fl} ${pct(ponto.f, 2)}%, ${lu} ${pct(ponto.l, 2)}%.`;
     const u = pontoUF?.uf?.[ufSel];
     if (!u) return `Presidente${onde}: o TSE não tinha publicado esta UF às ${ponto.ht}.`;
-    return `Presidente${onde} em ${d}${pontoUF.ufDe || ponto.ht}, ${pct(u[0], 1)}% das seções: Flávio ${pct(u[1], 2)}%, Lula ${pct(u[2], 2)}%.`;
+    return `Presidente${onde} em ${d}${pontoUF.ufDe || ponto.ht}, ${pct(u[0], 1)}% das seções: ${fl} ${pct(u[1], 2)}%, ${lu} ${pct(u[2], 2)}%.`;
   }
   const r = linha("presidente", ufSel ? fonte.uf?.[ufSel] : fonte.br, lista);
   const apurado = turno === 2 ? `, ${fonte.t ? "às " + fonte.t + ", " : ""}${pct((ufSel ? fonte.pu?.[ufSel] : null) ?? fonte.pst ?? 0, 1)}% das seções` : "";
   if (!r) return `Presidente${onde}: sem dados.`;
   if (r.vazio) return `Presidente, ${turno}º turno${onde}${apurado}: nenhum voto apurado ainda.`;
   const el = turno === 2 && !ufSel ? eleitoTurno2(fonte, lista) : null;
-  if (el) return `${el.nome} é eleito presidente (TSE)${apurado}: ${r.cands.slice(0, 2).map((c) => `${c.nome} ${pct(c.p * 100, 2)}%`).join(", ")}.`;
-  return `Presidente, ${turno}º turno${onde}${apurado}: ${r.cands.slice(0, 2).map((c) => `${c.nome} ${pct(c.p * 100, 2)}%`).join(", ")}.`;
+  const placar = r.cands.slice(0, 2).map((c) => `${comSigla(c)} ${pct(c.p * 100, 2)}%`).join(", ");
+  if (el) return `${comSigla(el)} é eleito presidente (TSE)${apurado}: ${placar}.`;
+  return `Presidente, ${turno}º turno${onde}${apurado}: ${placar}.`;
 }
 
 /**
