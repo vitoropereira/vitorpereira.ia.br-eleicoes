@@ -77,6 +77,39 @@ Deno.test("a. resumo do leitor de tela usa a leitura da UF escolhida durante a l
   ok(zero.includes("nenhum voto apurado"), zero);
 });
 
+Deno.test("partido junto: comSigla e cartao", async () => {
+  const { comSigla, cartao, cartaoCurto } = await import("./calc.js");
+  const f = PRES[0];
+  ok(comSigla(f) === "Flávio Bolsonaro (PL)", comSigla(f));
+  ok(comSigla(f, true) === "Flávio (PL)", comSigla(f, true));
+  ok(cartaoCurto(f) === "Flávio · PL", cartaoCurto(f));
+  ok(cartao({ nome: "Dr. Furlan", sg: "PSD" }) === "Dr. Furlan · PSD", "cartão de lista não corta nome de 2 palavras");
+  ok(cartao({ nome: "Professora Maria do Carmo", sg: "PL" }) === "Professora Maria · PL", "até 2 palavras");
+  ok(comSigla({ nome: "PL", sg: "PL" }) === "PL" && cartao({ nome: "PL", sg: "PL" }) === "PL", "nome já é a sigla");
+  ok(comSigla({ nome: "Fulano" }) === "Fulano" && cartao({ nome: "Fulano", sg: "" }) === "Fulano", "sem sigla");
+});
+
+Deno.test("partido junto: textoComSigla acrescenta a sigla do dado em texto pronto", async () => {
+  const { textoComSigla } = await import("./calc.js");
+  ok(textoComSigla("eleitor de Lula, deputado do lado de Flávio", PRES) === "eleitor de Lula (PT), deputado do lado de Flávio (PL)", "dois nomes");
+  ok(textoComSigla("Lula (PT) e Flávio Bolsonaro (PL)", PRES) === "Lula (PT) e Flávio Bolsonaro (PL)", "já tem sigla: intacto");
+  ok(textoComSigla("Lulalândia", PRES) === "Lulalândia", "palavra inteira");
+  ok(textoComSigla("50% das seções · Flávio Bolsonaro 51,0% × Lula 49,0%", PRES) === "50% das seções · Flávio Bolsonaro (PL) 51,0% × Lula (PT) 49,0%", "feed do agregador: nome completo");
+  ok(textoComSigla("apoia Flávio (faixa de 90%)", PRES) === "apoia Flávio (PL) (faixa de 90%)", "parêntese que não é sigla");
+  ok(textoComSigla("Flávio Dino e Luiz Inácio Lula da Silva", PRES) === "Flávio Dino e Luiz Inácio Lula da Silva", "outro sobrenome");
+});
+
+Deno.test("partido junto: narração do leitor de tela traz a sigla do dado", () => {
+  const ponto = { ht: "18:32", pst: 36.6, f: 50.63, l: 41.23, uf: { PR: [83.37, 62.1, 30.2] } };
+  const base = { turno: 1, temVivo: false, fonte: { br: [0, 0, 100, 0, 0, [60, 40]] }, meta: META, cargo: "presidente", lista: PRES };
+  const t = resumoLeitor({ ...base, ponto, pontoUF: ponto, ufSel: null });
+  ok(t.includes("Flávio (PL) 50,63%") && t.includes("Lula (PT) 41,23%"), t);
+  const u = resumoLeitor({ ...base, ponto, pontoUF: ponto, ufSel: "PR" });
+  ok(u.includes("Flávio (PL) 62,10%") && u.includes("Lula (PT) 30,20%"), u);
+  const v = resumoLeitor({ ...base, ponto: null, pontoUF: null, ufSel: null });
+  ok(v.includes("Flávio Bolsonaro (PL) 60,00%") && v.includes("Lula (PT) 40,00%"), v);
+});
+
 Deno.test("b. minuto da linha do tempo: nunca mostra o ao vivo no lugar do minuto escolhido", () => {
   const vivo = { idg: "9" }, m1 = { t: "18:32", dados: { idg: "1" } };
   ok(fonteTurno2(null, null, m1, vivo).fonte === vivo, "sem minuto: ao vivo");
@@ -123,7 +156,7 @@ Deno.test("2º turno: 'eleito' só do agora.json (`eleito` do TSE), nunca de por
   ok(eleitoTurno2({ ...fonte, eleito: "99" }, PRES) === null, "número fora da lista: ignora");
   const base = { turno: 2, temVivo: true, meta: META, cargo: "presidente", lista: PRES, ponto: null, pontoUF: null };
   ok(!rl({ ...base, fonte, ufSel: null }).includes("eleito"), "resumo sem marca: sem eleito");
-  ok(rl({ ...base, fonte: { ...fonte, eleito: "22" }, ufSel: null }).startsWith("Flávio Bolsonaro é eleito presidente"), "resumo com marca");
+  ok(rl({ ...base, fonte: { ...fonte, eleito: "22" }, ufSel: null }).startsWith("Flávio Bolsonaro (PL) é eleito presidente"), "resumo com marca");
 });
 
 Deno.test("2º turno: leitura parada há mais de 5 min com apuração aberta → 'aguardando nova leitura do TSE', sem 'ao vivo'", async () => {

@@ -6,7 +6,7 @@ import { Mapa } from "./mapa.js";
 import { assinarPresenca } from "./presenca.js";
 import { limparCache, token, misturar } from "./partidos.js";
 import {
-  UF_NOME, UFS, CARGOS, CARGO_NOME, MODOS, pct, int, titulo, semAcento, linha, linhaSerie, corPara, cor, ehDep, primeiroNome, curta,
+  UF_NOME, UFS, CARGOS, CARGO_NOME, MODOS, pct, int, titulo, semAcento, linha, linhaSerie, corPara, cor, ehDep, comSigla, textoComSigla, curta,
 } from "./calc.js";
 import { oficial, duelo, resumoLeitor, fonteTurno2, modoValido, serieTurno2, eleitoTurno2, situacaoVivo, exteriorCidades } from "./calc.js";
 import { divergencia, cargoDivergencia, contaDivergencia, LADO_TOKEN, LADO_NOME } from "./calc.js";
@@ -170,7 +170,7 @@ function Busca({ aberto, fechar, meta, geo, onEscolha }) {
     <ul id="busca-res" role="listbox" aria-label="Resultados">
       ${res.map((it, i) => html`<li id=${"br-" + i} role="option" aria-selected=${i === sel}><button type="button" tabindex="-1" onClick=${() => escolher(it)} onMouseMove=${(e) => { if (e.movementX || e.movementY) setSel(i); }}><b>${it.txt}</b><small>${it.sub}</small></button></li>`)}
       ${q.trim().length >= 2 && !res.length && html`<li class="nada">Nada encontrado para “${q}”.</li>`}
-      ${q.trim().length < 2 && html`<li class="nada">Digite ao menos 2 letras. Ex.: Curitiba, Bahia, Lula.</li>`}
+      ${q.trim().length < 2 && html`<li class="nada">Digite ao menos 2 letras. Ex.: Curitiba, Bahia, Pernambuco.</li>`}
     </ul></dialog>`;
 }
 
@@ -184,7 +184,7 @@ function Exterior({ aberto, fechar, meta, res, lista, turno }) {
     <div class="cab"><h2 id="ext-t">Exterior · Presidente</h2><button type="button" class="bt ic" aria-label="Fechar" onClick=${fechar}>${Ic.x}</button></div>
     ${zz ? html`<p class="ext-tot"><${Sw} sg=${zz.lider.sg} /><${Nome} c=${zz.lider} /> ${pct(zz.p1 * 100, 1)}% × <${Nome} c=${zz.segundo} /> ${pct(zz.segundo.p * 100, 1)}% · ${int(zz.validos)} votos válidos em ${itens.length} cidades</p>` : html`<p class="vazio-txt">Sem dados do exterior para este turno ainda.</p>`}
     <div class="ext-lista"><table><thead><tr><th scope="col">Cidade</th><th scope="col">1º colocado</th><th class="n" scope="col">%</th><th class="n" scope="col">Válidos</th></tr></thead>
-    <tbody>${itens.map(({ nome, r }) => html`<tr><td>${nome}</td><td><${Sw} sg=${r.lider.sg} />${r.lider.nome}</td><td class="n">${pct(r.p1 * 100, 1)}</td><td class="n">${int(r.validos)}</td></tr>`)}
+    <tbody>${itens.map(({ nome, r }) => html`<tr><td>${nome}</td><td><${Sw} sg=${r.lider.sg} />${comSigla(r.lider)}</td><td class="n">${pct(r.p1 * 100, 1)}</td><td class="n">${int(r.validos)}</td></tr>`)}
     ${semVoto > 0 && html`<tr class="sem-voto"><td colspan="4">+${int(semVoto)} ${semVoto === 1 ? "cidade" : "cidades"} ${turno === 2 ? "sem votos apurados ainda" : "sem voto válido"}</td></tr>`}</tbody></table></div>
   </dialog>`;
 }
@@ -358,7 +358,7 @@ function App() {
       const r = fonte ? resultadoUF(uf) : null;
       if (!r || !r.lider) return { uf, cor: "var(--neutral)", txt: "", aria: `${UF_NOME[uf]}: sem dados` };
       const txt = ehDep(cargo) ? curta(r.sg) : modo === "apurado" ? `${pct(r.pst ?? pstUF(uf), 0)}%` : `${pct(r.p1 * 100, 0)}%`;
-      return { uf, cor: cor(r.lider.sg), txt, aria: `${UF_NOME[uf]}: ${ehDep(cargo) ? r.sg + " mais votado" : `${r.lider.nome} (${r.lider.sg}) ${pct(r.p1 * 100, 1)}%`}. Aproximar.` };
+      return { uf, cor: cor(r.lider.sg), txt, aria: `${UF_NOME[uf]}: ${ehDep(cargo) ? r.sg + " mais votado" : `${comSigla(r.lider)} ${pct(r.p1 * 100, 1)}%`}. Aproximar.` };
     });
   }, [geo, fonte, resultadoUF, cargo, modo, turno, vivo.dados]);
 
@@ -452,7 +452,7 @@ function App() {
       const r = linhaSerie(pontoUF.uf[uf], listaPres);
       const p = pontoUF.ufDe ? serie.find((x) => x.ht === pontoUF.ufDe) || pontoUF : pontoUF;
       return html`${cab}<p class="dk-nota">${UF_NOME[uf]} em ${p.d ? p.d + " " : ""}${p.ht}${r ? ` · ${pct(r.pst, 1)}% apurado` : ""}</p>
-        ${r && html`<ul class="dk-l">${r.cands.map((c) => html`<li><${Sw} sg=${c.sg} /><span>${c.nome}</span><b>${pct(c.p * 100, 1)}%</b></li>`)}</ul>`}`;
+        ${r && html`<ul class="dk-l">${r.cands.map((c) => html`<li><${Sw} sg=${c.sg} /><span>${c.nome} <small>${c.sg}</small></span><b>${pct(c.p * 100, 1)}%</b></li>`)}</ul>`}`;
     }
     const r = linha(cargo, fonte.mu?.[cod], lista(uf));
     if (!r) return html`${cab}<p class="dk-nota">Sem dados deste município.</p>`;
@@ -545,8 +545,8 @@ function App() {
     return html`<table class="sr-only"><caption>${CARGO_NOME[cargo]}, ${turno}º turno: resultado por estado${ponto ? ` às ${ponto.ht}` : ""}</caption>
       <thead><tr><th scope="col">Estado</th><th scope="col">${ehDep(cargo) ? "Partido mais votado" : "1º colocado"}</th><th scope="col">% dos válidos</th><th scope="col">${ehDep(cargo) ? "Candidato mais votado" : "2º colocado"}</th></tr></thead>
       <tbody>${linhas.map(({ uf, r }) => html`<tr><th scope="row">${UF_NOME[uf]}</th>
-        <td>${r.dep ? r.sg : `${r.lider.nome} (${r.lider.sg})`}</td><td>${pct(r.p1 * 100, 1)}%</td>
-        <td>${r.dep ? (r.cands[0] ? `${r.cands[0].nome} (${r.cands[0].sg})` : "–") : r.segundo ? `${r.segundo.nome} ${pct(r.segundo.p * 100, 1)}%` : "–"}</td></tr>`)}</tbody></table>`;
+        <td>${r.dep ? r.sg : comSigla(r.lider)}</td><td>${pct(r.p1 * 100, 1)}%</td>
+        <td>${r.dep ? (r.cands[0] ? comSigla(r.cands[0]) : "–") : r.segundo ? `${comSigla(r.segundo)} ${pct(r.segundo.p * 100, 1)}%` : "–"}</td></tr>`)}</tbody></table>`;
   }, [fonte, meta, cargo, turno, resultadoUF, ponto]);
 
   return html`
@@ -572,9 +572,9 @@ function App() {
           <section class="bloco"><div class="cab"><h2 class="kicker">Por região</h2><span class="sub">${cargo === "presidente" ? "quem lidera" : "partido na frente"}${ponto ? ` · aprox. ${ponto.d ? ponto.d + " " : ""}${ponto.ht}` : ""}</span></div>
             <${Seguro}><${PorRegiao} cargo=${cargo} res=${meta ? fonte : null} meta=${meta} lista=${listaPres} ponto=${pontoUF} geo=${geo} turno=${turno} msg=${f2.erro ? `Sem a leitura das ${tSel}.` : f2.carregando && tSel ? `Carregando a leitura das ${tSel}…` : null} /><//></section>
           ${destaques?.length > 0 && html`<section class="bloco analise-b"><div class="cab"><h2 class="kicker">Análise</h2><a class="sub" href="/analise/">ver tudo →</a></div>
-            <ul class="dest">${destaques.slice(0, 3).map((c) => html`<li><a href=${"/analise/" + (c.ancora || "")}><b>${c.numero}</b><span>${c.titulo}${c.est ? html` <span class="tag-est">estimativa</span>` : null}</span></a></li>`)}</ul></section>`}
+            <ul class="dest">${destaques.slice(0, 3).map((c) => html`<li><a href=${"/analise/" + (c.ancora || "")}><b>${c.numero}</b><span>${textoComSigla(c.titulo, listaPres)}${c.est ? html` <span class="tag-est">estimativa</span>` : null}</span></a></li>`)}</ul></section>`}
           <section class="bloco feed-b"><div class="cab"><h2 class="kicker">Últimas atualizações</h2></div>
-            ${turno === 2 ? (feed2?.length ? html`<${Feed} itens=${feed2} onUF=${(uf) => { escolherUF(uf); }} />` : html`<p class="vazio-txt">O feed do 2º turno começa quando o TSE publicar as primeiras seções.</p>`) : html`<${Feed} itens=${feed} onUF=${(uf) => { escolherUF(uf); }} />`}</section>
+            ${turno === 2 ? (feed2?.length ? html`<${Feed} itens=${feed2} lista=${listaPres} onUF=${(uf) => { escolherUF(uf); }} />` : html`<p class="vazio-txt">O feed do 2º turno começa quando o TSE publicar as primeiras seções.</p>`) : html`<${Feed} itens=${feed} lista=${listaPres} onUF=${(uf) => { escolherUF(uf); }} />`}</section>
           <p class="fonte">Dados públicos do <a href="https://resultados.tse.jus.br/oficial/app/index.html" rel="noopener">TSE</a> e malha do IBGE. Não é site oficial da Justiça Eleitoral. <a href="/">Resultado final</a> · <a href="/apuracao/">Histórico</a> · <a href="/#metodo">Método</a> · <a href="https://vitorpereira.ia.br/privacidade">Privacidade</a> · <button type="button" class="link" onClick=${() => window.dispatchEvent(new CustomEvent("consent:reopen"))}>Cookies</button></p>
         </aside>
         <${LinhaDoTempo} serie=${turno === 1 ? serie : serie2} idx=${idx} setIdx=${setIdx} ativa=${linhaAtiva} motivo=${motivoLinha} turno=${turno} vivo=${status.aoVivo ? "ok" : vivo.status === "ok" ? "parado" : vivo.status} />

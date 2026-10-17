@@ -418,7 +418,7 @@ def resumo_hud():
             f'e Lula (PT) {fmt(cL["p"], 2)}% dos votos válidos. Os dois disputam o 2º turno em 25 de outubro de 2026. '
             f'Flávio venceu em {len(ufF)} unidades da federação e Lula em {len(ufL)}.</p>'
             f'<table><caption>Presidente, 1º turno, por estado (% dos votos válidos)</caption><thead><tr><th scope=col>UF</th>'
-            f'<th scope=col>Flávio Bolsonaro</th><th scope=col>Lula</th></tr></thead><tbody>{linhas}</tbody></table>'
+            f'<th scope=col>{rotulo(cF)}</th><th scope=col>{curto(cL)}</th></tr></thead><tbody>{linhas}</tbody></table>'
             f'<p><a href="/">Resultado final completo</a> · <a href="/apuracao/">Apuração leitura a leitura</a></p></section>')
 
 
