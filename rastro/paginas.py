@@ -465,7 +465,8 @@ def html_eleito(eleito, contas, itens, fornecedores, cfg, bases, ids=None, cruz=
                     f"Contratou {ind.brl(desp.get('total_contratado') or 0)}" if desp else "Despesas não declaradas",
                     f"{len(pj)} fornecedor{'es' if len(pj) != 1 else ''}", f"{len(itens)} indicador{'es' if len(itens) != 1 else ''}"]
         resumo = f'<p class="rs-resumo">{" · ".join(partes_r)}</p>'
-        diag = f'<section class="rs-diagrama"><h2>Caminho do dinheiro</h2>{diagramas.diagrama_campanha(contas, fornecedores, itens, ids, f"{nome} · {eleito['uf']}", eleito.get("partido"))}</section>'
+        nome_uf = f"{nome} · {eleito['uf']}"
+        diag = f'<section class="rs-diagrama"><h2>Caminho do dinheiro</h2>{diagramas.diagrama_campanha(contas, fornecedores, itens, ids, nome_uf, eleito.get("partido"))}</section>'
         n_orig = len((rec or {}).get("por_origem") or {})
         rec_h = (f'<details class="rs-det"><summary><b>Receitas por origem</b> · total {ind.brl(rec.get("total") or 0)} · {n_orig} origem(ns)</summary>{tabela_receitas(rec)}</details>'
                  if rec else '<details class="rs-det"><summary><b>Receitas por origem</b></summary><p class="rs-vazio">Receitas ainda não declaradas na base.</p></details>')
