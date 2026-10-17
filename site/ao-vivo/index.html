@@ -359,4 +359,16 @@ svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.8;stroke
 <script type="module" src="/hud/app.js"></script>
 
 
+<style id="consent-css">
+.consent{position:fixed;inset:auto 0 0 0;z-index:60;background:var(--card);color:var(--ink);border-top:1px solid var(--line);box-shadow:0 -6px 24px rgba(0,0,0,.12)}
+.consent .in{max-width:1160px;margin:0 auto;padding:14px 16px;display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.consent p{margin:0;font-size:14px;color:var(--ink2);flex:1 1 320px}
+.consent p a{color:var(--ink)}
+.consent .bt{display:flex;gap:8px}
+.consent button{font:inherit;font-size:14px;font-weight:600;border-radius:8px;padding:8px 16px;cursor:pointer;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.consent button.ok{background:var(--brand);color:var(--bg);border-color:var(--brand)}
+.consent button:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+@media (max-width:520px){.consent .bt{width:100%}.consent button{flex:1}}
+</style>
+<script src="/medicao.js" defer></script>
 </body></html>

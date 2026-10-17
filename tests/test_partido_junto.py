@@ -183,6 +183,15 @@ class HudFontes(unittest.TestCase):
             self.assertEqual(self.sem_sigla(arq.read_text(encoding="utf-8")), [], arq.name)
 
 
+class AoVivoPublicado(unittest.TestCase):
+    """o site/ commitado é o que a Vercel publica: o /ao-vivo/ precisa sair com a moldura de consentimento e medição"""
+
+    def test_moldura_de_medicao(self):
+        html_ = (R / "site" / "ao-vivo" / "index.html").read_text(encoding="utf-8")
+        self.assertIn('<script src="/medicao.js" defer>', html_)
+        self.assertIn('<style id="consent-css">', html_)
+
+
 @unittest.skipUnless(TEM_CHROME, "Chrome headless indisponível")
 class Paginas(unittest.TestCase):
     """pré-renderiza as páginas montadas a partir dos templates e procura blocos sem sigla"""
