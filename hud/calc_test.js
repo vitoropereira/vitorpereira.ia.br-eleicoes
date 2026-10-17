@@ -78,11 +78,13 @@ Deno.test("a. resumo do leitor de tela usa a leitura da UF escolhida durante a l
 });
 
 Deno.test("partido junto: comSigla e cartao", async () => {
-  const { comSigla, cartao } = await import("./calc.js");
+  const { comSigla, cartao, cartaoCurto } = await import("./calc.js");
   const f = PRES[0];
   ok(comSigla(f) === "Flávio Bolsonaro (PL)", comSigla(f));
   ok(comSigla(f, true) === "Flávio (PL)", comSigla(f, true));
-  ok(cartao(f) === "Flávio · PL", cartao(f));
+  ok(cartaoCurto(f) === "Flávio · PL", cartaoCurto(f));
+  ok(cartao({ nome: "Dr. Furlan", sg: "PSD" }) === "Dr. Furlan · PSD", "cartão de lista não corta nome de 2 palavras");
+  ok(cartao({ nome: "Professora Maria do Carmo", sg: "PL" }) === "Professora Maria · PL", "até 2 palavras");
   ok(comSigla({ nome: "PL", sg: "PL" }) === "PL" && cartao({ nome: "PL", sg: "PL" }) === "PL", "nome já é a sigla");
   ok(comSigla({ nome: "Fulano" }) === "Fulano" && cartao({ nome: "Fulano", sg: "" }) === "Fulano", "sem sigla");
 });
@@ -92,6 +94,9 @@ Deno.test("partido junto: textoComSigla acrescenta a sigla do dado em texto pron
   ok(textoComSigla("eleitor de Lula, deputado do lado de Flávio", PRES) === "eleitor de Lula (PT), deputado do lado de Flávio (PL)", "dois nomes");
   ok(textoComSigla("Lula (PT) e Flávio Bolsonaro (PL)", PRES) === "Lula (PT) e Flávio Bolsonaro (PL)", "já tem sigla: intacto");
   ok(textoComSigla("Lulalândia", PRES) === "Lulalândia", "palavra inteira");
+  ok(textoComSigla("50% das seções · Flávio Bolsonaro 51,0% × Lula 49,0%", PRES) === "50% das seções · Flávio Bolsonaro (PL) 51,0% × Lula (PT) 49,0%", "feed do agregador: nome completo");
+  ok(textoComSigla("apoia Flávio (faixa de 90%)", PRES) === "apoia Flávio (PL) (faixa de 90%)", "parêntese que não é sigla");
+  ok(textoComSigla("Flávio Dino e Luiz Inácio Lula da Silva", PRES) === "Flávio Dino e Luiz Inácio Lula da Silva", "outro sobrenome");
 });
 
 Deno.test("partido junto: narração do leitor de tela traz a sigla do dado", () => {

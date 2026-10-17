@@ -1,6 +1,6 @@
 // Painéis do HUD (Preact + htm): esquerdo (manchete, placar, totais, gráfico) e direito (regiões, feed).
 import { html, useState } from "/vendor/preact-htm.module.js";
-import { pct, int, linha, somar, oficial, duelo, senadoEleitos, REGIOES, UF_NOME, UFS, cor, ehDep, comSigla, cartao, textoComSigla, CARGO_NOME } from "./calc.js";
+import { pct, int, linha, somar, oficial, duelo, senadoEleitos, REGIOES, UF_NOME, UFS, cor, ehDep, comSigla, cartao, cartaoCurto, textoComSigla, CARGO_NOME } from "./calc.js";
 
 const CORES_MARCA = new Set(["PL", "PT"]);
 /** nome com a cor do partido: PL/PT usam o token (contraste testado); os demais, sublinhado na cor */
@@ -102,17 +102,17 @@ export function GraficoNoite({ serie, idx, cands }) {
   return html`
     <figure class="grafico">
       <figcaption><span class="kicker">Ao longo da apuração</span>
-        <span class="leg"><i style=${{ "--c": cor(cF.sg) }}></i>${cartao(cF)} <i style=${{ "--c": cor(cL.sg) }}></i>${cartao(cL)}</span></figcaption>
+        <span class="leg"><i style=${{ "--c": cor(cF.sg) }}></i>${cartaoCurto(cF)} <i style=${{ "--c": cor(cL.sg) }}></i>${cartaoCurto(cL)}</span></figcaption>
       <svg viewBox=${`0 0 ${W} ${H}`} role="img" aria-label=${`Trajetória da apuração: ${nF} começou com ${pct(serie[0].f, 1)}% e terminou com ${pct(F.f, 1)}%; ${nL} foi de ${pct(serie[0].l, 1)}% a ${pct(F.l, 1)}%.`}>
         ${ticks.map((v) => html`<line class="gr" x1=${L} x2=${W - R} y1=${y(v)} y2=${y(v)} /><text class="ax" x=${L - 5} y=${y(v) + 3} text-anchor="end">${v}%</text>`)}
         ${[0, 50, 100].map((p) => html`<text class="ax" x=${x(p)} y=${H - 5} text-anchor=${p === 0 ? "start" : p === 100 ? "end" : "middle"}>${p}%${p === 0 ? " das seções" : ""}</text>`)}
         <line class="ref50" x1=${L} x2=${W - R} y1=${y(50)} y2=${y(50)} />
-        <path d=${linhaD("f")} class="ln" style=${{ "--c": cor("PL") }} />
-        <path d=${linhaD("l")} class="ln" style=${{ "--c": cor("PT") }} />
+        <path d=${linhaD("f")} class="ln" style=${{ "--c": cor(cF.sg) }} />
+        <path d=${linhaD("l")} class="ln" style=${{ "--c": cor(cL.sg) }} />
         <line class="cursor-t" x1=${x(atual.pst)} x2=${x(atual.pst)} y1=${T} y2=${H - B} />
         ${serie.map((p) => html`<circle class="pt" cx=${x(p.pst)} cy=${y(p.f)} r="2"><title>${quando(p)} · ${pct(p.pst, 1)}% das seções: ${nF} ${pct(p.f, 2)}%, ${nL} ${pct(p.l, 2)}%</title></circle>`)}
-        <circle cx=${x(atual.pst)} cy=${y(atual.f)} r="3.2" style=${{ fill: cor("PL") }} />
-        <circle cx=${x(atual.pst)} cy=${y(atual.l)} r="3.2" style=${{ fill: cor("PT") }} />
+        <circle cx=${x(atual.pst)} cy=${y(atual.f)} r="3.2" style=${{ fill: cor(cF.sg) }} />
+        <circle cx=${x(atual.pst)} cy=${y(atual.l)} r="3.2" style=${{ fill: cor(cL.sg) }} />
       </svg>
     </figure>`;
 }

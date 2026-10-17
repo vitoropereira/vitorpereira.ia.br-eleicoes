@@ -358,7 +358,7 @@ function App() {
       const r = fonte ? resultadoUF(uf) : null;
       if (!r || !r.lider) return { uf, cor: "var(--neutral)", txt: "", aria: `${UF_NOME[uf]}: sem dados` };
       const txt = ehDep(cargo) ? curta(r.sg) : modo === "apurado" ? `${pct(r.pst ?? pstUF(uf), 0)}%` : `${pct(r.p1 * 100, 0)}%`;
-      return { uf, cor: cor(r.lider.sg), txt, aria: `${UF_NOME[uf]}: ${ehDep(cargo) ? r.sg + " mais votado" : `${r.lider.nome} (${r.lider.sg}) ${pct(r.p1 * 100, 1)}%`}. Aproximar.` };
+      return { uf, cor: cor(r.lider.sg), txt, aria: `${UF_NOME[uf]}: ${ehDep(cargo) ? r.sg + " mais votado" : `${comSigla(r.lider)} ${pct(r.p1 * 100, 1)}%`}. Aproximar.` };
     });
   }, [geo, fonte, resultadoUF, cargo, modo, turno, vivo.dados]);
 
@@ -545,8 +545,8 @@ function App() {
     return html`<table class="sr-only"><caption>${CARGO_NOME[cargo]}, ${turno}º turno: resultado por estado${ponto ? ` às ${ponto.ht}` : ""}</caption>
       <thead><tr><th scope="col">Estado</th><th scope="col">${ehDep(cargo) ? "Partido mais votado" : "1º colocado"}</th><th scope="col">% dos válidos</th><th scope="col">${ehDep(cargo) ? "Candidato mais votado" : "2º colocado"}</th></tr></thead>
       <tbody>${linhas.map(({ uf, r }) => html`<tr><th scope="row">${UF_NOME[uf]}</th>
-        <td>${r.dep ? r.sg : `${r.lider.nome} (${r.lider.sg})`}</td><td>${pct(r.p1 * 100, 1)}%</td>
-        <td>${r.dep ? (r.cands[0] ? `${r.cands[0].nome} (${r.cands[0].sg})` : "–") : r.segundo ? `${comSigla(r.segundo)} ${pct(r.segundo.p * 100, 1)}%` : "–"}</td></tr>`)}</tbody></table>`;
+        <td>${r.dep ? r.sg : comSigla(r.lider)}</td><td>${pct(r.p1 * 100, 1)}%</td>
+        <td>${r.dep ? (r.cands[0] ? comSigla(r.cands[0]) : "–") : r.segundo ? `${comSigla(r.segundo)} ${pct(r.segundo.p * 100, 1)}%` : "–"}</td></tr>`)}</tbody></table>`;
   }, [fonte, meta, cargo, turno, resultadoUF, ponto]);
 
   return html`

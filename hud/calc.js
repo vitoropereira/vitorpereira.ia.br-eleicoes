@@ -66,17 +66,24 @@ export const primeiroNome = (n) => {
 const comPartido = (c) => Boolean(c.sg) && c.sg !== c.nome;
 /** partido junto do nome, em texto corrido: "Flávio Bolsonaro (PL)"; `curto` usa só o 1º nome. Sem duplicar quando o nome já é a sigla. */
 export const comSigla = (c, curto) => {
-  const n = curto ? String(c.nome).split(" ")[0] : c.nome;
+  const n = curto ? umNome(c.nome) : c.nome;
   return comPartido(c) ? `${n} (${c.sg})` : n;
 };
-/** texto pronto de outra fonte (títulos de /analise/dados/destaques.json): "Lula" vira "Lula (PT)" e "Flávio" vira "Flávio (PL)",
- *  com a sigla do dado (`lista`). Quem já vem com a sigla ou com o sobrenome fica como está; os dados publicados não mudam. */
+/** texto pronto de outra fonte (títulos de /analise/dados/destaques.json, feed do agregador): "Lula" vira "Lula (PT)",
+ *  "Flávio" e "Flávio Bolsonaro" ganham "(PL)", com a sigla do dado (`lista`). Quem já vem com a sigla fica como está;
+ *  outro sobrenome ("Flávio Dino") e parêntese que não é sigla ("Flávio (faixa…") não contam. Os dados publicados não mudam. */
 export function textoComSigla(txt, lista) {
   const { F, L } = duelo(lista), sg = { Flávio: F.sg, Lula: L.sg };
-  return String(txt ?? "").replace(/(?<![\p{L}\d])(Flávio|Lula)(?![\p{L}\d]| \p{Lu}| da Silva| \()/gu, (_, n) => `${n} (${sg[n]})`);
+  return String(txt ?? "").replace(
+    /(?<![\p{L}\d])(Flávio(?: Bolsonaro)?|Lula)(?![\p{L}\d]| \p{Lu}| da Silva| \(\p{Lu}[\p{Lu}\d]*\))/gu,
+    (m) => `${m} (${sg[m.split(" ")[0]]})`,
+  );
 }
-/** partido junto do nome, em cartão, legenda e dica: "Flávio · PL" */
-export const cartao = (c) => (comPartido(c) ? `${String(c.nome).split(" ")[0]} · ${c.sg}` : c.nome);
+const umNome = (n) => String(n).split(" ")[0];
+/** partido junto do nome, em cartão, legenda e dica: "Dr. Furlan · PSD" (`nomeDe` encurta o nome; padrão: até 2 palavras) */
+export const cartao = (c, nomeDe = primeiroNome) => (comPartido(c) ? `${nomeDe(c.nome)} · ${c.sg}` : c.nome);
+/** legenda do duelo: só o 1º nome, "Flávio · PL" */
+export const cartaoCurto = (c) => cartao(c, umNome);
 
 const CURTA = { REPUBLICANOS: "REPUB", SOLIDARIEDADE: "SD", CIDADANIA: "CID", DEMOCRATA: "DEM", MOBILIZA: "MOB" };
 /** sigla curta para rótulos no mapa */
