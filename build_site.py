@@ -661,6 +661,18 @@ h1{{font:600 60px/1.05 "JetBrains Mono",monospace;margin:14px 0 0;letter-spacing
 <div class="f"><span>{html.escape(rodape_txt)}</span><b>vitor pereira<i></i></b></div></div></body></html>"""
 
 
+def rastro_envolver(publicado, modificado, moldura=True):
+    """Devolve `envolver(página) -> html` do Rastro: moldura do site (montar_pagina) + medição."""
+    def envolver(p):
+        ld =[{"@context": "https://schema.org", "@type": "WebPage", "name": p["titulo"], "description": p["desc"], "url": BASE + p["path"],
+               "inLanguage": "pt-BR", "author": PESSOA, "dateModified": modificado},
+              {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+                  {"@type": "ListItem", "position": i, "name": n, "item": BASE + (h or p["path"])}
+                  for i, (n, h) in enumerate([("Início", "/")] + p["crumbs"], 1)]}]
+        return com_medicao(montar_pagina(p["html"], p["titulo"], p["desc"], p["path"], "/og/index.png", ld, publicado, modificado, "/rastro/", moldura=moldura))
+    return envolver
+
+
 def rastro_publicar(dest, publicado, modificado, moldura=True):
     """Rastro do dinheiro: metodologia e uma página por sq de rastro/publicados.json, em dest/rastro/. HTML estático, sem
     pré-render; só a moldura do site, a medição, o filtro da tabela (rastro.js) e a busca (busca.js e busca.json, opcionais).
@@ -670,14 +682,7 @@ def rastro_publicar(dest, publicado, modificado, moldura=True):
     shutil.copyfile(R / "rastro" / "rastro.js", Path(dest) / "rastro" / "rastro.js")
     lj = lambda p: json.loads(p.read_text(encoding="utf-8")) if p.exists() else None
     dados = R / "rastro" / "dados"
-
-    def envolver(p):
-        ld =[{"@context": "https://schema.org", "@type": "WebPage", "name": p["titulo"], "description": p["desc"], "url": BASE + p["path"],
-               "inLanguage": "pt-BR", "author": PESSOA, "dateModified": modificado},
-              {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-                  {"@type": "ListItem", "position": i, "name": n, "item": BASE + (h or p["path"])}
-                  for i, (n, h) in enumerate([("Início", "/")] + p["crumbs"], 1)]}]
-        return com_medicao(montar_pagina(p["html"], p["titulo"], p["desc"], p["path"], "/og/index.png", ld, publicado, modificado, "/rastro/", moldura=moldura))
+    envolver = rastro_envolver(publicado, modificado, moldura)
 
     publicados = lj(R / "rastro" / "publicados.json") or []
     forn = lj(dados / "fornecedores.json")

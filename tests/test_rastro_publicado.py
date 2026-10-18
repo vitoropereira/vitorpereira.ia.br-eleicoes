@@ -32,6 +32,25 @@ def problemas(texto):
     return out + ([f"termo {m.group()!r}"] if m else [])
 
 
+def scripts_fora(html):
+    """<script src> que não está em SCRIPTS_PERMITIDOS (isolamento)."""
+    return set(RE_SCRIPT_SRC.findall(html)) - SCRIPTS_PERMITIDOS
+
+
+def faltas_pagina_eleito(html):
+    """Blocos obrigatórios da página do eleito que não aparecem no HTML."""
+    out = []
+    if pg.AVISO not in html:
+        out.append("aviso")
+    if not re.search(r'class="rs-base">Base de dados: [^<]*\d{2}/\d{2}/\d{4}', html):
+        out.append("rs-base")
+    if 'href="/rastro/metodologia/"' not in html:
+        out.append("link da metodologia")
+    if '<section id="contestar">' not in html:
+        out.append("seção contestar")
+    return out
+
+
 def caminhos_publicados():
     por_sq = {str(e["sq"]): e for e in ELEITOS["eleitos"]}
     cam = pg.caminhos([por_sq[str(s)] for s in PUB])
@@ -58,10 +77,7 @@ class TestPaginasPublicadas(unittest.TestCase):
             arq = SITE / cam / "index.html"
             self.assertTrue(arq.exists(), f"{sq}: {arq.relative_to(RAIZ)} não existe")
             h = arq.read_text(encoding="utf-8")
-            self.assertIn(pg.AVISO, h, sq)
-            self.assertRegex(h, r'class="rs-base">Base de dados: [^<]*\d{2}/\d{2}/\d{4}', sq)
-            self.assertIn('href="/rastro/metodologia/"', h, sq)
-            self.assertIn('<section id="contestar">', h, sq)
+            self.assertEqual(faltas_pagina_eleito(h), [], sq)
 
     def test_home_linka_exatamente_os_publicados(self):
         h = (SITE / "rastro" / "index.html").read_text(encoding="utf-8")
@@ -80,8 +96,7 @@ class TestPaginasPublicadas(unittest.TestCase):
 
     def test_isolamento_sem_script_externo(self):
         for p, h in self.paginas.items():
-            fora = set(RE_SCRIPT_SRC.findall(h)) - SCRIPTS_PERMITIDOS
-            self.assertEqual(fora, set(), p.relative_to(RAIZ))
+            self.assertEqual(scripts_fora(h), set(), p.relative_to(RAIZ))
 
 
 def cnpjs_mei():
