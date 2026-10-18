@@ -1,4 +1,4 @@
-import sys, unittest
+import re, sys, unittest
 from pathlib import Path
 
 R = Path(__file__).resolve().parent.parent
@@ -24,6 +24,22 @@ class Moldura(unittest.TestCase):
         self.assertIn('<a href="/rastro/" aria-current=page>Rastro do dinheiro</a>', s)
         self.assertNotIn("aria-current", B.sitebar("/").replace('<a href="/" aria-current=page>', ""))
         self.assertIn('<a href="/rastro/">Rastro do dinheiro</a>', B.sitebar("/"))
+
+    def test_contador_ao_vivo_no_cabecalho(self):
+        s = B.sitebar("/rastro/")
+        m = re.search(r'<a class="agora" href="/ao-vivo/" (.*?) hidden>', s)
+        self.assertIsNotNone(m, "contador precisa nascer escondido (o pré-render não conta ninguém)")
+        cfg = dict(re.findall(r'data-(\w+)="([^"]*)"', m.group(1)))
+        self.assertEqual(cfg, B.HUD_PRESENCE)  # mesmo canal do HUD: o número é o total do site
+        self.assertTrue(cfg["key"].startswith("sb_publishable_"))
+        self.assertIn('<script type="module" src="/hud/topo-pessoas.js"></script>', s)
+        self.assertTrue((R / "hud" / "topo-pessoas.js").exists())
+
+    def test_contador_ao_vivo_na_analise(self):
+        # a Análise tem topo próprio (moldura=False): o contador entra pelo marcador do template
+        h = B.html_analise({}, "2026-10-18T00:00:00-03:00", "2026-10-18T00:00:00-03:00")
+        self.assertNotIn("<!--__AGORA__-->", h)
+        self.assertEqual(h.count('<a class="agora" href="/ao-vivo/"'), 1)
 
     def test_foco_usa_brand(self):
         self.assertNotIn("var(--flavio)", B.SITE_CSS + B.MEDICAO_CSS + B.MEDICAO_JS)
