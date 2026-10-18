@@ -17,7 +17,8 @@ RE_HREF_FORN = re.compile(r'href="/rastro/fornecedor/([^"/]+)/"')
 RE_SCRIPT_SRC = re.compile(r'<script[^>]*\ssrc="([^"]+)"', re.I)
 SCRIPTS_PERMITIDOS = {"/medicao.js",  # moldura de medição do site (consentimento antes de GA4/Clarity)
                       "/rastro/rastro.js",  # filtro "Só com indício" da tabela de fornecedores
-                      "/rastro/busca.js"}  # busca do Rastro
+                      "/rastro/busca.js",  # busca do Rastro
+                      "/hud/topo-pessoas.js"}  # "pessoas no site agora" do cabeçalho: só presença (id aleatório), não lê a página
 
 
 def cpfs(texto):
