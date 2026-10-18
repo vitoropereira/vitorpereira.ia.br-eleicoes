@@ -132,6 +132,15 @@ nav.crumbs{display:block;margin:14px auto 0}
 nav.crumbs a{border:0;padding:0;background:none;font-size:13px}
 .sitebar nav.top a{font-size:13.5px;color:var(--ink2);padding:5px 10px;border-radius:8px}
 .sitebar nav.top a[aria-current=page],.sitebar nav.top a:hover{background:var(--soft,var(--line));color:var(--ink)}
+a.agora{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;color:var(--ink2);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:3px 10px;white-space:nowrap}
+a.agora[hidden]{display:none}
+a.agora:hover{color:var(--ink);border-color:var(--live)}
+a.agora svg{width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:2}
+a.agora b{font-family:var(--font-mono);color:var(--ink);font-variant-numeric:tabular-nums}
+a.agora .pulso{width:7px;height:7px;border-radius:50%;background:var(--live);box-shadow:0 0 0 0 color-mix(in srgb,var(--live) 60%,transparent);animation:pulso 2s infinite}
+@keyframes pulso{70%{box-shadow:0 0 0 6px transparent}100%{box-shadow:0 0 0 0 transparent}}
+@media (prefers-reduced-motion:reduce){a.agora .pulso{animation:none}}
+@media (max-width:900px){.sitebar a.agora{order:1;margin-left:auto}.sitebar nav.top{order:2;margin-left:0}}
 .crumbs{max-width:1160px;margin:14px auto 0;padding:0 16px;font-size:13px;color:var(--ink2)}
 .crumbs a{color:var(--ink2)}
 .banner{max-width:1160px;margin:14px auto 0;padding:0 16px}
@@ -239,7 +248,17 @@ def sitebar(atual):
             f'<a class="brand" href="/" aria-label="Eleições 2026, por Vitor Pereira">'
             f'<span class="wm">vitor<span class="dim">pereira</span><span class="cursor" aria-hidden="true"></span></span>'
             f'<span class="sep" aria-hidden="true">/</span><span>eleições 2026</span></a>'
-            f'<nav class="top" aria-label="Principal">{nav}</nav></div></header>')
+            f'<nav class="top" aria-label="Principal">{nav}</nav>{agora_topo()}</div></header>')
+
+
+def agora_topo():
+    """contador "pessoas no site agora" (hud/topo-pessoas.js), no mesmo canal de presença do HUD. Nasce escondido: só
+    aparece quando o Realtime responde (o pré-render headless não conecta, então o HTML publicado sai sem número)."""
+    d = " ".join(f'data-{k}="{html.escape(v, quote=True)}"' for k, v in HUD_PRESENCE.items())
+    return (f'<a class="agora" href="/ao-vivo/" {d} hidden><span class="pulso" aria-hidden="true"></span>'
+            f'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/>'
+            f'<circle cx="12" cy="12" r="3"/></svg><b></b></a>'
+            f'<script type="module" src="/hud/topo-pessoas.js"></script>')
 
 
 # rodapé pessoal: mesmo do vitorpereira.ia.br (components/layout/Footer.tsx + SocialLinks + brand/SocialIcons)
@@ -520,7 +539,7 @@ def ld_analise(dados, publicado=None, modificado=None):
 
 
 def html_analise(dados, publicado, modificado):
-    raw = brand.aplicar((R / "template_analise.html").read_text()).replace("<!--__RODAPE__-->", rodape(), 1)
+    raw = brand.aplicar((R / "template_analise.html").read_text()).replace("<!--__RODAPE__-->", rodape(), 1).replace("<!--__AGORA__-->", agora_topo(), 1)
     og = "/og/analise-destaques.png" if dados else "/og/index.png"
     return montar_pagina(raw, ANALISE_TITULO, ANALISE_DESC, "/analise/", og, ld_analise(dados, publicado, modificado), publicado, modificado, "/analise/", moldura=False)
 
