@@ -1067,5 +1067,106 @@ class TestRedacaoNova(unittest.TestCase):
             pg.varrer("x", "houve irregularidade grave")
 
 
+PRES = json.loads((RAIZ / "rastro" / "presidentes.json").read_text(encoding="utf-8"))
+LULA, FLAVIO = "/rastro/presidente/br/lula/", "/rastro/presidente/br/flavio-bolsonaro/"
+
+
+def debates_band():
+    from debates import pagina as dp
+    return dp.listar(RAIZ / "debates")
+
+
+class TestPresidente(unittest.TestCase):
+    def gerar_pres(self, d, contas_lula=None, **kw):
+        """Gera com os presidentes do repo; contas_lula: sq de uma conta da fixture copiada como a do Lula."""
+        dir_c = Path(d) / "contas"
+        dir_c.mkdir()
+        for p in (FIX / "contas").glob("*.json"):
+            (dir_c / p.name).write_bytes(p.read_bytes())
+        if contas_lula:
+            (dir_c / "280002542548.json").write_bytes((FIX / "contas" / f"{contas_lula}.json").read_bytes())
+        return {p["path"]: p["html"] for p in gerar(Path(d) / "out", dir_contas=dir_c, presidentes=PRES, **kw)}
+
+    def test_paginas_sem_contas(self):
+        with tempfile.TemporaryDirectory() as d:
+            pags = self.gerar_pres(d)
+            self.assertTrue((Path(d) / "out" / LULA.strip("/") / "index.html").exists())
+        for path in (LULA, FLAVIO):
+            h = pags[path]
+            self.assertIn("candidato(a) ao 2º turno", h)
+            self.assertNotIn("eleito(a) 2026", h)
+            self.assertIn(pg.AVISO, h)
+            self.assertIn('class="rs-base">Base de dados:', h)
+            self.assertIn('href="/rastro/metodologia/"', h)
+            self.assertIn('<section id="contestar">', h)
+            self.assertIn(pg.SEM_PRESTACAO, h)
+            self.assertNotIn("R$ 0", texto(h))
+            self.assertNotIn('id="debates"', h)  # sem debates passados
+
+    def test_fora_da_fila_e_da_home_dos_eleitos(self):
+        with tempfile.TemporaryDirectory() as d:
+            h = self.gerar_pres(d)["/rastro/"]
+        self.assertIn('<h2 id="presidente">Presidente · 2º turno</h2>', h)
+        self.assertIn(f'href="{LULA}"', h)
+        self.assertIn(f'href="{FLAVIO}"', h)
+        pend = h[h.index('id="pendentes"'):] if 'id="pendentes"' in h else ""
+        self.assertNotIn("Lula", pend)
+        eleitos = h[h.index('id="eleitos"'):]
+        self.assertNotIn(LULA, eleitos)
+
+    def test_com_contas_fornecedor_linka_de_volta(self):
+        with tempfile.TemporaryDirectory() as d:
+            pags = self.gerar_pres(d, contas_lula="2001")
+        h = pags[LULA]
+        self.assertNotIn(pg.SEM_PRESTACAO, h)
+        self.assertIn(f'href="/rastro/fornecedor/{ID_PJ}/"', h)
+        self.assertIn(f'href="{LULA}"', pags[f"/rastro/fornecedor/{ID_PJ}/"])
+
+    def test_presidente_fora_dos_maiores_fornecedores_da_home(self):
+        with tempfile.TemporaryDirectory() as d:
+            sem = self.gerar_pres(d)["/rastro/"]
+        with tempfile.TemporaryDirectory() as d:
+            com = self.gerar_pres(d, contas_lula="2001")["/rastro/"]
+        trecho = lambda h: h[h.index("Maiores fornecedores"):h.index('id="eleitos"')]
+        self.assertEqual(trecho(com), trecho(sem))
+
+    def test_nos_debates(self):
+        from debates import pagina as dp
+        modelos = debates_band()
+        pc = dp.placar_por_candidato(modelos)
+        with tempfile.TemporaryDirectory() as d:
+            pags = self.gerar_pres(d, debates=modelos)
+        for sq, path in (("280002542548", LULA), ("280002551544", FLAVIO)):
+            h = pags[path]
+            sec = h[h.index('<section id="debates"'):h.index('<footer class="rs-rodape">')]
+            self.assertIn('class="db-pc" style="--c:var(--', sec)
+            self.assertIn("<details", sec)
+            conta = pc[sq]["conta"]
+            self.assertIn(f"<li><span>Total</span><span>{sum(conta.values())}</span></li>", sec)
+            for v, n in conta.items():
+                self.assertIn(f"<li><span>{dp.ROTULOS[v]}</span><span>{n} ({dp.pct(n, sum(conta.values()))}%)</span></li>", sec)
+            links = re.findall(r'href="(/debates/2026/presidente-2-turno-band/[^"]+/)"', sec)
+            self.assertEqual(len(links), sum(conta.values()))
+
+    def test_sem_id_tse_casando_sem_secao(self):
+        outros = [dict(p, sq=p["sq"] + "0") for p in PRES]
+        with tempfile.TemporaryDirectory() as d:
+            pags = {p["path"]: p["html"] for p in gerar(d, presidentes=outros, debates=debates_band())}
+        self.assertFalse(any('id="debates"' in h for h in pags.values()))
+
+    def test_pagina_varrida(self):
+        ruim = [dict(PRES[0], nome_urna="Lula laranja")]
+        with tempfile.TemporaryDirectory() as d:
+            with self.assertRaises(ValueError):
+                gerar(d, presidentes=ruim)
+            self.assertEqual(list(Path(d).rglob("*.html")), [])
+
+    def test_metodologia(self):
+        with tempfile.TemporaryDirectory() as d:
+            h = texto(self.gerar_pres(d)["/rastro/metodologia/"])
+        self.assertIn("presidente", h)
+        self.assertIn("nos debates", h)
+
+
 if __name__ == "__main__":
     unittest.main()

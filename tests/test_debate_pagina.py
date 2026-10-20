@@ -205,6 +205,35 @@ class Indice(unittest.TestCase):
         self.assertLess(h.index("/debates/2030/governador-1-turno-fict/"), h.index("/debates/2026/presidente-2-turno-teste/"))
         self.assertNotRegex(h, PROIBIDAS)
 
+    def test_link_do_rastro_so_no_bloco_de_quem_tem_pagina(self):
+        gs = [dp.gerar(m, B.BASE, B.PESSOA) for m in dp.listar(REAL.parent.parent)]
+        idx = dp.indice(gs, B.BASE, B.PESSOA, links={"280002542548": "/rastro/presidente/br/lula/"})
+        blocos = re.findall(r'<div class="db-pc"[^>]*><h3>(.*?)</h3>', idx["html"])
+        self.assertIn('<a href="/rastro/presidente/br/lula/">Lula (PT)</a>', blocos)
+        self.assertIn("Flávio Bolsonaro (PL)", blocos)
+        self.assertEqual(idx["html"].count("/rastro/"), 1)
+        sem = dp.indice(gs, B.BASE, B.PESSOA)
+        self.assertNotIn("/rastro/", sem["html"])
+
+
+class PlacarPorCandidato(unittest.TestCase):
+    def test_band_bate_com_checagens(self):
+        pc = dp.placar_por_candidato(dp.listar(REAL.parent.parent))
+        itens = {i["id"]: i for i in json_de(REAL, "afirmacoes.json") if i["autoria"] == "certa"}
+        chs = [c for c in json_de(REAL, "checagens.json") if c["id"] in itens]
+        quem = {c["id"]: c["id_tse"] for c in json_de(REAL, "debate.json")["candidatos"]}
+        self.assertEqual(set(pc), {"280002542548", "280002551544"})  # mediação fora
+        for q, sq in quem.items():
+            direto = Counter(c["veredito"] for c in chs if itens[c["id"]]["quem"] == q)
+            self.assertEqual(pc[sq]["conta"], dict(direto), q)
+            (d,) = pc[sq]["debates"]
+            self.assertEqual((d["rotulo"], d["path"]), ("Debate Band 2º turno 2026", "/debates/2026/presidente-2-turno-band/"))
+            self.assertEqual(sorted(a["path"] for a in d["afirmacoes"]),
+                             sorted(f"{d['path']}{c['id']}/" for c in chs if itens[c["id"]]["quem"] == q))
+
+    def test_sem_id_tse_fica_de_fora(self):
+        self.assertEqual(dp.placar_por_candidato(dp.listar(FIXTURE)), {})
+
 
 class Publicar(unittest.TestCase):
     def test_segundo_debate_sem_codigo_novo(self):

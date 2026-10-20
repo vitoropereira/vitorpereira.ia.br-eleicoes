@@ -21,6 +21,18 @@ def indice(d, **kw):
     return pags, json.loads((Path(d) / "rastro" / "busca.json").read_text(encoding="utf-8"))["itens"]
 
 
+class TestIndicePresidentes(unittest.TestCase):
+    def test_presidentes_com_rota_e_publicados(self):
+        pres = json.loads((RAIZ / "rastro" / "presidentes.json").read_text(encoding="utf-8"))
+        with tempfile.TemporaryDirectory() as d:
+            _, itens = indice(d, presidentes=pres)
+        por_nome = {i["n"]: i for i in itens if i["t"] == "e"}
+        self.assertEqual(por_nome["Lula"]["u"], "/rastro/presidente/br/lula/")
+        self.assertEqual(por_nome["Flávio Bolsonaro"]["u"], "/rastro/presidente/br/flavio-bolsonaro/")
+        self.assertEqual((por_nome["Lula"]["p"], por_nome["Flávio Bolsonaro"]["p"]), (1, 1))
+        self.assertTrue(por_nome["Lula"]["c"].startswith("Presidente · BR · PT"))
+
+
 class TestIndice(unittest.TestCase):
     def setUp(self):
         with tempfile.TemporaryDirectory() as d:

@@ -133,6 +133,19 @@ Nunca toda a base: fornecedor de eleito não publicado não gera página.
   indicadores (desc.), e grava os `lote_tamanho` (20) primeiros em `publicados.json`. Sem `dados/fornecedores.json` ou
   `dados/indicadores.json` ele não grava nada. A fila e os lotes diários (Issue 9b) podem substituí-lo.
 
+## Presidente (2º turno) e "nos debates"
+
+- `presidentes.json` é a lista editorial dos candidatos do 2º turno (`sq`, `nome_urna`, `partido`, `uf: "BR"`,
+  `cargo: "presidente"`). Eles ganham página em `/rastro/presidente/br/<slug>/` sem passar por `eleitos.json`, pela fila
+  ou pelo `lote1`, e ficam fora dos totais, da rede entre eleitos e da lista de eleitos da home (têm bloco próprio).
+- A seção "nos debates" soma os vereditos de `debates/**/checagens.json` pelo `id_tse` de `debate.json`, que tem de ser o
+  `sq`. O link de cada afirmação leva o horário e o tema, não a frase (a fala pode citar termo que o Rastro não usa).
+- Para a página sair completa (receitas, despesas, fornecedores e indicadores), rodar na VPS, **antes de 23/10**:
+  `python3 rastro/contas.py` (grava `dados/contas/<sq>.json` também dos presidentes), depois `python3 rastro/cnpj.py --baixar`
+  (os fornecedores deles ainda não estão em `fornecedores.json`), depois `python3 rastro/indicadores.py`, e commitar
+  `rastro/dados/`. A trava de data dos scripts continua valendo. Sem as contas, a página mostra "sem prestação parcial".
+- `site/rastro/` só é regenerado com o `rastro/.sal` (o id dos MEIs depende dele): `python3 build_site.py` na VPS.
+
 ## Eleições anteriores (`anteriores.py`)
 
 Cruza os fornecedores PJ de 2026 (`dados/base/agregados.json`) com as despesas **contratadas** das campanhas de 2022 (geral) e

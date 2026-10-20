@@ -95,6 +95,31 @@ class TestLimpar(unittest.TestCase):
         self.assertFalse(contas.cpf_valido("11111111111"))
 
 
+class TestGerarPresidentes(unittest.TestCase):
+    def test_presidente_fora_de_eleitos_ganha_contas(self):
+        pres = [{"sq": "1022", "nome_urna": "CANDIDATO PRESIDENTE", "partido": "PX", "uf": "BR", "cargo": "presidente"},
+                {"sq": "9999", "nome_urna": "SEM CONTAS", "partido": "PY", "uf": "BR", "cargo": "presidente"}]
+        with tempfile.TemporaryDirectory() as td:
+            t = Path(td)
+            contas.gerar(montar_zip(t), FIX / "eleitos.json", RELATORIO, ["ac"], "sal", t / "contas", t / "agr.json", t / "h.json",
+                         presidentes=pres)
+            c = json.loads((t / "contas" / "1022.json").read_text(encoding="utf-8"))
+            sem = json.loads((t / "contas" / "9999.json").read_text(encoding="utf-8"))
+            self.assertEqual({p.stem for p in (t / "contas").glob("*.json")}, {"1021", "1023", "1031", "1022", "9999"})
+        self.assertEqual((c["cargo"], c["uf"], c["nome_urna"]), ("presidente", "BR", "CANDIDATO PRESIDENTE"))
+        self.assertTrue(c["prestacao_parcial"])
+        self.assertEqual(c["despesas"]["fornecedores_pj"][0]["cnpj"], "11222333000181")
+        self.assertFalse(sem["prestacao_parcial"])
+
+    def test_cargo_presidente(self):
+        self.assertEqual(contas.CARGO_DS["presidente"], "presidente")
+
+    def test_lista_do_repo(self):
+        pres = json.loads(contas.PRESIDENTES.read_text(encoding="utf-8"))
+        self.assertEqual({p["sq"] for p in pres}, {"280002542548", "280002551544"})
+        self.assertTrue(all(p["cargo"] == "presidente" and p["uf"] == "BR" for p in pres))
+
+
 class TestGerar(unittest.TestCase):
     @classmethod
     def setUpClass(cls):

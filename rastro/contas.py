@@ -33,7 +33,8 @@ SAIDA_HASH = BRUTOS / "doadores_hash.json"
 SAIDA_PF = BRUTOS / "pf_por_campanha.json"
 SAL = AQUI / ".sal"
 
-CARGO_DS = {"governador": "governador", "senador": "senador", "deputado federal": "depfed",
+PRESIDENTES = AQUI / "presidentes.json"
+CARGO_DS = {"presidente": "presidente", "governador": "governador", "senador": "senador", "deputado federal": "depfed",
             "deputado estadual": "depest", "deputado distrital": "distrital"}
 RE_VALOR = re.compile(r"-?(\d{1,3}(\.\d{3})+|\d+)(,\d+)?")
 RE_CPF = re.compile(r"(?<!\d)\d{3}\.?\d{3}\.?\d{3}-?\d{2}(?!\d)")
@@ -322,14 +323,15 @@ def gravar(caminho, obj):
     caminho.write_text(json.dumps(obj, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
 
-def gerar(zip_path, eleitos_path, dados_dir, ufs, sal, saida_contas, saida_agregados, saida_hash, saida_pf=None):
-    """Roda tudo e grava as saídas (a de hashes de PF só se saida_pf vier). Devolve o contador de linhas inválidas por arquivo."""
+def gerar(zip_path, eleitos_path, dados_dir, ufs, sal, saida_contas, saida_agregados, saida_hash, saida_pf=None, presidentes=None):
+    """Roda tudo e grava as saídas (a de hashes de PF só se saida_pf vier). Devolve o contador de linhas inválidas por arquivo.
+    presidentes: [{sq, nome_urna, partido, uf, cargo}] de rastro/presidentes.json; ganham contas/<sq>.json como os eleitos."""
     invalidas = Counter()
     cands, pessoas, data_base = acumular(zip_path, invalidas)
     meta = {"fonte": [URL_CONTAS], "data_base": data_base,
             "gerado_em": datetime.now(timezone.utc).isoformat(timespec="seconds")}
     eleitos = json.loads(Path(eleitos_path).read_text(encoding="utf-8"))["eleitos"]
-    for e in eleitos:
+    for e in eleitos + [dict(p, sq=str(p["sq"])) for p in presidentes or []]:
         gravar(Path(saida_contas) / f"{e['sq']}.json", contas_json(e, cands.get(e["sq"]), meta))
     votos, eleitorado = ler_votos(dados_dir, ufs)
     gravar(saida_agregados, agregados_json(cands, votos, eleitorado, meta))
@@ -341,7 +343,9 @@ def gerar(zip_path, eleitos_path, dados_dir, ufs, sal, saida_contas, saida_agreg
 
 def main():
     logging.basicConfig(level=logging.WARNING, format="%(message)s")
-    invalidas = gerar(ZIP_CONTAS, ELEITOS, DADOS, UFS, carregar_sal(), SAIDA_CONTAS, SAIDA_AGREGADOS, SAIDA_HASH, SAIDA_PF)
+    presidentes = json.loads(PRESIDENTES.read_text(encoding="utf-8")) if PRESIDENTES.exists() else []
+    invalidas = gerar(ZIP_CONTAS, ELEITOS, DADOS, UFS, carregar_sal(), SAIDA_CONTAS, SAIDA_AGREGADOS, SAIDA_HASH, SAIDA_PF,
+                      presidentes)
     n = len(list(SAIDA_CONTAS.glob("*.json")))
     print(f"{n} contas em {SAIDA_CONTAS}; agregados em {SAIDA_AGREGADOS}")
     for arq in ("receitas_candidatos", "despesas_contratadas_candidatos", "despesas_pagas_candidatos",
