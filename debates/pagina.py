@@ -8,7 +8,7 @@ import html
 import json
 import re
 import unicodedata
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 
 import brand
@@ -55,9 +55,16 @@ def validar(afs, chs):
     deb = afs.get("debate") or {}
     _exigir(deb, ["emissora", "data", "turno", "candidatos"], "afirmacoes.json/debate")
     date.fromisoformat(deb["data"])
+    if not isinstance(deb["turno"], int) or isinstance(deb["turno"], bool):
+        raise ValueError(f"afirmacoes.json/debate: turno {deb['turno']!r} precisa ser número inteiro (vai na rota)")
+    for k in ("publicado", "atualizado"):
+        if chs.get(k):
+            datetime.fromisoformat(chs[k])
     cands = {}
     for c in deb["candidatos"]:
         _exigir(c, ["id", "nome", "partido", "cor"], f"candidato {c.get('id')!r}")
+        if c["id"] in cands:
+            raise ValueError(f"candidato {c['id']!r}: repetido")
         if c["cor"] not in CORES:
             raise ValueError(f"candidato {c['id']!r}: cor {c['cor']!r} não é cor de partido ({', '.join(sorted(CORES))})")
         cands[c["id"]] = c
@@ -68,6 +75,8 @@ def validar(afs, chs):
             raise ValueError(f"afirmação {a['id']!r}: id precisa ser [a-z0-9-] (vira âncora)")
         if a["candidato"] not in cands:
             raise ValueError(f"afirmação {a['id']!r}: candidato {a['candidato']!r} não está em debate.candidatos")
+        if a["id"] in por_id:
+            raise ValueError(f"afirmação {a['id']!r}: repetida (vira âncora)")
         por_id[a["id"]] = a
     if not chs.get("checagens"):
         raise ValueError("checagens.json: lista 'checagens' vazia")
@@ -184,13 +193,14 @@ def gerar(afs, chs, base, autor):
     for c in checagens:
         tema = por_id[c["id"]]["tema"]
         grupos.setdefault(slug(tema), (tema, []))[1].append(c)
-    ordem = sorted(grupos, key=lambda s: (_rank_tema(s), list(grupos).index(s)))
+    ordem = sorted(grupos, key=_rank_tema)  # sort estável: dentro do mesmo rank, a ordem de chegada
     temas = "".join(f'<section class="db-tema" id="tema-{s}"><h2>{esc(grupos[s][0])}</h2>'
                     f'<div class="db-lista">{"".join(cartao(c) for c in grupos[s][1])}</div></section>' for s in ordem)
 
     metodo = f'<p>{esc(chs["metodo"])}</p>' if chs.get("metodo") else ""
-    transc = (f'<p><a href="{attr(deb["transcricao"])}" rel="noopener">Transcrição integral do debate</a></p>'
-              if re.match(r"^https?://", deb.get("transcricao") or "") else "")
+    transcricao = deb["transcricao"] if re.match(r"^https?://", deb.get("transcricao") or "") else None
+    transc = (f'<p><a href="{attr(transcricao)}" rel="noopener">Transcrição integral do debate</a></p>'
+              if transcricao else "")
     como = f'<section aria-labelledby="metodo"><h2 id="metodo">Como checamos</h2>{metodo}{transc}</section>' if metodo or transc else ""
 
     corpo = (f'<nav class="db-crumbs" aria-label="Trilha"><a href="/">Início</a> › Debate {esc(emissora)} ({turno}º turno)</nav>'
@@ -208,7 +218,7 @@ def gerar(afs, chs, base, autor):
               f'<body><main id="conteudo" class="db">{corpo}</main></body></html>')
 
     og = f"debate-{slug(emissora)}"
-    aparicao = {"@type": "CreativeWork", "name": f"Debate da {emissora}, {dia}", "url": deb.get("transcricao") or url}
+    aparicao = {"@type": "CreativeWork", "name": f"Debate da {emissora}, {dia}", "url": transcricao or url}
     ld = [{"@context": "https://schema.org", "@type": "ClaimReview", "url": f"{url}#{c['id']}",
            "claimReviewed": por_id[c["id"]]["trecho"], "datePublished": publicado, "author": autor, "inLanguage": "pt-BR",
            "itemReviewed": {"@type": "Claim", "author": {"@type": "Person", "name": cands[por_id[c["id"]]["candidato"]]["nome"]},

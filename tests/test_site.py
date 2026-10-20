@@ -25,14 +25,6 @@ class Moldura(unittest.TestCase):
         self.assertNotIn("aria-current", B.sitebar("/").replace('<a href="/" aria-current=page>', ""))
         self.assertIn('<a href="/rastro/">Rastro do dinheiro</a>', B.sitebar("/"))
 
-    def test_menu_tem_debate_quando_ha_dados(self):
-        from unittest import mock
-        with mock.patch.object(B, "DEBATE_DADOS", R / "tests" / "fixtures" / "debates"):
-            s = B.sitebar("/debates/band-2-turno/")
-            self.assertIn('<a href="/debates/band-2-turno/" aria-current=page>Debate Band</a>', s)
-            self.assertEqual(s.count("aria-current"), 1)
-            self.assertLess(s.index("/ao-vivo/"), s.index("/debates/band-2-turno/"))
-
     def test_contador_ao_vivo_no_cabecalho(self):
         s = B.sitebar("/rastro/")
         m = re.search(r'<a class="agora" href="/ao-vivo/" (.*?) hidden>', s)

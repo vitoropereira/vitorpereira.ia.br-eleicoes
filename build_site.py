@@ -295,7 +295,8 @@ def rodape():
 
 
 def jsonld(obj):
-    return f'<script type="application/ld+json">{json.dumps(obj, ensure_ascii=False)}</script>'
+    # "</" escapado: texto livre (ex.: trecho de debate) com "</script>" não fecha o bloco
+    return f'<script type="application/ld+json">{json.dumps(obj, ensure_ascii=False).replace("</", "<\\/")}</script>'
 
 
 def head(title, desc, path, og_img, extra_ld, published, modified):
@@ -913,12 +914,10 @@ def main():
     cards = [("index", "Resultado do 1º turno", f"Eleições 2026 · {fmt(N['pst'], 2)}% apurado (TSE)", cF["p"], cL["p"], "2º turno em 25 de outubro")]
     cards += [("ao-vivo", "Mapa da apuração por município", "Eleições 2026 · dados do TSE", cF["p"], cL["p"], "5.570 municípios · 2º turno ao vivo em 25/10")]
     cards += [(f"apuracao-{r['slug']}", f"Apuração com {fmt(r['d']['pst'], 1)}% das urnas", f"Eleições 2026 · 04/10 às {r['d']['ht'][:5]}", r["d"]["f"], r["d"]["l"], "Leitura parcial do TSE") for r in rodadas]
-    for nome, t, s, f, l, rp in cards:
-        (BUILD / "og" / f"{nome}.html").write_text(og_card(t, s, f, l, rp))
-        chrome("--window-size=1200,630", "--virtual-time-budget=3000", f"--screenshot={OUT / 'og' / (nome + '.png')}", f"{base_url}/og/{nome}.html")
-    if deb:
-        nome = deb["og"][0]
-        (BUILD / "og" / f"{nome}.html").write_text(og_debate(*deb["og"][1:]))
+    og_htmls = [(nome, og_card(t, s, f, l, rp)) for nome, t, s, f, l, rp in cards]
+    og_htmls += [(deb["og"][0], og_debate(*deb["og"][1:]))] if deb else []
+    for nome, og_html in og_htmls:
+        (BUILD / "og" / f"{nome}.html").write_text(og_html)
         chrome("--window-size=1200,630", "--virtual-time-budget=3000", f"--screenshot={OUT / 'og' / (nome + '.png')}", f"{base_url}/og/{nome}.html")
     # análise: uma página de compartilhar e dois cartões (OG 1200×630, social 1080×1350) por seção
     secs = secoes_do_dom((OUT / "analise" / "index.html").read_text())

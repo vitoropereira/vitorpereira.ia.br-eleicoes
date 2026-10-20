@@ -64,6 +64,28 @@ class Cobertura(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "cor"):
             dp.gerar(cor, chs, B.BASE, B.PESSOA)
 
+    def test_turno_e_ids_repetidos_falham(self):
+        afs, chs = dp.ler(FIXTURE)
+        tur = copy.deepcopy(afs); tur["debate"]["turno"] = '2"><script>'
+        with self.assertRaisesRegex(ValueError, "turno"):
+            dp.gerar(tur, chs, B.BASE, B.PESSOA)
+        dup = copy.deepcopy(afs); dup["afirmacoes"].append(dict(dup["afirmacoes"][0]))
+        with self.assertRaisesRegex(ValueError, "a01.*repetida"):
+            dp.gerar(dup, chs, B.BASE, B.PESSOA)
+        cdup = copy.deepcopy(afs); cdup["debate"]["candidatos"].append(dict(cdup["debate"]["candidatos"][0]))
+        with self.assertRaisesRegex(ValueError, "flavio.*repetido"):
+            dp.gerar(cdup, chs, B.BASE, B.PESSOA)
+
+    def test_transcricao_sem_http_nao_vai_pro_ld(self):
+        afs, chs = dp.ler(FIXTURE)
+        afs = copy.deepcopy(afs); afs["debate"]["transcricao"] = "javascript:alert(1)"
+        p = dp.gerar(afs, chs, B.BASE, B.PESSOA)
+        cr = next(x for x in p["ld"] if x["@type"] == "ClaimReview")
+        self.assertEqual(cr["itemReviewed"]["appearance"]["url"], B.BASE + p["path"])
+
+    def test_ld_nao_fecha_script(self):
+        self.assertNotIn("</script>", B.jsonld({"x": "</script><b>"})[:-len("</script>")])
+
     def test_ler_sem_dados_devolve_none(self):
         self.assertIsNone(dp.ler(R / "debates" / "nao-existe"))
 
