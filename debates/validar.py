@@ -68,7 +68,7 @@ def validar(itens, transcricao):
             if c in it:
                 erros.append(f"{nome}: chave de veredito {c!r} não entra na extração")
         for c, ok in (("tema", TEMAS), ("quem", QUEM), ("tipo", TIPOS), ("bloco", BLOCOS)):
-            if c in it and it[c] not in ok:
+            if c in it and (not isinstance(it[c], str) or it[c] not in ok):
                 erros.append(f"{nome}: {c} {it[c]!r} fora de {sorted(ok)}")
         i = it.get("id")
         if isinstance(i, str):
