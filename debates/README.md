@@ -118,4 +118,33 @@ afirmação de cada candidato e da mediação, e os blocos `1`, `2`, `3` e `fina
 
 ### 6. Checar e publicar
 
-A checagem (veredito e fonte), o selo e a página do debate são etapas seguintes: #88, #89 e #90.
+A checagem fica em `checagens.json`, ao lado de `afirmacoes.json`: uma lista com exatamente um item por afirmação
+`certa` checada. Item `incerta` não se checa.
+
+```json
+{
+  "id": "eco-08",
+  "veredito": "verdadeiro",
+  "explicacao": "Pelo IBGE, o PIB cresceu 7,5% em 2010. Aos Fatos e Lupa chegaram ao mesmo número.",
+  "fontes": [{"url": "https://sidra.ibge.gov.br/tabela/5932", "titulo": "Tabela 5932", "orgao": "IBGE",
+              "data_publicacao": "2026-04-01", "acessado_em": "2026-10-20"}],
+  "atualizado_em": "2026-10-20"
+}
+```
+
+- `id`: o mesmo da afirmação.
+- `veredito`: da escala do `tipo` da afirmação:
+  - `dado`/`fato`: `verdadeiro`, `verdadeiro-com-ressalva`, `exagerado`, `falso`, `sem-evidencia`, `nao-checavel`;
+  - `promessa`: `ja-existe`, `viavel`, `depende-do-congresso`, `sem-custo-estimado`, `inviavel`;
+  - `acusacao`: `ha-investigacao`, `ha-denuncia`, `ha-condenacao`, `sem-registro-publico`.
+- `explicacao`: de 2 a 4 frases, sem adjetivo, com o valor oficial e o período exato de cada número.
+- `fontes`: pelo menos uma, com os cinco campos e `url` `https://`. Em `sem-evidencia` e `nao-checavel`, a fonte é o
+  que foi consultado e não confirmou. Órgão oficial primeiro; reportagem não é fonte única quando ele existe.
+  Em série de dados (SGS, SIDRA, FMI), `data_publicacao` é o início do período mais recente usado.
+- `atualizado_em` e as datas das fontes: AAAA-MM-DD, nunca depois de hoje.
+- `outro_lado` (opcional): nota da defesa, em `acusacao`, quando existir.
+
+Sem fonte encontrada é `sem-evidencia`, nunca inferência; as duas campanhas e a mediação passam pelo mesmo critério.
+`python3 debates/validar.py <pasta>` também valida o `checagens.json` quando ele existe.
+
+O selo e a página do debate são da #90.
