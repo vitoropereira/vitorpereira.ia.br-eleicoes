@@ -167,6 +167,21 @@ class PaginaDebate(unittest.TestCase):
         self.assertEqual(dp.ancora("4:33"), "t-0-04-33")
         self.assertEqual(dp.ancora("1:07:25"), "t-1-07-25")
 
+    def test_no_video(self):
+        self.assertEqual(dp.no_video("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "9:52"),
+                         "https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=592s")
+        self.assertEqual(dp.no_video("https://youtu.be/dQw4w9WgXcQ", "1:07:25"), "https://youtu.be/dQw4w9WgXcQ?t=4045s")
+
+    def test_tempo_leva_ao_video_quando_tem_video(self):
+        m = dp.carregar(TESTE)
+        self.assertNotIn("youtube.com", dp.gerar(m, B.BASE, B.PESSOA)["html"])
+        m["debate"]["video"] = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        h = dp.gerar(m, B.BASE, B.PESSOA)["html"]
+        for a in m["itens"].values():
+            if a["id"] in [c["id"] for c in m["checagens"]]:
+                self.assertIn(html.escape(dp.no_video(m["debate"]["video"], a["timestamp"])), h, a["id"])
+                self.assertIn(f'transcricao/#{dp.ancora(a["timestamp"])}"', h, a["id"])
+
 
 class PaginaAfirmacao(unittest.TestCase):
     def test_uma_por_checagem_com_og_propria(self):

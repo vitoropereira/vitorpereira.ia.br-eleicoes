@@ -47,6 +47,13 @@ def ancora(ts):
     return f"t-{h}-{m:02d}-{s:02d}"
 
 
+def no_video(url, ts):
+    """URL do vídeo (debate.json `video`) aberta no segundo da marcação H:MM:SS (ou M:SS)."""
+    p = [int(x) for x in ts.split(":")]
+    h, m, s = ([0] + p)[-3:]
+    return f'{url}{"&" if "?" in url else "?"}t={h * 3600 + m * 60 + s}s'
+
+
 def _json(p):
     return json.loads(p.read_text(encoding="utf-8"))
 
@@ -150,7 +157,7 @@ main.db{max-width:880px;margin:0 auto;padding:24px 18px 56px}
 .db-af[hidden],.db-tema[hidden]{display:none}
 .db-af:target{background:var(--soft)}
 .db-af-t{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 12px;font:600 13px var(--font-mono)}
-.db-af-t .db-tempo{color:var(--muted);font-weight:400}
+.db-af-t .db-tempo{color:var(--muted);font-weight:400}.db-af-t .db-tempo a{color:inherit}
 .db-af .db-frase{margin:8px 0 0;font-size:17px;line-height:1.45;color:var(--ink);font-weight:600}
 .db-af blockquote{margin:6px 0 8px;font-size:14px;color:var(--ink2);border-left:2px solid var(--line);padding-left:10px}
 .db-selo{display:inline-block;font:600 12px var(--font-mono);text-transform:uppercase;letter-spacing:.04em;border:1px solid var(--ink2);border-radius:999px;padding:1px 9px}
@@ -260,10 +267,15 @@ def gerar(m, base, autor):
                            for f in c["fontes"])
         outro = f'<p class="db-outro"><b>Outro lado:</b> {esc(c["outro_lado"])}</p>' if c.get("outro_lado") else ""
         pagina = f'<a class="db-link" href="{af_path(a["id"])}">Página desta checagem</a>' if link else ""
+        na_transcricao = f'<a href="{tpath}#{ancora(a["timestamp"])}">'
+        if deb.get("video"):
+            tempo = (f'<span class="db-tempo"><a href="{attr(no_video(deb["video"], a["timestamp"]))}" rel="noopener">'
+                     f'▶ {esc(a["timestamp"])} no vídeo</a> · {na_transcricao}transcrição</a></span>')
+        else:
+            tempo = f'<span class="db-tempo">{na_transcricao}aos {esc(a["timestamp"])} na transcrição</a></span>'
         return (f'<article class="db-af" id="{a["id"]}" data-candidato="{attr(a["quem"])}" data-tema="{attr(a["tema"])}" '
                 f'data-veredito="{attr(c["veredito"])}" style="--c:var(--{cd["cor"]})"><div class="db-af-t">'
-                f'<span>{esc(_nome(cd))}</span><a class="db-tempo" href="{tpath}#{ancora(a["timestamp"])}">'
-                f'aos {esc(a["timestamp"])} na transcrição</a></div>'
+                f'<span>{esc(_nome(cd))}</span>{tempo}</div>'
                 f'<p class="db-frase">{esc(a["afirmacao"])}</p><blockquote>“{esc(a["trecho"])}”</blockquote>'
                 f'<span class="db-selo">{esc(ROTULOS[c["veredito"]])}</span>'
                 f'<p>{esc(c["explicacao"])}</p>{outro}<p class="db-fontes">Fontes: {fontes}</p>{pagina}</article>')

@@ -73,6 +73,14 @@ class TestValidarDebate(unittest.TestCase):
         self.assertTrue(any("cor" in e for e in vd.validar_debate(debate(candidatos=cands))))
         self.assertTrue(any("publicado_em" in e for e in vd.validar_debate(debate(publicado_em="19/10/2026"))))
 
+    def test_video_opcional_do_youtube(self):
+        for url in ("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "https://youtu.be/dQw4w9WgXcQ"):
+            self.assertEqual(vd.validar_debate(debate(video=url)), [])
+        for url in ("http://youtu.be/dQw4w9WgXcQ", "https://vimeo.com/1", "https://youtu.be/curto",
+                    "https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=10s", 3):
+            with self.subTest(url=url):
+                self.assertTrue(any("video" in e for e in vd.validar_debate(debate(video=url))))
+
     def test_falta_campo_obrigatorio(self):
         for campo in ("slug", "ano", "cargo", "turno", "emissora", "data", "candidatos", "fonte_transcricao"):
             with self.subTest(campo=campo):

@@ -98,13 +98,20 @@
   {
     "id": "eco-06",
     "veredito": "verdadeiro",
-    "explicacao": "O Brasil recebeu o primeiro grau de investimento da S&P em abril de 2008 e o da Fitch em maio de 2008, no segundo mandato de Lula. O Aos Fatos confirmou que ele foi o primeiro presidente a obter as duas notas.",
+    "explicacao": "Segundo a Agência Brasil, o país recebeu o primeiro grau de investimento da S&P em abril de 2008. A Fitch deu a nota em 29 de maio de 2008 e a Moody's, em setembro de 2009. As três notas vieram no segundo mandato de Lula, e nenhum presidente anterior havia obtido grau de investimento.",
     "fontes": [
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2015-12/entenda-o-grau-de-investimento-de-um-pais",
+        "titulo": "Entenda o grau de investimento de um país",
+        "orgao": "Agência Brasil (EBC)",
+        "data_publicacao": "2015-12-09",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.baguete.com.br/noticias/fitch-da-grau-de-investimento-ao-brasil",
+        "titulo": "Fitch dá grau de investimento ao Brasil",
+        "orgao": "Baguete",
+        "data_publicacao": "2008-05-29",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -128,20 +135,13 @@
   {
     "id": "eco-08",
     "veredito": "verdadeiro",
-    "explicacao": "Pelo IBGE, o PIB cresceu 7,5% em 2010 (taxa acumulada em quatro trimestres no 4º trimestre). Aos Fatos e Lupa chegaram ao mesmo número.",
+    "explicacao": "Segundo o IBGE, o PIB brasileiro cresceu 7,5% em 2010. É a taxa acumulada nos quatro trimestres daquele ano, em relação a 2009.",
     "fontes": [
       {
         "url": "https://sidra.ibge.gov.br/tabela/5932",
         "titulo": "Tabela 5932: taxa de variação do índice de volume trimestral (PIB)",
         "orgao": "IBGE",
         "data_publicacao": "2026-04-01",
-        "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Ao vivo: checagem do debate entre Lula e Flávio Bolsonaro na Band",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -158,20 +158,6 @@
         "orgao": "IBGE",
         "data_publicacao": "2026-04-01",
         "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
-        "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Ao vivo: checagem do debate entre Lula e Flávio Bolsonaro na Band",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
-        "acessado_em": "2026-10-20"
       }
     ],
     "atualizado_em": "2026-10-20"
@@ -179,13 +165,20 @@
   {
     "id": "eco-10",
     "veredito": "verdadeiro",
-    "explicacao": "A Lei Geral da Micro e Pequena Empresa (Lei Complementar 123/2006) e o MEI (Lei Complementar 128/2008) foram sancionados no governo Lula. O Aos Fatos confirmou a criação do MEI pelo governo petista.",
+    "explicacao": "A Lei Geral da Micro e Pequena Empresa é a Lei Complementar 123, de 14 de dezembro de 2006. O MEI foi criado pela Lei Complementar 128, de 19 de dezembro de 2008. As duas leis foram sancionadas por Lula.",
     "fontes": [
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm",
+        "titulo": "Lei Complementar nº 123, de 14 de dezembro de 2006 (Estatuto Nacional da Microempresa e da Empresa de Pequeno Porte)",
+        "orgao": "Presidência da República (Planalto)",
+        "data_publicacao": "2006-12-14",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp128.htm",
+        "titulo": "Lei Complementar nº 128, de 19 de dezembro de 2008 (cria o Microempreendedor Individual - MEI, art. 18-A da LC 123)",
+        "orgao": "Presidência da República (Planalto)",
+        "data_publicacao": "2008-12-19",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -194,13 +187,13 @@
   {
     "id": "eco-11",
     "veredito": "verdadeiro",
-    "explicacao": "O Aos Fatos confirmou que há 17,5 milhões de MEIs atualmente. O número bate com o informado pelo governo no pacote do MEI aprovado em outubro de 2026.",
+    "explicacao": "No lançamento do programa Prospera MEI, em 13 de outubro de 2026, o governo federal informou que o país tem mais de 17,6 milhões de MEIs, 7,8 milhões deles mulheres. Os 17,5 milhões citados por Lula ficam um pouco abaixo do número oficial. O pacote foi anunciado nessa data, e a parte fiscal ainda depende do Congresso.",
     "fontes": [
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://agenciasebrae.com.br/economia-e-politica/prospera-mei-conheca-as-acoes-anunciadas-pelo-governo-federal-para-fortalecer-o-empreendedorismo/",
+        "titulo": "Prospera MEI: conheça as ações anunciadas pelo governo federal para fortalecer o empreendedorismo",
+        "orgao": "Agência Sebrae de Notícias",
+        "data_publicacao": "2026-10-13",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -238,7 +231,7 @@
   {
     "id": "eco-13",
     "veredito": "verdadeiro-com-ressalva",
-    "explicacao": "Pelo Banco Central, as reservas internacionais eram de US$ 288,6 bilhões em dezembro de 2010, acima dos 270 bilhões citados. A quitação com o FMI e o crescimento de 7,5% em 2010 são confirmados pelo Aos Fatos e pelo IBGE.",
+    "explicacao": "Segundo a Agência Brasil, o Brasil antecipou em dezembro de 2005 o pagamento de US$ 15,5 bilhões que devia ao FMI. Pelos dados do Banco Central, as reservas internacionais somavam US$ 288,6 bilhões em dezembro de 2010, acima dos 270 bilhões citados. Segundo o IBGE, o PIB cresceu 7,5% em 2010.",
     "fontes": [
       {
         "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3546/dados?formato=json",
@@ -255,17 +248,10 @@
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
-        "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Ao vivo: checagem do debate entre Lula e Flávio Bolsonaro na Band",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://memoria.ebc.com.br/agenciabrasil//noticia/2005-12-15/lula-praises-decision-pay-imf-debt",
+        "titulo": "Lula praises decision to pay off IMF debt",
+        "orgao": "Agência Brasil (EBC)",
+        "data_publicacao": "2005-12-15",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -274,13 +260,13 @@
   {
     "id": "eco-14",
     "veredito": "verdadeiro",
-    "explicacao": "O Aos Fatos confirmou que os governos Lula bancarizaram 22 milhões de brasileiros. Não consultamos a série do Banco Central sobre o tema.",
+    "explicacao": "O balanço oficial do governo Lula (2003-2010) informa que o número de pessoas com conta ou outro vínculo com instituição financeira passou de 70 milhões para 115 milhões. A fatia da população com esse vínculo subiu de 40% para 59%. O número de 22 milhões citado por Lula não aparece no balanço, que registra uma alta maior, de 45 milhões de pessoas.",
     "fontes": [
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://siac.fpabramo.org.br/uploads/acaoinstitucional/BalancoGovernoLula_livro1_vol1de2_02BInclusaoBancaria.pdf",
+        "titulo": "Balanço de Governo 2003-2010 — Inclusão Bancária e Microcrédito",
+        "orgao": "Presidência da República (Balanço de Governo 2003-2010; cópia hospedada pela Fundação Perseu Abramo)",
+        "data_publicacao": "2010-12-01",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -292,10 +278,10 @@
     "explicacao": "De 1º de janeiro de 2003 a outubro de 2026, o PT ocupou a Presidência de 2003 até o afastamento de Dilma Rousseff, em maio de 2016, e de 2023 em diante. Isso soma cerca de 17 anos dos últimos 24, e não 20.",
     "fontes": [
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.migalhas.com.br/quentes/239098/senado-abre-processo-de-impeachment-contra-dilma",
+        "titulo": "Senado abre processo de impeachment contra Dilma",
+        "orgao": "Migalhas",
+        "data_publicacao": "2016-05-12",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -304,15 +290,8 @@
   {
     "id": "eco-15",
     "veredito": "falso",
-    "explicacao": "O Aos Fatos concluiu que não é correto atribuir uma queda de 2 pontos nos juros à liderança de Flávio no 1º turno. As reportagens de mercado consultadas descrevem oscilações dos juros futuros após pesquisas e o debate, para cima e para baixo.",
+    "explicacao": "Não foi encontrado dado que mostre queda de 2 pontos nos juros futuros associada à posição de Flávio nas pesquisas. Reportagens de mercado de 16 e 19 de outubro de 2026 descrevem os juros futuros subindo e caindo conforme pesquisas eleitorais e o debate.",
     "fontes": [
-      {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
-        "acessado_em": "2026-10-20"
-      },
       {
         "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdEd0cC1FSHBzYzRRZW9mS1BEc3EyeTRsTU5FT09pdnllRkdyeXZueE5OdW45SWNFbW5wYjFMaWVIVkVuN29vZXlobnpEcU4xSnNSV2p6QmgwVXlIbVhNeWVXWmEwY3FJcXpWT0JQaHVrUkFidHpud1VzVFFaSUVodHg5Zy1NLWZmSWpJTFF0RjQ5MjU4alBrUDRENHVTc202T1hXaDJKOVZ6SFNvQ1dib0ZKYWZfNE5kTmfSAb8BQVVfeXFMTnhZLU5TczBDSjgwNE92U1o5Um04UFNPc2Y0a1U1Y1gwUkdHUDE0Y1hsa2hEYkZ2Q2JlUDZTWHJnME1BV0RBcS1sRGFiS1FfSmQ5WDVBM01BUENqMW9obWJDQ0E3YXlSdXlCR2xNbGk0YVp5SGYtVnNrS3RBVUE0R0pIWDNmLTZxUENEV0NfT2ZfQ1Bac0dDMnRneS14bnhlRFJfTUIydXktWEdEeTJqdUh5anU2Mld2QUlrMkNSUmc?oc=5",
         "titulo": "Taxas dos DIs caem após novas pesquisas eleitorais e debate entre Flávio e Lula",
@@ -348,20 +327,6 @@
         "orgao": "Banco Central do Brasil",
         "data_publicacao": "2026-08-01",
         "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Ao vivo: checagem do debate entre Lula e Flávio Bolsonaro na Band",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
-        "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
-        "acessado_em": "2026-10-20"
       }
     ],
     "atualizado_em": "2026-10-20"
@@ -369,20 +334,20 @@
   {
     "id": "soc-01",
     "veredito": "verdadeiro",
-    "explicacao": "Em 2009, Flávio foi o único deputado da Alerj a votar contra a PEC estadual que ampliou a licença-maternidade das servidoras de quatro para seis meses. Aos Fatos e Lupa confirmaram a votação.",
+    "explicacao": "Em 2009, a Alerj aprovou a ampliação da licença-maternidade das servidoras estaduais de quatro para seis meses, e Flávio foi o único deputado a votar contra. A Sociedade Brasileira de Pediatria descreveu a proposta como projeto que alterava o Estatuto dos Servidores. O placar varia entre as fontes (45 a 1, segundo o Metrópoles), e nenhuma registra 49 deputados.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Ao vivo: checagem do debate entre Lula e Flávio Bolsonaro na Band",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.sbp.com.br/alerj-estuda-licencao-para-maes/",
+        "titulo": "Alerj estuda licença para mães",
+        "orgao": "Sociedade Brasileira de Pediatria",
+        "data_publicacao": "2009-06-09",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.metropoles.com/colunas/matheus-leitao/tres-historias-por-tras-das-perguntas-de-lula-a-flavio-sobre-mulheres",
+        "titulo": "Três histórias por trás das perguntas de Lula a Flávio sobre mulheres",
+        "orgao": "Metrópoles (coluna Matheus Leitão)",
+        "data_publicacao": "2026-10-19",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -413,7 +378,7 @@
   {
     "id": "out-03",
     "veredito": "exagerado",
-    "explicacao": "Pela contagem do Aos Fatos, Jair Bolsonaro deixou a Presidência com 6.676 declarações falsas ou distorcidas, média de 4,58 por dia no mandato (2019-2022). O ano com maior ritmo foi 2021, com 2.516 declarações, cerca de 6,9 por dia. A média de 11 por dia não aparece nos levantamentos da agência.",
+    "explicacao": "Pelo levantamento do Aos Fatos, Jair Bolsonaro deixou a Presidência com 6.676 declarações falsas ou distorcidas, média de 4,58 por dia no mandato (2019-2022). O ano de maior ritmo foi 2021, com 2.516 declarações, cerca de 6,9 por dia. A média de 11 por dia não aparece nesses levantamentos.",
     "fontes": [
       {
         "url": "https://www.aosfatos.org/noticias/mentiras-bolsonaro/",
@@ -450,20 +415,20 @@
   {
     "id": "eco-17",
     "veredito": "exagerado",
-    "explicacao": "A ferramenta do Estadão citada pela Lupa soma R$ 354 bilhões em medidas com impacto fiscal no ano eleitoral. O valor não é todo desembolso: mais de R$ 55 bilhões são renúncia de receita e só R$ 34 bilhões estão fora do Orçamento aprovado.",
+    "explicacao": "Levantamento do Estadão, publicado pela VEJA, soma cerca de R$ 350 bilhões em medidas com impacto fiscal no ano eleitoral. O valor não é todo gasto: inclui renúncia de receita e crédito que volta à União. A IFI, do Senado, calcula R$ 298,4 bilhões, dos quais R$ 93,8 bilhões têm impacto primário e R$ 185,7 bilhões são crédito com juros subsidiados.",
     "fontes": [
-      {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Ao vivo: checagem do debate entre Lula e Flávio Bolsonaro na Band",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
-        "acessado_em": "2026-10-20"
-      },
       {
         "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbVpjMFBjSkhWbFludUQ4Y0NUTzUyb0JpczZnTkhqRmlCOUN0WmRFMlhwbVhkV19jWUdMZFVLUWhEbDlnX08zTzZEVzRXVExTeVl4OGNsZVEzM25qT18yV3Z0dGlobXBxU3VnTV9aT3NiUGQ5WGk0OVppR0pLcVJ6alUwTFRINWI1RFNnV1NmWE5lZl92S3l1ZTY0b3dWRkNhUTdOQ3JubFZ4MWk0Rk5zaHh3dmh0ZWtKUE0w?oc=5",
         "titulo": "Medidas tomadas pelo governo Lula em ano eleitoral somam R$ 350 bi em impacto fiscal",
         "orgao": "VEJA",
         "data_publicacao": "2026-10-13",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.gazetadopovo.com.br/republica/pacote-eleitoreiro-lula-custa-quase-300-bi-aponta-ifi/",
+        "titulo": "Pacote eleitoreiro de Lula já custa quase R$ 300 bi, aponta IFI",
+        "orgao": "Gazeta do Povo (dados da IFI/Senado)",
+        "data_publicacao": "2026-10-16",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -526,10 +491,24 @@
     "explicacao": "O piso de R$ 600 foi aprovado no governo Bolsonaro em 2022, por emenda constitucional válida só até o fim daquele ano. A proposta de orçamento de 2023 enviada pelo mesmo governo previa R$ 400.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Ao vivo: checagem do debate entre Lula e Flávio Bolsonaro na Band",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc123.htm",
+        "titulo": "Emenda Constitucional nº 123, de 14 de julho de 2022",
+        "orgao": "Presidência da República (Planalto)",
+        "data_publicacao": "2022-07-14",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www12.senado.leg.br/noticias/materias/2022/07/15/congresso-muda-auxilio-brasil-no-primeiro-semestre-e-assegura-beneficio-de-r-600",
+        "titulo": "Congresso muda Auxílio Brasil no primeiro semestre e assegura benefício de R$ 600",
+        "orgao": "Agência Senado",
+        "data_publicacao": "2022-07-15",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.noticiasagricolas.com.br/noticias/politica-economia/326108-orcamento-de-2023-tera-auxilio-brasil-de-r-400-mas-indicara-intencao-de-manter-beneficio-em-r-600.amp.html",
+        "titulo": "Orçamento de 2023 terá Auxílio Brasil de R$400, mas indicará intenção de manter benefício em R$600 (Reuters)",
+        "orgao": "Reuters, via Notícias Agrícolas",
+        "data_publicacao": "2022-08-30",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -541,10 +520,24 @@
     "explicacao": "O benefício médio do Bolsa Família era de R$ 187,91 em janeiro de 2019, perto dos R$ 190 citados, e chegou a R$ 600 em 2022. A alta veio com o Auxílio Brasil e a emenda temporária de 2022, e o orçamento de 2023 enviado por Bolsonaro voltava a R$ 400.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Ao vivo: checagem do debate entre Lula e Flávio Bolsonaro na Band",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://dol.com.br/noticias/para/noticia-569918-bolsa-familia-ja-esta-liberado-para-quase-um-milhao-de-familias-no-para.html",
+        "titulo": "Bolsa Família já está liberado para quase um milhão de famílias no Pará",
+        "orgao": "Diário do Pará (DOL), com dados do Ministério da Cidadania",
+        "data_publicacao": "2019-01-19",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc123.htm",
+        "titulo": "Emenda Constitucional nº 123, de 14 de julho de 2022",
+        "orgao": "Presidência da República (Planalto)",
+        "data_publicacao": "2022-07-14",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www12.senado.leg.br/noticias/materias/2022/08/31/governo-envia-orcamento-de-2023-com-salario-minimo-de-R-1302",
+        "titulo": "Governo envia Orçamento de 2023 com salário mínimo de R$ 1.302",
+        "orgao": "Agência Senado",
+        "data_publicacao": "2022-08-31",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -552,14 +545,21 @@
   },
   {
     "id": "eco-18",
-    "veredito": "falso",
-    "explicacao": "O Aos Fatos concluiu que é falso haver recorde de empresas fechadas no atual governo. As fontes consultadas não trazem dado sobre indústrias deixando o país.",
+    "veredito": "exagerado",
+    "explicacao": "Pelo Mapa de Empresas do governo federal, 2.153.840 empresas foram fechadas em 2023, alta de 25,7% sobre 2022, mas o número fica abaixo dos cerca de 2,43 milhões de 2018, ano em que MEIs inadimplentes foram cancelados em massa. Já os pedidos de falência caíram no governo Lula, segundo dados da Serasa: foram 224 processos de janeiro a abril de 2026. Não foi encontrado dado oficial sobre indústrias deixando o país.",
     "fontes": [
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
+        "url": "https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas/boletins/mapa-de-empresas-boletim-3o-quadrimestre-2023.pdf/@@download/file",
+        "titulo": "Mapa de Empresas – Boletim do 3º quadrimestre de 2023",
+        "orgao": "Governo Federal (Mapa de Empresas / MDIC-MEMP)",
+        "data_publicacao": "2024-01-01",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.aosfatos.org/noticias/8000-empresas-faliram-brasil-junho/",
+        "titulo": "É falso que 8.000 empresas faliram no Brasil em junho",
         "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "data_publicacao": "2026-08-24",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -605,20 +605,13 @@
   {
     "id": "out-07",
     "veredito": "falso",
-    "explicacao": "Pelo Portal da Transparência, citado pela Lupa, os R$ 7,14 bilhões de 2023 a 2025 são gastos com viagens de todo o governo federal, com passagens e diárias de servidores. O valor não é de Lula e Janja; o Aos Fatos chegou à mesma conclusão.",
+    "explicacao": "Segundo dados do Portal da Transparência publicados pelo Metrópoles, os cerca de R$ 7 bilhões gastos de 2023 a 2025 são viagens a serviço de todo o governo federal, com passagens e diárias de servidores. Esse total não inclui as viagens feitas diretamente pelo presidente. O valor não corresponde a gastos de Lula e Janja.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Ao vivo: checagem do debate entre Lula e Flávio Bolsonaro na Band",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
-        "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.metropoles.com/brasil/gastos-com-viagens-a-servico-somam-r-7-bilhoes-no-governo-lula",
+        "titulo": "Gastos com viagens a serviço somam R$ 7 bilhões no governo Lula",
+        "orgao": "Metrópoles (dados do Portal da Transparência)",
+        "data_publicacao": "2026-01-24",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -627,13 +620,13 @@
   {
     "id": "soc-06",
     "veredito": "falso",
-    "explicacao": "O Aos Fatos concluiu que não é verdade que os governos do PT fizeram a maior demarcação de terras indígenas do país. Lula fez a afirmação sem citar número.",
+    "explicacao": "Pela tabela do Instituto Socioambiental (ISA), Fernando Henrique Cardoso homologou cerca de 145 terras indígenas, com 41,2 milhões de hectares, de 1995 a 2002. Lula homologou cerca de 87 terras, com 18,7 milhões de hectares, de 2003 a 2010. FHC lidera em número e em área, e as homologações de Lula desde 2023 não mudam essa ordem.",
     "fontes": [
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://documentacao.socioambiental.org/noticias/anexo_noticia/27316_20140417_110024.pdf",
+        "titulo": "Cresce disputa pelas terras dos índios no país (tabela 'Situação das terras indígenas no Brasil desde o governo Sarney', fonte ISA)",
+        "orgao": "Valor Econômico / Instituto Socioambiental (ISA)",
+        "data_publicacao": "2014-04-17",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -775,13 +768,13 @@
   {
     "id": "sau-05",
     "veredito": "ja-existe",
-    "explicacao": "O Aos Fatos mostrou que o Brasil já tem sistemas que integram informações de saúde dos pacientes, como a Rede Nacional de Dados em Saúde. A promessa repete uma função que já existe.",
+    "explicacao": "O Ministério da Saúde mantém a Rede Nacional de Dados em Saúde (RNDS), plataforma oficial que conecta sistemas de saúde públicos e privados. Por ela, o cidadão vê atendimentos, vacinas e medicamentos no aplicativo Meu SUS Digital. A promessa repete uma função que já existe.",
     "fontes": [
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.gov.br/saude/pt-br/composicao/seidigi/rnds",
+        "titulo": "Rede Nacional de Dados em Saúde (RNDS)",
+        "orgao": "Ministério da Saúde",
+        "data_publicacao": "2025-01-01",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -922,20 +915,6 @@
         "orgao": "IBGE",
         "data_publicacao": "2019-12-01",
         "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
-        "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Ao vivo: checagem do debate entre Lula e Flávio Bolsonaro na Band",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
-        "acessado_em": "2026-10-20"
       }
     ],
     "atualizado_em": "2026-10-20"
@@ -943,13 +922,20 @@
   {
     "id": "eco-23",
     "veredito": "exagerado",
-    "explicacao": "Com dados do DIEESE para São Paulo, o mínimo comprava 1,62 cesta em agosto de 2022 e 1,8 em agosto de 2026, segundo análise citada pela Lupa. O número de hoje é 1,8, não 2,2, e não há levantamento nacional.",
+    "explicacao": "Com os dados do DIEESE para São Paulo, o salário mínimo comprava 1,62 cesta básica em agosto de 2022 (cesta de R$ 749,78 e mínimo de R$ 1.212). Em agosto de 2026, comprava 1,80 cesta (cesta de R$ 900,59 e mínimo de R$ 1.621). O número de hoje é 1,8, não 2,2, e o DIEESE não publica um índice nacional desse tipo.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Ao vivo: checagem do debate entre Lula e Flávio Bolsonaro na Band",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.dieese.org.br/analisecestabasica/2022/202208cestabasica.pdf",
+        "titulo": "Pesquisa Nacional da Cesta Básica de Alimentos – agosto de 2022",
+        "orgao": "DIEESE",
+        "data_publicacao": "2022-09-06",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.dieese.org.br/analisecestabasica/2026/202608cestabasica.pdf",
+        "titulo": "Pesquisa Nacional da Cesta Básica de Alimentos – resultados de agosto de 2026",
+        "orgao": "DIEESE",
+        "data_publicacao": "2026-09-10",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1054,13 +1040,27 @@
   {
     "id": "sau-10",
     "veredito": "verdadeiro-com-ressalva",
-    "explicacao": "O Aos Fatos confirmou que a vacina tomada por Lula foi comprada no governo Bolsonaro. A compra aconteceu depois de o então presidente ter dito que não compraria vacinas.",
+    "explicacao": "Em 7 de janeiro de 2021, no governo Bolsonaro, o Ministério da Saúde anunciou contrato com o Instituto Butantan para comprar até 100 milhões de doses da CoronaVac. Lula tomou a primeira dose da CoronaVac em 13 de março de 2021, em São Bernardo do Campo. A compra veio depois de Bolsonaro ter dito, em outubro de 2020, que o governo federal não compraria a CoronaVac.",
     "fontes": [
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://agenciabrasil.ebc.com.br/saude/noticia/2021-01/sus-tera-exclusividade-sobre-coronavac-afirma-ministerio-da-saude",
+        "titulo": "SUS terá exclusividade sobre a CoronaVac, afirma Ministério da Saúde",
+        "orgao": "Agência Brasil (EBC)",
+        "data_publicacao": "2021-01-09",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2020-10/bolsonaro-diz-que-governo-federal-nao-comprara-vacina-coronavac",
+        "titulo": "Bolsonaro diz que governo federal não comprará vacina CoronaVac",
+        "orgao": "Agência Brasil (EBC)",
+        "data_publicacao": "2020-10-21",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.jornalopcao.com.br/ultimas-noticias/lula-recebe-primeira-dose-da-vacina-contra-covid-19-317035/",
+        "titulo": "Lula recebe primeira dose da vacina contra Covid-19",
+        "orgao": "Jornal Opção",
+        "data_publicacao": "2021-03-13",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1106,13 +1106,6 @@
         "orgao": "TVT News",
         "data_publicacao": "2026-02-16",
         "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
-        "acessado_em": "2026-10-20"
       }
     ],
     "atualizado_em": "2026-10-20"
@@ -1127,13 +1120,6 @@
         "titulo": "Lula inaugura pronto-socorro do Hospital Federal Cardoso Fontes no Rio",
         "orgao": "TVT News",
         "data_publicacao": "2026-02-16",
-        "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1291,13 +1277,6 @@
         "orgao": "IBGE",
         "data_publicacao": "2026-04-01",
         "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Ao vivo: checagem do debate entre Lula e Flávio Bolsonaro na Band",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
-        "acessado_em": "2026-10-20"
       }
     ],
     "atualizado_em": "2026-10-20"
@@ -1454,20 +1433,27 @@
   {
     "id": "eco-42",
     "veredito": "verdadeiro-com-ressalva",
-    "explicacao": "Os governos Lula criaram a Lei Geral da Micro e Pequena Empresa e o Simples Nacional (Lei Complementar 123/2006) e o MEI. O primeiro Simples é de 1996, do governo Fernando Henrique Cardoso.",
+    "explicacao": "A Lei Geral da Micro e Pequena Empresa e o Simples Nacional vêm da Lei Complementar 123/2006, e o MEI, da Lei Complementar 128/2008, ambas do governo Lula. O primeiro Simples, porém, foi criado pela Lei 9.317/1996, no governo Fernando Henrique Cardoso.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Ao vivo: checagem do debate entre Lula e Flávio Bolsonaro na Band",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm",
+        "titulo": "Lei Complementar nº 123, de 14 de dezembro de 2006 (Estatuto Nacional da Microempresa e da Empresa de Pequeno Porte / Simples Nacional)",
+        "orgao": "Presidência da República (Planalto)",
+        "data_publicacao": "2006-12-14",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp128.htm",
+        "titulo": "Lei Complementar nº 128, de 19 de dezembro de 2008 (cria o Microempreendedor Individual)",
+        "orgao": "Presidência da República (Planalto)",
+        "data_publicacao": "2008-12-19",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9317.htm",
+        "titulo": "Lei nº 9.317, de 5 de dezembro de 1996 (Simples federal)",
+        "orgao": "Presidência da República (Planalto)",
+        "data_publicacao": "1996-12-05",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1478,13 +1464,6 @@
     "veredito": "verdadeiro-com-ressalva",
     "explicacao": "O Congresso aprovou em 16 de outubro de 2026 o projeto do governo que perdoa cerca de R$ 12,6 bilhões em dívidas de 3,6 milhões de MEIs. Na data do debate faltava a sanção, e o valor oficial divulgado pela Fazenda é de R$ 12,5 bilhões.",
     "fontes": [
-      {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Ao vivo: checagem do debate entre Lula e Flávio Bolsonaro na Band",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
-        "acessado_em": "2026-10-20"
-      },
       {
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOc0E4TGVCT1JsSndYSTlBZjJjZENsX3JwLWVwXzQxZWVURnZnQTloQ1BNbEEwelV3elJ5emlyejJRX0dGV3JNVktzTWZFNEZTN25wYXdfX3FMd3Y2UVM2bnRaT3ZZSmlYQTVkaXlwT3BQRmg4UFFUdHExQUx4cUpYRjJiSTluLWwxbHlmQVRB?oc=5",
         "titulo": "R$ 12,5 bi em dívidas de MEI's serão zerados a partir de janeiro, informa Fazenda",
@@ -1500,13 +1479,6 @@
     "veredito": "verdadeiro-com-ressalva",
     "explicacao": "O projeto de orçamento de 2027 prevê superávit primário de R$ 18,6 bilhões, 0,13% do PIB. Não é a primeira previsão de superávit do mandato: a de 2025 começou com 0,25% e o ano fechou com déficit de 0,48%.",
     "fontes": [
-      {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Ao vivo: checagem do debate entre Lula e Flávio Bolsonaro na Band",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
-        "acessado_em": "2026-10-20"
-      },
       {
         "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQ3BOZVJfWHo4YjZxT01lV3F0alNTQ1ZENmEzaFJrbkpHQlZJUkVKOWI5Uk5hNjJaS2E2a3ZSelktOUt1NnNlU28yazRtcWtxUHpWQ1dDQU5paDF0bjRPU0tjTzF2WlZlN1VzYXBYa3JvUnZkMngtWmZmOXdwRVV2cmlGWnFlTEtIbGVHelJ1aHVUTS1Jc3hsd1d4ZU9tSXg0N0dlUWJQQXNCWU5qMFZNM1R1RkVDckNaQUE1c0Vtb1dCeXZUZmlKWjdQb0s2U2p0OTE1VVpLcHJqUmVPWW9NUHJIcG5lQjFQ?oc=5",
         "titulo": "Orçamento de 2027 tem previsão de superávit primário de R$ 18,6 bilhões",
@@ -1705,20 +1677,6 @@
         "orgao": "Fórum Brasileiro de Segurança Pública",
         "data_publicacao": "2026",
         "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
-        "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
-        "acessado_em": "2026-10-20"
       }
     ],
     "atualizado_em": "2026-10-20"
@@ -1733,20 +1691,6 @@
         "titulo": "20º Anuário Brasileiro de Segurança Pública: 2026",
         "orgao": "Fórum Brasileiro de Segurança Pública",
         "data_publicacao": "2026",
-        "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
-        "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1765,13 +1709,6 @@
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
-        "acessado_em": "2026-10-20"
-      },
-      {
         "url": "https://oglobo.globo.com/brasil/noticia/2026/07/23/apos-decisao-do-stf-sobre-maconha-casos-de-trafico-crescem-enquanto-registros-de-uso-e-posse-de-drogas-entram-em-queda.ghtml",
         "titulo": "Após decisão do STF sobre maconha, casos de tráfico crescem enquanto registros de uso e posse entram em queda",
         "orgao": "O Globo",
@@ -1787,17 +1724,17 @@
     "explicacao": "Pesquisa Datafolha encomendada pelo Fórum Brasileiro de Segurança Pública, publicada em maio de 2026, estima 68,7 milhões de brasileiros que convivem com facções ou milícias no bairro. Isso equivale a 41% da população com 16 anos ou mais.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://sbtnews.sbt.com.br/noticia/brasil/quase-70-milhoes-de-brasileiros-percebem-presenca-do-crime-organizado-onde-vivem",
+        "titulo": "Quase 70 milhões de brasileiros percebem presença do crime organizado onde vivem",
+        "orgao": "SBT News",
+        "data_publicacao": "2026-05-11",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
+        "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/seguranca/audio/2026-05/4-em-cada-10-brasileiros-convivem-com-faccoes-no-bairro-diz-pesquisa",
+        "titulo": "4 em cada 10 brasileiros convivem com facções no bairro, diz pesquisa",
+        "orgao": "Radioagência Nacional (EBC)",
+        "data_publicacao": "2026-05-01",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1814,13 +1751,6 @@
         "orgao": "Presidência da República",
         "data_publicacao": "2016-03-16",
         "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
-        "acessado_em": "2026-10-20"
       }
     ],
     "atualizado_em": "2026-10-20"
@@ -1831,17 +1761,24 @@
     "explicacao": "A Lei Antifacção (Lei nº 15.358/2026) foi aprovada pela Câmara e pelo Senado e sancionada em 24 de março de 2026. O projeto foi enviado pelo governo Lula; na Câmara, o relator foi Guilherme Derrite (PP-SP), da oposição.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.planalto.gov.br/ccivil_03/_Ato2023-2026/2026/Lei/L15358.htm",
+        "titulo": "Lei nº 15.358, de 24 de março de 2026 (Lei Antifacção)",
+        "orgao": "Presidência da República (Planalto)",
+        "data_publicacao": "2026-03-24",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
+        "url": "https://www.camara.leg.br/noticias/1224884-camara-aprova-marco-legal-do-combate-ao-crime-organizado/",
+        "titulo": "Câmara aprova marco legal do combate ao crime organizado",
+        "orgao": "Agência Câmara",
+        "data_publicacao": "2025-11-18",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.camara.leg.br/noticias/1247267-camara-conclui-votacao-do-projeto-de-lei-antifaccao-texto-segue-para-sancao",
+        "titulo": "Câmara conclui votação do projeto de lei antifacção; texto segue para sanção",
+        "orgao": "Agência Câmara",
+        "data_publicacao": "2026-02-24",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1852,13 +1789,6 @@
     "veredito": "exagerado",
     "explicacao": "A Lei Antifacção prevê de 20 a 40 anos de reclusão por domínio social estruturado, com aumento de dois terços até o dobro para quem lidera. O Código Penal limita o cumprimento das penas a 40 anos, salvo nova condenação por crime posterior.",
     "fontes": [
-      {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
-        "acessado_em": "2026-10-20"
-      },
       {
         "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del2848compilado.htm",
         "titulo": "Decreto-Lei nº 2.848/1940 (Código Penal), texto compilado",
@@ -1871,21 +1801,42 @@
   },
   {
     "id": "seg-08",
-    "veredito": "falso",
-    "explicacao": "Nenhuma norma prevê soltar presos por falta de vagas. Saídas antecipadas dependem de decisão judicial caso a caso, e o plano Pena Justa, do governo com o CNJ, não determina a soltura de condenados por crimes violentos.",
+    "veredito": "exagerado",
+    "explicacao": "O Plano Pena Justa, elaborado pelo CNJ e pelo Ministério da Justiça por determinação do STF na ADPF 347 e lançado em fevereiro de 2025, tem um eixo de controle da entrada e das vagas, com Centrais de Regulação de Vagas em todos os estados, ampliação de medidas diversas da prisão (penas alternativas, monitoração eletrônica) e metas de ocupação de 130%, 120% e 100% ao longo de três anos. Nenhuma norma do plano determina a soltura de condenados por crimes violentos por falta de vaga. Pela metodologia das Centrais, a meta de ocupação não impede prisões, e qualquer saída depende de decisão judicial com base na lei.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://noticias.stf.jus.br/postsnoticias/stf-homologa-plano-pena-justa-com-ressalvas/",
+        "titulo": "STF homologa Plano Pena Justa com ressalvas",
+        "orgao": "Supremo Tribunal Federal (STF)",
+        "data_publicacao": "2024-12-19",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.tjmt.jus.br/noticias/2025/2/poder-judiciario-mato-grosso-participa-lancamento-plano-pena-justa-no-stf",
+        "titulo": "Poder Judiciário de Mato Grosso participa do lançamento do Plano Pena Justa no STF",
+        "orgao": "Tribunal de Justiça de Mato Grosso (TJMT)",
+        "data_publicacao": "2025-02-12",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.cnj.jus.br/pena-justa-cnj-e-senappen-terao-oficinas-com-12-estados-sobre-controle-de-vagas/",
+        "titulo": "Pena Justa: CNJ e Senappen terão oficinas com 12 estados sobre controle de vagas",
+        "orgao": "Conselho Nacional de Justiça (CNJ)",
+        "data_publicacao": "2025-05-07",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.tjsc.jus.br/web/imprensa/-/tjsc-e-governo-do-estado-criam-a-central-de-regulacao-de-vagas-do-sistema-prisional-",
+        "titulo": "TJSC e Governo do Estado criam a Central de Regulação de Vagas do sistema prisional",
+        "orgao": "Tribunal de Justiça de Santa Catarina (TJSC)",
+        "data_publicacao": "2026-02-06",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://novogerenciador.tjma.jus.br/storage/arquivos/site_da_umf/livreto_central_de_regulacao_de_vagas_06_06_2023_11_54_55.pdf",
+        "titulo": "Central de Regulação de Vagas – livreto (seção 'Desvendando os fatos')",
+        "orgao": "Tribunal de Justiça do Maranhão (TJMA/UMF)",
+        "data_publicacao": "2023-06-06",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1894,13 +1845,20 @@
   {
     "id": "seg-09",
     "veredito": "sem-custo-estimado",
-    "explicacao": "O Brasil tem cerca de 964 mil pessoas presas, segundo a Lupa. A promessa não veio com custo, prazo ou fonte de recursos para as 500 mil vagas.",
+    "explicacao": "Segundo o Fórum Brasileiro de Segurança Pública, o Brasil tinha 964.668 pessoas presas no fim de 2025 e um déficit de 281.213 vagas. A promessa de mais de 500 mil vagas é quase o dobro desse déficit. Não foi apresentado custo, prazo ou fonte de recursos.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://fontesegura.forumseguranca.org.br/a-beira-do-colapso-carcerario-a-expansao-do-encarceramento-no-brasil-e-no-rio-grande-do-sul/",
+        "titulo": "À beira do colapso carcerário: a expansão do encarceramento no Brasil e no Rio Grande do Sul",
+        "orgao": "Fórum Brasileiro de Segurança Pública (Fonte Segura), com dados do 20º Anuário",
+        "data_publicacao": "2026-08-05",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://forumseguranca.org.br/wp-content/uploads/2026/07/anuario-2026.pdf",
+        "titulo": "20º Anuário Brasileiro de Segurança Pública 2026",
+        "orgao": "Fórum Brasileiro de Segurança Pública",
+        "data_publicacao": "2026-07-01",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1909,20 +1867,20 @@
   {
     "id": "seg-14",
     "veredito": "sem-registro-publico",
-    "explicacao": "Segundo o g1 e o Aos Fatos, Flávio atuou como advogado do PM Bruno Dias Delaroli, suspeito do tiro que matou Ana Clara, de 5 anos, em Niterói, em 2021. Ele assinou pedido para anular a decisão do STJ que mandava o PM a júri popular, e o pedido foi negado. Não há investigação ou processo contra Flávio por essa atuação.",
+    "explicacao": "Flávio atuou como advogado do PM Bruno Dias Delaroli, acusado do tiro que matou Ana Clara, de 5 anos, em Niterói, em fevereiro de 2021. Em 2024, ele assinou recurso ao STJ contra a decisão do Tribunal de Justiça do Rio que levou o caso a júri popular, e o STJ negou o pedido. Não há investigação ou processo contra Flávio por essa atuação.",
     "fontes": [
       {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
+        "url": "https://iclnoticias.com.br/flavio-bolsonaro-defesa-pm-acusado-matar-menina/",
+        "titulo": "Flávio Bolsonaro atuou na defesa de PM acusado de matar menina de 5 anos",
+        "orgao": "ICL Notícias",
+        "data_publicacao": "2026-03-31",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.poder360.com.br/poder-brasil/em-video-camila-pitanga-questiona-flavio-sobre-defesa-de-pm/",
+        "titulo": "Em vídeo, Camila Pitanga questiona Flávio sobre defesa de PM",
+        "orgao": "Poder360",
+        "data_publicacao": "2026-09-30",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1931,27 +1889,20 @@
   {
     "id": "seg-15",
     "veredito": "falso",
-    "explicacao": "O Anuário de 2026 registra 40.775 mortes violentas intencionais em 2025, queda de 8,2% sobre 2024 e a menor taxa desde 2012. Roubos de celular, veículos e comércio também caíram; feminicídios e mortes por intervenção policial subiram.",
+    "explicacao": "O 20º Anuário Brasileiro de Segurança Pública (FBSP, julho de 2026) registra 40.775 mortes violentas intencionais em 2025, queda de 8,2% sobre 2024 e menor taxa desde 2012; em 2022, último ano antes do atual governo, foram 47.963. Os roubos caíram em todas as categorias em 2025, entre elas veículos (−20,6%), transeuntes (−23,4%), estabelecimentos comerciais (−18,3%), residências (−19,9%) e celulares (−18,6%), e os latrocínios recuaram 17%, de 969 para 807 vítimas. Os estelionatos subiram 2,7%, para 2,26 milhões de registros, e os feminicídios cresceram 4%, para 1.571 vítimas.",
     "fontes": [
       {
-        "url": "https://publicacoes.forumseguranca.org.br/items/bb542342-3cf8-47a5-a51d-a0eb911914b9",
-        "titulo": "20º Anuário Brasileiro de Segurança Pública: 2026",
-        "orgao": "Fórum Brasileiro de Segurança Pública",
-        "data_publicacao": "2026",
+        "url": "https://forumseguranca.org.br/wp-content/uploads/2026/07/anuario-2026.pdf",
+        "titulo": "20º Anuário Brasileiro de Segurança Pública (2026)",
+        "orgao": "Fórum Brasileiro de Segurança Pública (FBSP)",
+        "data_publicacao": "2026-07-23",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
-        "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
+        "url": "https://forumseguranca.org.br/wp-content/uploads/2026/07/anuario-2026-infografico.pdf",
+        "titulo": "Anuário Brasileiro de Segurança Pública – Segurança em números 2026 (infográfico)",
+        "orgao": "Fórum Brasileiro de Segurança Pública (FBSP)",
+        "data_publicacao": "2026-07-23",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1960,20 +1911,13 @@
   {
     "id": "seg-16",
     "veredito": "verdadeiro-com-ressalva",
-    "explicacao": "Pelos dados do TSE, Lula teve 72,57% dos votos válidos nas seções de presídios e unidades socioeducativas no primeiro turno de 2026. Só presos provisórios e adolescentes internados votam, e as seções também recebem votos de servidores. Foram 11.186 votos válidos, cerca de 1,1% da população carcerária.",
+    "explicacao": "Pelos boletins de urna do TSE reunidos pelo Poder360, Lula teve 72,55% dos votos válidos nas 243 seções de presos provisórios no primeiro turno de 2026, e Flávio, 23,28%. Foram 11.190 votos válidos. Só presos provisórios e adolescentes internados votam, e essas seções também recebem votos de servidores e mesários.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
-        "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
+        "url": "https://www.poder360.com.br/brasil/lula-teve-726-e-flavio-233-em-presidios-no-1o-turno/",
+        "titulo": "Lula teve 72,6% e Flávio 23,3% em presídios no 1º turno",
+        "orgao": "Poder360 (com boletins de urna do TSE)",
+        "data_publicacao": "2026-10-09",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1982,20 +1926,20 @@
   {
     "id": "seg-17",
     "veredito": "sem-registro-publico",
-    "explicacao": "Como senador, Flávio defendeu o PL 3.723/2019, que elimina a exigência de marcação e código de rastreio de munições, segundo notas da CCJ do Senado de 2022 citadas pelo g1. Não há investigação ou processo sobre isso; é uma posição legislativa registrada.",
+    "explicacao": "O PL 3.723/2019, enviado pelo Poder Executivo e aprovado na Câmara, elimina a exigência de marcação e código de rastreio de munições ao revogar um artigo do Estatuto do Desarmamento. As notas da Agência Senado sobre a tramitação do projeto na CCJ, em 2022, não mencionam Flávio Bolsonaro. Não foi encontrado projeto, voto ou declaração de Flávio sobre a marcação de munições.",
     "fontes": [
       {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
+        "url": "https://www12.senado.leg.br/noticias/materias/2022/02/23/veja-as-mudancas-que-o-projeto-3-723-19-faz-no-estatuto-do-desarmamento",
+        "titulo": "Veja as mudanças que o PL 3.723/2019 faz no Estatuto do Desarmamento",
+        "orgao": "Agência Senado",
+        "data_publicacao": "2022-02-23",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www12.senado.leg.br/noticias/materias/2022/03/09/novo-pedido-de-vista-adia-votacao-de-projeto-que-amplia-acesso-a-armas",
+        "titulo": "Novo pedido de vista adia votação de projeto que amplia acesso a armas",
+        "orgao": "Agência Senado",
+        "data_publicacao": "2022-03-09",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2008,17 +1952,17 @@
     "explicacao": "A mãe e a ex-mulher do ex-capitão Adriano da Nóbrega, apontado como chefe do Escritório do Crime, trabalharam no gabinete de Flávio na Alerj até novembro de 2018. Não há registro de que a irmã tenha sido empregada. As checagens consultadas não citam processo em curso sobre essas contratações.",
     "fontes": [
       {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
+        "url": "https://www.congressoemfoco.com.br/noticia/26373/flavio-bolsonaro-empregou-em-seu-gabinete-mae-e-mulher-de-lider-de-milicia-diz-o-globo",
+        "titulo": "Flávio Bolsonaro empregou em seu gabinete mãe e mulher de líder de milícia, diz O Globo",
+        "orgao": "Congresso em Foco (com base em O Globo)",
+        "data_publicacao": "2019-01-22",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.jb.com.br/rio/2019/01/974334-queiroz-confirma-indicacao-de-mae-e-esposa-de-suspeito-de-liderar-milicia.html",
+        "titulo": "Queiroz confirma indicação de mãe e esposa de suspeito de liderar milícia",
+        "orgao": "Jornal do Brasil",
+        "data_publicacao": "2019-01-22",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2027,27 +1971,13 @@
   {
     "id": "seg-20",
     "veredito": "verdadeiro-com-ressalva",
-    "explicacao": "O Anuário de 2026 registra 1.571 feminicídios em 2025, o maior número desde 2015, e 286.270 lesões corporais em violência doméstica contra mulheres, o maior desde 2016. Parte da alta de feminicídios vem da melhora do registro, segundo o Aos Fatos.",
+    "explicacao": "O 20º Anuário Brasileiro de Segurança Pública registra 1.571 feminicídios em 2025, alta de 4% sobre 2024. Os registros de lesão corporal em violência doméstica contra mulheres subiram de 277.916 para 286.270. No mesmo ano, o total de homicídios de mulheres caiu 5,5%, e o feminicídio passou a ser crime autônomo pela Lei 14.994/2024, o que afeta a forma de classificar os casos.",
     "fontes": [
       {
         "url": "https://publicacoes.forumseguranca.org.br/items/bb542342-3cf8-47a5-a51d-a0eb911914b9",
         "titulo": "20º Anuário Brasileiro de Segurança Pública: 2026",
         "orgao": "Fórum Brasileiro de Segurança Pública",
         "data_publicacao": "2026",
-        "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
-        "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2059,17 +1989,17 @@
     "explicacao": "A pesquisa Datafolha/FBSP de 2026 estima 68,7 milhões de pessoas que convivem com facções ou milícias no bairro. Estudo publicado pela Cambridge estima entre 50 e 61 milhões sob governança criminal.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/seguranca/audio/2026-05/4-em-cada-10-brasileiros-convivem-com-faccoes-no-bairro-diz-pesquisa",
+        "titulo": "4 em cada 10 brasileiros convivem com facções no bairro, diz pesquisa",
+        "orgao": "Agência Brasil / Radioagência Nacional (EBC)",
+        "data_publicacao": "2026-05-12",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
+        "url": "https://www.gazetadopovo.com.br/brasil/brasileiros-vivem-sob-dominio-do-crime-faccoes-criminosas/",
+        "titulo": "Brasileiros vivem sob domínio do crime (estudo 'Governança criminal na América Latina: prevalência e correlações')",
+        "orgao": "Gazeta do Povo",
+        "data_publicacao": "2026-01-12",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2124,20 +2054,6 @@
     "veredito": "verdadeiro-com-ressalva",
     "explicacao": "Lula vetou em parte o fim da saída temporária e o Congresso derrubou o veto em 28 de maio de 2024. A ação no STF contra a Lei nº 14.843/2024 (ADI 7663) foi da Anacrim, não do governo.",
     "fontes": [
-      {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
-        "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
-        "acessado_em": "2026-10-20"
-      },
       {
         "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14843.htm",
         "titulo": "Lei nº 14.843/2024 (saída temporária)",
@@ -2220,10 +2136,17 @@
     "explicacao": "A promessa não veio com custo nem divisão de gastos com estados e prefeituras. O policiamento de rua é atribuição das polícias estaduais.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+        "titulo": "Constituição Federal, art. 144, §§ 5º e 6º",
+        "orgao": "Planalto (Presidência da República)",
+        "data_publicacao": "1988-10-05",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.infomoney.com.br/politica/flavio-propoe-castracao-quimica-reducao-de-maioridade-penal-e-mudanca-em-presidios/",
+        "titulo": "Flávio propõe castração química, redução de maioridade penal e mudança em presídios",
+        "orgao": "InfoMoney (Estadão Conteúdo)",
+        "data_publicacao": "2026-06-18",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2276,13 +2199,13 @@
   {
     "id": "seg-32",
     "veredito": "sem-registro-publico",
-    "explicacao": "O Aos Fatos concluiu que é falso que o governo Lula trate quem abusa de crianças como doente e não como criminoso. Não há norma ou registro público nesse sentido.",
+    "explicacao": "Não foi encontrada norma ou ato do governo Lula que trate abusadores de crianças como doentes em vez de criminosos. Em janeiro de 2024, Lula sancionou a Lei 14.811, que amplia medidas contra a violência a crianças e adolescentes e altera a Lei dos Crimes Hediondos e o ECA.",
     "fontes": [
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14811.htm",
+        "titulo": "Lei nº 14.811, de 12 de janeiro de 2024 (medidas de proteção à criança e ao adolescente contra violência; altera a Lei dos Crimes Hediondos e o ECA)",
+        "orgao": "Presidência da República (Planalto)",
+        "data_publicacao": "2024-01-12",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2298,13 +2221,6 @@
         "titulo": "Decreto-Lei nº 2.848/1940 (Código Penal), texto compilado",
         "orgao": "Presidência da República",
         "data_publicacao": "1940-12-07",
-        "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2402,13 +2318,6 @@
         "orgao": "Presidência da República",
         "data_publicacao": "1988-10-05",
         "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
-        "acessado_em": "2026-10-20"
       }
     ],
     "atualizado_em": "2026-10-20"
@@ -2419,17 +2328,24 @@
     "explicacao": "A Lei Antifacção veio do PL 5582/2025, enviado pelo governo Lula, e foi sancionada em 24 de março de 2026 com penas maiores para integrantes de facções. O texto final foi mudado pelo Congresso e difere da proposta original.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.planalto.gov.br/ccivil_03/_Ato2023-2026/2026/Lei/L15358.htm",
+        "titulo": "Lei nº 15.358, de 24 de março de 2026 (Marco Legal do Combate ao Crime Organizado – Lei Raul Jungmann)",
+        "orgao": "Presidência da República (Planalto)",
+        "data_publicacao": "2026-03-24",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
+        "url": "https://static.poder360.com.br/2026/02/Tramitacao-PL-5582-2025.pdf",
+        "titulo": "Parecer de Plenário ao Substitutivo do Senado ao PL nº 5.582/2025 (PRLP 8) – Autor: Poder Executivo",
+        "orgao": "Câmara dos Deputados (documento hospedado pelo Poder360)",
+        "data_publicacao": "2026-02-24",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.poder360.com.br/brasil/lula-sanciona-pl-antifaccao-com-veto-e-sem-alcolumbre-no-planalto/",
+        "titulo": "Lula sanciona PL Antifacção com vetos; entenda como ficou",
+        "orgao": "Poder360",
+        "data_publicacao": "2026-03-24",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2453,27 +2369,27 @@
   {
     "id": "seg-19",
     "veredito": "verdadeiro-com-ressalva",
-    "explicacao": "Levantamento dos institutos Sou da Paz e Igarapé, com dados da PF e do Exército, registra mais de 1 milhão de novas armas particulares de 2019 a 2022, e investigações apontam desvio para o crime. A Lupa não encontrou dado oficial que comprove 1,1 bilhão de munições liberadas; o Decreto 9.797/2019 permitia a compra de até 2,1 bilhões.",
+    "explicacao": "Dados da PF e do Exército obtidos pelos institutos Sou da Paz e Igarapé mostram que as armas particulares registradas passaram de 1,32 milhão em 2018 para 2,97 milhões em 2022, alta de cerca de 1,64 milhão. Segundo cálculo da BBC News Brasil, o Decreto 9.797/2019 permitia a compra de pelo menos 2,1 bilhões de munições, mas esse é o limite permitido, não o total vendido. Não foi encontrado dado oficial sobre quantas dessas armas foram desviadas para o crime organizado.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.poder360.com.br/brasil/brasil-tem-3-milhoes-de-armas-particulares-registradas-em-2022/",
+        "titulo": "Brasil tem 3 milhões de armas particulares registradas em 2022",
+        "orgao": "Poder360 (dados dos institutos Sou da Paz e Igarapé via LAI)",
+        "data_publicacao": "2023-02-13",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
+        "url": "https://www.terra.com.br/noticias/brasil/com-decreto-de-bolsonaro-mais-de-2-bilhoes-de-municoes-podem-ser-compradas-por-brasileiros-que-ja-tem-armas,5f592f7f7e26d9bb1559083a5d2bfb7dlzodtgyg.html",
+        "titulo": "Com decreto de Bolsonaro, mais de 2 bilhões de munições podem ser compradas por brasileiros que já têm armas",
+        "orgao": "BBC News Brasil (republicado pelo Terra)",
+        "data_publicacao": "2019-05-27",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9797.htm",
+        "titulo": "Decreto nº 9.797, de 21 de maio de 2019",
+        "orgao": "Presidência da República (Planalto)",
+        "data_publicacao": "2019-05-21",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2489,13 +2405,6 @@
         "titulo": "Lei nº 14.843/2024 (saída temporária)",
         "orgao": "Presidência da República",
         "data_publicacao": "2024-04-11",
-        "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2536,10 +2445,17 @@
     "explicacao": "Em entrevista à CNN no sábado, 17 de outubro, Roberta Luchsinger disse que Lula sabia de reuniões do filho com ministros. Ela é investigada pela PF por suposto tráfico de influência, e não há acusação na Justiça contra Lula.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.cnnbrasil.com.br/politica/a-cnn-roberta-luchsinger-rebate-lula-se-sou-pilantra-eles-tambem-sao/",
+        "titulo": "À CNN, Roberta Luchsinger rebate Lula: \"Se sou pilantra, eles também são\"",
+        "orgao": "CNN Brasil",
+        "data_publicacao": "2026-10-17",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.cnnbrasil.com.br/politica/luchsinger-diz-a-cnn-que-lulinha-sentou-inumeras-vezes-com-ministros/",
+        "titulo": "Luchsinger diz à CNN que Lulinha sentou \"inúmeras vezes\" com ministros",
+        "orgao": "CNN Brasil",
+        "data_publicacao": "2026-10-17",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2548,20 +2464,13 @@
   {
     "id": "cor-03",
     "veredito": "ha-investigacao",
-    "explicacao": "A PF investiga Fábio Luís Lula da Silva em três inquéritos autorizados pelo STF, um deles sobre o acesso do Careca do INSS a integrantes do governo. O Aos Fatos concluiu que é falso que o Careca do INSS tenha feito parte do governo Lula.",
+    "explicacao": "A PF investiga Fábio Luís Lula da Silva em três inquéritos autorizados pelo STF em 2026, e um deles apura tráfico de influência para favorecer o Careca do INSS no Ministério da Saúde e no gabinete presidencial. Segundo a BBC News Brasil, o Careca do INSS é descrito como lobista, não como integrante do governo. A defesa de Lulinha confirma que ele viajou a Portugal a convite do Careca do INSS, mas diz que os dois nunca tiveram negócios juntos.",
     "fontes": [
       {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
-        "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.opovo.com.br/agencia/bbc/2026/08/04/amp/as-3-investigacoes-contra-lulinha-autorizadas-pelo-stf.html",
+        "titulo": "As 3 investigações contra Lulinha autorizadas pelo STF",
+        "orgao": "BBC News Brasil (via O Povo)",
+        "data_publicacao": "2026-08-04",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2569,14 +2478,28 @@
   },
   {
     "id": "cor-09",
-    "veredito": "verdadeiro-com-ressalva",
-    "explicacao": "A PF e a CGU desarticularam o esquema de descontos indevidos, e o governo devolveu mais de R$ 3,5 bilhões a aposentados e pensionistas. A recuperação dos valores desviados ainda depende de processos judiciais, segundo o Aos Fatos.",
+    "veredito": "exagerado",
+    "explicacao": "A PF e a CGU desarticularam o esquema de descontos indevidos com a Operação Sem Desconto. Até julho de 2026, o INSS havia devolvido R$ 3,26 bilhões a 4,8 milhões de aposentados e pensionistas, abaixo dos R$ 3,5 bilhões citados. O esquema é estimado em até R$ 6,3 bilhões, mas esse é o valor desviado, não o recuperado: a AGU pediu o bloqueio de R$ 2,56 bilhões em bens.",
     "fontes": [
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.bandab.com.br/?p=1959029",
+        "titulo": "INSS paga R$ 3,2 bilhões a quase 5 milhões de beneficiários após descontos indevidos",
+        "orgao": "Banda B",
+        "data_publicacao": "2026-07-24",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://diariodopara.com.br/seu-bolso/inss-ja-devolveu-mais-de-r-3-bilhoes-a-aposentados-vitimas-de-descontos-indevidos/",
+        "titulo": "INSS já devolveu mais de R$ 3 bilhões a aposentados vítimas de descontos indevidos",
+        "orgao": "Diário do Pará (dados do INSS)",
+        "data_publicacao": "2026-04-06",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.congressoemfoco.com.br/noticia/108362/agu-solicita-bloqueio-de-r-2-56-bilhoes-por-fraudes-no-inss",
+        "titulo": "AGU solicita bloqueio de R$ 2,56 bilhões por fraudes no INSS",
+        "orgao": "Congresso em Foco",
+        "data_publicacao": "2025-05-08",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2585,13 +2508,13 @@
   {
     "id": "cor-13",
     "veredito": "verdadeiro",
-    "explicacao": "O Aos Fatos contou 43 declarações falsas de Flávio Bolsonaro até setembro de 2026. O número é o citado por Lula.",
+    "explicacao": "Levantamento do Aos Fatos publicado em 24 de setembro de 2026 contou ao menos 43 declarações falsas ou enganosas de Flávio Bolsonaro sobre sua relação com Daniel Vorcaro e o caso Banco Master. O número é o citado por Lula.",
     "fontes": [
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
+        "url": "https://www.aosfatos.org/noticias/flavio-mentiu-ao-menos-43-vezes-sobre-envolvimento-com-vorcaro/",
+        "titulo": "Flávio mentiu ao menos 43 vezes sobre elo com Vorcaro",
         "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "data_publicacao": "2026-09-24",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2600,13 +2523,20 @@
   {
     "id": "cor-15",
     "veredito": "sem-registro-publico",
-    "explicacao": "O Aos Fatos concluiu que não foi só a bancada do PT que apresentou emendas para flexibilizar o controle dos descontos do INSS. Não há investigação ou processo sobre essas emendas.",
+    "explicacao": "Na MP 871/2019, ao menos 12 emendas contra a revalidação anual dos descontos foram apresentadas: 8 do PT e uma cada de PCdoB, MDB, PSB e PSDB, segundo a Gazeta do Povo. Na MP 1.107/2022, a revogação da revalidação foi incluída pelo relator Luis Miranda (Republicanos), segundo a CNN Brasil. Não foi só a bancada do PT, e não há investigação ou processo sobre essas emendas.",
     "fontes": [
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.gazetadopovo.com.br/economia/esquerda-lutou-contra-fiscalizacao-descontos-aposentados/",
+        "titulo": "Esquerda lutou contra fiscalização dos descontos do INSS",
+        "orgao": "Gazeta do Povo",
+        "data_publicacao": "2025-05-16",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/politica/congresso-flexibilizou-regra-que-restringia-esquema-no-inss/",
+        "titulo": "Congresso flexibilizou regra que restringia esquema no INSS",
+        "orgao": "CNN Brasil",
+        "data_publicacao": "2025-04-24",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2618,17 +2548,17 @@
     "explicacao": "A revista Veja publicou o suposto áudio em 9 de outubro de 2026, sem comprovante de pagamento. PF e PGR negaram que Vorcaro tenha prestado depoimento ou entregue documentos sobre o tema. Não há investigação aberta contra o Instituto Lula por esse repasse.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.correiodamanha.com.br/politica/2026/10/326097-pf-e-pgr-negam-audios-de-vorcaro-sobre-filme-de-lula.html",
+        "titulo": "PF e PGR negam áudios de Vorcaro sobre filme de Lula",
+        "orgao": "Correio da Manhã",
+        "data_publicacao": "2026-10-11",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
+        "url": "https://mais.opovo.com.br/jornal/politica/2026/10/10/audio-de-vorcaro-fala-de-dinheiro-em-filme-de-lula-pf-e-pgr-negam-que-esteja-em-delacao.html",
+        "titulo": "Áudio de Vorcaro fala de dinheiro em filme de Lula; PF e PGR negam que esteja em delação",
+        "orgao": "O Povo",
+        "data_publicacao": "2026-10-10",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2641,17 +2571,24 @@
     "explicacao": "A primeira prisão de Vorcaro, em 17 de novembro de 2025, foi ordenada por um juiz da 10ª Vara Federal de Brasília. A prisão preventiva atual foi decretada pelo ministro André Mendonça em 4 de março de 2026. Em nenhum dos casos a ordem partiu do governo.",
     "fontes": [
       {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
+        "url": "https://www.gazetadopovo.com.br/republica/pf-prende-daniel-vorcaro-dono-do-banco-master/",
+        "titulo": "PF prende Daniel Vorcaro, dono do Banco Master",
+        "orgao": "Gazeta do Povo",
+        "data_publicacao": "2025-11-18",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://revistaoeste.com/politica/advogado-pressionou-juiz-horas-antes-da-prisao-de-vorcaro-diz-pf/",
+        "titulo": "Advogado pressionou juiz horas antes da prisão de Vorcaro, diz PF",
+        "orgao": "Revista Oeste",
+        "data_publicacao": "2026-03-13",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://forbes.com.br/geral/2026/03/vorcaro-volta-a-ser-preso-em-nova-fase-de-operacao-sobre-master-ex-diretor-do-bc-usara-tornozeleira/",
+        "titulo": "Vorcaro volta a ser preso em nova fase de operação sobre Master; ex-diretor do BC usará tornozeleira",
+        "orgao": "Forbes Brasil",
+        "data_publicacao": "2026-03-04",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2663,17 +2600,17 @@
     "explicacao": "Flávio comprou em 2021 uma casa no Lago Sul por R$ 5,97 milhões, com R$ 3,1 milhões financiados pelo BRB, e quitou a dívida três anos depois. O financiamento é investigado pela PF na operação Compliance Zero. O valor não é de R$ 10 milhões.",
     "fontes": [
       {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
+        "url": "https://www.poder360.com.br/congresso/flavio-bolsonaro-nega-irregularidades-em-compra-de-mansao-por-r-6-milhoes/",
+        "titulo": "Flávio Bolsonaro nega irregularidades em compra de mansão por R$ 6 milhões",
+        "orgao": "Poder360",
+        "data_publicacao": "2021-03-02",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.diariodepernambuco.com.br/politica/2026/10/11725606-pf-apura-condicoes-de-financiamento-do-brb-a-flavio-bolsonaro-para-mansao-de-rs-6-milhoes.html",
+        "titulo": "PF apura condições de financiamento do BRB a Flávio Bolsonaro para mansão de R$ 6 milhões",
+        "orgao": "Diário de Pernambuco (conteúdo Estadão)",
+        "data_publicacao": "2026-10-02",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2686,17 +2623,17 @@
     "explicacao": "Lula foi condenado em primeira e segunda instância e teve a condenação do tríplex mantida pelo STJ. O STF não o condenou: em 2021, anulou as condenações por incompetência da 13ª Vara de Curitiba.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.poder360.com.br/justica/stf-confirma-anulacao-das-decisoes-da-justica-de-curitiba/",
+        "titulo": "Plenário do STF anula condenações de Lula na Lava Jato",
+        "orgao": "Poder360",
+        "data_publicacao": "2021-04-15",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
+        "url": "https://monitormercantil.com.br/stj-reduz-pena-de-lula-de-12-para-8-anos-de-prisao-no-caso-do-triplex/",
+        "titulo": "STJ reduz pena de Lula de 12 para 8 anos de prisão no caso do tríplex",
+        "orgao": "Monitor Mercantil",
+        "data_publicacao": "2019-04-23",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2720,20 +2657,20 @@
   {
     "id": "int-01",
     "veredito": "ha-condenacao",
-    "explicacao": "Eduardo Bolsonaro mora nos Estados Unidos desde março de 2025 e disse atuar junto ao governo Trump por sanções a ministros do STF. Em 2026, a Primeira Turma do STF o condenou a 4 anos e 2 meses por tentar interferir no julgamento do pai.",
+    "explicacao": "Eduardo Bolsonaro está nos Estados Unidos desde o fim de fevereiro de 2025 e anunciou em março daquele ano que ficaria no país. Em 16 de junho de 2026, a Primeira Turma do STF o condenou a 4 anos e 2 meses, em regime semiaberto, por coação no curso do processo sobre a tentativa de golpe. Segundo o STF, a condenação se refere à atuação dele junto a autoridades dos EUA para pressionar ministros do tribunal.",
     "fontes": [
       {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
+        "url": "https://noticias.stf.jus.br/postsnoticias/stf-condena-eduardo-bolsonaro-por-coacao-no-curso-do-processo-sobre-tentativa-de-golpe/",
+        "titulo": "STF condena Eduardo Bolsonaro por coação no curso do processo sobre tentativa de golpe",
+        "orgao": "Supremo Tribunal Federal",
+        "data_publicacao": "2026-06-16",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.opovo.com.br/noticias/brasil/2025/03/20/eduardo-bolsonaro-cogita-se-licenciar-e-permanecer-nos-eua.html",
+        "titulo": "Eduardo Bolsonaro cogita se licenciar e permanecer nos EUA",
+        "orgao": "O Povo",
+        "data_publicacao": "2025-03-20",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2746,17 +2683,17 @@
     "explicacao": "Eduardo Bolsonaro foi condenado pela Primeira Turma do STF em 2026 por tentar interferir no julgamento do pai, a partir da atuação nos Estados Unidos. A condenação é individual; não há processo contra os demais membros da família por isso.",
     "fontes": [
       {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
+        "url": "https://noticias.stf.jus.br/postsnoticias/stf-condena-eduardo-bolsonaro-por-coacao-no-curso-do-processo-sobre-tentativa-de-golpe/",
+        "titulo": "STF condena Eduardo Bolsonaro por coação no curso do processo sobre tentativa de golpe",
+        "orgao": "Supremo Tribunal Federal",
+        "data_publicacao": "2026-06-16",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.infomoney.com.br/?p=3374815",
+        "titulo": "Por unanimidade, STF condena Eduardo Bolsonaro a 4 anos e 2 meses por coação",
+        "orgao": "InfoMoney",
+        "data_publicacao": "2026-06-16",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2769,17 +2706,17 @@
     "explicacao": "A tarifa adicional dos EUA entrou em vigor em agosto de 2025, e o PIB do Brasil cresceu 2,3% em 2025, segundo o IBGE. O crescimento foi menor que o de 2024, de 3,4%.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.whitehouse.gov/presidential-actions/2025/07/addressing-threats-to-the-us/",
+        "titulo": "Addressing Threats to The United States by the Government of Brazil (Executive Order 14323)",
+        "orgao": "The White House",
+        "data_publicacao": "2025-07-30",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
+        "url": "https://www.bemparana.com.br/noticias/economia/pib-do-brasil-fecha-2025-com-alta-de-23-mas-com-ritmo-abaixo-dos-anos-anteriores/",
+        "titulo": "PIB do Brasil fecha 2025 com alta de 2,3%, mas com ritmo abaixo dos anos anteriores",
+        "orgao": "Bem Paraná (dados IBGE)",
+        "data_publicacao": "2026-03-03",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2791,17 +2728,17 @@
     "explicacao": "Flávio falou em audiência do USTR em 7 de julho de 2026. O governo mandou diplomatas como observadores e manteve negociações com o USTR, com quatro reuniões do ministro do MDIC entre maio e julho de 2026.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.poder360.com.br/poder-internacional/embaixada-do-brasil-nos-eua-envia-observadores-a-audiencia-do-ustr/",
+        "titulo": "Embaixada do Brasil nos EUA envia observadores à audiência do USTR",
+        "orgao": "Poder360",
+        "data_publicacao": "2026-07-06",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
+        "url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/2026/julho/nota-a-imprensa",
+        "titulo": "Nota à imprensa - Reunião com representante de Comércio dos Estados Unidos",
+        "orgao": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC)",
+        "data_publicacao": "2026-07-02",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2810,13 +2747,13 @@
   {
     "id": "int-07",
     "veredito": "sem-registro-publico",
-    "explicacao": "O Aos Fatos concluiu que é falso que Lula tenha ido aos Estados Unidos defender organizações criminosas. Não há registro público desse pedido.",
+    "explicacao": "Após a reunião na Casa Branca em 7 de maio de 2026, Lula disse que a classificação de PCC e CV como organizações terroristas não foi discutida com Trump. Segundo ele, a proposta levada foi um grupo de trabalho internacional contra o crime organizado. Não há registro público de pedido para que as facções não fossem classificadas.",
     "fontes": [
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.itatiaia.com.br/politica/lula-diz-que-nao-discutiu-sobre-pcc-e-comando-vermelho-com-trump",
+        "titulo": "Lula diz que não discutiu sobre PCC e Comando Vermelho com Trump",
+        "orgao": "Itatiaia",
+        "data_publicacao": "2026-05-07",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -3023,7 +2960,7 @@
   {
     "id": "cor-17",
     "veredito": "ha-investigacao",
-    "explicacao": "Reportagens de maio de 2026 mostraram que Flávio negociou com Daniel Vorcaro cerca de R$ 134 milhões para o filme \"Dark Horse\", sobre Jair Bolsonaro; Flávio admitiu ter pedido o dinheiro como patrocínio privado e nega irregularidade. Segundo o mediador citado pela Aos Fatos, foram repassados cerca de R$ 61 milhões, não os R$ 134 milhões, por meio de empresa ligada a Vorcaro a um fundo no Texas, e a produtora diz que nenhum valor de Vorcaro entrou no filme. Em julho de 2026 o ministro André Mendonça, do STF, autorizou inquérito da PF que tem Flávio entre os investigados por suspeita de corrupção, lavagem de dinheiro e evasão de divisas.",
+    "explicacao": "Reportagens de maio de 2026 mostraram que Flávio negociou com Daniel Vorcaro cerca de R$ 134 milhões para o filme \"Dark Horse\", sobre Jair Bolsonaro; Flávio admitiu ter pedido o dinheiro como patrocínio privado e nega irregularidade. Segundo o mediador da negociação, foram repassados cerca de R$ 61 milhões, por meio de empresa ligada a Vorcaro, a um fundo no Texas, e a produtora diz que nenhum valor de Vorcaro entrou no filme. Em julho de 2026, o ministro André Mendonça, do STF, autorizou inquérito da PF que tem Flávio entre os investigados por suspeita de corrupção, lavagem de dinheiro e evasão de divisas.",
     "fontes": [
       {
         "url": "https://www.aosfatos.org/noticias/flavio-bolsonaristas-vorcaro-lula-filme/",

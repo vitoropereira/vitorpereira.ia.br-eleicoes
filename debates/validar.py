@@ -45,6 +45,8 @@ RE_ID = re.compile(r"^[a-z]+-\d{2}$")
 RE_TS = re.compile(r"^\d{1,2}:\d{2}(?::\d{2})?$")
 RE_MARCA = re.compile(r"^\*\*(\d{1,2}:\d{2}(?::\d{2})?)\*\* — (.*)$")
 RE_SECAO = re.compile(r"^## (.*)$")
+# vídeo de onde saiu a transcrição: os tempos das afirmações viram link para o mesmo segundo nele
+RE_VIDEO = re.compile(r"^https://(www\.youtube\.com/watch\?v=|youtu\.be/)[\w-]{11}$")
 
 
 def _norm(s):
@@ -112,6 +114,8 @@ def validar_debate(debate):
             erros.append(f"debate.json: ano {debate['ano']} não bate com a data {debate['data']!r}")
     if "publicado_em" in debate and (not isinstance(debate["publicado_em"], str) or _data_iso(debate["publicado_em"]) is None):
         erros.append(f"debate.json: publicado_em {debate['publicado_em']!r} não é AAAA-MM-DD")
+    if "video" in debate and not (isinstance(debate["video"], str) and RE_VIDEO.match(debate["video"])):
+        erros.append(f"debate.json: video {debate['video']!r} não é https://www.youtube.com/watch?v=<id> nem https://youtu.be/<id>")
     if all(isinstance(debate.get(c), str) for c in ("slug", "cargo", "emissora")) and type(debate.get("turno")) is int:
         esperado = f"{slugificar(debate['cargo'])}-{debate['turno']}-turno-{slugificar(debate['emissora'])}"
         if debate["slug"] != esperado:
