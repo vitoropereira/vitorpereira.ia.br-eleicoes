@@ -426,7 +426,8 @@ class SitePublicado(unittest.TestCase):
     def test_nenhum_rotulo_sem_sigla(self):
         self.maxDiff = None
         cand = candidatos_site()
-        paginas = sorted((R / "site").rglob("*.html"))
+        # /debates/ fica de fora: lá o nome vem em fala citada, manchete de fonte e explicação, que não levam sigla
+        paginas = sorted(p for p in (R / "site").rglob("*.html") if p.relative_to(R / "site").parts[0] != "debates")
         self.assertGreater(len(paginas), 1000)
         achados = {str(a.relative_to(R / "site")): x[:3] for a in paginas if (x := achados_rastro(a.read_text(encoding="utf-8"), cand))}
         self.assertEqual(achados, {})
