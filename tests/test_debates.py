@@ -73,7 +73,7 @@ class TestValidarDebate(unittest.TestCase):
     def test_campos_invalidos(self):
         for mudar in ({"fonte_transcricao": "manual"}, {"data": "18/10/2026"}, {"data": "2026-13-40"},
                       {"turno": "2"}, {"turno": True}, {"ano": "2026"}, {"slug": "presidente-2-turno-globo"},
-                      {"candidatos": []}, {"candidatos": "fulano"}):
+                      {"candidatos": []}, {"candidatos": "fulano"}, {"ano": 2025}):
             with self.subTest(**{k: repr(v) for k, v in mudar.items()}):
                 self.assertTrue(vd.validar_debate(debate(**mudar)))
 
@@ -90,6 +90,14 @@ class TestValidarDebate(unittest.TestCase):
         self.assertTrue(vd.validar_debate(debate(candidatos=[{**bom, "id": "Fulano PL"}])))
         self.assertTrue(vd.validar_debate(debate(candidatos=[{**bom, "id": "mediacao"}])))
         self.assertTrue(vd.validar_debate(debate(candidatos=["fulano-pl"])))
+        for id_tse in (280002551544, "", "28x"):
+            with self.subTest(id_tse=id_tse):
+                self.assertTrue(any("id_tse" in e for e in vd.validar_debate(debate(candidatos=[{**bom, "id_tse": id_tse}]))))
+
+    def test_pasta_tem_que_ser_ano_slug(self):
+        self.assertEqual(vd.validar_pasta(Path("x/2026/presidente-2-turno-band"), debate()), [])
+        self.assertTrue(vd.validar_pasta(Path("x/2025/presidente-2-turno-band"), debate()))
+        self.assertTrue(vd.validar_pasta(Path("x/2026-10-18-band"), debate()))
 
     def test_candidato_repetido(self):
         c = {"id": "fulano-pl", "nome_urna": "Fulano", "partido": "PL"}
@@ -197,7 +205,9 @@ class TestValidar(unittest.TestCase):
 
     def test_main(self):
         with tempfile.TemporaryDirectory() as tmp:
-            d = Path(tmp)
+            d = Path(tmp) / "2026" / "presidente-2-turno-band"
+            self.assertEqual(vd.main([str(d)]), 1)  # pasta sem os arquivos: erro, não traceback
+            d.mkdir(parents=True)
             (d / "transcricao.md").write_text(TRANSCRICAO, encoding="utf-8")
             (d / "debate.json").write_text(json.dumps(debate()), encoding="utf-8")
             (d / "afirmacoes.json").write_text(json.dumps([item()]), encoding="utf-8")
@@ -211,15 +221,18 @@ class TestValidar(unittest.TestCase):
 
 class TestDebatesPublicados(unittest.TestCase):
     def test_afirmacoes_reais(self):
-        pastas = sorted(p.parent for p in (RAIZ / "debates").glob("*/*/afirmacoes.json"))
-        self.assertTrue(pastas, "nenhum debates/<ano>/<slug>/afirmacoes.json")
+        anos = [p for p in (RAIZ / "debates").iterdir() if p.is_dir() and not p.name.startswith(("_", "."))]
+        for p in anos:
+            self.assertRegex(p.name, r"^\d{4}$", "debates/ só tem pastas <ano>/<slug>")
+        pastas = sorted(p for a in anos for p in a.iterdir() if p.is_dir())
+        self.assertTrue(pastas, "nenhum debates/<ano>/<slug>/")
         for pasta in pastas:
             with self.subTest(debate=f"{pasta.parent.name}/{pasta.name}"):
                 deb = json.loads((pasta / "debate.json").read_text(encoding="utf-8"))
                 itens = json.loads((pasta / "afirmacoes.json").read_text(encoding="utf-8"))
                 transcricao = (pasta / "transcricao.md").read_text(encoding="utf-8")
                 self.assertEqual(vd.validar_debate(deb), [])
-                self.assertEqual((pasta.parent.name, pasta.name), (str(deb["ano"]), deb["slug"]))
+                self.assertEqual(vd.validar_pasta(pasta, deb), [])
                 self.assertEqual(vd.validar(itens, transcricao, deb), [])
                 quem = Counter(i["quem"] for i in itens)
                 for q in [c["id"] for c in deb["candidatos"]] + ["mediacao"]:

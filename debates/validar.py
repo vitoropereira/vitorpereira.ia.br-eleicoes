@@ -65,10 +65,13 @@ def slugificar(s):
 
 
 def _data_iso(s):
+    """date de uma string AAAA-MM-DD válida, senão None."""
+    if not RE_DATA.match(s):
+        return None
     try:
-        return bool(RE_DATA.match(s)) and date.fromisoformat(s) is not None
+        return date.fromisoformat(s)
     except ValueError:
-        return False
+        return None
 
 
 def validar_debate(debate):
@@ -84,8 +87,12 @@ def validar_debate(debate):
             erros.append(f"debate.json: falta o campo {c!r} (inteiro)")
     if isinstance(debate.get("fonte_transcricao"), str) and debate["fonte_transcricao"] not in FONTES:
         erros.append(f"debate.json: fonte_transcricao {debate['fonte_transcricao']!r} fora de {list(FONTES)}")
-    if isinstance(debate.get("data"), str) and not _data_iso(debate["data"]):
-        erros.append(f"debate.json: data {debate['data']!r} não é AAAA-MM-DD")
+    if isinstance(debate.get("data"), str):
+        d = _data_iso(debate["data"])
+        if d is None:
+            erros.append(f"debate.json: data {debate['data']!r} não é AAAA-MM-DD")
+        elif type(debate.get("ano")) is int and d.year != debate["ano"]:
+            erros.append(f"debate.json: ano {debate['ano']} não bate com a data {debate['data']!r}")
     if all(isinstance(debate.get(c), str) for c in ("slug", "cargo", "emissora")) and type(debate.get("turno")) is int:
         esperado = f"{slugificar(debate['cargo'])}-{debate['turno']}-turno-{slugificar(debate['emissora'])}"
         if debate["slug"] != esperado:
@@ -102,6 +109,8 @@ def validar_debate(debate):
         for k in CANDIDATO:
             if not isinstance(c.get(k), str) or not c[k].strip():
                 erros.append(f"debate.json: candidato {n} sem {k!r}")
+        if "id_tse" in c and not (isinstance(c["id_tse"], str) and c["id_tse"].isdigit()):
+            erros.append(f"debate.json: candidato {n} com id_tse {c['id_tse']!r} (string só de dígitos)")
         i = c.get("id")
         if isinstance(i, str):
             if not RE_SLUG.match(i) or i == MEDIACAO:
@@ -110,6 +119,17 @@ def validar_debate(debate):
                 erros.append(f"debate.json: id de candidato {i!r} repetido")
             vistos.add(i)
     return erros
+
+
+def validar_pasta(pasta, debate):
+    """Erros de lugar: a pasta tem que ser <ano>/<slug> do debate.json."""
+    if not isinstance(debate, dict):
+        return []
+    pasta = Path(pasta).resolve()
+    esperado = (str(debate.get("ano")), debate.get("slug"))
+    if (pasta.parent.name, pasta.name) != esperado:
+        return [f"pasta {pasta.parent.name}/{pasta.name} devia ser {esperado[0]}/{esperado[1]}"]
+    return []
 
 
 def _quem(debate):
@@ -179,9 +199,14 @@ def main(argv=None):
         print("uso: python3 debates/validar.py <pasta do debate>", file=sys.stderr)
         return 2
     pasta = Path(argv[0])
-    debate = json.loads((pasta / "debate.json").read_text(encoding="utf-8"))
-    itens = json.loads((pasta / "afirmacoes.json").read_text(encoding="utf-8"))
-    erros = validar_debate(debate) + validar(itens, (pasta / "transcricao.md").read_text(encoding="utf-8"), debate)
+    try:
+        debate = json.loads((pasta / "debate.json").read_text(encoding="utf-8"))
+        itens = json.loads((pasta / "afirmacoes.json").read_text(encoding="utf-8"))
+        transcricao = (pasta / "transcricao.md").read_text(encoding="utf-8")
+    except (OSError, ValueError) as e:
+        print(f"{pasta}: {e}", file=sys.stderr)
+        return 1
+    erros = validar_debate(debate) + validar_pasta(pasta, debate) + validar(itens, transcricao, debate)
     for e in erros:
         print(e, file=sys.stderr)
     if erros:
