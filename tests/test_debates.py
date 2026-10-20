@@ -295,9 +295,15 @@ class TestValidarChecagens(unittest.TestCase):
     def test_datas(self):
         for kw in ({"atualizado_em": "20/10/2026"}, {"atualizado_em": "2026-02-30"},
                    {"atualizado_em": "2026-10-21"}, {"fontes": [fonte(acessado_em="2026-10-21")]},
-                   {"fontes": [fonte(data_publicacao="2026-3-3")]}):
+                   {"fontes": [fonte(data_publicacao="2026-3-3")]}, {"fontes": [fonte(data_publicacao="2026-13")]},
+                   {"fontes": [fonte(data_publicacao="2027")]}, {"fontes": [fonte(acessado_em="2026")]}):
             with self.subTest(**{k: repr(v) for k, v in kw.items()}):
                 self.assertTrue(self.erros(checagem(**kw)))
+
+    def test_data_publicacao_so_com_ano_ou_mes(self):
+        for d in ("2026", "2026-07", "1988-10-05"):
+            with self.subTest(data_publicacao=d):
+                self.assertEqual(self.erros(checagem(fontes=[fonte(data_publicacao=d)])), [])
 
     def test_main_valida_checagens_quando_existem(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -312,7 +318,8 @@ class TestValidarChecagens(unittest.TestCase):
             self.assertEqual(vd.main([str(d)]), 1)
 
 
-TEMAS_CHECADOS = {"economia", "social", "saude", "outros"}  # a #88 acrescenta seguranca, internacional, corrupcao
+# corrupcao-acusacoes e internacional entram quando a checagem deles fechar (resto da #88)
+TEMAS_CHECADOS = {"economia", "social", "saude", "outros", "seguranca"}
 
 
 class TestDebatesPublicados(unittest.TestCase):
@@ -327,6 +334,9 @@ class TestDebatesPublicados(unittest.TestCase):
                           if i["autoria"] == "certa" and i["tema"] in TEMAS_CHECADOS and i["id"] not in ids]
                 self.assertEqual(faltam, [], "afirmação certa sem checagem")
                 self.assertEqual([i["id"] for i in itens if i["autoria"] == "incerta" and i["id"] in ids], [])
+                data = json.loads((pasta.parent / "debate.json").read_text(encoding="utf-8"))["data"]
+                antes = [c["id"] for c in chs for f in c["fontes"] if f["acessado_em"] < data]
+                self.assertEqual(antes, [], "fonte acessada antes do debate")
 
     def test_ha_checagens_do_debate_da_band(self):
         self.assertTrue((RAIZ / "debates/2026/presidente-2-turno-band/checagens.json").exists())

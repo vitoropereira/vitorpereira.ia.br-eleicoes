@@ -39,6 +39,7 @@ FRASES = (2, 4)
 
 RE_SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 RE_DATA = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+RE_ANO_MES = re.compile(r"^\d{4}(-\d{2})?$")
 RE_ID = re.compile(r"^[a-z]+-\d{2}$")
 RE_TS = re.compile(r"^\d{1,2}:\d{2}(?::\d{2})?$")
 RE_MARCA = re.compile(r"^\*\*(\d{1,2}:\d{2}(?::\d{2})?)\*\* — (.*)$")
@@ -80,6 +81,13 @@ def _data_iso(s):
         return date.fromisoformat(s)
     except ValueError:
         return None
+
+
+def _data_parcial(s):
+    """Primeiro dia de AAAA, AAAA-MM ou AAAA-MM-DD (publicação que só tem ano ou mês), senão None."""
+    if RE_ANO_MES.match(s):
+        s += "-01-01" if len(s) == 4 else "-01"
+    return _data_iso(s)
 
 
 def validar_debate(debate):
@@ -214,10 +222,10 @@ def validar_checagens(checagens, itens, hoje=None):
         if isinstance(itens, list) else {}
     erros, vistos = [], set()
 
-    def data(nome, campo, v):
-        d = _data_iso(v) if isinstance(v, str) else None
+    def data(nome, campo, v, parcial=False):
+        d = (_data_parcial if parcial else _data_iso)(v) if isinstance(v, str) else None
         if d is None:
-            erros.append(f"{nome}: {campo} {v!r} não é AAAA-MM-DD")
+            erros.append(f"{nome}: {campo} {v!r} não é {'AAAA, AAAA-MM ou ' if parcial else ''}AAAA-MM-DD")
         elif d > hoje:
             erros.append(f"{nome}: {campo} {v!r} é depois de hoje")
 
@@ -267,7 +275,7 @@ def validar_checagens(checagens, itens, hoje=None):
                 erros.append(f"{fn}: url {f['url']!r} não começa com https://")
             for c in ("data_publicacao", "acessado_em"):
                 if isinstance(f.get(c), str) and f[c].strip():
-                    data(fn, c, f[c])
+                    data(fn, c, f[c], parcial=c == "data_publicacao")
     return erros
 
 
@@ -303,6 +311,9 @@ def main(argv=None):
     if checagens is not None:
         print(f"{len(checagens)} checagens: " + ", ".join(
             f"{k}={v}" for k, v in sorted(Counter(c["veredito"] for c in checagens).items())))
+        quem = {i["id"]: i["quem"] for i in itens}
+        print("quem×veredito: " + ", ".join(f"{x}/{y}={v}" for (x, y), v in
+                                             sorted(Counter((quem[c["id"]], c["veredito"]) for c in checagens).items())))
     return 0
 
 

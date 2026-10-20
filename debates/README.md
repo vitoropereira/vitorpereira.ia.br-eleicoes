@@ -141,10 +141,14 @@ A checagem fica em `checagens.json`, ao lado de `afirmacoes.json`: uma lista com
 - `fontes`: pelo menos uma, com os cinco campos e `url` `https://`. Em `sem-evidencia` e `nao-checavel`, a fonte é o
   que foi consultado e não confirmou. Órgão oficial primeiro; reportagem não é fonte única quando ele existe.
   Em série de dados (SGS, SIDRA, FMI), `data_publicacao` é o início do período mais recente usado.
-- `atualizado_em` e as datas das fontes: AAAA-MM-DD, nunca depois de hoje.
+- `atualizado_em` e `acessado_em`: AAAA-MM-DD, nunca depois de hoje nem antes da data do debate.
+  `data_publicacao` aceita também AAAA ou AAAA-MM, para publicação que só informa o ano (o Anuário do FBSP).
 - `outro_lado` (opcional): nota da defesa, em `acusacao`, quando existir.
 
 Sem fonte encontrada é `sem-evidencia`, nunca inferência; as duas campanhas e a mediação passam pelo mesmo critério.
-`python3 debates/validar.py <pasta>` também valida o `checagens.json` quando ele existe.
+Em `acusacao`, a escala registra só o estado processual público. Acusação de conduta política, que não é crime nem
+tem processo, fica `sem-registro-publico`, e a `explicacao` diz o que está documentado.
+`python3 debates/validar.py <pasta>` também valida o `checagens.json` quando ele existe e imprime `quem×veredito`,
+para conferir que o critério foi o mesmo para cada lado.
 
 O selo e a página do debate são da #90.
