@@ -96,6 +96,41 @@ def pct(n, total):
     return round(100 * n / total) if total else 0
 
 
+def placar_por_candidato(modelos):
+    """{id_tse: {nome_urna, partido, cor, conta: {veredito: n}, debates: [{rotulo, path, afirmacoes: [{path, afirmacao,
+    veredito, timestamp, tema}]}]}} somando todos os debates (modelos de `listar`, do mais novo para o mais antigo). Só candidato com
+    `id_tse`; a mediação fica de fora. Nome, partido e cor ficam os do debate mais novo."""
+    out = {}
+    for m in modelos:
+        deb = m["debate"]
+        rotulo = f"Debate {deb['emissora']} {deb['turno']}º turno {deb['ano']}"
+        for q, c in m["cands"].items():
+            if q == V.MEDIACAO or not c.get("id_tse"):
+                continue
+            chs = [ch for ch in m["checagens"] if m["itens"][ch["id"]]["quem"] == q]
+            if not chs:
+                continue
+            p = out.setdefault(str(c["id_tse"]), {"nome_urna": c["nome_urna"], "partido": c["partido"], "cor": c["cor"],
+                                                  "conta": {}, "debates": []})
+            for ch in chs:
+                p["conta"][ch["veredito"]] = p["conta"].get(ch["veredito"], 0) + 1
+            p["debates"].append({"rotulo": rotulo, "path": m["path"], "afirmacoes": [
+                {"path": f"{m['path']}{ch['id']}/", "afirmacao": m["itens"][ch["id"]]["afirmacao"], "veredito": ch["veredito"],
+                 "timestamp": m["itens"][ch["id"]]["timestamp"], "tema": m["itens"][ch["id"]]["tema"]}
+                for ch in chs]})
+    for p in out.values():
+        p["conta"] = {v: p["conta"][v] for v in ORDEM_VEREDITOS if v in p["conta"]}
+    return out
+
+
+CSS_PLACAR = """.db-placar{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+.db-pc{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--c);border-radius:10px;padding:10px 14px}
+.db-pc h3{margin:0 0 6px;font-size:16px}
+.db-pc ul{list-style:none;margin:0;padding:0}
+.db-pc li{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding:4px 0;font-size:14px;font-variant-numeric:tabular-nums}
+.db-pc li:last-child{border-bottom:0;font-weight:600}
+"""
+
 CSS = """<style>
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--font-sans)}
 main.db{max-width:880px;margin:0 auto;padding:24px 18px 56px}
@@ -106,13 +141,7 @@ main.db{max-width:880px;margin:0 auto;padding:24px 18px 56px}
 .db h2{font-size:20px;margin:34px 0 10px;padding-top:6px;border-top:1px solid var(--line)}
 .db-lead{color:var(--ink2);margin:0}
 .db-nota{font-size:13px;color:var(--ink2);margin:6px 0 10px}
-.db-placar{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
-.db-pc{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--c);border-radius:10px;padding:10px 14px}
-.db-pc h3{margin:0 0 6px;font-size:16px}
-.db-pc ul{list-style:none;margin:0;padding:0}
-.db-pc li{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding:4px 0;font-size:14px;font-variant-numeric:tabular-nums}
-.db-pc li:last-child{border-bottom:0;font-weight:600}
-.db-filtro{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin:24px 0 0;font-size:14px}
+""" + CSS_PLACAR + """.db-filtro{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin:24px 0 0;font-size:14px}
 .db-filtro[hidden]{display:none}
 .db-filtro select{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 8px;margin-left:6px;max-width:100%}
 .db-filtro output{color:var(--muted)}
@@ -160,10 +189,14 @@ def _nome(c):
     return f'{c["nome_urna"]} ({c["partido"]})' if c["partido"] else c["nome_urna"]
 
 
-def _placar_html(linhas, id_titulo, titulo, nota):
-    """linhas: [(nome, cor, {veredito: n})] em blocos verticais (cabe em 360 px)."""
+def _placar_html(linhas, id_titulo, titulo, nota, links=None):
+    """linhas: [(nome, cor, {veredito: n})] em blocos verticais (cabe em 360 px). links: {nome: href} põe o link no
+    título do bloco de quem tem página."""
+    def h3(nome):
+        href = (links or {}).get(nome)
+        return f'<a href="{attr(href)}">{esc(nome)}</a>' if href else esc(nome)
     blocos = "".join(
-        f'<div class="db-pc" style="--c:var(--{cor})"><h3>{esc(nome)}</h3><ul>'
+        f'<div class="db-pc" style="--c:var(--{cor})"><h3>{h3(nome)}</h3><ul>'
         + "".join(f"<li><span>{esc(ROTULOS[v])}</span><span>{n} ({pct(n, sum(conta.values()))}%)</span></li>"
                   for v, n in conta.items())
         + f"<li><span>Total</span><span>{sum(conta.values())}</span></li></ul></div>"
@@ -326,9 +359,10 @@ def _transcricao_html(md):
     return "".join(out) + "</div>"
 
 
-def indice(gerados, base, autor):
+def indice(gerados, base, autor, links=None):
     """/debates/: lista dos debates (gerados já do mais novo para o mais antigo) e placar acumulado por candidato
-    (soma por id, que é estável entre debates; a mediação fica de fora)."""
+    (soma por id, que é estável entre debates; a mediação fica de fora). links: {id_tse: href} da página do candidato
+    no Rastro; o título do bloco dele vira link."""
     soma, quem = {}, {}
     for g in reversed(gerados):  # o mais novo por último: nome, partido e cor ficam os dele
         for q, conta in g["placar"].items():
@@ -351,7 +385,8 @@ def indice(gerados, base, autor):
              f'{"debate" if len(gerados) == 1 else "debates"}. Cada uma tem página própria com veredito e fontes.</p>'
              f'<section aria-labelledby="lista"><h2 id="lista">Debates checados</h2>{lista}</section>'
              + _placar_html(linhas, "placar", "Vereditos somados por candidato",
-                            "Soma das afirmações checadas de cada candidato em todos os debates acima, sem a mediação.")
+                            "Soma das afirmações checadas de cada candidato em todos os debates acima, sem a mediação.",
+                            {_nome(quem[q]): (links or {}).get(str(quem[q].get("id_tse"))) for q in soma})
              + como_checamos())
     modificado = max(g["modificado"] for g in gerados)
     ld = [{"@context": "https://schema.org", "@type": "CollectionPage", "name": titulo, "description": desc,

@@ -57,6 +57,14 @@ def caminhos_publicados():
     return {str(s): cam[por_sq[str(s)]["sq"]] for s in PUB}
 
 
+PRES = json.loads((RAIZ / "rastro" / "presidentes.json").read_text(encoding="utf-8"))
+
+
+def caminhos_presidentes():
+    """{sq: caminho} dos presidentes cuja página já está em site/ (o build com o .sal, que só existe na VPS, é que a grava)."""
+    return {sq: c for sq, c in pg.caminhos(PRES).items() if (SITE / c / "index.html").exists()}
+
+
 class TestPaginasPublicadas(unittest.TestCase):
     def setUp(self):
         self.paginas = {p: p.read_text(encoding="utf-8") for p in sorted((SITE / "rastro").rglob("*.html"))}
@@ -79,11 +87,21 @@ class TestPaginasPublicadas(unittest.TestCase):
             h = arq.read_text(encoding="utf-8")
             self.assertEqual(faltas_pagina_eleito(h), [], sq)
 
+    def test_pagina_de_cada_presidente(self):
+        home = (SITE / "rastro" / "index.html").read_text(encoding="utf-8")
+        if 'id="presidente"' in home:  # a home já foi gerada com presidentes.json: as duas páginas têm de existir
+            self.assertEqual(set(caminhos_presidentes()), {p["sq"] for p in PRES})
+        for sq, cam in caminhos_presidentes().items():
+            h = (SITE / cam / "index.html").read_text(encoding="utf-8")
+            self.assertEqual(faltas_pagina_eleito(h), [], sq)
+            self.assertIn("candidato(a) ao 2º turno", h)
+            self.assertTrue(problemas(h.replace("</main>", "<p>529.982.247-25</p></main>", 1)))
+
     def test_home_linka_exatamente_os_publicados(self):
         h = (SITE / "rastro" / "index.html").read_text(encoding="utf-8")
         self.assertNotIn("Nenhuma página publicada", h)
         linkados = set(RE_HREF_ELEITO.findall(h))
-        self.assertEqual(linkados, set(caminhos_publicados().values()))
+        self.assertEqual(linkados, set(caminhos_publicados().values()) | set(caminhos_presidentes().values()))
 
     def test_fornecedor_linkado_existe(self):
         ids = set()
@@ -135,8 +153,9 @@ class TestBuscaPublicada(unittest.TestCase):
         itens = dados.get("itens") or [i for parte in dados["partes"]
                                          for i in json.loads((SITE / parte.lstrip("/")).read_text(encoding="utf-8"))["itens"]]
         eleitos = {i["u"] for i in itens if i["t"] == "e" and i["p"] == 1}
-        self.assertEqual(eleitos, {"/" + c for c in caminhos_publicados().values()})
-        self.assertEqual(sum(1 for i in itens if i["t"] == "e"), len(ELEITOS["eleitos"]))
+        pres = {"/" + c for c in caminhos_presidentes().values()}
+        self.assertEqual(eleitos, {"/" + c for c in caminhos_publicados().values()} | pres)
+        self.assertEqual(sum(1 for i in itens if i["t"] == "e"), len(ELEITOS["eleitos"]) + len(pres))
 
 
 if __name__ == "__main__":

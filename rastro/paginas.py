@@ -18,6 +18,7 @@ from datetime import date
 from pathlib import Path
 
 import brand
+from debates import pagina as dp
 from rastro import busca
 from rastro import diagramas
 from rastro import indicadores as ind
@@ -27,7 +28,7 @@ from rastro.contas import SAL, URL_CONTAS, cpf_valido
 
 AVISO = "Indicador não é prova de irregularidade."
 HOMONIMO = {"socio_doador", "socio_ligado", "socio_nomeado"}  # casados por nome: podem ser outra pessoa
-CARGOS = {"governador": "Governador(a)", "senador": "Senador(a)", "depfed": "Deputado(a) federal",
+CARGOS = {"presidente": "Presidente", "governador": "Governador(a)", "senador": "Senador(a)", "depfed": "Deputado(a) federal",
           "depest": "Deputado(a) estadual", "distrital": "Deputado(a) distrital"}
 PROIBIDOS = re.compile(r"fraude|laranja|fict[ií]cia|desvio|suspeit[oa]|esquema|irregular", re.I)
 # Únicos usos permitidos de "irregular": o aviso, a frase da metodologia e o nome técnico do indicador (âncora da metodologia)
@@ -181,6 +182,9 @@ tr:target{background:var(--soft)}
 .rs-busca-t{display:block;font:600 11px var(--font-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .rs-busca-vazio{padding:8px 10px;color:var(--ink2)}
 .rs-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+""" + dp.CSS_PLACAR + """.rs-deb .db-nota{font-size:13px;color:var(--ink2);margin:6px 0 10px}
+.rs-deb .db-placar{margin:0 0 12px}
+.rs-deb ul.rs-afs{margin:0;padding-left:18px;font-size:14px}.rs-afs li{margin:4px 0;overflow-wrap:anywhere}.rs-afs small{color:var(--muted)}
 @media (max-width:600px){.rs-topo .rs-busca{flex-basis:100%}}
 @media (max-width:600px){.rs-sankey svg{min-width:680px}.rs-rede{display:none}.rs-so-cel{display:block}}
 @media (max-width:560px){.rs-tab{font-size:14px}.rs-tab th,.rs-tab td{padding:7px 4px}}
@@ -446,9 +450,32 @@ def secao_cruzada(cruz):
             f'e anúncio ficam de fora (<a href="/rastro/metodologia/#rede">metodologia</a>).</p><ul class="rs-cruz">{"".join(lis)}</ul></section>')
 
 
-def html_eleito(eleito, contas, itens, fornecedores, cfg, bases, ids=None, cruz=None):
+def secao_debates(deb):
+    """'Nos debates': placar acumulado (o mesmo bloco de /debates/) e, por debate, os links das afirmações checadas.
+    deb: um valor de `debates.pagina.placar_por_candidato`. Sem debate checado, nada. O link leva o horário e o tema, não a
+    frase: a fala do candidato pode citar um termo que o Rastro não usa (ex.: "a fraude do INSS"), e a frase fica na checagem."""
+    if not deb or not deb.get("debates"):
+        return ""
+    nome = f'{deb["nome_urna"]} ({deb["partido"]})' if deb.get("partido") else deb["nome_urna"]
+    placar = dp._placar_html([(nome, deb["cor"], deb["conta"])], "debates-placar", "Vereditos somados",
+                             "Contagem das afirmações checadas dele(a) em todos os debates, com a parte de cada veredito no total.")
+    dets = "".join(
+        f'<details class="rs-det"><summary><b>{esc(d["rotulo"])}</b> · {len(d["afirmacoes"])} afirmação(ões)</summary>'
+        '<ul class="rs-afs">' + "".join(f'<li><a href="{html.escape(a["path"], quote=True)}">Aos {esc(a["timestamp"])} · '
+                                        f'{esc(dp.TEMAS.get(a["tema"], a["tema"]))}</a> · '
+                                         f'<small>{esc(dp.ROTULOS[a["veredito"]])}</small></li>' for a in d["afirmacoes"])
+        + f'</ul><p class="rs-nota"><a href="{html.escape(d["path"], quote=True)}">Todas as checagens deste debate</a></p></details>'
+        for d in deb["debates"])
+    return (f'<section id="debates" class="rs-deb"><h2>Nos debates</h2><p class="rs-nota">Frases verificáveis checadas nos debates, '
+            f'com veredito e fontes. O placar só conta vereditos; não é nota do debate (<a href="/debates/">todas as checagens</a>).</p>'
+            f'{placar}{dets}</section>')
+
+
+def html_eleito(eleito, contas, itens, fornecedores, cfg, bases, ids=None, cruz=None, debates=None):
     """bases: {'contas': iso, 'receita': iso|None}. contas None (ou prestacao_parcial False): sem valores, sem 'R$ 0'.
-    cruz: fornecedores deste eleito que outros eleitos publicados também pagaram (ver `secao_cruzada`)."""
+    cruz: fornecedores deste eleito que outros eleitos publicados também pagaram (ver `secao_cruzada`).
+    debates: a entrada dele em `debates.pagina.placar_por_candidato` (seção 'Nos debates'). Presidente leva o kicker de
+    candidato(a) ao 2º turno, não de eleito(a)."""
     nome = eleito["nome_urna"]
     partes = [f'{esc(CARGOS.get(eleito["cargo"], eleito["cargo"]))} · {esc(eleito["uf"])} · {esc(eleito["partido"])}']
     base = (f'contas do TSE até {data_br(bases["contas"])}' if bases.get("contas") else "data das contas não informada") + (f' · cadastro de empresas da Receita de {data_br(bases["receita"])}' if bases.get("receita") else "")
@@ -480,9 +507,10 @@ def html_eleito(eleito, contas, itens, fornecedores, cfg, bases, ids=None, cruz=
     tabs = f'<h2>Tabelas</h2>{rec_h}{desp_h}' if parcial else ""
     com_sg = f'{nome} · {eleito["partido"]}' if eleito.get("partido") else nome
     corpo = (trilha(("Início", "/"), ("Rastro do dinheiro", "/rastro/"), (com_sg, None))
-             + f'<p class="rs-kicker">Rastro do dinheiro · eleito(a) 2026</p><h1>{esc(com_sg)}</h1>'
-             f'<p class="rs-meta">{partes[0]}</p>{resumo}' + aviso_curto() + fin + dest_h + diag + ind_h + tabs
-             + (secao_cruzada(cruz) if parcial else "") + rodape(cfg, base, f"Contestar dado: {rotulo_eleito(eleito)}"))
+             + f'<p class="rs-kicker">Rastro do dinheiro · {"candidato(a) ao 2º turno" if eleito["cargo"] == "presidente" else "eleito(a) 2026"}</p>'
+             f'<h1>{esc(com_sg)}</h1><p class="rs-meta">{partes[0]}</p>{resumo}' + aviso_curto() + fin + dest_h + diag + ind_h + tabs
+             + (secao_cruzada(cruz) if parcial else "") + secao_debates(debates)
+             + rodape(cfg, base, f"Contestar dado: {rotulo_eleito(eleito)}"))
     return pagina(f"{nome} · Rastro do dinheiro", corpo, script=parcial)
 
 
@@ -570,6 +598,12 @@ def html_metodologia(cfg, avisos=None):
              + f"<h2>Fontes</h2>{fontes}"
              + f"<h2>Indicadores e limiares</h2><p>Os limiares abaixo são os do arquivo de configuração do projeto, os mesmos usados para gerar as páginas.</p><dl>{dl}</dl>"
              + destaque_h + secao_rede_metodologia(cfg)
+             + '<h2 id="presidente">Presidente e “nos debates”</h2><p>Os dois candidatos do 2º turno a presidente têm página com o mesmo '
+               "cruzamento das contas dos eleitos (receitas, despesas, fornecedores e indicadores), mas ficam fora dos totais, da rede de "
+               "fornecedores entre eleitos e da lista de eleitos. A comparação de custo por voto não se aplica: o grupo de candidatos a "
+               f"presidente tem menos de {cfg['min_campanhas_grupo']} campanhas.</p><p>A seção “nos debates” soma os vereditos das afirmações "
+               'dele(a) checadas em cada debate da seção <a href="/debates/">Debates</a>, com link para cada checagem. É a mesma contagem do '
+               "placar dos debates: só conta vereditos, não é nota.</p>"
              + "<h2>Limites</h2><ul>"
                "<li>Parentesco não consta em nenhuma base pública. Não inferimos parentesco.</li>"
                "<li>“Mesmo sobrenome” é um fato textual: duas pessoas com o mesmo sobrenome não são, por isso, parentes.</li>"
@@ -743,16 +777,31 @@ def secao_rede(rede):
             + (rede.get("diagrama") or "") + "</section>")
 
 
-def html_home(entradas, fornecedores, cfg, bases, pendentes=None, rede=None):
+def bloco_presidentes(presidentes):
+    """'Presidente · 2º turno': um link por candidato, com o contratado (ou a frase de sem prestação, nunca 'R$ 0')."""
+    if not presidentes:
+        return ""
+    linhas = "".join(
+        f'<tr id="{busca.ancora_eleito(e["eleito"]["sq"])}"><td><a href="/{e["caminho"]}">{esc(e["eleito"]["nome_urna"])}</a>'
+        f'<small>{esc(_rotulo_cargo(e["eleito"]))} · contas e debates</small></td><td class="v">'
+        f'{esc(ind.brl(e["contas"]["despesas"].get("total_contratado") or 0) if _parcial(e["contas"]) else "sem prestação parcial publicada")}</td></tr>'
+        for e in presidentes)
+    return ('<h2 id="presidente">Presidente · 2º turno</h2><p class="rs-nota">Os dois candidatos do 2º turno: contas de campanha e '
+            'as afirmações checadas nos debates. Não entram nos totais dos eleitos abaixo.</p><table class="rs-tab"><thead><tr>'
+            f'<th>Candidato(a)</th><th class="v">Contratado</th></tr></thead><tbody>{linhas}</tbody></table>')
+
+
+def html_home(entradas, fornecedores, cfg, bases, pendentes=None, rede=None, presidentes=None):
     """entradas: [{eleito, caminho, contas, itens}] dos publicados; fornecedores: [{id, rotulo, mei, total, n}] já agregados.
     pendentes: [{eleito, contas, itens}] dos eleitos ainda sem página (tabela sem link). rede: ver `secao_rede`.
+    presidentes: entradas dos candidatos do 2º turno (bloco próprio, fora das somas).
     Só entra nas somas quem tem prestação parcial publicada; eleito sem contas aparece sem 'R$ 0'."""
     base = (f'contas do TSE até {data_br(bases["contas"])}' if bases.get("contas") else "data das contas não informada") + (
         f' · cadastro de empresas da Receita de {data_br(bases["receita"])}' if bases.get("receita") else "")
     cab = (trilha(("Início", "/"), ("Rastro do dinheiro", None), busca=False) + '<p class="rs-kicker">Rastro do dinheiro · eleições 2026</p>'
            "<h1>Rastro do dinheiro</h1>" + caixa_busca(grande=True) +
            "<p class=\"rs-meta\">Para onde foi o dinheiro de campanha dos eleitos de 2026, cruzando as contas do TSE com o cadastro de empresas da Receita.</p>"
-           f'<p class="rs-base">Base de dados: {esc(base)}.</p>' + aviso_bloco())
+           f'<p class="rs-base">Base de dados: {esc(base)}.</p>' + aviso_bloco() + bloco_presidentes(presidentes))
     fim = bloco_contestar(cfg, "Contestar dado do Rastro")
     pend_h = tabela_pendentes(pendentes)
     if not entradas:
@@ -873,6 +922,8 @@ def rede_fornecedores(agg, entradas, pendentes, por_sq, cfg, agregados=None):
         vistos = {}
         for camp in a["campanhas"]:
             el = camp["eleito"]
+            if el["cargo"] == "presidente":
+                continue  # candidato(a) ao 2º turno, não eleito(a): fica fora da rede entre eleitos
             v = vistos.setdefault(str(el["sq"]), {"sq": str(el["sq"]), "nome_urna": el["nome_urna"], "uf": el["uf"], "partido": el["partido"],
                                                   "total": 0, "href": "/" + camp["caminho"], "caminho": camp["caminho"]})
             v["total"] += camp["total"]
@@ -897,33 +948,37 @@ def rede_fornecedores(agg, entradas, pendentes, por_sq, cfg, agregados=None):
 
 
 def gerar(dest, publicados, eleitos, dir_contas, indicadores, fornecedores, cfg, envolver=None, correcoes=None, sal=None, anteriores=None,
-          agregados=None):
+          agregados=None, presidentes=None, debates=None):
     """Grava dest/rastro/index.html (home), metodologia, uma página por sq de `publicados` e uma por fornecedor PJ pago por eles.
     Devolve a lista de páginas ({path, titulo, desc, html, crumbs}). `envolver(página) -> html` acrescenta a moldura do site (opcional).
     indicadores/fornecedores são os envelopes de rastro/dados/*.json; sem eles (e com publicados) falha. `correcoes` é o envelope de
     rastro/correcoes.json; `sal` só é exigido quando há MEI. `anteriores`: envelope de rastro/dados/anteriores.json (opcional).
     `agregados`: rastro/dados/base/agregados.json (opcional), para somar as campanhas não eleitas no diagrama do fornecedor.
+    `presidentes` (rastro/presidentes.json): candidatos do 2º turno a presidente, com página própria fora de eleitos.json, da
+    fila e das contas da home; `debates` (modelos de debates.pagina.listar) acrescenta a seção 'Nos debates' casando pelo id_tse.
     Todas as páginas passam por `varrer` antes de qualquer gravação."""
     publicados = list(dict.fromkeys(str(s) for s in publicados))
-    if publicados and fornecedores is None:
+    presidentes = [dict(p, sq=str(p["sq"])) for p in presidentes or []]
+    if (publicados or presidentes) and fornecedores is None:
         raise ValueError("sem fornecedores.json: não dá para saber quem é MEI; nada publicado")
-    if publicados and indicadores is None:
+    if (publicados or presidentes) and indicadores is None:
         raise ValueError("sem indicadores.json: nada publicado")
     por_sq = {str(e["sq"]): e for e in (eleitos["eleitos"] if isinstance(eleitos, dict) else eleitos)}
     faltam = [s for s in publicados if s not in por_sq]
     if faltam:
         raise ValueError(f"sq publicado fora de eleitos.json: {faltam}")
     sel = [por_sq[s] for s in publicados]
-    cam = caminhos(sel)
+    cam = {**caminhos(sel), **caminhos(presidentes)}
     forn = (fornecedores or {}).get("fornecedores") or {}
     receita = (fornecedores or {}).get("data_base")
     por_ind = (indicadores or {}).get("indicadores") or {}
-    entradas, agg = [], {}
-    for e in sel:
+    nos_debates = dp.placar_por_candidato(debates or [])
+    entradas, pres_entradas, agg = [], [], {}
+    for n, e in enumerate(sel + presidentes):
         arq = Path(dir_contas) / f"{e['sq']}.json"
         contas = json.loads(arq.read_text(encoding="utf-8")) if arq.exists() else None
         itens = por_ind.get(str(e["sq"])) or []
-        entradas.append({"eleito": e, "caminho": cam[e["sq"]], "contas": contas, "itens": itens})
+        (pres_entradas if n >= len(sel) else entradas).append({"eleito": e, "caminho": cam[e["sq"]], "contas": contas, "itens": itens})
         if not contas or contas.get("prestacao_parcial") is False:
             continue  # sem tabela de fornecedores na página do eleito: sem página de fornecedor
         pj = (contas.get("despesas") or {}).get("fornecedores_pj") or []
@@ -950,17 +1005,17 @@ def gerar(dest, publicados, eleitos, dir_contas, indicadores, fornecedores, cfg,
     bases_g = {"contas": (indicadores or {}).get("data_base") or receita, "receita": receita}
     for a in agg.values():
         a["rotulo"] = ind.mascarar_cnpj(a["cnpj"]) if a["mei"] else (a["rec"].get("razao") or a["campanhas"][0].get("nome") or ind.mascarar_cnpj(a["cnpj"]))
-    rede, cruz = rede_fornecedores(agg, entradas, pendentes, por_sq, cfg, agregados)
-    for en in entradas:
+    rede, cruz = rede_fornecedores(agg, entradas, pendentes, {**por_sq, **{p["sq"]: p for p in presidentes}}, cfg, agregados)
+    for en in entradas + pres_entradas:
         en["html"] = html_eleito(en["eleito"], en["contas"], en["itens"], forn, cfg,
                                  {"contas": (en["contas"] or {}).get("data_base") or bases_g["contas"], "receita": receita}, ids,
-                                 cruz.get(str(en["eleito"]["sq"])))
+                                 cruz.get(str(en["eleito"]["sq"])), nos_debates.get(str(en["eleito"]["sq"])))
     resumo = []
     for a in agg.values():
         resumo.append({"id": a["id"], "rotulo": a["rotulo"], "mei": a["mei"], "n": len(a["campanhas"]), "total": sum(c["total"] for c in a["campanhas"])})
     paginas = [_meta("rastro/", "Rastro do dinheiro | Eleições 2026",
                      "Para onde foi o dinheiro de campanha dos eleitos de 2026: total por cargo, maiores fornecedores e indicadores, com a fonte de cada dado. " + AVISO,
-                     html_home(entradas, resumo, cfg, bases_g, pendentes, rede), []),
+                     html_home(entradas, resumo, cfg, bases_g, pendentes, rede, pres_entradas), []),
                _meta("rastro/metodologia/", "Metodologia do Rastro do dinheiro | Eleições 2026",
                      "Como o Rastro do dinheiro cruza as contas de campanha com o cadastro da Receita, quais indicadores usa, os limiares e o que eles não dizem.",
                      html_metodologia(cfg, (indicadores or {}).get("avisos")), [("Metodologia", None)])]
@@ -970,6 +1025,12 @@ def gerar(dest, publicados, eleitos, dir_contas, indicadores, fornecedores, cfg,
         paginas.append(_meta(en["caminho"], f"{nome}: receitas, despesas e indicadores | Rastro do dinheiro",
                              f"Receitas por origem, despesas por fornecedor e indicadores de {e['nome_urna']} ({CARGOS.get(e['cargo'], e['cargo'])}, {e['uf']}), "
                              f"com a fonte de cada dado. {AVISO}", en["html"], [(e["nome_urna"], None)]))
+    for en in pres_entradas:
+        e = en["eleito"]
+        paginas.append(_meta(en["caminho"], f"{e['nome_urna']} ({e['partido']}), candidato(a) a presidente: contas de campanha e debates | Rastro do dinheiro",
+                             f"Receitas, despesas por fornecedor e indicadores da campanha de {e['nome_urna']} ({e['partido']}) a presidente "
+                             f"no 2º turno, e as afirmações checadas nos debates, com a fonte de cada dado. {AVISO}", en["html"],
+                             [(e["nome_urna"], None)]))
     for a in sorted(agg.values(), key=lambda a: a["id"]):
         corpo = html_fornecedor(a["id"], a["rec"], a["campanhas"], a["itens"], cfg, bases_g, anteriores, a["pendentes"], a["outras"])
         quem = f"MEI, CNPJ {ind.mascarar_cnpj(a['cnpj'])}" if a["mei"] else a["rotulo"]
@@ -980,7 +1041,7 @@ def gerar(dest, publicados, eleitos, dir_contas, indicadores, fornecedores, cfg,
         aplicar_correcoes(paginas, correcoes)
     for p in paginas:
         varrer(p["path"], p["html"])  # antes de gravar qualquer coisa
-    indice = busca.serializar(busca.indice(entradas, pendentes, agg, _rotulo_cargo, _parcial_eleito))
+    indice = busca.serializar(busca.indice(entradas + pres_entradas, pendentes, agg, _rotulo_cargo, _parcial_eleito))
     for nome, texto in indice.items():
         varrer(nome, texto)
     dest = Path(dest)

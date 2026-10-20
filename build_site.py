@@ -677,6 +677,18 @@ def rastro_envolver(publicado, modificado, moldura=True):
     return envolver
 
 
+def presidentes():
+    """Candidatos do 2º turno a presidente com página no Rastro (rastro/presidentes.json; sem o arquivo, nenhum)."""
+    p = R / "rastro" / "presidentes.json"
+    return json.loads(p.read_text(encoding="utf-8")) if p.exists() else []
+
+
+def links_rastro():
+    """{id_tse: path da página no Rastro} dos presidentes, para o placar de /debates/."""
+    from rastro import paginas as rp
+    return {str(sq): "/" + c for sq, c in rp.caminhos(presidentes()).items()}
+
+
 def rastro_publicar(dest, publicado, modificado, moldura=True):
     """Rastro do dinheiro: metodologia e uma página por sq de rastro/publicados.json, em dest/rastro/. HTML estático, sem
     pré-render; só a moldura do site, a medição, o filtro da tabela (rastro.js) e a busca (busca.js e busca.json, opcionais).
@@ -688,6 +700,7 @@ def rastro_publicar(dest, publicado, modificado, moldura=True):
     dados = R / "rastro" / "dados"
     envolver = rastro_envolver(publicado, modificado, moldura)
 
+    from debates import pagina as dp
     publicados = lj(R / "rastro" / "publicados.json") or []
     forn = lj(dados / "fornecedores.json")
     sal = rp.ler_sal() if publicados and rp.SAL.exists() else None  # só lido, nunca criado aqui; gerar exige quando há MEI
@@ -695,7 +708,8 @@ def rastro_publicar(dest, publicado, modificado, moldura=True):
                     lj(dados / "indicadores.json"), forn,
                     json.loads((R / "rastro" / "config.json").read_text(encoding="utf-8")), envolver,
                     correcoes=lj(R / "rastro" / "correcoes.json"), sal=sal, anteriores=lj(dados / "anteriores.json"),
-                    agregados=lj(dados / "base" / "agregados.json"))
+                    agregados=lj(dados / "base" / "agregados.json"), presidentes=presidentes(),
+                    debates=dp.listar(R / "debates"))
 
     def prioridade(path):
         if path == "/rastro/":
@@ -739,7 +753,7 @@ def debates_publicar(dest, raiz=R / "debates"):
         pasta.mkdir(parents=True, exist_ok=True)
         (pasta / "index.html").write_text(com_medicao(montar_pagina(p["html"], p["titulo"], p["desc"], p["path"], f"/og/{og}.png",
                                                                    p["ld"], p["publicado"], p["modificado"], "/debates/")))
-    idx = dp.indice(ds, BASE, PESSOA)
+    idx = dp.indice(ds, BASE, PESSOA, links_rastro())
     escrever(idx, ds[0]["og"][0])
     shutil.copyfile(R / "debates" / "debate.js", dest / "debates" / "debate.js")
     sitemap, og = [(idx["path"], idx["modificado"], "0.8")], []
