@@ -1,0 +1,4 @@
+[
+  {"id": "seg-01", "veredito": "falso", "explicacao": "A taxa subiu 8%. Dobrar seria subir 100%.", "fontes": [{"url": "https://exemplo.org/sesp", "titulo": "Painel de teste", "orgao": "Órgão E", "data_publicacao": "2026-06", "acessado_em": "2026-10-15"}], "atualizado_em": "2026-10-15"},
+  {"id": "eco-01", "veredito": "verdadeiro", "explicacao": "O relatório fiscal mostra o maior saldo da série. A série começa em 2002.", "fontes": [{"url": "https://exemplo.org/rgf", "titulo": "RGF de teste", "orgao": "Órgão F", "data_publicacao": "2026-05-30", "acessado_em": "2026-10-15"}], "atualizado_em": "2026-10-16"}
+]

@@ -1,21 +1,31 @@
-"""Página de checagem de um debate (/debates/<emissora>-<turno>-turno/), a partir de debates/<id>/afirmacoes.json e
-checagens.json. Função pura, sem rede e sem Chrome, no padrão de rastro/paginas.py: devolve o HTML do conteúdo (a moldura
-e a medição entram pelo build_site), o JSON-LD (ClaimReview por checagem, Article e BreadcrumbList) e o resto do que o
-build publica. Todo texto sobre o debate vem dos JSON; aqui só ficam os rótulos da moldura.
-Cores: só as de partido do brand.css (o ciano é da moldura). Placar neutro: contagem de vereditos, sem nota nem "quem ganhou".
+"""Seção /debates/: uma página por debate, uma por afirmação checada, a transcrição e o índice com o placar acumulado.
+Lê debates/<ano>/<slug>/ (debate.json, afirmacoes.json, transcricao.md e checagens.json; formato em debates/README.md)
+e valida com debates/validar.py. Funções puras, sem rede e sem Chrome, no padrão de rastro/paginas.py: devolvem o HTML
+do conteúdo (a moldura e a medição entram pelo build_site), o JSON-LD e o resto do que o build publica. Todo texto sobre
+um debate vem dos JSON; aqui só ficam os rótulos e o "como checamos", iguais para todos.
+Só entra afirmação de autoria `certa`. Cores: só as de partido do brand.css (o ciano é da moldura). Placar neutro:
+contagem de vereditos, sem nota nem "quem ganhou".
 """
 import html
 import json
 import re
-import unicodedata
-from datetime import date, datetime
+from datetime import date
 from pathlib import Path
 
 import brand
+from debates import validar as V
 
-CORES = {"flavio", "lula", "outros"}  # variáveis de partido do brand.css
-ORDEM_TEMAS = ["seguranca", "economia", "saude", "social", "corrupcao", "internacional"]  # o resto vai no fim
-RE_ID = re.compile(r"^[a-z0-9][a-z0-9-]*$")
+ROTULOS = {"verdadeiro": "Verdadeiro", "verdadeiro-com-ressalva": "Verdadeiro, com ressalva", "exagerado": "Exagerado",
+           "falso": "Falso", "sem-evidencia": "Sem evidência", "nao-checavel": "Não checável",
+           "ja-existe": "Já existe", "viavel": "Viável", "depende-do-congresso": "Depende do Congresso",
+           "sem-custo-estimado": "Sem custo estimado", "inviavel": "Inviável",
+           "ha-investigacao": "Há investigação", "ha-denuncia": "Há denúncia", "ha-condenacao": "Há condenação",
+           "sem-registro-publico": "Sem registro público"}
+ORDEM_VEREDITOS = list(dict.fromkeys(v for vs in V.VEREDITOS.values() for v in vs))
+TEMAS = {"seguranca": "Segurança", "economia": "Economia", "social": "Social", "saude": "Saúde",
+         "internacional": "Internacional", "corrupcao-acusacoes": "Corrupção e acusações", "outros": "Outros"}
+ESCALAS = {"dado": "dados e fatos", "promessa": "promessas", "acusacao": "acusações"}
+MEDIACAO = {"id": V.MEDIACAO, "nome_urna": "Mediação", "partido": "", "cor": "outros"}
 
 
 def esc(t):
@@ -26,101 +36,85 @@ def attr(t):
     return html.escape(str(t), quote=True)
 
 
-def slug(t):
-    s = unicodedata.normalize("NFKD", t or "").encode("ascii", "ignore").decode().lower()
-    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
-
-
 def data_br(iso):
     return date.fromisoformat(iso[:10]).strftime("%d/%m/%Y")
 
 
-def ler(pasta):
-    """(afirmacoes, checagens) da pasta do debate, ou None se algum dos dois ainda não existe."""
+def ancora(ts):
+    """Âncora da marcação H:MM:SS (ou M:SS) na página da transcrição: t-H-MM-SS."""
+    p = [int(x) for x in ts.split(":")]
+    h, m, s = ([0] + p)[-3:]
+    return f"t-{h}-{m:02d}-{s:02d}"
+
+
+def _json(p):
+    return json.loads(p.read_text(encoding="utf-8"))
+
+
+def carregar(pasta):
+    """Modelo de um debate, ou None se ainda não há checagens.json. Erro de dado levanta ValueError com id e campo
+    (nada é publicado pela metade). Checagem de afirmação que não é `certa` fica de fora do modelo."""
     pasta = Path(pasta)
-    arqs = [pasta / "afirmacoes.json", pasta / "checagens.json"]
-    if not all(a.exists() for a in arqs):
+    if not (pasta / "checagens.json").exists():
         return None
-    return tuple(json.loads(a.read_text(encoding="utf-8")) for a in arqs)
+    try:
+        debate, itens, chs = (_json(pasta / f) for f in ("debate.json", "afirmacoes.json", "checagens.json"))
+        transcricao = (pasta / "transcricao.md").read_text(encoding="utf-8")
+    except (OSError, ValueError) as e:
+        raise ValueError(f"{pasta}: {e}") from e
+    erros = V.validar_debate(debate) + V.validar_pasta(pasta, debate) + V.validar(itens, transcricao, debate)
+    if not erros:
+        certas = {i["id"]: i for i in itens if i["autoria"] == "certa"}
+        chs = [c for c in chs if not isinstance(c, dict) or c.get("id") in certas] if isinstance(chs, list) else chs
+        erros = V.validar_checagens(chs, itens)
+    if erros:
+        raise ValueError(f"{pasta}: " + "; ".join(erros))
+    cands = {c["id"]: {**c, "cor": c.get("cor", "outros")} for c in debate["candidatos"]}
+    cands[V.MEDIACAO] = MEDIACAO
+    return dict(debate=debate, cands=cands, itens=certas, checagens=chs, transcricao=transcricao,
+                path=f"/debates/{debate['ano']}/{debate['slug']}/")
 
 
-def _exigir(obj, campos, onde):
-    for c in campos:
-        if obj.get(c) in (None, "", []):
-            raise ValueError(f"{onde}: falta o campo {c!r}")
+def listar(raiz):
+    """Modelos de todos os debates com checagem em raiz/<ano>/<slug>/, do mais novo para o mais antigo."""
+    ms = [m for m in (carregar(p.parent) for p in sorted(Path(raiz).glob("*/*/debate.json"))) if m]
+    return sorted(ms, key=lambda m: (m["debate"]["data"], m["path"]), reverse=True)
 
 
-def validar(afs, chs):
-    """Levanta ValueError com o id e o campo do primeiro problema (nada é publicado pela metade)."""
-    deb = afs.get("debate") or {}
-    _exigir(deb, ["emissora", "data", "turno", "candidatos"], "afirmacoes.json/debate")
-    date.fromisoformat(deb["data"])
-    if not isinstance(deb["turno"], int) or isinstance(deb["turno"], bool):
-        raise ValueError(f"afirmacoes.json/debate: turno {deb['turno']!r} precisa ser número inteiro (vai na rota)")
-    for k in ("publicado", "atualizado"):
-        if chs.get(k):
-            datetime.fromisoformat(chs[k])
-    cands = {}
-    for c in deb["candidatos"]:
-        _exigir(c, ["id", "nome", "partido", "cor"], f"candidato {c.get('id')!r}")
-        if c["id"] in cands:
-            raise ValueError(f"candidato {c['id']!r}: repetido")
-        if c["cor"] not in CORES:
-            raise ValueError(f"candidato {c['id']!r}: cor {c['cor']!r} não é cor de partido ({', '.join(sorted(CORES))})")
-        cands[c["id"]] = c
-    por_id = {}
-    for a in afs.get("afirmacoes") or []:
-        _exigir(a, ["id", "candidato", "tema", "timestamp", "trecho"], f"afirmação {a.get('id')!r}")
-        if not RE_ID.match(a["id"]):
-            raise ValueError(f"afirmação {a['id']!r}: id precisa ser [a-z0-9-] (vira âncora)")
-        if a["candidato"] not in cands:
-            raise ValueError(f"afirmação {a['id']!r}: candidato {a['candidato']!r} não está em debate.candidatos")
-        if a["id"] in por_id:
-            raise ValueError(f"afirmação {a['id']!r}: repetida (vira âncora)")
-        por_id[a["id"]] = a
-    if not chs.get("checagens"):
-        raise ValueError("checagens.json: lista 'checagens' vazia")
-    vistos = set()
-    for c in chs["checagens"]:
-        _exigir(c, ["id", "veredito", "explicacao", "fontes"], f"checagem {c.get('id')!r}")
-        if c["id"] not in por_id:
-            raise ValueError(f"checagem {c['id']!r}: não há afirmação com esse id")
-        if c["id"] in vistos:
-            raise ValueError(f"checagem {c['id']!r}: repetida")
-        vistos.add(c["id"])
-        for f in c["fontes"]:
-            if not isinstance(f, dict) or not re.match(r"^https?://", f.get("url") or ""):
-                raise ValueError(f"checagem {c['id']!r}: fonte sem url http(s): {f!r}")
-    if chs.get("vereditos"):
-        fora = {c["veredito"] for c in chs["checagens"]} - set(chs["vereditos"])
-        if fora:
-            raise ValueError(f"checagens.json: veredito fora da lista 'vereditos': {sorted(fora)}")
-    return deb, cands, por_id
+def placar(m):
+    """{quem: {veredito: n}} sobre todas as checagens do debate (vereditos que aparecem nele, zero incluído)."""
+    usados = {c["veredito"] for c in m["checagens"]}
+    vereditos = [v for v in ORDEM_VEREDITOS if v in usados]
+    quem = [q for q in m["cands"] if any(m["itens"][c["id"]]["quem"] == q for c in m["checagens"])]
+    conta = {q: dict.fromkeys(vereditos, 0) for q in quem}
+    for c in m["checagens"]:
+        conta[m["itens"][c["id"]]["quem"]][c["veredito"]] += 1
+    return conta
 
 
-def _rank_tema(s):
-    return next((i for i, t in enumerate(ORDEM_TEMAS) if s == t or s.startswith(t + "-")), len(ORDEM_TEMAS))
+def pct(n, total):
+    return round(100 * n / total) if total else 0
 
 
 CSS = """<style>
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--font-sans)}
 main.db{max-width:880px;margin:0 auto;padding:24px 18px 56px}
 .db a{color:var(--ink);text-decoration-color:var(--muted);text-underline-offset:3px}
-.db-crumbs{font-size:13px;color:var(--muted);margin:0 0 14px}
+.db-crumbs{font-size:13px;color:var(--muted);margin:0 0 14px;overflow-wrap:anywhere}
 .db-kicker{font:600 12px var(--font-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
-.db h1{font-size:clamp(26px,5vw,38px);line-height:1.15;margin:0 0 10px}
+.db h1{font-size:clamp(24px,5vw,36px);line-height:1.2;margin:0 0 10px;overflow-wrap:anywhere}
 .db h2{font-size:20px;margin:34px 0 10px;padding-top:6px;border-top:1px solid var(--line)}
 .db-lead{color:var(--ink2);margin:0}
 .db-nota{font-size:13px;color:var(--ink2);margin:6px 0 10px}
-.db-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
-.db-placar{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:15px}
-.db-placar th,.db-placar td{padding:8px 6px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
-.db-placar th:first-child{text-align:left;border-left:4px solid var(--c,transparent);padding-left:10px}
-.db-placar thead th{font:600 12px var(--font-mono);color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
-.db-placar td:last-child{font-weight:600}
+.db-placar{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+.db-pc{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--c);border-radius:10px;padding:10px 14px}
+.db-pc h3{margin:0 0 6px;font-size:16px}
+.db-pc ul{list-style:none;margin:0;padding:0}
+.db-pc li{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding:4px 0;font-size:14px;font-variant-numeric:tabular-nums}
+.db-pc li:last-child{border-bottom:0;font-weight:600}
 .db-filtro{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin:24px 0 0;font-size:14px}
 .db-filtro[hidden]{display:none}
-.db-filtro select{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 8px;margin-left:6px}
+.db-filtro select{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 8px;margin-left:6px;max-width:100%}
 .db-filtro output{color:var(--muted)}
 .db-lista{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .db-af{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:10px;padding:12px 14px;overflow-wrap:anywhere}
@@ -128,112 +122,241 @@ main.db{max-width:880px;margin:0 auto;padding:24px 18px 56px}
 .db-af:target{background:var(--soft)}
 .db-af-t{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 12px;font:600 13px var(--font-mono)}
 .db-af-t .db-tempo{color:var(--muted);font-weight:400}
-.db-af blockquote{margin:8px 0;font-size:17px;line-height:1.45}
+.db-af .db-frase{margin:8px 0 0;font-size:17px;line-height:1.45;color:var(--ink);font-weight:600}
+.db-af blockquote{margin:6px 0 8px;font-size:14px;color:var(--ink2);border-left:2px solid var(--line);padding-left:10px}
 .db-selo{display:inline-block;font:600 12px var(--font-mono);text-transform:uppercase;letter-spacing:.04em;border:1px solid var(--ink2);border-radius:999px;padding:1px 9px}
 .db-af p{margin:8px 0 0;font-size:15px;color:var(--ink2)}
 .db-outro{border-top:1px dashed var(--line);padding-top:6px}
 .db-fontes{font-size:14px}
-.db-link{display:inline-block;margin-top:8px;font-size:12px;color:var(--muted)}
+.db-link{display:inline-block;margin-top:8px;font-size:13px;color:var(--muted)}
 .db-cta p{margin:6px 0;font-size:17px}
+.db-deb{display:block;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:0 0 10px;text-decoration:none}
+.db-deb b{display:block;font-size:17px}.db-deb span{color:var(--ink2);font-size:14px}
+.db-tr p{margin:6px 0}.db-tr p:target{background:var(--soft)}.db-tr b{font:600 13px var(--font-mono);color:var(--muted)}
 @media (max-width:760px){.db-lista{grid-template-columns:1fr}}
 </style>"""
 
 
-def gerar(afs, chs, base, autor):
-    """dict com path, titulo, desc, html (conteúdo, sem moldura), ld, publicado, modificado, og e llms."""
-    deb, cands, por_id = validar(afs, chs)
-    emissora, turno, dia = deb["emissora"], deb["turno"], data_br(deb["data"])
-    path = f"/debates/{slug(emissora)}-{turno}-turno/"
-    url = base + path
-    publicado = chs.get("publicado") or deb["data"] + "T23:59:00-03:00"
-    modificado = chs.get("atualizado") or publicado
-    checagens = chs["checagens"]
-    vereditos = chs.get("vereditos") or list(dict.fromkeys(c["veredito"] for c in checagens))
-    n = len(checagens)
-    nomes = " e ".join(f'{c["nome"]} ({c["partido"]})' for c in cands.values())
-    titulo = f"Checagem do debate da {emissora} ({turno}º turno, {dia}): {n} afirmações"
-    desc = (f"As {n} afirmações checadas do debate entre {nomes} na {emissora}, em {dia}: "
-            f"trecho, veredito, explicação e fontes de cada uma.")
+def _doc(titulo, corpo, js=False):
+    script = '<script defer src="/debates/debate.js"></script>' if js else ""
+    return (f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">'
+            f'<meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(titulo)}</title>'
+            f'<style>{brand.CSS}</style>{CSS}{script}</head>'
+            f'<body><main id="conteudo" class="db">{corpo}</main></body></html>')
 
-    # placar: contagem simples por candidato × veredito
-    conta = {(cid, v): 0 for cid in cands for v in vereditos}
-    for c in checagens:
-        conta[(por_id[c["id"]]["candidato"], c["veredito"])] += 1
-    cab = "".join(f"<th scope=col>{esc(v)}</th>" for v in vereditos)
-    linhas = "".join(
-        f'<tr data-candidato="{attr(cid)}"><th scope=row style="--c:var(--{c["cor"]})">{esc(c["nome"])} ({esc(c["partido"])})</th>'
-        + "".join(f"<td>{conta[(cid, v)]}</td>" for v in vereditos)
-        + f"<td>{sum(conta[(cid, v)] for v in vereditos)}</td></tr>"
-        for cid, c in cands.items())
-    placar = (f'<section aria-labelledby="placar"><h2 id="placar">Vereditos por candidato</h2>'
-              f'<p class="db-nota">Contagem das afirmações checadas de cada candidato. Não é nota do debate: '
-              f'a seleção cobre só frases verificáveis com dado público.</p>'
-              f'<div class="db-scroll"><table class="db-placar"><thead><tr><th scope=col>Candidato</th>{cab}<th scope=col>Total</th></tr></thead>'
-              f'<tbody>{linhas}</tbody></table></div></section>')
 
-    filtro = ('<form class="db-filtro" aria-label="Filtrar afirmações" hidden>'
-              '<label>Candidato<select name="candidato"><option value="">Todos</option>'
-              + "".join(f'<option value="{attr(cid)}">{esc(c["nome"])}</option>' for cid, c in cands.items())
-              + '</select></label><label>Veredito<select name="veredito"><option value="">Todos</option>'
-              + "".join(f'<option value="{attr(slug(v))}">{esc(v)}</option>' for v in vereditos)
-              + f'</select></label><output aria-live="polite">{n} de {n} afirmações</output></form>')
+def _trilha(itens):
+    """[(nome, path ou None)] → HTML da trilha (o último sem link)."""
+    return ('<nav class="db-crumbs" aria-label="Trilha">'
+            + " › ".join(f'<a href="{attr(h)}">{esc(n)}</a>' if h else esc(n) for n, h in itens) + "</nav>")
 
-    def cartao(c):
-        a = por_id[c["id"]]; cd = cands[a["candidato"]]
-        fontes = ", ".join(f'<a href="{attr(f["url"])}" rel="noopener">{esc(f.get("titulo") or f["url"])}</a>' for f in c["fontes"])
+
+def _breadcrumb(base, itens):
+    return {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": i, "name": n, "item": base + h} for i, (n, h) in enumerate(itens, 1)]}
+
+
+def _nome(c):
+    return f'{c["nome_urna"]} ({c["partido"]})' if c["partido"] else c["nome_urna"]
+
+
+def _placar_html(linhas, id_titulo, titulo, nota):
+    """linhas: [(nome, cor, {veredito: n})] em blocos verticais (cabe em 360 px)."""
+    blocos = "".join(
+        f'<div class="db-pc" style="--c:var(--{cor})"><h3>{esc(nome)}</h3><ul>'
+        + "".join(f"<li><span>{esc(ROTULOS[v])}</span><span>{n} ({pct(n, sum(conta.values()))}%)</span></li>"
+                  for v, n in conta.items())
+        + f"<li><span>Total</span><span>{sum(conta.values())}</span></li></ul></div>"
+        for nome, cor, conta in linhas)
+    return (f'<section aria-labelledby="{id_titulo}"><h2 id="{id_titulo}">{esc(titulo)}</h2>'
+            f'<p class="db-nota">{esc(nota)}</p><div class="db-placar">{blocos}</div></section>')
+
+
+def como_checamos():
+    escalas = "; ".join(f"{nome}: " + ", ".join(ROTULOS[v][0].lower() + ROTULOS[v][1:] for v in V.VEREDITOS[t]) for t, nome in ESCALAS.items())
+    return ('<section aria-labelledby="metodo"><h2 id="metodo">Como checamos</h2>'
+            '<p>Selecionamos as frases do debate que dá para conferir com dado público. Cada uma recebe um veredito na '
+            f'escala do tipo dela ({esc(escalas)}).</p>'
+            '<p>Toda checagem cita as fontes, com a data de acesso, e diz o que o outro lado responde quando há resposta. '
+            'O trecho entre aspas é o da transcrição automática, com os erros dela; a frase acima dele é a versão limpa '
+            'da afirmação. Quando uma checagem é corrigida, a data de atualização muda.</p>'
+            '<p>O placar só conta vereditos. Não é nota do debate: a seleção cobre só frases verificáveis.</p></section>')
+
+
+def gerar(m, base, autor):
+    """Páginas de um debate: dict com path, titulo, desc, html, ld, publicado, modificado, og, llms, afirmacoes
+    (uma página por checagem), transcricao, placar e resumo (para o índice e o banner)."""
+    deb, cands, itens, chs = m["debate"], m["cands"], m["itens"], m["checagens"]
+    emissora, turno, ano, dia = deb["emissora"], deb["turno"], deb["ano"], data_br(deb["data"])
+    path, url = m["path"], base + m["path"]
+    tpath = path + "transcricao/"
+    publicado = deb.get("publicado_em") or deb["data"]
+    modificado = max([publicado] + [c["atualizado_em"] for c in chs])
+    n = len(chs)
+    candidatos = [c for i, c in cands.items() if i != V.MEDIACAO]
+    nomes = " x ".join(c["nome_urna"] for c in candidatos)
+    rotulo = f"Debate {emissora} {turno}º turno {ano}"
+    titulo = f"{rotulo}: o que é verdade"
+    desc = (f"Checagem do debate {nomes} para {deb['cargo']} na {emissora}, em {dia}: {n} afirmações com veredito, "
+            f"explicação e fontes.")
+    trilha = [("Início", "/"), ("Debates", "/debates/"), (rotulo, path)]
+    og = f"debate-{ano}-{deb['slug']}"
+
+    def af_path(i):
+        return f"{path}{i}/"
+
+    def autor_claim(q):
+        if q == V.MEDIACAO:
+            return {"@type": "Organization", "name": f"Mediação do debate {emissora}"}
+        return {"@type": "Person", "name": cands[q]["nome_urna"]}
+
+    def claim(c):
+        a = itens[c["id"]]
+        return {"@context": "https://schema.org", "@type": "ClaimReview", "url": base + af_path(c["id"]),
+                "claimReviewed": a["afirmacao"], "datePublished": publicado, "dateModified": c["atualizado_em"],
+                "author": autor, "inLanguage": "pt-BR",
+                "itemReviewed": {"@type": "Claim", "author": autor_claim(a["quem"]), "datePublished": deb["data"],
+                                 "appearance": {"@type": "CreativeWork", "name": f"Transcrição do debate {emissora}, {dia}",
+                                                "url": f"{base}{tpath}#{ancora(a['timestamp'])}"}},
+                "reviewRating": {"@type": "Rating", "alternateName": ROTULOS[c["veredito"]]}}
+
+    def cartao(c, link=True):
+        a = itens[c["id"]]
+        cd = cands[a["quem"]]
+        fontes = "; ".join(f'<a href="{attr(f["url"])}" rel="noopener">{esc(f["titulo"])}</a> ({esc(f["orgao"])})'
+                           for f in c["fontes"])
         outro = f'<p class="db-outro"><b>Outro lado:</b> {esc(c["outro_lado"])}</p>' if c.get("outro_lado") else ""
-        return (f'<article class="db-af" id="{a["id"]}" data-candidato="{attr(a["candidato"])}" data-veredito="{slug(c["veredito"])}" '
-                f'style="--c:var(--{cd["cor"]})"><div class="db-af-t"><span>{esc(cd["nome"])} ({esc(cd["partido"])})</span>'
-                f'<span class="db-tempo">{esc(a["timestamp"])}</span></div>'
-                f'<blockquote>“{esc(a["trecho"])}”</blockquote><span class="db-selo">{esc(c["veredito"])}</span>'
-                f'<p>{esc(c["explicacao"])}</p>{outro}<p class="db-fontes">Fontes: {fontes}</p>'
-                f'<a class="db-link" href="#{a["id"]}">Link desta checagem</a></article>')
+        pagina = f'<a class="db-link" href="{af_path(a["id"])}">Página desta checagem</a>' if link else ""
+        return (f'<article class="db-af" id="{a["id"]}" data-candidato="{attr(a["quem"])}" data-tema="{attr(a["tema"])}" '
+                f'data-veredito="{attr(c["veredito"])}" style="--c:var(--{cd["cor"]})"><div class="db-af-t">'
+                f'<span>{esc(_nome(cd))}</span><a class="db-tempo" href="{tpath}#{ancora(a["timestamp"])}">'
+                f'aos {esc(a["timestamp"])} na transcrição</a></div>'
+                f'<p class="db-frase">{esc(a["afirmacao"])}</p><blockquote>“{esc(a["trecho"])}”</blockquote>'
+                f'<span class="db-selo">{esc(ROTULOS[c["veredito"]])}</span>'
+                f'<p>{esc(c["explicacao"])}</p>{outro}<p class="db-fontes">Fontes: {fontes}</p>{pagina}</article>')
 
-    grupos = {}
-    for c in checagens:
-        tema = por_id[c["id"]]["tema"]
-        grupos.setdefault(slug(tema), (tema, []))[1].append(c)
-    ordem = sorted(grupos, key=_rank_tema)  # sort estável: dentro do mesmo rank, a ordem de chegada
-    temas = "".join(f'<section class="db-tema" id="tema-{s}"><h2>{esc(grupos[s][0])}</h2>'
-                    f'<div class="db-lista">{"".join(cartao(c) for c in grupos[s][1])}</div></section>' for s in ordem)
+    conta = placar(m)
+    linhas = [(_nome(cands[q]), cands[q]["cor"], conta[q]) for q in conta]
+    placar_html = _placar_html(linhas, "placar", "Vereditos por quem falou",
+                               "Contagem das afirmações checadas de cada um, com a parte de cada veredito no total dele.")
+    temas_usados = [t for t in V.TEMAS if any(itens[c["id"]]["tema"] == t for c in chs)]
+    vereditos = [v for v in ORDEM_VEREDITOS if any(c["veredito"] == v for c in chs)]
 
-    metodo = f'<p>{esc(chs["metodo"])}</p>' if chs.get("metodo") else ""
-    transcricao = deb["transcricao"] if re.match(r"^https?://", deb.get("transcricao") or "") else None
-    transc = (f'<p><a href="{attr(transcricao)}" rel="noopener">Transcrição integral do debate</a></p>'
-              if transcricao else "")
-    como = f'<section aria-labelledby="metodo"><h2 id="metodo">Como checamos</h2>{metodo}{transc}</section>' if metodo or transc else ""
+    def opcoes(nome, rot, pares):
+        return (f'<label>{rot}<select name="{nome}"><option value="">Todos</option>'
+                + "".join(f'<option value="{attr(v)}">{esc(t)}</option>' for v, t in pares) + "</select></label>")
+    filtro = ('<form class="db-filtro" aria-label="Filtrar afirmações" hidden>'
+              + opcoes("candidato", "Quem", [(q, cands[q]["nome_urna"]) for q in conta])
+              + opcoes("tema", "Tema", [(t, TEMAS[t]) for t in temas_usados])
+              + opcoes("veredito", "Veredito", [(v, ROTULOS[v]) for v in vereditos])
+              + f'<output aria-live="polite">{n} de {n} afirmações</output></form>')
+    temas = "".join(
+        f'<section class="db-tema" id="tema-{t}"><h2>{esc(TEMAS[t])}</h2><div class="db-lista">'
+        + "".join(cartao(c) for c in chs if itens[c["id"]]["tema"] == t) + "</div></section>" for t in temas_usados)
 
-    corpo = (f'<nav class="db-crumbs" aria-label="Trilha"><a href="/">Início</a> › Debate {esc(emissora)} ({turno}º turno)</nav>'
-             f'<p class="db-kicker">Checagem · {turno}º turno · {dia}</p>'
-             f'<h1>Checagem do debate da {esc(emissora)}</h1>'
-             f'<p class="db-lead">Debate entre {esc(nomes)} na {esc(emissora)}, em {dia}. '
-             f'Checamos {n} afirmações: cada uma tem o trecho, o veredito, a explicação e as fontes.</p>'
-             f'{placar}{filtro}{temas}'
+    corpo = (_trilha(trilha[:2] + [(rotulo, None)])
+             + f'<p class="db-kicker">Checagem · {esc(deb["cargo"])} · {turno}º turno · {dia}</p>'
+             f'<h1>Debate {esc(emissora)} do {turno}º turno: o que é verdade</h1>'
+             f'<p class="db-lead">Debate para {esc(deb["cargo"])} entre {esc(" e ".join(_nome(c) for c in candidatos))}, '
+             f'na {esc(emissora)}, em {dia}. Checamos {n} afirmações: cada uma tem a frase, o trecho da transcrição, '
+             f'o veredito, a explicação e as fontes.</p>'
+             f'{placar_html}{filtro}{temas}'
              f'<section class="db-cta" aria-labelledby="depois"><h2 id="depois">A eleição</h2>'
-             f'<p><a href="/ao-vivo/">Apuração do 2º turno ao vivo, por município →</a></p>'
-             f'<p><a href="/">Resultado do 1º turno →</a></p></section>{como}')
-    pagina = (f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">'
-              f'<meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(titulo)}</title>'
-              f'<style>{brand.CSS}</style>{CSS}<script defer src="/debates/debate.js"></script></head>'
-              f'<body><main id="conteudo" class="db">{corpo}</main></body></html>')
+             f'<p><a href="/ao-vivo/">Apuração ao vivo, por município →</a></p>'
+             f'<p><a href="/">Resultado do 1º turno →</a></p>'
+             f'<p><a href="{tpath}">Transcrição integral do debate →</a></p></section>{como_checamos()}')
+    ld = [claim(c) for c in chs]
+    ld += [{"@context": "https://schema.org", "@type": "Article", "headline": titulo[:110], "description": desc,
+            "inLanguage": "pt-BR", "datePublished": publicado, "dateModified": modificado, "author": autor,
+            "publisher": autor, "image": [f"{base}/og/{og}.png"], "mainEntityOfPage": url},
+           _breadcrumb(base, trilha)]
 
-    og = f"debate-{slug(emissora)}"
-    aparicao = {"@type": "CreativeWork", "name": f"Debate da {emissora}, {dia}", "url": transcricao or url}
-    ld = [{"@context": "https://schema.org", "@type": "ClaimReview", "url": f"{url}#{c['id']}",
-           "claimReviewed": por_id[c["id"]]["trecho"], "datePublished": publicado, "author": autor, "inLanguage": "pt-BR",
-           "itemReviewed": {"@type": "Claim", "author": {"@type": "Person", "name": cands[por_id[c["id"]]["candidato"]]["nome"]},
-                            "datePublished": deb["data"], "appearance": aparicao},
-           "reviewRating": {"@type": "Rating", "alternateName": c["veredito"]}} for c in checagens]
-    ld += [{"@context": "https://schema.org", "@type": "Article", "headline": titulo[:110], "description": desc, "inLanguage": "pt-BR",
-            "datePublished": publicado, "dateModified": modificado, "author": autor, "publisher": autor,
-            "image": [f"{base}/og/{og}.png"], "mainEntityOfPage": url},
-           {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-               {"@type": "ListItem", "position": 1, "name": "Início", "item": base + "/"},
-               {"@type": "ListItem", "position": 2, "name": f"Debate {emissora} ({turno}º turno)", "item": url}]}]
+    afs = []
+    for c in chs:
+        a = itens[c["id"]]
+        cd = cands[a["quem"]]
+        p = af_path(a["id"])
+        frase = a["afirmacao"]
+        curta = frase if len(frase) <= 90 else frase[:87].rsplit(" ", 1)[0] + "…"
+        t = f"{cd['nome_urna']}: “{curta}” · {ROTULOS[c['veredito']]}"
+        corpo_af = (_trilha(trilha + [(a["id"], None)])
+                    + f'<p class="db-kicker">Checagem · {esc(rotulo)} · {esc(TEMAS[a["tema"]])}</p>'
+                    f'<h1>{esc(cd["nome_urna"])}: “{esc(frase)}”</h1>{cartao(c, link=False)}'
+                    f'<p><a href="{path}#{a["id"]}">← Todas as checagens do debate {esc(emissora)}</a></p>'
+                    f'{como_checamos()}')
+        afs.append(dict(path=p, titulo=t, desc=f"Veredito: {ROTULOS[c['veredito']]}. {c['explicacao']}"[:300],
+                        html=_doc(t, corpo_af), publicado=publicado, modificado=c["atualizado_em"],
+                        ld=[claim(c), _breadcrumb(base, trilha + [(a["id"], p)])],
+                        og=(f"{og}-{a['id']}", frase, _nome(cd), cd["cor"], ROTULOS[c["veredito"]])))
 
-    por_cand = [(c["nome"], c["partido"], c["cor"], sum(conta[(cid, v)] for v in vereditos)) for cid, c in cands.items()]
-    llms = (f"- [Checagem do debate da {emissora} ({turno}º turno, {dia})]({url}): {n} afirmações de {nomes}, "
-            f"com veredito, explicação e fontes\n")
-    return dict(path=path, titulo=titulo, desc=desc, html=pagina, ld=ld, publicado=publicado, modificado=modificado,
-                og=(og, f"Checagem do debate da {emissora}", f"{turno}º turno · {dia}", por_cand, f"{n} afirmações checadas"),
-                llms=llms, rotulo=f"Debate {emissora}")
+    tt = f"Transcrição do debate {emissora} ({turno}º turno, {dia})"
+    trilha_t = trilha + [("Transcrição", tpath)]
+    transcricao = dict(path=tpath, titulo=tt, desc=f"Transcrição automática integral do debate {nomes} na {emissora}.",
+                       html=_doc(tt, _trilha(trilha + [("Transcrição", None)]) + f"<h1>{esc(tt)}</h1>"
+                                 + _transcricao_html(m["transcricao"])),
+                       ld=[_breadcrumb(base, trilha_t)], publicado=publicado, modificado=publicado)
+
+    por_cand = [(c["nome_urna"], c["partido"], c["cor"], sum(conta.get(c["id"], {}).values())) for c in candidatos]
+    return dict(path=path, titulo=titulo, desc=desc, html=_doc(titulo, corpo, js=True), ld=ld, publicado=publicado,
+                modificado=modificado, og=(og, f"Checagem do debate {emissora}", f"{deb['cargo']} · {turno}º turno · {dia}",
+                                           por_cand, f"{n} afirmações checadas"),
+                llms=(f"- [Checagem do debate {emissora} ({deb['cargo']}, {turno}º turno, {dia})]({url}): {n} afirmações "
+                      f"de {nomes}, com veredito, explicação e fontes\n"),
+                afirmacoes=afs, transcricao=transcricao, placar=conta, cands=cands, rotulo=rotulo, n=n,
+                data=deb["data"])
+
+
+def _transcricao_html(md):
+    """transcricao.md escapado: ## vira h2, cada **H:MM:SS** — texto vira um parágrafo com âncora t-H-MM-SS
+    (a primeira, se a marcação se repetir); links do markdown viram só o texto."""
+    out, vistos = ['<div class="db-tr">'], set()
+    for linha in md.splitlines():
+        linha = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", linha.strip())
+        if not linha or linha.startswith("# ") or set(linha) <= set("|-: "):
+            continue
+        if s := V.RE_SECAO.match(linha):
+            out.append(f"<h2>{esc(s.group(1))}</h2>")
+        elif mk := V.RE_MARCA.match(linha):
+            a = ancora(mk.group(1))
+            ident = f' id="{a}"' if a not in vistos else ""
+            vistos.add(a)
+            out.append(f"<p{ident}><b>{esc(mk.group(1))}</b> {esc(mk.group(2))}</p>")
+        else:
+            out.append(f"<p>{esc(linha.lstrip('>-| ').replace('**', '').replace(' | ', ': ').rstrip('| '))}</p>")
+    return "".join(out) + "</div>"
+
+
+def indice(gerados, base, autor):
+    """/debates/: lista dos debates (gerados já do mais novo para o mais antigo) e placar acumulado por candidato
+    (soma por id, que é estável entre debates; a mediação fica de fora)."""
+    soma, quem = {}, {}
+    for g in reversed(gerados):  # o mais novo por último: nome, partido e cor ficam os dele
+        for q, conta in g["placar"].items():
+            if q == V.MEDIACAO:
+                continue
+            quem[q] = g["cands"][q]
+            for v, k in conta.items():
+                soma.setdefault(q, {}).setdefault(v, 0)
+                soma[q][v] += k
+    vereditos = [v for v in ORDEM_VEREDITOS if any(v in c for c in soma.values())]
+    linhas = [(_nome(quem[q]), quem[q]["cor"], {v: soma[q].get(v, 0) for v in vereditos}) for q in soma]
+    total = sum(g["n"] for g in gerados)
+    titulo = "Checagem dos debates das eleições: o que é verdade"
+    desc = f"Todas as checagens de debates: {len(gerados)} debates, {total} afirmações com veredito, explicação e fontes."
+    lista = "".join(f'<a class="db-deb" href="{g["path"]}"><b>{esc(g["rotulo"])}</b>'
+                    f'<span>{data_br(g["data"])} · {g["n"]} afirmações checadas</span></a>' for g in gerados)
+    corpo = (_trilha([("Início", "/"), ("Debates", None)])
+             + f'<p class="db-kicker">Checagem</p><h1>Debates: o que é verdade</h1>'
+             f'<p class="db-lead">Checamos as frases verificáveis dos debates: {total} afirmações em {len(gerados)} '
+             f'{"debate" if len(gerados) == 1 else "debates"}. Cada uma tem página própria com veredito e fontes.</p>'
+             f'<section aria-labelledby="lista"><h2 id="lista">Debates checados</h2>{lista}</section>'
+             + _placar_html(linhas, "placar", "Vereditos somados por candidato",
+                            "Soma das afirmações checadas de cada candidato em todos os debates acima, sem a mediação.")
+             + como_checamos())
+    modificado = max(g["modificado"] for g in gerados)
+    ld = [{"@context": "https://schema.org", "@type": "CollectionPage", "name": titulo, "description": desc,
+           "url": base + "/debates/", "inLanguage": "pt-BR", "author": autor, "dateModified": modificado},
+          _breadcrumb(base, [("Início", "/"), ("Debates", "/debates/")])]
+    return dict(path="/debates/", titulo=titulo, desc=desc, html=_doc(titulo, corpo), ld=ld,
+                publicado=min(g["publicado"] for g in gerados), modificado=modificado, placar=soma,
+                llms=f"- [Checagem dos debates]({base}/debates/): {total} afirmações checadas em {len(gerados)} debates\n")

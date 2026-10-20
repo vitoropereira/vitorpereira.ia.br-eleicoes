@@ -25,6 +25,13 @@ class Moldura(unittest.TestCase):
         self.assertNotIn("aria-current", B.sitebar("/").replace('<a href="/" aria-current=page>', ""))
         self.assertIn('<a href="/rastro/">Rastro do dinheiro</a>', B.sitebar("/"))
 
+    def test_menu_tem_debates(self):
+        if not B.debates():
+            self.skipTest("nenhum debate com checagens.json")
+        self.assertIn('<a href="/debates/" aria-current=page>Debates</a>', B.sitebar("/debates/"))
+        self.assertIn('<a href="/debates/">Debates</a>', B.sitebar("/"))
+        self.assertIn(f'<a href="{B.debates()[0]["path"]}">', B.banner_debate())
+
     def test_contador_ao_vivo_no_cabecalho(self):
         s = B.sitebar("/rastro/")
         m = re.search(r'<a class="agora" href="/ao-vivo/" (.*?) hidden>', s)

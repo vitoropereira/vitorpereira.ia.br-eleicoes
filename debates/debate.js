@@ -1,14 +1,18 @@
-// Checagem do debate: filtro por candidato e por veredito. Sem JS a lista fica inteira e o filtro, escondido.
+// Checagem do debate: filtro por quem falou, tema e veredito. Sem JS a lista fica inteira e o filtro, escondido.
 (function () {
   var form = document.querySelector(".db-filtro");
   if (!form) return;
   var cartoes = document.querySelectorAll(".db-af");
   var saida = form.querySelector("output");
+  var campos = ["candidato", "tema", "veredito"];
   form.hidden = false;
   function aplicar() {
-    var cand = form.elements.candidato.value, ver = form.elements.veredito.value, n = 0;
+    var n = 0;
     cartoes.forEach(function (a) {
-      var ok = (!cand || a.dataset.candidato === cand) && (!ver || a.dataset.veredito === ver);
+      var ok = campos.every(function (c) {
+        var v = form.elements[c].value;
+        return !v || a.dataset[c] === v;
+      });
       a.hidden = !ok;
       if (ok) n++;
     });
