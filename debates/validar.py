@@ -29,6 +29,14 @@ DEBATE_INT = ("ano", "turno")
 FONTES = ("youtube-auto", "whisper", "colado")
 CANDIDATO = ("id", "nome_urna", "partido")
 
+VEREDITO_FATO = ("verdadeiro", "verdadeiro-com-ressalva", "exagerado", "falso", "sem-evidencia", "nao-checavel")
+VEREDITOS = {"dado": VEREDITO_FATO, "fato": VEREDITO_FATO,
+             "promessa": ("ja-existe", "viavel", "depende-do-congresso", "sem-custo-estimado", "inviavel"),
+             "acusacao": ("ha-investigacao", "ha-denuncia", "ha-condenacao", "sem-registro-publico")}
+CHECAGEM = ("id", "veredito", "explicacao", "atualizado_em")
+FONTE = ("url", "titulo", "orgao", "data_publicacao", "acessado_em")
+FRASES = (2, 4)
+
 RE_SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 RE_DATA = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 RE_ID = re.compile(r"^[a-z]+-\d{2}$")
@@ -193,6 +201,76 @@ def validar(itens, transcricao, debate):
     return erros
 
 
+def _frases(s):
+    return len([f for f in re.split(r"(?<=[.!?])\s+(?=[A-ZÀ-Ú0-9\"“(])", s.strip()) if f])
+
+
+def validar_checagens(checagens, itens, hoje=None):
+    """Erros do checagens.json: um veredito por afirmação `certa`, na escala do `tipo` dela, com fonte."""
+    if not isinstance(checagens, list):
+        return ["o topo de checagens.json tem que ser uma lista"]
+    hoje = hoje or date.today()
+    por_id = {i["id"]: i for i in itens if isinstance(i, dict) and isinstance(i.get("id"), str)} \
+        if isinstance(itens, list) else {}
+    erros, vistos = [], set()
+
+    def data(nome, campo, v):
+        d = _data_iso(v) if isinstance(v, str) else None
+        if d is None:
+            erros.append(f"{nome}: {campo} {v!r} não é AAAA-MM-DD")
+        elif d > hoje:
+            erros.append(f"{nome}: {campo} {v!r} é depois de hoje")
+
+    for n, ch in enumerate(checagens):
+        if not isinstance(ch, dict):
+            erros.append(f"checagem {n}: não é objeto")
+            continue
+        nome = f"checagem {n} ({ch.get('id')!r})"
+        for c in CHECAGEM:
+            if not isinstance(ch.get(c), str) or not ch[c].strip():
+                erros.append(f"{nome}: falta o campo {c!r} (string não vazia)")
+        if "outro_lado" in ch and (not isinstance(ch["outro_lado"], str) or not ch["outro_lado"].strip()):
+            erros.append(f"{nome}: outro_lado, quando existe, é string não vazia")
+        i = ch.get("id")
+        it = por_id.get(i) if isinstance(i, str) else None
+        if isinstance(i, str):
+            if i in vistos:
+                erros.append(f"{nome}: id duplicado")
+            vistos.add(i)
+            if it is None:
+                erros.append(f"{nome}: não há afirmação com esse id")
+            elif it.get("autoria") != "certa":
+                erros.append(f"{nome}: afirmação de autoria {it.get('autoria')!r} não se checa")
+        if it is not None and isinstance(ch.get("veredito"), str):
+            ok = VEREDITOS.get(it.get("tipo"), ())
+            if ch["veredito"] not in ok:
+                erros.append(f"{nome}: veredito {ch['veredito']!r} fora de {list(ok)} (tipo {it.get('tipo')!r})")
+        if isinstance(ch.get("explicacao"), str) and ch["explicacao"].strip():
+            k = _frases(ch["explicacao"])
+            if not FRASES[0] <= k <= FRASES[1]:
+                erros.append(f"{nome}: explicacao com {k} frases (de {FRASES[0]} a {FRASES[1]})")
+        if isinstance(ch.get("atualizado_em"), str) and ch["atualizado_em"].strip():
+            data(nome, "atualizado_em", ch["atualizado_em"])
+        fontes = ch.get("fontes")
+        if not isinstance(fontes, list) or not fontes:
+            erros.append(f"{nome}: falta 'fontes' (lista não vazia, mesmo em sem-evidencia e nao-checavel)")
+            continue
+        for k, f in enumerate(fontes):
+            fn = f"{nome} fonte {k}"
+            if not isinstance(f, dict):
+                erros.append(f"{fn}: não é objeto")
+                continue
+            for c in FONTE:
+                if not isinstance(f.get(c), str) or not f[c].strip():
+                    erros.append(f"{fn}: falta o campo {c!r} (string não vazia)")
+            if isinstance(f.get("url"), str) and not f["url"].startswith("https://"):
+                erros.append(f"{fn}: url {f['url']!r} não começa com https://")
+            for c in ("data_publicacao", "acessado_em"):
+                if isinstance(f.get(c), str) and f[c].strip():
+                    data(fn, c, f[c])
+    return erros
+
+
 def main(argv=None):
     argv = sys.argv[1:] if argv is None else argv
     if len(argv) != 1:
@@ -203,10 +281,15 @@ def main(argv=None):
         debate = json.loads((pasta / "debate.json").read_text(encoding="utf-8"))
         itens = json.loads((pasta / "afirmacoes.json").read_text(encoding="utf-8"))
         transcricao = (pasta / "transcricao.md").read_text(encoding="utf-8")
+        checagens = None
+        if (pasta / "checagens.json").exists():
+            checagens = json.loads((pasta / "checagens.json").read_text(encoding="utf-8"))
     except (OSError, ValueError) as e:
         print(f"{pasta}: {e}", file=sys.stderr)
         return 1
     erros = validar_debate(debate) + validar_pasta(pasta, debate) + validar(itens, transcricao, debate)
+    if checagens is not None:
+        erros += validar_checagens(checagens, itens)
     for e in erros:
         print(e, file=sys.stderr)
     if erros:
@@ -217,6 +300,9 @@ def main(argv=None):
     for a, b in (("quem", "tipo"), ("quem", "autoria")):
         print(f"{a}×{b}: " + ", ".join(f"{x}/{y}={v}" for (x, y), v in
                                         sorted(Counter((i[a], i[b]) for i in itens).items())))
+    if checagens is not None:
+        print(f"{len(checagens)} checagens: " + ", ".join(
+            f"{k}={v}" for k, v in sorted(Counter(c["veredito"] for c in checagens).items())))
     return 0
 
 
