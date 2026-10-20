@@ -456,8 +456,7 @@ def secao_debates(deb):
     frase: a fala do candidato pode citar um termo que o Rastro não usa (ex.: "a fraude do INSS"), e a frase fica na checagem."""
     if not deb or not deb.get("debates"):
         return ""
-    nome = f'{deb["nome_urna"]} ({deb["partido"]})' if deb.get("partido") else deb["nome_urna"]
-    placar = dp._placar_html([(nome, deb["cor"], deb["conta"])], "debates-placar", "Vereditos somados",
+    placar = dp._placar_html([(dp._nome(deb), deb["cor"], deb["conta"])], "debates-placar", "Vereditos somados",
                              "Contagem das afirmações checadas dele(a) em todos os debates, com a parte de cada veredito no total.")
     dets = "".join(
         f'<details class="rs-det"><summary><b>{esc(d["rotulo"])}</b> · {len(d["afirmacoes"])} afirmação(ões)</summary>'
@@ -600,8 +599,8 @@ def html_metodologia(cfg, avisos=None):
              + destaque_h + secao_rede_metodologia(cfg)
              + '<h2 id="presidente">Presidente e “nos debates”</h2><p>Os dois candidatos do 2º turno a presidente têm página com o mesmo '
                "cruzamento das contas dos eleitos (receitas, despesas, fornecedores e indicadores), mas ficam fora dos totais, da rede de "
-               "fornecedores entre eleitos e da lista de eleitos. A comparação de custo por voto não se aplica: o grupo de candidatos a "
-               f"presidente tem menos de {cfg['min_campanhas_grupo']} campanhas.</p><p>A seção “nos debates” soma os vereditos das afirmações "
+               "fornecedores entre eleitos e da lista de eleitos. As comparações com outras campanhas do mesmo cargo (preço fora da "
+               "curva e custo por voto) não se aplicam a eles.</p><p>A seção “nos debates” soma os vereditos das afirmações "
                'dele(a) checadas em cada debate da seção <a href="/debates/">Debates</a>, com link para cada checagem. É a mesma contagem do '
                "placar dos debates: só conta vereditos, não é nota.</p>"
              + "<h2>Limites</h2><ul>"
@@ -1011,8 +1010,11 @@ def gerar(dest, publicados, eleitos, dir_contas, indicadores, fornecedores, cfg,
                                  {"contas": (en["contas"] or {}).get("data_base") or bases_g["contas"], "receita": receita}, ids,
                                  cruz.get(str(en["eleito"]["sq"])), nos_debates.get(str(en["eleito"]["sq"])))
     resumo = []
+    pres_sq = {p["sq"] for p in presidentes}
     for a in agg.values():
-        resumo.append({"id": a["id"], "rotulo": a["rotulo"], "mei": a["mei"], "n": len(a["campanhas"]), "total": sum(c["total"] for c in a["campanhas"])})
+        camps = [c for c in a["campanhas"] if str(c["eleito"]["sq"]) not in pres_sq]  # presidente fica fora dos totais da home
+        if camps:
+            resumo.append({"id": a["id"], "rotulo": a["rotulo"], "mei": a["mei"], "n": len(camps), "total": sum(c["total"] for c in camps)})
     paginas = [_meta("rastro/", "Rastro do dinheiro | Eleições 2026",
                      "Para onde foi o dinheiro de campanha dos eleitos de 2026: total por cargo, maiores fornecedores e indicadores, com a fonte de cada dado. " + AVISO,
                      html_home(entradas, resumo, cfg, bases_g, pendentes, rede, pres_entradas), []),

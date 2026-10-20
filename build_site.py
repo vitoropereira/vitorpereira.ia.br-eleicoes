@@ -702,13 +702,14 @@ def rastro_publicar(dest, publicado, modificado, moldura=True):
 
     from debates import pagina as dp
     publicados = lj(R / "rastro" / "publicados.json") or []
+    pres = presidentes()
     forn = lj(dados / "fornecedores.json")
-    sal = rp.ler_sal() if publicados and rp.SAL.exists() else None  # só lido, nunca criado aqui; gerar exige quando há MEI
+    sal = rp.ler_sal() if (publicados or pres) and rp.SAL.exists() else None  # só lido, nunca criado aqui; gerar exige quando há MEI
     pags = rp.gerar(dest, publicados, lj(dados / "eleitos.json") or {"eleitos": []}, dados / "contas",
                     lj(dados / "indicadores.json"), forn,
                     json.loads((R / "rastro" / "config.json").read_text(encoding="utf-8")), envolver,
                     correcoes=lj(R / "rastro" / "correcoes.json"), sal=sal, anteriores=lj(dados / "anteriores.json"),
-                    agregados=lj(dados / "base" / "agregados.json"), presidentes=presidentes(),
+                    agregados=lj(dados / "base" / "agregados.json"), presidentes=pres,
                     debates=dp.listar(R / "debates"))
 
     def prioridade(path):

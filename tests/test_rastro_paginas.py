@@ -1122,6 +1122,14 @@ class TestPresidente(unittest.TestCase):
         self.assertIn(f'href="/rastro/fornecedor/{ID_PJ}/"', h)
         self.assertIn(f'href="{LULA}"', pags[f"/rastro/fornecedor/{ID_PJ}/"])
 
+    def test_presidente_fora_dos_maiores_fornecedores_da_home(self):
+        with tempfile.TemporaryDirectory() as d:
+            sem = self.gerar_pres(d)["/rastro/"]
+        with tempfile.TemporaryDirectory() as d:
+            com = self.gerar_pres(d, contas_lula="2001")["/rastro/"]
+        trecho = lambda h: h[h.index("Maiores fornecedores"):h.index('id="eleitos"')]
+        self.assertEqual(trecho(com), trecho(sem))
+
     def test_nos_debates(self):
         from debates import pagina as dp
         modelos = debates_band()
