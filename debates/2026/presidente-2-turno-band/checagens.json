@@ -16,14 +16,21 @@
   },
   {
     "id": "eco-02",
-    "veredito": "sem-evidencia",
-    "explicacao": "As fontes consultadas não trazem a nota atual das três agências de risco para o Brasil. Reportagens de agosto de 2026 tratam de risco de novo rebaixamento, sem dizer desde quando o país está fora do grau de investimento.",
+    "veredito": "verdadeiro",
+    "explicacao": "A agência S&P tirou o grau de investimento do Brasil em 9 de setembro de 2015, ao rebaixar a nota de BBB- para BB+. Em junho de 2026, a Fitch manteve a nota do país em BB, abaixo do grau de investimento. Não encontramos registro de recuperação do selo por nenhuma das três grandes agências desde então, o que soma mais de 10 anos.",
     "fontes": [
       {
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSlFiREFEWnUyX1VRbjFhYlF1NWNiMHJnQ3pVZDM5U3NMNGxZc0xjZGtZQWpQU3I4cUJiTnlSc193S3dYTEVFb1FSZDljS1NHQl8zNy1GbGJrUlc2MlVIdFFCLUxmcFBrMzBFYnFSUFBjSlQ2b3RaSFJJR2tQSE1LQ3RBdS1KTkN4bHIwTl9FaE5ZRXByTDhONFE2TWVNWFFiZlBF?oc=5",
-        "titulo": "Brasil pode perder nota de crédito antes mesmo das eleições, avalia ASA",
-        "orgao": "Money Times",
-        "data_publicacao": "2026-08-05",
+        "url": "https://ihu.unisinos.br/noticias/546612-agencia-retira-do-brasil-selo-de-bom-pagador-e-poe-em-duvida-o-ajuste",
+        "titulo": "Agência retira do Brasil selo de bom pagador e põe em dúvida o ajuste (reprodução de El País)",
+        "orgao": "El País / IHU Unisinos",
+        "data_publicacao": "2015-09-10",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.infomoney.com.br/?p=3374834",
+        "titulo": "Fitch não vê melhora e mantém nota 'BB' do Brasil, mesma de Jamaica e Geórgia",
+        "orgao": "InfoMoney",
+        "data_publicacao": "2026-06-16",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -31,14 +38,21 @@
   },
   {
     "id": "eco-03",
-    "veredito": "sem-evidencia",
-    "explicacao": "A estimativa mais recente divulgada aponta carga tributária de 32,4% do PIB em 2025, a maior da série. As fontes consultadas não trazem a série por governo que permita confirmar alta em todos os mandatos.",
+    "veredito": "exagerado",
+    "explicacao": "Pela série do Tesouro Nacional, a carga tributária bruta do governo geral chegou a 32,40% do PIB em 2025, o maior nível desde 2010. Mas ela não subiu em todos os governos: caiu de 30,32% do PIB em 2010 para 29,53% em 2014, no primeiro mandato de Dilma Rousseff. Também houve quedas anuais, como em 2020 (29,15%) e em 2023 (30,26%, após revisão de metodologia).",
     "fontes": [
       {
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcnFSU2tEd1B5T2xuZXBOcm1UNFJHazcwcWs5RWhncG5SWlFScno3R3hwM1g3elJQbnBtMnl3SGs0WmU2cEJ6d1JtbTJIay1nQ2VEby0wbzFuQWVnYWxiUTJqM3AwWWE5bVNfZmk4RHNyRlhLZ3MyMHZNN1E1b0tKc1dZUTQ1QmlaTEo5a2J6bGwwUDFSYlVUM0hxMllyWV94QW9POHVkc0dLczdzSUd4YUJ0aUpORTlnVUtBUkZfRQ?oc=5",
-        "titulo": "Com IR e IOF, carga tributária bate recorde e chega a 32,4% do PIB",
-        "orgao": "CNN Brasil",
-        "data_publicacao": "2026-08-10",
+        "url": "https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/51673_1623607/Boletim_CTB_2024.pdf",
+        "titulo": "Estimativa da Carga Tributária Bruta do Governo Geral 2024 (série 2010 a 2024)",
+        "orgao": "Tesouro Nacional",
+        "data_publicacao": "2025-01-01",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.gov.br/tesouronacional/pt-br/noticias/carga-tributaria-bruta-do-governo-geral-atinge-32-40-do-pib-em-2025",
+        "titulo": "Carga tributária bruta do Governo Geral atinge 32,40% do PIB em 2025",
+        "orgao": "Tesouro Nacional",
+        "data_publicacao": "2026-04-10",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -46,14 +60,14 @@
   },
   {
     "id": "eco-04",
-    "veredito": "sem-evidencia",
-    "explicacao": "Pelo Banco Central, a dívida bruta do governo geral passou de 71,68% do PIB em dezembro de 2022 para 82,87% em agosto de 2026. As fontes consultadas não trazem a comparação com outras grandes economias.",
+    "veredito": "verdadeiro",
+    "explicacao": "Pelos dados do FMI, a dívida bruta do governo geral do Brasil passou de 83,9% do PIB em 2022 para 93,3% em 2025, com projeção de 97% em 2026. Entre os países do G20, é a terceira maior alta no período 2022-2026, atrás de China e Arábia Saudita. O número de 2026 é projeção, e o FMI usa metodologia diferente da do Banco Central, que inclui títulos na carteira do BC.",
     "fontes": [
       {
-        "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json",
-        "titulo": "SGS 13762: dívida bruta do governo geral (% do PIB)",
-        "orgao": "Banco Central do Brasil",
-        "data_publicacao": "2026-08-01",
+        "url": "https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP",
+        "titulo": "General government gross debt (% of GDP) – World Economic Outlook DataMapper",
+        "orgao": "FMI",
+        "data_publicacao": "2026-04-01",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -194,14 +208,28 @@
   },
   {
     "id": "eco-12",
-    "veredito": "sem-evidencia",
-    "explicacao": "As checagens consultadas confirmam que o governo Lula quitou a dívida com o FMI, mas não o saldo de US$ 30 bilhões em 2003. Não encontramos a série oficial do saldo devido ao FMI no início de 2003.",
+    "veredito": "exagerado",
+    "explicacao": "Pelos registros do FMI, o Brasil devia 15,3 bilhões de DES (moeda de conta do Fundo) em 31 de dezembro de 2002, cerca de US$ 22 bilhões pela cotação de dezembro de 2003. O saldo subiu para 19,1 bilhões de DES no fim de 2003, perto de US$ 28 bilhões, por saques feitos já no governo Lula. O acordo assinado em 2002 previa até 22,8 bilhões de DES, cerca de US$ 30 bilhões, mas nem todo esse valor foi sacado.",
     "fontes": [
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.imf.org/external/np/fin/tad/exfin2.aspx?memberKey1=90&date1key=2002-12-31",
+        "titulo": "Brazil: Financial Position in the Fund as of December 31, 2002",
+        "orgao": "FMI",
+        "data_publicacao": "2002-12-31",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.imf.org/external/np/fin/tad/exfin2.aspx?memberKey1=90&date1key=2003-12-31",
+        "titulo": "Brazil: Financial Position in the Fund as of December 31, 2003",
+        "orgao": "FMI",
+        "data_publicacao": "2003-12-31",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.imf.org/external/np/fin/data/rms_mth.aspx?SelectDate=2003-12-31&reportType=CVSDR",
+        "titulo": "Currency units per SDR, December 2003",
+        "orgao": "FMI",
+        "data_publicacao": "2003-12-31",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -362,20 +390,20 @@
   },
   {
     "id": "out-02",
-    "veredito": "sem-evidencia",
-    "explicacao": "As fontes consultadas registram que Lula citou o objeto no debate, mas não trazem imagem ou registro independente de uma réplica de torpedo no ato. A cobertura do ato encontrada trata de outros cartazes.",
+    "veredito": "verdadeiro-com-ressalva",
+    "explicacao": "Poder360 e Congresso em Foco registraram que manifestantes levaram ao ato de Flávio na Avenida Paulista, em 18 de outubro de 2026, um míssil inflável com a frase \"Trump nuke Brazil\". As reportagens descrevem o objeto como míssil ou foguete, e não como torpedo. Também não identificam quem o levou.",
     "fontes": [
       {
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQUhlQTFIYVJGS1lvMUdZVmFiRUJ1SVFhRlgzbkFRU3VFTXh3TWQ5c2NTTDRqSFNDck43Z3ZYV2JsZjItLUtEYzQ1aXA5WEJBY0hTZ2M3eHRWUUtTWWZ3NDVuc2dZOWtOQnU3ZVBVTk9Hd2FvUGVPQkYtZVhULXRfVmZwQlhxQXJqNDBJWi1jYklKbHAyZ3dQVURxc2VzSEFWVGdvTnE4TlVOeHM?oc=5",
-        "titulo": "Lula cita “torpedo americano” em ato de apoiadores de Flávio",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/ato-pro-flavio-na-paulista-tem-missil-inflavel-pedindo-ataque-de-trump/",
+        "titulo": "Ato pró-Flávio tem míssil inflável pedindo ataque de Trump",
         "orgao": "Poder360",
         "data_publicacao": "2026-10-19",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5YRzAzakdGZDc3VUhWeWVkS1Ywbkd1UERwaDF1dkp3aG5VcEhhNW8tWlEtVDlTVzM3bUd5X09IV2lCTHJiemFGQW01eDBxSnJZM1BmNjRmX3hVVTlVUHotd21rbWdEdDBSYXEtWWZrNC1FOFM4TzdfN0pCbEM?oc=5",
-        "titulo": "Ato pró-Flávio tem pedido para que Trump jogue bomba nuclear no Brasil",
-        "orgao": "Metrópoles",
+        "url": "https://www.congressoemfoco.com.br/noticia/123350/apoiadores-levam-replica-de-missil-com-recado-a-trump-em-ato-de-flavio",
+        "titulo": "Apoiadores levam réplica de míssil com recado a Trump em ato de Flávio",
+        "orgao": "Congresso em Foco",
         "data_publicacao": "2026-10-18",
         "acessado_em": "2026-10-20"
       }
@@ -384,14 +412,21 @@
   },
   {
     "id": "out-03",
-    "veredito": "sem-evidencia",
-    "explicacao": "As checagens consultadas não trazem a média de 11 declarações falsas por dia atribuída a Jair Bolsonaro. O levantamento citado pelo Aos Fatos no debate é outro: 43 mentiras de Flávio até setembro de 2026.",
+    "veredito": "exagerado",
+    "explicacao": "Pela contagem do Aos Fatos, Jair Bolsonaro deixou a Presidência com 6.676 declarações falsas ou distorcidas, média de 4,58 por dia no mandato (2019-2022). O ano com maior ritmo foi 2021, com 2.516 declarações, cerca de 6,9 por dia. A média de 11 por dia não aparece nos levantamentos da agência.",
     "fontes": [
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
+        "url": "https://www.aosfatos.org/noticias/mentiras-bolsonaro/",
+        "titulo": "Todas as declarações de Bolsonaro, checadas",
         "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "data_publicacao": "2023-01-01",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://aosfatos.org/noticias/bolsonaro-disse-cerca-de-sete-informacoes-falsas-ou-distorcidas-por-dia-em-2021/",
+        "titulo": "Bolsonaro disse cerca de sete informações falsas ou distorcidas por dia em 2021",
+        "orgao": "Aos Fatos",
+        "data_publicacao": "2022-01-01",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -458,21 +493,28 @@
   },
   {
     "id": "soc-03",
-    "veredito": "sem-evidencia",
-    "explicacao": "A Fazenda afirma que o reajuste de 2026 repôs a inflação, e Lula disse que não sabia que o benefício estava sem reajuste. As fontes consultadas não mostram a obrigação legal de reposição anual nem o erro da Fazenda citado.",
+    "veredito": "falso",
+    "explicacao": "A Lei 14.601/2023, que rege o Bolsa Família, diz que os valores \"poderão ser corrigidos\" em intervalo de no máximo 24 meses, vedada a redução, mas não obriga a repor a inflação nem fixa índice. O reajuste de 15,04% (INPC de março de 2023 a agosto de 2026) veio por decreto, depois de mais de três anos sem correção. Em entrevista em 15 de outubro, Lula disse que não sabia da falta de reajuste. As reportagens não registram um erro da Fazenda e citam que a equipe econômica sinalizava não haver mudança.",
     "fontes": [
       {
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQ195cHNHc3lzVV90SGstNzZiQXJxVXBHTVhCNjhobXNfZGRFeEYtRGxnenAxZ3g0UFljUTFNM3lPVGRhTDVIb09vQm13c2hsdUMxcThRR3d6LTJNV3F5dXI1VzdGcUVwVXlOZUJUYkRoVjQtdVd3MEZsbmVmNnRsSkI1by1KaFY1Z0ZQV1VIa01Wdjlh?oc=5",
-        "titulo": "Não sabia que o Bolsa Família não havia sido reajustado, diz Lula sobre aumento antes da eleição",
-        "orgao": "Exame",
-        "data_publicacao": "2026-10-16",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14601.htm",
+        "titulo": "Lei nº 14.601, de 19 de junho de 2023",
+        "orgao": "Planalto",
+        "data_publicacao": "2023-06-19",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUjFxaTRBeEtlQm9JYU5JeEpST2h3bi12Y09xVXppLWtxLUFrQTR5bU8xYkVTSjc2YVNzWFFXZzJCdGhOOXVjbmtfNlFaOThkRnM5dUVyY0I1bk1UZnJCRjd6YmNnWWUzczRjejFpQmVyaElTeUIyV2pqNWdfU2pzTDJHci10bVNZ?oc=5",
-        "titulo": "‘Reajuste do Bolsa Família foi pela inflação, não foi real’, diz Durigan",
-        "orgao": "Diário do Comércio",
-        "data_publicacao": "2026-09-19",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-diz-que-nao-sabia-que-bolsa-familia-ficou-3-anos-sem-reajuste/",
+        "titulo": "Lula diz que não sabia que Bolsa Família ficou 3 anos sem reajuste",
+        "orgao": "Poder360",
+        "data_publicacao": "2026-10-15",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://jornalgrandebahia.com.br/2026/09/presidente-lula-assina-decreto-que-reajusta-bolsa-familia-em-1504/",
+        "titulo": "Presidente Lula assina decreto que reajusta Bolsa Família em 15,04%",
+        "orgao": "Jornal Grande Bahia",
+        "data_publicacao": "2026-09-01",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -525,21 +567,21 @@
   },
   {
     "id": "out-06",
-    "veredito": "sem-evidencia",
-    "explicacao": "As fontes consultadas registram decisões do TSE sobre um canal de WhatsApp pró-Lula e sobre vídeos das duas campanhas. Não encontramos a lista de condenações da campanha de Lula por desinformação contra Flávio.",
+    "veredito": "verdadeiro-com-ressalva",
+    "explicacao": "O TSE mandou retirar ao menos duas peças da campanha de Lula contra Flávio. Em 30 de agosto, a ministra Estela Aranha suspendeu em liminar a inserção \"Currículo de Flávio Bolsonaro\" por \"grave descontextualização\". Em 13 de outubro, o ministro André Mendonça mandou retirar um vídeo que atribuía a Flávio cortes em programas sociais sem base em falas ou propostas dele. São decisões de retirada de conteúdo, não condenações definitivas por fake news.",
     "fontes": [
       {
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCNHYyckh2bm0zMHptNS1RR3lXZ3pleVZqZWIyZUVYalpGTUl6VTV5U2JaWVBRTnpWdmJybkRjVjZsNjdxcDNoRGlMWkdOMDJhYURJb2Z2czh3WU1GMjJPdHZsaw?oc=5",
-        "titulo": "'Exército de Lula' no WhatsApp: por que Nunes Marques suspendeu canal novamente",
-        "orgao": "BBC",
-        "data_publicacao": "2026-10-13",
+        "url": "https://sbtnews.sbt.com.br/noticia/politica/tse-manda-retirar-do-ar-propaganda-do-pt-contra-flavio",
+        "titulo": "TSE manda retirar do ar propaganda do PT contra Flávio",
+        "orgao": "SBT News",
+        "data_publicacao": "2026-08-31",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPY1JHbzJjUFBZNTlnZHZHc2lEbnlqbHZyYXlPQ3duczJoSEU1ODdvdjlDQXE2VzZqbDIzdUVvUXZtaFBzNmZjamRsNnQwODYyd0xPT3pRQmI4aEhmTnVzMlhRdUlxX0haaVJWUFIxOUJjZWNCQ0ppWmlIa1ozaUg4Q0psbFg4dGtPR1BhNEVDbEtjdlZYcHIyMVU3ZG9mbGRYd3VwYXlkZ0dVUjRNWnpUYTRZVQ?oc=5",
-        "titulo": "Kassio mantém vídeo em que Flávio atribui R$ 7 bi em viagens a Lula e Janja",
-        "orgao": "CNN Brasil",
-        "data_publicacao": "2026-10-18",
+        "url": "https://revistaoeste.com/politica/tse-manda-campanha-de-lula-retirar-video-com-fake-news-contra-flavio/",
+        "titulo": "TSE manda campanha de Lula retirar vídeo com fake news contra Flávio",
+        "orgao": "Revista Oeste",
+        "data_publicacao": "2026-10-14",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -547,14 +589,14 @@
   },
   {
     "id": "eco-19",
-    "veredito": "sem-evidencia",
-    "explicacao": "As fontes consultadas registram que Lula se referiu a Dani Marques como responsável pela economia da campanha de Flávio. Não encontramos declaração dela citando Milei como modelo.",
+    "veredito": "verdadeiro-com-ressalva",
+    "explicacao": "Daniella Marques, coordenadora econômica da campanha de Flávio Bolsonaro, disse em 14 de setembro de 2026 que o plano de governo vai se inspirar nas reformas feitas por Javier Milei na Argentina. A frase registrada pela Exame é \"Vamos nos inspirar nas reformas que Milei fez\". Ela falou em inspiração nas reformas, não em adotar Milei como modelo geral.",
     "fontes": [
       {
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQekJ6YkpsM1pxM3AtQV94cFFnc0xLU2ZQN2llbER4OEh2WGFOYnlla3FTWHJxZW1oQmRlLVdZbkhpbGlIS1Q3akk1QlZwazV0N0djRkw3TnBuUXpQZ2JKUUk5T1VRMGcyY2h0QlctbzZoSXcyX255NlFOZEFLYV92SkYxTEdaV1NTTGE0N3hNZTVKTjdPOFk0aHRIY0JrLWptdllmUkxENzNTbjRQRXl5ZA?oc=5",
-        "titulo": "Lula chama Dani Marques de \"mulher da economia\", e direita vê machismo",
-        "orgao": "Poder360",
-        "data_publicacao": "2026-10-19",
+        "url": "https://trademap.com.br/noticias/news-8300907",
+        "titulo": "'Vamos nos inspirar nas reformas que Milei fez', diz coordenadora econômica de Flávio Bolsonaro (reprodução de Exame)",
+        "orgao": "Exame / TradeMap",
+        "data_publicacao": "2026-09-14",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -651,21 +693,21 @@
   },
   {
     "id": "sau-01",
-    "veredito": "sem-evidencia",
-    "explicacao": "As fontes consultadas tratam do subfinanciamento do SUS, mas não trazem o valor oficial do gasto público em saúde como proporção do PIB. Não consultamos a Conta-Satélite de Saúde do IBGE.",
+    "veredito": "verdadeiro",
+    "explicacao": "Pela Conta-Satélite de Saúde do IBGE, a despesa do governo com bens e serviços de saúde foi de 4,0% do PIB em 2021 (R$ 363,4 bilhões), o ano mais recente da série publicada. O gasto total com saúde, somando famílias, foi de 9,7% do PIB. Relatório do Ministério da Saúde estima a parcela pública em 4,26% do PIB em 2022.",
     "fontes": [
       {
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5GenFqVzdVSjVLdWJHRjFaX1F1Rk9xcUV1dV9abWVlSVNtWjZLY0JrSW9NYnR0TG00aWJCZWtLUnpxNUVQcUhnOEVUZFJkeHJyYXphTVMzTDVkOWk1UnhaOWE5VTFKQXd5MU9CcVJrcHBSWDE0dG9KbTFBTzV4dw?oc=5",
-        "titulo": "BRASIL GASTA MENOS DO QUE DEVERIA COM O SUS",
-        "orgao": "revista piauí",
-        "data_publicacao": "2026-04-28",
+        "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv102075_informativo.pdf",
+        "titulo": "Conta-Satélite de Saúde: Brasil 2010-2021",
+        "orgao": "IBGE",
+        "data_publicacao": "2024-04-05",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRGxXd3NPZDgtRlJqZ0lsdkhfclM2Z1JIYy1lR3FDN1pwT25iNEVMSTRpaG5ZdGFHMWVSeThLVGxmWkRsaDJGY2stYlJxNWI0cGlBTzMxcy1QeFY2NEpXbEhLcXN0TldaYXRPdXFrS2RqdWpRTXlHcEJGUmg1VnhocWZUTVY4V3hYc0hlYUdtTW5VYlFJRzBXV0lmT0JGclk1VDE5bTBOQnZ2a092aHR0bm5IaTdXQ0ExOTc4TWNGLWpNUmY2cEHSAdQBQVVfeXFMUEFlbWZZcnByTTlMNnVVS09XeEVLekdjM0dlNWpFQk1yYkQ2SUtYT0hKVEtWUGloUWdUbXhnUmZzMHNBZnAtNXNQcWhEdFRSNFFONW9TQmhEYTRyWUtUQXpRVEhpM3FEMk9tN2JjREZyUVQ3SlZUb1FfMVloeXVESGlwU2Yxczhlb0YtQWxCYVFfM1BWd09ncEdUb1FfdWdvU0JpMUpCU0d2RTlJM3pNZG1TcUJ5Z3B2b1BobFlqUExxMllUV1NqWk43WGl4TWYxNlpkei0?oc=5",
-        "titulo": "Próximo governo terá de elevar financiamento do SUS, dizem especialistas",
-        "orgao": "Valor Econômico",
-        "data_publicacao": "2026-10-01",
+        "url": "https://bvsms.saude.gov.br/bvs/publicacoes/relatorio_sha_2022.pdf",
+        "titulo": "Relatório do SHA 2022 (Contas de Saúde)",
+        "orgao": "Ministério da Saúde",
+        "data_publicacao": "2022-01-01",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -673,14 +715,21 @@
   },
   {
     "id": "sau-02",
-    "veredito": "sem-evidencia",
-    "explicacao": "A OPAS trata o financiamento da saúde nas Américas como insuficiente para a cobertura universal. O texto consultado não traz a meta de 6% do PIB citada.",
+    "veredito": "verdadeiro",
+    "explicacao": "A OPAS recomenda que os países elevem o gasto público em saúde para 6% do PIB ou mais. Em comunicado de novembro de 2021, a organização afirma que todos os países devem aumentar os gastos públicos em saúde para os 6% recomendados do PIB, com 30% desse valor destinado à atenção primária. A mesma meta aparece em documento conjunto OPAS/Cepal de 2020.",
     "fontes": [
       {
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPbjhOdHVhNWZqTGdBdU9TaUtydk5hYUtuU2xzemVmMGk2QUphY2ZhVHMwQzdEanVtcGZFVklfRXpIQVdPNV8wbUdtZ3RTaUpMa0ltdGNmQ1NTczlfaFZUTHBnUmZmcGplVG9MeHpGalFvenpWRUNCMUlSTkpiMUNFTldkT0pOblJTWFhxMmU3NGFMUEtaWGkyOUpZYU00dlNobUhRN2lkLVpKblJKdURHMlMxUXFNU29idjNDSjhlRS00NWYtTUVKQmFlY2p2WnhOWDdtaVRBNmpkVkxRQnMwdy1DcHpacFdn?oc=5",
-        "titulo": "OPAS: financiamento à saúde nas Américas é insuficiente para universalização até 2030",
-        "orgao": "As Nações Unidas no Brasil",
-        "data_publicacao": "2019-07-05",
+        "url": "https://www.paho.org/pt/noticias/10-11-2021-investimento-na-atencao-primaria-saude-e-urgente-para-garantir-recuperacao-da",
+        "titulo": "Investimento na atenção primária à saúde é urgente para garantir recuperação da COVID-19 nas Américas",
+        "orgao": "OPAS",
+        "data_publicacao": "2021-11-10",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://paho.org/sites/default/files/2020-07/hoja-informativa-opas-cepal-pt.pdf",
+        "titulo": "Informe OPAS/Cepal sobre saúde e economia na pandemia",
+        "orgao": "OPAS/Cepal",
+        "data_publicacao": "2020-07-01",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -740,14 +789,28 @@
   },
   {
     "id": "sau-06",
-    "veredito": "sem-evidencia",
-    "explicacao": "As fontes consultadas não trazem o total oficial atualizado de mortes por Covid nem estudo que sustente que metade delas era evitável. O painel do Ministério da Saúde não respondeu à consulta automática.",
+    "veredito": "verdadeiro-com-ressalva",
+    "explicacao": "O total está correto: em março de 2025, o Brasil somava 715.295 mortes por Covid desde 2020, com base em dados do Ministério da Saúde, e o país registrou mais de mil mortes ao longo de 2025. Não há estimativa oficial de que metade das mortes era evitável. O estudo apresentado à CPI da Covid em junho de 2021 estimou cerca de 120 mil mortes evitáveis só no primeiro ano da pandemia, e o epidemiologista Pedro Hallal falou na mesma sessão em pelo menos 400 mil, com métodos diferentes.",
     "fontes": [
       {
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMVZDcGxISDRVS01VRE1YQk1sYjhrNFdnQXlRYlhoLV9EekRKcjhKSGxzT01lOFE2OUpzQzB3TlhaQlQ3OGdYbnF6SU9sRWVCNWNfTGVqb3UtaTBBd3ktdEZNd2o0NmJIMFdQQU9paUxzYkc0Wm1MTmNDUFZRV2tuSEVvTkl5cWlNWWtWRkdJcndsNkNBWjlpNmhJUzB3MldOek1YYTUwdXVsLWpHRjJDQmc4bldpY294LVdEdUdIeW4?oc=5",
-        "titulo": "Lula diz que quase metade das mortes por Covid poderia ter sido evitada e critica Bolsonaro",
-        "orgao": "ND Mais",
-        "data_publicacao": "2026-10-19",
+        "url": "https://www.poder360.com.br/poder-saude/5-anos-apos-decreto-de-pandemia-brasil-tem-715-mil-mortes-por-covid/",
+        "titulo": "Covid-19: Brasil acumula 39 milhões de casos e 715 mil mortes",
+        "orgao": "Poder360",
+        "data_publicacao": "2025-03-11",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.poder360.com.br/brasil/com-mais-restricoes-brasil-teria-evitado-ate-120-mil-mortes-diz-estudo/",
+        "titulo": "Com mais restrições, Brasil teria evitado até 120 mil mortes, diz estudo",
+        "orgao": "Poder360",
+        "data_publicacao": "2021-06-24",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.poder360.com.br/poder-saude/brasil-registra-1-700-mortes-por-covid-em-2025/",
+        "titulo": "Brasil registra 1.700 mortes por covid em 2025",
+        "orgao": "Poder360",
+        "data_publicacao": "2025-01-01",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -777,21 +840,21 @@
   },
   {
     "id": "out-08",
-    "veredito": "sem-evidencia",
-    "explicacao": "As reportagens consultadas discutem se Flávio poderia indultar o pai se eleito, mas não trazem declaração dele prometendo o indulto. Não encontramos a fala citada por Lula.",
+    "veredito": "verdadeiro",
+    "explicacao": "Flávio tem dito em campanha que, se eleito, dará indulto ao pai. Segundo o Jornal de Brasília, com base na Folhapress, ele repetiu a promessa e disse que Jair Bolsonaro vai \"subir aquela rampa\" com ele em 2027. Especialistas ouvidos pela imprensa duvidam que o indulto possa sair antes da posse e apontam precedentes do STF que podem barrá-lo.",
     "fontes": [
       {
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQX2RnTVRmb0cxeVVRT1lLNG12aThCOGhNWHBNZDhGYlJSQk5OLWlKRXM3a2dlRkMzai0tQWpmLWV6SXpqal8ycjROV2ZRRmU1cEtDNG1wYmFjcEt3Q0JkOGp5R0pLdkhTMlJaSVNlMjRfZXlWd056Z2hGbC14am1iS2xzWUY2SktfeU1vRzNfaDBLektUemtFQ0hrdnk3X2hxTG0wRV9uWm93YnNUc0Y5MVFDeW45SWIweDIyNG9KTk5oQjZLOWFJanpzRTB5Q3Z0UUVQSFM1aXBmNld1WFlINkp5ZFk5bnlSLUE?oc=5",
+        "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/se-eleito-flavio-bolsonaro-poderia-perdoar-jair-a-tempo-de-ex-presidente-subir-a-rampa-com-filho-entenda/",
         "titulo": "Se eleito, Flávio Bolsonaro poderia perdoar Jair a tempo de ex-presidente subir a rampa com filho? Entenda",
-        "orgao": "Folha de S.Paulo",
+        "orgao": "Jornal de Brasília / Folhapress",
         "data_publicacao": "2026-10-06",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPWUpFanR6QzhuQndKbTQxSkd3UVE2RFNReWhJYnYxU01mSmFMRS1IRm05SlJzdnFZdTB1TUo4ZU55NHNiUGpoa3Q3Q2ZzYTRYNmU0cTNvSWh0T1FnSi02WjlFTG5iSEhzb2lxd1doU0lvanBYdWZpeWJnVUU1c0ZSRDIwelA5VGtsZE1TRlNRN1BNSldMaXJpS2c3WmdEaWthSm1qbXFDTnpqNlNNbFJGX2h3MHRCLTBPQW5VU25RS3MtazN3SndJUnNKZFg5d0JpWTFpRWNxYWNYUzNFclVXelI4MTRTTUdpVDRCanV4ZHhjd0NFbWN6eGJZT2NvQ3ZMVzVnN2dSRnJUa3gtMHlKcnFTa9IBogJBVV95cUxNMVp0cWdQRW01NW8xWG5IQnJ2MHFZQnVaMjRVZ3lsa2tNVjMybUk3M2tQel9LNERDWlRQM28yUnB4YnR3SDJDRG82eTcyRHhQSTN3QUpQVWQ2dEtFb2pvVG5oaUNUNjJOT3p1cWk0bUJyc3hDcW1OUWVzenhaeDBtTjlHczR5QURIWHVwRXZQUFFNQ21WcEcxejdKc1M2cERSTW1uc1VLcWo2NFF6RlVJQXJPYUJ1ZDAycEFHXzhJXzg3TWxLM3JIS3dDbE1aRV9MTVY4WkNMenI2dmVTaE82MUxBNzNzNjhZX0h2SjhURlI2c2xuZG43SE9zWGVra1hHVXRZYVpiYXBndkY1c0pBdFZJSU85UWtqMHo5Ui1oOFZrdw?oc=5",
-        "titulo": "Caso eleito, Flávio Bolsonaro poderia conceder perdão a Jair a tempo de subir a rampa com o pai? Juristas explicam",
-        "orgao": "O GLOBO",
-        "data_publicacao": "2026-10-07",
+        "url": "https://conjur.com.br/2026-out-08/perdao-de-flavio-a-jair-bolsonaro-esbarra-em-controle-de-constitucionalidade-do-stf/",
+        "titulo": "Precedentes do STF podem impedir perdão de Flávio a Jair Bolsonaro",
+        "orgao": "Conjur",
+        "data_publicacao": "2026-10-08",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -975,14 +1038,14 @@
   },
   {
     "id": "sau-09",
-    "veredito": "sem-evidencia",
-    "explicacao": "As fontes consultadas não trazem comparação entre os sistemas de saúde dos países com mais de 100 milhões de habitantes. Não encontramos levantamento da OMS ou da OPAS sobre o recorte citado.",
+    "veredito": "verdadeiro-com-ressalva",
+    "explicacao": "Checagem do Projeto Comprova publicada pelo Poder360 em 2019 registra que, segundo o Ministério da Saúde, o Brasil é o único país com mais de 100 milhões de habitantes com sistema público, universal e gratuito para toda a população. A checagem aponta que os países conhecidos por sistemas desse tipo, como Reino Unido, Canadá e Cuba, têm menos de 100 milhões de habitantes. A afirmação depende do critério usado para definir sistema universal e gratuito, e a comparação vem do próprio governo, não de levantamento da OMS.",
     "fontes": [
       {
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPbjhOdHVhNWZqTGdBdU9TaUtydk5hYUtuU2xzemVmMGk2QUphY2ZhVHMwQzdEanVtcGZFVklfRXpIQVdPNV8wbUdtZ3RTaUpMa0ltdGNmQ1NTczlfaFZUTHBnUmZmcGplVG9MeHpGalFvenpWRUNCMUlSTkpiMUNFTldkT0pOblJTWFhxMmU3NGFMUEtaWGkyOUpZYU00dlNobUhRN2lkLVpKblJKdURHMlMxUXFNU29idjNDSjhlRS00NWYtTUVKQmFlY2p2WnhOWDdtaVRBNmpkVkxRQnMwdy1DcHpacFdn?oc=5",
-        "titulo": "OPAS: financiamento à saúde nas Américas é insuficiente para universalização até 2030",
-        "orgao": "As Nações Unidas no Brasil",
-        "data_publicacao": "2019-07-05",
+        "url": "https://www.poder360.com.br/midia/brasil-e-mesmo-unico-pais-com-amplo-sistema-publico-e-gratuito-de-saude/",
+        "titulo": "Brasil é mesmo único país com amplo sistema público e gratuito de saúde?",
+        "orgao": "Poder360 / Projeto Comprova",
+        "data_publicacao": "2019-10-11",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1005,21 +1068,28 @@
   },
   {
     "id": "sau-11",
-    "veredito": "sem-evidencia",
-    "explicacao": "As fontes consultadas sobre o Mais Médicos em 2026 tratam de bônus e de novas vagas, sem o total de profissionais em 2023 e hoje. Não encontramos o número oficial do Ministério da Saúde.",
+    "veredito": "verdadeiro-com-ressalva",
+    "explicacao": "Em dezembro de 2022 o Mais Médicos tinha 12.843 profissionais ativos, e o recorde anterior, de cerca de 18,2 mil, foi registrado em 2015, segundo dados do Ministério da Saúde. Em junho de 2026, o governo informou mais de 27 mil médicos no programa. O número de 28 mil é a meta oficial para 2027, não o total atual.",
     "fontes": [
       {
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE56NjlCcTd3dHpLdnBvSGxPNDRaRVBZOWRJV3EtTWt2eHh3YVI2dXB1aUo3WEt4WktPVGVrN0prMEo3ZEhwSFliNXB1MWgxT0k5a3J0MWk1dVpMU01hWkpfX2dDYmI?oc=5",
-        "titulo": "Mais Médicos: profissionais começam a receber bônus de permanência no programa",
-        "orgao": "ICL Notícias",
-        "data_publicacao": "2026-01-09",
+        "url": "https://agenciagov.ebc.com.br/noticias/202407/em-18-meses-mais-medicos-praticamente-dobra-numero-de-profissionais",
+        "titulo": "Em 18 meses, Mais Médicos praticamente dobra número de profissionais",
+        "orgao": "Agência Gov",
+        "data_publicacao": "2024-07-01",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWGpKS281U0x2Mk5MUTdVQk1DeVhWaV9EbTF3bWVmXzB6THptRldwNV9ockNtZTBVT3VHVTJpNWxWZ3dKNTJQSUVzSWFxcjZhYWJZMzk1NXJmWTJBaHRvaGI1V0NacTNqUnhaN3p5eXdmMnRFV2Y0d3RqeFdPZ1hrczBQam12aVlWOFpqZm1PNWo0Tmh2WGI3U182TjVRNnlzVENlRzIzWWxILW05bGdGX0dSbUhWcTVZSW9ROHhCRQ?oc=5",
-        "titulo": "Ministério inclui municípios acreanos no Mais Médicos",
-        "orgao": "www.correiodamanha.com.br",
-        "data_publicacao": "2026-10-08",
+        "url": "https://agenciagov.ebc.com.br/noticias/202606/mais-medicos-completa-13-anos-levando-assistencia-a-67-milhoes-de-brasileiros-e-fortalecendo-o-sus-em-todo-o-pais",
+        "titulo": "Mais Médicos completa 13 anos com assistência a 67 milhões de brasileiros e SUS fortalecido",
+        "orgao": "Agência Gov",
+        "data_publicacao": "2026-06-01",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.otempo.com.br/brasil/mais-medicos-atinge-18-5-mil-profissionais-em-atuacao-e-bate-recorde-no-pais-1.3226721",
+        "titulo": "Mais Médicos atinge 18,5 mil profissionais em atuação e bate recorde no país",
+        "orgao": "O Tempo (Folhapress)",
+        "data_publicacao": "2023-09-01",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1153,14 +1223,21 @@
   },
   {
     "id": "eco-30",
-    "veredito": "sem-evidencia",
-    "explicacao": "As fontes consultadas não trazem a série de produtividade desde 1995 citada pela mediação. A fonte do número não foi informada no debate.",
+    "veredito": "verdadeiro",
+    "explicacao": "Pela Penn World Table, compilada pelo Our World in Data, o PIB por hora trabalhada subiu cerca de 63% na Alemanha, 151% na Coreia do Sul e 606% na China entre 1995 e 2023. Os números citados pela mediação batem com essa medida de produtividade por hora. Por trabalhador (Banco Mundial, 1995 a 2025), as altas são diferentes: 23% na Alemanha, 121% na Coreia e 826% na China.",
     "fontes": [
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://ourworldindata.org/grapher/labor-productivity-per-hour-pennworldtable",
+        "titulo": "Productivity: output per hour worked (Penn World Table)",
+        "orgao": "Our World in Data / Penn World Table",
+        "data_publicacao": "2025-01-01",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://api.worldbank.org/v2/country/BRA;DEU;KOR;CHN/indicator/SL.GDP.PCAP.EM.KD?format=json&date=1995:2025&per_page=500",
+        "titulo": "GDP per person employed (constant 2021 PPP $)",
+        "orgao": "Banco Mundial",
+        "data_publicacao": "2026-10-08",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1168,14 +1245,21 @@
   },
   {
     "id": "eco-31",
-    "veredito": "sem-evidencia",
-    "explicacao": "As fontes consultadas não trazem a alta de 25% da produtividade brasileira desde 1995. A fonte do número não foi informada no debate.",
+    "veredito": "verdadeiro-com-ressalva",
+    "explicacao": "Pelo Banco Mundial, o PIB por pessoa ocupada no Brasil cresceu 26,5% entre 1995 e 2025, perto dos 25% citados. Na medida por hora trabalhada da Penn World Table, que bate com os números citados para Alemanha, Coreia e China, o Brasil cresceu cerca de 63% entre 1995 e 2023. A comparação da mediação mistura as duas medidas, e não encontramos dado sobre a parte da alta puxada pelo agronegócio.",
     "fontes": [
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://api.worldbank.org/v2/country/BRA;DEU;KOR;CHN/indicator/SL.GDP.PCAP.EM.KD?format=json&date=1995:2025&per_page=500",
+        "titulo": "GDP per person employed (constant 2021 PPP $)",
+        "orgao": "Banco Mundial",
+        "data_publicacao": "2026-10-08",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://ourworldindata.org/grapher/labor-productivity-per-hour-pennworldtable",
+        "titulo": "Productivity: output per hour worked (Penn World Table)",
+        "orgao": "Our World in Data / Penn World Table",
+        "data_publicacao": "2025-01-01",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1220,21 +1304,14 @@
   },
   {
     "id": "eco-34",
-    "veredito": "sem-evidencia",
-    "explicacao": "O Redata foi sancionado em setembro de 2026 com incentivos fiscais a data centers. As fontes consultadas não trazem a exigência de deixar 10% da capacidade com o governo.",
+    "veredito": "exagerado",
+    "explicacao": "A lei do Redata, sancionada em 15 de setembro de 2026, exige que as empresas que aderirem ao regime ofereçam ao mercado brasileiro pelo menos 10% da capacidade de processamento e armazenamento instalada com o benefício. Essa capacidade pode ser vendida a empresas privadas ou cedida de graça a instituições de pesquisa e ao poder público, e a obrigação pode ser trocada por investimento extra em pesquisa. A regra não entrega 10% dos dados ao governo e vale só para quem adere ao regime.",
     "fontes": [
       {
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQR3Q4WFdiM21FNnNDTXg5aXNBWE9Nc21vQU1aMlcteHJ2VVFMd2wtSURDa0x6ZzJBQ0h2LWZkMHVmbElVT0JkcnhaSVQyUnlMaTNsOVk5eERvVEcxY1VvN1JjMTdaLU5MbGMxdm1HaXBZQVZla29ma21QUkN1THNvMURzYXZGNU45VlNnLXRvWnhScjhzd1BGSkxhRUI3bkVHbVFNdkxUWTlpMmNuUU53RDh3?oc=5",
-        "titulo": "Lula sanciona Redata com R$ 5,2 bi em incentivos a data centers",
-        "orgao": "Congresso em Foco",
+        "url": "https://teletime.com.br/15/09/2026/governo-sanciona-redata-data-centers/",
+        "titulo": "Governo sanciona Redata para data centers",
+        "orgao": "Teletime",
         "data_publicacao": "2026-09-15",
-        "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOenAzZTVnQzJrVFVkb1ZRUjVZTjkycWtRRFJTd0J3TTk5ampCN1ViWVpGbkNlNDhVSUliU2JvWDRtRWZuZlF0MkNoeU9kOTY0SWl5RWk0RTlsejJCa2lsRndMY0xNeF9nWm5idzVNVWxzeEI5QklQOEVnWFhxbzhmb2I0cjZPaDd3LUNRWTYwWEoyREE?oc=5",
-        "titulo": "Redata zera impostos de até R$ 7,2 bilhões para data centers",
-        "orgao": "Agência eixos",
-        "data_publicacao": "2026-09-03",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1318,13 +1395,20 @@
   {
     "id": "out-09",
     "veredito": "sem-evidencia",
-    "explicacao": "As fontes consultadas não registram infiltrados nem depredação na Avenida Paulista no ato de 18 de outubro. A cobertura encontrada trata de cartazes pedindo ação de Trump.",
+    "explicacao": "No debate, Flávio disse que quem exibiu o míssil inflável com a frase \"Trump nuke Brazil\" eram infiltrados e prometeu identificá-los. As reportagens sobre o ato de 18 de outubro não identificam quem levou o objeto nem registram depredação na avenida naquele dia. Não há registro público que confirme ou desminta a versão dos infiltrados.",
     "fontes": [
       {
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5YRzAzakdGZDc3VUhWeWVkS1Ywbkd1UERwaDF1dkp3aG5VcEhhNW8tWlEtVDlTVzM3bUd5X09IV2lCTHJiemFGQW01eDBxSnJZM1BmNjRmX3hVVTlVUHotd21rbWdEdDBSYXEtWWZrNC1FOFM4TzdfN0pCbEM?oc=5",
-        "titulo": "Ato pró-Flávio tem pedido para que Trump jogue bomba nuclear no Brasil",
-        "orgao": "Metrópoles",
-        "data_publicacao": "2026-10-18",
+        "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/flavio-pedido-para-trump-atacar-brasil-veio-de-infiltrados",
+        "titulo": "Flávio: pedido para Trump atacar Brasil veio de infiltrados",
+        "orgao": "SBT News",
+        "data_publicacao": "2026-10-19",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/ato-pro-flavio-na-paulista-tem-missil-inflavel-pedindo-ataque-de-trump/",
+        "titulo": "Ato pró-Flávio tem míssil inflável pedindo ataque de Trump",
+        "orgao": "Poder360",
+        "data_publicacao": "2026-10-19",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1332,14 +1416,21 @@
   },
   {
     "id": "eco-40",
-    "veredito": "sem-evidencia",
-    "explicacao": "Não encontramos a medida provisória citada no Diário Oficial nem em reportagem. Fontes de outubro de 2026 descrevem a compra de dívidas como promessa de campanha de Lula, não como medida editada.",
+    "veredito": "verdadeiro-com-ressalva",
+    "explicacao": "A Medida Provisória 1.393, publicada em 25 de setembro de 2026, criou o Desenrola Brasil 3.0 e autoriza a União a comprar em leilão carteiras de dívidas atrasadas de pessoas físicas, com orçamento de até R$ 15 bilhões. O deságio mínimo exigido nos leilões é de 90%, e não de 92%. O governo estima até R$ 150 bilhões em dívidas elegíveis; os R$ 300 bilhões citados aparecem em reportagens como teto ou volume total de dívidas atrasadas.",
     "fontes": [
       {
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOa3Z0TlVYMFpNRGhpOWREdVIyOE5YOXRSanh6Mk1ycC13cF82OVVLNnRURHRuTmgzVGhaa1NkVXRDWnBaY3R3RkdWQjBnd19iS2pacTctdHptSUtnbC1LdXNyU1lZUl9YLXcwSWpZTzJ4WkIxaXFMNGhGQ2pLZnMxUGVZZnRoVDZ6cnFRNWZCS1o0b1RtXzR0dmVuek5zNEJSMldHQlRiRFBOSVp4X3JmazJFMGh4SUJlQjU2WXQyS0E0V3Mza3VSUS14THhzQQ?oc=5",
-        "titulo": "Lula promete compra de dívidas e Pix de R$ 5 mil para ajudar devedores",
-        "orgao": "Tribuna do Agreste",
-        "data_publicacao": "2026-10-19",
+        "url": "https://www.congressonacional.leg.br/materias/medidas-provisorias/-/mpv/175870",
+        "titulo": "Medida Provisória nº 1393, de 2026",
+        "orgao": "Congresso Nacional",
+        "data_publicacao": "2026-09-25",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.tnh1.com.br/noticia/nid/veja-como-funciona-a-compra-de-dividas-pelo-governo-no-desenrola-30/",
+        "titulo": "Veja como funciona a compra de dívidas pelo governo no Desenrola 3.0",
+        "orgao": "TNH1",
+        "data_publicacao": "2026-09-29",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1428,14 +1519,21 @@
   },
   {
     "id": "eco-45",
-    "veredito": "sem-evidencia",
-    "explicacao": "As fontes consultadas não trazem a série do resultado primário de 2003 a 2010 nem a comparação com outros presidentes. Não consultamos a série histórica do Tesouro.",
+    "veredito": "verdadeiro",
+    "explicacao": "Pela série do Banco Central, o setor público consolidado teve superávit primário em todos os anos de 2003 a 2010, entre 1,94% e 3,74% do PIB. Fernando Henrique Cardoso, o outro presidente com oito anos de mandato desde a redemocratização, teve resultados fracos e até déficits em alguns anos entre 1995 e 1998, segundo estudo da consultoria da Câmara dos Deputados. Os governos seguintes tiveram déficit em pelo menos um ano, como 2014, 2015 a 2020 e 2023.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Ao vivo: checagem do debate entre Lula e Flávio Bolsonaro na Band",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.5793/dados?formato=json",
+        "titulo": "NFSP – resultado primário do setor público consolidado, % do PIB, acumulado em 12 meses (SGS 5793)",
+        "orgao": "Banco Central do Brasil",
+        "data_publicacao": "2026-01-01",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://s3-site.irbcontas.org.br/irbcontas/2022/02/Contas-Publicas-no-Brasil-evolucao-recente-e-perspectivas.pdf",
+        "titulo": "Contas Públicas no Brasil: evolução recente e perspectivas (Edilberto Carlos Pontes Lima, Câmara dos Deputados)",
+        "orgao": "Câmara dos Deputados / Cadernos Aslegis",
+        "data_publicacao": "2000-01-01",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1443,14 +1541,21 @@
   },
   {
     "id": "soc-11",
-    "veredito": "sem-evidencia",
-    "explicacao": "As fontes consultadas sobre a trajetória de Flávio não trazem voto ou declaração dele contra as cotas raciais. Não encontramos a votação no Senado com o voto dele.",
+    "veredito": "verdadeiro",
+    "explicacao": "Em 24 de outubro de 2023, na votação da nova Lei de Cotas no Senado, Flávio apresentou emenda para extinguir as cotas raciais e para pessoas com deficiência no ensino superior federal, deixando só o critério de renda. A emenda foi rejeitada. Na votação do projeto, Flávio esteve entre os cinco senadores que registraram voto contrário.",
     "fontes": [
       {
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOejdUSTNjemNFMjV2ejRZSWNsdi05VEhMTlJIakphcjAya3hqclhVbklodVRGc3k4VjhIWF90Wi05WExXdHN1STZ1UVFEdnlaeE9SOTlVZ0Q5UGlIMFp6bTR0UkFfQnNjRngwcGQwS01ZYzhDQkg4ZkJyTEtSTUNia0ZxRElEaXdIUzd2dmlZN0NCYjFuODFyR2ZYR3ZOZDVvSXdTM1lvYnp1dGNoZEd2RGRTc2l4UjNscVN2bV9GRVlWOGlZMkFGMk9R?oc=5",
-        "titulo": "Veja trajetória pessoal e política de Flávio Bolsonaro, que disputa a Presidência",
-        "orgao": "Folha de S.Paulo",
-        "data_publicacao": "2026-10-04",
+        "url": "https://www.brasildefato.com.br/2023/10/25/maioria-dos-senadores-do-df-vota-pela-extincao-das-cotas-raciais/",
+        "titulo": "Maioria dos senadores do DF vota pela extinção das cotas raciais",
+        "orgao": "Brasil de Fato (com Agência Brasil)",
+        "data_publicacao": "2023-10-25",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.bnews.com.br/noticias/politica/flavio-bolsonaro-tenta-alterar-lei-de-cotas-no-senado-e-tem-emenda-rejeitada-saiba-detalhes.html",
+        "titulo": "Flávio Bolsonaro tenta alterar Lei de Cotas no Senado e tem emenda rejeitada",
+        "orgao": "BNews",
+        "data_publicacao": "2023-10-24",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1502,21 +1607,21 @@
   },
   {
     "id": "eco-47",
-    "veredito": "sem-evidencia",
-    "explicacao": "As reportagens consultadas listam privatizações prometidas por Flávio, mas não a meta de 95% das estatais nem a Petrobras. Não encontramos a declaração citada por Lula.",
+    "veredito": "verdadeiro-com-ressalva",
+    "explicacao": "Em 11 de fevereiro de 2026, na conferência de CEOs do BTG Pactual, Flávio Bolsonaro disse que pretende privatizar 95% das estatais, segundo o NeoFeed e o Brazilian Report. Sobre a Petrobras, a campanha disse o contrário: em 9 de outubro de 2026, Adolfo Sachsida, da equipe econômica, afirmou que Petrobras, Banco do Brasil e Caixa não serão privatizados. O coordenador Rogério Marinho também descartou a privatização da Petrobras, mas citou a possível venda de ativos como refinarias.",
     "fontes": [
       {
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQOW1YQk1Vdm40ZTFOVXZlaXlpLU5idmJiWjB3X19nRjUwREdqUmlxUlVMd0k3ZE1aaS1SOGhjNTJyX2d5QTdYNWZoc1U0Q3JqUHNfR2xLWTZ6aHZ6dTlaU2JzQjdLYTRUZGoyMTdIQnRmREwxWmhWZ2Rlbjczb0NJVUl1Y24wMWoybGFIV1dhbm15dUtCemVn?oc=5",
-        "titulo": "As privatizações prometidas por Flávio Bolsonaro",
-        "orgao": "O Brasilianista",
-        "data_publicacao": "2026-10-13",
+        "url": "https://neofeed.com.br/economia/as-promessas-de-flavio-bolsonaro-privatizacao-de-95-das-estatais-e-corte-de-gastos-e-de-impostos/en/",
+        "titulo": "As promessas de Flávio Bolsonaro: privatização de 95% das estatais e corte de gastos e de impostos",
+        "orgao": "NeoFeed",
+        "data_publicacao": "2026-02-11",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOanZiX0VCNFJhTmltdE5WRWY0emU0dVFHOGdhWHdKWGxnMXRnSFNoZkl1OS1TM3dpS1NySlVZdHctR2w0Snp2SnVGVWl4azN6clZCX2ZvUzIzU1A4cjdhTDhHYWVMYUdBYV9YWjNlMkhNWmgyU3JBM1VlN3I2TEc2SDRrV3V6V0NsakxCZUF2NmFLa3UwNWZEWTFnb1BROVdzNTV5LVNrSVJJanFzNFZ3Rzh6OEpkVzFOMExKZktrOEhLcjBxTkI4UFhNZnBjc1R0TXlmQ1VzaXgwZUdTT1hRcG9Wc0ppSl9RMVN2d3dTTFRKV1VZNVJ1NE93?oc=5",
-        "titulo": "'Querem privatizar a Petrobras': Lula lembra histórico de privatizações de Jair Bolsonaro ao enfrentar Flávio",
-        "orgao": "Tribuna do Sertão",
-        "data_publicacao": "2026-10-19",
+        "url": "https://investidor10.com.br/noticias/banco-do-brasil-e-petrobras-nao-serao-privatizados-diz-campanha-de-flavio-123157/",
+        "titulo": "Banco do Brasil e Petrobras não serão privatizados, diz campanha de Flávio",
+        "orgao": "Investidor10",
+        "data_publicacao": "2026-10-09",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1524,14 +1629,14 @@
   },
   {
     "id": "eco-48",
-    "veredito": "sem-evidencia",
-    "explicacao": "As fontes consultadas tratam da dificuldade jurídica de reverter a privatização da Eletrobras, sem citar o multiplicador de três vezes. Não consultamos o estatuto da empresa.",
+    "veredito": "verdadeiro",
+    "explicacao": "A lei que permitiu a privatização da Eletrobras criou uma trava: quem passar de 50% do capital votante e não voltar a ficar abaixo disso em 120 dias tem de fazer oferta pública por preço pelo menos 200% superior à maior cotação das ações nos últimos 504 pregões, corrigido pela Selic. Isso equivale a pagar três vezes a maior cotação do período. A regra vale para qualquer acionista, inclusive a União.",
     "fontes": [
       {
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUXJaTC1temdjeHpWcFZJNUtWMWtxd0VYQm14amlHRFlKRnh3N25KMDF4em9kRDk1VDVUQW9qTUljNG1jd3pmUzg5MW9TeGRtSUhaVmk4UTFiaFBPRThiVmw5WUFsaWRCZjJhNlJhMDZzc05jMWRwU1dFRkZ0allSVTlwaVQwQkFIdzdGRUwzQ2RnN19EMDlRUmJXczZvNVFVWWVUNmlvOXNvaGJRcEJ2RmJWMWtnOFNCSDFlVWhtRdIB0wFBVV95cUxOMWZEeXZiLWxwdmxtNXdwVHgzazRCVGNFcTJnRGprS3FLNFZGM1dxRDlHR2UwT2YwLWVMSXhnLXBRbDdNSUE3Q2E2WEdKV2RCWXJ3Wm1EX3lJeS1yQ29Nc2x1aTNjQ21kZjVsdXlJTnVVaDdTV3VyVDRDTHBmYU5hQUFqQ0xQZi0tMGZpbFNmRWVBbG82SFRZbHVNTi1EZGpnUHphdWFqMTBIUm1aNm5WZDdlQUFYMGQ5MlRqX1ppbnJMcmJxWFl5dHBRWXJqVFZRbUxF?oc=5",
-        "titulo": "Eletrobras: Governo terá batalha jurídica para reverter venda, dizem advogados",
-        "orgao": "Bloomberg Línea Brasil",
-        "data_publicacao": "2023-05-09",
+        "url": "https://exame.com/economia/governo-teria-que-gastar-r-1617-bilhoes-para-ter-eletrobras-de-volta",
+        "titulo": "Governo teria que gastar R$ 161,7 bilhões para ter Eletrobras de volta (Estadão Conteúdo)",
+        "orgao": "Exame / Estadão Conteúdo",
+        "data_publicacao": "2023-02-11",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1570,13 +1675,20 @@
   {
     "id": "out-12",
     "veredito": "sem-evidencia",
-    "explicacao": "As fontes consultadas sobre o ato de 18 de outubro não tratam de depredação nem de lixo. Não encontramos registro da prefeitura ou da polícia sobre o ato.",
+    "explicacao": "Antes do ato, Flávio e o apresentador Ratinho anunciaram que os apoiadores recolheriam o lixo, em contraste com o ato pró-Lula de 11 de outubro, que teve pichações e portas quebradas no metrô. As reportagens sobre o ato de 18 de outubro não registram depredação nem tratam da limpeza depois do evento. Não foi localizado registro da prefeitura ou da polícia sobre o tema.",
     "fontes": [
       {
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5YRzAzakdGZDc3VUhWeWVkS1Ywbkd1UERwaDF1dkp3aG5VcEhhNW8tWlEtVDlTVzM3bUd5X09IV2lCTHJiemFGQW01eDBxSnJZM1BmNjRmX3hVVTlVUHotd21rbWdEdDBSYXEtWWZrNC1FOFM4TzdfN0pCbEM?oc=5",
-        "titulo": "Ato pró-Flávio tem pedido para que Trump jogue bomba nuclear no Brasil",
-        "orgao": "Metrópoles",
-        "data_publicacao": "2026-10-18",
+        "url": "https://jornalrazao.com/politica/ratinho-declara-apoio-flavio-bolsonaro-saco-de-lixo-paulista",
+        "titulo": "Apresentador Ratinho declara apoio a Flávio Bolsonaro e diz que vai levar saco de lixo para limpar a Paulista",
+        "orgao": "Jornal Razão",
+        "data_publicacao": "2026-10-01",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/ato-pro-flavio-na-paulista-tem-missil-inflavel-pedindo-ataque-de-trump/",
+        "titulo": "Ato pró-Flávio tem míssil inflável pedindo ataque de Trump",
+        "orgao": "Poder360",
+        "data_publicacao": "2026-10-19",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1965,28 +2077,21 @@
   },
   {
     "id": "seg-22",
-    "veredito": "sem-evidencia",
-    "explicacao": "As checagens da Lupa, do g1 e do Aos Fatos sobre o debate não trataram dessa frase. Nesta checagem não foi localizado registro oficial que a confirme ou desminta; o item fica para revisão.",
+    "veredito": "verdadeiro-com-ressalva",
+    "explicacao": "A cozinheira Renata da Silva Teles, de 43 anos, foi encontrada morta num quarto de hotel em Campinas (SP) após o Natal de 2023. O suspeito, Leandro Lustoza, estava na saída temporária de fim de ano e cumpria pena de 12 anos por matar a companheira em 2018. Ele foi indiciado por homicídio pela polícia, e as reportagens não registram condenação pelo novo crime. A data exata varia entre 24 e 25 de dezembro nos relatos.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://sbtnews.sbt.com.br/noticia/policia/homem-e-suspeito-de-matar-cozinheira-em-quarto-de-hotel",
+        "titulo": "Homem é suspeito de matar cozinheira em quarto de hotel",
+        "orgao": "SBT News",
+        "data_publicacao": "2023-12-27",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
-        "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://abcdjornal.com.br/maniaco-do-natal-tirou-a-vida-de-mulher-durante-saidinha-de-fim-de-ano",
+        "titulo": "Maníaco do Natal tirou a vida de mulher durante saidinha de fim de ano",
+        "orgao": "ABCD Jornal",
+        "data_publicacao": "2023-12-27",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -1994,35 +2099,21 @@
   },
   {
     "id": "seg-23",
-    "veredito": "sem-evidencia",
-    "explicacao": "As checagens da Lupa, do g1 e do Aos Fatos sobre o debate não trataram dessa frase. Nesta checagem não foi localizado registro oficial que a confirme ou desminta; o item fica para revisão.",
+    "veredito": "verdadeiro",
+    "explicacao": "O sargento Roger Dias, da PM de Minas Gerais, foi baleado na cabeça durante uma perseguição em Belo Horizonte, em janeiro de 2024, e teve morte cerebral confirmada em 7 de janeiro. Segundo a PM, o autor dos disparos estava foragido após ser beneficiado pela saidinha de Natal e não ter voltado ao presídio. O suspeito confessou e foi indiciado.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/preso-beneficiado-saidinha-confessa-indiciado-morte-pm/",
+        "titulo": "Preso beneficiado com saidinha confessa e é indiciado pela morte de PM",
+        "orgao": "Gazeta do Povo",
+        "data_publicacao": "2024-01-16",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
-        "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
-        "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14843.htm",
-        "titulo": "Lei nº 14.843/2024 (saída temporária)",
-        "orgao": "Presidência da República",
-        "data_publicacao": "2024-04-11",
+        "url": "https://www.itatiaia.com.br/brasil/sudeste/mg/assassinato-de-sargento-pm-recaptura-25-presos-que-nao-voltaram-de-saidinha-e-procura-outros-48/",
+        "titulo": "Após assassinato de sargento, PM recaptura 25 presos que não voltaram de saidinha",
+        "orgao": "Itatiaia",
+        "data_publicacao": "2024-01-01",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2059,28 +2150,28 @@
   },
   {
     "id": "seg-26",
-    "veredito": "sem-evidencia",
-    "explicacao": "As checagens da Lupa, do g1 e do Aos Fatos sobre o debate não trataram dessa frase. Nesta checagem não foi localizado registro oficial que a confirme ou desminta; o item fica para revisão.",
+    "veredito": "verdadeiro-com-ressalva",
+    "explicacao": "Somando os homicídios do Atlas da Violência (Ipea/FBSP) de 2004 a 2016 e de 2023 a 2024, chega-se a cerca de 787 mil mortes, sem contar 2003 e 2025. O número supera 770 mil, mas o PT governou cerca de 16 anos, e não 20. A conta também inclui 2016 inteiro, embora Dilma tenha sido afastada em maio daquele ano.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.ipea.gov.br/portal/images/stories/PDFs/nota_tecnica/160405_nt_17_atlas_da_violencia_2016_finalizado.pdf",
+        "titulo": "Atlas da Violência 2016 (série de homicídios 2004-2014)",
+        "orgao": "Ipea / FBSP",
+        "data_publicacao": "2016-03-01",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
+        "url": "https://www.jb.com.br/pais/noticias/2018/06/06/atlas-da-violencia-30-de-cada-100-mil-sao-mortos-no-brasil.html",
+        "titulo": "Atlas da Violência: 30 de cada 100 mil são mortos no Brasil",
+        "orgao": "Jornal do Brasil",
+        "data_publicacao": "2018-06-06",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2025-05/taxa-de-homicidio-cai-mas-violencia-matou-457-mil-no-brasil-em-2023",
+        "titulo": "Taxa de homicídio cai, mas violência matou 45,7 mil no Brasil em 2023",
+        "orgao": "Agência Brasil",
+        "data_publicacao": "2025-05-12",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2104,27 +2195,20 @@
   {
     "id": "seg-28",
     "veredito": "sem-evidencia",
-    "explicacao": "As checagens da Lupa, do g1 e do Aos Fatos sobre o debate não trataram dessa frase. Nesta checagem não foi localizado registro oficial que a confirme ou desminta; o item fica para revisão.",
+    "explicacao": "O relatório mundial do UNODC de 2022 cita Santos entre os quatro pontos de destaque do tráfico marítimo de cocaína, ao lado de Buenaventura, Cartagena e Guayaquil, sem ordená-los. Estimativa do Gaeco citada pelo Metrópoles aponta Santos como principal ponto de saída de cocaína para a Europa. Não foi localizado ranking oficial que coloque Santos em segundo lugar no mundo.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://dialogo-americas.com/articles/cocaine-trafficking-shifts-to-brazils-smaller-ports-un-report-says/",
+        "titulo": "Cocaine Trafficking Shifts to Brazil's Smaller Ports, UN Report Says",
+        "orgao": "Diálogo Américas",
+        "data_publicacao": "2022-01-01",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
-        "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.metropoles.com/sao-paulo/cocaina-porto-de-santos-sp",
+        "titulo": "Cocaína no Porto de Santos",
+        "orgao": "Metrópoles",
+        "data_publicacao": "2026-01-01",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2147,14 +2231,21 @@
   },
   {
     "id": "seg-30",
-    "veredito": "sem-evidencia",
-    "explicacao": "A Lei nº 15.035/2024 determinou a criação do Cadastro Nacional de Pedófilos e Predadores Sexuais. Nesta checagem não foi localizado registro oficial sobre o funcionamento do cadastro; o item fica para revisão.",
+    "veredito": "verdadeiro-com-ressalva",
+    "explicacao": "As leis 14.069/2020 e 15.035/2024 criaram o cadastro, que seguia fora do ar em julho de 2026, segundo a Gazeta do Povo. O Ministério da Justiça diz que a liberação dos dados depende de regulamentação e orçamento do CNJ. O CNJ diz que a implementação cabe ao Poder Executivo. A responsabilidade pelo atraso é disputada entre governo e Judiciário, não atribuída só ao governo Lula.",
     "fontes": [
       {
-        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l15035.htm",
-        "titulo": "Lei nº 15.035/2024 (Cadastro Nacional de Pedófilos e Predadores Sexuais)",
-        "orgao": "Presidência da República",
-        "data_publicacao": "2024-11-27",
+        "url": "https://www.gazetadopovo.com.br/vida-e-cidadania/por-que-o-cadastro-nacional-de-criminosos-sexuais-ainda-nao-funciona-no-brasil/",
+        "titulo": "Por que o cadastro de criminosos sexuais está fora do ar? Entenda o impasse",
+        "orgao": "Gazeta do Povo",
+        "data_publicacao": "2026-07-29",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www12.senado.leg.br/radio/1/noticia/2026/02/12/senadora-cobra-efetivacao-de-cadastro-nacional-de-pedofilos-e-estupradores",
+        "titulo": "Senadora cobra efetivação de cadastro nacional de pedófilos e estupradores",
+        "orgao": "Rádio Senado",
+        "data_publicacao": "2026-02-12",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2221,28 +2312,21 @@
   },
   {
     "id": "seg-35",
-    "veredito": "sem-evidencia",
-    "explicacao": "As checagens da Lupa, do g1 e do Aos Fatos sobre o debate não trataram dessa frase. Nesta checagem não foi localizado registro oficial que a confirme ou desminta; o item fica para revisão.",
+    "veredito": "verdadeiro-com-ressalva",
+    "explicacao": "Em 2015, o PT orientou voto contra a PEC que reduziu a maioridade penal para 16 anos em crimes graves, aprovada na Câmara, e atuou contra a redução na CCJ do Senado. Em outubro de 2026, porém, o líder do PT no Senado, Camilo Santana, apresentou emenda que reduz a maioridade para 16 anos em crimes hediondos. Lula também disse ser a favor da redução em situações específicas.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://congressoemfoco.com.br/noticia/52789/maioridade-penal-psdb-dem-e-pmdb-sao-favoraveis-pt-e-pdt-contra",
+        "titulo": "Maioridade penal: PSDB, DEM e PMDB são favoráveis; PT e PDT, contra",
+        "orgao": "Congresso em Foco",
+        "data_publicacao": "2015-08-20",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
-        "acessado_em": "2026-10-20"
-      },
-      {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.metropoles.com/brasil/camilo-diz-que-propos-reduzir-maioridade-para-mostrar-que-pt-tem-proposta",
+        "titulo": "Camilo diz que propôs reduzir maioridade para mostrar que PT \"tem proposta\"",
+        "orgao": "Metrópoles",
+        "data_publicacao": "2026-10-15",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2250,28 +2334,28 @@
   },
   {
     "id": "seg-36",
-    "veredito": "sem-evidencia",
-    "explicacao": "As checagens da Lupa, do g1 e do Aos Fatos sobre o debate não trataram dessa frase. Nesta checagem não foi localizado registro oficial que a confirme ou desminta; o item fica para revisão.",
+    "veredito": "verdadeiro-com-ressalva",
+    "explicacao": "O líder do PT no Senado, Camilo Santana, articulou em outubro de 2026 uma emenda à PEC da Segurança Pública (PEC 18/2025) que reduz a maioridade para 16 anos só em crimes hediondos. A emenda é uma alternativa à de Rogério Marinho (PL), que prevê 16 anos como regra e 14 para crimes graves, incluindo tráfico. As reportagens não trazem o texto da emenda do PT, então não é possível confirmar se ela exclui o tráfico, que a Constituição equipara a crime hediondo. O roubo de celular não é crime hediondo.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://gcmais.com.br/noticias/2026/10/15/camilo-santana-articula-emenda-para-reduzir-maioridade-penal-em-crimes-hediondos",
+        "titulo": "Camilo Santana articula emenda para reduzir maioridade penal em crimes hediondos",
+        "orgao": "GCMais",
+        "data_publicacao": "2026-10-15",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
+        "url": "https://www.metropoles.com/minas-gerais/flavio-bolsonaro-defende-reducao-da-maioridade-penal-e-ironiza-emenda-do-pt",
+        "titulo": "Flávio Bolsonaro defende redução da maioridade penal e ironiza emenda do PT",
+        "orgao": "Metrópoles",
+        "data_publicacao": "2026-10-15",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www.cnnbrasil.com.br/politica/debate-sobre-reducao-da-maioridade-penal-saiba-o-que-sao-crimes-hediondos/",
+        "titulo": "Debate sobre redução da maioridade penal: saiba o que são crimes hediondos",
+        "orgao": "CNN Brasil",
+        "data_publicacao": "2026-10-16",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2419,28 +2503,28 @@
   },
   {
     "id": "seg-34",
-    "veredito": "sem-evidencia",
-    "explicacao": "As checagens da Lupa, do g1 e do Aos Fatos sobre o debate não trataram dessa frase. Nesta checagem não foi localizado registro oficial que a confirme ou desminta; o item fica para revisão.",
+    "veredito": "verdadeiro-com-ressalva",
+    "explicacao": "O bloqueio do celular a pedido do dono existe pelo programa Celular Seguro, lançado em dezembro de 2023 por portaria do Ministério da Justiça e depois tornado política permanente por decreto. Não é uma lei aprovada pelo Congresso. O projeto que tornaria obrigatório o bloqueio após boletim de ocorrência (PL 6.043/2023, de Flávio) passou por comissão do Senado em 2025, e não há registro de sanção. A lei aprovada em 2026 sobre o tema (Lei 15.397) aumentou penas para furto e roubo de celular.",
     "fontes": [
       {
-        "url": "https://www.agencialupa.org/checagem/2026/10/18/ao-vivo-checagem-do-debate-entre-lula-e-flavio-bolsonaro-na-band/",
-        "titulo": "Na Band, Lula volta a errar sobre o PIB, e Flávio repete fake sobre gastos com viagens da Presidência",
-        "orgao": "Agência Lupa",
-        "data_publicacao": "2026-10-18",
+        "url": "https://www12.senado.leg.br/noticias/materias/2025/07/08/avanca-bloqueio-obrigatorio-de-celular-a-partir-de-boletim-de-ocorrencia",
+        "titulo": "Avança bloqueio obrigatório de celular a partir de boletim de ocorrência",
+        "orgao": "Agência Senado",
+        "data_publicacao": "2025-07-08",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://g1.globo.com/fato-ou-fake/eleicoes/noticia/2026/10/19/veja-o-que-e-fato-ou-fake-nas-falas-de-flavio-bolsonaro-e-lula-no-debate-da-band-no-2o-turno-das-eleicoes-2026.ghtml",
-        "titulo": "Veja o que é #FATO ou #FAKE nas falas de Flávio Bolsonaro e Lula no debate da Band no 2º turno",
-        "orgao": "g1 Fato ou Fake",
-        "data_publicacao": "2026-10-19",
+        "url": "https://teletime.com.br/20/12/2024/ministerio-da-justica-publica-portaria-com-mudancas-no-celular-seguro/",
+        "titulo": "Ministério da Justiça publica portaria com mudanças no Celular Seguro",
+        "orgao": "Teletime",
+        "data_publicacao": "2024-12-20",
         "acessado_em": "2026-10-20"
       },
       {
-        "url": "https://www.aosfatos.org/noticias/checamos-lula-flavio-bolsonaro-debate-band/",
-        "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
-        "orgao": "Aos Fatos",
-        "data_publicacao": "2026-10-18",
+        "url": "https://pc.sc.gov.br//wp-content/uploads/2026/05/CAAPJ-ATUALIZACAO-LEGISLATIVA-LEI-15.397-1.pdf",
+        "titulo": "Atualização legislativa: Lei 15.397/2026",
+        "orgao": "Polícia Civil de Santa Catarina",
+        "data_publicacao": "2026-05-04",
         "acessado_em": "2026-10-20"
       }
     ],
@@ -2733,6 +2817,416 @@
         "titulo": "Checamos Lula e Flávio Bolsonaro no debate da Band",
         "orgao": "Aos Fatos",
         "data_publicacao": "2026-10-18",
+        "acessado_em": "2026-10-20"
+      }
+    ],
+    "atualizado_em": "2026-10-20"
+  },
+  {
+    "id": "cor-02",
+    "veredito": "ha-investigacao",
+    "explicacao": "Mensagens de 2024 obtidas pelo Metrópoles mostram Roberta Luchsinger chamando Lulinha de \"sócio\", mas a reportagem ressalva que elas não comprovam sociedade empresarial formal. Em depoimento à PF, em maio de 2026, Roberta disse que a relação era só de amizade e negou repasses a ele. O STF autorizou em 2026 inquéritos sobre Lulinha nos quais Roberta aparece como suspeita de intermediar pagamentos do \"Careca do INSS\", e a defesa de Lulinha nega ter recebido recursos do lobista.",
+    "fontes": [
+      {
+        "url": "https://timesbrasil.com.br/brasil/mensagens-mostram-roberta-luchsinger-chamando-lulinha-de-socio/",
+        "titulo": "Mensagens mostram Roberta Luchsinger chamando Lulinha de sócio",
+        "orgao": "Times Brasil (CNBC)",
+        "data_publicacao": "2026-09-17",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.opovo.com.br/agencia/bbc/2026/08/04/as-3-investigacoes-contra-lulinha-autorizadas-pelo-stf.html",
+        "titulo": "As 3 investigações contra Lulinha autorizadas pelo STF",
+        "orgao": "BBC News Brasil (via O Povo)",
+        "data_publicacao": "2026-08-04",
+        "acessado_em": "2026-10-20"
+      }
+    ],
+    "atualizado_em": "2026-10-20"
+  },
+  {
+    "id": "cor-04",
+    "veredito": "verdadeiro-com-ressalva",
+    "explicacao": "Reportagem do Poder360 de agosto de 2026 mostra que Lulinha mora no condomínio El Jardín de La Moraleja, bairro de alto padrão em Alcobendas, na região de Madri, com aluguel e taxas estimados em cerca de 5.800 euros por mês. Vini Júnior é citado como um dos moradores do mesmo bairro, mas não do mesmo condomínio. O Poder360 não conseguiu ouvir Lulinha nem seus advogados.",
+    "fontes": [
+      {
+        "url": "https://www.poder360.com.br/poder-governo/lulinha-e-vizinho-de-vini-junior-e-rodrygo-do-real-em-madri/",
+        "titulo": "Lulinha é vizinho de Vini Junior e Rodrygo, do Real, em Madri",
+        "orgao": "Poder360",
+        "data_publicacao": "2026-08-24",
+        "acessado_em": "2026-10-20"
+      }
+    ],
+    "atualizado_em": "2026-10-20"
+  },
+  {
+    "id": "cor-05",
+    "veredito": "exagerado",
+    "explicacao": "Os sigilos bancário, fiscal e telemático de Lulinha foram quebrados por ordem do ministro André Mendonça, do STF, em janeiro de 2026, e por votação da CPMI do INSS em fevereiro, e não por iniciativa dele. Em março, a defesa pediu ao STF a suspensão da quebra aprovada pela CPMI, dizendo ao mesmo tempo que entregaria documentos bancários e fiscais \"de forma voluntária\". A defesa afirma que colocou Lulinha à disposição da Justiça antes do pedido da PF, mas não há registro de que ele tenha aberto o sigilo telefônico por conta própria.",
+    "fontes": [
+      {
+        "url": "https://www.cnnbrasil.com.br/politica/defesa-de-lulinha-pede-suspensao-de-quebra-de-sigilo/",
+        "titulo": "Defesa de Lulinha pede suspensão de quebra de sigilo",
+        "orgao": "CNN Brasil",
+        "data_publicacao": "2026-03-04",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.infomoney.com.br/?p=3243246",
+        "titulo": "Defesa de Lulinha diz que quebra de sigilo \"mostra inocência\" e critica vazamentos",
+        "orgao": "InfoMoney",
+        "data_publicacao": "2026-03-09",
+        "acessado_em": "2026-10-20"
+      }
+    ],
+    "atualizado_em": "2026-10-20"
+  },
+  {
+    "id": "cor-06",
+    "veredito": "ha-investigacao",
+    "explicacao": "Em 24 de abril de 2020, Bolsonaro exonerou o diretor-geral da PF, Maurício Valeixo, e no mesmo dia Sergio Moro pediu demissão do Ministério da Justiça, acusando o presidente de tentar interferir na PF; Moro não foi demitido, saiu por conta própria. O caso virou inquérito no STF: em 2022 a PF descartou crime e a PGR pediu arquivamento, mas em outubro de 2025 Alexandre de Moraes atendeu pedido da PGR e determinou novas diligências. Bolsonaro nega ter interferido na corporação.",
+    "fontes": [
+      {
+        "url": "https://www.poder360.com.br/governo/sergio-moro-deixa-o-governo-bolsonaro/",
+        "titulo": "Sergio Moro sai e acusa Bolsonaro de crime de responsabilidade",
+        "orgao": "Poder360",
+        "data_publicacao": "2020-04-24",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/moraes-reabre-inquerito-sobre-suposta-interferencia-de-bolsonaro-na-pf/",
+        "titulo": "Moraes reabre inquérito sobre suposta interferência de Bolsonaro na PF",
+        "orgao": "Jornal de Brasília / Estadão Conteúdo",
+        "data_publicacao": "2025-10-16",
+        "acessado_em": "2026-10-20"
+      }
+    ],
+    "atualizado_em": "2026-10-20"
+  },
+  {
+    "id": "cor-07",
+    "veredito": "ha-investigacao",
+    "explicacao": "Segundo a PF e a CGU, os descontos não autorizados somaram cerca de R$ 6,3 bilhões entre 2019 e 2024, período que atravessa os governos Bolsonaro e Lula, e a CGU registra descontos desde 2016. Em julho de 2026, a PF indiciou 48 pessoas, entre elas o \"Careca do INSS\", o ex-presidente do INSS Alessandro Stefanutto e José Carlos Oliveira, ex-ministro da Previdência de Bolsonaro. Indiciamento não é condenação, cabe à PGR denunciar ou arquivar, e a defesa do Careca disse que não se manifestaria. As fontes não atribuem a montagem do esquema a um único governo.",
+    "fontes": [
+      {
+        "url": "https://www.gov.br/cgu/pt-br/assuntos/noticias/2025/04/fraude-no-inss-aposentados-e-pensionistas-tiveram-quase-r-6-3-bi-em-descontos-sem-autorizacao",
+        "titulo": "Operação combate descontos não autorizados de aposentados e pensionistas; valor pode chegar a R$ 6,3 bi",
+        "orgao": "Controladoria-Geral da União",
+        "data_publicacao": "2025-04-23",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.poder360.com.br/poder-justica/pf-indicia-careca-do-inss-e-mais-47-por-descontos-em-aposentadorias/",
+        "titulo": "PF indicia Careca do INSS e mais 47 por descontos em aposentadorias",
+        "orgao": "Poder360",
+        "data_publicacao": "2026-07-14",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.aosfatos.org/noticias/esquerda-direita-desinformam-briga-de-versoes-fraude-beneficiarios-inss/",
+        "titulo": "Esquerda e direita desinformam em briga de versões sobre fraude contra beneficiários do INSS",
+        "orgao": "Aos Fatos",
+        "data_publicacao": "2025-04-24",
+        "acessado_em": "2026-10-20"
+      }
+    ],
+    "atualizado_em": "2026-10-20"
+  },
+  {
+    "id": "cor-10",
+    "veredito": "verdadeiro-com-ressalva",
+    "explicacao": "A CPMI do INSS terminou em 28 de março de 2026 com a rejeição do relatório de Alfredo Gaspar por 19 votos a 12, com voto contrário da maioria governista. A Revista Oeste relatou, com base em vídeos, que parlamentares do PT e da base se abraçaram e comemoraram o resultado. O registro da comemoração vem de um único veículo entre os consultados.",
+    "fontes": [
+      {
+        "url": "https://www.metropoles.com/brasil/o-que-acontece-apos-o-fim-cpmi-inss",
+        "titulo": "O que acontece após o fim da CPMI do INSS",
+        "orgao": "Metrópoles",
+        "data_publicacao": "2026-03-29",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://revistaoeste.com/politica/petistas-comemoram-rejeicao-do-relatorio-da-cpmi-do-inss/",
+        "titulo": "Petistas comemoram rejeição do relatório da CPMI do INSS",
+        "orgao": "Revista Oeste",
+        "data_publicacao": "2026-03-28",
+        "acessado_em": "2026-10-20"
+      }
+    ],
+    "atualizado_em": "2026-10-20"
+  },
+  {
+    "id": "cor-11",
+    "veredito": "ha-investigacao",
+    "explicacao": "Frei Chico (José Ferreira da Silva), irmão de Lula, é vice-presidente do Sindnapi, entidade que foi alvo de busca e apreensão na Operação Sem Desconto, da PF, em outubro de 2025. A PF informou que Frei Chico não está entre os investigados. Ele nega participação nas irregularidades e entrou na Justiça contra publicações que o associam aos descontos.",
+    "fontes": [
+      {
+        "url": "https://www.poder360.com.br/poder-justica/pf-faz-nova-operacao-contra-fraudes-em-descontos-no-inss/",
+        "titulo": "PF faz nova operação contra fraudes em descontos no INSS",
+        "orgao": "Poder360",
+        "data_publicacao": "2025-10-09",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://jovempan.com.br/politica/irmao-de-lula-entra-na-justica-contra-quem-o-associa-a-descontos-e-critica-cpmi-do-inss/",
+        "titulo": "Irmão de Lula entra na Justiça contra quem o associa a descontos e critica CPMI do INSS",
+        "orgao": "Jovem Pan",
+        "data_publicacao": "2025-10-20",
+        "acessado_em": "2026-10-20"
+      }
+    ],
+    "atualizado_em": "2026-10-20"
+  },
+  {
+    "id": "cor-12",
+    "veredito": "verdadeiro-com-ressalva",
+    "explicacao": "Em abril de 2026, o ministro da Previdência informou que 4,5 milhões de aposentados e pensionistas já tinham sido ressarcidos por descontos associativos não autorizados. Em janeiro de 2026, o INSS registrava mais de 6,3 milhões de pedidos de contestação, e em setembro Lula falou em 5 milhões de aposentados pagos. A ordem de grandeza de 5 milhões é compatível com os dados oficiais, mas não há número fechado de vítimas.",
+    "fontes": [
+      {
+        "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-04/fila-do-inss-cai-16-em-dois-meses-apos-analise-de-500-mil-processos",
+        "titulo": "Fila do INSS cai 16% em dois meses após análise de 500 mil processos",
+        "orgao": "Agência Brasil",
+        "data_publicacao": "2026-04-29",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.diariodepernambuco.com.br/politica/2026/09/11724390-lula-diz-que-escritorio-de-flavio-bolsonaro-fica-na-mesma-sala-do-careca-do-inss.html",
+        "titulo": "Lula diz que escritório de Flávio Bolsonaro fica na mesma sala do Careca do INSS",
+        "orgao": "Diario de Pernambuco / Estadão Conteúdo",
+        "data_publicacao": "2026-09-19",
+        "acessado_em": "2026-10-20"
+      }
+    ],
+    "atualizado_em": "2026-10-20"
+  },
+  {
+    "id": "cor-14",
+    "veredito": "verdadeiro-com-ressalva",
+    "explicacao": "A Medida Provisória 871 foi publicada em 18 de janeiro de 2019, no início do governo Bolsonaro, com pente-fino em benefícios e regras contra fraudes, incluindo revalidação anual das autorizações de descontos associativos. No Congresso, o prazo de revalidação foi ampliado para três anos e adiado. A exigência nunca entrou em vigor, porque foi revogada pela Lei 14.438, sancionada pelo próprio Bolsonaro em 2022.",
+    "fontes": [
+      {
+        "url": "https://www.aosfatos.org/noticias/e-falso-que-lula-revogou-lei-de-combate-a-fraudes-no-inss-sancionada-por-bolsonaro/",
+        "titulo": "É falso que Lula revogou lei de combate a fraudes no INSS sancionada por Bolsonaro",
+        "orgao": "Aos Fatos",
+        "data_publicacao": "2025-05-08",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.poder360.com.br/economia/bolsonaro-sanciona-lei-de-combate-a-fraudes-no-inss/",
+        "titulo": "Bolsonaro sanciona lei de combate a fraudes no INSS",
+        "orgao": "Poder360",
+        "data_publicacao": "2019-06-18",
+        "acessado_em": "2026-10-20"
+      }
+    ],
+    "atualizado_em": "2026-10-20"
+  },
+  {
+    "id": "cor-17",
+    "veredito": "ha-investigacao",
+    "explicacao": "Reportagens de maio de 2026 mostraram que Flávio negociou com Daniel Vorcaro cerca de R$ 134 milhões para o filme \"Dark Horse\", sobre Jair Bolsonaro; Flávio admitiu ter pedido o dinheiro como patrocínio privado e nega irregularidade. Segundo o mediador citado pela Aos Fatos, foram repassados cerca de R$ 61 milhões, não os R$ 134 milhões, por meio de empresa ligada a Vorcaro a um fundo no Texas, e a produtora diz que nenhum valor de Vorcaro entrou no filme. Em julho de 2026 o ministro André Mendonça, do STF, autorizou inquérito da PF que tem Flávio entre os investigados por suspeita de corrupção, lavagem de dinheiro e evasão de divisas.",
+    "fontes": [
+      {
+        "url": "https://www.aosfatos.org/noticias/flavio-bolsonaristas-vorcaro-lula-filme/",
+        "titulo": "Para defender Flávio, bolsonaristas distorcem fatos sobre Vorcaro, Lula e financiamento de filme",
+        "orgao": "Aos Fatos",
+        "data_publicacao": "2026-05-14",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://sbtnews.sbt.com.br/noticia/brasil/flavio-e-investigado-no-stf-em-inquerito-de-dark-horse",
+        "titulo": "Flávio é investigado no STF em inquérito de Dark Horse",
+        "orgao": "SBT News",
+        "data_publicacao": "2026-09-11",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.opovo.com.br/noticias/politica/2026/07/23/amp/andre-mendonca-autoriza-inquerito-sobre-repasses-para-dark-horse-filme-sobre-jair-bolsonaro.html",
+        "titulo": "André Mendonça autoriza inquérito sobre repasses para 'Dark Horse', filme sobre Jair Bolsonaro",
+        "orgao": "O Povo",
+        "data_publicacao": "2026-07-23",
+        "acessado_em": "2026-10-20"
+      }
+    ],
+    "atualizado_em": "2026-10-20"
+  },
+  {
+    "id": "cor-18",
+    "veredito": "sem-registro-publico",
+    "explicacao": "Está documentado que Lula recebeu Vorcaro no Palácio do Planalto em 4 de dezembro de 2024, fora da agenda oficial, com Rui Costa, Alexandre Silveira, Guido Mantega e Gabriel Galípolo, então já indicado à presidência do Banco Central. Haddad disse ao Metrópoles que não participou nem sabia do encontro. Segundo o Poder360 e o relato de Haddad, Lula disse que o caso cabia ao Banco Central, com critérios técnicos, e não há registro público de promessa de ajuda nem investigação sobre Lula por esse encontro.",
+    "fontes": [
+      {
+        "url": "https://www.poder360.com.br/poder-governo/lula-recebeu-vorcaro-dono-do-master-sem-registro-na-agenda/",
+        "titulo": "Lula recebeu Vorcaro, dono do Master, sem registro na agenda",
+        "orgao": "Poder360",
+        "data_publicacao": "2026-01-26",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.metropoles.com/colunas/igor-gadelha/haddad-conta-o-que-lula-disse-a-vorcaro-durante-reuniao-sobre-master",
+        "titulo": "Haddad conta o que Lula disse a Vorcaro durante reunião sobre Master",
+        "orgao": "Metrópoles",
+        "data_publicacao": "2026-01-29",
+        "acessado_em": "2026-10-20"
+      }
+    ],
+    "atualizado_em": "2026-10-20"
+  },
+  {
+    "id": "cor-19",
+    "veredito": "verdadeiro",
+    "explicacao": "O Banco Central aprovou em 14 de outubro de 2019, já no governo Bolsonaro e sob Roberto Campos Neto, a compra do Banco Máxima por Vorcaro, depois de ter rejeitado o pedido no início daquele ano; o Máxima deu origem ao Banco Master. Vorcaro foi preso pela PF em novembro de 2025 e novamente em 4 de março de 2026, no governo Lula, e seguia em prisão preventiva no fim de setembro de 2026. As prisões foram ordenadas pela Justiça, não pelo governo.",
+    "fontes": [
+      {
+        "url": "https://jornalgrandebahia.com.br/2026/04/banco-central-rejeitou-e-depois-aprovou-controle-do-banco-master-por-daniel-vorcaro-apos-revisao-de-capacidade-economica/",
+        "titulo": "Banco Central rejeitou e depois aprovou controle do Banco Master por Daniel Vorcaro após revisão de capacidade econômica",
+        "orgao": "Jornal Grande Bahia",
+        "data_publicacao": "2026-04-19",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.gazetadopovo.com.br/economia/quem-e-daniel-vorcaro-e-por-que-o-banco-central-aprovou-seus-negocios/",
+        "titulo": "Quem é Daniel Vorcaro e por que o Banco Central aprovou seus negócios",
+        "orgao": "Gazeta do Povo",
+        "data_publicacao": "2026-04-14",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://portaldeprefeitura.com.br/brasil/vorcaro-preso-na-papuda-podera-votar-nas-eleicoes/633087/",
+        "titulo": "Vorcaro, preso na Papuda, poderá votar nas eleições",
+        "orgao": "Portal de Prefeitura",
+        "data_publicacao": "2026-09-29",
+        "acessado_em": "2026-10-20"
+      }
+    ],
+    "atualizado_em": "2026-10-20"
+  },
+  {
+    "id": "cor-20",
+    "veredito": "verdadeiro-com-ressalva",
+    "explicacao": "O Banco Central decretou a liquidação do Banco Master em novembro de 2025 por suspeita de fraude. Os R$ 60 bilhões são uma estimativa de mercado do prejuízo total ao Fundo Garantidor de Créditos, somando os R$ 51,8 bilhões em garantias a investidores do Master, Will Bank e Banco Pleno a empréstimos de liquidez. O valor da fraude em si não é consenso: o BC citou R$ 12 bilhões em créditos irregulares vendidos ao BRB.",
+    "fontes": [
+      {
+        "url": "https://www.diariodepernambuco.com.br/economia/2026/03/11708737-caso-master-impacto-no-fgc-pode-chegar-a-rs-60-bilhoes.html",
+        "titulo": "Caso Master: impacto no FGC pode chegar a R$ 60 bilhões",
+        "orgao": "Diario de Pernambuco",
+        "data_publicacao": "2026-03-08",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.poder360.com.br/poder-governo/lula-recebeu-vorcaro-dono-do-master-sem-registro-na-agenda/",
+        "titulo": "Lula recebeu Vorcaro, dono do Master, sem registro na agenda",
+        "orgao": "Poder360",
+        "data_publicacao": "2026-01-26",
+        "acessado_em": "2026-10-20"
+      }
+    ],
+    "atualizado_em": "2026-10-20"
+  },
+  {
+    "id": "cor-22",
+    "veredito": "ha-investigacao",
+    "explicacao": "O senador Jaques Wagner (PT-BA) foi alvo de busca na 9ª fase da Operação Compliance Zero, em 18 de junho de 2026; a PF suspeita que ele recebeu vantagens de Augusto Lima, sócio de Vorcaro, e ele nega irregularidades e qualquer relação com Vorcaro. Segundo relatório da PF, Vorcaro citou Rui Costa, então ministro da Casa Civil, entre os favoráveis à venda do Master ao BRB, mas não foi encontrado registro público de investigação formal contra Rui Costa.",
+    "fontes": [
+      {
+        "url": "https://www.metropoles.com/colunas/igor-gadelha/vorcaro-apontou-ministros-de-lula-favoraveis-a-venda-do-master-diz-pf",
+        "titulo": "Vorcaro apontou ministros de Lula favoráveis à venda do Master, diz PF",
+        "orgao": "Metrópoles",
+        "data_publicacao": "2026-07-30",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.diariodepernambuco.com.br/amp/politica/2026/06/11716899-jaques-wagner-em-discurso-no-senado-nao-tenho-nenhuma-relacao-com-ele-vorcaro.html",
+        "titulo": "Jaques Wagner em discurso no Senado: \"Não tenho nenhuma relação com ele (Vorcaro)\"",
+        "orgao": "Diario de Pernambuco",
+        "data_publicacao": "2026-06-01",
+        "acessado_em": "2026-10-20"
+      }
+    ],
+    "atualizado_em": "2026-10-20"
+  },
+  {
+    "id": "int-02",
+    "veredito": "verdadeiro",
+    "explicacao": "Nicolás Maduro foi capturado por forças dos Estados Unidos em Caracas em 3 de janeiro de 2026 e está preso em Nova York, onde responde a acusações de narcoterrorismo e tráfico de cocaína. Ele se declarou inocente, e o julgamento foi marcado para 1º de junho de 2027.",
+    "fontes": [
+      {
+        "url": "https://www.em.com.br/internacional/2026/07/7466161-julgamento-contra-maduro-nos-eua-comecara-em-1-de-junho-de-2027.html",
+        "titulo": "Julgamento contra Maduro nos EUA começará em 1º de junho de 2027",
+        "orgao": "Estado de Minas",
+        "data_publicacao": "2026-07-22",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.band.com.br/bandnews-fm/noticias/maduro-passa-segunda-noite-preso-e-sera-apresentado-a-justica-em-nova-york-202601050654",
+        "titulo": "Maduro passa segunda noite preso e será apresentado à Justiça em Nova York",
+        "orgao": "BandNews FM",
+        "data_publicacao": "2026-01-05",
+        "acessado_em": "2026-10-20"
+      }
+    ],
+    "atualizado_em": "2026-10-20"
+  },
+  {
+    "id": "int-03",
+    "veredito": "verdadeiro",
+    "explicacao": "O vice-presidente Geraldo Alckmin representou o Brasil na posse do presidente do Irã, Masoud Pezeshkian, em Teerã, em 30 de julho de 2024. Pezeshkian foi eleito em segundo turno; o poder máximo no Irã é do líder supremo, Ali Khamenei.",
+    "fontes": [
+      {
+        "url": "https://sbtnews.sbt.com.br/noticia/mundo/alckmin-viaja-ao-ira-para-representar-o-brasil-em-posse-de-novo-presidente",
+        "titulo": "Alckmin viaja ao Irã para representar o Brasil em posse de novo presidente",
+        "orgao": "SBT News",
+        "data_publicacao": "2024-07-29",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.correiobraziliense.com.br/mundo/2024/07/6910096-alckmin-aparece-perto-de-lider-do-hamas-morto-horas-depois-no-ira.html",
+        "titulo": "Alckmin aparece perto de líder do Hamas morto horas depois no Irã",
+        "orgao": "Correio Braziliense",
+        "data_publicacao": "2024-07-01",
+        "acessado_em": "2026-10-20"
+      }
+    ],
+    "atualizado_em": "2026-10-20"
+  },
+  {
+    "id": "int-08",
+    "veredito": "verdadeiro",
+    "explicacao": "Flávio Bolsonaro declarou publicamente que, se eleito, pretende incluir o Brasil no Escudo das Américas. Em entrevista publicada em outubro de 2026, disse que vai \"com muita vontade e muita honra querer fazer parte também do Escudo das Américas\".",
+    "fontes": [
+      {
+        "url": "https://www.bahianoticias.com.br/noticia/322169-flavio-diz-que-brasil-fara-parte-do-escudo-das-americas",
+        "titulo": "Flávio diz que Brasil fará parte do Escudo das Américas",
+        "orgao": "Bahia Notícias",
+        "data_publicacao": "2026-10-07",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.metropoles.com/brasil/escudo-das-americas-alianca-trump-flavio",
+        "titulo": "Escudo das Américas: aliança de Trump e a promessa de Flávio",
+        "orgao": "Metrópoles",
+        "data_publicacao": "2026-09-30",
+        "acessado_em": "2026-10-20"
+      }
+    ],
+    "atualizado_em": "2026-10-20"
+  },
+  {
+    "id": "int-09",
+    "veredito": "verdadeiro-com-ressalva",
+    "explicacao": "O Escudo das Américas foi lançado em março de 2026 por iniciativa do governo Trump e reúne, além dos EUA, 14 países, entre eles Argentina, Bolívia, Chile, Colômbia, Costa Rica, El Salvador, Honduras e Panamá. A declaração de setembro de 2026 prevê congelamento de bens, restrições de visto e punição a quem dá apoio material a facções classificadas como terroristas, entre elas PCC e CV. A cooperação vai além da asfixia financeira: inclui também um pedido à OEA de ação coletiva com base no Tratado do Rio.",
+    "fontes": [
+      {
+        "url": "https://apublica.org/2026/09/escudo-das-americas-iniciativa-de-trump-e-de-14-paises-inclui-cartel-que-nao-existe/",
+        "titulo": "Escudo das Américas, iniciativa de Trump e de 14 países, inclui cartel que não existe",
+        "orgao": "Agência Pública",
+        "data_publicacao": "2026-09-23",
+        "acessado_em": "2026-10-20"
+      },
+      {
+        "url": "https://www.metropoles.com/brasil/escudo-das-americas-alianca-trump-flavio",
+        "titulo": "Escudo das Américas: aliança de Trump e a promessa de Flávio",
+        "orgao": "Metrópoles",
+        "data_publicacao": "2026-09-30",
         "acessado_em": "2026-10-20"
       }
     ],
