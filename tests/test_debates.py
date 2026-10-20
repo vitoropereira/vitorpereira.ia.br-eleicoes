@@ -65,6 +65,14 @@ class TestValidarDebate(unittest.TestCase):
     def test_opcionais(self):
         self.assertEqual(vd.validar_debate(debate(mediadores=["Fulana"], url_fonte="https://x", parceiros=["A"])), [])
 
+    def test_cor_e_publicado_em_opcionais(self):
+        cands = [{"id": "fulano-pl", "nome_urna": "Fulano", "partido": "PL", "cor": "flavio"},
+                 {"id": "beltrano-pt", "nome_urna": "Beltrano", "partido": "PT", "cor": "outros"}]
+        self.assertEqual(vd.validar_debate(debate(candidatos=cands, publicado_em="2026-10-19")), [])
+        cands[0]["cor"] = "#ff0000"
+        self.assertTrue(any("cor" in e for e in vd.validar_debate(debate(candidatos=cands))))
+        self.assertTrue(any("publicado_em" in e for e in vd.validar_debate(debate(publicado_em="19/10/2026"))))
+
     def test_falta_campo_obrigatorio(self):
         for campo in ("slug", "ano", "cargo", "turno", "emissora", "data", "candidatos", "fonte_transcricao"):
             with self.subTest(campo=campo):

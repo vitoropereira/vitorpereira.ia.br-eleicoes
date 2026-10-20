@@ -1,213 +1,258 @@
-"""Página de checagem do debate (/debates/<emissora>-<turno>-turno/), gerada por debates/pagina.py a partir dos JSON."""
-import copy, html, json, re, shutil, sys, tempfile, unittest
+"""Seção /debates/ (debates/pagina.py + build_site.debates_publicar): debate, afirmação, transcrição e índice."""
+import html, json, re, shutil, sys, tempfile, unittest
 from collections import Counter
 from pathlib import Path
-from unittest import mock
 
 R = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(R))
 import build_site as B
 from debates import pagina as dp
+from debates import validar as V
 
 FIXTURE = R / "tests" / "fixtures" / "debates"
-REAL = R / "debates" / "2026-10-18-band"
-ADJETIVOS = re.compile(r"\b(venceu|vencedor|ganhou|perdeu|mentiros[oa]|destruiu|humilhou|arrasou|massacrou)\b", re.I)
+TESTE = FIXTURE / "2026" / "presidente-2-turno-teste"
+FICT = FIXTURE / "2030" / "governador-1-turno-fict"
+REAL = R / "debates" / "2026" / "presidente-2-turno-band"
+PROIBIDAS = re.compile(r"\b(venceu|vencedor|ganhou|perdeu|mentiu|mentiros[oa]|destruiu|humilhou|arrasou|massacrou)\b", re.I)
 
 
-def gerar(pasta=FIXTURE):
-    return dp.gerar(*dp.ler(pasta), B.BASE, B.PESSOA)
+def gerar(pasta=TESTE):
+    return dp.gerar(dp.carregar(pasta), B.BASE, B.PESSOA)
 
 
 def ld_de(h):
-    return [json.loads(x) for x in re.findall(r'<script type="application/ld\+json">(.*?)</script>', h, re.S)]
+    return [json.loads(x.replace("<\\/", "</")) for x in re.findall(r'<script type="application/ld\+json">(.*?)</script>', h, re.S)]
 
 
-class Cobertura(unittest.TestCase):
-    def checar(self, pasta):
-        afs, chs = dp.ler(pasta)
-        p = dp.gerar(afs, chs, B.BASE, B.PESSOA)
-        h = p["html"]
-        por_id = {a["id"]: a for a in afs["afirmacoes"]}
-        for c in chs["checagens"]:
-            self.assertIn(f'id="{c["id"]}"', h, c["id"])
-            self.assertIn(html.escape(por_id[c["id"]]["trecho"], quote=False), h, c["id"])
-            self.assertIn(html.escape(c["veredito"], quote=False), h, c["id"])
-            self.assertIn(html.escape(c["explicacao"], quote=False), h, c["id"])
-            for f in c["fontes"]:
-                self.assertRegex(h, r'<a href="' + re.escape(html.escape(f["url"])) + r'"[^>]*>', f["url"])
-            if c.get("outro_lado"):
-                self.assertIn(html.escape(c["outro_lado"], quote=False), h)
-        self.assertIn(f"Checamos {len(chs['checagens'])} afirmações", h)
+def json_de(pasta, nome):
+    return json.loads((pasta / nome).read_text(encoding="utf-8"))
 
-    def test_fixture(self):
-        self.checar(FIXTURE)
 
-    @unittest.skipUnless((REAL / "checagens.json").exists(), "dados do debate ainda não publicados (#88/#89)")
-    def test_dados_reais(self):
-        self.checar(REAL)
+class Carregar(unittest.TestCase):
+    def test_incerta_fica_de_fora(self):
+        m = dp.carregar(TESTE)
+        self.assertNotIn("seg-02", m["itens"])
+        self.assertNotIn("seg-02", [c["id"] for c in m["checagens"]])
+        self.assertEqual(len(m["checagens"]), 4)
 
-    def test_path_vem_dos_dados(self):
-        self.assertEqual(gerar()["path"], "/debates/band-2-turno/")
+    def test_sem_checagens_nao_publica(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            d = Path(tmp) / "2026" / "presidente-2-turno-teste"
+            shutil.copytree(TESTE, d)
+            (d / "checagens.json").unlink()
+            self.assertIsNone(dp.carregar(d))
+            self.assertEqual(dp.listar(tmp), [])
 
-    def test_campo_faltando_falha_claro(self):
-        afs, chs = dp.ler(FIXTURE)
-        sem = copy.deepcopy(chs); del sem["checagens"][0]["veredito"]
-        with self.assertRaisesRegex(ValueError, "a01.*veredito"):
-            dp.gerar(afs, sem, B.BASE, B.PESSOA)
-        orfa = copy.deepcopy(chs); orfa["checagens"][0]["id"] = "zz"
-        with self.assertRaisesRegex(ValueError, "zz"):
-            dp.gerar(afs, orfa, B.BASE, B.PESSOA)
-        ruim = copy.deepcopy(chs); ruim["checagens"][0]["fontes"] = [{"url": "javascript:alert(1)"}]
-        with self.assertRaisesRegex(ValueError, "a01.*fonte"):
-            dp.gerar(afs, ruim, B.BASE, B.PESSOA)
-        cor = copy.deepcopy(afs); cor["debate"]["candidatos"][0]["cor"] = "brand"
-        with self.assertRaisesRegex(ValueError, "cor"):
-            dp.gerar(cor, chs, B.BASE, B.PESSOA)
+    def test_checagem_quebrada_levanta_com_id_e_campo(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            d = Path(tmp) / "2026" / "presidente-2-turno-teste"
+            shutil.copytree(TESTE, d)
+            chs = json_de(d, "checagens.json")
+            del chs[1]["explicacao"]
+            (d / "checagens.json").write_text(json.dumps(chs), encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, r"eco-01.*explicacao"):
+                dp.carregar(d)
 
-    def test_turno_e_ids_repetidos_falham(self):
-        afs, chs = dp.ler(FIXTURE)
-        tur = copy.deepcopy(afs); tur["debate"]["turno"] = '2"><script>'
-        with self.assertRaisesRegex(ValueError, "turno"):
-            dp.gerar(tur, chs, B.BASE, B.PESSOA)
-        dup = copy.deepcopy(afs); dup["afirmacoes"].append(dict(dup["afirmacoes"][0]))
-        with self.assertRaisesRegex(ValueError, "a01.*repetida"):
-            dp.gerar(dup, chs, B.BASE, B.PESSOA)
-        cdup = copy.deepcopy(afs); cdup["debate"]["candidatos"].append(dict(cdup["debate"]["candidatos"][0]))
-        with self.assertRaisesRegex(ValueError, "flavio.*repetido"):
-            dp.gerar(cdup, chs, B.BASE, B.PESSOA)
+    def test_cor_padrao_e_mediacao(self):
+        m = dp.carregar(FICT)
+        self.assertEqual(m["cands"]["carla-souza-pc"]["cor"], "outros")
+        self.assertEqual(m["cands"]["mediacao"]["cor"], "outros")
 
-    def test_transcricao_sem_http_nao_vai_pro_ld(self):
-        afs, chs = dp.ler(FIXTURE)
-        afs = copy.deepcopy(afs); afs["debate"]["transcricao"] = "javascript:alert(1)"
-        p = dp.gerar(afs, chs, B.BASE, B.PESSOA)
-        cr = next(x for x in p["ld"] if x["@type"] == "ClaimReview")
-        self.assertEqual(cr["itemReviewed"]["appearance"]["url"], B.BASE + p["path"])
-
-    def test_ld_nao_fecha_script(self):
-        self.assertNotIn("</script>", B.jsonld({"x": "</script><b>"})[:-len("</script>")])
-
-    def test_ler_sem_dados_devolve_none(self):
-        self.assertIsNone(dp.ler(R / "debates" / "nao-existe"))
+    def test_rotulos_cobrem_vereditos(self):
+        self.assertEqual(set(dp.ROTULOS), {v for vs in V.VEREDITOS.values() for v in vs})
+        self.assertEqual(set(dp.TEMAS), set(V.TEMAS))
 
 
 class Placar(unittest.TestCase):
-    def test_contagem_por_candidato(self):
-        afs, chs = dp.ler(FIXTURE)
+    def checar(self, pasta):
+        m = dp.carregar(pasta)
+        quem = {i["id"]: i["quem"] for i in json_de(pasta, "afirmacoes.json") if i["autoria"] == "certa"}
+        esperado = Counter((quem[c["id"]], c["veredito"]) for c in json_de(pasta, "checagens.json") if c["id"] in quem)
+        conta = dp.placar(m)
+        self.assertEqual(sum(sum(c.values()) for c in conta.values()), len(m["checagens"]))
+        for q, c in conta.items():
+            self.assertEqual(list(c), [v for v in dp.ORDEM_VEREDITOS if v in c], "mesma ordem de validar.VEREDITOS")
+            for v, n in c.items():
+                self.assertEqual(n, esperado[(q, v)], (q, v))
+        h = gerar(pasta)["html"]
+        sec = re.search(r'<section aria-labelledby="placar">.*?</section>', h).group(0)
+        for q, c in conta.items():
+            total = sum(c.values())
+            for v, n in c.items():
+                self.assertIn(f"<li><span>{html.escape(dp.ROTULOS[v], quote=False)}</span><span>{n} ({round(100 * n / total)}%)</span></li>", sec)
+        self.assertNotRegex(sec, PROIBIDAS)
+
+    def test_fixture(self):
+        self.checar(TESTE)
+        self.assertEqual(dp.placar(dp.carregar(TESTE))["mediacao"]["verdadeiro-com-ressalva"], 1)
+
+    @unittest.skipUnless((REAL / "checagens.json").exists(), "debate da Band ainda sem checagens.json")
+    def test_band(self):
+        self.checar(REAL)
+
+    def test_sem_palavra_de_placar_de_luta_fora_das_citacoes(self):
+        for g in (gerar(TESTE), gerar(FICT)):
+            texto = re.sub(r"<blockquote>.*?</blockquote>|<p class=\"db-frase\">.*?</p>", "", g["html"])
+            for c in dp.carregar(TESTE)["checagens"] + dp.carregar(FICT)["checagens"]:
+                texto = texto.replace(html.escape(c["explicacao"], quote=False), "")
+            self.assertNotRegex(texto, PROIBIDAS)
+
+
+class PaginaDebate(unittest.TestCase):
+    def checar(self, pasta):
+        m = dp.carregar(pasta)
+        g = dp.gerar(m, B.BASE, B.PESSOA)
+        h = g["html"]
+        self.assertEqual(g["path"], f"/debates/{m['debate']['ano']}/{m['debate']['slug']}/")
+        for c in m["checagens"]:
+            a = m["itens"][c["id"]]
+            self.assertRegex(h, rf'<article class="db-af" id="{c["id"]}" data-candidato="{a["quem"]}" '
+                                rf'data-tema="{a["tema"]}" data-veredito="{c["veredito"]}"')
+            self.assertIn(html.escape(a["trecho"], quote=False), h)
+            self.assertIn(html.escape(c["explicacao"], quote=False), h)
+            self.assertIn(f'href="{g["path"]}{c["id"]}/"', h)
+            for f in c["fontes"]:
+                self.assertIn(f'<a href="{html.escape(f["url"])}"', h)
+        self.assertIn(f"Checamos {len(m['checagens'])} afirmações", h)
+        # ordem dos temas = validar.TEMAS
+        temas = re.findall(r'<section class="db-tema" id="tema-([a-z-]+)">', h)
+        self.assertEqual(temas, [t for t in V.TEMAS if t in temas])
+        # JSON-LD
+        ld = ld_de(B.jsonld(g["ld"]))[0]
+        crs = [x for x in ld if x["@type"] == "ClaimReview"]
+        self.assertEqual(len(crs), len(m["checagens"]))
+        for cr, c in zip(crs, m["checagens"]):
+            a = m["itens"][c["id"]]
+            self.assertEqual(cr["url"], B.BASE + g["path"] + c["id"] + "/")
+            self.assertEqual(cr["claimReviewed"], a["afirmacao"])
+            self.assertEqual(cr["reviewRating"]["alternateName"], dp.ROTULOS[c["veredito"]])
+            self.assertEqual(cr["itemReviewed"]["author"]["@type"], "Organization" if a["quem"] == "mediacao" else "Person")
+            self.assertTrue(cr["itemReviewed"]["appearance"]["url"].endswith(f"transcricao/#{dp.ancora(a['timestamp'])}"))
+        self.assertEqual({x["@type"] for x in ld} - {"ClaimReview"}, {"Article", "BreadcrumbList"})
+        art = next(x for x in ld if x["@type"] == "Article")
+        self.assertEqual(art["dateModified"], max([art["datePublished"]] + [c["atualizado_em"] for c in m["checagens"]]))
+        return g
+
+    def test_fixture(self):
+        g = self.checar(TESTE)
+        self.assertEqual(g["publicado"], "2026-10-12")  # publicado_em do debate.json
+        self.assertEqual(g["modificado"], "2026-10-14")  # maior atualizado_em
+        self.assertNotIn('id="seg-02"', g["html"])
+        self.assertNotIn("Frase de autoria incerta", g["html"])
+        self.assertEqual(gerar(FICT)["publicado"], "2030-09-01")  # sem publicado_em: a data do debate
+
+    @unittest.skipUnless((REAL / "checagens.json").exists(), "debate da Band ainda sem checagens.json")
+    def test_band(self):
+        g = self.checar(REAL)
+        self.assertEqual(g["path"], "/debates/2026/presidente-2-turno-band/")
+
+    def test_filtro_escondido_sem_script_inline(self):
         h = gerar()["html"]
-        cand = {a["id"]: a["candidato"] for a in afs["afirmacoes"]}
-        esperado = Counter((cand[c["id"]], c["veredito"]) for c in chs["checagens"])
-        tabela = re.search(r'<table class="db-placar">(.*?)</table>', h, re.S).group(1)
-        for c in afs["debate"]["candidatos"]:
-            linha = re.search(r'<tr data-candidato="' + c["id"] + r'">(.*?)</tr>', tabela, re.S).group(1)
-            nums = [int(x) for x in re.findall(r"<td[^>]*>(\d+)</td>", linha)]
-            self.assertEqual(nums[:-1], [esperado[(c["id"], v)] for v in chs["vereditos"]], c["id"])
-            self.assertEqual(nums[-1], sum(esperado[(c["id"], v)] for v in chs["vereditos"]))
+        self.assertIn('<form class="db-filtro" aria-label="Filtrar afirmações" hidden>', h)
+        for nome in ("candidato", "tema", "veredito"):
+            self.assertIn(f'<select name="{nome}">', h)
+        self.assertEqual(re.findall(r"<script(?![^>]*\bsrc=)[^>]*>", h), [])
 
-    def test_sem_adjetivos_fora_das_citacoes(self):
-        h = re.sub(r"<blockquote.*?</blockquote>", "", gerar()["html"], flags=re.S)
-        self.assertIsNone(ADJETIVOS.search(h))
+    def test_transcricao_tem_ancora_de_todo_timestamp(self):
+        for pasta in (TESTE, FICT) + ((REAL,) if (REAL / "checagens.json").exists() else ()):
+            m = dp.carregar(pasta)
+            t = dp.gerar(m, B.BASE, B.PESSOA)["transcricao"]
+            self.assertEqual(t["path"], m["path"] + "transcricao/")
+            for a in m["itens"].values():
+                self.assertIn(f'id="{dp.ancora(a["timestamp"])}"', t["html"], a["id"])
+            ids = re.findall(r' id="(t-[^"]+)"', t["html"])
+            self.assertEqual(len(ids), len(set(ids)), "âncora repetida")
 
-    def test_temas_em_ordem_fixa(self):
-        h = gerar()["html"]
-        temas = re.findall(r'<section class="db-tema" id="tema-([a-z0-9-]+)"', h)
-        self.assertEqual(temas, ["seguranca", "economia", "saude", "social", "corrupcao-e-acusacoes", "internacional", "educacao"])
-
-    def test_so_cores_de_partido_no_conteudo(self):
-        h = gerar()["html"]
-        self.assertNotIn("var(--brand)", dp.CSS)
-        for cor in re.findall(r"var\(--(\w+)\)", h.rsplit("</style>", 1)[1]):
-            self.assertIn(cor, dp.CORES)
-
-    def test_uma_coluna_no_celular(self):
-        self.assertIn("@media (max-width:760px)", dp.CSS)
+    def test_ancora(self):
+        self.assertEqual(dp.ancora("4:33"), "t-0-04-33")
+        self.assertEqual(dp.ancora("1:07:25"), "t-1-07-25")
 
 
-class JsonLd(unittest.TestCase):
-    def test_claimreview_por_checagem(self):
-        afs, chs = dp.ler(FIXTURE)
-        p = gerar()
-        lds = p["ld"]
-        self.assertEqual([json.loads(json.dumps(x)) for x in lds], lds)
-        crs = [x for x in lds if x["@type"] == "ClaimReview"]
-        self.assertEqual(len(crs), len(chs["checagens"]))
-        nomes = {c["id"]: c["nome"] for c in afs["debate"]["candidatos"]}
-        por_id = {a["id"]: a for a in afs["afirmacoes"]}
-        for cr, c in zip(crs, chs["checagens"]):
-            a = por_id[c["id"]]
-            self.assertEqual(cr["url"], B.BASE + p["path"] + "#" + c["id"])
-            self.assertEqual(cr["claimReviewed"], a["trecho"])
-            self.assertEqual(cr["itemReviewed"]["@type"], "Claim")
-            self.assertEqual(cr["itemReviewed"]["author"], {"@type": "Person", "name": nomes[a["candidato"]]})
-            self.assertEqual(cr["itemReviewed"]["datePublished"], afs["debate"]["data"])
-            self.assertIn("url", cr["itemReviewed"]["appearance"])
-            self.assertEqual(cr["reviewRating"]["alternateName"], c["veredito"])
-            self.assertEqual(cr["author"], B.PESSOA)
-        tipos = [x["@type"] for x in lds]
-        self.assertIn("Article", tipos); self.assertIn("BreadcrumbList", tipos)
+class PaginaAfirmacao(unittest.TestCase):
+    def test_uma_por_checagem_com_og_propria(self):
+        g = gerar()
+        self.assertEqual([a["path"] for a in g["afirmacoes"]],
+                         [f"{g['path']}{i}/" for i in ("seg-01", "eco-01", "eco-02", "soc-01")])
+        ogs = [a["og"][0] for a in g["afirmacoes"]]
+        self.assertEqual(len(set(ogs)), len(ogs))
+        self.assertEqual(ogs[0], "debate-2026-presidente-2-turno-teste-seg-01")
+        for a in g["afirmacoes"]:
+            crs = [x for x in a["ld"] if x["@type"] == "ClaimReview"]
+            self.assertEqual(len(crs), 1)
+            self.assertEqual(crs[0]["url"], B.BASE + a["path"])
+            self.assertIn('href="/debates/"', a["html"])
+            self.assertIn(f'href="{g["path"]}#', a["html"])
 
-    def test_ld_valido_na_pagina_publicada(self):
-        with tempfile.TemporaryDirectory() as d, mock.patch.object(B, "DEBATE_DADOS", FIXTURE):
-            B.debate_publicar(Path(d))
-            h = (Path(d) / "debates" / "band-2-turno" / "index.html").read_text()
-        lds = ld_de(h)
-        self.assertEqual(sum(x["@type"] == "ClaimReview" for x in lds), len(dp.ler(FIXTURE)[1]["checagens"]))
+    def test_og_afirmacao_corta_frase(self):
+        h = B.og_afirmacao("palavra " * 60, "Ana Silva (PA)", "flavio", "Falso")
+        q = re.search(r"<q>(.*?)</q>", h).group(1)
+        self.assertLessEqual(len(q), 181)
+        self.assertTrue(q.endswith("…"))
+        self.assertIn(B.COR_OG["flavio"], h)
 
 
-class Filtro(unittest.TestCase):
-    def test_controles_nascem_escondidos(self):
-        h = gerar()["html"]
-        self.assertRegex(h, r'<form class="db-filtro"[^>]*hidden')
-        self.assertIn('<script defer src="/debates/debate.js"></script>', h)
-        self.assertEqual(len(re.findall(r'<article class="db-af"[^>]*data-candidato="\w+" data-veredito="[a-z0-9-]+"', h)), 7)
+class Indice(unittest.TestCase):
+    def test_ordem_e_placar_acumulado(self):
+        gs = [dp.gerar(m, B.BASE, B.PESSOA) for m in dp.listar(FIXTURE)]
+        self.assertEqual([g["path"] for g in gs], ["/debates/2030/governador-1-turno-fict/", "/debates/2026/presidente-2-turno-teste/"])
+        idx = dp.indice(gs, B.BASE, B.PESSOA)
+        soma = {q: {v: n for v, n in c.items() if n} for q, c in idx["placar"].items()}
+        self.assertEqual(soma["ana-silva-pa"], {"verdadeiro": 1, "falso": 1, "viavel": 1})  # está nos dois debates
+        self.assertEqual(soma["bruno-lima-pb"], {"falso": 1})
+        self.assertEqual(soma["carla-souza-pc"], {"verdadeiro": 1})
+        self.assertNotIn("mediacao", idx["placar"])
+        h = idx["html"]
+        self.assertLess(h.index("/debates/2030/governador-1-turno-fict/"), h.index("/debates/2026/presidente-2-turno-teste/"))
+        self.assertNotRegex(h, PROIBIDAS)
 
 
-class Build(unittest.TestCase):
-    def publicar(self):
-        d = Path(tempfile.mkdtemp()); self.addCleanup(shutil.rmtree, d)
-        with mock.patch.object(B, "DEBATE_DADOS", FIXTURE):
-            return d, B.debate_publicar(d)
+class Publicar(unittest.TestCase):
+    def test_segundo_debate_sem_codigo_novo(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            out = B.debates_publicar(tmp, raiz=FIXTURE)
+            paths = [p for p, _, _ in out["sitemap"]]
+            for g in [dp.gerar(m, B.BASE, B.PESSOA) for m in dp.listar(FIXTURE)]:
+                for p in [g["path"], g["transcricao"]["path"]] + [a["path"] for a in g["afirmacoes"]]:
+                    self.assertIn(p, paths)
+                    h = (Path(tmp) / p.strip("/") / "index.html").read_text()
+                    self.assertIn('<a href="/debates/" aria-current=page>Debates</a>', h)
+                    self.assertIn(f'<link rel="canonical" href="{B.BASE}{p}">', h)
+                for a in g["afirmacoes"]:
+                    h = (Path(tmp) / a["path"].strip("/") / "index.html").read_text()
+                    self.assertIn(f'<meta property="og:image" content="{B.BASE}/og/{a["og"][0]}.png">', h)
+            self.assertIn("/debates/", paths)
+            self.assertNotIn("/debates/2026/presidente-2-turno-teste/seg-02/", paths)
+            self.assertFalse((Path(tmp) / "debates" / "2026" / "presidente-2-turno-teste" / "seg-02").exists())
+            prio = {p: pr for p, _, pr in out["sitemap"]}
+            self.assertEqual(prio["/debates/"], "0.8")
+            self.assertEqual(prio["/debates/2026/presidente-2-turno-teste/"], "0.8")
+            self.assertEqual(prio["/debates/2026/presidente-2-turno-teste/seg-01/"], "0.5")
+            self.assertEqual(prio["/debates/2026/presidente-2-turno-teste/transcricao/"], "0.3")
+            self.assertEqual((Path(tmp) / "debates" / "debate.js").read_bytes(), (R / "debates" / "debate.js").read_bytes())
+            self.assertEqual(len(out["og"]), 2 + 6)
+            self.assertIn(f"{B.BASE}/debates/", out["llms"])
 
-    def test_publica_pagina_js_sitemap_e_llms(self):
-        d, info = self.publicar()
-        h = (d / "debates" / "band-2-turno" / "index.html").read_text()
-        self.assertIn('class="sitebar"', h)
-        self.assertIn('<link rel="canonical" href="' + B.BASE + '/debates/band-2-turno/">', h)
-        self.assertIn('content="' + B.BASE + '/og/debate-band.png"', h)
-        self.assertEqual((d / "debates" / "debate.js").read_bytes(), (R / "debates" / "debate.js").read_bytes())
-        self.assertEqual(info["sitemap"], [("/debates/band-2-turno/", "2026-10-19T12:00:00-03:00", "0.8")])
-        self.assertIn(B.BASE + "/debates/band-2-turno/", info["llms"])
-        self.assertEqual(info["og"][0], "debate-band")
+    def test_build_sem_nome_de_debate(self):
+        src = (R / "build_site.py").read_text()
+        for nome in ("Band", "band", "Flávio Bolsonaro", "presidente-2-turno"):
+            self.assertNotIn(nome, src[src.index("# ---------------- checagem de debates"):src.index("IDX_CSS")], nome)
 
-    def test_isolamento_de_scripts(self):
-        from tests.test_rastro_publicado import scripts_fora
-        d, _ = self.publicar()
-        h = (d / "debates" / "band-2-turno" / "index.html").read_text()
-        self.assertEqual(scripts_fora(h) - {"/debates/debate.js"}, set())
-
-    def test_sem_dados_pula(self):
-        with tempfile.TemporaryDirectory() as d, mock.patch.object(B, "DEBATE_DADOS", Path(d) / "nada"):
-            self.assertIsNone(B.debate_publicar(Path(d)))
-            self.assertFalse((Path(d) / "debates").exists())
-
-    def test_og_so_cores_de_partido(self):
-        _, info = self.publicar()
-        card = B.og_debate(*info["og"][1:])
-        self.assertNotIn("#24C8FF", card.split("</style>", 1)[1])
-        self.assertIn("Flávio Bolsonaro", card)
+    def test_sem_debate_nao_publica(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self.assertIsNone(B.debates_publicar(tmp, raiz=Path(tmp) / "nada"))
 
 
-class Navegacao(unittest.TestCase):
-    def test_menu_e_home_com_debate(self):
-        with mock.patch.object(B, "DEBATE_DADOS", FIXTURE):
-            s = B.sitebar("/debates/band-2-turno/")
-            self.assertIn('<a href="/debates/band-2-turno/" aria-current=page>Debate Band</a>', s)
-            self.assertIn('<a href="/debates/band-2-turno/">Debate Band</a>', B.sitebar("/"))
-            self.assertIn('href="/debates/band-2-turno/"', B.banner_debate())
-
-    def test_sem_dados_sem_link(self):
-        with mock.patch.object(B, "DEBATE_DADOS", R / "debates" / "nao-existe"):
-            self.assertNotIn("/debates/", B.sitebar("/"))
-            self.assertEqual(B.banner_debate(), "")
+@unittest.skipUnless((R / "site" / "debates" / "index.html").exists(), "rode python3 build_site.py antes")
+class Saida(unittest.TestCase):
+    def test_uma_pasta_por_checagem_e_sitemap(self):
+        sitemap = (R / "site" / "sitemap.xml").read_text()
+        for m in dp.listar(R / "debates"):
+            for c in m["checagens"]:
+                p = m["path"] + c["id"] + "/"
+                self.assertTrue((R / "site" / p.strip("/") / "index.html").exists(), p)
+                self.assertIn(f"<loc>{B.BASE}{p}</loc>", sitemap)
+                self.assertTrue((R / "site" / "og" / f"debate-{m['debate']['ano']}-{m['debate']['slug']}-{c['id']}.png").exists())
+        self.assertEqual((R / "site" / "debates" / "debate.js").read_bytes(), (R / "debates" / "debate.js").read_bytes())
 
 
 if __name__ == "__main__":

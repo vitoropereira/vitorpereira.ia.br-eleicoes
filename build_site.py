@@ -242,8 +242,7 @@ def com_medicao(dom):
 
 
 def sitebar(atual):
-    deb = debate()
-    links = [("/", "Resultado final"), ("/ao-vivo/", "Ao vivo")] + ([(deb["path"], deb["rotulo"])] if deb else []) + [
+    links = [("/", "Resultado final"), ("/ao-vivo/", "Ao vivo")] + ([("/debates/", "Debates")] if debates() else []) + [
         ("/analise/", "Análise"), ("/rastro/", "Rastro do dinheiro"), ("/apuracao/", "Histórico da apuração"), ("/#metodo", "Método e fontes")]
     nav = "".join(f'<a href="{u}"{" aria-current=page" if u == atual else ""}>{t}</a>' for u, t in links)
     return (f'<a class="skip" href="#conteudo">Pular para o conteúdo</a><header class="sitebar"><div class="in">'
@@ -705,45 +704,55 @@ def rastro_publicar(dest, publicado, modificado, moldura=True):
     return [(p["path"], modificado, prioridade(p["path"])) for p in pags]
 
 
-# ---------------- checagem do debate do 2º turno (debates/pagina.py): estática, só existe se os JSON já estiverem no repo
-DEBATE_DADOS = R / "debates" / "2026-10-18-band"
+# ---------------- checagem de debates (debates/pagina.py): estática, um debate por debates/<ano>/<slug>/ com checagens.json
 COR_OG = {"flavio": "#5B7FE8", "lula": "#E35A4F", "outros": "#8593AB"}  # os mesmos hex de partido do og_card (tema escuro)
 
 
-def debate():
-    """Página do debate já gerada (dict de debates.pagina.gerar), ou None se os JSON ainda não existem."""
-    return _debate(DEBATE_DADOS)
-
-
 @functools.lru_cache(maxsize=None)
-def _debate(pasta):
+def debates(raiz=R / "debates"):
+    """Páginas geradas de cada debate com checagem (dicts de debates.pagina.gerar), do mais novo para o mais antigo."""
     from debates import pagina as dp
-    dados = dp.ler(pasta)
-    if not dados:
-        return None
-    return dp.gerar(*dados, BASE, PESSOA)
+    return [dp.gerar(m, BASE, PESSOA) for m in dp.listar(raiz)]
 
 
 def banner_debate():
-    deb = debate()
-    if not deb:
+    ds = debates()
+    if not ds:
         return ""
-    return f'<div class="banner"><div>{html.escape(deb["og"][1])}: <a href="{deb["path"]}">{html.escape(deb["og"][4])} →</a></div></div>'
+    d = ds[0]
+    return f'<div class="banner"><div>{html.escape(d["og"][1])}: <a href="{d["path"]}">{html.escape(d["og"][4])} →</a></div></div>'
 
 
-def debate_publicar(dest):
-    """Escreve dest/debates/<rota>/index.html e dest/debates/debate.js. Sem os JSON, avisa e devolve None.
-    Senão devolve as entradas do sitemap, a linha do llms.txt e os dados do card OG."""
-    deb = debate()
-    if not deb:
-        print(f"aviso: sem {DEBATE_DADOS}/afirmacoes.json e checagens.json: página do debate não publicada", file=sys.stderr)
+def debates_publicar(dest, raiz=R / "debates"):
+    """Escreve dest/debates/ (índice, debate.js e, por debate, a página, a transcrição e uma página por afirmação).
+    Sem nenhum debate com checagem, avisa e devolve None. Senão devolve as entradas do sitemap, as linhas do llms.txt
+    e os cards OG [(nome, html)]."""
+    from debates import pagina as dp
+    ds = debates(raiz)
+    if not ds:
+        print(f"aviso: nenhum {raiz}/<ano>/<slug>/checagens.json: seção de debates não publicada", file=sys.stderr)
         return None
-    pasta = Path(dest) / deb["path"].strip("/")
-    pasta.mkdir(parents=True, exist_ok=True)
-    shutil.copyfile(R / "debates" / "debate.js", Path(dest) / "debates" / "debate.js")
-    (pasta / "index.html").write_text(com_medicao(montar_pagina(deb["html"], deb["titulo"], deb["desc"], deb["path"], f"/og/{deb['og'][0]}.png",
-                                                               deb["ld"], deb["publicado"], deb["modificado"], deb["path"])))
-    return dict(sitemap=[(deb["path"], deb["modificado"], "0.8")], llms=deb["llms"], og=deb["og"])
+    dest = Path(dest)
+
+    def escrever(p, og):
+        pasta = dest / p["path"].strip("/")
+        pasta.mkdir(parents=True, exist_ok=True)
+        (pasta / "index.html").write_text(com_medicao(montar_pagina(p["html"], p["titulo"], p["desc"], p["path"], f"/og/{og}.png",
+                                                                   p["ld"], p["publicado"], p["modificado"], "/debates/")))
+    idx = dp.indice(ds, BASE, PESSOA)
+    escrever(idx, ds[0]["og"][0])
+    shutil.copyfile(R / "debates" / "debate.js", dest / "debates" / "debate.js")
+    sitemap, og = [(idx["path"], idx["modificado"], "0.8")], []
+    for d in ds:
+        escrever(d, d["og"][0])
+        escrever(d["transcricao"], d["og"][0])
+        sitemap += [(d["path"], d["modificado"], "0.8"), (d["transcricao"]["path"], d["transcricao"]["modificado"], "0.3")]
+        og.append((d["og"][0], og_debate(*d["og"][1:])))
+        for a in d["afirmacoes"]:
+            escrever(a, a["og"][0])
+            sitemap.append((a["path"], a["modificado"], "0.5"))
+            og.append((a["og"][0], og_afirmacao(*a["og"][1:])))
+    return dict(sitemap=sitemap, llms=idx["llms"] + "".join(d["llms"] for d in ds), og=og)
 
 
 def og_debate(titulo, sub, por_cand, rodape_txt):
@@ -751,6 +760,26 @@ def og_debate(titulo, sub, por_cand, rodape_txt):
     cx = "".join(f'<div class="c" style="--c:{COR_OG[cor]}"><div class="n">{html.escape(nome)} · {html.escape(sg)}</div>'
                  f'<div class="p">{n}</div><div class="n">afirmações</div></div>' for nome, sg, cor, n in por_cand)
     return og_card(titulo, sub, 0, 0, rodape_txt, linha=cx)
+
+
+def og_afirmacao(frase, quem, cor, veredito):
+    """Card 1200×630 de uma afirmação: a frase (cortada em ~180 caracteres), quem disse e o veredito; a cor é a do partido."""
+    if len(frase) > 180:
+        frase = frase[:177].rsplit(" ", 1)[0] + "…"
+    tam = 48 if len(frase) <= 90 else 38
+    return f"""<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{{font-family:Inter;font-weight:100 900;src:url(/fonts/inter-latin-wght-normal.woff2)}}
+@font-face{{font-family:"JetBrains Mono";font-weight:100 800;src:url(/fonts/jetbrains-mono-latin-wght-normal.woff2)}}
+*{{box-sizing:border-box}}body{{margin:0;width:1200px;height:630px;background:#070B12;font-family:Inter,sans-serif;color:#E9EEF7}}
+.w{{padding:64px 72px;height:100%;display:flex;flex-direction:column;border-left:14px solid {COR_OG[cor]}}}
+.k{{font:500 24px "JetBrains Mono",monospace;color:{COR_OG[cor]};letter-spacing:.06em;text-transform:uppercase}}
+q{{display:block;font:600 {tam}px/1.25 Inter,sans-serif;margin:22px 0 0}}
+.v{{margin-top:auto;align-self:flex-start;font:600 34px "JetBrains Mono",monospace;border:3px solid #E9EEF7;border-radius:999px;padding:8px 30px}}
+.f{{margin-top:26px;font-size:22px;color:#8593AB;display:flex;justify-content:space-between}}
+.f b{{color:#E9EEF7;font:600 22px "JetBrains Mono",monospace}}.f b i{{display:inline-block;width:11px;height:24px;background:#24C8FF;vertical-align:-4px;margin-left:3px}}</style></head><body><div class="w">
+<div class="k">{html.escape(quem)}</div><q>{html.escape(frase)}</q>
+<div class="v">{html.escape(veredito)}</div>
+<div class="f"><span>Checagem de debate</span><b>vitor pereira<i></i></b></div></div></body></html>"""
 
 
 IDX_CSS = """<style>
@@ -900,8 +929,8 @@ def main():
     # ---- Rastro do dinheiro (/rastro/): estático, vai direto para site/
     paginas += rastro_publicar(OUT, publicado, modificado)
 
-    # ---- checagem do debate (/debates/...): estática, vai direto para site/; sem os JSON, só avisa
-    deb = debate_publicar(OUT)
+    # ---- checagem dos debates (/debates/...): estática, vai direto para site/; sem checagens.json, só avisa
+    deb = debates_publicar(OUT)
     if deb:
         paginas += deb["sitemap"]
 
@@ -915,7 +944,7 @@ def main():
     cards += [("ao-vivo", "Mapa da apuração por município", "Eleições 2026 · dados do TSE", cF["p"], cL["p"], "5.570 municípios · 2º turno ao vivo em 25/10")]
     cards += [(f"apuracao-{r['slug']}", f"Apuração com {fmt(r['d']['pst'], 1)}% das urnas", f"Eleições 2026 · 04/10 às {r['d']['ht'][:5]}", r["d"]["f"], r["d"]["l"], "Leitura parcial do TSE") for r in rodadas]
     og_htmls = [(nome, og_card(t, s, f, l, rp)) for nome, t, s, f, l, rp in cards]
-    og_htmls += [(deb["og"][0], og_debate(*deb["og"][1:]))] if deb else []
+    og_htmls += deb["og"] if deb else []
     for nome, og_html in og_htmls:
         (BUILD / "og" / f"{nome}.html").write_text(og_html)
         chrome("--window-size=1200,630", "--virtual-time-budget=3000", f"--screenshot={OUT / 'og' / (nome + '.png')}", f"{base_url}/og/{nome}.html")

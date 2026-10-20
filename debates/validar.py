@@ -28,6 +28,7 @@ DEBATE_STR = ("slug", "cargo", "emissora", "data", "fonte_transcricao")
 DEBATE_INT = ("ano", "turno")
 FONTES = ("youtube-auto", "whisper", "colado")
 CANDIDATO = ("id", "nome_urna", "partido")
+CORES = ("flavio", "lula", "outros")  # variáveis de partido do brand.css; `cor` do candidato é opcional (padrão outros)
 
 VEREDITO_FATO = ("verdadeiro", "verdadeiro-com-ressalva", "exagerado", "falso", "sem-evidencia", "nao-checavel")
 VEREDITOS = {"dado": VEREDITO_FATO, "fato": VEREDITO_FATO,
@@ -109,6 +110,8 @@ def validar_debate(debate):
             erros.append(f"debate.json: data {debate['data']!r} não é AAAA-MM-DD")
         elif type(debate.get("ano")) is int and d.year != debate["ano"]:
             erros.append(f"debate.json: ano {debate['ano']} não bate com a data {debate['data']!r}")
+    if "publicado_em" in debate and (not isinstance(debate["publicado_em"], str) or _data_iso(debate["publicado_em"]) is None):
+        erros.append(f"debate.json: publicado_em {debate['publicado_em']!r} não é AAAA-MM-DD")
     if all(isinstance(debate.get(c), str) for c in ("slug", "cargo", "emissora")) and type(debate.get("turno")) is int:
         esperado = f"{slugificar(debate['cargo'])}-{debate['turno']}-turno-{slugificar(debate['emissora'])}"
         if debate["slug"] != esperado:
@@ -127,6 +130,8 @@ def validar_debate(debate):
                 erros.append(f"debate.json: candidato {n} sem {k!r}")
         if "id_tse" in c and not (isinstance(c["id_tse"], str) and c["id_tse"].isdigit()):
             erros.append(f"debate.json: candidato {n} com id_tse {c['id_tse']!r} (string só de dígitos)")
+        if "cor" in c and c["cor"] not in CORES:
+            erros.append(f"debate.json: candidato {n} com cor {c['cor']!r} fora de {list(CORES)}")
         i = c.get("id")
         if isinstance(i, str):
             if not RE_SLUG.match(i) or i == MEDIACAO:

@@ -55,6 +55,10 @@ Formato do `transcricao.md`:
 - `slug` tem que ser `<cargo>-<turno>-turno-<emissora>`, e a pasta tem que ser `<ano>/<slug>`.
 - Opcionais: `parceiros`, `url_fonte`, `mediadores` (só com nome confirmado em fonte) e `id_tse` do candidato
   (o `sqcand` do TSE, só se estiver numa fonte do repo, como `relatorio/dados/`).
+- `cor` do candidato (opcional): `flavio`, `lula` ou `outros` (padrão), que são as variáveis de cor de partido do
+  `brand.css`. Em outra eleição são só nomes de cor: use a do campo do candidato. A mediação sai sempre em `outros`.
+- `publicado_em` (opcional, AAAA-MM-DD): data de publicação da checagem no site (`datePublished`). Sem ele, vale a
+  `data` do debate.
 - **`id` do candidato é estável entre debates**: nome de urna + partido, em slug (`lula-pt`). O mesmo candidato
   usa o mesmo `id` no debate da Band, da Globo e de qualquer outro.
 
@@ -152,4 +156,15 @@ tem processo, fica `sem-registro-publico`, e a `explicacao` diz o que está docu
 `python3 debates/validar.py <pasta>` também valida o `checagens.json` quando ele existe e imprime `quem×veredito`,
 para conferir que o critério foi o mesmo para cada lado.
 
-O selo e a página do debate são da #90.
+### 7. Publicar
+
+`python3 build_site.py` publica todo `debates/<ano>/<slug>/` que tenha `checagens.json`, sem código novo por debate
+(`debates/pagina.py`):
+
+- `/debates/`: índice, do debate mais novo para o mais antigo, com o placar somado por `id` de candidato (sem a mediação);
+- `/debates/<ano>/<slug>/`: placar do debate, filtro (quem, tema, veredito) e as checagens por tema;
+- `/debates/<ano>/<slug>/<id>/`: uma página por checagem, com card OG próprio (`/og/debate-<ano>-<slug>-<id>.png`);
+- `/debates/<ano>/<slug>/transcricao/`: a transcrição com uma âncora `t-H-MM-SS` por marcação.
+
+Só entra afirmação `certa`. O JSON-LD traz um `ClaimReview` por checagem; `dateModified` é o maior `atualizado_em`.
+Erro em qualquer arquivo para o build com o id e o campo: nada é publicado pela metade.
