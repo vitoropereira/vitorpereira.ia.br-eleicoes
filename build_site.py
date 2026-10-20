@@ -242,7 +242,9 @@ def com_medicao(dom):
 
 
 def sitebar(atual):
-    links = [("/", "Resultado final"), ("/ao-vivo/", "Ao vivo"), ("/analise/", "Análise"), ("/rastro/", "Rastro do dinheiro"), ("/apuracao/", "Histórico da apuração"), ("/#metodo", "Método e fontes")]
+    deb = debate()
+    links = [("/", "Resultado final"), ("/ao-vivo/", "Ao vivo")] + ([(deb["path"], deb["rotulo"])] if deb else []) + [
+        ("/analise/", "Análise"), ("/rastro/", "Rastro do dinheiro"), ("/apuracao/", "Histórico da apuração"), ("/#metodo", "Método e fontes")]
     nav = "".join(f'<a href="{u}"{" aria-current=page" if u == atual else ""}>{t}</a>' for u, t in links)
     return (f'<a class="skip" href="#conteudo">Pular para o conteúdo</a><header class="sitebar"><div class="in">'
             f'<a class="brand" href="/" aria-label="Eleições 2026, por Vitor Pereira">'
@@ -643,7 +645,10 @@ def prerender(url):
 
 
 # ---------------- imagem de compartilhamento (1200×630)
-def og_card(titulo, sub, f, l, rodape_txt):
+def og_card(titulo, sub, f, l, rodape_txt, linha=None):
+    """linha: HTML dos cartões no lugar de Flávio × Lula com f e l (%)"""
+    linha = linha or (f'<div class="c" style="--c:#5B7FE8"><div class="n">Flávio Bolsonaro · {html.escape(cF["sg"])}</div><div class="p">{fmt(f, 2)}%</div></div>\n'
+                      f'<div class="c" style="--c:#E35A4F"><div class="n">Lula · {html.escape(cL["sg"])}</div><div class="p">{fmt(l, 2)}%</div></div>')
     return f"""<!doctype html><html><head><meta charset="utf-8"><style>
 @font-face{{font-family:Inter;font-weight:100 900;src:url(/fonts/inter-latin-wght-normal.woff2)}}
 @font-face{{font-family:"JetBrains Mono";font-weight:100 800;src:url(/fonts/jetbrains-mono-latin-wght-normal.woff2)}}
@@ -656,8 +661,7 @@ h1{{font:600 60px/1.05 "JetBrains Mono",monospace;margin:14px 0 0;letter-spacing
 .f{{margin-top:26px;font-size:22px;color:#8593AB;display:flex;justify-content:space-between}}
 .f b{{color:#E9EEF7;font:600 22px "JetBrains Mono",monospace}}.f b i{{display:inline-block;width:11px;height:24px;background:#24C8FF;vertical-align:-4px;margin-left:3px}}</style></head><body><div class="w">
 <div class="k">{html.escape(sub)}</div><h1>{html.escape(titulo)}</h1>
-<div class="row"><div class="c" style="--c:#5B7FE8"><div class="n">Flávio Bolsonaro · {html.escape(cF["sg"])}</div><div class="p">{fmt(f, 2)}%</div></div>
-<div class="c" style="--c:#E35A4F"><div class="n">Lula · {html.escape(cL["sg"])}</div><div class="p">{fmt(l, 2)}%</div></div></div>
+<div class="row">{linha}</div>
 <div class="f"><span>{html.escape(rodape_txt)}</span><b>vitor pereira<i></i></b></div></div></body></html>"""
 
 
@@ -698,6 +702,54 @@ def rastro_publicar(dest, publicado, modificado, moldura=True):
             return "0.6"
         return "0.5" if path.endswith("/metodologia/") else "0.3" if path.startswith("/rastro/fornecedor/") else "0.4"
     return [(p["path"], modificado, prioridade(p["path"])) for p in pags]
+
+
+# ---------------- checagem do debate do 2º turno (debates/pagina.py): estática, só existe se os JSON já estiverem no repo
+DEBATE_DADOS = R / "debates" / "2026-10-18-band"
+COR_OG = {"flavio": "#5B7FE8", "lula": "#E35A4F", "outros": "#8593AB"}  # os mesmos hex de partido do og_card (tema escuro)
+
+
+def debate():
+    """Página do debate já gerada (dict de debates.pagina.gerar), ou None se os JSON ainda não existem."""
+    return _debate(DEBATE_DADOS)
+
+
+@functools.lru_cache(maxsize=None)
+def _debate(pasta):
+    from debates import pagina as dp
+    dados = dp.ler(pasta)
+    if not dados:
+        return None
+    return dp.gerar(*dados, BASE, PESSOA)
+
+
+def banner_debate():
+    deb = debate()
+    if not deb:
+        return ""
+    return f'<div class="banner"><div>{html.escape(deb["og"][1])}: <a href="{deb["path"]}">{html.escape(deb["og"][4])} →</a></div></div>'
+
+
+def debate_publicar(dest):
+    """Escreve dest/debates/<rota>/index.html e dest/debates/debate.js. Sem os JSON, avisa e devolve None.
+    Senão devolve as entradas do sitemap, a linha do llms.txt e os dados do card OG."""
+    deb = debate()
+    if not deb:
+        print(f"aviso: sem {DEBATE_DADOS}/afirmacoes.json e checagens.json: página do debate não publicada", file=sys.stderr)
+        return None
+    pasta = Path(dest) / deb["path"].strip("/")
+    pasta.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(R / "debates" / "debate.js", Path(dest) / "debates" / "debate.js")
+    (pasta / "index.html").write_text(com_medicao(montar_pagina(deb["html"], deb["titulo"], deb["desc"], deb["path"], f"/og/{deb['og'][0]}.png",
+                                                               deb["ld"], deb["publicado"], deb["modificado"], deb["path"])))
+    return dict(sitemap=[(deb["path"], deb["modificado"], "0.8")], llms=deb["llms"], og=deb["og"])
+
+
+def og_debate(titulo, sub, por_cand, rodape_txt):
+    """Card 1200×630 do debate: quantas afirmações de cada candidato foram checadas, só com as cores de partido."""
+    cx = "".join(f'<div class="c" style="--c:{COR_OG[cor]}"><div class="n">{html.escape(nome)} · {html.escape(sg)}</div>'
+                 f'<div class="p">{n}</div><div class="n">afirmações</div></div>' for nome, sg, cor, n in por_cand)
+    return og_card(titulo, sub, 0, 0, rodape_txt, linha=cx)
 
 
 IDX_CSS = """<style>
@@ -761,7 +813,7 @@ def main():
            "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": BASE + "/dados/relatorio.json"}]},
           faq_ld]
     rounds_nav = "".join(f'<a href="{r["url"]}">{fmt(r["d"]["pst"], 1)}%</a>' for r in rodadas)
-    top = (f'<div class="banner"><div>Resultado com <b>{fmt(N["pst"], 2)}%</b> das seções apuradas (TSE, {N["dg"]} {N["ht"]}). '
+    top = banner_debate() + (f'<div class="banner"><div>Resultado com <b>{fmt(N["pst"], 2)}%</b> das seções apuradas (TSE, {N["dg"]} {N["ht"]}). '
            f'Veja como a apuração evoluiu durante a noite: <span class="rounds">{rounds_nav}<a href="/apuracao/">todas as leituras →</a></span></div></div>')
     (BUILD / "index.html").write_text(montar_pagina(raw, titulo, desc, "/", "/og/index.png", ld, publicado, modificado, "/", top))
     paginas.append(("/", modificado, "1.0"))
@@ -847,6 +899,11 @@ def main():
     # ---- Rastro do dinheiro (/rastro/): estático, vai direto para site/
     paginas += rastro_publicar(OUT, publicado, modificado)
 
+    # ---- checagem do debate (/debates/...): estática, vai direto para site/; sem os JSON, só avisa
+    deb = debate_publicar(OUT)
+    if deb:
+        paginas += deb["sitemap"]
+
     # ---- medição: um único arquivo com os IDs (sem ID não há medicao.js)
     if MEDICAO_JS_SAIDA:
         (OUT / "medicao.js").write_text(MEDICAO_JS_SAIDA)
@@ -858,6 +915,10 @@ def main():
     cards += [(f"apuracao-{r['slug']}", f"Apuração com {fmt(r['d']['pst'], 1)}% das urnas", f"Eleições 2026 · 04/10 às {r['d']['ht'][:5]}", r["d"]["f"], r["d"]["l"], "Leitura parcial do TSE") for r in rodadas]
     for nome, t, s, f, l, rp in cards:
         (BUILD / "og" / f"{nome}.html").write_text(og_card(t, s, f, l, rp))
+        chrome("--window-size=1200,630", "--virtual-time-budget=3000", f"--screenshot={OUT / 'og' / (nome + '.png')}", f"{base_url}/og/{nome}.html")
+    if deb:
+        nome = deb["og"][0]
+        (BUILD / "og" / f"{nome}.html").write_text(og_debate(*deb["og"][1:]))
         chrome("--window-size=1200,630", "--virtual-time-budget=3000", f"--screenshot={OUT / 'og' / (nome + '.png')}", f"{base_url}/og/{nome}.html")
     # análise: uma página de compartilhar e dois cartões (OG 1200×630, social 1080×1350) por seção
     secs = secoes_do_dom((OUT / "analise" / "index.html").read_text())
@@ -905,7 +966,7 @@ def main():
 - [Mapa da apuração por município]({BASE}/ao-vivo/): presidente, governadores, Senado e deputados nos 5.570 municípios; 2º turno ao vivo em 25/10
 - [Análise: voto dividido, votos × cadeiras, divergências e 2022 × 2026]({BASE}/analise/): por que Lula (PT) tem tantos votos e o campo dele elege poucos deputados; estimativas marcadas, por estado
 - [Apuração leitura a leitura]({BASE}/apuracao/)
-""" + "".join(f"- [Apuração com {fmt(r['d']['pst'], 1)}% das urnas]({BASE}{r['url']})\n" for r in rodadas) +
+""" + (deb["llms"] if deb else "") + "".join(f"- [Apuração com {fmt(r['d']['pst'], 1)}% das urnas]({BASE}{r['url']})\n" for r in rodadas) +
 f"- [Dados consolidados em JSON]({BASE}/dados/relatorio.json)\n", encoding="utf-8")
     (OUT / "vercel.json").write_text(json.dumps(VERCEL, indent=1))  # deploy pela CLI, de dentro de site/
     # deploy pelo git (integração GitHub) parte da raiz do repo: sem isto a Vercel publica a raiz e o site dá 404
