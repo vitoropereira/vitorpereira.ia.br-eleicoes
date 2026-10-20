@@ -141,7 +141,8 @@ A checagem fica em `checagens.json`, ao lado de `afirmacoes.json`: uma lista com
 - `fontes`: pelo menos uma, com os cinco campos e `url` `https://`. Em `sem-evidencia` e `nao-checavel`, a fonte é o
   que foi consultado e não confirmou. Órgão oficial primeiro; reportagem não é fonte única quando ele existe.
   Em série de dados (SGS, SIDRA, FMI), `data_publicacao` é o início do período mais recente usado.
-- `atualizado_em` e `acessado_em`: AAAA-MM-DD, nunca depois de hoje nem antes da data do debate.
+- `atualizado_em` e `acessado_em`: AAAA-MM-DD, nunca depois de hoje; `acessado_em` também não pode ser antes da
+  data do debate (o teste dos debates publicados confere).
   `data_publicacao` aceita também AAAA ou AAAA-MM, para publicação que só informa o ano (o Anuário do FBSP).
 - `outro_lado` (opcional): nota da defesa, em `acusacao`, quando existir.
 
