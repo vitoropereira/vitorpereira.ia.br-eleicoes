@@ -163,6 +163,16 @@ class PaginaDebate(unittest.TestCase):
             ids = re.findall(r' id="(t-[^"]+)"', t["html"])
             self.assertEqual(len(ids), len(set(ids)), "âncora repetida")
 
+    def test_retorica_percentual_na_frente(self):
+        """quem fala mais frases tem contagem maior em tudo: o destaque é o percentual, e a nota dá o total de cada um"""
+        m = dp.carregar(TESTE)
+        h = dp.gerar(m, B.BASE, B.PESSOA)["html"]
+        conta = dp.placar_retorica(m)
+        self.assertIn("compare pelo percentual", h)
+        for q, c in conta.items():
+            self.assertIn(f'{html.escape(dp._nome(m["cands"][q]))}, {sum(c.values())}', h)
+        self.assertRegex(h, r'<b>\d+%</b> <small>\d+</small>')
+
     def test_ancora(self):
         self.assertEqual(dp.ancora("4:33"), "t-0-04-33")
         self.assertEqual(dp.ancora("1:07:25"), "t-1-07-25")
