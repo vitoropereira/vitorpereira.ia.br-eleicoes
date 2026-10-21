@@ -197,10 +197,10 @@ Etiquetas (`etiqueta`):
 |---|---|---|
 | `ataque-pessoa` | Ataque à pessoa | ataca a pessoa do adversário (caráter, família, amigos ou honestidade), não o que ele propõe |
 | `dado` | Dado | traz número, data ou fato verificável, certo ou errado (se confere é a checagem que diz) |
-| `proposta` | Proposta | diz o que vai fazer, com ou sem detalhe |
+| `proposta` | Proposta | diz o que vai fazer ou propõe (medida futura), com ou sem detalhe |
 | `critica-sem-prova` | Crítica sem prova | critica governo ou ação do adversário sem dado |
 | `emocao` | Emoção | apela a medo, raiva, pena ou esperança, sem dado nem proposta |
-| `fala-de-si` | Fala de si | a própria trajetória, governo ou caráter, sem dado |
+| `fala-de-si` | Fala de si | fala da própria trajetória, caráter ou realização, sem número |
 
 **Desempate**: quando a frase cabe em mais de uma, vale a primeira da tabela, nesta ordem: ataque-pessoa, dado,
 proposta, critica-sem-prova, emocao, fala-de-si (`validar.ETIQUETAS`).

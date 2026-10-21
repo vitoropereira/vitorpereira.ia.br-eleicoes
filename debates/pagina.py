@@ -264,8 +264,9 @@ def _barras_retorica(linhas):
 
 def como_etiquetamos():
     ordem = ", ".join(ETIQUETAS[e].lower() for e in V.ETIQUETAS)
-    return ('<p class="db-nota">Cada frase dita por um candidato recebeu uma etiqueta: proposta (o que pretende fazer), '
-            'dado (número ou fato verificável), fala de si (a própria trajetória ou governo), emoção (apela a medo, '
+    return ('<p class="db-nota">Cada frase dita por um candidato recebeu uma etiqueta: proposta (diz o que vai fazer '
+            'ou propõe (medida futura)), dado (número ou fato verificável), fala de si (fala da própria trajetória, '
+            'caráter ou realização, sem número), emoção (apela a medo, '
             'raiva, pena ou esperança, sem dado nem proposta), crítica sem prova (critica governo ou ação do adversário '
             'sem dado) e ataque à pessoa (ataca a pessoa do adversário: caráter, família, amigos ou honestidade). '
             'Cada etiqueta é uma leitura da frase, não um fato. '

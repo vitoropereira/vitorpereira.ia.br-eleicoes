@@ -214,10 +214,30 @@ class Pagina(unittest.TestCase):
         self.assertNotIn('aria-labelledby="retorica"', sem["html"])
 
 
+class Band(unittest.TestCase):
+    PASTA = R / "debates" / "2026" / "presidente-2-turno-band"
+
+    def test_retorica_da_band_valida_e_soma_100(self):
+        self.assertEqual(V.main([str(self.PASTA)]), 0)
+        m = dp.carregar(self.PASTA)
+        self.assertTrue(m["retorica"])
+        conta = dp.placar_retorica(m)
+        self.assertEqual(set(conta), {"flavio-bolsonaro-pl", "lula-pt"})
+        for c in conta.values():
+            self.assertEqual(sum(dp.pct_100(c).values()), 100)
+        h = dp.gerar(m, B.BASE, B.PESSOA)["html"]
+        sec = re.search(r'<section aria-labelledby="retorica">.*?</section>', h, re.S).group(0)
+        self.assertEqual(sec.count("<li id=\"r-"), len(m["retorica"]))
+        self.assertNotRegex(re.sub(r"<q>.*?</q>", "", sec, flags=re.S), PROIBIDAS)  # a frase citada é literal
+        for b in re.findall(r'<div class="db-pc".*?</div>', sec):
+            self.assertEqual(sum(int(p) for p in re.findall(r"\((\d+)%\)", b)), 100)
+
+
 class Regra(unittest.TestCase):
     """o etiquetador cego e a Globo (#94) seguem este texto: as definições são as da issue #110, ao pé da letra"""
     LITERAIS = ("amigos ou honestidade", "medo, raiva, pena ou esperança, sem dado nem proposta",
-                "critica governo ou ação do adversário sem dado")
+                "critica governo ou ação do adversário sem dado", "diz o que vai fazer ou propõe (medida futura)",
+                "trajetória, caráter ou realização, sem número")
 
     def test_readme_e_pagina_usam_as_definicoes_da_issue(self):
         readme = (R / "debates" / "README.md").read_text(encoding="utf-8")
@@ -225,7 +245,8 @@ class Regra(unittest.TestCase):
         for trecho in self.LITERAIS:
             self.assertIn(trecho, readme)
             self.assertIn(trecho, nota)
-        for antigo in ("passado pessoal", "aponta falha do outro lado", "sem argumento"):
+        for antigo in ("passado pessoal", "aponta falha do outro lado", "sem argumento", "trajetória, governo ou caráter",
+                       "trajetória ou governo"):
             self.assertNotIn(antigo, readme)
             self.assertNotIn(antigo, nota)
 
