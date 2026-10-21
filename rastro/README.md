@@ -184,8 +184,11 @@ python3 -m rastro.anteriores            # com os ZIPs já em rastro/brutos/
   `tests/test_rastro_publicado.py` e o resto), o PR fica aberto com o label **`bloqueado`**, sem merge, e o lote sai com 1.
   Enquanto houver PR de lote aberto com `bloqueado`, os lotes seguintes não rodam: o lote reprovado pede conserto humano e não é
   empilhado nem duplicado. Recusa também árvore suja e branch do dia já existente.
-- **Trava**: de `trava_inicio` a `trava_fim` (23 a 26/10/2026, inclusive, em `config.json`) o `lote.py` sai com código 2 antes de
-  qualquer comando. A trava está no Python, então vale também para quem rodar à mão e para o workflow.
+- **Trava**: de `trava_inicio` a `trava_fim` (inclusive, em `config.json`) o `lote.py` sai com código 2 antes de
+  qualquer comando. A trava está no Python, então vale também para quem rodar à mão e para o workflow. **Desligada desde
+  21/10/2026** (as duas datas em `null`, decisão do Vitor): o lote é o único caminho que publica o site, e a trava de 23 a
+  26/10 deixaria a checagem do debate da Globo (24/10) fora do ar até depois da eleição. Para religar, volte as datas.
+  A trava de download do dia da apuração (`baixar.DIA_APURACAO`, 25/10) é outra e continua: o lote não baixa nada.
 - **Workflow** `.github/workflows/rastro-lote.yml` (substitui o antigo `cron_lote.sh`): todo dia às 12:00 UTC (09:00 BRT) e por
   `workflow_dispatch` (input `dry_run`, que roda `lote.py --dry-run`). Nenhum passo do YAML faz merge: o merge só existe no
   `lote.py`, depois do pytest. Pré-requisitos, feitos uma vez pelo Vitor:
