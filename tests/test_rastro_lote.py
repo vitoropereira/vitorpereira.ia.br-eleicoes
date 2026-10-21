@@ -3,6 +3,7 @@ import re
 import shutil
 import tempfile
 import unittest
+from unittest import mock
 from datetime import date
 from pathlib import Path
 from types import SimpleNamespace
@@ -43,15 +44,25 @@ class TestFila(unittest.TestCase):
 
 
 class TestTrava(unittest.TestCase):
+    TRAVA = {"trava_inicio": "2026-10-23", "trava_fim": "2026-10-26"}
+
     def test_datas(self):
         for dia in (23, 24, 25, 26):
-            self.assertTrue(lote.travado(date(2026, 10, dia), CFG), dia)
+            self.assertTrue(lote.travado(date(2026, 10, dia), self.TRAVA), dia)
         for dia in (22, 27):
+            self.assertFalse(lote.travado(date(2026, 10, dia), self.TRAVA), dia)
+
+    def test_sem_trava_no_config(self):
+        """Vitor tirou a trava em 21/10/2026 (o site publica os debates na semana da eleição): null = sem trava"""
+        self.assertIsNone(CFG["trava_inicio"])
+        self.assertIsNone(CFG["trava_fim"])
+        for dia in range(20, 28):
             self.assertFalse(lote.travado(date(2026, 10, dia), CFG), dia)
+        self.assertFalse(lote.travado(date(2026, 10, 25), {"trava_inicio": None, "trava_fim": None}))
 
     def test_main_na_trava_nao_chama_nada(self):
         chamadas = []
-        with tempfile.TemporaryDirectory() as d:
+        with tempfile.TemporaryDirectory() as d, mock.patch.object(lote, "travado", return_value=True):
             rc = lote.main(hoje=date(2026, 10, 25), raiz=d, executar=lambda *a, **k: chamadas.append(a))
         self.assertNotEqual(rc, 0)
         self.assertEqual(chamadas, [])
@@ -154,7 +165,8 @@ class TestLote(unittest.TestCase):
 
     def test_nunca_mergeia_na_trava_no_dry_run_ou_sem_sal(self):
         ex = Falso()
-        lote.main(hoje=date(2026, 10, 25), raiz=self.raiz, executar=ex)
+        with mock.patch.object(lote, "travado", return_value=True):  # o mecanismo continua, mesmo sem data no config
+            lote.main(hoje=date(2026, 10, 25), raiz=self.raiz, executar=ex)
         lote.main(hoje=date(2026, 10, 14), raiz=self.raiz, executar=ex, dry_run=True)
         self.assertEqual(ex.cmds, [])
 

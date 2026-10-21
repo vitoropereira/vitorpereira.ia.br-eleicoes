@@ -1,5 +1,5 @@
 # Lote diário do Rastro do dinheiro. O merge só acontece dentro de rastro/lote.py, e só se `python3 -m pytest -q` passar
-# sobre o conteúdo exato do lote; se falhar, o PR fica aberto com o label `bloqueado`. A trava de 23 a 26/10 está no lote.py.
+# sobre o conteúdo exato do lote; se falhar, o PR fica aberto com o label `bloqueado`. A trava de data fica no lote.py (desligada desde 21/10/2026).
 # Pré-requisitos (README do rastro): secret RASTRO_SAL, vars GA_ID e CLARITY_ID, label `bloqueado` e
 # "Allow GitHub Actions to create and approve pull requests" ligado.
 name: rastro-lote

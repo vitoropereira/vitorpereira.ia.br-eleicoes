@@ -30,6 +30,8 @@ ROTULO_BLOQUEADO = "bloqueado"
 
 def travado(hoje, cfg=None):
     cfg = cfg or json.loads((AQUI / "config.json").read_text(encoding="utf-8"))
+    if not cfg.get("trava_inicio") or not cfg.get("trava_fim"):  # null no config.json = sem trava
+        return False
     return date.fromisoformat(cfg["trava_inicio"]) <= hoje <= date.fromisoformat(cfg["trava_fim"])
 
 
