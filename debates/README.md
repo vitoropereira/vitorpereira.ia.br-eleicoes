@@ -53,6 +53,9 @@ Formato do `transcricao.md`:
 
 - Obrigatórios: `slug`, `ano`, `cargo`, `turno`, `emissora`, `data` (AAAA-MM-DD), `fonte_transcricao`, `candidatos`.
 - `slug` tem que ser `<cargo>-<turno>-turno-<emissora>`, e a pasta tem que ser `<ano>/<slug>`.
+- `video` (opcional): o vídeo do YouTube de onde saiu a transcrição (`https://www.youtube.com/watch?v=<id>` ou
+  `https://youtu.be/<id>`). Com ele, o tempo de cada afirmação vira "▶ 9:52 no vídeo", aberto naquele segundo, além
+  do link para a transcrição. Tem que ser o mesmo vídeo da transcrição, senão os tempos não batem.
 - Opcionais: `parceiros`, `url_fonte`, `mediadores` (só com nome confirmado em fonte) e `id_tse` do candidato
   (o `sqcand` do TSE, só se estiver numa fonte do repo, como `relatorio/dados/`).
 - `cor` do candidato (opcional): `flavio`, `lula` ou `outros` (padrão), que são as variáveis de cor de partido do
