@@ -199,7 +199,7 @@ class Pagina(unittest.TestCase):
         blocos = re.findall(r'<div class="db-pc".*?</div>', sec)
         self.assertEqual(len(blocos), 2)
         for b in blocos:
-            self.assertEqual(sum(int(p) for p in re.findall(r"\((\d+)%\)", b)), 100)
+            self.assertEqual(sum(int(p) for p in re.findall(r"<b>(\d+)%</b>", b)), 100)
 
     def test_indice_soma(self):
         gs = [dp.gerar(m, B.BASE, B.PESSOA) for m in dp.listar(TESTE.parent.parent)]
@@ -209,7 +209,7 @@ class Pagina(unittest.TestCase):
         sec = re.search(r'<section aria-labelledby="retorica">.*?</section>', idx["html"], re.S).group(0)
         self.assertIn("1 debate,", sec)
         for b in re.findall(r'<div class="db-pc".*?</div>', sec):
-            self.assertEqual(sum(int(p) for p in re.findall(r"\((\d+)%\)", b)), 100)
+            self.assertEqual(sum(int(p) for p in re.findall(r"<b>(\d+)%</b>", b)), 100)
         sem = dp.indice([dp.gerar(dp.carregar(FICT), B.BASE, B.PESSOA)], B.BASE, B.PESSOA)
         self.assertNotIn('aria-labelledby="retorica"', sem["html"])
 
@@ -230,7 +230,7 @@ class Band(unittest.TestCase):
         self.assertEqual(sec.count("<li id=\"r-"), len(m["retorica"]))
         self.assertNotRegex(re.sub(r"<q>.*?</q>", "", sec, flags=re.S), PROIBIDAS)  # a frase citada é literal
         for b in re.findall(r'<div class="db-pc".*?</div>', sec):
-            self.assertEqual(sum(int(p) for p in re.findall(r"\((\d+)%\)", b)), 100)
+            self.assertEqual(sum(int(p) for p in re.findall(r"<b>(\d+)%</b>", b)), 100)
 
 
 class Regra(unittest.TestCase):

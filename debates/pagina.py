@@ -166,6 +166,7 @@ CSS_PLACAR = """.db-placar{display:grid;grid-template-columns:repeat(auto-fit,mi
 .db-pc li{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding:4px 0;font-size:14px;font-variant-numeric:tabular-nums}
 .db-pc li:last-child{border-bottom:0;font-weight:600}
 .db-pc .db-bar{display:block;border-bottom:1px solid var(--line)}
+.db-pc .db-bar b{font-size:16px}.db-pc .db-bar small{font-size:12px;color:var(--muted);margin-left:4px}
 .db-bar span{display:flex;justify-content:space-between;gap:12px}
 .db-bar i{display:block;height:8px;margin:3px 0 2px;border-radius:4px;background:var(--c);min-width:1px}
 """
@@ -255,11 +256,16 @@ def _barras_retorica(linhas):
     """linhas: [(nome, cor, {etiqueta: n})] → um bloco vertical por candidato, uma barra por etiqueta (cabe em 360 px)."""
     def bloco(nome, cor, conta):
         p = pct_100(conta)
-        barras = "".join(f'<li class="db-bar"><span><span>{esc(ETIQUETAS[e])}</span><span>{n} ({p[e]}%)</span></span>'
+        # o percentual vem na frente: quem fala mais frases tem contagem maior em tudo, e a comparação é pela parte
+        barras = "".join(f'<li class="db-bar"><span><span>{esc(ETIQUETAS[e])}</span>'
+                         f'<span><b>{p[e]}%</b> <small>{n}</small></span></span>'
                          f'<i style="width:{p[e]}%" aria-hidden="true"></i></li>' for e, n in conta.items())
         return (f'<div class="db-pc" style="--c:var(--{cor})"><h3>{esc(nome)}</h3><ul>{barras}'
                 f"<li><span>Total</span><span>{sum(conta.values())} frases</span></li></ul></div>")
-    return '<div class="db-placar">' + "".join(bloco(*x) for x in linhas) + "</div>"
+    totais = [f"{esc(nome)}, {sum(conta.values())}" for nome, _, conta in linhas]
+    nota = (f'<p class="db-nota">Frases de cada um: {"; ".join(totais)}. Como o número de frases é diferente, '
+            'compare pelo percentual; o número pequeno ao lado é a contagem.</p>') if len(linhas) > 1 else ""
+    return nota + '<div class="db-placar">' + "".join(bloco(*x) for x in linhas) + "</div>"
 
 
 def como_etiquetamos():
