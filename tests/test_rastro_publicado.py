@@ -140,7 +140,8 @@ class TestBuscaPublicada(unittest.TestCase):
             self.assertEqual(problemas_indice(t, self.meis), [], p.relative_to(RAIZ))
 
     def test_detector_pega_cpf_injetado(self):
-        t = self.indices[SITE / "rastro" / "busca.json"]
+        # com o índice em partes, busca.json só lista as partes: injeta no primeiro arquivo que tem nome
+        t = next(t for t in self.indices.values() if '"n":"' in t)
         self.assertTrue(problemas_indice(t.replace('"n":"', '"n":"529.982.247-25 ', 1), self.meis))
         self.assertTrue(problemas_indice(t + next(iter(self.meis)), self.meis))
 
