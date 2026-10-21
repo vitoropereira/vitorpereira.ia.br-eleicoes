@@ -195,11 +195,11 @@ Etiquetas (`etiqueta`):
 
 | Etiqueta | Rótulo | Quando |
 |---|---|---|
-| `ataque-pessoa` | Ataque à pessoa | mira quem é o adversário (caráter, família, passado pessoal), não o que ele propõe ou fez no cargo |
+| `ataque-pessoa` | Ataque à pessoa | ataca a pessoa do adversário (caráter, família, amigos ou honestidade), não o que ele propõe |
 | `dado` | Dado | traz número, data ou fato verificável, certo ou errado (se confere é a checagem que diz) |
 | `proposta` | Proposta | diz o que vai fazer, com ou sem detalhe |
-| `critica-sem-prova` | Crítica sem prova | aponta falha do outro lado sem número nem fato que dê para conferir |
-| `emocao` | Emoção | apelo a sentimento (medo, fé, família, esperança) sem argumento |
+| `critica-sem-prova` | Crítica sem prova | critica governo ou ação do adversário sem dado |
+| `emocao` | Emoção | apela a medo, raiva, pena ou esperança, sem dado nem proposta |
 | `fala-de-si` | Fala de si | a própria trajetória, governo ou caráter, sem dado |
 
 **Desempate**: quando a frase cabe em mais de uma, vale a primeira da tabela, nesta ordem: ataque-pessoa, dado,

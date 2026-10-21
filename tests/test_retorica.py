@@ -214,5 +214,21 @@ class Pagina(unittest.TestCase):
         self.assertNotIn('aria-labelledby="retorica"', sem["html"])
 
 
+class Regra(unittest.TestCase):
+    """o etiquetador cego e a Globo (#94) seguem este texto: as definições são as da issue #110, ao pé da letra"""
+    LITERAIS = ("amigos ou honestidade", "medo, raiva, pena ou esperança, sem dado nem proposta",
+                "critica governo ou ação do adversário sem dado")
+
+    def test_readme_e_pagina_usam_as_definicoes_da_issue(self):
+        readme = (R / "debates" / "README.md").read_text(encoding="utf-8")
+        nota = dp.como_etiquetamos()
+        for trecho in self.LITERAIS:
+            self.assertIn(trecho, readme)
+            self.assertIn(trecho, nota)
+        for antigo in ("passado pessoal", "aponta falha do outro lado", "sem argumento"):
+            self.assertNotIn(antigo, readme)
+            self.assertNotIn(antigo, nota)
+
+
 if __name__ == "__main__":
     unittest.main()

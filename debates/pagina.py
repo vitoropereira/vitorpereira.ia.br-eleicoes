@@ -265,9 +265,10 @@ def _barras_retorica(linhas):
 def como_etiquetamos():
     ordem = ", ".join(ETIQUETAS[e].lower() for e in V.ETIQUETAS)
     return ('<p class="db-nota">Cada frase dita por um candidato recebeu uma etiqueta: proposta (o que pretende fazer), '
-            'dado (número ou fato verificável), fala de si (a própria trajetória ou governo), emoção (apelo a '
-            'sentimento, sem argumento), crítica sem prova (aponta falha do outro lado sem número nem fato) e ataque à '
-            'pessoa (mira quem é o adversário, não o que ele propõe). Cada etiqueta é uma leitura da frase, não um fato. '
+            'dado (número ou fato verificável), fala de si (a própria trajetória ou governo), emoção (apela a medo, '
+            'raiva, pena ou esperança, sem dado nem proposta), crítica sem prova (critica governo ou ação do adversário '
+            'sem dado) e ataque à pessoa (ataca a pessoa do adversário: caráter, família, amigos ou honestidade). '
+            'Cada etiqueta é uma leitura da frase, não um fato. '
             'Foi feita por IA lendo só a frase, sem saber quem falou. Dado errado conta como dado: se ele confere é a '
             'checagem das afirmações que diz. Quando a frase cabe em mais de uma, vale a primeira desta ordem: '
             f'{esc(ordem)}. Ficam de fora a mediação, cumprimentos, agradecimentos, perguntas de regra e os trechos em '
