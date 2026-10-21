@@ -104,10 +104,20 @@ main.db{max-width:880px;margin:0 auto;padding:24px 18px 56px}
 .db-pc ul{list-style:none;margin:0;padding:0}
 .db-pc li{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding:4px 0;font-size:14px;font-variant-numeric:tabular-nums}
 .db-pc li:last-child{border-bottom:0;font-weight:600}
+.db-pc .db-bar{display:block;border-bottom:1px solid var(--line)}
+.db-bar span{display:flex;justify-content:space-between;gap:12px}
+.db-bar i{display:block;height:8px;margin:3px 0 2px;border-radius:4px;background:var(--c);min-width:1px}
 .db-filtro{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin:24px 0 0;font-size:14px}
-.db-filtro[hidden]{display:none}
-.db-filtro select{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 8px;margin-left:6px;max-width:100%}
-.db-filtro output{color:var(--muted)}
+.db-filtro[hidden],.db-rt-filtro[hidden],.db-rt li[hidden]{display:none}
+.db-rt-filtro{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin:16px 0 0;font-size:14px}
+.db-rt-filtro select,.db-filtro select{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 8px;margin-left:6px;max-width:100%}
+.db-filtro output,.db-rt-filtro output{color:var(--muted)}
+.db-rt{list-style:none;margin:12px 0 0;padding:0;max-height:70vh;overflow-y:auto;border:1px solid var(--line);border-radius:10px}
+.db-rt li{border-left:4px solid var(--c);border-bottom:1px solid var(--line);padding:8px 12px;overflow-wrap:anywhere}
+.db-rt li:last-child{border-bottom:0}
+.db-rt-t{display:flex;flex-wrap:wrap;gap:4px 12px;font:600 13px var(--font-mono)}
+.db-rt-t .db-tempo{color:var(--muted);font-weight:400}.db-rt-t .db-tempo a{color:inherit}
+.db-rt q{display:block;margin:4px 0 0;font-size:15px;color:var(--ink2)}
 .db-lista{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .db-af{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:10px;padding:12px 14px;overflow-wrap:anywhere}
 .db-af[hidden],.db-tema[hidden]{display:none}
