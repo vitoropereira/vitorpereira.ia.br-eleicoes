@@ -1,26 +1,32 @@
-// Checagem do debate: filtro por quem falou, tema e veredito. Sem JS a lista fica inteira e o filtro, escondido.
+// Checagem do debate: filtro das afirmações (quem falou, tema e veredito) e das frases da retórica (quem e etiqueta).
+// Sem JS as listas ficam inteiras e os filtros, escondidos.
 (function () {
-  var form = document.querySelector(".db-filtro");
-  if (!form) return;
-  var cartoes = document.querySelectorAll(".db-af");
-  var saida = form.querySelector("output");
-  var campos = ["candidato", "tema", "veredito"];
-  form.hidden = false;
-  function aplicar() {
-    var n = 0;
-    cartoes.forEach(function (a) {
-      var ok = campos.every(function (c) {
-        var v = form.elements[c].value;
-        return !v || a.dataset[c] === v;
+  function filtro(form, itens, campos, nome, depois) {
+    if (!form) return;
+    var saida = form.querySelector("output");
+    form.hidden = false;
+    function aplicar() {
+      var n = 0;
+      itens.forEach(function (a) {
+        var ok = campos.every(function (c) {
+          var v = form.elements[c].value;
+          return !v || a.dataset[c] === v;
+        });
+        a.hidden = !ok;
+        if (ok) n++;
       });
-      a.hidden = !ok;
-      if (ok) n++;
-    });
-    document.querySelectorAll(".db-tema").forEach(function (s) {
-      s.hidden = !s.querySelector(".db-af:not([hidden])");
-    });
-    saida.textContent = n + " de " + cartoes.length + " afirmações";
+      if (depois) depois();
+      saida.textContent = n + " de " + itens.length + " " + nome;
+    }
+    form.addEventListener("change", aplicar);
+    form.addEventListener("submit", function (e) { e.preventDefault(); });
   }
-  form.addEventListener("change", aplicar);
-  form.addEventListener("submit", function (e) { e.preventDefault(); });
+  filtro(document.querySelector(".db-filtro"), document.querySelectorAll(".db-af"), ["candidato", "tema", "veredito"],
+    "afirmações", function () {
+      document.querySelectorAll(".db-tema").forEach(function (s) {
+        s.hidden = !s.querySelector(".db-af:not([hidden])");
+      });
+    });
+  filtro(document.querySelector(".db-rt-filtro"), document.querySelectorAll(".db-rt li"), ["candidato", "etiqueta"],
+    "frases");
 })();
