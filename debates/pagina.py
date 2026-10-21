@@ -327,14 +327,14 @@ def gerar(m, base, autor):
     def tempo_html(ts):
         na_transcricao = f'<a href="{tpath}#{ancora(ts)}">'
         if deb.get("video"):
-            return (f'<span class="db-tempo"><a href="{attr(no_video(deb["video"], ts))}" rel="noopener">'
+            return (f'<span class="db-tempo"><a href="{attr(no_video(deb["video"], ts))}" target="_blank" rel="noopener">'
                     f'▶ {esc(ts)} no vídeo</a> · {na_transcricao}transcrição</a></span>')
         return f'<span class="db-tempo">{na_transcricao}aos {esc(ts)} na transcrição</a></span>'
 
     def cartao(c, link=True):
         a = itens[c["id"]]
         cd = cands[a["quem"]]
-        fontes = "; ".join(f'<a href="{attr(f["url"])}" rel="noopener">{esc(f["titulo"])}</a> ({esc(f["orgao"])})'
+        fontes = "; ".join(f'<a href="{attr(f["url"])}" target="_blank" rel="noopener">{esc(f["titulo"])}</a> ({esc(f["orgao"])})'
                            for f in c["fontes"])
         outro = f'<p class="db-outro"><b>Outro lado:</b> {esc(c["outro_lado"])}</p>' if c.get("outro_lado") else ""
         pagina = f'<a class="db-link" href="{af_path(a["id"])}">Página desta checagem</a>' if link else ""

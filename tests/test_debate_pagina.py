@@ -181,6 +181,12 @@ class PaginaDebate(unittest.TestCase):
             if a["id"] in [c["id"] for c in m["checagens"]]:
                 self.assertIn(html.escape(dp.no_video(m["debate"]["video"], a["timestamp"])), h, a["id"])
                 self.assertIn(f'transcricao/#{dp.ancora(a["timestamp"])}"', h, a["id"])
+        # vídeo e fontes saem do site: abrem em aba nova; a transcrição é do site e abre na mesma
+        externos = re.findall(r'<a href="https://[^"]*"[^>]*>', h)
+        self.assertTrue(externos)
+        for tag in externos:
+            self.assertIn('target="_blank" rel="noopener"', tag)
+        self.assertNotRegex(h, r'<a href="[^"]*transcricao/#[^"]*" target=')
 
 
 class PaginaAfirmacao(unittest.TestCase):
