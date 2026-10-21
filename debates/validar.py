@@ -38,6 +38,11 @@ CHECAGEM = ("id", "veredito", "explicacao", "atualizado_em")
 FONTE = ("url", "titulo", "orgao", "data_publicacao", "acessado_em")
 FRASES = (2, 4)
 
+# retorica.json: uma etiqueta por frase de candidato; a ordem é a de desempate (README, seção 8)
+ETIQUETAS = ("ataque-pessoa", "dado", "proposta", "critica-sem-prova", "emocao", "fala-de-si")
+CAMPOS_RETORICA = ("id", "timestamp", "quem", "frase", "etiqueta")
+RE_ID_RETORICA = re.compile(r"^r-\d{4}$")
+
 RE_SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 RE_DATA = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 RE_ANO_MES = re.compile(r"^\d{4}(-\d{2})?$")
@@ -288,6 +293,51 @@ def validar_checagens(checagens, itens, hoje=None):
     return erros
 
 
+def validar_retorica(itens, transcricao, debate):
+    """Erros do retorica.json: frase literal da transcrição a partir do timestamp, de um candidato (sem a mediação),
+    com uma das ETIQUETAS e nenhuma chave a mais."""
+    if not isinstance(itens, list):
+        return ["o topo de retorica.json tem que ser uma lista"]
+    quem = _quem(debate) - {MEDIACAO}
+    marcas = marcacoes(transcricao)
+    pos = {}
+    for i, (ts, _, _) in enumerate(marcas):
+        pos.setdefault(ts, i)
+    erros, vistos = [], set()
+    for n, it in enumerate(itens):
+        if not isinstance(it, dict):
+            erros.append(f"frase {n}: não é objeto")
+            continue
+        nome = f"frase {n} ({it.get('id')!r})"
+        for c in CAMPOS_RETORICA:
+            if not isinstance(it.get(c), str):
+                erros.append(f"{nome}: falta o campo {c!r} (string)")
+        for c in sorted(set(it) - set(CAMPOS_RETORICA)):
+            erros.append(f"{nome}: chave {c!r} não entra em retorica.json")
+        for c, ok in (("quem", quem), ("etiqueta", ETIQUETAS)):
+            if isinstance(it.get(c), str) and it[c] not in ok:
+                erros.append(f"{nome}: {c} {it[c]!r} fora de {sorted(ok)}")
+        i = it.get("id")
+        if isinstance(i, str):
+            if not RE_ID_RETORICA.match(i):
+                erros.append(f"{nome}: id fora do padrão r-NNNN")
+            if i in vistos:
+                erros.append(f"{nome}: id duplicado")
+            vistos.add(i)
+        ts, frase = it.get("timestamp"), it.get("frase")
+        if not isinstance(ts, str) or not isinstance(frase, str):
+            continue
+        if not RE_TS.match(ts) or ts not in pos:
+            erros.append(f"{nome}: timestamp {ts!r} não é marcação da transcrição")
+            continue
+        k = pos[ts]
+        if not _norm(frase):
+            erros.append(f"{nome}: frase vazia")
+        elif _norm(frase) not in _norm(" ".join(t for _, _, t in marcas[k:k + JANELA])):
+            erros.append(f"{nome}: frase não está na transcrição a partir de {ts}")
+    return erros
+
+
 def main(argv=None):
     argv = sys.argv[1:] if argv is None else argv
     if len(argv) != 1:
@@ -301,12 +351,17 @@ def main(argv=None):
         checagens = None
         if (pasta / "checagens.json").exists():
             checagens = json.loads((pasta / "checagens.json").read_text(encoding="utf-8"))
+        retorica = None
+        if (pasta / "retorica.json").exists():
+            retorica = json.loads((pasta / "retorica.json").read_text(encoding="utf-8"))
     except (OSError, ValueError) as e:
         print(f"{pasta}: {e}", file=sys.stderr)
         return 1
     erros = validar_debate(debate) + validar_pasta(pasta, debate) + validar(itens, transcricao, debate)
     if checagens is not None:
         erros += validar_checagens(checagens, itens)
+    if retorica is not None:
+        erros += validar_retorica(retorica, transcricao, debate)
     for e in erros:
         print(e, file=sys.stderr)
     if erros:
@@ -323,6 +378,10 @@ def main(argv=None):
         quem = {i["id"]: i["quem"] for i in itens}
         print("quem×veredito: " + ", ".join(f"{x}/{y}={v}" for (x, y), v in
                                              sorted(Counter((quem[c["id"]], c["veredito"]) for c in checagens).items())))
+    if retorica is not None:
+        print(f"{len(retorica)} frases de retórica")
+        print("quem×etiqueta: " + ", ".join(f"{x}/{y}={v}" for (x, y), v in
+                                             sorted(Counter((r["quem"], r["etiqueta"]) for r in retorica).items())))
     return 0
 
 

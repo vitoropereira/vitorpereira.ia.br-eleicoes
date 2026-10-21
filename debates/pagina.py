@@ -25,6 +25,8 @@ ORDEM_VEREDITOS = list(dict.fromkeys(v for vs in V.VEREDITOS.values() for v in v
 TEMAS = {"seguranca": "Segurança", "economia": "Economia", "social": "Social", "saude": "Saúde",
          "internacional": "Internacional", "corrupcao-acusacoes": "Corrupção e acusações", "outros": "Outros"}
 ESCALAS = {"dado": "dados e fatos", "promessa": "promessas", "acusacao": "acusações"}
+ETIQUETAS = {"proposta": "Proposta", "dado": "Dado", "fala-de-si": "Fala de si", "emocao": "Emoção",
+             "critica-sem-prova": "Crítica sem prova", "ataque-pessoa": "Ataque à pessoa"}
 MEDIACAO = {"id": V.MEDIACAO, "nome_urna": "Mediação", "partido": "", "cor": "outros"}
 
 
@@ -74,11 +76,18 @@ def carregar(pasta):
         certas = {i["id"]: i for i in itens if i["autoria"] == "certa"}
         chs = [c for c in chs if not isinstance(c, dict) or c.get("id") in certas] if isinstance(chs, list) else chs
         erros = V.validar_checagens(chs, itens)
+    retorica = None
+    if not erros and (pasta / "retorica.json").exists():
+        try:
+            retorica = _json(pasta / "retorica.json")
+        except (OSError, ValueError) as e:
+            raise ValueError(f"{pasta}: {e}") from e
+        erros = V.validar_retorica(retorica, transcricao, debate)
     if erros:
         raise ValueError(f"{pasta}: " + "; ".join(erros))
     cands = {c["id"]: {**c, "cor": c.get("cor", "outros")} for c in debate["candidatos"]}
     cands[V.MEDIACAO] = MEDIACAO
-    return dict(debate=debate, cands=cands, itens=certas, checagens=chs, transcricao=transcricao,
+    return dict(debate=debate, cands=cands, itens=certas, checagens=chs, transcricao=transcricao, retorica=retorica,
                 path=f"/debates/{debate['ano']}/{debate['slug']}/")
 
 
@@ -101,6 +110,26 @@ def placar(m):
 
 def pct(n, total):
     return round(100 * n / total) if total else 0
+
+
+def placar_retorica(m):
+    """{quem: {etiqueta: n}} sobre o retorica.json (as 6 etiquetas, zero incluído; candidato sem frase fica de fora)."""
+    conta = {q: dict.fromkeys(V.ETIQUETAS, 0) for q in m["cands"] if any(r["quem"] == q for r in m["retorica"] or [])}
+    for r in m["retorica"] or []:
+        conta[r["quem"]][r["etiqueta"]] += 1
+    return conta
+
+
+def pct_100(conta):
+    """{chave: %} inteiros que somam exatamente 100 (maior resto; empate vai para a chave que vem antes)."""
+    total = sum(conta.values())
+    if not total:
+        return dict.fromkeys(conta, 0)
+    base = {k: 100 * n // total for k, n in conta.items()}
+    resto = sorted(conta, key=lambda k: -(100 * conta[k] % total))
+    for k in resto[:100 - sum(base.values())]:
+        base[k] += 1
+    return base
 
 
 def placar_por_candidato(modelos):
@@ -136,6 +165,9 @@ CSS_PLACAR = """.db-placar{display:grid;grid-template-columns:repeat(auto-fit,mi
 .db-pc ul{list-style:none;margin:0;padding:0}
 .db-pc li{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding:4px 0;font-size:14px;font-variant-numeric:tabular-nums}
 .db-pc li:last-child{border-bottom:0;font-weight:600}
+.db-pc .db-bar{display:block;border-bottom:1px solid var(--line)}
+.db-bar span{display:flex;justify-content:space-between;gap:12px}
+.db-bar i{display:block;height:8px;margin:3px 0 2px;border-radius:4px;background:var(--c);min-width:1px}
 """
 
 CSS = """<style>
@@ -149,9 +181,16 @@ main.db{max-width:880px;margin:0 auto;padding:24px 18px 56px}
 .db-lead{color:var(--ink2);margin:0}
 .db-nota{font-size:13px;color:var(--ink2);margin:6px 0 10px}
 """ + CSS_PLACAR + """.db-filtro{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin:24px 0 0;font-size:14px}
-.db-filtro[hidden]{display:none}
-.db-filtro select{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 8px;margin-left:6px;max-width:100%}
-.db-filtro output{color:var(--muted)}
+.db-filtro[hidden],.db-rt-filtro[hidden],.db-rt li[hidden]{display:none}
+.db-rt-filtro{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin:16px 0 0;font-size:14px}
+.db-rt-filtro select,.db-filtro select{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:6px 8px;margin-left:6px;max-width:100%}
+.db-filtro output,.db-rt-filtro output{color:var(--muted)}
+.db-rt{list-style:none;margin:12px 0 0;padding:0;max-height:70vh;overflow-y:auto;border:1px solid var(--line);border-radius:10px}
+.db-rt li{border-left:4px solid var(--c);border-bottom:1px solid var(--line);padding:8px 12px;overflow-wrap:anywhere}
+.db-rt li:last-child{border-bottom:0}
+.db-rt-t{display:flex;flex-wrap:wrap;gap:4px 12px;font:600 13px var(--font-mono)}
+.db-rt-t .db-tempo{color:var(--muted);font-weight:400}.db-rt-t .db-tempo a{color:inherit}
+.db-rt q{display:block;margin:4px 0 0;font-size:15px;color:var(--ink2)}
 .db-lista{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .db-af{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:10px;padding:12px 14px;overflow-wrap:anywhere}
 .db-af[hidden],.db-tema[hidden]{display:none}
@@ -212,6 +251,29 @@ def _placar_html(linhas, id_titulo, titulo, nota, links=None):
             f'<p class="db-nota">{esc(nota)}</p><div class="db-placar">{blocos}</div></section>')
 
 
+def _barras_retorica(linhas):
+    """linhas: [(nome, cor, {etiqueta: n})] → um bloco vertical por candidato, uma barra por etiqueta (cabe em 360 px)."""
+    def bloco(nome, cor, conta):
+        p = pct_100(conta)
+        barras = "".join(f'<li class="db-bar"><span><span>{esc(ETIQUETAS[e])}</span><span>{n} ({p[e]}%)</span></span>'
+                         f'<i style="width:{p[e]}%" aria-hidden="true"></i></li>' for e, n in conta.items())
+        return (f'<div class="db-pc" style="--c:var(--{cor})"><h3>{esc(nome)}</h3><ul>{barras}'
+                f"<li><span>Total</span><span>{sum(conta.values())} frases</span></li></ul></div>")
+    return '<div class="db-placar">' + "".join(bloco(*x) for x in linhas) + "</div>"
+
+
+def como_etiquetamos():
+    ordem = ", ".join(ETIQUETAS[e].lower() for e in V.ETIQUETAS)
+    return ('<p class="db-nota">Cada frase dita por um candidato recebeu uma etiqueta: proposta (o que pretende fazer), '
+            'dado (número ou fato verificável), fala de si (a própria trajetória ou governo), emoção (apelo a '
+            'sentimento, sem argumento), crítica sem prova (aponta falha do outro lado sem número nem fato) e ataque à '
+            'pessoa (mira quem é o adversário, não o que ele propõe). Cada etiqueta é uma leitura da frase, não um fato. '
+            'Foi feita por IA lendo só a frase, sem saber quem falou. Dado errado conta como dado: se ele confere é a '
+            'checagem das afirmações que diz. Quando a frase cabe em mais de uma, vale a primeira desta ordem: '
+            f'{esc(ordem)}. Ficam de fora a mediação, cumprimentos, agradecimentos, perguntas de regra e os trechos em '
+            'que não dá para ter certeza de quem fala.</p>')
+
+
 def como_checamos():
     escalas = "; ".join(f"{nome}: " + ", ".join(ROTULOS[v][0].lower() + ROTULOS[v][1:] for v in V.VEREDITOS[t]) for t, nome in ESCALAS.items())
     return ('<section aria-labelledby="metodo"><h2 id="metodo">Como checamos</h2>'
@@ -260,6 +322,13 @@ def gerar(m, base, autor):
                                                 "url": f"{base}{tpath}#{ancora(a['timestamp'])}"}},
                 "reviewRating": {"@type": "Rating", "alternateName": ROTULOS[c["veredito"]]}}
 
+    def tempo_html(ts):
+        na_transcricao = f'<a href="{tpath}#{ancora(ts)}">'
+        if deb.get("video"):
+            return (f'<span class="db-tempo"><a href="{attr(no_video(deb["video"], ts))}" rel="noopener">'
+                    f'▶ {esc(ts)} no vídeo</a> · {na_transcricao}transcrição</a></span>')
+        return f'<span class="db-tempo">{na_transcricao}aos {esc(ts)} na transcrição</a></span>'
+
     def cartao(c, link=True):
         a = itens[c["id"]]
         cd = cands[a["quem"]]
@@ -267,12 +336,7 @@ def gerar(m, base, autor):
                            for f in c["fontes"])
         outro = f'<p class="db-outro"><b>Outro lado:</b> {esc(c["outro_lado"])}</p>' if c.get("outro_lado") else ""
         pagina = f'<a class="db-link" href="{af_path(a["id"])}">Página desta checagem</a>' if link else ""
-        na_transcricao = f'<a href="{tpath}#{ancora(a["timestamp"])}">'
-        if deb.get("video"):
-            tempo = (f'<span class="db-tempo"><a href="{attr(no_video(deb["video"], a["timestamp"]))}" rel="noopener">'
-                     f'▶ {esc(a["timestamp"])} no vídeo</a> · {na_transcricao}transcrição</a></span>')
-        else:
-            tempo = f'<span class="db-tempo">{na_transcricao}aos {esc(a["timestamp"])} na transcrição</a></span>'
+        tempo = tempo_html(a["timestamp"])
         return (f'<article class="db-af" id="{a["id"]}" data-candidato="{attr(a["quem"])}" data-tema="{attr(a["tema"])}" '
                 f'data-veredito="{attr(c["veredito"])}" style="--c:var(--{cd["cor"]})"><div class="db-af-t">'
                 f'<span>{esc(_nome(cd))}</span>{tempo}</div>'
@@ -299,13 +363,31 @@ def gerar(m, base, autor):
         f'<section class="db-tema" id="tema-{t}"><h2>{esc(TEMAS[t])}</h2><div class="db-lista">'
         + "".join(cartao(c) for c in chs if itens[c["id"]]["tema"] == t) + "</div></section>" for t in temas_usados)
 
+    rt, conta_rt, retorica_html = m.get("retorica"), placar_retorica(m), ""
+    if rt:
+        linhas_rt = [(_nome(cands[q]), cands[q]["cor"], conta_rt[q]) for q in conta_rt]
+        filtro_rt = ('<form class="db-rt-filtro" aria-label="Filtrar frases" hidden>'
+                     + opcoes("candidato", "Quem", [(q, cands[q]["nome_urna"]) for q in conta_rt])
+                     + opcoes("etiqueta", "Etiqueta", [(e, ETIQUETAS[e]) for e in V.ETIQUETAS])
+                     + f'<output aria-live="polite">{len(rt)} de {len(rt)} frases</output></form>')
+        lista_rt = "".join(
+            f'<li id="{r["id"]}" data-candidato="{attr(r["quem"])}" data-etiqueta="{attr(r["etiqueta"])}" '
+            f'style="--c:var(--{cands[r["quem"]]["cor"]})"><div class="db-rt-t"><span>{esc(_nome(cands[r["quem"]]))}</span>'
+            f'<span>{esc(ETIQUETAS[r["etiqueta"]])}</span>{tempo_html(r["timestamp"])}</div><q>{esc(r["frase"])}</q></li>'
+            for r in rt)
+        retorica_html = ('<section aria-labelledby="retorica"><h2 id="retorica">Como cada um argumentou</h2>'
+                         f'<p class="db-nota">{len(rt)} frases dos candidatos, cada uma com uma etiqueta. A barra é a '
+                         'parte de cada etiqueta nas frases do candidato.</p>'
+                         f'{_barras_retorica(linhas_rt)}{como_etiquetamos()}{filtro_rt}'
+                         f'<ul class="db-rt" aria-label="Frases etiquetadas">{lista_rt}</ul></section>')
+
     corpo = (_trilha(trilha[:2] + [(rotulo, None)])
              + f'<p class="db-kicker">Checagem · {esc(deb["cargo"])} · {turno}º turno · {dia}</p>'
              f'<h1>Debate {esc(emissora)} do {turno}º turno: o que é verdade</h1>'
              f'<p class="db-lead">Debate para {esc(deb["cargo"])} entre {esc(" e ".join(_nome(c) for c in candidatos))}, '
              f'na {esc(emissora)}, em {dia}. Checamos {n} afirmações: cada uma tem a frase, o trecho da transcrição, '
              f'o veredito, a explicação e as fontes.</p>'
-             f'{placar_html}{filtro}{temas}'
+             f'{placar_html}{retorica_html}{filtro}{temas}'
              f'<section class="db-cta" aria-labelledby="depois"><h2 id="depois">A eleição</h2>'
              f'<p><a href="/ao-vivo/">Apuração ao vivo, por município →</a></p>'
              f'<p><a href="/">Resultado do 1º turno →</a></p>'
@@ -347,7 +429,7 @@ def gerar(m, base, autor):
                                            por_cand, f"{n} afirmações checadas"),
                 llms=(f"- [Checagem do debate {emissora} ({deb['cargo']}, {turno}º turno, {dia})]({url}): {n} afirmações "
                       f"de {nomes}, com veredito, explicação e fontes\n"),
-                afirmacoes=afs, transcricao=transcricao, placar=conta, cands=cands, rotulo=rotulo, n=n,
+                afirmacoes=afs, transcricao=transcricao, placar=conta, retorica=conta_rt, cands=cands, rotulo=rotulo, n=n,
                 data=deb["data"])
 
 
@@ -386,6 +468,21 @@ def indice(gerados, base, autor, links=None):
                 soma[q][v] += k
     vereditos = [v for v in ORDEM_VEREDITOS if any(v in c for c in soma.values())]
     linhas = [(_nome(quem[q]), quem[q]["cor"], {v: soma[q].get(v, 0) for v in vereditos}) for q in soma]
+    soma_rt, quem_rt = {}, {}
+    for g in reversed(gerados):  # só os debates com retorica.json; o placar deles já traz as 6 etiquetas
+        for q, conta in g.get("retorica", {}).items():
+            quem_rt[q] = g["cands"][q]
+            for e, k in conta.items():
+                soma_rt.setdefault(q, dict.fromkeys(V.ETIQUETAS, 0))[e] += k
+    retorica_html = ""
+    quem_rt.update({q: c for q, c in quem.items() if q in quem_rt})  # o nome do placar de vereditos, se houver
+    if soma_rt:
+        com = sum(1 for g in gerados if g.get("retorica"))
+        retorica_html = ('<section aria-labelledby="retorica"><h2 id="retorica">Como cada um argumentou, somado</h2>'
+                         f'<p class="db-nota">Soma das frases etiquetadas de cada candidato em {com} '
+                         f'{"debate" if com == 1 else "debates"}, sem a mediação.</p>'
+                         + _barras_retorica([(_nome(quem_rt[q]), quem_rt[q]["cor"], c) for q, c in soma_rt.items()])
+                         + como_etiquetamos() + "</section>")
     total = sum(g["n"] for g in gerados)
     titulo = "Checagem dos debates das eleições: o que é verdade"
     desc = f"Todas as checagens de debates: {len(gerados)} debates, {total} afirmações com veredito, explicação e fontes."
@@ -399,11 +496,11 @@ def indice(gerados, base, autor, links=None):
              + _placar_html(linhas, "placar", "Vereditos somados por candidato",
                             "Soma das afirmações checadas de cada candidato em todos os debates acima, sem a mediação.",
                             {_nome(quem[q]): (links or {}).get(str(quem[q].get("id_tse"))) for q in soma})
-             + como_checamos())
+             + retorica_html + como_checamos())
     modificado = max(g["modificado"] for g in gerados)
     ld = [{"@context": "https://schema.org", "@type": "CollectionPage", "name": titulo, "description": desc,
            "url": base + "/debates/", "inLanguage": "pt-BR", "author": autor, "dateModified": modificado},
           _breadcrumb(base, [("Início", "/"), ("Debates", "/debates/")])]
     return dict(path="/debates/", titulo=titulo, desc=desc, html=_doc(titulo, corpo), ld=ld,
-                publicado=min(g["publicado"] for g in gerados), modificado=modificado, placar=soma,
+                publicado=min(g["publicado"] for g in gerados), modificado=modificado, placar=soma, retorica=soma_rt,
                 llms=f"- [Checagem dos debates]({base}/debates/): {total} afirmações checadas em {len(gerados)} debates\n")

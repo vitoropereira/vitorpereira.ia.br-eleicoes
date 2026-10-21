@@ -171,3 +171,53 @@ para conferir que o critério foi o mesmo para cada lado.
 
 Só entra afirmação `certa`. O JSON-LD traz um `ClaimReview` por checagem; `dateModified` é o maior `atualizado_em`.
 Erro em qualquer arquivo para o build com o id e o campo: nada é publicado pela metade.
+
+### 8. Retórica (`retorica.json`)
+
+Opcional. Mostra como cada candidato argumentou: cada frase que ele disse recebe uma etiqueta. Com o arquivo, a página
+do debate ganha a seção "Como cada um argumentou" (barras por candidato e a lista frase a frase, com filtro por quem e
+por etiqueta), e o índice soma por candidato os debates que têm o arquivo. Sem ele, nada muda.
+
+```json
+[{"id": "r-0001", "timestamp": "0:10", "quem": "ana-silva-pa",
+  "frase": "A taxa de roubos caiu pela metade em dez anos.", "etiqueta": "dado"}]
+```
+
+- **Frase**: uma sentença, até a pontuação final (`.`, `!`, `?`, `…`). Legenda sem pontuação é cortada antes de passar
+  de 4 marcações. O texto é o literal da transcrição, com os erros dela. O `timestamp` é o da marcação onde a frase
+  começa, e a frase tem que estar nas 4 marcações a partir dele (a mesma regra do `trecho` das afirmações).
+- **`quem`**: o `id` de um candidato do `debate.json`. A mediação não entra. Trecho com autoria incerta (critério da
+  seção 4) também fica de fora, sem pergunta ao Vitor.
+- **`id`**: `r-NNNN`, na ordem da transcrição. O id que sai como `fora` deixa um buraco na numeração, e não tem problema.
+- Não há outras chaves: nada de `autoria`, `nome` ou veredito.
+
+Etiquetas (`etiqueta`):
+
+| Etiqueta | Rótulo | Quando |
+|---|---|---|
+| `ataque-pessoa` | Ataque à pessoa | mira quem é o adversário (caráter, família, passado pessoal), não o que ele propõe ou fez no cargo |
+| `dado` | Dado | traz número, data ou fato verificável, certo ou errado (se confere é a checagem que diz) |
+| `proposta` | Proposta | diz o que vai fazer, com ou sem detalhe |
+| `critica-sem-prova` | Crítica sem prova | aponta falha do outro lado sem número nem fato que dê para conferir |
+| `emocao` | Emoção | apelo a sentimento (medo, fé, família, esperança) sem argumento |
+| `fala-de-si` | Fala de si | a própria trajetória, governo ou caráter, sem dado |
+
+**Desempate**: quando a frase cabe em mais de uma, vale a primeira da tabela, nesta ordem: ataque-pessoa, dado,
+proposta, critica-sem-prova, emocao, fala-de-si (`validar.ETIQUETAS`).
+**Não entram**: cumprimentos, "obrigado", pedidos de tempo, perguntas e respostas sobre regra (etiqueta `fora`, que
+`juntar` descarta).
+
+Procedimento cego com `debates/retorica.py`. Quem etiqueta não pode saber quem falou:
+
+1. Monte `falas.json` lendo a transcrição: `[{"inicio": "H:MM:SS", "fim": "H:MM:SS", "quem": id, "autoria": "certa"}]`,
+   um trecho por vez de fala, com início e fim sendo marcações (o fim conta). Use as afirmações já atribuídas como
+   âncora e marque `incerta` onde a fala cruza.
+2. `python3 debates/retorica.py cego <pasta> falas.json > cego.json` gera `[{id, frase}]`, sem `quem`, nome ou partido.
+3. O etiquetador (IA) recebe **só** `cego.json` e esta seção, nunca `falas.json` nem `debate.json`, e devolve
+   `etiquetas.json` = `{id: etiqueta ou "fora"}` com todos os ids.
+4. `python3 debates/retorica.py juntar <pasta> falas.json etiquetas.json` grava `<pasta>/retorica.json`. Ele recusa id
+   desconhecido, id faltando e etiqueta fora da lista.
+5. `python3 debates/validar.py <pasta>` valida o arquivo e imprime `quem×etiqueta`.
+
+`falas.json`, `cego.json` e `etiquetas.json` são intermediários e não são versionados.
+Os percentuais de cada candidato somam exatamente 100 (método do maior resto). O placar não é nota nem "quem ganhou".
