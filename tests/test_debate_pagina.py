@@ -174,6 +174,39 @@ class PaginaDebate(unittest.TestCase):
             ids = re.findall(r' id="(t-[^"]+)"', t["html"])
             self.assertEqual(len(ids), len(set(ids)), "âncora repetida")
 
+    def test_transcricao_sem_anotacoes_internas(self):
+        proibidos = ("Campo", "[NÃO VERIFICADO]", "[INFERIDO", "colada pelo", "Fidelidade")
+        for pasta in (TESTE, FICT) + ((REAL,) if (REAL / "checagens.json").exists() else ()):
+            m = dp.carregar(pasta)
+            h = dp.gerar(m, B.BASE, B.PESSOA)["transcricao"]["html"]
+            for s in proibidos:
+                self.assertNotIn(s, h, f"{pasta.name}: {s}")
+        md = ("# Debate\n\n| Campo | Valor |\n|---|---|\n| Fidelidade | [INFERIDO] colada pelo Vitor |\n\n"
+              "> [NÃO VERIFICADO] mediador\n\n## Índice\n\n- [Abertura](#abertura)\n\n---\n\n"
+              "## Abertura\n\n**0:08** — fala\n")
+        h = dp._transcricao_html(md)
+        for s in proibidos + ("Índice",):
+            self.assertNotIn(s, h)
+        self.assertEqual(re.findall(r"<h2>(.*?)</h2>", h), ["Abertura"])
+        self.assertIn('<p id="t-0-00-08"><b>0:08</b> fala</p>', h)
+
+    def test_transcricao_linha_publica(self):
+        m = dp.carregar(TESTE)
+        t = dp.gerar(m, B.BASE, B.PESSOA)["transcricao"]["html"]
+        linha = re.search(r'<p class="db-tr-fonte">(.*?)</p>', t).group(1)
+        self.assertIn(html.escape(m["debate"]["emissora"]), linha)
+        self.assertIn(dp.data_br(m["debate"]["data"]), linha)
+        self.assertRegex(linha, r"duração ~\d+h\d{2}")
+        self.assertIn("transcrição sem edição", linha)  # fonte colada
+        self.assertNotIn("youtube.com", t)
+        m["debate"]["video"] = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        linha = re.search(r'<p class="db-tr-fonte">(.*?)</p>',
+                          dp.gerar(m, B.BASE, B.PESSOA)["transcricao"]["html"]).group(1)
+        self.assertIn('<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"', linha)
+        m["debate"]["fonte_transcricao"] = "youtube-auto"
+        self.assertIn("transcrição automática, sem edição",
+                      dp.gerar(m, B.BASE, B.PESSOA)["transcricao"]["html"])
+
     def test_retorica_percentual_na_frente(self):
         """quem fala mais frases tem contagem maior em tudo: o destaque é o percentual, e a nota dá o total de cada um"""
         m = dp.carregar(TESTE)
