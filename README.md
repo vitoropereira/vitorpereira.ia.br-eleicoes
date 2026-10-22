@@ -69,6 +69,8 @@ A partir das 18:32, a projeção é a mediana da simulação; nas duas primeiras
 
 Ideias, correções e novas análises são bem-vindas: veja o [CONTRIBUTING.md](CONTRIBUTING.md).
 
+Todo PR roda o check `ci / gate` (ruff + pytest, Python 3.12). Marcá-lo como obrigatório em Settings → Branches → main é um passo manual do mantenedor.
+
 ## Licença
 
 Código sob [MIT](LICENSE). Dados consolidados e análises sob [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.pt_BR): use à vontade, citando a fonte. Os dados brutos são públicos e pertencem ao TSE.
