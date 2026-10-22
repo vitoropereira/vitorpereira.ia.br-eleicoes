@@ -457,7 +457,7 @@ def gerar(m, base, autor):
 
     tt = f"Transcrição do debate {emissora} ({turno}º turno, {dia})"
     trilha_t = trilha + [("Transcrição", tpath)]
-    transcricao = dict(path=tpath, titulo=tt, desc=f"Transcrição automática integral do debate {nomes} na {emissora}.",
+    transcricao = dict(path=tpath, titulo=tt, desc=f"Transcrição integral, sem edição, do debate {nomes} na {emissora}.",
                        html=_doc(tt, _trilha(trilha + [("Transcrição", None)]) + f"<h1>{esc(tt)}</h1>"
                                  + _transcricao_fonte(deb, dia, m["transcricao"]) + _transcricao_html(m["transcricao"])),
                        ld=[_breadcrumb(base, trilha_t)], publicado=publicado, modificado=publicado)

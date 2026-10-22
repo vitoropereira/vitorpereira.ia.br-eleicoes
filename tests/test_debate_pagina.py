@@ -175,7 +175,7 @@ class PaginaDebate(unittest.TestCase):
             self.assertEqual(len(ids), len(set(ids)), "âncora repetida")
 
     def test_transcricao_sem_anotacoes_internas(self):
-        proibidos = ("Campo", "[NÃO VERIFICADO]", "[INFERIDO", "colada pelo", "Fidelidade")
+        proibidos = ("Campo | Valor", "[NÃO VERIFICADO]", "[INFERIDO", "colada pelo", "Fidelidade")
         for pasta in (TESTE, FICT) + ((REAL,) if (REAL / "checagens.json").exists() else ()):
             m = dp.carregar(pasta)
             h = dp.gerar(m, B.BASE, B.PESSOA)["transcricao"]["html"]
