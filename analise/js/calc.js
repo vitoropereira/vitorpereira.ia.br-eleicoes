@@ -333,8 +333,8 @@ export function secTerraGente(D, uf) {
   const area = deRecorte(uf);
   const so = !v[o].mun && !v.E?.mun;
   const frases = [
-    so ? `${CAND[k]} teve mais votos que ${CAND[o]} em todos os ${int(v[k].mun)} municípios.` : `${CAND.F} venceu em ${int(v.F.mun)} ${v.F.mun === 1 ? "município" : "municípios"} e ${CAND.L} em ${int(v.L.mun)}${v.E?.mun ? `; ${int(v.E.mun)} ${v.E.mun === 1 ? "empatou" : "empataram"}` : ""}.`,
-    `Os municípios em que ${CAND[k]} venceu somam ${pct(v[k].area_pct)} da área ${area} e ${pct(v[k].validos_pct)} dos votos válidos; os de ${CAND[o]}, ${pct(v[o].area_pct)} da área e ${pct(v[o].validos_pct)} dos válidos.`,
+    so ? `${CAND[k]} teve mais votos que ${CAND[o]} ${v[k].mun === 1 ? "no único município" : `em todos os ${int(v[k].mun)} municípios`}.` : `${CAND.F} venceu em ${int(v.F.mun)} ${v.F.mun === 1 ? "município" : "municípios"} e ${CAND.L} em ${int(v.L.mun)}${v.E?.mun ? `; ${int(v.E.mun)} ${v.E.mun === 1 ? "empatou" : "empataram"}` : ""}.`,
+    `Os municípios em que ${CAND[k]} venceu somam ${pct(v[k].area_pct)} da área ${area} e ${pct(v[k].validos_pct)} dos votos válidos${so ? "" : `; os de ${CAND[o]}, ${pct(v[o].area_pct)} da área e ${pct(v[o].validos_pct)} dos válidos`}.`,
     `Contando votos, ${CAND.L} teve ${pct(cand.L)} dos válidos ${noRecorte(uf)} e ${CAND.F}, ${pct(cand.F)}.`,
   ];
   const cap = t.capital_sp, norte = t.grupos.Norte;

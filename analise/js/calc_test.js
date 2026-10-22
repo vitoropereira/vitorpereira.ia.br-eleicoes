@@ -205,6 +205,9 @@ Deno.test("terra × gente: frases com os números do JSON, sem palavra vetada", 
   assert(pb.frases.join(" ").includes("Paraíba tem 0,7% da área do país"), pb.frases.join(" "));
   assert(!pb.frases.join(" ").includes("6.552.820"), "capital só no Brasil e em SP");
   assertEquals(pb.semGeo.length, 0);
+  assert(!pb.frases[1].includes("os de Flávio"), pb.frases[1]);
+  D["terra-gente"].grupos.DF = grupo({ venc: { L: { mun: 1, area: 5760, validos: 1e6, area_pct: 1, validos_pct: 1 }, F: vz, E: vz } });
+  assertEquals(secTerraGente(D, "DF").frases[0], "Lula (PT) teve mais votos que Flávio (PL) no único município.");
   assertEquals(secTerraGente(D, "AC").ok, false);
   assert(SECOES.some(([id]) => id === "terra-gente"));
 });

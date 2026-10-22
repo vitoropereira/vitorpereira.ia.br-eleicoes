@@ -994,24 +994,27 @@ def terra_gente(b, areas=None):
             if ar is not None: s["area"] += ar; s["venc"][v]["area"] += ar
         mu[cd] = [round(ar, 1) if ar is not None else None, v, pl[2]]
         lista.append((pl[2], cd))
-    tot = G["BR"]
+    tot_area, tot_validos = G["BR"]["area"], G["BR"]["validos"]  # antes do arredondamento do laço abaixo
+
+    def fr(a, t): return p4(a / t) if t else 0.0
     for g, s in G.items():
-        s["lula_pct"], s["flavio_pct"] = p4(s["lula"] / s["validos"]), p4(s["flavio"] / s["validos"])
-        s["area_br"], s["validos_br"] = p4(s["area"] / tot["area"]), p4(s["validos"] / tot["validos"])
+        s["lula_pct"], s["flavio_pct"] = fr(s["lula"], s["validos"]), fr(s["flavio"], s["validos"])
+        s["area_br"], s["validos_br"] = fr(s["area"], tot_area), fr(s["validos"], tot_validos)
         for k, x in s["venc"].items():
-            x["area_pct"] = p4(x["area"] / s["area"]) if s["area"] else 0.0
-            x["validos_pct"] = p4(x["validos"] / s["validos"])
+            x["area_pct"] = fr(x["area"], s["area"])
+            x["validos_pct"] = fr(x["validos"], s["validos"])
             x["area"] = round(x["area"])
         s["area"] = round(s["area"])
     # capital de SP = quantas das menores cidades (por válidos, da menor para a maior) somam o mesmo: o 1º N que alcança
     cap = b.pres["mu"][CAPITAL_SP][2]
     n = soma = 0
-    for v, cd in sorted(lista):
+    lista.sort()
+    for v, cd in lista:
         if soma >= cap or cd == CAPITAL_SP: break
         n, soma = n + 1, soma + v
     capital = {"cd": CAPITAL_SP, "nome": b.mun[CAPITAL_SP][0], "uf": "SP", "validos": cap, "n_menores": n,
                "soma_menores": soma, "area": round(areas.get(CAPITAL_SP, 0)),
-               "area_menores": round(sum(areas.get(cd, 0) for _, cd in sorted(lista)[:n]))}
+               "area_menores": round(sum(areas.get(cd, 0) for _, cd in lista[:n]))}
     return {"grupos": G, "regioes": {rg: ufs.split() for rg, ufs in REGIOES.items()}, "capital_sp": capital,
             "empates": empates, "sem_geometria": sem_geo, "mu": mu,
             "criterio": ("Presidente, 1º turno. Vencedor do município = quem teve mais votos entre "

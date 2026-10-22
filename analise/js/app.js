@@ -213,10 +213,10 @@ function TerraGente({ s, D, uf }) {
     <div class="lado-a-lado">
       <div><h3 class="h3">Por área: cada município com a cor de quem teve mais votos</h3>
         <${MapaMun} corDe=${corDe} dica=${dica} chave=${"tg" + Object.keys(mu).length} uf=${uf} rotulo="Mapa dos municípios pela cor do mais votado para presidente no 1º turno." />
-        <${LegendaLados} itens=${[[corL("L"), CAND.L], [corL("F"), CAND.F], ["var(--neutral)", "empate"]]} /></div>
+        <${LegendaLados} itens=${[[corL("L"), CAND.L], [corL("F"), CAND.F], ...(v.E?.mun > 0 ? [["var(--neutral)", "empate"]] : [])]} /></div>
       <div><h3 class="h3">Por votos: a mesma divisão pesada pelos votos válidos</h3>
         <${Empilhadas} linhas=${linhas} rotW=${150} titulo="Área e votos válidos dos municípios ganhos por cada um, e votos válidos de cada candidato" />
-        <${LegendaLados} itens=${[[corL("L"), CAND.L], [corL("F"), CAND.F], [corL("C"), "demais candidatos"], ["var(--neutral)", "empate"]]} /></div>
+        <${LegendaLados} itens=${[[corL("L"), CAND.L], [corL("F"), CAND.F], [corL("C"), "demais candidatos"], ...(v.E?.mun > 0 ? [["var(--neutral)", "empate"]] : [])]} /></div>
     </div>
     ${s.semGeo.length > 0 && html`<p class="nota">Sem geometria na malha do IBGE (votos contam, área fica fora): ${s.semGeo.map((x) => `${x.nome}-${x.uf} (${x.cd})`).join(", ")}.</p>`}
     <${TabelaSR} cap=${`Área e votos válidos dos municípios ganhos ${uf === "BR" ? "no Brasil" : "· " + nomeRecorte(uf)}`} cab=${["Mais votado", "Municípios", "Área (km²)", "% da área", "Votos válidos", "% dos válidos"]}
