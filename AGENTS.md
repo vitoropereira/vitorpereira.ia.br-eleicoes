@@ -6,6 +6,10 @@ Repo **público**: nada de segredo em commit.
 ## Stack
 - Python 3 só com a biblioteca padrão; Chrome headless para pré-render e imagens OG.
 - Site estático em `site/`, publicado na Vercel (`build_site.py` gera tudo).
+- **PR não commita `site/`.** Quem regenera e publica o `site/` é o lote (`rastro-lote.yml`), que tem o sal do Rastro
+  (`RASTRO_SAL`); fora dele o build do `site/rastro/` não sai certo. No PR: mude o código e os testes; para conferir a
+  saída, gere num diretório temporário (ou rode o build e depois `git checkout -- site`). Teste que lê HTML gerado
+  monta o site em tmp, nunca depende do `site/` commitado estar atualizado.
 - Visual: `brand.css` é a única fonte de cores e fontes (brand do vitorpereira.ia.br).
 
 ## Supabase (painel ao vivo)
