@@ -33,7 +33,7 @@ class Carregar(unittest.TestCase):
         m = dp.carregar(TESTE)
         self.assertNotIn("seg-02", m["itens"])
         self.assertNotIn("seg-02", [c["id"] for c in m["checagens"]])
-        self.assertEqual(len(m["checagens"]), 4)
+        self.assertEqual(len(m["checagens"]), 3)  # 4 certas, menos a da mediação, que não se publica
 
     def test_sem_checagens_nao_publica(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -84,7 +84,9 @@ class Placar(unittest.TestCase):
 
     def test_fixture(self):
         self.checar(TESTE)
-        self.assertEqual(dp.placar(dp.carregar(TESTE))["mediacao"]["verdadeiro-com-ressalva"], 1)
+        conta = dp.placar(dp.carregar(TESTE))
+        self.assertNotIn("mediacao", conta)  # mediação fora da checagem publicada (21/10/2026)
+        self.assertEqual(set().union(*conta.values()) - set(dp.ROTULOS), set())
 
     @unittest.skipUnless((REAL / "checagens.json").exists(), "debate da Band ainda sem checagens.json")
     def test_band(self):
@@ -203,7 +205,7 @@ class PaginaAfirmacao(unittest.TestCase):
     def test_uma_por_checagem_com_og_propria(self):
         g = gerar()
         self.assertEqual([a["path"] for a in g["afirmacoes"]],
-                         [f"{g['path']}{i}/" for i in ("seg-01", "eco-01", "eco-02", "soc-01")])
+                         [f"{g['path']}{i}/" for i in ("seg-01", "eco-01", "soc-01")])  # eco-02 é da mediação: não se publica
         ogs = [a["og"][0] for a in g["afirmacoes"]]
         self.assertEqual(len(set(ogs)), len(ogs))
         self.assertEqual(ogs[0], "debate-2026-presidente-2-turno-teste-seg-01")
@@ -228,8 +230,8 @@ class Indice(unittest.TestCase):
         self.assertEqual([g["path"] for g in gs], ["/debates/2030/governador-1-turno-fict/", "/debates/2026/presidente-2-turno-teste/"])
         idx = dp.indice(gs, B.BASE, B.PESSOA)
         soma = {q: {v: n for v, n in c.items() if n} for q, c in idx["placar"].items()}
-        self.assertEqual(soma["ana-silva-pa"], {"verdadeiro": 1, "falso": 1, "viavel": 1})  # está nos dois debates
-        self.assertEqual(soma["bruno-lima-pb"], {"falso": 1})
+        self.assertEqual(soma["ana-silva-pa"], {"verdadeiro": 1, "falso-ou-exagerado": 1, "pendente-ou-condicionado": 1})  # está nos dois debates
+        self.assertEqual(soma["bruno-lima-pb"], {"falso-ou-exagerado": 1})
         self.assertEqual(soma["carla-souza-pc"], {"verdadeiro": 1})
         self.assertNotIn("mediacao", idx["placar"])
         h = idx["html"]
@@ -289,7 +291,7 @@ class Publicar(unittest.TestCase):
             self.assertEqual(prio["/debates/2026/presidente-2-turno-teste/seg-01/"], "0.5")
             self.assertEqual(prio["/debates/2026/presidente-2-turno-teste/transcricao/"], "0.3")
             self.assertEqual((Path(tmp) / "debates" / "debate.js").read_bytes(), (R / "debates" / "debate.js").read_bytes())
-            self.assertEqual(len(out["og"]), 2 + 6)
+            self.assertEqual(len(out["og"]), 2 + 5)  # a checagem da mediação (eco-02) não gera página nem card
             self.assertIn(f"{B.BASE}/debates/", out["llms"])
 
     def test_build_sem_nome_de_debate(self):

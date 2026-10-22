@@ -140,12 +140,17 @@ A checagem fica em `checagens.json`, ao lado de `afirmacoes.json`: uma lista com
 ```
 
 - `id`: o mesmo da afirmação.
-- `veredito`: da escala do `tipo` da afirmação:
-  - `dado`/`fato`: `verdadeiro`, `verdadeiro-com-ressalva`, `exagerado`, `falso`, `sem-evidencia`, `nao-checavel`;
-  - `promessa`: `ja-existe`, `viavel`, `depende-do-congresso`, `sem-custo-estimado`, `inviavel`;
-  - `acusacao`: `ha-investigacao`, `ha-denuncia`, `ha-condenacao`, `sem-registro-publico`.
+- `veredito`: um de cinco, para qualquer `tipo` (escala única desde 21/10/2026; a antiga, de 13 vereditos por tipo,
+  complicava a leitura do placar):
+  - `verdadeiro`: a afirmação central se confirma nas fontes (detalhe secundário impreciso ainda é verdadeiro);
+  - `falso-ou-exagerado`: desmentida pelas fontes, ou o número central foi inflado a ponto de mudar o sentido;
+  - `nao-comprovado`: não há evidência pública que confirme nem desminta, não é checável, ou é acusação sem registro;
+  - `pendente-ou-condicionado`: promessa que ainda não existe e depende de Congresso, custo ou detalhamento;
+  - `situacao-identificada`: a promessa já existe, ou a acusação tem investigação, denúncia ou condenação registrada.
+  A afirmação é checada no sentido em que foi dita: "a criminalidade explodiu" olha o crime em geral, não só mortes.
+  Promessa nunca é `verdadeiro`/`falso`. A mediação não entra no placar nem nas páginas publicadas.
 - `explicacao`: de 2 a 4 frases, sem adjetivo, com o valor oficial e o período exato de cada número.
-- `fontes`: pelo menos uma, com os cinco campos e `url` `https://`. Em `sem-evidencia` e `nao-checavel`, a fonte é o
+- `fontes`: pelo menos uma, com os cinco campos e `url` `https://`. Em `nao-comprovado`, a fonte é o
   que foi consultado e não confirmou. Órgão oficial primeiro; reportagem não é fonte única quando ele existe.
   Em série de dados (SGS, SIDRA, FMI), `data_publicacao` é o início do período mais recente usado.
 - `atualizado_em` e `acessado_em`: AAAA-MM-DD, nunca depois de hoje; `acessado_em` também não pode ser antes da
@@ -153,9 +158,9 @@ A checagem fica em `checagens.json`, ao lado de `afirmacoes.json`: uma lista com
   `data_publicacao` aceita também AAAA ou AAAA-MM, para publicação que só informa o ano (o Anuário do FBSP).
 - `outro_lado` (opcional): nota da defesa, em `acusacao`, quando existir.
 
-Sem fonte encontrada é `sem-evidencia`, nunca inferência; as duas campanhas e a mediação passam pelo mesmo critério.
+Sem fonte encontrada é `nao-comprovado`, nunca inferência; as duas campanhas e a mediação passam pelo mesmo critério.
 Em `acusacao`, a escala registra só o estado processual público. Acusação de conduta política, que não é crime nem
-tem processo, fica `sem-registro-publico`, e a `explicacao` diz o que está documentado.
+tem processo, fica `nao-comprovado`, e a `explicacao` diz o que está documentado.
 `python3 debates/validar.py <pasta>` também valida o `checagens.json` quando ele existe e imprime `quem×veredito`,
 para conferir que o critério foi o mesmo para cada lado.
 
@@ -195,15 +200,17 @@ Etiquetas (`etiqueta`):
 
 | Etiqueta | Rótulo | Quando |
 |---|---|---|
-| `ataque-pessoa` | Ataque à pessoa | ataca a pessoa do adversário (caráter, família, amigos ou honestidade), não o que ele propõe |
-| `dado` | Dado | traz número, data ou fato verificável, certo ou errado (se confere é a checagem que diz) |
-| `proposta` | Proposta | diz o que vai fazer ou propõe (medida futura), com ou sem detalhe |
-| `critica-sem-prova` | Crítica sem prova | critica governo ou ação do adversário sem dado |
-| `emocao` | Emoção | apela a medo, raiva, pena ou esperança, sem dado nem proposta |
-| `fala-de-si` | Fala de si | fala da própria trajetória, caráter ou realização, sem número |
+| `ataque-critica` | Ataques e críticas | ataca ou critica o adversário, o governo, o partido ou aliados, sem que o ponto central seja um dado (honestidade, família, competência, motivos, decisões) |
+| `proposta` | Propostas | diz o que vai fazer ("vou...", "no meu governo..."), com ou sem detalhe |
+| `apelo` | Apelo pessoal ou emocional | fala de si ou apela a medo, raiva, pena ou esperança, sem dado nem proposta |
+| `dado` | Dados e evidências | o ponto central é número, data ou fato verificável, certo ou errado (se confere é a checagem que diz) |
 
-**Desempate**: quando a frase cabe em mais de uma, vale a primeira da tabela, nesta ordem: ataque-pessoa, dado,
-proposta, critica-sem-prova, emocao, fala-de-si (`validar.ETIQUETAS`).
+Escala de 4 desde 21/10/2026 (a antiga tinha 6: ataque à pessoa e crítica sem prova viraram `ataque-critica`; emoção e
+fala de si viraram `apelo`).
+**Desempate**: vale o ponto central da frase; se ainda empatar, a primeira desta ordem: dado, proposta,
+ataque-critica, apelo (`validar.ETIQUETAS`).
+**Etiquetagem**: vários modelos de IA, cada um sem saber quem falou, etiquetam a mesma frase; onde divergem, um
+desempate pela regra decide.
 **Não entram**: cumprimentos, "obrigado", pedidos de tempo, perguntas e respostas sobre regra (etiqueta `fora`, que
 `juntar` descarta).
 

@@ -148,7 +148,7 @@ class Placar(unittest.TestCase):
         esperado = Counter((r["quem"], r["etiqueta"]) for r in ler("retorica.json"))
         conta = dp.placar_retorica(m)
         for q, c in conta.items():
-            self.assertEqual(list(c), list(V.ETIQUETAS))
+            self.assertEqual(set(c), set(V.ETIQUETAS))
             for e, n in c.items():
                 self.assertEqual(n, esperado[(q, e)])
         self.assertEqual(sum(sum(c.values()) for c in conta.values()), len(m["retorica"]))
@@ -235,9 +235,8 @@ class Band(unittest.TestCase):
 
 class Regra(unittest.TestCase):
     """o etiquetador cego e a Globo (#94) seguem este texto: as definições são as da issue #110, ao pé da letra"""
-    LITERAIS = ("amigos ou honestidade", "medo, raiva, pena ou esperança, sem dado nem proposta",
-                "critica governo ou ação do adversário sem dado", "diz o que vai fazer ou propõe (medida futura)",
-                "trajetória, caráter ou realização, sem número")
+    LITERAIS = ("ataca ou critica o adversário, o governo, o partido ou aliados", "diz o que vai fazer",
+                "fala de si ou apela a medo, raiva, pena ou esperança", "número, data ou fato verificável")
 
     def test_readme_e_pagina_usam_as_definicoes_da_issue(self):
         readme = (R / "debates" / "README.md").read_text(encoding="utf-8")

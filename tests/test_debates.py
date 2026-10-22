@@ -263,8 +263,8 @@ class TestValidarChecagens(unittest.TestCase):
         return vd.validar_checagens(list(chs), AFIRMACOES, HOJE)
 
     def test_checagem_valida_passa(self):
-        self.assertEqual(self.erros(checagem(), checagem(id="eco-02", veredito="viavel"),
-                                    checagem(id="sau-01", veredito="ha-investigacao", outro_lado="A defesa nega.")),
+        self.assertEqual(self.erros(checagem(), checagem(id="eco-02", veredito="pendente-ou-condicionado"),
+                                    checagem(id="sau-01", veredito="situacao-identificada", outro_lado="A defesa nega.")),
                          [])
 
     def test_topo_tem_que_ser_lista(self):
@@ -276,10 +276,11 @@ class TestValidarChecagens(unittest.TestCase):
         self.assertTrue(any("não há afirmação" in e for e in self.erros(checagem(id="eco-99"))))
 
     def test_incerta_nao_se_checa(self):
-        self.assertTrue(any("incerta" in e for e in self.erros(checagem(id="out-01", veredito="ha-denuncia"))))
+        self.assertTrue(any("incerta" in e for e in self.erros(checagem(id="out-01", veredito="situacao-identificada"))))
 
     def test_veredito_da_escala_do_tipo(self):
-        for id_, v in (("eco-01", "viavel"), ("eco-02", "verdadeiro"), ("sau-01", "falso"), ("eco-01", "x")):
+        # escala única de 5 (21/10/2026): os nomes da escala antiga de 13 deixam de valer
+        for id_, v in (("eco-01", "viavel"), ("eco-02", "verdadeiro-com-ressalva"), ("sau-01", "falso"), ("eco-01", "x")):
             with self.subTest(id=id_, veredito=v):
                 self.assertTrue(any("veredito" in e for e in self.erros(checagem(id=id_, veredito=v))))
 
@@ -296,10 +297,10 @@ class TestValidarChecagens(unittest.TestCase):
         self.assertEqual(self.erros(checagem(explicacao="O PIB foi de R$ 3,9 tri. Cresceu 7,5% em 2010.")), [])
 
     def test_fontes_mesmo_sem_evidencia(self):
-        for v in ("sem-evidencia", "nao-checavel", "verdadeiro"):
+        for v in ("nao-comprovado", "situacao-identificada", "verdadeiro"):
             with self.subTest(veredito=v):
                 self.assertTrue(self.erros(checagem(veredito=v, fontes=[])))
-        self.assertEqual(self.erros(checagem(veredito="sem-evidencia")), [])
+        self.assertEqual(self.erros(checagem(veredito="nao-comprovado")), [])
 
     def test_fonte_incompleta_ou_sem_https(self):
         self.assertTrue(self.erros(checagem(fontes=[fonte(url="http://ibge.gov.br")])))
