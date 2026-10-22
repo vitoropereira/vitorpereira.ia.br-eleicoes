@@ -18,6 +18,29 @@ class TestWorkflowLote(unittest.TestCase):
         self.assertIn("workflow_dispatch:", self.y)
         self.assertIn("dry_run:", self.y)
 
+    def _bloco_push(self):
+        m = re.search(r"^  push:\s*\n((?:    .*\n|\s*\n)+)", self.y, re.M)
+        self.assertIsNotNone(m, "falta o bloco push: dentro de on:")
+        return m.group(1)
+
+    def test_roda_em_push_na_main(self):
+        self.assertRegex(self._bloco_push(), r"branches:\s*\[\s*\"?main\"?\s*\]")
+
+    def test_push_ignora_o_proprio_lote(self):
+        bloco = self._bloco_push()
+        self.assertIn("paths-ignore:", bloco)
+        for caminho in ("site/**", "rastro/publicados.json", "rastro/fila.json"):
+            self.assertIn(f'"{caminho}"', bloco)
+        # Se o lote passar a commitar outro caminho, o push dele reentraria no workflow (loop).
+        from rastro import lote
+
+        for caminho in lote.CAMINHOS_GIT:
+            esperado = caminho + "**" if caminho.endswith("/") else caminho
+            self.assertIn(f'"{esperado}"', bloco, f"{caminho} commitado pelo lote sem paths-ignore: risco de loop")
+
+    def test_concurrency_unico_sem_cancelar(self):
+        self.assertRegex(self.y, r"concurrency:\s*\n\s+group: rastro-lote\s*\n\s+cancel-in-progress: false")
+
     def test_roda_o_lote(self):
         self.assertIn("python3 rastro/lote.py --dry-run", self.passos)
         self.assertRegex(self.passos, r"python3 rastro/lote\.py\s*\n")
