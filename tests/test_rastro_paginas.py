@@ -1142,11 +1142,12 @@ class TestPresidente(unittest.TestCase):
             self.assertIn('class="db-pc" style="--c:var(--', sec)
             self.assertIn("<details", sec)
             conta = pc[sq]["conta"]
-            self.assertIn(f"<li><span>Total</span><span>{sum(conta.values())}</span></li>", sec)
-            for v, n in conta.items():
-                self.assertIn(f"<li><span>{dp.ROTULOS[v]}</span><span>{n} ({dp.pct(n, sum(conta.values()))}%)</span></li>", sec)
+            self.assertIn(f"<li><span>Total</span><span>{dp.total(conta)}</span></li>", sec)
+            for g, c in conta.items():
+                for v, n in c.items():
+                    self.assertIn(f"<li><span>{dp.ROTULOS[v]}</span><span>{n} ({dp.pct(n, sum(c.values()))}%)</span></li>", sec)
             links = re.findall(r'href="(/debates/2026/presidente-2-turno-band/[^"]+/)"', sec)
-            self.assertEqual(len(links), sum(conta.values()))
+            self.assertEqual(len(links), dp.total(conta))
 
     def test_sem_id_tse_casando_sem_secao(self):
         outros = [dict(p, sq=p["sq"] + "0") for p in PRES]

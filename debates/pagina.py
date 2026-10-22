@@ -25,6 +25,10 @@ DEFINICOES = {"verdadeiro": "a afirmação central se confirma nas fontes",
               "nao-comprovado": "não há evidência pública que confirme nem desminta, ou é acusação sem registro",
               "pendente-ou-condicionado": "promessa que ainda não existe e depende de Congresso, custo ou detalhe",
               "situacao-identificada": "a promessa já existe, ou a acusação tem investigação, denúncia ou condenação"}
+# placar em três blocos (21/10/2026): promessa nunca é "verdadeira", então somar tudo junto distorcia a comparação
+GRUPOS = {"fatos": ("Fatos e dados", ("dado", "fato")), "promessas": ("Promessas", ("promessa",)),
+          "acusacoes": ("Acusações", ("acusacao",))}
+GRUPO_DO_TIPO = {t: g for g, (_, tipos) in GRUPOS.items() for t in tipos}
 # a ordem de exibição é a do placar; a de desempate é validar.ETIQUETAS
 ETIQUETAS = {"ataque-critica": "Ataques e críticas", "proposta": "Propostas", "apelo": "Apelo pessoal ou emocional",
              "dado": "Dados e evidências"}
@@ -100,14 +104,26 @@ def listar(raiz):
     return sorted(ms, key=lambda m: (m["debate"]["data"], m["path"]), reverse=True)
 
 
+def _ordenar(conta):
+    """{grupo: {veredito: n}} na ordem de GRUPOS e de ORDEM_VEREDITOS, sem grupo vazio."""
+    return {g: {v: conta[g][v] for v in ORDEM_VEREDITOS if v in conta[g]} for g in GRUPOS if g in conta}
+
+
+def total(conta):
+    return sum(sum(c.values()) for c in conta.values())
+
+
 def placar(m):
-    """{quem: {veredito: n}} sobre todas as checagens do debate (vereditos que aparecem nele, zero incluído)."""
-    usados = {c["veredito"] for c in m["checagens"]}
-    vereditos = [v for v in ORDEM_VEREDITOS if v in usados]
-    quem = [q for q in m["cands"] if any(m["itens"][c["id"]]["quem"] == q for c in m["checagens"])]
-    conta = {q: dict.fromkeys(vereditos, 0) for q in quem}
+    """{quem: {grupo: {veredito: n}}} sobre todas as checagens do debate. Em cada grupo entram os vereditos que
+    aparecem nele no debate, zero incluído, para os blocos dos candidatos ficarem comparáveis."""
+    usados = {}
     for c in m["checagens"]:
-        conta[m["itens"][c["id"]]["quem"]][c["veredito"]] += 1
+        usados.setdefault(GRUPO_DO_TIPO[m["itens"][c["id"]]["tipo"]], set()).add(c["veredito"])
+    quem = [q for q in m["cands"] if any(m["itens"][c["id"]]["quem"] == q for c in m["checagens"])]
+    conta = {q: _ordenar({g: dict.fromkeys(vs, 0) for g, vs in usados.items()}) for q in quem}
+    for c in m["checagens"]:
+        it = m["itens"][c["id"]]
+        conta[it["quem"]][GRUPO_DO_TIPO[it["tipo"]]][c["veredito"]] += 1
     return conta
 
 
@@ -136,7 +152,7 @@ def pct_100(conta):
 
 
 def placar_por_candidato(modelos):
-    """{id_tse: {nome_urna, partido, cor, conta: {veredito: n}, debates: [{rotulo, path, afirmacoes: [{path, afirmacao,
+    """{id_tse: {nome_urna, partido, cor, conta: {grupo: {veredito: n}}, debates: [{rotulo, path, afirmacoes: [{path, afirmacao,
     veredito, timestamp, tema}]}]}} somando todos os debates (modelos de `listar`, do mais novo para o mais antigo). Só candidato com
     `id_tse`; a mediação fica de fora. Nome, partido e cor ficam os do debate mais novo."""
     out = {}
@@ -152,13 +168,14 @@ def placar_por_candidato(modelos):
             p = out.setdefault(str(c["id_tse"]), {"nome_urna": c["nome_urna"], "partido": c["partido"], "cor": c["cor"],
                                                   "conta": {}, "debates": []})
             for ch in chs:
-                p["conta"][ch["veredito"]] = p["conta"].get(ch["veredito"], 0) + 1
+                g = p["conta"].setdefault(GRUPO_DO_TIPO[m["itens"][ch["id"]]["tipo"]], {})
+                g[ch["veredito"]] = g.get(ch["veredito"], 0) + 1
             p["debates"].append({"rotulo": rotulo, "path": m["path"], "afirmacoes": [
                 {"path": f"{m['path']}{ch['id']}/", "afirmacao": m["itens"][ch["id"]]["afirmacao"], "veredito": ch["veredito"],
                  "timestamp": m["itens"][ch["id"]]["timestamp"], "tema": m["itens"][ch["id"]]["tema"]}
                 for ch in chs]})
     for p in out.values():
-        p["conta"] = {v: p["conta"][v] for v in ORDEM_VEREDITOS if v in p["conta"]}
+        p["conta"] = _ordenar(p["conta"])
     return out
 
 
@@ -167,7 +184,10 @@ CSS_PLACAR = """.db-placar{display:grid;grid-template-columns:repeat(auto-fit,mi
 .db-pc h3{margin:0 0 6px;font-size:16px}
 .db-pc ul{list-style:none;margin:0;padding:0}
 .db-pc li{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding:4px 0;font-size:14px;font-variant-numeric:tabular-nums}
-.db-pc li:last-child{border-bottom:0;font-weight:600}
+.db-pc li:last-child{border-bottom:0}
+.db-pc h4{display:flex;justify-content:space-between;gap:12px;margin:10px 0 2px;font:600 12px var(--font-mono);letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.db-pc h4:first-of-type{margin-top:0}
+.db-pc .db-tot{border-top:1px solid var(--line);margin-top:6px;font-weight:600}
 .db-pc .db-bar{display:block;border-bottom:1px solid var(--line)}
 .db-pc .db-bar b{font-size:16px}.db-pc .db-bar small{font-size:12px;color:var(--muted);margin-left:4px}
 .db-bar span{display:flex;justify-content:space-between;gap:12px}
@@ -240,16 +260,21 @@ def _nome(c):
 
 
 def _placar_html(linhas, id_titulo, titulo, nota, links=None):
-    """linhas: [(nome, cor, {veredito: n})] em blocos verticais (cabe em 360 px). links: {nome: href} põe o link no
-    título do bloco de quem tem página."""
+    """linhas: [(nome, cor, {grupo: {veredito: n}})] em blocos verticais (cabe em 360 px), um sub-bloco por grupo com o
+    percentual dentro do grupo. links: {nome: href} põe o link no título do bloco de quem tem página."""
     def h3(nome):
         href = (links or {}).get(nome)
         return f'<a href="{attr(href)}">{esc(nome)}</a>' if href else esc(nome)
+
+    def grupo(g, c):
+        n_g = sum(c.values())
+        return (f'<h4><span>{esc(GRUPOS[g][0])}</span><span>{n_g}</span></h4><ul>'
+                + "".join(f"<li><span>{esc(ROTULOS[v])}</span><span>{n} ({pct(n, n_g)}%)</span></li>" for v, n in c.items())
+                + "</ul>")
     blocos = "".join(
-        f'<div class="db-pc" style="--c:var(--{cor})"><h3>{h3(nome)}</h3><ul>'
-        + "".join(f"<li><span>{esc(ROTULOS[v])}</span><span>{n} ({pct(n, sum(conta.values()))}%)</span></li>"
-                  for v, n in conta.items())
-        + f"<li><span>Total</span><span>{sum(conta.values())}</span></li></ul></div>"
+        f'<div class="db-pc" style="--c:var(--{cor})"><h3>{h3(nome)}</h3>'
+        + "".join(grupo(g, c) for g, c in conta.items() if sum(c.values()))
+        + f'<ul class="db-tot"><li><span>Total</span><span>{total(conta)}</span></li></ul></div>'
         for nome, cor, conta in linhas)
     return (f'<section aria-labelledby="{id_titulo}"><h2 id="{id_titulo}">{esc(titulo)}</h2>'
             f'<p class="db-nota">{esc(nota)}</p><div class="db-placar">{blocos}</div></section>')
@@ -293,7 +318,9 @@ def como_checamos():
             '<p>Toda checagem cita as fontes, com a data de acesso, e diz o que o outro lado responde quando há resposta. '
             'O trecho entre aspas é o da transcrição automática, com os erros dela; a frase acima dele é a versão limpa '
             'da afirmação. Quando uma checagem é corrigida, a data de atualização muda.</p>'
-            '<p>O placar só conta vereditos. Não é nota do debate: a seleção cobre só frases verificáveis.</p></section>')
+            '<p>O placar separa fatos e dados, promessas e acusações, e o percentual é dentro de cada bloco: promessa não '
+            'tem como ser "verdadeira", então misturar tudo puniria quem promete mais. O placar só conta vereditos. Não é '
+            'nota do debate: a seleção cobre só frases verificáveis.</p></section>')
 
 
 def gerar(m, base, autor):
@@ -358,7 +385,8 @@ def gerar(m, base, autor):
     conta = placar(m)
     linhas = [(_nome(cands[q]), cands[q]["cor"], conta[q]) for q in conta]
     placar_html = _placar_html(linhas, "placar", "Vereditos por quem falou",
-                               "Contagem das afirmações checadas de cada um, com a parte de cada veredito no total dele.")
+                               "Afirmações checadas de cada um, separadas em fatos e dados, promessas e acusações. "
+                               "Compare bloco com bloco: o percentual é dentro de cada um.")
     temas_usados = [t for t in V.TEMAS if any(itens[c["id"]]["tema"] == t for c in chs)]
     vereditos = [v for v in ORDEM_VEREDITOS if any(c["veredito"] == v for c in chs)]
 
@@ -434,7 +462,7 @@ def gerar(m, base, autor):
                                  + _transcricao_html(m["transcricao"])),
                        ld=[_breadcrumb(base, trilha_t)], publicado=publicado, modificado=publicado)
 
-    por_cand = [(c["nome_urna"], c["partido"], c["cor"], sum(conta.get(c["id"], {}).values())) for c in candidatos]
+    por_cand = [(c["nome_urna"], c["partido"], c["cor"], total(conta.get(c["id"], {}))) for c in candidatos]
     return dict(path=path, titulo=titulo, desc=desc, html=_doc(titulo, corpo, js=True), ld=ld, publicado=publicado,
                 modificado=modificado, og=(og, f"Checagem do debate {emissora}", f"{deb['cargo']} · {turno}º turno · {dia}",
                                            por_cand, f"{n} afirmações checadas"),
@@ -474,11 +502,13 @@ def indice(gerados, base, autor, links=None):
             if q == V.MEDIACAO:
                 continue
             quem[q] = g["cands"][q]
-            for v, k in conta.items():
-                soma.setdefault(q, {}).setdefault(v, 0)
-                soma[q][v] += k
-    vereditos = [v for v in ORDEM_VEREDITOS if any(v in c for c in soma.values())]
-    linhas = [(_nome(quem[q]), quem[q]["cor"], {v: soma[q].get(v, 0) for v in vereditos}) for q in soma]
+            for grupo, c in conta.items():
+                for v, k in c.items():
+                    soma.setdefault(q, {}).setdefault(grupo, {}).setdefault(v, 0)
+                    soma[q][grupo][v] += k
+    usados = {g: {v for c in soma.values() for v in c.get(g, {})} for g in GRUPOS}
+    soma = {q: _ordenar({g: {v: c.get(g, {}).get(v, 0) for v in vs} for g, vs in usados.items() if vs}) for q, c in soma.items()}
+    linhas = [(_nome(quem[q]), quem[q]["cor"], soma[q]) for q in soma]
     soma_rt, quem_rt = {}, {}
     for g in reversed(gerados):  # só os debates com retorica.json; o placar deles já traz as 6 etiquetas
         for q, conta in g.get("retorica", {}).items():
@@ -505,7 +535,8 @@ def indice(gerados, base, autor, links=None):
              f'{"debate" if len(gerados) == 1 else "debates"}. Cada uma tem página própria com veredito e fontes.</p>'
              f'<section aria-labelledby="lista"><h2 id="lista">Debates checados</h2>{lista}</section>'
              + _placar_html(linhas, "placar", "Vereditos somados por candidato",
-                            "Soma das afirmações checadas de cada candidato em todos os debates acima, sem a mediação.",
+                            "Soma das afirmações checadas de cada candidato em todos os debates acima, sem a mediação. "
+                            "Compare bloco com bloco: o percentual é dentro de cada um.",
                             {_nome(quem[q]): (links or {}).get(str(quem[q].get("id_tse"))) for q in soma})
              + retorica_html + como_checamos())
     modificado = max(g["modificado"] for g in gerados)

@@ -457,7 +457,8 @@ def secao_debates(deb):
     if not deb or not deb.get("debates"):
         return ""
     placar = dp._placar_html([(dp._nome(deb), deb["cor"], deb["conta"])], "debates-placar", "Vereditos somados",
-                             "Contagem das afirmações checadas dele(a) em todos os debates, com a parte de cada veredito no total.")
+                             "Afirmações checadas dele(a) em todos os debates, separadas em fatos e dados, promessas e "
+                             "acusações; o percentual é dentro de cada bloco.")
     dets = "".join(
         f'<details class="rs-det"><summary><b>{esc(d["rotulo"])}</b> · {len(d["afirmacoes"])} afirmação(ões)</summary>'
         '<ul class="rs-afs">' + "".join(f'<li><a href="{html.escape(a["path"], quote=True)}">Aos {esc(a["timestamp"])} · '
