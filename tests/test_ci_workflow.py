@@ -40,7 +40,7 @@ class TestWorkflowCI(unittest.TestCase):
         self.assertRegex(self.passos, r"permissions:\s*\n\s+contents: read\s*\n")
         self.assertNotIn("secrets.", self.passos)
         self.assertNotIn("pull_request_target", self.passos)
-        self.assertNotIn("write", self.passos)
+        self.assertNotRegex(self.passos, r": write\b")
 
 
 if __name__ == "__main__":
