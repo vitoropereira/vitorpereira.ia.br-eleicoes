@@ -164,6 +164,16 @@ class TestPiso(Base):
         ocultos = [lc for lc in dados["1200401"]["t"]["1"] if lc[7] is None]
         self.assertGreaterEqual(sum(lc[6] for lc in ocultos), ms.PISO)
 
+    def test_secoes_orfas_abaixo_do_piso_tambem_disparam_supressao(self):
+        # nenhum local abaixo do piso, mas 10 de comparecimento órfão entram no total do município e não saem em local
+        # nenhum: o total menos os locais visíveis revelaria as órfãs, então o menor local também perde o voto
+        itens = [[90], [40], [50]]
+        self.assertEqual(ms._ocultar(itens, 0), set())
+        self.assertEqual(ms._ocultar(itens, 0, fora=10), {1})
+        self.assertEqual(ms._ocultar(itens, 0, fora=ms.PISO), set())
+        # órfãs não diminuem a supressão de um item já abaixo do piso
+        self.assertEqual(ms._ocultar([[90], [20], [50]], 0, fora=40), {1, 2})
+
 
 class TestTurnos(Base):
     def test_so_primeiro_turno(self):

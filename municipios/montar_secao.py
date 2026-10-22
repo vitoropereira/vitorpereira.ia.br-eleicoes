@@ -116,6 +116,7 @@ def juntar(secao_zip, locais_zip, cfg):
     cand = {t: [[int(nr), cinfo[t][nr]] for nr in o] for t, o in sorted(ordem.items())}
 
     orfas, sem_cdi, grupos = [], set(), {}  # (cdi, t, uf, mun, zona, nr_local) -> [secoes]
+    fora = {}  # (cdi, t) -> comparecimento das seções órfãs (entra no total do município, não sai em local nenhum)
     for k in sorted(votos):
         t, uf, mun, zona, sec = k
         if uf == "ZZ":
@@ -126,6 +127,8 @@ def juntar(secao_zip, locais_zip, cfg):
         nl = loc.get(k, loc.get(("1",) + k[1:]))  # 2º turno sem linha própria nos locais: usa a do 1º
         if nl is None:
             orfas.append(k)
+            kf = (ibge[(uf, mun)], t)
+            fora[kf] = fora.get(kf, 0) + sum(votos[k].values())
             continue
         d = votos[k]
         v = [0] * len(idx[t])
@@ -154,22 +157,27 @@ def juntar(secao_zip, locais_zip, cfg):
         reg["t"].setdefault(t, []).append(local)
     # mesmo raciocínio um nível acima: o total do município (publicado em geo/t1) menos os locais visíveis não pode
     # revelar um local abaixo do piso; local oculto leva junto o voto de todas as suas seções
-    for reg in dados.values():
-        for locais in reg["t"].values():
-            for i in _ocultar(locais, 6):
+    for cdi, reg in dados.items():
+        for t, locais in reg["t"].items():
+            for i in _ocultar(locais, 6, fora.get((cdi, t), 0)):
                 locais[i][7] = locais[i][8] = None
                 for s in locais[i][9]:
                     s[4] = s[5] = None
     return dados, orfas, sorted(sem_cdi)
 
 
-def _ocultar(itens, col):
+def _ocultar(itens, col, fora=0):
     """Índices sem voto: comparecimento (itens[i][col]) abaixo do PISO e, por supressão complementar, os menores
-    visíveis até as ocultas somarem PISO (o total do nível de cima menos as visíveis não pode revelar uma oculta)."""
+    visíveis até as ocultas somarem PISO (o total do nível de cima menos as visíveis não pode revelar uma oculta).
+    fora = comparecimento que entra no total de cima mas não sai em item nenhum (seções órfãs): se for de 1 a PISO-1,
+    a diferença revelaria essas seções, então também se oculta até fora + ocultas somarem PISO."""
     ocultas = {i for i, x in enumerate(itens) if x[col] < PISO}
     visiveis = sorted((x[col], i) for i, x in enumerate(itens) if i not in ocultas)
-    while ocultas and visiveis and sum(itens[i][col] for i in ocultas) < PISO:
-        ocultas.add(visiveis.pop(0)[1])
+    soma = sum(itens[i][col] for i in ocultas)
+    while visiveis and ((ocultas and soma < PISO) or 0 < fora and fora + soma < PISO):
+        c, i = visiveis.pop(0)
+        ocultas.add(i)
+        soma += c
     return ocultas
 
 
