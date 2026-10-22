@@ -27,6 +27,8 @@ Uma das três fontes (vai em `fonte_transcricao`):
 Formato do `transcricao.md`:
 
 - Cabeçalho livre (tabela com emissora, data, fonte). Nome não confirmado leva `[NÃO VERIFICADO]`.
+  O que vem antes da primeira seção de falas e a seção `## Índice` são notas internas: **não são publicados**.
+  A página pública mostra no lugar uma linha gerada do `debate.json` (emissora, data, duração, vídeo).
 - Uma seção `## Bloco N …` para cada bloco (`## Bloco 1 — Pergunta 1: segurança pública`) e
   `## Considerações finais`. Abertura, intervalos e encerramento ficam em seções com outro nome: o que está nelas
   não entra na extração.

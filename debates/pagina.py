@@ -457,9 +457,9 @@ def gerar(m, base, autor):
 
     tt = f"Transcrição do debate {emissora} ({turno}º turno, {dia})"
     trilha_t = trilha + [("Transcrição", tpath)]
-    transcricao = dict(path=tpath, titulo=tt, desc=f"Transcrição automática integral do debate {nomes} na {emissora}.",
+    transcricao = dict(path=tpath, titulo=tt, desc=f"Transcrição integral, sem edição, do debate {nomes} na {emissora}.",
                        html=_doc(tt, _trilha(trilha + [("Transcrição", None)]) + f"<h1>{esc(tt)}</h1>"
-                                 + _transcricao_html(m["transcricao"])),
+                                 + _transcricao_fonte(deb, dia, m["transcricao"]) + _transcricao_html(m["transcricao"])),
                        ld=[_breadcrumb(base, trilha_t)], publicado=publicado, modificado=publicado)
 
     por_cand = [(c["nome_urna"], c["partido"], c["cor"], total(conta.get(c["id"], {}))) for c in candidatos]
@@ -472,17 +472,34 @@ def gerar(m, base, autor):
                 data=deb["data"])
 
 
+def _transcricao_fonte(deb, dia, md):
+    """Linha pública no lugar do cabeçalho interno do transcricao.md; a duração é o último **H:MM:SS** (aproximada)."""
+    marcas = [V.RE_MARCA.match(l.strip()) for l in md.splitlines()]
+    partes = [esc(deb["emissora"]), dia]
+    if ultima := [mk.group(1) for mk in marcas if mk][-1:]:
+        p = [int(x) for x in ultima[0].split(":")]
+        seg = p[0] * 60 + p[1] if len(p) == 2 else p[0] * 3600 + p[1] * 60 + p[2]
+        partes.append(f"duração ~{seg // 3600}h{seg % 3600 // 60:02d}")
+    partes.append("transcrição sem edição" if deb["fonte_transcricao"] == "colado" else "transcrição automática, sem edição")
+    if deb.get("video"):
+        partes.append(f'<a href="{attr(deb["video"])}" target="_blank" rel="noopener">vídeo no YouTube</a>')
+    return f'<p class="db-tr-fonte">{" · ".join(partes)}</p>'
+
+
 def _transcricao_html(md):
     """transcricao.md escapado: ## vira h2, cada **H:MM:SS** — texto vira um parágrafo com âncora t-H-MM-SS
     (a primeira, se a marcação se repetir); links do markdown viram só o texto."""
-    out, vistos = ['<div class="db-tr">'], set()
+    out, vistos, falas = ['<div class="db-tr">'], set(), False
     for linha in md.splitlines():
         linha = re.sub(r"\[([^\]]*)\]\([^)]*\)", r"\1", linha.strip())
-        if not linha or linha.startswith("# ") or set(linha) <= set("|-: "):
-            continue
         if s := V.RE_SECAO.match(linha):
-            out.append(f"<h2>{esc(s.group(1))}</h2>")
-        elif mk := V.RE_MARCA.match(linha):
+            falas = s.group(1).strip() != "Índice"  # o cabeçalho e o índice são notas internas: não se publicam
+            if falas:
+                out.append(f"<h2>{esc(s.group(1))}</h2>")
+            continue
+        if not falas or not linha or linha.startswith("# ") or set(linha) <= set("|-: "):
+            continue
+        if mk := V.RE_MARCA.match(linha):
             a = ancora(mk.group(1))
             ident = f' id="{a}"' if a not in vistos else ""
             vistos.add(a)
