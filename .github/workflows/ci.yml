@@ -1,0 +1,37 @@
+# Gate de PR: ruff + pytest. O lote (rastro-lote.yml) continua sendo o único caminho
+# que publica; este check só antecipa a falha para o próprio PR.
+# Sem segredos e só leitura: PR de fork roda aqui.
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  gate:
+    name: gate
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar ferramentas
+        run: pip install pytest ruff
+
+      - name: Lint
+        run: ruff check .
+
+      - name: Testes
+        run: python3 -m pytest -q

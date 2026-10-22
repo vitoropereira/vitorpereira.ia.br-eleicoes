@@ -29,6 +29,7 @@ Repo **público**: nada de segredo em commit.
 
 ## Comandos
 - Gate (dev-flow): `python3 -m pytest -q` e `ruff check .` (config em `pyproject.toml`, só tooling)
+- CI: `.github/workflows/ci.yml` (check `ci / gate`) roda o mesmo gate em todo PR e no push na main.
 - Testes: `python3 -m unittest discover -s tests -v` (continua válido)
 - Testes do HUD (JS): `deno test hud/`
 - Testes do agregador: `cd supabase/functions/agregador-eleicoes && deno test --allow-read --allow-env .`
