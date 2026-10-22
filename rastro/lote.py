@@ -1,13 +1,14 @@
 """Lote diário do Rastro: publica os próximos N eleitos da fila e abre o PR "Rastro: lote AAAA-MM-DD".
 
 Fluxo: trava de data (config.json: trava_inicio..trava_fim, inclusive) -> árvore limpa e branch do dia inexistente ->
+idempotência (PR já mergeado com o título do dia: sai com 0 sem fazer nada; gh falhou: sai com 1) ->
 branch rastro/lote-AAAA-MM-DD a partir de origin/main -> regenera fila.json -> move os próximos `lote_diario_tamanho` sq
 (que não estão em publicados.json) para publicados.json -> build_site.py -> commit só de publicados.json, fila.json e
 site/ (o build também muda sitemap.xml e llms.txt) -> python3 -m pytest -q (sobre o conteúdo exato do lote) -> push ->
 gh pr create -> gh pr merge --squash se o pytest passou, ou label `bloqueado` (sem merge) se falhou. O merge é a publicação:
 é automático, mas só com os testes (LGPD, redação, isolamento) verdes. Sem rede além de `git`, `gh` e do build. `--dry-run` imprime o lote e os comandos sem gravar nada.
 
-Uso: python3 rastro/lote.py [--dry-run]
+Uso: python3 rastro/lote.py [--dry-run | --conferir]  (--conferir: sai com 1 se o dia terminou sem lote mergeado)
 """
 import json
 import subprocess
@@ -58,6 +59,50 @@ def corpo_pr(novos, eleitos, dia):
     return "\n".join(linhas) + "\n"
 
 
+def ja_publicado(rodar, titulo):
+    """True se há PR mergeado com este título exato; None se o gh falhou ou devolveu lixo.
+    A busca do GitHub é aproximada, então o título é comparado exato aqui."""
+    r = rodar(["gh", "pr", "list", "--state", "merged", "--base", "main", "--search", f'"{titulo}" in:title',
+               "--json", "title", "--limit", "20"])
+    if r.returncode != 0:
+        return None
+    try:
+        return any(p.get("title") == titulo for p in json.loads(r.stdout or "[]"))
+    except (ValueError, AttributeError):
+        return None
+
+
+def conferir(hoje=None, raiz=AQUI.parent, executar=subprocess.run):
+    """Alerta do dia: 0 se o lote de hoje saiu (ou não há o que esperar), 1 se o dia terminou sem lote."""
+    hoje = hoje or date.today()
+    raiz = Path(raiz)
+    cfg_arq = raiz / "rastro" / "config.json"
+    if not cfg_arq.exists():
+        cfg_arq = AQUI / "config.json"
+    cfg = json.loads(cfg_arq.read_text(encoding="utf-8"))
+    dia = hoje.isoformat()
+    if travado(hoje, cfg):
+        print(f"conferir: {dia} está na trava; sem lote esperado.")
+        return 0
+    feito = ja_publicado(lambda cmd: executar(cmd, cwd=str(raiz), capture_output=True, text=True), f"Rastro: lote {dia}")
+    if feito:
+        print(f"conferir: lote de {dia} publicado.")
+        return 0
+    if feito is None:
+        print(f"::error::não foi possível consultar os PRs mergeados (gh falhou); lote de {dia} não confirmado")
+        return 1
+    dados, pub_arq = raiz / "rastro" / "dados", raiz / "rastro" / "publicados.json"
+    if (dados / "eleitos.json").exists() and (dados / "indicadores.json").exists():
+        eleitos = json.loads((dados / "eleitos.json").read_text(encoding="utf-8"))
+        fila = fila_mod.ordenar(eleitos, json.loads((dados / "indicadores.json").read_text(encoding="utf-8")))
+        publicados = json.loads(pub_arq.read_text(encoding="utf-8")) if pub_arq.exists() else []
+        if not proximos(fila, publicados, 1):
+            print("conferir: fila esgotada; sem lote esperado.")
+            return 0
+    print(f"::error::nenhum lote mergeado em {dia}")
+    return 1
+
+
 def main(hoje=None, raiz=AQUI.parent, executar=subprocess.run, dry_run=False):
     hoje = hoje or date.today()
     raiz = Path(raiz)
@@ -91,6 +136,14 @@ def main(hoje=None, raiz=AQUI.parent, executar=subprocess.run, dry_run=False):
         if rodar(["git", "rev-parse", "--verify", "--quiet", f"refs/heads/{branch}"]).returncode == 0:
             print(f"lote: a branch {branch} já existe; nada feito.")
             return 1
+        # Idempotência: o branch remoto some no merge, então a trava real é o PR mergeado com o título do dia.
+        feito = ja_publicado(rodar, titulo)
+        if feito is None:
+            print("lote: o gh falhou ao consultar PRs mergeados; nada feito.")
+            return 1
+        if feito:
+            print(f"lote: {titulo} já publicado; nada feito.")
+            return 0
         # Lote reprovado (label bloqueado) pede conserto humano: não empilha nem duplica PR.
         aberto = rodar(["gh", "pr", "list", "--state", "open", "--label", ROTULO_BLOQUEADO, "--search", "Rastro: lote in:title",
                         "--json", "number", "--jq", "length"])
@@ -176,4 +229,4 @@ def main(hoje=None, raiz=AQUI.parent, executar=subprocess.run, dry_run=False):
 
 
 if __name__ == "__main__":
-    sys.exit(main(dry_run="--dry-run" in sys.argv))
+    sys.exit(conferir() if "--conferir" in sys.argv else main(dry_run="--dry-run" in sys.argv))
