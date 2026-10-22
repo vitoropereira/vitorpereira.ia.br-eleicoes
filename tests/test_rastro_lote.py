@@ -85,13 +85,17 @@ class TestProximos(unittest.TestCase):
 
 
 class Falso:
-    def __init__(self, branch_existe=False, suja=False, pytest_rc=0):
+    def __init__(self, branch_existe=False, suja=False, pytest_rc=0, mergeados=(), gh_merged_rc=0):
         self.cmds, self.branch_existe, self.suja, self.pytest_rc = [], branch_existe, suja, pytest_rc
+        self.mergeados, self.gh_merged_rc = list(mergeados), gh_merged_rc
 
     def __call__(self, cmd, **kw):
         self.cmds.append(list(cmd))
         saida = ""
         rc = 0
+        if cmd[:3] == ["gh", "pr", "list"] and "merged" in cmd:
+            saida = json.dumps([{"title": t} for t in self.mergeados])
+            rc = self.gh_merged_rc
         if cmd[:2] == ["git", "status"]:
             saida = " M x\n" if self.suja else ""
         if cmd[:2] == ["git", "rev-parse"]:
@@ -208,15 +212,49 @@ class TestLote(unittest.TestCase):
         class ComPrAberto(Falso):
             def __call__(self, cmd, **kw):
                 r = super().__call__(cmd, **kw)
-                if cmd[:3] == ["gh", "pr", "list"]:
+                if cmd[:3] == ["gh", "pr", "list"] and "--label" in cmd:
                     r.stdout = "1\n"
                 return r
 
         ex = ComPrAberto()
         self.assertEqual(lote.main(hoje=date(2026, 10, 14), raiz=self.raiz, executar=ex), 1)
         self.assertFalse(any(c[:2] == ["git", "checkout"] for c in ex.cmds))
-        lista = next(c for c in ex.cmds if c[:3] == ["gh", "pr", "list"])
+        lista = next(c for c in ex.cmds if c[:3] == ["gh", "pr", "list"] and "--label" in c)
         self.assertIn("bloqueado", lista[lista.index("--label") + 1])
+
+    def test_ja_publicado_hoje_sai_sem_pr(self):
+        antes = self.pub.read_text(encoding="utf-8")
+        ex = Falso(mergeados=["Rastro: lote 2026-10-14"])
+        self.assertEqual(lote.main(hoje=date(2026, 10, 14), raiz=self.raiz, executar=ex), 0)
+        self.assertEqual(self.pub.read_text(encoding="utf-8"), antes)
+        proibidos = (["git", "checkout"], ["git", "push"], ["gh", "pr", "create"], ["gh", "pr", "merge"])
+        self.assertFalse(any(c[0] == "python3" or c[:2] in proibidos or c[:3] in proibidos for c in ex.cmds))
+
+    def test_lote_de_outro_dia_nao_trava(self):
+        ex = Falso(mergeados=["Rastro: lote 2026-10-13"])
+        self.assertEqual(lote.main(hoje=date(2026, 10, 14), raiz=self.raiz, executar=ex), 0)
+        self.assertEqual(ex.cmds[-1], ["gh", "pr", "merge", "rastro/lote-2026-10-14", "--squash", "--delete-branch"])
+        consulta = next(c for c in ex.cmds if c[:3] == ["gh", "pr", "list"] and "merged" in c)
+        self.assertIn('"Rastro: lote 2026-10-14" in:title', consulta)
+
+    def test_gh_falhou_na_consulta_nao_publica(self):
+        ex = Falso(gh_merged_rc=1)
+        self.assertEqual(lote.main(hoje=date(2026, 10, 14), raiz=self.raiz, executar=ex), 1)
+        self.assertFalse(any(c[:2] == ["git", "checkout"] or c[:2] == ["git", "push"] for c in ex.cmds))
+
+    def test_conferir(self):
+        dia = date(2026, 10, 14)
+        ex = Falso(mergeados=["Rastro: lote 2026-10-14"])
+        self.assertEqual(lote.conferir(dia, self.raiz, ex), 0)
+        ex = Falso()
+        self.assertEqual(lote.conferir(dia, self.raiz, ex), 1)
+        ex = Falso(gh_merged_rc=1)
+        self.assertEqual(lote.conferir(dia, self.raiz, ex), 1)
+        self.pub.write_text(json.dumps(["2001", "2002", "2003", "2004"]), encoding="utf-8")
+        ex = Falso()
+        self.assertEqual(lote.conferir(dia, self.raiz, ex), 0)
+        escrita = ("checkout", "push", "commit", "add", "branch", "reset", "clean")
+        self.assertFalse(any(c[0] == "git" and c[1] in escrita for c in ex.cmds))
 
     def test_falha_no_push_desfaz_a_branch(self):
         class FalhaPush(Falso):
