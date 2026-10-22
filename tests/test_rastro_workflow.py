@@ -14,7 +14,11 @@ class TestWorkflowLote(unittest.TestCase):
         self.passos = "\n".join(linha for linha in self.y.splitlines() if not linha.lstrip().startswith("#"))
 
     def test_agenda_e_disparo_manual(self):
-        self.assertIn('cron: "0 12 * * *"', self.y)
+        crons = re.findall(r'cron: "([^"]+)"', self.y)
+        self.assertEqual(crons, ["17 11 * * *", "17 13 * * *", "7 15 * * *"])  # principal, reserva, alerta
+        self.assertTrue(all(len(c.split()) == 5 and not c.startswith("0 ") for c in crons))  # fora do minuto cheio
+        self.assertIn("github.event.schedule == '7 15 * * *'", self.passos)
+        self.assertIn("python3 rastro/lote.py --conferir", self.passos)
         self.assertIn("workflow_dispatch:", self.y)
         self.assertIn("dry_run:", self.y)
 
