@@ -258,13 +258,20 @@ class MesmoDenominador(unittest.TestCase):
 
 @unittest.skipUnless((R / "site" / "analise" / "index.html").exists(), "rode python3 build_site.py antes")
 class Saida(unittest.TestCase):
+    """Confere o site/ montado contra ele mesmo: as seções vêm do pré-render (site/analise/index.html), não da lista do
+    código, porque o site/ commitado só é regenerado pelo lote (seção nova no código não pode quebrar aqui)."""
     SITE = R / "site"
+
+    def secoes(self):
+        ids = B.secoes_do_dom((self.SITE / "analise" / "index.html").read_text())
+        self.assertIn("campos", ids)
+        return [sid for sid, _ in B.SECOES_ANALISE if sid in ids]
 
     def test_pagina_e_compartilhar(self):
         h = (self.SITE / "analise" / "index.html").read_text()
         self.assertIn(brand.CSS, h)
         self.assertIn('id="campos"', h, "pré-render sem as seções")
-        for sid, _ in B.SECOES_ANALISE:
+        for sid in self.secoes():
             self.assertTrue((self.SITE / "analise" / sid / "index.html").exists(), sid)
 
     def test_faqpage_quando_ha_faq(self):
@@ -280,7 +287,7 @@ class Saida(unittest.TestCase):
     def test_cartoes_quando_ha_dados(self):
         if not (self.SITE / "analise" / "dados").is_dir():
             self.skipTest("sem dados da análise")
-        for sid, _ in B.SECOES_ANALISE:
+        for sid in self.secoes():
             self.assertTrue((self.SITE / "og" / f"analise-{sid}.png").exists(), sid)
             self.assertTrue((self.SITE / "og" / "social" / f"analise-{sid}.png").exists(), sid)
 
