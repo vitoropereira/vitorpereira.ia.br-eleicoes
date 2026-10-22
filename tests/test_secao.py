@@ -74,7 +74,7 @@ class TestLinhasZip(Base):
         with mock.patch.object(zipfile.ZipFile, "extractall", side_effect=AssertionError("extraiu")), \
                 mock.patch.object(zipfile.ZipFile, "read", side_effect=AssertionError("leu inteiro")):
             linhas = list(ms.linhas_zip(z))
-        self.assertEqual(len(linhas), 20)
+        self.assertEqual(len(linhas), 22)
         self.assertEqual(linhas[0]["NM_VOTAVEL"], "LULA")
         nomes = [r["NM_LOCAL_VOTACAO"] for r in ms.linhas_zip(self.br / ms.ZIP_LOCAIS)]
         self.assertIn("ESCOLA SÃO JOSÉ", nomes)
@@ -152,6 +152,17 @@ class TestPiso(Base):
         self.assertEqual(lc[9][2], [9, 7, 60, 40, None, None])
         self.assertEqual(lc[9][0][4:], [[100, 80], 10])
         self.assertGreaterEqual(sum(s[3] for s in lc[9] if s[4] is None), ms.PISO)
+
+    def test_supressao_complementar_entre_locais_do_municipio(self):
+        # só o COLÉGIO PEQUENO (18) está abaixo do piso: total do município (geo/t1) - locais visíveis revelaria o voto
+        # dele. O menor visível (POSTO RURAL, 32) também perde o voto, inclusive o das seções, e os ocultos somam 50.
+        dados, _, _ = self.juntar()
+        posto = self.local(dados, "1200401", "POSTO RURAL")
+        self.assertEqual(posto[5:9], [50, 32, None, None])
+        self.assertEqual(posto[9], [[9, 20, 50, 32, None, None]])
+        self.assertEqual(self.local(dados, "1200401", "ESCOLA SÃO JOSÉ")[7], [127, 98])
+        ocultos = [lc for lc in dados["1200401"]["t"]["1"] if lc[7] is None]
+        self.assertGreaterEqual(sum(lc[6] for lc in ocultos), ms.PISO)
 
 
 class TestTurnos(Base):

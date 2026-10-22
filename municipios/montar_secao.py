@@ -18,7 +18,7 @@ from pathlib import Path
 H = Path(__file__).resolve().parent
 sys.path.insert(0, str(H.parent))
 from municipios.baixar_t2022 import CONFIG_MUN  # noqa: E402
-from municipios.montar import js, nome  # noqa: E402
+from municipios.montar import nome  # noqa: E402
 
 BR = H / "brutos_secao"
 OUT = H / "geo"
@@ -36,7 +36,7 @@ def linhas_zip(caminho):
     """Linhas (dict) de todos os CSVs do ZIP, sem extrair; pula o _BRASIL.csv (duplicata das UFs)."""
     with zipfile.ZipFile(caminho) as zf:
         for m in sorted(zf.namelist()):
-            if not m.lower().endswith(".csv") or m.endswith("_BRASIL.csv"):
+            if not m.lower().endswith(".csv") or m.lower().endswith("_brasil.csv"):
                 continue
             with zf.open(m) as b, io.TextIOWrapper(b, encoding="latin-1", newline="") as f:
                 yield from csv.DictReader(f, delimiter=";")
@@ -141,31 +141,40 @@ def juntar(secao_zip, locais_zip, cfg):
         aptos, comp = sum(s[2] for s in secs), sum(s[3] for s in secs)
         v = [sum(x) for x in zip(*(s[4] for s in secs))]
         bn = sum(s[5] for s in secs)
-        ocultas = {i for i, s in enumerate(secs) if s[3] < PISO}
-        # supressão complementar: total do local menos as visíveis não pode revelar uma seção abaixo do piso
-        visiveis = sorted((s[3], i) for i, s in enumerate(secs) if i not in ocultas)
-        while ocultas and visiveis and sum(secs[i][3] for i in ocultas) < PISO:
-            ocultas.add(visiveis.pop(0)[1])
+        # total do local menos as seções visíveis não pode revelar uma seção abaixo do piso
+        ocultas = _ocultar(secs, 3)
         for i, s in enumerate(secs):
             if i in ocultas:
                 s[4] = s[5] = None
             else:
                 s[4] = _apara(s[4])
         local = info[(uf, mun, zona, nl)] + [aptos, comp, _apara(v), bn, secs]
-        if comp < PISO:
-            local[7] = local[8] = None
         reg = dados.setdefault(cdi, {"uf": uf, "cand": {}, "t": {}})
         reg["cand"][t] = cand[t]
         reg["t"].setdefault(t, []).append(local)
+    # mesmo raciocínio um nível acima: o total do município (publicado em geo/t1) menos os locais visíveis não pode
+    # revelar um local abaixo do piso; local oculto leva junto o voto de todas as suas seções
+    for reg in dados.values():
+        for locais in reg["t"].values():
+            for i in _ocultar(locais, 6):
+                locais[i][7] = locais[i][8] = None
+                for s in locais[i][9]:
+                    s[4] = s[5] = None
     return dados, orfas, sorted(sem_cdi)
 
 
-def gravar(dados, out, por_uf=False):
-    """Grava out/locais/<ibge>.json (ou <UF>.json: {ibge: registro}). Devolve (n_arquivos, bytes)."""
-    pasta = Path(out) / "locais"
-    pasta.mkdir(parents=True, exist_ok=True)
-    for p in pasta.glob("*.json"):
-        p.unlink()
+def _ocultar(itens, col):
+    """Índices sem voto: comparecimento (itens[i][col]) abaixo do PISO e, por supressão complementar, os menores
+    visíveis até as ocultas somarem PISO (o total do nível de cima menos as visíveis não pode revelar uma oculta)."""
+    ocultas = {i for i, x in enumerate(itens) if x[col] < PISO}
+    visiveis = sorted((x[col], i) for i, x in enumerate(itens) if i not in ocultas)
+    while ocultas and visiveis and sum(itens[i][col] for i in ocultas) < PISO:
+        ocultas.add(visiveis.pop(0)[1])
+    return ocultas
+
+
+def serializar(dados, por_uf=False):
+    """{nome do arquivo sem .json: bytes UTF-8}: <ibge> -> registro, ou <UF> -> {ibge: registro}."""
     arqs = {}
     for cdi, reg in dados.items():
         r = {"cand": reg["cand"], "t": reg["t"]}
@@ -173,9 +182,18 @@ def gravar(dados, out, por_uf=False):
             arqs.setdefault(reg["uf"], {})[cdi] = r
         else:
             arqs[cdi] = r
-    for nm, o in arqs.items():
-        js(pasta / f"{nm}.json", o)
-    return len(arqs), sum(p.stat().st_size for p in pasta.glob("*.json"))
+    return {nm: json.dumps(o, separators=(",", ":"), ensure_ascii=False).encode("utf-8") for nm, o in arqs.items()}
+
+
+def gravar(arqs, out):
+    """Troca o conteúdo de out/locais/ pelos arquivos já serializados. Devolve (n_arquivos, bytes)."""
+    pasta = Path(out) / "locais"
+    pasta.mkdir(parents=True, exist_ok=True)
+    for p in pasta.glob("*.json"):
+        p.unlink()
+    for nm, b in arqs.items():
+        (pasta / f"{nm}.json").write_bytes(b)
+    return len(arqs), sum(map(len, arqs.values()))
 
 
 def montar(brutos=BR, out=OUT, por_uf=False, limite_bytes=LIMITE_BYTES, limite_arq=LIMITE_ARQ):
@@ -191,11 +209,11 @@ def montar(brutos=BR, out=OUT, por_uf=False, limite_bytes=LIMITE_BYTES, limite_a
         print(f"seções sem local de votação: {len(orfas)} (ex.: {orfas[:5]})")
     if sem_cdi:
         print(f"municípios sem código IBGE no mun-config: {len(sem_cdi)} {sem_cdi[:10]}")
-    n, b = gravar(dados, out, por_uf)
-    if not por_uf and (n > limite_arq or b > limite_bytes):
+    arqs = serializar(dados, por_uf)
+    if not por_uf and (len(arqs) > limite_arq or sum(map(len, arqs.values())) > limite_bytes):
         print(f"acima de {limite_arq} arquivos ou {limite_bytes / 2**20:.0f} MB: gravando por UF")
-        n, b = gravar(dados, out, True)
-    return n, b
+        arqs = serializar(dados, True)
+    return gravar(arqs, out)
 
 
 def main(argv=None):
