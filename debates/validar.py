@@ -317,7 +317,7 @@ def _host_caminho(url):
 
 def _eh_checador(url):
     host, caminho = _host_caminho(url)
-    return any(host == c or host.endswith("." + c) or caminho.startswith(c) for c in CHECADORES)
+    return any(host == c or host.endswith("." + c) or caminho == c or caminho.startswith(c + "/") for c in CHECADORES)
 
 
 def avisos_fontes(checagens, debate):
@@ -424,7 +424,8 @@ def main(argv=None):
         return 1
     print(f"{len(itens)} afirmações")
     for campo in ("quem", "bloco", "tema", "tipo", "autoria"):
-        print(f"{campo}: " + ", ".join(f"{k}={v}" for k, v in sorted(Counter(i[campo] for i in itens).items())))
+        print(f"{campo}: " + ", ".join(f"{k}={v}" for k, v in sorted(Counter(i[campo] for i in itens).items(),
+                                                       key=lambda kv: (len(kv[0]), kv[0]) if campo == "bloco" else kv)))
     for a, b in (("quem", "tipo"), ("quem", "autoria")):
         print(f"{a}×{b}: " + ", ".join(f"{x}/{y}={v}" for (x, y), v in
                                         sorted(Counter((i[a], i[b]) for i in itens).items())))
