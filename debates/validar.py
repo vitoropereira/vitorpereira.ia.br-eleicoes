@@ -30,16 +30,18 @@ FONTES = ("youtube-auto", "whisper", "colado")
 CANDIDATO = ("id", "nome_urna", "partido")
 CORES = ("flavio", "lula", "outros")  # variáveis de partido do brand.css; `cor` do candidato é opcional (padrão outros)
 
-VEREDITO_FATO = ("verdadeiro", "verdadeiro-com-ressalva", "exagerado", "falso", "sem-evidencia", "nao-checavel")
-VEREDITOS = {"dado": VEREDITO_FATO, "fato": VEREDITO_FATO,
-             "promessa": ("ja-existe", "viavel", "depende-do-congresso", "sem-custo-estimado", "inviavel"),
-             "acusacao": ("ha-investigacao", "ha-denuncia", "ha-condenacao", "sem-registro-publico")}
+# escala única de 5 (21/10/2026, decisão do Vitor): a antiga de 13 por tipo complicava a leitura do placar.
+# verdadeiro = verdadeiro + com ressalva; falso-ou-exagerado = falso + exagerado (e promessa inviável);
+# nao-comprovado = sem evidência + não checável + sem registro público; pendente-ou-condicionado = viável +
+# depende do Congresso + sem custo estimado; situacao-identificada = já existe + há investigação/denúncia/condenação.
+VEREDITO = ("verdadeiro", "falso-ou-exagerado", "nao-comprovado", "pendente-ou-condicionado", "situacao-identificada")
+VEREDITOS = {"dado": VEREDITO, "fato": VEREDITO, "promessa": VEREDITO, "acusacao": VEREDITO}
 CHECAGEM = ("id", "veredito", "explicacao", "atualizado_em")
 FONTE = ("url", "titulo", "orgao", "data_publicacao", "acessado_em")
 FRASES = (2, 4)
 
 # retorica.json: uma etiqueta por frase de candidato; a ordem é a de desempate (README, seção 8)
-ETIQUETAS = ("ataque-pessoa", "dado", "proposta", "critica-sem-prova", "emocao", "fala-de-si")
+ETIQUETAS = ("dado", "proposta", "ataque-critica", "apelo")
 CAMPOS_RETORICA = ("id", "timestamp", "quem", "frase", "etiqueta")
 RE_ID_RETORICA = re.compile(r"^r-\d{4}$")
 
@@ -275,7 +277,7 @@ def validar_checagens(checagens, itens, hoje=None):
             data(nome, "atualizado_em", ch["atualizado_em"])
         fontes = ch.get("fontes")
         if not isinstance(fontes, list) or not fontes:
-            erros.append(f"{nome}: falta 'fontes' (lista não vazia, mesmo em sem-evidencia e nao-checavel)")
+            erros.append(f"{nome}: falta 'fontes' (lista não vazia, mesmo em nao-comprovado)")
             continue
         for k, f in enumerate(fontes):
             fn = f"{nome} fonte {k}"

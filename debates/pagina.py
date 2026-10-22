@@ -15,18 +15,19 @@ from pathlib import Path
 import brand
 from debates import validar as V
 
-ROTULOS = {"verdadeiro": "Verdadeiro", "verdadeiro-com-ressalva": "Verdadeiro, com ressalva", "exagerado": "Exagerado",
-           "falso": "Falso", "sem-evidencia": "Sem evidência", "nao-checavel": "Não checável",
-           "ja-existe": "Já existe", "viavel": "Viável", "depende-do-congresso": "Depende do Congresso",
-           "sem-custo-estimado": "Sem custo estimado", "inviavel": "Inviável",
-           "ha-investigacao": "Há investigação", "ha-denuncia": "Há denúncia", "ha-condenacao": "Há condenação",
-           "sem-registro-publico": "Sem registro público"}
-ORDEM_VEREDITOS = list(dict.fromkeys(v for vs in V.VEREDITOS.values() for v in vs))
+ROTULOS = {"verdadeiro": "Verdadeiro", "falso-ou-exagerado": "Falso ou exagerado", "nao-comprovado": "Não comprovado",
+           "pendente-ou-condicionado": "Pendente ou condicionado", "situacao-identificada": "Situação identificada"}
+ORDEM_VEREDITOS = list(V.VEREDITO)
 TEMAS = {"seguranca": "Segurança", "economia": "Economia", "social": "Social", "saude": "Saúde",
          "internacional": "Internacional", "corrupcao-acusacoes": "Corrupção e acusações", "outros": "Outros"}
-ESCALAS = {"dado": "dados e fatos", "promessa": "promessas", "acusacao": "acusações"}
-ETIQUETAS = {"proposta": "Proposta", "dado": "Dado", "fala-de-si": "Fala de si", "emocao": "Emoção",
-             "critica-sem-prova": "Crítica sem prova", "ataque-pessoa": "Ataque à pessoa"}
+DEFINICOES = {"verdadeiro": "a afirmação central se confirma nas fontes",
+              "falso-ou-exagerado": "é desmentida pelas fontes, ou o número central foi inflado",
+              "nao-comprovado": "não há evidência pública que confirme nem desminta, ou é acusação sem registro",
+              "pendente-ou-condicionado": "promessa que ainda não existe e depende de Congresso, custo ou detalhe",
+              "situacao-identificada": "a promessa já existe, ou a acusação tem investigação, denúncia ou condenação"}
+# a ordem de exibição é a do placar; a de desempate é validar.ETIQUETAS
+ETIQUETAS = {"ataque-critica": "Ataques e críticas", "proposta": "Propostas", "apelo": "Apelo pessoal ou emocional",
+             "dado": "Dados e evidências"}
 MEDIACAO = {"id": V.MEDIACAO, "nome_urna": "Mediação", "partido": "", "cor": "outros"}
 
 
@@ -76,6 +77,8 @@ def carregar(pasta):
         certas = {i["id"]: i for i in itens if i["autoria"] == "certa"}
         chs = [c for c in chs if not isinstance(c, dict) or c.get("id") in certas] if isinstance(chs, list) else chs
         erros = V.validar_checagens(chs, itens)
+        # a mediação não entra na checagem publicada (decisão do Vitor, 21/10/2026); o dado fica no arquivo
+        chs = [c for c in chs if certas[c["id"]]["quem"] != V.MEDIACAO] if not erros else chs
     retorica = None
     if not erros and (pasta / "retorica.json").exists():
         try:
@@ -114,7 +117,7 @@ def pct(n, total):
 
 def placar_retorica(m):
     """{quem: {etiqueta: n}} sobre o retorica.json (as 6 etiquetas, zero incluído; candidato sem frase fica de fora)."""
-    conta = {q: dict.fromkeys(V.ETIQUETAS, 0) for q in m["cands"] if any(r["quem"] == q for r in m["retorica"] or [])}
+    conta = {q: dict.fromkeys(ETIQUETAS, 0) for q in m["cands"] if any(r["quem"] == q for r in m["retorica"] or [])}
     for r in m["retorica"] or []:
         conta[r["quem"]][r["etiqueta"]] += 1
     return conta
@@ -270,23 +273,23 @@ def _barras_retorica(linhas):
 
 def como_etiquetamos():
     ordem = ", ".join(ETIQUETAS[e].lower() for e in V.ETIQUETAS)
-    return ('<p class="db-nota">Cada frase dita por um candidato recebeu uma etiqueta: proposta (diz o que vai fazer '
-            'ou propõe (medida futura)), dado (número ou fato verificável), fala de si (fala da própria trajetória, '
-            'caráter ou realização, sem número), emoção (apela a medo, '
-            'raiva, pena ou esperança, sem dado nem proposta), crítica sem prova (critica governo ou ação do adversário '
-            'sem dado) e ataque à pessoa (ataca a pessoa do adversário: caráter, família, amigos ou honestidade). '
+    return ('<p class="db-nota">Cada frase dita por um candidato recebeu uma etiqueta pelo ponto central dela: ataques e '
+            'críticas (ataca ou critica o adversário, o governo, o partido ou aliados, sem que o ponto central seja um '
+            'dado), propostas (diz o que vai fazer), apelo pessoal ou emocional (fala de si ou apela a medo, raiva, pena '
+            'ou esperança) e dados e evidências (número, data ou fato verificável). '
             'Cada etiqueta é uma leitura da frase, não um fato. '
-            'Foi feita por IA lendo só a frase, sem saber quem falou. Dado errado conta como dado: se ele confere é a '
-            'checagem das afirmações que diz. Quando a frase cabe em mais de uma, vale a primeira desta ordem: '
-            f'{esc(ordem)}. Ficam de fora a mediação, cumprimentos, agradecimentos, perguntas de regra e os trechos em '
-            'que não dá para ter certeza de quem fala.</p>')
+            'Foi feita por vários modelos de IA, cada um sem saber quem falou; onde eles divergiram, um desempate pela '
+            'regra decidiu. Dado errado conta como dado: se ele confere é a checagem das afirmações que diz. '
+            f'Quando ainda empata, vale a primeira desta ordem: {esc(ordem)}. Ficam de fora a mediação, cumprimentos, '
+            'agradecimentos, perguntas de regra e os trechos em que não dá para ter certeza de quem fala.</p>')
 
 
 def como_checamos():
-    escalas = "; ".join(f"{nome}: " + ", ".join(ROTULOS[v][0].lower() + ROTULOS[v][1:] for v in V.VEREDITOS[t]) for t, nome in ESCALAS.items())
+    escala = "; ".join(f"{ROTULOS[v].lower()} ({DEFINICOES[v]})" for v in ORDEM_VEREDITOS)
     return ('<section aria-labelledby="metodo"><h2 id="metodo">Como checamos</h2>'
-            '<p>Selecionamos as frases do debate que dá para conferir com dado público. Cada uma recebe um veredito na '
-            f'escala do tipo dela ({esc(escalas)}).</p>'
+            '<p>Selecionamos as frases dos candidatos que dá para conferir com dado público (a mediação fica de fora). '
+            f'Cada uma recebe um de cinco vereditos: {esc(escala)}. A afirmação é checada no sentido em que foi dita: '
+            '"a criminalidade explodiu" olha o crime em geral, não só um indicador.</p>'
             '<p>Toda checagem cita as fontes, com a data de acesso, e diz o que o outro lado responde quando há resposta. '
             'O trecho entre aspas é o da transcrição automática, com os erros dela; a frase acima dele é a versão limpa '
             'da afirmação. Quando uma checagem é corrigida, a data de atualização muda.</p>'
@@ -376,7 +379,7 @@ def gerar(m, base, autor):
         linhas_rt = [(_nome(cands[q]), cands[q]["cor"], conta_rt[q]) for q in conta_rt]
         filtro_rt = ('<form class="db-rt-filtro" aria-label="Filtrar frases" hidden>'
                      + opcoes("candidato", "Quem", [(q, cands[q]["nome_urna"]) for q in conta_rt])
-                     + opcoes("etiqueta", "Etiqueta", [(e, ETIQUETAS[e]) for e in V.ETIQUETAS])
+                     + opcoes("etiqueta", "Etiqueta", [(e, ETIQUETAS[e]) for e in ETIQUETAS])
                      + f'<output aria-live="polite">{len(rt)} de {len(rt)} frases</output></form>')
         lista_rt = "".join(
             f'<li id="{r["id"]}" data-candidato="{attr(r["quem"])}" data-etiqueta="{attr(r["etiqueta"])}" '
@@ -481,7 +484,7 @@ def indice(gerados, base, autor, links=None):
         for q, conta in g.get("retorica", {}).items():
             quem_rt[q] = g["cands"][q]
             for e, k in conta.items():
-                soma_rt.setdefault(q, dict.fromkeys(V.ETIQUETAS, 0))[e] += k
+                soma_rt.setdefault(q, dict.fromkeys(ETIQUETAS, 0))[e] += k
     retorica_html = ""
     quem_rt.update({q: c for q, c in quem.items() if q in quem_rt})  # o nome do placar de vereditos, se houver
     if soma_rt:
