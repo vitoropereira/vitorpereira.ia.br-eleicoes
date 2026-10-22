@@ -145,7 +145,8 @@ select jobname, schedule, active from cron.job where jobname = 'eleicoes-agregad
 O `net.http_post` desiste em 5 s; a função responde 202 e termina o trabalho em segundo plano (`EdgeRuntime.waitUntil`).
 Uma trava em `_estado.json` impede rodadas sobrepostas.
 
-**O cron já está ativo**; sem eleição ele devolve `sem-eleicao`. Pendência de 24/10: zerar o ensaio
+**O cron já está ativo**. Ele só devolve `sem-eleicao` depois de zerado: enquanto `_estado.json` guardar o `ele`
+do ensaio, a rodada pula a descoberta (`executar.ts:175`) e bate no TSE a cada minuto. Pendência de 24/10: zerar o ensaio
 ([`zerar-ensaio.md`](zerar-ensaio.md)), que pausa e reativa o cron. Reativar à mão:
 ```sql
 select cron.alter_job(job_id := (select jobid from cron.job where jobname = 'eleicoes-agregador'), active := true);

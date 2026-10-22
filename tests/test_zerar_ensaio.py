@@ -13,6 +13,7 @@ def sem_rede(*a, **k):
 
 
 def rodar(argv, **kw):
+    kw.setdefault("agora", lambda: 1000000.0)  # relógio fixo: o teste não pode depender da data de hoje
     out = io.StringIO()
     with contextlib.redirect_stdout(out), contextlib.redirect_stderr(out):
         codigo = Z.main(argv, **kw)
@@ -139,6 +140,13 @@ class Executar(unittest.TestCase):
         codigo, _ = rodar(["--executar"], fabrica=lambda: c, dormir=dormiu.append, agora=lambda: 1000000.0)
         self.assertEqual(codigo, 0)
         self.assertGreaterEqual(sum(dormiu), 60)
+
+    def test_recusa_depois_de_25_10_17h(self):
+        def nao_crie():
+            raise AssertionError("criou o cliente depois do limite")
+        codigo, saida = rodar(["--executar"], fabrica=nao_crie, agora=lambda: Z.LIMITE)
+        self.assertNotEqual(codigo, 0)
+        self.assertIn("recusado", saida)
 
     def test_falha_ao_apagar_nao_reativa(self):
         c = ClienteFalso(falhar_apagar=True)

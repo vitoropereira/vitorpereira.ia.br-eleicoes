@@ -11,6 +11,7 @@ Nunca rodar em 25/10 depois das 17h.
 import argparse
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -24,6 +25,7 @@ BUCKET = "vivo"
 ALVOS = ["_estado.json", "_parcial.json", "agora.json", "feed.json"]
 SERIE = "serie/"
 INTOCAVEL = "config.json"
+LIMITE = 1_792_958_400  # epoch s de 25/10/2026 17:00 em Brasília (20:00 UTC): daqui em diante, --executar recusa
 ESPERA_INICIAL = 10  # s: uma chamada do pg_net disparada logo antes da pausa ainda pega a trava
 ESPERA_MAX = 300  # s: a trava dura no máximo orçamento (100 s) + 30 s; acima disso é trava velha
 SQL_PAUSA = f"select cron.alter_job(job_id := (select jobid from cron.job where jobname = '{JOB}'), active := false);"
@@ -44,10 +46,12 @@ def ler_env():
     return env
 
 
-def pedir(metodo, url, token, corpo=None):
+def pedir(metodo, url, token, corpo=None, apikey=False):
     dados = None if corpo is None else json.dumps(corpo).encode()
     req = urllib.request.Request(url, data=dados, method=metodo)
     req.add_header("Authorization", f"Bearer {token}")
+    if apikey:  # o gateway do Storage exige também o header apikey (como em gravar.ts)
+        req.add_header("apikey", token)
     if dados is not None:
         req.add_header("Content-Type", "application/json")
     with urllib.request.urlopen(req, timeout=30) as r:
@@ -76,7 +80,7 @@ class Cliente:
         nomes, offset = [], 0
         while True:
             lote = json.loads(pedir("POST", f"{self.storage}/object/list/{BUCKET}", self.chave,
-                                    {"prefix": prefixo, "limit": 1000, "offset": offset}))
+                                    {"prefix": prefixo, "limit": 1000, "offset": offset}, apikey=True))
             nomes += [prefixo + o["name"] for o in lote if o.get("id")]  # sem id = pasta
             if len(lote) < 1000:
                 return nomes
@@ -84,14 +88,19 @@ class Cliente:
 
     def ler(self, caminho):
         try:
-            return pedir("GET", f"{self.storage}/object/{BUCKET}/{urllib.parse.quote(caminho)}", self.chave)
+            return pedir("GET", f"{self.storage}/object/{BUCKET}/{urllib.parse.quote(caminho)}", self.chave,
+                         apikey=True)
         except urllib.error.HTTPError as e:
-            if e.code in (400, 404):  # o Storage responde 400 + NoSuchKey para objeto ausente
+            if e.code == 404:
                 return None
-            raise
+            # o Storage responde 400 + not_found para objeto ausente; outro 400 (jwt inválido, bucket errado) é erro
+            corpo = e.read().decode("utf-8", "replace")
+            if e.code == 400 and re.search(r"not_found|object not found|NoSuchKey", corpo, re.I):
+                return None
+            raise RuntimeError(f"Storage ler {caminho}: {e.code} {corpo[:200]}") from None
 
     def apagar(self, caminhos):
-        pedir("DELETE", f"{self.storage}/object/{BUCKET}", self.chave, {"prefixes": list(caminhos)})
+        pedir("DELETE", f"{self.storage}/object/{BUCKET}", self.chave, {"prefixes": list(caminhos)}, apikey=True)
 
 
 def dry_run():
@@ -136,10 +145,9 @@ def executar(cliente, dormir, agora):
         print(f"   trava ativa: esperando {espera:.0f} s")
         dormir(espera)
 
-    alvos = ALVOS + []
+    alvos = list(ALVOS)
     try:
         alvos += cliente.listar(SERIE)
-        alvos = [a for a in alvos if a != INTOCAVEL]
         print(f"3. apagando {len(alvos)} objetos")
         cliente.apagar(alvos)
         print("4. conferindo")
@@ -171,6 +179,9 @@ def main(argv=None, fabrica=Cliente, dormir=time.sleep, agora=time.time):
     a = ap.parse_args(argv)
     if not a.executar:
         return dry_run()
+    if agora() >= LIMITE:
+        print("recusado: depois de 25/10 17h (Brasília) zerar apagaria a apuração de verdade")
+        return 2
     return executar(fabrica(), dormir, agora)
 
 
