@@ -225,6 +225,32 @@ class PaginaAfirmacao(unittest.TestCase):
             self.assertIn('href="/debates/"', a["html"])
             self.assertIn(f'href="{g["path"]}#', a["html"])
 
+    def test_titulo_sem_aspas_e_trilha_sem_id(self):
+        m = dp.carregar(TESTE)
+        g = dp.gerar(m, B.BASE, B.PESSOA)
+        for a in g["afirmacoes"]:
+            ident = a["path"].rstrip("/").rsplit("/", 1)[1]
+            item = m["itens"][ident]
+            prefixo = f"Afirmação de {dp._nome(g['cands'][item['quem']])}: "
+            self.assertTrue(a["titulo"].startswith(prefixo), a["titulo"])
+            for aspa in "“”\"":
+                self.assertNotIn(aspa, a["titulo"])
+            h1 = re.search(r"<h1>(.*?)</h1>", a["html"]).group(1)
+            self.assertTrue(h1.startswith(prefixo), h1)
+            for aspa in ("“", "”", "&quot;"):
+                self.assertNotIn(aspa, h1)
+            self.assertIn(item["afirmacao"][:30], h1)
+            titulo_html = re.search(r"<title>(.*?)</title>", a["html"]).group(1)
+            self.assertNotIn("“", titulo_html)
+            self.assertNotIn("”", titulo_html)
+            self.assertIn("<blockquote", a["html"])
+            self.assertIn(f"“{html.escape(item['trecho'], quote=False)}”", a["html"])
+            nav = re.search(r'<nav class="db-crumbs".*?</nav>', a["html"], re.S).group(0)
+            self.assertNotIn(ident, nav)
+            self.assertIn(dp.TEMAS[item["tema"]], nav)
+            bc = [x for x in a["ld"] if x["@type"] == "BreadcrumbList"][0]
+            self.assertNotIn(ident, [i["name"] for i in bc["itemListElement"]])
+
     def test_og_afirmacao_corta_frase(self):
         h = B.og_afirmacao("palavra " * 60, "Ana Silva (PA)", "flavio", "Falso")
         q = re.search(r"<q>(.*?)</q>", h).group(1)

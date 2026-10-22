@@ -255,6 +255,11 @@ def _breadcrumb(base, itens):
         {"@type": "ListItem", "position": i, "name": n, "item": base + h} for i, (n, h) in enumerate(itens, 1)]}
 
 
+def _cortar(s, n):
+    """s até n caracteres, cortado na fronteira de palavra e terminado em …"""
+    return s if len(s) <= n else s[:n - 3].rsplit(" ", 1)[0] + "…"
+
+
 def _nome(c):
     return f'{c["nome_urna"]} ({c["partido"]})' if c["partido"] else c["nome_urna"]
 
@@ -443,16 +448,17 @@ def gerar(m, base, autor):
         cd = cands[a["quem"]]
         p = af_path(a["id"])
         frase = a["afirmacao"]
-        curta = frase if len(frase) <= 90 else frase[:87].rsplit(" ", 1)[0] + "…"
-        t = f"{cd['nome_urna']}: “{curta}” · {ROTULOS[c['veredito']]}"
-        corpo_af = (_trilha(trilha + [(a["id"], None)])
+        curta = _cortar(frase, 90)
+        migalha = f"{TEMAS[a['tema']]}: {_cortar(frase, 40)}"
+        t = f"Afirmação de {_nome(cd)}: {curta} · {ROTULOS[c['veredito']]}"
+        corpo_af = (_trilha(trilha + [(migalha, None)])
                     + f'<p class="db-kicker">Checagem · {esc(rotulo)} · {esc(TEMAS[a["tema"]])}</p>'
-                    f'<h1>{esc(cd["nome_urna"])}: “{esc(frase)}”</h1>{cartao(c, link=False)}'
+                    f'<h1>Afirmação de {esc(_nome(cd))}: {esc(frase)}</h1>{cartao(c, link=False)}'
                     f'<p><a href="{path}#{a["id"]}">← Todas as checagens do debate {esc(emissora)}</a></p>'
                     f'{como_checamos()}')
         afs.append(dict(path=p, titulo=t, desc=f"Veredito: {ROTULOS[c['veredito']]}. {c['explicacao']}"[:300],
                         html=_doc(t, corpo_af), publicado=publicado, modificado=c["atualizado_em"],
-                        ld=[claim(c), _breadcrumb(base, trilha + [(a["id"], p)])],
+                        ld=[claim(c), _breadcrumb(base, trilha + [(migalha, p)])],
                         og=(f"{og}-{a['id']}", frase, _nome(cd), cd["cor"], ROTULOS[c["veredito"]])))
 
     tt = f"Transcrição do debate {emissora} ({turno}º turno, {dia})"
