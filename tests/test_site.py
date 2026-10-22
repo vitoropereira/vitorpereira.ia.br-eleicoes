@@ -51,6 +51,18 @@ class Moldura(unittest.TestCase):
     def test_foco_usa_brand(self):
         self.assertNotIn("var(--flavio)", B.SITE_CSS + B.MEDICAO_CSS + B.MEDICAO_JS)
 
+    def test_cabecalho_compacto_no_celular(self):
+        m = re.search(r"@media \(max-width:640px\)\{(.*?)\}\}", B.SITE_CSS, re.S)
+        self.assertIsNotNone(m)
+        css = m.group(1)
+        nav = re.search(r"\.sitebar nav\.top\{([^}]*)\}", css)
+        self.assertIsNotNone(nav)
+        self.assertIn("flex-wrap:nowrap", nav.group(1))
+        self.assertIn("overflow-x:auto", nav.group(1))
+        links = re.search(r"\.sitebar nav\.top a\{([^}]*)", css)
+        self.assertIsNotNone(links)
+        self.assertIn("white-space:nowrap", links.group(1))
+
 
 class Saida(unittest.TestCase):
     SITE = R / "site"
