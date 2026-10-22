@@ -141,8 +141,13 @@ def juntar(secao_zip, locais_zip, cfg):
         aptos, comp = sum(s[2] for s in secs), sum(s[3] for s in secs)
         v = [sum(x) for x in zip(*(s[4] for s in secs))]
         bn = sum(s[5] for s in secs)
-        for s in secs:
-            if s[3] < PISO:
+        ocultas = {i for i, s in enumerate(secs) if s[3] < PISO}
+        # supressão complementar: total do local menos as visíveis não pode revelar uma seção abaixo do piso
+        visiveis = sorted((s[3], i) for i, s in enumerate(secs) if i not in ocultas)
+        while ocultas and visiveis and sum(secs[i][3] for i in ocultas) < PISO:
+            ocultas.add(visiveis.pop(0)[1])
+        for i, s in enumerate(secs):
+            if i in ocultas:
                 s[4] = s[5] = None
             else:
                 s[4] = _apara(s[4])
@@ -173,11 +178,6 @@ def gravar(dados, out, por_uf=False):
     return len(arqs), sum(p.stat().st_size for p in pasta.glob("*.json"))
 
 
-def tamanho(dados):
-    return sum(len(json.dumps({"cand": r["cand"], "t": r["t"]}, separators=(",", ":"), ensure_ascii=False).encode())
-               for r in dados.values())
-
-
 def montar(brutos=BR, out=OUT, por_uf=False, limite_bytes=LIMITE_BYTES, limite_arq=LIMITE_ARQ):
     """Lê os ZIPs de brutos/, grava em out/locais/ e devolve (n_arquivos, bytes).
     Acima do limite (arquivos ou bytes), grava por UF mesmo sem por_uf."""
@@ -191,10 +191,11 @@ def montar(brutos=BR, out=OUT, por_uf=False, limite_bytes=LIMITE_BYTES, limite_a
         print(f"seções sem local de votação: {len(orfas)} (ex.: {orfas[:5]})")
     if sem_cdi:
         print(f"municípios sem código IBGE no mun-config: {len(sem_cdi)} {sem_cdi[:10]}")
-    if not por_uf and (len(dados) > limite_arq or tamanho(dados) > limite_bytes):
+    n, b = gravar(dados, out, por_uf)
+    if not por_uf and (n > limite_arq or b > limite_bytes):
         print(f"acima de {limite_arq} arquivos ou {limite_bytes / 2**20:.0f} MB: gravando por UF")
-        por_uf = True
-    return gravar(dados, out, por_uf)
+        n, b = gravar(dados, out, True)
+    return n, b
 
 
 def main(argv=None):

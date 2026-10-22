@@ -5,12 +5,11 @@ Download sequencial e sem extrair: montar_secao.py lê os ZIPs direto.
 Uso: python3 municipios/baixar_secao.py"""
 import sys
 import urllib.request
-from datetime import date
 from pathlib import Path
 
 H = Path(__file__).resolve().parent
 sys.path.insert(0, str(H.parent))
-from rastro.baixar import BASE, DIA_APURACAO, baixar_todos  # noqa: E402
+from rastro.baixar import BASE, baixar_todos  # noqa: E402
 from municipios.baixar_t2022 import CONFIG_MUN  # noqa: E402
 
 OUT = H / "brutos_secao"
@@ -20,9 +19,7 @@ ARQUIVOS = [URL_SECAO, URL_LOCAIS, CONFIG_MUN]
 
 
 def baixar(out=OUT, opener=urllib.request.urlopen, hoje=None):
-    """Baixa os dois ZIPs e o mun-config do TSE em out/. Em 25/10 sai antes de qualquer requisição."""
-    if (hoje or date.today()) == DIA_APURACAO:
-        raise SystemExit("25/10: não baixar nada do TSE no dia da apuração (mesmo IP de saída do agregador)")
+    """Baixa os dois ZIPs e o mun-config do TSE em out/. Em 25/10 rastro.baixar sai antes de qualquer requisição."""
     return baixar_todos(ARQUIVOS, out, opener, hoje)
 
 

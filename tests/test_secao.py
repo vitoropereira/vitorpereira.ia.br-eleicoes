@@ -74,7 +74,7 @@ class TestLinhasZip(Base):
         with mock.patch.object(zipfile.ZipFile, "extractall", side_effect=AssertionError("extraiu")), \
                 mock.patch.object(zipfile.ZipFile, "read", side_effect=AssertionError("leu inteiro")):
             linhas = list(ms.linhas_zip(z))
-        self.assertEqual(len(linhas), 17)
+        self.assertEqual(len(linhas), 20)
         self.assertEqual(linhas[0]["NM_VOTAVEL"], "LULA")
         nomes = [r["NM_LOCAL_VOTACAO"] for r in ms.linhas_zip(self.br / ms.ZIP_LOCAIS)]
         self.assertIn("ESCOLA SÃO JOSÉ", nomes)
@@ -90,9 +90,9 @@ class TestJuncao(Base):
         dados, _, _ = self.juntar()
         lc = self.local(dados, "1200401", "ESCOLA SÃO JOSÉ")
         self.assertEqual(lc[:5], [-9.97, -67.81, "ESCOLA SÃO JOSÉ", "CENTRO", "69900"])
-        # aptos: 300 + 50 + 20 (seção 3 agregada à 2); comparecimento: 190 + 12
-        self.assertEqual(lc[5:9], [370, 202, [107, 83], 12])
-        self.assertEqual([s[:4] for s in lc[9]], [[9, 1, 300, 190], [9, 2, 70, 12]])
+        # aptos: 300 + 50 + 20 (seção 3 agregada à 2) + 60; comparecimento: 190 + 12 + 40
+        self.assertEqual(lc[5:9], [430, 242, [127, 98], 17])
+        self.assertEqual([s[:4] for s in lc[9]], [[9, 1, 300, 190], [9, 2, 70, 12], [9, 7, 60, 40]])
         self.assertEqual(lc[9][0][4:], [[100, 80], 10])
 
     def test_ignora_outros_cargos(self):
@@ -140,9 +140,18 @@ class TestPiso(Base):
         dados, _, _ = self.juntar()
         lc = self.local(dados, "1200401", "ESCOLA SÃO JOSÉ")
         visiveis = [s for s in lc[9] if s[4] is not None]
-        self.assertEqual(lc[7], [107, 83])
+        self.assertEqual(lc[7], [127, 98])
         self.assertNotEqual(lc[7], [sum(x) for x in zip(*(s[4] for s in visiveis))])
         self.assertEqual(lc[6], sum(s[3] for s in lc[9]))
+
+    def test_supressao_complementar_nao_deixa_deduzir_a_secao_oculta(self):
+        # só a seção 2 (12) está abaixo do piso: total do local - visíveis revelaria o voto dela.
+        # A menor visível (seção 7, 40) também é ocultada, e as ocultas somam 52 >= PISO.
+        dados, _, _ = self.juntar()
+        lc = self.local(dados, "1200401", "ESCOLA SÃO JOSÉ")
+        self.assertEqual(lc[9][2], [9, 7, 60, 40, None, None])
+        self.assertEqual(lc[9][0][4:], [[100, 80], 10])
+        self.assertGreaterEqual(sum(s[3] for s in lc[9] if s[4] is None), ms.PISO)
 
 
 class TestTurnos(Base):
