@@ -1,6 +1,24 @@
 # Agregador do 2º turno: o que precisa do seu OK
 
-Nada aqui foi executado. Nenhum deploy, bucket, extensão, cron ou migration existe ainda.
+## Estado em 22/10/2026
+
+Fonte: corpo da issue #141. Este PR **não consultou produção**, por isso as marcas "(não verificado por este PR)".
+
+- Bucket `vivo` criado, função `agregador-eleicoes` publicada e cron `eleicoes-agregador` **ativo** (`* * * * *`).
+- Restos do ensaio de 09 a 15/10 no bucket: `_estado.json` com `ultimoIdg=3528975` (de 15/10); `agora.json`, `feed.json`
+  e `serie/` com pontos de ensaio. **Pendência de 24/10:** zerar com [`zerar-ensaio.md`](zerar-ensaio.md).
+
+| Passo | Situação |
+|---|---|
+| 1. bucket `vivo` | feito (não verificado por este PR) |
+| 2. policies restrictive | pendente de conferência (não verificado por este PR) |
+| 3. extensões | feito: o cron chama `net.http_post` (não verificado por este PR) |
+| 4. segredo | feito: a função roda pelo cron (não verificado por este PR) |
+| 5. deploy | feito (não verificado por este PR) |
+| 6. cron | feito, **ativo** (não verificado por este PR) |
+| 6c. presença | chave em `config.json`; estado atual não verificado por este PR |
+| zerar o ensaio | **pendente**, 24/10 |
+
 Projeto: `qzczyicspbizosjogmlq` (compartilhado com vitorpereira.ia.br: só recursos novos, nomes `vivo` e `eleicoes-agregador`).
 
 O que está pronto no repo: `supabase/functions/agregador-eleicoes/` (função + testes) e `supabase/simular.ts` (simulador do TSE).
@@ -127,7 +145,9 @@ select jobname, schedule, active from cron.job where jobname = 'eleicoes-agregad
 O `net.http_post` desiste em 5 s; a função responde 202 e termina o trabalho em segundo plano (`EdgeRuntime.waitUntil`).
 Uma trava em `_estado.json` impede rodadas sobrepostas.
 
-**Ativar em 25/10** (quando `?sincrono=1` deixar de devolver `sem-eleicao`):
+**O cron já está ativo**. Ele só devolve `sem-eleicao` depois de zerado: enquanto `_estado.json` guardar o `ele`
+do ensaio, a rodada pula a descoberta (`executar.ts:175`) e bate no TSE a cada minuto. Pendência de 24/10: zerar o ensaio
+([`zerar-ensaio.md`](zerar-ensaio.md)), que pausa e reativa o cron. Reativar à mão:
 ```sql
 select cron.alter_job(job_id := (select jobid from cron.job where jobname = 'eleicoes-agregador'), active := true);
 ```

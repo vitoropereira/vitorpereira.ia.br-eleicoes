@@ -21,6 +21,7 @@ Repo **público**: nada de segredo em commit.
   `window.HUD_PRESENCE`. Nunca trocar por `service_role`/`sb_secret_`: `tests/test_hud.py` barra isso.
   Só conecta com `vivo/config.json` = `{"presenca": true}` (chave geral; ver `supabase/PROPOSTA.md`, 6c).
 - Ensaio geral do 2º turno, todo local: `supabase/ensaio.md`.
+- Zerar em `vivo/` o estado do ensaio (24/10, nunca em 25/10 depois das 17h): `supabase/zerar-ensaio.md`.
 
 ## Comandos
 - Gate (dev-flow): `python3 -m pytest -q` e `ruff check .` (config em `pyproject.toml`, só tooling)
