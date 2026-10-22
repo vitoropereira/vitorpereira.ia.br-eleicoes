@@ -67,26 +67,35 @@ class Placar(unittest.TestCase):
     def checar(self, pasta):
         m = dp.carregar(pasta)
         quem = {i["id"]: i["quem"] for i in json_de(pasta, "afirmacoes.json") if i["autoria"] == "certa"}
-        esperado = Counter((quem[c["id"]], c["veredito"]) for c in json_de(pasta, "checagens.json") if c["id"] in quem)
+        tipo = {i["id"]: i["tipo"] for i in json_de(pasta, "afirmacoes.json")}
+        esperado = Counter((quem[c["id"]], dp.GRUPO_DO_TIPO[tipo[c["id"]]], c["veredito"])
+                           for c in json_de(pasta, "checagens.json") if c["id"] in quem)
         conta = dp.placar(m)
-        self.assertEqual(sum(sum(c.values()) for c in conta.values()), len(m["checagens"]))
-        for q, c in conta.items():
-            self.assertEqual(list(c), [v for v in dp.ORDEM_VEREDITOS if v in c], "mesma ordem de validar.VEREDITOS")
-            for v, n in c.items():
-                self.assertEqual(n, esperado[(q, v)], (q, v))
+        self.assertEqual(sum(dp.total(c) for c in conta.values()), len(m["checagens"]))
+        for q, gs in conta.items():
+            self.assertEqual(list(gs), [g for g in dp.GRUPOS if g in gs], "mesma ordem de GRUPOS")
+            for g, c in gs.items():
+                self.assertEqual(list(c), [v for v in dp.ORDEM_VEREDITOS if v in c], "mesma ordem de validar.VEREDITO")
+                for v, n in c.items():
+                    self.assertEqual(n, esperado[(q, g, v)], (q, g, v))
         h = gerar(pasta)["html"]
         sec = re.search(r'<section aria-labelledby="placar">.*?</section>', h).group(0)
-        for q, c in conta.items():
-            total = sum(c.values())
-            for v, n in c.items():
-                self.assertIn(f"<li><span>{html.escape(dp.ROTULOS[v], quote=False)}</span><span>{n} ({round(100 * n / total)}%)</span></li>", sec)
+        for q, gs in conta.items():
+            self.assertIn(f"<li><span>Total</span><span>{dp.total(gs)}</span></li>", sec)
+            for g, c in gs.items():
+                n_g = sum(c.values())
+                if n_g:
+                    self.assertIn(f"<h4><span>{html.escape(dp.GRUPOS[g][0], quote=False)}</span><span>{n_g}</span></h4>", sec)
+                for v, n in c.items():
+                    if n_g:  # o percentual é dentro do grupo
+                        self.assertIn(f"<li><span>{html.escape(dp.ROTULOS[v], quote=False)}</span><span>{n} ({round(100 * n / n_g)}%)</span></li>", sec)
         self.assertNotRegex(sec, PROIBIDAS)
 
     def test_fixture(self):
         self.checar(TESTE)
         conta = dp.placar(dp.carregar(TESTE))
         self.assertNotIn("mediacao", conta)  # mediação fora da checagem publicada (21/10/2026)
-        self.assertEqual(set().union(*conta.values()) - set(dp.ROTULOS), set())
+        self.assertEqual({v for gs in conta.values() for c in gs.values() for v in c} - set(dp.ROTULOS), set())
 
     @unittest.skipUnless((REAL / "checagens.json").exists(), "debate da Band ainda sem checagens.json")
     def test_band(self):
@@ -229,10 +238,11 @@ class Indice(unittest.TestCase):
         gs = [dp.gerar(m, B.BASE, B.PESSOA) for m in dp.listar(FIXTURE)]
         self.assertEqual([g["path"] for g in gs], ["/debates/2030/governador-1-turno-fict/", "/debates/2026/presidente-2-turno-teste/"])
         idx = dp.indice(gs, B.BASE, B.PESSOA)
-        soma = {q: {v: n for v, n in c.items() if n} for q, c in idx["placar"].items()}
+        soma = {q: Counter({v: n for c in gs.values() for v, n in c.items() if n}) for q, gs in idx["placar"].items()}
         self.assertEqual(soma["ana-silva-pa"], {"verdadeiro": 1, "falso-ou-exagerado": 1, "pendente-ou-condicionado": 1})  # está nos dois debates
         self.assertEqual(soma["bruno-lima-pb"], {"falso-ou-exagerado": 1})
         self.assertEqual(soma["carla-souza-pc"], {"verdadeiro": 1})
+        self.assertNotIn("verdadeiro", idx["placar"]["ana-silva-pa"].get("promessas", {}))  # promessa não vira verdadeiro
         self.assertNotIn("mediacao", idx["placar"])
         h = idx["html"]
         self.assertLess(h.index("/debates/2030/governador-1-turno-fict/"), h.index("/debates/2026/presidente-2-turno-teste/"))
@@ -257,8 +267,12 @@ class PlacarPorCandidato(unittest.TestCase):
         quem = {c["id"]: c["id_tse"] for c in json_de(REAL, "debate.json")["candidatos"]}
         self.assertEqual(set(pc), {"280002542548", "280002551544"})  # mediação fora
         for q, sq in quem.items():
-            direto = Counter(c["veredito"] for c in chs if itens[c["id"]]["quem"] == q)
-            self.assertEqual(pc[sq]["conta"], dict(direto), q)
+            direto = {}
+            for c in chs:
+                if itens[c["id"]]["quem"] == q:
+                    g = direto.setdefault(dp.GRUPO_DO_TIPO[itens[c["id"]]["tipo"]], Counter())
+                    g[c["veredito"]] += 1
+            self.assertEqual(pc[sq]["conta"], {g: dict(c) for g, c in direto.items()}, q)
             (d,) = pc[sq]["debates"]
             self.assertEqual((d["rotulo"], d["path"]), ("Debate Band 2º turno 2026", "/debates/2026/presidente-2-turno-band/"))
             self.assertEqual(sorted(a["path"] for a in d["afirmacoes"]),
