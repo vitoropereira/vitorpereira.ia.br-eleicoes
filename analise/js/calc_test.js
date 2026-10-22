@@ -187,7 +187,7 @@ Deno.test("terra × gente: frases com os números do JSON, sem palavra vetada", 
       Norte: grupo({ area_br: 0.4534, validos_br: 0.0857 }),
       PB: grupo({ lula_pct: 0.6131, flavio_pct: 0.3307, area_br: 0.0067, validos_br: 0.0211, venc: { L: { mun: 223, area: 56718, validos: 2513747, area_pct: 1, validos_pct: 1 }, F: vz, E: vz } }),
     },
-    capital_sp: { nome: "São Paulo", validos: 6552820, n_menores: 2074, area_menores: 1306368, area: 1535 },
+    capital_sp: { nome: "São Paulo", validos: 6552820, n_menores: 2074, area_menores: 1306368, area: 1535, menores_sem_area: 1 },
     sem_geometria: [{ cd: "5101837", nome: "Boa Esperança do Norte", uf: "MT" }],
   } };
   const s = secTerraGente(D, "BR");
@@ -198,6 +198,7 @@ Deno.test("terra × gente: frases com os números do JSON, sem palavra vetada", 
   const tx = s.frases.join(" ");
   for (const n of ["2.906", "2.663", "68,9%", "49,7%", "31,1%", "50,3%", "6.552.820", "2.074", "45,3%", "8,57%"]) assert(tx.includes(n), n);
   for (const v of ["exager", "engan", "distorc", "mentir", "na verdade"]) assert(!tx.toLowerCase().includes(v), v);
+  assert(tx.includes("sem a área de 1 município sem polígono na malha"), "menores sem área");
   assertEquals(s.semGeo.map((x) => x.cd), ["5101837"]);
   const pb = secTerraGente(D, "PB");
   assertEquals(pb.k, "L");

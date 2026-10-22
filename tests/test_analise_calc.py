@@ -327,6 +327,7 @@ class TestTerraGente(unittest.TestCase):
         cap = t["capital_sp"]
         self.assertEqual((cap["nome"], cap["validos"], cap["n_menores"]), ("São Paulo", 6552820, 2074))
         self.assertGreaterEqual(cap["soma_menores"], cap["validos"])
+        self.assertEqual(cap["menores_sem_area"], 1)  # Boa Esperança do Norte está entre as menores e não tem polígono
         self.assertAlmostEqual(norte["area_br"], 0.453, delta=0.0005)
         self.assertAlmostEqual(norte["validos_br"], 0.0857, delta=0.00005)
         self.assertEqual([s["cd"] for s in t["sem_geometria"]], ["5101837"])

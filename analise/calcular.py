@@ -983,7 +983,7 @@ def terra_gente(b, areas=None):
         if cd not in b.mun or pl[2] == 0: continue
         nm, uf = b.mun[cd]
         lu, fl = pl[5][b.i_lula], pl[5][b.i_flavio]
-        v = "L" if lu > fl else ("F" if fl > lu else "E")
+        v = lado_pres(lu, fl, "F")
         ar = areas.get(cd)
         if ar is None: sem_geo.append({"cd": cd, "nome": nm, "uf": uf, "validos": pl[2]})
         if v == "E": empates.append({"cd": cd, "nome": nm, "uf": uf})
@@ -1014,7 +1014,8 @@ def terra_gente(b, areas=None):
         n, soma = n + 1, soma + v
     capital = {"cd": CAPITAL_SP, "nome": b.mun[CAPITAL_SP][0], "uf": "SP", "validos": cap, "n_menores": n,
                "soma_menores": soma, "area": round(areas.get(CAPITAL_SP, 0)),
-               "area_menores": round(sum(areas.get(cd, 0) for _, cd in lista[:n]))}
+               "area_menores": round(sum(areas.get(cd, 0) for _, cd in lista[:n])),
+               "menores_sem_area": sum(cd not in areas for _, cd in lista[:n])}
     return {"grupos": G, "regioes": {rg: ufs.split() for rg, ufs in REGIOES.items()}, "capital_sp": capital,
             "empates": empates, "sem_geometria": sem_geo, "mu": mu,
             "criterio": ("Presidente, 1º turno. Vencedor do município = quem teve mais votos entre "

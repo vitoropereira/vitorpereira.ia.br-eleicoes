@@ -339,7 +339,7 @@ export function secTerraGente(D, uf) {
   ];
   const cap = t.capital_sp, norte = t.grupos.Norte;
   if (uf !== "BR") frases.push(`${UF_NOME[uf]} tem ${pct(g.area_br)} da área do país e ${pct(g.validos_br, 2)} dos votos válidos para presidente.`);
-  if ((uf === "BR" || uf === "SP") && cap) frases.push(`A cidade de ${cap.nome} teve ${int(cap.validos)} votos válidos para presidente, tanto quanto as ${int(cap.n_menores)} menores cidades do país somadas, que ocupam ${int(cap.area_menores)} km² contra ${int(cap.area)} km² da capital.`);
+  if ((uf === "BR" || uf === "SP") && cap) frases.push(`A cidade de ${cap.nome} teve ${int(cap.validos)} votos válidos para presidente, tanto quanto as ${int(cap.n_menores)} menores cidades do país somadas, que ocupam ${int(cap.area_menores)} km²${cap.menores_sem_area ? ` (sem a área de ${cap.menores_sem_area === 1 ? "1 município sem polígono" : `${int(cap.menores_sem_area)} municípios sem polígono`} na malha)` : ""} contra ${int(cap.area)} km² da capital.`);
   if (uf === "BR" && norte) frases.push(`A região Norte tem ${pct(norte.area_br)} da área do país e ${pct(norte.validos_br, 2)} dos votos válidos.`);
   const semGeo = (t.sem_geometria || []).filter((x) => uf === "BR" || x.uf === uf);
   return {

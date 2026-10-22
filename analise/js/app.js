@@ -191,7 +191,7 @@ function TerraGente({ s, D, uf }) {
   const mu = D["terra-gente"]?.mu || {}, g = s.g, v = g.venc;
   const nome = (cd) => D.mun?.[cd]?.[0] || cd;
   const VENC = { L: CAND.L, F: CAND.F, E: "empate" };
-  const corDe = (cd) => { const m = mu[cd]; if (!m) return null; return m[1] === "E" ? corApagada() : corLado(m[1], 0.95); };
+  const corDe = (cd) => { const m = mu[cd]; if (!m) return null; return m[1] === "E" ? corApagada(0.95) : corLado(m[1], 0.95); };
   const dica = (cd) => {
     const m = mu[cd];
     if (!m) return html`<${Dk} t=${nome(cd)} linhas=${[[null, "Sem dados", ""]]} />`;
