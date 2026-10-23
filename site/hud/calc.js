@@ -28,7 +28,7 @@ export function cargoTurno(cargo, turno) {
   if (cargo === "governador") return { off: true, dica: "Governadores do 2º turno: acompanhe no TSE", link: TSE_RESULTADOS };
   return { off: true, dica: "No 2º turno só há votação para presidente aqui", link: null };
 }
-export const MODOS = [["municipios", "Municípios"], ["estados", "Estados"], ["vantagem", "Vantagem"], ["apurado", "Apurado"], ["divergencia", "Divergência"]];
+export const MODOS = [["municipios", "Municípios"], ["estados", "Estados"], ["vantagem", "Vantagem"], ["apurado", "Apurado"], ["divergencia", "Divergência"], ["pessoas", "Pessoas"]];
 
 // ---------- modo Divergência (dados da Análise: /analise/dados/divergencias.json)
 // Lados: L = campo de Lula, F = campo de Flávio, C = centro/sem lado. Cor só por token de campo.
@@ -202,6 +202,17 @@ export function senadoEleitos(of, pst) {
 }
 
 /** 2º turno: o modo Apurado depende do `pm` (% por município); leitura sem `pm` volta para Municípios. */
+/** raio do círculo do modo Pessoas: área ∝ eleitorado (k vem de geo/pessoas.json) */
+export const raioPessoas = (te, k) => k * Math.sqrt(te);
+
+/** círculos alinhados a `muns` (mesmos índices): {x,y,r} ou null sem posição no arquivo (ex.: 5101837, sem polígono) */
+export function bolhasPessoas(muns, pessoas) {
+  return muns.map((m) => {
+    const p = pessoas?.mu?.[m.cod];
+    return p ? { x: p[0], y: p[1], r: raioPessoas(p[2], pessoas.k) } : null;
+  });
+}
+
 export function modoValido(modo, turno, fonte) {
   if (modo === "divergencia" && turno === 2) return "municipios"; // divergência é do 1º turno (presidente × legislativo)
   return modo === "apurado" && turno === 2 && fonte && !fonte.pm ? "municipios" : modo;

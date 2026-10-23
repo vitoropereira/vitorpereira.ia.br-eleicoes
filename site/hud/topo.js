@@ -1,6 +1,8 @@
 // Decodificador mínimo de TopoJSON (sem dependências) + projeção + índice espacial para hit-test.
 // Projeção: equiretangular com x escalado por cos(-14°) (centro aproximado do Brasil); y para baixo.
 
+import { bolhasPessoas } from "./calc.js";
+
 export const UF_COD = {
   11: "RO", 12: "AC", 13: "AM", 14: "RR", 15: "PA", 16: "AP", 17: "TO", 21: "MA", 22: "PI", 23: "CE", 24: "RN",
   25: "PB", 26: "PE", 27: "AL", 28: "SE", 29: "BA", 31: "MG", 32: "ES", 33: "RJ", 35: "SP", 41: "PR", 42: "SC",
@@ -125,9 +127,9 @@ export function decodificarUFs(mapa) {
 }
 const UF_NOME_OK = new Set(Object.values(UF_COD));
 
-function montar(brutos, bordasMun, bordasUF, soUF) {
+function montar(brutos, bordasMun, bordasUF, soUF, bbox0) {
   const muns = [];
-  const B = [Infinity, Infinity, -Infinity, -Infinity];
+  const B = bbox0 ? [...bbox0] : [Infinity, Infinity, -Infinity, -Infinity];
   const ufs = {};
   brutos.forEach(({ cod, uf, aneis }) => {
     const rings = [];
@@ -153,7 +155,7 @@ function montar(brutos, bordasMun, bordasUF, soUF) {
     u.area += area; u.sx += m.cx * area; u.sy += m.cy * area;
     u.bbox = [Math.min(u.bbox[0], bb[0]), Math.min(u.bbox[1], bb[1]), Math.max(u.bbox[2], bb[2]), Math.max(u.bbox[3], bb[3])];
   });
-  Object.values(ufs).forEach((u) => { u.cx = u.sx / u.area; u.cy = u.sy / u.area; });
+  Object.values(ufs).forEach((u) => { u.cx = u.area ? u.sx / u.area : (u.bbox[0] + u.bbox[2]) / 2; u.cy = u.area ? u.sy / u.area : (u.bbox[1] + u.bbox[3]) / 2; });
 
   // grade para hit-test e recorte da área visível
   const G = 128, gw = (B[2] - B[0]) / G, gh = (B[3] - B[1]) / G;
@@ -186,4 +188,32 @@ function montar(brutos, bordasMun, bordasUF, soUF) {
 
   const indice = new Map(muns.map((m, i) => [m.cod, i]));
   return { muns, indice, bbox: B, ufs, bordasMun, bordasUF, hit, visiveis, soUF };
+}
+
+/**
+ * Modo "Pessoas": um círculo por município, com área ∝ eleitorado (posições pré-calculadas em geo/pessoas.json por
+ * municipios/pessoas.py). Devolve um geo com os MESMOS índices de `geo.muns`, para cores, seleção e dica servirem sem
+ * mudança. O anel poligonal serve ao hit-test e à bbox; o desenho usa o círculo exato (Path2D.arc). Município sem
+ * bolha (ex.: 5101837) fica com anel degenerado dentro do próprio contorno: não aparece nem recebe hit. O contorno
+ * das UFs da malha vira `fundo`, desenhado por baixo pelo Mapa.
+ */
+export function decodificarPessoas(geo, pessoas) {
+  const bolhas = bolhasPessoas(geo.muns, pessoas);
+  const brutos = geo.muns.map((m, i) => {
+    const b = bolhas[i];
+    if (!b) return { cod: m.cod, uf: m.uf, aneis: [{ r: Float64Array.of(m.cx, m.cy, m.cx, m.cy, m.cx, m.cy), externo: true }] };
+    const n = Math.min(48, Math.max(24, Math.ceil(12 + 40 * b.r)));
+    const r = new Float64Array(2 * n);
+    for (let j = 0; j < n; j++) { const a = (2 * Math.PI * j) / n; r[2 * j] = b.x + b.r * Math.cos(a); r[2 * j + 1] = b.y + b.r * Math.sin(a); }
+    return { cod: m.cod, uf: m.uf, aneis: [{ r, externo: true }] };
+  });
+  const uniao = new Path2D();
+  bolhas.forEach((b) => { if (b) { uniao.moveTo(b.x + b.r, b.y); uniao.arc(b.x, b.y, b.r, 0, 2 * Math.PI); } });
+  const g = montar(brutos, uniao, new Path2D(), false, geo.bbox);
+  g.muns.forEach((m, i) => {
+    const b = bolhas[i];
+    m.path = new Path2D();
+    if (b) { m.path.moveTo(b.x + b.r, b.y); m.path.arc(b.x, b.y, b.r, 0, 2 * Math.PI); }
+  });
+  return { ...g, fundo: geo.bordasUF, pessoas: true };
 }
