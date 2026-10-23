@@ -175,6 +175,58 @@ class TestGerar(Base):
         self.assertIn("visível ao servidor", h)
 
 
+def dentro(lon, lat, anel):
+    """ponto em polígono (par-ímpar) num anel plano [lon, lat, lon, lat, ...]"""
+    c, n = False, len(anel) // 2
+    for i in range(n):
+        j = (i - 1) % n
+        xi, yi, xj, yj = anel[2 * i], anel[2 * i + 1], anel[2 * j], anel[2 * j + 1]
+        if (yi > lat) != (yj > lat) and lon < (xj - xi) * (lat - yi) / (yj - yi) + xi:
+            c = not c
+    return c
+
+
+class TestContorno(Base):
+    """mapa dos locais (#156): contorno do município, tirado da malha do IBGE no build, servido pelo próprio site"""
+
+    def test_contorno_dos_municipios_com_dados(self):
+        cont = msec.contornos(["1200401", "3550308"])
+        self.assertEqual(sorted(cont), ["1200401", "3550308"])
+        rb = cont["1200401"]
+        lon0, lat0, lon1, lat1 = rb["bb"]
+        self.assertTrue(lon0 < -67.81 < lon1 and lat0 < -9.97 < lat1, rb["bb"])
+        # o local da fixture (Escola São José, centro de Rio Branco) cai dentro do contorno; São Paulo fica fora
+        self.assertTrue(any(dentro(-67.81, -9.97, a) for a in rb["an"]))
+        self.assertFalse(any(dentro(-46.63, -23.55, a) for a in rb["an"]))
+        self.assertTrue(any(dentro(-46.63, -23.55, a) for a in cont["3550308"]["an"]))
+
+    def test_coordenadas_com_4_casas_sem_ponto_repetido(self):
+        for c in msec.contornos(["3550308"])["3550308"]["an"]:
+            self.assertGreaterEqual(len(c), 8)
+            self.assertEqual(len(c) % 2, 0)
+            for v in c:
+                self.assertEqual(round(v, 4), v)
+            pares = list(zip(c[::2], c[1::2]))
+            self.assertTrue(all(a != b for a, b in zip(pares, pares[1:])))
+
+    def test_codigo_fora_da_malha_fica_de_fora(self):
+        self.assertEqual(msec.contornos(["9999999"]), {})
+
+    def test_gerar_grava_um_contorno_por_municipio(self):
+        out = self.td / "site"
+        msec.gerar(out, self.locais, META)
+        d = out / "minha-secao" / "contorno"
+        self.assertEqual(sorted(p.name for p in d.glob("*.json")), ["1200401.json", "3550308.json"])
+        self.assertEqual(json.loads((d / "1200401.json").read_text(encoding="utf-8")), msec.contornos(["1200401"])["1200401"])
+        # leve no celular: a malha do país tem 1,4 MB; o contorno de São Paulo, poucos KB
+        self.assertLess((d / "3550308.json").stat().st_size, 40_000)
+
+    def test_mapa_no_html(self):
+        h = msec.gerar(self.td / "site", self.locais, META)["html"]
+        self.assertIn('id="ms-mapa"', h)
+        self.assertIn("<canvas", h)
+
+
 class Requisicoes(HTMLParser):
     """URLs que o navegador busca sozinho ao abrir a página (não conta <a href>, canonical nem og:*)."""
     BUSCA = {"stylesheet", "preload", "modulepreload", "prefetch", "preconnect", "dns-prefetch", "icon", "apple-touch-icon", "manifest"}
