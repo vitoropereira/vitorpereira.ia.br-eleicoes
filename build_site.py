@@ -47,6 +47,8 @@ SUPABASE_URL = "https://qzczyicspbizosjogmlq.supabase.co"
 SUPABASE_PUBLISHABLE_KEY = "sb_publishable_OBOstHIYUXpk_NvJFtYrVQ_NcOz4XUI"
 HUD_PRESENCE = {"url": SUPABASE_URL, "key": SUPABASE_PUBLISHABLE_KEY, "canal": "eleicoes-hud"}
 OUT = R / "site"
+# resultado por seção e local de votação (municipios/montar_secao.py): sem a pasta, /minha-secao/ sai "em breve"
+LOCAIS = R / "municipios" / "geo" / "locais"
 BUILD = R / ".build"
 ISO = lambda dt: dt.strftime("%Y-%m-%dT%H:%M:00-03:00")
 fmt = lambda x, d=1: f"{x:,.{d}f}".replace(",", "X").replace(".", ",").replace("X", ".")
@@ -275,9 +277,12 @@ def com_medicao(dom):
 
 def secoes():
     """[(url, rótulo)] das seções do site, na ordem do menu: a fonte única da sitebar, do botão "☰ Seções" do painel
-    (window.HUD_SECOES) e da Análise (menu_secoes). Debates só entra quando há debate publicado."""
+    (window.HUD_SECOES) e da Análise (menu_secoes). Debates só entra quando há debate publicado; Minha seção, quando há
+    resultado por seção (municipios/geo/locais/)."""
+    from municipios import minha_secao as msec
     return [("/", NAV.INICIO), ("/ao-vivo/", NAV.AO_VIVO)] + ([("/debates/", NAV.DEBATES)] if debates() else []) + [
-        ("/analise/", NAV.ANALISE), ("/rastro/", NAV.RASTRO), ("/apuracao/", NAV.APURACAO), ("/#metodo", NAV.METODO)]
+        ("/analise/", NAV.ANALISE)] + ([("/minha-secao/", NAV.MINHA_SECAO)] if msec.tem_dados(LOCAIS) else []) + [
+        ("/rastro/", NAV.RASTRO), ("/apuracao/", NAV.APURACAO), ("/#metodo", NAV.METODO)]
 
 
 def trilha_apuracao(leitura=None):
@@ -941,6 +946,26 @@ IDX_CSS = """<style>
 @media (max-width:760px){.rd{grid-template-columns:60px 1fr}.rd .bar,.rd .v{grid-column:1/-1}}</style>"""
 
 
+def minha_secao_publicar(dest, publicado, modificado, pasta=None, meta=None):
+    """/minha-secao/ (municipios/minha_secao.py): com dados, a busca e os índices; sem dados, "em breve" (noindex, fora
+    do sitemap e do menu). Sem medição e sem o contador "pessoas agora" (que abre conexão com o Supabase): a página não
+    faz requisição para outro domínio. Devolve as entradas do sitemap."""
+    from municipios import minha_secao as msec
+    p = msec.gerar(dest, LOCAIS if pasta is None else pasta, meta)
+    ld = [{"@context": "https://schema.org", "@type": "WebPage", "name": p["titulo"], "description": p["desc"], "url": BASE + "/minha-secao/",
+           "inLanguage": "pt-BR", "author": PESSOA, "about": ELEICAO, "isBasedOn": msec.FONTE, "dateModified": modificado},
+          {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+              {"@type": "ListItem", "position": 1, "name": NAV.INICIO, "item": BASE + "/"},
+              {"@type": "ListItem", "position": 2, "name": NAV.MINHA_SECAO, "item": BASE + "/minha-secao/"}]}]
+    h = montar_pagina(p["html"], p["titulo"], p["desc"], "/minha-secao/", "/og/index.png", ld, publicado, modificado, "/minha-secao/")
+    assert h.count(agora_topo()) == 1, "sitebar sem o contador de presença: ajuste minha_secao_publicar"
+    h = h.replace(agora_topo(), "", 1)
+    if not p["tem"]:
+        h = h.replace('<meta name="robots" content="index,follow', '<meta name="robots" content="noindex,follow', 1)
+    (Path(dest) / "minha-secao" / "index.html").write_text(h, encoding="utf-8")
+    return [("/minha-secao/", modificado, "0.6")] if p["tem"] else []
+
+
 def pagina_apuracao(style):
     """/apuracao/: índice das leituras (HTML estático, sem JS); `style` = CSS do relatório"""
     linhas = "".join(
@@ -1084,6 +1109,10 @@ def main():
     if deb:
         paginas += deb["sitemap"]
 
+    # ---- minha seção (/minha-secao/): estática, vai direto para site/; sem municipios/geo/locais/, "em breve"
+    sec = minha_secao_publicar(OUT, publicado, modificado)
+    paginas += sec
+
     # ---- medição: um único arquivo com os IDs (sem ID não há medicao.js)
     if MEDICAO_JS_SAIDA:
         (OUT / "medicao.js").write_text(MEDICAO_JS_SAIDA)
@@ -1142,7 +1171,7 @@ def main():
 - [Mapa da apuração por município]({BASE}/ao-vivo/): presidente, governadores, Senado e deputados nos 5.570 municípios; 2º turno ao vivo em 25/10
 - [Análise: voto dividido, votos × cadeiras, divergências e 2022 × 2026]({BASE}/analise/): por que Lula (PT) tem tantos votos e o lado dele elege poucos deputados; estimativas marcadas, por estado
 - [Histórico da apuração, leitura a leitura]({BASE}/apuracao/)
-""" + (deb["llms"] if deb else "") + "".join(f"- [Apuração com {fmt(r['d']['pst'], 1)}% das urnas]({BASE}{r['url']})\n" for r in rodadas) +
+""" + (f"- [{NAV.MINHA_SECAO}: onde eu voto e quem ganhou ali (presidente, por seção e local de votação)]({BASE}/minha-secao/)\n" if sec else "") + (deb["llms"] if deb else "") + "".join(f"- [Apuração com {fmt(r['d']['pst'], 1)}% das urnas]({BASE}{r['url']})\n" for r in rodadas) +
 f"- [Dados consolidados em JSON]({BASE}/dados/relatorio.json)\n", encoding="utf-8")
     (OUT / "vercel.json").write_text(json.dumps(VERCEL, indent=1))  # deploy pela CLI, de dentro de site/
     # deploy pelo git (integração GitHub) parte da raiz do repo: sem isto a Vercel publica a raiz e o site dá 404
