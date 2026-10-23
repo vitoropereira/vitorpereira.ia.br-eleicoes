@@ -22,7 +22,6 @@ from debates import validar as V
 
 ESCALAS = {"checagem": V.VEREDITO, "retorica": V.ETIQUETAS + (R.FORA,)}
 CHAVES_ROTULO = ("etiqueta", "categoria", "veredito")
-CHAVES_VEREDITO = ("veredito", "veredito_sugerido")
 COMO = ("unanime", "maioria", "juiz", "regra")
 
 
@@ -38,10 +37,14 @@ def normalizar_votos(voto, escala):
     else:
         pares = []
         for item in voto:
+            if not isinstance(item, dict) or not isinstance(item.get("id"), str):
+                raise ValueError(f"item de voto sem id: {item!r}")
             rotulo = next((item[k] for k in CHAVES_ROTULO if k in item), None)
             pares.append((item.get("id"), rotulo))
     out = {}
     for i, r in pares:
+        if i in out:
+            raise ValueError(f"{i!r}: id votado duas vezes")
         if r not in escala:
             raise ValueError(f"{i!r}: rótulo {r!r} fora de {list(escala)}")
         out[i] = r
@@ -105,7 +108,7 @@ def aplicar(saida, juizes, modo=None):
     final, como = dict(saida["decididos"]), dict(saida["como"])
     for i in sorted(div):
         dos_juizes = [j[i] for j in juizes if i in j]
-        if dos_juizes and len(set(dos_juizes)) == 1:
+        if len(dos_juizes) == len(juizes) and len(set(dos_juizes)) == 1:
             final[i], como[i] = dos_juizes[0], "juiz"
             continue
         votados = set(votos_div.get(i, [])) | set(dos_juizes)
@@ -184,7 +187,7 @@ def _consenso(modo, args, cego_arq):
     brutos = [_ler(a) for a in args]
     cego = _ler(cego_arq) if cego_arq else []
     votos = [normalizar_votos(v, ESCALAS[modo]) for v in brutos]
-    ids = [c["id"] for c in cego] if cego else None
+    ids = [c["id"] for c in cego] if cego_arq else None
     decididos, como, div = decidir(votos, ids=ids)
     saida = {"modo": modo, "decididos": decididos, "como": como,
              "divergencias": divergencias_retorica(div, cego), "votos": div, "refazer": refazer(brutos)}
