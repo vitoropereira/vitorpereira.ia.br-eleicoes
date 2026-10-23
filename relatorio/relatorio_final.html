@@ -5,10 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Eleições 2026 — 1º turno</title>
 <style>
-/* Brand vitorpereira.ia.br: única fonte de cores e fontes do site. Escuro por padrão. */
+/* Brand vitorpereira.ia.br: única fonte de cores e fontes do site. Escuro por padrão.
+   Larguras (border-box, com o gutter de 16px dentro): --w-texto para leitura, --w-larga para mapas e tabelas. */
 @font-face{font-family:"Inter";font-style:normal;font-weight:100 900;font-display:swap;src:url(/fonts/inter-latin-wght-normal.woff2) format("woff2")}
 @font-face{font-family:"JetBrains Mono";font-style:normal;font-weight:100 800;font-display:swap;src:url(/fonts/jetbrains-mono-latin-wght-normal.woff2) format("woff2")}
-:root{color-scheme:dark;--bg:#070B12;--card:#0C121D;--ink:#E9EEF7;--ink2:#AEB8CA;--muted:#8593AB;--line:#1E2A3D;--soft:#111A28;--brand:#24C8FF;--flavio:#5B7FE8;--lula:#E35A4F;--outros:#8593AB;--neutral:#3A4558;--amber:#E0A530;--live:#3ECF7C;--b1:#1E2A55;--b2:#2D4596;--b3:#4466D6;--b4:#8AA5F5;--r1:#5A2E2A;--r2:#8F3A31;--r3:#D0564A;--r4:#F29185;--g0:#1A2334;--font-sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;--font-mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+:root{color-scheme:dark;--bg:#070B12;--card:#0C121D;--ink:#E9EEF7;--ink2:#AEB8CA;--muted:#8593AB;--line:#1E2A3D;--soft:#111A28;--brand:#24C8FF;--flavio:#5B7FE8;--lula:#E35A4F;--outros:#8593AB;--neutral:#3A4558;--amber:#E0A530;--live:#3ECF7C;--b1:#1E2A55;--b2:#2D4596;--b3:#4466D6;--b4:#8AA5F5;--r1:#5A2E2A;--r2:#8F3A31;--r3:#D0564A;--r4:#F29185;--g0:#1A2334;--font-sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;--font-mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;--w-texto:880px;--w-larga:1160px}
 @media (prefers-color-scheme: light){:root:not([data-theme="dark"]){color-scheme:light;--bg:#FBFCFE;--card:#FFFFFF;--ink:#0B1220;--ink2:#3B4558;--muted:#566072;--line:#E2E8F1;--soft:#F1F5FA;--brand:#0A76AD;--flavio:#2F5BD3;--lula:#D1453B;--outros:#566072;--neutral:#A3ABB8;--amber:#C98A12;--live:#1F9D55;--b1:#D6DFF7;--b2:#9DB2EF;--b3:#4F72DD;--b4:#2443A8;--r1:#F7D3CE;--r2:#EFA198;--r3:#E0604F;--r4:#A8322A;--g0:#E9EDF3}}
 :root[data-theme="light"]{color-scheme:light;--bg:#FBFCFE;--card:#FFFFFF;--ink:#0B1220;--ink2:#3B4558;--muted:#566072;--line:#E2E8F1;--soft:#F1F5FA;--brand:#0A76AD;--flavio:#2F5BD3;--lula:#D1453B;--outros:#566072;--neutral:#A3ABB8;--amber:#C98A12;--live:#1F9D55;--b1:#D6DFF7;--b2:#9DB2EF;--b3:#4F72DD;--b4:#2443A8;--r1:#F7D3CE;--r2:#EFA198;--r3:#E0604F;--r4:#A8322A;--g0:#E9EDF3}
 h1,h2,.kicker,.tile .v,.prob .v{font-family:var(--font-mono);letter-spacing:-.02em}
@@ -17,7 +18,7 @@ a{color:var(--brand)}
 
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 var(--font-sans)}
-main{max-width:1160px;margin:0 auto;padding:32px 16px 72px}
+main{max-width:var(--w-larga);margin:0 auto;padding:32px 16px 72px}
 header h1{font-size:30px;line-height:1.15;margin:0 0 6px;letter-spacing:-.015em}
 header p{margin:0;color:var(--ink2)}
 nav{display:flex;gap:6px;flex-wrap:wrap;margin:18px 0 26px}

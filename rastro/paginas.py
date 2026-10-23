@@ -18,6 +18,7 @@ from datetime import date
 from pathlib import Path
 
 import brand
+import navegacao as NAV
 from debates import pagina as dp
 from rastro import busca
 from rastro import diagramas
@@ -112,9 +113,8 @@ def varrer(nome, texto):
 
 CSS = """<style>
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--font-sans)}
-main.rs{max-width:880px;margin:0 auto;padding:24px 18px 56px}
+main.rs{max-width:var(--w-texto);box-sizing:border-box;margin:0 auto;padding:24px 16px 56px}
 .rs a{color:var(--ink);text-decoration-color:var(--muted);text-underline-offset:3px}
-.rs-crumbs{font-size:13px;color:var(--muted);margin:0 0 14px}
 .rs-kicker{font:600 12px var(--font-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
 .rs h1{font-size:clamp(26px,5vw,38px);line-height:1.15;margin:0 0 6px}
 .rs h2{font-size:20px;margin:34px 0 10px;padding-top:6px;border-top:1px solid var(--line)}
@@ -166,7 +166,7 @@ tr:target{background:var(--soft)}
 .rs-filtro{display:inline-flex;gap:6px;align-items:center;font-size:14px;margin:4px 0 8px;cursor:pointer}
 .rs-filtro[hidden]{display:none}
 .rs-topo{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px;margin:0 0 14px}
-.rs-topo .rs-crumbs{margin:0}
+.rs-topo nav.crumbs{margin:0}
 .rs-busca{position:relative;max-width:100%}
 .rs-topo .rs-busca{flex:0 1 320px;min-width:0}
 .rs-busca-g{margin:14px 0 6px}
@@ -215,8 +215,7 @@ def caixa_busca(grande=False):
 
 def trilha(*passos, busca=True):
     """passos: (rótulo, href|None); o último, sem link. busca=True põe a caixa compacta ao lado (a home tem a grande)."""
-    nav = '<nav class="rs-crumbs" aria-label="Trilha">' + " › ".join(
-        f'<a href="{h}">{esc(r)}</a>' if h else esc(r) for r, h in passos) + "</nav>"
+    nav = NAV.trilha(*passos)  # o componente único do site
     return f'<div class="rs-topo">{nav}{caixa_busca()}</div>' if busca else nav
 
 
@@ -506,7 +505,7 @@ def html_eleito(eleito, contas, itens, fornecedores, cfg, bases, ids=None, cruz=
     dest_h = bloco_destaques(destaques(itens, contas, fornecedores, cfg, ids), data_ind, cfg) if parcial else ""
     tabs = f'<h2>Tabelas</h2>{rec_h}{desp_h}' if parcial else ""
     com_sg = f'{nome} · {eleito["partido"]}' if eleito.get("partido") else nome
-    corpo = (trilha(("Início", "/"), ("Rastro do dinheiro", "/rastro/"), (com_sg, None))
+    corpo = (trilha((NAV.INICIO, "/"), (NAV.RASTRO, "/rastro/"), (com_sg, None))
              + f'<p class="rs-kicker">Rastro do dinheiro · {"candidato(a) ao 2º turno" if eleito["cargo"] == "presidente" else "eleito(a) 2026"}</p>'
              f'<h1>{esc(com_sg)}</h1><p class="rs-meta">{partes[0]}</p>{resumo}' + aviso_curto() + fin + dest_h + diag + ind_h + tabs
              + (secao_cruzada(cruz) if parcial else "") + secao_debates(debates)
@@ -589,7 +588,7 @@ def html_metodologia(cfg, avisos=None):
               f'<li>Cadastro de empresas (situação, atividade, endereço e quadro societário): <a href="{ind.FONTE_RECEITA}" rel="noopener">Receita Federal, dados abertos do CNPJ</a>.</li>'
               + (f'<li>Servidores com função comissionada ({cfg["nomeacoes_mes"][5:]}/{cfg["nomeacoes_mes"][:4]}): <a href="{nom}" rel="noopener">Portal da Transparência</a>.</li>' if nom else "")
               + "</ul>")
-    corpo = (trilha(("Início", "/"), ("Rastro do dinheiro", "/rastro/"), ("Metodologia", None))
+    corpo = (trilha((NAV.INICIO, "/"), (NAV.RASTRO, "/rastro/"), ("Metodologia", None))
              + '<p class="rs-kicker">Rastro do dinheiro</p><h1>Metodologia</h1>'
              '<p class="rs-meta">Como cada página de eleito é montada e o que ela não diz.</p>' + aviso_bloco()
              + "<h2>O que é</h2><p>Para cada eleito publicado, cruzamos a prestação de contas da campanha (TSE) com o cadastro de empresas da "
@@ -724,7 +723,7 @@ def html_fornecedor(id_, rec, campanhas, itens, cfg, bases, anteriores=None, pen
         ind_h = '<h2>Indicadores em que é a contraparte</h2><p class="rs-vazio">Nenhum indicador disparado para este fornecedor.</p>'
     base = (f'contas do TSE até {data_br(bases["contas"])}' if bases.get("contas") else "data das contas não informada") + (
         f' · cadastro de empresas da Receita de {data_br(bases["receita"])}' if bases.get("receita") else "")
-    corpo = (trilha(("Início", "/"), ("Rastro do dinheiro", "/rastro/"), ("Fornecedor", None))
+    corpo = (trilha((NAV.INICIO, "/"), (NAV.RASTRO, "/rastro/"), ("Fornecedor", None))
              + f'<p class="rs-kicker">Rastro do dinheiro · fornecedor</p><h1>{esc(nome)}</h1>'
              f'<p class="rs-meta">CNPJ {esc(mascara)}</p><p class="rs-base">Base de dados: {esc(base)}.</p>'
              + aviso_bloco() + f"<h2>Cadastro na Receita</h2>{cad}{socios}{diag_h}{camp_h}{ant_h}{ind_h}"
@@ -798,8 +797,8 @@ def html_home(entradas, fornecedores, cfg, bases, pendentes=None, rede=None, pre
     Só entra nas somas quem tem prestação parcial publicada; eleito sem contas aparece sem 'R$ 0'."""
     base = (f'contas do TSE até {data_br(bases["contas"])}' if bases.get("contas") else "data das contas não informada") + (
         f' · cadastro de empresas da Receita de {data_br(bases["receita"])}' if bases.get("receita") else "")
-    cab = (trilha(("Início", "/"), ("Rastro do dinheiro", None), busca=False) + '<p class="rs-kicker">Rastro do dinheiro · eleições 2026</p>'
-           "<h1>Rastro do dinheiro</h1>" + caixa_busca(grande=True) +
+    cab = (trilha((NAV.INICIO, "/"), (NAV.RASTRO, None), busca=False) + '<p class="rs-kicker">Rastro do dinheiro · eleições 2026</p>'
+           f"<h1>{NAV.RASTRO}</h1>" + caixa_busca(grande=True) +
            "<p class=\"rs-meta\">Para onde foi o dinheiro de campanha dos eleitos de 2026, cruzando as contas do TSE com o cadastro de empresas da Receita.</p>"
            f'<p class="rs-base">Base de dados: {esc(base)}.</p>' + aviso_bloco() + bloco_presidentes(presidentes))
     fim = bloco_contestar(cfg, "Contestar dado do Rastro")
@@ -876,7 +875,7 @@ def aplicar_correcoes(paginas, correcoes):
 
 def _meta(path, titulo, desc, html_, passos, indexar=True):
     """indexar=False: a página fica no ar, mas com robots noindex,follow e fora do sitemap (build_site)."""
-    return {"path": "/" + path, "titulo": titulo, "desc": desc, "html": html_, "crumbs": [("Rastro do dinheiro", "/rastro/")] + passos,
+    return {"path": "/" + path, "titulo": titulo, "desc": desc, "html": html_, "crumbs": [(NAV.RASTRO, "/rastro/")] + passos,
             "indexar": indexar}
 
 
