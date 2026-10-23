@@ -117,6 +117,14 @@ class TestFornecedor(unittest.TestCase):
         self.assertIn("BELTRANO SOCIO", t)
         self.assertIn("Situação cadastral", t)
 
+    def test_socio_candidato_com_sigla_no_quadro(self):
+        """sócio que um indicador da página cita com a sigla (é candidato) sai com ela no quadro societário (issue #74)"""
+        item = {"eleito": E["2001"], "caminho": pg.caminho(E["2001"]), "nome": "socio_ligado", "valor": 1, "fonte_url": "https://x",
+                "fato": "BELTRANO SOCIO (PL), sócio(a) desta empresa, consta como candidato(a)/suplente em 2026 (DEPUTADO "
+                        "ESTADUAL, MG); pode ser homônimo"}
+        self.assertIn("<li>BELTRANO SOCIO (PL)</li>", pagina_forn("33333333000191", False, [item]))
+        self.assertIn("<li>BELTRANO SOCIO</li>", pagina_forn("33333333000191", False))
+
     def test_nunca_endereco_nem_cpf_mascarado(self):
         h = pagina_forn("33333333000191", False)
         self.assertNotIn("RUA SECRETA", h)
