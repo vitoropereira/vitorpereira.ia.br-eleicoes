@@ -56,7 +56,7 @@ svg{flex:none}
 .nota{color:var(--muted);font-size:13px;margin:6px 0 10px}
 .resumo{font-size:16px;color:var(--ink2);max-width:760px;margin:0 0 8px}
 .vazio-txt{color:var(--muted);font-size:14px}
-.badge{display:inline-block;font:500 10.5px/1.6 var(--font-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink);border:1px dashed var(--amber);border-radius:999px;padding:0 8px}
+.badge{display:inline-block;font:500 11px/1.6 var(--font-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--ink);border:1px dashed var(--amber);border-radius:999px;padding:0 8px}
 .entenda{margin:16px 0 0;border-top:1px solid var(--line);padding-top:10px}
 .entenda summary{cursor:pointer;font-weight:600;font-size:14px;color:var(--ink)}
 .entenda p{color:var(--ink2);font-size:14.5px;max-width:760px}
@@ -82,12 +82,12 @@ svg{flex:none}
 /* ---------- gráficos */
 .ch{width:100%;margin:6px 0 4px}
 .ch svg{display:block;overflow:visible}
-.ch text{font:11.5px var(--font-sans);fill:var(--ink2)}
+.ch text{font:12px var(--font-sans);fill:var(--ink2)}
 .ch .rl{fill:var(--ink);font-size:12.5px}
-.ch .rl .sub{fill:var(--muted);font-size:11px}
-.ch .vl{fill:var(--bg);font:600 11.5px var(--font-mono)}
+.ch .rl .sub{fill:var(--muted);font-size:12px}
+.ch .vl{fill:var(--bg);font:600 12px var(--font-mono)}
 .ch .vl2{fill:var(--ink);font:600 12px var(--font-mono)}
-.ch .ax{fill:var(--muted);font:10.5px var(--font-mono)}
+.ch .ax{fill:var(--muted);font:12px var(--font-mono)}
 .ch .gr{stroke:var(--line);stroke-width:1}
 .ref{stroke:var(--ink2);stroke-dasharray:3 3;stroke-width:1}
 .ch .faixa{fill:var(--ink2);opacity:.28}
@@ -106,7 +106,7 @@ svg{flex:none}
 .chips b{font-family:var(--font-mono);color:var(--ink);margin-left:4px}
 .disp{position:relative;padding-bottom:4px}
 .disp canvas{display:block;outline-offset:2px}
-.eixo-x,.eixo-y{margin:0;font-size:11.5px;color:var(--muted)}
+.eixo-x,.eixo-y{margin:0;font-size:12px;color:var(--muted)}
 .eixo-x{text-align:right}
 .eixo-y{position:absolute;top:0;left:50px}
 .pm{list-style:none;margin:8px 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
@@ -120,11 +120,11 @@ svg{flex:none}
 .tab th,.tab td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--line);vertical-align:top}
 .tab thead th{color:var(--muted);font-weight:500;font-size:12px}
 .tab tbody th{font-weight:600}
-.tab small{color:var(--muted);font-weight:400}
+.tab small{color:var(--muted);font-weight:400;font-size:12px}
 .tab .n{text-align:right}
 .tab tr.realce{background:var(--soft)}
 .tab tr.antes th,.tab tr.antes td{color:var(--muted)}.tab tr.antes a{color:var(--muted)}
-.tab .antes-t{display:inline-block;margin-left:4px;padding:0 5px;border:1px solid var(--line);border-radius:4px;font-size:11px;color:var(--muted);white-space:nowrap}
+.tab .antes-t{display:inline-block;margin-left:4px;padding:0 5px;border:1px solid var(--line);border-radius:4px;font-size:12px;color:var(--muted);white-space:nowrap}
 .tab.lados td{font-size:12.5px}
 .exc{font-family:var(--font-mono);font-size:12px;border:1px solid var(--line);border-radius:6px;padding:0 5px}
 .lado-a-lado{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;align-items:start}
@@ -161,7 +161,15 @@ svg{flex:none}
   .uf-sel>span{display:none}
   .corpo{padding:4px 12px 32px}
   .sec{padding:16px 14px;border-radius:12px}
-  .share .bt span{display:none}.share .bt{padding:7px;width:34px;height:34px;justify-content:center;border-radius:50%}
+  .share .bt span{display:none}.share .bt{padding:7px;width:40px;height:40px;justify-content:center;border-radius:50%}
+  /* celular (issue 146): todo controle com 40 px de altura */
+  .marca{min-height:40px;box-sizing:border-box}
+  .hud-top .voltar,.seg a,.indice a{display:inline-flex;align-items:center;min-height:40px;box-sizing:border-box}
+  .seg button{min-height:40px;box-sizing:border-box}
+  .bt{min-height:40px;box-sizing:border-box}.bt.ic{width:40px;height:40px}
+  .uf-sel select{min-height:40px;box-sizing:border-box}
+  .link{min-height:40px;box-sizing:border-box}
+  .entenda summary,.faq summary{min-height:40px;box-sizing:border-box;padding-block:10px;margin-block:-10px}
 }
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 </style>

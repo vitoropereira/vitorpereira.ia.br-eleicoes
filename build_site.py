@@ -179,6 +179,8 @@ button.tema svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-widt
 @media (prefers-color-scheme: light){:root:not([data-theme="dark"]) .tema .sol{display:none}:root:not([data-theme="dark"]) .tema .lua{display:block}}
 @media (max-width:900px){.sitebar a.agora{order:1;margin-left:auto}.sitebar nav.top{order:2;margin-left:0}.sitebar .tema{order:1}.sitebar a.agora[hidden]~.tema{margin-left:auto}}
 @media (max-width:640px){.sitebar .in{gap:8px 14px;padding:8px 16px}.sitebar nav.top{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;width:100%;min-width:0;-webkit-mask-image:linear-gradient(90deg,black 90%,transparent);mask-image:linear-gradient(90deg,black 90%,transparent)}.sitebar nav.top::-webkit-scrollbar{display:none}.sitebar nav.top a{flex:none;white-space:nowrap}}
+/* celular (issue 146): até 640 px, todo controle com 40 px de altura */
+@media (max-width:640px){.sitebar .brand{min-height:40px;box-sizing:border-box}.sitebar nav.top a{display:inline-flex;align-items:center;min-height:40px;box-sizing:border-box}a.agora{min-height:40px;box-sizing:border-box}button.tema{width:40px;height:40px}.rounds a{display:inline-flex;align-items:center;min-height:40px;box-sizing:border-box}nav.crumbs a{display:inline-block;min-height:40px;box-sizing:border-box;padding:10px 0}footer.site .eu a,footer.site .eu button{display:inline-flex;align-items:center;min-height:40px;box-sizing:border-box}footer.site .eu ul{gap:4px}footer.site .eu ul a{width:40px;height:40px}.faq summary{min-height:40px;box-sizing:border-box;padding-block:10px;margin-block:-10px}}
 nav.crumbs{display:block;margin:0 0 14px;font-size:13px;line-height:1.5;color:var(--ink2);overflow-wrap:anywhere}
 nav.crumbs a{border:0;padding:0;background:none;font-size:13px;color:var(--ink2);text-decoration:underline;text-decoration-color:var(--muted);text-underline-offset:3px}
 nav.crumbs a:hover{color:var(--ink)}
@@ -225,6 +227,7 @@ MEDICAO_CSS = """<style id="consent-css">
 .consent button.ok{background:var(--brand);color:var(--bg);border-color:var(--brand)}
 .consent button:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
 @media (max-width:520px){.consent .in{padding:8px 16px;gap:8px}.consent p{font-size:13px;line-height:1.4;flex-basis:100%}.consent .bt{width:100%}.consent button{flex:1;padding:6px 12px;font-size:13px}}
+@media (max-width:640px){.consent button{min-height:40px;box-sizing:border-box}}
 </style>
 """
 MEDICAO_JS = """(function(){
@@ -313,6 +316,7 @@ SECOES_CSS = """<style>
   .secoes{position:static}
   .secoes>nav{left:12px;right:12px;top:calc(100% + 4px);min-width:0}
   .secoes>nav a{padding:11px 12px;font-size:15px}
+  .secoes>button{min-height:40px;box-sizing:border-box}
 }
 </style>
 """

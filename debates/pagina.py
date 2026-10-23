@@ -281,6 +281,7 @@ section>.db-metodo{margin-top:34px;padding-top:6px;border-top:1px solid var(--li
 .db-deb b{display:block;font-size:17px}.db-deb span{color:var(--ink2);font-size:14px}
 .db-tr p{margin:6px 0}.db-tr p:target{background:var(--soft)}.db-tr b{font:600 13px var(--font-mono);color:var(--muted)}
 @media (max-width:760px){.db-lista{grid-template-columns:1fr}}
+@media (max-width:640px){.db-link{display:inline-flex;align-items:center;min-height:40px;box-sizing:border-box;margin-top:0}.db-rt-filtro select,.db-filtro select{min-height:40px;box-sizing:border-box}.db-metodo summary{min-height:40px;box-sizing:border-box;padding-block:10px;margin-block:-10px}}
 </style>"""
 
 

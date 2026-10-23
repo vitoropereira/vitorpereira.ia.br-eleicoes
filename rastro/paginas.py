@@ -185,6 +185,7 @@ tr:target{background:var(--soft)}
 """ + dp.CSS_PLACAR + dp.CSS_SELO + """.rs-deb .db-nota{font-size:13px;color:var(--ink2);margin:6px 0 10px}
 .rs-deb .db-placar{margin:0 0 12px}
 .rs-deb ul.rs-afs{margin:0;padding-left:18px;font-size:14px}.rs-afs li{margin:4px 0;overflow-wrap:anywhere}.rs-afs small{color:var(--muted)}
+@media (max-width:640px){details summary{min-height:40px;box-sizing:border-box;padding-block:10px;margin-block:-2px}.rs-card details summary{margin:-4px 0 -10px}.rs-filtro{min-height:40px;box-sizing:border-box}}
 @media (max-width:600px){.rs-topo .rs-busca{flex-basis:100%}}
 @media (max-width:600px){.rs-sankey svg{min-width:680px}.rs-rede{display:none}.rs-so-cel{display:block}}
 @media (max-width:560px){.rs-tab{font-size:14px}.rs-tab th,.rs-tab td{padding:7px 4px}}

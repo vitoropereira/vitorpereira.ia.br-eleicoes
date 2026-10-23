@@ -50,14 +50,14 @@ th,td{padding:7px 8px;border-bottom:1px solid var(--line);text-align:left;vertic
 th{color:var(--ink2);font-weight:600;font-size:12.5px}
 td.n,th.n{text-align:right}
 .tw{overflow-x:auto}
-.pill{display:inline-block;font-size:11.5px;font-weight:600;border-radius:999px;padding:1px 8px;white-space:nowrap}
+.pill{display:inline-block;font-size:12px;font-weight:600;border-radius:999px;padding:1px 8px;white-space:nowrap}
 .p-el{background:var(--soft);color:var(--ink2)}.p-2t{background:color-mix(in srgb,var(--amber) 22%,transparent);color:var(--ink)}
 .p-in{background:repeating-linear-gradient(135deg,color-mix(in srgb,var(--amber) 35%,transparent) 0 4px,transparent 4px 8px);color:var(--ink);border:1px solid var(--amber)}
 .mapwrap{position:relative}
 svg.map{width:100%;height:auto;display:block}
 svg.map path{stroke:var(--card);stroke-width:1;stroke-linejoin:round;cursor:pointer}
 svg.map path:hover{stroke:var(--ink);stroke-width:1.5}
-svg.map text{font-size:11px;font-weight:650;pointer-events:none;text-anchor:middle;dominant-baseline:middle;fill:var(--ink);paint-order:stroke;stroke:var(--card);stroke-width:3px;stroke-linejoin:round}
+svg.map text{font-size:12px;font-weight:650;pointer-events:none;text-anchor:middle;dominant-baseline:middle;fill:var(--ink);paint-order:stroke;stroke:var(--card);stroke-width:3px;stroke-linejoin:round}
 .tip{position:fixed;pointer-events:none;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:8px 11px;font-size:12.5px;box-shadow:0 6px 24px rgba(0,0,0,.18);opacity:0;transition:opacity .08s;z-index:9;max-width:280px}
 .ramp{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--ink2);flex-wrap:wrap}
 .ramp i{display:inline-block;width:26px;height:10px;border-radius:2px}
@@ -67,6 +67,7 @@ details{margin-top:12px}details summary{cursor:pointer;color:var(--ink2);font-si
 main a{color:var(--ink);text-decoration:underline;text-underline-offset:2px}nav a{text-decoration:none}
 svg.parl circle{stroke:none}
 @media (max-width:820px){.g2,.g3,.hero,ul.hl{grid-template-columns:1fr}header h1{font-size:24px}.hero .pc{font-size:36px}}
+@media (max-width:640px){nav a{display:inline-flex;align-items:center;min-height:40px;box-sizing:border-box}details summary{min-height:40px;box-sizing:border-box;padding-block:10px;margin-block:-10px}details.mais>summary{min-height:40px;box-sizing:border-box;padding-block:10px;margin:-10px 0 0}}
 </style>
 </head>
 <body>
@@ -319,8 +320,8 @@ topT(est.top,'tTopEst');
 // ---------- apuração
 (function traj(){
  const h=D.hist,W=560,Hh=260,l=38,r=14,t=12,b=30,x=v=>l+(v-20)/80*(W-l-r),y=v=>t+(54-v)/(54-38)*(Hh-t-b);
- let s='';for(let v=40;v<=54;v+=2)s+=`<line x1="${l}" x2="${W-r}" y1="${y(v)}" y2="${y(v)}" stroke="var(--line)"/><text x="${l-6}" y="${y(v)}" text-anchor="end" dominant-baseline="middle" style="font-size:11px;fill:var(--ink2)">${v}%</text>`;
- for(let v=20;v<=100;v+=20)s+=`<text x="${x(v)}" y="${Hh-10}" text-anchor="middle" style="font-size:11px;fill:var(--ink2)">${v}%</text>`;
+ let s='';for(let v=40;v<=54;v+=2)s+=`<line x1="${l}" x2="${W-r}" y1="${y(v)}" y2="${y(v)}" stroke="var(--line)"/><text x="${l-6}" y="${y(v)}" text-anchor="end" dominant-baseline="middle" style="font-size:12px;fill:var(--ink2)">${v}%</text>`;
+ for(let v=20;v<=100;v+=20)s+=`<text x="${x(v)}" y="${Hh-10}" text-anchor="middle" style="font-size:12px;fill:var(--ink2)">${v}%</text>`;
  s+=`<line x1="${l}" x2="${W-r}" y1="${y(50)}" y2="${y(50)}" stroke="var(--muted)" stroke-dasharray="5 4"/>`;
  for(const [k,c] of [['f','var(--flavio)'],['l','var(--lula)']]){s+=`<polyline fill="none" stroke="${c}" stroke-width="2.5" points="${h.map(p=>`${x(p.pst)},${y(p[k])}`).join(' ')}"/>`;
   s+=h.map(p=>`<circle cx="${x(p.pst)}" cy="${y(p[k])}" r="4" fill="${c}" stroke="var(--card)" stroke-width="2"><title>${fmt(p.pst,2)}% apurado · ${fmt(p[k],2)}%</title></circle>`).join('');}
