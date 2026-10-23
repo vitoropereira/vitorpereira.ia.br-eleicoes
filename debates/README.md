@@ -1,5 +1,7 @@
 # Debates: transcrição e afirmações checáveis
 
+Para um debate novo, siga o [RUNBOOK](RUNBOOK.md); as regras dos classificadores estão em [`regras/`](regras/).
+
 Cada debate vira uma pasta com três arquivos. O formato é o mesmo para qualquer cargo, turno e emissora, e o
 validador (`debates/validar.py`) e o teste (`tests/test_debates.py`) cobrem todas as pastas.
 
