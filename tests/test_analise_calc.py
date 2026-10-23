@@ -418,14 +418,31 @@ class TestLados(unittest.TestCase):
 
 
 class TestDeterminismo(unittest.TestCase):
-    def roda(self, pasta, boot):
-        subprocess.run([sys.executable, str(AN / "calcular.py"), "--saida", pasta, "--boot", str(boot)],
-                       check=True, capture_output=True)
+    @staticmethod
+    def dispara(pasta, boot, proc=8, hashseed=None):
+        env = dict(os.environ, **({"PYTHONHASHSEED": str(hashseed)} if hashseed is not None else {}))
+        return subprocess.Popen([sys.executable, str(AN / "calcular.py"), "--saida", pasta, "--boot", str(boot),
+                                 "--proc", str(proc)], env=env, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+
+    @staticmethod
+    def colhe(proc, pasta):
+        out, err = proc.communicate()
+        if proc.returncode:
+            raise AssertionError(f"calcular.py saiu com {proc.returncode}: {err.decode()[-2000:]}")
         return {n: (Path(pasta) / f"{n}.json").read_bytes() for n in ARQS}
 
+    def roda(self, pasta, boot):
+        return self.colhe(self.dispara(pasta, boot), pasta)
+
     def test_duas_rodadas_iguais(self):
+        """as duas rodadas correm juntas (issue #148: antes era uma depois da outra, com 20 reamostragens), uma em
+        série e outra com Pool de 4, cada uma com PYTHONHASHSEED diferente: a saída não pode depender da ordem de set/dict
+        por hash nem da ordem em que o Pool devolve. Com 3 reamostragens (eram 20) roda o mesmo código de semente e
+        percentil; a rodada inteira, com as 200, é a de test_igual_ao_versionado"""
         with tempfile.TemporaryDirectory() as a, tempfile.TemporaryDirectory() as b:
-            self.assertEqual(self.roda(a, 20), self.roda(b, 20))
+            pa, pb = self.dispara(a, 3, proc=1, hashseed=1), self.dispara(b, 3, proc=4, hashseed=2)
+            ra, rb = self.colhe(pa, a), self.colhe(pb, b)
+        self.assertEqual(ra, rb)
 
     @unittest.skipUnless(os.environ.get("ANALISE_COMPLETO"), "rodada completa: ANALISE_COMPLETO=1")
     def test_igual_ao_versionado(self):
