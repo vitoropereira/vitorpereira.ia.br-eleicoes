@@ -265,10 +265,45 @@ def com_medicao(dom):
     return dom.replace("</body>", MEDICAO_HTML + "</body>", 1) if MEDICAO_HTML else dom
 
 
-def sitebar(atual):
-    links = [("/", "Resultado final"), ("/ao-vivo/", "Ao vivo")] + ([("/debates/", "Debates")] if debates() else []) + [
+def secoes():
+    """[(url, rótulo)] das seções do site, na ordem do menu: a fonte única da sitebar, do botão "☰ Seções" do painel
+    (window.HUD_SECOES) e da Análise (menu_secoes). Debates só entra quando há debate publicado."""
+    return [("/", "Resultado final"), ("/ao-vivo/", "Ao vivo")] + ([("/debates/", "Debates")] if debates() else []) + [
         ("/analise/", "Análise"), ("/rastro/", "Rastro do dinheiro"), ("/apuracao/", "Histórico da apuração"), ("/#metodo", "Método e fontes")]
-    nav = "".join(f'<a href="{u}"{" aria-current=page" if u == atual else ""}>{t}</a>' for u, t in links)
+
+
+# estilo do botão "☰ Seções" (painel e Análise): só tokens da brand.css; o ciano é a moldura do painel suspenso
+SECOES_CSS = """<style>
+.secoes{position:relative;flex:none}
+.secoes>button{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:5px 12px;cursor:pointer;font:500 13px var(--font-sans);white-space:nowrap}
+.secoes>button:hover,.secoes>button[aria-expanded=true]{border-color:var(--brand)}
+.secoes>button .ic-m{font-size:15px;line-height:1}
+.secoes>nav{position:absolute;top:calc(100% + 8px);left:0;z-index:80;min-width:240px;display:flex;flex-direction:column;gap:2px;padding:6px;background:var(--card);border:1px solid var(--brand);border-radius:12px;box-shadow:0 12px 32px color-mix(in srgb,var(--bg) 60%,transparent)}
+.secoes>nav[hidden]{display:none}
+.secoes>nav a{display:block;padding:8px 12px;border-radius:8px;color:var(--ink2);text-decoration:none;font-size:14px;white-space:nowrap}
+.secoes>nav a:hover,.secoes>nav a:focus-visible{background:var(--soft);color:var(--ink)}
+.secoes>nav a[aria-current=page]{color:var(--ink);box-shadow:inset 2px 0 0 var(--brand)}
+@media (max-width:640px){
+  .secoes{position:static}
+  .secoes>nav{left:12px;right:12px;top:calc(100% + 4px);min-width:0}
+  .secoes>nav a{padding:11px 12px;font-size:15px}
+}
+</style>
+"""
+
+
+def menu_secoes(atual):
+    """botão "☰ Seções" estático (Análise): mesma lista de secoes(); hud/secoes.js liga abrir/fechar/teclado"""
+    atr = ' aria-current="page"'
+    nav = "".join(f'<a href="{u}"{atr if u == atual else ""}>{html.escape(t)}</a>' for u, t in secoes())
+    return (f'<div class="secoes"><button type="button" aria-expanded="false" aria-controls="secoes-menu">'
+            f'<span class="ic-m" aria-hidden="true">☰</span><span class="tx">Seções</span></button>'
+            f'<nav id="secoes-menu" aria-label="Seções do site" hidden>{nav}</nav></div>'
+            f'<script type="module" src="/hud/secoes.js"></script>')
+
+
+def sitebar(atual):
+    nav = "".join(f'<a href="{u}"{" aria-current=page" if u == atual else ""}>{t}</a>' for u, t in secoes())
     return (f'<a class="skip" href="#conteudo">Pular para o conteúdo</a><header class="sitebar"><div class="in">'
             f'<a class="brand" href="/" aria-label="Eleições 2026, por Vitor Pereira">'
             f'<span class="wm">vitor<span class="dim">pereira</span><span class="cursor" aria-hidden="true"></span></span>'
@@ -421,11 +456,14 @@ def copiar_hud(dest):
 
 
 def injetar_presenca(h):
-    """window.HUD_PRESENCE = {url, key, canal} antes do app do HUD (o contador "pessoas agora" lê daí)"""
+    """window.HUD_PRESENCE = {url, key, canal} antes do app do HUD (o contador "pessoas agora" lê daí), mais
+    window.HUD_SECOES = secoes() e o estilo do botão "☰ Seções" (fonte única com a sitebar e a Análise)"""
     tag = '<script type="module" src="/hud/app.js"></script>'
     assert h.count(tag) == 1, "template_hud.html: script do app não encontrado"
     cfg = json.dumps(HUD_PRESENCE, separators=(",", ":"))
-    return h.replace(tag, f"<script>window.HUD_PRESENCE={cfg};</script>\n{tag}", 1)
+    sec = json.dumps(secoes(), separators=(",", ":"), ensure_ascii=False)
+    h = h.replace("</head>", SECOES_CSS + "</head>", 1)
+    return h.replace(tag, f"<script>window.HUD_SECOES={sec};</script>\n<script>window.HUD_PRESENCE={cfg};</script>\n{tag}", 1)
 
 
 def status_hud():
@@ -578,6 +616,7 @@ def ld_analise(dados, publicado=None, modificado=None):
 
 def html_analise(dados, publicado, modificado):
     raw = brand.aplicar((R / "template_analise.html").read_text()).replace("<!--__RODAPE__-->", rodape(), 1).replace("<!--__AGORA__-->", agora_topo(), 1)
+    raw = raw.replace("<!--__SECOES__-->", menu_secoes("/analise/"), 1).replace("</head>", SECOES_CSS + "</head>", 1)
     og = "/og/analise-destaques.png" if dados else "/og/index.png"
     return montar_pagina(raw, ANALISE_TITULO, ANALISE_DESC, "/analise/", og, ld_analise(dados, publicado, modificado), publicado, modificado, "/analise/", moldura=False)
 

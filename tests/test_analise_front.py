@@ -314,5 +314,30 @@ class Saida(unittest.TestCase):
             self.assertTrue((self.SITE / "og" / "social" / f"analise-{sid}.png").exists(), sid)
 
 
+class MenuSecoes(unittest.TestCase):
+    """menu "☰ Seções" da Análise (issue 138): gerado no build a partir de B.secoes(), nada escrito à mão no template"""
+
+    def test_template_tem_o_marcador_e_nenhum_link_de_secao_a_mao(self):
+        t = TEMPLATE.read_text()
+        self.assertEqual(t.count("<!--__SECOES__-->"), 1)
+        for u in ("/rastro/", "/debates/", "/apuracao/"):
+            self.assertNotIn(f'href="{u}"', t, "a lista vem de B.secoes(), não do template")
+
+    def test_pagina_gerada_tem_o_menu_com_a_mesma_lista(self):
+        h = B.html_analise({}, PUB, MOD)
+        m = re.search(r'<div class="secoes">.*?</div>', h, re.S)
+        self.assertIsNotNone(m, "menu de seções ausente na Análise")
+        menu = m.group(0)
+        self.assertEqual(re.findall(r'<a href="([^"]+)"', menu), [u for u, _ in B.secoes()])
+        self.assertIn('aria-expanded="false"', menu)
+        self.assertRegex(menu, r'<nav[^>]*\bhidden\b')
+        self.assertRegex(menu, r'<a href="/analise/" aria-current="page"')
+        self.assertIn('<script type="module" src="/hud/secoes.js"></script>', h)
+        self.assertIn(B.SECOES_CSS, h)
+
+    def test_css_do_menu_sem_hex(self):
+        self.assertEqual(HEX.findall(B.SECOES_CSS), [])
+
+
 if __name__ == "__main__":
     unittest.main()

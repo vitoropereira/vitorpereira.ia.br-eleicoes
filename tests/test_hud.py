@@ -255,3 +255,33 @@ class PessoasAgora(unittest.TestCase):
         h = pagina.read_text()
         self.assertIn("window.HUD_PRESENCE=", h)
         self.assertNotIn("pessoas agora</span>", h, "o pré-render (headless) não pode contar nem mostrar o contador")
+
+
+class MenuSecoes(unittest.TestCase):
+    """botão "☰ Seções" (issue 138): a lista de seções do site vem de uma fonte só (B.secoes()) e chega igual
+    à sitebar, ao painel (window.HUD_SECOES) e à Análise (HTML estático)."""
+
+    def test_secoes_e_a_lista_da_sitebar(self):
+        nav = re.search(r'<nav class="top"[^>]*>(.*?)</nav>', B.sitebar("/")).group(1)
+        hrefs = re.findall(r'<a href="([^"]+)"', nav)
+        self.assertEqual(hrefs, [u for u, _ in B.secoes()])
+        for u in ("/", "/ao-vivo/", "/analise/", "/rastro/", "/apuracao/"):
+            self.assertIn(u, hrefs)
+
+    def test_painel_recebe_hud_secoes_antes_do_app(self):
+        h = B.injetar_presenca(TEMPLATE.read_text())
+        m = re.search(r"<script>window\.HUD_SECOES=(\[.*?\]);</script>", h)
+        self.assertIsNotNone(m, "HUD_SECOES precisa ser injetada pelo build")
+        self.assertLess(h.index("window.HUD_SECOES="), h.index('<script type="module" src="/hud/app.js">'))
+        self.assertEqual([tuple(x) for x in json.loads(m.group(1))], [tuple(x) for x in B.secoes()])
+        self.assertIn(B.SECOES_CSS, h, "o estilo do menu também vem do build, uma fonte só")
+
+    def test_painel_nao_escreve_secoes_a_mao(self):
+        app = (HUD / "app.js").read_text()
+        self.assertIn("HUD_SECOES", app)
+        self.assertNotIn('href="/rastro/"', app)
+        self.assertNotIn('href="/debates/"', app)
+
+    def test_menu_some_na_tela_cheia(self):
+        app = (HUD / "app.js").read_text()
+        self.assertRegex(app, r"!cheia\s*&&\s*html`<\$\{Secoes\}")

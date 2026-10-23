@@ -20,7 +20,7 @@ svg{flex:none}
 .bt svg,.share svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 
 /* ---------- cabeçalho (mesmo do painel /ao-vivo/, com "Análise" ativa) */
-.hud-top{display:flex;align-items:center;gap:12px;padding:10px 16px;border-bottom:1px solid var(--line);background:var(--bg);flex-wrap:wrap}
+.hud-top{display:flex;align-items:center;gap:12px;padding:10px 16px;border-bottom:1px solid var(--line);background:var(--bg);flex-wrap:wrap;position:relative;z-index:40}
 .marca{display:flex;align-items:center;gap:8px;color:var(--ink);text-decoration:none;font-family:var(--font-mono);font-weight:600;letter-spacing:-.01em;white-space:nowrap}
 .marca .dim{color:var(--muted);margin-left:.45em}
 .marca .cursor{display:inline-block;width:.5em;height:1.05em;background:var(--brand);margin-left:2px;vertical-align:-.15em}
@@ -172,6 +172,7 @@ svg{flex:none}
     <span class="wm">vitor<span class="dim">pereira</span><span class="cursor" aria-hidden="true"></span></span>
     <span class="sep" aria-hidden="true">/</span><span class="ctx">eleições 2026</span>
   </a>
+  <!--__SECOES__-->
   <nav class="seg cargos" aria-label="Painel por cargo e análise">
     <a href="/ao-vivo/?cargo=presidente">Presidente</a><a href="/ao-vivo/?cargo=governador">Governadores</a><a href="/ao-vivo/?cargo=senador">Senado</a><a href="/ao-vivo/?cargo=depfed">Dep. Federal</a><a href="/ao-vivo/?cargo=depest">Dep. Estadual</a><a href="/analise/" aria-current="page">Análise</a>
   </nav>
