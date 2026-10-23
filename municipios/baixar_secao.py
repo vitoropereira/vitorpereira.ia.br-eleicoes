@@ -14,7 +14,7 @@ from municipios.baixar_t2022 import CONFIG_MUN  # noqa: E402
 
 OUT = H / "brutos_secao"
 URL_SECAO = f"{BASE}/votacao_secao/votacao_secao_2026_BR.zip"
-URL_LOCAIS = f"{BASE}/eleitorado_locais/eleitorado_local_votacao_2026.zip"
+URL_LOCAIS = f"{BASE}/eleitorado_locais_votacao/eleitorado_local_votacao_2026.zip"
 ARQUIVOS = [URL_SECAO, URL_LOCAIS, CONFIG_MUN]
 
 

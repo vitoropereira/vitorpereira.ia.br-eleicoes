@@ -29,17 +29,25 @@ PISO = 30  # comparecimento mínimo para mostrar voto por candidato (seção ou 
 BN = {"95", "96", "97"}  # branco, nulo, anulado
 LIMITE_BYTES = 15 * 1024 * 1024
 LIMITE_ARQ = 6000
+# colunas obrigatórias (as da seção conferidas no cabeçalho do ZIP do TSE em 22/10/2026; as dos locais vêm da issue #154)
+COLS_SECAO = ("NR_TURNO", "SG_UF", "CD_MUNICIPIO", "NR_ZONA", "NR_SECAO", "CD_CARGO", "NR_VOTAVEL", "NM_VOTAVEL", "QT_VOTOS")
+COLS_LOCAIS = ("SG_UF", "CD_MUNICIPIO", "NR_ZONA", "NR_SECAO", "NR_LOCAL_VOTACAO")
 csv.field_size_limit(1 << 24)
 
 
-def linhas_zip(caminho):
-    """Linhas (dict) de todos os CSVs do ZIP, sem extrair; pula o _BRASIL.csv (duplicata das UFs)."""
+def linhas_zip(caminho, exige=()):
+    """Linhas (dict) de todos os CSVs do ZIP, sem extrair; pula o _BRASIL.csv (duplicata das UFs).
+    Sai com o nome da coluna se faltar alguma de `exige` no cabeçalho de um membro."""
     with zipfile.ZipFile(caminho) as zf:
         for m in sorted(zf.namelist()):
             if not m.lower().endswith(".csv") or m.lower().endswith("_brasil.csv"):
                 continue
             with zf.open(m) as b, io.TextIOWrapper(b, encoding="latin-1", newline="") as f:
-                yield from csv.DictReader(f, delimiter=";")
+                rd = csv.DictReader(f, delimiter=";")
+                falta = [c for c in exige if c not in (rd.fieldnames or [])]
+                if falta:
+                    sys.exit(f"{Path(caminho).name}/{m}: faltam as colunas {falta} (o TSE mudou o layout?)")
+                yield from rd
 
 
 def mapa_ibge(cfg):
@@ -84,7 +92,7 @@ def juntar(secao_zip, locais_zip, cfg):
     # locais: uma linha por seção e turno; seção agregada soma os aptos na principal
     loc, apt = {}, {}  # (turno, uf, mun, zona, secao) -> nr_local; idem -> aptos
     info = {}  # (uf, mun, zona, nr_local) -> [lat, lon, nome, bairro, cep5]
-    for r in linhas_zip(locais_zip):
+    for r in linhas_zip(locais_zip, COLS_LOCAIS):
         t, uf, mun, zona = r.get("NR_TURNO") or "1", r["SG_UF"], r["CD_MUNICIPIO"].zfill(5), int(r["NR_ZONA"])
         sec, princ = int(r["NR_SECAO"]), _num(r.get("NR_SECAO_PRINCIPAL"))
         alvo = princ if princ > 0 else sec
@@ -99,7 +107,7 @@ def juntar(secao_zip, locais_zip, cfg):
 
     # votos de presidente por seção
     votos, cinfo, tot = {}, {}, {}  # (t, uf, mun, zona, secao) -> {nr: votos}; t -> nr -> nome; t -> nr -> total
-    for r in linhas_zip(secao_zip):
+    for r in linhas_zip(secao_zip, COLS_SECAO):
         if r["CD_CARGO"] != "1":
             continue
         t, nr, q = r["NR_TURNO"], r["NR_VOTAVEL"], int(r["QT_VOTOS"])

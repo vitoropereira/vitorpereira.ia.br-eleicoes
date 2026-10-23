@@ -45,6 +45,12 @@ class TestBaixar(unittest.TestCase):
         self.assertIn("votacao_secao_2026_BR.zip", res)
         self.assertIn("eleitorado_local_votacao_2026.zip", res)
 
+    def test_urls_do_cdn_do_tse(self):
+        # conferido por HEAD em 22/10/2026: a pasta é eleitorado_locais_votacao/ (eleitorado_locais/ dá 404)
+        base = "https://cdn.tse.jus.br/estatistica/sead/odsele"
+        self.assertEqual(baixar_secao.URL_SECAO, f"{base}/votacao_secao/votacao_secao_2026_BR.zip")
+        self.assertEqual(baixar_secao.URL_LOCAIS, f"{base}/eleitorado_locais_votacao/eleitorado_local_votacao_2026.zip")
+
 
 class Base(unittest.TestCase):
     turnos = ("votacao_t1.csv",)
@@ -123,6 +129,27 @@ class TestJuncao(Base):
             ms.montar(self.br, self.td / "geo")
         self.assertIn("seções sem local de votação: 1", out.getvalue())
         self.assertIn("municípios sem código IBGE no mun-config: 1", out.getvalue())
+
+
+class TestColunas(Base):
+    def test_coluna_faltando_para_com_o_nome_dela(self):
+        # se o TSE renomear uma coluna, o montador para dizendo qual, em vez de KeyError no meio de 1 GB
+        z = self.td / "ruim.zip"
+        txt = (FX / "votacao_t1.csv").read_text(encoding="utf-8").replace("QT_VOTOS", "QT_VOTOS_NOMINAIS", 1)
+        with zipfile.ZipFile(z, "w") as zf:
+            zf.writestr("votacao_secao_2026_BR.csv", txt.encode("latin-1"))
+        with self.assertRaises(SystemExit) as cm:
+            ms.juntar(z, self.br / ms.ZIP_LOCAIS, self.cfg)
+        self.assertIn("QT_VOTOS", str(cm.exception))
+
+    def test_coluna_faltando_nos_locais(self):
+        z = self.td / "ruim.zip"
+        txt = (FX / "locais.csv").read_text(encoding="utf-8").replace("NR_LOCAL_VOTACAO", "NR_LOCAL", 1)
+        with zipfile.ZipFile(z, "w") as zf:
+            zf.writestr("eleitorado_local_votacao_2026_AC.csv", txt.encode("latin-1"))
+        with self.assertRaises(SystemExit) as cm:
+            ms.juntar(self.br / ms.ZIP_SECAO, z, self.cfg)
+        self.assertIn("NR_LOCAL_VOTACAO", str(cm.exception))
 
 
 class TestPiso(Base):
