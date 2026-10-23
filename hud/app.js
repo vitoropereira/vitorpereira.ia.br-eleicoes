@@ -34,6 +34,9 @@ const Ic = {
   busca: html`<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>`,
   globo: html`<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 3 2.5 15 0 18M12 3c-2.5 3-2.5 15 0 18"/></svg>`,
   cheia: html`<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>`,
+  // botão de tema (mesmos ícones de build_site.TEMA_BOTAO; qual aparece é decidido só por CSS)
+  sol: html`<svg class="sol" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>`,
+  lua: html`<svg class="lua" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>`,
   mais: html`<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>`,
   menos: html`<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/></svg>`,
   brasil: html`<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6M4 4v6M20 20h-6M20 20v-6M20 4l-6 6M4 20l6-6"/></svg>`,
@@ -73,6 +76,7 @@ function Topo({ turno, setTurno, cargo, setCargo, status, onBusca, onExterior, o
         <button type="button" class="bt busca" onClick=${onBusca} aria-keyshortcuts="Meta+K Control+K">${Ic.busca}<span>Buscar</span><kbd>⌘K</kbd></button>
         <span class=${"status " + status.cls} title=${status.longo || null}><i class="dot" aria-hidden="true"></i><span class=${status.curto ? "st-l" : ""}>${status.txt}</span>${status.curto && html`<span class="st-c" aria-hidden="true">${status.curto}</span>`}</span>
         <button type="button" class="bt" onClick=${onExterior}>${Ic.globo}<span>Exterior</span></button>
+        <button type="button" class="tema" onClick=${() => window.temaAlternar?.()} aria-label="Alternar tema claro ou escuro" title="Alternar tema claro ou escuro">${Ic.sol}${Ic.lua}</button>
         <button type="button" class="bt ic" onClick=${onCheia} aria-label=${cheia ? "Sair da tela cheia" : "Tela cheia"} title=${cheia ? "Sair da tela cheia" : "Tela cheia"}>${Ic.cheia}</button>
       </div>
     </header>`;
