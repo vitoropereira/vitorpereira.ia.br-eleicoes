@@ -187,6 +187,42 @@ function Comparacao({ s, D, uf }) {
       <p class="nota">${CAND.L} 2022 e 2026: fatia de Lula entre Lula e o adversário (Bolsonaro em 2022, Flávio em 2026, os dois do ${SIGLA.F}), não % dos votos válidos.</p>`}`;
 }
 
+function TerraGente({ s, D, uf }) {
+  const mu = D["terra-gente"]?.mu || {}, g = s.g, v = g.venc;
+  const nome = (cd) => D.mun?.[cd]?.[0] || cd;
+  const VENC = { L: CAND.L, F: CAND.F, E: "empate" };
+  const corDe = (cd) => { const m = mu[cd]; if (!m) return null; return m[1] === "E" ? corApagada(0.95) : corLado(m[1], 0.95); };
+  const dica = (cd) => {
+    const m = mu[cd];
+    if (!m) return html`<${Dk} t=${nome(cd)} linhas=${[[null, "Sem dados", ""]]} />`;
+    return html`<${Dk} t=${`${nome(cd)} · ${ufDoCodigo(cd)}`} linhas=${[[m[1] === "E" ? null : corL(m[1]), "Mais votado", VENC[m[1]]], [null, "Área", m[0] == null ? "sem geometria" : `${num(m[0], 0)} km²`], [null, "Votos válidos", int(m[2])]]} />`;
+  };
+  const fat = (k, campo) => ({ k, p: v[k][campo], cor: k === "E" ? "var(--neutral)" : corL(k), nome: VENC[k],
+    dica: html`<${Dk} t=${`Municípios: ${VENC[k]}`} linhas=${[[k === "E" ? null : corL(k), "Municípios", int(v[k].mun)], [null, "Área", `${pct(v[k].area_pct)} · ${int(v[k].area)} km²`], [null, "Votos válidos", `${pct(v[k].validos_pct)} · ${int(v[k].validos)}`]]} />` });
+  const ordem = ["L", "E", "F"].filter((k) => v[k]?.mun > 0);
+  const outros = Math.max(0, 1 - g.lula_pct - g.flavio_pct);
+  const linhas = [
+    { rotulo: "Área", partes: ordem.map((k) => fat(k, "area_pct")) },
+    { rotulo: "Votos válidos", sub: "(dos municípios)", partes: ordem.map((k) => fat(k, "validos_pct")) },
+    { rotulo: "Votos válidos", sub: "(de cada um)", partes: [
+      { k: "L", p: g.lula_pct, cor: corL("L"), nome: CAND.L, dica: html`<${Dk} t=${CAND.L} linhas=${[[corL("L"), "Votos válidos", `${pct(g.lula_pct)} · ${int(g.lula)}`]]} />` },
+      { k: "C", p: outros, cor: corL("C"), nome: "Demais candidatos", dica: html`<${Dk} t="Demais candidatos" linhas=${[[corL("C"), "Votos válidos", pct(outros)]]} />` },
+      { k: "F", p: g.flavio_pct, cor: corL("F"), nome: CAND.F, dica: html`<${Dk} t=${CAND.F} linhas=${[[corL("F"), "Votos válidos", `${pct(g.flavio_pct)} · ${int(g.flavio)}`]]} />` }] },
+  ];
+  return html`<ul class="frases">${s.frases.map((f) => html`<li>${f}</li>`)}</ul>
+    <div class="lado-a-lado">
+      <div><h3 class="h3">Por área: cada município com a cor de quem teve mais votos</h3>
+        <${MapaMun} corDe=${corDe} dica=${dica} chave=${"tg" + Object.keys(mu).length} uf=${uf} rotulo="Mapa dos municípios pela cor do mais votado para presidente no 1º turno." />
+        <${LegendaLados} itens=${[[corL("L"), CAND.L], [corL("F"), CAND.F], ...(v.E?.mun > 0 ? [["var(--neutral)", "empate"]] : [])]} /></div>
+      <div><h3 class="h3">Por votos: a mesma divisão pesada pelos votos válidos</h3>
+        <${Empilhadas} linhas=${linhas} rotW=${150} titulo="Área e votos válidos dos municípios ganhos por cada um, e votos válidos de cada candidato" />
+        <${LegendaLados} itens=${[[corL("L"), CAND.L], [corL("F"), CAND.F], [corL("C"), "demais candidatos"], ...(v.E?.mun > 0 ? [["var(--neutral)", "empate"]] : [])]} /></div>
+    </div>
+    ${s.semGeo.length > 0 && html`<p class="nota">Sem geometria na malha do IBGE (votos contam, área fica fora): ${s.semGeo.map((x) => `${x.nome}-${x.uf} (${x.cd})`).join(", ")}.</p>`}
+    <${TabelaSR} cap=${`Área e votos válidos dos municípios ganhos ${uf === "BR" ? "no Brasil" : "· " + nomeRecorte(uf)}`} cab=${["Mais votado", "Municípios", "Área (km²)", "% da área", "Votos válidos", "% dos válidos"]}
+      linhas=${ordem.map((k) => [VENC[k], int(v[k].mun), int(v[k].area), pct(v[k].area_pct), int(v[k].validos), pct(v[k].validos_pct)])} />`;
+}
+
 function Cenarios({ s, D }) {
   const lados = D.lados;
   return html`${Number.isFinite(s.pl) && html`<${Barras} titulo="Quanto cada um precisa dos votos dos eliminados" max=${1} rotW=${120} itens=${[
@@ -317,6 +353,7 @@ function App({ D0 }) {
       <${Secao} id="votos-cadeiras" s=${R.cadeiras} uf=${uf}><${Cadeiras} s=${R.cadeiras} /><//>
       <${Secao} id="divergencias" s=${R.divergencias} uf=${uf}><${Divergencias} s=${R.divergencias} D=${D} uf=${uf} cargo=${cargoDiv} setCargo=${setCargoDiv} /><//>
       <${Secao} id="comparacao-2022" s=${R.comparacao} uf=${uf}><${Comparacao} s=${R.comparacao} D=${D} uf=${uf} /><//>
+      <${Secao} id="terra-gente" s=${R.terraGente} uf=${uf}><${TerraGente} s=${R.terraGente} D=${D} uf=${uf} /><//>
       <${Secao} id="cenarios-2-turno" s=${R.cenarios} selo="cenário" uf="BR" nota=${uf !== "BR" ? "Cenários são nacionais: a eleição para presidente é decidida pelo total do país." : null}><${Cenarios} s=${R.cenarios} D=${D} /><//>
       <${Secao} id="brancos-nulos" s=${R.brancos} uf=${uf}><${Brancos} s=${R.brancos} /><//>
       <${Secao} id="fragmentacao" s=${R.fragmentacao} uf=${uf}><${Fragmentacao} s=${R.fragmentacao} /><//>
