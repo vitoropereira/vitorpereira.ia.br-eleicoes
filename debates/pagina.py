@@ -262,6 +262,15 @@ section>.db-metodo{margin-top:34px;padding-top:6px;border-top:1px solid var(--li
 .db-rt-t{display:flex;flex-wrap:wrap;gap:4px 12px;font:600 13px var(--font-mono)}
 .db-rt-t .db-tempo{color:var(--muted);font-weight:400}.db-rt-t .db-tempo a{color:inherit}
 .db-rt q{display:block;margin:4px 0 0;font-size:15px;color:var(--ink2)}
+.db [id]{scroll-margin-top:96px}
+.db-temas ul{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:0 0 12px}
+.db-temas a{display:inline-block;border:1px solid var(--line);border-radius:999px;background:var(--card);padding:4px 12px;font-size:14px;text-decoration:none}
+.db-temas span{color:var(--muted)}
+.db-tema>h3{font-size:18px;margin:26px 0 10px}
+.db-rt-lista summary{cursor:pointer;font-weight:600;margin-top:16px}
+.db-topo{display:inline-block;margin-top:24px;font-size:14px}
+.db-topo.flutua{position:fixed;right:16px;bottom:16px;z-index:10;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 12px}
+.db-topo[hidden]{display:none}
 .db-lista{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .db-af{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:10px;padding:12px 14px;overflow-wrap:anywhere}
 .db-af[hidden],.db-tema[hidden]{display:none}
@@ -457,10 +466,16 @@ def gerar(m, base, autor, tambem=None):
               + opcoes("veredito", "Veredito", [(v, ROTULOS[v]) for v in vereditos])
               + f'<output aria-live="polite">{n} de {n} afirmações</output></form>')
     temas = "".join(
-        f'<section class="db-tema" id="tema-{t}"><h2>{esc(TEMAS[t])}</h2><div class="db-lista">'
+        f'<section class="db-tema" id="tema-{t}"><h3>{esc(TEMAS[t])}</h3><div class="db-lista">'
         + "".join(cartao(c) for c in chs if itens[c["id"]]["tema"] == t) + "</div></section>" for t in temas_usados)
+    indice_temas = ('<nav class="db-temas" aria-label="Temas das afirmações"><ul>'
+                    + "".join(f'<li><a href="#tema-{t}">{esc(TEMAS[t])} '
+                              f'<span>{sum(1 for c in chs if itens[c["id"]]["tema"] == t)}</span></a></li>'
+                              for t in temas_usados) + '</ul></nav>')
+    afirmacoes_html = ('<section aria-labelledby="afirmacoes"><h2 id="afirmacoes">Afirmações checadas</h2>'
+                       f'{indice_temas}{filtro}{temas}</section>')
 
-    rt, conta_rt, retorica_html = m.get("retorica"), placar_retorica(m), ""
+    rt,conta_rt, retorica_html = m.get("retorica"), placar_retorica(m), ""
     if rt:
         linhas_rt = [(_nome(cands[q]), cands[q]["cor"], conta_rt[q]) for q in conta_rt]
         filtro_rt = ('<form class="db-rt-filtro" aria-label="Filtrar frases" hidden>'
@@ -475,8 +490,9 @@ def gerar(m, base, autor, tambem=None):
         retorica_html = ('<section aria-labelledby="retorica"><h2 id="retorica">Como cada um argumentou</h2>'
                          f'<p class="db-nota">{len(rt)} frases dos candidatos, cada uma com uma etiqueta. A barra é a '
                          'parte de cada etiqueta nas frases do candidato.</p>'
-                         f'{_barras_retorica(linhas_rt)}{como_etiquetamos()}{filtro_rt}'
-                         f'<ul class="db-rt" aria-label="Frases etiquetadas">{lista_rt}</ul></section>')
+                         f'{_barras_retorica(linhas_rt)}{como_etiquetamos()}'
+                         f'<details class="db-rt-lista"><summary>Ver as {len(rt)} frases</summary>{filtro_rt}'
+                         f'<ul class="db-rt" aria-label="Frases etiquetadas">{lista_rt}</ul></details></section>')
 
     corpo = (_trilha(trilha[:2] + [(rotulo, None)])
              + f'<p class="db-kicker">Checagem · {esc(deb["cargo"])} · {turno}º turno · {dia}</p>'
@@ -484,11 +500,12 @@ def gerar(m, base, autor, tambem=None):
              f'<p class="db-lead">Debate para {esc(deb["cargo"])} entre {esc(" e ".join(_nome(c) for c in candidatos))}, '
              f'na {esc(emissora)}, em {dia}. Checamos {n} afirmações: cada uma tem a frase, o trecho da transcrição, '
              f'o veredito, a explicação e as fontes.</p>'
-             f'{placar_html}{retorica_html}{filtro}{temas}'
+             f'{placar_html}{afirmacoes_html}{retorica_html}'
              f'<section class="db-cta" aria-labelledby="depois"><h2 id="depois">A eleição</h2>'
              f'<p><a href="/ao-vivo/">Apuração ao vivo, por município →</a></p>'
              f'<p><a href="/">Resultado do 1º turno →</a></p>'
-             f'<p><a href="{tpath}">Transcrição integral do debate →</a></p></section>{como_checamos()}')
+             f'<p><a href="{tpath}">Transcrição integral do debate →</a></p></section>{como_checamos()}'
+             '<a class="db-topo" href="#conteudo">↑ Voltar ao topo</a>')
     ld = [claim(c) for c in chs]
     ld += [{"@context": "https://schema.org", "@type": "Article", "headline": titulo[:110], "description": desc,
             "inLanguage": "pt-BR", "datePublished": publicado, "dateModified": modificado, "author": autor,

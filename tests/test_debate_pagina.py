@@ -510,8 +510,71 @@ class Saida(unittest.TestCase):
                 self.assertTrue((R / "site" / p.strip("/") / "index.html").exists(), p)
                 self.assertIn(f"<loc>{B.BASE}{p}</loc>", sitemap)
                 self.assertTrue((R / "site" / "og" / f"debate-{m['debate']['ano']}-{m['debate']['slug']}-{c['id']}.png").exists())
-        self.assertEqual((R / "site" / "debates" / "debate.js").read_bytes(), (R / "debates" / "debate.js").read_bytes())
+        # o site/ commitado pode estar atrás do lote: publica em tmp e compara o JS
+        with tempfile.TemporaryDirectory() as tmp:
+            B.debates_publicar(tmp)
+            self.assertEqual((Path(tmp) / "debates" / "debate.js").read_bytes(),
+                             (R / "debates" / "debate.js").read_bytes())
 
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Hierarquia(unittest.TestCase):
+    """#144: afirmações antes da retórica, índice de temas, lista de frases recolhida, voltar ao topo."""
+
+    def pastas(self):
+        return [p for p in (TESTE, FICT, REAL) if p.exists() and (p / "checagens.json").exists()]
+
+    def test_ordem_das_secoes(self):
+        for p in self.pastas():
+            with self.subTest(p.name):
+                h = gerar(p)["html"]
+                pos = [h.index('aria-labelledby="placar"'), h.index('aria-labelledby="afirmacoes"'),
+                       h.index('class="db-tema"')]
+                if 'aria-labelledby="retorica"' in h:
+                    pos.append(h.index('aria-labelledby="retorica"'))
+                    self.assertLess(h.rindex('<article class="db-af"'), pos[-1])
+                pos.append(h.index('id="metodo"'))
+                self.assertEqual(pos, sorted(pos))
+
+    def test_indice_de_temas_com_ancoras_validas(self):
+        for p in self.pastas():
+            with self.subTest(p.name):
+                h = gerar(p)["html"]
+                nav = re.search(r'<nav class="db-temas"[^>]*>.*?</nav>', h, re.S)
+                self.assertTrue(nav)
+                self.assertLess(nav.start(), h.index('class="db-tema"'))
+                hrefs = re.findall(r'href="#([^"]+)"', nav.group(0))
+                self.assertEqual(hrefs, re.findall(r'<section class="db-tema" id="([^"]+)">', h))
+                for href in hrefs:
+                    sec = re.search(rf'<section class="db-tema" id="{href}">.*?</section>', h, re.S).group(0)
+                    n = len(re.findall(r'<article class="db-af"', sec))
+                    self.assertRegex(nav.group(0), rf'href="#{href}">[^<]*<span>{n}</span>')
+
+    def test_retorica_placar_visivel_lista_recolhida(self):
+        m = dp.carregar(TESTE)
+        h = gerar(TESTE)["html"]
+        n = len(m["retorica"])
+        det = re.search(r'<details class="db-rt-lista"><summary>Ver as %d frases</summary>(.*?)</details>' % n, h, re.S)
+        self.assertTrue(det)
+        self.assertEqual(det.group(1).count('<li id="r-'), n)
+        self.assertEqual(h.count('<li id="r-'), n)
+        self.assertIn('db-rt-filtro', det.group(1))
+        self.assertEqual(h.count('<form class="db-rt-filtro"'), 1)
+        self.assertNotIn('<div class="db-placar"', det.group(0))
+        self.assertIn('<div class="db-placar"', h)
+
+    def test_voltar_ao_topo(self):
+        for p in self.pastas():
+            with self.subTest(p.name):
+                h = gerar(p)["html"]
+                self.assertIn('<main id="conteudo"', h)
+                self.assertRegex(h, r'<a class="db-topo" href="#conteudo">[^<]*Voltar ao topo</a></main>')
+
+    def test_sem_nome_de_debate_no_codigo(self):
+        for f in ("pagina.py", "debate.js"):
+            src = (R / "debates" / f).read_text(encoding="utf-8")
+            for nome in ("Band", "Globo", "Flávio", "Lula", "presidente-2-turno"):
+                self.assertNotIn(nome, src, f"{f}: {nome}")

@@ -29,4 +29,11 @@
     });
   filtro(document.querySelector(".db-rt-filtro"), document.querySelectorAll(".db-rt li"), ["candidato", "etiqueta"],
     "frases");
+  var topo = document.querySelector(".db-topo");
+  if (topo) {
+    topo.classList.add("flutua");
+    var atualizar = function () { topo.hidden = window.scrollY <= window.innerHeight; };
+    window.addEventListener("scroll", atualizar, { passive: true });
+    atualizar();
+  }
 })();
