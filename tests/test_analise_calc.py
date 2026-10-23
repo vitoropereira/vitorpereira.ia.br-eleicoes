@@ -11,10 +11,6 @@ sys.path.insert(0, str(AN))
 import calcular as CALC  # noqa: E402
 import inferencia as EI  # noqa: E402
 
-# Testes só de CPU que levam minutos numa máquina carregada: rodam no CI (GitHub define CI) ou com ANALISE_COMPLETO=1.
-PESADO = bool(os.environ.get("CI") or os.environ.get("ANALISE_COMPLETO"))
-PESADO_MOTIVO = "pesado: roda no CI ou com ANALISE_COMPLETO=1"
-
 UFS = CALC.UFS
 ARQS = ["lados", "campos", "dividido", "cadeiras", "divergencias", "brancos", "fragmentacao", "legenda", "puxadores",
         "comparacao2022", "cenarios", "destaques", "faq"]
@@ -135,7 +131,6 @@ class TestSintetico(unittest.TestCase):
         for r, c, v, p, lo, hi, _ in EI.avalia(un, ver, 100, "um"):
             if r < 2: self.assertLess(abs(p - v), 0.03, (r, c, v, p))
 
-    @unittest.skipUnless(PESADO, PESADO_MOTIVO)
     def test_cobertura(self):
         res = EI.cobertura(reps=5, n_mun=250, n_boot=150, semente="teste")
         self.assertGreaterEqual(res["cobertura"], 0.85, res)
@@ -379,7 +374,6 @@ class TestDeterminismo(unittest.TestCase):
                        check=True, capture_output=True)
         return {n: (Path(pasta) / f"{n}.json").read_bytes() for n in ARQS}
 
-    @unittest.skipUnless(PESADO, PESADO_MOTIVO)
     def test_duas_rodadas_iguais(self):
         with tempfile.TemporaryDirectory() as a, tempfile.TemporaryDirectory() as b:
             self.assertEqual(self.roda(a, 20), self.roda(b, 20))
