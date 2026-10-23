@@ -20,6 +20,14 @@ export const CARGOS = [
   ["depfed", "Dep. Federal"], ["depest", "Dep. Estadual"],
 ];
 export const CARGO_NOME = Object.fromEntries(CARGOS);
+export const TSE_RESULTADOS = "https://resultados.tse.jus.br/oficial/app/index.html";
+/** estado do botão de cargo por turno. O agregador só monta presidente; no 2º turno os outros cargos ficam
+ *  desativados e governador aponta para o portal do TSE (sem número nem lista de estados). */
+export function cargoTurno(cargo, turno) {
+  if (turno !== 2 || cargo === "presidente") return { off: false, dica: null, link: null };
+  if (cargo === "governador") return { off: true, dica: "Governadores do 2º turno: acompanhe no TSE", link: TSE_RESULTADOS };
+  return { off: true, dica: "No 2º turno só há votação para presidente aqui", link: null };
+}
 export const MODOS = [["municipios", "Municípios"], ["estados", "Estados"], ["vantagem", "Vantagem"], ["apurado", "Apurado"], ["divergencia", "Divergência"]];
 
 // ---------- modo Divergência (dados da Análise: /analise/dados/divergencias.json)

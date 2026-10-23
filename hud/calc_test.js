@@ -1,8 +1,41 @@
 // deno test hud/  — contas do HUD (sem rede, sem DOM)
-import { linha, linhaSerie, somar, oficial, duelo } from "./calc.js";
+import { linha, linhaSerie, somar, oficial, duelo, cargoTurno, CARGOS, TSE_RESULTADOS } from "./calc.js";
 
 const ok = (c, m) => { if (!c) throw new Error(m || "falhou"); };
 const perto = (a, b, m) => ok(Math.abs(a - b) < 1e-9, `${m}: ${a} != ${b}`);
+
+Deno.test("cargoTurno: 1º turno libera todos os cargos, sem dica", () => {
+  for (const [k] of CARGOS) {
+    const r = cargoTurno(k, 1);
+    ok(r.off === false, `${k} off`);
+    ok(!r.dica && !r.link, `${k} sem dica`);
+  }
+});
+
+Deno.test("cargoTurno: 2º turno só presidente fica ativo", () => {
+  ok(cargoTurno("presidente", 2).off === false, "presidente");
+  for (const k of ["governador", "senador", "depfed", "depest"]) ok(cargoTurno(k, 2).off === true, k);
+});
+
+Deno.test("cargoTurno: governador no 2º turno aponta para o TSE", () => {
+  const r = cargoTurno("governador", 2);
+  ok(r.dica === "Governadores do 2º turno: acompanhe no TSE", "dica: " + r.dica);
+  ok(r.link === "https://resultados.tse.jus.br/oficial/app/index.html", "link");
+  ok(TSE_RESULTADOS === r.link, "constante");
+});
+
+Deno.test("cargoTurno: outros cargos não citam governador, número nem estado", () => {
+  for (const k of ["senador", "depfed", "depest"]) {
+    const r = cargoTurno(k, 2);
+    ok(r.dica && !/governador/i.test(r.dica), `${k}: ${r.dica}`);
+    ok(!r.link, `${k} sem link`);
+  }
+  for (const [k] of CARGOS) {
+    const d = cargoTurno(k, 2).dica || "";
+    ok(!/\d(?!º)/.test(d.replace(/2º/g, "")), `${k} dígito: ${d}`);
+    ok(!/\b(AC|AL|AP|AM|BA|CE|DF|ES|GO|MA|MT|MS|MG|PA|PB|PR|PE|PI|RJ|RN|RS|RO|RR|SC|SP|SE|TO)\b/.test(d), `${k} UF: ${d}`);
+  }
+});
 
 const LISTA = [
   { n: "22", nome: "Ruas", sg: "PL" },
