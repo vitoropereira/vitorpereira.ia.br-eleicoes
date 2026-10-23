@@ -167,6 +167,16 @@ class Build(unittest.TestCase):
         # módulos ES sem hash: revalidar sempre
         self.assertIn({"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}, hs["/hud/(.*)"])
 
+    def test_vivo_e_tse_com_cache_de_cdn_no_rewrite_externo(self):
+        """issue #133: a origem manda no-cache e a Vercel obedecia (x-vercel-cache: MISS em todo poll); o CDN-Cache-Control
+        do vercel.json sobrepõe a origem. A raiz (deploy pelo git) tem que sair igual ao VERCEL."""
+        hs = {h["source"]: h["headers"] for h in B.VERCEL["headers"]}
+        for src, idade in (("/vivo/(.*)", 15), ("/tse/(.*)", 20)):
+            self.assertIn({"key": "CDN-Cache-Control", "value": f"max-age={idade}"}, hs[src], src)
+            self.assertIn({"key": "x-vercel-enable-rewrite-caching", "value": "1"}, hs[src], src)
+        raiz = json.loads((Path(B.__file__).parent / "vercel.json").read_text())
+        self.assertEqual(raiz, {"outputDirectory": "site", **B.VERCEL})
+
     def test_vivo_reescrito_para_o_storage_com_cache_curto(self):
         rw = {r["source"]: r["destination"] for r in B.VERCEL["rewrites"]}
         self.assertEqual(rw.get("/vivo/:path*"), "https://qzczyicspbizosjogmlq.supabase.co/storage/v1/object/public/vivo/:path*")
