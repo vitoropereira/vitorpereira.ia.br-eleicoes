@@ -23,6 +23,13 @@ export function analise(nome) {
   return cache.get(url);
 }
 
+/** posições e raios do modo Pessoas (municipios/pessoas.py): só pedido quando o modo é escolhido */
+export function pessoas() {
+  const url = `${GEO}pessoas.json`;
+  if (!cache.has(url)) cache.set(url, json(url).catch((e) => { cache.delete(url); throw e; }));
+  return cache.get(url);
+}
+
 export function malha() {
   const url = `${GEO}municipios.topo.json`;
   if (!cache.has(url)) cache.set(url, json(url).catch((e) => { cache.delete(url); throw e; }));
