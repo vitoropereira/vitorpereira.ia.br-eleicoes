@@ -52,7 +52,8 @@ details summary{cursor:pointer;color:var(--ink2);font-size:13.5px}
 
   <div class="card">
     <h2>Trajetória da apuração até 100%</h2>
-    <p class="cap">Linha cheia = apurado (TSE, um ponto por atualização). Tracejada = projeção mediana até o fim; faixa = 80% das simulações. Pontilhada fina = projeção base (restante igual ao % atual de cada UF).</p>
+    <p class="cap">A linha cheia é o que o TSE já tinha contado; a tracejada é onde a nossa conta previa que cada um ia terminar.</p>
+    <details class="cap"><summary>Como calculamos</summary><p class="cap">Linha cheia = apurado (TSE, um ponto por atualização). Tracejada = projeção mediana até o fim; faixa = 80% das simulações. Pontilhada fina = projeção base (restante igual ao % atual de cada UF).</p></details>
     <div class="legend"><span><span class="sw" style="background:var(--flavio)"></span>Flávio (<span data-sg="f"></span>)</span><span><span class="sw" style="background:var(--lula)"></span>Lula (<span data-sg="l"></span>)</span><span>── apurado</span><span>- - projeção</span><span>▒ faixa 80%</span></div>
     <div class="ch" style="height:380px"><canvas id="cTraj"></canvas></div>
   </div>
