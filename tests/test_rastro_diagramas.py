@@ -185,7 +185,7 @@ class TestSvg(unittest.TestCase):
         pg.varrer("svg5", svg_de(dg.fluxos_campanha(C5, FORN5, [], None)))
 
 
-SNAP_2001 = "99ffad68ebf5b0633b24e0c418de0d7fb626ab038d5f29828e632a3a30954da4"  # SVG da issue A, antes da opção rotulo_acima
+SNAP_2001 = "e06c768f32ba5bfb6cbd1544a2480c0359d3911b51180279b3e5707159a2107e"  # SVG da issue A, antes da opção rotulo_acima; issue 146: só a fonte 11 -> 12 px
 
 
 def camp(i, href=True, total=1000.0, partido="PX", uf="SP"):

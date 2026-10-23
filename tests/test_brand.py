@@ -54,6 +54,19 @@ class Brand(unittest.TestCase):
             for fg in ("--flavio", "--lula"):
                 self.assertGreaterEqual(contraste(t[fg], t["--card"]), 3.0, f"{nome}: {fg} sobre --card")
 
+    def test_alerta_do_selo_fora_da_paleta_de_partido(self):
+        # issue 150: o tom do selo de veredito (--alerta) é texto AA nos dois temas e fica longe do azul, do vermelho
+        # (partidos) e do verde (--live); medido: matiz 40° nos dois temas, ~36° do --lula
+        hue = lambda x: colorsys.rgb_to_hsv(*(int(x.lstrip("#")[i:i + 2], 16) / 255 for i in (0, 2, 4)))[0] * 360
+        for nome in ("escuro", "claro"):
+            t = tema(nome)
+            self.assertIn("--alerta", t, nome)
+            for bg in ("--bg", "--card", "--soft"):
+                self.assertGreaterEqual(contraste(t["--alerta"], t[bg]), 4.5, f"{nome}: --alerta sobre {bg}")
+            for outra in ("--flavio", "--lula", "--live"):
+                d = abs(hue(t["--alerta"]) - hue(t[outra])) % 360
+                self.assertGreaterEqual(min(d, 360 - d), 25, f"{nome}: --alerta perto de {outra}")
+
     def test_pl_longe_do_ciano(self):
         for nome in ("escuro", "claro"):
             t = tema(nome)
