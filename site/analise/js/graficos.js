@@ -158,7 +158,9 @@ export function Dispersao({ pts, rotX, rotY, titulo, resumo, dica }) {
     const mq = matchMedia("(prefers-color-scheme: light)");
     const f = () => { limparCache(); setTema((t) => t + 1); };
     mq.addEventListener("change", f);
-    return () => mq.removeEventListener("change", f);
+    const mo = new MutationObserver(f); // botão de tema (data-theme no <html>)
+    mo.observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+    return () => { mq.removeEventListener("change", f); mo.disconnect(); };
   }, []);
   useEffect(() => {
     const c = cv.current; if (!c || !pts) return;

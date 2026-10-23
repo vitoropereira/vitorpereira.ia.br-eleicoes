@@ -49,6 +49,14 @@
     {
      "key": "Cache-Control",
      "value": "public, s-maxage=20, stale-while-revalidate=40"
+    },
+    {
+     "key": "CDN-Cache-Control",
+     "value": "max-age=20"
+    },
+    {
+     "key": "x-vercel-enable-rewrite-caching",
+     "value": "1"
     }
    ]
   },
@@ -121,6 +129,14 @@
     {
      "key": "Cache-Control",
      "value": "public, s-maxage=15, stale-while-revalidate=30"
+    },
+    {
+     "key": "CDN-Cache-Control",
+     "value": "max-age=15"
+    },
+    {
+     "key": "x-vercel-enable-rewrite-caching",
+     "value": "1"
     }
    ]
   }
