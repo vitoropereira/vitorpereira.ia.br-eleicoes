@@ -276,6 +276,20 @@ svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.8;stroke
   .hud-pe{display:flex;flex-direction:column;gap:6px;padding:4px 16px 96px;font-size:12px;color:var(--muted)}
   .hud-pe a,.hud-pe .link{color:var(--ink2);font-size:12px}
 }
+/* celular (#146): até 640 px, todo controle com 40 px de altura; acima disso o painel continua denso de propósito */
+@media (max-width:640px){
+  .marca{min-height:40px;box-sizing:border-box}
+  .seg button{min-height:40px;box-sizing:border-box}
+  .seg .aba{display:inline-flex;align-items:center;min-height:40px;box-sizing:border-box}
+  .bt{min-height:40px;box-sizing:border-box}
+  .bt.ic,.acoes .busca{width:40px;height:40px;justify-content:center}
+  /* os botões de 40 px cabem na 2ª linha do cabeçalho em 375 px: um pouco menos de vão e de recuo */
+  .hud-top{gap:8px 6px}
+  .acoes .bt:not(.ic):not(.busca){padding:6px 10px}
+  .trilho input{min-height:40px;box-sizing:border-box}
+  .cab a.sub{display:inline-flex;align-items:center;min-height:40px;box-sizing:border-box}
+  .link{min-height:40px;box-sizing:border-box}
+}
 /* celular estreito: a marca perde o "/ eleições 2026" para o "☰ Seções" caber na 1ª linha, junto do status */
 @media (max-width:480px){ .marca .ctx,.marca .sep{display:none} }
 @media (prefers-reduced-motion:reduce){ .dot{animation:none!important} *{scroll-behavior:auto!important;transition:none!important} }
