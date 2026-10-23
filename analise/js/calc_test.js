@@ -2,6 +2,7 @@
 const assert = (c, m) => { if (!c) throw new Error(m || "falhou"); };
 const assertEquals = (a, b, m) => assert(JSON.stringify(a) === JSON.stringify(b), `${m ? m + ": " : ""}${JSON.stringify(a)} != ${JSON.stringify(b)}`);
 const assertAlmostEquals = (a, b, eps = 1e-9) => assert(Math.abs(a - b) < eps, `${a} != ${b}`);
+import { LADO_NOME, LADO_MIN } from "./calc.js";
 import { ladoDe, escala, passo, marcas, teto, pct, pp, mi, int, num, votosTxt, partes, intervaloPct, intervaloV, recorte, ufDoCodigo, noRecorte, deRecorte, secDivergencias, secComparacao, secBrancos, secDividido, secCenarios, ordenaPesquisas, SECOES } from "./calc.js";
 
 Deno.test("escala linear e inversa", () => {
@@ -103,6 +104,18 @@ Deno.test("recorte BR × UF recalcula cada seção", () => {
   assert(br.dividido.est);
   assert(br.dividido.rotulo.includes("faixa"));
   assertEquals(br.cadeiras.numero, "124 de 513");
+});
+
+// texto para leigo: manchetes, rótulos e nomes de seção em português simples; o jargão fica no "Como calculamos" recolhido
+const JARGAO = /\bcampos?\b|\bCampo de\b|efetivos?\b|Duncan|Laakso|faixa estat/;
+Deno.test("texto visível sem jargão (campo → lado, sem partidos efetivos)", () => {
+  const Df = { ...D, fragmentacao: { BR: { depfed: { nep: 9.67, nep_cadeiras: 8.83, partidos_com_cadeira: 20, centro_pct_votos: 0.2, centro_pct_cadeiras: 0.18 } } } };
+  const r = recorte(Df, "BR");
+  const textos = [...SECOES.map(([, t]) => t), ...Object.values(LADO_NOME), ...Object.values(LADO_MIN),
+    ...Object.values(r).flatMap((s) => (s && typeof s === "object" ? [s.titulo, s.rotulo] : [])).filter(Boolean)];
+  assert(r.fragmentacao.titulo.includes("9,7 partidos do mesmo tamanho"), r.fragmentacao.titulo);
+  for (const t of textos) assert(!JARGAO.test(t), t);
+  assert(JARGAO.test("A Câmara tem 9,7 partidos efetivos"), "o filtro pega o caso proibido");
 });
 
 Deno.test("UF desconhecida cai no Brasil", () => {

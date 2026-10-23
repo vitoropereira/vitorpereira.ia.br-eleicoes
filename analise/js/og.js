@@ -40,7 +40,7 @@ function Cartao({ D }) {
   const R = recorte(D, "BR");
   const s = R[SECAO_DO_ID[id]];
   const est = ["voto-dividido", "puxadores"].includes(id), cen = id === "cenarios-2-turno";
-  const titulo = s?.titulo || { destaques: "Os números mais curiosos do 1º turno de 2026", faq: "Perguntas frequentes sobre o voto dividido em 2026", metodo: "Como os partidos foram classificados em campos" }[id] || TITULO[id];
+  const titulo = s?.titulo || { destaques: "Os números mais curiosos do 1º turno de 2026", faq: "Perguntas frequentes sobre o voto dividido em 2026", metodo: "Como os partidos foram classificados em lados" }[id] || TITULO[id];
   return html`<div class=${"og " + formato}>
     <p class="og-k">Análise · Eleições 2026 · ${TITULO[id]}${(est || cen) && html` <span class="badge">${cen ? "cenário" : "estimativa"}</span>`}</p>
     <h1>${titulo}</h1>

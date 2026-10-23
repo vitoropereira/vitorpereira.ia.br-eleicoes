@@ -1,15 +1,15 @@
 // Análise: contas, formatação, escalas e o recorte por UF (sem DOM; testado em calc_test.js).
-// Lados: L = campo de Lula, F = campo de Flávio, C = centro/sem lado. Contrato: analise/dados/*.json.
+// Lados: L = lado de Lula, F = lado de Flávio, C = centro/sem lado. Contrato: analise/dados/*.json.
 
 export const LADOS = ["L", "C", "F"]; // ordem visual: esquerda → direita
 // partido de Lula e de Flávio: o nome do candidato sempre sai com a sigla (issue #74; tests/test_partido_junto.py
 // confere com relatorio/relatorio.json)
 export const SIGLA = { L: "PT", F: "PL" };
 export const CAND = { L: `Lula (${SIGLA.L})`, F: `Flávio (${SIGLA.F})` };
-export const LADO_NOME = { L: `Campo de ${CAND.L}`, C: "Centro/sem lado", F: `Campo de ${CAND.F}` };
-export const LADO_MIN = { L: `campo de ${CAND.L}`, C: "centro", F: `campo de ${CAND.F}` }; // no meio da frase
+export const LADO_NOME = { L: `Lado de ${CAND.L}`, C: "Centro/sem lado", F: `Lado de ${CAND.F}` };
+export const LADO_MIN = { L: `lado de ${CAND.L}`, C: "centro", F: `lado de ${CAND.F}` }; // no meio da frase
 export const LADO_CURTO = { L: CAND.L, C: "Centro", F: CAND.F };
-// cor de dado = só tokens de campo da brand (o ciano fica na moldura)
+// cor de dado = só tokens de lado da brand (o ciano fica na moldura)
 export const LADO_TOKEN = { L: "--lula", C: "--outros", F: "--flavio" };
 export const LADO_COR = { L: "var(--lula)", C: "var(--outros)", F: "var(--flavio)" };
 
@@ -144,7 +144,7 @@ export function secCampos(D, uf) {
     ok: linhas.length > 0, uf, linhas, dif,
     titulo: pres && dep
       ? `${LADO_NOME.L}: ${pct(pres.p.L)} dos votos para presidente e ${pct(dep.p.L)} para deputado federal ${noRecorte(uf)}`
-      : `Votos por campo e cargo ${noRecorte(uf)}`,
+      : `Votos por lado e cargo ${noRecorte(uf)}`,
     numero: dif != null ? pp(-dif) : "–",
     rotulo: `do voto em presidente para o voto em deputado federal, no ${LADO_MIN.L}`,
   };
@@ -174,7 +174,7 @@ export function secDividido(D, uf, cargo = "depfed") {
   const outro = grupos[0].itens.filter((x) => x.dst !== "L").reduce((s, x) => s + (x.p || 0), 0);
   return {
     ok: !!lf, uf, cargo, grupos, est: true, metodo: D.dividido?.metodo || "",
-    titulo: lf ? `Estimativa: ${num(outro * 10, 0)} em cada 10 eleitores de ${CAND.L} votaram em ${CARGO_LONGO[cargo]} fora do campo dele ${noRecorte(uf)}` : "",
+    titulo: lf ? `Estimativa: ${num(outro * 10, 0)} em cada 10 eleitores de ${CAND.L} votaram em ${CARGO_LONGO[cargo]} fora do lado dele ${noRecorte(uf)}` : "",
     numero: lf ? mi(lf.v) : "–",
     rotulo: lf ? `eleitores de ${CAND.L} votaram em ${CARGO_LONGO[cargo]} do ${LADO_MIN.F}${lf.intV ? ` (faixa de ${mi(lf.intV[0])} a ${mi(lf.intV[1])})` : ""}` : "",
   };
@@ -290,9 +290,9 @@ export function secFragmentacao(D, uf) {
   const cam = casas[0];
   return {
     ok: !!cam, uf, casas,
-    titulo: cam ? `${cam.casa === "depfed" ? (uf === "BR" ? "A Câmara" : `A bancada ${uf === "DF" ? "do DF" : "de " + uf}`) : "A Assembleia"} tem ${num(cam.nep, 1)} partidos efetivos; o centro tem ${pct(cam.centro_pct_votos, 0)} dos votos e ${pct(cam.centro_pct_cadeiras, 0)} das cadeiras` : "",
+    titulo: cam ? `${cam.casa === "depfed" ? (uf === "BR" ? "Na Câmara" : `Na bancada ${uf === "DF" ? "do DF" : "de " + uf}`) : "Na Assembleia"}, os votos se dividiram como se houvesse ${num(cam.nep, 1)} partidos do mesmo tamanho; o centro tem ${pct(cam.centro_pct_votos, 0)} dos votos e ${pct(cam.centro_pct_cadeiras, 0)} das cadeiras` : "",
     numero: cam ? num(cam.nep, 1) : "–",
-    rotulo: "partidos efetivos (índice de Laakso-Taagepera)",
+    rotulo: "partidos do mesmo tamanho, na conta que pesa cada partido pelos votos",
   };
 }
 
@@ -326,7 +326,7 @@ export function secPuxadores(D, uf, cargo = "depfed") {
 
 /** ordem e títulos das seções da página (id = âncora) */
 export const SECOES = [
-  ["destaques", "Destaques"], ["campos", "Votos por campo e cargo"], ["voto-dividido", "Voto dividido"],
+  ["destaques", "Destaques"], ["campos", "Votos por lado e cargo"], ["voto-dividido", "Voto dividido"],
   ["votos-cadeiras", "Votos × cadeiras"], ["divergencias", "Divergências"], ["comparacao-2022", "2022 × 2026"],
   ["cenarios-2-turno", "Cenários do 2º turno"], ["brancos-nulos", "Brancos e nulos"], ["fragmentacao", "Fragmentação"],
   ["legenda", "Voto de legenda"], ["puxadores", "Puxadores de voto"], ["faq", "Perguntas frequentes"], ["metodo", "Método"],

@@ -785,12 +785,9 @@ def destaques(D):
     num = t.n(dv[0], dv[1] + ["lula_para_F", "v"], "mi")
     item("dividido-br", "Estimativa: eleitor de Lula (PT), deputado do lado de Flávio (PL)", num,
          f"Estimativa: {t.n(dv[0], dv[1] + ['lula_para_F', 'pct'], 'pct')} dos eleitores de {rot('L')} votaram em deputado "
-         f"federal de partido que apoia {rot('F')} (faixa estatística de {t.n('dividido.json', ['intervalo'], 'pct0')}: {t.n(dv[0], dv[1] + ['lula_para_F', 'int', 0], 'pct')} a "
-         f"{t.n(dv[0], dv[1] + ['lula_para_F', 'int', 1], 'pct')}; o mínimo e o máximo possíveis, pelos limites de "
-         f"Duncan-Davis, vão de {t.n(dv[0], dv[1] + ['limites', 'lula_para_F', 0], 'pct')} a "
-         f"{t.n(dv[0], dv[1] + ['limites', 'lula_para_F', 1], 'pct')}; o método tem limitações explicadas abaixo). "
-         f"Entre eleitores de Flávio, o caminho inverso foi estimado em "
-         f"{t.n(dv[0], dv[1] + ['flavio_para_L', 'pct'], 'pct')}.", True, "#voto-dividido")
+         f"federal de partido que apoia {rot('F')}. Entre eleitores de Flávio, o caminho inverso foi estimado em "
+         f"{t.n(dv[0], dv[1] + ['flavio_para_L', 'pct'], 'pct')}. A margem de erro e o método estão na seção.",
+         True, "#voto-dividido")
     cd = ["cadeiras.json", ["BR", "depfed"]]
     num = t.n(cd[0], cd[1] + ["cadeiras", "L"], "int")
     item("cadeiras-depfed", "Câmara: votos e cadeiras do lado de Lula (PT)", num,
@@ -830,9 +827,10 @@ def destaques(D):
          False, "#cenarios-2-turno")
     fr = ["fragmentacao.json", ["BR", "depfed"]]
     item("fragmentacao", "Uma Câmara de muitos partidos", t.n(fr[0], fr[1] + ["partidos_com_cadeira"], "int"),
-         f"{t.n(fr[0], fr[1] + ['partidos_com_cadeira'], 'int')} partidos elegeram deputado federal. O número efetivo "
-         f"de partidos (que pesa o tamanho de cada um) é {t.n(fr[0], fr[1] + ['nep_cadeiras'], 'x1')}. Partidos sem "
-         f"lado no 2º turno ficaram com {t.n(fr[0], fr[1] + ['centro_pct_cadeiras'], 'pct')} das cadeiras.",
+         f"{t.n(fr[0], fr[1] + ['partidos_com_cadeira'], 'int')} partidos elegeram deputado federal. Pesando cada um "
+         f"pelo tamanho, é como se a Câmara tivesse {t.n(fr[0], fr[1] + ['nep_cadeiras'], 'x1')} partidos do mesmo "
+         f"tamanho. Partidos sem lado no 2º turno ficaram com {t.n(fr[0], fr[1] + ['centro_pct_cadeiras'], 'pct')} das "
+         f"cadeiras.",
          False, "#fragmentacao")
     return out
 
@@ -860,7 +858,7 @@ def faq(D):
        f"Pela estimativa, {t.n('dividido.json', ['BR', 'depfed', 'lula_para_F', 'pct'], 'pct')} dos eleitores de Lula (PT) "
        f"escolheram deputado de partido que apoia Flávio (PL) e "
        f"{t.n('dividido.json', ['BR', 'depfed', 'lula_para_C', 'pct'], 'pct')}, de partido sem lado. Os partidos do "
-       f"campo de Lula fizeram {t.n(cd[0], cd[1] + ['votos', 'L'], 'pct')} dos votos para deputado federal e ficaram "
+       f"lado de Lula fizeram {t.n(cd[0], cd[1] + ['votos', 'L'], 'pct')} dos votos para deputado federal e ficaram "
        f"com {t.n(cd[0], cd[1] + ['cadeiras', 'L'], 'int')} cadeiras. É estimativa (faixa estatística de "
        f"{t.n('dividido.json', ['BR', 'depfed', 'lula_para_F', 'int', 0], 'pct')} a "
        f"{t.n('dividido.json', ['BR', 'depfed', 'lula_para_F', 'int', 1], 'pct')} para o primeiro número; limites de "
