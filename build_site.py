@@ -626,7 +626,7 @@ class Quiet(http.server.SimpleHTTPRequestHandler):
         return super().do_GET()
 
 
-def serve(dirpath, port=8799):
+def serve(dirpath, port=0):  # 0 = porta livre: builds em paralelo (worktrees do dev-flow) não brigam pela mesma
     handler = functools.partial(Quiet, directory=str(dirpath))
     class Srv(socketserver.TCPServer): allow_reuse_address = True
     srv = Srv(("127.0.0.1", port), handler)
@@ -832,7 +832,7 @@ def main():
     for dest in (BUILD / "fonts", OUT / "fonts"):
         shutil.copytree(R / "assets" / "fonts", dest, ignore=shutil.ignore_patterns("*.md"))
     srv = serve(BUILD)
-    base_url = "http://127.0.0.1:8799"
+    base_url = f"http://127.0.0.1:{srv.server_address[1]}"
     publicado = ISO(datetime(2026, 10, 4, 18, 25)); modificado = ISO(LEITURA)
     paginas = []  # (path, lastmod, prioridade)
 
