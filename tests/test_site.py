@@ -120,7 +120,10 @@ class Saida(unittest.TestCase):
     def test_paginas_com_brand_e_sem_segredo(self):
         for p in self.SITE.rglob("*.html"):
             h = p.read_text()
-            self.assertIn(brand.CSS, h, p)
+            # o site/ commitado só é regenerado pelo lote: confere que a brand está lá, não que é a brand.css de hoje
+            # (mudar um token na brand.css não pode quebrar o PR antes do lote rodar)
+            self.assertIn("/* Brand vitorpereira.ia.br", h, p)
+            self.assertIn("--brand:#24C8FF", h, p)
             self.assertNotIn("eyJhbGci", h, p)
             self.assertNotIn("sbp_", h, p)
         self.assertFalse(any(self.SITE.rglob(".env*")))

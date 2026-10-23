@@ -291,7 +291,7 @@ class Saida(unittest.TestCase):
 
     def test_pagina_e_compartilhar(self):
         h = (self.SITE / "analise" / "index.html").read_text()
-        self.assertIn(brand.CSS, h)
+        self.assertIn("/* Brand vitorpereira.ia.br", h)  # a brand do build que gerou o site/, não a de hoje
         self.assertIn('id="campos"', h, "pré-render sem as seções")
         for sid in self.secoes():
             self.assertTrue((self.SITE / "analise" / sid / "index.html").exists(), sid)
