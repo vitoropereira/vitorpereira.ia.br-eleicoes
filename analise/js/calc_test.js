@@ -3,7 +3,7 @@ const assert = (c, m) => { if (!c) throw new Error(m || "falhou"); };
 const assertEquals = (a, b, m) => assert(JSON.stringify(a) === JSON.stringify(b), `${m ? m + ": " : ""}${JSON.stringify(a)} != ${JSON.stringify(b)}`);
 const assertAlmostEquals = (a, b, eps = 1e-9) => assert(Math.abs(a - b) < eps, `${a} != ${b}`);
 import { LADO_NOME, LADO_MIN } from "./calc.js";
-import { ladoDe, escala, passo, marcas, teto, pct, pp, mi, int, num, votosTxt, partes, intervaloPct, intervaloV, recorte, ufDoCodigo, noRecorte, deRecorte, secDivergencias, secComparacao, secBrancos, secDividido, secCenarios, ordenaPesquisas, SECOES } from "./calc.js";
+import { ladoDe, escala, passo, marcas, teto, pct, pp, mi, int, num, votosTxt, partes, intervaloPct, intervaloV, recorte, ufDoCodigo, noRecorte, deRecorte, oRecorte, secDivergencias, secComparacao, secBrancos, secDividido, secCenarios, ordenaPesquisas, secTerraGente, SECOES } from "./calc.js";
 
 Deno.test("escala linear e inversa", () => {
   const x = escala([0, 1], [10, 210]);
@@ -189,4 +189,54 @@ Deno.test("pesquisas: depois do 1º turno em cima, a mais recente primeiro", () 
   assertEquals(ordenaPesquisas(ps).map((p) => p.instituto), ["C", "B", "A", "D"]);
   const s = secCenarios({ cenarios: { precisa: {}, pesquisas: ps } });
   assertEquals(s.pesquisas[0].instituto, "C");
+});
+
+Deno.test("terra × gente: frases com os números do JSON, sem palavra vetada", () => {
+  const vz = { mun: 0, area: 0, validos: 0, area_pct: 0, validos_pct: 0 };
+  const grupo = (o) => ({ mun: 10, area: 1000, validos: 500, lula: 200, flavio: 250, lula_pct: 0.4, flavio_pct: 0.5, area_br: 0.1, validos_br: 0.2, ...o });
+  const D = { "terra-gente": {
+    grupos: {
+      BR: grupo({ lula_pct: 0.4583, flavio_pct: 0.4721, venc: { L: { mun: 2663, area: 2e6, validos: 6e7, area_pct: 0.3112, validos_pct: 0.5034 }, F: { mun: 2906, area: 6e6, validos: 5.9e7, area_pct: 0.6887, validos_pct: 0.4965 }, E: { mun: 2, area: 500, validos: 1000, area_pct: 0.0001, validos_pct: 0.0001 } } }),
+      Norte: grupo({ area_br: 0.4534, validos_br: 0.0857 }),
+      RJ: grupo({ lula_pct: 0.3941, flavio_pct: 0.5301, venc: { L: { mun: 9, area: 3e3, validos: 4e5, area_pct: 0.0761, validos_pct: 0.0459 }, F: { mun: 83, area: 4e4, validos: 8e6, area_pct: 0.9239, validos_pct: 0.9541 }, E: vz } }),
+      SP: grupo({ mun: 645, area_br: 0.0292, validos_br: 0.2092, venc: { L: { mun: 39, area: 1, validos: 1, area_pct: 0.0621, validos_pct: 0.3559 }, F: { mun: 605, area: 1, validos: 1, area_pct: 0.9377, validos_pct: 0.6441 }, E: { mun: 1, area: 1, validos: 1, area_pct: 0.0002, validos_pct: 0 } } }),
+      PB: grupo({ mun: 223, lula_pct: 0.6131, flavio_pct: 0.3307, area_br: 0.0067, validos_br: 0.0211, venc: { L: { mun: 223, area: 56718, validos: 2513747, area_pct: 1, validos_pct: 1 }, F: vz, E: vz } }),
+    },
+    capital_sp: { nome: "São Paulo", validos: 6552820, n_menores: 2074, area_menores: 1306368, area: 1535, menores_sem_area: 1 },
+    sem_geometria: [{ cd: "5101837", nome: "Boa Esperança do Norte", uf: "MT" }],
+  } };
+  const s = secTerraGente(D, "BR");
+  assertEquals(s.k, "F");
+  assertEquals(s.numero, "68,9%");
+  assert(s.titulo.includes("68,9%") && s.titulo.includes("47,2%"), s.titulo);
+  assert(s.frases.length >= 3 && s.frases.length <= 4, `BR com 3–4 frases: ${s.frases.length}`);
+  const tx = s.frases.join(" ");
+  for (const n of ["2.906", "2.663", "68,9%", "49,7%", "31,1%", "50,3%", "6.552.820", "2.074", "45,3%", "8,57%"]) assert(tx.includes(n), n);
+  // contraposição neutra: o efeito do mapa vale para os dois lados (RJ: Flávio; PB: Lula)
+  assertEquals(s.frases.at(-1), "O efeito vale para os dois lados: no Rio de Janeiro, os municípios em que Flávio (PL) venceu somam 92,4% da área, e ele teve 53,0% dos válidos do estado; na Paraíba, Lula (PT) venceu em todos os 223 municípios, e Flávio (PL) teve 33,1% dos válidos (1 em cada 3).");
+  const semPar = structuredClone(D); semPar["terra-gente"].grupos.RJ.venc.F.area_pct = 0.5;
+  assert(!secTerraGente(semPar, "BR").frases.join(" ").includes("dois lados"), "sem a frase quando o RJ não confirma");
+  for (const v of ["exager", "engan", "distorc", "mentir", "na verdade"]) assert(!tx.toLowerCase().includes(v), v);
+  assert(tx.includes("sem a área de 1 município sem polígono na malha"), "menores sem área");
+  assertEquals(s.semGeo.map((x) => x.cd), ["5101837"]);
+  const pb = secTerraGente(D, "PB");
+  assertEquals(pb.k, "L");
+  assertEquals(pb.frases[0], "Lula (PT) teve mais votos que Flávio (PL) em todos os 223 municípios, com 61,3% dos válidos, contra 33,1% de Flávio (PL).");
+  assert(pb.frases.join(" ").includes("A Paraíba tem 0,7% da área do país"), pb.frases.join(" "));
+  assert(!pb.frases.join(" ").includes("6.552.820"), "capital só no Brasil e em SP");
+  assertEquals(pb.semGeo.length, 0);
+  assert(!pb.frases.join(" ").includes("dois lados"), "contraposição só no Brasil");
+  const sp = secTerraGente(D, "SP");
+  assert(sp.frases.length <= 4 && sp.frases.some((f) => f.startsWith("São Paulo tem")) && sp.frases.some((f) => f.includes("6.552.820")), sp.frases.join(" | "));
+  D["terra-gente"].grupos.DF = grupo({ venc: { L: { mun: 1, area: 5760, validos: 1e6, area_pct: 1, validos_pct: 1 }, F: vz, E: vz } });
+  assertEquals(secTerraGente(D, "DF").frases[0], "Lula (PT) teve mais votos que Flávio (PL) no único município, com 40,0% dos válidos, contra 50,0% de Flávio (PL).");
+  assertEquals(secTerraGente(D, "AC").ok, false);
+  assert(SECOES.some(([id]) => id === "terra-gente"));
+});
+
+Deno.test("oRecorte: artigo do nome no início da frase", () => {
+  assertEquals(oRecorte("PB"), "A Paraíba");
+  assertEquals(oRecorte("RJ"), "O Rio de Janeiro");
+  assertEquals(oRecorte("SP"), "São Paulo");
+  assertEquals(oRecorte("BA"), "A Bahia");
 });

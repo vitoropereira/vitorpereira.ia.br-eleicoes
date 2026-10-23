@@ -13,7 +13,7 @@ const carregarGeo = () => (geoP ||= malha().then(decodificar).catch((e) => { geo
 
 /** cor de canvas de um lado (t = 1 cor pura, 0 = fundo) */
 export const corLado = (lado, t = 0.9) => misturar(token(LADO_TOKEN[lado] || "--outros"), token("--bg"), t);
-export const corApagada = () => misturar(token("--neutral"), token("--bg"), 0.35);
+export const corApagada = (t = 0.35) => misturar(token("--neutral"), token("--bg"), t);
 
 /**
  * corDe(cod) → cor CSS ou null (sem dado); dica(cod) → conteúdo; chave muda quando as cores mudam.
@@ -31,7 +31,9 @@ export function MapaMun({ corDe, dica, chave, uf, rotulo }) {
     const mq = matchMedia("(prefers-color-scheme: light)");
     const f = () => { limparCache(); setTema((t) => t + 1); };
     mq.addEventListener("change", f);
-    return () => { io.disconnect(); mq.removeEventListener("change", f); };
+    const mo = new MutationObserver(f); // botão de tema (data-theme no <html>)
+    mo.observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+    return () => { io.disconnect(); mq.removeEventListener("change", f); mo.disconnect(); };
   }, []);
   useEffect(() => {
     if (!geo || !el.current || mapa.current) return;

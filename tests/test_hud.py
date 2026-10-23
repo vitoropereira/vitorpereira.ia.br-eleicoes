@@ -167,6 +167,16 @@ class Build(unittest.TestCase):
         # módulos ES sem hash: revalidar sempre
         self.assertIn({"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}, hs["/hud/(.*)"])
 
+    def test_vivo_e_tse_com_cache_de_cdn_no_rewrite_externo(self):
+        """issue #133: a origem manda no-cache e a Vercel obedecia (x-vercel-cache: MISS em todo poll); o CDN-Cache-Control
+        do vercel.json sobrepõe a origem. A raiz (deploy pelo git) tem que sair igual ao VERCEL."""
+        hs = {h["source"]: h["headers"] for h in B.VERCEL["headers"]}
+        for src, idade in (("/vivo/(.*)", 15), ("/tse/(.*)", 20)):
+            self.assertIn({"key": "CDN-Cache-Control", "value": f"max-age={idade}"}, hs[src], src)
+            self.assertIn({"key": "x-vercel-enable-rewrite-caching", "value": "1"}, hs[src], src)
+        raiz = json.loads((Path(B.__file__).parent / "vercel.json").read_text())
+        self.assertEqual(raiz, {"outputDirectory": "site", **B.VERCEL})
+
     def test_vivo_reescrito_para_o_storage_com_cache_curto(self):
         rw = {r["source"]: r["destination"] for r in B.VERCEL["rewrites"]}
         self.assertEqual(rw.get("/vivo/:path*"), "https://qzczyicspbizosjogmlq.supabase.co/storage/v1/object/public/vivo/:path*")
@@ -255,3 +265,33 @@ class PessoasAgora(unittest.TestCase):
         h = pagina.read_text()
         self.assertIn("window.HUD_PRESENCE=", h)
         self.assertNotIn("pessoas agora</span>", h, "o pré-render (headless) não pode contar nem mostrar o contador")
+
+
+class MenuSecoes(unittest.TestCase):
+    """botão "☰ Seções" (issue 138): a lista de seções do site vem de uma fonte só (B.secoes()) e chega igual
+    à sitebar, ao painel (window.HUD_SECOES) e à Análise (HTML estático)."""
+
+    def test_secoes_e_a_lista_da_sitebar(self):
+        nav = re.search(r'<nav class="top"[^>]*>(.*?)</nav>', B.sitebar("/")).group(1)
+        hrefs = re.findall(r'<a href="([^"]+)"', nav)
+        self.assertEqual(hrefs, [u for u, _ in B.secoes()])
+        for u in ("/", "/ao-vivo/", "/analise/", "/rastro/", "/apuracao/"):
+            self.assertIn(u, hrefs)
+
+    def test_painel_recebe_hud_secoes_antes_do_app(self):
+        h = B.injetar_presenca(TEMPLATE.read_text())
+        m = re.search(r"<script>window\.HUD_SECOES=(\[.*?\]);</script>", h)
+        self.assertIsNotNone(m, "HUD_SECOES precisa ser injetada pelo build")
+        self.assertLess(h.index("window.HUD_SECOES="), h.index('<script type="module" src="/hud/app.js">'))
+        self.assertEqual([tuple(x) for x in json.loads(m.group(1))], [tuple(x) for x in B.secoes()])
+        self.assertIn(B.SECOES_CSS, h, "o estilo do menu também vem do build, uma fonte só")
+
+    def test_painel_nao_escreve_secoes_a_mao(self):
+        app = (HUD / "app.js").read_text()
+        self.assertIn("HUD_SECOES", app)
+        self.assertNotIn('href="/rastro/"', app)
+        self.assertNotIn('href="/debates/"', app)
+
+    def test_menu_some_na_tela_cheia(self):
+        app = (HUD / "app.js").read_text()
+        self.assertRegex(app, r"!cheia\s*&&\s*html`<\$\{Secoes\}")

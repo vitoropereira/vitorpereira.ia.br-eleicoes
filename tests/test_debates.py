@@ -487,7 +487,8 @@ class TestDebatesPublicados(unittest.TestCase):
             self.conferir_pastas(Path(tmp))
 
     def conferir_pastas(self, raiz):
-        anos = [p for p in raiz.iterdir() if p.is_dir() and not p.name.startswith(("_", "."))]
+        # regras/ guarda as regras dos classificadores (debates/regras/*.md), não é ano
+        anos = [p for p in raiz.iterdir() if p.is_dir() and not p.name.startswith(("_", ".")) and p.name != "regras"]
         for p in anos:
             self.assertRegex(p.name, r"^\d{4}$", "debates/ só tem pastas <ano>/<slug>")
         pastas = sorted(p for a in anos for p in a.iterdir() if p.is_dir())

@@ -4,11 +4,13 @@ import { t1, malha, analise, criarVivo, vivoExtra, criarMinuto } from "./dados.j
 import { decodificar, decodificarUFs } from "./topo.js";
 import { Mapa } from "./mapa.js";
 import { assinarPresenca } from "./presenca.js";
+import { ligarSecoes } from "./secoes.js";
 import { limparCache, token, misturar } from "./partidos.js";
 import {
   UF_NOME, UFS, CARGOS, CARGO_NOME, MODOS, pct, int, titulo, semAcento, linha, linhaSerie, corPara, cor, ehDep, comSigla, textoComSigla, curta,
 } from "./calc.js";
 import { oficial, duelo, resumoLeitor, fonteTurno2, modoValido, serieTurno2, eleitoTurno2, situacaoVivo, exteriorCidades } from "./calc.js";
+import { cargoTurno } from "./calc.js";
 import { divergencia, cargoDivergencia, contaDivergencia, LADO_TOKEN, LADO_NOME } from "./calc.js";
 import { Placar, ResumoUFs, ResumoDep, PorRegiao, Feed, Sw, Nome } from "./paineis.js";
 
@@ -34,6 +36,9 @@ const Ic = {
   busca: html`<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>`,
   globo: html`<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 3 2.5 15 0 18M12 3c-2.5 3-2.5 15 0 18"/></svg>`,
   cheia: html`<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>`,
+  // botão de tema (mesmos ícones de build_site.TEMA_BOTAO; qual aparece é decidido só por CSS)
+  sol: html`<svg class="sol" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>`,
+  lua: html`<svg class="lua" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>`,
   mais: html`<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>`,
   menos: html`<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/></svg>`,
   brasil: html`<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6M4 4v6M20 20h-6M20 20v-6M20 4l-6 6M4 20l6-6"/></svg>`,
@@ -51,28 +56,50 @@ function PessoasAgora() {
   return html`<span class="pessoas">${Ic.olho}<b>${typeof n === "string" ? n : int(n)}</b> ${n === 1 ? "pessoa" : "pessoas"} agora</span>`;
 }
 
+// ---------------- "☰ Seções": a lista de seções do site vem do build (window.HUD_SECOES = build_site.secoes(), a mesma
+// da sitebar e da Análise); abrir/fechar/teclado ficam em hud/secoes.js. Sem a config, não aparece.
+const SECOES = (typeof window !== "undefined" && Array.isArray(window.HUD_SECOES)) ? window.HUD_SECOES : [];
+const ATUAL = "/ao-vivo/";
+
+function Secoes() {
+  const el = useRef();
+  useEffect(() => ligarSecoes(el.current, document), []);
+  if (!SECOES.length) return null;
+  return html`
+    <div class="secoes" ref=${el}>
+      <button type="button" aria-expanded="false" aria-controls="secoes-menu"><span class="ic-m" aria-hidden="true">☰</span><span class="tx">Seções</span></button>
+      <nav id="secoes-menu" aria-label="Seções do site" hidden>
+        ${SECOES.map(([u, t]) => html`<a href=${u} aria-current=${u === ATUAL ? "page" : null}>${t}</a>`)}
+      </nav>
+    </div>`;
+}
+
 // ---------------- cabeçalho
 function Topo({ turno, setTurno, cargo, setCargo, status, onBusca, onExterior, onCheia, cheia }) {
+  const gov = cargoTurno("governador", 2);
   return html`
     <header class="hud-top">
       <a class="marca" href="/" aria-label="Eleições 2026, por Vitor Pereira (início)">
         <span class="wm">vitor<span class="dim">pereira</span><span class="cursor" aria-hidden="true"></span></span>
         <span class="sep" aria-hidden="true">/</span><span class="ctx">eleições 2026</span>
       </a>
+      ${!cheia && html`<${Secoes} />`}
       <div class="seg turnos" role="group" aria-label="Turno">
         ${[1, 2].map((t) => html`<button type="button" aria-pressed=${turno === t} onClick=${() => setTurno(t)}>${t}º turno</button>`)}
       </div>
       <div class="seg cargos" role="group" aria-label="Cargo">
         ${CARGOS.map(([k, nome]) => {
-          const off = turno === 2 && k !== "presidente";
-          return html`<button type="button" aria-pressed=${cargo === k} disabled=${off} title=${off ? "No 2º turno só há votação para presidente e, em alguns estados, governador" : null} onClick=${() => setCargo(k)}>${nome}</button>`;
+          const { off, dica } = cargoTurno(k, turno);
+          return html`<button type="button" aria-pressed=${cargo === k} disabled=${off} title=${dica} onClick=${() => setCargo(k)}>${nome}</button>`;
         })}
+        ${turno === 2 && html`<a class="aba tse" href=${gov.link} target="_blank" rel="noopener" title=${gov.dica}>Governadores: TSE ↗</a>`}
         <a class="aba" href="/analise/">Análise</a>
       </div>
       <div class="acoes">
         <button type="button" class="bt busca" onClick=${onBusca} aria-keyshortcuts="Meta+K Control+K">${Ic.busca}<span>Buscar</span><kbd>⌘K</kbd></button>
         <span class=${"status " + status.cls} title=${status.longo || null}><i class="dot" aria-hidden="true"></i><span class=${status.curto ? "st-l" : ""}>${status.txt}</span>${status.curto && html`<span class="st-c" aria-hidden="true">${status.curto}</span>`}</span>
         <button type="button" class="bt" onClick=${onExterior}>${Ic.globo}<span>Exterior</span></button>
+        <button type="button" class="tema" onClick=${() => window.temaAlternar?.()} aria-label="Alternar tema claro ou escuro" title="Alternar tema claro ou escuro">${Ic.sol}${Ic.lua}</button>
         <button type="button" class="bt ic" onClick=${onCheia} aria-label=${cheia ? "Sair da tela cheia" : "Tela cheia"} title=${cheia ? "Sair da tela cheia" : "Tela cheia"}>${Ic.cheia}</button>
       </div>
     </header>`;
@@ -581,7 +608,7 @@ function App() {
       </main>
       <p class="sr-only" aria-live="polite">${resumo}</p>
       <footer class="hud-pe"><span>Dados públicos do <a href="https://resultados.tse.jus.br/oficial/app/index.html" rel="noopener">TSE</a> e malha do <a href="https://www.ibge.gov.br/" rel="noopener">IBGE</a>. Não é um site oficial da Justiça Eleitoral.</span>
-        <span><a href="/">Resultado final</a> · <a href="/apuracao/">Histórico</a> · <a href="/#metodo">Método</a> · <a href="https://vitorpereira.ia.br/privacidade">Privacidade</a> · <button type="button" class="link" onClick=${() => window.dispatchEvent(new CustomEvent("consent:reopen"))}>Cookies</button></span></footer>
+        <span>${SECOES.filter(([u]) => u !== ATUAL && u !== "/analise/").map(([u, t]) => html`<a href=${u}>${t}</a> · `)}<a href="https://vitorpereira.ia.br/privacidade">Privacidade</a> · <button type="button" class="link" onClick=${() => window.dispatchEvent(new CustomEvent("consent:reopen"))}>Cookies</button></span></footer>
       <${Dica} conteudo=${conteudoDica} />
       <${Busca} aberto=${busca} fechar=${() => setBusca(false)} meta=${meta} geo=${geo} onEscolha=${onEscolha} />
       <${Exterior} aberto=${ext} fechar=${() => setExt(false)} meta=${meta} res=${turno === 2 ? vivo.dados : res.presidente} lista=${listaPres} turno=${turno} />

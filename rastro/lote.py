@@ -11,6 +11,7 @@ gh pr create -> gh pr merge --squash se o pytest passou, ou label `bloqueado` (s
 Uso: python3 rastro/lote.py [--dry-run | --conferir]  (--conferir: sai com 1 se o dia terminou sem lote mergeado)
 """
 import json
+import os
 import subprocess
 import sys
 from datetime import date
@@ -103,8 +104,11 @@ def conferir(hoje=None, raiz=AQUI.parent, executar=subprocess.run):
     return 1
 
 
-def main(hoje=None, raiz=AQUI.parent, executar=subprocess.run, dry_run=False):
+def main(hoje=None, raiz=AQUI.parent, executar=subprocess.run, dry_run=False, evento=None):
+    """evento: o GITHUB_EVENT_NAME. A trava "já publicado hoje" vale só para o `schedule` (cron e reserva); `push`
+    (publicação contínua) e `workflow_dispatch` sempre rodam (decisão do Vitor, 22/10/2026)."""
     hoje = hoje or date.today()
+    evento = evento if evento is not None else os.environ.get("GITHUB_EVENT_NAME", "")
     raiz = Path(raiz)
     cfg_arq = raiz / "rastro" / "config.json"
     if not cfg_arq.exists():
@@ -136,14 +140,15 @@ def main(hoje=None, raiz=AQUI.parent, executar=subprocess.run, dry_run=False):
         if rodar(["git", "rev-parse", "--verify", "--quiet", f"refs/heads/{branch}"]).returncode == 0:
             print(f"lote: a branch {branch} já existe; nada feito.")
             return 1
-        # Idempotência: o branch remoto some no merge, então a trava real é o PR mergeado com o título do dia.
-        feito = ja_publicado(rodar, titulo)
-        if feito is None:
-            print("lote: o gh falhou ao consultar PRs mergeados; nada feito.")
-            return 1
-        if feito:
-            print(f"lote: {titulo} já publicado; nada feito.")
-            return 0
+        # Idempotência do cron: o branch remoto some no merge, então a trava real é o PR mergeado com o título do dia.
+        if evento == "schedule":
+            feito = ja_publicado(rodar, titulo)
+            if feito is None:
+                print("lote: o gh falhou ao consultar PRs mergeados; nada feito.")
+                return 1
+            if feito:
+                print(f"lote: {titulo} já publicado; nada feito.")
+                return 0
         # Lote reprovado (label bloqueado) pede conserto humano: não empilha nem duplica PR.
         aberto = rodar(["gh", "pr", "list", "--state", "open", "--label", ROTULO_BLOQUEADO, "--search", "Rastro: lote in:title",
                         "--json", "number", "--jq", "length"])

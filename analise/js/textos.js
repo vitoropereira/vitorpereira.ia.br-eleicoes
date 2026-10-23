@@ -10,6 +10,7 @@ export const FONTE = {
   "votos-cadeiras": html`Fonte: ${TSE}, eleitos e votos do 1º turno de 2026.`,
   divergencias: html`Fonte: ${TSE}, partido/candidato mais votado por município; malha do <a href="https://www.ibge.gov.br/" rel="noopener">IBGE</a>.`,
   "comparacao-2022": html`Fonte: ${TSE}, resultados de 2022 e de 2026 por município. Em 2022, o outro lado é Jair Bolsonaro (PL).`,
+  "terra-gente": html`Fonte: ${TSE}, presidente no 1º turno de 2026, por município; área calculada da malha municipal do <a href="https://www.ibge.gov.br/" rel="noopener">IBGE</a> (${CALC}).`,
   "cenarios-2-turno": html`Fonte: ${TSE} (votos do 1º turno) e pesquisas registradas no TSE, com link para cada uma. Cenário, não previsão.`,
   "brancos-nulos": html`Fonte: ${TSE}, 1º turno de 2026.`,
   fragmentacao: html`Fonte: ${TSE}, eleitos do 1º turno de 2026.`,
@@ -37,6 +38,10 @@ export const ENTENDA = {
   "comparacao-2022": html`
     <p>A comparação é <b>1º turno × 1º turno</b>: em cada município, vemos quem teve mais votos entre Lula (PT) e o adversário (Jair Bolsonaro em 2022, Flávio Bolsonaro em 2026, os dois do PL). Uma <b>virada</b> é um município em que esse vencedor mudou de lado entre as duas eleições. Empates ficam fora da contagem.</p>
     <p>A comparação usa os mesmos critérios de lado nas duas eleições (classificação de 2022 em <a href="#metodo">Método</a>). Os municípios são casados pelo código do IBGE.</p>`,
+  "terra-gente": html`
+    <p>Um mapa por município pinta cada cidade com a cor de quem teve mais votos. A cor ocupa o espaço da <b>área</b> do município, não o do número de eleitores: um município grande e pouco povoado aparece maior que uma capital com milhões de votos.</p>
+    <p>Por isso o mapa e o resultado podem contar histórias diferentes. Ao lado do mapa, a mesma divisão aparece pesada pelos <b>votos válidos</b>. Os dois mostram dados reais; só respondem a perguntas diferentes (onde cada um venceu × quantas pessoas votaram em cada um).</p>
+    <p>Mais votado em cada município: quem teve mais votos entre Lula (PT) e Flávio (PL) para presidente no 1º turno. A área de cada município vem da malha do IBGE, numa projeção que preserva área. Município sem polígono na malha conta nos votos e fica fora da área.</p>`,
   "cenarios-2-turno": html`
     <p>No 2º turno ficam só dois candidatos. Os votos de quem foi eliminado podem ir para um deles, virar branco/nulo ou abstenção. Calculamos <b>quanto cada um precisa</b> desses votos para passar de 50%, supondo que os eleitores dos dois finalistas repitam o voto.</p>
     <p>Os <b>cenários</b> mostram resultados possíveis sob hipóteses explícitas (por exemplo, eliminados se dividindo como em 2022). As pesquisas são de institutos registrados no TSE, com link. Nada aqui é previsão.</p>`,
@@ -66,6 +71,7 @@ export const RESUMO = {
   "votos-cadeiras": "Quantos votos cada lado teve e quantas cadeiras conseguiu com eles.",
   divergencias: "Os municípios em que o lado que venceu para presidente não foi o mesmo que venceu em outro cargo.",
   "comparacao-2022": "Os municípios que mudaram de lado entre o 1º turno de 2022 e o de 2026.",
+  "terra-gente": "O mapa mostra onde cada candidato venceu; a conta pelos votos mostra quantas pessoas votaram em cada um.",
   "cenarios-2-turno": "Quantos votos dos candidatos eliminados cada finalista precisa para vencer o 2º turno.",
   "brancos-nulos": "Quantos eleitores votaram em branco ou anularam o voto em cada cargo.",
   fragmentacao: "Em quantos partidos os votos e as cadeiras se dividiram.",

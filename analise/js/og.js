@@ -10,7 +10,7 @@ const id = q.get("s") || "destaques", formato = q.get("f") === "social" ? "socia
 const TITULO = Object.fromEntries(SECOES);
 const S = formato === "social", RW = (n) => (S ? Math.round(n * 1.35) : n);
 const cor = (l) => LADO_COR[l] || LADO_COR.C;
-const SECAO_DO_ID = { campos: "campos", "voto-dividido": "dividido", "votos-cadeiras": "cadeiras", divergencias: "divergencias", "comparacao-2022": "comparacao", "cenarios-2-turno": "cenarios", "brancos-nulos": "brancos", fragmentacao: "fragmentacao", legenda: "legenda", puxadores: "puxadores" };
+const SECAO_DO_ID = { campos: "campos", "voto-dividido": "dividido", "votos-cadeiras": "cadeiras", divergencias: "divergencias", "comparacao-2022": "comparacao", "terra-gente": "terraGente", "cenarios-2-turno": "cenarios", "brancos-nulos": "brancos", fragmentacao: "fragmentacao", legenda: "legenda", puxadores: "puxadores" };
 
 function grafico(D, R) {
   const s = R[SECAO_DO_ID[id]];
@@ -20,6 +20,7 @@ function grafico(D, R) {
     case "votos-cadeiras": return html`<${Halteres} rotA="% dos votos" rotB="% das cadeiras" titulo="" linhas=${s.casas.filter((c) => c.casa === "depfed").flatMap((c) => LADOS.map((l) => ({ rotulo: `Câmara · ${LADO_CURTO[l]}`, a: c.votos[l], b: c.pc[l], cor: cor(l) })))} />`;
     case "divergencias": return html`<${Barras} bh=${S ? 40 : 22} rotW=${RW(60)} eixo=${false} titulo="" itens=${[...s.porUF].sort((a, b) => b.p - a.p).slice(0, formato === "social" ? 10 : 6).map((x) => ({ rotulo: x.uf, v: x.p, cor: "var(--ink2)" }))} />`;
     case "comparacao-2022": return s.leg ? html`<${Halteres} rotA="2022" rotB="2026" titulo="" linhas=${s.leg.map((x) => ({ rotulo: `Dep. federal · ${LADO_CURTO[x.lado]}`, a: x.a, b: x.b, cor: cor(x.lado) }))} />` : null;
+    case "terra-gente": return s.ok ? html`<${Empilhadas} titulo="" rotW=${S ? 210 : 170} bh=${S ? 44 : 26} linhas=${[["Área", "area_pct"], ["Votos válidos", "validos_pct"]].map(([rotulo, c]) => ({ rotulo, partes: ["L", "E", "F"].filter((k) => s.g.venc[k]?.mun > 0).map((k) => ({ k, p: s.g.venc[k][c], cor: k === "E" ? "var(--neutral)" : cor(k), nome: k === "E" ? "empate" : CAND[k] })) }))} />` : null;
     case "cenarios-2-turno": return html`<${Barras} bh=${S ? 40 : 22} max=${1} rotW=${RW(160)} eixo=${false} titulo="" itens=${[{ rotulo: `${CAND.L} precisa`, v: s.pl, cor: cor("L") }, { rotulo: `${CAND.F} precisa`, v: s.pf, cor: cor("F") }]} />`;
     case "brancos-nulos": return html`<${Pequenos} titulo="" itens=${s.itens.map((i) => ({ titulo: i.nome, valor: pct(i.p), partes: [{ v: i.pb, cor: "var(--outros)" }, { v: i.pn, cor: "var(--neutral)" }] }))} />`;
     case "fragmentacao": return html`<${Halteres} rotA="centro: % dos votos" rotB="centro: % das cadeiras" titulo="" linhas=${s.casas.map((c) => ({ rotulo: c.nome, a: c.centro_pct_votos, b: c.centro_pct_cadeiras, cor: cor("C") }))} />`;

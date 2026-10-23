@@ -20,6 +20,14 @@ export const CARGOS = [
   ["depfed", "Dep. Federal"], ["depest", "Dep. Estadual"],
 ];
 export const CARGO_NOME = Object.fromEntries(CARGOS);
+export const TSE_RESULTADOS = "https://resultados.tse.jus.br/oficial/app/index.html";
+/** estado do botão de cargo por turno. O agregador só monta presidente; no 2º turno os outros cargos ficam
+ *  desativados e governador aponta para o portal do TSE (sem número nem lista de estados). */
+export function cargoTurno(cargo, turno) {
+  if (turno !== 2 || cargo === "presidente") return { off: false, dica: null, link: null };
+  if (cargo === "governador") return { off: true, dica: "Governadores do 2º turno: acompanhe no TSE", link: TSE_RESULTADOS };
+  return { off: true, dica: "No 2º turno só há votação para presidente aqui", link: null };
+}
 export const MODOS = [["municipios", "Municípios"], ["estados", "Estados"], ["vantagem", "Vantagem"], ["apurado", "Apurado"], ["divergencia", "Divergência"]];
 
 // ---------- modo Divergência (dados da Análise: /analise/dados/divergencias.json)
@@ -277,6 +285,14 @@ export function idadeLeitura(d, agora = Date.now()) {
   }
   return agora - ms;
 }
+const AGUARDANDO_INICIO = Object.freeze({ cls: "", txt: "aguardando início", curto: "aguardando início", longo: "aguardando início da apuração", aoVivo: false });
+/** `dg` ("DD/MM/AAAA") é a data de hoje em Brasília? Sem `dg` válido, assume que sim (comportamento antigo). */
+function mesmoDiaBrasilia(dg, agora) {
+  const m = /^(\d\d)\/(\d\d)\/(\d{4})$/.exec(String(dg || ""));
+  if (!m) return true;
+  const hoje = new Date(agora - BRT_MS);
+  return +m[1] === hoje.getUTCDate() && +m[2] === hoje.getUTCMonth() + 1 && +m[3] === hoje.getUTCFullYear();
+}
 /**
  * Selo do 2º turno: "atualizado às HH:MM" (hora `t` da leitura do TSE). Se a leitura não muda há mais de 5 min e a
  * apuração não acabou, "aguardando nova leitura do TSE" e nada de "ao vivo".
@@ -286,8 +302,10 @@ export function situacaoVivo(vivo, agora = Date.now()) {
   if (vivo?.status === "atrasado") return { cls: "atraso", txt: `TSE sem resposta · último dado às ${d?.t || "–"}`, aoVivo: false };
   if (!d) {
     if (vivo?.status === "carregando" || vivo?.status === "inicial") return { cls: "", txt: "Consultando…", aoVivo: false };
-    return { cls: "", txt: "Aguardando o TSE", aoVivo: false };
+    return AGUARDANDO_INICIO;
   }
+  // leitura de outro dia (ex.: teste do TSE na semana anterior): a hora dela não diz nada sobre hoje
+  if (!mesmoDiaBrasilia(d.dg, agora)) return AGUARDANDO_INICIO;
   const hora = (d.t || "").replace(":", "h");
   // idade pela hora do TSE (t/dg); só sem `t` válido cai na hora em que esta aba viu a leitura mudar
   const idade = idadeLeitura(d, agora) ?? (vivo.mudouEm != null ? agora - vivo.mudouEm : null);

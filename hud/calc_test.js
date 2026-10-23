@@ -1,8 +1,41 @@
 // deno test hud/  — contas do HUD (sem rede, sem DOM)
-import { linha, linhaSerie, somar, oficial, duelo } from "./calc.js";
+import { linha, linhaSerie, somar, oficial, duelo, cargoTurno, CARGOS, TSE_RESULTADOS } from "./calc.js";
 
 const ok = (c, m) => { if (!c) throw new Error(m || "falhou"); };
 const perto = (a, b, m) => ok(Math.abs(a - b) < 1e-9, `${m}: ${a} != ${b}`);
+
+Deno.test("cargoTurno: 1º turno libera todos os cargos, sem dica", () => {
+  for (const [k] of CARGOS) {
+    const r = cargoTurno(k, 1);
+    ok(r.off === false, `${k} off`);
+    ok(!r.dica && !r.link, `${k} sem dica`);
+  }
+});
+
+Deno.test("cargoTurno: 2º turno só presidente fica ativo", () => {
+  ok(cargoTurno("presidente", 2).off === false, "presidente");
+  for (const k of ["governador", "senador", "depfed", "depest"]) ok(cargoTurno(k, 2).off === true, k);
+});
+
+Deno.test("cargoTurno: governador no 2º turno aponta para o TSE", () => {
+  const r = cargoTurno("governador", 2);
+  ok(r.dica === "Governadores do 2º turno: acompanhe no TSE", "dica: " + r.dica);
+  ok(r.link === "https://resultados.tse.jus.br/oficial/app/index.html", "link");
+  ok(TSE_RESULTADOS === r.link, "constante");
+});
+
+Deno.test("cargoTurno: outros cargos não citam governador, número nem estado", () => {
+  for (const k of ["senador", "depfed", "depest"]) {
+    const r = cargoTurno(k, 2);
+    ok(r.dica && !/governador/i.test(r.dica), `${k}: ${r.dica}`);
+    ok(!r.link, `${k} sem link`);
+  }
+  for (const [k] of CARGOS) {
+    const d = cargoTurno(k, 2).dica || "";
+    ok(!/\d(?!º)/.test(d.replace(/2º/g, "")), `${k} dígito: ${d}`);
+    ok(!/\b(AC|AL|AP|AM|BA|CE|DF|ES|GO|MA|MT|MS|MG|PA|PB|PR|PE|PI|RJ|RN|RS|RO|RR|SC|SP|SE|TO)\b/.test(d), `${k} UF: ${d}`);
+  }
+});
 
 const LISTA = [
   { n: "22", nome: "Ruas", sg: "PL" },
@@ -188,6 +221,22 @@ Deno.test("leitura parada: idade pela hora do TSE (t + dg, Brasília), não pela
   // sem dg: usa a data de hoje em Brasília (e ontem se a hora ainda não chegou hoje)
   ok(idadeLeitura({ t: "23:58" }, Date.UTC(2026, 9, 26, 3, 3)) === 5 * 60_000 + 0, "virada do dia");
   ok(idadeLeitura({ t: "xx" }, utc(23, 0)) === null, "t inválido: sem idade");
+});
+
+Deno.test("2º turno: leitura (dg) de outro dia não mostra a hora no status → 'aguardando início'", async () => {
+  const { situacaoVivo } = await import("./calc.js");
+  const agora = Date.UTC(2026, 9, 22, 15, 0); // 22/10 12h00 em Brasília
+  const s = situacaoVivo({ status: "ok", dados: { t: "09:38", dg: "15/10/2026", pst: 0 } }, agora);
+  ok(!s.aoVivo && s.txt === "aguardando início", JSON.stringify(s));
+  for (const k of ["txt", "curto", "longo"]) ok(!String(s[k] ?? "").includes("09h38"), `${k} com hora velha: ${JSON.stringify(s)}`);
+  // virada: 23h30 de 22/10 em Brasília já é 23/10 em UTC; leitura de 22/10 ainda é "hoje"
+  const tarde = Date.UTC(2026, 9, 23, 2, 30);
+  ok(situacaoVivo({ status: "ok", dados: { t: "23:28", dg: "22/10/2026", pst: 5 } }, tarde).txt.includes("23h28"), "mesmo dia (Brasília) mostra a hora");
+  // leitura de hoje continua com a hora
+  const s2 = situacaoVivo({ status: "ok", dados: { t: "11:58", dg: "22/10/2026", pst: 0 } }, agora);
+  ok(s2.txt.includes("11h58"), JSON.stringify(s2));
+  // sem dado nenhum: também "aguardando início"
+  ok(situacaoVivo({ status: "ok" }, agora).txt === "aguardando início", "sem dados");
 });
 
 Deno.test("Exterior: cidade sem voto válido fica fora do ranking, mas é contada", async () => {

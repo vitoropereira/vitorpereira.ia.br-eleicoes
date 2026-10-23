@@ -4,7 +4,7 @@ SEO (meta, Open Graph, JSON-LD, sitemap, robots) e GEO (llms.txt, FAQ visível, 
 Pré-renderiza cada página com Chrome headless (--dump-dom) para que o texto já esteja no HTML.
 Uso: python3 relatorio/montar.py && python3 build_site.py"""
 import json, os, re, shutil, sys, subprocess, threading, functools, html, http.server, socketserver, time
-from datetime import datetime
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 import brand
 
@@ -76,10 +76,33 @@ def textos_principal():
     """(h1, título, descrição) da página principal"""
     c1, c2 = sorted(N["cand"], key=lambda c: -c["p"])[:2]
     h1 = f"Eleições 2026: {rotulo(c1)} e {rotulo(c2)} vão ao 2º turno" if c1["p"] < 50 else f"Eleições 2026: {rotulo(c1)} é eleito no 1º turno"
-    titulo = f"Eleições 2026: {curto(cF)} {fmt(cF['p'], 1)}% × {curto(cL)} {fmt(cL['p'], 1)}% no 1º turno"
-    desc = (f"{rotulo(cF)} e {rotulo(cL)} vão ao 2º turno em 25/10. Mapa por estado, governadores, Senado, Câmara e Assembleias "
-            f"com {fmt(N['pst'], 2)}% das urnas apuradas pelo TSE.")
+    # título e descrição (title, og, twitter, og:image:alt) chamam para o 2º turno, sem o placar do 1º (#139)
+    titulo = f"Eleições 2026: 2º turno {curto(cF)} × {curto(cL)} em 25/10, apuração ao vivo"
+    desc = (f"{rotulo(cF)} e {rotulo(cL)} disputam o 2º turno no domingo, 25/10, com apuração ao vivo a partir das 17h (Brasília). "
+            "Resultado de 04/10 por estado, governadores, Senado, Câmara e Assembleias, com dados do TSE.")
     return h1, titulo, desc
+
+
+def textos_aovivo():
+    """(título, descrição) do /ao-vivo/"""
+    return ("Mapa da apuração por município | Eleições 2026",
+            "Apuração do 2º turno ao vivo no domingo, 25/10, a partir das 17h (Brasília), com os dados do TSE: "
+            "presidente nos 5.570 municípios, atualizado sozinho. Fora da noite da apuração, o mapa de 04/10 com todos os cargos.")
+
+
+TURNO2 = date(2026, 10, 25)
+
+
+def hoje_brasilia():
+    return datetime.now(timezone(timedelta(hours=-3))).date()
+
+
+def banner_turno2(hoje=None):
+    """Faixa de chamada para o 2º turno no topo da home; some no primeiro build depois de 25/10."""
+    if (hoje or hoje_brasilia()) > TURNO2:
+        return ""
+    return ('<div class="banner"><div><b>2º turno: domingo, 25/10.</b> Apuração ao vivo a partir das 17h (Brasília) → '
+            '<a href="/ao-vivo/">Ao vivo</a></div></div>')
 
 
 def textos_leitura(d):
@@ -140,7 +163,14 @@ a.agora b{font-family:var(--font-mono);color:var(--ink);font-variant-numeric:tab
 a.agora .pulso{width:7px;height:7px;border-radius:50%;background:var(--live);box-shadow:0 0 0 0 color-mix(in srgb,var(--live) 60%,transparent);animation:pulso 2s infinite}
 @keyframes pulso{70%{box-shadow:0 0 0 6px transparent}100%{box-shadow:0 0 0 0 transparent}}
 @media (prefers-reduced-motion:reduce){a.agora .pulso{animation:none}}
-@media (max-width:900px){.sitebar a.agora{order:1;margin-left:auto}.sitebar nav.top{order:2;margin-left:0}}
+button.tema{display:inline-flex;align-items:center;justify-content:center;flex:none;width:32px;height:32px;padding:0;margin:0;border:1px solid var(--line);border-radius:50%;background:var(--card);color:var(--ink2);cursor:pointer}
+button.tema:hover{color:var(--ink);border-color:var(--muted)}
+button.tema:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+button.tema svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.tema .lua{display:none}
+:root[data-theme="light"] .tema .sol{display:none}:root[data-theme="light"] .tema .lua{display:block}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]) .tema .sol{display:none}:root:not([data-theme="dark"]) .tema .lua{display:block}}
+@media (max-width:900px){.sitebar a.agora{order:1;margin-left:auto}.sitebar nav.top{order:2;margin-left:0}.sitebar .tema{order:1}.sitebar a.agora[hidden]~.tema{margin-left:auto}}
 @media (max-width:640px){.sitebar .in{gap:8px 14px;padding:8px 16px}.sitebar nav.top{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;width:100%;min-width:0;-webkit-mask-image:linear-gradient(90deg,black 90%,transparent);mask-image:linear-gradient(90deg,black 90%,transparent)}.sitebar nav.top::-webkit-scrollbar{display:none}.sitebar nav.top a{flex:none;white-space:nowrap}}
 .crumbs{max-width:1160px;margin:14px auto 0;padding:0 16px;font-size:13px;color:var(--ink2)}
 .crumbs a{color:var(--ink2)}
@@ -242,15 +272,68 @@ def com_medicao(dom):
     return dom.replace("</body>", MEDICAO_HTML + "</body>", 1) if MEDICAO_HTML else dom
 
 
-def sitebar(atual):
-    links = [("/", "Resultado final"), ("/ao-vivo/", "Ao vivo")] + ([("/debates/", "Debates")] if debates() else []) + [
+def secoes():
+    """[(url, rótulo)] das seções do site, na ordem do menu: a fonte única da sitebar, do botão "☰ Seções" do painel
+    (window.HUD_SECOES) e da Análise (menu_secoes). Debates só entra quando há debate publicado."""
+    return [("/", "Resultado final"), ("/ao-vivo/", "Ao vivo")] + ([("/debates/", "Debates")] if debates() else []) + [
         ("/analise/", "Análise"), ("/rastro/", "Rastro do dinheiro"), ("/apuracao/", "Histórico da apuração"), ("/#metodo", "Método e fontes")]
-    nav = "".join(f'<a href="{u}"{" aria-current=page" if u == atual else ""}>{t}</a>' for u, t in links)
+
+
+# estilo do botão "☰ Seções" (painel e Análise): só tokens da brand.css; o ciano é a moldura do painel suspenso
+SECOES_CSS = """<style>
+.secoes{position:relative;flex:none}
+.secoes>button{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:5px 12px;cursor:pointer;font:500 13px var(--font-sans);white-space:nowrap}
+.secoes>button:hover,.secoes>button[aria-expanded=true]{border-color:var(--brand)}
+.secoes>button .ic-m{font-size:15px;line-height:1}
+.secoes>nav{position:absolute;top:calc(100% + 8px);left:0;z-index:80;min-width:240px;display:flex;flex-direction:column;gap:2px;padding:6px;background:var(--card);border:1px solid var(--brand);border-radius:12px;box-shadow:0 12px 32px color-mix(in srgb,var(--bg) 60%,transparent)}
+.secoes>nav[hidden]{display:none}
+.secoes>nav a{display:block;padding:8px 12px;border-radius:8px;color:var(--ink2);text-decoration:none;font-size:14px;white-space:nowrap}
+.secoes>nav a:hover,.secoes>nav a:focus-visible{background:var(--soft);color:var(--ink)}
+.secoes>nav a[aria-current=page]{color:var(--ink);box-shadow:inset 2px 0 0 var(--brand)}
+@media (max-width:640px){
+  .secoes{position:static}
+  .secoes>nav{left:12px;right:12px;top:calc(100% + 4px);min-width:0}
+  .secoes>nav a{padding:11px 12px;font-size:15px}
+}
+</style>
+"""
+
+
+def menu_secoes(atual):
+    """botão "☰ Seções" estático (Análise): mesma lista de secoes(); hud/secoes.js liga abrir/fechar/teclado"""
+    atr = ' aria-current="page"'
+    nav = "".join(f'<a href="{u}"{atr if u == atual else ""}>{html.escape(t)}</a>' for u, t in secoes())
+    return (f'<div class="secoes"><button type="button" aria-expanded="false" aria-controls="secoes-menu">'
+            f'<span class="ic-m" aria-hidden="true">☰</span><span class="tx">Seções</span></button>'
+            f'<nav id="secoes-menu" aria-label="Seções do site" hidden>{nav}</nav></div>'
+            f'<script type="module" src="/hud/secoes.js"></script>')
+
+
+def sitebar(atual):
+    nav = "".join(f'<a href="{u}"{" aria-current=page" if u == atual else ""}>{t}</a>' for u, t in secoes())
     return (f'<a class="skip" href="#conteudo">Pular para o conteúdo</a><header class="sitebar"><div class="in">'
             f'<a class="brand" href="/" aria-label="Eleições 2026, por Vitor Pereira">'
             f'<span class="wm">vitor<span class="dim">pereira</span><span class="cursor" aria-hidden="true"></span></span>'
             f'<span class="sep" aria-hidden="true">/</span><span>eleições 2026</span></a>'
-            f'<nav class="top" aria-label="Principal">{nav}</nav>{agora_topo()}</div></header>')
+            f'<nav class="top" aria-label="Principal">{nav}</nav>{agora_topo()}{TEMA_BOTAO}</div></header>')
+
+
+# tema claro/escuro (#142). Padrão: segue o sistema (brand.css). A escolha do botão fica em localStorage["tema"] e é
+# aplicada como data-theme no <html> por este script, que roda no <head> antes da pintura (sem piscar). Se a escolha
+# cair igual ao sistema, a chave é apagada e o site volta a seguir o sistema. Sem "<" no JS (tests/test_tema.py).
+TEMA_JS = """<script>(function(){var d=document.documentElement,K="tema",C={light:"#FBFCFE",dark:"#070B12"};
+function sis(){return matchMedia("(prefers-color-scheme: light)").matches?"light":"dark"}
+function cor(){var t=d.getAttribute("data-theme");document.querySelectorAll('meta[name="theme-color"]').forEach(function(m){m.content=C[t||(/light/.test(m.media)?"light":"dark")]})}
+var g=null;try{g=localStorage.getItem(K)}catch(e){}
+if(g==="light"||g==="dark"){d.setAttribute("data-theme",g);cor()}
+window.temaAlternar=function(){var s=sis(),n=(d.getAttribute("data-theme")||s)==="light"?"dark":"light";
+try{if(n===s)localStorage.removeItem(K);else localStorage.setItem(K,n)}catch(e){}
+if(n===s)d.removeAttribute("data-theme");else d.setAttribute("data-theme",n);cor()}})()</script>"""
+# ícone certo só por CSS (SITE_CSS): sol no escuro, lua no claro
+TEMA_BOTAO = ('<button type="button" class="tema" onclick="temaAlternar()" aria-label="Alternar tema claro ou escuro" title="Alternar tema claro ou escuro">'
+              '<svg class="sol" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/>'
+              '<path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>'
+              '<svg class="lua" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>')
 
 
 def agora_topo():
@@ -308,6 +391,7 @@ def head(title, desc, path, og_img, extra_ld, published, modified):
 <meta name="author" content="{AUTOR["nome"]}">
 <meta name="theme-color" content="#FBFCFE" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#070B12" media="(prefers-color-scheme: dark)">
+{TEMA_JS}
 <link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/jetbrains-mono-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -368,7 +452,12 @@ VERCEL = {
     "headers": [{"source": "/(.*)", "headers": [{"key": "X-Content-Type-Options", "value": "nosniff"}, {"key": "Referrer-Policy", "value": "strict-origin-when-cross-origin"}]},
                 {"source": "/fonts/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=31536000, immutable"}]},
                 {"source": "/og/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=86400"}]},
-                {"source": "/tse/(.*)", "headers": [{"key": "Cache-Control", "value": "public, s-maxage=20, stale-while-revalidate=40"}]},
+                # rewrite externo: a Vercel obedece o cache-control da origem (o TSE e o Storage mandam no-cache); o
+                # CDN-Cache-Control daqui sobrepõe a origem e o x-vercel-enable-rewrite-caching liga o cache em projeto
+                # anterior a 06/04/2026 (doc "Caching rewrites to external origins"; sem isto todo poll ia à origem)
+                {"source": "/tse/(.*)", "headers": [{"key": "Cache-Control", "value": "public, s-maxage=20, stale-while-revalidate=40"},
+                                                   {"key": "CDN-Cache-Control", "value": "max-age=20"},
+                                                   {"key": "x-vercel-enable-rewrite-caching", "value": "1"}]},
                 {"source": "/ao-vivo/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}]},
                 {"source": "/geo/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=3600"}]},
                 # módulos ES sem hash no nome: sempre revalidar, senão um deploy mistura versões
@@ -377,7 +466,9 @@ VERCEL = {
                 {"source": "/analise/js/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}]},
                 {"source": "/analise/codigo/(.*)\\.(py|json|md)", "headers": [{"key": "Content-Type", "value": "text/plain; charset=utf-8"}]},
                 {"source": "/analise/dados/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}]},
-                {"source": "/vivo/(.*)", "headers": [{"key": "Cache-Control", "value": "public, s-maxage=15, stale-while-revalidate=30"}]}]}
+                {"source": "/vivo/(.*)", "headers": [{"key": "Cache-Control", "value": "public, s-maxage=15, stale-while-revalidate=30"},
+                                                    {"key": "CDN-Cache-Control", "value": "max-age=15"},
+                                                    {"key": "x-vercel-enable-rewrite-caching", "value": "1"}]}]}
 
 
 # ---------------- HUD (/ao-vivo/)
@@ -398,11 +489,14 @@ def copiar_hud(dest):
 
 
 def injetar_presenca(h):
-    """window.HUD_PRESENCE = {url, key, canal} antes do app do HUD (o contador "pessoas agora" lê daí)"""
+    """window.HUD_PRESENCE = {url, key, canal} antes do app do HUD (o contador "pessoas agora" lê daí), mais
+    window.HUD_SECOES = secoes() e o estilo do botão "☰ Seções" (fonte única com a sitebar e a Análise)"""
     tag = '<script type="module" src="/hud/app.js"></script>'
     assert h.count(tag) == 1, "template_hud.html: script do app não encontrado"
     cfg = json.dumps(HUD_PRESENCE, separators=(",", ":"))
-    return h.replace(tag, f"<script>window.HUD_PRESENCE={cfg};</script>\n{tag}", 1)
+    sec = json.dumps(secoes(), separators=(",", ":"), ensure_ascii=False)
+    h = h.replace("</head>", SECOES_CSS + "</head>", 1)
+    return h.replace(tag, f"<script>window.HUD_SECOES={sec};</script>\n<script>window.HUD_PRESENCE={cfg};</script>\n{tag}", 1)
 
 
 def status_hud():
@@ -478,7 +572,7 @@ def faq():
 SECOES_ANALISE = [
     ("destaques", "Destaques"), ("campos", "Votos por lado e cargo"), ("voto-dividido", "Voto dividido"),
     ("votos-cadeiras", "Votos × cadeiras"), ("divergencias", "Divergências"), ("comparacao-2022", "2022 × 2026"),
-    ("cenarios-2-turno", "Cenários do 2º turno"), ("brancos-nulos", "Brancos e nulos"), ("fragmentacao", "Fragmentação"),
+    ("terra-gente", "Terra × gente"), ("cenarios-2-turno", "Cenários do 2º turno"), ("brancos-nulos", "Brancos e nulos"), ("fragmentacao", "Fragmentação"),
     ("legenda", "Voto de legenda"), ("puxadores", "Puxadores de voto"), ("faq", "Perguntas frequentes"), ("metodo", "Método"),
 ]
 ANALISE_DADOS = R / "analise" / "dados"
@@ -554,7 +648,8 @@ def ld_analise(dados, publicado=None, modificado=None):
 
 
 def html_analise(dados, publicado, modificado):
-    raw = brand.aplicar((R / "template_analise.html").read_text()).replace("<!--__RODAPE__-->", rodape(), 1).replace("<!--__AGORA__-->", agora_topo(), 1)
+    raw = brand.aplicar((R / "template_analise.html").read_text()).replace("<!--__RODAPE__-->", rodape(), 1).replace("<!--__AGORA__-->", agora_topo(), 1).replace("<!--__TEMA__-->", TEMA_BOTAO, 1)
+    raw = raw.replace("<!--__SECOES__-->", menu_secoes("/analise/"), 1).replace("</head>", SECOES_CSS + "</head>", 1)
     og = "/og/analise-destaques.png" if dados else "/og/index.png"
     return montar_pagina(raw, ANALISE_TITULO, ANALISE_DESC, "/analise/", og, ld_analise(dados, publicado, modificado), publicado, modificado, "/analise/", moldura=False)
 
@@ -676,6 +771,17 @@ h1{{font:600 60px/1.05 "JetBrains Mono",monospace;margin:14px 0 0;letter-spacing
 <div class="k">{html.escape(sub)}</div><h1>{html.escape(titulo)}</h1>
 <div class="row">{linha}</div>
 <div class="f"><span>{html.escape(rodape_txt)}</span><b>vitor pereira<i></i></b></div></div></body></html>"""
+
+
+def cards_turno2():
+    """Cartões OG da home e do /ao-vivo/ até o 2º turno: os dois candidatos sem o percentual do 1º turno."""
+    lado = lambda c, cor: (f'<div class="c" style="--c:{cor}"><div class="n">{html.escape(NOME_EXIBICAO.get(c["nome"], c["nome"]))} · '
+                           f'{html.escape(c["sg"])}</div><div class="p">{html.escape(curto(c).split()[0])}</div></div>')
+    linha = lado(cF, COR_OG["flavio"]) + "\n" + lado(cL, COR_OG["lula"])
+    return [("index", og_card("2º turno · domingo, 25/10", "Eleições 2026 · presidente", None, None,
+                              "apuração ao vivo a partir das 17h (Brasília)", linha)),
+            ("ao-vivo", og_card("Apuração ao vivo em 25/10", "Eleições 2026 · 2º turno · dados do TSE", None, None,
+                                "5.570 municípios · a partir das 17h (Brasília)", linha))]
 
 
 def rastro_envolver(publicado, modificado, moldura=True):
@@ -880,7 +986,7 @@ def main():
            "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": BASE + "/dados/relatorio.json"}]},
           faq_ld]
     rounds_nav = "".join(f'<a href="{r["url"]}">{fmt(r["d"]["pst"], 1)}%</a>' for r in rodadas)
-    top = banner_debate() + (f'<div class="banner"><div>Resultado com <b>{fmt(N["pst"], 2)}%</b> das seções apuradas (TSE, {N["dg"]} {N["ht"]}). '
+    top = banner_turno2() + banner_debate() + (f'<div class="banner"><div>Resultado com <b>{fmt(N["pst"], 2)}%</b> das seções apuradas (TSE, {N["dg"]} {N["ht"]}). '
            f'Veja como a apuração evoluiu durante a noite: <span class="rounds">{rounds_nav}<a href="/apuracao/">todas as leituras →</a></span></div></div>')
     (BUILD / "index.html").write_text(montar_pagina(raw, titulo, desc, "/", "/og/index.png", ld, publicado, modificado, "/", top))
     paginas.append(("/", modificado, "1.0"))
@@ -928,9 +1034,7 @@ def main():
     copiar_hud(BUILD); copiar_hud(OUT)
     raw = brand.aplicar((R / "template_hud.html").read_text()).replace("<!--__RESUMO__-->", resumo_hud(), 1)
     raw = injetar_presenca(raw)
-    titulo = "Mapa da apuração por município | Eleições 2026"
-    desc = ("Mapa da apuração por município: presidente, governadores, Senado e deputados nos 5.570 municípios, "
-            "com a linha do tempo da noite do 1º turno. No 2º turno (25/10), atualizado ao vivo com os dados do TSE.")
+    titulo, desc = textos_aovivo()
     ld = [{"@context": "https://schema.org", "@type": "WebPage", "name": titulo, "description": desc, "url": BASE + "/ao-vivo/", "inLanguage": "pt-BR",
            "author": PESSOA, "about": ELEICAO, "isBasedOn": "https://resultados.tse.jus.br/oficial/app/index.html", "dateModified": modificado},
           {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -978,10 +1082,8 @@ def main():
 
     # ---- imagens OG
     (BUILD / "og").mkdir(exist_ok=True); (OUT / "og").mkdir(exist_ok=True)
-    cards = [("index", "Resultado do 1º turno", f"Eleições 2026 · {fmt(N['pst'], 2)}% apurado (TSE)", cF["p"], cL["p"], "2º turno em 25 de outubro")]
-    cards += [("ao-vivo", "Mapa da apuração por município", "Eleições 2026 · dados do TSE", cF["p"], cL["p"], "5.570 municípios · 2º turno ao vivo em 25/10")]
-    cards += [(f"apuracao-{r['slug']}", f"Apuração com {fmt(r['d']['pst'], 1)}% das urnas", f"Eleições 2026 · 04/10 às {r['d']['ht'][:5]}", r["d"]["f"], r["d"]["l"], "Leitura parcial do TSE") for r in rodadas]
-    og_htmls = [(nome, og_card(t, s, f, l, rp)) for nome, t, s, f, l, rp in cards]
+    cards = [(f"apuracao-{r['slug']}", f"Apuração com {fmt(r['d']['pst'], 1)}% das urnas", f"Eleições 2026 · 04/10 às {r['d']['ht'][:5]}", r["d"]["f"], r["d"]["l"], "Leitura parcial do TSE") for r in rodadas]
+    og_htmls = cards_turno2() + [(nome, og_card(t, s, f, l, rp)) for nome, t, s, f, l, rp in cards]
     og_htmls += deb["og"] if deb else []
     for nome, og_html in og_htmls:
         (BUILD / "og" / f"{nome}.html").write_text(og_html)
