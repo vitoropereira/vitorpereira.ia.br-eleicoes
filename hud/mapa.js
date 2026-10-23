@@ -124,6 +124,13 @@ export class Mapa {
       let g = grupos.get(c); if (!g) grupos.set(c, (g = [])); g.push(i);
     }
     const muns = this.geo.muns;
+    if (this.geo.fundo) { // modo Pessoas: o contorno dos estados fica por baixo dos círculos
+      ctx.lineJoin = "round";
+      ctx.fillStyle = rgb(token("--muted"), 0.12);
+      ctx.strokeStyle = rgb(token("--muted"), 0.35);
+      ctx.lineWidth = 0.8 / px;
+      ctx.stroke(this.geo.fundo);
+    }
     for (const [c, g] of grupos) {
       ctx.fillStyle = c;
       for (const i of g) ctx.fill(muns[i].path, "evenodd");

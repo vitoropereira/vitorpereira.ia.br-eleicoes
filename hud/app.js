@@ -1,7 +1,7 @@
 // HUD da apuração: estado da página, cabeçalho, mapa, linha do tempo, busca, Exterior e acessibilidade.
 import { html, render, useState, useEffect, useMemo, useRef, useCallback, useErrorBoundary } from "/vendor/preact-htm.module.js";
-import { t1, malha, analise, criarVivo, vivoExtra, criarMinuto } from "./dados.js";
-import { decodificar, decodificarUFs } from "./topo.js";
+import { t1, malha, pessoas, analise, criarVivo, vivoExtra, criarMinuto } from "./dados.js";
+import { decodificar, decodificarUFs, decodificarPessoas } from "./topo.js";
 import { Mapa } from "./mapa.js";
 import { assinarPresenca } from "./presenca.js";
 import { ligarSecoes } from "./secoes.js";
@@ -113,6 +113,7 @@ function Modos({ modo, setModo, legenda, travado, semApurado, turno }) {
         ${MODOS.map(([k, nome]) => {
           const off = (k === "apurado" && semApurado) || (k === "divergencia" && turno === 2);
           const dica = k === "apurado" && semApurado ? "O % apurado por município ainda não veio nesta leitura"
+            : k === "pessoas" ? "Cada município vira um círculo do tamanho do eleitorado"
             : k === "divergencia" ? (turno === 2 ? "Divergência compara os cargos do 1º turno" : "Municípios onde presidente e o cargo escolhido foram para lados diferentes") : null;
           return html`<button type="button" aria-pressed=${modo === k} disabled=${off} title=${dica} onClick=${() => setModo(k)}>${nome}</button>`;
         })}
@@ -229,7 +230,8 @@ function App() {
   const [res, setRes] = useState({});
   const [serie, setSerie] = useState([]);
   const [feed, setFeed] = useState([]);
-  const [geo, setGeo] = useState(null);
+  const [geoBase, setGeo] = useState(null);
+  const [pess, setPess] = useState(null); // geo/pessoas.json, só quando o modo Pessoas é escolhido
   const [erro, setErro] = useState(null);
   const [tema, setTema] = useState(0);
   const [vivo, setVivo] = useState({ status: "inicial", dados: null });
@@ -255,6 +257,7 @@ function App() {
     if (BAIXO) fetch("/hud/ufs.json").then((r) => { if (!r.ok) throw new Error("ufs.json " + r.status); return r.json(); })
       .then((m) => setGeo(decodificarUFs(m))).catch(() => pedirMalha());
     else pedirMalha();
+    if (modo === "pessoas") pedirPessoas();
     const mq = matchMedia("(prefers-color-scheme: light)");
     const f = () => { limparCache(); setTema((x) => x + 1); };
     mq.addEventListener("change", f);
@@ -290,10 +293,19 @@ function App() {
     malha().then((t) => setGeo(decodificar(t))).catch((e) => { st.current.malhaPedida = false; setErro(e); });
   }
 
-  const setTurnoX = (t, auto) => { if (!auto) st.current.turnoEscolhido = true; setTurno(t); setIdxS(null); setUfSel(null); setDica(null); if (t === 2) { setCargoS("presidente"); if (modo !== "municipios" && modo !== "estados") setModoS("municipios"); } };
+  function pedirPessoas() {
+    if (st.current.pessoasPedida) return;
+    st.current.pessoasPedida = true;
+    pessoas().then(setPess).catch((e) => { st.current.pessoasPedida = false; setErro(e); });
+  }
+  // modo Pessoas: círculos com os mesmos índices da malha (cores, seleção e dica servem sem mudança)
+  const geo = useMemo(() => (modo === "pessoas" && geoBase && !geoBase.soUF && pess ? decodificarPessoas(geoBase, pess) : geoBase), [modo, geoBase, pess]);
+
+  const setTurnoX = (t, auto) => { if (!auto) st.current.turnoEscolhido = true; setTurno(t); setIdxS(null); setUfSel(null); setDica(null); if (t === 2) { setCargoS("presidente"); if (!["municipios", "estados", "pessoas"].includes(modo)) setModoS("municipios"); } };
   const setCargo = (c) => { setCargoS(c); setDica(null); if (c !== "presidente") setIdxS(null); };
   const setModo = (m) => {
     if (m !== "estados") pedirMalha();
+    if (m === "pessoas") pedirPessoas();
     if (m === "divergencia" && !diverg) analise("divergencias").then(setDiverg).catch(() => setDiverg({ erro: true }));
     setModoS(m); if ((m === "municipios" || m === "divergencia") && idx != null) setIdxS(null);
   };
@@ -301,7 +313,7 @@ function App() {
     setIdxS(i);
     if (turno === 2) return; // no 2º turno a linha do tempo troca o minuto, o mapa segue por município
     if (i == null) { if (modo === "estados" && st.current.modoAntes) setModoS(st.current.modoAntes); st.current.modoAntes = null; }
-    else if (modo === "municipios" || modo === "vantagem" || modo === "divergencia") { st.current.modoAntes = modo; setModoS("estados"); }
+    else if (modo === "municipios" || modo === "vantagem" || modo === "divergencia" || modo === "pessoas") { st.current.modoAntes = modo; setModoS("estados"); }
   };
 
   // 2º turno: feed, série (índice) e o minuto escolhido na linha do tempo
@@ -519,13 +531,16 @@ function App() {
     const rk = Object.entries(cont).sort((a, b) => b[1] - a[1]).slice(0, 4);
     if (!rk.length) return null; // ninguém lidera em lugar nenhum (nenhum voto apurado): sem legenda vazia
     const und = modo === "estados" || pontoUF || geo.soUF ? "estados" : "municípios";
+    if (modo === "pessoas" && und === "municípios") return html`${rk.map(([sg, n]) => html`<span class="lg"><${Sw} sg=${sg} /><b>${sg}</b> ${int(n)}</span>`)}<span class="und">municípios · círculo com área ∝ eleitorado · terra × gente · <a href="/analise/#terra-gente">entenda</a></span>`;
     return html`${rk.map(([sg, n]) => html`<span class="lg"><${Sw} sg=${sg} /><b>${sg}</b> ${int(n)}</span>`)}<span class="und">${und}${modo === "vantagem" ? " · cor forte = vantagem maior" : ""}</span>`;
   }, [geo, fonte, modo, cargo, pontoUF, resultadoUF, lista, diverg]);
 
-  const resumo = useMemo(() => (f2.erro && turno === 2
-    ? `Não deu para carregar a leitura das ${tSel}.`
-    : resumoLeitor({ turno, temVivo: !!vivo.dados, fonte, meta, cargo, ponto, pontoUF, ufSel, lista: listaPres })),
-  [turno, vivo.dados, fonte, meta, cargo, ponto, pontoUF, listaPres, ufSel, f2.erro, tSel]);
+  const resumo = useMemo(() => {
+    const base = f2.erro && turno === 2
+      ? `Não deu para carregar a leitura das ${tSel}.`
+      : resumoLeitor({ turno, temVivo: !!vivo.dados, fonte, meta, cargo, ponto, pontoUF, ufSel, lista: listaPres });
+    return modo === "pessoas" && !pontoUF ? `${base} Modo Pessoas: cada círculo é um município, com área proporcional ao eleitorado.` : base;
+  }, [turno, vivo.dados, fonte, meta, cargo, ponto, pontoUF, listaPres, ufSel, f2.erro, tSel, modo]);
 
   // ---------- painel esquerdo
   let esq;
