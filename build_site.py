@@ -163,7 +163,14 @@ a.agora b{font-family:var(--font-mono);color:var(--ink);font-variant-numeric:tab
 a.agora .pulso{width:7px;height:7px;border-radius:50%;background:var(--live);box-shadow:0 0 0 0 color-mix(in srgb,var(--live) 60%,transparent);animation:pulso 2s infinite}
 @keyframes pulso{70%{box-shadow:0 0 0 6px transparent}100%{box-shadow:0 0 0 0 transparent}}
 @media (prefers-reduced-motion:reduce){a.agora .pulso{animation:none}}
-@media (max-width:900px){.sitebar a.agora{order:1;margin-left:auto}.sitebar nav.top{order:2;margin-left:0}}
+button.tema{display:inline-flex;align-items:center;justify-content:center;flex:none;width:32px;height:32px;padding:0;margin:0;border:1px solid var(--line);border-radius:50%;background:var(--card);color:var(--ink2);cursor:pointer}
+button.tema:hover{color:var(--ink);border-color:var(--muted)}
+button.tema:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+button.tema svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.tema .lua{display:none}
+:root[data-theme="light"] .tema .sol{display:none}:root[data-theme="light"] .tema .lua{display:block}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]) .tema .sol{display:none}:root:not([data-theme="dark"]) .tema .lua{display:block}}
+@media (max-width:900px){.sitebar a.agora{order:1;margin-left:auto}.sitebar nav.top{order:2;margin-left:0}.sitebar .tema{order:1}.sitebar a.agora[hidden]~.tema{margin-left:auto}}
 @media (max-width:640px){.sitebar .in{gap:8px 14px;padding:8px 16px}.sitebar nav.top{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;width:100%;min-width:0;-webkit-mask-image:linear-gradient(90deg,black 90%,transparent);mask-image:linear-gradient(90deg,black 90%,transparent)}.sitebar nav.top::-webkit-scrollbar{display:none}.sitebar nav.top a{flex:none;white-space:nowrap}}
 .crumbs{max-width:1160px;margin:14px auto 0;padding:0 16px;font-size:13px;color:var(--ink2)}
 .crumbs a{color:var(--ink2)}
@@ -308,7 +315,25 @@ def sitebar(atual):
             f'<a class="brand" href="/" aria-label="Eleições 2026, por Vitor Pereira">'
             f'<span class="wm">vitor<span class="dim">pereira</span><span class="cursor" aria-hidden="true"></span></span>'
             f'<span class="sep" aria-hidden="true">/</span><span>eleições 2026</span></a>'
-            f'<nav class="top" aria-label="Principal">{nav}</nav>{agora_topo()}</div></header>')
+            f'<nav class="top" aria-label="Principal">{nav}</nav>{agora_topo()}{TEMA_BOTAO}</div></header>')
+
+
+# tema claro/escuro (#142). Padrão: segue o sistema (brand.css). A escolha do botão fica em localStorage["tema"] e é
+# aplicada como data-theme no <html> por este script, que roda no <head> antes da pintura (sem piscar). Se a escolha
+# cair igual ao sistema, a chave é apagada e o site volta a seguir o sistema. Sem "<" no JS (tests/test_tema.py).
+TEMA_JS = """<script>(function(){var d=document.documentElement,K="tema",C={light:"#FBFCFE",dark:"#070B12"};
+function sis(){return matchMedia("(prefers-color-scheme: light)").matches?"light":"dark"}
+function cor(){var t=d.getAttribute("data-theme");document.querySelectorAll('meta[name="theme-color"]').forEach(function(m){m.content=C[t||(/light/.test(m.media)?"light":"dark")]})}
+var g=null;try{g=localStorage.getItem(K)}catch(e){}
+if(g==="light"||g==="dark"){d.setAttribute("data-theme",g);cor()}
+window.temaAlternar=function(){var s=sis(),n=(d.getAttribute("data-theme")||s)==="light"?"dark":"light";
+try{if(n===s)localStorage.removeItem(K);else localStorage.setItem(K,n)}catch(e){}
+if(n===s)d.removeAttribute("data-theme");else d.setAttribute("data-theme",n);cor()}})()</script>"""
+# ícone certo só por CSS (SITE_CSS): sol no escuro, lua no claro
+TEMA_BOTAO = ('<button type="button" class="tema" onclick="temaAlternar()" aria-label="Alternar tema claro ou escuro" title="Alternar tema claro ou escuro">'
+              '<svg class="sol" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/>'
+              '<path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>'
+              '<svg class="lua" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button>')
 
 
 def agora_topo():
@@ -366,6 +391,7 @@ def head(title, desc, path, og_img, extra_ld, published, modified):
 <meta name="author" content="{AUTOR["nome"]}">
 <meta name="theme-color" content="#FBFCFE" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#070B12" media="(prefers-color-scheme: dark)">
+{TEMA_JS}
 <link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/jetbrains-mono-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -622,7 +648,7 @@ def ld_analise(dados, publicado=None, modificado=None):
 
 
 def html_analise(dados, publicado, modificado):
-    raw = brand.aplicar((R / "template_analise.html").read_text()).replace("<!--__RODAPE__-->", rodape(), 1).replace("<!--__AGORA__-->", agora_topo(), 1)
+    raw = brand.aplicar((R / "template_analise.html").read_text()).replace("<!--__RODAPE__-->", rodape(), 1).replace("<!--__AGORA__-->", agora_topo(), 1).replace("<!--__TEMA__-->", TEMA_BOTAO, 1)
     raw = raw.replace("<!--__SECOES__-->", menu_secoes("/analise/"), 1).replace("</head>", SECOES_CSS + "</head>", 1)
     og = "/og/analise-destaques.png" if dados else "/og/index.png"
     return montar_pagina(raw, ANALISE_TITULO, ANALISE_DESC, "/analise/", og, ld_analise(dados, publicado, modificado), publicado, modificado, "/analise/", moldura=False)
