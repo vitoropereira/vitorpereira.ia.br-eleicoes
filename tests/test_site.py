@@ -9,6 +9,23 @@ import build_site as B
 PALETA_ANTIGA = ["#f7f6f3", "#1b1c1e", "#1a1a19", "#232322", "#2563c9", "#5b8def"]
 
 
+class HoraDaLeitura(unittest.TestCase):
+    """issue 150: leitura de outro dia que não o da eleição (04/10) mostra a data."""
+
+    def test_hora_da_leitura(self):
+        self.assertEqual(B.hora_leitura("04/10/2026", "21:56:49"), "21:56")
+        self.assertEqual(B.hora_leitura("05/10/2026", "12:51:05"), "05/10 12:51")
+
+    def test_indice_da_apuracao(self):
+        h = B.pagina_apuracao("<style></style>")
+        final = re.search(r'<a class="rd final" href="/"><span class="t">([^<]*)</span>', h)
+        self.assertEqual(final.group(1), B.hora_leitura(B.N["dg"], B.N["ht"]))
+        if B.N["dg"] != B.DIA_ELEICAO:
+            self.assertIn("/", final.group(1))
+        for r in B.rodadas:
+            self.assertIn(f'<span class="t">{r["d"]["ht"][:5]}</span>', h)  # todas do dia da eleição: só a hora
+
+
 class Moldura(unittest.TestCase):
     def test_sem_paleta_antiga_na_moldura(self):
         moldura = B.SITE_CSS + B.MEDICAO_CSS + B.MEDICAO_JS + B.FAVICON + B.og_card("t", "s", 47.0, 45.2, "r") + B.head("t", "d", "/", "/og/x.png", [], "a", "b")
@@ -50,6 +67,25 @@ class Moldura(unittest.TestCase):
 
     def test_foco_usa_brand(self):
         self.assertNotIn("var(--flavio)", B.SITE_CSS + B.MEDICAO_CSS + B.MEDICAO_JS)
+
+    def test_404_com_atalhos(self):
+        # issue 150: a 404 leva às seções principais e à busca do Rastro
+        h = B.pagina_404("<style></style>")
+        for href in ("/", "/ao-vivo/", "/rastro/", "/rastro/#busca", "/apuracao/"):
+            self.assertIn(f'href="{href}"', h)
+        self.assertEqual('href="/debates/"' in h, bool(B.debates()))
+
+    def test_busca_do_rastro_tem_ancora(self):
+        from rastro import paginas as rp
+        self.assertIn('id="busca"', rp.caixa_busca(grande=True))
+        self.assertNotIn('id="busca"', rp.caixa_busca())
+
+    def test_cookies_compacto_no_celular(self):
+        m = re.search(r"@media \(max-width:520px\)\{(.*?)\}\n", B.MEDICAO_CSS, re.S)
+        self.assertIsNotNone(m)
+        css = m.group(1)
+        self.assertRegex(css, r"\.consent \.in\{[^}]*padding:\s*8px")
+        self.assertRegex(css, r"\.consent p\{[^}]*font-size:\s*13px")
 
     def test_cabecalho_compacto_no_celular(self):
         m = re.search(r"@media \(max-width:640px\)\{(.*?)\}\}", B.SITE_CSS, re.S)
