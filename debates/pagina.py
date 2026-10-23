@@ -270,7 +270,7 @@ section>.db-metodo{margin-top:34px;padding-top:6px;border-top:1px solid var(--li
 .db-rt-lista summary{cursor:pointer;font-weight:600;margin-top:16px}
 .db-topo{display:inline-block;margin-top:24px;font-size:14px}
 .db-topo.flutua{position:fixed;right:16px;bottom:16px;z-index:10;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 12px}
-.db-topo[hidden]{display:none}
+.db-topo[hidden],.db-temas li[hidden]{display:none}
 .db-lista{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .db-af{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:10px;padding:12px 14px;overflow-wrap:anywhere}
 .db-af[hidden],.db-tema[hidden]{display:none}
@@ -290,7 +290,7 @@ section>.db-metodo{margin-top:34px;padding-top:6px;border-top:1px solid var(--li
 .db-deb b{display:block;font-size:17px}.db-deb span{color:var(--ink2);font-size:14px}
 .db-tr p{margin:6px 0}.db-tr p:target{background:var(--soft)}.db-tr b{font:600 13px var(--font-mono);color:var(--muted)}
 @media (max-width:760px){.db-lista{grid-template-columns:1fr}}
-@media (max-width:640px){.db-link{display:inline-flex;align-items:center;min-height:40px;box-sizing:border-box;margin-top:0}.db-rt-filtro select,.db-filtro select{min-height:40px;box-sizing:border-box}.db-metodo summary{min-height:40px;box-sizing:border-box;padding-block:10px;margin-block:-10px}}
+@media (max-width:640px){.db-link{display:inline-flex;align-items:center;min-height:40px;box-sizing:border-box;margin-top:0}.db-rt-filtro select,.db-filtro select{min-height:40px;box-sizing:border-box}.db-metodo summary{min-height:40px;box-sizing:border-box;padding-block:10px;margin-block:-10px}.db-temas a,.db-topo{display:inline-flex;align-items:center;min-height:40px;box-sizing:border-box}.db-rt-lista summary{min-height:40px;box-sizing:border-box;display:flex;align-items:center}}
 </style>"""
 
 
@@ -475,7 +475,7 @@ def gerar(m, base, autor, tambem=None):
     afirmacoes_html = ('<section aria-labelledby="afirmacoes"><h2 id="afirmacoes">Afirmações checadas</h2>'
                        f'{indice_temas}{filtro}{temas}</section>')
 
-    rt,conta_rt, retorica_html = m.get("retorica"), placar_retorica(m), ""
+    rt, conta_rt, retorica_html = m.get("retorica"), placar_retorica(m), ""
     if rt:
         linhas_rt = [(_nome(cands[q]), cands[q]["cor"], conta_rt[q]) for q in conta_rt]
         filtro_rt = ('<form class="db-rt-filtro" aria-label="Filtrar frases" hidden>'

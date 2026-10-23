@@ -25,6 +25,8 @@
     "afirmações", function () {
       document.querySelectorAll(".db-tema").forEach(function (s) {
         s.hidden = !s.querySelector(".db-af:not([hidden])");
+        var a = document.querySelector('.db-temas a[href="#' + s.id + '"]');
+        if (a) a.parentNode.hidden = s.hidden;
       });
     });
   filtro(document.querySelector(".db-rt-filtro"), document.querySelectorAll(".db-rt li"), ["candidato", "etiqueta"],

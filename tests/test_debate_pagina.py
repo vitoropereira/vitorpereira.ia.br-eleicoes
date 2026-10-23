@@ -517,9 +517,6 @@ class Saida(unittest.TestCase):
                              (R / "debates" / "debate.js").read_bytes())
 
 
-if __name__ == "__main__":
-    unittest.main()
-
 
 class Hierarquia(unittest.TestCase):
     """#144: afirmações antes da retórica, índice de temas, lista de frases recolhida, voltar ao topo."""
@@ -578,3 +575,7 @@ class Hierarquia(unittest.TestCase):
             src = (R / "debates" / f).read_text(encoding="utf-8")
             for nome in ("Band", "Globo", "Flávio", "Lula", "presidente-2-turno"):
                 self.assertNotIn(nome, src, f"{f}: {nome}")
+
+
+if __name__ == "__main__":
+    unittest.main()
