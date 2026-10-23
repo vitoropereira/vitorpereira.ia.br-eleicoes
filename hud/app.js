@@ -10,6 +10,7 @@ import {
   UF_NOME, UFS, CARGOS, CARGO_NOME, MODOS, pct, int, titulo, semAcento, linha, linhaSerie, corPara, cor, ehDep, comSigla, textoComSigla, curta,
 } from "./calc.js";
 import { oficial, duelo, resumoLeitor, fonteTurno2, modoValido, serieTurno2, eleitoTurno2, situacaoVivo, exteriorCidades } from "./calc.js";
+import { cargoTurno } from "./calc.js";
 import { divergencia, cargoDivergencia, contaDivergencia, LADO_TOKEN, LADO_NOME } from "./calc.js";
 import { Placar, ResumoUFs, ResumoDep, PorRegiao, Feed, Sw, Nome } from "./paineis.js";
 
@@ -75,6 +76,7 @@ function Secoes() {
 
 // ---------------- cabeçalho
 function Topo({ turno, setTurno, cargo, setCargo, status, onBusca, onExterior, onCheia, cheia }) {
+  const gov = cargoTurno("governador", 2);
   return html`
     <header class="hud-top">
       <a class="marca" href="/" aria-label="Eleições 2026, por Vitor Pereira (início)">
@@ -87,9 +89,10 @@ function Topo({ turno, setTurno, cargo, setCargo, status, onBusca, onExterior, o
       </div>
       <div class="seg cargos" role="group" aria-label="Cargo">
         ${CARGOS.map(([k, nome]) => {
-          const off = turno === 2 && k !== "presidente";
-          return html`<button type="button" aria-pressed=${cargo === k} disabled=${off} title=${off ? "No 2º turno só há votação para presidente e, em alguns estados, governador" : null} onClick=${() => setCargo(k)}>${nome}</button>`;
+          const { off, dica } = cargoTurno(k, turno);
+          return html`<button type="button" aria-pressed=${cargo === k} disabled=${off} title=${dica} onClick=${() => setCargo(k)}>${nome}</button>`;
         })}
+        ${turno === 2 && html`<a class="aba tse" href=${gov.link} target="_blank" rel="noopener" title=${gov.dica}>Governadores: TSE ↗</a>`}
         <a class="aba" href="/analise/">Análise</a>
       </div>
       <div class="acoes">

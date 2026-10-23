@@ -1,6 +1,6 @@
 // Único lugar com fetch da Análise: /analise/dados/*.json (gerados por analise/calcular.py).
 export const PEQUENOS = ["destaques", "campos", "dividido", "cadeiras", "brancos", "fragmentacao", "legenda", "puxadores", "cenarios", "faq", "lados"];
-export const GRANDES = ["divergencias", "comparacao2022", "mun"]; // um registro por município
+export const GRANDES = ["divergencias", "comparacao2022", "terra-gente", "mun"]; // um registro por município
 
 async function um(nome) {
   // "mun" = nomes dos municípios (o mesmo meta.json do HUD), só para as dicas dos mapas e da dispersão

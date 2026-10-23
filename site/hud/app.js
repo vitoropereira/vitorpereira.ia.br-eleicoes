@@ -4,6 +4,7 @@ import { t1, malha, analise, criarVivo, vivoExtra, criarMinuto } from "./dados.j
 import { decodificar, decodificarUFs } from "./topo.js";
 import { Mapa } from "./mapa.js";
 import { assinarPresenca } from "./presenca.js";
+import { ligarSecoes } from "./secoes.js";
 import { limparCache, token, misturar } from "./partidos.js";
 import {
   UF_NOME, UFS, CARGOS, CARGO_NOME, MODOS, pct, int, titulo, semAcento, linha, linhaSerie, corPara, cor, ehDep, comSigla, textoComSigla, curta,
@@ -51,6 +52,24 @@ function PessoasAgora() {
   return html`<span class="pessoas">${Ic.olho}<b>${typeof n === "string" ? n : int(n)}</b> ${n === 1 ? "pessoa" : "pessoas"} agora</span>`;
 }
 
+// ---------------- "☰ Seções": a lista de seções do site vem do build (window.HUD_SECOES = build_site.secoes(), a mesma
+// da sitebar e da Análise); abrir/fechar/teclado ficam em hud/secoes.js. Sem a config, não aparece.
+const SECOES = (typeof window !== "undefined" && Array.isArray(window.HUD_SECOES)) ? window.HUD_SECOES : [];
+const ATUAL = "/ao-vivo/";
+
+function Secoes() {
+  const el = useRef();
+  useEffect(() => ligarSecoes(el.current, document), []);
+  if (!SECOES.length) return null;
+  return html`
+    <div class="secoes" ref=${el}>
+      <button type="button" aria-expanded="false" aria-controls="secoes-menu"><span class="ic-m" aria-hidden="true">☰</span><span class="tx">Seções</span></button>
+      <nav id="secoes-menu" aria-label="Seções do site" hidden>
+        ${SECOES.map(([u, t]) => html`<a href=${u} aria-current=${u === ATUAL ? "page" : null}>${t}</a>`)}
+      </nav>
+    </div>`;
+}
+
 // ---------------- cabeçalho
 function Topo({ turno, setTurno, cargo, setCargo, status, onBusca, onExterior, onCheia, cheia }) {
   return html`
@@ -59,6 +78,7 @@ function Topo({ turno, setTurno, cargo, setCargo, status, onBusca, onExterior, o
         <span class="wm">vitor<span class="dim">pereira</span><span class="cursor" aria-hidden="true"></span></span>
         <span class="sep" aria-hidden="true">/</span><span class="ctx">eleições 2026</span>
       </a>
+      ${!cheia && html`<${Secoes} />`}
       <div class="seg turnos" role="group" aria-label="Turno">
         ${[1, 2].map((t) => html`<button type="button" aria-pressed=${turno === t} onClick=${() => setTurno(t)}>${t}º turno</button>`)}
       </div>
@@ -581,7 +601,7 @@ function App() {
       </main>
       <p class="sr-only" aria-live="polite">${resumo}</p>
       <footer class="hud-pe"><span>Dados públicos do <a href="https://resultados.tse.jus.br/oficial/app/index.html" rel="noopener">TSE</a> e malha do <a href="https://www.ibge.gov.br/" rel="noopener">IBGE</a>. Não é um site oficial da Justiça Eleitoral.</span>
-        <span><a href="/">Resultado final</a> · <a href="/apuracao/">Histórico</a> · <a href="/#metodo">Método</a> · <a href="https://vitorpereira.ia.br/privacidade">Privacidade</a> · <button type="button" class="link" onClick=${() => window.dispatchEvent(new CustomEvent("consent:reopen"))}>Cookies</button></span></footer>
+        <span>${SECOES.filter(([u]) => u !== ATUAL && u !== "/analise/").map(([u, t]) => html`<a href=${u}>${t}</a> · `)}<a href="https://vitorpereira.ia.br/privacidade">Privacidade</a> · <button type="button" class="link" onClick=${() => window.dispatchEvent(new CustomEvent("consent:reopen"))}>Cookies</button></span></footer>
       <${Dica} conteudo=${conteudoDica} />
       <${Busca} aberto=${busca} fechar=${() => setBusca(false)} meta=${meta} geo=${geo} onEscolha=${onEscolha} />
       <${Exterior} aberto=${ext} fechar=${() => setExt(false)} meta=${meta} res=${turno === 2 ? vivo.dados : res.presidente} lista=${listaPres} turno=${turno} />
