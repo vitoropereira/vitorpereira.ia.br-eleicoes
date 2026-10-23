@@ -225,21 +225,30 @@ class TestLote(unittest.TestCase):
     def test_ja_publicado_hoje_sai_sem_pr(self):
         antes = self.pub.read_text(encoding="utf-8")
         ex = Falso(mergeados=["Rastro: lote 2026-10-14"])
-        self.assertEqual(lote.main(hoje=date(2026, 10, 14), raiz=self.raiz, executar=ex), 0)
+        self.assertEqual(lote.main(hoje=date(2026, 10, 14), raiz=self.raiz, executar=ex, evento="schedule"), 0)
         self.assertEqual(self.pub.read_text(encoding="utf-8"), antes)
         proibidos = (["git", "checkout"], ["git", "push"], ["gh", "pr", "create"], ["gh", "pr", "merge"])
         self.assertFalse(any(c[0] == "python3" or c[:2] in proibidos or c[:3] in proibidos for c in ex.cmds))
 
+    def test_push_e_dispatch_publicam_mesmo_com_lote_do_dia(self):
+        """publicação contínua (22/10/2026): a trava do dia é só do cron; push e disparo manual sempre rodam"""
+        for evento in ("push", "workflow_dispatch"):
+            ex = Falso(mergeados=["Rastro: lote 2026-10-14"])
+            self.assertEqual(lote.main(hoje=date(2026, 10, 14), raiz=self.raiz, executar=ex, evento=evento), 0, evento)
+            self.assertEqual(ex.cmds[-1], ["gh", "pr", "merge", "rastro/lote-2026-10-14", "--squash", "--delete-branch"], evento)
+            self.assertFalse(any(c[:3] == ["gh", "pr", "list"] and "merged" in c for c in ex.cmds), evento)
+            self.setUp()
+
     def test_lote_de_outro_dia_nao_trava(self):
         ex = Falso(mergeados=["Rastro: lote 2026-10-13"])
-        self.assertEqual(lote.main(hoje=date(2026, 10, 14), raiz=self.raiz, executar=ex), 0)
+        self.assertEqual(lote.main(hoje=date(2026, 10, 14), raiz=self.raiz, executar=ex, evento="schedule"), 0)
         self.assertEqual(ex.cmds[-1], ["gh", "pr", "merge", "rastro/lote-2026-10-14", "--squash", "--delete-branch"])
         consulta = next(c for c in ex.cmds if c[:3] == ["gh", "pr", "list"] and "merged" in c)
         self.assertIn('"Rastro: lote 2026-10-14" in:title', consulta)
 
     def test_gh_falhou_na_consulta_nao_publica(self):
         ex = Falso(gh_merged_rc=1)
-        self.assertEqual(lote.main(hoje=date(2026, 10, 14), raiz=self.raiz, executar=ex), 1)
+        self.assertEqual(lote.main(hoje=date(2026, 10, 14), raiz=self.raiz, executar=ex, evento="schedule"), 1)
         self.assertFalse(any(c[:2] == ["git", "checkout"] or c[:2] == ["git", "push"] for c in ex.cmds))
 
     def test_conferir(self):
