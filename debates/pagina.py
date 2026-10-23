@@ -226,6 +226,9 @@ main.db{max-width:var(--w-texto);box-sizing:border-box;margin:0 auto;padding:24p
 .db h2{font-size:20px;margin:34px 0 10px;padding-top:6px;border-top:1px solid var(--line)}
 .db-lead{color:var(--ink2);margin:0}
 .db-nota{font-size:13px;color:var(--ink2);margin:6px 0 10px}
+.db-metodo{margin:10px 0}.db-metodo summary{cursor:pointer;color:var(--ink2);font-size:14px}
+.db-metodo summary h2{display:inline;border:0;margin:0;padding:0;font-size:20px;color:var(--ink)}
+section>.db-metodo{margin-top:34px;padding-top:6px;border-top:1px solid var(--line)}
 """ + CSS_PLACAR + """.db-filtro{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin:24px 0 0;font-size:14px}
 .db-filtro[hidden],.db-rt-filtro[hidden],.db-rt li[hidden]{display:none}
 .db-rt-filtro{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin:16px 0 0;font-size:14px}
@@ -326,7 +329,8 @@ def _barras_retorica(linhas):
 
 def como_etiquetamos():
     ordem = ", ".join(ETIQUETAS[e].lower() for e in V.ETIQUETAS)
-    return ('<p class="db-nota">Cada frase dita por um candidato recebeu uma etiqueta pelo ponto central dela: ataques e '
+    return ('<details class="db-metodo"><summary>Como etiquetamos</summary>'
+            '<p class="db-nota">Cada frase dita por um candidato recebeu uma etiqueta pelo ponto central dela: ataques e '
             'críticas (ataca ou critica o adversário, o governo, o partido ou aliados, sem que o ponto central seja um '
             'dado), propostas (diz o que vai fazer), apelo pessoal ou emocional (fala de si ou apela a medo, raiva, pena '
             'ou esperança) e dados e evidências (número, data ou fato verificável). '
@@ -334,12 +338,12 @@ def como_etiquetamos():
             'Foi feita por vários modelos de IA, cada um sem saber quem falou; onde eles divergiram, um desempate pela '
             'regra decidiu. Dado errado conta como dado: se ele confere é a checagem das afirmações que diz. '
             f'Quando ainda empata, vale a primeira desta ordem: {esc(ordem)}. Ficam de fora a mediação, cumprimentos, '
-            'agradecimentos, perguntas de regra e os trechos em que não dá para ter certeza de quem fala.</p>')
+            'agradecimentos, perguntas de regra e os trechos em que não dá para ter certeza de quem fala.</p></details>')
 
 
 def como_checamos():
     escala = "; ".join(f"{ROTULOS[v].lower()} ({DEFINICOES[v]})" for v in ORDEM_VEREDITOS)
-    return ('<section aria-labelledby="metodo"><h2 id="metodo">Como checamos</h2>'
+    return ('<section aria-labelledby="metodo"><details class="db-metodo"><summary><h2 id="metodo">Como checamos</h2></summary>'
             '<p>Selecionamos as frases dos candidatos que dá para conferir com dado público (a mediação fica de fora). '
             f'Cada uma recebe um de cinco vereditos: {esc(escala)}. A afirmação é checada no sentido em que foi dita: '
             '"a criminalidade explodiu" olha o crime em geral, não só um indicador.</p>'
@@ -348,7 +352,7 @@ def como_checamos():
             'da afirmação. Quando uma checagem é corrigida, a data de atualização muda.</p>'
             '<p>O placar separa fatos e dados, promessas e acusações, e o percentual é dentro de cada bloco: promessa não '
             'tem como ser "verdadeira", então misturar tudo puniria quem promete mais. O placar só conta vereditos. Não é '
-            'nota do debate: a seleção cobre só frases verificáveis.</p></section>')
+            'nota do debate: a seleção cobre só frases verificáveis.</p></details></section>')
 
 
 def gerar(m, base, autor, tambem=None):

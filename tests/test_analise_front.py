@@ -127,8 +127,8 @@ class Textos(unittest.TestCase):
         h1 = re.search(r"<h1>(.*?)</h1>", app).group(1)
         for t in (h1, B.ANALISE_TITULO, B.ANALISE_DESC):
             self.assertNotIn("esquerda", t)
-        self.assertIn("campo dele", h1)
-        self.assertIn("campo dele", B.ANALISE_DESC)
+        self.assertIn("lado dele", h1)
+        self.assertIn("lado dele", B.ANALISE_DESC)
 
     def test_sem_opiniao_sem_dado(self):
         tx = (JS / "textos.js").read_text()
@@ -162,7 +162,7 @@ class Compartilhar(unittest.TestCase):
     def test_sem_dados_usa_og_geral(self):
         h = B.pagina_compartilhar("campos", {}, PUB, MOD, com_og=False)
         self.assertIn("/og/index.png", h)
-        self.assertIn("Votos por campo e cargo", h)
+        self.assertIn("Votos por lado e cargo", h)
 
     def test_botoes_sem_script_de_terceiros(self):
         app = (JS / "app.js").read_text()
