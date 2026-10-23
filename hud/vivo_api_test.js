@@ -1,5 +1,5 @@
 // deno test hud/  — a função api/vivo.js (o teste fica aqui: todo arquivo em api/ vira função na Vercel)
-import handler, { CACHE, caminhoValido, ORIGEM } from "../api/vivo.js";
+import handler, { CACHE, caminhoValido, ORIGEM, responder } from "../api/vivo.js";
 
 const assertEquals = (a, b, m) => {
   if (JSON.stringify(a) !== JSON.stringify(b)) throw new Error(`${m || "diferente"}: ${JSON.stringify(a)} != ${JSON.stringify(b)}`);
@@ -26,7 +26,7 @@ Deno.test("caminhos do HUD passam; travessia e lixo não", () => {
 
 Deno.test("200: sem o set-cookie da origem e com s-maxage (o CDN guarda)", async () => {
   const { f, pedidos } = origemFalsa(200, '{"a":1}', { etag: '"e1"', "content-type": "application/json" });
-  const r = await handler(req("serie/1810.json"), f);
+  const r = await responder(req("serie/1810.json"), f);
   assertEquals(pedidos, [ORIGEM + "serie/1810.json"]);
   assertEquals(r.status, 200);
   assertEquals(r.headers.get("set-cookie"), null);
@@ -37,7 +37,7 @@ Deno.test("200: sem o set-cookie da origem e com s-maxage (o CDN guarda)", async
 
 Deno.test("objeto inexistente (400 ou 404 do Storage) vira 404 em cache curto", async () => {
   for (const st of [400, 404]) {
-    const r = await handler(req("agora.json"), origemFalsa(st).f);
+    const r = await responder(req("agora.json"), origemFalsa(st).f);
     assertEquals(r.status, 404);
     assertEquals(r.headers.get("cache-control"), "public, s-maxage=15");
     assertEquals(r.headers.get("set-cookie"), null);
@@ -45,14 +45,25 @@ Deno.test("objeto inexistente (400 ou 404 do Storage) vira 404 em cache curto", 
 });
 
 Deno.test("erro da origem não entra em cache", async () => {
-  const r = await handler(req("agora.json"), origemFalsa(500).f);
+  const r = await responder(req("agora.json"), origemFalsa(500).f);
   assertEquals(r.status, 502);
   assertEquals(r.headers.get("cache-control"), "no-store");
 });
 
 Deno.test("caminho inválido não chega à origem", async () => {
   const { f, pedidos } = origemFalsa(200);
-  const r = await handler(req("../segredo.json"), f);
+  const r = await responder(req("../segredo.json"), f);
   assertEquals(r.status, 400);
   assertEquals(pedidos, []);
+});
+
+Deno.test("handler aceita o (request, context) da Vercel sem usar o context como fetch", async () => {
+  const antes = globalThis.fetch;
+  const pedidos = [];
+  globalThis.fetch = async (url) => { pedidos.push(url); return new Response("{}", { status: 200 }); };
+  try {
+    const r = await handler(req("agora.json"), { waitUntil() {} });
+    assertEquals(r.status, 200);
+    assertEquals(pedidos, [ORIGEM + "agora.json"]);
+  } finally { globalThis.fetch = antes; }
 });
