@@ -36,6 +36,8 @@ Repo **público**: nada de segredo em commit.
 - Testes do simulador: `deno test --allow-read supabase/simular_test.ts`
 - `supabase/simular.ts medir` bate no TSE de verdade (milhares de requisições): **nunca rodar em 25/10**, nem perto da
   noite da apuração; o agregador de produção usa o mesmo IP de saída do TSE que todo mundo.
+- Resultado por seção e local de votação (presidente): `python3 municipios/baixar_secao.py && python3 municipios/montar_secao.py`
+  (~340 MB do TSE; **nunca em 25/10**). Gera `municipios/geo/locais/`; seção ou local com comparecimento < 30 sai sem voto.
 - Relatório: `cd relatorio && python3 montar.py && cd ..`
 - Site: `python3 build_site.py`
 - PR: `/ship`

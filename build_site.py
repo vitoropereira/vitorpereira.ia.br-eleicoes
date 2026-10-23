@@ -767,7 +767,9 @@ COR_OG = {"flavio": "#5B7FE8", "lula": "#E35A4F", "outros": "#8593AB"}  # os mes
 def debates(raiz=R / "debates"):
     """Páginas geradas de cada debate com checagem (dicts de debates.pagina.gerar), do mais novo para o mais antigo."""
     from debates import pagina as dp
-    return [dp.gerar(m, BASE, PESSOA) for m in dp.listar(raiz)]
+    ms = dp.listar(raiz)
+    lig = dp.tambem(ms)  # a mesma tese, dita pelo mesmo candidato em outro debate: "Também dito em"
+    return [dp.gerar(m, BASE, PESSOA, tambem=lig) for m in ms]
 
 
 def banner_debate():
