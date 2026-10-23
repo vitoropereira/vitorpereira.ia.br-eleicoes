@@ -8,6 +8,7 @@ sys.path.insert(0, str(R))
 import build_site as B
 from debates import pagina as dp
 from debates import validar as V
+import navegacao as NAV
 
 FIXTURE = R / "tests" / "fixtures" / "debates"
 TESTE = FIXTURE / "2026" / "presidente-2-turno-teste"
@@ -26,6 +27,54 @@ def ld_de(h):
 
 def json_de(pasta, nome):
     return json.loads((pasta / nome).read_text(encoding="utf-8"))
+
+
+class Selo(unittest.TestCase):
+    """issue 150: selo de veredito com ícone + texto, em tons fora da paleta de partido."""
+    PARTIDO = re.compile(r"var\(--(flavio|lula|live|outros|[br][1-4])\)")
+
+    def test_icone_e_texto_por_veredito(self):
+        icones = set()
+        for v in V.VEREDITO:
+            s = dp.selo(v)
+            m = re.fullmatch(rf'<span class="db-selo db-selo-{v}"><i aria-hidden="true">(.+?)</i> (.+)</span>', s)
+            self.assertIsNotNone(m, s)
+            self.assertEqual(m.group(2), dp.ROTULOS[v])  # o texto continua: o ícone não é a única pista
+            icones.add(m.group(1))
+        self.assertEqual(len(icones), len(V.VEREDITO))
+
+    def test_tons_fora_da_paleta_de_partido(self):
+        for v in V.VEREDITO:
+            regra = re.search(rf"\.db-selo-{v}\{{([^}}]*)\}}", dp.CSS_SELO)
+            self.assertIsNotNone(regra, v)
+            self.assertNotRegex(regra.group(1), self.PARTIDO, v)
+        self.assertNotRegex(dp.CSS_SELO, self.PARTIDO)
+        self.assertIn(dp.CSS_SELO, dp.CSS)
+
+    def test_cartao_usa_o_selo(self):
+        g = gerar()
+        for a in g["afirmacoes"]:
+            v = next(k for k, r in dp.ROTULOS.items() if a["desc"].startswith(f"Veredito: {r}."))
+            self.assertIn(dp.selo(v), a["html"])
+
+
+class OrdemCandidatos(unittest.TestCase):
+    """issue 150: a mesma ordem em todo o site, pela votação do 1º turno (Flávio 47,0%, Lula 45,2%)."""
+
+    def test_ordem_do_1o_turno(self):
+        cands = [{"partido": "PT", "n": "Lula"}, {"partido": None, "n": "Mediação"}, {"partido": "PL", "n": "Flávio"}]
+        self.assertEqual([c["n"] for c in NAV.ordem_candidatos(cands)], ["Flávio", "Lula", "Mediação"])
+
+    def test_debate_real_segue_a_ordem(self):
+        deb = json_de(REAL, "debate.json")
+        partidos = [c["partido"] for c in deb["candidatos"] if c.get("partido")]
+        self.assertEqual(partidos, [c["partido"] for c in NAV.ordem_candidatos(deb["candidatos"]) if c.get("partido")])
+
+    def test_indice_segue_a_ordem_mesmo_com_debate_invertido(self):
+        g = dp.gerar(dp.carregar(REAL), B.BASE, B.PESSOA)
+        g["placar"] = dict(reversed(list(g["placar"].items())))  # Lula antes, como no Rastro antigo
+        idx = dp.indice([g], B.BASE, B.PESSOA)["html"]
+        self.assertLess(idx.index("Flávio Bolsonaro (PL)"), idx.index("Lula (PT)"))
 
 
 class Carregar(unittest.TestCase):

@@ -26,6 +26,23 @@ DEFINICOES = {"verdadeiro": "a afirmação central se confirma nas fontes",
               "nao-comprovado": "não há evidência pública que confirme nem desminta, ou é acusação sem registro",
               "pendente-ou-condicionado": "promessa que ainda não existe e depende de Congresso, custo ou detalhe",
               "situacao-identificada": "a promessa já existe, ou a acusação tem investigação, denúncia ou condenação"}
+# selo de veredito (issue 150): ícone + texto (o ícone é decorativo, aria-hidden; o rótulo continua). Tons fora da paleta
+# de partido: tinta neutra (--ink2, --muted) e --alerta, nunca azul, vermelho ou verde. O texto fica em --ink (AA nos dois temas).
+SELO = {"verdadeiro": ("✓", "--ink2", "solid"), "falso-ou-exagerado": ("✗", "--alerta", "solid"),
+        "nao-comprovado": ("?", "--muted", "dashed"), "pendente-ou-condicionado": ("◷", "--muted", "dotted"),
+        "situacao-identificada": ("◆", "--alerta", "dashed")}
+CSS_SELO = (".db-selo{display:inline-block;font:600 12px var(--font-mono);text-transform:uppercase;letter-spacing:.04em;"
+            "color:var(--ink);border:1px solid var(--ink2);border-radius:999px;padding:1px 9px;white-space:nowrap}"
+            ".db-selo i{font-style:normal;font-weight:700}") + "".join(f".db-selo-{v}{{border:1px {estilo} var({tom})}}.db-selo-{v} i{{color:var({tom})}}"
+                   for v, (_, tom, estilo) in SELO.items()) + "\n"
+
+
+def selo(veredito):
+    """<span> do selo de um veredito: ícone (aria-hidden) + rótulo."""
+    return (f'<span class="db-selo db-selo-{veredito}"><i aria-hidden="true">{SELO[veredito][0]}</i> '
+            f'{esc(ROTULOS[veredito])}</span>')
+
+
 # placar em três blocos (21/10/2026): promessa nunca é "verdadeira", então somar tudo junto distorcia a comparação
 GRUPOS = {"fatos": ("Fatos e dados", ("dado", "fato")), "promessas": ("Promessas", ("promessa",)),
           "acusacoes": ("Acusações", ("acusacao",))}
@@ -136,13 +153,18 @@ def total(conta):
     return sum(sum(c.values()) for c in conta.values())
 
 
+def _em_ordem(cands):
+    """chaves de {quem: candidato} na ordem do site (navegacao.ORDEM_PARTIDOS); a mediação vai para o fim."""
+    return NAV.ordem_candidatos(cands, partido=lambda q: cands[q].get("partido"))
+
+
 def placar(m):
     """{quem: {grupo: {veredito: n}}} sobre todas as checagens do debate. Em cada grupo entram os vereditos que
     aparecem nele no debate, zero incluído, para os blocos dos candidatos ficarem comparáveis."""
     usados = {}
     for c in m["checagens"]:
         usados.setdefault(GRUPO_DO_TIPO[m["itens"][c["id"]]["tipo"]], set()).add(c["veredito"])
-    quem = [q for q in m["cands"] if any(m["itens"][c["id"]]["quem"] == q for c in m["checagens"])]
+    quem = [q for q in _em_ordem(m["cands"]) if any(m["itens"][c["id"]]["quem"] == q for c in m["checagens"])]
     conta = {q: _ordenar({g: dict.fromkeys(vs, 0) for g, vs in usados.items()}) for q in quem}
     for c in m["checagens"]:
         it = m["itens"][c["id"]]
@@ -156,7 +178,7 @@ def pct(n, total):
 
 def placar_retorica(m):
     """{quem: {etiqueta: n}} sobre o retorica.json (as 6 etiquetas, zero incluído; candidato sem frase fica de fora)."""
-    conta = {q: dict.fromkeys(ETIQUETAS, 0) for q in m["cands"] if any(r["quem"] == q for r in m["retorica"] or [])}
+    conta = {q: dict.fromkeys(ETIQUETAS, 0) for q in _em_ordem(m["cands"]) if any(r["quem"] == q for r in m["retorica"] or [])}
     for r in m["retorica"] or []:
         conta[r["quem"]][r["etiqueta"]] += 1
     return conta
@@ -248,8 +270,7 @@ section>.db-metodo{margin-top:34px;padding-top:6px;border-top:1px solid var(--li
 .db-af-t .db-tempo{color:var(--muted);font-weight:400}.db-af-t .db-tempo a{color:inherit}
 .db-af .db-frase{margin:8px 0 0;font-size:17px;line-height:1.45;color:var(--ink);font-weight:600}
 .db-af blockquote{margin:6px 0 8px;font-size:14px;color:var(--ink2);border-left:2px solid var(--line);padding-left:10px}
-.db-selo{display:inline-block;font:600 12px var(--font-mono);text-transform:uppercase;letter-spacing:.04em;border:1px solid var(--ink2);border-radius:999px;padding:1px 9px}
-.db-af p{margin:8px 0 0;font-size:15px;color:var(--ink2)}
+""" + CSS_SELO + """.db-af p{margin:8px 0 0;font-size:15px;color:var(--ink2)}
 .db-outro{border-top:1px dashed var(--line);padding-top:6px}
 .db-tambem{display:inline-block;margin-left:8px;font-size:12px;color:var(--muted)}
 .db-tambem-em ul{margin:6px 0 0;padding-left:20px}.db-tambem-em li{margin:4px 0}
@@ -415,7 +436,7 @@ def gerar(m, base, autor, tambem=None):
                 f'data-veredito="{attr(c["veredito"])}" style="--c:var(--{cd["cor"]})"><div class="db-af-t">'
                 f'<span>{esc(_nome(cd))}</span>{tempo}</div>'
                 f'<p class="db-frase">{esc(a["afirmacao"])}</p><blockquote>“{esc(a["trecho"])}”</blockquote>'
-                f'<span class="db-selo">{esc(ROTULOS[c["veredito"]])}</span>{selo_tambem}'
+                f'{selo(c["veredito"])}{selo_tambem}'
                 f'<p>{esc(c["explicacao"])}</p>{outro}<p class="db-fontes">Fontes: {fontes}</p>{pagina}</article>')
 
     conta = placar(m)
@@ -566,6 +587,7 @@ def indice(gerados, base, autor, links=None):
                     soma[q][grupo][v] += k
     usados = {g: {v for c in soma.values() for v in c.get(g, {})} for g in GRUPOS}
     soma = {q: _ordenar({g: {v: c.get(g, {}).get(v, 0) for v in vs} for g, vs in usados.items() if vs}) for q, c in soma.items()}
+    soma = {q: soma[q] for q in _em_ordem({q: quem[q] for q in soma})}
     linhas = [(_nome(quem[q]), quem[q]["cor"], soma[q]) for q in soma]
     soma_rt, quem_rt = {}, {}
     for g in reversed(gerados):  # só os debates com retorica.json; o placar deles já traz as 6 etiquetas
@@ -575,6 +597,7 @@ def indice(gerados, base, autor, links=None):
                 soma_rt.setdefault(q, dict.fromkeys(ETIQUETAS, 0))[e] += k
     retorica_html = ""
     quem_rt.update({q: c for q, c in quem.items() if q in quem_rt})  # o nome do placar de vereditos, se houver
+    soma_rt = {q: soma_rt[q] for q in _em_ordem({q: quem_rt[q] for q in soma_rt})}
     if soma_rt:
         com = sum(1 for g in gerados if g.get("retorica"))
         retorica_html = ('<section aria-labelledby="retorica"><h2 id="retorica">Como cada um argumentou, somado</h2>'
