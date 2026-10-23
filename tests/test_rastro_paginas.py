@@ -1200,6 +1200,14 @@ class TestPresidente(unittest.TestCase):
         eleitos = h[h.index('id="eleitos"'):]
         self.assertNotIn(LULA, eleitos)
 
+    def test_ordem_do_1o_turno(self):
+        # issue 150: presidentes.json traz Lula primeiro; o site inteiro põe Flávio (47,0% no 1º turno) antes
+        self.assertEqual([p["partido"] for p in PRES], ["PT", "PL"])
+        with tempfile.TemporaryDirectory() as d:
+            h = self.gerar_pres(d)["/rastro/"]
+        bloco = h[h.index('id="presidente"'):]
+        self.assertLess(bloco.index(f'href="{FLAVIO}"'), bloco.index(f'href="{LULA}"'))
+
     def test_com_contas_fornecedor_linka_de_volta(self):
         with tempfile.TemporaryDirectory() as d:
             pags = self.gerar_pres(d, contas_lula="2001")

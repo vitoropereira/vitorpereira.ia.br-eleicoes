@@ -182,7 +182,7 @@ tr:target{background:var(--soft)}
 .rs-busca-t{display:block;font:600 11px var(--font-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .rs-busca-vazio{padding:8px 10px;color:var(--ink2)}
 .rs-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
-""" + dp.CSS_PLACAR + """.rs-deb .db-nota{font-size:13px;color:var(--ink2);margin:6px 0 10px}
+""" + dp.CSS_PLACAR + dp.CSS_SELO + """.rs-deb .db-nota{font-size:13px;color:var(--ink2);margin:6px 0 10px}
 .rs-deb .db-placar{margin:0 0 12px}
 .rs-deb ul.rs-afs{margin:0;padding-left:18px;font-size:14px}.rs-afs li{margin:4px 0;overflow-wrap:anywhere}.rs-afs small{color:var(--muted)}
 @media (max-width:600px){.rs-topo .rs-busca{flex-basis:100%}}
@@ -205,7 +205,8 @@ PLACEHOLDER_BUSCA = "Busque um eleito, uma empresa, um CNPJ ou um sócio"
 
 def caixa_busca(grande=False):
     """Caixa de busca (rastro/busca.js). Sem JS, fica só o link para a lista de eleitos; o JS mostra o campo e esconde o link."""
-    return (f'<div class="rs-busca{" rs-busca-g" if grande else ""}" role="search" data-rs-busca>'
+    ident = ' id="busca"' if grande else ""
+    return (f'<div{ident} class="rs-busca{" rs-busca-g" if grande else ""}" role="search" data-rs-busca>'
             '<a class="rs-busca-sem" href="/rastro/#eleitos">Ver a lista completa de eleitos</a>'
             '<div class="rs-busca-cx" hidden><label class="rs-sr" for="rs-busca-q">Buscar no Rastro do dinheiro</label>'
             '<input id="rs-busca-q" type="search" role="combobox" aria-controls="rs-busca-l" aria-expanded="false" aria-autocomplete="list" '
@@ -462,7 +463,7 @@ def secao_debates(deb):
         f'<details class="rs-det"><summary><b>{esc(d["rotulo"])}</b> · {len(d["afirmacoes"])} afirmação(ões)</summary>'
         '<ul class="rs-afs">' + "".join(f'<li><a href="{html.escape(a["path"], quote=True)}">Aos {esc(a["timestamp"])} · '
                                         f'{esc(dp.TEMAS.get(a["tema"], a["tema"]))}</a> · '
-                                         f'<small>{esc(dp.ROTULOS[a["veredito"]])}</small></li>' for a in d["afirmacoes"])
+                                         f'{dp.selo(a["veredito"])}</li>' for a in d["afirmacoes"])
         + f'</ul><p class="rs-nota"><a href="{html.escape(d["path"], quote=True)}">Todas as checagens deste debate</a></p></details>'
         for d in deb["debates"])
     return (f'<section id="debates" class="rs-deb"><h2>Nos debates</h2><p class="rs-nota">Frases verificáveis checadas nos debates, '
@@ -968,7 +969,7 @@ def gerar(dest, publicados, eleitos, dir_contas, indicadores, fornecedores, cfg,
     fila e das contas da home; `debates` (modelos de debates.pagina.listar) acrescenta a seção 'Nos debates' casando pelo id_tse.
     Todas as páginas passam por `varrer` antes de qualquer gravação."""
     publicados = list(dict.fromkeys(str(s) for s in publicados))
-    presidentes = [dict(p, sq=str(p["sq"])) for p in presidentes or []]
+    presidentes = NAV.ordem_candidatos([dict(p, sq=str(p["sq"])) for p in presidentes or []])
     if (publicados or presidentes) and fornecedores is None:
         raise ValueError("sem fornecedores.json: não dá para saber quem é MEI; nada publicado")
     if (publicados or presidentes) and indicadores is None:
