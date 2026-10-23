@@ -446,9 +446,10 @@ def montar_pagina(raw_html, title, desc, path, og_img, ld, published, modified, 
 # ---------------- Vercel (gravado em site/vercel.json e na raiz)
 VERCEL = {
     "cleanUrls": True, "trailingSlash": True,
-    # /vivo/* = estado do 2º turno no Storage do Supabase; o HUD só lê /vivo/agora.json (relativo), com o CDN na frente
+    # /vivo/* = estado do 2º turno no Storage do Supabase, servido pela função api/vivo.js: o rewrite direto não entrava
+    # no cache do CDN (o Storage manda set-cookie), e cada poll de cada visitante ia ao Supabase. O HUD só lê /vivo/ relativo.
     "rewrites": [{"source": "/tse/:path*", "destination": "https://resultados.tse.jus.br/oficial/:path*"},
-                 {"source": "/vivo/:path*", "destination": "https://qzczyicspbizosjogmlq.supabase.co/storage/v1/object/public/vivo/:path*"}],
+                 {"source": "/vivo/:path*", "destination": "/api/vivo?p=:path*"}],
     "headers": [{"source": "/(.*)", "headers": [{"key": "X-Content-Type-Options", "value": "nosniff"}, {"key": "Referrer-Policy", "value": "strict-origin-when-cross-origin"}]},
                 {"source": "/fonts/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=31536000, immutable"}]},
                 {"source": "/og/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=86400"}]},
@@ -466,9 +467,8 @@ VERCEL = {
                 {"source": "/analise/js/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}]},
                 {"source": "/analise/codigo/(.*)\\.(py|json|md)", "headers": [{"key": "Content-Type", "value": "text/plain; charset=utf-8"}]},
                 {"source": "/analise/dados/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}]},
-                {"source": "/vivo/(.*)", "headers": [{"key": "Cache-Control", "value": "public, s-maxage=15, stale-while-revalidate=30"},
-                                                    {"key": "CDN-Cache-Control", "value": "max-age=15"},
-                                                    {"key": "x-vercel-enable-rewrite-caching", "value": "1"}]}]}
+                # /vivo/: o cache vem da própria função (api/vivo.js), sem cookie e com s-maxage
+                ]}
 
 
 # ---------------- HUD (/ao-vivo/)

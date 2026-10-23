@@ -33,7 +33,9 @@ class Template(unittest.TestCase):
         for js in HUD.glob("*.js"):
             for imp in re.findall(r"\bfrom\s+\"([^\"]+)\"|import\(\s*\"([^\"]+)\"", js.read_text()):
                 alvo = imp[0] or imp[1]
-                self.assertTrue(alvo.startswith(("/", "./")), f"{js.name}: import externo {alvo}")
+                # teste (não vai ao navegador) pode importar a função de ../api/; nunca de outro domínio
+                locais = ("/", "./", "../api/") if js.name.endswith("_test.js") else ("/", "./")
+                self.assertTrue(alvo.startswith(locais), f"{js.name}: import externo {alvo}")
                 self.assertNotIn("://", alvo, js.name)
 
     def test_vendor_presente_e_conferido(self):
@@ -171,17 +173,23 @@ class Build(unittest.TestCase):
         """issue #133: a origem manda no-cache e a Vercel obedecia (x-vercel-cache: MISS em todo poll); o CDN-Cache-Control
         do vercel.json sobrepõe a origem. A raiz (deploy pelo git) tem que sair igual ao VERCEL."""
         hs = {h["source"]: h["headers"] for h in B.VERCEL["headers"]}
-        for src, idade in (("/vivo/(.*)", 15), ("/tse/(.*)", 20)):
+        for src, idade in (("/tse/(.*)", 20),):
             self.assertIn({"key": "CDN-Cache-Control", "value": f"max-age={idade}"}, hs[src], src)
             self.assertIn({"key": "x-vercel-enable-rewrite-caching", "value": "1"}, hs[src], src)
         raiz = json.loads((Path(B.__file__).parent / "vercel.json").read_text())
         self.assertEqual(raiz, {"outputDirectory": "site", **B.VERCEL})
 
-    def test_vivo_reescrito_para_o_storage_com_cache_curto(self):
+    def test_vivo_pela_funcao_que_tira_o_cookie(self):
+        """o Storage manda set-cookie e o CDN da Vercel não guarda resposta com cookie: /vivo/ passa pela função
+        api/vivo.js (sem cookie, com s-maxage); nenhum header do vercel.json pode sobrepor o cache dela"""
         rw = {r["source"]: r["destination"] for r in B.VERCEL["rewrites"]}
-        self.assertEqual(rw.get("/vivo/:path*"), "https://qzczyicspbizosjogmlq.supabase.co/storage/v1/object/public/vivo/:path*")
-        hs = {h["source"]: h["headers"] for h in B.VERCEL["headers"]}
-        self.assertIn({"key": "Cache-Control", "value": "public, s-maxage=15, stale-while-revalidate=30"}, hs.get("/vivo/(.*)", []))
+        self.assertEqual(rw.get("/vivo/:path*"), "/api/vivo?p=:path*")
+        self.assertNotIn("/vivo/(.*)", {h["source"] for h in B.VERCEL["headers"]})
+        fn = (Path(B.__file__).parent / "api" / "vivo.js").read_text()
+        self.assertIn("https://qzczyicspbizosjogmlq.supabase.co/storage/v1/object/public/vivo/", fn)
+        self.assertIn('runtime: "edge"', fn)
+        # todo arquivo em api/ vira função na Vercel: teste fica fora (hud/vivo_api_test.js)
+        self.assertEqual(sorted(f.name for f in (Path(B.__file__).parent / "api").iterdir()), ["vivo.js"])
 
     def test_hud_le_vivo_relativo_nunca_o_supabase(self):
         for js in HUD.glob("*.js"):
