@@ -1,5 +1,7 @@
 """Afirmações checáveis extraídas dos debates (debates/<ano>/<slug>/: debate.json, transcricao.md, afirmacoes.json).
 Só extração: nenhum veredito aqui (a checagem é outra issue)."""
+import contextlib
+import io
 import json
 import tempfile
 import unittest
@@ -141,9 +143,19 @@ class TestValidar(unittest.TestCase):
                 self.assertTrue(any(campo in e for e in self.erros(item(**{campo: None}))))
 
     def test_enums(self):
-        for campo, valor in (("tema", "esporte"), ("tipo", "opiniao"), ("bloco", "4"), ("autoria", "talvez")):
+        for campo, valor in (("tema", "esporte"), ("tipo", "opiniao"), ("bloco", "x"), ("autoria", "talvez")):
             with self.subTest(campo=campo):
                 self.assertTrue(self.erros(item(**{campo: valor})))
+
+    def test_blocos_numerados_livres(self):
+        transcricao = TRANSCRICAO + "\n## Bloco 4 — Pergunta 4\n\n**2:00:00** — Quarto bloco aqui.\n" \
+            "\n## Bloco 12 — Pergunta 12\n\n**2:10:00** — Décimo segundo bloco aqui.\n"
+        for b, ts, trecho in (("4", "2:00:00", "Quarto bloco aqui."), ("12", "2:10:00", "Décimo segundo bloco aqui.")):
+            with self.subTest(bloco=b):
+                self.assertEqual(vd.validar([item(bloco=b, timestamp=ts, trecho=trecho)], transcricao, debate()), [])
+        for b in ("x", "0a", "Finais"):
+            with self.subTest(bloco=b):
+                self.assertTrue(any("bloco" in e for e in vd.validar([item(bloco=b)], transcricao, debate())))
 
     def test_enums_da_issue(self):
         self.assertEqual(self.erros(item(id="cor-01", tema="corrupcao-acusacoes", quem="beltrano-pt")), [])
@@ -241,6 +253,7 @@ AFIRMACOES = [
     {"id": "eco-02", "autoria": "certa", "tipo": "promessa"},
     {"id": "sau-01", "autoria": "certa", "tipo": "acusacao"},
     {"id": "out-01", "autoria": "incerta", "tipo": "acusacao"},
+    {"id": "seg-01", "autoria": "certa", "tipo": "fato"},
 ]
 
 
@@ -282,6 +295,22 @@ class TestValidarChecagens(unittest.TestCase):
         # escala única de 5 (21/10/2026): os nomes da escala antiga de 13 deixam de valer
         for id_, v in (("eco-01", "viavel"), ("eco-02", "verdadeiro-com-ressalva"), ("sau-01", "falso"), ("eco-01", "x")):
             with self.subTest(id=id_, veredito=v):
+                self.assertTrue(any("veredito" in e for e in self.erros(checagem(id=id_, veredito=v))))
+
+    def test_escala_por_tipo(self):
+        validos = (("eco-01", "verdadeiro"), ("eco-01", "falso-ou-exagerado"), ("eco-01", "nao-comprovado"),
+                   ("seg-01", "verdadeiro"), ("seg-01", "falso-ou-exagerado"), ("seg-01", "nao-comprovado"),
+                   ("eco-02", "pendente-ou-condicionado"), ("eco-02", "situacao-identificada"),
+                   ("sau-01", "falso-ou-exagerado"), ("sau-01", "nao-comprovado"), ("sau-01", "situacao-identificada"))
+        for id_, v in validos:
+            with self.subTest(valido=(id_, v)):
+                self.assertEqual(self.erros(checagem(id=id_, veredito=v)), [])
+        invalidos = (("eco-02", "verdadeiro"), ("eco-02", "falso-ou-exagerado"), ("eco-02", "nao-comprovado"),
+                     ("sau-01", "verdadeiro"), ("sau-01", "pendente-ou-condicionado"),
+                     ("eco-01", "situacao-identificada"), ("eco-01", "pendente-ou-condicionado"),
+                     ("seg-01", "situacao-identificada"), ("seg-01", "pendente-ou-condicionado"))
+        for id_, v in invalidos:
+            with self.subTest(invalido=(id_, v)):
                 self.assertTrue(any("veredito" in e for e in self.erros(checagem(id=id_, veredito=v))))
 
     def test_falta_campo(self):
@@ -335,8 +364,78 @@ class TestValidarChecagens(unittest.TestCase):
             self.assertEqual(vd.main([str(d)]), 1)
 
 
-# corrupcao-acusacoes e internacional entram quando a checagem deles fechar (resto da #88)
-TEMAS_CHECADOS = {"economia", "social", "saude", "outros", "seguranca"}
+class TestAvisosFontes(unittest.TestCase):
+    DEB = {"data": "2026-10-18"}
+
+    def avisos(self, *fontes):
+        return vd.avisos_fontes([checagem(fontes=list(fontes))], self.DEB)
+
+    def test_fonte_boa_nao_avisa(self):
+        self.assertEqual(self.avisos(fonte()), [])
+
+    def test_news_google_avisa_mesmo_com_outra_fonte(self):
+        self.assertTrue(self.avisos(fonte(url="https://news.google.com/rss/articles/abc?oc=5")))
+        self.assertTrue(self.avisos(fonte(url="https://news.google.com/rss/articles/abc"), fonte()))
+
+    def test_checador_como_fonte_unica_avisa(self):
+        for url in ("https://www.aosfatos.org/noticias/x/", "https://lupa.uol.com.br/jornalismo/x",
+                    "https://lupa.news/x", "https://projetocomprova.com.br/x", "https://boatos.org/x",
+                    "https://www.e-farsas.com/x", "https://g1.globo.com/fato-ou-fake/noticia/x.ghtml",
+                    "https://www.estadao.com.br/estadao-verifica/x"):
+            with self.subTest(url=url):
+                self.assertTrue(self.avisos(fonte(url=url)))
+                self.assertEqual(self.avisos(fonte(url=url), fonte()), [])
+
+    def test_g1_fora_do_fato_ou_fake_nao_avisa(self):
+        self.assertEqual(self.avisos(fonte(url="https://g1.globo.com/politica/noticia/x.ghtml")), [])
+
+    def test_data_da_fonte_nao_gera_aviso(self):
+        # fonte do dia do debate ou depois pode ser primária (a transcrição, uma matéria com o dado): não é aviso
+        for d in ("2026-10-18", "2026-10-19"):
+            with self.subTest(data=d):
+                self.assertEqual(self.avisos(fonte(data_publicacao=d)), [])
+
+    def test_devolve_id_e_mensagem(self):
+        (i, msg), = self.avisos(fonte(url="https://news.google.com/x"))
+        self.assertEqual(i, "eco-01")
+        self.assertIn("news.google", msg)
+
+    def test_entrada_quebrada_nao_derruba(self):
+        self.assertEqual(vd.avisos_fontes({"x": 1}, self.DEB), [])
+        self.assertEqual(vd.avisos_fontes(["x", {"fontes": "y"}, {"fontes": [3]}], []), [])
+
+    def pasta(self, tmp, **ch):
+        d = Path(tmp) / "2026" / "presidente-2-turno-band"
+        d.mkdir(parents=True)
+        (d / "transcricao.md").write_text(TRANSCRICAO, encoding="utf-8")
+        (d / "debate.json").write_text(json.dumps(debate()), encoding="utf-8")
+        (d / "afirmacoes.json").write_text(json.dumps([item()]), encoding="utf-8")
+        (d / "checagens.json").write_text(json.dumps([checagem(id="seg-01", **ch)]), encoding="utf-8")
+        return str(d)
+
+    def test_main_avisa_e_so_falha_com_estrito(self):
+        fraca = [fonte(url="https://news.google.com/rss/articles/abc")]
+        with tempfile.TemporaryDirectory() as tmp:
+            d = self.pasta(tmp, fontes=fraca)
+            with contextlib.redirect_stderr(io.StringIO()) as err:
+                self.assertEqual(vd.main([d]), 0)
+            self.assertIn("aviso:", err.getvalue())
+            for argv in (["--estrito", d], [d, "--estrito"]):
+                with self.subTest(argv=argv), contextlib.redirect_stderr(io.StringIO()):
+                    self.assertEqual(vd.main(argv), 1)
+
+    def test_main_estrito_com_fonte_boa_passa(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self.assertEqual(vd.main(["--estrito", self.pasta(tmp)]), 0)
+
+    def test_main_argumentos_invalidos(self):
+        with contextlib.redirect_stderr(io.StringIO()):
+            for argv in ([], ["--estrito"], ["a", "b"], ["--outra", "a"]):
+                with self.subTest(argv=argv):
+                    self.assertEqual(vd.main(argv), 2)
+
+
+TEMAS_CHECADOS = set(vd.TEMAS)
 
 
 class TestDebatesPublicados(unittest.TestCase):
@@ -358,13 +457,44 @@ class TestDebatesPublicados(unittest.TestCase):
     def test_ha_checagens_do_debate_da_band(self):
         self.assertTrue((RAIZ / "debates/2026/presidente-2-turno-band/checagens.json").exists())
 
+    def test_avisos_de_fonte_da_band(self):
+        # fontes fracas conhecidas (#123): um caso novo aparece aqui, e um corrigido também.
+        # sau-08: news.google; eco-36, cor-13, cor-25: fonte única de checador.
+        pasta = RAIZ / "debates/2026/presidente-2-turno-band"
+        chs = json.loads((pasta / "checagens.json").read_text(encoding="utf-8"))
+        deb = json.loads((pasta / "debate.json").read_text(encoding="utf-8"))
+        self.assertEqual({i for i, _ in vd.avisos_fontes(chs, deb)}, {"sau-08", "eco-36", "cor-13", "cor-25"})
+
+    def test_band_falha_com_estrito(self):
+        with contextlib.redirect_stderr(io.StringIO()), contextlib.redirect_stdout(io.StringIO()):
+            self.assertEqual(vd.main(["--estrito", str(RAIZ / "debates/2026/presidente-2-turno-band")]), 1)
+
+    def test_band_passa_sem_estrito(self):
+        with contextlib.redirect_stderr(io.StringIO()):
+            self.assertEqual(vd.main([str(RAIZ / "debates/2026/presidente-2-turno-band")]), 0)
+
     def test_afirmacoes_reais(self):
-        anos = [p for p in (RAIZ / "debates").iterdir() if p.is_dir() and not p.name.startswith(("_", "."))]
+        self.conferir_pastas(RAIZ / "debates")
+
+    def test_pasta_so_com_debate_e_transcricao_nao_quebra(self):
+        # o 2º debate (Globo) começa só com debate.json e transcricao.md: sem afirmacoes.json ainda
+        with tempfile.TemporaryDirectory() as tmp:
+            d = Path(tmp) / "2026" / "presidente-2-turno-globo"
+            d.mkdir(parents=True)
+            (d / "debate.json").write_text(json.dumps(debate(emissora="Globo", slug="presidente-2-turno-globo")),
+                                           encoding="utf-8")
+            (d / "transcricao.md").write_text(TRANSCRICAO, encoding="utf-8")
+            self.conferir_pastas(Path(tmp))
+
+    def conferir_pastas(self, raiz):
+        anos = [p for p in raiz.iterdir() if p.is_dir() and not p.name.startswith(("_", "."))]
         for p in anos:
             self.assertRegex(p.name, r"^\d{4}$", "debates/ só tem pastas <ano>/<slug>")
         pastas = sorted(p for a in anos for p in a.iterdir() if p.is_dir())
         self.assertTrue(pastas, "nenhum debates/<ano>/<slug>/")
         for pasta in pastas:
+            if not (pasta / "afirmacoes.json").exists():
+                continue  # debate novo, ainda sem extração
             with self.subTest(debate=f"{pasta.parent.name}/{pasta.name}"):
                 deb = json.loads((pasta / "debate.json").read_text(encoding="utf-8"))
                 itens = json.loads((pasta / "afirmacoes.json").read_text(encoding="utf-8"))
@@ -373,9 +503,11 @@ class TestDebatesPublicados(unittest.TestCase):
                 self.assertEqual(vd.validar_pasta(pasta, deb), [])
                 self.assertEqual(vd.validar(itens, transcricao, deb), [])
                 quem = Counter(i["quem"] for i in itens)
-                for q in [c["id"] for c in deb["candidatos"]] + ["mediacao"]:
-                    self.assertGreater(quem[q], 0, q)
-                self.assertEqual({i["bloco"] for i in itens}, set(vd.BLOCOS))
+                for q in [c["id"] for c in deb["candidatos"]]:
+                    self.assertGreater(quem[q], 0, q)  # a mediação é opcional
+                blocos = {i["bloco"] for i in itens}
+                self.assertTrue(all(vd.RE_BLOCO.match(b) for b in blocos), blocos)
+                self.assertIn("finais", blocos)
 
 
 if __name__ == "__main__":
