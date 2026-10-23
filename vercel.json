@@ -9,7 +9,7 @@
   },
   {
    "source": "/vivo/:path*",
-   "destination": "https://qzczyicspbizosjogmlq.supabase.co/storage/v1/object/public/vivo/:path*"
+   "destination": "/api/vivo?p=:path*"
   }
  ],
  "headers": [
@@ -121,23 +121,6 @@
     {
      "key": "Cache-Control",
      "value": "public, max-age=0, must-revalidate"
-    }
-   ]
-  },
-  {
-   "source": "/vivo/(.*)",
-   "headers": [
-    {
-     "key": "Cache-Control",
-     "value": "public, s-maxage=15, stale-while-revalidate=30"
-    },
-    {
-     "key": "CDN-Cache-Control",
-     "value": "max-age=15"
-    },
-    {
-     "key": "x-vercel-enable-rewrite-caching",
-     "value": "1"
     }
    ]
   }
