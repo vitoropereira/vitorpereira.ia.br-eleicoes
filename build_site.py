@@ -506,6 +506,8 @@ def copiar_hud(dest):
         (dest / "hud" / "status.json").write_text(json.dumps(st, ensure_ascii=False, separators=(",", ":")))
     geo = R / "municipios" / "geo"
     if geo.is_dir():
+        from municipios import pessoas  # posições do modo "Pessoas": só refaz se a malha ou os aptos mudarem
+        pessoas.garantir()
         # só o que o front lê (hud/dados.js: t1/<cargo|meta|serie|feed>.json e a malha); t2022/, partidos-*.json e
         # cadeiras.json servem só ao cálculo da Análise (analise/calcular.py) e ficam fora do site
         shutil.copytree(geo, dest / "geo", dirs_exist_ok=True, ignore=shutil.ignore_patterns("t2022", "partidos-*.json", "cadeiras.json"))
