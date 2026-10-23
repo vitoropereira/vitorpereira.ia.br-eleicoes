@@ -426,7 +426,12 @@ VERCEL = {
     "headers": [{"source": "/(.*)", "headers": [{"key": "X-Content-Type-Options", "value": "nosniff"}, {"key": "Referrer-Policy", "value": "strict-origin-when-cross-origin"}]},
                 {"source": "/fonts/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=31536000, immutable"}]},
                 {"source": "/og/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=86400"}]},
-                {"source": "/tse/(.*)", "headers": [{"key": "Cache-Control", "value": "public, s-maxage=20, stale-while-revalidate=40"}]},
+                # rewrite externo: a Vercel obedece o cache-control da origem (o TSE e o Storage mandam no-cache); o
+                # CDN-Cache-Control daqui sobrepõe a origem e o x-vercel-enable-rewrite-caching liga o cache em projeto
+                # anterior a 06/04/2026 (doc "Caching rewrites to external origins"; sem isto todo poll ia à origem)
+                {"source": "/tse/(.*)", "headers": [{"key": "Cache-Control", "value": "public, s-maxage=20, stale-while-revalidate=40"},
+                                                   {"key": "CDN-Cache-Control", "value": "max-age=20"},
+                                                   {"key": "x-vercel-enable-rewrite-caching", "value": "1"}]},
                 {"source": "/ao-vivo/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}]},
                 {"source": "/geo/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=3600"}]},
                 # módulos ES sem hash no nome: sempre revalidar, senão um deploy mistura versões
@@ -435,7 +440,9 @@ VERCEL = {
                 {"source": "/analise/js/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}]},
                 {"source": "/analise/codigo/(.*)\\.(py|json|md)", "headers": [{"key": "Content-Type", "value": "text/plain; charset=utf-8"}]},
                 {"source": "/analise/dados/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}]},
-                {"source": "/vivo/(.*)", "headers": [{"key": "Cache-Control", "value": "public, s-maxage=15, stale-while-revalidate=30"}]}]}
+                {"source": "/vivo/(.*)", "headers": [{"key": "Cache-Control", "value": "public, s-maxage=15, stale-while-revalidate=30"},
+                                                    {"key": "CDN-Cache-Control", "value": "max-age=15"},
+                                                    {"key": "x-vercel-enable-rewrite-caching", "value": "1"}]}]}
 
 
 # ---------------- HUD (/ao-vivo/)
