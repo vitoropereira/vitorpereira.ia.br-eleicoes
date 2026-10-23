@@ -150,3 +150,80 @@ Deno.test("cartão escapa texto vindo dos dados", () => {
   ok(!h.includes("<img") && !h.includes("<b>x</b>"), h);
   ok(h.includes("&lt;b&gt;x&lt;/b&gt;") && h.includes("a&amp;b"));
 });
+
+// ---- mapa dos locais (#156)
+
+Deno.test("mapa: um ponto por local com coordenada, no último turno; sem coordenada fica fora", () => {
+  igual(M.turnoMapa(RB), "1");
+  igual(M.turnoMapa(SP), "2");
+  const p = M.pontosMapa(RB, "1", PART);
+  igual(p.map((x) => x.l.nome), ["ESCOLA SÃO JOSÉ", "POSTO RURAL"]);
+  igual(p.map((x) => [x.lat, x.lon, x.aptos]), [[-9.97, -67.81, 430], [-9.9, -67.8, 50]]);
+  igual(M.pontosMapa(SP, "2", PART), []); // nenhum local de São Paulo na fixture tem coordenada
+  igual(M.semCoordenada(RB, "1"), 1);
+});
+
+Deno.test("mapa: cor do vencedor só com token de partido; voto oculto fica sem cor de candidato", () => {
+  const [escola, posto] = M.pontosMapa(RB, "1", PART);
+  igual([escola.est, escola.sg, M.corPonto(escola)], ["venc", "PT", "var(--lula)"]);
+  igual([posto.est, M.corPonto(posto)], ["sigilo", null]); // 32 votantes, voto por candidato omitido
+  const reg = { cand: { "1": [[13, "A"], [22, "B"], [15, "C"]] }, t: { "1": [
+    [1, 1, "X", "", "", 100, 90, [10, 70, 5], 5, []],
+    [1, 2, "Y", "", "", 100, 90, [10, 10, 70], 0, []],
+    [1, 3, "Z", "", "", 100, 90, [40, 40], 10, []],
+    [1, 4, "W", "", "", 100, 90, [0, 0], 90, []],
+  ] } };
+  igual(M.pontosMapa(reg, "1", PART).map((x) => [x.est, M.corPonto(x)]),
+    [["venc", "var(--flavio)"], ["venc", "var(--outros)"], ["empate", "var(--neutral)"], ["sem", "var(--neutral)"]]);
+});
+
+Deno.test("mapa: o ponto não carrega voto do local sob sigilo", () => {
+  const posto = M.pontosMapa(RB, "1", PART)[1];
+  igual([posto.sg, posto.p], ["", null]);
+  ok(!("votos" in posto));
+});
+
+Deno.test("mapa: enquadrar mantém a proporção (com cos da latitude) e cabe na largura", () => {
+  const e = M.enquadrar([-47, -24, -46, -23], 375, 600, 10);
+  ok(Math.abs(e.x(-47) - 10) < 1e-9 && e.x(-46) <= 365 + 1e-9);
+  ok(e.y(-23) < e.y(-24), "norte em cima");
+  const k = Math.cos((23.5 * Math.PI) / 180);
+  ok(Math.abs((e.x(-46) - e.x(-47)) / (e.y(-24) - e.y(-23)) - k) < 1e-9);
+  ok(e.h <= 600 && e.h > 300, String(e.h));
+  // município comprido na vertical: altura limitada, largura encolhe
+  const v = M.enquadrar([-50, -30, -49.9, -20], 375, 500, 10);
+  igual(v.h, 500);
+  ok(v.x(-49.9) < 375);
+});
+
+Deno.test("mapa: raio pela raiz dos aptos (área proporcional), com mínimo para tocar", () => {
+  igual(M.raio(1000, 1000, 10), 10);
+  ok(Math.abs(M.raio(250, 1000, 10) - (M.RAIO_MIN + (10 - M.RAIO_MIN) * 0.5)) < 1e-9);
+  igual(M.raio(0, 1000, 10), M.RAIO_MIN);
+  ok(M.raioMax(5) > M.raioMax(2000));
+});
+
+Deno.test("mapa: toque acha o ponto mais perto dentro da folga, senão nada", () => {
+  const pts = [{ x: 10, y: 10, r: 4 }, { x: 20, y: 10, r: 4 }, { x: 100, y: 100, r: 2 }];
+  igual(M.tocado(pts, 11, 10, 8), 0);
+  igual(M.tocado(pts, 17, 11, 8), 1);
+  igual(M.tocado(pts, 60, 60, 8), -1);
+  igual(M.tocado(pts, 109, 100, 8), 2);
+});
+
+Deno.test("mapa: 2 mil locais (tamanho de São Paulo) em menos de 50 ms sem canvas", () => {
+  const t1 = [];
+  for (let i = 0; i < 2000; i++) {
+    t1.push([-23.5 - (i % 50) / 100, -46.4 - Math.floor(i / 50) / 100, "L" + i, "", "", 400 + i, 350, [200, 150 - (i % 3)], 10, []]);
+  }
+  const reg = { cand: { "1": [[13, "A"], [22, "B"]] }, t: { "1": t1 } };
+  const t0 = performance.now();
+  const p = M.pontosMapa(reg, "1", PART);
+  const e = M.enquadrar([-46.9, -24, -46.3, -23.3], 375, 520, 8);
+  const rm = M.raioMax(p.length);
+  p.forEach((q) => { q.x = e.x(q.lon); q.y = e.y(q.lat); q.r = M.raio(q.aptos, 2399, rm); });
+  M.tocado(p, 100, 100, 8);
+  const ms = performance.now() - t0;
+  igual(p.length, 2000);
+  ok(ms < 50, `${ms} ms`);
+});
