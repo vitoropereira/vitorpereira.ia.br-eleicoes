@@ -120,7 +120,7 @@ class Cego(unittest.TestCase):
     def test_cego_nao_diz_quem_falou(self):
         fs = rt.frases(TESTE, FALAS)
         cego = rt.cego(fs)
-        self.assertTrue(all(set(c) == {"id", "frase"} for c in cego))
+        self.assertTrue(all(set(c) == {"id", "anterior", "frase", "seguinte"} for c in cego))
         texto = json.dumps(cego, ensure_ascii=False)
         for c in ler("debate.json")["candidatos"]:
             for k in ("id", "nome_urna", "partido"):
@@ -128,6 +128,20 @@ class Cego(unittest.TestCase):
                 for f in fs:
                     fora_das_frases = fora_das_frases.replace(f["frase"], "")
                 self.assertNotIn(c[k], fora_das_frases)
+
+    def test_cego_traz_as_frases_vizinhas(self):
+        fs = rt.frases(TESTE, FALAS)
+        cego = rt.cego(fs)
+        self.assertGreaterEqual(len(cego), 3)
+        self.assertEqual(cego[0]["anterior"], "")
+        self.assertEqual(cego[-1]["seguinte"], "")
+        for i, c in enumerate(cego):
+            self.assertEqual(c["frase"], fs[i]["frase"])
+            if i:
+                self.assertEqual(c["anterior"], fs[i - 1]["frase"])
+            if i + 1 < len(cego):
+                self.assertEqual(c["seguinte"], fs[i + 1]["frase"])
+        self.assertNotIn("quem", json.dumps(cego))
 
     def test_juntar(self):
         fs = rt.frases(TESTE, FALAS)
