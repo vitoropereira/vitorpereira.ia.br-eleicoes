@@ -507,16 +507,28 @@ CODIGO_ANALISE = ["analise/calcular.py", "analise/inferencia.py", "municipios/mo
                   "analise/lados-2022.json", "analise/lados-2026.json", "analise/lados-README.md", "analise/fontes/cenarios.json"]
 
 
-def copiar_codigo_analise(dest):
+CODIGO_ANALISE_TITULO = "Código do cálculo | Análise · Eleições 2026"
+CODIGO_ANALISE_DESC = "Código-fonte aberto do cálculo das estimativas da Análise (voto dividido, inferência ecológica), em texto puro."
+
+
+def copiar_codigo_analise(dest, publicado=None, modificado=None):
     """Código do cálculo → /analise/codigo/ (cópia das fontes, com a mesma estrutura) + index.html com a lista"""
+    publicado, modificado = publicado or ANALISE_GERADA, modificado or ANALISE_GERADA
     base = dest / "analise" / "codigo"
     for rel in CODIGO_ANALISE:
         (base / rel).parent.mkdir(parents=True, exist_ok=True)
         shutil.copy(R / rel, base / rel)
     itens = "".join(f'<li><a href="{rel}">{rel}</a></li>' for rel in CODIGO_ANALISE)
+    url = BASE + "/analise/codigo/"
+    ld = [{"@context": "https://schema.org", "@type": "WebPage", "name": CODIGO_ANALISE_TITULO, "description": CODIGO_ANALISE_DESC,
+           "url": url, "inLanguage": "pt-BR", "author": PESSOA, "datePublished": publicado, "dateModified": modificado},
+          {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+              {"@type": "ListItem", "position": 1, "name": "Início", "item": BASE + "/"},
+              {"@type": "ListItem", "position": 2, "name": "Análise", "item": BASE + "/analise/"},
+              {"@type": "ListItem", "position": 3, "name": "Código do cálculo", "item": url}]}]
     (base / "index.html").write_text(
-        '<!doctype html>\n<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
-        '<title>Código do cálculo | Análise · Eleições 2026</title>'
+        '<!doctype html>\n<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">\n'
+        + head(CODIGO_ANALISE_TITULO, CODIGO_ANALISE_DESC, "/analise/codigo/", "/og/index.png", ld, publicado, modificado) +
         f'<style>{brand.CSS}body{{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--font-sans)}}main{{max-width:640px;margin:0 auto;padding:48px 16px}}</style>'
         '</head><body><main id="conteudo"><p class="kicker">Análise · cálculo aberto</p><h1>Código do cálculo</h1>'
         '<p>Código do cálculo das estimativas da Análise, em texto puro.</p>'
@@ -674,8 +686,20 @@ def rastro_envolver(publicado, modificado, moldura=True):
               {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
                   {"@type": "ListItem", "position": i, "name": n, "item": BASE + (h or p["path"])}
                   for i, (n, h) in enumerate([("Início", "/")] + p["crumbs"], 1)]}]
-        return com_medicao(montar_pagina(p["html"], p["titulo"], p["desc"], p["path"], "/og/index.png", ld, publicado, modificado, "/rastro/", moldura=moldura))
+        h = montar_pagina(p["html"], p["titulo"], p["desc"], p["path"], "/og/index.png", ld, publicado, modificado, "/rastro/", moldura=moldura)
+        if not p.get("indexar", True):  # MEI e sem cadastro: no ar, mas fora do índice (título igual entre todos, sem dado a acrescentar)
+            h = h.replace('<meta name="robots" content="index,follow', '<meta name="robots" content="noindex,follow', 1)
+        return com_medicao(h)
     return envolver
+
+
+def rastro_sitemap(pags, modificado):
+    """Entradas do sitemap das páginas do Rastro, sem as que não indexam (indexar=False)."""
+    def prioridade(path):
+        if path == "/rastro/":
+            return "0.6"
+        return "0.5" if path.endswith("/metodologia/") else "0.3" if path.startswith("/rastro/fornecedor/") else "0.4"
+    return [(p["path"], modificado, prioridade(p["path"])) for p in pags if p.get("indexar", True)]
 
 
 def presidentes():
@@ -712,12 +736,7 @@ def rastro_publicar(dest, publicado, modificado, moldura=True):
                     correcoes=lj(R / "rastro" / "correcoes.json"), sal=sal, anteriores=lj(dados / "anteriores.json"),
                     agregados=lj(dados / "base" / "agregados.json"), presidentes=pres,
                     debates=dp.listar(R / "debates"))
-
-    def prioridade(path):
-        if path == "/rastro/":
-            return "0.6"
-        return "0.5" if path.endswith("/metodologia/") else "0.3" if path.startswith("/rastro/fornecedor/") else "0.4"
-    return [(p["path"], modificado, prioridade(p["path"])) for p in pags]
+    return rastro_sitemap(pags, modificado)
 
 
 # ---------------- checagem de debates (debates/pagina.py): estática, um debate por debates/<ano>/<slug>/ com checagens.json
@@ -927,6 +946,7 @@ def main():
     (BUILD / "analise").mkdir(exist_ok=True)
     (BUILD / "analise" / "index.html").write_text(html_analise(dados_an, ANALISE_GERADA, ANALISE_GERADA))
     paginas.append(("/analise/", ANALISE_GERADA, "0.9"))
+    paginas.append(("/analise/codigo/", ANALISE_GERADA, "0.3"))
 
     # ---- 404
     (BUILD / "404.html").write_text(montar_pagina(f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>x</title>{style}</head><body><main><header><h1>Página não encontrada</h1><p><a href="/">Voltar ao resultado do 1º turno</a> · <a href="/apuracao/">Ver a apuração</a></p></header></main></body></html>""",
