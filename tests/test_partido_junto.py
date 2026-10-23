@@ -124,8 +124,8 @@ def analise_js(js):
     sg = dict(zip("LF", re.search(r'export const SIGLA = \{ L: "(\w+)", F: "(\w+)" \}', calc).groups()))
     cand = {"L": f"Lula ({sg['L']})", "F": f"Flávio ({sg['F']})"}
     tab = {"CAND": cand, "SIGLA": sg, "LADO_CURTO": {**cand, "C": "Centro"},
-           "LADO_NOME": {"L": f"Campo de {cand['L']}", "F": f"Campo de {cand['F']}", "C": "Centro/sem lado"},
-           "LADO_MIN": {"L": f"campo de {cand['L']}", "F": f"campo de {cand['F']}", "C": "centro"}}
+           "LADO_NOME": {"L": f"Lado de {cand['L']}", "F": f"Lado de {cand['F']}", "C": "Centro/sem lado"},
+           "LADO_MIN": {"L": f"lado de {cand['L']}", "F": f"lado de {cand['F']}", "C": "centro"}}
     return LADO_JS.sub(lambda m: tab[m.group(0)[2:].split(".")[0]][m.group(1)], js)
 
 
