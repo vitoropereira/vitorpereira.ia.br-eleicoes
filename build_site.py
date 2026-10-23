@@ -4,7 +4,7 @@ SEO (meta, Open Graph, JSON-LD, sitemap, robots) e GEO (llms.txt, FAQ visível, 
 Pré-renderiza cada página com Chrome headless (--dump-dom) para que o texto já esteja no HTML.
 Uso: python3 relatorio/montar.py && python3 build_site.py"""
 import json, os, re, shutil, sys, subprocess, threading, functools, html, http.server, socketserver, time
-from datetime import datetime
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 import brand
 
@@ -76,10 +76,33 @@ def textos_principal():
     """(h1, título, descrição) da página principal"""
     c1, c2 = sorted(N["cand"], key=lambda c: -c["p"])[:2]
     h1 = f"Eleições 2026: {rotulo(c1)} e {rotulo(c2)} vão ao 2º turno" if c1["p"] < 50 else f"Eleições 2026: {rotulo(c1)} é eleito no 1º turno"
-    titulo = f"Eleições 2026: {curto(cF)} {fmt(cF['p'], 1)}% × {curto(cL)} {fmt(cL['p'], 1)}% no 1º turno"
-    desc = (f"{rotulo(cF)} e {rotulo(cL)} vão ao 2º turno em 25/10. Mapa por estado, governadores, Senado, Câmara e Assembleias "
-            f"com {fmt(N['pst'], 2)}% das urnas apuradas pelo TSE.")
+    # título e descrição (title, og, twitter, og:image:alt) chamam para o 2º turno, sem o placar do 1º (#139)
+    titulo = f"Eleições 2026: 2º turno {curto(cF)} × {curto(cL)} em 25/10, apuração ao vivo"
+    desc = (f"{rotulo(cF)} e {rotulo(cL)} disputam o 2º turno no domingo, 25/10, com apuração ao vivo a partir das 17h (Brasília). "
+            "Resultado de 04/10 por estado, governadores, Senado, Câmara e Assembleias, com dados do TSE.")
     return h1, titulo, desc
+
+
+def textos_aovivo():
+    """(título, descrição) do /ao-vivo/"""
+    return ("Mapa da apuração por município | Eleições 2026",
+            "Apuração do 2º turno ao vivo no domingo, 25/10, a partir das 17h (Brasília), com os dados do TSE: "
+            "presidente nos 5.570 municípios, atualizado sozinho. Fora da noite da apuração, o mapa de 04/10 com todos os cargos.")
+
+
+TURNO2 = date(2026, 10, 25)
+
+
+def hoje_brasilia():
+    return datetime.now(timezone(timedelta(hours=-3))).date()
+
+
+def banner_turno2(hoje=None):
+    """Faixa de chamada para o 2º turno no topo da home; some no primeiro build depois de 25/10."""
+    if (hoje or hoje_brasilia()) > TURNO2:
+        return ""
+    return ('<div class="banner"><div><b>2º turno: domingo, 25/10.</b> Apuração ao vivo a partir das 17h (Brasília) → '
+            '<a href="/ao-vivo/">Ao vivo</a></div></div>')
 
 
 def textos_leitura(d):
@@ -678,6 +701,17 @@ h1{{font:600 60px/1.05 "JetBrains Mono",monospace;margin:14px 0 0;letter-spacing
 <div class="f"><span>{html.escape(rodape_txt)}</span><b>vitor pereira<i></i></b></div></div></body></html>"""
 
 
+def cards_turno2():
+    """Cartões OG da home e do /ao-vivo/ até o 2º turno: os dois candidatos sem o percentual do 1º turno."""
+    lado = lambda c, cor: (f'<div class="c" style="--c:{cor}"><div class="n">{html.escape(NOME_EXIBICAO.get(c["nome"], c["nome"]))} · '
+                           f'{html.escape(c["sg"])}</div><div class="p">{html.escape(curto(c).split()[0])}</div></div>')
+    linha = lado(cF, COR_OG["flavio"]) + "\n" + lado(cL, COR_OG["lula"])
+    return [("index", og_card("2º turno · domingo, 25/10", "Eleições 2026 · presidente", None, None,
+                              "apuração ao vivo a partir das 17h (Brasília)", linha)),
+            ("ao-vivo", og_card("Apuração ao vivo em 25/10", "Eleições 2026 · 2º turno · dados do TSE", None, None,
+                                "5.570 municípios · a partir das 17h (Brasília)", linha))]
+
+
 def rastro_envolver(publicado, modificado, moldura=True):
     """Devolve `envolver(página) -> html` do Rastro: moldura do site (montar_pagina) + medição."""
     def envolver(p):
@@ -880,7 +914,7 @@ def main():
            "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": BASE + "/dados/relatorio.json"}]},
           faq_ld]
     rounds_nav = "".join(f'<a href="{r["url"]}">{fmt(r["d"]["pst"], 1)}%</a>' for r in rodadas)
-    top = banner_debate() + (f'<div class="banner"><div>Resultado com <b>{fmt(N["pst"], 2)}%</b> das seções apuradas (TSE, {N["dg"]} {N["ht"]}). '
+    top = banner_turno2() + banner_debate() + (f'<div class="banner"><div>Resultado com <b>{fmt(N["pst"], 2)}%</b> das seções apuradas (TSE, {N["dg"]} {N["ht"]}). '
            f'Veja como a apuração evoluiu durante a noite: <span class="rounds">{rounds_nav}<a href="/apuracao/">todas as leituras →</a></span></div></div>')
     (BUILD / "index.html").write_text(montar_pagina(raw, titulo, desc, "/", "/og/index.png", ld, publicado, modificado, "/", top))
     paginas.append(("/", modificado, "1.0"))
@@ -928,9 +962,7 @@ def main():
     copiar_hud(BUILD); copiar_hud(OUT)
     raw = brand.aplicar((R / "template_hud.html").read_text()).replace("<!--__RESUMO__-->", resumo_hud(), 1)
     raw = injetar_presenca(raw)
-    titulo = "Mapa da apuração por município | Eleições 2026"
-    desc = ("Mapa da apuração por município: presidente, governadores, Senado e deputados nos 5.570 municípios, "
-            "com a linha do tempo da noite do 1º turno. No 2º turno (25/10), atualizado ao vivo com os dados do TSE.")
+    titulo, desc = textos_aovivo()
     ld = [{"@context": "https://schema.org", "@type": "WebPage", "name": titulo, "description": desc, "url": BASE + "/ao-vivo/", "inLanguage": "pt-BR",
            "author": PESSOA, "about": ELEICAO, "isBasedOn": "https://resultados.tse.jus.br/oficial/app/index.html", "dateModified": modificado},
           {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -978,10 +1010,8 @@ def main():
 
     # ---- imagens OG
     (BUILD / "og").mkdir(exist_ok=True); (OUT / "og").mkdir(exist_ok=True)
-    cards = [("index", "Resultado do 1º turno", f"Eleições 2026 · {fmt(N['pst'], 2)}% apurado (TSE)", cF["p"], cL["p"], "2º turno em 25 de outubro")]
-    cards += [("ao-vivo", "Mapa da apuração por município", "Eleições 2026 · dados do TSE", cF["p"], cL["p"], "5.570 municípios · 2º turno ao vivo em 25/10")]
-    cards += [(f"apuracao-{r['slug']}", f"Apuração com {fmt(r['d']['pst'], 1)}% das urnas", f"Eleições 2026 · 04/10 às {r['d']['ht'][:5]}", r["d"]["f"], r["d"]["l"], "Leitura parcial do TSE") for r in rodadas]
-    og_htmls = [(nome, og_card(t, s, f, l, rp)) for nome, t, s, f, l, rp in cards]
+    cards = [(f"apuracao-{r['slug']}", f"Apuração com {fmt(r['d']['pst'], 1)}% das urnas", f"Eleições 2026 · 04/10 às {r['d']['ht'][:5]}", r["d"]["f"], r["d"]["l"], "Leitura parcial do TSE") for r in rodadas]
+    og_htmls = cards_turno2() + [(nome, og_card(t, s, f, l, rp)) for nome, t, s, f, l, rp in cards]
     og_htmls += deb["og"] if deb else []
     for nome, og_html in og_htmls:
         (BUILD / "og" / f"{nome}.html").write_text(og_html)
