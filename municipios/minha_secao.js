@@ -159,9 +159,75 @@
     return h + "</article>";
   }
 
+  // ---- mapa dos locais do município (#156): pontos em canvas sobre o contorno (/minha-secao/contorno/<ibge>.json),
+  // cor do vencedor no local (só tokens de partido da brand.css), área do ponto proporcional aos aptos. Sem tiles.
+  var RAIO_MIN = 2.5;
+
+  function turnoMapa(reg) {
+    var ts = turnos(reg);
+    return ts[ts.length - 1];
+  }
+
+  // um ponto por local com coordenada no turno: {lat, lon, aptos, est, sg, p, l}; est = "venc" | "empate" | "sem"
+  // (nenhum voto válido) | "sigilo" (voto por candidato omitido pelo piso: o ponto não leva voto nenhum)
+  function pontosMapa(reg, t, part) {
+    var cand = reg.cand[t];
+    return locais(reg).filter(function (l) { return l.t[t] && l.lat != null && l.lon != null; }).map(function (l) {
+      var lc = l.t[t], pt = { lat: l.lat, lon: l.lon, aptos: lc[5], est: "sigilo", sg: "", p: null, l: l };
+      var v = vencedor(ranking(cand, lc[7], part));
+      if (lc[7]) pt.est = !v ? "sem" : v.empate ? "empate" : "venc";
+      if (pt.est === "venc") { pt.sg = v.linhas[0].sg; pt.p = v.linhas[0].p; pt.nome = v.linhas[0].nome; }
+      return pt;
+    });
+  }
+
+  function semCoordenada(reg, t) {
+    return locais(reg).filter(function (l) { return l.t[t] && (l.lat == null || l.lon == null); }).length;
+  }
+
+  // cor de preenchimento (token) ou null: sigilo é um anel vazado, sem cor de candidato
+  function corPonto(pt) {
+    if (pt.est === "venc") return cor(pt.sg);
+    return pt.est === "sigilo" ? null : "var(--neutral)";
+  }
+
+  // projeção plana (lon × cos da latitude média) do bbox [lon0, lat0, lon1, lat1] na largura w, altura até hMax
+  function enquadrar(bb, w, hMax, pad) {
+    var k = Math.cos(((bb[1] + bb[3]) / 2) * Math.PI / 180);
+    var dx = Math.max((bb[2] - bb[0]) * k, 1e-6), dy = Math.max(bb[3] - bb[1], 1e-6);
+    var s = Math.min((w - 2 * pad) / dx, (hMax - 2 * pad) / dy);
+    var h = Math.min(hMax, Math.ceil(dy * s + 2 * pad)), ox = pad + ((w - 2 * pad) - dx * s) / 2;
+    return {
+      h: h,
+      x: function (lon) { return ox + (lon - bb[0]) * k * s; },
+      y: function (lat) { return pad + (bb[3] - lat) * s; },
+    };
+  }
+
+  function raioMax(n) {
+    return Math.max(4, Math.min(14, 160 / Math.sqrt(Math.max(n, 1))));
+  }
+
+  // área do ponto proporcional aos aptos; nunca abaixo de RAIO_MIN
+  function raio(aptos, max, rMax) {
+    return RAIO_MIN + (rMax - RAIO_MIN) * Math.sqrt(Math.max(aptos, 0) / Math.max(max, 1));
+  }
+
+  // índice do ponto ({x, y, r}) mais perto de (x, y) a no máximo r + folga; -1 se nenhum
+  function tocado(pts, x, y, folga) {
+    var melhor = -1, dm = Infinity;
+    for (var i = 0; i < pts.length; i++) {
+      var p = pts[i], d = Math.hypot(p.x - x, p.y - y);
+      if (d <= p.r + folga && d < dm) { dm = d; melhor = i; }
+    }
+    return melhor;
+  }
+
   globalThis.MinhaSecao = {
     escapar: escapar, cep5: cep5, distancia: distancia, locais: locais, acharSecao: acharSecao, porCep: porCep,
     municipiosPerto: municipiosPerto, pertoDe: pertoDe, ranking: ranking, vencedor: vencedor, bloco: bloco, cartao: cartao,
+    turnoMapa: turnoMapa, pontosMapa: pontosMapa, semCoordenada: semCoordenada, corPonto: corPonto, enquadrar: enquadrar,
+    raio: raio, raioMax: raioMax, tocado: tocado, RAIO_MIN: RAIO_MIN,
   };
   if (typeof document === "undefined") return;
 
@@ -186,6 +252,7 @@
   }
 
   function msg(t) {
+    esconderMapa();
     mostrar('<p class="ms-msg">' + t + "</p>");
   }
 
@@ -209,6 +276,157 @@
     opcoes(selMun, idx.mun.filter(function (m) { return m[2] === selUf.value; }).map(function (m) { return [m[0], m[1]]; }));
   }
 
+
+  // ---- mapa (#156): desenha o município do resultado; toque/clique num ponto mostra o cartão do local (que respeita o piso)
+  var mp = {
+    el: document.getElementById("ms-mapa"), cv: document.getElementById("ms-mapa-c"), sub: document.getElementById("ms-mapa-sub"),
+    turnos: document.getElementById("ms-mapa-turnos"), leg: document.getElementById("ms-mapa-leg"),
+    nota: document.getElementById("ms-mapa-nota"), info: document.getElementById("ms-mapa-info"),
+  };
+  var est = null;
+
+  function chave(l) {
+    return [l.lat, l.lon, l.nome, l.cep].join("|");
+  }
+
+  function token(v, css) {
+    var m = /^var\((--[a-z0-9-]+)\)$/.exec(v || "");
+    return m ? css.getPropertyValue(m[1]).trim() : v;
+  }
+
+  function esconderMapa() {
+    est = null;
+    mp.el.hidden = true;
+  }
+
+  // m = linha do indice.json; destaque = locais (de locais()) a marcar com um anel
+  function mostrarMapa(m, reg, destaque) {
+    var meu = est = { m: m, reg: reg, t: turnoMapa(reg), dest: (destaque || []).map(chave), sel: null, cont: null };
+    mp.info.innerHTML = "";
+    ler("/minha-secao/contorno/" + m[0] + ".json").catch(function () { return null; }).then(function (c) {
+      if (est !== meu) return;
+      est.cont = c;
+      montarMapa();
+    });
+  }
+
+  function montarMapa() {
+    var reg = est.reg, ts = turnos(reg);
+    est.pts = pontosMapa(reg, est.t, idx.part);
+    if (!est.pts.length) { esconderMapa(); return; }
+    mp.el.hidden = false;
+    mp.sub.innerHTML = escapar(onde(est.m)) + " · " + nomeTurno(est.t) + ". Toque num ponto para ver o local e o resultado.";
+    mp.turnos.innerHTML = ts.length > 1 ? ts.map(function (t) {
+      return '<button type="button" data-t="' + escapar(t) + '" aria-pressed="' + (t === est.t) + '">' + nomeTurno(t) + "</button>";
+    }).join("") : "";
+    var vistos = {}, leg = [];
+    est.pts.forEach(function (p) {
+      var k = p.est === "venc" ? "v" + p.sg + "|" + p.nome : p.est === "sigilo" ? "s" : "e";
+      if (vistos[k]) return;
+      vistos[k] = 1;
+      leg.push(p.est === "venc" ? [0, '<li><i style="--c:' + corPonto(p) + '"></i>' + escapar(p.nome) + (p.sg ? " (" + escapar(p.sg) + ")" : "") + " ganhou</li>"]
+        : p.est === "sigilo" ? [2, '<li><i class="ms-vaz"></i>Voto oculto (sigilo)</li>'] : [1, '<li><i style="--c:var(--neutral)"></i>Empate ou sem voto válido</li>']);
+    });
+    mp.leg.innerHTML = leg.sort(function (a, b) { return a[0] - b[0]; }).map(function (x) { return x[1]; }).join("");
+    var fora = semCoordenada(reg, est.t);
+    mp.nota.textContent = "Área do ponto proporcional aos eleitores aptos do local. " + nf(est.pts.length) + (est.pts.length === 1 ? " local" : " locais") + " no mapa" +
+      (fora ? "; " + nf(fora) + (fora === 1 ? " local sem coordenada" : " locais sem coordenada") + " no arquivo do TSE " + (fora === 1 ? "fica" : "ficam") + " fora" : "") + ".";
+    mp.cv.setAttribute("aria-label", "Mapa de " + est.pts.length + " locais de votação em " + onde(est.m) + ", cor pelo vencedor de cada local no " + nomeTurno(est.t));
+    desenharMapa();
+  }
+
+  function desenharMapa() {
+    if (!est || !est.pts || mp.el.hidden) return;
+    performance.mark("ms-mapa-0");
+    var cv = mp.cv, w = cv.clientWidth, pts = est.pts, c = est.cont, css = getComputedStyle(document.documentElement);
+    if (!w) return;
+    var bb = c ? c.bb.slice() : [Infinity, Infinity, -Infinity, -Infinity];
+    pts.forEach(function (p) {
+      bb[0] = Math.min(bb[0], p.lon); bb[1] = Math.min(bb[1], p.lat); bb[2] = Math.max(bb[2], p.lon); bb[3] = Math.max(bb[3], p.lat);
+    });
+    var e = enquadrar(bb, w, Math.min(560, Math.round(w * 1.25)), 10), dpr = Math.min(window.devicePixelRatio || 1, 3);
+    cv.style.height = e.h + "px";
+    cv.width = Math.round(w * dpr);
+    cv.height = Math.round(e.h * dpr);
+    var ctx = cv.getContext("2d");
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.clearRect(0, 0, w, e.h);
+    if (c) {
+      ctx.beginPath();
+      c.an.forEach(function (a) {
+        ctx.moveTo(e.x(a[0]), e.y(a[1]));
+        for (var i = 2; i < a.length; i += 2) ctx.lineTo(e.x(a[i]), e.y(a[i + 1]));
+        ctx.closePath();
+      });
+      ctx.fillStyle = token("var(--soft)", css);
+      ctx.fill("evenodd");
+      ctx.strokeStyle = token("var(--muted)", css);
+      ctx.lineWidth = 1;
+      ctx.stroke();
+    }
+    var max = 0, rm = raioMax(pts.length), cores = {}, fundo = token("var(--bg)", css), vaz = token("var(--muted)", css);
+    pts.forEach(function (p) { if (p.aptos > max) max = p.aptos; });
+    pts.forEach(function (p) { p.x = e.x(p.lon); p.y = e.y(p.lat); p.r = raio(p.aptos, max, rm); });
+    // maiores primeiro: o local pequeno fica por cima e continua tocável
+    pts.slice().sort(function (a, b) { return b.r - a.r; }).forEach(function (p) {
+      var cp = corPonto(p);
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.r, 0, 2 * Math.PI);
+      if (cp) {
+        ctx.globalAlpha = 0.85;
+        ctx.fillStyle = cores[cp] || (cores[cp] = token(cp, css));
+        ctx.fill();
+        ctx.globalAlpha = 1;
+        ctx.lineWidth = 0.75;
+        ctx.strokeStyle = fundo;
+      } else {
+        ctx.lineWidth = 1.25;
+        ctx.strokeStyle = vaz;
+      }
+      ctx.stroke();
+    });
+    ctx.strokeStyle = token("var(--ink)", css);
+    ctx.lineWidth = 2;
+    pts.forEach(function (p) {
+      if (p === est.sel || est.dest.indexOf(chave(p.l)) >= 0) {
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r + 3, 0, 2 * Math.PI);
+        ctx.stroke();
+      }
+    });
+    performance.measure("ms-mapa", "ms-mapa-0");
+  }
+
+  mp.cv.addEventListener("click", function (ev) {
+    if (!est || !est.pts) return;
+    var r = mp.cv.getBoundingClientRect(), i = tocado(est.pts, ev.clientX - r.left, ev.clientY - r.top, 10);
+    est.sel = i >= 0 ? est.pts[i] : null;
+    mp.info.innerHTML = est.sel ? cartao(est.sel.l, est.reg, idx.part, idx.piso, { mun: onde(est.m) }) : "";
+    desenharMapa();
+  });
+
+  mp.turnos.addEventListener("click", function (ev) {
+    var t = ev.target.getAttribute && ev.target.getAttribute("data-t");
+    if (!est || !t || t === est.t) return;
+    est.t = t;
+    est.sel = null;
+    mp.info.innerHTML = "";
+    montarMapa();
+  });
+
+  var pendente = false;
+  function redesenhar() {
+    if (pendente) return;
+    pendente = true;
+    requestAnimationFrame(function () { pendente = false; desenharMapa(); });
+  }
+  window.addEventListener("resize", redesenhar);
+  if (window.matchMedia) {
+    var mq = window.matchMedia("(prefers-color-scheme: light)");
+    if (mq.addEventListener) mq.addEventListener("change", redesenhar);
+  }
+  if (window.MutationObserver) new MutationObserver(redesenhar).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+
   document.getElementById("ms-f-secao").addEventListener("submit", function (ev) {
     ev.preventDefault();
     var m = munDe(selMun.value), z = +digitos(document.getElementById("ms-zona").value), s = +digitos(document.getElementById("ms-secao").value);
@@ -223,6 +441,7 @@
       }
       var lc = achados[0].local, l = locais(reg).filter(function (x) { return x.nome === lc[2] && x.cep === lc[4] && x.lat === lc[0] && x.lon === lc[1]; })[0];
       mostrar('<p class="ms-res-t">Seu local de votação · ' + escapar(onde(m)) + "</p>" + cartao(l, reg, idx.part, idx.piso, { secao: [z, s], mun: onde(m) }));
+      mostrarMapa(m, reg, [l]);
     }, falhou);
   });
 
@@ -240,6 +459,7 @@
           porCep(reg, c).forEach(function (l) { n++; h += cartao(l, reg, idx.part, idx.piso, { mun: onde(ms[i]) }); });
         });
         mostrar('<p class="ms-res-t">' + n + (n === 1 ? " local" : " locais") + " com CEP " + c + "-xxx</p>" + h);
+        mostrarMapa(ms[0], regs[0], porCep(regs[0], c));
       });
     }).catch(falhou);
   });
@@ -261,6 +481,9 @@
           var x = todos.filter(function (y) { return y.l === p.l; })[0];
           return cartao(p.l, x.reg, idx.part, idx.piso, { km: p.km, mun: onde(x.m) });
         }).join(""));
+        var x0 = perto.length ? todos.filter(function (y) { return y.l === perto[0].l; })[0] : null;
+        if (x0) mostrarMapa(x0.m, x0.reg, perto.filter(function (p) { return todos.some(function (y) { return y.l === p.l && y.m === x0.m; }); }).map(function (p) { return p.l; }));
+        else esconderMapa();
         bt.disabled = false;
       }, function () { bt.disabled = false; falhou(); });
     }, function () {

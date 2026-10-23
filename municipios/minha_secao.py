@@ -5,6 +5,8 @@ Lê o resultado por seção e local de votação de municipios/geo/locais/ (mont
   indice.json   {"mun": [[ibge, nome, UF, arquivo, lat, lon], ...], "part": {número: sigla}, "piso": PISO}
                 (arquivo = nome do JSON em /geo/locais/: o código IBGE ou a UF; lat/lon = centro dos locais, ou null)
   cep/<pp>.json {cep5: [ibge, ...]} por fatia dos 2 primeiros dígitos do CEP
+  contorno/<ibge>.json {"bb": [lon0, lat0, lon1, lat1], "an": [[lon, lat, ...], ...]}: o contorno do município (malha do
+                IBGE, geo/municipios.topo.json) para o mapa dos locais (#156), sem baixar a malha do país (1,4 MB)
   secao.js      a busca (municipios/minha_secao.js), toda no navegador, sem requisição para outro domínio
 Sem dados (pasta vazia ou ausente), a página sai "em breve", sem JS. Dado que fure o piso de privacidade barra o build."""
 import html
@@ -19,6 +21,7 @@ from municipios.montar_secao import PISO
 H = Path(__file__).resolve().parent
 LOCAIS = H / "geo" / "locais"
 META = H / "geo" / "t1" / "meta.json"
+TOPO = H / "geo" / "municipios.topo.json"
 JS = H / "minha_secao.js"
 FONTE = "https://dadosabertos.tse.jus.br/"
 TITULO = f"{NAV.MINHA_SECAO}: onde eu voto e quem ganhou ali · Eleições 2026"
@@ -96,6 +99,48 @@ def indice_cep(dados):
     return {pp: {c: sorted(v) for c, v in sorted(d.items())} for pp, d in sorted(cep.items())}
 
 
+def contornos(cods, topo=TOPO):
+    """{ibge: {"bb", "an"}} dos códigos pedidos que estão na malha: anéis (de fora e buracos) em lon/lat com 4 casas
+    (~10 m), sem ponto repetido em seguida. Arcos quantizados com delta; índice negativo = ~i invertido."""
+    t = json.loads(Path(topo).read_text(encoding="utf-8")) if Path(topo).exists() else {"objects": {}}
+    geoms = [g for g in t["objects"].get("BRMU", {}).get("geometries", []) if g["properties"]["codarea"] in set(cods)]
+    if not geoms:
+        return {}
+    (sx, sy), (tx, ty) = t["transform"]["scale"], t["transform"]["translate"]
+    cache = {}
+
+    def arco(k):
+        if k not in cache:
+            x = y = 0
+            pts = []
+            for dx, dy in t["arcs"][k]:
+                x, y = x + dx, y + dy
+                pts.append((round(x * sx + tx, 4), round(y * sy + ty, 4)))
+            cache[k] = pts
+        return cache[k]
+
+    out = {}
+    for g in geoms:
+        polis = [g["arcs"]] if g["type"] == "Polygon" else g["arcs"] if g["type"] == "MultiPolygon" else []
+        aneis = []
+        for poli in polis:
+            for idx in poli:
+                pts = []
+                for i in idx:
+                    for pt in (arco(i) if i >= 0 else arco(~i)[::-1]):
+                        if not pts or pts[-1] != pt:
+                            pts.append(pt)
+                if len(pts) > 1 and pts[0] == pts[-1]:
+                    pts.pop()
+                if len(pts) >= 3:
+                    aneis.append([v for pt in pts for v in pt])
+        if aneis:
+            xs = [v for a in aneis for v in a[::2]]
+            ys = [v for a in aneis for v in a[1::2]]
+            out[g["properties"]["codarea"]] = {"bb": [min(xs), min(ys), max(xs), max(ys)], "an": aneis}
+    return out
+
+
 CSS = """<style>
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--font-sans)}
 main.ms{max-width:var(--w-texto);box-sizing:border-box;margin:0 auto;padding:24px 16px 56px}
@@ -141,6 +186,20 @@ main.ms{max-width:var(--w-texto);box-sizing:border-box;margin:0 auto;padding:24p
 .ms-sobre{margin:34px 0 0;padding-top:6px;border-top:1px solid var(--line);font-size:14px;color:var(--ink2)}
 .ms-sobre h2{margin-top:18px}
 .ms-sobre p{margin:6px 0}
+#ms-mapa{margin:22px 0 0;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 12px}
+#ms-mapa[hidden]{display:none}
+.ms-mapa-sub{font-size:14px;color:var(--ink2);margin:0 0 10px}
+.ms-turnos{display:flex;gap:6px;margin:0 0 10px}
+.ms-turnos:empty{display:none}
+.ms .ms-turnos button{width:auto;margin:0;padding:5px 12px;font-size:13px;border-radius:999px}
+.ms .ms-turnos button[aria-pressed=true]{border-color:var(--brand)}
+#ms-mapa canvas{display:block;width:100%;cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+.ms-leg{list-style:none;display:flex;flex-wrap:wrap;gap:4px 14px;margin:10px 0 0;padding:0;font-size:13px;color:var(--ink2)}
+.ms-leg li{display:flex;align-items:center;gap:6px}
+.ms-leg i{flex:none;width:10px;height:10px;border-radius:50%;background:var(--c)}
+.ms-leg i.ms-vaz{background:none;border:1.5px solid var(--muted);box-sizing:border-box}
+.ms-mapa-nota{font-size:13px;color:var(--muted);margin:8px 0 0}
+#ms-mapa-info:not(:empty){margin:12px 0 0}
 @media (max-width:760px){.ms-buscas{grid-template-columns:1fr}}
 </style>"""
 
@@ -186,7 +245,12 @@ def html_com_dados():
 <label>CEP<input id="ms-cep" inputmode="numeric" maxlength="9" autocomplete="off" placeholder="00000-000" required></label>
 <button type="submit">Buscar por CEP</button></form>
 <div class="ms-card"><h2>Perto de mim</h2>""" + PRIVACIDADE + """<button type="button" id="ms-perto">Usar minha localização</button></div>
-</div><section id="ms-res" aria-live="polite"></section></div>
+</div><section id="ms-res" aria-live="polite"></section>
+<section id="ms-mapa" hidden aria-labelledby="ms-mapa-t"><h2 id="ms-mapa-t">Mapa dos locais de votação</h2>
+<p class="ms-mapa-sub" id="ms-mapa-sub"></p><div class="ms-turnos" id="ms-mapa-turnos"></div>
+<canvas id="ms-mapa-c" role="img" aria-label="Mapa dos locais de votação do município"></canvas>
+<ul class="ms-leg" id="ms-mapa-leg"></ul><p class="ms-mapa-nota" id="ms-mapa-nota"></p>
+<div id="ms-mapa-info" aria-live="polite"></div></section></div>
 <noscript><p class="ms-msg">A busca roda no seu navegador e precisa de JavaScript.</p></noscript>"""
     return _doc(CABECALHO + AVISO + buscas + SOBRE, js=True)
 
@@ -213,5 +277,8 @@ def gerar(dest, pasta=LOCAIS, meta=None):
     (out / "indice.json").write_text(js(indice(dados, meta)), encoding="utf-8")
     for pp, d in indice_cep(dados).items():
         (out / "cep" / f"{pp}.json").write_text(js(d), encoding="utf-8")
+    (out / "contorno").mkdir(exist_ok=True)
+    for cdi, c in contornos(dados).items():
+        (out / "contorno" / f"{cdi}.json").write_text(js(c), encoding="utf-8")
     shutil.copyfile(JS, out / "secao.js")
     return {"tem": True, "html": html_com_dados(), "titulo": TITULO, "desc": DESC}
