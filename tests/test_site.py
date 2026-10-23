@@ -106,3 +106,15 @@ class Saida(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class PortaLivre(unittest.TestCase):
+    def test_dois_servidores_ao_mesmo_tempo(self):
+        """builds em paralelo (um por worktree) não podem brigar pela mesma porta"""
+        import tempfile
+        with tempfile.TemporaryDirectory() as d:
+            a, b = B.serve(d), B.serve(d)
+            try:
+                self.assertNotEqual(a.server_address[1], b.server_address[1])
+            finally:
+                a.shutdown(); b.shutdown()
