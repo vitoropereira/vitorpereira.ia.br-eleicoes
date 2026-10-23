@@ -96,7 +96,12 @@ class Saida(unittest.TestCase):
 
     @unittest.skipUnless((R / "site" / "index.html").exists(), "rode python3 build_site.py antes")
     def test_codigo_da_analise_espelha_as_fontes(self):
-        destino = self.SITE / "analise" / "codigo"
+        # monta em tmp: o site/ commitado só é regenerado pelo lote, então PR que muda calcular.py não pode quebrar aqui
+        import tempfile
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        B.copiar_codigo_analise(Path(tmp.name))
+        destino = Path(tmp.name) / "analise" / "codigo"
         self.assertTrue((destino / "index.html").exists())
         for rel in B.CODIGO_ANALISE:
             self.assertTrue((destino / rel).exists(), rel)

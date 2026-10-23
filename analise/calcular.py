@@ -4,7 +4,7 @@
 Entradas: municipios/geo/t1/ (2026, 1º turno), municipios/geo/t2022/ (2022), relatorio/dados/ (UF, candidatos),
 analise/lados-2026.json, analise/lados-2022.json, analise/fontes/cenarios.json (cenários checados).
 Saída: analise/dados/{lados,campos,dividido,cadeiras,divergencias,brancos,fragmentacao,legenda,puxadores,
-comparacao2022,cenarios,destaques,faq}.json  (contrato em docs/superpowers/specs/2026-10-08-analise-design.md)
+comparacao2022,cenarios,terra-gente,destaques,faq}.json  (contrato em docs/superpowers/specs/2026-10-08-analise-design.md)
 
 Convenções: L = lado Lula, F = lado Flávio (em 2022: Jair Bolsonaro), C = centro/sem lado.
 Lado de um partido na UF = override da UF, se houver; senão o lado nacional (analise/lados-*.json).
@@ -920,6 +920,112 @@ def lados(b):
             "mapa_siglas_2026": b.l22.get("mapa_siglas_2026", {})}
 
 
+# ------------------------------------------------------------------ terra × gente (área do município × votos)
+TOPO = R / "municipios" / "geo" / "municipios.topo.json"
+RAIO_KM = 6371.0088  # raio médio da Terra (IUGG)
+REGIOES = {"Norte": "AC AM AP PA RO RR TO", "Nordeste": "AL BA CE MA PB PE PI RN SE", "Sudeste": "ES MG RJ SP",
+           "Sul": "PR RS SC", "Centro-Oeste": "DF GO MS MT"}
+REGIAO = {uf: rg for rg, ufs in REGIOES.items() for uf in ufs.split()}
+CAPITAL_SP = "3550308"
+
+
+def _anel_km2(pts):
+    """Área (km², sem sinal) de um anel lon/lat em graus: projeção cilíndrica de área igual (Lambert) + laço."""
+    k = math.pi / 180
+    xy = [(RAIO_KM * lon * k, RAIO_KM * math.sin(lat * k)) for lon, lat in pts]
+    s = sum(x0 * y1 - x1 * y0 for (x0, y0), (x1, y1) in zip(xy, xy[1:] + xy[:1]))
+    return abs(s) / 2
+
+
+def area_km2(poligonos):
+    """Área de um (multi)polígono: lista de polígonos, cada um uma lista de anéis (o 1º é o de fora, os demais buracos)."""
+    return sum(_anel_km2(p[0]) - sum(_anel_km2(b) for b in p[1:]) for p in poligonos)
+
+
+def areas_topo(caminho=TOPO):
+    """{código IBGE: área em km²} a partir da malha topojson (arcos quantizados com delta; índice negativo = ~i invertido)."""
+    t = ld(caminho)
+    (sx, sy), (tx, ty) = t["transform"]["scale"], t["transform"]["translate"]
+    arcos = []
+    for a in t["arcs"]:
+        x = y = 0
+        pts = []
+        for dx, dy in a:
+            x, y = x + dx, y + dy
+            pts.append((x * sx + tx, y * sy + ty))
+        arcos.append(pts)
+
+    def anel(idx):
+        pts = []
+        for i in idx:
+            a = arcos[i] if i >= 0 else arcos[~i][::-1]
+            pts += a[1:] if pts else a
+        return pts
+
+    out = {}
+    for g in t["objects"]["BRMU"]["geometries"]:
+        polis = [g["arcs"]] if g["type"] == "Polygon" else g["arcs"] if g["type"] == "MultiPolygon" else []
+        out[g["properties"]["codarea"]] = area_km2([[anel(r) for r in p] for p in polis])
+    return out
+
+
+def terra_gente(b, areas=None):
+    """Mapa por área × votos: quem venceu (L, F; empate E) em cada município, somado por área e por votos válidos."""
+    areas = areas_topo() if areas is None else areas
+    grupos = ["BR"] + list(REGIOES) + UFS
+
+    def vazio(): return {"mun": 0, "area": 0.0, "validos": 0, "lula": 0, "flavio": 0,
+                         "venc": {k: {"mun": 0, "area": 0.0, "validos": 0} for k in ("L", "F", "E")}}
+    G = {g: vazio() for g in grupos}
+    mu, sem_geo, empates, lista = {}, [], [], []
+    for cd in sorted(b.pres["mu"]):
+        pl = b.pres["mu"][cd]
+        if cd not in b.mun or pl[2] == 0: continue
+        nm, uf = b.mun[cd]
+        lu, fl = pl[5][b.i_lula], pl[5][b.i_flavio]
+        v = lado_pres(lu, fl, "F")
+        ar = areas.get(cd)
+        if ar is None: sem_geo.append({"cd": cd, "nome": nm, "uf": uf, "validos": pl[2]})
+        if v == "E": empates.append({"cd": cd, "nome": nm, "uf": uf})
+        for g in ("BR", REGIAO[uf], uf):
+            s = G[g]
+            s["mun"] += 1; s["validos"] += pl[2]; s["lula"] += lu; s["flavio"] += fl
+            s["venc"][v]["mun"] += 1; s["venc"][v]["validos"] += pl[2]
+            if ar is not None: s["area"] += ar; s["venc"][v]["area"] += ar
+        mu[cd] = [round(ar, 1) if ar is not None else None, v, pl[2]]
+        lista.append((pl[2], cd))
+    tot_area, tot_validos = G["BR"]["area"], G["BR"]["validos"]  # antes do arredondamento do laço abaixo
+
+    def fr(a, t): return p4(a / t) if t else 0.0
+    for g, s in G.items():
+        s["lula_pct"], s["flavio_pct"] = fr(s["lula"], s["validos"]), fr(s["flavio"], s["validos"])
+        s["area_br"], s["validos_br"] = fr(s["area"], tot_area), fr(s["validos"], tot_validos)
+        for k, x in s["venc"].items():
+            x["area_pct"] = fr(x["area"], s["area"])
+            x["validos_pct"] = fr(x["validos"], s["validos"])
+            x["area"] = round(x["area"])
+        s["area"] = round(s["area"])
+    # capital de SP = quantas das menores cidades (por válidos, da menor para a maior) somam o mesmo: o 1º N que alcança
+    cap = b.pres["mu"][CAPITAL_SP][2]
+    n = soma = 0
+    lista.sort()
+    for v, cd in lista:
+        if soma >= cap or cd == CAPITAL_SP: break
+        n, soma = n + 1, soma + v
+    capital = {"cd": CAPITAL_SP, "nome": b.mun[CAPITAL_SP][0], "uf": "SP", "validos": cap, "n_menores": n,
+               "soma_menores": soma, "area": round(areas.get(CAPITAL_SP, 0)),
+               "area_menores": round(sum(areas.get(cd, 0) for _, cd in lista[:n])),
+               "menores_sem_area": sum(cd not in areas for _, cd in lista[:n])}
+    return {"grupos": G, "regioes": {rg: ufs.split() for rg, ufs in REGIOES.items()}, "capital_sp": capital,
+            "empates": empates, "sem_geometria": sem_geo, "mu": mu,
+            "criterio": ("Presidente, 1º turno. Vencedor do município = quem teve mais votos entre "
+                         f"{rot('L')} e {rot('F')} (empate: E). Área: malha municipal do IBGE, projeção cilíndrica de "
+                         "área igual. Municípios sem polígono na malha entram nos votos e ficam fora da área. "
+                         "Menores cidades: ordenadas por votos válidos, da menor para a maior, somadas até alcançar "
+                         "os válidos da capital."),
+            "mu_campos": ["area_km2", "vencedor", "validos"]}
+
+
 # ------------------------------------------------------------------ main
 def dump(o): return json.dumps(o, separators=(",", ":"), ensure_ascii=False)
 
@@ -938,6 +1044,7 @@ def calcula(n_boot=N_BOOT, n_proc=1):
     D["puxadores.json"] = puxadores(b)
     D["comparacao2022.json"] = comparacao2022(b, cam, cad)
     D["cenarios.json"] = cenarios(b)
+    D["terra-gente.json"] = terra_gente(b)
     D["destaques.json"] = destaques(D)
     D["faq.json"] = faq(D)
     if b.sem_lado: print("AVISO: siglas sem lado (tratadas como C):", sorted(b.sem_lado), file=sys.stderr)

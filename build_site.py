@@ -478,7 +478,7 @@ def faq():
 SECOES_ANALISE = [
     ("destaques", "Destaques"), ("campos", "Votos por campo e cargo"), ("voto-dividido", "Voto dividido"),
     ("votos-cadeiras", "Votos × cadeiras"), ("divergencias", "Divergências"), ("comparacao-2022", "2022 × 2026"),
-    ("cenarios-2-turno", "Cenários do 2º turno"), ("brancos-nulos", "Brancos e nulos"), ("fragmentacao", "Fragmentação"),
+    ("terra-gente", "Terra × gente"), ("cenarios-2-turno", "Cenários do 2º turno"), ("brancos-nulos", "Brancos e nulos"), ("fragmentacao", "Fragmentação"),
     ("legenda", "Voto de legenda"), ("puxadores", "Puxadores de voto"), ("faq", "Perguntas frequentes"), ("metodo", "Método"),
 ]
 ANALISE_DADOS = R / "analise" / "dados"
