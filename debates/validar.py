@@ -1,6 +1,7 @@
 """Valida debates/<ano>/<slug>/ (debate.json + afirmacoes.json contra a transcricao.md irmã), só biblioteca padrão.
 
-Uso: python3 debates/validar.py debates/2026/presidente-2-turno-band  → lista os erros (saída 1) ou a contagem (saída 0).
+Uso: python3 debates/validar.py [--estrito] debates/2026/presidente-2-turno-band  → lista os erros (saída 1) ou a
+contagem (saída 0). Fonte fraca nas checagens é `aviso:`; com --estrito vira erro.
 
 Cada afirmação aponta o timestamp de uma marcação **H:MM:SS** da transcrição e copia o `trecho` literal (com o erro
 da legenda) que começa ali; a frase pode seguir pelas próximas marcações, porque a legenda quebra no meio.
@@ -13,6 +14,7 @@ import unicodedata
 from collections import Counter
 from datetime import date
 from pathlib import Path
+from urllib.parse import urlsplit
 
 CAMPOS = ("id", "bloco", "tema", "quem", "autoria", "timestamp", "trecho", "afirmacao", "tipo", "tese")
 TEMAS = {"seguranca": "seg", "economia": "eco", "social": "soc", "saude": "sau",
@@ -20,7 +22,6 @@ TEMAS = {"seguranca": "seg", "economia": "eco", "social": "soc", "saude": "sau",
 MEDIACAO = "mediacao"
 AUTORIAS = ("certa", "incerta")
 TIPOS = ("dado", "fato", "promessa", "acusacao")
-BLOCOS = ("1", "2", "3", "finais")
 PROIBIDAS = ("veredito", "selo", "checagem", "verdadeiro", "falso")
 JANELA = 4  # marcações a partir do timestamp onde o trecho pode estar
 
@@ -35,7 +36,17 @@ CORES = ("flavio", "lula", "outros")  # variáveis de partido do brand.css; `cor
 # nao-comprovado = sem evidência + não checável + sem registro público; pendente-ou-condicionado = viável +
 # depende do Congresso + sem custo estimado; situacao-identificada = já existe + há investigação/denúncia/condenação.
 VEREDITO = ("verdadeiro", "falso-ou-exagerado", "nao-comprovado", "pendente-ou-condicionado", "situacao-identificada")
-VEREDITOS = {"dado": VEREDITO, "fato": VEREDITO, "promessa": VEREDITO, "acusacao": VEREDITO}
+# escala por tipo: o que cada tipo de afirmação pode receber (VEREDITO fica como a ordem geral, a união das quatro)
+VEREDITOS = {
+    "dado": ("verdadeiro", "falso-ou-exagerado", "nao-comprovado"),
+    "fato": ("verdadeiro", "falso-ou-exagerado", "nao-comprovado"),
+    "promessa": ("pendente-ou-condicionado", "situacao-identificada"),
+    "acusacao": ("falso-ou-exagerado", "nao-comprovado", "situacao-identificada"),
+}
+# fonte fraca (aviso; erro com --estrito): agregador de notícias e checadores, que devem vir com uma segunda fonte
+HOSTS_FRACOS = ("news.google.",)
+CHECADORES = ("aosfatos.org", "lupa.uol.com.br", "lupa.news", "projetocomprova.com.br", "boatos.org", "e-farsas.com",
+              "g1.globo.com/fato-ou-fake", "estadao.com.br/estadao-verifica")
 CHECAGEM = ("id", "veredito", "explicacao", "atualizado_em")
 FONTE = ("url", "titulo", "orgao", "data_publicacao", "acessado_em")
 FRASES = (2, 4)
@@ -48,6 +59,7 @@ RE_ID_RETORICA = re.compile(r"^r-\d{4}$")
 RE_SLUG = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 RE_DATA = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 RE_ANO_MES = re.compile(r"^\d{4}(-\d{2})?$")
+RE_BLOCO = re.compile(r"^(\d+|finais)$")  # `## Bloco N` com N livre (a Band teve 3; outra emissora pode ter mais) ou as finais
 RE_ID = re.compile(r"^[a-z]+-\d{2}$")
 RE_TS = re.compile(r"^\d{1,2}:\d{2}(?::\d{2})?$")
 RE_MARCA = re.compile(r"^\*\*(\d{1,2}:\d{2}(?::\d{2})?)\*\* — (.*)$")
@@ -63,7 +75,7 @@ def _norm(s):
 def _bloco(secao):
     if secao.startswith("Considerações finais"):
         return "finais"
-    m = re.match(r"Bloco (\d)\b", secao)
+    m = re.match(r"Bloco (\d+)\b", secao)
     return m.group(1) if m else None
 
 
@@ -190,9 +202,11 @@ def validar(itens, transcricao, debate):
         for c in PROIBIDAS:
             if c in it:
                 erros.append(f"{nome}: chave de veredito {c!r} não entra na extração")
-        for c, ok in (("tema", TEMAS), ("quem", quem), ("autoria", AUTORIAS), ("tipo", TIPOS), ("bloco", BLOCOS)):
+        for c, ok in (("tema", TEMAS), ("quem", quem), ("autoria", AUTORIAS), ("tipo", TIPOS)):
             if c in it and (not isinstance(it[c], str) or it[c] not in ok):
                 erros.append(f"{nome}: {c} {it[c]!r} fora de {sorted(ok)}")
+        if "bloco" in it and (not isinstance(it["bloco"], str) or not RE_BLOCO.match(it["bloco"])):
+            erros.append(f"{nome}: bloco {it['bloco']!r} não é um número de bloco nem 'finais'")
         if isinstance(it.get("tese"), str) and not RE_SLUG.match(it["tese"]):
             erros.append(f"{nome}: tese {it['tese']!r} não é slug (minúsculas, dígitos e hífen)")
         i = it.get("id")
@@ -220,7 +234,7 @@ def validar(itens, transcricao, debate):
         bloco = marcas[k][1]
         if bloco is None:
             erros.append(f"{nome}: {ts} fica fora dos blocos e das considerações finais")
-        elif it.get("bloco") in BLOCOS and it["bloco"] != bloco:
+        elif isinstance(it.get("bloco"), str) and RE_BLOCO.match(it["bloco"]) and it["bloco"] != bloco:
             erros.append(f"{nome}: bloco {it['bloco']!r}, mas {ts} está no bloco {bloco!r}")
     return erros
 
@@ -295,6 +309,35 @@ def validar_checagens(checagens, itens, hoje=None):
     return erros
 
 
+def _host_caminho(url):
+    u = urlsplit(url if isinstance(url, str) else "")
+    host = (u.hostname or "").lower().removeprefix("www.")
+    return host, host + u.path.lower()
+
+
+def _eh_checador(url):
+    host, caminho = _host_caminho(url)
+    return any(host == c or host.endswith("." + c) or caminho == c or caminho.startswith(c + "/") for c in CHECADORES)
+
+
+def avisos_fontes(checagens, debate=None):
+    """[(id, mensagem)] de fontes fracas: agregador (news.google) ou fonte única que é checador (inclusive a checagem
+    genérica do próprio debate). Não é erro; `--estrito` promove os avisos a erros. Data de publicação não entra:
+    fonte do dia do debate pode ser primária (a própria transcrição, por exemplo)."""
+    if not isinstance(checagens, list):
+        return []
+    avisos = []
+    for ch in checagens:
+        fontes = [f for f in ch.get("fontes", []) if isinstance(f, dict)] \
+            if isinstance(ch, dict) and isinstance(ch.get("fontes"), list) else []
+        i = ch.get("id") if isinstance(ch, dict) else None
+        if any(_host_caminho(f.get("url"))[0].startswith(HOSTS_FRACOS) for f in fontes):
+            avisos.append((i, "fonte é agregador de notícias (news.google); use a matéria original"))
+        if len(fontes) == 1 and _eh_checador(fontes[0].get("url")):
+            avisos.append((i, "fonte única é um checador; acrescente uma fonte primária"))
+    return avisos
+
+
 def validar_retorica(itens, transcricao, debate):
     """Erros do retorica.json: frase literal da transcrição a partir do timestamp, de um candidato (sem a mediação),
     com uma das ETIQUETAS e nenhuma chave a mais."""
@@ -342,10 +385,12 @@ def validar_retorica(itens, transcricao, debate):
 
 def main(argv=None):
     argv = sys.argv[1:] if argv is None else argv
-    if len(argv) != 1:
-        print("uso: python3 debates/validar.py <pasta do debate>", file=sys.stderr)
+    estrito = "--estrito" in argv
+    args = [a for a in argv if a != "--estrito"]
+    if len(args) != 1 or args[0].startswith("-"):
+        print("uso: python3 debates/validar.py [--estrito] <pasta do debate>", file=sys.stderr)
         return 2
-    pasta = Path(argv[0])
+    pasta = Path(args[0])
     try:
         debate = json.loads((pasta / "debate.json").read_text(encoding="utf-8"))
         itens = json.loads((pasta / "afirmacoes.json").read_text(encoding="utf-8"))
@@ -362,6 +407,11 @@ def main(argv=None):
     erros = validar_debate(debate) + validar_pasta(pasta, debate) + validar(itens, transcricao, debate)
     if checagens is not None:
         erros += validar_checagens(checagens, itens)
+        for i, msg in avisos_fontes(checagens, debate):
+            if estrito:
+                erros.append(f"{i}: {msg}")
+            else:
+                print(f"aviso: {i}: {msg}", file=sys.stderr)
     if retorica is not None:
         erros += validar_retorica(retorica, transcricao, debate)
     for e in erros:
@@ -370,7 +420,8 @@ def main(argv=None):
         return 1
     print(f"{len(itens)} afirmações")
     for campo in ("quem", "bloco", "tema", "tipo", "autoria"):
-        print(f"{campo}: " + ", ".join(f"{k}={v}" for k, v in sorted(Counter(i[campo] for i in itens).items())))
+        print(f"{campo}: " + ", ".join(f"{k}={v}" for k, v in sorted(Counter(i[campo] for i in itens).items(),
+                                                       key=lambda kv: (len(kv[0]), kv[0]) if campo == "bloco" else kv)))
     for a, b in (("quem", "tipo"), ("quem", "autoria")):
         print(f"{a}×{b}: " + ", ".join(f"{x}/{y}={v}" for (x, y), v in
                                         sorted(Counter((i[a], i[b]) for i in itens).items())))
