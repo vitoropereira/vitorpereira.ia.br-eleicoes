@@ -397,6 +397,13 @@ class SiteGerado(unittest.TestCase):
         achados = {k: a[:3] for k, doc in self.paginas.items() if (a := achados_rastro(doc, self.cand))}
         self.assertEqual(achados, {})
 
+    def test_titulos_indexaveis_unicos(self):
+        """issue #149: com o dado real, nenhum <title> se repete entre as páginas do Rastro que indexam (MEI vai de noindex)."""
+        titulos = [re.search(r"<title>(.*?)</title>", h).group(1) for h in self.paginas.values()
+                   if 'content="noindex,follow' not in h]
+        self.assertGreater(len(titulos), 10)
+        self.assertEqual(sorted({t for t in titulos if titulos.count(t) > 1}), [])
+
     def test_no_sem_sigla_falha(self):
         """caso negativo: tirar a sigla do nó da campanha num HTML do Rastro dá achado"""
         no = re.compile(r'(<text [^>]*font-weight:600[^>]*>[^<]+?) · ([A-Z]+)(</text>)')

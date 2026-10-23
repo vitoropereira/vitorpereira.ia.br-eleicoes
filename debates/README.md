@@ -29,7 +29,8 @@ Formato do `transcricao.md`:
 - Cabeçalho livre (tabela com emissora, data, fonte). Nome não confirmado leva `[NÃO VERIFICADO]`.
   O que vem antes da primeira seção de falas e a seção `## Índice` são notas internas: **não são publicados**.
   A página pública mostra no lugar uma linha gerada do `debate.json` (emissora, data, duração, vídeo).
-- Uma seção `## Bloco N …` para cada bloco (`## Bloco 1 — Pergunta 1: segurança pública`) e
+- Uma seção `## Bloco N …` para cada bloco, com N inteiro livre (`## Bloco 1 — Pergunta 1: segurança pública`;
+  a Band teve 3, outra emissora pode ter mais). No `afirmacoes.json`, `bloco` é `"N"` ou `"finais"`. E uma seção
   `## Considerações finais`. Abertura, intervalos e encerramento ficam em seções com outro nome: o que está nelas
   não entra na extração.
 - Uma marcação por linha: `**H:MM:SS** — texto` (ou `**M:SS** — texto` antes de uma hora).
@@ -142,8 +143,16 @@ A checagem fica em `checagens.json`, ao lado de `afirmacoes.json`: uma lista com
 ```
 
 - `id`: o mesmo da afirmação.
-- `veredito`: um de cinco, para qualquer `tipo` (escala única desde 21/10/2026; a antiga, de 13 vereditos por tipo,
-  complicava a leitura do placar):
+- `veredito`: um de cinco (escala única desde 21/10/2026; a antiga, de 13 vereditos por tipo, complicava a leitura
+  do placar), e **cada `tipo` só aceita parte deles**:
+
+  | `tipo` | vereditos aceitos |
+  |---|---|
+  | `dado`, `fato` | `verdadeiro`, `falso-ou-exagerado`, `nao-comprovado` |
+  | `promessa` | `pendente-ou-condicionado`, `situacao-identificada` |
+  | `acusacao` | `falso-ou-exagerado`, `nao-comprovado`, `situacao-identificada` |
+
+  Os cinco:
   - `verdadeiro`: a afirmação central se confirma nas fontes (detalhe secundário impreciso ainda é verdadeiro);
   - `falso-ou-exagerado`: desmentida pelas fontes, ou o número central foi inflado a ponto de mudar o sentido;
   - `nao-comprovado`: não há evidência pública que confirme nem desminta, não é checável, ou é acusação sem registro;
@@ -165,6 +174,13 @@ Em `acusacao`, a escala registra só o estado processual público. Acusação de
 tem processo, fica `nao-comprovado`, e a `explicacao` diz o que está documentado.
 `python3 debates/validar.py <pasta>` também valida o `checagens.json` quando ele existe e imprime `quem×veredito`,
 para conferir que o critério foi o mesmo para cada lado.
+
+**Fonte fraca e `--estrito`.** O validador imprime `aviso: <id>: …` (saída continua 0) quando uma checagem tem:
+fonte de `news.google.*` (agregador; use a matéria original); fonte **única** que é checador (Aos Fatos, Lupa,
+Comprova, `g1.globo.com/fato-ou-fake`, `estadao.com.br/estadao-verifica`, Boatos.org, E-Farsas), sem fonte primária
+ao lado (inclui a checagem genérica do próprio debate, como "Checamos … no debate da Band"). A data de publicação
+não conta: fonte do dia do debate pode ser primária. Com `python3 debates/validar.py --estrito <pasta>`
+(a flag vale em qualquer posição) os avisos viram erros e a saída é 1. Use `--estrito` antes de publicar um debate novo.
 
 ### 7. Publicar
 
