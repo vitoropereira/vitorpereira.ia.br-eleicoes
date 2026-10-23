@@ -1,3 +1,5 @@
+# Três gatilhos: push na main (publicação contínua, a cada merge), cron diário e disparo manual.
+# Anti-loop: o push do próprio lote cai em paths-ignore. O concurrency deixa no máximo 1 rodando + 1 pendente.
 # Lote diário do Rastro do dinheiro. O merge só acontece dentro de rastro/lote.py, e só se `python3 -m pytest -q` passar
 # sobre o conteúdo exato do lote; se falhar, o PR fica aberto com o label `bloqueado`. A trava de data fica no lote.py (desligada desde 21/10/2026).
 # Horários (UTC): 11:17 principal, 13:17 reserva e 15:07 alerta. O lote é idempotente (PR mergeado "Rastro: lote <dia>"
@@ -7,6 +9,12 @@
 name: rastro-lote
 
 on:
+  push:
+    branches: [main]
+    paths-ignore:  # o que o próprio lote commita (CAMINHOS_GIT em rastro/lote.py); evita loop
+      - "site/**"
+      - "rastro/publicados.json"
+      - "rastro/fila.json"
   schedule:
     - cron: "17 11 * * *"  # 08:17 BRT, principal (minuto quebrado: o minuto cheio atrasa horas)
     - cron: "17 13 * * *"  # reserva; idempotente, sai com 0 se o principal já publicou

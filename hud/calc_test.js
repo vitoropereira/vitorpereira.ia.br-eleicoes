@@ -190,6 +190,22 @@ Deno.test("leitura parada: idade pela hora do TSE (t + dg, Brasília), não pela
   ok(idadeLeitura({ t: "xx" }, utc(23, 0)) === null, "t inválido: sem idade");
 });
 
+Deno.test("2º turno: leitura (dg) de outro dia não mostra a hora no status → 'aguardando início'", async () => {
+  const { situacaoVivo } = await import("./calc.js");
+  const agora = Date.UTC(2026, 9, 22, 15, 0); // 22/10 12h00 em Brasília
+  const s = situacaoVivo({ status: "ok", dados: { t: "09:38", dg: "15/10/2026", pst: 0 } }, agora);
+  ok(!s.aoVivo && s.txt === "aguardando início", JSON.stringify(s));
+  for (const k of ["txt", "curto", "longo"]) ok(!String(s[k] ?? "").includes("09h38"), `${k} com hora velha: ${JSON.stringify(s)}`);
+  // virada: 23h30 de 22/10 em Brasília já é 23/10 em UTC; leitura de 22/10 ainda é "hoje"
+  const tarde = Date.UTC(2026, 9, 23, 2, 30);
+  ok(situacaoVivo({ status: "ok", dados: { t: "23:28", dg: "22/10/2026", pst: 5 } }, tarde).txt.includes("23h28"), "mesmo dia (Brasília) mostra a hora");
+  // leitura de hoje continua com a hora
+  const s2 = situacaoVivo({ status: "ok", dados: { t: "11:58", dg: "22/10/2026", pst: 0 } }, agora);
+  ok(s2.txt.includes("11h58"), JSON.stringify(s2));
+  // sem dado nenhum: também "aguardando início"
+  ok(situacaoVivo({ status: "ok" }, agora).txt === "aguardando início", "sem dados");
+});
+
 Deno.test("Exterior: cidade sem voto válido fica fora do ranking, mas é contada", async () => {
   const { exteriorCidades } = await import("./calc.js");
   const meta = { exterior: [["ABUJA", "1"], ["LISBOA", "2"], ["TÓQUIO", "3"], ["NOVA", "4"]] };

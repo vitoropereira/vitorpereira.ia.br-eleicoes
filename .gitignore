@@ -16,6 +16,9 @@ municipios/brutos/
 # municípios 2022: dados brutos do TSE (CSVs zipados), nunca commitar
 municipios/brutos2022/
 
+# votação por seção e locais de votação 2026 (~340 MB de ZIPs do TSE), nunca commitar
+municipios/brutos_secao/
+
 # rastro: dados brutos e sal local, nunca commitar
 rastro/brutos/
 rastro/.sal

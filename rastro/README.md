@@ -189,9 +189,20 @@ python3 -m rastro.anteriores            # com os ZIPs já em rastro/brutos/
   21/10/2026** (as duas datas em `null`, decisão do Vitor): o lote é o único caminho que publica o site, e a trava de 23 a
   26/10 deixaria a checagem do debate da Globo (24/10) fora do ar até depois da eleição. Para religar, volte as datas.
   A trava de download do dia da apuração (`baixar.DIA_APURACAO`, 25/10) é outra e continua: o lote não baixa nada.
-- **Workflow** `.github/workflows/rastro-lote.yml` (substitui o antigo `cron_lote.sh`): todo dia às 12:00 UTC (09:00 BRT) e por
-  `workflow_dispatch` (input `dry_run`, que roda `lote.py --dry-run`). Nenhum passo do YAML faz merge: o merge só existe no
-  `lote.py`, depois do pytest. Pré-requisitos, feitos uma vez pelo Vitor:
+- **Workflow** `.github/workflows/rastro-lote.yml` (substitui o antigo `cron_lote.sh`), com três gatilhos:
+  - `schedule`: diário, 12:00 UTC (09:00 BRT);
+  - `workflow_dispatch`: input `dry_run`, que roda `lote.py --dry-run`;
+  - `push` na `main`: publicação contínua (decisão de 22/10), o site é republicado a cada merge. Cada rodada avança a fila
+    em `lote_diario_tamanho` eleitos.
+
+  Anti-loop: o merge do lote só toca `site/`, `rastro/publicados.json` e `rastro/fila.json` (`CAMINHOS_GIT`), que estão em
+  `paths-ignore` do `push` (o teste `test_push_ignora_o_proprio_lote` confere que cobrem `CAMINHOS_GIT`). Além disso, o push
+  feito com o `GITHUB_TOKEN` já não dispara workflows. Efeito colateral: um PR humano que toque só nesses caminhos não dispara o lote.
+  O `concurrency` (`rastro-lote`, sem cancelar) faz vários merges seguidos virarem 1 rodando + 1 na fila; o da fila pega tudo.
+  Compatibilidade com a #134: a trava "já publicado hoje", quando existir, vale só para `schedule`; `push` e
+  `workflow_dispatch` sempre rodam.
+
+  Nenhum passo do YAML faz merge: o merge só existe no `lote.py`, depois do pytest. Pré-requisitos, feitos uma vez pelo Vitor:
   - secret `RASTRO_SAL` com o conteúdo de `rastro/.sal` (da máquina que gerou os ids publicados): `gh secret set RASTRO_SAL < rastro/.sal`.
     Sem ele o workflow falha antes de tudo (sem o sal os ids de MEI mudariam);
   - vars `GA_ID` e `CLARITY_ID` (Settings → Secrets and variables → Actions → Variables), senão o build sai sem medição;

@@ -4,7 +4,7 @@ SEO (meta, Open Graph, JSON-LD, sitemap, robots) e GEO (llms.txt, FAQ visível, 
 Pré-renderiza cada página com Chrome headless (--dump-dom) para que o texto já esteja no HTML.
 Uso: python3 relatorio/montar.py && python3 build_site.py"""
 import json, os, re, shutil, sys, subprocess, threading, functools, html, http.server, socketserver, time
-from datetime import datetime
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 import brand
 
@@ -76,10 +76,33 @@ def textos_principal():
     """(h1, título, descrição) da página principal"""
     c1, c2 = sorted(N["cand"], key=lambda c: -c["p"])[:2]
     h1 = f"Eleições 2026: {rotulo(c1)} e {rotulo(c2)} vão ao 2º turno" if c1["p"] < 50 else f"Eleições 2026: {rotulo(c1)} é eleito no 1º turno"
-    titulo = f"Eleições 2026: {curto(cF)} {fmt(cF['p'], 1)}% × {curto(cL)} {fmt(cL['p'], 1)}% no 1º turno"
-    desc = (f"{rotulo(cF)} e {rotulo(cL)} vão ao 2º turno em 25/10. Mapa por estado, governadores, Senado, Câmara e Assembleias "
-            f"com {fmt(N['pst'], 2)}% das urnas apuradas pelo TSE.")
+    # título e descrição (title, og, twitter, og:image:alt) chamam para o 2º turno, sem o placar do 1º (#139)
+    titulo = f"Eleições 2026: 2º turno {curto(cF)} × {curto(cL)} em 25/10, apuração ao vivo"
+    desc = (f"{rotulo(cF)} e {rotulo(cL)} disputam o 2º turno no domingo, 25/10, com apuração ao vivo a partir das 17h (Brasília). "
+            "Resultado de 04/10 por estado, governadores, Senado, Câmara e Assembleias, com dados do TSE.")
     return h1, titulo, desc
+
+
+def textos_aovivo():
+    """(título, descrição) do /ao-vivo/"""
+    return ("Mapa da apuração por município | Eleições 2026",
+            "Apuração do 2º turno ao vivo no domingo, 25/10, a partir das 17h (Brasília), com os dados do TSE: "
+            "presidente nos 5.570 municípios, atualizado sozinho. Fora da noite da apuração, o mapa de 04/10 com todos os cargos.")
+
+
+TURNO2 = date(2026, 10, 25)
+
+
+def hoje_brasilia():
+    return datetime.now(timezone(timedelta(hours=-3))).date()
+
+
+def banner_turno2(hoje=None):
+    """Faixa de chamada para o 2º turno no topo da home; some no primeiro build depois de 25/10."""
+    if (hoje or hoje_brasilia()) > TURNO2:
+        return ""
+    return ('<div class="banner"><div><b>2º turno: domingo, 25/10.</b> Apuração ao vivo a partir das 17h (Brasília) → '
+            '<a href="/ao-vivo/">Ao vivo</a></div></div>')
 
 
 def textos_leitura(d):
@@ -478,7 +501,7 @@ def faq():
 SECOES_ANALISE = [
     ("destaques", "Destaques"), ("campos", "Votos por campo e cargo"), ("voto-dividido", "Voto dividido"),
     ("votos-cadeiras", "Votos × cadeiras"), ("divergencias", "Divergências"), ("comparacao-2022", "2022 × 2026"),
-    ("cenarios-2-turno", "Cenários do 2º turno"), ("brancos-nulos", "Brancos e nulos"), ("fragmentacao", "Fragmentação"),
+    ("terra-gente", "Terra × gente"), ("cenarios-2-turno", "Cenários do 2º turno"), ("brancos-nulos", "Brancos e nulos"), ("fragmentacao", "Fragmentação"),
     ("legenda", "Voto de legenda"), ("puxadores", "Puxadores de voto"), ("faq", "Perguntas frequentes"), ("metodo", "Método"),
 ]
 ANALISE_DADOS = R / "analise" / "dados"
@@ -507,16 +530,28 @@ CODIGO_ANALISE = ["analise/calcular.py", "analise/inferencia.py", "municipios/mo
                   "analise/lados-2022.json", "analise/lados-2026.json", "analise/lados-README.md", "analise/fontes/cenarios.json"]
 
 
-def copiar_codigo_analise(dest):
+CODIGO_ANALISE_TITULO = "Código do cálculo | Análise · Eleições 2026"
+CODIGO_ANALISE_DESC = "Código-fonte aberto do cálculo das estimativas da Análise (voto dividido, inferência ecológica), em texto puro."
+
+
+def copiar_codigo_analise(dest, publicado=None, modificado=None):
     """Código do cálculo → /analise/codigo/ (cópia das fontes, com a mesma estrutura) + index.html com a lista"""
+    publicado, modificado = publicado or ANALISE_GERADA, modificado or ANALISE_GERADA
     base = dest / "analise" / "codigo"
     for rel in CODIGO_ANALISE:
         (base / rel).parent.mkdir(parents=True, exist_ok=True)
         shutil.copy(R / rel, base / rel)
     itens = "".join(f'<li><a href="{rel}">{rel}</a></li>' for rel in CODIGO_ANALISE)
+    url = BASE + "/analise/codigo/"
+    ld = [{"@context": "https://schema.org", "@type": "WebPage", "name": CODIGO_ANALISE_TITULO, "description": CODIGO_ANALISE_DESC,
+           "url": url, "inLanguage": "pt-BR", "author": PESSOA, "datePublished": publicado, "dateModified": modificado},
+          {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+              {"@type": "ListItem", "position": 1, "name": "Início", "item": BASE + "/"},
+              {"@type": "ListItem", "position": 2, "name": "Análise", "item": BASE + "/analise/"},
+              {"@type": "ListItem", "position": 3, "name": "Código do cálculo", "item": url}]}]
     (base / "index.html").write_text(
-        '<!doctype html>\n<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
-        '<title>Código do cálculo | Análise · Eleições 2026</title>'
+        '<!doctype html>\n<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">\n'
+        + head(CODIGO_ANALISE_TITULO, CODIGO_ANALISE_DESC, "/analise/codigo/", "/og/index.png", ld, publicado, modificado) +
         f'<style>{brand.CSS}body{{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 var(--font-sans)}}main{{max-width:640px;margin:0 auto;padding:48px 16px}}</style>'
         '</head><body><main id="conteudo"><p class="kicker">Análise · cálculo aberto</p><h1>Código do cálculo</h1>'
         '<p>Código do cálculo das estimativas da Análise, em texto puro.</p>'
@@ -666,6 +701,17 @@ h1{{font:600 60px/1.05 "JetBrains Mono",monospace;margin:14px 0 0;letter-spacing
 <div class="f"><span>{html.escape(rodape_txt)}</span><b>vitor pereira<i></i></b></div></div></body></html>"""
 
 
+def cards_turno2():
+    """Cartões OG da home e do /ao-vivo/ até o 2º turno: os dois candidatos sem o percentual do 1º turno."""
+    lado = lambda c, cor: (f'<div class="c" style="--c:{cor}"><div class="n">{html.escape(NOME_EXIBICAO.get(c["nome"], c["nome"]))} · '
+                           f'{html.escape(c["sg"])}</div><div class="p">{html.escape(curto(c).split()[0])}</div></div>')
+    linha = lado(cF, COR_OG["flavio"]) + "\n" + lado(cL, COR_OG["lula"])
+    return [("index", og_card("2º turno · domingo, 25/10", "Eleições 2026 · presidente", None, None,
+                              "apuração ao vivo a partir das 17h (Brasília)", linha)),
+            ("ao-vivo", og_card("Apuração ao vivo em 25/10", "Eleições 2026 · 2º turno · dados do TSE", None, None,
+                                "5.570 municípios · a partir das 17h (Brasília)", linha))]
+
+
 def rastro_envolver(publicado, modificado, moldura=True):
     """Devolve `envolver(página) -> html` do Rastro: moldura do site (montar_pagina) + medição."""
     def envolver(p):
@@ -674,8 +720,20 @@ def rastro_envolver(publicado, modificado, moldura=True):
               {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
                   {"@type": "ListItem", "position": i, "name": n, "item": BASE + (h or p["path"])}
                   for i, (n, h) in enumerate([("Início", "/")] + p["crumbs"], 1)]}]
-        return com_medicao(montar_pagina(p["html"], p["titulo"], p["desc"], p["path"], "/og/index.png", ld, publicado, modificado, "/rastro/", moldura=moldura))
+        h = montar_pagina(p["html"], p["titulo"], p["desc"], p["path"], "/og/index.png", ld, publicado, modificado, "/rastro/", moldura=moldura)
+        if not p.get("indexar", True):  # MEI e sem cadastro: no ar, mas fora do índice (título igual entre todos, sem dado a acrescentar)
+            h = h.replace('<meta name="robots" content="index,follow', '<meta name="robots" content="noindex,follow', 1)
+        return com_medicao(h)
     return envolver
+
+
+def rastro_sitemap(pags, modificado):
+    """Entradas do sitemap das páginas do Rastro, sem as que não indexam (indexar=False)."""
+    def prioridade(path):
+        if path == "/rastro/":
+            return "0.6"
+        return "0.5" if path.endswith("/metodologia/") else "0.3" if path.startswith("/rastro/fornecedor/") else "0.4"
+    return [(p["path"], modificado, prioridade(p["path"])) for p in pags if p.get("indexar", True)]
 
 
 def presidentes():
@@ -712,12 +770,7 @@ def rastro_publicar(dest, publicado, modificado, moldura=True):
                     correcoes=lj(R / "rastro" / "correcoes.json"), sal=sal, anteriores=lj(dados / "anteriores.json"),
                     agregados=lj(dados / "base" / "agregados.json"), presidentes=pres,
                     debates=dp.listar(R / "debates"))
-
-    def prioridade(path):
-        if path == "/rastro/":
-            return "0.6"
-        return "0.5" if path.endswith("/metodologia/") else "0.3" if path.startswith("/rastro/fornecedor/") else "0.4"
-    return [(p["path"], modificado, prioridade(p["path"])) for p in pags]
+    return rastro_sitemap(pags, modificado)
 
 
 # ---------------- checagem de debates (debates/pagina.py): estática, um debate por debates/<ano>/<slug>/ com checagens.json
@@ -728,7 +781,9 @@ COR_OG = {"flavio": "#5B7FE8", "lula": "#E35A4F", "outros": "#8593AB"}  # os mes
 def debates(raiz=R / "debates"):
     """Páginas geradas de cada debate com checagem (dicts de debates.pagina.gerar), do mais novo para o mais antigo."""
     from debates import pagina as dp
-    return [dp.gerar(m, BASE, PESSOA) for m in dp.listar(raiz)]
+    ms = dp.listar(raiz)
+    lig = dp.tambem(ms)  # a mesma tese, dita pelo mesmo candidato em outro debate: "Também dito em"
+    return [dp.gerar(m, BASE, PESSOA, tambem=lig) for m in ms]
 
 
 def banner_debate():
@@ -859,7 +914,7 @@ def main():
            "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": BASE + "/dados/relatorio.json"}]},
           faq_ld]
     rounds_nav = "".join(f'<a href="{r["url"]}">{fmt(r["d"]["pst"], 1)}%</a>' for r in rodadas)
-    top = banner_debate() + (f'<div class="banner"><div>Resultado com <b>{fmt(N["pst"], 2)}%</b> das seções apuradas (TSE, {N["dg"]} {N["ht"]}). '
+    top = banner_turno2() + banner_debate() + (f'<div class="banner"><div>Resultado com <b>{fmt(N["pst"], 2)}%</b> das seções apuradas (TSE, {N["dg"]} {N["ht"]}). '
            f'Veja como a apuração evoluiu durante a noite: <span class="rounds">{rounds_nav}<a href="/apuracao/">todas as leituras →</a></span></div></div>')
     (BUILD / "index.html").write_text(montar_pagina(raw, titulo, desc, "/", "/og/index.png", ld, publicado, modificado, "/", top))
     paginas.append(("/", modificado, "1.0"))
@@ -907,9 +962,7 @@ def main():
     copiar_hud(BUILD); copiar_hud(OUT)
     raw = brand.aplicar((R / "template_hud.html").read_text()).replace("<!--__RESUMO__-->", resumo_hud(), 1)
     raw = injetar_presenca(raw)
-    titulo = "Mapa da apuração por município | Eleições 2026"
-    desc = ("Mapa da apuração por município: presidente, governadores, Senado e deputados nos 5.570 municípios, "
-            "com a linha do tempo da noite do 1º turno. No 2º turno (25/10), atualizado ao vivo com os dados do TSE.")
+    titulo, desc = textos_aovivo()
     ld = [{"@context": "https://schema.org", "@type": "WebPage", "name": titulo, "description": desc, "url": BASE + "/ao-vivo/", "inLanguage": "pt-BR",
            "author": PESSOA, "about": ELEICAO, "isBasedOn": "https://resultados.tse.jus.br/oficial/app/index.html", "dateModified": modificado},
           {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
@@ -925,6 +978,7 @@ def main():
     (BUILD / "analise").mkdir(exist_ok=True)
     (BUILD / "analise" / "index.html").write_text(html_analise(dados_an, ANALISE_GERADA, ANALISE_GERADA))
     paginas.append(("/analise/", ANALISE_GERADA, "0.9"))
+    paginas.append(("/analise/codigo/", ANALISE_GERADA, "0.3"))
 
     # ---- 404
     (BUILD / "404.html").write_text(montar_pagina(f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>x</title>{style}</head><body><main><header><h1>Página não encontrada</h1><p><a href="/">Voltar ao resultado do 1º turno</a> · <a href="/apuracao/">Ver a apuração</a></p></header></main></body></html>""",
@@ -956,10 +1010,8 @@ def main():
 
     # ---- imagens OG
     (BUILD / "og").mkdir(exist_ok=True); (OUT / "og").mkdir(exist_ok=True)
-    cards = [("index", "Resultado do 1º turno", f"Eleições 2026 · {fmt(N['pst'], 2)}% apurado (TSE)", cF["p"], cL["p"], "2º turno em 25 de outubro")]
-    cards += [("ao-vivo", "Mapa da apuração por município", "Eleições 2026 · dados do TSE", cF["p"], cL["p"], "5.570 municípios · 2º turno ao vivo em 25/10")]
-    cards += [(f"apuracao-{r['slug']}", f"Apuração com {fmt(r['d']['pst'], 1)}% das urnas", f"Eleições 2026 · 04/10 às {r['d']['ht'][:5]}", r["d"]["f"], r["d"]["l"], "Leitura parcial do TSE") for r in rodadas]
-    og_htmls = [(nome, og_card(t, s, f, l, rp)) for nome, t, s, f, l, rp in cards]
+    cards = [(f"apuracao-{r['slug']}", f"Apuração com {fmt(r['d']['pst'], 1)}% das urnas", f"Eleições 2026 · 04/10 às {r['d']['ht'][:5]}", r["d"]["f"], r["d"]["l"], "Leitura parcial do TSE") for r in rodadas]
+    og_htmls = cards_turno2() + [(nome, og_card(t, s, f, l, rp)) for nome, t, s, f, l, rp in cards]
     og_htmls += deb["og"] if deb else []
     for nome, og_html in og_htmls:
         (BUILD / "og" / f"{nome}.html").write_text(og_html)

@@ -56,6 +56,12 @@ def mascarar_cnpj(cnpj):
     return f"**.***.***/{filial}-**"
 
 
+def formatar_cnpj(cnpj):
+    """'12345678000195' -> '12.345.678/0001-95'. Só para PJ (o CNPJ de MEI contém o CPF: use mascarar_cnpj)."""
+    d = digitos(cnpj)
+    return f"{d[:2]}.{d[2:5]}.{d[5:8]}/{d[8:12]}-{d[12:]}" if len(d) == 14 else d
+
+
 def _contraparte(cnpj, forn_pj, receita):
     """Nome do fornecedor; MEI só pelo CNPJ mascarado."""
     if receita.get("mei"):

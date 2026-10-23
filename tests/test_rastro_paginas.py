@@ -432,6 +432,92 @@ class TestGerarFornecedores(unittest.TestCase):
             self.assertEqual(arquivos(saida), {})
 
 
+FILIAL = "33333333000272"  # mesma razão social do ID_PJ (matriz/filial)
+
+
+def gerar_com_filial(dest, **kw):
+    """fixture + uma filial do ID_PJ (mesma razão, outro CNPJ) paga pela campanha 2002."""
+    contas = Path(dest) / "contas"
+    contas.mkdir()
+    for arq in (FIX / "contas").glob("*.json"):
+        c = json.loads(arq.read_text(encoding="utf-8"))
+        if arq.stem == "2002":
+            c["despesas"]["fornecedores_pj"].append({"cnpj": FILIAL, "nome": "EMPRESA GRANDE LTDA", "total": 5000.0, "tipos": []})
+        (contas / arq.name).write_text(json.dumps(c), encoding="utf-8")
+    forn = copy.deepcopy(FORN)
+    forn["fornecedores"][FILIAL] = dict(forn["fornecedores"][ID_PJ])
+    return gerar(Path(dest) / "out", dir_contas=contas, fornecedores=forn, **kw)
+
+
+class TestSeoFornecedor(unittest.TestCase):
+    """issue #149: MEI e sem cadastro saem do índice (sem nome, sem município: não há título único sem vazar dado);
+    PJ com razão social repetida (filiais) ganha o CNPJ no título."""
+
+    def test_mei_e_sem_cadastro_nao_indexam(self):
+        with tempfile.TemporaryDirectory() as d:
+            pags = {p["path"]: p for p in gerar(d)}
+        self.assertIs(pags[f"/rastro/fornecedor/{ID_MEI}/"]["indexar"], False)
+        self.assertIs(pags[f"/rastro/fornecedor/{ID_SEM}/"]["indexar"], False)
+        self.assertIs(pags[f"/rastro/fornecedor/{ID_PJ}/"]["indexar"], True)
+        self.assertIs(pags["/rastro/"]["indexar"], True)
+
+    def test_robots_noindex_no_envolver(self):
+        import build_site
+        with tempfile.TemporaryDirectory() as d:
+            gerar(d, envolver=build_site.rastro_envolver("2026-10-04", "2026-10-18"))
+            ler = lambda i: (Path(d) / "rastro" / "fornecedor" / i / "index.html").read_text(encoding="utf-8")
+            mei, sem, pj = ler(ID_MEI), ler(ID_SEM), ler(ID_PJ)
+        for h in (mei, sem):
+            self.assertIn('<meta name="robots" content="noindex,follow', h)
+            self.assertNotIn('content="index,follow', h)
+        self.assertIn('<meta name="robots" content="index,follow', pj)
+        self.assertNotIn("noindex", pj)
+
+    def test_mei_titulo_sem_cnpj_inteiro(self):
+        with tempfile.TemporaryDirectory() as d:
+            pags = {p["path"]: p for p in gerar(d)}
+        t = pags[f"/rastro/fornecedor/{ID_MEI}/"]["titulo"]
+        self.assertNotIn("11111111", t)
+        self.assertNotIn("11.111.111", t)
+        self.assertNotIn("NOME DO MEI", t)
+
+    def test_filial_com_razao_repetida_ganha_cnpj(self):
+        with tempfile.TemporaryDirectory() as d:
+            pags = {p["path"]: p for p in gerar_com_filial(d)}
+        matriz, filial = pags[f"/rastro/fornecedor/{ID_PJ}/"]["titulo"], pags[f"/rastro/fornecedor/{FILIAL}/"]["titulo"]
+        self.assertNotEqual(matriz, filial)
+        self.assertIn("EMPRESA GRANDE LTDA (CNPJ 33.333.333/0001-91)", matriz)
+        self.assertIn("EMPRESA GRANDE LTDA (CNPJ 33.333.333/0002-72)", filial)
+
+    def test_razao_unica_mantem_titulo(self):
+        with tempfile.TemporaryDirectory() as d:
+            pags = {p["path"]: p for p in gerar(d)}
+        self.assertEqual(pags[f"/rastro/fornecedor/{ID_PJ}/"]["titulo"], "EMPRESA GRANDE LTDA: fornecedor de campanha | Rastro do dinheiro")
+
+    def test_nenhum_titulo_duplicado_entre_indexaveis(self):
+        with tempfile.TemporaryDirectory() as d:
+            pags = gerar_com_filial(d)
+        titulos = [p["titulo"] for p in pags if p["indexar"]]
+        self.assertTrue(titulos)
+        self.assertEqual(len(titulos), len(set(titulos)), [t for t in titulos if titulos.count(t) > 1])
+
+    def test_detecta_duplicado(self):
+        """o teste acima falharia se dois fornecedores MEI fossem indexáveis: os títulos deles são iguais"""
+        with tempfile.TemporaryDirectory() as d:
+            pags = gerar(d)
+        meis = [p["titulo"] for p in pags if p["path"] in (f"/rastro/fornecedor/{ID_MEI}/", f"/rastro/fornecedor/{ID_SEM}/")]
+        self.assertEqual(len(set(meis)), 1)
+
+    def test_sitemap_sem_mei(self):
+        import build_site
+        with tempfile.TemporaryDirectory() as d:
+            mapa = {p for p, _, _ in build_site.rastro_sitemap(gerar(d), "2026-10-18")}
+        self.assertIn(f"/rastro/fornecedor/{ID_PJ}/", mapa)
+        self.assertIn("/rastro/", mapa)
+        self.assertNotIn(f"/rastro/fornecedor/{ID_MEI}/", mapa)
+        self.assertNotIn(f"/rastro/fornecedor/{ID_SEM}/", mapa)
+
+
 class TestHome(unittest.TestCase):
     def home(self, **kw):
         with tempfile.TemporaryDirectory() as d:
