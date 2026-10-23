@@ -36,7 +36,7 @@ export function Placar({ cargo, r, kicker, selo, onVoltar, ponto, serie, idx, tu
       <p class="kicker">${kicker}</p>
       ${onVoltar && html`<button type="button" class="link" onClick=${onVoltar}>← Brasil</button>`}
     </div>
-    <h1 class="manchete pequena">Nenhuma seção apurada ainda</h1>
+    <h1 class="manchete pequena">${turno === 2 ? "A apuração começa domingo, 25/10, às 17h (Brasília)" : "Nenhuma seção apurada ainda"}</h1>
     ${pend?.length > 0 && html`<p class="mais pend">UFs atualizando: ${pend.join(", ")}</p>`}
     <p class="vazio-txt">O TSE já publicou ${turno === 2 ? "o 2º turno" : "a eleição"}, mas ainda sem votos totalizados${pst != null ? ` (${pct(pst, 1)}% das seções)` : ""}. Os números aparecem aqui assim que as primeiras urnas forem apuradas.</p>`;
   const [a, b] = r.cands;

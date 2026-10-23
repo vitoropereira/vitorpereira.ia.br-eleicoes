@@ -42,6 +42,11 @@ export function deRecorte(uf) {
   if (uf === "BR") return "do país";
   return noRecorte(uf).replace(/^no /, "do ").replace(/^na /, "da ").replace(/^em /, "de ");
 }
+/** sujeito no início de frase: "A Paraíba", "O Rio de Janeiro", "São Paulo" */
+export function oRecorte(uf) {
+  if (uf === "BR") return "O Brasil";
+  return noRecorte(uf).replace(/^no /, "O ").replace(/^na /, "A ").replace(/^em /, "");
+}
 
 export const CARGOS = [["presidente", "Presidente"], ["governador", "Governador"], ["senador", "Senado"], ["depfed", "Dep. federal"], ["depest", "Dep. estadual"]];
 export const CARGO_NOME = Object.fromEntries(CARGOS);
@@ -324,11 +329,50 @@ export function secPuxadores(D, uf, cargo = "depfed") {
   };
 }
 
+/** terra × gente: área dos municípios ganhos × votos válidos (presidente, 1º turno). Frases só com números do JSON. */
+export function secTerraGente(D, uf) {
+  const t = D["terra-gente"], g = t?.grupos?.[uf];
+  if (!g) return vazio(uf);
+  const v = g.venc, cand = { L: g.lula_pct, F: g.flavio_pct };
+  const k = (v.F?.area_pct ?? 0) >= (v.L?.area_pct ?? 0) ? "F" : "L", o = k === "F" ? "L" : "F";
+  const area = deRecorte(uf);
+  const so = !v[o].mun && !v.E?.mun;
+  const mun = (n) => `${int(n)} ${n === 1 ? "município" : "municípios"}`;
+  const frases = [
+    so ? `${CAND[k]} teve mais votos que ${CAND[o]} ${v[k].mun === 1 ? "no único município" : `em todos os ${int(v[k].mun)} municípios`}, com ${pct(cand[k])} dos válidos, contra ${pct(cand[o])} de ${CAND[o]}.`
+      : `${CAND.F} venceu em ${mun(v.F.mun)}, que somam ${pct(v.F.area_pct)} da área ${area} e ${pct(v.F.validos_pct)} dos votos válidos (de todos os candidatos); ${CAND.L}, em ${int(v.L.mun)}, com ${pct(v.L.area_pct)} da área e ${pct(v.L.validos_pct)} dos válidos${v.E?.mun ? ` (${int(v.E.mun)} ${v.E.mun === 1 ? "empatou" : "empataram"})` : ""}.`,
+  ];
+  if (!so) frases.push(`Contando votos, ${CAND.L} teve ${pct(cand.L)} dos válidos ${noRecorte(uf)} e ${CAND.F}, ${pct(cand.F)}.`);
+  const cap = t.capital_sp, norte = t.grupos.Norte;
+  const up = (x) => x[0].toUpperCase() + x.slice(1);
+  if (uf !== "BR") frases.push(`${oRecorte(uf)} tem ${pct(g.area_br)} da área do país e ${pct(g.validos_br, 2)} dos votos válidos para presidente.`);
+  const capTx = cap && `a cidade de ${cap.nome} teve ${int(cap.validos)} votos válidos para presidente, tanto quanto as ${int(cap.n_menores)} menores cidades do país somadas, que ocupam ${int(cap.area_menores)} km²${cap.menores_sem_area ? ` (sem a área de ${cap.menores_sem_area === 1 ? "1 município sem polígono" : `${int(cap.menores_sem_area)} municípios sem polígono`} na malha)` : ""} contra ${int(cap.area)} km² da capital`;
+  if (uf === "SP" && capTx) frases.push(`${up(capTx)}.`);
+  if (uf === "BR") {
+    const norteTx = norte && `a região Norte tem ${pct(norte.area_br)} da área do país e ${pct(norte.validos_br, 2)} dos votos válidos`;
+    const junta = [capTx, norteTx].filter(Boolean).join("; ");
+    if (junta) frases.push(`${up(junta)}.`);
+    // contraposição neutra, só se os dados confirmarem: no RJ o mapa favorece Flávio, na PB favorece Lula
+    const rj = t.grupos.RJ, pb = t.grupos.PB;
+    if (rj?.venc?.F && pb?.venc?.L && rj.venc.F.area_pct > rj.flavio_pct && pb.venc.L.mun === pb.mun && pb.mun > 0) {
+      const n = Math.round(1 / pb.flavio_pct), umEm = n > 1 && Math.abs(1 / n - pb.flavio_pct) < 0.005 ? ` (1 em cada ${n})` : "";
+      frases.push(`O efeito vale para os dois lados: no Rio de Janeiro, os municípios em que ${CAND.F} venceu somam ${pct(rj.venc.F.area_pct)} da área, e ele teve ${pct(rj.flavio_pct)} dos válidos do estado; na Paraíba, ${CAND.L} venceu em todos os ${int(pb.mun)} municípios, e ${CAND.F} teve ${pct(pb.flavio_pct)} dos válidos${umEm}.`);
+    }
+  }
+  const semGeo = (t.sem_geometria || []).filter((x) => uf === "BR" || x.uf === uf);
+  return {
+    ok: true, uf, k, g, frases, semGeo,
+    titulo: `${CAND[k]} venceu em ${pct(v[k].area_pct)} da área ${area}, com ${pct(cand[k])} dos votos válidos`,
+    numero: pct(v[k].area_pct),
+    rotulo: `da área ${area} está em municípios onde ${CAND[k]} teve mais votos; nos votos válidos, ${pct(cand[k])}`,
+  };
+}
+
 /** ordem e títulos das seções da página (id = âncora) */
 export const SECOES = [
   ["destaques", "Destaques"], ["campos", "Votos por campo e cargo"], ["voto-dividido", "Voto dividido"],
   ["votos-cadeiras", "Votos × cadeiras"], ["divergencias", "Divergências"], ["comparacao-2022", "2022 × 2026"],
-  ["cenarios-2-turno", "Cenários do 2º turno"], ["brancos-nulos", "Brancos e nulos"], ["fragmentacao", "Fragmentação"],
+  ["terra-gente", "Terra × gente"], ["cenarios-2-turno", "Cenários do 2º turno"], ["brancos-nulos", "Brancos e nulos"], ["fragmentacao", "Fragmentação"],
   ["legenda", "Voto de legenda"], ["puxadores", "Puxadores de voto"], ["faq", "Perguntas frequentes"], ["metodo", "Método"],
 ];
 
@@ -342,6 +386,7 @@ export function recorte(D, uf = "BR", op = {}) {
     cadeiras: secCadeiras(D, u),
     divergencias: secDivergencias(D, u, op.cargoDiv || "depfed"),
     comparacao: secComparacao(D, u),
+    terraGente: secTerraGente(D, u),
     cenarios: secCenarios(D),
     brancos: secBrancos(D, u),
     fragmentacao: secFragmentacao(D, u),

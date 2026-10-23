@@ -874,8 +874,19 @@ def aplicar_correcoes(paginas, correcoes):
     return paginas
 
 
-def _meta(path, titulo, desc, html_, passos):
-    return {"path": "/" + path, "titulo": titulo, "desc": desc, "html": html_, "crumbs": [("Rastro do dinheiro", "/rastro/")] + passos}
+def _meta(path, titulo, desc, html_, passos, indexar=True):
+    """indexar=False: a página fica no ar, mas com robots noindex,follow e fora do sitemap (build_site)."""
+    return {"path": "/" + path, "titulo": titulo, "desc": desc, "html": html_, "crumbs": [("Rastro do dinheiro", "/rastro/")] + passos,
+            "indexar": indexar}
+
+
+def _titulo_fornecedor(a, repetidos):
+    """MEI/sem cadastro: CNPJ mascarado (título igual entre todos; a página não indexa). PJ: razão social, com o CNPJ
+    formatado quando a razão se repete (matriz e filiais), para cada página indexável ter título único."""
+    if a["mei"]:
+        return f"MEI {ind.mascarar_cnpj(a['cnpj'])}: fornecedor de campanha | Rastro do dinheiro"
+    quem = f"{a['rotulo']} (CNPJ {ind.formatar_cnpj(a['cnpj'])})" if a["rotulo"] in repetidos else a["rotulo"]
+    return f"{quem}: fornecedor de campanha | Rastro do dinheiro"
 
 
 def _chave_contraparte(f, rec, mei):
@@ -1034,12 +1045,13 @@ def gerar(dest, publicados, eleitos, dir_contas, indicadores, fornecedores, cfg,
                              f"Receitas, despesas por fornecedor e indicadores da campanha de {e['nome_urna']} ({e['partido']}) a presidente "
                              f"no 2º turno, e as afirmações checadas nos debates, com a fonte de cada dado. {AVISO}", en["html"],
                              [(e["nome_urna"], None)]))
+    repetidos = {r for r, n in Counter(a["rotulo"] for a in agg.values() if not a["mei"]).items() if n > 1}
     for a in sorted(agg.values(), key=lambda a: a["id"]):
         corpo = html_fornecedor(a["id"], a["rec"], a["campanhas"], a["itens"], cfg, bases_g, anteriores, a["pendentes"], a["outras"])
         quem = f"MEI, CNPJ {ind.mascarar_cnpj(a['cnpj'])}" if a["mei"] else a["rotulo"]
-        paginas.append(_meta(f"rastro/fornecedor/{a['id']}/", f"{'MEI ' + ind.mascarar_cnpj(a['cnpj']) if a['mei'] else a['rotulo']}: fornecedor de campanha | Rastro do dinheiro",
+        paginas.append(_meta(f"rastro/fornecedor/{a['id']}/", _titulo_fornecedor(a, repetidos),
                              f"Campanhas de 2026 que contrataram {quem}, situação cadastral e indicadores em que aparece. {AVISO}", corpo,
-                             [("Fornecedor", None)]))
+                             [("Fornecedor", None)], indexar=not a["mei"]))
     if correcoes:
         aplicar_correcoes(paginas, correcoes)
     for p in paginas:

@@ -104,6 +104,28 @@ def listar(raiz):
     return sorted(ms, key=lambda m: (m["debate"]["data"], m["path"]), reverse=True)
 
 
+def _rotulo(deb):
+    return f"Debate {deb['emissora']} {deb['turno']}º turno {deb['ano']}"
+
+
+def tambem(modelos):
+    """{(path do debate, id): [(path da outra afirmação, emissora, rótulo do outro debate)]}: a mesma `tese` dita pelo
+    mesmo `quem` em outro debate publicado (afirmação com checagem). Repetição dentro do mesmo debate não liga.
+    A ordem é a de `modelos` (a de `listar`, do debate mais novo para o mais antigo)."""
+    grupos = {}
+    for m in modelos:
+        for c in m["checagens"]:
+            a = m["itens"][c["id"]]
+            grupos.setdefault((a["quem"], a["tese"]), []).append((m, c["id"]))
+    out = {}
+    for afs in grupos.values():
+        for m, i in afs:
+            outras = [(f"{o['path']}{j}/", o["debate"]["emissora"], _rotulo(o["debate"])) for o, j in afs if o is not m]
+            if outras:
+                out[(m["path"], i)] = outras
+    return out
+
+
 def _ordenar(conta):
     """{grupo: {veredito: n}} na ordem de GRUPOS e de ORDEM_VEREDITOS, sem grupo vazio."""
     return {g: {v: conta[g][v] for v in ORDEM_VEREDITOS if v in conta[g]} for g in GRUPOS if g in conta}
@@ -158,7 +180,7 @@ def placar_por_candidato(modelos):
     out = {}
     for m in modelos:
         deb = m["debate"]
-        rotulo = f"Debate {deb['emissora']} {deb['turno']}º turno {deb['ano']}"
+        rot = _rotulo(deb)
         for q, c in m["cands"].items():
             if q == V.MEDIACAO or not c.get("id_tse"):
                 continue
@@ -170,7 +192,7 @@ def placar_por_candidato(modelos):
             for ch in chs:
                 g = p["conta"].setdefault(GRUPO_DO_TIPO[m["itens"][ch["id"]]["tipo"]], {})
                 g[ch["veredito"]] = g.get(ch["veredito"], 0) + 1
-            p["debates"].append({"rotulo": rotulo, "path": m["path"], "afirmacoes": [
+            p["debates"].append({"rotulo": rot, "path": m["path"], "afirmacoes": [
                 {"path": f"{m['path']}{ch['id']}/", "afirmacao": m["itens"][ch["id"]]["afirmacao"], "veredito": ch["veredito"],
                  "timestamp": m["itens"][ch["id"]]["timestamp"], "tema": m["itens"][ch["id"]]["tema"]}
                 for ch in chs]})
@@ -226,6 +248,8 @@ main.db{max-width:880px;margin:0 auto;padding:24px 18px 56px}
 .db-selo{display:inline-block;font:600 12px var(--font-mono);text-transform:uppercase;letter-spacing:.04em;border:1px solid var(--ink2);border-radius:999px;padding:1px 9px}
 .db-af p{margin:8px 0 0;font-size:15px;color:var(--ink2)}
 .db-outro{border-top:1px dashed var(--line);padding-top:6px}
+.db-tambem{display:inline-block;margin-left:8px;font-size:12px;color:var(--muted)}
+.db-tambem-em ul{margin:6px 0 0;padding-left:20px}.db-tambem-em li{margin:4px 0}
 .db-fontes{font-size:14px}
 .db-link{display:inline-block;margin-top:8px;font-size:13px;color:var(--muted)}
 .db-cta p{margin:6px 0;font-size:17px}
@@ -328,9 +352,11 @@ def como_checamos():
             'nota do debate: a seleção cobre só frases verificáveis.</p></section>')
 
 
-def gerar(m, base, autor):
+def gerar(m, base, autor, tambem=None):
     """Páginas de um debate: dict com path, titulo, desc, html, ld, publicado, modificado, og, llms, afirmacoes
-    (uma página por checagem), transcricao, placar e resumo (para o índice e o banner)."""
+    (uma página por checagem), transcricao, placar e resumo (para o índice e o banner). tambem: o de `tambem(listar())`;
+    a afirmação ligada ganha o selo "dito também em" no cartão e o bloco "Também dito em" na página dela."""
+    tambem = tambem or {}
     deb, cands, itens, chs = m["debate"], m["cands"], m["itens"], m["checagens"]
     emissora, turno, ano, dia = deb["emissora"], deb["turno"], deb["ano"], data_br(deb["data"])
     path, url = m["path"], base + m["path"]
@@ -340,7 +366,7 @@ def gerar(m, base, autor):
     n = len(chs)
     candidatos = [c for i, c in cands.items() if i != V.MEDIACAO]
     nomes = " x ".join(c["nome_urna"] for c in candidatos)
-    rotulo = f"Debate {emissora} {turno}º turno {ano}"
+    rotulo = _rotulo(deb)
     titulo = f"{rotulo}: o que é verdade"
     desc = (f"Checagem do debate {nomes} para {deb['cargo']} na {emissora}, em {dia}: {n} afirmações com veredito, "
             f"explicação e fontes.")
@@ -380,11 +406,13 @@ def gerar(m, base, autor):
         outro = f'<p class="db-outro"><b>Outro lado:</b> {esc(c["outro_lado"])}</p>' if c.get("outro_lado") else ""
         pagina = f'<a class="db-link" href="{af_path(a["id"])}">Página desta checagem</a>' if link else ""
         tempo = tempo_html(a["timestamp"])
+        emissoras = list(dict.fromkeys(e for _, e, _ in tambem.get((path, a["id"]), [])))
+        selo_tambem = f'<span class="db-tambem">dito também em {esc(", ".join(emissoras))}</span>' if emissoras else ""
         return (f'<article class="db-af" id="{a["id"]}" data-candidato="{attr(a["quem"])}" data-tema="{attr(a["tema"])}" '
                 f'data-veredito="{attr(c["veredito"])}" style="--c:var(--{cd["cor"]})"><div class="db-af-t">'
                 f'<span>{esc(_nome(cd))}</span>{tempo}</div>'
                 f'<p class="db-frase">{esc(a["afirmacao"])}</p><blockquote>“{esc(a["trecho"])}”</blockquote>'
-                f'<span class="db-selo">{esc(ROTULOS[c["veredito"]])}</span>'
+                f'<span class="db-selo">{esc(ROTULOS[c["veredito"]])}</span>{selo_tambem}'
                 f'<p>{esc(c["explicacao"])}</p>{outro}<p class="db-fontes">Fontes: {fontes}</p>{pagina}</article>')
 
     conta = placar(m)
@@ -451,9 +479,13 @@ def gerar(m, base, autor):
         curta = _cortar(frase, 90)
         migalha = f"{TEMAS[a['tema']]}: {_cortar(frase, 40)}"
         t = f"Afirmação de {_nome(cd)}: {curta} · {ROTULOS[c['veredito']]}"
+        ligadas = tambem.get((path, a["id"]), [])
+        tambem_html = ('<section class="db-tambem-em" aria-labelledby="tambem"><h2 id="tambem">Também dito em</h2><ul>'
+                       + "".join(f'<li><a href="{attr(h)}">{esc(r)}</a></li>' for h, _, r in ligadas)
+                       + "</ul></section>") if ligadas else ""
         corpo_af = (_trilha(trilha + [(migalha, None)])
                     + f'<p class="db-kicker">Checagem · {esc(rotulo)} · {esc(TEMAS[a["tema"]])}</p>'
-                    f'<h1>Afirmação de {esc(_nome(cd))}: {esc(frase)}</h1>{cartao(c, link=False)}'
+                    f'<h1>Afirmação de {esc(_nome(cd))}: {esc(frase)}</h1>{cartao(c, link=False)}{tambem_html}'
                     f'<p><a href="{path}#{a["id"]}">← Todas as checagens do debate {esc(emissora)}</a></p>'
                     f'{como_checamos()}')
         afs.append(dict(path=p, titulo=t, desc=f"Veredito: {ROTULOS[c['veredito']]}. {c['explicacao']}"[:300],

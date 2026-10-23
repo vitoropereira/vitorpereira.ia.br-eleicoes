@@ -231,6 +231,10 @@ svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.8;stroke
   .linha{left:332px;right:302px}.zoom{left:332px}
   .modos{max-width:calc(100% - 620px)}
 }
+/* "☰ Seções" (build_site.SECOES_CSS): de 1024 a 1440 px só o ícone (o rótulo fica para leitor de tela) e, até 1440,
+   a busca também fica só com a lupa, para o cabeçalho caber sem cortar */
+@media (min-width:1341px) and (max-width:1440px){ .busca span{display:none} }
+@media (min-width:1024px) and (max-width:1440px){ .hud-top .secoes>button{padding:6px 10px}.hud-top .secoes>button .tx{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap} }
 @media (min-width:1024px) and (max-width:1180px){ .acoes .bt:not(.ic):not(.busca) span{display:none} }
 
 /* ---------- celular/tablet: coluna única com rolagem */
@@ -238,6 +242,7 @@ svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.8;stroke
   .hud-top{flex-wrap:wrap;gap:8px;padding:10px 12px}
   .acoes{display:contents}
   .marca{order:1;font-size:13.5px}
+  .hud-top .secoes{order:1}
   .status{order:2;margin-left:auto;font-size:11.5px}
   .st-l{display:none}.st-c{display:inline}
   .turnos{order:3}
@@ -268,6 +273,8 @@ svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.8;stroke
   .hud-pe{display:flex;flex-direction:column;gap:6px;padding:4px 16px 96px;font-size:12px;color:var(--muted)}
   .hud-pe a,.hud-pe .link{color:var(--ink2);font-size:12px}
 }
+/* celular estreito: a marca perde o "/ eleições 2026" para o "☰ Seções" caber na 1ª linha, junto do status */
+@media (max-width:480px){ .marca .ctx,.marca .sep{display:none} }
 @media (prefers-reduced-motion:reduce){ .dot{animation:none!important} *{scroll-behavior:auto!important;transition:none!important} }
 </style>
 </head>

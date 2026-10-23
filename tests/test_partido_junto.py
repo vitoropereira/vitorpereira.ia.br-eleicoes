@@ -1,7 +1,7 @@
 """Partido junto do nome: todo bloco do site que cita um candidato traz a sigla dele no mesmo bloco (issues #69 e #74).
 O helper blocos_sem_sigla roda sobre o HTML pré-renderizado; rotulos_canvas pega o que o Chart.js desenha no canvas
 (que não vira HTML); os testes de página dependem do Chrome headless."""
-import html, html.parser, json, re, shutil, sys, tempfile, unittest
+import functools, html, html.parser, json, re, shutil, sys, tempfile, unittest
 from pathlib import Path
 
 R = Path(__file__).resolve().parent.parent
@@ -52,19 +52,39 @@ class _Blocos(html.parser.HTMLParser):
                 e[2].append(data)
 
 
+@functools.cache
 def _re(palavra):
     return re.compile(rf"(?<!\w){re.escape(palavra)}(?!\w)")
+
+
+PALAVRA = re.compile(r"\w+")
+
+
+@functools.cache
+def _indice(chave):
+    """(nomes, por_palavra, sempre) de um dicionário de candidatos congelado em `chave`. `nomes` vem do mais longo ao
+    mais curto; `por_palavra` leva a 1ª palavra do nome aos índices dele em `nomes`; `sempre` são os nomes que não
+    começam com letra ou dígito, conferidos em todo bloco."""
+    nomes = sorted(((n, sg) for sg, ns in chave for n in ns), key=lambda x: -len(x[0]))
+    por_palavra, sempre = {}, []
+    for i, (n, _) in enumerate(nomes):
+        m = PALAVRA.match(n)
+        (por_palavra.setdefault(m.group(0), []) if m else sempre).append(i)
+    return nomes, por_palavra, sempre
 
 
 def blocos_sem_sigla(doc, candidatos, corte=160):
     """[(bloco, nome)] dos blocos que citam um nome de `candidatos` ({sigla: [nomes e apelidos]}) sem a sigla no bloco.
     Nomes mais longos casam primeiro e saem do texto: "Cadu de Lula" não conta como menção a Lula."""
     p = _Blocos(); p.feed(doc); p.close()
-    nomes = sorted(((n, sg) for sg, ns in candidatos.items() for n in ns), key=lambda x: -len(x[0]))
+    nomes, por_palavra, sempre = _indice(tuple((sg, tuple(ns)) for sg, ns in candidatos.items()))
     achados = []
     for _, texto in p.blocos:
         resto, citados = texto, {}
-        for n, sg in (x for x in nomes if x[0] in texto):  # filtro barato: a varredura do site/ usa ~1.700 nomes
+        # filtro barato (a varredura do site/ usa ~1.700 nomes): um nome que casa como palavra inteira começa numa
+        # palavra do bloco igual à 1ª palavra dele; a ordem do mais longo ao mais curto fica
+        idx = set(sempre).union(*(por_palavra.get(w, ()) for w in set(PALAVRA.findall(texto))))
+        for n, sg in (nomes[i] for i in sorted(idx)):
             if _re(n).search(resto):
                 citados.setdefault(sg, n)
                 resto = _re(n).sub("\0", resto)
@@ -172,6 +192,23 @@ class Helper(unittest.TestCase):
         self.assertEqual(blocos_sem_sigla(blocos_canvas((FIX / "com_sigla_canvas.js").read_text(), sg), self.CAND), [])
         achados = blocos_sem_sigla(blocos_canvas((FIX / "sem_sigla_canvas.js").read_text(), sg), self.CAND)
         self.assertEqual(achados, [("Lula (projeção mediana)", "Lula")])
+
+    def test_resultado_exato_da_varredura(self):
+        """trava a saída de blocos_sem_sigla e achados_rastro (issue #148: a otimização não pode mudar o que acham):
+        nome dentro de nome maior, nomes que se sobrepõem (o mais longo vence), cite, script, nome de urna dentro de
+        nome maior e nome que não começa com letra"""
+        cand = {"PT": ["Lula", "Cadu de Lula", "LUIZ DA SILVA"], "PL": ["Flávio Bolsonaro", "Flávio", "B C D"],
+                "MDB": ["A B", "CASTRO NETO"], "NOVO": ["-Zé"]}
+        doc = ("<p>Cadu de Lula disse</p><li>Lula (PT) e Flávio</li><p>Flávio Bolsonaro · PL</p>"
+               "<tr><td><cite>Lula fala</cite> sem nome</td></tr><script>var x='<p>Lula</p>'</script>"
+               "<p>A B C D</p><p>JOSE DIAS DE CASTRO NETO</p><p>CASTRO NETO · MDB</p><p>LUIZ DA SILVA, Lulalândia</p>"
+               "<p>o -Zé foi</p>")
+        comuns = [("Cadu de Lula disse", "Cadu de Lula"), ("Lula (PT) e Flávio", "Flávio"), ("A B C D", "B C D")]
+        fim = [("LUIZ DA SILVA, Lulalândia", "LUIZ DA SILVA"), ("o -Zé foi", "-Zé")]
+        self.assertEqual(blocos_sem_sigla(doc, cand), comuns + [("JOSE DIAS DE CASTRO NETO", "CASTRO NETO")] + fim)
+        self.assertEqual(achados_rastro(doc, cand), comuns + fim)
+        cand["PSOL"] = ["Lulalândia"]  # o índice de nomes não pode ficar velho quando o dicionário muda
+        self.assertIn(("LUIZ DA SILVA, Lulalândia", "Lulalândia"), blocos_sem_sigla(doc, cand))
 
     def test_candidatos_tira_siglas_do_dado(self):
         c = candidatos(_rel(), _meta22())
@@ -337,7 +374,13 @@ class AoVivoPublicado(unittest.TestCase):
 
 def candidatos_site():
     """candidatos(rel, meta22) mais os eleitos do Rastro pelo nome de urna completo, de duas palavras ou mais (nome com
-    mais de um partido fica de fora)"""
+    mais de um partido fica de fora). SiteGerado e SitePublicado dividem uma leitura só (issue #148); cada um recebe
+    sua cópia"""
+    return {sg: list(ns) for sg, ns in _candidatos_site().items()}
+
+
+@functools.cache
+def _candidatos_site():
     out = candidatos(_rel(), _meta22())
     ja = {n for ns in out.values() for n in ns}
     por_nome = {}
@@ -396,6 +439,13 @@ class SiteGerado(unittest.TestCase):
         self.assertGreater(len(self.paginas), 10)
         achados = {k: a[:3] for k, doc in self.paginas.items() if (a := achados_rastro(doc, self.cand))}
         self.assertEqual(achados, {})
+
+    def test_titulos_indexaveis_unicos(self):
+        """issue #149: com o dado real, nenhum <title> se repete entre as páginas do Rastro que indexam (MEI vai de noindex)."""
+        titulos = [re.search(r"<title>(.*?)</title>", h).group(1) for h in self.paginas.values()
+                   if 'content="noindex,follow' not in h]
+        self.assertGreater(len(titulos), 10)
+        self.assertEqual(sorted({t for t in titulos if titulos.count(t) > 1}), [])
 
     def test_no_sem_sigla_falha(self):
         """caso negativo: tirar a sigla do nó da campanha num HTML do Rastro dá achado"""

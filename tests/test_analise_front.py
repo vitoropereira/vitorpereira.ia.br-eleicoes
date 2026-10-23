@@ -216,6 +216,28 @@ class Copia(unittest.TestCase):
         self.assertIn("/analise/dados/(.*)", fontes)
 
 
+class CodigoAnalise(unittest.TestCase):
+    """issue #149: /analise/codigo/ com description, canonical, og e JSON-LD"""
+
+    def test_metas(self):
+        with tempfile.TemporaryDirectory() as t:
+            B.copiar_codigo_analise(Path(t))
+            h = (Path(t) / "analise" / "codigo" / "index.html").read_text()
+        self.assertEqual(h.count("<title>"), 1)
+        self.assertIn("<title>Código do cálculo | Análise · Eleições 2026</title>", h)
+        self.assertRegex(h, r'<meta name="description" content="[^"]+">')
+        self.assertIn(f'<link rel="canonical" href="{B.BASE}/analise/codigo/">', h)
+        for prop in ("og:title", "og:description", "og:url", "og:image"):
+            self.assertIn(f'<meta property="{prop}"', h)
+        self.assertIn(f'<meta property="og:url" content="{B.BASE}/analise/codigo/">', h)
+        self.assertIn('<meta name="robots" content="index,follow', h)
+        self.assertIn("WebPage", ld_tipos(h))
+        bc = next(json.loads(x) for x in re.findall(r'<script type="application/ld\+json">(.*?)</script>', h, re.S)
+                  if json.loads(x)["@type"] == "BreadcrumbList")
+        self.assertEqual([i["name"] for i in bc["itemListElement"]], ["Início", "Análise", "Código do cálculo"])
+        self.assertIn('<a href="analise/calcular.py">', h)
+
+
 class Painel(unittest.TestCase):
     app = (R / "hud" / "app.js").read_text()
 
@@ -258,13 +280,20 @@ class MesmoDenominador(unittest.TestCase):
 
 @unittest.skipUnless((R / "site" / "analise" / "index.html").exists(), "rode python3 build_site.py antes")
 class Saida(unittest.TestCase):
+    """Confere o site/ montado contra ele mesmo: as seções vêm do pré-render (site/analise/index.html), não da lista do
+    código, porque o site/ commitado só é regenerado pelo lote (seção nova no código não pode quebrar aqui)."""
     SITE = R / "site"
+
+    def secoes(self):
+        ids = B.secoes_do_dom((self.SITE / "analise" / "index.html").read_text())
+        self.assertIn("campos", ids)
+        return [sid for sid, _ in B.SECOES_ANALISE if sid in ids]
 
     def test_pagina_e_compartilhar(self):
         h = (self.SITE / "analise" / "index.html").read_text()
         self.assertIn(brand.CSS, h)
         self.assertIn('id="campos"', h, "pré-render sem as seções")
-        for sid, _ in B.SECOES_ANALISE:
+        for sid in self.secoes():
             self.assertTrue((self.SITE / "analise" / sid / "index.html").exists(), sid)
 
     def test_faqpage_quando_ha_faq(self):
@@ -280,9 +309,34 @@ class Saida(unittest.TestCase):
     def test_cartoes_quando_ha_dados(self):
         if not (self.SITE / "analise" / "dados").is_dir():
             self.skipTest("sem dados da análise")
-        for sid, _ in B.SECOES_ANALISE:
+        for sid in self.secoes():
             self.assertTrue((self.SITE / "og" / f"analise-{sid}.png").exists(), sid)
             self.assertTrue((self.SITE / "og" / "social" / f"analise-{sid}.png").exists(), sid)
+
+
+class MenuSecoes(unittest.TestCase):
+    """menu "☰ Seções" da Análise (issue 138): gerado no build a partir de B.secoes(), nada escrito à mão no template"""
+
+    def test_template_tem_o_marcador_e_nenhum_link_de_secao_a_mao(self):
+        t = TEMPLATE.read_text()
+        self.assertEqual(t.count("<!--__SECOES__-->"), 1)
+        for u in ("/rastro/", "/debates/", "/apuracao/"):
+            self.assertNotIn(f'href="{u}"', t, "a lista vem de B.secoes(), não do template")
+
+    def test_pagina_gerada_tem_o_menu_com_a_mesma_lista(self):
+        h = B.html_analise({}, PUB, MOD)
+        m = re.search(r'<div class="secoes">.*?</div>', h, re.S)
+        self.assertIsNotNone(m, "menu de seções ausente na Análise")
+        menu = m.group(0)
+        self.assertEqual(re.findall(r'<a href="([^"]+)"', menu), [u for u, _ in B.secoes()])
+        self.assertIn('aria-expanded="false"', menu)
+        self.assertRegex(menu, r'<nav[^>]*\bhidden\b')
+        self.assertRegex(menu, r'<a href="/analise/" aria-current="page"')
+        self.assertIn('<script type="module" src="/hud/secoes.js"></script>', h)
+        self.assertIn(B.SECOES_CSS, h)
+
+    def test_css_do_menu_sem_hex(self):
+        self.assertEqual(HEX.findall(B.SECOES_CSS), [])
 
 
 if __name__ == "__main__":

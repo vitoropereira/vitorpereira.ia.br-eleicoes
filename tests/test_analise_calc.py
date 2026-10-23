@@ -13,7 +13,7 @@ import inferencia as EI  # noqa: E402
 
 UFS = CALC.UFS
 ARQS = ["lados", "campos", "dividido", "cadeiras", "divergencias", "brancos", "fragmentacao", "legenda", "puxadores",
-        "comparacao2022", "cenarios", "destaques", "faq"]
+        "comparacao2022", "cenarios", "terra-gente", "destaques", "faq"]
 _c = {}
 
 
@@ -301,6 +301,55 @@ class TestViradas(unittest.TestCase):
         self.assertEqual(CALC.lado_pres(9, 10, "B"), "B")
 
 
+class TestTerraGente(unittest.TestCase):
+    def test_area_quadrado_e_buraco(self):
+        q = [(0, 0), (1, 0), (1, 1), (0, 1)]
+        self.assertAlmostEqual(CALC.area_km2([[q]]), 12364, delta=12364 * 0.01)
+        b = [(0.25, 0.25), (0.25, 0.75), (0.75, 0.75), (0.75, 0.25)]
+        self.assertAlmostEqual(CALC.area_km2([[q, b]]), CALC.area_km2([[q]]) - CALC.area_km2([[b]]), places=6)
+        self.assertAlmostEqual(CALC.area_km2([[b]]), CALC.area_km2([[q]]) / 4, delta=1)
+
+    def test_malha_soma_brasil(self):
+        a = CALC.areas_topo()
+        self.assertEqual(len(a), 5570)
+        self.assertAlmostEqual(sum(a.values()), 8.51e6, delta=8.51e6 * 0.02)
+        self.assertNotIn("5101837", a)
+
+    def test_numeros_da_issue(self):
+        t = dado("terra-gente")
+        br, sp, norte = t["grupos"]["BR"], t["grupos"]["SP"], t["grupos"]["Norte"]
+        self.assertEqual(br["venc"]["F"]["mun"], 2906)
+        self.assertEqual(br["venc"]["L"]["mun"], 2663)
+        self.assertEqual({(e["nome"], e["uf"]) for e in t["empates"]}, {("Trabiju", "SP"), ("Crixás do Tocantins", "TO")})
+        self.assertAlmostEqual(sp["flavio_pct"], 0.519, delta=0.0005)
+        self.assertAlmostEqual(sp["venc"]["F"]["area_pct"], 0.938, delta=0.001)
+        self.assertEqual((sp["venc"]["F"]["mun"], sp["mun"]), (605, 645))
+        cap = t["capital_sp"]
+        self.assertEqual((cap["nome"], cap["validos"], cap["n_menores"]), ("São Paulo", 6552820, 2074))
+        self.assertGreaterEqual(cap["soma_menores"], cap["validos"])
+        self.assertEqual(cap["menores_sem_area"], 1)  # Boa Esperança do Norte está entre as menores e não tem polígono
+        self.assertAlmostEqual(norte["area_br"], 0.453, delta=0.0005)
+        self.assertAlmostEqual(norte["validos_br"], 0.0857, delta=0.00005)
+        self.assertEqual([s["cd"] for s in t["sem_geometria"]], ["5101837"])
+        self.assertIsNone(t["mu"]["5101837"][0])
+        # contraposições usadas nos textos: RJ (Flávio) e PB (Lula)
+        rj, pb = t["grupos"]["RJ"], t["grupos"]["PB"]
+        self.assertAlmostEqual(rj["venc"]["F"]["area_pct"], 0.92, delta=0.005)
+        self.assertAlmostEqual(rj["flavio_pct"], 0.53, delta=0.005)
+        self.assertEqual((pb["venc"]["L"]["mun"], pb["mun"]), (223, 223))
+        self.assertAlmostEqual(pb["flavio_pct"], 1 / 3, delta=0.005)
+
+    def test_somas(self):
+        t = dado("terra-gente")
+        br = t["grupos"]["BR"]
+        self.assertEqual(br["mun"], len(t["mu"]))
+        self.assertEqual(sum(t["grupos"][u]["validos"] for u in UFS), br["validos"])
+        self.assertEqual(sum(t["grupos"][r]["mun"] for r in t["regioes"]), br["mun"])
+        self.assertEqual(sorted(u for us in t["regioes"].values() for u in us), sorted(UFS))
+        for g in t["grupos"].values():
+            self.assertAlmostEqual(sum(x["area_pct"] for x in g["venc"].values()), 1, delta=0.0003)
+
+
 class TestCenarios(unittest.TestCase):
     PROP = {"lula", "flavio", "lula_validos", "flavio_validos", "flavio_pct_eliminados", "flavio_pct_dos_eliminados",
             "lula_pct_dos_eliminados", "lula_1t", "bolsonaro_1t", "lula_2t", "bolsonaro_2t", "eliminados_pct"}
@@ -369,14 +418,31 @@ class TestLados(unittest.TestCase):
 
 
 class TestDeterminismo(unittest.TestCase):
-    def roda(self, pasta, boot):
-        subprocess.run([sys.executable, str(AN / "calcular.py"), "--saida", pasta, "--boot", str(boot)],
-                       check=True, capture_output=True)
+    @staticmethod
+    def dispara(pasta, boot, proc=8, hashseed=None):
+        env = dict(os.environ, **({"PYTHONHASHSEED": str(hashseed)} if hashseed is not None else {}))
+        return subprocess.Popen([sys.executable, str(AN / "calcular.py"), "--saida", pasta, "--boot", str(boot),
+                                 "--proc", str(proc)], env=env, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+
+    @staticmethod
+    def colhe(proc, pasta):
+        out, err = proc.communicate()
+        if proc.returncode:
+            raise AssertionError(f"calcular.py saiu com {proc.returncode}: {err.decode()[-2000:]}")
         return {n: (Path(pasta) / f"{n}.json").read_bytes() for n in ARQS}
 
+    def roda(self, pasta, boot):
+        return self.colhe(self.dispara(pasta, boot), pasta)
+
     def test_duas_rodadas_iguais(self):
+        """as duas rodadas correm juntas (issue #148: antes era uma depois da outra, com 20 reamostragens), uma em
+        série e outra com Pool de 4, cada uma com PYTHONHASHSEED diferente: a saída não pode depender da ordem de set/dict
+        por hash nem da ordem em que o Pool devolve. Com 3 reamostragens (eram 20) roda o mesmo código de semente e
+        percentil; a rodada inteira, com as 200, é a de test_igual_ao_versionado"""
         with tempfile.TemporaryDirectory() as a, tempfile.TemporaryDirectory() as b:
-            self.assertEqual(self.roda(a, 20), self.roda(b, 20))
+            pa, pb = self.dispara(a, 3, proc=1, hashseed=1), self.dispara(b, 3, proc=4, hashseed=2)
+            ra, rb = self.colhe(pa, a), self.colhe(pb, b)
+        self.assertEqual(ra, rb)
 
     @unittest.skipUnless(os.environ.get("ANALISE_COMPLETO"), "rodada completa: ANALISE_COMPLETO=1")
     def test_igual_ao_versionado(self):
