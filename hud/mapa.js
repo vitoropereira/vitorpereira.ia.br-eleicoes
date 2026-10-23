@@ -126,7 +126,6 @@ export class Mapa {
     const muns = this.geo.muns;
     if (this.geo.fundo) { // modo Pessoas: o contorno dos estados fica por baixo dos círculos
       ctx.lineJoin = "round";
-      ctx.fillStyle = rgb(token("--muted"), 0.12);
       ctx.strokeStyle = rgb(token("--muted"), 0.35);
       ctx.lineWidth = 0.8 / px;
       ctx.stroke(this.geo.fundo);

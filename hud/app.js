@@ -296,10 +296,11 @@ function App() {
   function pedirPessoas() {
     if (st.current.pessoasPedida) return;
     st.current.pessoasPedida = true;
-    pessoas().then(setPess).catch((e) => { st.current.pessoasPedida = false; setErro(e); });
+    pessoas().then(setPess).catch(() => { st.current.pessoasPedida = false; }); // camada opcional: sem o arquivo o mapa segue com os polígonos
   }
   // modo Pessoas: círculos com os mesmos índices da malha (cores, seleção e dica servem sem mudança)
-  const geo = useMemo(() => (modo === "pessoas" && geoBase && !geoBase.soUF && pess ? decodificarPessoas(geoBase, pess) : geoBase), [modo, geoBase, pess]);
+  const geoPess = useMemo(() => (geoBase && !geoBase.soUF && pess ? decodificarPessoas(geoBase, pess) : null), [geoBase, pess]); // decodifica uma vez
+  const geo = modo === "pessoas" && geoPess ? geoPess : geoBase;
 
   const setTurnoX = (t, auto) => { if (!auto) st.current.turnoEscolhido = true; setTurno(t); setIdxS(null); setUfSel(null); setDica(null); if (t === 2) { setCargoS("presidente"); if (!["municipios", "estados", "pessoas"].includes(modo)) setModoS("municipios"); } };
   const setCargo = (c) => { setCargoS(c); setDica(null); if (c !== "presidente") setIdxS(null); };
@@ -531,7 +532,7 @@ function App() {
     const rk = Object.entries(cont).sort((a, b) => b[1] - a[1]).slice(0, 4);
     if (!rk.length) return null; // ninguém lidera em lugar nenhum (nenhum voto apurado): sem legenda vazia
     const und = modo === "estados" || pontoUF || geo.soUF ? "estados" : "municípios";
-    if (modo === "pessoas" && und === "municípios") return html`${rk.map(([sg, n]) => html`<span class="lg"><${Sw} sg=${sg} /><b>${sg}</b> ${int(n)}</span>`)}<span class="und">municípios · círculo com área ∝ eleitorado · terra × gente · <a href="/analise/#terra-gente">entenda</a></span>`;
+    if (modo === "pessoas" && geo.pessoas && und === "municípios") return html`${rk.map(([sg, n]) => html`<span class="lg"><${Sw} sg=${sg} /><b>${sg}</b> ${int(n)}</span>`)}<span class="und">municípios · círculo com área ∝ eleitorado · terra × gente · <a href="/analise/#terra-gente">entenda</a></span>`;
     return html`${rk.map(([sg, n]) => html`<span class="lg"><${Sw} sg=${sg} /><b>${sg}</b> ${int(n)}</span>`)}<span class="und">${und}${modo === "vantagem" ? " · cor forte = vantagem maior" : ""}</span>`;
   }, [geo, fonte, modo, cargo, pontoUF, resultadoUF, lista, diverg]);
 
