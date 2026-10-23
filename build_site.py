@@ -64,6 +64,12 @@ GOV_OFICIAL = all(g.get("oficial") for g in rel["gov"]); SEN_OFICIAL = all(s.get
 DEP_PENDENTES = sorted(set(rel["depfed"].get("ufs_pendentes", []) + rel["depest"].get("ufs_pendentes", [])))
 apertado = min((u for u in rel["pres_uf"] if u["uf"] != "ZZ"), key=lambda u: abs(u["saldo"]))
 LEITURA = datetime.strptime(f'{N["dg"]} {N["ht"]}', "%d/%m/%Y %H:%M:%S")
+DIA_ELEICAO = "04/10/2026"
+
+
+def hora_leitura(dg, ht):
+    """"21:56" para leitura do dia da eleição; de outro dia, com a data: "05/10 12:51" (issue 150)."""
+    return ht[:5] if dg == DIA_ELEICAO else f"{dg[:5]} {ht[:5]}"
 
 
 # partido junto do nome (sigla do TSE, de relatorio.json): "Flávio Bolsonaro (PL)" e "Flávio (PL)"
@@ -218,7 +224,7 @@ MEDICAO_CSS = """<style id="consent-css">
 .consent button{font:inherit;font-size:14px;font-weight:600;border-radius:8px;padding:8px 16px;cursor:pointer;border:1px solid var(--line);background:var(--card);color:var(--ink)}
 .consent button.ok{background:var(--brand);color:var(--bg);border-color:var(--brand)}
 .consent button:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
-@media (max-width:520px){.consent .bt{width:100%}.consent button{flex:1}}
+@media (max-width:520px){.consent .in{padding:8px 16px;gap:8px}.consent p{font-size:13px;line-height:1.4;flex-basis:100%}.consent .bt{width:100%}.consent button{flex:1;padding:6px 12px;font-size:13px}}
 </style>
 """
 MEDICAO_JS = """(function(){
@@ -939,11 +945,11 @@ q{{display:block;font:600 {tam}px/1.25 Inter,sans-serif;margin:22px 0 0}}
 
 
 IDX_CSS = """<style>
-.rd{display:grid;grid-template-columns:70px 120px 1fr 260px;gap:16px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:0 0 10px;color:var(--ink);text-decoration:none}
+.rd{display:grid;grid-template-columns:96px 120px 1fr 260px;gap:16px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:0 0 10px;color:var(--ink);text-decoration:none}
 .rd:hover{border-color:var(--muted)}.rd .t{color:var(--ink2);font-variant-numeric:tabular-nums}.rd .p{font-size:24px;font-weight:700;font-variant-numeric:tabular-nums}
 .rd small{display:block;font-size:12px;font-weight:400;color:var(--muted)}.rd .bar{height:12px;border-radius:4px;background:var(--line);display:flex;gap:2px;overflow:hidden}.rd .bar i{display:block;height:100%}
 .rd .v{font-size:14px;font-variant-numeric:tabular-nums}.final{border-left:4px solid var(--ink)}
-@media (max-width:760px){.rd{grid-template-columns:60px 1fr}.rd .bar,.rd .v{grid-column:1/-1}}</style>"""
+@media (max-width:760px){.rd{grid-template-columns:88px 1fr}.rd .bar,.rd .v{grid-column:1/-1}}</style>"""
 
 
 def minha_secao_publicar(dest, publicado, modificado, pasta=None, meta=None):
@@ -973,13 +979,26 @@ def pagina_apuracao(style):
         f'<span class="bar"><i style="width:{r["d"]["f"]}%;background:var(--flavio)"></i><i style="width:{r["d"]["l"]}%;background:var(--lula)"></i></span>'
         f'<span class="v">{curto(cF)} {fmt(r["d"]["f"], 2)}% × {curto(cL)} {fmt(r["d"]["l"], 2)}%<small>previsão para o fim da apuração: {fmt(r["d"]["traj"]["mc50"][-1]["f"] if "traj" in r["d"] else r["d"]["scen"][0]["f"], 1)} × {fmt(r["d"]["traj"]["mc50"][-1]["l"] if "traj" in r["d"] else r["d"]["scen"][0]["l"], 1)}</small></span></a>'
         for r in rodadas)
-    rows_final = (f'<a class="rd final" href="/"><span class="t">{N["ht"][:5]}</span><span class="p">{fmt(N["pst"], 2)}%<small>resultado</small></span>'
+    rows_final = (f'<a class="rd final" href="/"><span class="t">{hora_leitura(N["dg"], N["ht"])}</span><span class="p">{fmt(N["pst"], 2)}%<small>resultado</small></span>'
                   f'<span class="bar"><i style="width:{cF["p"]}%;background:var(--flavio)"></i><i style="width:{cL["p"]}%;background:var(--lula)"></i></span>'
                   f'<span class="v"><b>{curto(cF)} {fmt(cF["p"], 2)}% × {curto(cL)} {fmt(cL["p"], 2)}%</b><small>relatório final completo →</small></span></a>')
     return f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>x</title>{style}{IDX_CSS}</head><body><main>
 <header><h1>Histórico da apuração: o 1º turno, leitura a leitura</h1><p>{curto(cF)} começou a noite com mais de 50% porque o Sul e o Centro-Oeste foram apurados mais rápido. Conforme o Nordeste entrou, {curto(cL)} reduziu a diferença, mas não passou. Cada página abaixo é o painel exatamente como estava naquele momento.</p></header>
 <section style="margin-top:22px">{rows_final}{linhas}</section>
 <p class="note">As leituras de 24,5% (18:19) e 27,9% (18:23) não têm painel salvo; os números delas aparecem na trajetória de cada página.</p></main></body></html>"""
+
+
+def pagina_404(style):
+    """404: atalhos para as seções principais e para a busca do Rastro (issue 150); `style` = CSS do relatório."""
+    atalhos = [("/ao-vivo/", f"{NAV.AO_VIVO}: apuração por município")] + (
+        [("/debates/", f"{NAV.DEBATES}: o que é verdade")] if debates() else []) + [
+        ("/rastro/", f"{NAV.RASTRO}: contas de campanha"), ("/rastro/#busca", "Buscar um eleito, empresa ou CNPJ no Rastro"),
+        ("/apuracao/", NAV.APURACAO), ("/", f"{NAV.INICIO}: resultado do 1º turno")]
+    lis = "".join(f'<li><a href="{h}">{html.escape(t)}</a></li>' for h, t in atalhos)
+    return ('<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
+            f'<title>x</title>{style}</head><body><main><header><h1>Página não encontrada</h1>'
+            '<p>O endereço pode ter mudado. Comece por uma destas seções:</p></header>'
+            f'<ul class="atalhos-404">{lis}</ul></main></body></html>')
 
 
 def main():
@@ -1086,7 +1105,7 @@ def main():
     paginas.append(("/analise/codigo/", ANALISE_GERADA, "0.3"))
 
     # ---- 404
-    (BUILD / "404.html").write_text(montar_pagina(f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>x</title>{style}</head><body><main><header><h1>Página não encontrada</h1><p><a href="/">Voltar ao início</a> · <a href="/apuracao/">Ver o histórico da apuração</a></p></header></main></body></html>""",
+    (BUILD / "404.html").write_text(montar_pagina(pagina_404(style),
                                                   "Página não encontrada · Eleições 2026", "Página não encontrada.", "/404.html", "/og/index.png", [], publicado, modificado, ""))
 
     # ---- pré-render de todas as páginas
