@@ -670,6 +670,15 @@ def _campanha_diagrama(eleito, total, href):
             "partido": eleito["partido"], "total": total, "href": href}
 
 
+SOCIO_SIGLA = re.compile(r"^(.+?) \(([A-Z]+)\), sócio\(a\) desta empresa")
+
+
+def _siglas_socios(itens):
+    """{nome: " (SIGLA)"} dos sócios que um indicador da página já cita com a sigla (sócio que também é candidato):
+    o quadro societário repete a sigla, para o nome nunca sair sem partido (issue #74)"""
+    return {m.group(1): f" ({m.group(2)})" for i in itens or [] if (m := SOCIO_SIGLA.match(i.get("fato") or ""))}
+
+
 def html_fornecedor(id_, rec, campanhas, itens, cfg, bases, anteriores=None, pendentes=None, outras=None):
     """Página de um fornecedor PJ. campanhas: [{eleito, caminho, cnpj, nome, total, tipos}] das campanhas publicadas que o
     pagaram; itens: [{eleito, caminho, **indicador}] em que ele é a contraparte. MEI (ou sem cadastro): só o CNPJ mascarado,
@@ -692,7 +701,8 @@ def html_fornecedor(id_, rec, campanhas, itens, cfg, bases, anteriores=None, pen
     socios = ""
     if not mei:
         nomes = sorted({s["nome"] for s in rec.get("socios") or [] if s.get("nome")})
-        socios = ("<h2>Quadro societário</h2>" + (f'<ul>{"".join(f"<li>{esc(n)}</li>" for n in nomes)}</ul>' if nomes
+        sg = _siglas_socios(itens)
+        socios = ("<h2>Quadro societário</h2>" + (f'<ul>{"".join(f"<li>{esc(n)}{esc(sg.get(n, ""))}</li>" for n in nomes)}</ul>' if nomes
                   else '<p class="rs-vazio">Nenhum sócio informado na base.</p>'))
     camp = sorted(campanhas, key=lambda c: (-(c.get("total") or 0), c["eleito"]["nome_urna"]))
     linhas_c = "".join(
