@@ -64,6 +64,50 @@ class Moldura(unittest.TestCase):
         self.assertIn("white-space:nowrap", links.group(1))
 
 
+class Turno2(unittest.TestCase):
+    """Até o 2º turno (25/10): faixa de chamada na home; OG da home e do /ao-vivo/ sem o resultado do 1º turno."""
+    PROIBIDO = ("1º turno", "47,0", "45,2", "47,03", "45,16")
+
+    def test_faixa_ate_25_10(self):
+        from datetime import date
+        f = B.banner_turno2(date(2026, 10, 22))
+        self.assertIn('class="banner"', f)
+        self.assertIn("2º turno: domingo, 25/10", f)
+        self.assertIn("17h (Brasília)", f)
+        self.assertIn('href="/ao-vivo/"', f)
+        self.assertTrue(B.banner_turno2(date(2026, 10, 25)))
+        self.assertEqual(B.banner_turno2(date(2026, 10, 26)), "")
+
+    def og(self, titulo, desc):
+        h = B.head(titulo, desc, "/", "/og/x.png", [], "a", "b")
+        return dict(re.findall(r'<meta (?:property|name)="((?:og|twitter):[\w:]+)" content="([^"]*)"', h))
+
+    def test_og_da_home_sem_1o_turno(self):
+        _, titulo, desc = B.textos_principal()
+        og = self.og(titulo, desc)
+        for k in ("og:title", "og:description", "og:image:alt", "twitter:title", "twitter:description"):
+            for x in self.PROIBIDO:
+                self.assertNotIn(x, og[k], k)
+        self.assertIn("2º turno", og["og:title"])
+
+    def test_og_do_ao_vivo_sem_1o_turno(self):
+        titulo, desc = B.textos_aovivo()
+        og = self.og(titulo, desc)
+        for k in ("og:title", "og:description", "og:image:alt"):
+            for x in self.PROIBIDO:
+                self.assertNotIn(x, og[k], k)
+        self.assertIn("25/10", og["og:description"])
+
+    def test_imagens_og_sem_percentual_do_1o_turno(self):
+        cards = dict(B.cards_turno2())
+        self.assertEqual(set(cards), {"index", "ao-vivo"})
+        for nome, h in cards.items():
+            for x in self.PROIBIDO:
+                self.assertNotIn(x, h, nome)
+            self.assertIn("25/10", h, nome)
+            self.assertIn("Flávio Bolsonaro", h, nome); self.assertIn("Lula", h, nome)
+
+
 class Saida(unittest.TestCase):
     SITE = R / "site"
 
