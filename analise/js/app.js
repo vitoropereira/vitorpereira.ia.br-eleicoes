@@ -1,4 +1,4 @@
-// Página /analise/: seções com manchete, número-chave, gráfico, "Entenda", fonte e compartilhamento.
+// Página /analise/: seções com frase-resumo, manchete, número-chave, gráfico, "Como calculamos" (recolhido), fonte e compartilhamento.
 // O seletor de UF recalcula todas as seções (recorte em calc.js). Pré-renderizada no build (Chrome headless).
 import { html, render, useState, useEffect, useMemo, useErrorBoundary } from "/vendor/preact-htm.module.js";
 import {
@@ -7,7 +7,7 @@ import {
 } from "./calc.js";
 import { Dica, Empilhadas, Barras, Halteres, Pequenos, Dispersao, LegendaLados, TabelaSR, Dk } from "./graficos.js";
 import { MapaMun, corLado, corApagada } from "./mapas.js";
-import { ENTENDA, FONTE, METODO } from "./textos.js";
+import { ENTENDA, FONTE, METODO, RESUMO } from "./textos.js";
 import { carregar } from "./dados.js";
 
 const BASE = "https://eleicoes2026.vitorpereira.ia.br";
@@ -50,12 +50,13 @@ function Secao({ id, s, est, selo, uf, children, nota }) {
   const ok = s?.ok !== false;
   return html`<section id=${id} class="sec" aria-labelledby=${id + "-h"} data-titulo=${ok ? s?.titulo || "" : ""} data-numero=${ok ? s?.numero || "" : ""} data-rotulo=${ok ? s?.rotulo || "" : ""}>
     <p class="kicker">${TITULO_SEC[id]} · ${uf === "BR" || !uf ? "Brasil" : nomeRecorte(uf)}${(est || selo) && html` <${Selo} txt=${selo || "estimativa"} />`}</p>
+    ${RESUMO[id] && html`<p class="resumo">${RESUMO[id]}</p>`}
     ${ok ? html`
       <h2 id=${id + "-h"}>${s.titulo}</h2>
       ${s.numero && s.numero !== "–" && html`<p class="kpi"><b>${s.numero}</b><span>${s.rotulo}</span></p>`}
       ${nota && html`<p class="nota">${nota}</p>`}
       <${Seguro}>${children}<//>` : html`<h2 id=${id + "-h"}>${TITULO_SEC[id]}</h2><p class="vazio-txt">Sem dados ${uf && uf !== "BR" ? "para " + nomeRecorte(uf) : "ainda"} nesta seção.</p>`}
-    ${ENTENDA[id] && html`<details class="entenda"><summary>Entenda</summary>${ENTENDA[id]}</details>`}
+    ${ENTENDA[id] && html`<details class="entenda"><summary>Como calculamos</summary>${ENTENDA[id]}</details>`}
     ${FONTE[id] && html`<p class="fonte">${FONTE[id]}</p>`}
     ${ok && s?.titulo && html`<${Compartilhar} id=${id} titulo=${s.titulo} uf=${uf} />`}
   </section>`;
@@ -85,8 +86,8 @@ function Campos({ s }) {
     partes: LADOS.map((k) => ({ k, p: l.p[k], cor: corL(k), nome: LADO_NOME[k], dica: html`<${Dk} t=${`${l.nome} · ${LADO_NOME[k]}`} linhas=${[[corL(k), "Votos", int(l.votos[k])], [null, "Fatia", pct(l.p[k])]]} />` })),
   }));
   return html`<${LegendaLados} itens=${LADOS.map((k) => [corL(k), LADO_NOME[k]])} />
-    <${Empilhadas} linhas=${linhas} titulo="Fatia de cada campo nos votos de cada cargo" />
-    <${TabelaSR} cap="Votos por campo e cargo" cab=${["Cargo", ...LADOS.map((k) => LADO_NOME[k])]} linhas=${(s.linhas || []).map((l) => [l.nome, ...LADOS.map((k) => `${int(l.votos[k])} (${pct(l.p[k])})`)])} />`;
+    <${Empilhadas} linhas=${linhas} titulo="Fatia de cada lado nos votos de cada cargo" />
+    <${TabelaSR} cap="Votos por lado e cargo" cab=${["Cargo", ...LADOS.map((k) => LADO_NOME[k])]} linhas=${(s.linhas || []).map((l) => [l.nome, ...LADOS.map((k) => `${int(l.votos[k])} (${pct(l.p[k])})`)])} />`;
 }
 
 function Dividido({ s, cargo, setCargo, D, uf }) {
@@ -103,10 +104,10 @@ function Dividido({ s, cargo, setCargo, D, uf }) {
   }, [D.comparacao2022, uf]);
   return html`<${Seg} rotulo="Cargo da estimativa" valor=${cargo} onTroca=${setCargo} opcoes=${["depfed", "depest", "senador", "governador"].map((k) => [k, CARGO_NOME[k]])} />
     ${s.poucos ? html`<p class="vazio-txt">${s.nota}</p>` : s.ok ? html`<${Barras} itens=${itens} max=${1} titulo="Para onde foram os votos de cada candidato (estimativa)" rotW=${210} />
-      <p class="nota">Barra = estimativa central; faixa clara com traço = intervalo de 90%.</p>` : html`<p class="vazio-txt">Sem estimativa para ${CARGO_LONGO[cargo]} neste recorte.</p>`}
+      <p class="nota">A barra é a estimativa; a faixa clara mostra a margem de erro.</p>` : html`<p class="vazio-txt">Sem estimativa para ${CARGO_LONGO[cargo]} neste recorte.</p>`}
     ${pts && html`<h3 class="h3">Cada ponto é um município: voto em ${CAND.L} × voto no ${LADO_MIN.L} para deputado federal</h3>
       <${Dispersao} pts=${pts} rotX=${`% de ${CAND.L} nos votos válidos (presidente)`} rotY=${`% do ${LADO_MIN.L} nos votos válidos (dep. federal)`} titulo="Dispersão por município"
-        resumo=${`Pontos abaixo da diagonal: ${CAND.L} teve mais votos que o campo dele para deputado federal.`}
+        resumo=${`Pontos abaixo da diagonal: ${CAND.L} teve mais votos que o lado dele para deputado federal.`}
         dica=${(i) => { const cd = pts.cds[i]; return html`<${Dk} t=${`${D.mun?.[cd]?.[0] || cd} · ${ufDoCodigo(cd)}`} linhas=${[[corL("L"), `${CAND.L} · % dos válidos (presidente)`, pct(pts.x[i])], [corL("L"), `${LADO_NOME.L} · % dos válidos (dep. federal)`, pct(pts.y[i])]]} />`; }} />`}
     ${s.ok && !s.poucos && html`<${TabelaSR} cap=${`Voto dividido estimado, ${CARGO_LONGO[cargo]}`} cab=${["Fluxo", "Estimativa", "Faixa de 90%", "Eleitores"]} linhas=${(s.grupos || []).flatMap((g) => g.itens.map((it) => [`${g.nome} → ${LADO_NOME[it.dst]}`, pct(it.p), it.int ? `${pct(it.int[0])} a ${pct(it.int[1])}` : "–", int(it.v)]))} />`}
 `;
@@ -117,8 +118,8 @@ function Cadeiras({ s }) {
     rotulo: `${c.casa === "depfed" ? "Câmara" : c.casa === "depest" ? "Assembleias" : "Senado"} · ${LADO_CURTO[l]}`, a: c.votos[l], b: c.pc[l], cor: corL(l),
     dica: html`<${Dk} t=${`${c.nome} · ${LADO_NOME[l]}`} linhas=${[[corL(l), "Votos", pct(c.votos[l])], [corL(l), "Cadeiras", `${pct(c.pc[l])} (${int(c.cadeiras[l])} de ${int(c.total)})`], [null, "Diferença", pp(c.pc[l] - c.votos[l])]]} />`,
   })));
-  return html`<${Halteres} linhas=${linhas} rotA="% dos votos" rotB="% das cadeiras" titulo="Votos e cadeiras por campo" />
-    <${TabelaSR} cap="Votos e cadeiras por campo" cab=${["Casa e campo", "% dos votos", "Cadeiras"]} linhas=${(s.casas || []).flatMap((c) => LADOS.map((l) => [`${c.nome} · ${LADO_NOME[l]}`, pct(c.votos[l]), `${int(c.cadeiras[l])} de ${int(c.total)}`]))} />`;
+  return html`<${Halteres} linhas=${linhas} rotA="% dos votos" rotB="% das cadeiras" titulo="Votos e cadeiras por lado" />
+    <${TabelaSR} cap="Votos e cadeiras por lado" cab=${["Casa e lado", "% dos votos", "Cadeiras"]} linhas=${(s.casas || []).flatMap((c) => LADOS.map((l) => [`${c.nome} · ${LADO_NOME[l]}`, pct(c.votos[l]), `${int(c.cadeiras[l])} de ${int(c.total)}`]))} />`;
 }
 
 function Divergencias({ s, D, uf, cargo, setCargo }) {
@@ -173,8 +174,8 @@ function Comparacao({ s, D, uf }) {
   return html`<ul class="chips"><li><i class="sw" style=${{ "--c": corL("F") }}></i>${CAND.L} (2022) → ${CAND.F} (2026): <b>${int(s.lf)}</b></li><li><i class="sw" style=${{ "--c": corL("L") }}></i>Bolsonaro (${SIGLA.F}) (2022) → ${CAND.L} (2026): <b>${int(s.bl)}</b></li></ul>
     <${MapaMun} corDe=${corDe} dica=${dica} chave=${"v" + Object.keys(mu).length} uf=${uf} rotulo="Mapa das viradas entre 2022 e 2026 por município." />
     <${LegendaLados} itens=${[[corL("F"), `virou para ${CAND.F}`], [corL("L"), `virou para ${CAND.L}`], ["var(--neutral)", "mesmo lado ou empate"]]} />
-    ${(s.leg || s.pres) && html`<h3 class="h3">Mudança por campo ${uf === "BR" ? "no Brasil" : "· " + nomeRecorte(uf)}</h3>
-      <${Halteres} rotA="2022" rotB="2026" titulo="Campos em 2022 e 2026" linhas=${[
+    ${(s.leg || s.pres) && html`<h3 class="h3">Mudança por lado ${uf === "BR" ? "no Brasil" : "· " + nomeRecorte(uf)}</h3>
+      <${Halteres} rotA="2022" rotB="2026" titulo="Lados em 2022 e 2026" linhas=${[
         ...(s.pres ? [{ rotulo: `Presidente · ${CAND.L} (entre os 2 primeiros)`, a: s.pres.a, b: s.pres.b, cor: corL("L"), dica: html`<${Dk} t=${`${CAND.L} para presidente`} linhas=${[[corL("L"), "2022", pct(s.pres.a)], [corL("L"), "2026", pct(s.pres.b)], [null, "Variação", pp(s.pres.b - s.pres.a)]]} />` }] : []),
         ...(s.leg || []).map((x) => ({ rotulo: `Dep. federal · ${LADO_CURTO[x.lado]}`, a: x.a, b: x.b, cor: corL(x.lado), dica: html`<${Dk} t=${`Deputado federal · ${LADO_NOME[x.lado]}`} linhas=${[[corL(x.lado), "2022", pct(x.a)], [corL(x.lado), "2026", pct(x.b)], [null, "Variação", pp(x.b - x.a)]]} />` })),
       ]} />`}
@@ -255,18 +256,18 @@ function Brancos({ s }) {
 }
 
 function Fragmentacao({ s }) {
-  return html`<${Barras} titulo="Número efetivo de partidos" max=${Math.ceil(Math.max(...s.casas.map((c) => c.nep), 1) + 1)} rotW=${200} fmt=${(v) => num(v, 1)}
-      itens=${s.casas.map((c) => ({ rotulo: c.nome, v: c.nep, cor: "var(--outros)", dica: html`<${Dk} t=${c.nome} linhas=${[[null, "Partidos efetivos", num(c.nep, 2)], [null, "Partidos com cadeira", int(c.partidos_com_cadeira)]]} />` }))} />
+  return html`<${Barras} titulo="Em quantos partidos do mesmo tamanho os votos se dividem" max=${Math.ceil(Math.max(...s.casas.map((c) => c.nep), 1) + 1)} rotW=${200} fmt=${(v) => num(v, 1)}
+      itens=${s.casas.map((c) => ({ rotulo: c.nome, v: c.nep, cor: "var(--outros)", dica: html`<${Dk} t=${c.nome} linhas=${[[null, "Partidos do mesmo tamanho", num(c.nep, 2)], [null, "Partidos com cadeira", int(c.partidos_com_cadeira)]]} />` }))} />
     <h3 class="h3">Peso do centro: votos × cadeiras</h3>
     <${Halteres} rotA="% dos votos" rotB="% das cadeiras" titulo="Centro: votos e cadeiras" linhas=${s.casas.map((c) => ({ rotulo: c.nome, a: c.centro_pct_votos, b: c.centro_pct_cadeiras, cor: corL("C"),
       dica: html`<${Dk} t=${`Centro · ${c.nome}`} linhas=${[[corL("C"), "Votos", pct(c.centro_pct_votos)], [corL("C"), "Cadeiras", pct(c.centro_pct_cadeiras)]]} />` }))} />
-    <${TabelaSR} cap="Fragmentação" cab=${["Casa", "Partidos efetivos", "Partidos com cadeira", "Centro: % votos", "Centro: % cadeiras"]} linhas=${s.casas.map((c) => [c.nome, num(c.nep, 2), int(c.partidos_com_cadeira), pct(c.centro_pct_votos), pct(c.centro_pct_cadeiras)])} />`;
+    <${TabelaSR} cap="Fragmentação" cab=${["Casa", "Partidos do mesmo tamanho", "Partidos com cadeira", "Centro: % votos", "Centro: % cadeiras"]} linhas=${s.casas.map((c) => [c.nome, num(c.nep, 2), int(c.partidos_com_cadeira), pct(c.centro_pct_votos), pct(c.centro_pct_cadeiras)])} />`;
 }
 
 function Legenda({ s }) {
   const itens = s.casas.flatMap((c) => LADOS.map((l) => ({ rotulo: `${c.nome} · ${LADO_CURTO[l]}`, v: c[l], cor: corL(l), dica: html`<${Dk} t=${`${c.nome} · ${LADO_NOME[l]}`} linhas=${[[corL(l), "Voto de legenda", pct(c[l])], [null, "Média de todos", pct(c.total)]]} />` })));
-  return html`<${Barras} titulo="Voto de legenda por campo" itens=${itens} rotW=${170} />
-    <${TabelaSR} cap="Voto de legenda por campo" cab=${["Cargo", ...LADOS.map((l) => LADO_NOME[l]), "Total"]} linhas=${s.casas.map((c) => [c.nome, ...LADOS.map((l) => pct(c[l])), pct(c.total)])} />`;
+  return html`<${Barras} titulo="Voto de legenda por lado" itens=${itens} rotW=${170} />
+    <${TabelaSR} cap="Voto de legenda por lado" cab=${["Cargo", ...LADOS.map((l) => LADO_NOME[l]), "Total"]} linhas=${s.casas.map((c) => [c.nome, ...LADOS.map((l) => pct(c[l])), pct(c.total)])} />`;
 }
 
 function Puxadores({ s, D, cargo, setCargo, uf }) {
@@ -294,12 +295,12 @@ const TIPO_PROVA = { nota: "nota oficial", coligacao: "coligação no TSE", impr
 function Metodo({ D, uf }) {
   const L = D.lados || {}, l26 = L["2026"] || {}, l22 = L["2022"] || {};
   const partidos = Object.keys(l26).sort((a, b) => LADOS.indexOf(l26[a].lado) - LADOS.indexOf(l26[b].lado) || a.localeCompare(b));
-  return html`<section id="metodo" class="sec" aria-labelledby="metodo-h" data-titulo="Como os partidos foram classificados em campos" data-numero="" data-rotulo="">
+  return html`<section id="metodo" class="sec" aria-labelledby="metodo-h" data-titulo="Como os partidos foram classificados em lados" data-numero="" data-rotulo="">
     <p class="kicker">${TITULO_SEC.metodo}</p><h2 id="metodo-h">Método e classificação dos partidos</h2>
     ${METODO}
     ${D.dividido?.metodo && html`<p><b>Estimativa de voto dividido:</b> ${D.dividido.metodo}</p>`}
     ${partidos.length ? html`<p class="nota">Posição em ${L.posicao_em || "–"}${uf !== "BR" ? `; exceções de ${nomeRecorte(uf)} destacadas` : ""}.</p>
-      <div class="tab-w"><table class="tab lados"><thead><tr><th scope="col">Partido</th><th scope="col">Campo em 2026</th><th scope="col">Exceções por UF</th><th scope="col">Provas</th><th scope="col">2º turno de 2022</th></tr></thead>
+      <div class="tab-w"><table class="tab lados"><thead><tr><th scope="col">Partido</th><th scope="col">Lado em 2026</th><th scope="col">Exceções por UF</th><th scope="col">Provas</th><th scope="col">2º turno de 2022</th></tr></thead>
       <tbody>${partidos.map((sg) => {
         const x = l26[sg], exc = Object.entries(x.uf || {}), y = l22[sg];
         const aqui = uf !== "BR" && x.uf?.[uf];
@@ -309,7 +310,7 @@ function Metodo({ D, uf }) {
           <td>${(x.provas || []).map((p) => html`<a href=${p.url} rel="noopener" target="_blank"><cite>${p.titulo || TIPO_PROVA[p.tipo] || "prova"}</cite></a> <small>(${TIPO_PROVA[p.tipo] || p.tipo}, ${p.data})</small><br />`)}${!(x.provas || []).length && "sem declaração com prova"}</td>
           <td>${y ? (y.lado === "F" ? `Bolsonaro (${SIGLA.F})` : y.lado === "L" ? CAND.L : "Centro/sem lado") : "–"}</td></tr>`;
       })}</tbody></table></div>` : html`<p class="vazio-txt">A tabela de classificação aparece quando os dados forem publicados.</p>`}
-    <${Compartilhar} id="metodo" titulo="Como os partidos foram classificados em campos" uf="BR" />
+    <${Compartilhar} id="metodo" titulo="Como os partidos foram classificados em lados" uf="BR" />
   </section>`;
 }
 
@@ -342,8 +343,8 @@ function App({ D0 }) {
     <div class="corpo">
       <header class="abre">
         <p class="kicker">Análise · 1º turno de 2026</p>
-        <h1>Voto dividido em 2026: por que ${CAND.L} tem tantos votos e o campo dele elege poucos deputados</h1>
-        <p class="lead">Os números do TSE por campo político, cargo e município. Contagens oficiais e estimativas aparecem juntas, e toda estimativa vem marcada. Escolha um estado no alto para recalcular tudo.</p>
+        <h1>Voto dividido em 2026: por que ${CAND.L} tem tantos votos e o lado dele elege poucos deputados</h1>
+        <p class="lead">Os números do TSE por lado político, cargo e município. Contagens oficiais e estimativas aparecem juntas, e toda estimativa vem marcada. Escolha um estado no alto para recalcular tudo.</p>
         ${nada && html`<p class="vazio-txt">Os dados da análise ainda não foram publicados. Volte em breve.</p>`}
       </header>
       <${Destaques} D=${D} uf=${uf} />

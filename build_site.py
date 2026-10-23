@@ -450,9 +450,10 @@ def montar_pagina(raw_html, title, desc, path, og_img, ld, published, modified, 
 # ---------------- Vercel (gravado em site/vercel.json e na raiz)
 VERCEL = {
     "cleanUrls": True, "trailingSlash": True,
-    # /vivo/* = estado do 2º turno no Storage do Supabase; o HUD só lê /vivo/agora.json (relativo), com o CDN na frente
+    # /vivo/* = estado do 2º turno no Storage do Supabase, servido pela função api/vivo.js: o rewrite direto não entrava
+    # no cache do CDN (o Storage manda set-cookie), e cada poll de cada visitante ia ao Supabase. O HUD só lê /vivo/ relativo.
     "rewrites": [{"source": "/tse/:path*", "destination": "https://resultados.tse.jus.br/oficial/:path*"},
-                 {"source": "/vivo/:path*", "destination": "https://qzczyicspbizosjogmlq.supabase.co/storage/v1/object/public/vivo/:path*"}],
+                 {"source": "/vivo/:path*", "destination": "/api/vivo?p=:path*"}],
     "headers": [{"source": "/(.*)", "headers": [{"key": "X-Content-Type-Options", "value": "nosniff"}, {"key": "Referrer-Policy", "value": "strict-origin-when-cross-origin"}]},
                 {"source": "/fonts/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=31536000, immutable"}]},
                 {"source": "/og/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=86400"}]},
@@ -470,9 +471,8 @@ VERCEL = {
                 {"source": "/analise/js/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}]},
                 {"source": "/analise/codigo/(.*)\\.(py|json|md)", "headers": [{"key": "Content-Type", "value": "text/plain; charset=utf-8"}]},
                 {"source": "/analise/dados/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}]},
-                {"source": "/vivo/(.*)", "headers": [{"key": "Cache-Control", "value": "public, s-maxage=15, stale-while-revalidate=30"},
-                                                    {"key": "CDN-Cache-Control", "value": "max-age=15"},
-                                                    {"key": "x-vercel-enable-rewrite-caching", "value": "1"}]}]}
+                # /vivo/: o cache vem da própria função (api/vivo.js), sem cookie e com s-maxage
+                ]}
 
 
 # ---------------- HUD (/ao-vivo/)
@@ -574,7 +574,7 @@ def faq():
 # ---------------- Análise (/analise/): página, páginas de compartilhamento por seção e cartões OG
 # Seções e âncoras: mesma lista de analise/js/calc.js (SECOES); tests/test_analise_front.py confere.
 SECOES_ANALISE = [
-    ("destaques", "Destaques"), ("campos", "Votos por campo e cargo"), ("voto-dividido", "Voto dividido"),
+    ("destaques", "Destaques"), ("campos", "Votos por lado e cargo"), ("voto-dividido", "Voto dividido"),
     ("votos-cadeiras", "Votos × cadeiras"), ("divergencias", "Divergências"), ("comparacao-2022", "2022 × 2026"),
     ("terra-gente", "Terra × gente"), ("cenarios-2-turno", "Cenários do 2º turno"), ("brancos-nulos", "Brancos e nulos"), ("fragmentacao", "Fragmentação"),
     ("legenda", "Voto de legenda"), ("puxadores", "Puxadores de voto"), ("faq", "Perguntas frequentes"), ("metodo", "Método"),
@@ -583,7 +583,7 @@ ANALISE_DADOS = R / "analise" / "dados"
 # a Análise foi gerada em 08/10/2026 (posição dos lados e analise/calcular.py); não herda as datas do 1º turno
 ANALISE_GERADA = ISO(datetime(2026, 10, 8, 12, 0))
 ANALISE_TITULO = "Voto dividido em 2026: Lula (PT), Flávio (PL) e o Congresso | Análise"
-ANALISE_DESC = ("Por que Lula (PT) tem tantos votos e o campo dele elege poucos deputados? Voto dividido estimado, votos × cadeiras, "
+ANALISE_DESC = ("Por que Lula (PT) tem tantos votos e o lado dele elege poucos deputados? Voto dividido estimado, votos × cadeiras, "
                 "divergências por município e 2022 × 2026, com dados do TSE.")
 
 
@@ -962,7 +962,7 @@ def pagina_apuracao(style):
     linhas = "".join(
         f'<a class="rd" href="{r["url"]}"><span class="t">{r["d"]["ht"][:5]}</span><span class="p">{fmt(r["d"]["pst"], 1)}%<small>apurado</small></span>'
         f'<span class="bar"><i style="width:{r["d"]["f"]}%;background:var(--flavio)"></i><i style="width:{r["d"]["l"]}%;background:var(--lula)"></i></span>'
-        f'<span class="v">{curto(cF)} {fmt(r["d"]["f"], 2)}% × {curto(cL)} {fmt(r["d"]["l"], 2)}%<small>projeção final: {fmt(r["d"]["traj"]["mc50"][-1]["f"] if "traj" in r["d"] else r["d"]["scen"][0]["f"], 1)} × {fmt(r["d"]["traj"]["mc50"][-1]["l"] if "traj" in r["d"] else r["d"]["scen"][0]["l"], 1)}</small></span></a>'
+        f'<span class="v">{curto(cF)} {fmt(r["d"]["f"], 2)}% × {curto(cL)} {fmt(r["d"]["l"], 2)}%<small>previsão para o fim da apuração: {fmt(r["d"]["traj"]["mc50"][-1]["f"] if "traj" in r["d"] else r["d"]["scen"][0]["f"], 1)} × {fmt(r["d"]["traj"]["mc50"][-1]["l"] if "traj" in r["d"] else r["d"]["scen"][0]["l"], 1)}</small></span></a>'
         for r in rodadas)
     rows_final = (f'<a class="rd final" href="/"><span class="t">{N["ht"][:5]}</span><span class="p">{fmt(N["pst"], 2)}%<small>resultado</small></span>'
                   f'<span class="bar"><i style="width:{cF["p"]}%;background:var(--flavio)"></i><i style="width:{cL["p"]}%;background:var(--lula)"></i></span>'
@@ -1160,7 +1160,7 @@ def main():
 ## Páginas
 - [Resultado final completo]({BASE}/): mapa por estado, governadores, Senado, Câmara, Assembleias, perguntas frequentes
 - [Mapa da apuração por município]({BASE}/ao-vivo/): presidente, governadores, Senado e deputados nos 5.570 municípios; 2º turno ao vivo em 25/10
-- [Análise: voto dividido, votos × cadeiras, divergências e 2022 × 2026]({BASE}/analise/): por que Lula (PT) tem tantos votos e o campo dele elege poucos deputados; estimativas marcadas, por estado
+- [Análise: voto dividido, votos × cadeiras, divergências e 2022 × 2026]({BASE}/analise/): por que Lula (PT) tem tantos votos e o lado dele elege poucos deputados; estimativas marcadas, por estado
 - [Apuração leitura a leitura]({BASE}/apuracao/)
 """ + (f"- [Minha seção: onde eu voto e quem ganhou ali (presidente, por seção e local de votação)]({BASE}/minha-secao/)\n" if sec else "") + (deb["llms"] if deb else "") + "".join(f"- [Apuração com {fmt(r['d']['pst'], 1)}% das urnas]({BASE}{r['url']})\n" for r in rodadas) +
 f"- [Dados consolidados em JSON]({BASE}/dados/relatorio.json)\n", encoding="utf-8")
