@@ -13,7 +13,12 @@ export function caminhoValido(p) {
   return typeof p === "string" && /^[A-Za-z0-9_-]+(\/[A-Za-z0-9_-]+)*\.json$/.test(p);
 }
 
-export default async function handler(req, origem = fetch) {
+// A Vercel chama o handler com (request, context): o 2º argumento NÃO é um fetch (foi a causa do 500 de 22/10).
+export default function handler(req) {
+  return responder(req, fetch);
+}
+
+export async function responder(req, origem) {
   const p = new URL(req.url).searchParams.get("p");
   if (!caminhoValido(p)) return new Response("caminho inválido", { status: 400 });
   const r = await origem(ORIGEM + p);
