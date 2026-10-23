@@ -341,6 +341,80 @@ class PlacarPorCandidato(unittest.TestCase):
         self.assertEqual(dp.placar_por_candidato(dp.listar(FIXTURE)), {})
 
 
+class TambemDito(unittest.TestCase):
+    """A mesma tese (mesmo quem) em outro debate publicado liga as duas afirmações, nos dois sentidos."""
+    PT = "/debates/2026/presidente-2-turno-teste/"
+    PF = "/debates/2030/governador-1-turno-fict/"
+
+    def montar(self, tmp):
+        """TESTE e FICT copiados para tmp: seg-01 (ana) com a mesma tese nos dois; eco-01 com a mesma tese, mas
+        dita por bruno num e por carla no outro."""
+        for src in (TESTE, FICT):
+            shutil.copytree(src, Path(tmp) / src.parent.name / src.name)
+        d = Path(tmp) / "2030" / "governador-1-turno-fict"
+        its = json_de(d, "afirmacoes.json")
+        for it in its:
+            it["tese"] = {"seg-01": "roubos-caem-metade", "eco-01": "minimo-sobe-5"}.get(it["id"], it["tese"])
+        (d / "afirmacoes.json").write_text(json.dumps(its, ensure_ascii=False), encoding="utf-8")
+        return dp.listar(tmp)
+
+    def test_liga_nos_dois_sentidos_e_so_mesmo_quem(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            lig = dp.tambem(self.montar(tmp))
+        self.assertEqual(lig[(self.PT, "seg-01")], [(self.PF + "seg-01/", "Fict", "Debate Fict 1º turno 2030")])
+        self.assertEqual(lig[(self.PF, "seg-01")], [(self.PT + "seg-01/", "Teste", "Debate Teste 2º turno 2026")])
+        self.assertNotIn((self.PT, "eco-01"), lig)
+        self.assertNotIn((self.PF, "eco-01"), lig)
+
+    def test_fixtures_versionadas_nao_ligam(self):
+        self.assertEqual(dp.tambem(dp.listar(FIXTURE)), {})
+
+    def test_html_bloco_e_selo(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            ms = self.montar(tmp)
+        lig = dp.tambem(ms)
+        for m in ms:
+            outro = self.PT if m["path"] == self.PF else self.PF
+            emissora = "Teste" if m["path"] == self.PF else "Fict"
+            g = dp.gerar(m, B.BASE, B.PESSOA, tambem=lig)
+            af = {a["path"]: a["html"] for a in g["afirmacoes"]}
+            h = af[m["path"] + "seg-01/"]
+            self.assertIn('<h2 id="tambem">Também dito em</h2>', h)
+            self.assertIn(f'href="{outro}seg-01/"', h)
+            self.assertNotIn("Também dito em", af[m["path"] + "eco-01/"])
+            cartoes = {x.group(1): x.group(0) for x in re.finditer(r'<article class="db-af" id="([^"]+)".*?</article>', g["html"], re.S)}
+            self.assertIn(f'<span class="db-tambem">dito também em {emissora}</span>', cartoes["seg-01"])
+            self.assertNotIn("db-tambem", cartoes["eco-01"])
+
+    def test_selo_escapa_emissora_e_nao_repete(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            m = self.montar(tmp)[1]
+        lig = {(m["path"], "seg-01"): [("/a/", "A&B", "Debate A&B 1º turno"), ("/b/", "A&B", "Debate A&B 2º turno")]}
+        g = dp.gerar(m, B.BASE, B.PESSOA, tambem=lig)
+        self.assertIn('<span class="db-tambem">dito também em A&amp;B</span>', g["html"])
+        h = next(a["html"] for a in g["afirmacoes"] if a["path"].endswith("/seg-01/"))
+        self.assertIn('<a href="/a/">Debate A&amp;B 1º turno</a>', h)
+        self.assertIn('<a href="/b/">Debate A&amp;B 2º turno</a>', h)
+
+    def test_sem_ligacao_html_igual(self):
+        for m in dp.listar(FIXTURE):
+            a, b = dp.gerar(m, B.BASE, B.PESSOA), dp.gerar(m, B.BASE, B.PESSOA, tambem={})
+            self.assertEqual(a["html"], b["html"])
+            self.assertEqual([x["html"] for x in a["afirmacoes"]], [x["html"] for x in b["afirmacoes"]])
+            self.assertNotIn("Também dito em", a["html"] + "".join(x["html"] for x in a["afirmacoes"]))
+
+    def test_build_liga(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self.montar(tmp)
+            B.debates.cache_clear()
+            try:
+                gs = B.debates(Path(tmp))
+            finally:
+                B.debates.cache_clear()
+        h = next(a["html"] for g in gs for a in g["afirmacoes"] if a["path"] == self.PT + "seg-01/")
+        self.assertIn(f'href="{self.PF}seg-01/"', h)
+
+
 class Publicar(unittest.TestCase):
     def test_segundo_debate_sem_codigo_novo(self):
         with tempfile.TemporaryDirectory() as tmp:
