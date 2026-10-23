@@ -13,6 +13,7 @@ from datetime import date
 from pathlib import Path
 
 import brand
+import navegacao as NAV
 from debates import validar as V
 
 ROTULOS = {"verdadeiro": "Verdadeiro", "falso-ou-exagerado": "Falso ou exagerado", "nao-comprovado": "Não comprovado",
@@ -218,9 +219,8 @@ CSS_PLACAR = """.db-placar{display:grid;grid-template-columns:repeat(auto-fit,mi
 
 CSS = """<style>
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--font-sans)}
-main.db{max-width:880px;margin:0 auto;padding:24px 18px 56px}
+main.db{max-width:var(--w-texto);box-sizing:border-box;margin:0 auto;padding:24px 16px 56px}
 .db a{color:var(--ink);text-decoration-color:var(--muted);text-underline-offset:3px}
-.db-crumbs{font-size:13px;color:var(--muted);margin:0 0 14px;overflow-wrap:anywhere}
 .db-kicker{font:600 12px var(--font-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
 .db h1{font-size:clamp(24px,5vw,36px);line-height:1.2;margin:0 0 10px;overflow-wrap:anywhere}
 .db h2{font-size:20px;margin:34px 0 10px;padding-top:6px;border-top:1px solid var(--line)}
@@ -272,9 +272,8 @@ def _doc(titulo, corpo, js=False):
 
 
 def _trilha(itens):
-    """[(nome, path ou None)] → HTML da trilha (o último sem link)."""
-    return ('<nav class="db-crumbs" aria-label="Trilha">'
-            + " › ".join(f'<a href="{attr(h)}">{esc(n)}</a>' if h else esc(n) for n, h in itens) + "</nav>")
+    """[(nome, path ou None)] → HTML da trilha (o último sem link): o componente único do site."""
+    return NAV.trilha(*itens)
 
 
 def _breadcrumb(base, itens):
@@ -374,7 +373,7 @@ def gerar(m, base, autor, tambem=None):
     titulo = f"{rotulo}: o que é verdade"
     desc = (f"Checagem do debate {nomes} para {deb['cargo']} na {emissora}, em {dia}: {n} afirmações com veredito, "
             f"explicação e fontes.")
-    trilha = [("Início", "/"), ("Debates", "/debates/"), (rotulo, path)]
+    trilha = [(NAV.INICIO, "/"), (NAV.DEBATES, "/debates/"), (rotulo, path)]
     og = f"debate-{ano}-{deb['slug']}"
 
     def af_path(i):
@@ -588,8 +587,8 @@ def indice(gerados, base, autor, links=None):
     desc = f"Todas as checagens de debates: {len(gerados)} debates, {total} afirmações com veredito, explicação e fontes."
     lista = "".join(f'<a class="db-deb" href="{g["path"]}"><b>{esc(g["rotulo"])}</b>'
                     f'<span>{data_br(g["data"])} · {g["n"]} afirmações checadas</span></a>' for g in gerados)
-    corpo = (_trilha([("Início", "/"), ("Debates", None)])
-             + f'<p class="db-kicker">Checagem</p><h1>Debates: o que é verdade</h1>'
+    corpo = (_trilha([(NAV.INICIO, "/"), (NAV.DEBATES, None)])
+             + f'<p class="db-kicker">Checagem</p><h1>{NAV.DEBATES}: o que é verdade</h1>'
              f'<p class="db-lead">Checamos as frases verificáveis dos debates: {total} afirmações em {len(gerados)} '
              f'{"debate" if len(gerados) == 1 else "debates"}. Cada uma tem página própria com veredito e fontes.</p>'
              f'<section aria-labelledby="lista"><h2 id="lista">Debates checados</h2>{lista}</section>'
@@ -601,7 +600,7 @@ def indice(gerados, base, autor, links=None):
     modificado = max(g["modificado"] for g in gerados)
     ld = [{"@context": "https://schema.org", "@type": "CollectionPage", "name": titulo, "description": desc,
            "url": base + "/debates/", "inLanguage": "pt-BR", "author": autor, "dateModified": modificado},
-          _breadcrumb(base, [("Início", "/"), ("Debates", "/debates/")])]
+          _breadcrumb(base, [(NAV.INICIO, "/"), (NAV.DEBATES, "/debates/")])]
     return dict(path="/debates/", titulo=titulo, desc=desc, html=_doc(titulo, corpo), ld=ld,
                 publicado=min(g["publicado"] for g in gerados), modificado=modificado, placar=soma, retorica=soma_rt,
                 llms=f"- [Checagem dos debates]({base}/debates/): {total} afirmações checadas em {len(gerados)} debates\n")

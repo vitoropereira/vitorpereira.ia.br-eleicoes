@@ -187,7 +187,7 @@ class TestCaixa(unittest.TestCase):
             self.assertRegex(h, r'<input id="rs-busca-q" type="search" role="combobox" aria-controls="rs-busca-l"', path)
             self.assertIn('<ul id="rs-busca-l" role="listbox"', h, path)
             if path != "/rastro/":
-                self.assertIn('<div class="rs-topo"><nav class="rs-crumbs"', h, path)
+                self.assertIn('<div class="rs-topo"><nav class="crumbs" aria-label="Trilha">', h, path)
 
     def test_sem_js_link_para_a_lista(self):
         h = self.pags["/rastro/depfed/ma/aluisio-mendes/"]

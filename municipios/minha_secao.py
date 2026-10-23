@@ -13,6 +13,7 @@ import shutil
 from pathlib import Path
 
 import brand
+import navegacao as NAV
 from municipios.montar_secao import PISO
 
 H = Path(__file__).resolve().parent
@@ -20,7 +21,7 @@ LOCAIS = H / "geo" / "locais"
 META = H / "geo" / "t1" / "meta.json"
 JS = H / "minha_secao.js"
 FONTE = "https://dadosabertos.tse.jus.br/"
-TITULO = "Minha seção: onde eu voto e quem ganhou ali · Eleições 2026"
+TITULO = f"{NAV.MINHA_SECAO}: onde eu voto e quem ganhou ali · Eleições 2026"
 DESC = ("Busque pela zona e seção do título de eleitor, pelo CEP ou pela sua localização e veja o resultado de presidente "
         "na sua seção e no seu local de votação, com dados abertos do TSE.")
 
@@ -97,7 +98,7 @@ def indice_cep(dados):
 
 CSS = """<style>
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--font-sans)}
-main.ms{max-width:880px;margin:0 auto;padding:24px 16px 56px}
+main.ms{max-width:var(--w-texto);box-sizing:border-box;margin:0 auto;padding:24px 16px 56px}
 .ms a{color:var(--ink);text-decoration-color:var(--muted);text-underline-offset:3px}
 .ms-kicker{font:600 12px var(--font-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
 .ms h1{font-size:clamp(24px,5vw,36px);line-height:1.2;margin:0 0 10px;overflow-wrap:anywhere}
@@ -166,7 +167,9 @@ def _doc(corpo, js=False):
             f'<body><main class="ms">{corpo}</main>{script}</body></html>')
 
 
-CABECALHO = ('<header><p class="ms-kicker">Minha seção · presidente</p><h1>Onde eu voto e quem ganhou ali</h1>'
+CABECALHO = (NAV.trilha((NAV.INICIO, "/"), (NAV.MINHA_SECAO, None)) +
+             f'<header><p class="ms-kicker">{NAV.MINHA_SECAO} · presidente</p>'
+             '<h1>Onde eu voto e quem ganhou ali</h1>'
              '<p class="ms-lead">Pela zona e seção do título de eleitor (ou do e-Título), pelo CEP ou pela sua localização: '
              'o local de votação e o resultado de presidente na seção e no local.</p></header>')
 

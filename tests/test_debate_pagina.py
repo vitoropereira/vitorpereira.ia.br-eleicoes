@@ -278,7 +278,7 @@ class PaginaAfirmacao(unittest.TestCase):
             self.assertNotIn("”", titulo_html)
             self.assertIn("<blockquote", a["html"])
             self.assertIn(f"“{html.escape(item['trecho'], quote=False)}”", a["html"])
-            nav = re.search(r'<nav class="db-crumbs".*?</nav>', a["html"], re.S).group(0)
+            nav = re.search(r'<nav class="crumbs".*?</nav>', a["html"], re.S).group(0)
             self.assertNotIn(ident, nav)
             self.assertIn(dp.TEMAS[item["tema"]], nav)
             bc = [x for x in a["ld"] if x["@type"] == "BreadcrumbList"][0]

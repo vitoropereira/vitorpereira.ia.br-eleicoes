@@ -7,6 +7,7 @@ import json, os, re, shutil, sys, subprocess, threading, functools, html, http.s
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 import brand
+import navegacao as NAV
 
 BASE = "https://eleicoes2026.vitorpereira.ia.br"
 SITE_NAME = "Eleições 2026 · Apuração e resultados"
@@ -145,7 +146,7 @@ FAVICON = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect w
 
 SITE_CSS = """<style id="site-chrome">
 .sitebar{background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
-.sitebar .in{max-width:1160px;margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.sitebar .in{box-sizing:border-box;max-width:var(--w-larga);margin:0 auto;padding:10px 16px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
 .sitebar a{color:var(--ink);text-decoration:none}
 .sitebar .brand{font-family:var(--font-mono);font-weight:600;display:flex;align-items:center;gap:8px;letter-spacing:-.01em}
 .sitebar .brand .dim{color:var(--muted);margin-left:.45em}
@@ -153,8 +154,6 @@ SITE_CSS = """<style id="site-chrome">
 .sitebar .brand .sep{color:var(--line)}
 .sitebar nav.top{display:flex;gap:4px;margin:0 0 0 auto;flex-wrap:wrap}
 .sitebar nav.top a{border:0;background:none}
-nav.crumbs{display:block;margin:14px auto 0}
-nav.crumbs a{border:0;padding:0;background:none;font-size:13px}
 .sitebar nav.top a{font-size:13.5px;color:var(--ink2);padding:5px 10px;border-radius:8px}
 .sitebar nav.top a[aria-current=page],.sitebar nav.top a:hover{background:var(--soft,var(--line));color:var(--ink)}
 a.agora{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;color:var(--ink2);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:3px 10px;white-space:nowrap}
@@ -174,16 +173,18 @@ button.tema svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-widt
 @media (prefers-color-scheme: light){:root:not([data-theme="dark"]) .tema .sol{display:none}:root:not([data-theme="dark"]) .tema .lua{display:block}}
 @media (max-width:900px){.sitebar a.agora{order:1;margin-left:auto}.sitebar nav.top{order:2;margin-left:0}.sitebar .tema{order:1}.sitebar a.agora[hidden]~.tema{margin-left:auto}}
 @media (max-width:640px){.sitebar .in{gap:8px 14px;padding:8px 16px}.sitebar nav.top{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;width:100%;min-width:0;-webkit-mask-image:linear-gradient(90deg,black 90%,transparent);mask-image:linear-gradient(90deg,black 90%,transparent)}.sitebar nav.top::-webkit-scrollbar{display:none}.sitebar nav.top a{flex:none;white-space:nowrap}}
-.crumbs{max-width:1160px;margin:14px auto 0;padding:0 16px;font-size:13px;color:var(--ink2)}
-.crumbs a{color:var(--ink2)}
-.banner{max-width:1160px;margin:14px auto 0;padding:0 16px}
+nav.crumbs{display:block;margin:0 0 14px;font-size:13px;line-height:1.5;color:var(--ink2);overflow-wrap:anywhere}
+nav.crumbs a{border:0;padding:0;background:none;font-size:13px;color:var(--ink2);text-decoration:underline;text-decoration-color:var(--muted);text-underline-offset:3px}
+nav.crumbs a:hover{color:var(--ink)}
+body>nav.crumbs{box-sizing:border-box;max-width:var(--w-larga);margin:14px auto 0;padding:0 16px}
+.banner{box-sizing:border-box;max-width:var(--w-larga);margin:14px auto 0;padding:0 16px}
 .banner div{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--brand);border-radius:10px;padding:10px 14px;font-size:14px}
 .banner a{color:var(--ink);font-weight:600}
 .rounds{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
 .rounds a{font-size:12.5px;border:1px solid var(--line);border-radius:999px;padding:2px 10px;color:var(--ink2);text-decoration:none;font-variant-numeric:tabular-nums}
 .rounds a[aria-current=page]{background:var(--ink);color:var(--card);border-color:var(--ink)}
 footer.site{border-top:1px solid var(--line);margin-top:20px}
-footer.site .in{max-width:1160px;margin:0 auto;padding:20px 16px 36px;font-size:13px;color:var(--ink2);display:flex;gap:18px;flex-wrap:wrap;justify-content:space-between}
+footer.site .in{box-sizing:border-box;max-width:var(--w-larga);margin:0 auto;padding:20px 16px 36px;font-size:13px;color:var(--ink2);display:flex;gap:18px;flex-wrap:wrap;justify-content:space-between}
 footer.site a{color:var(--ink2)}
 footer.site .eu{border-top:1px solid var(--line)}
 footer.site .eu .in{padding:16px 16px 28px;align-items:center;gap:14px 18px}
@@ -210,7 +211,7 @@ a:focus-visible,summary:focus-visible{outline:2px solid var(--brand);outline-off
 # Vercel Web Analytics/Speed Insights ficam de fora: não estão ativados no projeto, e os scripts dariam 404.
 MEDICAO_CSS = """<style id="consent-css">
 .consent{position:fixed;inset:auto 0 0 0;z-index:60;background:var(--card);color:var(--ink);border-top:1px solid var(--line);box-shadow:0 -6px 24px rgba(0,0,0,.12)}
-.consent .in{max-width:1160px;margin:0 auto;padding:14px 16px;display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.consent .in{box-sizing:border-box;max-width:var(--w-larga);margin:0 auto;padding:14px 16px;display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap}
 .consent p{margin:0;font-size:14px;color:var(--ink2);flex:1 1 320px}
 .consent p a{color:var(--ink)}
 .consent .bt{display:flex;gap:8px}
@@ -279,8 +280,16 @@ def secoes():
     (window.HUD_SECOES) e da Análise (menu_secoes). Debates só entra quando há debate publicado; Minha seção, quando há
     resultado por seção (municipios/geo/locais/)."""
     from municipios import minha_secao as msec
-    return [("/", "Resultado final"), ("/ao-vivo/", "Ao vivo")] + ([("/debates/", "Debates")] if debates() else []) + [
-        ("/analise/", "Análise")] + ([("/minha-secao/", "Minha seção")] if msec.tem_dados(LOCAIS) else []) + [("/rastro/", "Rastro do dinheiro"), ("/apuracao/", "Histórico da apuração"), ("/#metodo", "Método e fontes")]
+    return [("/", NAV.INICIO), ("/ao-vivo/", NAV.AO_VIVO)] + ([("/debates/", NAV.DEBATES)] if debates() else []) + [
+        ("/analise/", NAV.ANALISE)] + ([("/minha-secao/", NAV.MINHA_SECAO)] if msec.tem_dados(LOCAIS) else []) + [
+        ("/rastro/", NAV.RASTRO), ("/apuracao/", NAV.APURACAO), ("/#metodo", NAV.METODO)]
+
+
+def trilha_apuracao(leitura=None):
+    """trilha do Histórico da apuração: o índice, ou uma leitura (ex.: "36,6%")"""
+    if leitura is None:
+        return NAV.trilha((NAV.INICIO, "/"), (NAV.APURACAO, None))
+    return NAV.trilha((NAV.INICIO, "/"), (NAV.APURACAO, "/apuracao/"), (leitura, None))
 
 
 # estilo do botão "☰ Seções" (painel e Análise): só tokens da brand.css; o ciano é a moldura do painel suspenso
@@ -539,7 +548,7 @@ def resumo_hud():
             f'Flávio venceu em {len(ufF)} unidades da federação e Lula em {len(ufL)}.</p>'
             f'<table><caption>Presidente, 1º turno, por estado (% dos votos válidos)</caption><thead><tr><th scope=col>UF</th>'
             f'<th scope=col>{rotulo(cF)}</th><th scope=col>{curto(cL)}</th></tr></thead><tbody>{linhas}</tbody></table>'
-            f'<p><a href="/">Resultado final completo</a> · <a href="/apuracao/">Apuração leitura a leitura</a></p></section>')
+            f'<p><a href="/">Resultado do 1º turno completo</a> · <a href="/apuracao/">Histórico da apuração, leitura a leitura</a></p></section>')
 
 
 # ---------------- FAQ (visível + FAQPage) — respostas geradas dos dados
@@ -946,8 +955,8 @@ def minha_secao_publicar(dest, publicado, modificado, pasta=None, meta=None):
     ld = [{"@context": "https://schema.org", "@type": "WebPage", "name": p["titulo"], "description": p["desc"], "url": BASE + "/minha-secao/",
            "inLanguage": "pt-BR", "author": PESSOA, "about": ELEICAO, "isBasedOn": msec.FONTE, "dateModified": modificado},
           {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-              {"@type": "ListItem", "position": 1, "name": "Início", "item": BASE + "/"},
-              {"@type": "ListItem", "position": 2, "name": "Minha seção", "item": BASE + "/minha-secao/"}]}]
+              {"@type": "ListItem", "position": 1, "name": NAV.INICIO, "item": BASE + "/"},
+              {"@type": "ListItem", "position": 2, "name": NAV.MINHA_SECAO, "item": BASE + "/minha-secao/"}]}]
     h = montar_pagina(p["html"], p["titulo"], p["desc"], "/minha-secao/", "/og/index.png", ld, publicado, modificado, "/minha-secao/")
     assert h.count(agora_topo()) == 1, "sitebar sem o contador de presença: ajuste minha_secao_publicar"
     h = h.replace(agora_topo(), "", 1)
@@ -968,7 +977,7 @@ def pagina_apuracao(style):
                   f'<span class="bar"><i style="width:{cF["p"]}%;background:var(--flavio)"></i><i style="width:{cL["p"]}%;background:var(--lula)"></i></span>'
                   f'<span class="v"><b>{curto(cF)} {fmt(cF["p"], 2)}% × {curto(cL)} {fmt(cL["p"], 2)}%</b><small>relatório final completo →</small></span></a>')
     return f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>x</title>{style}{IDX_CSS}</head><body><main>
-<header><h1>A apuração do 1º turno, leitura a leitura</h1><p>{curto(cF)} começou a noite com mais de 50% porque o Sul e o Centro-Oeste foram apurados mais rápido. Conforme o Nordeste entrou, {curto(cL)} reduziu a diferença, mas não passou. Cada página abaixo é o painel exatamente como estava naquele momento.</p></header>
+<header><h1>Histórico da apuração: o 1º turno, leitura a leitura</h1><p>{curto(cF)} começou a noite com mais de 50% porque o Sul e o Centro-Oeste foram apurados mais rápido. Conforme o Nordeste entrou, {curto(cL)} reduziu a diferença, mas não passou. Cada página abaixo é o painel exatamente como estava naquele momento.</p></header>
 <section style="margin-top:22px">{rows_final}{linhas}</section>
 <p class="note">As leituras de 24,5% (18:19) e 27,9% (18:23) não têm painel salvo; os números delas aparecem na trajetória de cada página.</p></main></body></html>"""
 
@@ -1022,7 +1031,7 @@ def main():
         raw = html_leitura(tpl, d)
         _, titulo, desc = textos_leitura(d)
         nav = "".join(f'<a href="{x["url"]}"{" aria-current=page" if x is r else ""}>{fmt(x["d"]["pst"], 1)}%</a>' for x in rodadas)
-        top = (f'<nav class="crumbs" aria-label="Trilha"><a href="/">Início</a> › <a href="/apuracao/">Apuração</a> › {pst}%</nav>'
+        top = (trilha_apuracao(f"{pst}%") +
                f'<div class="banner"><div>Esta é uma <b>leitura parcial</b>: o retrato da apuração às {hora}, com {pst}% das urnas. '
                f'<a href="/">Veja o resultado final →</a><span class="rounds">{nav}</span></div></div>')
         path = r["url"]
@@ -1030,8 +1039,8 @@ def main():
                "datePublished": ISO(datetime.strptime("04/10/2026 " + d["ht"], "%d/%m/%Y %H:%M:%S")), "dateModified": ISO(datetime.strptime("04/10/2026 " + d["ht"], "%d/%m/%Y %H:%M:%S")),
                "author": PESSOA, "publisher": PESSOA, "image": [f"{BASE}/og/apuracao-{r['slug']}.png"], "mainEntityOfPage": BASE + path, "about": ELEICAO},
               {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-                  {"@type": "ListItem", "position": 1, "name": "Início", "item": BASE + "/"},
-                  {"@type": "ListItem", "position": 2, "name": "Apuração", "item": BASE + "/apuracao/"},
+                  {"@type": "ListItem", "position": 1, "name": NAV.INICIO, "item": BASE + "/"},
+                  {"@type": "ListItem", "position": 2, "name": NAV.APURACAO, "item": BASE + "/apuracao/"},
                   {"@type": "ListItem", "position": 3, "name": f"{pst}% apurado", "item": BASE + path}]}]
         (BUILD / path.strip("/")).mkdir(parents=True, exist_ok=True)
         (BUILD / path.strip("/") / "index.html").write_text(montar_pagina(raw, titulo, desc, path, f"/og/apuracao-{r['slug']}.png", ld, publicado, modificado, "/apuracao/", top))
@@ -1040,17 +1049,17 @@ def main():
     # ---- índice da apuração (HTML estático, sem JS)
     base_tpl = (R / "relatorio" / "relatorio_final.html").read_text()
     style = re.search(r"<style>.*?</style>", base_tpl, re.S).group(0)
-    titulo = "Apuração do 1º turno de 2026, leitura a leitura"
+    titulo = "Histórico da apuração: o 1º turno de 2026, leitura a leitura"
     desc = "Como a apuração de 04/10/2026 evoluiu: cada leitura do TSE com o % de urnas, os votos de Flávio e Lula e a projeção do resultado naquele momento."
     pagina = pagina_apuracao(style)
     ld = [{"@context": "https://schema.org", "@type": "CollectionPage", "name": titulo, "description": desc, "url": BASE + "/apuracao/", "inLanguage": "pt-BR", "author": PESSOA,
            "hasPart": [{"@type": "NewsArticle", "url": BASE + r["url"], "headline": f"Apuração com {fmt(r['d']['pst'], 1)}% das urnas"} for r in rodadas]},
           {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
-              {"@type": "ListItem", "position": 1, "name": "Início", "item": BASE + "/"},
-              {"@type": "ListItem", "position": 2, "name": "Apuração", "item": BASE + "/apuracao/"}]}]
+              {"@type": "ListItem", "position": 1, "name": NAV.INICIO, "item": BASE + "/"},
+              {"@type": "ListItem", "position": 2, "name": NAV.APURACAO, "item": BASE + "/apuracao/"}]}]
     (BUILD / "apuracao").mkdir(exist_ok=True)
     (BUILD / "apuracao" / "index.html").write_text(montar_pagina(pagina, titulo, desc, "/apuracao/", "/og/index.png", ld, publicado, modificado, "/apuracao/",
-                                                              '<nav class="crumbs" aria-label="Trilha"><a href="/">Início</a> › Apuração</nav>'))
+                                                              trilha_apuracao()))
     paginas.append(("/apuracao/", modificado, "0.8"))
 
     # ---- ao vivo = HUD (mapa por município). Os dados vêm de /geo/ (municipios/geo/, gerado por municipios/montar.py)
@@ -1077,7 +1086,7 @@ def main():
     paginas.append(("/analise/codigo/", ANALISE_GERADA, "0.3"))
 
     # ---- 404
-    (BUILD / "404.html").write_text(montar_pagina(f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>x</title>{style}</head><body><main><header><h1>Página não encontrada</h1><p><a href="/">Voltar ao resultado do 1º turno</a> · <a href="/apuracao/">Ver a apuração</a></p></header></main></body></html>""",
+    (BUILD / "404.html").write_text(montar_pagina(f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>x</title>{style}</head><body><main><header><h1>Página não encontrada</h1><p><a href="/">Voltar ao início</a> · <a href="/apuracao/">Ver o histórico da apuração</a></p></header></main></body></html>""",
                                                   "Página não encontrada · Eleições 2026", "Página não encontrada.", "/404.html", "/og/index.png", [], publicado, modificado, ""))
 
     # ---- pré-render de todas as páginas
@@ -1158,11 +1167,11 @@ def main():
 - Senado (54 vagas): PL {plSen}.
 
 ## Páginas
-- [Resultado final completo]({BASE}/): mapa por estado, governadores, Senado, Câmara, Assembleias, perguntas frequentes
+- [Início: resultado do 1º turno completo]({BASE}/): mapa por estado, governadores, Senado, Câmara, Assembleias, perguntas frequentes
 - [Mapa da apuração por município]({BASE}/ao-vivo/): presidente, governadores, Senado e deputados nos 5.570 municípios; 2º turno ao vivo em 25/10
 - [Análise: voto dividido, votos × cadeiras, divergências e 2022 × 2026]({BASE}/analise/): por que Lula (PT) tem tantos votos e o lado dele elege poucos deputados; estimativas marcadas, por estado
-- [Apuração leitura a leitura]({BASE}/apuracao/)
-""" + (f"- [Minha seção: onde eu voto e quem ganhou ali (presidente, por seção e local de votação)]({BASE}/minha-secao/)\n" if sec else "") + (deb["llms"] if deb else "") + "".join(f"- [Apuração com {fmt(r['d']['pst'], 1)}% das urnas]({BASE}{r['url']})\n" for r in rodadas) +
+- [Histórico da apuração, leitura a leitura]({BASE}/apuracao/)
+""" + (f"- [{NAV.MINHA_SECAO}: onde eu voto e quem ganhou ali (presidente, por seção e local de votação)]({BASE}/minha-secao/)\n" if sec else "") + (deb["llms"] if deb else "") + "".join(f"- [Apuração com {fmt(r['d']['pst'], 1)}% das urnas]({BASE}{r['url']})\n" for r in rodadas) +
 f"- [Dados consolidados em JSON]({BASE}/dados/relatorio.json)\n", encoding="utf-8")
     (OUT / "vercel.json").write_text(json.dumps(VERCEL, indent=1))  # deploy pela CLI, de dentro de site/
     # deploy pelo git (integração GitHub) parte da raiz do repo: sem isto a Vercel publica a raiz e o site dá 404

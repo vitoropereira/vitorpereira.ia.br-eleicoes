@@ -14,6 +14,7 @@ from pathlib import Path
 from unittest import mock
 
 import build_site as B
+import navegacao as NAV
 from municipios import minha_secao as msec
 from municipios import montar_secao as ms
 from tests.test_secao import FX, zipar
@@ -265,6 +266,16 @@ class TestSecoes(unittest.TestCase):
                 self.assertIn("/minha-secao/", urls)
                 self.assertEqual(urls.index("/minha-secao/"), urls.index("/analise/") + 1)
                 self.assertIn('<a href="/minha-secao/"', B.menu_secoes("/analise/"))
+                self.assertEqual(dict(B.secoes())["/minha-secao/"], NAV.MINHA_SECAO)
+
+
+class TestLayout(Base):
+    def test_trilha_unica_e_largura_de_texto(self):
+        for pasta in (self.locais, self.td / "nada"):
+            h = msec.gerar(self.td / "site", pasta, META)["html"]
+            self.assertIn(NAV.trilha((NAV.INICIO, "/"), (NAV.MINHA_SECAO, None)), h)
+        self.assertIn("main.ms{max-width:var(--w-texto)", msec.CSS)
+        self.assertNotRegex(msec.CSS, r"max-width:(1160|1120|880)px")
 
 
 @unittest.skipUnless(shutil.which("deno"), "precisa de deno")
