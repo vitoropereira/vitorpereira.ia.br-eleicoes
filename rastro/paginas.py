@@ -206,7 +206,7 @@ PLACEHOLDER_BUSCA = "Busque um eleito, uma empresa, um CNPJ ou um sócio"
 def caixa_busca(grande=False):
     """Caixa de busca (rastro/busca.js). Sem JS, fica só o link para a lista de eleitos; o JS mostra o campo e esconde o link."""
     ident = ' id="busca"' if grande else ""
-    return (f'<div{ident} class="rs-busca{" rs-busca-g" if grande else ""}" role="search" data-rs-busca>'
+    return (f'<div class="rs-busca{" rs-busca-g" if grande else ""}"{ident} role="search" data-rs-busca>'
             '<a class="rs-busca-sem" href="/rastro/#eleitos">Ver a lista completa de eleitos</a>'
             '<div class="rs-busca-cx" hidden><label class="rs-sr" for="rs-busca-q">Buscar no Rastro do dinheiro</label>'
             '<input id="rs-busca-q" type="search" role="combobox" aria-controls="rs-busca-l" aria-expanded="false" aria-autocomplete="list" '
