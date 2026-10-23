@@ -182,6 +182,21 @@ ao lado (inclui a checagem genérica do próprio debate, como "Checamos … no d
 não conta: fonte do dia do debate pode ser primária. Com `python3 debates/validar.py --estrito <pasta>`
 (a flag vale em qualquer posição) os avisos viram erros e a saída é 1. Use `--estrito` antes de publicar um debate novo.
 
+**Checagem cega com consenso (`debates/consenso.py`).** Para classificar o veredito sem viés de autoria:
+
+1. `python3 debates/consenso.py cego-checagem <pasta> [--de pesquisa/] > cego.json` gera, por afirmação `certa` de candidato,
+   `{id, tipo, afirmacao, trecho, contexto, explicacao, fontes}`. `contexto` é a marcação da afirmação com a anterior e a
+   seguinte; `explicacao` e `fontes` vêm de `checagens.json` ou dos `*.json` de `--de`. Nada de `quem`, veredito ou nome.
+2. Cada classificador (IA) recebe **só** `cego.json` e esta seção e devolve `[{id, categoria, confianca, motivo,
+   checou_coisa_certa}]` (ou `{id: veredito}`).
+3. `python3 debates/consenso.py checagem v1.json v2.json v3.json --cego cego.json > decididos.json`: mesma regra de
+   maioria da retórica. Voto com `checou_coisa_certa: false` põe o id em `refazer` (a pesquisa pegou a coisa errada:
+   refaça-a, mesmo que o id tenha consenso).
+4. `python3 debates/consenso.py aplicar decididos.json juiz1.json [--pasta <pasta>] > vereditos.json`: o juiz decide a
+   divergência; sem acordo, a regra é `nao-comprovado`. O `checagens.json` continua sendo editado à mão.
+
+Os votos e o JSON cego são intermediários e não são versionados.
+
 ### 7. Publicar
 
 `python3 build_site.py` publica todo `debates/<ano>/<slug>/` que tenha `checagens.json`, sem código novo por debate
@@ -237,12 +252,20 @@ Procedimento cego com `debates/retorica.py`. Quem etiqueta não pode saber quem 
 1. Monte `falas.json` lendo a transcrição: `[{"inicio": "H:MM:SS", "fim": "H:MM:SS", "quem": id, "autoria": "certa"}]`,
    um trecho por vez de fala, com início e fim sendo marcações (o fim conta). Use as afirmações já atribuídas como
    âncora e marque `incerta` onde a fala cruza.
-2. `python3 debates/retorica.py cego <pasta> falas.json > cego.json` gera `[{id, frase}]`, sem `quem`, nome ou partido.
-3. O etiquetador (IA) recebe **só** `cego.json` e esta seção, nunca `falas.json` nem `debate.json`, e devolve
-   `etiquetas.json` = `{id: etiqueta ou "fora"}` com todos os ids.
-4. `python3 debates/retorica.py juntar <pasta> falas.json etiquetas.json` grava `<pasta>/retorica.json`. Ele recusa id
+2. `python3 debates/retorica.py cego <pasta> falas.json > cego.json` gera `[{id, anterior, frase, seguinte}]`, sem `quem`,
+   nome ou partido. `anterior` e `seguinte` são as frases vizinhas na lista (vazias nas pontas), só para dar contexto.
+3. Cada etiquetador (IA) recebe **só** `cego.json` e esta seção, nunca `falas.json` nem `debate.json`, e devolve um
+   arquivo de voto: `{id: etiqueta ou "fora"}` ou `[{id, etiqueta, confianca, motivo}]`, com todos os ids.
+4. Consenso, com 3 etiquetadores: `python3 debates/consenso.py retorica v1.json v2.json v3.json --cego cego.json > decididos.json`.
+   Vale por **maioria** só se os dois primeiros votos concordam (3 iguais é `unanime`). O resto vai em `divergencias`, no
+   formato do cego, para o juiz; o stderr traz a concordância entre os votos. Cada juiz recebe só essas divergências
+   (e esta seção) e devolve `{id: etiqueta ou "fora"}`.
+5. `python3 debates/consenso.py aplicar decididos.json juiz1.json juiz2.json [--pasta <pasta> --falas falas.json] > etiquetas.json`.
+   Juízes de acordo decidem; juízes divergentes ou ausentes caem na regra de desempate acima (`fora` só ganha se for o
+   único voto). O stderr conta unânimes, maioria, juiz e regra e, com `--pasta` e `--falas`, as divergências por `quem`.
+6. `python3 debates/retorica.py juntar <pasta> falas.json etiquetas.json` grava `<pasta>/retorica.json`. Ele recusa id
    desconhecido, id faltando e etiqueta fora da lista.
-5. `python3 debates/validar.py <pasta>` valida o arquivo e imprime `quem×etiqueta`.
+7. `python3 debates/validar.py <pasta>` valida o arquivo e imprime `quem×etiqueta`.
 
-`falas.json`, `cego.json` e `etiquetas.json` são intermediários e não são versionados.
+`falas.json`, `cego.json`, os votos, `decididos.json` e `etiquetas.json` são intermediários e não são versionados.
 Os percentuais de cada candidato somam exatamente 100 (método do maior resto). O placar não é nota nem "quem ganhou".

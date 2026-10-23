@@ -1,7 +1,7 @@
 """Etiquetagem cega da retórica de um debate (retorica.json), só biblioteca padrão. Formato e regra: debates/README.md, seção 8.
 
 Uso:
-  python3 debates/retorica.py cego <pasta> <falas.json>                  → lista cega [{id, frase}] na saída padrão
+  python3 debates/retorica.py cego <pasta> <falas.json>                  → lista cega [{id, anterior, frase, seguinte}] na saída padrão
   python3 debates/retorica.py juntar <pasta> <falas.json> <etiquetas.json> → grava <pasta>/retorica.json
 
 falas.json diz quem fala em cada trecho: [{"inicio": "H:MM:SS", "fim": "H:MM:SS", "quem": id, "autoria": "certa"}],
@@ -56,8 +56,9 @@ def frases(pasta, autoria):
 
 
 def cego(fs):
-    """Só id e frase: o que o etiquetador recebe."""
-    return [{"id": f["id"], "frase": f["frase"]} for f in fs]
+    """id, a frase e as vizinhas na lista (vazias nas pontas): o que o etiquetador recebe. Nada de quem falou."""
+    return [{"id": f["id"], "anterior": fs[i - 1]["frase"] if i else "", "frase": f["frase"],
+             "seguinte": fs[i + 1]["frase"] if i + 1 < len(fs) else ""} for i, f in enumerate(fs)]
 
 
 def juntar(fs, etiquetas):
