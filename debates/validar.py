@@ -320,12 +320,12 @@ def _eh_checador(url):
     return any(host == c or host.endswith("." + c) or caminho == c or caminho.startswith(c + "/") for c in CHECADORES)
 
 
-def avisos_fontes(checagens, debate):
-    """[(id, mensagem)] de fontes fracas: agregador (news.google), fonte única que é checador ou fonte única
-    publicada no dia do debate ou depois. Não é erro; `--estrito` promove os avisos a erros."""
+def avisos_fontes(checagens, debate=None):
+    """[(id, mensagem)] de fontes fracas: agregador (news.google) ou fonte única que é checador (inclusive a checagem
+    genérica do próprio debate). Não é erro; `--estrito` promove os avisos a erros. Data de publicação não entra:
+    fonte do dia do debate pode ser primária (a própria transcrição, por exemplo)."""
     if not isinstance(checagens, list):
         return []
-    dia = _data_iso(debate.get("data")) if isinstance(debate, dict) and isinstance(debate.get("data"), str) else None
     avisos = []
     for ch in checagens:
         fontes = [f for f in ch.get("fontes", []) if isinstance(f, dict)] \
@@ -333,12 +333,8 @@ def avisos_fontes(checagens, debate):
         i = ch.get("id") if isinstance(ch, dict) else None
         if any(_host_caminho(f.get("url"))[0].startswith(HOSTS_FRACOS) for f in fontes):
             avisos.append((i, "fonte é agregador de notícias (news.google); use a matéria original"))
-        if len(fontes) == 1:
-            if _eh_checador(fontes[0].get("url")):
-                avisos.append((i, "fonte única é um checador; acrescente uma fonte primária"))
-            pub = _data_parcial(fontes[0]["data_publicacao"]) if isinstance(fontes[0].get("data_publicacao"), str) else None
-            if dia and pub and pub >= dia:
-                avisos.append((i, f"fonte única publicada no dia do debate ou depois ({fontes[0]['data_publicacao']})"))
+        if len(fontes) == 1 and _eh_checador(fontes[0].get("url")):
+            avisos.append((i, "fonte única é um checador; acrescente uma fonte primária"))
     return avisos
 
 

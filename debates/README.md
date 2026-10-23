@@ -178,7 +178,8 @@ para conferir que o critério foi o mesmo para cada lado.
 **Fonte fraca e `--estrito`.** O validador imprime `aviso: <id>: …` (saída continua 0) quando uma checagem tem:
 fonte de `news.google.*` (agregador; use a matéria original); fonte **única** que é checador (Aos Fatos, Lupa,
 Comprova, `g1.globo.com/fato-ou-fake`, `estadao.com.br/estadao-verifica`, Boatos.org, E-Farsas), sem fonte primária
-ao lado; ou fonte **única** publicada no dia do debate ou depois. Com `python3 debates/validar.py --estrito <pasta>`
+ao lado (inclui a checagem genérica do próprio debate, como "Checamos … no debate da Band"). A data de publicação
+não conta: fonte do dia do debate pode ser primária. Com `python3 debates/validar.py --estrito <pasta>`
 (a flag vale em qualquer posição) os avisos viram erros e a saída é 1. Use `--estrito` antes de publicar um debate novo.
 
 ### 7. Publicar

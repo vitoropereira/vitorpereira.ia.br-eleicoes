@@ -389,13 +389,11 @@ class TestAvisosFontes(unittest.TestCase):
     def test_g1_fora_do_fato_ou_fake_nao_avisa(self):
         self.assertEqual(self.avisos(fonte(url="https://g1.globo.com/politica/noticia/x.ghtml")), [])
 
-    def test_fonte_unica_do_dia_do_debate_ou_depois_avisa(self):
+    def test_data_da_fonte_nao_gera_aviso(self):
+        # fonte do dia do debate ou depois pode ser primária (a transcrição, uma matéria com o dado): não é aviso
         for d in ("2026-10-18", "2026-10-19"):
             with self.subTest(data=d):
-                self.assertTrue(self.avisos(fonte(data_publicacao=d)))
-                self.assertEqual(self.avisos(fonte(data_publicacao=d), fonte()), [])
-        self.assertEqual(self.avisos(fonte(data_publicacao="2026-10-17")), [])
-        self.assertEqual(self.avisos(fonte(data_publicacao="2026")), [])
+                self.assertEqual(self.avisos(fonte(data_publicacao=d)), [])
 
     def test_devolve_id_e_mensagem(self):
         (i, msg), = self.avisos(fonte(url="https://news.google.com/x"))
@@ -460,14 +458,16 @@ class TestDebatesPublicados(unittest.TestCase):
         self.assertTrue((RAIZ / "debates/2026/presidente-2-turno-band/checagens.json").exists())
 
     def test_avisos_de_fonte_da_band(self):
-        # fontes fracas conhecidas: um caso novo aparece aqui, e um corrigido também.
-        # sau-08: news.google; eco-36, cor-13, cor-25: fonte única de checador; sau-04, eco-28, eco-29, out-10:
-        # fonte única publicada no dia do debate ou depois.
+        # fontes fracas conhecidas (#123): um caso novo aparece aqui, e um corrigido também.
+        # sau-08: news.google; eco-36, cor-13, cor-25: fonte única de checador.
         pasta = RAIZ / "debates/2026/presidente-2-turno-band"
         chs = json.loads((pasta / "checagens.json").read_text(encoding="utf-8"))
         deb = json.loads((pasta / "debate.json").read_text(encoding="utf-8"))
-        self.assertEqual({i for i, _ in vd.avisos_fontes(chs, deb)},
-                         {"sau-08", "eco-36", "cor-13", "cor-25", "sau-04", "eco-28", "eco-29", "out-10"})
+        self.assertEqual({i for i, _ in vd.avisos_fontes(chs, deb)}, {"sau-08", "eco-36", "cor-13", "cor-25"})
+
+    def test_band_falha_com_estrito(self):
+        with contextlib.redirect_stderr(io.StringIO()), contextlib.redirect_stdout(io.StringIO()):
+            self.assertEqual(vd.main(["--estrito", str(RAIZ / "debates/2026/presidente-2-turno-band")]), 1)
 
     def test_band_passa_sem_estrito(self):
         with contextlib.redirect_stderr(io.StringIO()):
