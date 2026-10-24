@@ -408,7 +408,7 @@ class Indice(unittest.TestCase):
 
 class PlacarPorCandidato(unittest.TestCase):
     def test_band_bate_com_checagens(self):
-        pc = dp.placar_por_candidato(dp.listar(REAL.parent.parent))
+        pc = dp.placar_por_candidato([dp.carregar(REAL)])  # só a Band: o acumulado com outros debates é do Indice
         itens = {i["id"]: i for i in json_de(REAL, "afirmacoes.json") if i["autoria"] == "certa"}
         chs = [c for c in json_de(REAL, "checagens.json") if c["id"] in itens]
         quem = {c["id"]: c["id_tse"] for c in json_de(REAL, "debate.json")["candidatos"]}
@@ -544,6 +544,8 @@ class Saida(unittest.TestCase):
     def test_uma_pasta_por_checagem_e_sitemap(self):
         sitemap = (R / "site" / "sitemap.xml").read_text()
         for m in dp.listar(R / "debates"):
+            if not (R / "site" / m["path"].strip("/")).exists():
+                continue  # debate novo: quem publica o site/ é o lote, não o PR
             for c in m["checagens"]:
                 p = m["path"] + c["id"] + "/"
                 self.assertTrue((R / "site" / p.strip("/") / "index.html").exists(), p)

@@ -1248,7 +1248,7 @@ class TestPresidente(unittest.TestCase):
             for g, c in conta.items():
                 for v, n in c.items():
                     self.assertIn(f"<li><span>{dp.ROTULOS[v]}</span><span>{n} ({dp.pct(n, sum(c.values()))}%)</span></li>", sec)
-            links = re.findall(r'href="(/debates/2026/presidente-2-turno-band/[^"]+/)"', sec)
+            links = re.findall(r'href="(/debates/2026/presidente-2-turno-[a-z]+/[^"]+/)"', sec)
             self.assertEqual(len(links), dp.total(conta))
 
     def test_sem_id_tse_casando_sem_secao(self):
