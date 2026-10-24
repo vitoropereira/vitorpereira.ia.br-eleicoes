@@ -22,6 +22,35 @@
   "atualizado_em": "2026-10-24"
  },
  {
+  "id": "int-02",
+  "veredito_sugerido": "verdadeiro",
+  "explicacao": "Segundo o Indec, a pobreza na Argentina foi de 52,9% das pessoas no 1º semestre de 2024, 38,1% no 2º semestre de 2024 e 41,7% no 2º semestre de 2023, ou seja, chegou a 40% ou mais em mais de um semestre. O dado mais recente citado em reportagem de setembro de 2026 é 32,3% no 1º semestre de 2026, abaixo de 40%.",
+  "fontes": [
+   {
+    "url": "https://chequeado.com/el-explicador/que-paso-con-el-indice-de-pobreza-en-el-primer-ano-de-milei/",
+    "titulo": "Qué pasó con el índice de pobreza en el primer año de Milei",
+    "orgao": "Chequeado (dados do Indec)",
+    "data_publicacao": "2025-03-30",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://www.canal26.com/economia/2025/03/31/la-pobreza-bajo-a-381-en-el-segundo-semestre-de-2024-segun-datos-del-indec/",
+    "titulo": "La pobreza bajó a 38,1% en el segundo semestre de 2024, según datos del INDEC",
+    "orgao": "Canal 26",
+    "data_publicacao": "2025-03-31",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://www.noticiasnqn.com.ar/noticias/2026/09/24/354007-la-pobreza-subio-al-32_3por-ciento-en-el-primer-semestre-de-2026",
+    "titulo": "La pobreza subió al 32,3% en el primer semestre de 2026",
+    "orgao": "Noticias NQN",
+    "data_publicacao": "2026-09-24",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
   "id": "int-03",
   "veredito_sugerido": "nao-comprovado",
   "explicacao": "Não foi achada declaração de Flávio dizendo que quer um modelo igual ao de Milei. A coordenadora econômica da campanha disse que o modelo argentino inspira propostas, e no debate de 18/10/2026, questionado por Lula, Flávio não disse se adotaria a política de Milei. Ele considera Milei aliado.",
@@ -66,6 +95,28 @@
   "atualizado_em": "2026-10-24"
  },
  {
+  "id": "int-05",
+  "veredito_sugerido": "falso-ou-exagerado",
+  "explicacao": "O Poder360 (18/11/2023) registra Néstor Kirchner de 2003 a 2007, Cristina Kirchner de 2007 a 2015 e Alberto Fernández desde 2019, todos do peronismo; em 2015 Mauricio Macri venceu e interrompeu essa sequência. A soma dá cerca de 16 anos de governos peronistas, não 20. O Empório do Direito descreve o peronismo como movimento que abrange correntes de extrema-esquerda, centro e direita.",
+  "fontes": [
+   {
+    "url": "https://www.poder360.com.br/internacional/peronismo-venceu-4-das-ultimas-5-eleicoes-presidenciais/",
+    "titulo": "Peronismo venceu 4 das últimas 5 eleições presidenciais",
+    "orgao": "Poder360",
+    "data_publicacao": "2023-11-18",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://emporiododireito.com.br/leitura/peronismo-e-kirchnerismo-na-argentina-uma-jornada-politica-economica-e-social",
+    "titulo": "Peronismo e kirchnerismo na Argentina: uma jornada política, econômica e social",
+    "orgao": "Empório do Direito",
+    "data_publicacao": "2023-11-23",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
   "id": "int-06",
   "veredito_sugerido": "verdadeiro",
   "explicacao": "O INDEC informou inflação de 211,4% em 2023 (12 meses até dezembro), a maior em 32 anos. Milei assumiu em 10/12/2023, e o número inclui a inflação mensal de 25,5% de dezembro, parte dela já sob o novo governo.",
@@ -97,6 +148,43 @@
     "titulo": "Argentina reduz taxa de juros pela terceira vez em três semanas, para 50%",
     "orgao": "Bloomberg Línea",
     "data_publicacao": "2024-05-02",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
+  "id": "int-08",
+  "veredito_sugerido": "situacao-identificada",
+  "explicacao": "Segundo o INDEC, a inflação da Argentina foi de 211,4% em 2023; a maior parte do ano foi no governo de Alberto Fernández (vice: Cristina Kirchner), e o mês de dezembro, já sob Javier Milei, teve 25,5% após forte desvalorização do peso. Em 12/10/2023 o banco central elevou o juro de referência a 133%, com inflação anual de 138,3% em setembro. As fontes confirmam a alta de juros e inflação nesse período; a atribuição da causa não é tratada nelas.",
+  "fontes": [
+   {
+    "url": "https://batimes.com.ar/news/economy/inflation-in-argentina-surpassed-211-in-2023-reveals-indec.phtml",
+    "titulo": "Inflation in Argentina surpassed 211% in 2023, reveals INDEC",
+    "orgao": "Buenos Aires Times",
+    "data_publicacao": "2024-01-11",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://www.bloomberglinea.com.br/internacional/argentina-eleva-juro-para-133-as-vesperas-de-eleicao-para-combater-inflacao/",
+    "titulo": "Argentina eleva juro para 133% às vésperas de eleição para combater inflação",
+    "orgao": "Bloomberg Línea",
+    "data_publicacao": "2023-10-12",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
+  "id": "out-01",
+  "veredito_sugerido": "falso-ou-exagerado",
+  "explicacao": "Reportagem da Agência Pública diz que o primeiro projeto de transposição do São Francisco é de 1847 e foi do intendente do Crato (CE), Marcos Antônio de Macedo, não de Dom Pedro II. Segundo a mesma reportagem, o imperador não tomou conhecimento do plano por cerca de 30 anos e, na seca de 1877 a 1879, desistiu dele porque estudos do Barão de Capanema apontaram falta de recursos técnicos. Parte da afirmação se sustenta (a ideia existiu no Império e não saiu do papel), mas ano e autoria divergem.",
+  "fontes": [
+   {
+    "url": "https://apublica.org/2014/02/transposicao-um-projeto-dos-tempos-imperio/",
+    "titulo": "Transposição, um projeto dos tempos do Império",
+    "orgao": "Agência Pública",
+    "data_publicacao": "2014-02-10",
     "acessado_em": "2026-10-24"
    }
   ],
@@ -280,6 +368,72 @@
     "titulo": "Richarlison disputa imóvel com amigo de Flávio Bolsonaro na Justiça",
     "orgao": "Poder360",
     "data_publicacao": "2026-10",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
+  "id": "out-12",
+  "veredito_sugerido": "falso-ou-exagerado",
+  "explicacao": "Segundo a Receita Federal, a única empresa declarada por Flávio desde 2002, a Bolsotini Chocolates e Café (franquia Kopenhagen), foi aberta em 2015, e a operação da loja foi repassada a outro grupo em fevereiro de 2021. Isso dá cerca de 11 anos, não 24, para a atividade empresarial documentada. Ele é deputado (Alerj) e senador, e reportagens de 2026 citam o escritório de advocacia dele, aberto formalmente em Brasília em 2021.",
+  "fontes": [
+   {
+    "url": "https://www.poder360.com.br/governo/flavio-bolsonaro-fez-patrimonio-antes-de-se-declarar-empresario-diz-jornal/",
+    "titulo": "Flávio Bolsonaro fez patrimônio antes de se declarar empresário, diz jornal",
+    "orgao": "Poder360",
+    "data_publicacao": "2019-01-22",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://www.folhape.com.br/politica/flavio-bolsonaro-entrega-loja-de-chocolates-investigada-no-caso-da/171501/",
+    "titulo": "Flávio Bolsonaro entrega loja de chocolates investigada no caso da rachadinha",
+    "orgao": "Folha de Pernambuco",
+    "data_publicacao": "2021-02-04",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
+  "id": "out-13",
+  "veredito_sugerido": "verdadeiro",
+  "explicacao": "A biografia do Portal São Francisco diz que Lula vendia amendoim e tapioca por volta dos 7 anos e que, aos 12, conseguiu o primeiro emprego, numa tinturaria. O InfoMoney registra que ele trabalhou como ambulante desde os 7 anos. O primeiro emprego com carteira assinada, como metalúrgico, foi aos 14. Assim, 12 anos corresponde ao primeiro emprego, embora ele já trabalhasse antes.",
+  "fontes": [
+   {
+    "url": "https://www.portalsaofrancisco.com.br/biografias/luiz-inacio-lula-da-silva",
+    "titulo": "Luiz Inácio Lula da Silva",
+    "orgao": "Portal São Francisco",
+    "data_publicacao": "2026",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://www.infomoney.com.br/?p=1751719",
+    "titulo": "Biografia de Lula",
+    "orgao": "InfoMoney",
+    "data_publicacao": "2026",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
+  "id": "out-14",
+  "veredito_sugerido": "nao-comprovado",
+  "explicacao": "As biografias abertas confirmam que Lula vendeu amendoim e tapioca na infância, foi engraxate e office-boy, fez o curso de torneiro mecânico do Senai (1960 a 1963) e trabalhou como metalúrgico na Fábrica de Parafusos Marte. Nenhuma das fontes consultadas menciona a venda de sardinha, então a afirmação completa não foi confirmada.",
+  "fontes": [
+   {
+    "url": "https://www.portalsaofrancisco.com.br/biografias/luiz-inacio-lula-da-silva",
+    "titulo": "Luiz Inácio Lula da Silva",
+    "orgao": "Portal São Francisco",
+    "data_publicacao": "2026",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://www.infomoney.com.br/?p=1751719",
+    "titulo": "Biografia de Lula",
+    "orgao": "InfoMoney",
+    "data_publicacao": "2026",
     "acessado_em": "2026-10-24"
    }
   ],
