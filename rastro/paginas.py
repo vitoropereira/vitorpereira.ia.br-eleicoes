@@ -40,6 +40,11 @@ PERMITIDOS = ("prova de irregularidade", "que houve irregularidade", "situacao_i
 # ' d="…"' no meio não consegue esconder um CPF da varredura
 TAG_SVG = re.compile(r"<(?:svg|path|polyline|polygon|line|rect|circle|g)\b[^<>]*>")
 GEOMETRIA = re.compile(r'\s(?:d|points|viewBox|transform)="[^"<>]*"')
+# id de fornecedor MEI = hmac(sal, cnpj)[:16] em hex: pode ter 11 dígitos seguidos que passam no verificador de CPF
+# (774f38504460266a, lote de 24/10). Só é neutralizado nas formas que o gerador escreve: /rastro/fornecedor/<id>,
+# id="f-<id>", #f-<id> e "id":"<id>"; e só com ao menos uma letra (hash), nunca uma sequência só de dígitos
+ID_MEI = re.compile(r'(?:(?<=/rastro/fornecedor/)|(?<=id="f-)|(?<=#f-)|(?<="id":")|(?<="id": "))'
+                    r'(?=[0-9a-f]*[a-f])[0-9a-f]{16}(?![0-9A-Za-z])')
 RE_CPF_CANDIDATO = re.compile(r"(?<![\d.\-])\d{3}[.\s]?\d{3}[.\s]?\d{3}[\-\s]?\d{2}(?![\d])")
 BUSCA_JS = Path(__file__).resolve().parent / "busca.js"
 SEM_PRESTACAO = "Esta candidatura está sem prestação parcial publicada até a data da base."
@@ -110,7 +115,7 @@ def termo_proibido(texto):
 def varrer(nome, texto):
     """Levanta ValueError se o HTML tiver CPF válido ou termo proibido."""
     # coordenadas de SVG (d, points, viewBox, transform) formam sequências de 11 dígitos que passam no verificador
-    for m in RE_CPF_CANDIDATO.finditer(TAG_SVG.sub(lambda t: GEOMETRIA.sub(" ", t.group()), texto)):
+    for m in RE_CPF_CANDIDATO.finditer(ID_MEI.sub(" ", TAG_SVG.sub(lambda t: GEOMETRIA.sub(" ", t.group()), texto))):
         if cpf_valido(re.sub(r"\D", "", m.group())):
             raise ValueError(f"{nome}: CPF válido no HTML ({m.group()[:3]}…); página não publicada")
     m = termo_proibido(texto)
