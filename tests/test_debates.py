@@ -508,6 +508,20 @@ class TestDebatesPublicados(unittest.TestCase):
         self.assertTrue(any(s.startswith("## Considerações finais") for s in secoes))
         self.assertEqual({b for _, b, _ in vd.marcacoes(md) if b}, {"1", "2", "3", "4", "finais"})
 
+    def test_globo_afirmacoes_extraidas(self):
+        # sentinela da #126: extração simétrica, sem mediação (decisão de 21/10: os mediadores falam a verdade)
+        pasta = RAIZ / "debates/2026/presidente-2-turno-globo"
+        itens = json.loads((pasta / "afirmacoes.json").read_text(encoding="utf-8"))
+        md = (pasta / "transcricao.md").read_text(encoding="utf-8")
+        self.assertGreaterEqual(len(itens), 60)
+        quem = Counter(i["quem"] for i in itens)
+        self.assertEqual(set(quem), {"flavio-bolsonaro-pl", "lula-pt"})  # nenhum quem: mediacao
+        for q, n in quem.items():
+            self.assertGreaterEqual(n, 20, q)
+        marcas = {ts for ts, _, _ in vd.marcacoes(md)}
+        self.assertEqual([i["id"] for i in itens if i["timestamp"] not in marcas], [])
+        self.assertEqual({i["bloco"] for i in itens}, {"1", "2", "3", "4", "finais"})
+
     def conferir_pastas(self, raiz):
         # regras/ guarda as regras dos classificadores (debates/regras/*.md), não é ano
         anos = [p for p in raiz.iterdir() if p.is_dir() and not p.name.startswith(("_", ".")) and p.name != "regras"]
@@ -535,3 +549,13 @@ class TestDebatesPublicados(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class IdComTresDigitos(unittest.TestCase):
+    """Debate com mais de 99 afirmações num tema (Globo, economia): id aceita 2 ou 3 dígitos, nada além disso."""
+
+    def test_formato_do_id(self):
+        for ok in ("eco-01", "eco-99", "eco-100", "eco-131"):
+            self.assertTrue(vd.RE_ID.match(ok), ok)
+        for ruim in ("eco-1", "eco-1000", "eco-01a", "Eco-01", "eco01"):
+            self.assertFalse(vd.RE_ID.match(ruim), ruim)
