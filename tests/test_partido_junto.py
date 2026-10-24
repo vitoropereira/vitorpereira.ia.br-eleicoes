@@ -397,10 +397,12 @@ MAIUSC = "A-ZÀ-Ý"
 
 def achados_rastro(doc, cand):
     """blocos_sem_sigla, sem o caso que não é rótulo nosso: o nome de urna dentro de um nome maior (JOSE DIAS DE CASTRO
-    NETO não é CASTRO NETO; a razão social "ELEICAO 2026 FULANO DEPUTADO" é do fornecedor)"""
+    NETO não é CASTRO NETO; ORLANDO DE PAULA E SILVA NETO não é SILVA NETO; CARLOS HENRIQUE S. PAJARES; a razão social
+    "ELEICAO 2026 FULANO DEPUTADO" é do fornecedor)"""
     out = []
     for b, n in blocos_sem_sigla(doc, cand, corte=None):
-        if re.search(rf"[{MAIUSC}0-9]{{2,}}\.? {re.escape(n)}(?!\w)|(?<!\w){re.escape(n)} [{MAIUSC}]{{2,}}", b):
+        if re.search(rf"(?:[{MAIUSC}0-9]{{2,}}\.?|(?<!\w)E) {re.escape(n)}(?!\w)"
+                     rf"|(?<!\w){re.escape(n)} (?:[{MAIUSC}]{{2,}}|[{MAIUSC}]\.? [{MAIUSC}]{{2,}})", b):
             continue
         out.append((b, n))
     return out

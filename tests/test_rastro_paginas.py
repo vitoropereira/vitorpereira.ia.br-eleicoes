@@ -122,8 +122,8 @@ class TestFornecedor(unittest.TestCase):
         item = {"eleito": E["2001"], "caminho": pg.caminho(E["2001"]), "nome": "socio_ligado", "valor": 1, "fonte_url": "https://x",
                 "fato": "BELTRANO SOCIO (PL), sócio(a) desta empresa, consta como candidato(a)/suplente em 2026 (DEPUTADO "
                         "ESTADUAL, MG); pode ser homônimo"}
-        self.assertIn("<li>BELTRANO SOCIO (PL)</li>", pagina_forn("33333333000191", False, [item]))
-        self.assertIn("<li>BELTRANO SOCIO</li>", pagina_forn("33333333000191", False))
+        self.assertIn("<li><cite>BELTRANO SOCIO</cite> (PL)</li>", pagina_forn("33333333000191", False, [item]))
+        self.assertIn("<li><cite>BELTRANO SOCIO</cite></li>", pagina_forn("33333333000191", False))
 
     def test_nunca_endereco_nem_cpf_mascarado(self):
         h = pagina_forn("33333333000191", False)
@@ -1273,3 +1273,35 @@ class TestPresidente(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestFilaInteira(unittest.TestCase):
+    """casos que travavam lotes da fila de 23/10: conta de campanha com nome de eleito, coordenada de SVG com cara de CPF
+    e LARANJAL/sobrenome LARANJA vindos da Receita"""
+
+    def test_conta_de_campanha_com_nome_de_eleito_ganha_uf_e_sigla(self):
+        sig = pg.siglas_eleitos([{"nome_urna": "FULANO DE TAL", "uf": "SC", "partido": "NOVO"},
+                                 {"nome_urna": "BELTRANO", "uf": "RS", "partido": "PL"},
+                                 {"nome_urna": "CICRANO SILVA", "uf": "SP", "partido": "PT"},
+                                 {"nome_urna": "CICRANO SILVA", "uf": "MG", "partido": "PL"}])
+        self.assertEqual(sig, {"FULANO DE TAL": " · SC · NOVO"})  # uma palavra e nome repetido ficam de fora
+        contas = {"despesas": {"fornecedores_pj": [{"nome": "FULANO DE TAL"}, {"nome": "OUTRA LTDA"}]},
+                  "receitas": {"doadores_pj": [{"nome": "FULANO DE TAL"}]}}
+        pg._rotular_campanhas(contas, sig)
+        self.assertEqual([f["nome"] for f in contas["despesas"]["fornecedores_pj"]], ["FULANO DE TAL · SC · NOVO", "OUTRA LTDA"])
+        self.assertEqual(contas["receitas"]["doadores_pj"][0]["nome"], "FULANO DE TAL · SC · NOVO")
+
+    def test_coordenada_de_svg_nao_e_cpf_mas_texto_e(self):
+        pg.varrer("svg", '<svg><path d="M 529 982 247 25 L 1 2"/></svg>')
+        with self.assertRaisesRegex(ValueError, "CPF"):
+            pg.varrer("txt", "<p>529 982 247 25</p>")
+        with self.assertRaisesRegex(ValueError, "CPF"):  # dado que imita atributo fora de tag não esconde o CPF
+            pg.varrer("txt", '<td>EMPRESA d="529 982 247 25" LTDA</td>')
+
+    def test_laranjal_e_sobrenome_da_receita_passam_termo_segue_proibido(self):
+        pg.varrer("posto", "<td>AUTO POSTO C &amp; A DE LARANJAL LTDA</td><li>MARIA DE LOURDES CAO CRAVO LARANJA</li>")
+        with self.assertRaisesRegex(ValueError, "termo proibido"):
+            pg.varrer("txt", "<p>empresa laranja</p>")
+
+    def test_quadro_societario_em_cite(self):
+        self.assertIn('<ul class="rs-socios"><li><cite>BELTRANO SOCIO</cite></li></ul>', pagina_forn("33333333000191", False))
