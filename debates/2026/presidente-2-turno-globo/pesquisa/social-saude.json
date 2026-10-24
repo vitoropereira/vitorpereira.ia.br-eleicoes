@@ -1,5 +1,57 @@
 [
  {
+  "id": "sau-01",
+  "veredito_sugerido": "nao-comprovado",
+  "explicacao": "Não foi encontrada contagem oficial de 14 novos hospitais federais no Nordeste. Em 01/07/2026 Lula e o governador da Bahia entregaram o Hospital Estadual do Litoral Norte, em Alagoinhas (190 leitos, R$ 76 milhões), descrito como o primeiro hospital da Bahia financiado pelo Novo PAC Saúde; a matéria não fala em 14º hospital. O Novo PAC Saúde foi anunciado com R$ 31 bilhões até 2026; não foi achada lista de hospitais entregues no Nordeste.",
+  "fontes": [
+   {
+    "url": "https://jornalgrandebahia.com.br/2026/07/presidente-lula-governador-jeronimo-e-ministro-padilha-anunciam-mais-de-r-500-milhoes-para-saude-da-bahia-com-hospital-policlinica-e-veiculos-do-sus/",
+    "titulo": "Presidente Lula, governador Jerônimo e ministro Padilha anunciam mais de R$ 500 milhões para saúde da Bahia",
+    "orgao": "Jornal Grande Bahia",
+    "data_publicacao": "2026-07-01",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
+  "id": "sau-02",
+  "veredito_sugerido": "falso-ou-exagerado",
+  "explicacao": "Em debate de 2019 na Fundação FHC, Cláudio Lottenberg, anunciado por Flávio para a Saúde, disse 'Eu não colocaria nada mais', defendendo melhorar a alocação dos recursos antes de ampliá-los, e que 'quanto mais planos privados, melhor, porque o SUS pode ficar menor' (reportagem de 20/10/2026). A fala é sobre não aumentar o dinheiro do SUS, não sobre não colocar nenhum dinheiro. A reportagem não traz resposta dele.",
+  "fontes": [
+   {
+    "url": "https://tvtnews.com.br/?p=807191",
+    "titulo": "Fala de Lottenberg sobre o SUS volta a circular",
+    "orgao": "TVT News",
+    "data_publicacao": "2026-10-20",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
+  "id": "sau-03",
+  "veredito_sugerido": "situacao-identificada",
+  "explicacao": "O relatório da CPI da Covid (2021) propôs indiciar Bolsonaro por crimes como epidemia com resultado morte e charlatanismo. Em 25/07/2022 a PGR pediu ao STF arquivar as apurações, por falta de elementos para configurar epidemia com resultado morte e de 'indícios mínimos' de charlatanismo e prevaricação; a vice-PGR afirmou que as convicções da CPI eram políticas. Não há denúncia nem condenação por esses fatos nas fontes abertas, e o desfecho final no STF não foi encontrado.",
+  "fontes": [
+   {
+    "url": "https://www.poder360.com.br/justica/pgr-pede-ao-stf-arquivamento-de-apuracoes-contra-bolsonaro/",
+    "titulo": "PGR pede ao STF arquivamento de apurações contra Bolsonaro",
+    "orgao": "Poder360",
+    "data_publicacao": "2022-07-25",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://www.agazeta.com.br/brasil/relatorio-da-cpi-que-indicia-bolsonaro-e-outros-67-e-lido-nesta-quarta-1021",
+    "titulo": "Relatório da CPI que indicia Bolsonaro e outros 67 é lido nesta quarta",
+    "orgao": "A Gazeta",
+    "data_publicacao": "2021-10-20",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
   "id": "sau-04",
   "veredito_sugerido": "nao-comprovado",
   "explicacao": "Checagem do Comprova, reproduzida pelo Poder360, registra que o Ministério da Saúde afirma ser o Brasil o único país com mais de 100 milhões de habitantes com sistema público, universal e gratuito, e que os sistemas de Reino Unido, Canadá, Espanha e outros têm menos habitantes (o maior, o do Reino Unido, cerca de 66 milhões). A frase 'mais importante' é uma avaliação sem medida objetiva. A checagem não comparou todos os países do mundo.",
@@ -53,6 +105,35 @@
     "titulo": "Bolsonaro afirma que governo comprará 'alguns milhões' de vacinas da Pfizer",
     "orgao": "Poder360",
     "data_publicacao": "2020-12-17",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
+  "id": "sau-07",
+  "veredito_sugerido": "situacao-identificada",
+  "explicacao": "O relatório da CPI da Covid (2021) propôs indiciar Bolsonaro por charlatanismo, citando a defesa da cloroquina como tratamento. Em 25/07/2022 a PGR pediu ao STF o arquivamento da apuração por ausência de 'indícios mínimos' de charlatanismo, e a imprensa registra que a CPI criticou o pedido. A posição pública da defesa de Bolsonaro e o desfecho no STF não foram encontrados nas fontes abertas.",
+  "fontes": [
+   {
+    "url": "https://www.poder360.com.br/justica/pgr-pede-ao-stf-arquivamento-de-apuracoes-contra-bolsonaro/",
+    "titulo": "PGR pede ao STF arquivamento de apurações contra Bolsonaro",
+    "orgao": "Poder360",
+    "data_publicacao": "2022-07-25",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://istoe.com.br/cpi-vai-acusar-bolsonaro-de-charlatanismo",
+    "titulo": "CPI vai acusar Bolsonaro de charlatanismo",
+    "orgao": "IstoÉ",
+    "data_publicacao": "2021-10",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://www.agazeta.com.br/brasil/relatorio-da-cpi-que-indicia-bolsonaro-e-outros-67-e-lido-nesta-quarta-1021",
+    "titulo": "Relatório da CPI que indicia Bolsonaro e outros 67 é lido nesta quarta",
+    "orgao": "A Gazeta",
+    "data_publicacao": "2021-10-20",
     "acessado_em": "2026-10-24"
    }
   ],
@@ -125,6 +206,36 @@
   "atualizado_em": "2026-10-24"
  },
  {
+  "id": "sau-13",
+  "veredito_sugerido": "verdadeiro",
+  "explicacao": "Auditoria do TCU citada pela Folhapress aponta espera média de 719 dias para tireoidectomia no SUS em 2025, após 1.121 dias em 2022, 421 em 2023 e 75 em 2024. O TCU classifica a oscilação como sem tendência definida de melhora. O dado é a média da cirurgia de tireoide entre as oncológicas, em 2025.",
+  "fontes": [
+   {
+    "url": "https://jornaldebrasilia.com.br/noticias/saude/aumenta-espera-por-cirurgia-de-cancer-no-sus-aponta-tcu/",
+    "titulo": "Aumenta espera por cirurgia de câncer no SUS, aponta TCU",
+    "orgao": "Jornal de Brasília (Folhapress)",
+    "data_publicacao": "2026-07-23",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
+  "id": "sau-14",
+  "veredito_sugerido": "pendente-ou-condicionado",
+  "explicacao": "As obras do novo complexo do Inca, no Rio, têm contrato de R$ 1,1 bilhão em PPP entre Ministério da Saúde, Inca e BNDES, com retomada anunciada em 26/11/2024 após paralisação desde 2015 e conclusão prevista para 2026. A promessa de Flávio de investir na ampliação ainda não tem valor ou prazo próprios e dependeria de orçamento e da continuidade do contrato.",
+  "fontes": [
+   {
+    "url": "https://abcdoabc.com.br/obras-do-novo-campus-do-inca-recomecam-no-rio-apos-uma-decada-de-paralisacao/",
+    "titulo": "Obras do novo campus do Inca recomeçam no Rio após uma década de paralisação",
+    "orgao": "ABC do ABC",
+    "data_publicacao": "2024-11-26",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
   "id": "sau-16",
   "veredito_sugerido": "falso-ou-exagerado",
   "explicacao": "Em maio de 2025 o Ministério da Saúde lançou o Agora Tem Especialistas, que prevê trocar dívidas de hospitais e filantrópicos, cerca de R$ 4,4 bilhões, por atendimento; grandes santas casas participariam dessa troca. Em janeiro de 2026 a pasta anunciou ainda R$ 1 bilhão ao setor, que as entidades dizem apenas repor a inflação. Nenhuma fonte consultada confirma que a Caixa seja a credora nem trata de dívida específica com o banco; o setor segue criticando a insuficiência das medidas.",
@@ -177,6 +288,65 @@
   "atualizado_em": "2026-10-24"
  },
  {
+  "id": "sau-19",
+  "veredito_sugerido": "verdadeiro",
+  "explicacao": "Ofício de comissões de Saúde de oito Assembleias, divulgado em 11/03/2026, diz que o repasse por consulta ambulatorial na Tabela SUS está fixado em R$ 10 desde a época em que o salário mínimo era R$ 380. Em maio de 2026 o presidente da Fehosp também citou R$ 10 por consulta. A tabela oficial (SIGTAP) não pôde ser aberta; o valor vem de fontes secundárias.",
+  "fontes": [
+   {
+    "url": "https://ofator.com.br/?p=59004",
+    "titulo": "Deputados estaduais pedem reajuste da Tabela SUS (consulta ambulatorial a R$ 10)",
+    "orgao": "O Fator",
+    "data_publicacao": "2026-03-11",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://futurodasaude.com.br/santas-casas-reajuste-tabela-sus-stj/",
+    "titulo": "Santas Casas buscam reajuste da Tabela SUS no STJ; Ministério teme impacto de R$ 12 bilhões",
+    "orgao": "Futuro da Saúde",
+    "data_publicacao": "2026-05-20",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
+  "id": "sau-20",
+  "veredito_sugerido": "nao-comprovado",
+  "explicacao": "O valor de R$ 443 para o parto não foi encontrado. Reportagem de 20/05/2026 cita, segundo a Fehosp, R$ 480 por um parto na Tabela SUS nacional, valor do procedimento e não especificamente do honorário do obstetra. O SIGTAP (fonte oficial) não pôde ser aberto.",
+  "fontes": [
+   {
+    "url": "https://futurodasaude.com.br/santas-casas-reajuste-tabela-sus-stj/",
+    "titulo": "Santas Casas buscam reajuste da Tabela SUS no STJ; Ministério teme impacto de R$ 12 bilhões",
+    "orgao": "Futuro da Saúde",
+    "data_publicacao": "2026-05-20",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
+  "id": "sau-21",
+  "veredito_sugerido": "nao-comprovado",
+  "explicacao": "Segundo reportagem de 20/05/2026, há uma lei que estabelece reajuste anual da Tabela SUS desde 2025, mas ela apenas corrige valores correntes, próximo ao IPCA, e entidades apontam itens sem reajuste há cerca de 20 anos, como a consulta ambulatorial de R$ 10 (ofício de oito Assembleias, 11/03/2026). As fontes não detalham quais valores foram reajustados de 2023 a 2026, o que impede afirmar que a tabela não foi atualizada em nada.",
+  "fontes": [
+   {
+    "url": "https://futurodasaude.com.br/santas-casas-reajuste-tabela-sus-stj/",
+    "titulo": "Santas Casas buscam reajuste da Tabela SUS no STJ; Ministério teme impacto de R$ 12 bilhões",
+    "orgao": "Futuro da Saúde",
+    "data_publicacao": "2026-05-20",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://ofator.com.br/?p=59004",
+    "titulo": "Deputados estaduais pedem reajuste da Tabela SUS (consulta ambulatorial a R$ 10)",
+    "orgao": "O Fator",
+    "data_publicacao": "2026-03-11",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
   "id": "sau-22",
   "veredito_sugerido": "verdadeiro",
   "explicacao": "Estudo do Conass e do Conasems, citado pelo Futuro da Saúde, mostra que a União respondia por 52% do gasto público em saúde em 2002 e por 40% em 2023, com estados em 27% e municípios em 34%. A queda de participação é de longo prazo e cobre governos de vários partidos. O Ministério da Saúde contesta a leitura e diz que os repasses cresceram em valores entre 2021 e 2025.",
@@ -221,6 +391,50 @@
   "atualizado_em": "2026-10-24"
  },
  {
+  "id": "sau-24",
+  "veredito_sugerido": "verdadeiro",
+  "explicacao": "Um ofício de oito Assembleias Legislativas, de 11/03/2026, diz que a consulta ambulatorial paga pela Tabela SUS é de R$ 10. O valor não é reajustado desde que o salário mínimo era R$ 380. A fala sobre atendimento foi lida como consulta, e a tabela oficial (SIGTAP) não foi aberta.",
+  "fontes": [
+   {
+    "url": "https://ofator.com.br/?p=59004",
+    "titulo": "Deputados estaduais pedem reajuste da Tabela SUS (consulta ambulatorial a R$ 10)",
+    "orgao": "O Fator",
+    "data_publicacao": "2026-03-11",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://futurodasaude.com.br/santas-casas-reajuste-tabela-sus-stj/",
+    "titulo": "Santas Casas buscam reajuste da Tabela SUS no STJ; Ministério teme impacto de R$ 12 bilhões",
+    "orgao": "Futuro da Saúde",
+    "data_publicacao": "2026-05-20",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
+  "id": "soc-01",
+  "veredito_sugerido": "pendente-ou-condicionado",
+  "explicacao": "A proposta de reajuste de aposentadoria rural 'acima da inflação' ainda não existe como compromisso detalhado de Flávio: coluna de 19/10/2026 registra que ele falou em continuar dando reajustes, sem citar índice. A aposentadoria rural no valor de um salário mínimo já acompanha o piso, que subiu 6,79% em 2026 pela Lei 14.663/2023 (INPC mais PIB), com ganho real limitado a 2,5% pela Lei Complementar 200/2023; manter o ganho real depende dessa lei e do orçamento.",
+  "fontes": [
+   {
+    "url": "https://www.dieese.org.br/notatecnica/2025/notaTec289salarioMinimo.pdf",
+    "titulo": "Nota Técnica 289: salário mínimo de R$ 1.621,00 em 2026",
+    "orgao": "DIEESE",
+    "data_publicacao": "2025-12-22",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://mais.opovo.com.br/colunistas/beatriz-cavalcante/2026/10/19/debate-flavio-x-lula-as-sinalizacoes-para-a-economia.html",
+    "titulo": "Debate Flávio x Lula: as sinalizações para a economia",
+    "orgao": "O Povo",
+    "data_publicacao": "2026-10-19",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
   "id": "soc-02",
   "veredito_sugerido": "situacao-identificada",
   "explicacao": "A página do INSS sobre o Meu INSS, atualizada em setembro de 2025, lista o pedido de aposentadoria rural pelo aplicativo entre os serviços disponíveis. Ou seja, o pedido pelo celular já existe. A página não detalha os documentos exigidos nem se a análise pode pedir comparecimento a agência.",
@@ -230,6 +444,28 @@
     "titulo": "Meu INSS",
     "orgao": "INSS",
     "data_publicacao": "2025-09-18",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
+  "id": "soc-03",
+  "veredito_sugerido": "falso-ou-exagerado",
+  "explicacao": "Nota do MDS de setembro de 2014 informa que a FAO divulgou em 16/09/2014 que o Brasil saiu do Mapa da Fome, com dados de 2002 a 2013 e subalimentação abaixo de 5% (1,7% segundo a ministra à época); a fonte não fala em fim da fome em 2012. O SOFI 2025 registra que o Brasil saiu do mapa em 2014, voltou no triênio 2018-2020 e saiu de novo em 2022-2024, agora com limite de 2,5%.",
+  "fontes": [
+   {
+    "url": "https://prefeitura.sp.gov.br/web/desenvolvimento/w/noticias/180790",
+    "titulo": "Brasil sai do Mapa da Fome da ONU (nota do MDS)",
+    "orgao": "Prefeitura de São Paulo (nota do MDS)",
+    "data_publicacao": "2014-09-25",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://www.jb.com.br/brasil/direitos-humanos/2025/07/1056350-brasil-sai-do-mapa-da-fome-indica-relatorio-da-onu.html",
+    "titulo": "Brasil sai do Mapa da Fome, indica relatório da ONU",
+    "orgao": "Jornal do Brasil",
+    "data_publicacao": "2025-07-28",
     "acessado_em": "2026-10-24"
    }
   ],
@@ -273,12 +509,86 @@
   "atualizado_em": "2026-10-24"
  },
  {
+  "id": "soc-06",
+  "veredito_sugerido": "pendente-ou-condicionado",
+  "explicacao": "Coluna de 19/10/2026 registra que Flávio disse que continuará concedendo reajustes a aposentadorias e ao Bolsa Família, sem especificar índice. O reajuste acima da inflação para aposentadorias em geral não aparece como regra nas fontes abertas; o ganho real hoje vem da Lei 14.663/2023 sobre o salário mínimo (INPC mais PIB), com teto de 2,5% de ganho real pela Lei Complementar 200/2023. Ampliar exigiria lei e orçamento.",
+  "fontes": [
+   {
+    "url": "https://www.dieese.org.br/notatecnica/2025/notaTec289salarioMinimo.pdf",
+    "titulo": "Nota Técnica 289: salário mínimo de R$ 1.621,00 em 2026",
+    "orgao": "DIEESE",
+    "data_publicacao": "2025-12-22",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://mais.opovo.com.br/colunistas/beatriz-cavalcante/2026/10/19/debate-flavio-x-lula-as-sinalizacoes-para-a-economia.html",
+    "titulo": "Debate Flávio x Lula: as sinalizações para a economia",
+    "orgao": "O Povo",
+    "data_publicacao": "2026-10-19",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
+  "id": "soc-07",
+  "veredito_sugerido": "falso-ou-exagerado",
+  "explicacao": "O Boletim Estatístico da Previdência Social de julho de 2026 registra 24,55 milhões de aposentadorias pagas pelo INSS em todas as faixas de valor, número menor que 26 milhões. Os benefícios de exatamente um piso somam 29,2 milhões, dos quais 22,7 milhões do RGPS (aposentadorias, pensões e auxílios) e 6,5 milhões assistenciais (como o BPC). Portanto, 26 milhões de aposentados com benefício no piso não se confirma; o número só se aproxima se somar todos os tipos de benefício.",
+  "fontes": [
+   {
+    "url": "https://static.poder360.com.br/uploads/2026/09/boletim-estatistico-previdencia-recorde-2026-jul.pdf",
+    "titulo": "Boletim Estatístico da Previdência Social - Vol. 32 nº 07 (julho de 2026)",
+    "orgao": "Ministério da Previdência Social (cópia hospedada pelo Poder360)",
+    "data_publicacao": "2026-09",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
+  "id": "soc-08",
+  "veredito_sugerido": "nao-comprovado",
+  "explicacao": "Não foi encontrada fonte que meça o percentual de promessas federais ao RS entregues. O governo federal informou em 07/05/2026 R$ 89 bilhões destinados ao estado e 94% executados, e contratos de R$ 5,4 bilhões em prevenção. Em 28/06/2024 a Gazeta do Povo, com dados do portal do governo, apontou R$ 13,5 bilhões pagos de R$ 91,7 bilhões anunciados (14,7%); a Casa Civil contestou. Os números são de datas e bases diferentes.",
+  "fontes": [
+   {
+    "url": "https://jornaldebrasilia.com.br/noticias/brasil/governo-assina-contratos-de-r-54-bi-para-prevenir-enchentes-no-rs/",
+    "titulo": "Governo assina contratos de R$ 5,4 bi para prevenir enchentes no RS",
+    "orgao": "Jornal de Brasília",
+    "data_publicacao": "2026-05-07",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://www.gazetadopovo.com.br/republica/governo-federal-recursos-anunciados-reconstrucao-rs/",
+    "titulo": "Governo federal: recursos anunciados para reconstrução do RS",
+    "orgao": "Gazeta do Povo",
+    "data_publicacao": "2024-06-28",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
   "id": "soc-09",
   "veredito_sugerido": "pendente-ou-condicionado",
   "explicacao": "Ainda não há compromisso de Flávio detalhado nas fontes. O governo federal assinou em maio de 2026 contratos de R$ 5,4 bilhões do fundo FIRECE para obras de prevenção a cheias que beneficiam 16 municípios, entre eles Porto Alegre; a matéria não menciona bombas d'água específicas. Ajudar a comprar e operar bombas dependeria de recursos e de convênio com a prefeitura.",
   "fontes": [
    {
     "url": "https://jornaldebrasilia.com.br/noticias/brasil/governo-assina-contratos-de-r-54-bi-para-prevenir-enchentes-no-rs/",
+    "titulo": "Governo assina contratos de R$ 5,4 bi para prevenir enchentes no RS",
+    "orgao": "Jornal de Brasília",
+    "data_publicacao": "2026-05-07",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
+  "id": "soc-10",
+  "veredito_sugerido": "pendente-ou-condicionado",
+  "explicacao": "Já existem medidas federais para o RS: em 07/05/2026 o governo assinou contratos e ordens de serviço de R$ 5,4 bilhões para prevenção a cheias em 16 municípios, incluindo Porto Alegre, com recursos do fundo FIRECE (R$ 6,5 bilhões disponíveis); a matéria não menciona comportas. A promessa de Flávio de ajudar na reconstrução e em comportas ainda não tem projeto, valor ou prazo, e dependeria de orçamento e de continuidade das obras.",
+  "fontes": [
+   {
+    "url": "https://www.jornaldebrasilia.com.br/noticias/brasil/governo-assina-contratos-de-r-54-bi-para-prevenir-enchentes-no-rs/",
     "titulo": "Governo assina contratos de R$ 5,4 bi para prevenir enchentes no RS",
     "orgao": "Jornal de Brasília",
     "data_publicacao": "2026-05-07",
@@ -297,6 +607,21 @@
     "titulo": "Senado aprova novo marco legal do saneamento básico",
     "orgao": "Agência Senado",
     "data_publicacao": "2020-06-24",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
+  "id": "soc-12",
+  "veredito_sugerido": "verdadeiro",
+  "explicacao": "O Ranking do Saneamento 2026 (Trata Brasil, dados do SINISA de 2024) informa que cerca de 90 milhões de brasileiros (43,3% da população) não têm coleta de esgoto e que 51,8% do esgoto gerado no país é tratado. O número de 90 milhões se refere à falta de coleta; a fonte não traz o número de pessoas sem esgoto tratado, que inclui também quem tem coleta sem tratamento.",
+  "fontes": [
+   {
+    "url": "https://tratabrasil.org.br/wp-content/uploads/2026/03/Release-Ranking-2026_vf.pdf",
+    "titulo": "Release Ranking do Saneamento 2026",
+    "orgao": "Instituto Trata Brasil",
+    "data_publicacao": "2026-03",
     "acessado_em": "2026-10-24"
    }
   ],
@@ -509,6 +834,28 @@
   "atualizado_em": "2026-10-24"
  },
  {
+  "id": "soc-27",
+  "veredito_sugerido": "verdadeiro",
+  "explicacao": "Reportagem do O Povo de 23/10/2026 cita Flávio no debate da Globo: 'na época, eu votei acreditando que isso poderia dificultar que as mulheres conseguissem arrumar emprego, e eu estava errado' e 'eu hoje votaria completamente diferente'. O voto de 2009 na Alerj é reportado pelo Brasil de Fato (aprovação por 54 votos a 1). O registro oficial da Alerj não foi aberto.",
+  "fontes": [
+   {
+    "url": "https://www.opovo.com.br/noticias/politica/eleicoes/2026/10/23/flavio-foi-contra-aumentar-licenca-maternidade-como-diz-lula.html",
+    "titulo": "Flávio foi contra aumentar licença-maternidade, como diz Lula",
+    "orgao": "O Povo",
+    "data_publicacao": "2026-10-23",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://www.brasildefato.com.br/2026/10/19/qual-a-fonte-para-a-pergunta-sobre-o-voto-de-flavio-bolsonaro-contrario-a-licenca-maternidade-no-debate-da-band/",
+    "titulo": "Qual a fonte para a pergunta sobre o voto de Flávio Bolsonaro contrário à licença-maternidade no debate da Band",
+    "orgao": "Brasil de Fato",
+    "data_publicacao": "2026-10-19",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
   "id": "soc-28",
   "veredito_sugerido": "situacao-identificada",
   "explicacao": "Reportagem do Estadão, republicada por outros veículos em outubro de 2026, diz que Flávio apagou postagens de 2011 a 2014 em que chamava o Bolsa Família de 'bolsa-farelo'. As postagens foram confirmadas porque o Estadão baixou todas as publicações dele no X em junho. A campanha não respondeu sobre a remoção; em junho ele negou ter mudado de posição.",
@@ -525,6 +872,28 @@
     "titulo": "Flávio Bolsonaro apaga postagens em que chamava o Bolsa Família de 'bolsa farelo'",
     "orgao": "Jornal do Brasil",
     "data_publicacao": "2026-10",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
+  "id": "soc-29",
+  "veredito_sugerido": "verdadeiro",
+  "explicacao": "Reportagem de 07/07/2026 sobre dados do Cadastro Único informa que o total de pessoas em situação de rua passou de 198,7 mil em dezembro de 2022 para 392,4 mil em junho de 2026, alta de 97,4%. A matéria não nomeia o MDS como fonte e o painel oficial não foi aberto. Representação ao TCU citada pelo Poder360 registrava 389.372 em maio de 2026, valor compatível.",
+  "fontes": [
+   {
+    "url": "https://portaldeprefeitura.com.br/brasil/populacao-em-situacao-de-rua-inscrita-no-cadunico-chega-3924-mil-no/626258/",
+    "titulo": "População em situação de rua inscrita no CadÚnico chega a 392,4 mil",
+    "orgao": "Portal de Prefeitura",
+    "data_publicacao": "2026-07-07",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://static.poder360.com.br/uploads/2026/07/Representacao_TCU_-_Bolsa_Familia_Populacao_em_Situacao_de_Rua_V2.pdf",
+    "titulo": "Representação ao TCU - Bolsa Família e população em situação de rua",
+    "orgao": "Poder360 (documento)",
+    "data_publicacao": "2026-07",
     "acessado_em": "2026-10-24"
    }
   ],
@@ -679,6 +1048,21 @@
   "atualizado_em": "2026-10-24"
  },
  {
+  "id": "soc-41",
+  "veredito_sugerido": "pendente-ou-condicionado",
+  "explicacao": "Não há lei que garanta 100% de escolas de tempo integral até o ensino médio. Reportagem de 09/07/2025 informa que a LOA 2025 previa R$ 1,5 bilhão para ampliar o tempo integral, que R$ 685,9 milhões poderiam ir ao Pé-de-Meia e que o MEC passou a usar o Fundeb (4% do total em 2026, contra 10% em 2025). A meta depende de orçamento, do Fundeb e da adesão de estados e municípios.",
+  "fontes": [
+   {
+    "url": "https://portaldeprefeitura.com.br/bastidores-da-politica/governo-lula-recursos-escola-integral-pagar-pe-de-meia/598700/",
+    "titulo": "Governo Lula: recursos de escola integral para pagar Pé-de-Meia",
+    "orgao": "Portal de Prefeitura (Folha)",
+    "data_publicacao": "2025-07-09",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
   "id": "soc-42",
   "veredito_sugerido": "pendente-ou-condicionado",
   "explicacao": "Em 13/10/2026 Lula anunciou um Pé-de-Meia universitário (R$ 700 por 10 meses e R$ 2,5 mil ao fim do ano), com custo de cerca de R$ 4,6 bilhões ao ano. É promessa de campanha para 2027, sem lei ou projeto enviado ao Congresso.",
@@ -709,6 +1093,65 @@
   "atualizado_em": "2026-10-24"
  },
  {
+  "id": "soc-44",
+  "veredito_sugerido": "pendente-ou-condicionado",
+  "explicacao": "O Pé-de-Meia existe pela Lei 14.818/2024 (sancionada em 16/01/2024) e é voltado a estudantes do ensino médio público com família no CadÚnico e renda per capita limitada, com a União podendo aportar até R$ 20 bilhões. A proposta divulgada para um novo mandato é o Pé-de-Meia universitário (cerca de 1 milhão de estudantes, R$ 4,6 bilhões por ano), não a universalização no ensino médio; universalizar exigiria mudar critérios legais e ter orçamento, ainda não detalhados.",
+  "fontes": [
+   {
+    "url": "https://www.migalhas.com.br/quentes/400456/pe-de-meia-lei-cria-poupanca-para-estudantes-do-ensino-medio",
+    "titulo": "Pé-de-Meia: lei cria poupança para estudantes do ensino médio",
+    "orgao": "Migalhas",
+    "data_publicacao": "2024-01-17",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://timesbrasil.com.br/eleicoes-2026/lula-preve-pe-de-meia-universitario-com-custo-de-r-46-bilhoes/",
+    "titulo": "Lula prevê Pé-de-Meia universitário com custo de R$ 4,6 bilhões",
+    "orgao": "Times Brasil",
+    "data_publicacao": "2026",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
+  "id": "soc-45",
+  "veredito_sugerido": "nao-comprovado",
+  "explicacao": "O número de 5.600 creches paralisadas não aparece nas fontes abertas. Em 09/02/2023 o MEC citou cerca de 4 mil obras paradas entre escolas e creches (a análise do TCU contou 3.993 obras escolares), e o FNDE identificou 1.960 construções paralisadas ou inacabadas de creches e pré-escolas (CNMP, 08/04/2025). As bases de contagem diferem e nenhuma chega a 5.600.",
+  "fontes": [
+   {
+    "url": "https://www.cut.org.br/noticias/mec-anuncia-liberacao-de-r-250-milhoes-para-obras-paradas-de-escolas-5950/amp",
+    "titulo": "MEC anuncia liberação de R$ 250 milhões para obras paradas de escolas",
+    "orgao": "CUT",
+    "data_publicacao": "2023-02-10",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://cnmp.mp.br/portal/institucional/3-noticias/todas-as-noticias/18465-corregedoria-nacional-do-mp-mapeia-acoes-para-retomada-de-obras-de-creches-inacabadas",
+    "titulo": "Corregedoria Nacional do MP mapeia ações para retomada de obras de creches inacabadas",
+    "orgao": "Conselho Nacional do Ministério Público",
+    "data_publicacao": "2025-04-08",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
+  "id": "soc-46",
+  "veredito_sugerido": "falso-ou-exagerado",
+  "explicacao": "O Programa Nacional das Escolas Cívico-Militares (Pecim) foi criado em 2019, no governo Bolsonaro, e chegou a 202 escolas e cerca de 120 mil alunos até 2023, quando o governo Lula decidiu encerrá-lo, segundo o Jornal de Brasília (12/07/2023). Portanto o programa foi implementado; o que as fontes mostram é que foi extinto pelo governo atual. Se o modelo existia antes em estados não foi verificado.",
+  "fontes": [
+   {
+    "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/escolas-civico-militares-saem-do-programa-do-mec-no-governo-lula-veja-lista-e-saiba-o-que-muda/",
+    "titulo": "Escolas cívico-militares saem do programa do MEC no governo Lula; veja lista e saiba o que muda",
+    "orgao": "Jornal de Brasília",
+    "data_publicacao": "2023-07-12",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
   "id": "soc-48",
   "veredito_sugerido": "nao-comprovado",
   "explicacao": "O MEC divulgou queda de 43% no abandono no ensino médio entre 2024 e 2025 (de 6,4% para 3,6%), atribuída ao Pé-de-Meia. O Censo Escolar mostra queda de 61% no abandono no ensino médio público entre 2022 e 2025, sem atribuir tudo ao programa. Não foi localizado o número de 66%.",
@@ -731,6 +1174,35 @@
   "atualizado_em": "2026-10-24"
  },
  {
+  "id": "soc-49",
+  "veredito_sugerido": "pendente-ou-condicionado",
+  "explicacao": "O Pé-de-Meia existe por lei (14.818/2024), com aporte autorizado de até R$ 20 bilhões e pagamento condicionado a frequência e aprovação. O resumo do plano de educação de Flávio, publicado pelo SBT News em 03/09/2026, não menciona o programa, e o TCU abriu representação (TC 005.592/2025-9) sobre inconsistências no número de beneficiários e no critério de renda. Manter o programa depende de orçamento anual do próximo governo.",
+  "fontes": [
+   {
+    "url": "https://www.migalhas.com.br/quentes/400456/pe-de-meia-lei-cria-poupanca-para-estudantes-do-ensino-medio",
+    "titulo": "Pé-de-Meia: lei cria poupança para estudantes do ensino médio",
+    "orgao": "Migalhas",
+    "data_publicacao": "2024-01-17",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/educacao-o-que-flavio-propoe-em-plano-de-governo",
+    "titulo": "Educação: o que Flávio propõe em plano de governo",
+    "orgao": "SBT News",
+    "data_publicacao": "2026-09-03",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://static.poder360.com.br/2026/03/005.592-2025-9-BZ-REPR_Pe-de-Meia.pdf",
+    "titulo": "Representação TC 005.592/2025-9 - Pé-de-Meia",
+    "orgao": "TCU (cópia hospedada pelo Poder360)",
+    "data_publicacao": "2026-03",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
   "id": "soc-50",
   "veredito_sugerido": "verdadeiro",
   "explicacao": "Lei sancionada por Bolsonaro em 22/06/2022 (conversão da MP 1.090/2021) criou desconto de até 99% em dívidas do Fies vencidas há mais de 360 dias, para inscritos no CadÚnico ou beneficiários de auxílio emergencial ou Auxílio Brasil com contratos até 2017. Os demais devedores têm desconto de até 77%. A fonte não menciona exigência de conclusão do curso.",
@@ -740,6 +1212,28 @@
     "titulo": "Refinanciamento do Fies com até 99% de desconto vira lei",
     "orgao": "O Povo",
     "data_publicacao": "2022-06-22",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
+  "id": "soc-51",
+  "veredito_sugerido": "verdadeiro",
+  "explicacao": "O reajuste do piso do magistério em 2022 foi de 33,24%, anunciado por Bolsonaro em 27/01/2022. Na série citada pela CNN Brasil (2010 a 2022), é o maior percentual, acima dos 22,22% de 2012. A mesma matéria lembra que o reajuste de 2021 foi zero e que o piso é pago em geral por estados e municípios; reajustes posteriores a 2022 não foram comparados.",
+  "fontes": [
+   {
+    "url": "https://www.cnnbrasil.com.br/politica/fatos-primeiro-fala-de-bolsonaro-sobre-piso-salarial-dos-professores-precisa-de-contexto/",
+    "titulo": "Fatos Primeiro: fala de Bolsonaro sobre piso salarial dos professores precisa de contexto",
+    "orgao": "CNN Brasil",
+    "data_publicacao": "2022-10-21",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://www.poder360.com.br/governo/bolsonaro-anuncia-reajuste-de-33-para-piso-de-professores/",
+    "titulo": "Bolsonaro anuncia reajuste de 33% para piso de professores",
+    "orgao": "Poder360",
+    "data_publicacao": "2022-01-27",
     "acessado_em": "2026-10-24"
    }
   ],
@@ -786,6 +1280,21 @@
   "id": "soc-54",
   "veredito_sugerido": "pendente-ou-condicionado",
   "explicacao": "Segundo o SBT News (03/09/2026), o plano de governo de Flávio prevê ampliar a oferta de educação técnica para alunos do ensino médio, em parceria com o setor produtivo, e apoia a escola em tempo integral. A reportagem não menciona ensino técnico no contraturno nem custo da medida.",
+  "fontes": [
+   {
+    "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/educacao-o-que-flavio-propoe-em-plano-de-governo",
+    "titulo": "Educação: o que Flávio propõe em plano de governo",
+    "orgao": "SBT News",
+    "data_publicacao": "2026-09-03",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
+  "id": "soc-55",
+  "veredito_sugerido": "pendente-ou-condicionado",
+  "explicacao": "O resumo do plano de educação de Flávio (SBT News, 03/09/2026) cita apoiar a escola em tempo integral e manter escolas abertas nas férias com esportes, artes, música e leitura, mas não menciona os Jogos Estudantis Brasileiros. Não há detalhamento da retomada nem de orçamento, e o resultado depende de decisão do próximo governo.",
   "fontes": [
    {
     "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/educacao-o-que-flavio-propoe-em-plano-de-governo",
@@ -857,6 +1366,35 @@
   "atualizado_em": "2026-10-24"
  },
  {
+  "id": "soc-60",
+  "veredito_sugerido": "falso-ou-exagerado",
+  "explicacao": "A OCDE divulgou o Pisa 2025 em 08/09/2026: o Brasil teve 408 em leitura, 377 em matemática e 409 em ciências. Segundo as reportagens, os resultados ficaram estáveis em relação a 2022 (ciências subiu de 403 para 409) e a distância para a média da OCDE caiu desde 2006. A nota técnica da OCDE de 2022 já descrevia só pequenas flutuações desde 2009. As fontes abertas não classificam 2025 como um dos piores resultados da série.",
+  "fontes": [
+   {
+    "url": "https://www.brasildefato.com.br/2026/09/08/pisa-brasil-reduz-diferenca-para-paises-ricos-no-desempenho-escolar/",
+    "titulo": "Pisa: Brasil reduz diferença para países ricos no desempenho escolar",
+    "orgao": "Brasil de Fato",
+    "data_publicacao": "2026-09-08",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://www.dgabc.com.br/Noticia/4345642/pisa-brasil-reduz-diferenca-para-paises-ricos-no-desempenho-escolar",
+    "titulo": "Pisa: Brasil reduz diferença para países ricos no desempenho escolar",
+    "orgao": "Diário do Grande ABC",
+    "data_publicacao": "2026-09-08",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://static.poder360.com.br/2024/03/pisa_2022_brazil_prt.pdf",
+    "titulo": "Pisa 2022 - Nota do país: Brasil",
+    "orgao": "OCDE (cópia hospedada pelo Poder360)",
+    "data_publicacao": "2023-12-05",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
   "id": "soc-61",
   "veredito_sugerido": "pendente-ou-condicionado",
   "explicacao": "O plano de governo propõe priorizar o método fônico na alfabetização e não cita matemática nem a ênfase em português como disciplina. A medida de ênfase maior nas duas matérias ainda não existe.",
@@ -866,6 +1404,28 @@
     "titulo": "Educação: o que Flávio propõe em plano de governo",
     "orgao": "SBT News",
     "data_publicacao": "2026-09-03",
+    "acessado_em": "2026-10-24"
+   }
+  ],
+  "atualizado_em": "2026-10-24"
+ },
+ {
+  "id": "soc-62",
+  "veredito_sugerido": "situacao-identificada",
+  "explicacao": "A Lei 15.383/2026, publicada em abril de 2026, transformou a monitoração eletrônica do agressor em medida protetiva de urgência autônoma na Lei Maria da Penha, com alerta automático e simultâneo à vítima e à polícia quando ele viola a área de exclusão, e destina 6% do Fundo Nacional de Segurança Pública aos equipamentos. A medida já existe; a execução depende de ordem judicial e de cada estado, e as fontes não mostram uma política nova própria de Flávio.",
+  "fontes": [
+   {
+    "url": "https://meusitejuridico.editorajuspodivm.com.br/2026/04/10/comentarios-as-leis-15-383-26-e-15-384-26-violencia-vicaria-vicaricidio-e-o-programa-nacional-de-monitoramento-de-agressores/",
+    "titulo": "Comentários às Leis 15.383/26 e 15.384/26",
+    "orgao": "Editora Juspodivm",
+    "data_publicacao": "2026-04-10",
+    "acessado_em": "2026-10-24"
+   },
+   {
+    "url": "https://atlaspublico.com.br/noticias/lei-15-383-institui-monitoracao-eletronica-como-medida-27490",
+    "titulo": "Lei 15.383 institui monitoração eletrônica como medida protetiva autônoma na Lei Maria da Penha",
+    "orgao": "Atlas Público",
+    "data_publicacao": "2026-04",
     "acessado_em": "2026-10-24"
    }
   ],
