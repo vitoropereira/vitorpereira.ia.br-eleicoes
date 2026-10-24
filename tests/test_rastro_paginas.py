@@ -1285,7 +1285,8 @@ class TestFilaInteira(unittest.TestCase):
                    '<a href="#f-774f38504460266a">x</a>', '{"id":"774f38504460266a"}', '{"id": "774f38504460266a"}'):
             pg.varrer("x", ok)
         for ruim in ("<li>385.044.602-66</li>", "<li>38504460266</li>", "<li>JOAO 38504460266 MEI</li>",
-                     "<td>774f38504460266a</td>", '<a href="/rastro/fornecedor/x/">385.044.602-66</a>'):
+                     "<td>774f38504460266a</td>", '<a href="/rastro/fornecedor/x/">385.044.602-66</a>',
+                     "<p>pref-774f38504460266a</p>", "<p>fornecedor/774f38504460266a</p>"):
             with self.subTest(ruim=ruim), self.assertRaises(ValueError):
                 pg.varrer("x", ruim)
 
