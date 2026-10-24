@@ -542,20 +542,27 @@ class Publicar(unittest.TestCase):
 @unittest.skipUnless((R / "site" / "debates" / "index.html").exists(), "rode python3 build_site.py antes")
 class Saida(unittest.TestCase):
     def test_uma_pasta_por_checagem_e_sitemap(self):
-        sitemap = (R / "site" / "sitemap.xml").read_text()
-        for m in dp.listar(R / "debates"):
-            if not (R / "site" / m["path"].strip("/")).exists():
-                continue  # debate novo: quem publica o site/ é o lote, não o PR
-            for c in m["checagens"]:
-                p = m["path"] + c["id"] + "/"
-                self.assertTrue((R / "site" / p.strip("/") / "index.html").exists(), p)
-                self.assertIn(f"<loc>{B.BASE}{p}</loc>", sitemap)
-                self.assertTrue((R / "site" / "og" / f"debate-{m['debate']['ano']}-{m['debate']['slug']}-{c['id']}.png").exists())
-        # o site/ commitado pode estar atrás do lote: publica em tmp e compara o JS
+        # o site/ commitado pode estar atrás do lote (debate novo ou checagem nova num debate já publicado):
+        # a completude se prova publicando em tmp; no site/ só se cobra coerência do que já foi publicado
         with tempfile.TemporaryDirectory() as tmp:
-            B.debates_publicar(tmp)
+            out = B.debates_publicar(tmp)
+            paths, ogs = {s[0] for s in out["sitemap"]}, {o[0] for o in out["og"]}
+            for m in dp.listar(R / "debates"):
+                for c in m["checagens"]:
+                    p = m["path"] + c["id"] + "/"
+                    self.assertTrue((Path(tmp) / p.strip("/") / "index.html").exists(), p)
+                    self.assertIn(p, paths)
+                    self.assertIn(f"debate-{m['debate']['ano']}-{m['debate']['slug']}-{c['id']}", ogs)
             self.assertEqual((Path(tmp) / "debates" / "debate.js").read_bytes(),
                              (R / "debates" / "debate.js").read_bytes())
+        sitemap = (R / "site" / "sitemap.xml").read_text()
+        for m in dp.listar(R / "debates"):
+            for c in m["checagens"]:
+                p = m["path"] + c["id"] + "/"
+                if not (R / "site" / p.strip("/") / "index.html").exists():
+                    continue  # ainda não publicada: quem publica o site/ é o lote, não o PR
+                self.assertIn(f"<loc>{B.BASE}{p}</loc>", sitemap)
+                self.assertTrue((R / "site" / "og" / f"debate-{m['debate']['ano']}-{m['debate']['slug']}-{c['id']}.png").exists())
 
 
 
