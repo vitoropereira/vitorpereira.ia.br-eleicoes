@@ -275,6 +275,30 @@ class PaginaDebate(unittest.TestCase):
                          "https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=592s")
         self.assertEqual(dp.no_video("https://youtu.be/dQw4w9WgXcQ", "1:07:25"), "https://youtu.be/dQw4w9WgXcQ?t=4045s")
 
+    def test_no_video_globoplay_sem_tempo(self):
+        url = "https://globoplay.globo.com/v/15118492/"
+        for ts in ("9:52", "1:07:25"):
+            self.assertEqual(dp.no_video(url, ts), url)
+            self.assertNotIn("t=", dp.no_video(url, ts))
+
+    def test_fonte_da_transcricao_nomeia_o_globoplay(self):
+        m = dp.carregar(TESTE)
+        m["debate"]["video"] = "https://globoplay.globo.com/v/15118492/"
+        linha = re.search(r'<p class="db-tr-fonte">(.*?)</p>',
+                          dp.gerar(m, B.BASE, B.PESSOA)["transcricao"]["html"]).group(1)
+        self.assertIn('<a href="https://globoplay.globo.com/v/15118492/"', linha)
+        self.assertIn("vídeo no Globoplay", linha)
+        self.assertNotIn("YouTube", linha)
+
+    def test_globo_sem_checagens_fica_fora_do_site(self):
+        globo = Path(__file__).resolve().parent.parent / "debates/2026/presidente-2-turno-globo"
+        self.assertTrue((globo / "debate.json").exists())
+        if (globo / "checagens.json").exists():
+            self.skipTest("G2/G5 já publicaram a Globo")
+        self.assertIsNone(dp.carregar(globo))
+        raiz = Path(__file__).resolve().parent.parent / "debates"
+        self.assertNotIn("/debates/2026/presidente-2-turno-globo/", [m["path"] for m in dp.listar(raiz)])
+
     def test_tempo_leva_ao_video_quando_tem_video(self):
         m = dp.carregar(TESTE)
         self.assertNotIn("youtube.com", dp.gerar(m, B.BASE, B.PESSOA)["html"])
@@ -572,7 +596,8 @@ class Hierarquia(unittest.TestCase):
 
     def test_sem_nome_de_debate_no_codigo(self):
         for f in ("pagina.py", "debate.js"):
-            src = (R / "debates" / f).read_text(encoding="utf-8")
+            # "Globoplay" é o nome do player de vídeo (rótulo do link), não o de um debate
+            src = (R / "debates" / f).read_text(encoding="utf-8").replace("Globoplay", "")
             for nome in ("Band", "Globo", "Flávio", "Lula", "presidente-2-turno"):
                 self.assertNotIn(nome, src, f"{f}: {nome}")
 

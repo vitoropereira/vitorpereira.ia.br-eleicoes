@@ -83,6 +83,14 @@ class TestValidarDebate(unittest.TestCase):
             with self.subTest(url=url):
                 self.assertTrue(any("video" in e for e in vd.validar_debate(debate(video=url))))
 
+    def test_video_do_globoplay(self):
+        self.assertEqual(vd.validar_debate(debate(video="https://globoplay.globo.com/v/15118492/")), [])
+        for url in ("https://globoplay.globo.com/v/abc/", "https://globoplay.globo.com/v/15118492",
+                    "http://globoplay.globo.com/v/15118492/", "https://globoplay.globo.com/v/15118492/?t=10",
+                    "https://outro.globo.com/v/15118492/", "https://evil.com/globoplay.globo.com/v/1/"):
+            with self.subTest(url=url):
+                self.assertTrue(any("video" in e for e in vd.validar_debate(debate(video=url))))
+
     def test_falta_campo_obrigatorio(self):
         for campo in ("slug", "ano", "cargo", "turno", "emissora", "data", "candidatos", "fonte_transcricao"):
             with self.subTest(campo=campo):
@@ -485,6 +493,20 @@ class TestDebatesPublicados(unittest.TestCase):
                                            encoding="utf-8")
             (d / "transcricao.md").write_text(TRANSCRICAO, encoding="utf-8")
             self.conferir_pastas(Path(tmp))
+
+    def test_globo_transcricao_whisper_do_video_oficial(self):
+        pasta = RAIZ / "debates/2026/presidente-2-turno-globo"
+        self.assertTrue(pasta.is_dir())
+        md = (pasta / "transcricao.md").read_text(encoding="utf-8")
+        self.assertTrue(md.strip())
+        debate_globo = json.loads((pasta / "debate.json").read_text(encoding="utf-8"))
+        self.assertEqual(vd.validar_debate(debate_globo), [])
+        self.assertEqual(debate_globo["fonte_transcricao"], "whisper")
+        self.assertIn("15118492", debate_globo["video"])
+        self.assertEqual(debate_globo["duracao_s"], 7065)
+        secoes = [l for l in md.splitlines() if l.startswith("## ")]
+        self.assertTrue(any(s.startswith("## Considerações finais") for s in secoes))
+        self.assertEqual({b for _, b, _ in vd.marcacoes(md) if b}, {"1", "2", "3", "4", "finais"})
 
     def conferir_pastas(self, raiz):
         # regras/ guarda as regras dos classificadores (debates/regras/*.md), não é ano
