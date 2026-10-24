@@ -1295,6 +1295,8 @@ class TestFilaInteira(unittest.TestCase):
         pg.varrer("svg", '<svg><path d="M 529 982 247 25 L 1 2"/></svg>')
         with self.assertRaisesRegex(ValueError, "CPF"):
             pg.varrer("txt", "<p>529 982 247 25</p>")
+        with self.assertRaisesRegex(ValueError, "CPF"):  # dado que imita atributo fora de tag não esconde o CPF
+            pg.varrer("txt", '<td>EMPRESA d="529 982 247 25" LTDA</td>')
 
     def test_laranjal_e_sobrenome_da_receita_passam_termo_segue_proibido(self):
         pg.varrer("posto", "<td>AUTO POSTO C &amp; A DE LARANJAL LTDA</td><li>MARIA DE LOURDES CAO CRAVO LARANJA</li>")
