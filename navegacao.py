@@ -12,6 +12,7 @@ MINHA_SECAO = "Minha seção"
 RASTRO = "Rastro do dinheiro"
 APURACAO = "Histórico da apuração"
 METODO = "Método e fontes"
+RESULTADO_1T = "Resultado do 1º turno"
 
 # Ordem dos candidatos do 2º turno em todo o site (issue 150): a da votação no 1º turno, Flávio Bolsonaro (PL) 47,0%
 # e Lula (PT) 45,2%. Home, Debates e Rastro ordenam por aqui; quem não está na lista (ex.: a mediação) vai para o fim.

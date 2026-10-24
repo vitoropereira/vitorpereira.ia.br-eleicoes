@@ -291,7 +291,7 @@ def secoes():
     from municipios import minha_secao as msec
     return [("/", NAV.INICIO), ("/ao-vivo/", NAV.AO_VIVO)] + ([("/debates/", NAV.DEBATES)] if debates() else []) + [
         ("/analise/", NAV.ANALISE)] + ([("/minha-secao/", NAV.MINHA_SECAO)] if msec.tem_dados(LOCAIS) else []) + [
-        ("/rastro/", NAV.RASTRO), ("/apuracao/", NAV.APURACAO), ("/#metodo", NAV.METODO)]
+        ("/rastro/", NAV.RASTRO), ("/apuracao/", NAV.APURACAO), ("/1-turno/#metodo", NAV.METODO)]
 
 
 def trilha_apuracao(leitura=None):
@@ -985,7 +985,7 @@ def pagina_apuracao(style):
         f'<span class="bar"><i style="width:{r["d"]["f"]}%;background:var(--flavio)"></i><i style="width:{r["d"]["l"]}%;background:var(--lula)"></i></span>'
         f'<span class="v">{curto(cF)} {fmt(r["d"]["f"], 2)}% × {curto(cL)} {fmt(r["d"]["l"], 2)}%<small>previsão para o fim da apuração: {fmt(r["d"]["traj"]["mc50"][-1]["f"] if "traj" in r["d"] else r["d"]["scen"][0]["f"], 1)} × {fmt(r["d"]["traj"]["mc50"][-1]["l"] if "traj" in r["d"] else r["d"]["scen"][0]["l"], 1)}</small></span></a>'
         for r in rodadas)
-    rows_final = (f'<a class="rd final" href="/"><span class="t">{hora_leitura(N["dg"], N["ht"])}</span><span class="p">{fmt(N["pst"], 2)}%<small>resultado</small></span>'
+    rows_final = (f'<a class="rd final" href="/1-turno/"><span class="t">{hora_leitura(N["dg"], N["ht"])}</span><span class="p">{fmt(N["pst"], 2)}%<small>resultado</small></span>'
                   f'<span class="bar"><i style="width:{cF["p"]}%;background:var(--flavio)"></i><i style="width:{cL["p"]}%;background:var(--lula)"></i></span>'
                   f'<span class="v"><b>{curto(cF)} {fmt(cF["p"], 2)}% × {curto(cL)} {fmt(cL["p"], 2)}%</b><small>relatório final completo →</small></span></a>')
     return f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>x</title>{style}{IDX_CSS}</head><body><main>
@@ -994,12 +994,75 @@ def pagina_apuracao(style):
 <p class="note">As leituras de 24,5% (18:19) e 27,9% (18:23) não têm painel salvo; os números delas aparecem na trajetória de cada página.</p></main></body></html>"""
 
 
+HOME_CSS = """<style id="home-turno2">
+header .kicker{margin:0 0 4px}
+.contagem{margin:18px 0 22px;font:600 clamp(17px,3.6vw,22px)/1.3 var(--font-mono);color:var(--ink)}
+.portas{display:grid;gap:14px;grid-template-columns:1fr;margin:0 0 22px}
+.porta{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;min-width:0}
+.porta h2{margin:0 0 6px;font-size:18px}
+.porta p{margin:0 0 10px;color:var(--ink2);font-size:14.5px}
+.porta ul{list-style:none;margin:0 0 10px;padding:0}
+.porta li{margin:0 0 8px;font-size:14.5px}
+.porta a.ir{display:inline-block;font-weight:600;padding:6px 0}
+.porta small{display:block;color:var(--muted);font-size:12.5px}
+.placar{display:grid;gap:22px;grid-template-columns:1fr;margin:18px 0 12px}
+.placar .cand{display:grid;gap:6px;min-width:0}
+.placar .nome{font-weight:600;color:var(--ink2)}
+.placar .pct{font:700 clamp(36px,9vw,64px)/1 var(--font-mono);color:var(--ink);font-variant-numeric:tabular-nums}
+.placar .barra{display:block;height:14px;border-radius:5px;background:var(--line);overflow:hidden}
+.placar .barra i{display:block;height:100%}
+.botao{display:inline-block;margin-top:6px;padding:10px 18px;border:1px solid var(--ink);border-radius:999px;font-weight:600;text-decoration:none}
+.botao:hover{background:var(--soft)}
+[data-fase][hidden],[data-aguardando][hidden]{display:none}
+@media (min-width:641px){.portas{grid-template-columns:repeat(var(--n,3),1fr)}.placar{grid-template-columns:1fr 1fr}}
+</style>"""
+
+
+def home_turno2(style):
+    """Home (/): 2º turno em três fases. O HTML publicado sai na Véspera e sem números; home.js troca a fase no navegador
+    (apuração a partir das 17h de 25/10 com /vivo/agora.json, resultado quando o TSE marca o eleito). `style` = CSS do relatório."""
+    ds = debates()
+    portas = []
+    if ds:
+        lis = "".join(f'<li><a href="{d["path"]}">{html.escape(d["og"][1])}</a><small>{html.escape(d["og"][4])}</small></li>' for d in ds)
+        portas.append(f'<div class="porta"><h2>{NAV.DEBATES} checados</h2><p>O que cada candidato disse nos debates, conferido com fontes.</p>'
+                      f'<ul>{lis}</ul><a class="ir" href="/debates/">Ver todos →</a></div>')
+    from municipios import minha_secao as msec
+    if msec.tem_dados(LOCAIS):
+        portas.append(f'<div class="porta"><h2>{NAV.MINHA_SECAO}</h2><p>Descubra onde você vota e como a sua seção votou no 1º turno.</p>'
+                      '<a class="ir" href="/minha-secao/">Buscar minha seção →</a></div>')
+    portas.append('<div class="porta"><h2>Como acompanhar a apuração</h2><p>O mapa mostra a apuração município por município, '
+                  'atualizada sozinha a partir das 17h (Brasília).</p><a class="ir" href="/ao-vivo/">Abrir o mapa ao vivo →</a></div>')
+    cand = html.escape(json.dumps([{"n": n, "nome": NOME_EXIBICAO.get(c["nome"], c["nome"]), "sg": c["sg"]} for n, c in (("22", cF), ("13", cL))], ensure_ascii=False), quote=True)
+    return f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>x</title>{style}{HOME_CSS}</head><body><main>
+<header><p class="kicker">Eleições 2026 · 2º turno</p><h1>2º turno: {html.escape(rotulo(cF))} × {html.escape(rotulo(cL))}, domingo, 25/10</h1></header>
+<section data-fase="vespera">
+<p class="contagem">Apuração ao vivo a partir das 17h (Brasília)<span data-faltam></span></p>
+<p class="note" data-aguardando hidden>Aguardando os primeiros dados do TSE</p>
+<div class="portas" style="--n:{len(portas)}">{"".join(portas)}</div>
+<p class="note"><a href="/1-turno/">Resultado do 1º turno (04/10)</a></p>
+</section>
+<section data-fase="apuracao" data-cand="{cand}" hidden>
+<h2>Apuração ao vivo</h2>
+<div class="placar" data-placar></div>
+<p class="note" data-apurado></p>
+<a class="botao" href="/ao-vivo/">Ver o mapa ao vivo</a>
+</section>
+<section data-fase="resultado" hidden>
+<h2 data-eleito></h2>
+<p data-eleito-pct></p>
+<p><a href="/ao-vivo/">Mapa da apuração por município</a> · <a href="/1-turno/">Resultado do 1º turno</a></p>
+</section>
+<script type="module" src="/home.js"></script>
+</main></body></html>"""
+
+
 def pagina_404(style):
     """404: atalhos para as seções principais e para a busca do Rastro (issue 150); `style` = CSS do relatório."""
     atalhos = [("/ao-vivo/", f"{NAV.AO_VIVO}: apuração por município")] + (
         [("/debates/", f"{NAV.DEBATES}: o que é verdade")] if debates() else []) + [
         ("/rastro/", f"{NAV.RASTRO}: contas de campanha"), ("/rastro/#busca", "Buscar um eleito, empresa ou CNPJ no Rastro"),
-        ("/apuracao/", NAV.APURACAO), ("/", f"{NAV.INICIO}: resultado do 1º turno")]
+        ("/apuracao/", NAV.APURACAO), ("/1-turno/", NAV.RESULTADO_1T), ("/", f"{NAV.INICIO}: 2º turno, 25/10")]
     lis = "".join(f'<li><a href="{h}">{html.escape(t)}</a></li>' for h, t in atalhos)
     return ('<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
             f'<title>x</title>{style}</head><body><main><header><h1>Página não encontrada</h1>'
@@ -1021,10 +1084,11 @@ def main():
     publicado = ISO(datetime(2026, 10, 4, 18, 25)); modificado = ISO(LEITURA)
     paginas = []  # (path, lastmod, prioridade)
 
-    # ---- página principal = relatório final
+    # ---- /1-turno/ = relatório final do 1º turno (era a home até o 2º turno)
     faq_vis, faq_ld, qa = faq()
     raw = (R / "relatorio" / "relatorio_final.html").read_text()
     assert brand.CSS in raw, "relatorio_final.html desatualizado: rode relatorio/montar.py"
+    style = re.search(r"<style>.*?</style>", raw, re.S).group(0)
     raw = raw.replace('<section id="metodo">', faq_vis + '\n<section id="metodo">', 1)
     raw = raw.replace('<a href="#metodo">Método e fontes</a>', '<a href="#perguntas">Perguntas</a><a href="#metodo">Método e fontes</a>', 1)
     # H1 com a resposta (AEO); o título antigo vira subtítulo
@@ -1032,21 +1096,35 @@ def main():
     antigo = "<h1>Eleições 2026 · Relatório final do 1º turno</h1>"
     assert antigo in raw, "H1 do relatório mudou: ajuste build_site.py"
     raw = raw.replace(antigo, f'<p class="kicker">Relatório final do 1º turno</p>\n  <h1>{html.escape(h1)}</h1>', 1)
+    um_turno = BASE + "/1-turno/"
     ld = [{"@context": "https://schema.org", "@type": "WebSite", "name": SITE_NAME, "url": BASE + "/", "inLanguage": "pt-BR", "publisher": PESSOA},
           {"@context": "https://schema.org", "@type": "NewsArticle", "headline": titulo[:110], "description": desc, "inLanguage": "pt-BR",
            "datePublished": publicado, "dateModified": modificado, "author": PESSOA, "publisher": PESSOA,
-           "image": [BASE + "/og/index.png"], "mainEntityOfPage": BASE + "/", "about": ELEICAO,
+           "image": [BASE + "/og/index.png"], "mainEntityOfPage": um_turno, "about": ELEICAO,
            "isBasedOn": "https://resultados.tse.jus.br/oficial/app/index.html", "keywords": "eleições 2026, resultado 1º turno, Flávio Bolsonaro, Lula, 2º turno, governadores, Senado, Câmara dos Deputados, TSE"},
           {"@context": "https://schema.org", "@type": "Dataset", "name": "Resultados consolidados do 1º turno das Eleições 2026 (por UF e cargo)",
            "description": "Presidente por UF, governadores, Senado e distribuição de vagas para deputados federais, estaduais e distritais, consolidados a partir dos arquivos públicos de divulgação do TSE.",
-           "url": BASE + "/", "creator": PESSOA, "isBasedOn": "https://resultados.tse.jus.br/oficial/app/index.html", "license": "https://creativecommons.org/licenses/by/4.0/",
+           "url": um_turno, "creator": PESSOA, "isBasedOn": "https://resultados.tse.jus.br/oficial/app/index.html", "license": "https://creativecommons.org/licenses/by/4.0/",
            "temporalCoverage": "2026-10-04", "spatialCoverage": {"@type": "Country", "name": "Brasil"}, "inLanguage": "pt-BR",
            "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": BASE + "/dados/relatorio.json"}]},
-          faq_ld]
+          faq_ld,
+          {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+              {"@type": "ListItem", "position": 1, "name": NAV.INICIO, "item": BASE + "/"},
+              {"@type": "ListItem", "position": 2, "name": NAV.RESULTADO_1T, "item": um_turno}]}]
     rounds_nav = "".join(f'<a href="{r["url"]}">{fmt(r["d"]["pst"], 1)}%</a>' for r in rodadas)
-    top = banner_turno2() + banner_debate() + (f'<div class="banner"><div>Resultado com <b>{fmt(N["pst"], 2)}%</b> das seções apuradas (TSE, {N["dg"]} {N["ht"]}). '
-           f'Veja como a apuração evoluiu durante a noite: <span class="rounds">{rounds_nav}<a href="/apuracao/">todas as leituras →</a></span></div></div>')
-    (BUILD / "index.html").write_text(montar_pagina(raw, titulo, desc, "/", "/og/index.png", ld, publicado, modificado, "/", top))
+    top = NAV.trilha((NAV.INICIO, "/"), (NAV.RESULTADO_1T, None)) + banner_debate() + (
+        f'<div class="banner"><div>Resultado com <b>{fmt(N["pst"], 2)}%</b> das seções apuradas (TSE, {N["dg"]} {N["ht"]}). '
+        f'Veja como a apuração evoluiu durante a noite: <span class="rounds">{rounds_nav}<a href="/apuracao/">todas as leituras →</a></span></div></div>')
+    (BUILD / "1-turno").mkdir()
+    (BUILD / "1-turno" / "index.html").write_text(montar_pagina(raw, titulo, desc, "/1-turno/", "/og/index.png", ld, publicado, modificado, "/1-turno/", top))
+    paginas.append(("/1-turno/", modificado, "0.9"))
+
+    # ---- home (/): 2º turno em três fases (véspera, apuração, resultado); home.js troca a fase no navegador
+    ld = [{"@context": "https://schema.org", "@type": "WebSite", "name": SITE_NAME, "url": BASE + "/", "inLanguage": "pt-BR", "publisher": PESSOA},
+          {"@context": "https://schema.org", "@type": "WebPage", "name": titulo, "description": desc, "url": BASE + "/", "inLanguage": "pt-BR",
+           "author": PESSOA, "about": ELEICAO, "dateModified": modificado}]
+    (BUILD / "index.html").write_text(montar_pagina(home_turno2(style), titulo, desc, "/", "/og/index.png", ld, publicado, modificado, "/"))
+    shutil.copyfile(R / "home.js", BUILD / "home.js"); shutil.copyfile(R / "home.js", OUT / "home.js")
     paginas.append(("/", modificado, "1.0"))
 
     # ---- uma página por leitura
@@ -1058,7 +1136,7 @@ def main():
         nav = "".join(f'<a href="{x["url"]}"{" aria-current=page" if x is r else ""}>{fmt(x["d"]["pst"], 1)}%</a>' for x in rodadas)
         top = (trilha_apuracao(f"{pst}%") +
                f'<div class="banner"><div>Esta é uma <b>leitura parcial</b>: o retrato da apuração às {hora}, com {pst}% das urnas. '
-               f'<a href="/">Veja o resultado final →</a><span class="rounds">{nav}</span></div></div>')
+               f'<a href="/1-turno/">Veja o resultado final →</a><span class="rounds">{nav}</span></div></div>')
         path = r["url"]
         ld = [{"@context": "https://schema.org", "@type": "NewsArticle", "headline": titulo[:110], "description": desc, "inLanguage": "pt-BR",
                "datePublished": ISO(datetime.strptime("04/10/2026 " + d["ht"], "%d/%m/%Y %H:%M:%S")), "dateModified": ISO(datetime.strptime("04/10/2026 " + d["ht"], "%d/%m/%Y %H:%M:%S")),
@@ -1115,7 +1193,7 @@ def main():
                                                   "Página não encontrada · Eleições 2026", "Página não encontrada.", "/404.html", "/og/index.png", [], publicado, modificado, ""))
 
     # ---- pré-render de todas as páginas
-    for p in ["index.html", "ao-vivo/index.html", "analise/index.html", "apuracao/index.html", "404.html"] + [r["url"].strip("/") + "/index.html" for r in rodadas]:
+    for p in ["index.html", "1-turno/index.html", "ao-vivo/index.html", "analise/index.html", "apuracao/index.html", "404.html"] + [r["url"].strip("/") + "/index.html" for r in rodadas]:
         url = base_url + "/" + p.replace("index.html", "")
         dom = prerender(url)
         # o mapa já está desenhado no HTML: tira os contornos duplicados dos dados embutidos
@@ -1192,7 +1270,8 @@ def main():
 - Senado (54 vagas): PL {plSen}.
 
 ## Páginas
-- [Início: resultado do 1º turno completo]({BASE}/): mapa por estado, governadores, Senado, Câmara, Assembleias, perguntas frequentes
+- [Início: 2º turno, Flávio Bolsonaro (PL) × Lula (PT), domingo 25/10]({BASE}/): contagem regressiva, debates checados, minha seção e a apuração ao vivo a partir das 17h (Brasília)
+- [Resultado do 1º turno completo]({BASE}/1-turno/): mapa por estado, governadores, Senado, Câmara, Assembleias, perguntas frequentes
 - [Mapa da apuração por município]({BASE}/ao-vivo/): presidente, governadores, Senado e deputados nos 5.570 municípios; 2º turno ao vivo em 25/10
 - [Análise: voto dividido, votos × cadeiras, divergências e 2022 × 2026]({BASE}/analise/): por que Lula (PT) tem tantos votos e o lado dele elege poucos deputados; estimativas marcadas, por estado
 - [Histórico da apuração, leitura a leitura]({BASE}/apuracao/)

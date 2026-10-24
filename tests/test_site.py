@@ -18,7 +18,7 @@ class HoraDaLeitura(unittest.TestCase):
 
     def test_indice_da_apuracao(self):
         h = B.pagina_apuracao("<style></style>")
-        final = re.search(r'<a class="rd final" href="/"><span class="t">([^<]*)</span>', h)
+        final = re.search(r'<a class="rd final" href="/1-turno/"><span class="t">([^<]*)</span>', h)
         self.assertEqual(final.group(1), B.hora_leitura(B.N["dg"], B.N["ht"]))
         if B.N["dg"] != B.DIA_ELEICAO:
             self.assertIn("/", final.group(1))

@@ -26,8 +26,10 @@ class SenadoPct(unittest.TestCase):
         bittar = next(e for e in ac["eleitos"] if "Bittar" in e["nome"])
         self.assertEqual(bittar["p"], 25.59)
 
+    # o site/ commitado só ganha /1-turno/ quando o lote regenera (a home antiga era o relatório)
+    @unittest.skipUnless((R.parent / "site" / "1-turno" / "index.html").exists(), "site/1-turno/ ainda não gerado pelo lote")
     def test_rodape_lidos_em_usa_data_do_tse_nao_a_de_geracao(self):
-        html = (R.parent / "site" / "index.html").read_text()
+        html = (R.parent / "site" / "1-turno" / "index.html").read_text()
         nac = self.rel["nac"]
         self.assertIn(f'lidos em {nac["dg"]} {nac["ht"]}', html)
         self.assertIn("lidos em 05/10/2026", html)
