@@ -47,7 +47,7 @@ class UmNomePorSecao(unittest.TestCase):
 
     def test_menu_vem_de_navegacao(self):
         for u, rot in [("/", N.INICIO), ("/ao-vivo/", N.AO_VIVO), ("/analise/", N.ANALISE), ("/rastro/", N.RASTRO),
-                       ("/apuracao/", N.APURACAO), ("/#metodo", N.METODO)]:
+                       ("/apuracao/", N.APURACAO), ("/1-turno/#metodo", N.METODO)]:
             self.assertEqual(self.nome[u], rot, u)
 
     def test_debates(self):
