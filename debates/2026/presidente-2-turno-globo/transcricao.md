@@ -4,7 +4,6 @@
 |---|---|
 | Emissora | TV Globo |
 | Candidatos | Flávio Bolsonaro × Luiz Inácio Lula da Silva |
-| Mediação | César Tralli [NÃO VERIFICADO: nome não aparece na transcrição, vem do plano da issue] |
 | Data | 23/10/2026 [VERIFICADO: fala no áudio, "Hoje é dia 23 de outubro", 0:14:42] |
 | Duração | 7065 s (1h57) |
 | Fonte | Whisper (whisper.cpp `large-v3-turbo`, pt) sobre o áudio do vídeo oficial https://globoplay.globo.com/v/15118492/ ("G1 Eleições", "Debate na Globo entre Lula e Flávio Bolsonaro; veja íntegra") |
