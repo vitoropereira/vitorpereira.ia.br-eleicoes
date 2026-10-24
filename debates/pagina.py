@@ -73,7 +73,10 @@ def ancora(ts):
 
 
 def no_video(url, ts):
-    """URL do vídeo (debate.json `video`) aberta no segundo da marcação H:MM:SS (ou M:SS)."""
+    """URL do vídeo (debate.json `video`) aberta no segundo da marcação H:MM:SS (ou M:SS).
+    Globoplay: sem parâmetro de tempo verificado, devolve o link como está."""
+    if "globoplay.globo.com" in url:
+        return url
     p = [int(x) for x in ts.split(":")]
     h, m, s = ([0] + p)[-3:]
     return f'{url}{"&" if "?" in url else "?"}t={h * 3600 + m * 60 + s}s'
@@ -562,7 +565,8 @@ def _transcricao_fonte(deb, dia, md):
         partes.append(f"duração ~{seg // 3600}h{seg % 3600 // 60:02d}")
     partes.append("transcrição sem edição" if deb["fonte_transcricao"] == "colado" else "transcrição automática, sem edição")
     if deb.get("video"):
-        partes.append(f'<a href="{attr(deb["video"])}" target="_blank" rel="noopener">vídeo no YouTube</a>')
+        onde = "Globoplay" if "globoplay.globo.com" in deb["video"] else "YouTube"
+        partes.append(f'<a href="{attr(deb["video"])}" target="_blank" rel="noopener">vídeo no {onde}</a>')
     return f'<p class="db-tr-fonte">{" · ".join(partes)}</p>'
 
 
