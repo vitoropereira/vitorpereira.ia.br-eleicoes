@@ -475,8 +475,13 @@ def gerar(m, base, autor, tambem=None):
                     + "".join(f'<li><a href="#tema-{t}">{esc(TEMAS[t])} '
                               f'<span>{sum(1 for c in chs if itens[c["id"]]["tema"] == t)}</span></a></li>'
                               for t in temas_usados) + '</ul></nav>')
+    checadas = {c["id"] for c in chs}
+    em_pesquisa = sum(1 for i, a in itens.items() if a["quem"] != V.MEDIACAO and i not in checadas)
+    nota_pesquisa = (f'<p class="db-nota">Checagem em andamento: {em_pesquisa} '
+                     f'{"afirmação ainda em pesquisa" if em_pesquisa == 1 else "afirmações ainda em pesquisa"}.</p>'
+                     if em_pesquisa else "")
     afirmacoes_html = ('<section aria-labelledby="afirmacoes"><h2 id="afirmacoes">Afirmações checadas</h2>'
-                       f'{indice_temas}{filtro}{temas}</section>')
+                       f'{nota_pesquisa}{indice_temas}{filtro}{temas}</section>')
 
     rt, conta_rt, retorica_html = m.get("retorica"), placar_retorica(m), ""
     if rt:

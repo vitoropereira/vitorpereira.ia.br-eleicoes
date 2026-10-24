@@ -201,6 +201,21 @@ class PaginaDebate(unittest.TestCase):
         self.assertNotIn("Frase de autoria incerta", g["html"])
         self.assertEqual(gerar(FICT)["publicado"], "2030-09-01")  # sem publicado_em: a data do debate
 
+    def test_checagem_parcial_mostra_so_as_checadas_e_a_nota(self):
+        # out-01 é `certa` de candidato sem checagem (a mediação, eco-02, não conta)
+        self.assertIn("Checagem em andamento: 1 afirmação ainda em pesquisa.", gerar(TESTE)["html"])
+        self.assertNotIn('id="out-01"', gerar(TESTE)["html"])
+        with tempfile.TemporaryDirectory() as tmp:
+            d = Path(tmp) / "2026" / "presidente-2-turno-teste"
+            shutil.copytree(TESTE, d)
+            chs = [c for c in json_de(d, "checagens.json") if c["id"] != "eco-01"]
+            (d / "checagens.json").write_text(json.dumps(chs), encoding="utf-8")
+            m = dp.carregar(d)
+            g = dp.gerar(m, B.BASE, B.PESSOA)
+        self.assertNotIn('id="eco-01"', g["html"])
+        self.assertNotIn("eco-01", [a["id"] for a in m["checagens"]])
+        self.assertIn("Checagem em andamento: 2 afirmações ainda em pesquisa.", g["html"])
+
     @unittest.skipUnless((REAL / "checagens.json").exists(), "debate da Band ainda sem checagens.json")
     def test_band(self):
         g = self.checar(REAL)
@@ -393,7 +408,7 @@ class Indice(unittest.TestCase):
 
 class PlacarPorCandidato(unittest.TestCase):
     def test_band_bate_com_checagens(self):
-        pc = dp.placar_por_candidato(dp.listar(REAL.parent.parent))
+        pc = dp.placar_por_candidato([dp.carregar(REAL)])  # só a Band: o acumulado com outros debates é do Indice
         itens = {i["id"]: i for i in json_de(REAL, "afirmacoes.json") if i["autoria"] == "certa"}
         chs = [c for c in json_de(REAL, "checagens.json") if c["id"] in itens]
         quem = {c["id"]: c["id_tse"] for c in json_de(REAL, "debate.json")["candidatos"]}
@@ -529,6 +544,8 @@ class Saida(unittest.TestCase):
     def test_uma_pasta_por_checagem_e_sitemap(self):
         sitemap = (R / "site" / "sitemap.xml").read_text()
         for m in dp.listar(R / "debates"):
+            if not (R / "site" / m["path"].strip("/")).exists():
+                continue  # debate novo: quem publica o site/ é o lote, não o PR
             for c in m["checagens"]:
                 p = m["path"] + c["id"] + "/"
                 self.assertTrue((R / "site" / p.strip("/") / "index.html").exists(), p)

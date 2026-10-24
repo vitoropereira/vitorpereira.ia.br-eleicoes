@@ -456,6 +456,11 @@ class TestDebatesPublicados(unittest.TestCase):
                 ids = {c["id"] for c in chs}
                 faltam = [i["id"] for i in itens
                           if i["autoria"] == "certa" and i["tema"] in TEMAS_CHECADOS and i["id"] not in ids]
+                if (pasta.parent / "pesquisa").is_dir():  # checagem por rodadas: só o que já tem pesquisa
+                    com_pesquisa = {x["id"] for f in (pasta.parent / "pesquisa").glob("*.json")
+                                    for x in json.loads(f.read_text(encoding="utf-8"))}
+                    self.assertEqual(sorted(ids - com_pesquisa), [], "checagem sem pesquisa")
+                    faltam = [i for i in faltam if i in com_pesquisa]
                 self.assertEqual(faltam, [], "afirmação certa sem checagem")
                 self.assertEqual([i["id"] for i in itens if i["autoria"] == "incerta" and i["id"] in ids], [])
                 data = json.loads((pasta.parent / "debate.json").read_text(encoding="utf-8"))["data"]
