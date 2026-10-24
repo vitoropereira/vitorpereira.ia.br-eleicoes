@@ -549,3 +549,13 @@ class TestDebatesPublicados(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class IdComTresDigitos(unittest.TestCase):
+    """Debate com mais de 99 afirmações num tema (Globo, economia): id aceita 2 ou 3 dígitos, nada além disso."""
+
+    def test_formato_do_id(self):
+        for ok in ("eco-01", "eco-99", "eco-100", "eco-131"):
+            self.assertTrue(vd.RE_ID.match(ok), ok)
+        for ruim in ("eco-1", "eco-1000", "eco-01a", "Eco-01", "eco01"):
+            self.assertFalse(vd.RE_ID.match(ruim), ruim)
