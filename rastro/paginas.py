@@ -31,9 +31,12 @@ AVISO = "Indicador não é prova de irregularidade."
 HOMONIMO = {"socio_doador", "socio_ligado", "socio_nomeado"}  # casados por nome: podem ser outra pessoa
 CARGOS = {"presidente": "Presidente", "governador": "Governador(a)", "senador": "Senador(a)", "depfed": "Deputado(a) federal",
           "depest": "Deputado(a) estadual", "distrital": "Deputado(a) distrital"}
-PROIBIDOS = re.compile(r"fraude|laranja|fict[ií]cia|desvio|suspeit[oa]|esquema|irregular", re.I)
+# "laranja" só como palavra: LARANJAL (cidade, nome de posto) não é o termo
+PROIBIDOS = re.compile(r"fraude|\blaranjas?\b|fict[ií]cia|desvio|suspeit[oa]|esquema|irregular", re.I)
 # Únicos usos permitidos de "irregular": o aviso, a frase da metodologia e o nome técnico do indicador (âncora da metodologia)
-PERMITIDOS = ("prova de irregularidade", "que houve irregularidade", "situacao_irregular")
+# sobrenomes de sócios na Receita (quadro societário e busca), dado da fonte
+PERMITIDOS = ("prova de irregularidade", "que houve irregularidade", "situacao_irregular", "cao cravo laranja", "milagres laranja")
+GEOMETRIA = re.compile(r'\s(?:d|points|viewBox|transform)="[^"]*"')
 RE_CPF_CANDIDATO = re.compile(r"(?<![\d.\-])\d{3}[.\s]?\d{3}[.\s]?\d{3}[\-\s]?\d{2}(?![\d])")
 BUSCA_JS = Path(__file__).resolve().parent / "busca.js"
 SEM_PRESTACAO = "Esta candidatura está sem prestação parcial publicada até a data da base."
@@ -103,7 +106,8 @@ def termo_proibido(texto):
 
 def varrer(nome, texto):
     """Levanta ValueError se o HTML tiver CPF válido ou termo proibido."""
-    for m in RE_CPF_CANDIDATO.finditer(texto):
+    # coordenadas de SVG (d, points, viewBox, transform) formam sequências de 11 dígitos que passam no verificador
+    for m in RE_CPF_CANDIDATO.finditer(GEOMETRIA.sub(" ", texto)):
         if cpf_valido(re.sub(r"\D", "", m.group())):
             raise ValueError(f"{nome}: CPF válido no HTML ({m.group()[:3]}…); página não publicada")
     m = termo_proibido(texto)
@@ -124,6 +128,7 @@ main.rs{max-width:var(--w-texto);box-sizing:border-box;margin:0 auto;padding:24p
 .rs-tab{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:15px}
 .rs-tab th,.rs-tab td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}
 .rs-tab td.v,.rs-tab th.v{text-align:right;white-space:nowrap}
+.rs-socios cite{font-style:normal}
 .rs-tab small{display:block;color:var(--muted);font-size:12px}
 .rs-total{font:600 15px var(--font-mono);margin:0 0 8px}
 .rs-vazio{color:var(--ink2);font-style:italic}
@@ -702,7 +707,7 @@ def html_fornecedor(id_, rec, campanhas, itens, cfg, bases, anteriores=None, pen
     if not mei:
         nomes = sorted({s["nome"] for s in rec.get("socios") or [] if s.get("nome")})
         sg = _siglas_socios(itens)
-        socios = ("<h2>Quadro societário</h2>" + (f'<ul>{"".join(f"<li>{esc(n)}{esc(sg.get(n, ""))}</li>" for n in nomes)}</ul>' if nomes
+        socios = ("<h2>Quadro societário</h2>" + (f'<ul class="rs-socios">{"".join(f"<li><cite>{esc(n)}</cite>{esc(sg.get(n, ""))}</li>" for n in nomes)}</ul>' if nomes
                   else '<p class="rs-vazio">Nenhum sócio informado na base.</p>'))
     camp = sorted(campanhas, key=lambda c: (-(c.get("total") or 0), c["eleito"]["nome_urna"]))
     linhas_c = "".join(
@@ -969,6 +974,25 @@ def rede_fornecedores(agg, entradas, pendentes, por_sq, cfg, agregados=None):
     return rede, cruz
 
 
+def siglas_eleitos(eleitos):
+    """{nome_urna: " · UF · SIGLA"} dos nomes de urna com 2+ palavras que só um eleito usa"""
+    por_nome = {}
+    for e in eleitos:
+        por_nome.setdefault(e.get("nome_urna"), []).append(e)
+    return {n: f" · {es[0]['uf']} · {es[0]['partido']}" for n, es in por_nome.items()
+            if n and " " in n and len(es) == 1 and es[0].get("uf") and es[0].get("partido")}
+
+
+def _rotular_campanhas(contas, siglas):
+    """Conta de campanha paga ou doadora (PJ) que o TSE registra com o nome de urna de um eleito ganha UF e sigla
+    (issue #74: candidato citado sai com o partido). Sócio pessoa física com o mesmo nome não entra: pode ser homônimo."""
+    for lado, chave in (("despesas", "fornecedores_pj"), ("receitas", "doadores_pj")):
+        for f in (contas.get(lado) or {}).get(chave) or []:
+            if f.get("nome") in siglas:
+                f["nome"] += siglas[f["nome"]]
+    return contas
+
+
 def gerar(dest, publicados, eleitos, dir_contas, indicadores, fornecedores, cfg, envolver=None, correcoes=None, sal=None, anteriores=None,
           agregados=None, presidentes=None, debates=None):
     """Grava dest/rastro/index.html (home), metodologia, uma página por sq de `publicados` e uma por fornecedor PJ pago por eles.
@@ -986,6 +1010,7 @@ def gerar(dest, publicados, eleitos, dir_contas, indicadores, fornecedores, cfg,
     if (publicados or presidentes) and indicadores is None:
         raise ValueError("sem indicadores.json: nada publicado")
     por_sq = {str(e["sq"]): e for e in (eleitos["eleitos"] if isinstance(eleitos, dict) else eleitos)}
+    siglas = siglas_eleitos(por_sq.values())
     faltam = [s for s in publicados if s not in por_sq]
     if faltam:
         raise ValueError(f"sq publicado fora de eleitos.json: {faltam}")
@@ -998,7 +1023,7 @@ def gerar(dest, publicados, eleitos, dir_contas, indicadores, fornecedores, cfg,
     entradas, pres_entradas, agg = [], [], {}
     for n, e in enumerate(sel + presidentes):
         arq = Path(dir_contas) / f"{e['sq']}.json"
-        contas = json.loads(arq.read_text(encoding="utf-8")) if arq.exists() else None
+        contas = _rotular_campanhas(json.loads(arq.read_text(encoding="utf-8")), siglas) if arq.exists() else None
         itens = por_ind.get(str(e["sq"])) or []
         (pres_entradas if n >= len(sel) else entradas).append({"eleito": e, "caminho": cam[e["sq"]], "contas": contas, "itens": itens})
         if not contas or contas.get("prestacao_parcial") is False:
