@@ -1279,6 +1279,16 @@ class TestFilaInteira(unittest.TestCase):
     """casos que travavam lotes da fila de 23/10: conta de campanha com nome de eleito, coordenada de SVG com cara de CPF
     e LARANJAL/sobrenome LARANJA vindos da Receita"""
 
+    def test_id_mei_hex_nao_e_cpf(self):
+        # lote de 24/10 (#217): hmac do MEI com o sal de teste deu 774f38504460266a, e 38504460266 passa no verificador
+        for ok in ('<a href="/rastro/fornecedor/774f38504460266a/">X</a>', '<tr id="f-774f38504460266a"><td>X</td></tr>',
+                   '<a href="#f-774f38504460266a">x</a>', '{"id":"774f38504460266a"}', '{"id": "774f38504460266a"}'):
+            pg.varrer("x", ok)
+        for ruim in ("<li>385.044.602-66</li>", "<li>38504460266</li>", "<li>JOAO 38504460266 MEI</li>",
+                     "<td>774f38504460266a</td>", '<a href="/rastro/fornecedor/x/">385.044.602-66</a>'):
+            with self.subTest(ruim=ruim), self.assertRaises(ValueError):
+                pg.varrer("x", ruim)
+
     def test_conta_de_campanha_com_nome_de_eleito_ganha_uf_e_sigla(self):
         sig = pg.siglas_eleitos([{"nome_urna": "FULANO DE TAL", "uf": "SC", "partido": "NOVO"},
                                  {"nome_urna": "BELTRANO", "uf": "RS", "partido": "PL"},
