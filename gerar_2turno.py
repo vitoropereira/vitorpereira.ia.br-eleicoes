@@ -73,17 +73,31 @@ def proj(base, shift=0.0, noise=None):
     return 100 * Fv / V, 100 * Lv / V
 
 
+def total_agora(ufs, br, agora):
+    """O "agora" do país: soma das UFs ou, quando tem mais seções, o arquivo Brasil do TSE (o número do site do TSE;
+    mesma regra do agregador). Devolve (nat, fonte). A projeção continua UF a UF."""
+    st = sum(s["st"] for s in ufs); ts = sum(s["ts"] for s in ufs)
+    if br and br["ts"] and st < br["st"] <= br["ts"]:
+        return dict(ht=br["ht"] or agora, pst=round(100 * br["st"] / br["ts"], 2), vv=br["vv"],
+                    cand={F: br["cand"].get(F, 0), L: br["cand"].get(L, 0)}), "tse"
+    nat = dict(ht=max((s["ht"] for s in ufs if s["uf"] != "ZZ" and s["ht"] and s["ht"] <= agora), default=agora),
+               pst=round(100 * st / ts, 2), vv=sum(s["vv"] for s in ufs), cand={F: 0, L: 0})
+    for s in ufs:
+        for k, v in s["cand"].items():
+            nat["cand"][k] = nat["cand"].get(k, 0) + v
+    return nat, "uf"
+
+
 def main():
     with cf.ThreadPoolExecutor(10) as ex:
         ufs = list(ex.map(get, UFS))
         u1 = {s["uf"]: s for s in ex.map(lambda u: get(u, ELE_1T), UFS)}
-    agora = datetime.now().strftime("%H:%M:%S")
-    nat = dict(ht=max((s["ht"] for s in ufs if s["uf"] != "ZZ" and s["ht"] and s["ht"] <= agora), default=agora),
-               pst=round(100 * sum(s["st"] for s in ufs) / sum(s["ts"] for s in ufs), 2),
-               vv=sum(s["vv"] for s in ufs), cand={F: 0, L: 0})
-    for s in ufs:
-        for k, v in s["cand"].items():
-            nat["cand"][k] = nat["cand"].get(k, 0) + v
+    try:
+        br = get("br")
+    except Exception as e:  # sem o arquivo Brasil, o "agora" fica na soma das UFs
+        print(f"aviso: arquivo Brasil indisponível ({e})")
+        br = None
+    nat, fonte = total_agora(ufs, br, datetime.now().strftime("%H:%M:%S"))
 
     base, desloc, f1n, pol_f = projetar(ufs, u1)
     shifts = [x / 2 for x in range(-10, 11)]          # -5 a +5 pts para Lula
@@ -116,12 +130,12 @@ def main():
         hist.append(dict(ht=nat["ht"], pst=nat["pst"], f=round(fnow, 2), l=round(lnow, 2)))
         hp.write_text(json.dumps(hist, ensure_ascii=False, indent=1))
 
-    Vnow = sum(s["vv"] for s in base); Vtot = sum(s["tot"] for s in base); Vrem = Vtot - Vnow
+    Vnow = nat["vv"]; Vtot = sum(s["tot"] for s in base); Vrem = Vtot - Vnow
     def path(sf, sl):
         pts = []
         for i in range(21):
             t = i / 20
-            w = Vnow + t * Vrem
+            w = max(Vnow + t * Vrem, 1)
             pts.append(dict(x=round(nat["pst"] + t * (100 - nat["pst"]), 2),
                             f=round((Vnow * fnow + t * (sf * Vtot - Vnow * fnow)) / w, 2),
                             l=round((Vnow * lnow + t * (sl * Vtot - Vnow * lnow)) / w, 2)))
@@ -130,7 +144,7 @@ def main():
                 lo=path(q(ff, .1), q(ll, .1)), hi=path(q(ff, .9), q(ll, .9)))
     sgs = {k: v for s in ufs for k, v in s["sg"].items()}
     data = dict(
-        turno=2, gerado=datetime.now().strftime("%d/%m/%Y %H:%M"), ht=nat["ht"], pst=nat["pst"],
+        turno=2, total=fonte, gerado=datetime.now().strftime("%d/%m/%Y %H:%M"), ht=nat["ht"], pst=nat["pst"],
         f=round(fnow, 2), l=round(lnow, 2), fv=nat["cand"][F], lv=nat["cand"][L], outros=[],
         sg={"f": sgs.get(F, ""), "l": sgs.get(L, "")}, sgn={},
         scen=scen, base0=s0, mc=mc, states=states, hist=hist, traj=traj,

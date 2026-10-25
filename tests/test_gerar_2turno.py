@@ -45,5 +45,25 @@ class Projecao(unittest.TestCase):
         self.assertAlmostEqual(f0 - f1, 1.0)
 
 
+class TotalAgora(unittest.TestCase):
+    UFS = [uf("AA", 10, 600, 400), uf("BB", 0, 0, 0)]  # st = 10
+
+    def br(self, st, vv_f, vv_l, ts=100):
+        return dict(uf="BR", ht="17:06:27", pst=100 * st / ts, ts=ts, st=st, te=0, vv=vv_f + vv_l, cand={G.F: vv_f, G.L: vv_l}, sg={})
+
+    def test_brasil_a_frente_usa_o_brasil(self):
+        nat, fonte = G.total_agora(self.UFS, self.br(25, 4000, 6000, ts=200), "18:00:00")
+        self.assertEqual(fonte, "tse")
+        self.assertEqual((nat["pst"], nat["vv"], nat["cand"][G.L], nat["ht"]), (12.5, 10000, 6000, "17:06:27"))
+
+    def test_soma_a_frente_usa_a_soma(self):
+        nat, fonte = G.total_agora(self.UFS, self.br(5, 1, 1, ts=200), "18:00:00")
+        self.assertEqual(fonte, "uf")
+        self.assertEqual((nat["vv"], nat["cand"][G.F]), (1000, 600))
+
+    def test_sem_brasil_usa_a_soma(self):
+        self.assertEqual(G.total_agora(self.UFS, None, "18:00:00")[1], "uf")
+
+
 if __name__ == "__main__":
     unittest.main()

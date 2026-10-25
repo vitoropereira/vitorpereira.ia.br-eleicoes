@@ -227,7 +227,7 @@ function rt(){const r=[...D.states].sort((a,b)=>(a[sk]>b[sk]?1:-1)*sd);
  r.map(s=>`<tr><td>${s.uf==='ZZ'?'Exterior':s.uf}</td><td>${fmt(s.pst)}</td><td>${fmt(s.te/1e6,2)}</td><td>${fmt(s.f)}</td><td>${fmt(s.l)}</td><td>${(s.marg>0?'+':'')+fmtI(s.marg)}</td><td>${(s.rem_net>0?'+':'')+fmtI(s.rem_net)}</td></tr>`).join('');
  tbl.querySelectorAll('th').forEach(th=>th.onclick=()=>{const k=th.dataset.k;sd=k===sk?-sd:-1;sk=k;rt()});}
 rt();
-const P=D.premissa;premissa.textContent=`Base de véspera de cada UF: fatia de Flávio (${SG.f}) entre os dois no 1º turno, deslocada em ${P.desloc>0?'+':''}${fmt(P.desloc)} pt — a diferença entre a média das pesquisas (Flávio ${fmt(P.pol_f)}% dos válidos) e o 1º turno só entre os dois (${fmt(P.f1n)}%). UF sem seção apurada entra só pela base; UF com menos de ${fmt(P.mistura,0)}% apurado mistura o % atual com a base, com peso proporcional ao apurado.`;
+const P=D.premissa;premissa.textContent=`Base de véspera de cada UF: fatia de Flávio (${SG.f}) entre os dois no 1º turno, deslocada em ${P.desloc>0?'+':''}${fmt(P.desloc)} pt — a diferença entre a média das pesquisas (Flávio ${fmt(P.pol_f)}% dos válidos) e o 1º turno só entre os dois (${fmt(P.f1n)}%). UF sem seção apurada entra só pela base; UF com menos de ${fmt(P.mistura,0)}% apurado mistura o % atual com a base, com peso proporcional ao apurado.`+(D.total==='tse'?' Os números de "agora" (seções apuradas e % de cada um) vêm do arquivo Brasil do TSE, que neste momento tem mais seções que a soma dos estados; a projeção usa os arquivos de cada estado, porque calcula estado a estado.':'');
 </script>
 </body>
 </html>
