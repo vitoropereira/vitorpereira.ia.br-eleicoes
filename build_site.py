@@ -129,6 +129,20 @@ def html_leitura(tpl, d):
     raw = brand.aplicar(tpl.replace("/*__DATA__*/null", json.dumps(dados, ensure_ascii=False)))
     return raw.replace("<h1>Presidente 2026 · 1º turno — apuração e projeções</h1>", f"<h1>{html.escape(textos_leitura(d)[0])}</h1>", 1)
 
+def textos_leitura_2t(d):
+    """(h1, título, descrição) da página de uma leitura parcial do 2º turno"""
+    pst = fmt(d["pst"], 1)
+    return (f"2º turno, apuração com {pst}% das urnas: {curto(cF)} {fmt(d['f'], 2)}% × {curto(cL)} {fmt(d['l'], 2)}%",
+            f"2º turno, apuração {pst}%: {curto(cF)} × {curto(cL)} | Eleições 2026",
+            f"Leitura parcial do TSE às {d['ht'][:5]} de 25/10/2026: {curto(cF)} {fmt(d['f'], 2)}%, {curto(cL)} {fmt(d['l'], 2)}%. "
+            f"Projeção do resultado final e chance de cada um naquele momento.")
+
+
+def html_leitura_2t(tpl, d):
+    """template_2turno.html + dados da leitura (o snapshot já traz D.sg)"""
+    raw = brand.aplicar(tpl.replace("/*__DATA__*/null", json.dumps(d, ensure_ascii=False)))
+    return raw.replace("<h1>Presidente 2026 · 2º turno — apuração e projeções</h1>", f"<h1>{html.escape(textos_leitura_2t(d)[0])}</h1>", 1)
+
 # ---------------- rodadas da apuração (dados de cada snapshot, renderizados com o template atual)
 def dados_snapshot(path):
     if path.startswith("git:"):
@@ -146,6 +160,15 @@ for src, slug in RODADAS:
     d = dados_snapshot(src)
     d["hist"] = [h for h in hist_all if h["pst"] <= d["pst"] + 1e-9]  # trajetória até aquele momento
     rodadas.append(dict(slug=slug, d=d, url=f"/apuracao/{slug}/"))
+
+# 2º turno (25/10): um snapshot por marco em snapshots/2-turno/ (gerar_2turno.py); cada um já leva a trajetória até ali.
+# Mesmo % (uma casa) = mesma página: fica a leitura mais recente.
+rodadas_2t = {}
+for p in sorted((R / "snapshots" / "2-turno").glob("*/dados.json")):
+    d = json.loads(p.read_text())
+    slug = f"{d['pst']:.1f}".replace(".", "-")
+    rodadas_2t[slug] = dict(slug=slug, d=d, url=f"/apuracao/2-turno/{slug}/")
+rodadas_2t = sorted(rodadas_2t.values(), key=lambda r: r["d"]["pst"])
 
 # ---------------- peças compartilhadas
 FAVICON = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#070B12"/><rect x="12" y="34" width="10" height="18" rx="2" fill="#5B7FE8"/><rect x="26" y="22" width="10" height="30" rx="2" fill="#E35A4F"/><rect x="42" y="12" width="9" height="40" rx="2" fill="#24C8FF"/></svg>"""
@@ -978,8 +1001,19 @@ def minha_secao_publicar(dest, publicado, modificado, pasta=None, meta=None):
     return [("/minha-secao/", modificado, "0.6")] if p["tem"] else []
 
 
+def linha_rodada(r):
+    d = r["d"]; fim = d["traj"]["mc50"][-1] if "traj" in d else d["scen"][0]
+    return (f'<a class="rd" href="{r["url"]}"><span class="t">{d["ht"][:5]}</span><span class="p">{fmt(d["pst"], 1)}%<small>apurado</small></span>'
+            f'<span class="bar"><i style="width:{d["f"]}%;background:var(--flavio)"></i><i style="width:{d["l"]}%;background:var(--lula)"></i></span>'
+            f'<span class="v">{curto(cF)} {fmt(d["f"], 2)}% × {curto(cL)} {fmt(d["l"], 2)}%<small>previsão para o fim da apuração: {fmt(fim["f"], 1)} × {fmt(fim["l"], 1)}</small></span></a>')
+
+
 def pagina_apuracao(style):
     """/apuracao/: índice das leituras (HTML estático, sem JS); `style` = CSS do relatório"""
+    turno2 = ""
+    if rodadas_2t:
+        turno2 = (f'<section style="margin-top:22px"><h2>2º turno, 25/10</h2><p>Cada página é o painel da projeção como estava naquele momento da noite.</p>'
+                  f'{"".join(linha_rodada(r) for r in reversed(rodadas_2t))}</section><h2 style="margin-top:28px">1º turno, 04/10</h2>')
     linhas = "".join(
         f'<a class="rd" href="{r["url"]}"><span class="t">{r["d"]["ht"][:5]}</span><span class="p">{fmt(r["d"]["pst"], 1)}%<small>apurado</small></span>'
         f'<span class="bar"><i style="width:{r["d"]["f"]}%;background:var(--flavio)"></i><i style="width:{r["d"]["l"]}%;background:var(--lula)"></i></span>'
@@ -989,7 +1023,7 @@ def pagina_apuracao(style):
                   f'<span class="bar"><i style="width:{cF["p"]}%;background:var(--flavio)"></i><i style="width:{cL["p"]}%;background:var(--lula)"></i></span>'
                   f'<span class="v"><b>{curto(cF)} {fmt(cF["p"], 2)}% × {curto(cL)} {fmt(cL["p"], 2)}%</b><small>relatório final completo →</small></span></a>')
     return f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>x</title>{style}{IDX_CSS}</head><body><main>
-<header><h1>Histórico da apuração: o 1º turno, leitura a leitura</h1><p>{curto(cF)} começou a noite com mais de 50% porque o Sul e o Centro-Oeste foram apurados mais rápido. Conforme o Nordeste entrou, {curto(cL)} reduziu a diferença, mas não passou. Cada página abaixo é o painel exatamente como estava naquele momento.</p></header>
+<header><h1>Histórico da apuração: {"1º e 2º turno" if rodadas_2t else "o 1º turno"}, leitura a leitura</h1></header>{turno2}<p>{curto(cF)} começou a noite com mais de 50% porque o Sul e o Centro-Oeste foram apurados mais rápido. Conforme o Nordeste entrou, {curto(cL)} reduziu a diferença, mas não passou. Cada página abaixo é o painel exatamente como estava naquele momento.</p>
 <section style="margin-top:22px">{rows_final}{linhas}</section>
 <p class="note">As leituras de 24,5% (18:19) e 27,9% (18:23) não têm painel salvo; os números delas aparecem na trajetória de cada página.</p></main></body></html>"""
 
@@ -1149,14 +1183,37 @@ def main():
         (BUILD / path.strip("/") / "index.html").write_text(montar_pagina(raw, titulo, desc, path, f"/og/apuracao-{r['slug']}.png", ld, publicado, modificado, "/apuracao/", top))
         paginas.append((path, ISO(datetime.strptime("04/10/2026 " + d["ht"], "%d/%m/%Y %H:%M:%S")), "0.6"))
 
+    # ---- uma página por leitura do 2º turno
+    tpl2 = (R / "template_2turno.html").read_text()
+    for r in rodadas_2t:
+        d = r["d"]; pst = fmt(d["pst"], 1); hora = d["ht"][:5]
+        raw = html_leitura_2t(tpl2, d)
+        _, titulo, desc = textos_leitura_2t(d)
+        nav = "".join(f'<a href="{x["url"]}"{" aria-current=page" if x is r else ""}>{fmt(x["d"]["pst"], 1)}%</a>' for x in rodadas_2t)
+        top = (trilha_apuracao(f"2º turno, {pst}%") +
+               f'<div class="banner"><div>Esta é uma <b>leitura parcial</b> do 2º turno: o retrato da apuração às {hora}, com {pst}% das urnas. '
+               f'<a href="/">Veja a apuração agora →</a><span class="rounds">{nav}</span></div></div>')
+        path = r["url"]
+        quando = ISO(datetime.strptime("25/10/2026 " + d["ht"], "%d/%m/%Y %H:%M:%S"))
+        ld = [{"@context": "https://schema.org", "@type": "NewsArticle", "headline": titulo[:110], "description": desc, "inLanguage": "pt-BR",
+               "datePublished": quando, "dateModified": quando, "author": PESSOA, "publisher": PESSOA, "image": [f"{BASE}/og/index.png"],
+               "mainEntityOfPage": BASE + path, "about": ELEICAO},
+              {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+                  {"@type": "ListItem", "position": 1, "name": NAV.INICIO, "item": BASE + "/"},
+                  {"@type": "ListItem", "position": 2, "name": NAV.APURACAO, "item": BASE + "/apuracao/"},
+                  {"@type": "ListItem", "position": 3, "name": f"2º turno, {pst}% apurado", "item": BASE + path}]}]
+        (BUILD / path.strip("/")).mkdir(parents=True, exist_ok=True)
+        (BUILD / path.strip("/") / "index.html").write_text(montar_pagina(raw, titulo, desc, path, "/og/index.png", ld, publicado, modificado, "/apuracao/", top))
+        paginas.append((path, quando, "0.6"))
+
     # ---- índice da apuração (HTML estático, sem JS)
     base_tpl = (R / "relatorio" / "relatorio_final.html").read_text()
     style = re.search(r"<style>.*?</style>", base_tpl, re.S).group(0)
-    titulo = "Histórico da apuração: o 1º turno de 2026, leitura a leitura"
+    titulo = f"Histórico da apuração: {'1º e 2º turno' if rodadas_2t else 'o 1º turno'} de 2026, leitura a leitura"
     desc = "Como a apuração de 04/10/2026 evoluiu: cada leitura do TSE com o % de urnas, os votos de Flávio e Lula e a projeção do resultado naquele momento."
     pagina = pagina_apuracao(style)
     ld = [{"@context": "https://schema.org", "@type": "CollectionPage", "name": titulo, "description": desc, "url": BASE + "/apuracao/", "inLanguage": "pt-BR", "author": PESSOA,
-           "hasPart": [{"@type": "NewsArticle", "url": BASE + r["url"], "headline": f"Apuração com {fmt(r['d']['pst'], 1)}% das urnas"} for r in rodadas]},
+           "hasPart": [{"@type": "NewsArticle", "url": BASE + r["url"], "headline": f"Apuração com {fmt(r['d']['pst'], 1)}% das urnas"} for r in rodadas + rodadas_2t]},
           {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
               {"@type": "ListItem", "position": 1, "name": NAV.INICIO, "item": BASE + "/"},
               {"@type": "ListItem", "position": 2, "name": NAV.APURACAO, "item": BASE + "/apuracao/"}]}]
@@ -1193,7 +1250,7 @@ def main():
                                                   "Página não encontrada · Eleições 2026", "Página não encontrada.", "/404.html", "/og/index.png", [], publicado, modificado, ""))
 
     # ---- pré-render de todas as páginas
-    for p in ["index.html", "1-turno/index.html", "ao-vivo/index.html", "analise/index.html", "apuracao/index.html", "404.html"] + [r["url"].strip("/") + "/index.html" for r in rodadas]:
+    for p in ["index.html", "1-turno/index.html", "ao-vivo/index.html", "analise/index.html", "apuracao/index.html", "404.html"] + [r["url"].strip("/") + "/index.html" for r in rodadas + rodadas_2t]:
         url = base_url + "/" + p.replace("index.html", "")
         dom = prerender(url)
         # o mapa já está desenhado no HTML: tira os contornos duplicados dos dados embutidos
