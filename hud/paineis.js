@@ -1,6 +1,6 @@
 // Painéis do HUD (Preact + htm): esquerdo (manchete, placar, totais, gráfico) e direito (regiões, feed).
 import { html, useState } from "/vendor/preact-htm.module.js";
-import { pct, int, linha, somar, oficial, duelo, senadoEleitos, REGIOES, UF_NOME, UFS, cor, ehDep, comSigla, cartao, cartaoCurto, textoComSigla, CARGO_NOME } from "./calc.js";
+import { pct, int, linha, somar, oficial, duelo, senadoEleitos, REGIOES, UF_NOME, UFS, cor, ehDep, comSigla, cartao, cartaoCurto, textoComSigla, CARGO_NOME, serieVisivel } from "./calc.js";
 
 const CORES_MARCA = new Set(["PL", "PT"]);
 /** nome com a cor do partido: PL/PT usam o token (contraste testado); os demais, sublinhado na cor */
@@ -87,7 +87,8 @@ export function Placar({ cargo, r, kicker, selo, onVoltar, ponto, serie, idx, tu
 }
 
 // ---------------- gráfico "Ao longo da apuração" (SVG, sem biblioteca)
-export function GraficoNoite({ serie, idx, cands }) {
+export function GraficoNoite({ serie: completa, idx, cands }) {
+  const serie = serieVisivel(completa);
   const { F: cF, L: cL } = duelo(cands), nF = comSigla(cF, true), nL = comSigla(cL, true);
   const W = 300, H = 132, L = 30, R = 6, T = 8, B = 20;
   const vals = serie.flatMap((s) => [s.f, s.l]);
@@ -96,7 +97,9 @@ export function GraficoNoite({ serie, idx, cands }) {
   const linhaD = (k) => serie.map((s, i) => `${i ? "L" : "M"}${x(s.pst).toFixed(1)},${y(s[k]).toFixed(1)}`).join("");
   const passo = hi - lo > 12 ? 4 : 2;
   const ticks = []; for (let v = Math.ceil(lo / passo) * passo; v <= hi; v += passo) ticks.push(v);
-  const atual = idx == null ? serie[serie.length - 1] : serie[idx];
+  // o cursor segue a leitura escolhida na linha do tempo (índice da série completa); abaixo de 1%, cola no início
+  const escolhida = idx == null ? completa[completa.length - 1] : completa[idx];
+  const atual = escolhida && escolhida.pst >= serie[0].pst ? escolhida : serie[0];
   const quando = (p) => `${p.d ? p.d + " " : ""}${p.ht}`;
   const F = serie[serie.length - 1];
   return html`
