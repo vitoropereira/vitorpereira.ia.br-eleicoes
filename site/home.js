@@ -36,6 +36,17 @@ export function placar(vivo, reserva) {
   return { pst: vivo.pst ?? 0, cands };
 }
 
+/** Linha da projeção ao vivo (/vivo/projecao.json, gravado pelo watch_2turno.sh a cada ~2 min): "" se o arquivo
+ *  é inválido. `pj` = {t, pst, f, l, pf, pl, nf, nl, sf, sl}: % final projetado e chance de vencer de cada um. */
+export function textoProjecao(pj) {
+  const n = (x) => typeof x === "number" && Number.isFinite(x);
+  if (!pj || ![pj.f, pj.l, pj.pf, pj.pl].every(n) || !/^\d\d:\d\d$/.test(pj.t || "")) return "";
+  const p1 = (x) => x.toLocaleString("pt-BR", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+  const p0 = (x) => Math.round(x).toLocaleString("pt-BR");
+  return `Projeção para o fim da apuração: ${pj.nf} (${pj.sf}) ${p1(pj.f)}% × ${pj.nl} (${pj.sl}) ${p1(pj.l)}% · ` +
+    `chance de vencer ${p0(pj.pf)}% × ${p0(pj.pl)}% · calculada às ${pj.t}. É modelo, não resultado.`;
+}
+
 const ANCORAS = new Set(["destaques", "presidente", "governadores", "senado", "camara", "assembleias", "apuracao",
   "perguntas", "metodo", "hl", "reg", "outros", "cmp22", "traj"]);
 
@@ -119,6 +130,23 @@ export function iniciar(doc = document, loc = location, nav = navigator) {
     }
   }
 
+  // projeção ao vivo: só na apuração; sem arquivo (404) ou inválido, a linha fica escondida
+  async function projecao() {
+    const linhaP = q("[data-projecao]");
+    if (!linhaP || fase(agora(), {}) === "vespera") return;
+    try {
+      const r = await fetch(`/vivo/projecao.json?t=${Math.floor(Date.now() / 60000)}`);
+      const txt = r.ok ? textoProjecao(await r.json()) : "";
+      linhaP.replaceChildren();
+      if (txt) {
+        const a = el(doc, "a", null, "como calculamos");
+        a.href = "/apuracao/";
+        linhaP.append(`${txt} `, a);
+      }
+      linhaP.hidden = !txt;
+    } catch { /* rede: tenta no próximo minuto */ }
+  }
+
   const vivo = criarVivo((est) => {
     if (est.dados) aplicar(est.dados);
     else if (est.status === "vazio" || est.status === "erro") {
@@ -130,6 +158,7 @@ export function iniciar(doc = document, loc = location, nav = navigator) {
   function tick() {
     contagem();
     if (!ligado && agora() >= INICIO_APURACAO) { ligado = true; vivo.ativar(); }
+    if (ligado && !nav.webdriver) projecao();
   }
   tick();
   setInterval(tick, 60000);
