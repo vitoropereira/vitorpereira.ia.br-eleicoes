@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Apuração 2026 — Projeções</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js" integrity="sha384-bs/nf9FbdNouRbMiFcrcZfLXYPKiPaGVGplVbv7dLGECccEXDW+S3zjqSKR5ZEaD" crossorigin="anonymous"></script>
+<style>
+/* Brand vitorpereira.ia.br: única fonte de cores e fontes do site. Escuro por padrão.
+   Larguras (border-box, com o gutter de 16px dentro): --w-texto para leitura, --w-larga para mapas e tabelas. */
+@font-face{font-family:"Inter";font-style:normal;font-weight:100 900;font-display:swap;src:url(/fonts/inter-latin-wght-normal.woff2) format("woff2")}
+@font-face{font-family:"JetBrains Mono";font-style:normal;font-weight:100 800;font-display:swap;src:url(/fonts/jetbrains-mono-latin-wght-normal.woff2) format("woff2")}
+:root{color-scheme:dark;--bg:#070B12;--card:#0C121D;--ink:#E9EEF7;--ink2:#AEB8CA;--muted:#8593AB;--line:#1E2A3D;--soft:#111A28;--brand:#24C8FF;--flavio:#5B7FE8;--lula:#E35A4F;--outros:#8593AB;--neutral:#3A4558;--amber:#E0A530;--alerta:#E0A530;--live:#3ECF7C;--b1:#1E2A55;--b2:#2D4596;--b3:#4466D6;--b4:#8AA5F5;--r1:#5A2E2A;--r2:#8F3A31;--r3:#D0564A;--r4:#F29185;--g0:#1A2334;--font-sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;--font-mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;--w-texto:880px;--w-larga:1160px}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){color-scheme:light;--bg:#FBFCFE;--card:#FFFFFF;--ink:#0B1220;--ink2:#3B4558;--muted:#566072;--line:#E2E8F1;--soft:#F1F5FA;--brand:#0A76AD;--flavio:#2F5BD3;--lula:#D1453B;--outros:#566072;--neutral:#A3ABB8;--amber:#C98A12;--alerta:#946200;--live:#1F9D55;--b1:#D6DFF7;--b2:#9DB2EF;--b3:#4F72DD;--b4:#2443A8;--r1:#F7D3CE;--r2:#EFA198;--r3:#E0604F;--r4:#A8322A;--g0:#E9EDF3}}
+:root[data-theme="light"]{color-scheme:light;--bg:#FBFCFE;--card:#FFFFFF;--ink:#0B1220;--ink2:#3B4558;--muted:#566072;--line:#E2E8F1;--soft:#F1F5FA;--brand:#0A76AD;--flavio:#2F5BD3;--lula:#D1453B;--outros:#566072;--neutral:#A3ABB8;--amber:#C98A12;--alerta:#946200;--live:#1F9D55;--b1:#D6DFF7;--b2:#9DB2EF;--b3:#4F72DD;--b4:#2443A8;--r1:#F7D3CE;--r2:#EFA198;--r3:#E0604F;--r4:#A8322A;--g0:#E9EDF3}
+h1,h2,.kicker,.tile .v,.prob .v{font-family:var(--font-mono);letter-spacing:-.02em}
+.tile .k,header p.kicker{font-family:var(--font-mono);letter-spacing:.1em}
+a{color:var(--brand)}
+
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 var(--font-sans)}
+main{max-width:var(--w-larga);margin:0 auto;padding:28px 16px 60px}
+h1{font-size:26px;margin:0 0 4px;letter-spacing:-.01em}
+h2{font-size:17px;margin:0 0 4px}
+.sub{color:var(--ink2);margin:0 0 22px}
+.cap{color:var(--ink2);font-size:13px;margin:0 0 14px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-bottom:18px}
+.tile,.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.tile .k{font-size:12px;color:var(--ink2);text-transform:uppercase;letter-spacing:.04em}
+.tile .v{font-size:28px;font-weight:650;font-variant-numeric:tabular-nums;margin-top:2px}
+.tile .d{font-size:12.5px;color:var(--muted)}
+.sw{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:baseline}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.card{margin-bottom:14px}.grid .card{margin-bottom:0}.grid>*{min-width:0}
+.ch{position:relative;height:320px}.ch.tall{height:720px}
+.bar{height:22px;border-radius:6px;overflow:hidden;display:flex;gap:2px;background:var(--card);margin:6px 0 4px}
+.bar>div{height:100%}
+table{width:100%;border-collapse:collapse;font-size:13.5px;font-variant-numeric:tabular-nums}
+th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:right}
+th:first-child,td:first-child{text-align:left}
+th{color:var(--ink2);font-weight:600;cursor:pointer;user-select:none}
+.prob{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.prob .v{font-size:34px}
+ul.notes{color:var(--ink2);font-size:13.5px;padding-left:18px;margin:0}
+details summary{cursor:pointer;color:var(--ink2);font-size:13.5px}
+@media (max-width:640px){details summary{min-height:40px;box-sizing:border-box;padding-block:10px;margin-block:-10px}}
+.legend{display:flex;gap:16px;font-size:13px;color:var(--ink2);margin-bottom:8px;flex-wrap:wrap}
+@media (max-width:760px){.grid,.prob{grid-template-columns:1fr}.ch.tall{height:900px}h1{font-size:22px}}
+</style>
+</head>
+<body>
+<main>
+  <h1>Presidente 2026 · 2º turno — apuração e projeções</h1>
+  <p class="sub" id="sub"></p>
+
+  <div class="tiles" id="tiles"></div>
+
+  <div class="card">
+    <h2>Apuração agora (votos válidos)</h2>
+    <div class="bar" id="nowbar"></div>
+    <div class="legend" id="nowleg"></div>
+  </div>
+
+  <div class="card">
+    <h2>Trajetória da apuração até 100%</h2>
+    <p class="cap">A linha cheia é o que o TSE já tinha contado; a tracejada é onde a nossa conta previa que cada um ia terminar.</p>
+    <details class="cap"><summary>Como calculamos</summary><p class="cap">Linha cheia = apurado (TSE, um ponto por atualização). Tracejada = projeção mediana até o fim; faixa = 80% das simulações. Pontilhada fina = projeção base (sem viés extra no voto restante).</p></details>
+    <div class="legend"><span><span class="sw" style="background:var(--flavio)"></span>Flávio (<span data-sg="f"></span>)</span><span><span class="sw" style="background:var(--lula)"></span>Lula (<span data-sg="l"></span>)</span><span>── apurado</span><span>- - projeção</span><span>▒ faixa 80%</span></div>
+    <div class="ch" style="height:380px"><canvas id="cTraj"></canvas></div>
+  </div>
+
+  <div class="card">
+    <h2>Probabilidades — simulação Monte Carlo (20 mil rodadas)</h2>
+    <p class="cap">Premissa: o voto que falta em cada UF segue o % já apurado da UF (UF com pouca apuração mistura esse % com a base de véspera, ver Notas), com viés nacional ~N(+1 pt Lula (<span data-sg="l"></span>), 3 pt) e ruído por estado ~N(0, 2 pt). É modelo, não pesquisa.</p>
+    <div class="prob" id="prob" style="grid-template-columns:repeat(2,1fr)"></div>
+    <p class="cap" id="mcrange" style="margin:12px 0 0"></p>
+  </div>
+
+  <div class="card">
+    <h2>Cenários de fechamento</h2>
+    <p class="cap">Eixo X: quantos pontos o voto <b>ainda não apurado</b> vira para Lula (<span data-sg="l"></span>) (negativo = para Flávio (<span data-sg="f"></span>)) em relação à projeção base de cada UF.</p>
+    <div class="ch"><canvas id="cScen"></canvas></div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>Pesquisas da véspera × projeção</h2>
+      <p class="cap">Vantagem de Flávio (<span data-sg="f"></span>) sobre Lula (<span data-sg="l"></span>) em pontos de votos válidos (negativo = Lula à frente).</p>
+      <div class="ch"><canvas id="cPolls"></canvas></div>
+    </div>
+    <div class="card">
+      <h2 id="biasT"></h2>
+      <p class="cap" id="biasC"></p>
+      <div class="ch"><canvas id="cBias"></canvas></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Saldo por estado: já apurado × o que ainda vem</h2>
+    <p class="cap">Mil votos de vantagem de Flávio (<span data-sg="f"></span>) sobre Lula (<span data-sg="l"></span>). "Ainda vem" = estimativa do saldo no voto restante pela projeção base da UF.</p>
+    <div class="legend"><span><span class="sw" style="background:var(--ink2)"></span>Já apurado</span><span><span class="sw" style="background:var(--neutral)"></span>Ainda vem (projetado)</span><span>Lado direito = Flávio (<span data-sg="f"></span>) · esquerdo = Lula (<span data-sg="l"></span>)</span></div>
+    <div class="ch tall"><canvas id="cStates"></canvas></div>
+  </div>
+
+  <div class="card">
+    <h2>Tabela por UF</h2>
+    <p class="cap">Clique no cabeçalho para ordenar.</p>
+    <div style="overflow-x:auto"><table id="tbl"></table></div>
+  </div>
+
+  <div class="card">
+    <h2>Notas</h2>
+    <ul class="notes">
+      <li>Fonte da apuração: JSON oficial do TSE por UF (eleição 6258, cargo Presidente; 1º turno: eleição 6257). O % apurado é a soma das UFs, que pode ficar atrás do arquivo nacional do TSE. Pesquisas: compilação do Poder360 de 25/10/2026, em votos válidos — não conferidas uma a uma nos institutos.</li>
+      <li id="premissa"></li>
+      <li>A projeção corrige o viés <i>entre</i> estados, mas não o viés <i>dentro</i> do estado (ex.: interior × capital, ordem de chegada das zonas).</li>
+      <li>Regenerar com dados novos: <code>python3 gerar_2turno.py</code>.</li>
+    </ul>
+  </div>
+</main>
+<script>
+const D={"turno": 2, "total": "tse", "gerado": "25/10/2026 19:40", "ht": "19:39:33", "pst": 10.87, "f": 49.59, "l": 50.41, "fv": 6746650, "lv": 6859327, "outros": [], "sg": {"f": "PL", "l": "PT"}, "sgn": {}, "scen": [{"shift": -5.0, "f": 54.32, "l": 45.68}, {"shift": -4.5, "f": 53.87, "l": 46.13}, {"shift": -4.0, "f": 53.43, "l": 46.57}, {"shift": -3.5, "f": 52.98, "l": 47.02}, {"shift": -3.0, "f": 52.54, "l": 47.46}, {"shift": -2.5, "f": 52.09, "l": 47.91}, {"shift": -2.0, "f": 51.65, "l": 48.35}, {"shift": -1.5, "f": 51.2, "l": 48.8}, {"shift": -1.0, "f": 50.76, "l": 49.24}, {"shift": -0.5, "f": 50.31, "l": 49.69}, {"shift": 0.0, "f": 49.86, "l": 50.14}, {"shift": 0.5, "f": 49.42, "l": 50.58}, {"shift": 1.0, "f": 48.97, "l": 51.03}, {"shift": 1.5, "f": 48.53, "l": 51.47}, {"shift": 2.0, "f": 48.08, "l": 51.92}, {"shift": 2.5, "f": 47.64, "l": 52.36}, {"shift": 3.0, "f": 47.19, "l": 52.81}, {"shift": 3.5, "f": 46.75, "l": 53.25}, {"shift": 4.0, "f": 46.3, "l": 53.7}, {"shift": 4.5, "f": 45.86, "l": 54.14}, {"shift": 5.0, "f": 45.41, "l": 54.59}], "base0": {"shift": 0.0, "f": 49.86, "l": 50.14}, "mc": {"p_flavio": 35.4, "p_lula": 64.6, "p10": -9.1, "p50": -2.0, "p90": 4.9}, "states": [{"uf": "AC", "pst": 29.56, "te": 613715, "f": 64.8, "l": 35.2, "marg": 37, "rem_net": 88, "rem": 295, "ht": "17:39:00", "base": 68.9}, {"uf": "AL", "pst": 10.83, "te": 2442081, "f": 37.0, "l": 63.0, "marg": -53, "rem_net": -324, "rem": 1674, "ht": "19:38:45", "base": 42.2}, {"uf": "AP", "pst": 11.18, "te": 576910, "f": 36.1, "l": 63.9, "marg": -11, "rem_net": -32, "rem": 301, "ht": "19:38:51", "base": 49.7}, {"uf": "AM", "pst": 37.88, "te": 2798661, "f": 51.6, "l": 48.4, "marg": 27, "rem_net": 45, "rem": 1392, "ht": "18:39:10", "base": 48.0}, {"uf": "BA", "pst": 3.11, "te": 11312891, "f": 29.8, "l": 70.2, "marg": -113, "rem_net": -3524, "rem": 8749, "ht": "19:39:33", "base": 29.9}, {"uf": "CE", "pst": 2.59, "te": 6996521, "f": 35.1, "l": 64.9, "marg": -47, "rem_net": -2015, "rem": 5930, "ht": "19:39:29", "base": 32.8}, {"uf": "DF", "pst": 62.66, "te": 2258995, "f": 54.6, "l": 45.4, "marg": 104, "rem_net": 62, "rem": 671, "ht": "19:39:28", "base": 57.1}, {"uf": "ES", "pst": 7.72, "te": 2991515, "f": 58.0, "l": 42.0, "marg": 27, "rem_net": 355, "rem": 2037, "ht": "19:39:01", "base": 58.9}, {"uf": "GO", "pst": 3.64, "te": 5080385, "f": 61.6, "l": 38.4, "marg": 34, "rem_net": 1013, "rem": 3933, "ht": "19:39:30", "base": 63.1}, {"uf": "MA", "pst": 14.15, "te": 5183049, "f": 32.9, "l": 67.1, "marg": -201, "rem_net": -1240, "rem": 3557, "ht": "19:39:33", "base": 32.3}, {"uf": "MT", "pst": 25.38, "te": 2637879, "f": 61.0, "l": 39.0, "marg": 117, "rem_net": 380, "rem": 1556, "ht": "18:39:32", "base": 68.8}, {"uf": "MS", "pst": 17.65, "te": 2024437, "f": 59.1, "l": 40.9, "marg": 50, "rem_net": 272, "rem": 1293, "ht": "18:38:52", "base": 62.6}, {"uf": "MG", "pst": 8.27, "te": 16372144, "f": 50.4, "l": 49.6, "marg": 9, "rem_net": 498, "rem": 13447, "ht": "19:39:32", "base": 52.4}, {"uf": "PA", "pst": 28.88, "te": 6262063, "f": 44.9, "l": 55.1, "marg": -153, "rem_net": -372, "rem": 3729, "ht": "19:39:32", "base": 46.9}, {"uf": "PB", "pst": 50.65, "te": 3248434, "f": 31.9, "l": 68.1, "marg": -482, "rem_net": -470, "rem": 1301, "ht": "19:39:32", "base": 34.8}, {"uf": "PR", "pst": 31.56, "te": 8613628, "f": 61.8, "l": 38.2, "marg": 512, "rem_net": 1111, "rem": 4715, "ht": "19:39:33", "base": 65.5}, {"uf": "PE", "pst": 4.72, "te": 7223227, "f": 26.2, "l": 73.8, "marg": -128, "rem_net": -1989, "rem": 5397, "ht": "19:39:32", "base": 32.6}, {"uf": "PI", "pst": 3.4, "te": 2704695, "f": 23.3, "l": 76.7, "marg": -39, "rem_net": -1038, "rem": 2065, "ht": "19:39:32", "base": 25.1}, {"uf": "RJ", "pst": 0.15, "te": 12857526, "f": 63.2, "l": 36.8, "marg": 3, "rem_net": 1113, "rem": 7809, "ht": "19:37:29", "base": 57.1}, {"uf": "RN", "pst": 12.53, "te": 2659867, "f": 30.1, "l": 69.9, "marg": -105, "rem_net": -597, "rem": 1847, "ht": "19:39:02", "base": 36.5}, {"uf": "RS", "pst": 7.7, "te": 8522318, "f": 64.0, "l": 36.0, "marg": 147, "rem_net": 1453, "rem": 6324, "ht": "19:39:03", "base": 60.6}, {"uf": "RO", "pst": 26.31, "te": 1265926, "f": 63.9, "l": 36.1, "marg": 74, "rem_net": 221, "rem": 740, "ht": "18:39:02", "base": 72.0}, {"uf": "RR", "pst": 7.11, "te": 401540, "f": 59.1, "l": 40.9, "marg": 3, "rem_net": 107, "rem": 248, "ht": "18:32:43", "base": 75.4}, {"uf": "SC", "pst": 8.61, "te": 5734687, "f": 58.5, "l": 41.5, "marg": 70, "rem_net": 1609, "rem": 4361, "ht": "19:38:51", "base": 72.4}, {"uf": "SP", "pst": 0.65, "te": 34123591, "f": 61.8, "l": 38.2, "marg": 37, "rem_net": 3617, "rem": 24270, "ht": "19:38:48", "base": 57.4}, {"uf": "SE", "pst": 0.14, "te": 1740093, "f": 21.9, "l": 78.1, "marg": -1, "rem_net": -518, "rem": 1479, "ht": "19:37:37", "base": 32.5}, {"uf": "TO", "pst": 52.4, "te": 1182041, "f": 49.8, "l": 50.2, "marg": -2, "rem_net": -2, "rem": 429, "ht": "19:39:33", "base": 53.5}, {"uf": "ZZ", "pst": 61.07, "te": 916683, "f": 40.5, "l": 59.5, "marg": -45, "rem_net": -29, "rem": 152, "ht": "19:34:34", "base": 47.5}], "hist": [{"ht": "17:06:58", "pst": 0.04, "f": 34.64, "l": 65.36}, {"ht": "17:06:58", "pst": 0.29, "f": 43.28, "l": 56.72}, {"ht": "17:07:37", "pst": 0.37, "f": 44.47, "l": 55.53}, {"ht": "19:04:33", "pst": 1.1, "f": 49.61, "l": 50.39}, {"ht": "19:05:07", "pst": 1.51, "f": 47.73, "l": 52.27}, {"ht": "19:08:31", "pst": 1.6, "f": 47.86, "l": 52.14}, {"ht": "19:10:32", "pst": 1.65, "f": 47.87, "l": 52.13}, {"ht": "19:12:31", "pst": 1.69, "f": 47.91, "l": 52.09}, {"ht": "19:14:33", "pst": 1.79, "f": 47.89, "l": 52.11}, {"ht": "19:16:33", "pst": 1.99, "f": 48.17, "l": 51.83}, {"ht": "19:19:03", "pst": 2.24, "f": 48.35, "l": 51.65}, {"ht": "19:20:43", "pst": 2.59, "f": 48.5, "l": 51.5}, {"ht": "19:22:42", "pst": 3.08, "f": 48.66, "l": 51.34}, {"ht": "19:24:43", "pst": 3.62, "f": 48.72, "l": 51.28}, {"ht": "19:26:43", "pst": 4.24, "f": 48.82, "l": 51.18}, {"ht": "19:28:43", "pst": 5.02, "f": 48.84, "l": 51.16}, {"ht": "19:32:33", "pst": 6.97, "f": 49.16, "l": 50.84}, {"ht": "19:35:34", "pst": 8.64, "f": 49.39, "l": 50.61}, {"ht": "19:37:34", "pst": 9.66, "f": 49.56, "l": 50.44}, {"ht": "19:39:33", "pst": 10.87, "f": 49.59, "l": 50.41}], "traj": {"base": [{"x": 10.87, "f": 49.59, "l": 50.41}, {"x": 15.33, "f": 49.67, "l": 50.33}, {"x": 19.78, "f": 49.72, "l": 50.28}, {"x": 24.24, "f": 49.75, "l": 50.25}, {"x": 28.7, "f": 49.78, "l": 50.22}, {"x": 33.15, "f": 49.79, "l": 50.21}, {"x": 37.61, "f": 49.8, "l": 50.2}, {"x": 42.07, "f": 49.81, "l": 50.19}, {"x": 46.52, "f": 49.82, "l": 50.18}, {"x": 50.98, "f": 49.83, "l": 50.17}, {"x": 55.43, "f": 49.83, "l": 50.17}, {"x": 59.89, "f": 49.84, "l": 50.16}, {"x": 64.35, "f": 49.84, "l": 50.16}, {"x": 68.8, "f": 49.84, "l": 50.16}, {"x": 73.26, "f": 49.85, "l": 50.15}, {"x": 77.72, "f": 49.85, "l": 50.15}, {"x": 82.17, "f": 49.85, "l": 50.15}, {"x": 86.63, "f": 49.85, "l": 50.15}, {"x": 91.09, "f": 49.86, "l": 50.14}, {"x": 95.54, "f": 49.86, "l": 50.14}, {"x": 100.0, "f": 49.86, "l": 50.14}], "mc50": [{"x": 10.87, "f": 49.59, "l": 50.41}, {"x": 15.33, "f": 49.39, "l": 50.61}, {"x": 19.78, "f": 49.29, "l": 50.71}, {"x": 24.24, "f": 49.22, "l": 50.78}, {"x": 28.7, "f": 49.18, "l": 50.82}, {"x": 33.15, "f": 49.14, "l": 50.86}, {"x": 37.61, "f": 49.12, "l": 50.88}, {"x": 42.07, "f": 49.09, "l": 50.91}, {"x": 46.52, "f": 49.08, "l": 50.92}, {"x": 50.98, "f": 49.06, "l": 50.94}, {"x": 55.43, "f": 49.05, "l": 50.95}, {"x": 59.89, "f": 49.04, "l": 50.96}, {"x": 64.35, "f": 49.03, "l": 50.97}, {"x": 68.8, "f": 49.03, "l": 50.97}, {"x": 73.26, "f": 49.02, "l": 50.98}, {"x": 77.72, "f": 49.01, "l": 50.98}, {"x": 82.17, "f": 49.01, "l": 50.99}, {"x": 86.63, "f": 49.01, "l": 50.99}, {"x": 91.09, "f": 49.0, "l": 51.0}, {"x": 95.54, "f": 49.0, "l": 51.0}, {"x": 100.0, "f": 48.99, "l": 51.01}], "lo": [{"x": 10.87, "f": 49.59, "l": 50.41}, {"x": 15.33, "f": 48.25, "l": 49.49}, {"x": 19.78, "f": 47.51, "l": 48.98}, {"x": 24.24, "f": 47.04, "l": 48.66}, {"x": 28.7, "f": 46.72, "l": 48.43}, {"x": 33.15, "f": 46.48, "l": 48.27}, {"x": 37.61, "f": 46.3, "l": 48.15}, {"x": 42.07, "f": 46.16, "l": 48.05}, {"x": 46.52, "f": 46.04, "l": 47.97}, {"x": 50.98, "f": 45.95, "l": 47.9}, {"x": 55.43, "f": 45.86, "l": 47.84}, {"x": 59.89, "f": 45.8, "l": 47.8}, {"x": 64.35, "f": 45.74, "l": 47.76}, {"x": 68.8, "f": 45.69, "l": 47.72}, {"x": 73.26, "f": 45.64, "l": 47.69}, {"x": 77.72, "f": 45.6, "l": 47.66}, {"x": 82.17, "f": 45.56, "l": 47.64}, {"x": 86.63, "f": 45.53, "l": 47.61}, {"x": 91.09, "f": 45.5, "l": 47.59}, {"x": 95.54, "f": 45.48, "l": 47.58}, {"x": 100.0, "f": 45.45, "l": 47.56}], "hi": [{"x": 10.87, "f": 49.59, "l": 50.41}, {"x": 15.33, "f": 50.51, "l": 51.75}, {"x": 19.78, "f": 51.02, "l": 52.49}, {"x": 24.24, "f": 51.34, "l": 52.96}, {"x": 28.7, "f": 51.56, "l": 53.28}, {"x": 33.15, "f": 51.73, "l": 53.52}, {"x": 37.61, "f": 51.85, "l": 53.7}, {"x": 42.07, "f": 51.95, "l": 53.84}, {"x": 46.52, "f": 52.03, "l": 53.96}, {"x": 50.98, "f": 52.1, "l": 54.05}, {"x": 55.43, "f": 52.16, "l": 54.13}, {"x": 59.89, "f": 52.2, "l": 54.2}, {"x": 64.35, "f": 52.24, "l": 54.26}, {"x": 68.8, "f": 52.28, "l": 54.31}, {"x": 73.26, "f": 52.31, "l": 54.36}, {"x": 77.72, "f": 52.34, "l": 54.4}, {"x": 82.17, "f": 52.36, "l": 54.43}, {"x": 86.63, "f": 52.38, "l": 54.47}, {"x": 91.09, "f": 52.4, "l": 54.5}, {"x": 95.54, "f": 52.42, "l": 54.52}, {"x": 100.0, "f": 52.44, "l": 54.55}]}, "premissa": {"f1n": 51.01, "pol_f": 50.75, "desloc": -0.26, "mistura": 30.0}, "polls": [{"n": "PoderData/Aya", "d": "23–24/out", "l": 49, "f": 51}, {"n": "BTG/Nexus", "d": "23–24/out", "l": 49.5, "f": 50.5}, {"n": "AtlasIntel", "d": "18–23/out", "l": 49.2, "f": 50.8}, {"n": "Datafolha", "d": "23–24/out", "l": 49, "f": 51}, {"n": "CNT/MDA", "d": "21–23/out", "l": 49.3, "f": 50.7}, {"n": "Palver", "d": "16–20/out", "l": 49, "f": 51}, {"n": "Gerp", "d": "22–24/out", "l": 48, "f": 52}, {"n": "Futura", "d": "23–24/out", "l": 49.9, "f": 50.1}, {"n": "Quaest", "d": "23–24/out", "l": 49, "f": 51}, {"n": "Vox Brasil", "d": "20–22/out", "l": 50.6, "f": 49.4}]};
+const SG=D.sg||{f:'',l:''},sgn=n=>D.sgn&&D.sgn[n]?` (${D.sgn[n]})`:'';  // siglas do TSE, injetadas pelo build_site.py
+document.querySelectorAll('[data-sg]').forEach(e=>e.textContent=SG[e.dataset.sg]);
+const css=n=>getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const C={f:css('--flavio'),l:css('--lula'),o:css('--outros'),ink:css('--ink'),ink2:css('--ink2'),mut:css('--muted'),line:css('--line'),neu:css('--neutral'),card:css('--card')};
+const fmt=(x,d=1)=>x.toLocaleString('pt-BR',{minimumFractionDigits:d,maximumFractionDigits:d});
+const fmtI=x=>Math.round(x).toLocaleString('pt-BR');
+Chart.defaults.color=C.ink2;Chart.defaults.borderColor=C.line;Chart.defaults.font.family=getComputedStyle(document.body).fontFamily;
+Chart.defaults.plugins.tooltip.backgroundColor=C.card;Chart.defaults.plugins.tooltip.titleColor=C.ink;Chart.defaults.plugins.tooltip.bodyColor=C.ink;
+Chart.defaults.plugins.tooltip.borderColor=C.line;Chart.defaults.plugins.tooltip.borderWidth=1;
+
+const base=D.base0;
+document.getElementById('sub').textContent=`TSE · ${fmt(D.pst,2)}% das seções apuradas · dados de ${D.ht} · painel gerado ${D.gerado}`;
+document.getElementById('tiles').innerHTML=[
+ ['Seções apuradas',fmt(D.pst,2)+'%','Brasil'],
+ [`<span class="sw" style="background:${C.f}"></span>Flávio (${SG.f}) agora`,fmt(D.f,2)+'%',fmtI(D.fv)+' votos'],
+ [`<span class="sw" style="background:${C.l}"></span>Lula (${SG.l}) agora`,fmt(D.l,2)+'%',fmtI(D.lv)+' votos'],
+ [`Projeção Flávio (${SG.f})`,fmt(base.f,1)+'%','projeção base'],
+ [`Projeção Lula (${SG.l})`,fmt(base.l,1)+'%','projeção base'],
+].map(([k,v,d])=>`<div class="tile"><div class="k">${k}</div><div class="v">${v}</div><div class="d">${d}</div></div>`).join('');
+
+const oth=100-D.f-D.l;
+document.getElementById('nowbar').innerHTML=`<div style="width:${D.f}%;background:${C.f}"></div><div style="width:${D.l}%;background:${C.l}"></div><div style="width:${oth}%;background:${C.o}"></div>`;
+document.getElementById('nowleg').innerHTML=`<span><span class="sw" style="background:${C.f}"></span>Flávio (${SG.f}) ${fmt(D.f,2)}%</span><span><span class="sw" style="background:${C.l}"></span>Lula (${SG.l}) ${fmt(D.l,2)}%</span>`;
+
+const mc=D.mc;
+document.getElementById('prob').innerHTML=[
+ [`Flávio (${SG.f}) vence`,mc.p_flavio,C.f],[`Lula (${SG.l}) vence`,mc.p_lula,C.l]
+].map(([k,v,c])=>`<div class="tile"><div class="k"><span class="sw" style="background:${c}"></span>${k}</div><div class="v">${fmt(v,0)}%</div></div>`).join('');
+document.getElementById('mcrange').textContent=`Vantagem final de Flávio (${SG.f}) sobre Lula (${SG.l}): mediana ${fmt(mc.p50)} pt · intervalo 80% de ${fmt(mc.p10)} a ${fmt(mc.p90)} pt.`;
+
+// trajetória (snapshots antigos não têm hist/traj)
+if(!(D.traj&&D.hist))cTraj.closest('.card').style.display='none';
+if(D.traj&&D.hist){
+const T=D.traj,xy=(a,k)=>a.map(p=>({x:p.x??p.pst,y:p[k]}));
+const band=(k,c)=>[{label:'_lo'+k,data:xy(T.lo,k),borderWidth:0,pointRadius:0,fill:false},
+ {label:'_hi'+k,data:xy(T.hi,k),borderWidth:0,pointRadius:0,fill:'-1',backgroundColor:c+'26'}];
+const last=D.hist[D.hist.length-1];
+new Chart(cTraj,{type:'line',data:{datasets:[
+ ...band('f',C.f),...band('l',C.l),
+ {label:`Flávio (${SG.f}) apurado`,data:xy(D.hist,'f'),borderColor:C.f,backgroundColor:C.f,borderWidth:2.5,pointRadius:4,pointBorderColor:C.card,pointBorderWidth:2},
+ {label:`Lula (${SG.l}) apurado`,data:xy(D.hist,'l'),borderColor:C.l,backgroundColor:C.l,borderWidth:2.5,pointRadius:4,pointBorderColor:C.card,pointBorderWidth:2},
+ {label:`Flávio (${SG.f}) projeção mediana`,data:xy(T.mc50,'f'),borderColor:C.f,borderDash:[6,4],borderWidth:2,pointRadius:0,pointHoverRadius:4},
+ {label:`Lula (${SG.l}) projeção mediana`,data:xy(T.mc50,'l'),borderColor:C.l,borderDash:[6,4],borderWidth:2,pointRadius:0,pointHoverRadius:4},
+ {label:`Flávio (${SG.f}) projeção base`,data:xy(T.base,'f'),borderColor:C.f,borderDash:[1,3],borderWidth:1.5,pointRadius:0},
+ {label:`Lula (${SG.l}) projeção base`,data:xy(T.base,'l'),borderColor:C.l,borderDash:[1,3],borderWidth:1.5,pointRadius:0},
+ {label:'50%',data:[{x:0,y:50},{x:100,y:50}],borderColor:C.mut,borderDash:[5,4],borderWidth:1,pointRadius:0}]},
+ options:{maintainAspectRatio:false,parsing:true,interaction:{mode:'nearest',axis:'x',intersect:false},
+  scales:{x:{type:'linear',min:Math.max(0,Math.floor((D.hist[0].pst-5)/5)*5),max:100,title:{display:true,text:'% das seções apuradas'},ticks:{callback:v=>v+'%'}},
+   y:{suggestedMin:40,suggestedMax:60,ticks:{callback:v=>v+'%'}}},
+  plugins:{legend:{display:false},tooltip:{filter:i=>!i.dataset.label.startsWith('_'),callbacks:{title:i=>`${fmt(i[0].parsed.x)}% apurado`,label:c=>`${c.dataset.label}: ${fmt(c.parsed.y,2)}%`}}}},
+ plugins:[{id:'endlbl',afterDatasetsDraw(ch){const ctx=ch.ctx,xs=ch.scales.x,ys=ch.scales.y;ctx.save();ctx.font='600 12px sans-serif';ctx.textAlign='right';
+  const e=T.mc50[T.mc50.length-1];[[e.f,C.f,`Flávio (${SG.f})`],[e.l,C.l,`Lula (${SG.l})`]].forEach(([v,c,n])=>{ctx.fillStyle=C.ink;ctx.fillText(`${n} ${fmt(v)}%`,xs.getPixelForValue(100)-4,ys.getPixelForValue(v)-8)});
+  ctx.fillStyle=C.ink2;ctx.font='11px sans-serif';const nr=last.pst>92;ctx.textAlign=nr?'right':'left';ctx.fillText('agora',xs.getPixelForValue(last.pst)+(nr?-6:6),ch.chartArea.top+12);ctx.restore();
+  ctx.save();ctx.strokeStyle=C.mut;ctx.setLineDash([2,3]);ctx.beginPath();ctx.moveTo(xs.getPixelForValue(last.pst),ch.chartArea.top);ctx.lineTo(xs.getPixelForValue(last.pst),ch.chartArea.bottom);ctx.stroke();ctx.restore();}}]});
+}
+
+// cenários
+new Chart(cScen,{type:'line',data:{labels:D.scen.map(s=>(s.shift>0?'+':'')+fmt(s.shift,1)),datasets:[
+ {label:`Flávio (${SG.f})`,data:D.scen.map(s=>s.f),borderColor:C.f,backgroundColor:C.f,borderWidth:2,pointRadius:0,pointHoverRadius:5},
+ {label:`Lula (${SG.l})`,data:D.scen.map(s=>s.l),borderColor:C.l,backgroundColor:C.l,borderWidth:2,pointRadius:0,pointHoverRadius:5},
+ {label:'50%',data:D.scen.map(()=>50),borderColor:C.mut,borderDash:[5,4],borderWidth:1.5,pointRadius:0}]},
+ options:{maintainAspectRatio:false,interaction:{mode:'index',intersect:false},
+  scales:{x:{title:{display:true,text:`pontos a mais para Lula (${SG.l}) no voto restante (negativo = Flávio (${SG.f}))`},grid:{display:false}},y:{suggestedMin:44,suggestedMax:56,ticks:{callback:v=>v+'%'}}},
+  plugins:{tooltip:{callbacks:{title:i=>`Restante ${i[0].label} pt p/ Lula (${SG.l})`,label:c=>`${c.dataset.label}: ${fmt(c.parsed.y,2)}%`}}}}});
+
+// pesquisas
+const pr=[...D.polls.map(p=>({n:`${p.n} (${p.d})`,m:+(p.f-p.l).toFixed(1),k:'p'})),
+ {n:'TSE agora',m:+(D.f-D.l).toFixed(1),k:'now'},{n:'Projeção (base)',m:+(base.f-base.l).toFixed(1),k:'proj'}];
+new Chart(cPolls,{type:'bar',data:{labels:pr.map(p=>p.n),datasets:[{data:pr.map(p=>p.m),
+ backgroundColor:pr.map(p=>p.m>=0?C.f:C.l),borderRadius:4,borderSkipped:false,
+ borderWidth:pr.map(p=>p.k==='p'?0:2),borderColor:C.ink}]},
+ options:{indexAxis:'y',maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>(c.parsed.x>=0?`Flávio (${SG.f}) +`:`Lula (${SG.l}) +`)+fmt(Math.abs(c.parsed.x))+' pt'}}},
+  scales:{x:{ticks:{callback:v=>(v>0?'+':'')+v}},y:{grid:{display:false},ticks:{color:ctx=>pr[ctx.index]?.k==='p'?C.ink2:C.ink,font:ctx=>({weight:pr[ctx.index]?.k==='p'?'normal':'bold'})}}}}});
+
+// viés: % apurado × % Flávio — título, legenda e eixo calculados a partir da rodada
+const bs=D.states.filter(s=>s.uf!=='ZZ'&&s.pst>0);
+const infl=D.f-base.f;
+const falta=bs.filter(s=>s.te>=2e6&&s.pst<99).sort((a,b)=>a.pst-b.pst).slice(0,3);
+const ai=Math.abs(infl),quem=infl>=0?`Flávio (${SG.f})`:`Lula (${SG.l})`;biasT.textContent=ai>=1?`Por que o número de agora está inflado para ${quem}`:ai>=0.3?`O número de agora ainda está levemente inflado para ${quem}`:'A distorção da ordem de apuração acabou';
+biasC.textContent=`Cada bolha é uma UF (tamanho = eleitorado). Flávio (${SG.f}) tem ${fmt(D.f,2)}% agora e ${fmt(base.f,1)}% projetado: o número de agora está ${fmt(Math.abs(infl))} pt ${infl>=0?'acima':'abaixo'} do final esperado.`+
+ (falta.length?` Grandes UFs que mais faltam: ${falta.map(s=>`${s.uf} (${fmt(s.pst,0)}%)`).join(', ')}.`:'');
+const bxMin=Math.max(0,Math.floor((Math.min(...bs.map(s=>s.pst))-4)/10)*10);
+new Chart(cBias,{type:'bubble',data:{datasets:[{data:bs.map(s=>({x:s.pst,y:s.f,r:Math.max(3.5,Math.sqrt(s.te/1e6)*4.2),uf:s.uf})),
+ backgroundColor:bs.map(s=>(s.f>=s.l?C.f:C.l)+'a6'),borderColor:C.card,borderWidth:1.5,clip:false}]},
+ options:{maintainAspectRatio:false,layout:{padding:{right:14,top:6}},plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>{const r=c.raw;const s=D.states.find(x=>x.uf===r.uf);return `${r.uf}: ${fmt(r.x)}% apurado · Flávio (${SG.f}) ${fmt(s.f)}% × Lula (${SG.l}) ${fmt(s.l)}% · ${fmt(s.te/1e6,1)} mi eleitores`}}}},
+  scales:{x:{title:{display:true,text:'% das seções apuradas'},min:bxMin,max:100,ticks:{callback:v=>v+'%'}},y:{title:{display:true,text:`% Flávio (${SG.f}) (válidos)`},min:20,max:75,ticks:{callback:v=>v+'%'}}}},
+ plugins:[{id:'lbl',afterDatasetsDraw(ch){const ctx=ch.ctx,xs=ch.scales.x,ys=ch.scales.y,a=ch.chartArea;ctx.save();
+  // linha de referência: Flávio projetado no Brasil
+  const yb=ys.getPixelForValue(base.f);ctx.strokeStyle=C.mut;ctx.setLineDash([5,4]);ctx.beginPath();ctx.moveTo(a.left,yb);ctx.lineTo(a.right,yb);ctx.stroke();ctx.setLineDash([]);
+  ctx.font='11px sans-serif';ctx.fillStyle=C.ink2;ctx.textAlign='left';ctx.fillText(`Brasil projetado ${fmt(base.f)}%`,a.left+6,yb-5);
+  // rótulos sem colisão: maiores primeiro; tenta acima, depois abaixo; senão omite (tooltip cobre)
+  const placed=[{x0:a.left,x1:a.left+140,y0:yb-17,y1:yb-2}],hit=b=>placed.some(p=>b.x0<p.x1&&b.x1>p.x0&&b.y0<p.y1&&b.y1>p.y0);
+  ctx.textAlign='center';ctx.fillStyle=C.ink;
+  const els=ch.getDatasetMeta(0).data.map((el,i)=>({el,d:ch.data.datasets[0].data[i]})).sort((p,q)=>q.d.r-p.d.r);
+  for(const {el,d} of els){const w=ctx.measureText(d.uf).width;
+   for(const ty of [el.y-d.r-4,el.y+d.r+12]){const b={x0:el.x-w/2-2,x1:el.x+w/2+2,y0:ty-10,y1:ty+2};
+    if(b.y0>a.top-4&&b.y1<a.bottom&&!hit(b)){placed.push(b);ctx.fillText(d.uf,el.x,ty);break;}}}
+  ctx.restore();}}]});
+
+// estados
+const st=[...D.states].sort((a,b)=>(b.marg+b.rem_net)-(a.marg+a.rem_net));
+new Chart(cStates,{type:'bar',data:{labels:st.map(s=>s.uf==='ZZ'?'Exterior':s.uf),datasets:[
+ {label:'Já apurado',data:st.map(s=>s.marg),backgroundColor:st.map(s=>s.marg>=0?C.f:C.l),borderRadius:4,borderSkipped:false,stack:'s'},
+ {label:'Ainda vem (projetado)',data:st.map(s=>s.rem_net),backgroundColor:st.map(s=>(s.rem_net>=0?C.f:C.l)+'55'),borderColor:st.map(s=>s.rem_net>=0?C.f:C.l),borderWidth:1,borderRadius:4,borderSkipped:false,stack:'s'}]},
+ options:{indexAxis:'y',maintainAspectRatio:false,interaction:{mode:'index',intersect:false},
+  plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>`${c.dataset.label}: ${c.parsed.x>=0?`Flávio (${SG.f}) +`:`Lula (${SG.l}) +`}${fmtI(Math.abs(c.parsed.x))} mil`,
+   afterBody:i=>{const s=st[i[0].dataIndex];return `Apurado: ${fmt(s.pst)}% · Flávio (${SG.f}) ${fmt(s.f)}% × Lula (${SG.l}) ${fmt(s.l)}%`}}}},
+  scales:{x:{stacked:true,ticks:{callback:v=>(v>0?'+':'')+fmtI(v)+' mil'}},y:{stacked:true,grid:{display:false}}}}});
+
+// tabela
+const cols=[['uf','UF'],['pst','% apurado'],['te','Eleitores (mi)'],['f',`Flávio (${SG.f}) %`],['l',`Lula (${SG.l}) %`],['marg','Saldo apurado (mil)'],['rem_net','Saldo a vir (mil)']];
+let sk='te',sd=-1;
+function rt(){const r=[...D.states].sort((a,b)=>(a[sk]>b[sk]?1:-1)*sd);
+ tbl.innerHTML='<tr>'+cols.map(([k,t])=>`<th data-k="${k}">${t}${k===sk?(sd<0?' ↓':' ↑'):''}</th>`).join('')+'</tr>'+
+ r.map(s=>`<tr><td>${s.uf==='ZZ'?'Exterior':s.uf}</td><td>${fmt(s.pst)}</td><td>${fmt(s.te/1e6,2)}</td><td>${fmt(s.f)}</td><td>${fmt(s.l)}</td><td>${(s.marg>0?'+':'')+fmtI(s.marg)}</td><td>${(s.rem_net>0?'+':'')+fmtI(s.rem_net)}</td></tr>`).join('');
+ tbl.querySelectorAll('th').forEach(th=>th.onclick=()=>{const k=th.dataset.k;sd=k===sk?-sd:-1;sk=k;rt()});}
+rt();
+const P=D.premissa;premissa.textContent=`Base de véspera de cada UF: fatia de Flávio (${SG.f}) entre os dois no 1º turno, deslocada em ${P.desloc>0?'+':''}${fmt(P.desloc)} pt — a diferença entre a média das pesquisas (Flávio ${fmt(P.pol_f)}% dos válidos) e o 1º turno só entre os dois (${fmt(P.f1n)}%). UF sem seção apurada entra só pela base; UF com menos de ${fmt(P.mistura,0)}% apurado mistura o % atual com a base, com peso proporcional ao apurado.`+(D.total==='tse'?' Os números de "agora" (seções apuradas e % de cada um) vêm do arquivo Brasil do TSE, que neste momento tem mais seções que a soma dos estados; a projeção usa os arquivos de cada estado, porque calcula estado a estado.':'');
+</script>
+</body>
+</html>
