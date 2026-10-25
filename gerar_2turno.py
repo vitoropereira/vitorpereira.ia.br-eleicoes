@@ -104,11 +104,12 @@ def main():
     scen = [dict(shift=sh, f=round(proj(base, sh / 100)[0], 2), l=round(proj(base, sh / 100)[1], 2)) for sh in shifts]
     s0 = next(s for s in scen if s["shift"] == 0)
 
-    # Monte Carlo — PREMISSA (igual ao 1º turno): viés nacional do voto restante ~ N(+1pt Lula, 3pt) + ruído por UF N(0, 2pt)
+    # Monte Carlo — PREMISSA: viés nacional do voto restante ~ N(0, 3pt) + ruído por UF N(0, 2pt). Até 20:15 de 25/10 era
+    # N(+1pt Lula, 3pt), herdado do 1º turno: com pouca apuração dava Flávio na frente na base e Lula favorito na chance.
     random.seed(42)
     N = 20000; lead = 0; fs = []; ff = []; ll = []
     for _ in range(N):
-        g = random.gauss(0.01, 0.03)
+        g = random.gauss(0, 0.03)
         fv, lv = proj(base, g, [random.gauss(0, 0.02) for _ in base])
         fs.append(fv - lv); ff.append(fv); ll.append(lv); lead += fv > lv
     fs.sort(); ff.sort(); ll.sort()
