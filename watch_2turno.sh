@@ -18,8 +18,7 @@ publicar() {  # $1 = marco, $2 = pasta do snapshot
     git commit -qm "apuração 2º turno: leitura do marco de ${m}%" &&
     git push -q -u origin "$br" &&
     gh pr create -R "$REPO" --head "$br" --title "Apuração 2º turno: marco de ${m}%" \
-      --body "Snapshot da projeção no marco de ${m}% (gerado por watch_2turno.sh). Vira página em /apuracao/2-turno/." >/dev/null &&
-    gh pr merge -R "$REPO" "$br" --squash --delete-branch >/dev/null)
+      --body "Snapshot da projeção no marco de ${m}% (gerado por watch_2turno.sh). Vira página em /apuracao/2-turno/.")  # o merge fica com o Vitor (auto mode não mergeia sem revisão)
   local ok=$?
   git worktree remove --force "$wt"; git branch -D "$br" >/dev/null 2>&1
   return $ok
