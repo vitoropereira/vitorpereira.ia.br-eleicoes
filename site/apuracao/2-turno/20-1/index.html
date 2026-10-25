@@ -169,7 +169,7 @@ details summary{cursor:pointer;color:var(--ink2);font-size:13.5px}
 
   <div class="card">
     <h2>Probabilidades — simulação Monte Carlo (20 mil rodadas)</h2>
-    <p class="cap">Premissa: o voto que falta em cada UF segue o % já apurado da UF (UF com pouca apuração mistura esse % com a base de véspera, ver Notas), com viés nacional ~N(+1 pt Lula (<span data-sg="l">PT</span>), 3 pt) e ruído por estado ~N(0, 2 pt). É modelo, não pesquisa.</p>
+    <p class="cap">Premissa: o voto que falta em cada UF segue o % já apurado da UF (UF com pouca apuração mistura esse % com a base de véspera, ver Notas), com viés nacional ~N(0, 3 pt), sem lado favorecido e ruído por estado ~N(0, 2 pt). É modelo, não pesquisa.</p>
     <div class="prob" id="prob" style="grid-template-columns:repeat(2,1fr)"><div class="tile"><div class="k"><span class="sw" style="background:#2F5BD3"></span>Flávio (PL) vence</div><div class="v">35%</div></div><div class="tile"><div class="k"><span class="sw" style="background:#D1453B"></span>Lula (PT) vence</div><div class="v">65%</div></div></div>
     <p class="cap" id="mcrange" style="margin:12px 0 0">Vantagem final de Flávio (PL) sobre Lula (PT): mediana -1,9 pt · intervalo 80% de -8,3 a 4,3 pt.</p>
   </div>
