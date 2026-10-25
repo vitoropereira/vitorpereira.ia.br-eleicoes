@@ -5,7 +5,8 @@ idempotência (PR já mergeado com o título do dia: sai com 0 sem fazer nada; g
 branch rastro/lote-AAAA-MM-DD a partir de origin/main -> regenera fila.json -> move os próximos `lote_diario_tamanho` sq
 (que não estão em publicados.json) para publicados.json -> build_site.py -> commit só de publicados.json, fila.json e
 site/ (o build também muda sitemap.xml e llms.txt) -> python3 -m pytest -q (sobre o conteúdo exato do lote) -> push ->
-gh pr create -> gh pr merge --squash se o pytest passou, ou label `bloqueado` (sem merge) se falhou. O merge é a publicação:
+gh pr create -> gh pr merge --squash se o pytest passou, ou label `bloqueado` (sem merge) se falhou (com RODAR_TESTES = False,
+desde 25/10, o pytest não roda e o merge é direto). O merge é a publicação:
 é automático, mas só com os testes (LGPD, redação, isolamento) verdes. Sem rede além de `git`, `gh` e do build. `--dry-run` imprime o lote e os comandos sem gravar nada.
 
 Uso: python3 rastro/lote.py [--dry-run | --conferir]  (--conferir: sai com 1 se o dia terminou sem lote mergeado)
@@ -27,6 +28,9 @@ from rastro import fila as fila_mod  # noqa: E402
 # senão o PR sai sem as páginas novas no sitemap e a árvore fica suja no dia seguinte.
 CAMINHOS_GIT = ["rastro/publicados.json", "rastro/fila.json", "site/"]
 TESTES = ["python3", "-m", "pytest", "-q"]
+# 25/10/2026, decisão do Vitor na noite da apuração: o lote publica sem rodar o pytest (~5 min a menos por publicação).
+# O caminho com testes continua aqui e nos testes; para religar a trava (LGPD, redação, isolamento), volte para True.
+RODAR_TESTES = False
 ROTULO_BLOQUEADO = "bloqueado"
 
 
@@ -51,9 +55,10 @@ def aplicar(publicados, novos):
 def corpo_pr(novos, eleitos, dia):
     lista = eleitos["eleitos"] if isinstance(eleitos, dict) else eleitos
     por_sq = {str(e["sq"]): e for e in lista}
-    linhas = [f"Lote diário do Rastro de {dia}: {len(novos)} eleitos.",
-              "A publicação é automática, condicionada aos testes: o merge só acontece se `python3 -m pytest -q` passar; "
-              "se falhar, o PR fica aberto com o label `bloqueado` e nada é publicado.", ""]
+    regra = ("A publicação é automática, condicionada aos testes: o merge só acontece se `python3 -m pytest -q` passar; "
+             "se falhar, o PR fica aberto com o label `bloqueado` e nada é publicado." if RODAR_TESTES else
+             "A publicação é automática e roda sem os testes (RODAR_TESTES = False em rastro/lote.py).")
+    linhas = [f"Lote diário do Rastro de {dia}: {len(novos)} eleitos.", regra, ""]
     for sq in novos:
         e = por_sq.get(sq, {})
         linhas.append(f"- {sq}: {e.get('nome_urna', '?')} ({e.get('cargo', '?')}, {e.get('uf', '?')})")
@@ -193,10 +198,10 @@ def main(hoje=None, raiz=AQUI.parent, executar=subprocess.run, dry_run=False, ev
     if dry_run:
         print(f"lote (dry-run): {len(novos)} sq: {', '.join(novos)}")
         print(f"  $ git fetch origin main && git checkout -b {branch} origin/main")
-        for c in depois + [TESTES, publicar[0]]:
+        for c in depois + ([TESTES] if RODAR_TESTES else []) + [publicar[0]]:
             print("  $ " + " ".join(c))
         print(f"  $ gh pr create --title '{titulo}'")
-        print(f"  $ {' '.join(merge)}  # só se o pytest passar; senão: {' '.join(bloquear)}")
+        print(f"  $ {' '.join(merge)}" + (f"  # só se o pytest passar; senão: {' '.join(bloquear)}" if RODAR_TESTES else ""))
         return 0
 
     if fila_mod.main(dados, fila_arq) != 0:
@@ -210,8 +215,8 @@ def main(hoje=None, raiz=AQUI.parent, executar=subprocess.run, dry_run=False, ev
             print(f"lote: falhou: {' '.join(c[:4])}\n{(r.stderr or '').strip()}")
             desfazer()
             return 1
-    testes = rodar(TESTES)
-    aprovado = testes.returncode == 0
+    testes = rodar(TESTES) if RODAR_TESTES else None
+    aprovado = testes is None or testes.returncode == 0
     if not aprovado:
         print(f"lote: testes falharam; o PR sai com o label {ROTULO_BLOQUEADO}, sem merge.\n{(testes.stdout or '')[-2000:]}")
     for c in publicar:
@@ -229,7 +234,7 @@ def main(hoje=None, raiz=AQUI.parent, executar=subprocess.run, dry_run=False, ev
         return 1
     if not aprovado:
         return 1
-    print(f"lote: {titulo} publicado (testes verdes, merge automático).")
+    print(f"lote: {titulo} publicado ({'testes verdes' if RODAR_TESTES else 'sem testes'}, merge automático).")
     return 0
 
 
