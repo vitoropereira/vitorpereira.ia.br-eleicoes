@@ -142,6 +142,17 @@ class TestLote(unittest.TestCase):
         self.assertEqual(cpfs(corpo), [])
         self.assertEqual(cpfs((self.raiz / "rastro" / "fila.json").read_text(encoding="utf-8")), [])
 
+    def test_sem_testes_mergeia_sem_rodar_o_pytest(self):
+        """RODAR_TESTES = False (25/10): publica direto, sem pytest; o corpo do PR diz isso."""
+        ex = Falso(pytest_rc=1)  # mesmo que o pytest fosse falhar, ele não roda
+        with mock.patch.object(lote, "RODAR_TESTES", False):
+            self.assertEqual(lote.main(hoje=date(2026, 10, 14), raiz=self.raiz, executar=ex), 0)
+        self.assertNotIn(["python3", "-m", "pytest", "-q"], ex.cmds)
+        self.assertEqual(ex.cmds[-1], ["gh", "pr", "merge", "rastro/lote-2026-10-14", "--squash", "--delete-branch"])
+        pr = next(c for c in ex.cmds if c[:3] == ["gh", "pr", "create"])
+        self.assertIn("sem os testes", pr[pr.index("--body") + 1])
+
+    @mock.patch.object(lote, "RODAR_TESTES", True)
     def test_funciona_testes_passam_e_mergeia(self):
         ex = Falso()
         self.assertEqual(lote.main(hoje=date(2026, 10, 14), raiz=self.raiz, executar=ex), 0)
@@ -160,6 +171,7 @@ class TestLote(unittest.TestCase):
         self.assertIn("automática", corpo)
         self.assertIn("testes", corpo)
 
+    @mock.patch.object(lote, "RODAR_TESTES", True)
     def test_resiste_teste_de_lgpd_falha_e_nao_mergeia(self):
         ex = Falso(pytest_rc=1)
         rc = lote.main(hoje=date(2026, 10, 14), raiz=self.raiz, executar=ex)
