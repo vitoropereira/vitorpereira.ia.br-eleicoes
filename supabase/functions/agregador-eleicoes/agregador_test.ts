@@ -3,7 +3,15 @@ import { avancar, criarTseFake, eleC, fixture, StorageFake } from "./_fakes.ts";
 import { executar, normalizarConcorrencia } from "./executar.ts";
 import { gerarEventos, mesclarFeed } from "./feed.ts";
 import { gravarAtomico } from "./gravar.ts";
-import { eleitos, extrairCandidatos, linhaDe, montarAgora, nomeExibicao, validarAgora } from "./montar.ts";
+import {
+  eleitos,
+  extrairCandidatos,
+  linhaDe,
+  montarAgora,
+  nomeExibicao,
+  usarNacional,
+  validarAgora,
+} from "./montar.ts";
 import { criarArmazenamentoSupabase } from "./gravar.ts";
 import { tratar } from "./index.ts";
 import { acharEleicaoFederal2T, descobrirEleicao, LimiteTse } from "./tse.ts";
@@ -692,4 +700,120 @@ Deno.test("concorrência pela variável de ambiente: vazia/inválida = padrão 1
   assertEquals(normalizarConcorrencia(" 8 "), 8);
   assertEquals(normalizarConcorrencia("0"), 1);
   assertEquals(normalizarConcorrencia(12), 12);
+});
+
+// ---------------------------------------------------------------- total do país: arquivo Brasil × soma das UFs
+
+/** Arquivo de UF com só `st` seções totalizadas (o resto igual): simula UF atrasada em relação ao Brasil. */
+function comSecoes(j: any, st: number): any {
+  const c = structuredClone(j);
+  c.s.st = String(st);
+  c.s.pst = (Math.round((st / Number(c.s.ts)) * 10000) / 100).toFixed(2).replace(".", ",");
+  return c;
+}
+/** Arquivo Brasil: votos do PR + `delta` para o 13, com `st` seções de `ts` e a hora `hg`. */
+function brasil(st: number, ts: number, delta: number, idg: number, hg = "17:06:27"): any {
+  const c = avancar(fixture("uf-pr"), delta, idg);
+  c.s.st = String(st);
+  c.s.ts = String(ts);
+  c.s.pst = (Math.round((st / ts) * 10000) / 100).toFixed(2).replace(".", ",");
+  c.hg = hg;
+  return c;
+}
+const TS_FAKE = 6969 + 27142 + 1351; // seções de DF + PR + ZZ nos fixtures
+
+async function rodadaAtrasada(brSt: number) {
+  const st = new StorageFake();
+  const tse = criarTseFake(ELE);
+  for (const [u, n] of [["df", 10], ["pr", 20], ["zz", 5]] as const) {
+    tse.arquivos.set(p(u), comSecoes(fixture(`uf-${u}`), n));
+  }
+  tse.arquivos.set(p("br"), brasil(brSt, TS_FAKE, 1000, Number(fixture("uf-pr").idg) + 1));
+  const r = await executar({ tse, st, agora: relogio().agora });
+  return { st, tse, r };
+}
+
+Deno.test("total: Brasil à frente da soma das UFs -> br e pst vêm do arquivo Brasil; UFs e municípios não mudam", async () => {
+  const { st, r } = await rodadaAtrasada(400);
+  assertEquals(r.status, "gravado");
+  const a = st.json("agora.json");
+  assertEquals(validarAgora(a), []);
+  assertEquals(a.total, "tse");
+  assertEquals(a.pst, Math.round((400 / TS_FAKE) * 10000) / 100);
+  const c = extrairCandidatos(fixture("uf-pr"));
+  assertEquals(a.br, linhaDe(avancar(fixture("uf-pr"), 1000, 0), c)); // os votos do arquivo Brasil
+  assertEquals(a.uf.PR, linhaDe(fixture("uf-pr"), c)); // a UF segue o arquivo dela
+  assertEquals(a.t, "17:06"); // hora do Brasil, mais nova que a das UFs (12:51)
+});
+
+Deno.test("total: soma das UFs à frente do Brasil (Brasil congelado, como em 04/10) -> vale a soma", async () => {
+  const { st } = await rodadaAtrasada(30); // UFs somam 35 seções
+  const a = st.json("agora.json");
+  assertEquals(a.total, "uf");
+  assertEquals(a.br[2], Object.values<any>(a.uf).reduce((s, l) => s + l[2], 0));
+  assertEquals(a.pst, Math.round((35 / TS_FAKE) * 10000) / 100);
+});
+
+Deno.test("total: sem arquivo Brasil (404) -> soma das UFs, como antes", async () => {
+  const { st } = await rodada1();
+  assertEquals(st.json("agora.json").total, "uf");
+});
+
+Deno.test("total: Brasil anda sem nenhuma UF mudar -> republica com o novo total (mesmo idg)", async () => {
+  const { st, tse } = await rodadaAtrasada(400);
+  const antes = st.json("agora.json");
+  tse.arquivos.set(p("br"), brasil(900, TS_FAKE, 5000, Number(fixture("uf-pr").idg) + 2, "17:20:00"));
+  tse.chamadas.length = 0;
+  const r = await executar({ tse, st, agora: relogio().agora });
+  assertEquals(r.status, "gravado");
+  const a = st.json("agora.json");
+  assertEquals(a.pst, Math.round((900 / TS_FAKE) * 10000) / 100);
+  assertEquals(
+    a.br[5][extrairCandidatos(fixture("uf-pr")).findIndex((c) => c.n === "13")],
+    antes.br[5][extrairCandidatos(fixture("uf-pr")).findIndex((c) => c.n === "13")] + 4000,
+  );
+  assertEquals(a.idg, antes.idg);
+  assertEquals(a.t, "17:20");
+  assertEquals(tse.chamadas.filter((c) => /\w\d+-c0001/.test(c)), []); // nenhum município rebuscado
+});
+
+Deno.test("total: Brasil igual ao publicado -> sem-mudanca, não regrava", async () => {
+  const { st, tse } = await rodadaAtrasada(400);
+  const n = st.escritas.filter((e) => e === "agora.json").length;
+  const r = await executar({ tse, st, agora: relogio().agora });
+  assertEquals(r.status, "sem-mudanca");
+  assertEquals(st.escritas.filter((e) => e === "agora.json").length, n);
+});
+
+Deno.test("total: UFs passam o Brasil (que parou) -> volta para a soma", async () => {
+  const { st, tse } = await rodadaAtrasada(400);
+  const idg = Number(fixture("uf-pr").idg) + 10;
+  tse.arquivos.set(p("pr"), comSecoes(avancar(fixture("uf-pr"), 0, idg), 27142));
+  const r = await executar({ tse, st, agora: relogio().agora });
+  assertEquals(r.status, "gravado");
+  const a = st.json("agora.json");
+  assertEquals(a.total, "uf");
+  assertEquals(a.br[2], Object.values<any>(a.uf).reduce((s, l) => s + l[2], 0));
+});
+
+Deno.test("total: erro ao ler o Brasil não derruba a rodada (segue com a soma)", async () => {
+  const st = new StorageFake();
+  const tse = criarTseFake(ELE);
+  const buscar = tse.buscar.bind(tse);
+  tse.buscar = (c, e) => (c.includes("/br/") ? Promise.reject(new Error("timeout")) : buscar(c, e));
+  const r = await executar({ tse, st, agora: relogio().agora });
+  assertEquals(r.status, "gravado");
+  assertEquals(st.json("agora.json").total, "uf");
+});
+
+Deno.test("montar: usarNacional só com st do Brasil > soma, ts > 0 e st <= ts", () => {
+  const n = (st: number, ts: number) => ({
+    linha: [0, 0, 0, 0, 0, [0, 0]] as any,
+    resumo: { idg: "1", pst: 0, st, ts, dg: "", hg: "" },
+  });
+  assertEquals(usarNacional(n(10, 100), 5), true);
+  assertEquals(usarNacional(n(5, 100), 5), false);
+  assertEquals(usarNacional(n(10, 0), 5), false);
+  assertEquals(usarNacional(n(200, 100), 5), false);
+  assertEquals(usarNacional(null, 5), false);
 });

@@ -26,6 +26,8 @@ export interface Agora {
   pend: string[]; // UFs cujo dado nesta publicação está atrás do TSE (a UF mudou e ainda não foi relida)
   /** número do candidato que o TSE marcou como eleito (`e: "s"` + `st` "Eleito"); ausente enquanto não houver */
   eleito?: string;
+  /** de onde vêm `br` e `pst`: "tse" = arquivo Brasil do TSE (o número do site do TSE); "uf" = soma das UFs */
+  total?: "tse" | "uf";
 }
 
 export interface ResumoArquivo {
@@ -146,6 +148,17 @@ export interface Entrada {
   eleito?: string | null;
   /** metadados por UF (inclui ZZ) que compõem o país */
   meta: Record<string, ResumoArquivo>;
+  /** arquivo Brasil do TSE (`br-c0001-…-u.json`), se lido nesta rodada */
+  nacional?: { linha: Linha; resumo: ResumoArquivo } | null;
+}
+
+/**
+ * O total do país vem do arquivo Brasil do TSE quando ele tem mais seções que a soma das UFs: é o número que o site do
+ * TSE mostra (25/10: Brasil com 1.225 seções, UFs somando 214). Quando a soma está à frente, vale a soma: em 04/10 o
+ * arquivo Brasil congelou às 19:14 enquanto as UFs seguiram.
+ */
+export function usarNacional(n: Entrada["nacional"], stUfs: number): boolean {
+  return !!n && n.resumo.ts > 0 && n.resumo.st > stUfs && n.resumo.st <= n.resumo.ts;
 }
 
 /** Monta o `agora.json`. Lança se não houver nenhuma UF (nada consistente para publicar). */
@@ -167,17 +180,24 @@ export function montarAgora(e: Entrada): Agora {
       ref = m;
     }
   }
-  const pst = ts > 0 ? Math.round((st / ts) * 10000) / 100 : 0;
+  const nac = usarNacional(e.nacional, st) ? e.nacional! : null;
+  const pst = nac
+    ? Math.round((nac.resumo.st / nac.resumo.ts) * 10000) / 100
+    : ts > 0
+    ? Math.round((st / ts) * 10000) / 100
+    : 0;
+  // hora: a do arquivo mais novo entre a UF de referência e o Brasil (quando o Brasil é usado)
+  const hg = nac && nac.resumo.hg > (ref?.hg ?? "") ? nac.resumo.hg : ref?.hg ?? "";
   const ordenar = <T>(o: Record<string, T>) => Object.fromEntries(Object.keys(o).sort().map((k) => [k, o[k]]));
   return {
-    t: (ref?.hg ?? "").slice(0, 5),
+    t: hg.slice(0, 5),
     dg: ref?.dg ?? "",
     idg: idg.toString(),
     pst,
     ele: e.ele,
     cargo: "presidente",
     cand: e.cand,
-    br: somarLinhas(ufs.map((u) => e.uf[u]), e.cand.length),
+    br: nac ? nac.linha : somarLinhas(ufs.map((u) => e.uf[u]), e.cand.length),
     uf: ordenar(e.uf),
     mu: ordenar(e.mu),
     ex: ordenar(e.ex),
@@ -185,6 +205,7 @@ export function montarAgora(e: Entrada): Agora {
     pm: ordenar(e.pm),
     pend: [...(e.pend ?? [])].filter((u) => u in e.uf).sort(),
     ...(e.eleito && e.cand.some((c) => c.n === e.eleito) ? { eleito: e.eleito } : {}),
+    total: nac ? "tse" : "uf",
   };
 }
 
