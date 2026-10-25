@@ -8,6 +8,25 @@ MARCOS="${MARCOS:-10 25 50 75 90 99}"
 REPO=vitoropereira/vitorpereira.ia.br-eleicoes
 touch .marcos_feitos_2turno
 
+# projeção ao vivo: a cada ciclo, projecao_vivo.json → bucket `vivo` (servido em /vivo/projecao.json, lido pela home).
+# Chave de serviço pedida à Management API com o SUPABASE_TOKEN do .env deste projeto; fica só na memória do processo.
+ENV_ARQ="${ELEICOES_ENV:-.env}"
+CHAVE=""
+if [ -f "$ENV_ARQ" ]; then
+  REF=$(sed -n 's/^SUPABASE_PROJECT_REF=//p' "$ENV_ARQ" | tr -d '"\r')
+  TOKEN=$(sed -n 's/^SUPABASE_TOKEN=//p' "$ENV_ARQ" | tr -d '"\r')
+  CHAVE=$(curl -sS -H "Authorization: Bearer $TOKEN" "https://api.supabase.com/v1/projects/$REF/api-keys?reveal=true" |
+    python3 -c 'import json,sys; print(next((k["api_key"] for k in json.load(sys.stdin) if k.get("name")=="service_role"),""))' 2>/dev/null)
+fi
+[ -n "$CHAVE" ] || echo "$(date +%H:%M) AVISO: sem chave do Supabase; a projeção ao vivo não será enviada"
+enviar_projecao() {
+  [ -n "$CHAVE" ] && [ -f projecao_vivo.json ] || return 0
+  curl -sS -o /dev/null -w '%{http_code}' -X POST "https://$REF.supabase.co/storage/v1/object/vivo/projecao.json" \
+    -H "Authorization: Bearer $CHAVE" -H "apikey: $CHAVE" -H "x-upsert: true" -H "cache-control: max-age=15" \
+    -H "content-type: application/json" --data-binary @projecao_vivo.json | grep -q '^200$' ||
+    echo "$(date +%H:%M) ERRO ao enviar projecao.json"
+}
+
 publicar() {  # $1 = marco, $2 = pasta do snapshot
   local m=$1 snap=$2 wt br
   br="apuracao-2turno-${m}pct"
@@ -31,6 +50,7 @@ while true; do
     sleep 60; continue
   fi
   fails=0
+  enviar_projecao
   pst=$(echo "$out" | sed -n 's/.*apurado \([0-9.]*\)%.*/\1/p')
   # marcos cruzados e ainda não publicados: uma publicação só (rotulada pelo maior), todos marcados juntos
   pend=0; cruz=""

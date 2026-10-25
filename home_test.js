@@ -1,5 +1,5 @@
 // deno test home_test.js  — fases da home do 2º turno (issue 205). Funções puras: sem DOM, sem rede.
-import { ancoraAntiga, faltam, fase, INICIO_APURACAO, placar } from "./home.js";
+import { ancoraAntiga, faltam, fase, INICIO_APURACAO, placar, textoProjecao } from "./home.js";
 const assertEquals = (a, b) => { if (JSON.stringify(a) !== JSON.stringify(b)) throw new Error(`${JSON.stringify(a)} != ${JSON.stringify(b)}`); };
 
 const BRT = (d, h, m = 0) => Date.UTC(2026, 9, d, h + 3, m); // 25/10 17:00 em Brasília = 20:00 UTC
@@ -68,4 +68,13 @@ Deno.test("âncora desconhecida ou vazia não redireciona", () => {
   assertEquals(ancoraAntiga("#"), null);
   assertEquals(ancoraAntiga(""), null);
   assertEquals(ancoraAntiga("#vespera"), null); // âncora da própria home
+});
+
+Deno.test("projeção ao vivo: texto com % final, chance e hora; arquivo inválido = vazio", () => {
+  const pj = { t: "19:20", pst: 2.2, f: 50.27, l: 49.73, pf: 40.7, pl: 59.3, nf: "Flávio Bolsonaro", nl: "Lula", sf: "PL", sl: "PT" };
+  assertEquals(textoProjecao(pj), "Projeção para o fim da apuração: Flávio Bolsonaro (PL) 50,3% × Lula (PT) 49,7% · " +
+    "chance de vencer 41% × 59% · calculada às 19:20. É modelo, não resultado.");
+  assertEquals(textoProjecao(null), "");
+  assertEquals(textoProjecao({ ...pj, f: "50" }), "");
+  assertEquals(textoProjecao({ ...pj, t: "" }), "");
 });

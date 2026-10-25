@@ -154,6 +154,11 @@ def main():
     tpl = (R / "template_2turno.html").read_text()
     html = brand.aplicar(tpl.replace("/*__DATA__*/null", json.dumps(data, ensure_ascii=False)))
     (R / "painel_2turno.html").write_text(html)
+    # resumo para a linha "Projeção…" da home (/vivo/projecao.json, enviado pelo watch_2turno.sh a cada ciclo)
+    nomes = {F: "Flávio Bolsonaro", L: "Lula"}
+    (R / "projecao_vivo.json").write_text(json.dumps(dict(
+        t=datetime.now().strftime("%H:%M"), pst=nat["pst"], f=s0["f"], l=s0["l"], pf=mc["p_flavio"], pl=mc["p_lula"],
+        nf=nomes[F], nl=nomes[L], sf=data["sg"]["f"], sl=data["sg"]["l"]), ensure_ascii=False, separators=(",", ":")))
     if "--snapshot" not in sys.argv:
         print(f"ok → painel_2turno.html  | apurado {nat['pst']}%  Flávio {data['f']}  Lula {data['l']}  | base {s0}  | MC {mc}")
         return

@@ -1080,6 +1080,7 @@ def home_turno2(style):
 <h2>Apuração ao vivo</h2>
 <div class="placar" data-placar></div>
 <p class="note" data-apurado></p>
+<p class="note" data-projecao hidden></p>
 <a class="botao" href="/ao-vivo/">Ver o mapa ao vivo</a>
 </section>
 <section data-fase="resultado" hidden>
