@@ -340,3 +340,12 @@ export function exteriorCidades(meta, res, lista, titulador = (s) => s) {
   const itens = todas.filter((x) => x.r?.lider).sort((a, b) => b.r.validos - a.r.validos);
   return { itens, semVoto: todas.length - itens.length };
 }
+
+// ---------------- gráfico "Ao longo da apuração"
+/** Leituras com menos de 1% das seções (0,04%, 0,25%… em 25/10) esticam o eixo de 32% a 68% e achatam o resto da
+ *  noite: ficam fora do gráfico, desde que sobrem pelo menos 2 pontos. */
+export const PST_MIN_GRAFICO = 1;
+export function serieVisivel(serie) {
+  const s = serie.filter((p) => p.pst >= PST_MIN_GRAFICO);
+  return s.length >= 2 ? s : serie;
+}
