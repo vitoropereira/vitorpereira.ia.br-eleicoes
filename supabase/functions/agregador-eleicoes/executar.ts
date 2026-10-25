@@ -11,6 +11,7 @@ import {
   montarAgora,
   type ResumoArquivo,
   resumoArquivo,
+  usarNacional,
   validarAgora,
 } from "./montar.ts";
 import {
@@ -237,6 +238,17 @@ export async function executar(deps: Deps): Promise<Resultado> {
         }
       })
     ));
+    // 5b) arquivo Brasil do TSE, sem ETag (um GET por rodada). Erro ou 404 = o total segue sendo a soma das UFs.
+    let nacionalJson: any = null;
+    if (!limitado) {
+      try {
+        const r = await tse.buscar(caminhoUf(ele, "br"));
+        if (r.status === 200) nacionalJson = r.json;
+      } catch (e) {
+        if (e instanceof LimiteTse) limitado = true;
+        log(`Brasil: erro ${e}`);
+      }
+    }
     const novos: Record<string, { json: any; resumo: ResumoArquivo; etag: string | null }> = {};
     let cand: Cand[] = prev?.cand ?? [];
     let frescos: Cand[] | null = null; // candidatos do primeiro arquivo novo
@@ -345,9 +357,20 @@ export async function executar(deps: Deps): Promise<Resultado> {
     }
 
     const faltando = ufs.filter((u) => !(u in uf));
+    // total do país: arquivo Brasil quando ele está à frente da soma das UFs (ver usarNacional)
+    const nacional = nacionalJson && candFinal.length > 0
+      ? { linha: linhaDe(nacionalJson, candFinal), resumo: resumoArquivo(nacionalJson) }
+      : null;
+    const stUfs = Object.keys(uf).reduce((s, u) => s + (estado.uf[u]?.st ?? 0), 0);
+    const pstNacional = nacional && usarNacional(nacional, stUfs)
+      ? Math.round((nacional.resumo.st / nacional.resumo.ts) * 10000) / 100
+      : null;
+    // o total publicado ficou para trás: o Brasil andou (ou deixou de estar à frente) sem nenhuma UF mudar
+    const nacionalMudou = !!publicado &&
+      (pstNacional !== null ? publicado.total !== "tse" || publicado.pst !== pstNacional : publicado.total === "tse");
     // a base já estava completa e mais nova que o último publicado (ex.: rodada anterior caiu antes de publicar)
     const republicar = confirmadas.length === 0 && !!prev && faltando.length === 0 &&
-      big(prev.idg) > big(estado.ultimoIdg);
+      (big(prev.idg) > big(estado.ultimoIdg) || nacionalMudou);
     if (confirmadas.length === 0 && !republicar) {
       // nada novo para publicar, mas se o conjunto de UFs atrasadas mudou, o agora.json publicado passa a dizer isso
       // (mesmos números e mesmo idg; o HUD mostra "UFs atualizando" e a hora `t` da última leitura)
@@ -373,7 +396,19 @@ export async function executar(deps: Deps): Promise<Resultado> {
     for (const u of Object.keys(uf)) if (estado.uf[u]) meta[u] = estado.uf[u];
     // resultado oficial: só quando o TSE marca (nunca deduzido de %); depois de marcado, segue nas próximas publicações
     const eleito = eleitoNovo?.n ?? estado.eleito;
-    const agora = montarAgora({ ele, cand: candFinal, uf, mu, ex, pu, pm, meta, pend: estado.pendentes, eleito });
+    const agora = montarAgora({
+      ele,
+      cand: candFinal,
+      uf,
+      mu,
+      ex,
+      pu,
+      pm,
+      meta,
+      pend: estado.pendentes,
+      eleito,
+      nacional,
+    });
     if (!/^\d\d:\d\d$/.test(agora.t)) agora.t = hhmmBrasilia(deps.agora());
     const erros = validarAgora(agora);
     if (erros.length > 0) throw new Error(`agora.json inválido: ${erros.slice(0, 3).join("; ")}`);
