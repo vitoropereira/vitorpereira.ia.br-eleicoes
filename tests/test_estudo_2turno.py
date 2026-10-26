@@ -35,13 +35,24 @@ class Pagina(unittest.TestCase):
     html = B.pagina_estudo2t("<style></style>", EST)
 
     def test_secoes(self):
-        for h in ["A conta que fecha", "Onde a diferença mudou", "Para onde foram os eleitores de cada um (estimativa)",
+        for h in ["A conta que fecha", "Onde a diferença mudou", "Onde houve mais branco e nulo, Lula cresceu mais",
                   "Abstenção, brancos e nulos desde 2002", "Em breve: quantos votaram depois das 17h"]:
             self.assertIn(f"<h2>{h}</h2>", self.html)
 
-    def test_estimativa_avisa_que_nao_e_fato(self):
-        self.assertIn("é um número possível, não um fato", self.html)
-        self.assertNotIn("faixa", re.sub(r"<details>.*?</details>", "", self.html, flags=re.S))
+    def test_padrao_avisa_que_nao_prova_e_nao_mostra_a_estimativa_como_resultado(self):
+        visivel = re.sub(r"<details>.*?</details>", "", self.html, flags=re.S)
+        self.assertIn("Não prova que foram os mesmos eleitores", visivel)
+        self.assertNotIn("No 1º turno votou em", self.html)  # a tabela de transferência saiu da página
+        self.assertIn("<svg", visivel)
+
+    def test_faixas_de_brancos_e_nulos(self):
+        fx = EST["faixas_bn"]
+        self.assertEqual(len(fx), 10)
+        self.assertEqual(sum(f["municipios"] for f in fx), EST["gerado_com"]["municipios"])
+        self.assertEqual([f["bn"] for f in fx], sorted(f["bn"] for f in fx))  # do grupo com menos ao com mais
+        t1, t2 = EST["fatos"]["t1"], EST["fatos"]["t2"]
+        ganho = sum(f["lula"] * f["eleitores"] / 100 for f in fx)
+        self.assertLess(abs(ganho - (t2["L"] - t1["L"])) / (t2["L"] - t1["L"]), 0.02)  # sem o exterior
 
     def test_serie_tem_2002_a_2026(self):
         anos = sorted({s["ano"] for s in EST["serie"]})

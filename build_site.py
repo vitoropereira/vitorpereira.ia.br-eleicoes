@@ -1064,14 +1064,29 @@ def pagina_estudo2t(style, e):
     todas = all(u["virada"] > 0 for u in e["ufs"])
     tr = {x["de"]: {c["para"]: c for c in x["para"]} for x in e["transferencia"]}
 
-    def cel(de, para):
-        c = tr[de][para]
-        return f"<td>{fmt(c['pct'], 0)}%<br><small>{mi(c['votos'])}</small></td>"
-    cols = ["Lula", "Flávio", "Branco ou nulo", "Não votou"]
-    transf = "".join(f"<tr><td>{de}<br><small>{mi(tr[de]['Lula']['votos'] + tr[de]['Flávio']['votos'] + tr[de]['Branco ou nulo']['votos'] + tr[de]['Não votou']['votos'])}</small></td>"
-                     + "".join(cel(de, c) for c in cols) + "</tr>"
-                     for de in ["Outros candidatos", "Branco ou nulo", "Não votou", "Flávio", "Lula"])
-    bn_l = tr["Branco ou nulo"]["Lula"]
+    fx = e["faixas_bn"]
+    W, H, L, B, T = 760, 260, 36, 46, 14
+    top = max(max(x["lula"], x["flavio"]) for x in fx)
+    top = (int(top) // 2 + 1) * 2
+    bw = (W - L - 8) / len(fx)
+    y = lambda v: T + (1 - v / top) * (H - T - B)
+    barras = ""
+    for i, x in enumerate(fx):
+        x0 = L + i * bw
+        for k, (v, cor) in enumerate(((x["lula"], "var(--lula)"), (x["flavio"], "var(--flavio)"))):
+            bx = x0 + bw * (0.14 + 0.36 * k)
+            barras += (f'<rect x="{bx:.1f}" y="{y(max(v, 0)):.1f}" width="{bw * 0.34:.1f}" height="{abs(y(0) - y(v)):.1f}" fill="{cor}" />'
+                       f'<text x="{bx + bw * 0.17:.1f}" y="{y(max(v, 0)) - 4:.1f}" text-anchor="middle" font-size="10" fill="var(--ink2)">{fmt(v, 1)}</text>')
+        barras += (f'<text x="{x0 + bw / 2:.1f}" y="{H - B + 16:.1f}" text-anchor="middle" font-size="10.5" fill="var(--ink2)">{fmt(x["bn"], 1)}%</text>')
+    grades = "".join(f'<line x1="{L}" x2="{W - 8}" y1="{y(v):.1f}" y2="{y(v):.1f}" stroke="var(--line)" /><text x="{L - 6}" y="{y(v) + 3:.1f}" text-anchor="end" font-size="10" fill="var(--muted)">{v}</text>'
+                     for v in range(0, top + 1, 2))
+    grafico_bn = (f'<figure style="margin:16px 0"><div class="rol"><svg viewBox="0 0 {W} {H}" style="min-width:560px;width:100%" role="img" '
+                  f'aria-label="Crescimento de Lula e de Flávio por faixa de brancos e nulos no 1º turno: Lula vai de {fmt(fx[0]["lula"], 1)} a {fmt(fx[-1]["lula"], 1)} votos a cada 100 eleitores; Flávio, de {fmt(fx[0]["flavio"], 1)} a {fmt(fx[-1]["flavio"], 1)}.">'
+                  f'{grades}{barras}<text x="{(L + W) / 2:.0f}" y="{H - 6}" text-anchor="middle" font-size="11" fill="var(--muted)">brancos e nulos no 1º turno (média de cada grupo, % de quem compareceu)</text></svg></div>'
+                  f'<figcaption class="nota"><span style="color:var(--lula)">■</span> Lula · <span style="color:var(--flavio)">■</span> Flávio: votos ganhos do 1º para o 2º turno a cada 100 eleitores. Cada grupo tem cerca de 1/10 do eleitorado.</figcaption></figure>')
+    texto_bn = (f"No grupo com menos brancos e nulos ({fmt(fx[0]['bn'], 1)}%), Lula ganhou {fmt(fx[0]['lula'], 1)} votos a cada 100 eleitores e Flávio {fmt(fx[0]['flavio'], 1)}. "
+                f"No grupo com mais ({fmt(fx[-1]['bn'], 1)}%), Lula ganhou {fmt(fx[-1]['lula'], 1)} e Flávio {fmt(fx[-1]['flavio'], 1)}. "
+                f"Nesse mesmo grupo, brancos e nulos caíram {fmt(fx[-1]['bn_queda'], 1)} a cada 100 eleitores e o comparecimento mudou {fmt(fx[-1]['comparecimento'], 1)}.")
     serie = e["serie"]
     anos = sorted({s["ano"] for s in serie})
     linhas_serie = ""
@@ -1099,11 +1114,12 @@ def pagina_estudo2t(style, e):
 <p>{'Lula ganhou terreno em todos os estados.' if todas else 'Lula ganhou terreno na maioria dos estados.'}{' Virou em ' + ', '.join(viradas) + '.' if viradas else ''} A coluna "virada" mostra quanto o saldo de Lula sobre Flávio melhorou em votos; estados com saldo negativo são os que Flávio venceu.</p>
 <div class="rol"><table><tr><th>UF</th><th>Saldo Lula − Flávio, 1º</th><th>Saldo, 2º</th><th>Virada</th><th>Lula (% válidos)</th><th>Foram votar a mais</th></tr>{ufs}</table></div></section>
 
-<section><h2>Para onde foram os eleitores de cada um (estimativa)</h2>
-<p>O voto é secreto, então ninguém sabe ao certo em quem votou, no 2º turno, quem escolheu outro candidato no 1º. Dá para estimar comparando os {fmt(g['municipios'], 0)} municípios: onde havia mais eleitores de um grupo, para quem cresceu o voto. A tabela mostra essa estimativa. É um cálculo, não uma contagem: serve para ver o tamanho de cada movimento, não para cravar números.</p>
-<div class="rol"><table><tr><th>No 1º turno votou em…</th><th>Lula</th><th>Flávio</th><th>Branco ou nulo</th><th>Não votou</th></tr>{transf}</table></div>
-<p class="nota"><b>Leia com cuidado a linha "Branco ou nulo".</b> A estimativa diz que {fmt(bn_l['pct'], 0)}% de quem anulou ou votou em branco no 1º turno votou em Lula no 2º. Brancos e nulos se concentram nas mesmas regiões onde Lula é forte, e esse tipo de estimativa pode confundir as duas coisas. Só com os resultados por município, o número real pode estar em qualquer ponto entre {mi(bn_l['limites'][0])} e {mi(bn_l['limites'][1])}: é um número possível, não um fato. O que é fato está na conta acima: brancos e nulos caíram {mi(f['bolo']['bn'])} e Lula cresceu mais que Flávio.</p>
-<details><summary>Como estimamos</summary><p class="nota">Inferência ecológica (Goodman com restrições + reconciliação por IPF), a mesma de analise/inferencia.py usada na Análise do 1º turno: uma estimativa por UF, com o Brasil como âncora, somada para o país. A reamostragem de municípios ({g['n_boot']} rodadas por UF) dá faixas estreitas, mas elas medem só a variação entre municípios, não o erro do método (o pressuposto de que eleitores de um mesmo grupo se comportam igual em todos os municípios da UF); por isso não são mostradas como margem de erro. Limites de Duncan-Davis somados nos municípios: para brancos e nulos → Lula, de {mi(bn_l['limites'][0])} a {mi(bn_l['limites'][1])}. Eleitorado do 2º turno escalado ao do 1º em cada município (variação menor que 0,1%).</p></details></section>
+<section><h2>Onde houve mais branco e nulo, Lula cresceu mais</h2>
+<p>Separamos os {fmt(g['municipios'], 0)} municípios em 10 grupos com o mesmo número de eleitores, do que teve menos votos brancos e nulos no 1º turno ao que teve mais. Em cada grupo, as barras mostram quantos votos Lula e Flávio ganharam do 1º para o 2º turno a cada 100 eleitores.</p>
+{grafico_bn}
+<p>{texto_bn}</p>
+<p class="nota"><b>O que isso mostra e o que não mostra.</b> É um padrão das contagens do TSE: nos municípios com mais branco e nulo no 1º turno, Lula cresceu mais. Não prova que foram os mesmos eleitores: o voto é secreto, e nesses municípios também podem ter mudado outras coisas (quem foi votar, por exemplo). Só com os resultados por município, o número de brancos e nulos do 1º turno que votaram em Lula pode estar em qualquer ponto entre 0 e {mi(tr['Branco ou nulo']['Lula']['limites'][1])}.</p>
+<details><summary>Por que não mostramos "para onde foi cada eleitor"</summary><p class="nota">Um modelo estatístico (inferência ecológica, analise/inferencia.py, o mesmo da Análise do 1º turno) estima essa tabela a partir dos municípios. Ele chegou a {fmt(tr['Branco ou nulo']['Lula']['pct'], 0)}% dos brancos e nulos do 1º turno votando em Lula, mas a resposta muda conforme o jeito de agrupar os eleitores (juntando brancos e nulos com os outros candidatos, a divisão muda bastante) e os limites matemáticos vão de 0 ao total. Por isso a estimativa fica só nos dados (analise/estudo2t/estudo.json), não como resultado.</p></details></section>
 
 <section><h2>Abstenção, brancos e nulos desde 2002</h2>
 <p>De 2002 a 2018, o 2º turno sempre teve mais abstenção que o 1º. Em 2026, foi o contrário, e com a maior queda da série: mais gente foi votar no 2º turno. Brancos e nulos também caíram, para o menor nível desde 2002.</p>
