@@ -54,6 +54,30 @@ def unidade(p1, p2):
     return (n, a, [v * s for v in b0])
 
 
+def faixas_bn(pares, n=10):
+    """Municípios em n faixas de % de brancos e nulos no 1º turno (cada faixa com ~1/n do eleitorado). Por faixa:
+    quanto Lula e Flávio cresceram por 100 eleitores e quanto o comparecimento mudou. É o padrão observado (contagens
+    somadas), sem inferência; mostra onde cada um cresceu, não quem votou em quem."""
+    ordem = sorted(pares, key=lambda p: p[0]["BN"] / p[0]["comp"])
+    total = sum(p1["te"] for p1, _ in ordem)
+    out, acc, grupo = [], 0, []
+    for p1, p2 in ordem:
+        grupo.append((p1, p2)); acc += p1["te"]
+        if acc >= total * (len(out) + 1) / n or (p1, p2) is ordem[-1]:
+            s = lambda k, i: sum(g[i][k] for g in grupo)
+            te = s("te", 0)
+            out.append(dict(municipios=len(grupo), eleitores=te,
+                            bn_de=round(100 * grupo[0][0]["BN"] / grupo[0][0]["comp"], 1),
+                            bn_ate=round(100 * grupo[-1][0]["BN"] / grupo[-1][0]["comp"], 1),
+                            bn=round(100 * s("BN", 0) / s("comp", 0), 2),
+                            lula=round(100 * (s("L", 1) - s("L", 0)) / te, 2),
+                            flavio=round(100 * (s("F", 1) - s("F", 0)) / te, 2),
+                            comparecimento=round(100 * (s("comp", 1) - s("comp", 0)) / te, 2),
+                            bn_queda=round(100 * (s("BN", 0) - s("BN", 1)) / te, 2)))
+            grupo = []
+    return out
+
+
 def serie(t2022, b1, b2, pst2):
     linhas = list(SERIE_FONTES)
     for t, b in (("1t", t2022[0]), ("2t", t2022[1])):
@@ -89,7 +113,7 @@ def calcular(t1, meta, t2, t2022, n_boot=40):
     )
 
     por_uf = defaultdict(lambda: [defaultdict(int), defaultdict(int)])
-    mun, un_uf = [], defaultdict(list)
+    mun, un_uf, pares = [], defaultdict(list), []
     for cd, l1 in t1["mu"].items():
         l2 = t2["mu"].get(cd)
         if not l2:
@@ -102,6 +126,7 @@ def calcular(t1, meta, t2, t2022, n_boot=40):
         for k, v in p2.items(): por_uf[u][1][k] += v
         un = unidade(p1, p2)
         mun.append(un)
+        pares.append((p1, p2))
         un_uf[u].append(un)
     ufs = []
     for u, (a, b) in por_uf.items():
@@ -111,6 +136,8 @@ def calcular(t1, meta, t2, t2022, n_boot=40):
                         comp1=round(100 * a["comp"] / a["te"], 2), comp2=round(100 * b["comp"] / b["te"], 2),
                         dcomp=b["comp"] - a["comp"], outros=a["O"]))
     ufs.sort(key=lambda x: -x["virada"])
+
+    faixas = faixas_bn(pares)
 
     # inferência: B nacional como âncora, uma estimativa por UF (como na Análise do 1º turno); bootstrap por UF
     B0, _ = INF.estima(mun)
@@ -138,7 +165,7 @@ def calcular(t1, meta, t2, t2022, n_boot=40):
 
     return dict(
         gerado_com=dict(pst2=t2.get("pst"), hora2=t2.get("t"), total2=t2.get("total"), municipios=len(mun), n_boot=n_boot),
-        fatos=fatos, ufs=ufs, transferencia=transf,
+        fatos=fatos, ufs=ufs, faixas_bn=faixas, transferencia=transf,
         serie=serie(t2022, t1["br"], t2["br"], t2.get("pst") or 0),
     )
 
