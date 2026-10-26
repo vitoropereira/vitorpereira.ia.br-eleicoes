@@ -1012,7 +1012,8 @@ def pagina_apuracao(style):
     """/apuracao/: índice das leituras (HTML estático, sem JS); `style` = CSS do relatório"""
     turno2 = ""
     if rodadas_2t:
-        turno2 = (f'<section style="margin-top:22px"><h2>2º turno, 25/10</h2><p>Cada página é o painel da projeção como estava naquele momento da noite.</p>'
+        turno2 = (f'<section style="margin-top:22px"><h2>2º turno, 25/10</h2><p>Cada página é o painel da projeção como estava naquele momento da noite.'
+                  f'{" <a href=\"/estudo-2-turno/\">Estudo: de onde vieram os votos da virada →</a>" if ESTUDO2T_ARQ.exists() else ""}</p>'
                   f'{"".join(linha_rodada(r) for r in reversed(rodadas_2t))}</section><h2 style="margin-top:28px">1º turno, 04/10</h2>')
     linhas = "".join(
         f'<a class="rd" href="{r["url"]}"><span class="t">{r["d"]["ht"][:5]}</span><span class="p">{fmt(r["d"]["pst"], 1)}%<small>apurado</small></span>'
@@ -1026,6 +1027,92 @@ def pagina_apuracao(style):
 <header><h1>Histórico da apuração: {"1º e 2º turno" if rodadas_2t else "o 1º turno"}, leitura a leitura</h1></header>{turno2}<p>{curto(cF)} começou a noite com mais de 50% porque o Sul e o Centro-Oeste foram apurados mais rápido. Conforme o Nordeste entrou, {curto(cL)} reduziu a diferença, mas não passou. Cada página abaixo é o painel exatamente como estava naquele momento.</p>
 <section style="margin-top:22px">{rows_final}{linhas}</section>
 <p class="note">As leituras de 24,5% (18:19) e 27,9% (18:23) não têm painel salvo; os números delas aparecem na trajetória de cada página.</p></main></body></html>"""
+
+
+# ---------------- estudo do 2º turno (/estudo-2-turno/): analise/estudo_2turno.py → analise/estudo2t/estudo.json
+ESTUDO2T_ARQ = R / "analise" / "estudo2t" / "estudo.json"
+ESTUDO2T_CSS = """<style id="estudo2t">
+.e2-num{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));margin:18px 0}
+.e2-num div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.e2-num b{display:block;font:700 26px/1.1 var(--font-mono);font-variant-numeric:tabular-nums}
+.e2-num small{color:var(--muted);font-size:12.5px}
+.e2-bolo{display:flex;height:22px;border-radius:6px;overflow:hidden;margin:10px 0 6px}
+.e2-bolo i{display:block;height:100%}
+.e2 table{width:100%;border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums}
+.e2 th,.e2 td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:right}
+.e2 th:first-child,.e2 td:first-child{text-align:left}
+.e2 .rol{overflow-x:auto}
+.e2 .nota{color:var(--muted);font-size:13px}
+</style>"""
+
+
+def pagina_estudo2t(style, e):
+    """/estudo-2-turno/: HTML estático (sem JS). `e` = analise/estudo2t/estudo.json; `style` = CSS do relatório."""
+    f = e["fatos"]; t1, t2 = f["t1"], f["t2"]; b = f["bolo"]; g = e["gerado_com"]
+    mi = lambda v: fmt(v / 1e6, 2) + " mi"
+    sinal = lambda v, d=0: ("+" if v > 0 else "−" if v < 0 else "") + fmt(abs(v), d)
+    pL = 100 * f["ganho"]["L"] / b["total"]
+    linhas_fato = "".join(
+        f"<tr><td>{n}</td><td>{fmt(a, 0)}</td><td>{fmt(c, 0)}</td><td>{sinal(c - a)}</td></tr>"
+        for n, a, c in [("Lula (PT)", t1["L"], t2["L"]), ("Flávio Bolsonaro (PL)", t1["F"], t2["F"]),
+                        ("Outros candidatos", t1["O"], 0), ("Brancos e nulos", t1["BN"], t2["BN"]),
+                        ("Não votaram", t1["A"], t2["A"]), ("Compareceram", t1["comp"], t2["comp"])])
+    ufs = "".join(
+        f"<tr><td>{u['uf']}</td><td>{sinal(u['saldo1'])}</td><td>{sinal(u['saldo2'])}</td><td><b>{sinal(u['virada'])}</b></td>"
+        f"<td>{fmt(u['l1'], 1)}% → {fmt(u['l2'], 1)}%</td><td>{sinal(u['dcomp'])}</td></tr>" for u in e["ufs"])
+    viradas = [u["uf"] for u in e["ufs"] if u["saldo1"] < 0 < u["saldo2"]]
+    todas = all(u["virada"] > 0 for u in e["ufs"])
+    tr = {x["de"]: {c["para"]: c for c in x["para"]} for x in e["transferencia"]}
+
+    def cel(de, para):
+        c = tr[de][para]
+        return f"<td>{fmt(c['pct'], 0)}%<br><small>{mi(c['votos'])}</small></td>"
+    cols = ["Lula", "Flávio", "Branco ou nulo", "Não votou"]
+    transf = "".join(f"<tr><td>{de}<br><small>{mi(tr[de]['Lula']['votos'] + tr[de]['Flávio']['votos'] + tr[de]['Branco ou nulo']['votos'] + tr[de]['Não votou']['votos'])}</small></td>"
+                     + "".join(cel(de, c) for c in cols) + "</tr>"
+                     for de in ["Outros candidatos", "Branco ou nulo", "Não votou", "Flávio", "Lula"])
+    bn_l = tr["Branco ou nulo"]["Lula"]
+    serie = e["serie"]
+    anos = sorted({s["ano"] for s in serie})
+    linhas_serie = ""
+    for a in anos:
+        p, s = [x for x in serie if x["ano"] == a and x["turno"] == 1][0], [x for x in serie if x["ano"] == a and x["turno"] == 2][0]
+        linhas_serie += (f"<tr{' style=\"font-weight:700\"' if a == 2026 else ''}><td>{a}</td><td>{fmt(p['abstencao'], 1)}%</td><td>{fmt(s['abstencao'], 1)}%</td>"
+                         f"<td>{sinal(s['abstencao'] - p['abstencao'], 1)}</td><td>{fmt(p['bn'], 1)}%</td><td>{fmt(s['bn'], 1)}%</td>"
+                         f"<td>{sinal(s['bn'] - p['bn'], 1)}</td></tr>")
+    pst = fmt(g["pst2"] or 0, 2)
+    return f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>x</title>{style}{ESTUDO2T_CSS}</head><body><main class="e2">
+<header><p class="kicker">Eleições 2026 · 2º turno · estudo</p><h1>Como Lula virou {mi(f['virada'])} de votos entre o 1º e o 2º turno</h1>
+<p>No 1º turno, Flávio Bolsonaro (PL) terminou {mi(-f['saldo1'])} de votos à frente de Lula (PT). No 2º, Lula terminou {mi(f['saldo2'])} à frente. Este estudo mostra, com os números do TSE, de onde veio essa diferença.</p></header>
+<div class="e2-num"><div><small>Lula ganhou</small><b>{sinal(f['ganho']['L'])}</b><small>votos do 1º para o 2º turno</small></div>
+<div><small>Flávio ganhou</small><b>{sinal(f['ganho']['F'])}</b><small>votos do 1º para o 2º turno</small></div>
+<div><small>Foram votar a mais</small><b>{sinal(b['comparecimento'])}</b><small>{fmt(f['pct']['comp1'], 1)}% → {fmt(f['pct']['comp2'], 1)}% do eleitorado</small></div>
+<div><small>Brancos e nulos a menos</small><b>{sinal(b['bn'])}</b><small>de {mi(t1['BN'])} para {mi(t2['BN'])}</small></div></div>
+
+<section><h2>A conta que fecha</h2>
+<p>Lula e Flávio somaram juntos {mi(b['total'])} de votos a mais no 2º turno. Pelas contagens do TSE, esses votos só podem ter vindo de três lugares: os {mi(b['outros'])} que votaram em outros candidatos no 1º turno, os {mi(b['bn'])} de brancos e nulos a menos e os {mi(b['comparecimento'])} de pessoas a mais que foram votar. <b>Lula ficou com {fmt(pL, 0)}% desses votos novos; Flávio, com {fmt(100 - pL, 0)}%.</b></p>
+<div class="e2-bolo" role="img" aria-label="Lula ficou com {fmt(pL, 0)}% dos votos novos e Flávio com {fmt(100 - pL, 0)}%"><i style="width:{pL}%;background:var(--lula)"></i><i style="width:{100 - pL}%;background:var(--flavio)"></i></div>
+<div class="rol"><table><tr><th>Brasil</th><th>1º turno</th><th>2º turno</th><th>Variação</th></tr>{linhas_fato}</table></div>
+<p class="nota">Fonte: TSE. 2º turno com {pst}% das seções apuradas ({g['hora2']} de 25/10). Inclui o exterior.</p></section>
+
+<section><h2>Onde a diferença mudou</h2>
+<p>{'Lula ganhou terreno em todos os estados.' if todas else 'Lula ganhou terreno na maioria dos estados.'}{' Virou em ' + ', '.join(viradas) + '.' if viradas else ''} A coluna "virada" mostra quanto o saldo de Lula sobre Flávio melhorou em votos; estados com saldo negativo são os que Flávio venceu.</p>
+<div class="rol"><table><tr><th>UF</th><th>Saldo Lula − Flávio, 1º</th><th>Saldo, 2º</th><th>Virada</th><th>Lula (% válidos)</th><th>Foram votar a mais</th></tr>{ufs}</table></div></section>
+
+<section><h2>Para onde foram os eleitores de cada um (estimativa)</h2>
+<p>O voto é secreto, então ninguém sabe ao certo em quem votou, no 2º turno, quem escolheu outro candidato no 1º. Dá para estimar comparando os {fmt(g['municipios'], 0)} municípios: onde havia mais eleitores de um grupo, para quem cresceu o voto. A tabela mostra essa estimativa. É um cálculo, não uma contagem: serve para ver o tamanho de cada movimento, não para cravar números.</p>
+<div class="rol"><table><tr><th>No 1º turno votou em…</th><th>Lula</th><th>Flávio</th><th>Branco ou nulo</th><th>Não votou</th></tr>{transf}</table></div>
+<p class="nota"><b>Leia com cuidado a linha "Branco ou nulo".</b> A estimativa diz que {fmt(bn_l['pct'], 0)}% de quem anulou ou votou em branco no 1º turno votou em Lula no 2º. Brancos e nulos se concentram nas mesmas regiões onde Lula é forte, e esse tipo de estimativa pode confundir as duas coisas. Só com os resultados por município, o número real pode estar em qualquer ponto entre {mi(bn_l['limites'][0])} e {mi(bn_l['limites'][1])}: é um número possível, não um fato. O que é fato está na conta acima: brancos e nulos caíram {mi(f['bolo']['bn'])} e Lula cresceu mais que Flávio.</p>
+<details><summary>Como estimamos</summary><p class="nota">Inferência ecológica (Goodman com restrições + reconciliação por IPF), a mesma de analise/inferencia.py usada na Análise do 1º turno: uma estimativa por UF, com o Brasil como âncora, somada para o país. A reamostragem de municípios ({g['n_boot']} rodadas por UF) dá faixas estreitas, mas elas medem só a variação entre municípios, não o erro do método (o pressuposto de que eleitores de um mesmo grupo se comportam igual em todos os municípios da UF); por isso não são mostradas como margem de erro. Limites de Duncan-Davis somados nos municípios: para brancos e nulos → Lula, de {mi(bn_l['limites'][0])} a {mi(bn_l['limites'][1])}. Eleitorado do 2º turno escalado ao do 1º em cada município (variação menor que 0,1%).</p></details></section>
+
+<section><h2>Abstenção, brancos e nulos desde 2002</h2>
+<p>De 2002 a 2018, o 2º turno sempre teve mais abstenção que o 1º. Em 2026, foi o contrário, e com a maior queda da série: mais gente foi votar no 2º turno. Brancos e nulos também caíram, para o menor nível desde 2002.</p>
+<div class="rol"><table><tr><th>Ano</th><th>Não votaram, 1º</th><th>2º</th><th>Variação</th><th>Brancos e nulos, 1º</th><th>2º</th><th>Variação</th></tr>{linhas_serie}</table></div>
+<p class="nota">Não votaram = % do eleitorado; brancos e nulos = % de quem compareceu. Fontes: 2002 a 2018, tabelas de resultados da Wikipédia (que citam o TSE); 2022 e 2026, TSE.</p></section>
+<section><h2>Em breve: quantos votaram depois das 17h</h2>
+<p>Uma decisão do STF prorrogou a votação até as 19h nos locais que ainda não tinham encerrado às 17h. O resultado do TSE não separa os votos por horário. Quando o TSE publicar os registros das urnas (com o horário de cada voto, nos dados abertos), este estudo vai mostrar quantos eleitores votaram depois das 17h, onde, e se isso pesou na diferença.</p></section>
+<p class="note"><a href="/">Apuração do 2º turno</a> · <a href="/apuracao/">Histórico da apuração</a> · <a href="/1-turno/">Resultado do 1º turno</a></p>
+</main></body></html>"""
 
 
 HOME_CSS = """<style id="home-turno2">
@@ -1223,6 +1310,22 @@ def main():
                                                               trilha_apuracao()))
     paginas.append(("/apuracao/", modificado, "0.8"))
 
+    # ---- estudo do 2º turno (/estudo-2-turno/): só quando analise/estudo2t/estudo.json existe
+    if ESTUDO2T_ARQ.exists():
+        est = json.loads(ESTUDO2T_ARQ.read_text())
+        f2 = est["fatos"]
+        titulo = "Como Lula virou o 2º turno: de onde vieram os votos | Eleições 2026"
+        desc = (f"Do 1º para o 2º turno, Lula ganhou {fmt(f2['ganho']['L'] / 1e6, 1)} milhões de votos e Flávio "
+                f"{fmt(f2['ganho']['F'] / 1e6, 1)} milhões. Votos dos outros candidatos, brancos e nulos e abstenção, por estado, com dados do TSE.")
+        ld = [{"@context": "https://schema.org", "@type": "Article", "headline": titulo[:110], "description": desc, "inLanguage": "pt-BR",
+               "author": PESSOA, "publisher": PESSOA, "datePublished": modificado, "dateModified": modificado,
+               "mainEntityOfPage": BASE + "/estudo-2-turno/", "about": ELEICAO}]
+        (BUILD / "estudo-2-turno").mkdir(exist_ok=True)
+        (BUILD / "estudo-2-turno" / "index.html").write_text(montar_pagina(pagina_estudo2t(style, est), titulo, desc, "/estudo-2-turno/",
+                                                                         "/og/index.png", ld, publicado, modificado, "/apuracao/",
+                                                                         NAV.trilha((NAV.INICIO, "/"), ("Estudo do 2º turno", None))))
+        paginas.append(("/estudo-2-turno/", modificado, "0.9"))
+
     # ---- ao vivo = HUD (mapa por município). Os dados vêm de /geo/ (municipios/geo/, gerado por municipios/montar.py)
     # e, no 2º turno, de /vivo/agora.json. O template antigo está arquivado em docs/old/template_aovivo.html.
     copiar_hud(BUILD); copiar_hud(OUT)
@@ -1251,7 +1354,7 @@ def main():
                                                   "Página não encontrada · Eleições 2026", "Página não encontrada.", "/404.html", "/og/index.png", [], publicado, modificado, ""))
 
     # ---- pré-render de todas as páginas
-    for p in ["index.html", "1-turno/index.html", "ao-vivo/index.html", "analise/index.html", "apuracao/index.html", "404.html"] + [r["url"].strip("/") + "/index.html" for r in rodadas + rodadas_2t]:
+    for p in ["index.html", "1-turno/index.html", "ao-vivo/index.html", "analise/index.html", "apuracao/index.html", "404.html"] + (["estudo-2-turno/index.html"] if ESTUDO2T_ARQ.exists() else []) + [r["url"].strip("/") + "/index.html" for r in rodadas + rodadas_2t]:
         url = base_url + "/" + p.replace("index.html", "")
         dom = prerender(url)
         # o mapa já está desenhado no HTML: tira os contornos duplicados dos dados embutidos
