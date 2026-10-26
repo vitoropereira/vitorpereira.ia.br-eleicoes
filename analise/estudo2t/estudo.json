@@ -1,0 +1,854 @@
+{
+ "gerado_com": {
+  "pst2": 99.95,
+  "hora2": "21:50",
+  "total2": "tse",
+  "municipios": 5571,
+  "n_boot": 40
+ },
+ "fatos": {
+  "t1": {
+   "te": 158745502,
+   "comp": 125275835,
+   "F": 56104503,
+   "L": 53879538,
+   "O": 9316747,
+   "BN": 5975047,
+   "A": 33469667
+  },
+  "t2": {
+   "te": 158745502,
+   "comp": 128180700,
+   "F": 59808095,
+   "L": 64220485,
+   "BN": 4152120,
+   "A": 30564802
+  },
+  "validos1": 119300788,
+  "validos2": 124028580,
+  "pct": {
+   "F1": 47.02777235637371,
+   "L1": 45.1627679106361,
+   "O1": 7.809459732990196,
+   "F2": 48.22122046386406,
+   "L2": 51.77877953613594,
+   "comp1": 78.91614780997071,
+   "comp2": 80.74603587823232
+  },
+  "saldo1": -2224965,
+  "saldo2": 4412390,
+  "virada": 6637355,
+  "ganho": {
+   "L": 10340947,
+   "F": 3703592
+  },
+  "bolo": {
+   "total": 14044539,
+   "outros": 9316747,
+   "bn": 1822927,
+   "comparecimento": 2904865
+  }
+ },
+ "ufs": [
+  {
+   "uf": "SP",
+   "saldo1": -3416610,
+   "saldo2": -2020593,
+   "virada": 1396017,
+   "l1": 38.2,
+   "l2": 46.15,
+   "comp1": 77.46,
+   "comp2": 80.19,
+   "dcomp": 930200,
+   "outros": 2455512
+  },
+  {
+   "uf": "MG",
+   "saldo1": -588612,
+   "saldo2": 99244,
+   "virada": 687856,
+   "l1": 43.33,
+   "l2": 50.39,
+   "comp1": 77.19,
+   "comp2": 79.49,
+   "dcomp": 377022,
+   "outros": 1009751
+  },
+  {
+   "uf": "RJ",
+   "saldo1": -1273823,
+   "saldo2": -603616,
+   "virada": 670207,
+   "l1": 39.41,
+   "l2": 46.9,
+   "comp1": 76.68,
+   "comp2": 78.38,
+   "dcomp": 217398,
+   "outros": 709835
+  },
+  {
+   "uf": "BA",
+   "saldo1": 3222186,
+   "saldo2": 3872194,
+   "virada": 650008,
+   "l1": 66.17,
+   "l2": 71.32,
+   "comp1": 80.03,
+   "comp2": 83.16,
+   "dcomp": 354341,
+   "outros": 452935
+  },
+  {
+   "uf": "PE",
+   "saldo1": 1815928,
+   "saldo2": 2285052,
+   "virada": 469124,
+   "l1": 63.45,
+   "l2": 69.21,
+   "comp1": 81.83,
+   "comp2": 84.8,
+   "dcomp": 214134,
+   "outros": 309003
+  },
+  {
+   "uf": "CE",
+   "saldo1": 1798413,
+   "saldo2": 2215957,
+   "virada": 417544,
+   "l1": 63.29,
+   "l2": 68.93,
+   "comp1": 84.48,
+   "comp2": 86.1,
+   "dcomp": 113192,
+   "outros": 305701
+  },
+  {
+   "uf": "MA",
+   "saldo1": 1327261,
+   "saldo2": 1576934,
+   "virada": 249673,
+   "l1": 63.99,
+   "l2": 69.54,
+   "comp1": 80.27,
+   "comp2": 79.59,
+   "dcomp": -35016,
+   "outros": 205098
+  },
+  {
+   "uf": "RS",
+   "saldo1": -1279024,
+   "saldo2": -1049599,
+   "virada": 229425,
+   "l1": 35.73,
+   "l2": 42.17,
+   "comp1": 78.65,
+   "comp2": 80.84,
+   "dcomp": 186217,
+   "outros": 554504
+  },
+  {
+   "uf": "PA",
+   "saldo1": 263280,
+   "saldo2": 489933,
+   "virada": 226653,
+   "l1": 49.91,
+   "l2": 55.01,
+   "comp1": 80.9,
+   "comp2": 79.66,
+   "dcomp": -78001,
+   "outros": 271978
+  },
+  {
+   "uf": "PB",
+   "saldo1": 709750,
+   "saldo2": 928703,
+   "virada": 218953,
+   "l1": 61.31,
+   "l2": 67.46,
+   "comp1": 82.62,
+   "comp2": 84.45,
+   "dcomp": 59311,
+   "outros": 141243
+  },
+  {
+   "uf": "PR",
+   "saldo1": -1890748,
+   "saldo2": -1724940,
+   "virada": 165808,
+   "l1": 31.2,
+   "l2": 37.42,
+   "comp1": 79.43,
+   "comp2": 81.96,
+   "dcomp": 217882,
+   "outros": 585301
+  },
+  {
+   "uf": "RN",
+   "saldo1": 517470,
+   "saldo2": 676187,
+   "virada": 158717,
+   "l1": 59.75,
+   "l2": 65.72,
+   "comp1": 81.62,
+   "comp2": 83.94,
+   "dcomp": 61810,
+   "outros": 113442
+  },
+  {
+   "uf": "AL",
+   "saldo1": 259741,
+   "saldo2": 408481,
+   "virada": 148740,
+   "l1": 54.73,
+   "l2": 60.77,
+   "comp1": 79.37,
+   "comp2": 79.92,
+   "dcomp": 13204,
+   "outros": 87679
+  },
+  {
+   "uf": "PI",
+   "saldo1": 1006682,
+   "saldo2": 1128130,
+   "virada": 121448,
+   "l1": 70.99,
+   "l2": 75.88,
+   "comp1": 82.85,
+   "comp2": 82.81,
+   "dcomp": -1053,
+   "outros": 105656
+  },
+  {
+   "uf": "SE",
+   "saldo1": 438180,
+   "saldo2": 555687,
+   "virada": 117507,
+   "l1": 62.75,
+   "l2": 69.53,
+   "comp1": 82.7,
+   "comp2": 84.29,
+   "dcomp": 27577,
+   "outros": 90338
+  },
+  {
+   "uf": "GO",
+   "saldo1": -863008,
+   "saldo2": -759779,
+   "virada": 103229,
+   "l1": 31.06,
+   "l2": 40.34,
+   "comp1": 78.17,
+   "comp2": 79.66,
+   "dcomp": 75693,
+   "outros": 587055
+  },
+  {
+   "uf": "AM",
+   "saldo1": 70232,
+   "saldo2": 170404,
+   "virada": 100172,
+   "l1": 48.23,
+   "l2": 54.02,
+   "comp1": 79.84,
+   "comp2": 78.31,
+   "dcomp": -42874,
+   "outros": 147003
+  },
+  {
+   "uf": "ES",
+   "saldo1": -383166,
+   "saldo2": -292539,
+   "virada": 90627,
+   "l1": 37.76,
+   "l2": 43.63,
+   "comp1": 78.63,
+   "comp2": 80.53,
+   "dcomp": 56932,
+   "outros": 167856
+  },
+  {
+   "uf": "DF",
+   "saldo1": -233989,
+   "saldo2": -154318,
+   "virada": 79671,
+   "l1": 38.11,
+   "l2": 45.72,
+   "comp1": 81.1,
+   "comp2": 82.7,
+   "dcomp": 36884,
+   "outros": 187565
+  },
+  {
+   "uf": "SC",
+   "saldo1": -1872852,
+   "saldo2": -1801757,
+   "virada": 71095,
+   "l1": 25.04,
+   "l2": 30.58,
+   "comp1": 81.05,
+   "comp2": 83.04,
+   "dcomp": 114144,
+   "outros": 373709
+  },
+  {
+   "uf": "MT",
+   "saldo1": -716900,
+   "saldo2": -656932,
+   "virada": 59968,
+   "l1": 29.18,
+   "l2": 33.94,
+   "comp1": 77.8,
+   "comp2": 79.05,
+   "dcomp": 33201,
+   "outros": 113026
+  },
+  {
+   "uf": "MS",
+   "saldo1": -356496,
+   "saldo2": -298919,
+   "virada": 57577,
+   "l1": 34.68,
+   "l2": 40.4,
+   "comp1": 76.13,
+   "comp2": 78.76,
+   "dcomp": 53240,
+   "outros": 100072
+  },
+  {
+   "uf": "TO",
+   "saldo1": -65312,
+   "saldo2": -24954,
+   "virada": 40358,
+   "l1": 43.42,
+   "l2": 48.63,
+   "comp1": 81.66,
+   "comp2": 80.77,
+   "dcomp": -10433,
+   "outros": 57117
+  },
+  {
+   "uf": "AC",
+   "saldo1": -168037,
+   "saldo2": -143202,
+   "virada": 24835,
+   "l1": 28.73,
+   "l2": 33.43,
+   "comp1": 79.57,
+   "comp2": 73.92,
+   "dcomp": -34676,
+   "outros": 31489
+  },
+  {
+   "uf": "AP",
+   "saldo1": 225,
+   "saldo2": 24294,
+   "virada": 24069,
+   "l1": 45.71,
+   "l2": 52.88,
+   "comp1": 82.59,
+   "comp2": 74.53,
+   "dcomp": -46587,
+   "outros": 40077
+  },
+  {
+   "uf": "RO",
+   "saldo1": -402321,
+   "saldo2": -379936,
+   "virada": 22385,
+   "l1": 25.89,
+   "l2": 30.39,
+   "comp1": 78.29,
+   "comp2": 78.08,
+   "dcomp": -2591,
+   "outros": 64404
+  },
+  {
+   "uf": "RR",
+   "saldo1": -156902,
+   "saldo2": -136170,
+   "virada": 20732,
+   "l1": 22.86,
+   "l2": 27.54,
+   "comp1": 82.88,
+   "comp2": 76.85,
+   "dcomp": -24175,
+   "outros": 19803
+  }
+ ],
+ "transferencia": [
+  {
+   "de": "Flávio",
+   "total": 55958327,
+   "para": [
+    {
+     "para": "Flávio",
+     "votos": 55178731,
+     "pct": 98.6,
+     "ic90": [
+      55155011,
+      55210655
+     ],
+     "limites": [
+      1708653,
+      55817694
+     ]
+    },
+    {
+     "para": "Lula",
+     "votos": 325647,
+     "pct": 0.6,
+     "ic90": [
+      260845,
+      354500
+     ],
+     "limites": [
+      0,
+      45132367
+     ]
+    },
+    {
+     "para": "Branco ou nulo",
+     "votos": 150071,
+     "pct": 0.3,
+     "ic90": [
+      123943,
+      172809
+     ],
+     "limites": [
+      0,
+      4142250
+     ]
+    },
+    {
+     "para": "Não votou",
+     "votos": 303879,
+     "pct": 0.5,
+     "ic90": [
+      271510,
+      381671
+     ],
+     "limites": [
+      7522,
+      29265006
+     ]
+    }
+   ]
+  },
+  {
+   "de": "Lula",
+   "total": 53718237,
+   "para": [
+    {
+     "para": "Flávio",
+     "votos": 418,
+     "pct": 0.0,
+     "ic90": [
+      314,
+      2679
+     ],
+     "limites": [
+      0,
+      41080662
+     ]
+    },
+    {
+     "para": "Lula",
+     "votos": 53224080,
+     "pct": 99.1,
+     "ic90": [
+      53177774,
+      53265697
+     ],
+     "limites": [
+      4274098,
+      53688221
+     ]
+    },
+    {
+     "para": "Branco ou nulo",
+     "votos": 36198,
+     "pct": 0.1,
+     "ic90": [
+      25555,
+      62376
+     ],
+     "limites": [
+      0,
+      4142250
+     ]
+    },
+    {
+     "para": "Não votou",
+     "votos": 457542,
+     "pct": 0.9,
+     "ic90": [
+      407543,
+      482465
+     ],
+     "limites": [
+      15310,
+      29609467
+     ]
+    }
+   ]
+  },
+  {
+   "de": "Outros candidatos",
+   "total": 9286962,
+   "para": [
+    {
+     "para": "Flávio",
+     "votos": 3992999,
+     "pct": 43.0,
+     "ic90": [
+      3945013,
+      4038967
+     ],
+     "limites": [
+      0,
+      9286031
+     ]
+    },
+    {
+     "para": "Lula",
+     "votos": 3930426,
+     "pct": 42.3,
+     "ic90": [
+      3901906,
+      3975513
+     ],
+     "limites": [
+      0,
+      9286031
+     ]
+    },
+    {
+     "para": "Branco ou nulo",
+     "votos": 1344487,
+     "pct": 14.5,
+     "ic90": [
+      1318082,
+      1354466
+     ],
+     "limites": [
+      0,
+      4130649
+     ]
+    },
+    {
+     "para": "Não votou",
+     "votos": 19050,
+     "pct": 0.2,
+     "ic90": [
+      14442,
+      31282
+     ],
+     "limites": [
+      1121,
+      9286703
+     ]
+    }
+   ]
+  },
+  {
+   "de": "Branco ou nulo",
+   "total": 5963880,
+   "para": [
+    {
+     "para": "Flávio",
+     "votos": 7066,
+     "pct": 0.1,
+     "ic90": [
+      5773,
+      7784
+     ],
+     "limites": [
+      0,
+      5962870
+     ]
+    },
+    {
+     "para": "Lula",
+     "votos": 4939075,
+     "pct": 82.8,
+     "ic90": [
+      4932278,
+      4955633
+     ],
+     "limites": [
+      0,
+      5962870
+     ]
+    },
+    {
+     "para": "Branco ou nulo",
+     "votos": 1012511,
+     "pct": 17.0,
+     "ic90": [
+      996114,
+      1019479
+     ],
+     "limites": [
+      0,
+      4105669
+     ]
+    },
+    {
+     "para": "Não votou",
+     "votos": 5228,
+     "pct": 0.1,
+     "ic90": [
+      4222,
+      8307
+     ],
+     "limites": [
+      1293,
+      5964109
+     ]
+    }
+   ]
+  },
+  {
+   "de": "Não votou",
+   "total": 32901562,
+   "para": [
+    {
+     "para": "Flávio",
+     "votos": 458353,
+     "pct": 1.4,
+     "ic90": [
+      404468,
+      508020
+     ],
+     "limites": [
+      0,
+      32063740
+     ]
+    },
+    {
+     "para": "Lula",
+     "votos": 1602183,
+     "pct": 4.9,
+     "ic90": [
+      1562799,
+      1672479
+     ],
+     "limites": [
+      0,
+      32744250
+     ]
+    },
+    {
+     "para": "Branco ou nulo",
+     "votos": 1598984,
+     "pct": 4.9,
+     "ic90": [
+      1574739,
+      1647915
+     ],
+     "limites": [
+      0,
+      4142250
+     ]
+    },
+    {
+     "para": "Não votou",
+     "votos": 29242041,
+     "pct": 88.9,
+     "ic90": [
+      29177344,
+      29264919
+     ],
+     "limites": [
+      9579,
+      29615129
+     ]
+    }
+   ]
+  }
+ ],
+ "serie": [
+  {
+   "ano": 2002,
+   "turno": 1,
+   "eleitorado": 115253816,
+   "comparecimento": 94805583,
+   "brancos": 2873753,
+   "nulos": 6976685,
+   "fonte": "Wikipédia (resultados, cita o TSE)",
+   "abstencao": 17.74,
+   "bn": 10.39,
+   "brancos_pct": 3.03,
+   "nulos_pct": 7.36
+  },
+  {
+   "ano": 2002,
+   "turno": 2,
+   "eleitorado": 115253816,
+   "comparecimento": 91664259,
+   "brancos": 1727760,
+   "nulos": 3772138,
+   "fonte": "Wikipédia (resultados, cita o TSE)",
+   "abstencao": 20.47,
+   "bn": 6.0,
+   "brancos_pct": 1.88,
+   "nulos_pct": 4.12
+  },
+  {
+   "ano": 2006,
+   "turno": 1,
+   "eleitorado": 125913134,
+   "comparecimento": 104820459,
+   "brancos": 2866205,
+   "nulos": 5931752,
+   "fonte": "Wikipédia (resultados, cita o TSE)",
+   "abstencao": 16.75,
+   "bn": 8.39,
+   "brancos_pct": 2.73,
+   "nulos_pct": 5.66
+  },
+  {
+   "ano": 2006,
+   "turno": 2,
+   "eleitorado": 125912935,
+   "comparecimento": 101998221,
+   "brancos": 1351448,
+   "nulos": 4808553,
+   "fonte": "Wikipédia (resultados, cita o TSE)",
+   "abstencao": 18.99,
+   "bn": 6.04,
+   "brancos_pct": 1.32,
+   "nulos_pct": 4.71
+  },
+  {
+   "ano": 2010,
+   "turno": 1,
+   "eleitorado": 135804433,
+   "comparecimento": 111193747,
+   "brancos": 3479340,
+   "nulos": 6124254,
+   "fonte": "Wikipédia (resultados, cita o TSE)",
+   "abstencao": 18.12,
+   "bn": 8.64,
+   "brancos_pct": 3.13,
+   "nulos_pct": 5.51
+  },
+  {
+   "ano": 2010,
+   "turno": 2,
+   "eleitorado": 135804433,
+   "comparecimento": 106606214,
+   "brancos": 2452597,
+   "nulos": 4689428,
+   "fonte": "Wikipédia (resultados, cita o TSE)",
+   "abstencao": 21.5,
+   "bn": 6.7,
+   "brancos_pct": 2.3,
+   "nulos_pct": 4.4
+  },
+  {
+   "ano": 2014,
+   "turno": 1,
+   "eleitorado": 142822046,
+   "comparecimento": 115122611,
+   "brancos": 4420488,
+   "nulos": 6678580,
+   "fonte": "Wikipédia (resultados, cita o TSE)",
+   "abstencao": 19.39,
+   "bn": 9.64,
+   "brancos_pct": 3.84,
+   "nulos_pct": 5.8
+  },
+  {
+   "ano": 2014,
+   "turno": 2,
+   "eleitorado": 142822046,
+   "comparecimento": 112683879,
+   "brancos": 1921819,
+   "nulos": 5219787,
+   "fonte": "Wikipédia (resultados, cita o TSE)",
+   "abstencao": 21.1,
+   "bn": 6.34,
+   "brancos_pct": 1.71,
+   "nulos_pct": 4.63
+  },
+  {
+   "ano": 2018,
+   "turno": 1,
+   "eleitorado": 147306295,
+   "comparecimento": 117364654,
+   "brancos": 3106937,
+   "nulos": 7206222,
+   "fonte": "Wikipédia (resultados, cita o TSE)",
+   "abstencao": 20.33,
+   "bn": 8.79,
+   "brancos_pct": 2.65,
+   "nulos_pct": 6.14
+  },
+  {
+   "ano": 2018,
+   "turno": 2,
+   "eleitorado": 147306294,
+   "comparecimento": 115933451,
+   "brancos": 2486593,
+   "nulos": 8608105,
+   "fonte": "Wikipédia (resultados, cita o TSE)",
+   "abstencao": 21.3,
+   "bn": 9.57,
+   "brancos_pct": 2.14,
+   "nulos_pct": 7.43
+  },
+  {
+   "ano": 2022,
+   "turno": 1,
+   "eleitorado": 156454011,
+   "comparecimento": 123682372,
+   "brancos": 1964779,
+   "nulos": 3487874,
+   "fonte": "TSE, dados abertos",
+   "abstencao": 20.95,
+   "bn": 4.41,
+   "brancos_pct": 1.59,
+   "nulos_pct": 2.82
+  },
+  {
+   "ano": 2022,
+   "turno": 2,
+   "eleitorado": 156454011,
+   "comparecimento": 124252796,
+   "brancos": 1769678,
+   "nulos": 3930765,
+   "fonte": "TSE, dados abertos",
+   "abstencao": 20.58,
+   "bn": 4.59,
+   "brancos_pct": 1.42,
+   "nulos_pct": 3.16
+  },
+  {
+   "ano": 2026,
+   "turno": 1,
+   "eleitorado": 158745502,
+   "comparecimento": 125275835,
+   "brancos": 2300798,
+   "nulos": 3674249,
+   "fonte": "TSE (1º turno, final)",
+   "abstencao": 21.08,
+   "bn": 4.77,
+   "brancos_pct": 1.84,
+   "nulos_pct": 2.93
+  },
+  {
+   "ano": 2026,
+   "turno": 2,
+   "eleitorado": 158745502,
+   "comparecimento": 128180700,
+   "brancos": 1429974,
+   "nulos": 2722146,
+   "fonte": "TSE (99,95% das seções)",
+   "abstencao": 19.25,
+   "bn": 3.24,
+   "brancos_pct": 1.12,
+   "nulos_pct": 2.12
+  }
+ ]
+}
