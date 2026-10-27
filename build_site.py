@@ -1221,12 +1221,18 @@ def home_turno2(style):
     cand = html.escape(json.dumps([{"n": n, "nome": NOME_EXIBICAO.get(c["nome"], c["nome"]), "sg": c["sg"]} for n, c in (("22", cF), ("13", cL))], ensure_ascii=False), quote=True)
     card_estudo = ""
     if ESTUDO2T_ARQ.exists():
-        fe = json.loads(ESTUDO2T_ARQ.read_text())["fatos"]
-        card_estudo = (f'<div class="porta" style="margin:18px 0"><h2>{NAV.ESTUDO_2T}</h2><p>Lula virou {fmt(fe["virada"] / 1e6, 1)} milhões de votos '
-                       f'entre o 1º e o 2º turno. De onde vieram os votos, onde a diferença mudou e o que já aconteceu em outras eleições.</p>'
+        est = json.loads(ESTUDO2T_ARQ.read_text())
+        fe, mv = est["fatos"], est.get("municipios", {})
+        nums = [(f'{fmt(fe["virada"] / 1e6, 1)} mi', "de votos virados entre os turnos"),
+                (f'{fmt(mv.get("f_para_l", 0), 0)}', "municípios trocaram de Flávio para Lula"),
+                ("1ª vez", "que quem ficou em 2º no 1º turno virou e venceu")]
+        card_estudo = (f'<div class="porta" style="margin:16px 0 22px;border-color:var(--ink2)"><h2>{NAV.ESTUDO_2T}: de onde vieram os votos</h2>'
+                       f'<div class="e2-num" style="margin:10px 0">' + "".join(f'<div><b>{v}</b><small>{d}</small></div>' for v, d in nums) + '</div>'
+                       f'<p>Os 10 milhões de votos que Lula ganhou entre os turnos, explicados com os números do TSE e comparados com todas as eleições desde 1989.</p>'
                        f'<a class="ir" href="/estudo-2-turno/">Ver o estudo →</a></div>')
-    return f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>x</title>{style}{HOME_CSS}</head><body><main>
+    return f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>x</title>{style}{HOME_CSS}{ESTUDO2T_CSS if card_estudo else ""}</head><body><main>
 <header><p class="kicker">Eleições 2026 · 2º turno</p><h1>2º turno: {html.escape(rotulo(cF))} × {html.escape(rotulo(cL))}, domingo, 25/10</h1></header>
+{card_estudo}
 <section data-fase="vespera">
 <p class="contagem">Apuração ao vivo a partir das 17h (Brasília)<span data-faltam></span></p>
 <p class="note" data-aguardando hidden>Aguardando os primeiros dados do TSE</p>
@@ -1243,7 +1249,6 @@ def home_turno2(style):
 <section data-fase="resultado" hidden>
 <h2 data-eleito></h2>
 <p data-eleito-pct></p>
-{card_estudo}
 <p><a href="/ao-vivo/">Mapa da apuração por município</a> · <a href="/1-turno/">Resultado do 1º turno</a></p>
 </section>
 <script type="module" src="/home.js"></script>
