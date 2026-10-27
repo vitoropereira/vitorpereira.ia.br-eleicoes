@@ -194,8 +194,21 @@ header .kicker{margin:0 0 4px}
 .botao:hover{background:var(--soft)}
 [data-fase][hidden],[data-aguardando][hidden]{display:none}
 @media (min-width:641px){.portas{grid-template-columns:repeat(var(--n,3),1fr)}.placar{grid-template-columns:1fr 1fr}}
+</style><style id="estudo2t">
+.e2-num{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));margin:18px 0}
+.e2-num div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.e2-num b{display:block;font:700 26px/1.1 var(--font-mono);font-variant-numeric:tabular-nums}
+.e2-num small{color:var(--muted);font-size:12.5px}
+.e2-bolo{display:flex;height:22px;border-radius:6px;overflow:hidden;margin:10px 0 6px}
+.e2-bolo i{display:block;height:100%}
+.e2 table{width:100%;border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums}
+.e2 th,.e2 td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:right}
+.e2 th:first-child,.e2 td:first-child{text-align:left}
+.e2 .rol{overflow-x:auto}
+.e2 .nota{color:var(--muted);font-size:13px}
 </style></head><body><a class="skip" href="#conteudo">Pular para o conteúdo</a><header class="sitebar"><div class="in"><a class="brand" href="/" aria-label="Eleições 2026, por Vitor Pereira"><span class="wm">vitor<span class="dim">pereira</span><span class="cursor" aria-hidden="true"></span></span><span class="sep" aria-hidden="true">/</span><span>eleições 2026</span></a><nav class="top" aria-label="Principal"><a href="/" aria-current="page">Início</a><a href="/ao-vivo/">Ao vivo</a><a href="/estudo-2-turno/">A virada do 2º turno</a><a href="/debates/">Debates</a><a href="/analise/">Análise</a><a href="/rastro/">Rastro do dinheiro</a><a href="/apuracao/">Histórico da apuração</a><a href="/1-turno/#metodo">Método e fontes</a></nav><a class="agora" href="/ao-vivo/" data-url="https://qzczyicspbizosjogmlq.supabase.co" data-key="sb_publishable_OBOstHIYUXpk_NvJFtYrVQ_NcOz4XUI" data-canal="eleicoes-hud" hidden=""><span class="pulso" aria-hidden="true"></span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"></path><circle cx="12" cy="12" r="3"></circle></svg><b></b></a><script type="module" src="/hud/topo-pessoas.js"></script><button type="button" class="tema" onclick="temaAlternar()" aria-label="Alternar tema claro ou escuro" title="Alternar tema claro ou escuro"><svg class="sol" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg><svg class="lua" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path></svg></button></div></header><main id="conteudo">
 <header><p class="kicker">Eleições 2026 · 2º turno</p><h1>2º turno: Flávio Bolsonaro (PL) × Lula (PT), domingo, 25/10</h1></header>
+<div class="porta" style="margin:16px 0 22px;border-color:var(--ink2)"><h2>A virada do 2º turno: de onde vieram os votos</h2><div class="e2-num" style="margin:10px 0"><div><b>6,7 mi</b><small>de votos virados entre os turnos</small></div><div><b>213</b><small>municípios trocaram de Flávio para Lula</small></div><div><b>1ª vez</b><small>que quem ficou em 2º no 1º turno virou e venceu</small></div></div><p>Os 10 milhões de votos que Lula ganhou entre os turnos, explicados com os números do TSE e comparados com todas as eleições desde 1989.</p><a class="ir" href="/estudo-2-turno/">Ver o estudo →</a></div>
 <section data-fase="vespera">
 <p class="contagem">Apuração ao vivo a partir das 17h (Brasília)<span data-faltam=""></span></p>
 <p class="note" data-aguardando="">Aguardando os primeiros dados do TSE</p>
@@ -212,7 +225,6 @@ header .kicker{margin:0 0 4px}
 <section data-fase="resultado" hidden="">
 <h2 data-eleito=""></h2>
 <p data-eleito-pct=""></p>
-<div class="porta" style="margin:18px 0"><h2>A virada do 2º turno</h2><p>Lula virou 6,7 milhões de votos entre o 1º e o 2º turno. De onde vieram os votos, onde a diferença mudou e o que já aconteceu em outras eleições.</p><a class="ir" href="/estudo-2-turno/">Ver o estudo →</a></div>
 <p><a href="/ao-vivo/">Mapa da apuração por município</a> · <a href="/1-turno/">Resultado do 1º turno</a></p>
 </section>
 <script type="module" src="/home.js"></script>

@@ -122,6 +122,9 @@ export function iniciar(doc = document, loc = location, nav = navigator) {
       ap.textContent = `${pct2(p.pst)}% das urnas apuradas${hora ? ` · atualizado às ${hora}` : ""}`;
     }
     if (f === "resultado") {
+      encerrada = true;
+      const lp = q("[data-projecao]");
+      if (lp) lp.hidden = true;
       const ganhou = p.cands.find((c) => String(c.n) === String(vivo.eleito));
       const t = q("[data-eleito]");
       if (ganhou && t) t.textContent = `${ganhou.nome} (${ganhou.sg}) é eleito presidente`;
@@ -131,9 +134,11 @@ export function iniciar(doc = document, loc = location, nav = navigator) {
   }
 
   // projeção ao vivo: só na apuração; sem arquivo (404) ou inválido, a linha fica escondida
+  // com o resultado oficial, a projeção não tem mais o que dizer: a linha some e para de buscar
+  let encerrada = false;
   async function projecao() {
     const linhaP = q("[data-projecao]");
-    if (!linhaP || fase(agora(), {}) === "vespera") return;
+    if (!linhaP || encerrada || fase(agora(), {}) === "vespera") return;
     try {
       const r = await fetch(`/vivo/projecao.json?t=${Math.floor(Date.now() / 60000)}`);
       const txt = r.ok ? textoProjecao(await r.json()) : "";
