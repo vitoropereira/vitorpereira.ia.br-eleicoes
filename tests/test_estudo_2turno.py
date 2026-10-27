@@ -36,7 +36,8 @@ class Pagina(unittest.TestCase):
 
     def test_secoes(self):
         for h in ["A conta que fecha", "Onde a diferença mudou", "Onde houve mais branco e nulo, Lula cresceu mais",
-                  "Abstenção, brancos e nulos desde 2002", "Em breve: quantos votaram depois das 17h"]:
+                  "Abstenção, brancos e nulos desde 2002", "Votos depois das 17h",
+                  "10 milhões de votos em 3 semanas: o volume é comum, a virada não"]:
             self.assertIn(f"<h2>{h}</h2>", self.html)
 
     def test_padrao_avisa_que_nao_prova_e_nao_mostra_a_estimativa_como_resultado(self):
@@ -59,6 +60,29 @@ class Pagina(unittest.TestCase):
         self.assertEqual(anos, [2002, 2006, 2010, 2014, 2018, 2022, 2026])
         for a in anos:
             self.assertIn(f"<td>{a}</td>", self.html)
+
+
+class Finalistas(unittest.TestCase):
+    F = {x["ano"]: x for x in EST["finalistas"]}
+
+    def test_fatias_somam_100_e_2026_bate_com_o_tse(self):
+        for x in EST["finalistas"]:
+            self.assertAlmostEqual(x["fatia1"] + x["fatia2"], 100, delta=0.15)
+        f = EST["fatos"]
+        self.assertEqual((self.F[2026]["ganho1"], self.F[2026]["ganho2"]), (f["ganho"]["F"], f["ganho"]["L"]))
+
+    def test_padrao_o_2o_colocado_leva_a_maior_fatia_menos_em_2006(self):
+        fora = [a for a, x in self.F.items() if x["fatia2"] <= x["fatia1"]]
+        self.assertEqual(fora, [2006])
+
+    def test_2026_e_a_unica_virada(self):
+        self.assertEqual([a for a, x in self.F.items() if x["venceu"] == x["segundo"]], [2026])
+
+    def test_municipios_e_regioes_fecham(self):
+        m = EST["municipios"]
+        self.assertEqual(m["lula1"] + m["flavio1"], EST["gerado_com"]["municipios"])
+        self.assertEqual(m["lula2"] - m["lula1"], m["f_para_l"] - m["l_para_f"])
+        self.assertEqual(sum(r["virada"] for r in EST["regioes"]), sum(u["virada"] for u in EST["ufs"]))
 
 
 if __name__ == "__main__":

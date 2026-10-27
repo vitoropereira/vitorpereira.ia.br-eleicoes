@@ -6,6 +6,7 @@ import html
 
 INICIO = "Início"
 AO_VIVO = "Ao vivo"
+ESTUDO_2T = "A virada do 2º turno"
 DEBATES = "Debates"
 ANALISE = "Análise"
 MINHA_SECAO = "Minha seção"
