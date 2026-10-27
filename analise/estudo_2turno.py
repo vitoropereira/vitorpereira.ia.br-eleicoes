@@ -30,6 +30,35 @@ SERIE_FONTES = [  # (ano, turno, eleitorado, comparecimento, brancos, nulos, fon
     (2014, 1, 142822046, 115122611, 4420488, 6678580, W), (2014, 2, 142822046, 112683879, 1921819, 5219787, W),
     (2018, 1, 147306295, 117364654, 3106937, 7206222, W), (2018, 2, 147306294, 115933451, 2486593, 8608105, W),
 ]
+# Finalistas de cada 2º turno: (ano, 1º colocado no 1º turno, votos 1º, votos 2º, 2º colocado, votos 1º, votos 2º, quem
+# governava). Wikipédia PT + EN (tabelas de resultados, citam o TSE), conferidas nas duas; Bolsonaro 2018 no 1º turno
+# diverge em 20 votos entre as duas (usado o da EN). 2026 entra do próprio resultado (TSE).
+WP = "Wikipédia PT e EN (resultados, citam o TSE)"
+FINALISTAS = [
+    (1989, "Collor", 20611030, 35090206, "Lula", 11622321, 31075803, "Sarney (não concorreu)"),
+    (2002, "Lula", 39455233, 52793364, "Serra", 19705445, 33370739, "FHC (Serra, do governo)"),
+    (2006, "Lula", 46662365, 58295042, "Alckmin", 39968369, 37543178, "Lula"),
+    (2010, "Dilma", 47651434, 55752529, "Serra", 33132283, 43711388, "Lula (Dilma, do governo)"),
+    (2014, "Dilma", 43267668, 54501118, "Aécio", 34897211, 51041155, "Dilma"),
+    (2018, "Bolsonaro", 49277010, 57797847, "Haddad", 31342051, 47040906, "Temer (não concorreu)"),
+    (2022, "Lula", 57259504, 60345999, "Bolsonaro", 51072345, 58206354, "Bolsonaro"),
+]
+VENCEDOR = {1989: "Collor", 2002: "Lula", 2006: "Lula", 2010: "Dilma", 2014: "Dilma", 2018: "Bolsonaro", 2022: "Lula", 2026: "Lula"}
+
+
+def finalistas(b1, b2):
+    """Por eleição: quanto cada finalista ganhou do 1º para o 2º turno e que fatia dos votos novos dos dois levou."""
+    linhas = FINALISTAS + [(2026, "Flávio", b1["F"], b2["F"], "Lula", b1["L"], b2["L"], "Lula")]
+    out = []
+    for ano, n1, a1, a2, n2, c1, c2, gov in linhas:
+        g1, g2 = a2 - a1, c2 - c1
+        bolo = g1 + g2
+        out.append(dict(ano=ano, primeiro=n1, ganho1=g1, fatia1=round(100 * g1 / bolo, 1), segundo=n2, ganho2=g2,
+                        fatia2=round(100 * g2 / bolo, 1), bolo=bolo, venceu=VENCEDOR[ano], governo=gov,
+                        fonte=WP if ano < 2026 else "TSE"))
+    return out
+
+
 LINHAS = ["Flávio", "Lula", "Outros candidatos", "Branco ou nulo", "Não votou"]
 COLUNAS = ["Flávio", "Lula", "Branco ou nulo", "Não votou"]
 
@@ -52,6 +81,22 @@ def unidade(p1, p2):
     b0 = [p2["F"], p2["L"], p2["BN"], p2["A"]]
     s = n / (sum(b0) or 1)
     return (n, a, [v * s for v in b0])
+
+
+REGIOES = {"Norte": "AC AM AP PA RO RR TO", "Nordeste": "AL BA CE MA PB PE PI RN SE", "Centro-Oeste": "DF GO MS MT",
+           "Sudeste": "ES MG RJ SP", "Sul": "PR RS SC"}
+
+
+def regioes(por_uf):
+    out = []
+    for r, us in REGIOES.items():
+        a = defaultdict(int); b = defaultdict(int)
+        for u in us.split():
+            for k, v in por_uf[u][0].items(): a[k] += v
+            for k, v in por_uf[u][1].items(): b[k] += v
+        out.append(dict(regiao=r, lula=b["L"] - a["L"], flavio=b["F"] - a["F"], outros=a["O"], comparecimento=b["comp"] - a["comp"],
+                        virada=(b["L"] - b["F"]) - (a["L"] - a["F"])))
+    return out
 
 
 def faixas_bn(pares, n=10):
@@ -136,6 +181,11 @@ def calcular(t1, meta, t2, t2022, n_boot=40):
                         comp1=round(100 * a["comp"] / a["te"], 2), comp2=round(100 * b["comp"] / b["te"], 2),
                         dcomp=b["comp"] - a["comp"], outros=a["O"]))
     ufs.sort(key=lambda x: -x["virada"])
+    mun_vencedor = dict(lula1=0, flavio1=0, lula2=0, flavio2=0, f_para_l=0, l_para_f=0)
+    for p1, p2 in pares:
+        w1, w2 = ("lula" if p1["L"] > p1["F"] else "flavio"), ("lula" if p2["L"] > p2["F"] else "flavio")
+        mun_vencedor[w1 + "1"] += 1; mun_vencedor[w2 + "2"] += 1
+        if w1 != w2: mun_vencedor["f_para_l" if w2 == "lula" else "l_para_f"] += 1
 
     faixas = faixas_bn(pares)
 
@@ -165,7 +215,8 @@ def calcular(t1, meta, t2, t2022, n_boot=40):
 
     return dict(
         gerado_com=dict(pst2=t2.get("pst"), hora2=t2.get("t"), total2=t2.get("total"), municipios=len(mun), n_boot=n_boot),
-        fatos=fatos, ufs=ufs, faixas_bn=faixas, transferencia=transf,
+        fatos=fatos, ufs=ufs, faixas_bn=faixas, transferencia=transf, finalistas=finalistas(b1, b2),
+        municipios=mun_vencedor, regioes=regioes(por_uf),
         serie=serie(t2022, t1["br"], t2["br"], t2.get("pst") or 0),
     )
 

@@ -312,7 +312,8 @@ def secoes():
     (window.HUD_SECOES) e da Análise (menu_secoes). Debates só entra quando há debate publicado; Minha seção, quando há
     resultado por seção (municipios/geo/locais/)."""
     from municipios import minha_secao as msec
-    return [("/", NAV.INICIO), ("/ao-vivo/", NAV.AO_VIVO)] + ([("/debates/", NAV.DEBATES)] if debates() else []) + [
+    return [("/", NAV.INICIO), ("/ao-vivo/", NAV.AO_VIVO)] + ([("/estudo-2-turno/", NAV.ESTUDO_2T)] if ESTUDO2T_ARQ.exists() else []) + (
+        [("/debates/", NAV.DEBATES)] if debates() else []) + [
         ("/analise/", NAV.ANALISE)] + ([("/minha-secao/", NAV.MINHA_SECAO)] if msec.tem_dados(LOCAIS) else []) + [
         ("/rastro/", NAV.RASTRO), ("/apuracao/", NAV.APURACAO), ("/1-turno/#metodo", NAV.METODO)]
 
@@ -1064,6 +1065,44 @@ def pagina_estudo2t(style, e):
     todas = all(u["virada"] > 0 for u in e["ufs"])
     tr = {x["de"]: {c["para"]: c for c in x["para"]} for x in e["transferencia"]}
 
+    mv = e["municipios"]
+    fins = e["finalistas"]
+    for x in fins:
+        x["vant"] = 0
+    fl = {x["ano"]: x for x in fins}
+    fl22, fl26 = fl[2022], fl[2026]
+    fl22["vant"] = 57259504 - 51072345
+    fl26["vant"] = t1["F"] - t1["L"]
+    grandes = sorted([(x["ganho1"], x["primeiro"], x["ano"]) for x in fins if x["ano"] < 2026] +
+                     [(x["ganho2"], x["segundo"], x["ano"]) for x in fins if x["ano"] < 2026], reverse=True)
+    ganhos_maiores = ", ".join(f"{n} em {a} (+{fmt(g / 1e6, 1)} mi)" for g, n, a in grandes if g > f["ganho"]["L"]) + f"; Lula em 2026 ganhou +{fmt(f['ganho']['L'] / 1e6, 1)} mi"
+    n_eleicoes = len(fins)
+    n_padrao = sum(1 for x in fins if x["fatia2"] > x["fatia1"])
+    sinal_mi = lambda v: ("+" if v >= 0 else "−") + fmt(abs(v) / 1e6, 1) + " mi"
+    linhas_fin = "".join(
+        f"<tr{' style=\"font-weight:700\"' if x['ano'] == 2026 else ''}><td>{x['ano']}</td><td>{x['primeiro']}</td>"
+        f"<td>{sinal_mi(x['ganho1'])} ({fmt(x['fatia1'], 0)}%)</td><td>{x['segundo']}</td><td>{sinal_mi(x['ganho2'])} ({sinal(x['fatia2']) if x['fatia2'] < 0 else fmt(x['fatia2'], 0)}%)</td>"
+        f"<td>{x['venceu']}</td></tr>" for x in fins)
+    GW, gh, gl = 760, 30, 92
+    gy = lambda i: 10 + i * (gh + 10)
+    barras_fin = ""
+    for i, x in enumerate(fins):
+        a1, a2 = max(x["fatia1"], 0), max(x["fatia2"], 0)
+        tot = (a1 + a2) or 1
+        w1 = (GW - gl - 10) * a1 / tot
+        destaque = ' stroke="var(--ink)" stroke-width="2"' if x["ano"] == 2026 else ""
+        barras_fin += (f'<text x="{gl - 8}" y="{gy(i) + gh / 2 + 4:.0f}" text-anchor="end" font-size="12" fill="var(--ink)">{x["ano"]}</text>'
+                       f'<rect x="{gl}" y="{gy(i)}" width="{w1:.1f}" height="{gh}" fill="var(--muted)" opacity=".55"{destaque} />'
+                       f'<rect x="{gl + w1:.1f}" y="{gy(i)}" width="{(GW - gl - 10) - w1:.1f}" height="{gh}" fill="var(--ink2)"{destaque} />'
+                       f'<text x="{gl + 8}" y="{gy(i) + gh / 2 + 4:.0f}" font-size="11.5" fill="var(--ink)">{x["primeiro"]} {fmt(x["fatia1"], 0)}%</text>'
+                       f'<text x="{GW - 18}" y="{gy(i) + gh / 2 + 4:.0f}" text-anchor="end" font-size="11.5" fill="{'var(--bg)' if a2 > 8 else 'var(--ink)'}" font-weight="700">{x["segundo"]} {sinal(x["fatia2"]) if x["fatia2"] < 0 else fmt(x["fatia2"], 0)}%</text>')
+    GH = gy(len(fins)) + 4
+    grafico_fin = (f'<figure style="margin:16px 0"><div class="rol"><svg viewBox="0 0 {GW} {GH}" style="min-width:560px;width:100%" role="img" '
+                   f'aria-label="Fatia dos votos novos do 2º turno por eleição: o 2º colocado do 1º turno levou a maior parte em {n_padrao} de {n_eleicoes}">{barras_fin}</svg></div>'
+                   f'<figcaption class="nota"><span style="color:var(--muted)">■</span> 1º colocado no 1º turno · <span style="color:var(--ink2)">■</span> 2º colocado no 1º turno: '
+                   f'fatia dos votos novos do 2º turno. Em 2006, Alckmin perdeu votos e Lula ficou com mais que todos os votos novos.</figcaption></figure>')
+    linhas_reg = "".join(f"<tr><td>{r['regiao']}</td><td>{sinal(r['lula'])}</td><td>{sinal(r['flavio'])}</td><td><b>{sinal(r['virada'])}</b></td><td>{sinal(r['comparecimento'])}</td></tr>"
+                         for r in sorted(e["regioes"], key=lambda r: -r["virada"]))
     fx = e["faixas_bn"]
     W, H, L, B, T = 760, 260, 36, 46, 14
     top = max(max(x["lula"], x["flavio"]) for x in fx)
@@ -1102,7 +1141,15 @@ def pagina_estudo2t(style, e):
 <div class="e2-num"><div><small>Lula ganhou</small><b>{sinal(f['ganho']['L'])}</b><small>votos do 1º para o 2º turno</small></div>
 <div><small>Flávio ganhou</small><b>{sinal(f['ganho']['F'])}</b><small>votos do 1º para o 2º turno</small></div>
 <div><small>Foram votar a mais</small><b>{sinal(b['comparecimento'])}</b><small>{fmt(f['pct']['comp1'], 1)}% → {fmt(f['pct']['comp2'], 1)}% do eleitorado</small></div>
-<div><small>Brancos e nulos a menos</small><b>{sinal(b['bn'])}</b><small>de {mi(t1['BN'])} para {mi(t2['BN'])}</small></div></div>
+<div><small>Brancos e nulos a menos</small><b>{sinal(b['bn'])}</b><small>de {mi(t1['BN'])} para {mi(t2['BN'])}</small></div>
+<div><small>Municípios que trocaram de lado</small><b>{fmt(mv['f_para_l'], 0)} → Lula</b><small>e {fmt(mv['l_para_f'], 0)} de Lula para Flávio</small></div></div>
+
+<section><h2>10 milhões de votos em 3 semanas: o volume é comum, a virada não</h2>
+<p>Ganhar mais de 10 milhões de votos entre os turnos já aconteceu muitas vezes: {ganhos_maiores}. O que é inédito em 2026 é outra coisa: <b>foi a primeira vez que quem ficou em 2º no 1º turno virou e venceu</b>.</p>
+<p>E a divisão dos votos novos segue um padrão de 37 anos: <b>quem lidera o 1º turno fica com a menor parte</b>. Em {n_padrao} das {n_eleicoes} eleições, o 2º colocado levou a maior fatia, e essa fatia vem crescendo. Os {fmt(fl26['fatia1'], 0)}% de Flávio são o padrão de um 1º colocado: em 2022, Lula liderava o 1º turno e ficou com {fmt(fl22['fatia1'], 0)}%. A diferença é que em 2022 a vantagem de Lula no 1º turno ({mi(fl22['vant'])}) aguentou os {fmt(fl22['fatia2'], 0)}% de Bolsonaro; em 2026 a de Flávio ({mi(fl26['vant'])}) não aguentou os {fmt(fl26['fatia2'], 0)}% de Lula.</p>
+{grafico_fin}
+<div class="rol"><table><tr><th>Ano</th><th>1º colocado no 1º turno</th><th>Ganhou no 2º</th><th>2º colocado no 1º turno</th><th>Ganhou no 2º</th><th>Venceu</th></tr>{linhas_fin}</table></div>
+<p class="nota">Votos novos = o que os dois finalistas somaram a mais no 2º turno. Fontes: 1989 a 2022, tabelas de resultados da Wikipédia em português e em inglês (que citam o TSE), conferidas nas duas; 2026, TSE. Por que o 2º colocado cresce mais é interpretação, não dado: quem lidera já reuniu os eleitores que gostam dele, e quem sobra tende a rejeitá-lo mais.</p></section>
 
 <section><h2>A conta que fecha</h2>
 <p>Lula e Flávio somaram juntos {mi(b['total'])} de votos a mais no 2º turno. Pelas contagens do TSE, esses votos só podem ter vindo de três lugares: os {mi(b['outros'])} que votaram em outros candidatos no 1º turno, os {mi(b['bn'])} de brancos e nulos a menos e os {mi(b['comparecimento'])} de pessoas a mais que foram votar. <b>Lula ficou com {fmt(pL, 0)}% desses votos novos; Flávio, com {fmt(100 - pL, 0)}%.</b></p>
@@ -1112,6 +1159,7 @@ def pagina_estudo2t(style, e):
 
 <section><h2>Onde a diferença mudou</h2>
 <p>{'Lula ganhou terreno em todos os estados.' if todas else 'Lula ganhou terreno na maioria dos estados.'}{' Virou em ' + ', '.join(viradas) + '.' if viradas else ''} A coluna "virada" mostra quanto o saldo de Lula sobre Flávio melhorou em votos; estados com saldo negativo são os que Flávio venceu.</p>
+<div class="rol"><table><tr><th>Região</th><th>Lula ganhou</th><th>Flávio ganhou</th><th>Virada</th><th>Foram votar a mais</th></tr>{linhas_reg}</table></div>
 <div class="rol"><table><tr><th>UF</th><th>Saldo Lula − Flávio, 1º</th><th>Saldo, 2º</th><th>Virada</th><th>Lula (% válidos)</th><th>Foram votar a mais</th></tr>{ufs}</table></div></section>
 
 <section><h2>Onde houve mais branco e nulo, Lula cresceu mais</h2>
@@ -1125,8 +1173,8 @@ def pagina_estudo2t(style, e):
 <p>De 2002 a 2018, o 2º turno sempre teve mais abstenção que o 1º. Em 2026, foi o contrário, e com a maior queda da série: mais gente foi votar no 2º turno. Brancos e nulos também caíram, para o menor nível desde 2002.</p>
 <div class="rol"><table><tr><th>Ano</th><th>Não votaram, 1º</th><th>2º</th><th>Variação</th><th>Brancos e nulos, 1º</th><th>2º</th><th>Variação</th></tr>{linhas_serie}</table></div>
 <p class="nota">Não votaram = % do eleitorado; brancos e nulos = % de quem compareceu. Fontes: 2002 a 2018, tabelas de resultados da Wikipédia (que citam o TSE); 2022 e 2026, TSE.</p></section>
-<section><h2>Em breve: quantos votaram depois das 17h</h2>
-<p>Uma decisão do STF prorrogou a votação até as 19h nos locais que ainda não tinham encerrado às 17h. O resultado do TSE não separa os votos por horário. Quando o TSE publicar os registros das urnas (com o horário de cada voto, nos dados abertos), este estudo vai mostrar quantos eleitores votaram depois das 17h, onde, e se isso pesou na diferença.</p></section>
+<section><h2>Votos depois das 17h</h2>
+<p>Uma decisão do STF prorrogou a votação até as 19h nos locais que ainda não tinham encerrado às 17h. Segundo o TSE, informado à imprensa, <b>35.521 votos para presidente</b> foram registrados depois das 17h, menos de 1% da diferença final de {mi(f['saldo2'])} (<a href="https://www.em.com.br/politica/2026/10/7528080-deputado-sobre-vitoria-de-lula-de-onde-surgiram-11-milhoes-de-votos.html" rel="noopener">Estado de Minas, 26/10</a>). O resultado do TSE não separa os votos por horário. Quando o TSE publicar os registros das urnas (com o horário de cada voto, nos dados abertos), este estudo vai conferir esse número por seção e por estado.</p></section>
 <p class="note"><a href="/">Apuração do 2º turno</a> · <a href="/apuracao/">Histórico da apuração</a> · <a href="/1-turno/">Resultado do 1º turno</a></p>
 </main></body></html>"""
 
@@ -1171,6 +1219,12 @@ def home_turno2(style):
     portas.append('<div class="porta"><h2>Como acompanhar a apuração</h2><p>O mapa mostra a apuração município por município, '
                   'atualizada sozinha a partir das 17h (Brasília).</p><a class="ir" href="/ao-vivo/">Abrir o mapa ao vivo →</a></div>')
     cand = html.escape(json.dumps([{"n": n, "nome": NOME_EXIBICAO.get(c["nome"], c["nome"]), "sg": c["sg"]} for n, c in (("22", cF), ("13", cL))], ensure_ascii=False), quote=True)
+    card_estudo = ""
+    if ESTUDO2T_ARQ.exists():
+        fe = json.loads(ESTUDO2T_ARQ.read_text())["fatos"]
+        card_estudo = (f'<div class="porta" style="margin:18px 0"><h2>{NAV.ESTUDO_2T}</h2><p>Lula virou {fmt(fe["virada"] / 1e6, 1)} milhões de votos '
+                       f'entre o 1º e o 2º turno. De onde vieram os votos, onde a diferença mudou e o que já aconteceu em outras eleições.</p>'
+                       f'<a class="ir" href="/estudo-2-turno/">Ver o estudo →</a></div>')
     return f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>x</title>{style}{HOME_CSS}</head><body><main>
 <header><p class="kicker">Eleições 2026 · 2º turno</p><h1>2º turno: {html.escape(rotulo(cF))} × {html.escape(rotulo(cL))}, domingo, 25/10</h1></header>
 <section data-fase="vespera">
@@ -1189,6 +1243,7 @@ def home_turno2(style):
 <section data-fase="resultado" hidden>
 <h2 data-eleito></h2>
 <p data-eleito-pct></p>
+{card_estudo}
 <p><a href="/ao-vivo/">Mapa da apuração por município</a> · <a href="/1-turno/">Resultado do 1º turno</a></p>
 </section>
 <script type="module" src="/home.js"></script>

@@ -1,7 +1,7 @@
 {
  "gerado_com": {
-  "pst2": 99.95,
-  "hora2": "21:50",
+  "pst2": 100,
+  "hora2": "23:27",
   "total2": "tse",
   "municipios": 5571,
   "n_boot": 40
@@ -18,120 +18,120 @@
   },
   "t2": {
    "te": 158745502,
-   "comp": 128180700,
-   "F": 59808095,
-   "L": 64220485,
-   "BN": 4152120,
-   "A": 30564802
+   "comp": 128236074,
+   "F": 59826041,
+   "L": 64256232,
+   "BN": 4153801,
+   "A": 30509428
   },
   "validos1": 119300788,
-  "validos2": 124028580,
+  "validos2": 124082273,
   "pct": {
    "F1": 47.02777235637371,
    "L1": 45.1627679106361,
    "O1": 7.809459732990196,
-   "F2": 48.22122046386406,
-   "L2": 51.77877953613594,
+   "F2": 48.2148171157374,
+   "L2": 51.7851828842626,
    "comp1": 78.91614780997071,
-   "comp2": 80.74603587823232
+   "comp2": 80.78091812642351
   },
   "saldo1": -2224965,
-  "saldo2": 4412390,
-  "virada": 6637355,
+  "saldo2": 4430191,
+  "virada": 6655156,
   "ganho": {
-   "L": 10340947,
-   "F": 3703592
+   "L": 10376694,
+   "F": 3721538
   },
   "bolo": {
-   "total": 14044539,
+   "total": 14098232,
    "outros": 9316747,
-   "bn": 1822927,
-   "comparecimento": 2904865
+   "bn": 1821246,
+   "comparecimento": 2960239
   }
  },
  "ufs": [
   {
    "uf": "SP",
    "saldo1": -3416610,
-   "saldo2": -2020593,
-   "virada": 1396017,
+   "saldo2": -2019904,
+   "virada": 1396706,
    "l1": 38.2,
    "l2": 46.15,
    "comp1": 77.46,
    "comp2": 80.19,
-   "dcomp": 930200,
+   "dcomp": 932397,
    "outros": 2455512
   },
   {
    "uf": "MG",
    "saldo1": -588612,
-   "saldo2": 99244,
-   "virada": 687856,
+   "saldo2": 109287,
+   "virada": 697899,
    "l1": 43.33,
-   "l2": 50.39,
+   "l2": 50.43,
    "comp1": 77.19,
-   "comp2": 79.49,
-   "dcomp": 377022,
+   "comp2": 79.67,
+   "dcomp": 406290,
    "outros": 1009751
   },
   {
    "uf": "RJ",
    "saldo1": -1273823,
-   "saldo2": -603616,
-   "virada": 670207,
+   "saldo2": -603640,
+   "virada": 670183,
    "l1": 39.41,
    "l2": 46.9,
    "comp1": 76.68,
    "comp2": 78.38,
-   "dcomp": 217398,
+   "dcomp": 217647,
    "outros": 709835
   },
   {
    "uf": "BA",
    "saldo1": 3222186,
-   "saldo2": 3872194,
-   "virada": 650008,
+   "saldo2": 3876497,
+   "virada": 654311,
    "l1": 66.17,
-   "l2": 71.32,
+   "l2": 71.31,
    "comp1": 80.03,
-   "comp2": 83.16,
-   "dcomp": 354341,
+   "comp2": 83.29,
+   "dcomp": 368446,
    "outros": 452935
   },
   {
    "uf": "PE",
    "saldo1": 1815928,
-   "saldo2": 2285052,
-   "virada": 469124,
+   "saldo2": 2284959,
+   "virada": 469031,
    "l1": 63.45,
-   "l2": 69.21,
+   "l2": 69.2,
    "comp1": 81.83,
-   "comp2": 84.8,
-   "dcomp": 214134,
+   "comp2": 84.82,
+   "dcomp": 215405,
    "outros": 309003
   },
   {
    "uf": "CE",
    "saldo1": 1798413,
-   "saldo2": 2215957,
-   "virada": 417544,
+   "saldo2": 2216646,
+   "virada": 418233,
    "l1": 63.29,
    "l2": 68.93,
    "comp1": 84.48,
-   "comp2": 86.1,
-   "dcomp": 113192,
+   "comp2": 86.11,
+   "dcomp": 114372,
    "outros": 305701
   },
   {
    "uf": "MA",
    "saldo1": 1327261,
-   "saldo2": 1576934,
-   "virada": 249673,
+   "saldo2": 1578063,
+   "virada": 250802,
    "l1": 63.99,
    "l2": 69.54,
    "comp1": 80.27,
-   "comp2": 79.59,
-   "dcomp": -35016,
+   "comp2": 79.63,
+   "dcomp": -33035,
    "outros": 205098
   },
   {
@@ -149,25 +149,25 @@
   {
    "uf": "PA",
    "saldo1": 263280,
-   "saldo2": 489933,
-   "virada": 226653,
+   "saldo2": 490509,
+   "virada": 227229,
    "l1": 49.91,
-   "l2": 55.01,
+   "l2": 55.02,
    "comp1": 80.9,
-   "comp2": 79.66,
-   "dcomp": -78001,
+   "comp2": 79.68,
+   "dcomp": -76931,
    "outros": 271978
   },
   {
    "uf": "PB",
    "saldo1": 709750,
-   "saldo2": 928703,
-   "virada": 218953,
+   "saldo2": 928849,
+   "virada": 219099,
    "l1": 61.31,
    "l2": 67.46,
    "comp1": 82.62,
-   "comp2": 84.45,
-   "dcomp": 59311,
+   "comp2": 84.46,
+   "dcomp": 59572,
    "outros": 141243
   },
   {
@@ -245,13 +245,13 @@
   {
    "uf": "AM",
    "saldo1": 70232,
-   "saldo2": 170404,
-   "virada": 100172,
+   "saldo2": 170538,
+   "virada": 100306,
    "l1": 48.23,
    "l2": 54.02,
    "comp1": 79.84,
-   "comp2": 78.31,
-   "dcomp": -42874,
+   "comp2": 78.33,
+   "dcomp": -42490,
    "outros": 147003
   },
   {
@@ -382,9 +382,9 @@
    "bn_de": 1.0,
    "bn_ate": 3.1,
    "bn": 2.69,
-   "lula": 4.1,
-   "flavio": 2.08,
-   "comparecimento": 0.28,
+   "lula": 4.11,
+   "flavio": 2.09,
+   "comparecimento": 0.3,
    "bn_queda": 0.36
   },
   {
@@ -404,9 +404,9 @@
    "bn_de": 3.6,
    "bn_ate": 4.0,
    "bn": 3.8,
-   "lula": 5.84,
-   "flavio": 2.56,
-   "comparecimento": 1.4,
+   "lula": 5.86,
+   "flavio": 2.57,
+   "comparecimento": 1.43,
    "bn_queda": 0.78
   },
   {
@@ -415,9 +415,9 @@
    "bn_de": 4.0,
    "bn_ate": 4.4,
    "bn": 4.21,
-   "lula": 5.86,
-   "flavio": 2.17,
-   "comparecimento": 1.56,
+   "lula": 5.91,
+   "flavio": 2.19,
+   "comparecimento": 1.64,
    "bn_queda": 0.87
   },
   {
@@ -428,7 +428,7 @@
    "bn": 4.59,
    "lula": 6.37,
    "flavio": 2.08,
-   "comparecimento": 1.76,
+   "comparecimento": 1.77,
    "bn_queda": 1.15
   },
   {
@@ -437,9 +437,9 @@
    "bn_de": 4.8,
    "bn_ate": 5.1,
    "bn": 4.97,
-   "lula": 6.96,
+   "lula": 6.97,
    "flavio": 2.28,
-   "comparecimento": 2.48,
+   "comparecimento": 2.51,
    "bn_queda": 1.23
   },
   {
@@ -448,9 +448,9 @@
    "bn_de": 5.1,
    "bn_ate": 5.5,
    "bn": 5.28,
-   "lula": 7.01,
-   "flavio": 2.46,
-   "comparecimento": 2.26,
+   "lula": 7.03,
+   "flavio": 2.47,
+   "comparecimento": 2.28,
    "bn_queda": 1.35
   },
   {
@@ -470,9 +470,9 @@
    "bn_de": 6.0,
    "bn_ate": 6.5,
    "bn": 6.35,
-   "lula": 8.19,
-   "flavio": 3.12,
-   "comparecimento": 2.6,
+   "lula": 8.22,
+   "flavio": 3.13,
+   "comparecimento": 2.64,
    "bn_queda": 1.59
   },
   {
@@ -481,125 +481,125 @@
    "bn_de": 6.5,
    "bn_ate": 10.1,
    "bn": 7.1,
-   "lula": 8.43,
-   "flavio": 2.06,
-   "comparecimento": 2.49,
+   "lula": 8.51,
+   "flavio": 2.1,
+   "comparecimento": 2.62,
    "bn_queda": 2.27
   }
  ],
  "transferencia": [
   {
    "de": "Flávio",
-   "total": 55958327,
+   "total": 55958333,
    "para": [
     {
      "para": "Flávio",
-     "votos": 55178731,
+     "votos": 55156583,
      "pct": 98.6,
      "ic90": [
-      55155011,
-      55210655
+      55135283,
+      55186751
      ],
      "limites": [
       1708653,
-      55817694
+      55826392
      ]
     },
     {
      "para": "Lula",
-     "votos": 325647,
+     "votos": 326538,
      "pct": 0.6,
      "ic90": [
-      260845,
-      354500
+      267368,
+      361079
      ],
      "limites": [
       0,
-      45132367
+      45140665
      ]
     },
     {
      "para": "Branco ou nulo",
-     "votos": 150071,
+     "votos": 153629,
      "pct": 0.3,
      "ic90": [
-      123943,
-      172809
+      127417,
+      175511
      ],
      "limites": [
       0,
-      4142250
+      4143962
      ]
     },
     {
      "para": "Não votou",
-     "votos": 303879,
-     "pct": 0.5,
+     "votos": 321584,
+     "pct": 0.6,
      "ic90": [
-      271510,
-      381671
+      291968,
+      400535
      ],
      "limites": [
-      7522,
-      29265006
+      0,
+      29245010
      ]
     }
    ]
   },
   {
    "de": "Lula",
-   "total": 53718237,
+   "total": 53718275,
    "para": [
     {
      "para": "Flávio",
-     "votos": 418,
+     "votos": 417,
      "pct": 0.0,
      "ic90": [
-      314,
-      2679
+      397,
+      2432
      ],
      "limites": [
       0,
-      41080662
+      41095441
      ]
     },
     {
      "para": "Lula",
-     "votos": 53224080,
+     "votos": 53243495,
      "pct": 99.1,
      "ic90": [
-      53177774,
-      53265697
+      53223776,
+      53290143
      ],
      "limites": [
-      4274098,
-      53688221
+      4286376,
+      53705980
      ]
     },
     {
      "para": "Branco ou nulo",
-     "votos": 36198,
+     "votos": 35852,
      "pct": 0.1,
      "ic90": [
-      25555,
-      62376
+      25522,
+      41242
      ],
      "limites": [
       0,
-      4142250
+      4143962
      ]
     },
     {
      "para": "Não votou",
-     "votos": 457542,
-     "pct": 0.9,
+     "votos": 438511,
+     "pct": 0.8,
      "ic90": [
-      407543,
-      482465
+      390823,
+      457273
      ],
      "limites": [
-      15310,
-      29609467
+      0,
+      29577671
      ]
     }
    ]
@@ -610,53 +610,53 @@
    "para": [
     {
      "para": "Flávio",
-     "votos": 3992999,
-     "pct": 43.0,
+     "votos": 4076122,
+     "pct": 43.9,
      "ic90": [
-      3945013,
-      4038967
+      4027496,
+      4122445
      ],
      "limites": [
       0,
-      9286031
+      9287152
      ]
     },
     {
      "para": "Lula",
-     "votos": 3930426,
-     "pct": 42.3,
+     "votos": 3831864,
+     "pct": 41.3,
      "ic90": [
-      3901906,
-      3975513
+      3800091,
+      3870532
      ],
      "limites": [
       0,
-      9286031
+      9287152
      ]
     },
     {
      "para": "Branco ou nulo",
-     "votos": 1344487,
-     "pct": 14.5,
+     "votos": 1359877,
+     "pct": 14.6,
      "ic90": [
-      1318082,
-      1354466
+      1337095,
+      1371122
      ],
      "limites": [
       0,
-      4130649
+      4132303
      ]
     },
     {
      "para": "Não votou",
-     "votos": 19050,
+     "votos": 19099,
      "pct": 0.2,
      "ic90": [
-      14442,
-      31282
+      14202,
+      32742
      ],
      "limites": [
-      1121,
+      0,
       9286703
      ]
     }
@@ -664,57 +664,57 @@
   },
   {
    "de": "Branco ou nulo",
-   "total": 5963880,
+   "total": 5963881,
    "para": [
     {
      "para": "Flávio",
-     "votos": 7066,
+     "votos": 6638,
      "pct": 0.1,
      "ic90": [
-      5773,
-      7784
+      5389,
+      7389
      ],
      "limites": [
       0,
-      5962870
+      5964163
      ]
     },
     {
      "para": "Lula",
-     "votos": 4939075,
-     "pct": 82.8,
+     "votos": 4949063,
+     "pct": 83.0,
      "ic90": [
-      4932278,
-      4955633
+      4942629,
+      4962615
      ],
      "limites": [
       0,
-      5962870
+      5964163
      ]
     },
     {
      "para": "Branco ou nulo",
-     "votos": 1012511,
-     "pct": 17.0,
+     "votos": 1004360,
+     "pct": 16.8,
      "ic90": [
-      996114,
-      1019479
+      989368,
+      1009671
      ],
      "limites": [
       0,
-      4105669
+      4107371
      ]
     },
     {
      "para": "Não votou",
-     "votos": 5228,
+     "votos": 3820,
      "pct": 0.1,
      "ic90": [
-      4222,
-      8307
+      2773,
+      7338
      ],
      "limites": [
-      1293,
+      0,
       5964109
      ]
     }
@@ -722,61 +722,217 @@
   },
   {
    "de": "Não votou",
-   "total": 32901562,
+   "total": 32901517,
    "para": [
     {
      "para": "Flávio",
-     "votos": 458353,
-     "pct": 1.4,
+     "votos": 414138,
+     "pct": 1.3,
      "ic90": [
-      404468,
-      508020
+      362681,
+      466623
      ],
      "limites": [
       0,
-      32063740
+      32072757
      ]
     },
     {
      "para": "Lula",
-     "votos": 1602183,
-     "pct": 4.9,
+     "votos": 1704372,
+     "pct": 5.2,
      "ic90": [
-      1562799,
-      1672479
+      1662413,
+      1762334
      ],
      "limites": [
       0,
-      32744250
+      32753829
      ]
     },
     {
      "para": "Branco ou nulo",
-     "votos": 1598984,
-     "pct": 4.9,
+     "votos": 1590245,
+     "pct": 4.8,
      "ic90": [
-      1574739,
-      1647915
+      1576345,
+      1637948
      ],
      "limites": [
       0,
-      4142250
+      4143962
      ]
     },
     {
      "para": "Não votou",
-     "votos": 29242041,
-     "pct": 88.9,
+     "votos": 29192762,
+     "pct": 88.7,
      "ic90": [
-      29177344,
-      29264919
+      29127901,
+      29220019
      ],
      "limites": [
-      9579,
-      29615129
+      0,
+      29595298
      ]
     }
    ]
+  }
+ ],
+ "finalistas": [
+  {
+   "ano": 1989,
+   "primeiro": "Collor",
+   "ganho1": 14479176,
+   "fatia1": 42.7,
+   "segundo": "Lula",
+   "ganho2": 19453482,
+   "fatia2": 57.3,
+   "bolo": 33932658,
+   "venceu": "Collor",
+   "governo": "Sarney (não concorreu)",
+   "fonte": "Wikipédia PT e EN (resultados, citam o TSE)"
+  },
+  {
+   "ano": 2002,
+   "primeiro": "Lula",
+   "ganho1": 13338131,
+   "fatia1": 49.4,
+   "segundo": "Serra",
+   "ganho2": 13665294,
+   "fatia2": 50.6,
+   "bolo": 27003425,
+   "venceu": "Lula",
+   "governo": "FHC (Serra, do governo)",
+   "fonte": "Wikipédia PT e EN (resultados, citam o TSE)"
+  },
+  {
+   "ano": 2006,
+   "primeiro": "Lula",
+   "ganho1": 11632677,
+   "fatia1": 126.3,
+   "segundo": "Alckmin",
+   "ganho2": -2425191,
+   "fatia2": -26.3,
+   "bolo": 9207486,
+   "venceu": "Lula",
+   "governo": "Lula",
+   "fonte": "Wikipédia PT e EN (resultados, citam o TSE)"
+  },
+  {
+   "ano": 2010,
+   "primeiro": "Dilma",
+   "ganho1": 8101095,
+   "fatia1": 43.4,
+   "segundo": "Serra",
+   "ganho2": 10579105,
+   "fatia2": 56.6,
+   "bolo": 18680200,
+   "venceu": "Dilma",
+   "governo": "Lula (Dilma, do governo)",
+   "fonte": "Wikipédia PT e EN (resultados, citam o TSE)"
+  },
+  {
+   "ano": 2014,
+   "primeiro": "Dilma",
+   "ganho1": 11233450,
+   "fatia1": 41.0,
+   "segundo": "Aécio",
+   "ganho2": 16143944,
+   "fatia2": 59.0,
+   "bolo": 27377394,
+   "venceu": "Dilma",
+   "governo": "Dilma",
+   "fonte": "Wikipédia PT e EN (resultados, citam o TSE)"
+  },
+  {
+   "ano": 2018,
+   "primeiro": "Bolsonaro",
+   "ganho1": 8520837,
+   "fatia1": 35.2,
+   "segundo": "Haddad",
+   "ganho2": 15698855,
+   "fatia2": 64.8,
+   "bolo": 24219692,
+   "venceu": "Bolsonaro",
+   "governo": "Temer (não concorreu)",
+   "fonte": "Wikipédia PT e EN (resultados, citam o TSE)"
+  },
+  {
+   "ano": 2022,
+   "primeiro": "Lula",
+   "ganho1": 3086495,
+   "fatia1": 30.2,
+   "segundo": "Bolsonaro",
+   "ganho2": 7134009,
+   "fatia2": 69.8,
+   "bolo": 10220504,
+   "venceu": "Lula",
+   "governo": "Bolsonaro",
+   "fonte": "Wikipédia PT e EN (resultados, citam o TSE)"
+  },
+  {
+   "ano": 2026,
+   "primeiro": "Flávio",
+   "ganho1": 3721538,
+   "fatia1": 26.4,
+   "segundo": "Lula",
+   "ganho2": 10376694,
+   "fatia2": 73.6,
+   "bolo": 14098232,
+   "venceu": "Lula",
+   "governo": "Lula",
+   "fonte": "TSE"
+  }
+ ],
+ "municipios": {
+  "lula1": 2663,
+  "flavio1": 2908,
+  "lula2": 2875,
+  "flavio2": 2696,
+  "f_para_l": 213,
+  "l_para_f": 1
+ },
+ "regioes": [
+  {
+   "regiao": "Norte",
+   "lula": 474024,
+   "flavio": 14110,
+   "outros": 631871,
+   "comparecimento": -237883,
+   "virada": 459914
+  },
+  {
+   "regiao": "Nordeste",
+   "lula": 2955523,
+   "flavio": 397635,
+   "outros": 1811095,
+   "comparecimento": 826298,
+   "virada": 2557888
+  },
+  {
+   "regiao": "Centro-Oeste",
+   "lula": 770876,
+   "flavio": 470431,
+   "outros": 987718,
+   "comparecimento": 199018,
+   "virada": 300445
+  },
+  {
+   "regiao": "Sudeste",
+   "lula": 4800009,
+   "flavio": 1944594,
+   "outros": 4342954,
+   "comparecimento": 1613266,
+   "virada": 2855415
+  },
+  {
+   "regiao": "Sul",
+   "lula": 1332709,
+   "flavio": 866381,
+   "outros": 1513514,
+   "comparecimento": 518243,
+   "virada": 466328
   }
  ],
  "serie": [
@@ -953,11 +1109,11 @@
    "ano": 2026,
    "turno": 2,
    "eleitorado": 158745502,
-   "comparecimento": 128180700,
-   "brancos": 1429974,
-   "nulos": 2722146,
-   "fonte": "TSE (99,95% das seções)",
-   "abstencao": 19.25,
+   "comparecimento": 128236074,
+   "brancos": 1430496,
+   "nulos": 2723305,
+   "fonte": "TSE (100,00% das seções)",
+   "abstencao": 19.22,
    "bn": 3.24,
    "brancos_pct": 1.12,
    "nulos_pct": 2.12
