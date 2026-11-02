@@ -28,7 +28,7 @@ O log diz **quando** se votou, nunca **em quem** (voto secreto; o RDV vem embara
 1. Terminar a leitura (BA, PR, RJ, MG, SP) e rodar `estatisticas.py`.
 2. Conferir seções com votos até 18h50 (fila real ou relógio da urna errado).
 3. Backup no Cloudflare R2: Vitor cria bucket `eleicoes-2026-horarios` + token só desse bucket e põe
-   `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET` no `.env` **deste** repo (não usar o do Domus).
+   `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET` no `.env` **deste** repo (token próprio, não reaproveitar o de outro projeto).
    Depois: `backup_r2.py` (stdlib, SigV4) com sha256 e conferência baixando de volta. Supabase não serve (free 1 GB).
 4. PR (`/ship`) com código + `dados/estatisticas.json`.
 5. Antes de remover o worktree: mover `horarios/brutos/` para o repo principal (senão os dados somem junto).

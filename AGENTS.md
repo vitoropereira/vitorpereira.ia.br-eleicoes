@@ -38,6 +38,8 @@ Repo **público**: nada de segredo em commit.
   noite da apuração; o agregador de produção usa o mesmo IP de saída do TSE que todo mundo.
 - Resultado por seção e local de votação (presidente): `python3 municipios/baixar_secao.py && python3 municipios/montar_secao.py`
   (~340 MB do TSE; **nunca em 25/10**). Gera `municipios/geo/locais/`; seção ou local com comparecimento < 30 sai sem voto.
+- Horário dos votos (logs de urna, 2º turno): `python3 horarios/ler_logs.py && python3 horarios/estatisticas.py`
+  (lê ~60–70 GB do CDN do TSE por Range; retoma onde parou; **nunca em 25/10**). Estado e pendências: `horarios/README.md`.
 - Relatório: `cd relatorio && python3 montar.py && cd ..`
 - Site: `python3 build_site.py`
 - PR: `/ship`
