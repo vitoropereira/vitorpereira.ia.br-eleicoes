@@ -57,6 +57,22 @@ class TestLerLogs(unittest.TestCase):
         m = L.NOME.search("o03221rr0300000040011-log.jez")
         self.assertEqual((m[1], m[2], m[3], m[4]), ("rr", "03000", "0004", "0011"))
 
+class TestRetomar(unittest.TestCase):
+    def test_tmp_truncado_fica_com_linhas_completas(self):
+        import gzip, json, tempfile
+        with tempfile.TemporaryDirectory() as d:
+            tmp = Path(d) / "2t_XX.jsonl.tmp"
+            with gzip.open(tmp, "at", encoding="utf-8") as f:
+                f.write(json.dumps({"mun": "1", "zona": "2", "secao": "3", "t": [1]}) + "\n")
+            inteiro = tmp.read_bytes()
+            with gzip.open(tmp, "at", encoding="utf-8") as f:   # 2º lote, que vai ser cortado no meio
+                f.write(json.dumps({"mun": "1", "zona": "2", "secao": "4", "t": [2]}) + "\n")
+            tmp.write_bytes(tmp.read_bytes()[:len(inteiro) + 15])
+            linhas = L.retomar(tmp)
+            self.assertEqual([json.loads(x)["secao"] for x in linhas], ["3"])
+            self.assertEqual(L.retomar(tmp), linhas)          # o .tmp regravado lê limpo
+        self.assertEqual(L.retomar(Path("/nao/existe.tmp")), [])
+
 
 class TestEstatisticas(unittest.TestCase):
     def test_fuso(self):

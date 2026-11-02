@@ -36,9 +36,9 @@ def _conexao(host):
 
 
 def faixa(url, ini, fim):
-    """Bytes [ini, fim] do url (Range), com conexão keep-alive por thread e até 5 tentativas."""
+    """Bytes [ini, fim] do url (Range), com conexão keep-alive por thread; 8 tentativas (~4 min) antes de desistir."""
     u = urlsplit(url)
-    for tent in range(5):
+    for tent in range(8):
         try:
             c = _conexao(u.netloc)
             c.request("GET", u.path, headers={"User-Agent": UA, "Range": f"bytes={ini}-{fim}"})
@@ -49,9 +49,9 @@ def faixa(url, ini, fim):
             return dados
         except (OSError, http.client.HTTPException):
             _local.c = None
-            if tent == 4:
+            if tent == 7:
                 raise
-            time.sleep(2 ** tent)
+            time.sleep(min(2 ** tent, 60))
 
 
 class Remoto(io.RawIOBase):
@@ -143,15 +143,47 @@ def ler_uf(uf, threads=8, out=OUT):
         logs = sorted((i for i in z.infolist() if NOME.search(i.filename)), key=lambda i: i.header_offset)
     out.mkdir(parents=True, exist_ok=True)
     tmp = dest.with_suffix(".tmp")
-    n_votos, ini = 0, time.time()
-    with gzip.open(tmp, "wt", encoding="utf-8") as f, ThreadPoolExecutor(threads) as ex:
-        for k, s in enumerate(ex.map(lambda i: secao(url, i), logs), 1):
-            f.write(json.dumps(s, separators=(",", ":")) + "\n")
-            n_votos += len(s["t"])
-            if k % 2000 == 0:
-                print(f"  {uf} {k}/{len(logs)} seções, {n_votos} votos, {time.time() - ini:.0f}s", flush=True)
+    feitas = [json.loads(x) for x in retomar(tmp)]
+    n_votos, ini = sum(len(d["t"]) for d in feitas), time.time()
+    lidas = {(d["mun"], d["zona"], d["secao"]) for d in feitas}
+    falta = [i for i in logs if NOME.search(i.filename).group(2, 3, 4) not in lidas]
+    if feitas:
+        print(f"  {uf}: retomando, {len(feitas)} seções já lidas, faltam {len(falta)}", flush=True)
+    k = len(feitas)
+    with ThreadPoolExecutor(threads) as ex:
+        for ini_lote in range(0, len(falta), LOTE):
+            lote = list(ex.map(lambda i: secao(url, i), falta[ini_lote:ini_lote + LOTE]))
+            # cada lote é um membro gzip fechado: queda no meio perde no máximo o lote em andamento
+            with gzip.open(tmp, "at", encoding="utf-8") as f:
+                for s in lote:
+                    f.write(json.dumps(s, separators=(",", ":")) + "\n")
+                    n_votos += len(s["t"])
+            k += len(lote)
+            print(f"  {uf} {k}/{len(logs)} seções, {n_votos} votos, {time.time() - ini:.0f}s", flush=True)
     os.replace(tmp, dest)
     return f"{uf}: {len(logs)} seções, {n_votos} votos, {time.time() - ini:.0f}s"
+
+
+LOTE = 1000
+
+
+def retomar(tmp):
+    """Linhas completas de um .tmp de leitura interrompida; regrava o .tmp só com elas (cauda truncada sai)."""
+    if not tmp.exists():
+        return []
+    linhas = []
+    try:
+        with gzip.open(tmp, "rt", encoding="utf-8") as f:
+            for ln in f:
+                if not ln.endswith("\n"):
+                    break
+                json.loads(ln)
+                linhas.append(ln)
+    except (EOFError, OSError, ValueError):  # gzip truncado ou linha cortada: fica o que veio antes
+        pass
+    with gzip.open(tmp, "wt", encoding="utf-8") as f:
+        f.writelines(linhas)
+    return linhas
 
 
 def main():
@@ -162,8 +194,15 @@ def main():
     ap.add_argument("--threads", type=int, default=8)
     a = ap.parse_args()
     ufs = [u.upper() for u in a.ufs] or sorted(UFS, key=lambda u: Remoto(URL.format(uf=u)).tam)
+    falhas = []
     for uf in ufs:
-        print(ler_uf(uf, a.threads), flush=True)
+        try:
+            print(ler_uf(uf, a.threads), flush=True)
+        except Exception as e:  # queda do CDN numa UF não derruba as outras; rodar de novo retoma só as que faltam
+            falhas.append(uf)
+            print(f"{uf}: FALHOU ({e!r})", flush=True)
+    if falhas:
+        raise SystemExit(f"faltaram: {' '.join(falhas)} (rode de novo)")
 
 
 if __name__ == "__main__":
